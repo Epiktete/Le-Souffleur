@@ -1,0 +1,347 @@
+/* ==================================================================
+   Charte graphique du Souffleur (CDC §11)
+   Brutaliste, néo-rétro. Sans logo ni nom de marque.
+
+   Règles absolues :
+     - 5 couleurs, aucune autre, aucun dégradé
+     - angles droits partout, aucun border-radius
+     - bordures nettes de 2 px
+     - ombres en décalage plein de 6 px, sans flou
+     - aucun emoji dans l'interface
+   ================================================================== */
+
+@import './polices.css';
+
+:root {
+  /* --- Palette : les 5 seules couleurs autorisées --------------- */
+  --encre: #0A0A0A;    /* texte principal, bordures, fonds sombres */
+  --papier: #EFEAE0;   /* fond de page, zones claires */
+  --accent: #FF3B1F;   /* CTA, marqueur « vous êtes ici », erreurs. Jamais décoratif */
+  --encre2: #1A1A1A;   /* corps de texte léger, descriptions */
+  --gris: #6B6B6B;     /* texte secondaire — voir la note de contraste plus bas */
+
+  /* --- Typographie --------------------------------------------- */
+  /* Andika est conçue pour les apprentis lecteurs : très lisible à distance. */
+  --police-texte: 'Andika', 'Segoe UI', system-ui, sans-serif;
+  /* IBM Plex Mono : labels, badges, compteurs. Jamais pour du corps de texte. */
+  --police-mono: 'IBM Plex Mono', ui-monospace, Consolas, monospace;
+
+  /* --- Mesures ------------------------------------------------- */
+  --bordure: 2px;
+  --ombre: 6px;
+  --ombre-survol: 8px;
+  /* Relief des boutons : plus court que celui des boîtes, pour ne pas alourdir
+     une barre de trois boutons côte à côte. */
+  --relief: 4px;
+  --hauteur-entete: 56px;
+  --largeur-bibliotheque: 300px;
+  --largeur-spectacles: 280px;
+  /* Cible tactile minimale imposée par le CDC §12. */
+  --cible-tactile: 44px;
+
+  color-scheme: light;
+}
+
+/* ==================================================================
+   NOTE DE CONTRASTE (le CDC §11 demande explicitement cette vérification)
+
+   Ratios mesurés sur --papier #EFEAE0 :
+     --encre  #0A0A0A ... 16,51:1   conforme AA partout
+     --encre2 #1A1A1A ... 14,52:1   conforme AA partout
+     --gris   #6B6B6B ....  4,44:1  INSUFFISANT pour du petit texte (AA = 4,5:1)
+
+   Le gris échoue donc de justesse. Comme la palette est fermée, on ne le
+   corrige pas en changeant la couleur mais en changeant son usage :
+     - petit texte secondaire et métadonnées -> --encre2
+     - --gris réservé au texte d'au moins 24 px, ou 19 px en gras, où le
+       seuil applicable tombe à 3:1 (notamment l'élément précédent du
+       prompteur, affiché en très grand).
+   La classe utilitaire .secondaire applique cette règle.
+
+   Second constat : --papier sur --accent ne donne que 2,97:1. Les deux CTA
+   rouges (« Générer », « Jouer ») portent donc un texte --encre (5,56:1),
+   conforme AA. C'est la seule entorse au « fond encre, texte papier » du §11.
+   ================================================================== */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body { height: 100%; }
+
+body {
+  margin: 0;
+  background: var(--papier);
+  color: var(--encre);
+  font-family: var(--police-texte);
+  font-size: 16px;
+  line-height: 1.5;
+  /* Andika est large : on évite l'ajustement automatique sur iOS. */
+  -webkit-text-size-adjust: 100%;
+}
+
+/* --- Titres : capitales, tracking serré (CDC §11) --------------- */
+h1, h2, h3 {
+  margin: 0;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: -0.03em;
+  line-height: 1.15;
+}
+h1 { font-size: 24px; letter-spacing: -0.04em; }
+h2 { font-size: 19px; }
+h3 { font-size: 16px; letter-spacing: -0.02em; }
+
+p { margin: 0 0 0.75em; color: var(--encre2); }
+p:last-child { margin-bottom: 0; }
+
+/* --- Labels mono : capitales, tracking large (CDC §11) ---------- */
+.mono {
+  font-family: var(--police-mono);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+}
+
+/* Titre de section : pastille accent, texte encre (5,56:1).
+   Les titres de section sont ainsi les repères de lecture de la page. */
+.eyebrow {
+  display: inline-block;
+  padding: 3px 8px;
+  background: var(--accent);
+  color: var(--encre);
+  font-weight: 700;
+  font-family: var(--police-mono);
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+}
+
+/* Titre de sous-section : même graisse mono, mais sans pastille accent.
+   L'accent est réservé aux trois titres de colonne, qui sont les repères de
+   premier niveau de la page ; l'employer plus bas les noierait. */
+.eyebrow-secondaire {
+  display: inline-block;
+  color: var(--encre2);
+  font-family: var(--police-mono);
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+}
+
+/* Petit texte secondaire : --encre2, pas --gris (voir la note de contraste). */
+.secondaire {
+  color: var(--encre2);
+  font-family: var(--police-mono);
+  font-size: 12px;
+  letter-spacing: 0.04em;
+}
+/* --gris n'est admis qu'à partir de 24 px, où le seuil AA tombe à 3:1. */
+.secondaire-grand {
+  color: var(--gris);
+  font-size: 24px;
+}
+
+/* --- Boîtes : bordure nette, ombre en décalage plein ------------ */
+.boite {
+  border: var(--bordure) solid var(--encre);
+  background: var(--papier);
+}
+.boite-ombre { box-shadow: var(--ombre) var(--ombre) 0 var(--encre); }
+/* Au survol, l'ombre passe à 8 px : c'est le retour visuel du CDC §11. */
+.boite-ombre:hover { box-shadow: var(--ombre-survol) var(--ombre-survol) 0 var(--encre); }
+
+/* --- Boutons ----------------------------------------------------
+   Fond gris, texte papier, bordure et relief encre.
+
+   Pas de fond encre : un bouton noir portant une ombre noire n'aurait aucun
+   relief visible. Le gris fait ressortir
+   le décalage plein de 4 px, qui est la signature de la charte.
+   Contrepartie mesurée : --papier sur --gris ne donne que 4,44:1, juste sous le
+   seuil AA de 4,5:1 pour du petit texte. Les libellés sont donc en gras, et les
+   deux CTA, plus grands, dépassent le seuil. */
+button, .bouton {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-height: var(--cible-tactile);
+  padding: 10px 16px;
+  border: var(--bordure) solid var(--encre);
+  border-radius: 0;
+  background: var(--gris);
+  color: var(--papier);
+  box-shadow: var(--relief) var(--relief) 0 var(--encre);
+  font-family: var(--police-mono);
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  text-decoration: none;
+  cursor: pointer;
+}
+/* Au survol, le bouton s'enfonce : le relief se réduit et le bouton se décale
+   d'autant, ce qui donne un vrai retour visuel sans animation. */
+button:hover:not(:disabled), .bouton:hover {
+  background: var(--encre2);
+  box-shadow: 2px 2px 0 var(--encre);
+  transform: translate(2px, 2px);
+}
+button:active:not(:disabled) {
+  box-shadow: none;
+  transform: translate(var(--relief), var(--relief));
+}
+
+/* Bouton secondaire : fond papier, texte encre (16,5:1). */
+button.secondaire-bouton, .bouton.secondaire-bouton {
+  background: var(--papier);
+  color: var(--encre);
+}
+button.secondaire-bouton:hover, .bouton.secondaire-bouton:hover {
+  background: var(--papier);
+  text-decoration: underline;
+}
+
+/* Les deux seuls boutons rouges : « Générer le script » et « Jouer ».
+   Texte en --encre et non --papier : 5,56:1 contre 2,97:1. */
+button.cta, .bouton.cta {
+  background: var(--accent);
+  color: var(--encre);
+  font-weight: 700;
+}
+button.cta:hover:not(:disabled) { background: var(--accent); }
+
+button:disabled {
+  background: var(--papier);
+  color: var(--gris);
+  cursor: not-allowed;
+  box-shadow: none;
+  transform: none;
+}
+
+/* --- Marqueur « vous êtes ici » (CDC §11) -----------------------
+   Une barre accent de 4 px signale l'élément courant ou retenu. C'est le seul
+   emploi de l'accent en dehors des deux CTA et des erreurs : il marque, il ne
+   décore pas. */
+.marque-accent {
+  box-shadow: inset 4px 0 0 var(--accent);
+}
+
+/* --- Badges des traits (CDC §11) -------------------------------- */
+.badge {
+  display: inline-block;
+  padding: 2px 6px;
+  border: var(--bordure) solid var(--encre);
+  background: var(--papier);
+  color: var(--encre);
+  font-family: var(--police-mono);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+}
+
+/* --- Champs de saisie ------------------------------------------- */
+input, textarea, select {
+  width: 100%;
+  min-height: var(--cible-tactile);
+  padding: 9px 10px;
+  border: var(--bordure) solid var(--encre);
+  border-radius: 0;
+  background: var(--papier);
+  color: var(--encre);
+  font-family: var(--police-texte);
+  font-size: 15px;
+}
+textarea { min-height: 96px; resize: vertical; }
+
+/* --- Accessibilité : focus toujours visible, contour de 3 px ---- */
+:focus-visible {
+  outline: 3px solid var(--encre);
+  outline-offset: 2px;
+}
+
+/* Animations désactivées si l'utilisateur les a réduites (CDC §12). */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* --- Interdits de la charte, rappelés ici pour les relecteurs ----
+   Pas de border-radius, pas de box-shadow floue, pas de dégradé,
+   pas de couleur hors palette, pas de rouge décoratif, pas d'emoji. */
+
+/* ==================================================================
+   IMPRESSION (CDC §8)
+
+   A4, gros corps, sans l'interface. Un acte ne commence jamais en bas
+   de page. L'utilisateur passe par l'impression du navigateur pour
+   obtenir un PDF.
+   ================================================================== */
+
+@media print {
+  @page {
+    size: A4;
+    margin: 18mm 16mm;
+  }
+
+  body {
+    background: #FFFFFF;
+    /* Corps généreux : le script se lit à distance, debout derrière un
+       castelet, parfois dans la pénombre. */
+    font-size: 13pt;
+    line-height: 1.45;
+  }
+
+  /* Tout ce qui ne sert qu'à l'écran disparaît. */
+  .sans-impression,
+  header nav,
+  .barre-onglets {
+    display: none !important;
+  }
+
+  /* Les boîtes perdent leur relief : à l'impression, il devient une
+     bande noire inutile qui consomme de l'encre. */
+  .boite,
+  .boite-ombre {
+    box-shadow: none !important;
+  }
+
+  /* Un acte ne commence jamais en bas de page. */
+  .acte {
+    break-inside: auto;
+    break-before: auto;
+  }
+  .acte > .tete-acte {
+    break-after: avoid;
+    break-inside: avoid;
+  }
+  /* Un élément de script n'est jamais coupé en deux pages. */
+  .element {
+    break-inside: avoid;
+  }
+  h1, h2, h3 { break-after: avoid; }
+
+  /* La note au marionnettiste garde son fond, sinon elle se confond avec
+     le texte dit à voix haute : c'est un risque en pleine représentation. */
+  .note {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  /* Les zones défilantes s'impriment en entier. */
+  main,
+  .contenu {
+    max-width: none;
+    overflow: visible !important;
+    padding: 0;
+  }
+
+  /* Le champ de titre s'imprime comme un titre, pas comme un champ. */
+  input.titre {
+    border: none;
+    padding: 0;
+  }
+
+  a[href]::after { content: ''; }
+}

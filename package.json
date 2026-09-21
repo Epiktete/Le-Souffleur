@@ -1,0 +1,33 @@
+{
+  "name": "le-souffleur",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "license": "MIT",
+  "description": "Le Souffleur — studio de spectacles de marionnettes, 100 % local",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc --noEmit -p tsconfig.banc.json",
+    "test": "vitest run",
+    "test:parcours": "playwright test",
+    "banc": "vitest run --config vitest.banc.config.ts"
+  },
+  "dependencies": {
+    "idb": "^8.0.3",
+    "zod": "^4.1.13"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@sveltejs/vite-plugin-svelte": "^7.3.0",
+    "@tsconfig/svelte": "^5.0.8",
+    "@types/node": "^24.13.3",
+    "fake-indexeddb": "^6.2.2",
+    "svelte": "^5.57.0",
+    "svelte-check": "^4.7.6",
+    "typescript": "~6.0.2",
+    "vite": "^8.3.0",
+    "vitest": "^4.0.18"
+  }
+}

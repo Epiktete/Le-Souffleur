@@ -1,0 +1,52 @@
+# Publication sur GitHub Pages.
+#
+# À chaque envoi sur la branche main : installation, tests de la logique,
+# vérification des types, fabrication du site, puis publication. Si un test
+# échoue, rien n'est publié.
+#
+# À activer une seule fois dans le dépôt : Settings > Pages > Source :
+# GitHub Actions.
+
+name: Publier sur GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Une seule publication à la fois ; une nouvelle remplace celle en attente.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  fabriquer:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - run: npm run check
+      - run: npm run build
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  publier:
+    needs: fabriquer
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.publication.outputs.page_url }}
+    steps:
+      - id: publication
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,36 @@
+# Dépendances et builds
+node_modules/
+dist/
+dist-ssr/
+.vite/
+coverage/
+
+# Tests
+playwright-report/
+test-results/
+
+# Secrets : aucune clé API ne doit jamais entrer dans le dépôt
+.env
+.env.*
+*.key
+secrets.*
+
+# Exports de résultats de l'étape 0 (gardés hors dépôt par prudence)
+tools/etape0/resultats-*.md
+tools/etape0/resultats-*.json
+
+# Fichiers locaux et système
+*.local
+*.log
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Banc d’essai : sorties de génération locales, jamais versionnées
+banc/sorties/
+
+# Documents de travail, gardés hors du dépôt public
+Claude.md
+docs/CDC.md
