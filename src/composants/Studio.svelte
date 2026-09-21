@@ -8,6 +8,7 @@
   // progression (CDC §6 et §7).
   import { onDestroy } from 'svelte';
   import Scene from './Scene.svelte';
+  import PremiersPas from './PremiersPas.svelte';
   import ReglagesStudio from './ReglagesStudio.svelte';
   import Progression from './Progression.svelte';
   import ChoixHistoires from './ChoixHistoires.svelte';
@@ -81,6 +82,8 @@
 </script>
 
 <div class="studio">
+  <PremiersPas />
+
   <Scene />
 
   <ReglagesStudio />

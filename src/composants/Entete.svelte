@@ -12,6 +12,7 @@
   // d'écran : ce n'est pas une décoration, c'est le titre.
   import titreSouffleur from '../../assets/Titre.webp';
   import { reglagesIa } from '../etat/reglagesIa.svelte';
+  import { tutoriel } from '../etat/tutoriel.svelte';
 
   interface Props {
     surTiroir: (lequel: 'bibliotheque' | 'spectacles') => void;
@@ -56,7 +57,7 @@
       <span class="badge">{etatCle}</span>
     </button>
     <button class="secondaire-bouton">{t.entete.sauvegarde}</button>
-    <button class="secondaire-bouton">{t.entete.aide}</button>
+    <button class="secondaire-bouton" onclick={() => tutoriel.ouvrir(0)}>{t.entete.aide}</button>
   </nav>
 
   {#if tiroirsVisibles}

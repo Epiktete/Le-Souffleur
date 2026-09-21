@@ -472,3 +472,96 @@ export const tl = {
     ignoreRepetition: 'Ignoré : touche maintenue enfoncée',
   },
 } as const;
+
+/**
+ * Le mini tutoriel : trois étapes, ouvert par la carte « Premiers pas » du
+ * studio ou par le bouton « Aide » de l'en-tête.
+ *
+ * Chaque étape dit quoi faire avec les libellés EXACTS de l'interface (en
+ * gras dans l'affichage), puis une seule astuce. Un parent le lit une fois, en
+ * une minute, et doit pouvoir le suivre sans rien deviner.
+ */
+export const ttu = {
+  titre: 'Comment ça marche',
+  etapeSur: (n: number, total: number) => `Étape ${n} sur ${total}`,
+  precedent: 'Précédent',
+  suivant: 'Suivant',
+  terminer: 'C’est parti !',
+  fermer: 'Fermer le tuto',
+  ouvrirParametres: 'Ouvrir les Paramètres IA',
+  astuce: 'Bon à savoir',
+
+  /** La carte d'accueil, en haut du studio. */
+  carte: {
+    titre: 'Premier spectacle ?',
+    resume: [
+      'Créez vos marionnettes à partir des peluches de vos enfants.',
+      'Choisissez-les pour le spectacle, réglez le studio et lancez la génération.',
+      'Relisez le script, puis jouez-le en tournant les pages du pied.',
+    ],
+    ouvrir: 'Voir le tuto (1 minute)',
+    masquer: 'Masquer',
+  },
+
+  /**
+   * Les étapes. Dans `faire`, ce qui est entre ** ** s'affiche en gras : ce
+   * sont les boutons et les zones à repérer à l'écran.
+   */
+  etapes: [
+    {
+      titre: 'Créez vos marionnettes',
+      intro: 'Chaque peluche de la maison devient une marionnette. Vous la créez une fois, et elle sert à tous vos spectacles.',
+      faire: [
+        'Dans la colonne **Marionnethèque**, à gauche, cliquez sur **+ Nouvelle marionnette**.',
+        'Donnez-lui un **nom**, et dites dans la **description** quel animal ou quel personnage c’est : « un lapin gris », « un petit dragon vert ».',
+        'Choisissez de **1 à 6 traits** de caractère : gourmand, peureux, rusé…',
+        'Si vous voulez, ajoutez sa **voix** et une **photo**, puis **Enregistrer**.',
+      ],
+      astuce: 'L’espèce et les traits décident des rôles qu’elle jouera : un lapin peureux trouvera le lièvre peureux de La Fontaine. La photo reste sur votre appareil.',
+    },
+    {
+      titre: 'Préparez le studio et générez',
+      intro: 'Le studio, au centre, réunit la troupe du jour et les réglages du spectacle.',
+      faire: [
+        'Avec la **flèche** sur le côté de chaque marionnette, envoyez-la dans les **Personnages**.',
+        'Réglez la **durée**, l’**âge** des enfants, le nombre de **marionnettistes** — chacun a deux mains, donc deux marionnettes en scène — et l’**interaction avec le public**.',
+        'Cliquez sur **Générer le script**, puis choisissez l’un des **trois contes** proposés.',
+      ],
+      astuce: 'L’écriture prend quelques minutes. Si vous avez une idée, écrivez-la dans l’ébauche (« une histoire au bord de la mer ») : les contes qui en parlent passent devant.',
+    },
+    {
+      titre: 'Relisez, puis jouez',
+      intro: 'Votre spectacle apparaît dans la colonne **Spectacles**, à droite. Il s’ouvre en deux modes.',
+      faire: [
+        'Le mode **Édition** sert à relire, corriger une réplique, **Régénérer cet acte**, préparer les décors et **Imprimer**.',
+        'Le bouton **Jouer** ouvre le mode **Lecture**, en plein écran : les répliques à gauche, les gestes et les entrées à droite.',
+        'Vos deux mains tiennent les marionnettes : tournez les pages avec la **barre Espace** — du pied, ou avec une pédale tourne-page branchée à l’ordinateur.',
+        '**Flèche gauche** pour revenir en arrière, **M** pour le menu, **Échap** pour sortir.',
+      ],
+      astuce: 'Avant la représentation, faites l’essai : dans le menu (touche M), **Tester ma pédale** vérifie que chaque appui tourne bien une page.',
+    },
+  ],
+
+  /**
+   * La clé IA, rappelée à l'étape 2 dans un encadré à part : c'est ce qui
+   * bloque la première génération. Isolé ici pour être remplacé le jour où
+   * l'outil offrira des crédits d'essai.
+   */
+  cle: {
+    etape: 1,
+    titre: 'Une seule fois : votre clé IA',
+    faire: [
+      'Le Souffleur écrit avec une intelligence artificielle, qui a besoin d’une **clé API**. Nous conseillons **OpenRouter** : une seule clé donne accès à tous les modèles.',
+      'Créez un compte sur openrouter.ai, ajoutez quelques euros de crédit — cela suffit pour de nombreux spectacles —, puis créez une clé.',
+      'Dans **Paramètres IA**, en haut de l’écran, collez-la dans **Clé API**. Cochez **Mémoriser la clé sur cet appareil** si l’ordinateur est le vôtre, puis **Enregistrer**.',
+    ],
+  },
+
+  /** Les touches dessinées à l'étape 3. */
+  touches: [
+    { touche: 'Espace', effet: 'page suivante' },
+    { touche: '←', effet: 'page précédente' },
+    { touche: 'M', effet: 'menu' },
+    { touche: 'Échap', effet: 'sortir' },
+  ],
+} as const;

@@ -6,6 +6,7 @@
   import EcranIntrouvable from './composants/EcranIntrouvable.svelte';
   import ParametresIa from './composants/ParametresIa.svelte';
   import EcranSpectacle from './composants/EcranSpectacle.svelte';
+  import Tutoriel from './composants/Tutoriel.svelte';
   import { reglagesIa } from './etat/reglagesIa.svelte';
   import { studio } from './etat/studio.svelte';
   import { t } from './textes';
@@ -56,6 +57,12 @@
     <EcranSpectacle spectacleId={route.spectacleId} mode={route.nom} />
   {:else}
     <EcranIntrouvable titre={t.navigation.introuvable} message={t.navigation.introuvable} detail={route.fragment} />
+  {/if}
+
+  <!-- Le mini tuto, ouvert par « Aide » ou par la carte « Premiers pas ».
+       Jamais pendant les modes plein écran, dont il volerait les touches. -->
+  {#if !pleinEcran}
+    <Tutoriel />
   {/if}
 </div>
 
