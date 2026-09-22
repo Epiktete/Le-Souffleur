@@ -124,7 +124,7 @@ const actesEcrits = [
 ];
 
 /** Aucun problème à signaler : la relecture n'a rien trouvé. */
-const relectureVide = { problemes: [] };
+const relectureVide = { remarques: [] };
 
 export interface OptionsFauxModele {
   /** Force une erreur HTTP à l'appel numéro n (à partir de 1). */
@@ -143,6 +143,8 @@ export interface OptionsFauxModele {
   tronquerEcrituresDabord?: number;
   /** La revue finale répond toujours hors format : le spectacle doit être livré quand même. */
   relectureInvalide?: boolean;
+  /** Le directeur éditorial fait une remarque de détail sur cet acte. */
+  remarqueSurActe?: number;
 }
 
 /**
@@ -150,7 +152,12 @@ export interface OptionsFauxModele {
  * Renvoie un compteur des appels, consultable par le test.
  */
 export async function installerFauxModele(page: Page, o: OptionsFauxModele = {}) {
-  const compteurs = { total: 0, actes: 0, conduites: 0, ecrituresTronquees: 0 };
+  const compteurs = {
+    total: 0, actes: 0, conduites: 0, ecrituresTronquees: 0,
+    /** Ce que le directeur éditorial a reçu pour sa revue, puis pour réécrire. */
+    revue: { original: false, transpose: false },
+    reecritures: [] as { acte: number; parLeDirecteur: boolean; original: boolean; scriptEntier: boolean; modification: boolean }[],
+  };
 
   await page.route('**/chat/completions', async (route: Route) => {
     compteurs.total++;
@@ -182,6 +189,15 @@ export async function installerFauxModele(page: Page, o: OptionsFauxModele = {})
       const corrige = system.includes('réécrire cet acte')
         ? Number(user.match(/Conduite de l’acte :\nActe (\d+)/)?.[1] ?? 0)
         : 0;
+      if (corrige) {
+        compteurs.reecritures.push({
+          acte: corrige,
+          parLeDirecteur: system.includes('DIRECTEUR ÉDITORIAL'),
+          original: user.includes('LE CONTE D’ORIGINE'),
+          scriptEntier: user.includes('Script entier'),
+          modification: user.includes('Modification : Nommer la carotte.'),
+        });
+      }
       charge = corrige
         ? actesEcrits[Math.min(corrige - 1, actesEcrits.length - 1)]
         : actesEcrits[Math.min(compteurs.actes, actesEcrits.length - 1)];
@@ -210,7 +226,19 @@ export async function installerFauxModele(page: Page, o: OptionsFauxModele = {})
         charge = construction;
       }
     } else if (system.includes('DIRECTEUR ÉDITORIAL')) {
-      charge = o.relectureInvalide ? { problemes: [{ probleme: '' }] } : relectureVide;
+      compteurs.revue = {
+        original: user.includes('LE CONTE D’ORIGINE'),
+        transpose: user.includes('transposé pour les marionnettes'),
+      };
+      charge = o.relectureInvalide
+        ? { remarques: [{ remarque: '' }] }
+        : o.remarqueSurActe
+          ? { remarques: [{
+            acte: o.remarqueSurActe, gravite: 'mineur',
+            remarque: 'On ne sait pas ce que cherche Doudou Lapin.',
+            modification: 'Nommer la carotte.',
+          }] }
+          : relectureVide;
     } else {
       charge = { ok: true, couleur: 'rouge' };
     }

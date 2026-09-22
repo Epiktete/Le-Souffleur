@@ -26,9 +26,11 @@
 //        tableaux et en actes, puis un appel par acte l'écrit — les paroles du
 //        texte reprises telles quelles, la narration devenue didascalies,
 //        effets de scène et apartés ;
-//     PASSE 3, la relecture : contrôles automatiques, relecture qui vérifie
-//        la place des didascalies et des apartés contre le texte transposé,
-//        corrections ciblées ; puis l'assemblage.
+//     PASSE 3, la revue : contrôles automatiques, puis le directeur
+//        éditorial, qui lit le conte d'origine et le script, dresse la liste
+//        de ses remarques (compréhension, cohérence, fidélité, place des
+//        didascalies et des apartés) et réécrit lui-même chaque acte
+//        concerné ; puis l'assemblage.
 //
 // Chaque étape est un appel indépendant. L'application maintient la bible, qui
 // s'enrichit du résultat de chaque étape ; chaque appel reçoit le dossier plus
@@ -603,7 +605,8 @@ ${formaterAdaptation(adaptation)}`;
   // La revue finale est un garde-fou, pas une condition : si elle échoue
   // (réponse hors format, modèle récalcitrant), le spectacle déjà écrit est
   // livré tel quel plutôt que perdu. Seule une annulation l'interrompt.
-  let relecture: Relecture = { problemes: [] };
+  let relecture: Relecture = { remarques: [] };
+  const conteOriginal = formaterConte(conte, texte).replace('LE CONTE À ADAPTER', 'LE CONTE D’ORIGINE');
   try {
     const rRelecture = await appelJson(
       o,
@@ -612,7 +615,7 @@ ${formaterAdaptation(adaptation)}`;
         formaterScript(actes, nomDe),
         formaterProblemes(problemes),
         tableaux.map((tb) => `- ${tb.titre} : ${tb.description || '(aucune description)'}`).join('\n'),
-        reference(conte),
+        conteOriginal,
         transposition.texte,
       ),
       schemaRelecture,
@@ -626,20 +629,24 @@ ${formaterAdaptation(adaptation)}`;
     if ((e as ErreurIa).message === t.erreursIa.annule) throw e;
     console.warn('Le Souffleur — la revue finale a échoué ; le spectacle est livré sans elle.', e);
   }
-  const relus = relecture.problemes;
+  const relus = relecture.remarques;
 
   const actesACorriger = new Set<number>([
     ...problemes
       .filter((p) => (p.gravite === 'bloquant' || p.gravite === 'important') && p.acteNumero !== undefined)
       .map((p) => p.acteNumero as number),
+    // Toutes les remarques du directeur éditorial sont appliquées, détails
+    // compris : ce sont ses modifications, et il les réécrit lui-même.
     ...relus
-      .filter((p) => (p.gravite === 'bloquant' || p.gravite === 'important') && p.acte !== undefined)
+      .filter((p) => p.acte !== undefined)
       .map((p) => p.acte as number),
   ]);
 
   if (actesACorriger.size > 0) {
     o.surAvancement({ etape: 'corrections' });
     let etat: EtatScene = {};
+    // Le script tel que le directeur l'a lu : chaque réécriture s'y accorde.
+    const scriptRelu = formaterScript(actes, nomDe);
 
     for (const acte of actes) {
       if (actesACorriger.has(acte.numero)) {
@@ -650,8 +657,8 @@ ${formaterAdaptation(adaptation)}`;
             .map((p) => `- [${p.gravite}] ${p.message}`),
           ...relus
             .filter((p) => p.acte === acte.numero)
-            .map((p) => `- [${p.gravite}] ${p.probleme}`
-              + (p.correction ? `\n  Correction proposée : ${p.correction}` : '')),
+            .map((p) => `- [${p.gravite}] ${p.remarque}`
+              + (p.modification ? `\n  Modification : ${p.modification}` : '')),
         ].join('\n');
         try {
           const r = await appelJson(
@@ -663,6 +670,8 @@ ${formaterAdaptation(adaptation)}`;
               sesProblemes,
               decrireEtatScene(etat, nomDe),
               blocAdaptation,
+              conteOriginal,
+              scriptRelu,
             ),
             schemaActeEcrit,
             TEMPERATURES.correction,

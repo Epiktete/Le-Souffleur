@@ -20,9 +20,11 @@
 //      découpage en tableaux et en actes, puis chaque acte écrit à partir du
 //      texte transposé — ses paroles reprises telles quelles, sa narration
 //      devenue didascalies, effets de scène et apartés ;
-//   3. la DERNIÈRE REVUE avant livraison, confiée au DIRECTEUR ÉDITORIAL, qui
-//      vérifie en particulier la place des didascalies et des apartés ; les
-//      actes fautifs repassent chez le dramaturge.
+//   3. la DERNIÈRE REVUE avant livraison, confiée au DIRECTEUR ÉDITORIAL. Il
+//      lit le conte d'origine et le script : l'histoire se comprend-elle, se
+//      tient-elle, reste-t-elle fidèle ? Il dresse d'abord la liste de ses
+//      remarques et des modifications qu'il propose, puis réécrit lui-même
+//      chaque acte concerné pour les appliquer.
 //
 // Rien ici ne pousse le modèle à écrire des répliques de son cru : elles
 // tournent vite à la formule faussement profonde — « le silence, c’est la
@@ -591,21 +593,38 @@ export function promptRelecture(
   script: string,
   resultatsControles: string,
   tableaux: string,
-  /** « D’après … » : le conte dont le spectacle est tiré. */
-  origine: string,
-  /** Le texte transposé, référence de fidélité. */
+  /** Le conte d'origine : sa fiche et son texte intégral. */
+  conteOriginal: string,
+  /** Le texte transposé pour les marionnettes du parent. */
   texteTranspose: string,
 ) {
   return {
     system: `Tu es DIRECTEUR ÉDITORIAL d’un théâtre de marionnettes destiné aux
 enfants : tu fais la dernière revue avant que le script soit livré au parent.
-C’est la TROISIÈME PASSE. Tu n’écris rien : tu repères les problèmes
-et tu proposes la correction la plus courte possible.
+C’est la TROISIÈME PASSE, et elle se fait en deux temps : d’abord la liste
+de tes remarques, avec pour chacune la modification que tu proposes ; ensuite
+seulement, tu réécriras toi-même les actes concernés pour les appliquer.
+Ici, tu fais la liste.
 
-Le spectacle adapte un conte : ${origine}. On te donne le texte du conte
-transposé pour les marionnettes du parent : c’est la référence.
+Tu as les deux histoires sous les yeux : le conte d’origine, tel que son
+auteur l’a écrit, et le script tiré de sa transposition pour les
+marionnettes du parent. Compare-les.
 
-Checklist, dans cet ordre :
+Ta première question : l’histoire se comprend-elle, et se tient-elle ? Lis le
+script comme un enfant qui le découvre, sans connaître le conte :
+- sait-on qui est qui, ce que chacun veut, pourquoi il agit ?
+- chaque événement découle-t-il de ce qui précède, ou manque-t-il un maillon
+  que le conte donnait et que le script a perdu ?
+- les actes s’enchaînent-ils : un personnage ne sait pas ce qu’il n’a pas pu
+  apprendre, ne réapparaît pas sans être revenu, ne change pas de nom ;
+- la fin répond-elle au début ?
+Quand il manque quelque chose, la modification le reprend d’abord au conte
+d’origine : ses mots, ses événements. Tu n’inventes que si le conte ne dit
+rien, et alors le plus simplement possible. Rester fidèle au conte, c’est
+aussi garder ses péripéties, leur ordre et sa fin : une modification qui
+s’en écarte doit être nécessaire à la compréhension.
+
+Puis le reste de la checklist, dans cet ordre :
 - LA PLACE DES DIDASCALIES ET DES APARTÉS, en détail :
 ${PLACE_DES_DIDASCALIES}
 - les répliques inventées : une réplique absente du texte de référence, qui
@@ -617,7 +636,6 @@ ${PLACE_DES_DIDASCALIES}
   à la troisième personne (« Renard Rusé fit claquer des dents… ») ;
 - une question d’opinion ou une leçon adressée aux enfants (« à votre avis,
   c’est bien de… ? ») : c’est une morale déguisée, à supprimer ;
-- ce qu’on ne comprend pas en découvrant le spectacle ;
 - la fin : jouée en entier, ni expédiée ni seulement annoncée ;
 - une marionnette animale appelée par l’espèce du conte et non par la sienne ;
 - ce qui a mal vieilli et serait resté (caricature, sexisme, moquerie d’une
@@ -627,11 +645,16 @@ ${PLACE_DES_DIDASCALIES}
 
 Trois degrés de gravité :
 - « bloquant » : injouable, ou choquant pour l’âge ;
-- « important » : une didascalie ou un aparté mal placé, une réplique inventée
-  qui sonne faux, une incise du conteur ou une narration dans une réplique, une
-  question-leçon aux enfants, une scène qu’on ne comprend pas, une fin bâclée,
-  une espèce fausse, un reste de caricature ;
+- « important » : une scène qu’on ne comprend pas, un maillon manquant, une
+  incohérence d’un acte à l’autre, un écart au conte qui n’apporte rien, une
+  didascalie ou un aparté mal placé, une réplique inventée qui sonne faux,
+  une incise du conteur ou une narration dans une réplique, une question-leçon
+  aux enfants, une fin bâclée, une espèce fausse, un reste de caricature ;
 - « mineur » : un détail.
+
+Chaque remarque vise un acte (et, si possible, le numéro de l’élément) : une
+incohérence qui touche deux actes donne une remarque pour chacun. La
+modification dit concrètement quoi écrire, déplacer ou retirer.
 
 Ne propose jamais de couper pour gagner du temps. Le champ « ton » d’une
 réplique (« traînant », « inquiet ») est prévu : c’est l’indication de jeu, ne
@@ -643,13 +666,15 @@ ${CONTRAINTES_RESUME}
 ${consignesAge(d.ageAuditoire)}
 
 Tu renvoies un objet JSON de cette forme :
-{"problemes": [{"acte": 2, "element": 14, "gravite": "important",
-  "probleme": "…", "correction": "…"}]}
+{"remarques": [{"acte": 2, "element": 14, "gravite": "important",
+  "remarque": "…", "modification": "…"}]}
 
 ${SEULEMENT_JSON}`,
     user: `${texteDossier(d)}
 
-Texte de référence, le conte transposé :
+${conteOriginal}
+
+Le même conte, transposé pour les marionnettes du parent :
 """
 ${texteTranspose}
 """
@@ -666,7 +691,7 @@ ${resultatsControles || 'Aucun.'}`,
 }
 
 /* ================================================================== */
-/* Passe 3 : correction ciblée d’un acte                               */
+/* Passe 3 : le directeur éditorial réécrit un acte                   */
 /* ================================================================== */
 
 export function promptCorrectionActe(
@@ -677,14 +702,22 @@ export function promptCorrectionActe(
   etatScene: string,
   /** Le texte transposé et le découpage, pour rester fidèle en corrigeant. */
   adaptation: string,
+  /** Le conte d'origine, fiche et texte intégral. */
+  conteOriginal: string,
+  /** Le script entier, pour garder la cohérence d'un acte à l'autre. */
+  scriptComplet: string,
 ) {
   return {
-    system: `Tu es DRAMATURGE ET METTEUR EN SCÈNE de théâtre de marionnettes pour
-enfants.
+    system: `Tu es DIRECTEUR ÉDITORIAL d’un théâtre de marionnettes pour enfants.
+Tu as fait la liste de tes remarques sur le script ; maintenant tu réécris
+toi-même cet acte pour appliquer tes modifications, et celles que
+l’application a relevées automatiquement.
 
-Ton travail ici : réécrire cet acte en corrigeant les problèmes listés, et
-RIEN D’AUTRE. Tout ce qui fonctionne doit être conservé mot pour mot.
-Applique la correction proposée par le directeur éditorial quand elle convient.
+Ton travail ici : réécrire cet acte en appliquant les modifications listées,
+et RIEN D’AUTRE. Tout ce qui fonctionne doit être conservé mot pour mot.
+Ce qui manque à la compréhension se reprend d’abord au conte d’origine. Le
+script entier t’est donné pour que l’acte réécrit s’accorde avec ceux qui
+l’entourent : ne réécris que celui-ci.
 
 ${LE_TEXTE_DU_CONTE}
 
@@ -704,7 +737,12 @@ Tu renvoies l’acte entier corrigé, au même format que celui qu’on te donne
 ${SEULEMENT_JSON}`,
     user: `${texteDossier(d)}
 
+${conteOriginal}
+
 ${adaptation}
+
+Script entier, tel qu’il est avant tes réécritures :
+${scriptComplet}
 
 Conduite de l’acte :
 ${conduiteActe}
@@ -715,7 +753,7 @@ ${etatScene}
 Acte à réécrire :
 ${acteFautif}
 
-Problèmes à corriger :
+Modifications à appliquer :
 ${problemes}`,
   };
 }

@@ -275,7 +275,7 @@
   }
 
   /**
-   * Classe de couleur d’un personnage, de c1 à c3 (CDC §9).
+   * Classe de couleur d’un personnage, de c1 à c5 (CDC §9).
    *
    * Le marionnettiste doit voir que la réplique change de bouche sans avoir à
    * lire le nom. La couleur ne remplace jamais le nom : elle le double.
@@ -461,11 +461,22 @@
     min-height: 0;
     background: var(--encre);
     color: var(--papier);
+    /* Teintes des personnages, claires sur le fond sombre (voir plus bas). */
+    --lecture-bleu: #5B9BE6;
+    --lecture-vert: #4FB477;
+    --lecture-bronze: #D9A63A;
     overflow: hidden;
     cursor: pointer;
     user-select: none;
   }
-  .lecture.inverse { background: var(--papier); color: var(--encre); }
+  .lecture.inverse {
+    background: var(--papier);
+    color: var(--encre);
+    /* Les mêmes teintes, assombries pour rester lisibles sur le papier. */
+    --lecture-bleu: #2F6DB5;
+    --lecture-vert: #2C7A4B;
+    --lecture-bronze: #8A6414;
+  }
 
   /* Bref retour visuel à chaque appui reçu : le parent doit savoir que la
      pédale a fonctionné (CDC §9). */
@@ -522,20 +533,25 @@
   .acte { font-size: 12px; opacity: 0.7; margin-bottom: 6px; }
 
   /* --- Une couleur par marionnette (CDC §9) ---------------------
-     La charte §11 ne compte que cinq couleurs, dont deux servent de fond.
-     Restent trois teintes : papier, accent, gris. Au-delà de trois
-     marionnettes elles se répètent — sans perte, puisque le nom reste écrit.
+     Cinq teintes bien distinctes : papier, bleu, bronze, vert, rouge. Le
+     gris de la charte, trop proche du papier, n'en fait plus partie. Le
+     bleu, le vert et le bronze n'existent qu'ici, en deux versions : claire
+     sur fond sombre, sombre sur fond papier. Au-delà de cinq marionnettes
+     les teintes se répètent — sans perte, puisque le nom reste écrit.
 
-     La couleur ne teinte pas le nom mais une barre et une pastille : à 28 px
-     de texte, un nom en gris passerait sous le seuil de lisibilité du §12,
-     alors qu'une barre de 5 px se repère de plus loin qu'un mot coloré. */
+     Une barre et une pastille portent la couleur ; sur fond sombre, le nom
+     la prend aussi (toutes les teintes y dépassent 4,5:1). Sur papier, le
+     rouge tomberait sous ce seuil : le nom y reste à l'encre. */
   .bulle {
     --perso: currentColor;
     border-left: 5px solid var(--perso);
     padding-left: 12px;
   }
-  .bulle.c2 { --perso: var(--accent); }
-  .bulle.c3 { --perso: var(--gris); }
+  .c2 { --perso: var(--lecture-bleu); }
+  .c3 { --perso: var(--lecture-bronze); }
+  .c4 { --perso: var(--lecture-vert); }
+  .c5 { --perso: var(--accent); }
+  .lecture:not(.inverse) .bulle .nom { color: var(--perso); opacity: 1; }
   /* Une adresse au public se distingue par le trait, jamais par la seule
      couleur : celle-ci appartient déjà au personnage. */
   .bulle.public { border-left-style: double; border-left-width: 7px; }
@@ -589,8 +605,6 @@
   .scene p { margin: 0 0 6px; color: inherit; }
   .scene p:last-child { margin-bottom: 0; }
 
-  .mouvement.c2 { --perso: var(--accent); }
-  .mouvement.c3 { --perso: var(--gris); }
 
   @media (max-width: 700px) {
     /* En colonne unique, l'alignement vertical n'a plus de sens : on remet

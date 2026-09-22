@@ -555,16 +555,29 @@ describe('le schéma de la revue finale tolère les petits modèles', () => {
     });
     expect(r.ok).toBe(true);
     if (r.ok) {
-      expect(r.valeur.problemes[0].acte).toBeUndefined();
-      expect(r.valeur.problemes[0].element).toBeUndefined();
-      expect(r.valeur.problemes[1].acte).toBe(2);
-      expect(r.valeur.problemes[2].gravite).toBe('important');
+      expect(r.valeur.remarques[0].acte).toBeUndefined();
+      expect(r.valeur.remarques[0].element).toBeUndefined();
+      expect(r.valeur.remarques[1].acte).toBe(2);
+      expect(r.valeur.remarques[2].gravite).toBe('important');
     }
+  });
+
+  it('lit les remarques et les modifications proposées, ou les anciens noms de champs', () => {
+    const r = valider(schemaRelecture, {
+      remarques: [{ acte: 1, gravite: 'important', remarque: 'On ne sait pas qui parle.', modification: 'Nommer le Loup.' }],
+    });
+    expect(r.ok).toBe(true);
+    if (r.ok) {
+      expect(r.valeur.remarques[0].remarque).toBe('On ne sait pas qui parle.');
+      expect(r.valeur.remarques[0].modification).toBe('Nommer le Loup.');
+    }
+    const ancien = valider(schemaRelecture, { problemes: [{ probleme: 'x', correction: 'y' }] });
+    expect(ancien.ok && ancien.valeur.remarques[0].modification).toBe('y');
   });
 
   it('une gravité inconnue compte comme un détail', () => {
     const r = valider(schemaRelecture, { problemes: [{ gravite: 'moyen', probleme: 'x' }] });
     expect(r.ok).toBe(true);
-    if (r.ok) expect(r.valeur.problemes[0].gravite).toBe('mineur');
+    if (r.ok) expect(r.valeur.remarques[0].gravite).toBe('mineur');
   });
 });

@@ -469,6 +469,22 @@ test('après avoir lu et joué le spectacle, le studio est prêt pour une nouvel
   await expect(page.getByText('5 min')).toBeVisible();
 });
 
+test('le directeur éditorial lit les deux histoires, puis réécrit lui-même l’acte qu’il a annoté', async ({ page }) => {
+  const appels = await installerFauxModele(page, { remarqueSurActe: 2 });
+  await preparerStudio(page);
+  await lancerEtAttendreLeChoix(page);
+  await page.getByRole('button', { name: 'Choisir cette histoire' }).first().click();
+  await expect(page.getByText('Votre spectacle est prêt')).toBeVisible({ timeout: 30000 });
+
+  // La revue : le conte d'origine et sa transposition.
+  expect(appels.revue).toEqual({ original: true, transpose: true });
+  // La réécriture : l'acte 2 seul, même pour une remarque de détail, par le
+  // directeur, avec le conte d'origine, le script entier et sa modification.
+  expect(appels.reecritures).toEqual([
+    { acte: 2, parLeDirecteur: true, original: true, scriptEntier: true, modification: true },
+  ]);
+});
+
 test('une revue finale qui répond hors format ne fait pas perdre le spectacle', async ({ page }) => {
   await installerFauxModele(page, { relectureInvalide: true });
   await preparerStudio(page);

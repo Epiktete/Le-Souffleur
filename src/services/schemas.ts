@@ -275,19 +275,34 @@ const graviteTolerante = z.preprocess((v) => {
   return ['bloquant', 'important', 'mineur'].includes(g) ? g : 'mineur';
 }, z.enum(['bloquant', 'important', 'mineur']));
 
-export const schemaRelecture = z.object({
-  problemes: z
-    .array(
-      z.object({
-        acte: numeroTolerant,
-        element: numeroTolerant,
-        gravite: graviteTolerante,
-        probleme: z.string().min(1),
-        correction: z.string().default(''),
-      }),
-    )
-    .default([]),
-});
+/**
+ * La revue du directeur éditorial : ses remarques, chacune avec la
+ * modification qu'il propose. Les anciens noms de champs (problemes,
+ * probleme, correction) restent acceptés : certains modèles s'y accrochent.
+ */
+const remarqueTolerante = z.preprocess(
+  (v) => {
+    if (!v || typeof v !== 'object') return v;
+    const o = v as Record<string, unknown>;
+    return { ...o, remarque: o.remarque ?? o.probleme, modification: o.modification ?? o.correction };
+  },
+  z.object({
+    acte: numeroTolerant,
+    element: numeroTolerant,
+    gravite: graviteTolerante,
+    remarque: z.string().min(1),
+    modification: z.string().default(''),
+  }),
+);
+
+export const schemaRelecture = z.preprocess(
+  (v) => {
+    if (!v || typeof v !== 'object') return v;
+    const o = v as Record<string, unknown>;
+    return { remarques: o.remarques ?? o.problemes };
+  },
+  z.object({ remarques: z.array(remarqueTolerante).default([]) }),
+);
 export type Relecture = z.infer<typeof schemaRelecture>;
 
 /**
