@@ -100,6 +100,8 @@ test('le premier script puis la première lecture ont chacun leurs bulles', asyn
   await page.keyboard.press(' ');
   await expect(bulle(page)).toContainText('Échap');
   await page.keyboard.press(' ');
+  await expect(bulle(page)).toContainText('improvisation');
+  await page.keyboard.press(' ');
   await expect(bulle(page)).toHaveCount(0);
   await expect(place).toHaveText(avant!);
 

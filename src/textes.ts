@@ -501,6 +501,7 @@ export const tv = {
     lecture: [
       { cible: 'page', texte: 'Barre Espace ou pédale : page suivante. Vos mains restent aux marionnettes.' },
       { cible: 'bandeau', texte: 'M : menu. Échap : sortir.' },
+      { cible: 'page', texte: 'Le texte n’est qu’un appui : l’art du marionnettiste, c’est l’improvisation. Suivez les enfants.' },
     ],
   },
 } as const;
@@ -557,6 +558,7 @@ export const ttu = {
         'Le bouton **Jouer** ouvre le mode **Lecture**, en plein écran : les répliques à gauche, les gestes et les entrées à droite.',
         'Vos deux mains tiennent les marionnettes : tournez les pages avec la **barre Espace** — du pied, ou avec une pédale tourne-page branchée à l’ordinateur.',
         '**Flèche gauche** pour revenir en arrière, **M** pour le menu, **Échap** pour sortir.',
+        'Le texte n’est qu’un appui : l’art du marionnettiste repose sur l’**improvisation**. Répondez aux enfants, jouez avec leurs réactions, quittez le texte quand la scène le demande.',
       ],
       astuce: 'Avant la représentation, faites l’essai : dans le menu (touche M), **Tester ma pédale** vérifie que chaque appui tourne bien une page.',
     },
