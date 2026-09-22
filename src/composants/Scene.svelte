@@ -19,7 +19,7 @@
   );
 </script>
 
-<section class="scene" class:vide={studio.sceneVide} aria-label={ts.scene.titre}>
+<section class="scene" data-visite="personnages" class:vide={studio.sceneVide} aria-label={ts.scene.titre}>
   <div class="tete">
     <h3 class="eyebrow-secondaire">{ts.scene.titre}</h3>
     <span class="mono compte" aria-live="polite">

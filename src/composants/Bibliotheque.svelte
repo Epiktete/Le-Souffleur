@@ -60,7 +60,7 @@
 </script>
 
 <div class="bibliotheque">
-  <button class="creer" onclick={creer}>{tb.nouvelle}</button>
+  <button class="creer" data-visite="marionnette" onclick={creer}>{tb.nouvelle}</button>
 
   {#if rechercheVisible}
     <div class="recherche">

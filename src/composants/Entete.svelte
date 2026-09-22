@@ -52,7 +52,7 @@
   </h1>
 
   <nav>
-    <button class="secondaire-bouton" onclick={() => naviguer({ nom: 'parametres' })}>
+    <button class="secondaire-bouton" data-visite="cle" onclick={() => naviguer({ nom: 'parametres' })}>
       {t.entete.parametresIa}
       <span class="badge">{etatCle}</span>
     </button>

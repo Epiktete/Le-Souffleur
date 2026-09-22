@@ -7,6 +7,7 @@
   import ParametresIa from './composants/ParametresIa.svelte';
   import EcranSpectacle from './composants/EcranSpectacle.svelte';
   import Tutoriel from './composants/Tutoriel.svelte';
+  import VisiteGuidee from './composants/VisiteGuidee.svelte';
   import { reglagesIa } from './etat/reglagesIa.svelte';
   import { studio } from './etat/studio.svelte';
   import { t } from './textes';
@@ -59,11 +60,14 @@
     <EcranIntrouvable titre={t.navigation.introuvable} message={t.navigation.introuvable} detail={route.fragment} />
   {/if}
 
-  <!-- Le mini tuto, ouvert par « Aide » ou par la carte « Premiers pas ».
+  <!-- Le mini tuto, ouvert par « Aide ».
        Jamais pendant les modes plein écran, dont il volerait les touches. -->
   {#if !pleinEcran}
     <Tutoriel />
   {/if}
+
+  <!-- La visite guidée de la première fois, y compris en plein écran. -->
+  <VisiteGuidee />
 </div>
 
 <style>

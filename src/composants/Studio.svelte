@@ -8,7 +8,6 @@
   // progression (CDC §6 et §7).
   import { onDestroy } from 'svelte';
   import Scene from './Scene.svelte';
-  import PremiersPas from './PremiersPas.svelte';
   import ReglagesStudio from './ReglagesStudio.svelte';
   import Progression from './Progression.svelte';
   import ChoixHistoires from './ChoixHistoires.svelte';
@@ -20,6 +19,10 @@
   import { generation } from '../etat/generation.svelte';
   import { spectacles } from '../etat/spectacles.svelte';
   import { naviguer } from '../services/routeur';
+  import { visite } from '../etat/visite.svelte';
+
+  // La première fois, la visite guidée présente l'accueil.
+  $effect(() => { visite.lancer('accueil'); });
 
   /** Message affiché quand la génération n'est pas encore possible. */
   const blocage = $derived(studio.sceneVide ? ts.generer.sansMarionnette : null);
@@ -82,8 +85,6 @@
 </script>
 
 <div class="studio">
-  <PremiersPas />
-
   <Scene />
 
   <ReglagesStudio />
@@ -104,7 +105,7 @@
     </p>
   </div>
 
-  <div class="generation" bind:this={zoneGeneration}>
+  <div class="generation" data-visite="generer" bind:this={zoneGeneration}>
     {#if generation.enCours}
       <Progression />
 

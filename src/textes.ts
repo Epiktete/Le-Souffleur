@@ -474,8 +474,40 @@ export const tl = {
 } as const;
 
 /**
- * Le mini tutoriel : trois étapes, ouvert par la carte « Premiers pas » du
- * studio ou par le bouton « Aide » de l'en-tête.
+ * La visite guidée de la première fois : des bulles, chacune avec une flèche
+ * vers la zone qu'elle explique, qui s'effacent d'un clic n'importe où. Elles
+ * suivent l'ordre d'utilisation : l'accueil d'abord, puis le script la
+ * première fois qu'on en ouvre un, puis la lecture la première fois qu'on
+ * joue.
+ *
+ * Une ligne par bulle, pas plus : plus on écrit, moins on lit. `cible` est la
+ * valeur de l'attribut data-visite de la zone montrée.
+ */
+export const tv = {
+  nom: 'Visite guidée',
+  continuer: 'Cliquez pour continuer',
+  sequences: {
+    accueil: [
+      { cible: 'cle', texte: 'D’abord, collez ici votre clé IA.' },
+      { cible: 'marionnette', texte: 'Créez une marionnette pour chaque peluche.' },
+      { cible: 'personnages', texte: 'Placez ici les marionnettes du spectacle.' },
+      { cible: 'reglages', texte: 'Réglez la durée, l’âge et le nombre de marionnettistes.' },
+      { cible: 'generer', texte: 'Générez : trois contes vous seront proposés.' },
+    ],
+    script: [
+      { cible: 'element', texte: 'Cliquez sur une ligne pour la corriger.' },
+      { cible: 'jouer', texte: 'Prêt ? Jouez.' },
+    ],
+    lecture: [
+      { cible: 'page', texte: 'Barre Espace ou pédale : page suivante. Vos mains restent aux marionnettes.' },
+      { cible: 'bandeau', texte: 'M : menu. Échap : sortir.' },
+    ],
+  },
+} as const;
+
+/**
+ * Le mini tutoriel : trois écrans, ouverts par le bouton « Aide » de
+ * l'en-tête.
  *
  * Chaque étape dit quoi faire avec les libellés EXACTS de l'interface (en
  * gras dans l'affichage), puis une seule astuce. Un parent le lit une fois, en
@@ -490,18 +522,6 @@ export const ttu = {
   fermer: 'Fermer le tuto',
   ouvrirParametres: 'Ouvrir les Paramètres IA',
   astuce: 'Bon à savoir',
-
-  /** La carte d'accueil, en haut du studio. */
-  carte: {
-    titre: 'Premier spectacle ?',
-    resume: [
-      'Créez vos marionnettes à partir des peluches de vos enfants.',
-      'Choisissez-les pour le spectacle, réglez le studio et lancez la génération.',
-      'Relisez le script, puis jouez-le en tournant les pages du pied.',
-    ],
-    ouvrir: 'Voir le tuto (1 minute)',
-    masquer: 'Masquer',
-  },
 
   /**
    * Les étapes. Dans `faire`, ce qui est entre ** ** s'affiche en gras : ce

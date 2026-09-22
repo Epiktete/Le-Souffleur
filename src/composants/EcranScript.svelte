@@ -8,6 +8,7 @@
   import { formaterDuree } from '../services/duree';
   import { spectacleCourant } from '../etat/spectacleCourant.svelte';
   import { t, tl, tsc } from '../textes';
+  import { visite } from '../etat/visite.svelte';
   import type { Id } from '../types';
 
   interface Props {
@@ -24,6 +25,9 @@
 
   const s = $derived(spectacleCourant.spectacle);
   const deuxMarionnettistes = $derived(s?.parametres.nbMarionnettistes === 2);
+
+  // Le premier script ouvert : la visite montre comment corriger et jouer.
+  $effect(() => { if (s) visite.lancer('script'); });
 
   /** Avertissements rattachés à un élément précis. */
   function problemesDe(acteNumero: number, position: number) {
@@ -88,7 +92,7 @@
       <button class="secondaire-bouton" onclick={() => window.print()}>{tsc.imprimer}</button>
     </div>
 
-    <button class="cta jouer" onclick={surLire}>{tsc.jouer}</button>
+    <button class="cta jouer" data-visite="jouer" onclick={surLire}>{tsc.jouer}</button>
     <button class="secondaire-bouton croix" onclick={surQuitter} aria-label={tl.quitter}>
       ✕
     </button>

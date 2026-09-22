@@ -1,5 +1,5 @@
-// Parcours du mini tuto : la carte « Premiers pas » du studio, la fenêtre en
-// trois étapes, et le bouton « Aide » de l'en-tête.
+// Parcours du mini tuto : la fenêtre en trois étapes, ouverte par le bouton
+// « Aide » de l'en-tête.
 import { expect, test } from '@playwright/test';
 
 const fenetre = (page: import('@playwright/test').Page) =>
@@ -9,19 +9,20 @@ test.beforeEach(async ({ page }) => {
   await page.goto('/');
 });
 
-test('la carte « Premiers pas » résume les trois étapes et ouvre le tuto', async ({ page }) => {
-  const carte = page.getByRole('region', { name: 'Premier spectacle ?' });
-  await expect(carte).toBeVisible();
-  await expect(carte.getByRole('listitem')).toHaveCount(3);
-
-  await carte.getByRole('button', { name: 'Voir le tuto (1 minute)' }).click();
+test('le bouton « Aide » ouvre le tuto sur sa première étape', async ({ page }) => {
+  await page.getByRole('button', { name: 'Aide', exact: true }).click();
   await expect(fenetre(page)).toBeVisible();
   await expect(fenetre(page)).toContainText('Étape 1 sur 3');
   await expect(fenetre(page).getByRole('heading', { name: 'Créez vos marionnettes' })).toBeFocused();
 });
 
+test('aucune carte de tuto n’encombre le studio', async ({ page }) => {
+  await expect(page.getByRole('region', { name: 'Premier spectacle ?' })).toHaveCount(0);
+  await expect(page.getByText('Voir le tuto')).toHaveCount(0);
+});
+
 test('on parcourt les trois étapes, clé IA et touches comprises, puis on ferme', async ({ page }) => {
-  await page.getByRole('button', { name: 'Voir le tuto (1 minute)' }).click();
+  await page.getByRole('button', { name: 'Aide', exact: true }).click();
   const f = fenetre(page);
 
   // Étape 1 : créer ses marionnettes.
@@ -62,12 +63,6 @@ test('le bouton « Aide » ouvre le tuto, Échap le ferme, les numéros sautent 
   await expect(page.getByRole('dialog')).toHaveCount(0);
 });
 
-test('chaque ligne de la carte ouvre le tuto à la bonne étape', async ({ page }) => {
-  const carte = page.getByRole('region', { name: 'Premier spectacle ?' });
-  await carte.getByRole('button', { name: /Relisez le script/ }).click();
-  await expect(fenetre(page)).toContainText('Étape 3 sur 3');
-});
-
 test('le tuto mène aux paramètres IA pour coller sa clé', async ({ page }) => {
   await page.getByRole('button', { name: 'Aide', exact: true }).click();
   await fenetre(page).getByRole('button', { name: 'Suivant' }).click();
@@ -75,16 +70,6 @@ test('le tuto mène aux paramètres IA pour coller sa clé', async ({ page }) =>
   await expect(page).toHaveURL(/#\/parametres$/);
   await expect(page.getByRole('dialog')).toHaveCount(0);
   await expect(page.getByLabel('Clé API')).toBeVisible();
-});
-
-test('la carte masquée le reste après un rechargement, et le tuto reste accessible par « Aide »', async ({ page }) => {
-  await page.getByRole('button', { name: 'Masquer' }).click();
-  await expect(page.getByRole('region', { name: 'Premier spectacle ?' })).toHaveCount(0);
-
-  await page.reload();
-  await expect(page.getByRole('region', { name: 'Premier spectacle ?' })).toHaveCount(0);
-  await page.getByRole('button', { name: 'Aide', exact: true }).click();
-  await expect(fenetre(page)).toBeVisible();
 });
 
 test('les boutons que le tuto nomme existent vraiment à l’écran', async ({ page }) => {

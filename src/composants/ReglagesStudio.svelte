@@ -16,7 +16,7 @@
   ];
 </script>
 
-<div class="reglages">
+<div class="reglages" data-visite="reglages">
   <!-- Durée -->
   <div class="reglage">
     <label for="r-duree" class="mono">{ts.reglages.duree}</label>

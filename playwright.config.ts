@@ -12,6 +12,16 @@ export default defineConfig({
   use: {
     baseURL: 'http://localhost:4173',
     ...devices['Desktop Chrome'],
+    // La visite guidée de la première fois est marquée comme déjà vue : ses
+    // bulles couvriraient l'écran des autres parcours. visite.spec.ts la
+    // teste, en repartant d'un navigateur vierge.
+    storageState: {
+      cookies: [],
+      origins: [{
+        origin: 'http://localhost:4173',
+        localStorage: [{ name: 'souffleur.visite.vues', value: '["accueil","script","lecture"]' }],
+      }],
+    },
   },
   webServer: {
     command: 'npm run preview -- --port 4173',

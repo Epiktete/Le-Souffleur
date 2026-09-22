@@ -146,7 +146,7 @@
     <!-- ---------------------------------------------------------- -->
     <!-- Affichage                                                   -->
     <!-- ---------------------------------------------------------- -->
-    <button class="lecture" onclick={surEditer} aria-label="{tsc.modifier} ({position})">
+    <button class="lecture" data-visite="element" onclick={surEditer} aria-label="{tsc.modifier} ({position})">
       {#if element.type === 'replique'}
         <p class="replique">
           <span class="nom">{nom}</span>

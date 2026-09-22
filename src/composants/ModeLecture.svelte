@@ -11,6 +11,7 @@
   import { tl, tsc } from '../textes';
   import { spectacleCourant } from '../etat/spectacleCourant.svelte';
   import { lecture } from '../etat/lecture.svelte';
+  import { visite } from '../etat/visite.svelte';
   import {
     commandeDe,
     commandeDuToucher,
@@ -35,6 +36,9 @@
     surEditer: () => void;
   }
   let { surQuitter, surEditer }: Props = $props();
+
+  // La première lecture : la visite rappelle comment tourner les pages.
+  $effect(() => { visite.lancer('lecture'); });
 
   const s = $derived(spectacleCourant.spectacle);
   const rangees = $derived(s ? construireRangees(s.actes) : []);
@@ -299,7 +303,7 @@
     et le décor par son propre écran : les répéter en haut encombrerait pour
     rien un écran qu'on lit en jouant.
   -->
-  <div class="bandeau mono">
+  <div class="bandeau mono" data-visite="bandeau">
     <span class="place">{tl.page(lecture.page + 1, Math.max(pages.length, 1))}</span>
     <span>{lecture.tempsEcoule}</span>
     <button class="commande" onclick={(e) => { e.stopPropagation(); menuOuvert = true; }}>
@@ -317,7 +321,7 @@
 
   {#if decorAnnonce && tableau}
     <!-- Écran intercalaire : on ne joue pas pendant qu'on change le décor. -->
-    <div class="decor">
+    <div class="decor" data-visite="page">
       <p class="mono etiquette">{tl.changementDecor}</p>
       <p class="titre-decor">{tableau.titre}</p>
       {#if tableau.description}<p class="description">{tableau.description}</p>{/if}
@@ -325,7 +329,7 @@
     </div>
 
   {:else}
-    <div class="page" bind:this={zonePage}>
+    <div class="page" data-visite="page" bind:this={zonePage}>
       {#if !pageCourante}
         <p class="vide">{tl.vide}</p>
       {:else}
