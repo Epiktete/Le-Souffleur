@@ -205,7 +205,6 @@
 
   <!-- Test de connexion : les trois points du CDC §5 -->
   <section class="bloc boite">
-    <span class="eyebrow">{tt.bouton}</span>
     <button
       type="button"
       disabled={testEnCours || !reglagesIa.cle.trim() || !reglagesIa.baseUrl.trim()}
