@@ -33,71 +33,29 @@ function acte(numero: number, elements: ElementScript[], tableauId = 't1'): Acte
   return { id: `a${numero}`, numero, titre: `Acte ${numero}`, tableauId, resume: '', elements };
 }
 
-describe('construireRangees : deux colonnes', () => {
-  it('met les dialogues à gauche et le reste à droite', () => {
+describe('construireRangees : un seul fil', () => {
+  it('garde chaque élément à sa place, dans l’ordre du script', () => {
     const r = construireRangees([acte(1, [
       entree(),
       replique('Ma carotte !'),
       didascalie('Il cherche.'),
+      note('Laisser répondre.'),
+      adresse(),
+      sortie(),
     ])]);
 
-    expect(r).toHaveLength(1);
-    expect(r[0].dialogue?.type).toBe('replique');
-    // L'entrée prépare la réplique, la didascalie la suit : deux blocs
-    // distincts, affichés à deux hauteurs différentes.
-    expect(r[0].avant.map((e) => e.type)).toEqual(['entree']);
-    expect(r[0].apres.map((e) => e.type)).toEqual(['didascalie']);
-  });
-
-  it('rattache une entrée au dialogue qu’elle annonce, pas au précédent', () => {
-    const r = construireRangees([acte(1, [
-      replique('Premier.'),
-      entree('M1D'),
-      replique('Second.'),
-    ])]);
-
-    expect(r).toHaveLength(2);
-    // L'entrée dit qui arrive : elle accompagne la réplique qui suit.
-    expect(r[0].avant).toHaveLength(0);
-    expect(r[0].apres).toHaveLength(0);
-    expect(r[1].avant.map((e) => e.type)).toEqual(['entree']);
-  });
-
-  it('garde une didascalie avec la réplique qu’elle accompagne', () => {
-    const r = construireRangees([acte(1, [
-      replique('Premier.'),
-      didascalie('Il rit.'),
-      replique('Second.'),
-    ])]);
-
-    // La didascalie décrit ce qui vient d'être dit : elle se range dans le
-    // bloc « après », sous la tirade, et non en tête de la rangée suivante.
-    expect(r[0].apres.map((e) => e.type)).toEqual(['didascalie']);
-    expect(r[1].avant).toHaveLength(0);
-    expect(r[1].apres).toHaveLength(0);
-  });
-
-  it('traite l’adresse au public comme un dialogue', () => {
-    const r = construireRangees([acte(1, [adresse()])]);
-    expect(r[0].dialogue?.type).toBe('adresse_public');
-  });
-
-  it('range les notes au marionnettiste à droite', () => {
-    const r = construireRangees([acte(1, [replique(), note('Laisser répondre.')])]);
-    expect(r[0].apres.map((e) => e.type)).toEqual(['note_marionnettiste']);
-  });
-
-  it('fabrique une rangée de fin pour ce qui suit le dernier dialogue', () => {
-    const r = construireRangees([acte(1, [replique(), sortie()])]);
-    // Une sortie finale annonce la suite : elle forme sa propre rangée.
-    expect(r).toHaveLength(2);
-    expect(r[1].dialogue).toBeUndefined();
-    expect(r[1].avant.map((e) => e.type)).toEqual(['sortie']);
+    expect(r.map((x) => (x.dialogue ?? x.scene)!.type)).toEqual([
+      'entree', 'replique', 'didascalie', 'note_marionnettiste', 'adresse_public', 'sortie',
+    ]);
+    // Les dialogues d'un côté, les indications de l'autre : jamais les deux.
+    for (const x of r) expect(Boolean(x.dialogue) !== Boolean(x.scene)).toBe(true);
+    expect(r[1].dialogue?.type).toBe('replique');
+    expect(r[4].dialogue?.type).toBe('adresse_public');
   });
 
   it('marque la première rangée de chaque acte', () => {
     const r = construireRangees([
-      acte(1, [replique(), replique()]),
+      acte(1, [entree(), replique()]),
       acte(2, [replique()]),
     ]);
     expect(r.map((x) => x.debutActe)).toEqual([true, false, true]);
@@ -107,17 +65,6 @@ describe('construireRangees : deux colonnes', () => {
     const r = construireRangees([acte(2, [replique()], 't7')]);
     expect(r[0].acteNumero).toBe(2);
     expect(r[0].tableauId).toBe('t7');
-  });
-
-  it('ne perd aucun élément', () => {
-    const elements = [entree(), replique(), didascalie(), adresse(), note(), sortie()];
-    const r = construireRangees([acte(1, elements)]);
-    const vus = r.flatMap((x) => [
-      ...x.avant,
-      ...(x.dialogue ? [x.dialogue] : []),
-      ...x.apres,
-    ]);
-    expect(vus).toHaveLength(elements.length);
   });
 
   it('ne plante pas sur un acte vide', () => {
@@ -257,19 +204,12 @@ describe('decouperTropLongues : ne jamais perdre la fin d’une tirade', () => {
     expect(d.slice(1).every((x) => x.suite === true)).toBe(true);
   });
 
-  it('accroche une didascalie au dernier morceau, puisqu’elle suit tout le texte', () => {
+  it('laisse la didascalie qui suit après le dernier morceau', () => {
     const r = construireRangees([acte(1, [replique('Une. Deux. Trois. Quatre.'), didascalie()])]);
     const d = decouperTropLongues(r, new Map([[r[0].id, 900]]), 300);
-    expect(d.length).toBeGreaterThan(1);
-    expect(d.at(-1)!.apres).toHaveLength(1);
-    expect(d.slice(0, -1).every((x) => x.apres.length === 0)).toBe(true);
-  });
-
-  it('garde ce qui prépare la réplique sur le premier morceau', () => {
-    const r = construireRangees([acte(1, [entree(), replique('Une. Deux. Trois. Quatre.')])]);
-    const d = decouperTropLongues(r, new Map([[r[0].id, 900]]), 300);
-    expect(d[0].avant).toHaveLength(1);
-    expect(d.slice(1).every((x) => x.avant.length === 0)).toBe(true);
+    expect(d.length).toBeGreaterThan(2);
+    expect(d.at(-1)!.scene?.type).toBe('didascalie');
+    expect(d.slice(0, -1).every((x) => x.dialogue)).toBe(true);
   });
 
   it('n’annonce le début d’acte qu’une fois', () => {

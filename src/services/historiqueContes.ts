@@ -3,9 +3,11 @@
 // contes en tête du classement.
 //
 // Deux sortes de rencontres :
-//   - « joue » : un spectacle a été écrit à partir de ce conte. Malus fort.
+//   - « joue » : un spectacle a été écrit à partir de ce conte. Sa note perd
+//     75 %.
 //   - « propose » : le conte a été montré au parent parmi les trois synopsis,
-//     sans être choisi. Malus plus léger, qui se cumule s'il revient encore.
+//     sans être choisi. Sa note perd 30 % à chaque fois, sans descendre sous
+//     30 % de sa valeur de départ.
 // Seules les rencontres récentes comptent : la mémoire ne garde que les
 // dernières, et un conte oublié retrouve sa place.
 
@@ -13,10 +15,13 @@ export type Rencontre = { conte: string; type: 'propose' | 'joue' };
 
 export const MALUS = {
   /** Facteur appliqué à la note d'un conte déjà joué. */
-  joue: 0.5,
+  joue: 0.25,
   /** Facteur appliqué à chaque fois qu'un conte a été montré sans être choisi. */
-  propose: 0.8,
-  /** Un conte ne descend jamais sous ce facteur : il reste jouable. */
+  propose: 0.7,
+  /**
+   * Les présentations cumulées ne font pas descendre un conte sous ce
+   * facteur. Un conte joué, lui, tombe à 0,25 : il doit céder la place.
+   */
   plancher: 0.3,
   /** Nombre de rencontres gardées en mémoire, les plus récentes. */
   memoire: 60,
@@ -48,7 +53,7 @@ export function noterRencontres(contes: string[], type: Rencontre['type']) {
 }
 
 /**
- * Le facteur de chaque conte rencontré, entre le plancher et 1. Un conte joué
+ * Le facteur de chaque conte rencontré, entre 0 et 1. Un conte joué
  * n'est pas aussi compté comme « montré sans être choisi » : il l'a été.
  */
 export function malusDe(historique: Rencontre[]): Record<string, number> {
@@ -56,8 +61,8 @@ export function malusDe(historique: Rencontre[]): Record<string, number> {
   const facteurs: Record<string, number> = {};
   for (const r of historique) {
     if (r.type === 'propose' && joues.has(r.conte)) continue;
-    const f = r.type === 'joue' ? MALUS.joue : MALUS.propose;
-    facteurs[r.conte] = Math.max(MALUS.plancher, (facteurs[r.conte] ?? 1) * f);
+    if (r.type === 'joue') facteurs[r.conte] = (facteurs[r.conte] ?? 1) * MALUS.joue;
+    else facteurs[r.conte] = Math.max(MALUS.plancher, (facteurs[r.conte] ?? 1) * MALUS.propose);
   }
   return facteurs;
 }

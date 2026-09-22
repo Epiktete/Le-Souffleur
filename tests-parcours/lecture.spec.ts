@@ -38,16 +38,29 @@ async function position(page: Page): Promise<[number, number]> {
   return [Number(m?.[1] ?? 0), Number(m?.[2] ?? 0)];
 }
 
-test('les dialogues sont à gauche, le reste à droite', async ({ page }) => {
+test('répliques et indications scéniques se suivent dans un seul fil, dans l’ordre du jeu', async ({ page }) => {
   await ouvrirLaLecture(page);
 
-  const premiere = page.locator('.page .rangee').first();
-  // À gauche, une réplique et son nom.
-  await expect(premiere.locator('.dialogue .nom')).toContainText('Doudou Lapin');
-  await expect(premiere.locator('.dialogue .dit')).toBeVisible();
-  // À droite, l'entrée qui l'annonce — jamais dans la colonne des dialogues.
-  await expect(premiere.locator('.scene')).toContainText('Doudou Lapin');
-  await expect(premiere.locator('.scene .mouvement')).toBeVisible();
+  // La zone de mesure rend tout le spectacle, rangée après rangée : l'ordre
+  // s'y lit sans tourner les pages.
+  const fil = page.locator('.mesure .rangee .fil');
+  // L'entrée, puis la réplique qu'elle annonce, puis ce que fait la marionnette.
+  await expect(fil.nth(0).locator('.mouvement')).toContainText('ENTRÉE : DOUDOU LAPIN');
+  await expect(fil.nth(1).locator('.nom')).toContainText('Doudou Lapin');
+  await expect(fil.nth(1).locator('.dit')).toHaveCount(1);
+  await expect(fil.nth(2).locator('.didascalie')).toHaveText('Il regarde sous le buisson.');
+  // Les deux se distinguent par la forme : l'indication en italique, plus petite.
+  const styles = await page.evaluate(() => {
+    const dit = document.querySelector('.mesure .dit')!;
+    const dida = document.querySelector('.mesure .didascalie')!;
+    return {
+      dit: parseFloat(getComputedStyle(dit).fontSize),
+      dida: parseFloat(getComputedStyle(dida).fontSize),
+      italique: getComputedStyle(dida).fontStyle,
+    };
+  });
+  expect(styles.italique).toBe('italic');
+  expect(styles.dida).toBeLessThan(styles.dit);
 });
 
 test('critère d’acceptation : tout le spectacle à la barre Espace', async ({ page }) => {
@@ -273,18 +286,17 @@ test('« Recommencer » repart de la première page', async ({ page }) => {
   expect((await position(page))[0]).toBe(1);
 });
 
-test('aucune note au marionnettiste n’apparaît dans la colonne des dialogues', async ({ page }) => {
+test('une note au marionnettiste ne se confond jamais avec une réplique', async ({ page }) => {
   await ouvrirLaLecture(page);
 
-  // Exigence du §9 : les notes ne doivent jamais être lues à voix haute.
-  const [, total] = await position(page);
-  for (let i = 0; i < total; i++) {
-    const notesAGauche = await page.locator('.dialogue .note').count();
-    expect(notesAGauche).toBe(0);
-    await page.keyboard.press('Space');
-    if (await page.locator('.decor').isVisible()) await page.keyboard.press('Space');
-    await page.waitForTimeout(320);
-  }
+  // Exigence du §9 : les notes ne doivent jamais être lues à voix haute. Elles
+  // sont dans le fil, mais dans leur cadre, jamais dans une réplique.
+  const notes = await page.evaluate(() => ({
+    total: document.querySelectorAll('.mesure .note').length,
+    dansUneReplique: document.querySelectorAll('.mesure .bulle .note').length,
+  }));
+  expect(notes.total).toBeGreaterThan(0);
+  expect(notes.dansUneReplique).toBe(0);
 });
 
 test('aucune réplique n’est coupée en bas de page', async ({ page }) => {
@@ -371,35 +383,28 @@ test('chaque marionnette a sa couleur, et le nom reste écrit', async ({ page })
   await expect(page.locator('.page .bulle').first()).toHaveClass(/c\d/);
 });
 
-test('ce qui suit une réplique se lit sous elle, pas à côté de son nom', async ({ page }) => {
-  // La colonne de droite mêlait ce qui précède la réplique et ce qui la suit,
-  // tout empilé en haut : elle semblait désynchronisée du texte.
+test('à droite d’une réplique, seulement la façon de la dire', async ({ page }) => {
   await ouvrirLaLecture(page);
 
-  // Même raison que ci-dessus : la zone de mesure porte toutes les rangées,
-  // avec la même grille. On y cherche celle qui a les deux blocs.
-  const mesures = await page.evaluate(() => {
-    for (const rangee of document.querySelectorAll('.mesure .rangee')) {
-      const avant = rangee.querySelector('.scene .avant .mouvement');
-      const apres = rangee.querySelector('.scene .apres .didascalie');
-      const nom = rangee.querySelector('.dialogue .nom');
-      const dit = rangee.querySelector('.dialogue .dit');
-      if (avant && apres && nom && dit) {
-        return {
-          avant: avant.getBoundingClientRect().toJSON(),
-          apres: apres.getBoundingClientRect().toJSON(),
-          nom: nom.getBoundingClientRect().toJSON(),
-          dit: dit.getBoundingClientRect().toJSON(),
-        };
-      }
-    }
-    return null;
+  // La zone de mesure porte toutes les rangées, avec la même grille.
+  const r = await page.evaluate(() => {
+    const avecTon = [...document.querySelectorAll('.mesure .rangee')]
+      .find((x) => x.querySelector('.jeu .ton'));
+    if (!avecTon) return null;
+    return {
+      ton: avecTon.querySelector('.jeu .ton')!.textContent,
+      nom: avecTon.querySelector('.fil .nom')!.getBoundingClientRect().toJSON(),
+      tonRect: avecTon.querySelector('.jeu .ton')!.getBoundingClientRect().toJSON(),
+      dit: avecTon.querySelector('.fil .dit')!.getBoundingClientRect().toJSON(),
+      // Rien d'autre que des tons dans la colonne de droite.
+      autres: document.querySelectorAll('.mesure .jeu > :not(.ton)').length,
+    };
   });
 
-  expect(mesures, 'aucune rangée ne porte les deux blocs').not.toBeNull();
-  // Ce qui prépare la réplique reste à hauteur du nom, en haut.
-  expect(mesures!.avant.top).toBeLessThan(mesures!.dit.top + 8);
-  // Ce qui la suit descend sous le nom, au pied de la tirade.
-  expect(mesures!.apres.top).toBeGreaterThan(mesures!.avant.bottom);
-  expect(mesures!.apres.top).toBeGreaterThan(mesures!.nom.bottom);
+  expect(r, 'aucune réplique ne porte de ton').not.toBeNull();
+  expect(r!.ton).toBe('affolé');
+  // À droite du texte, à hauteur du nom.
+  expect(r!.tonRect.left).toBeGreaterThan(r!.dit.right - 1);
+  expect(r!.tonRect.top).toBeLessThan(r!.nom.bottom + 8);
+  expect(r!.autres).toBe(0);
 });

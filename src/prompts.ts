@@ -522,8 +522,13 @@ scène le passage du texte transposé qu’il joue.
 ${LE_TEXTE_DU_CONTE}
 
 Les cinq types d’éléments :
-- replique : ce qu’une marionnette dit à voix haute (« ton » : comment le dire)
-- didascalie : une action ou un effet de scène, jamais dit à voix haute
+- replique : ce qu’une marionnette dit à voix haute. « ton » dit comment la
+  dire, en quelques mots (« vite, en tremblotant », « fort, l’air furieux ») :
+  il s’affiche à côté de la réplique. La façon de parler va dans « ton »,
+  jamais dans une didascalie.
+- didascalie : une action ou un effet de scène, jamais dit à voix haute ;
+  elle décrit ce que fait la marionnette (« Toto traverse la scène en
+  chantonnant »)
 - adresse_public : un aparté, dit face aux enfants ; attenteReponse vaut true
   s’il attend vraiment une réponse
 - note_marionnettiste : une consigne pour la personne qui joue, jamais dite ;

@@ -1,5 +1,4 @@
-// Découpage du script en pages et en deux colonnes, pour le mode lecture
-// (CDC §9).
+// Découpage du script en pages, pour le mode lecture (CDC §9).
 //
 // Le marionnettiste a une peluche sur chaque main : il ne peut pas faire
 // défiler. Il tourne la page entière d'un appui de pied. Une page contient
@@ -8,29 +7,19 @@
 import type { Acte, ElementScript, Id } from '../types';
 
 /**
- * Une rangée : ce qui se dit à gauche, ce qui s'y rapporte à droite.
+ * Une rangée : un élément du script, dans l'ordre où il se joue.
  *
- * L'association suit une règle simple, qui correspond à la façon dont on lit
- * un script : une entrée ou une sortie annonce ce qui suit, une didascalie ou
- * une note accompagne ce qui vient d'être dit.
+ * Tout se lit dans un seul fil — répliques, entrées et sorties, didascalies,
+ * notes — pour qu'on suive l'enchaînement des actions sans chercher d'un côté
+ * à l'autre. Seule la façon de dire une réplique (son « ton ») s'affiche à
+ * côté d'elle.
  */
 export interface Rangee {
   id: Id;
-  /** Réplique ou adresse au public. Absente pour une rangée de fin d'acte. */
+  /** Réplique ou adresse au public. */
   dialogue?: ElementScript;
-  /**
-   * Ce qui prépare la réplique : les entrées et sorties qui la précèdent.
-   * Se lit AVANT de parler, donc s'affiche en haut de la colonne de droite,
-   * à hauteur du nom.
-   */
-  avant: ElementScript[];
-  /**
-   * Ce qui suit la réplique : didascalies et notes rencontrées après elle.
-   * Se lit APRÈS avoir parlé, donc s'affiche en bas de la colonne de droite,
-   * à hauteur de la fin de la tirade. Les mêler au bloc précédent donnait
-   * l'impression que la colonne de droite était désynchronisée du texte.
-   */
-  apres: ElementScript[];
+  /** Tout le reste : entrée, sortie, didascalie, note au marionnettiste. */
+  scene?: ElementScript;
   /** Numéro de l'acte dont vient cette rangée. */
   acteNumero: number;
   acteId: Id;
@@ -46,74 +35,17 @@ function estDialogue(e: ElementScript): boolean {
   return e.type === 'replique' || e.type === 'adresse_public';
 }
 
-function annonceLaSuite(e: ElementScript): boolean {
-  return e.type === 'entree' || e.type === 'sortie';
-}
-
-/**
- * Transforme les actes en rangées à deux colonnes.
- *
- * Les entrées et sorties rencontrées avant un dialogue lui sont rattachées :
- * elles disent qui est là, et se font avant de parler. Les didascalies et
- * notes rencontrées après un dialogue restent avec lui, dans un second bloc :
- * elles décrivent ce qui suit ce qu'on vient de dire.
- *
- * Les deux blocs sont séparés parce qu'ils ne se lisent pas au même moment.
- * Réunis, ils se retrouvaient tous en haut de la colonne de droite, loin de
- * l'endroit du texte auquel ils se rapportaient.
- */
+/** Transforme les actes en rangées : une par élément, dans l'ordre du script. */
 export function construireRangees(actes: Acte[]): Rangee[] {
-  const rangees: Rangee[] = [];
-
-  for (const acte of actes) {
-    let courante: Rangee | null = null;
-    /** Entrées et sorties en attente du dialogue qu'elles annoncent. */
-    let enAttente: ElementScript[] = [];
-    let premiere = true;
-
-    const ouvrir = (dialogue?: ElementScript): Rangee => ({
-      id: dialogue?.id ?? `${acte.id}-${rangees.length}`,
-      dialogue,
-      avant: [],
-      apres: [],
-      acteNumero: acte.numero,
-      acteId: acte.id,
-      acteTitre: acte.titre,
-      tableauId: acte.tableauId,
-      debutActe: premiere,
-    });
-
-    for (const e of acte.elements) {
-      if (estDialogue(e)) {
-        courante = ouvrir(e);
-        courante.avant = enAttente;
-        enAttente = [];
-        rangees.push(courante);
-        premiere = false;
-        continue;
-      }
-
-      if (annonceLaSuite(e)) {
-        // Une entrée ou une sortie annonce ce qui vient : elle attend son
-        // dialogue plutôt que de rester avec le précédent.
-        enAttente.push(e);
-        continue;
-      }
-
-      // Didascalie ou note : elle accompagne ce qui vient d'être dit.
-      if (courante) courante.apres.push(e);
-      else enAttente.push(e);
-    }
-
-    // Ce qui reste sans dialogue forme une rangée de fin d'acte.
-    if (enAttente.length > 0) {
-      const fin = ouvrir(undefined);
-      fin.avant = enAttente;
-      rangees.push(fin);
-    }
-  }
-
-  return rangees;
+  return actes.flatMap((acte) => acte.elements.map((e, index): Rangee => ({
+    id: e.id,
+    ...(estDialogue(e) ? { dialogue: e } : { scene: e }),
+    acteNumero: acte.numero,
+    acteId: acte.id,
+    acteTitre: acte.titre,
+    tableauId: acte.tableauId,
+    debutActe: index === 0,
+  })));
 }
 
 /** Une page de lecture : une suite de rangées qui tiennent à l'écran. */
@@ -236,10 +168,6 @@ export function decouperTropLongues(
         // inutile et se déferait, pour se refaire aussitôt.
         id: `${rangee.id}#${index}`,
         dialogue: { ...rangee.dialogue!, texte: part } as ElementScript,
-        // Ce qui prépare la réplique reste avec le premier morceau ; ce qui
-        // la suit accompagne le dernier, puisqu'il vient après tout le texte.
-        avant: index === 0 ? rangee.avant : [],
-        apres: index === parts.length - 1 ? rangee.apres : [],
         debutActe: index === 0 ? rangee.debutActe : false,
         suite: index > 0,
       });

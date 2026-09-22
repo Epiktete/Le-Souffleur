@@ -334,7 +334,7 @@
         <p class="vide">{tl.vide}</p>
       {:else}
         {#each pageCourante.rangees as rangee (rangee.id)}
-          <div class="rangee">{@render contenuRangee(rangee)}</div>
+          <div class="rangee" class:indication={!!rangee.scene}>{@render contenuRangee(rangee)}</div>
         {/each}
       {/if}
     </div>
@@ -353,18 +353,23 @@
     <!-- Les rangées entières : c'est sur leur hauteur qu'on décide s'il faut
          couper une tirade. -->
     {#each rangees as rangee (rangee.id)}
-      <div class="rangee" data-rangee={rangee.id}>{@render contenuRangee(rangee)}</div>
+      <div class="rangee" class:indication={!!rangee.scene} data-rangee={rangee.id}>{@render contenuRangee(rangee)}</div>
     {/each}
     <!-- Puis les morceaux réellement affichés, pour la mise en pages. -->
     {#each rangeesDecoupees as rangee (rangee.id)}
-      <div class="rangee" data-rangee={rangee.id}>{@render contenuRangee(rangee)}</div>
+      <div class="rangee" class:indication={!!rangee.scene} data-rangee={rangee.id}>{@render contenuRangee(rangee)}</div>
     {/each}
   </div>
 </div>
 
 <!-- Le contenu d'une rangée, partagé par la page affichée et la mesure. -->
 {#snippet contenuRangee(rangee: Rangee)}
-  <div class="dialogue">
+  <!--
+    Un seul fil, dans l'ordre du jeu : répliques et indications scéniques se
+    suivent, et c'est leur forme qui les distingue. À droite, seulement la
+    façon de dire la réplique d'en face.
+  -->
+  <div class="fil">
     {#if rangee.debutActe}
       <p class="mono acte">{tl.acte(rangee.acteNumero)} — {rangee.acteTitre}</p>
     {/if}
@@ -387,34 +392,24 @@
           <p class="mono attente">{tsc.attendreReponse}</p>
         {/if}
       </div>
+    {:else if rangee.scene}
+      {@render elementScene(rangee.scene)}
     {/if}
   </div>
 
-  <!--
-    Colonne de droite, en deux blocs : ce qui se fait AVANT de parler reste en
-    haut, à hauteur du nom ; ce qui se fait APRÈS descend au pied de la tirade.
-    Tout empiler en haut donnait l’impression que la colonne ne suivait pas le
-    texte.
-  -->
-  <div class="scene">
-    <div class="avant">
-      {#each rangee.avant as e (e.id)}{@render elementScene(e)}{/each}
-    </div>
-    {#if rangee.apres.length > 0}
-      <div class="apres">
-        {#each rangee.apres as e (e.id)}{@render elementScene(e)}{/each}
-      </div>
+  <div class="jeu">
+    {#if rangee.dialogue?.type === 'replique' && rangee.dialogue.ton && !rangee.suite}
+      <p class="ton">{rangee.dialogue.ton}</p>
     {/if}
   </div>
 {/snippet}
 
 {#snippet elementScene(e: ElementScript)}
   {#if e.type === 'entree' || e.type === 'sortie'}
+    {@const main = e.mainMarionnettiste.endsWith('G') ? tsc.mainGauche : tsc.mainDroite}
     <p class="mono mouvement {couleurDe(e)}">
       <span class="pastille" aria-hidden="true"></span>
-      {e.type === 'entree' ? '▸' : '◂'}
-      {nomDe(e)}
-      · {e.mainMarionnettiste.endsWith('G') ? tsc.mainGauche : tsc.mainDroite}
+      {e.type === 'entree' ? tsc.entree(nomDe(e), main) : tsc.sortie(nomDe(e), main)}
     </p>
   {:else if e.type === 'note_marionnettiste'}
     <p class="note">{texteDe(e)}</p>
@@ -517,19 +512,15 @@
 
   .rangee {
     display: grid;
-    /* Les dialogues occupent les deux tiers : c'est ce qu'on lit à voix haute. */
-    grid-template-columns: 2fr 1fr;
+    /* Le fil occupe les trois quarts : c'est ce qu'on suit en jouant. */
+    grid-template-columns: 3fr 1fr;
     gap: 24px;
-    /* stretch, et non start : la colonne de droite doit pouvoir descendre
-       jusqu'au pied de la tirade pour y accrocher ce qui vient après. */
-    align-items: stretch;
+    align-items: start;
     margin-bottom: 18px;
   }
-  @media (max-width: 700px) {
-    .rangee { grid-template-columns: 1fr; gap: 6px; }
-  }
-
-  .dialogue p { margin: 0; color: inherit; }
+  /* Une indication scénique reste près de ce qu'elle enchaîne. */
+  .rangee.indication { margin-bottom: 10px; }
+  .fil p { margin: 0; color: inherit; }
   .acte { font-size: 12px; opacity: 0.7; margin-bottom: 6px; }
 
   /* --- Une couleur par marionnette (CDC §9) ---------------------
@@ -592,38 +583,42 @@
   }
   .attente { font-size: 12px; opacity: 0.75; margin-top: 4px; }
 
-  /* --- Colonne de droite : plus petite, elle se consulte -------
-     Deux blocs poussés aux extrémités : ce qui précède la réplique reste à
-     hauteur du nom, ce qui la suit descend au pied de la tirade. */
-  .scene {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    gap: 10px;
-    padding-top: 4px;
-  }
-  .scene p { margin: 0 0 6px; color: inherit; }
-  .scene p:last-child { margin-bottom: 0; }
-
-
-  @media (max-width: 700px) {
-    /* En colonne unique, l'alignement vertical n'a plus de sens : on remet
-       les deux blocs à la suite. */
-    .scene { justify-content: flex-start; }
-  }
-
+  /* --- Les indications scéniques, dans le fil ------------------
+     Elles se lisent entre les répliques mais ne se disent jamais : plus
+     petites, décalées au niveau du texte dit, et chacune avec sa forme —
+     italique pour ce qui se fait, capitales pour qui entre et sort, un cadre
+     pour la consigne au marionnettiste. */
   .didascalie {
     font-style: italic;
-    font-size: calc(var(--taille) * 0.5);
+    font-size: calc(var(--taille) * 0.6);
+    line-height: 1.35;
+    padding-left: 17px;
     opacity: 0.85;
   }
   .mouvement {
-    font-size: calc(var(--taille) * 0.38);
+    font-size: calc(var(--taille) * 0.42);
     letter-spacing: 0.08em;
-    opacity: 0.8;
+    padding-left: 17px;
+  }
+  .lecture:not(.inverse) .mouvement { color: var(--perso); }
+
+  /* --- À droite : comment dire la réplique d'en face ------------ */
+  .ton {
+    margin: 0;
+    padding-top: 2px;
+    font-style: italic;
+    font-size: calc(var(--taille) * 0.5);
+    line-height: 1.3;
+    color: inherit;
+  }
+  @media (max-width: 700px) {
+    .rangee { grid-template-columns: 1fr; gap: 2px; }
+    .jeu:empty { display: none; }
+    .ton { padding-left: 17px; }
   }
   /* La note garde un fond distinct : elle ne se dit jamais à voix haute. */
-  .note {
+  .fil .note {
+    margin-left: 17px;
     font-size: calc(var(--taille) * 0.45);
     border: 1px solid currentColor;
     padding: 6px 8px;
