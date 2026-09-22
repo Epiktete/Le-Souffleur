@@ -80,6 +80,17 @@ export function schemaSynopsisPour(contes: string[], marionnettes: string[]) {
         ctx.addIssue({ code: 'custom', path: ['synopsis', i, 'conte'], message: `« ${s.conte} » est proposé deux fois` });
       }
       vus.add(s.conte);
+      // Le titre est celui du conte d'origine : jamais le nom d'une marionnette.
+      // Un nom d'un seul mot (« Lapin ») peut être l'espèce du titre : il passe.
+      const nomDansLeTitre = marionnettes.find((nom) =>
+        nom.trim().includes(' ') && norm(s.titre).includes(norm(nom)));
+      if (nomDansLeTitre) {
+        ctx.addIssue({
+          code: 'custom',
+          path: ['synopsis', i, 'titre'],
+          message: `le titre reprend celui du conte d'origine, sans « ${nomDansLeTitre} »`,
+        });
+      }
       const distribues = new Set(s.distribution.map((d) => norm(d.marionnette)));
       for (const nom of marionnettes) {
         if (!distribues.has(norm(nom))) {

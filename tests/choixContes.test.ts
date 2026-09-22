@@ -1,5 +1,5 @@
 // Le choix des contes : deux barrières, l'âge et le
-// nombre, puis une note pondérée — nombre, traits, ébauche, durée, espèce.
+// nombre, puis une note pondérée — nombre, ébauche, durée, espèce, traits.
 import { describe, expect, it } from 'vitest';
 import INDEX_BRUT from '../wiki/index.json?raw';
 import {

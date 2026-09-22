@@ -324,7 +324,10 @@ ${POUR_LE_PARENT}
 
 Pour chaque synopsis :
 - « conte » : l’identifiant du conte, recopié exactement ;
-- « titre » : le titre du conte, ou un titre très proche ;
+- « titre » : le titre du conte d’origine, tel quel (« Le Lièvre et la
+  Tortue »). Seule retouche permise : si une marionnette change l’espèce d’un
+  personnage nommé dans le titre, le mot de l’espèce suit (joué par un lapin,
+  « Le Lapin et la Tortue »). Jamais le nom d’une marionnette du parent ;
 - « accroche » : une ligne simple qui dit de quoi il s’agit, 120 caractères au plus ;
 - « resume » : l’histoire du conte telle qu’elle sera jouée, dans son ordre et
   jusqu’à sa fin, en trois à cinq points, avec les noms des marionnettes. Une

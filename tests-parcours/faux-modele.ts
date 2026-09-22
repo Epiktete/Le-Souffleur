@@ -23,7 +23,8 @@ function synopsis(user: string, suffixe = '') {
   return {
     synopsis: contes.slice(0, 3).map((conte, i) => ({
       conte,
-      titre: `Histoire ${i + 1}${suffixe}`,
+      // Le premier porte le titre que le spectacle doit garder.
+      titre: `${i === 0 ? 'La carotte disparue' : `Histoire ${i + 1}`}${suffixe}`,
       accroche: `De quoi parle l’histoire ${i + 1}, en une ligne.`,
       resume: [
         'Doudou Lapin cherche la carotte de son anniversaire.',
@@ -43,7 +44,9 @@ function synopsis(user: string, suffixe = '') {
  * le découpage en tableaux et en actes.
  */
 const construction = {
-  titre: 'La carotte disparue',
+  // Le titre du découpage n'est pas celui du spectacle : c'est la carte
+  // choisie qui le donne.
+  titre: 'Titre du découpage',
   pitch: 'Doudou Lapin cherche la carotte de son anniversaire.',
   changements: ['Le loup du conte devient Renard Rusé, qui ne mange personne.'],
   tableaux: [

@@ -419,6 +419,15 @@ describe('le schéma des synopsis, construit pour chaque appel', () => {
     expect(valider(schema, { synopsis: [synopsis('a', accents), synopsis('b'), synopsis('c')] }).ok).toBe(true);
   });
 
+  it('refuse un titre qui reprend le nom d’une marionnette au lieu du titre du conte', () => {
+    const titre = (s: ReturnType<typeof synopsis>, x: string) => ({ ...s, titre: x });
+    const r = valider(schema, { synopsis: [titre(synopsis('a'), 'Doudou Lapin et la Tortue'), synopsis('b'), synopsis('c')] });
+    expect(r.ok).toBe(false);
+    if (!r.ok) expect(r.erreur).toContain('Doudou Lapin');
+    // Un nom d'un seul mot peut être l'espèce du titre d'origine.
+    expect(valider(schema, { synopsis: [titre(synopsis('a'), 'L’Ourse et les deux amis'), synopsis('b'), synopsis('c')] }).ok).toBe(true);
+  });
+
   it('refuse moins de trois synopsis', () => {
     expect(valider(schema, { synopsis: [synopsis('a'), synopsis('b')] }).ok).toBe(false);
   });

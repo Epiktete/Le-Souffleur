@@ -48,11 +48,12 @@ export const CHOIX = {
   /** Pas plus de ce nombre de contes d'une même origine dans la sélection. */
   parOrigine: 3,
   /**
-   * Poids des notes dans le total. On les retouche ici pour changer ce qui
-   * compte le plus, en gardant l'ordre : nombre, traits, ébauche, durée,
-   * espèce.
+   * Poids des notes dans le total. Ce qui compte le plus : le nombre de
+   * rôles, puis l'ébauche du parent, puis la durée. L'espèce et les traits
+   * des marionnettes ne font que départager : une peluche « gourmande » ne
+   * doit pas ramener sans cesse les mêmes contes de gourmands.
    */
-  poids: { nombre: 3, traits: 3, ebauche: 2.5, duree: 2, espece: 1 },
+  poids: { nombre: 3, traits: 0.5, ebauche: 2.5, duree: 2, espece: 1 },
   /** Poids de l'espèce face aux traits, dans le choix des rôles. */
   poidsEspece: 0.3,
   /** Tolérance d'âge : un conte « 5-10 ans » reste possible à 4 ans. */

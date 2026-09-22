@@ -696,7 +696,8 @@ ${formaterAdaptation(adaptation)}`;
 
   o.surAvancement({ etape: 'assemblage' });
   return {
-    titre: adaptation.titre,
+    // Le titre est celui de la carte choisie : le titre du conte d'origine.
+    titre: synopsis.titre || adaptation.titre,
     pitch: adaptation.pitch || synopsis.accroche,
     tableaux,
     actes,

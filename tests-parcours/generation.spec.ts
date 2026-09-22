@@ -163,7 +163,7 @@ test('chaque carte cite le conte d’origine, raconte, distribue et dit ce qui c
   await preparerStudio(page);
   await lancerEtAttendreLeChoix(page);
 
-  const premiere = page.locator('article').filter({ hasText: 'Histoire 1' });
+  const premiere = page.locator('article').filter({ hasText: 'La carotte disparue' });
 
   // D'où vient l'histoire : le titre du conte, son origine et sa source, lus
   // dans la fiche du répertoire et non recopiés par le modèle.
@@ -181,10 +181,10 @@ test('chaque carte cite le conte d’origine, raconte, distribue et dit ce qui c
 test('« Proposer 3 autres histoires » renouvelle les propositions', async ({ page }) => {
   await preparerStudio(page);
   await lancerEtAttendreLeChoix(page);
-  await expect(page.getByText('Histoire 1', { exact: false }).first()).toBeVisible();
+  await expect(page.getByText('La carotte disparue', { exact: false }).first()).toBeVisible();
 
   await page.getByRole('button', { name: 'Proposer 3 autres histoires' }).click();
-  await expect(page.getByText('Histoire 1 bis').first()).toBeVisible({ timeout: 15000 });
+  await expect(page.getByText('La carotte disparue bis').first()).toBeVisible({ timeout: 15000 });
 
   // Trois relances au maximum (CDC §6).
   await expect(page.getByText('2 relances possibles')).toBeVisible();
