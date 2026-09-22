@@ -51,6 +51,7 @@ import { budgetMots, dureeElements, dureeSpectacle } from './duree';
 import { choisirContes, especeDansLeTexte, roleParNom, type Candidat } from './choixContes';
 import { extraireJson } from './jsonLlm';
 import { conteParId, reference, texteDuConte, type Conte } from './repertoire';
+import { lireHistorique, malusDe } from './historiqueContes';
 import {
   attribuerMains,
   controler,
@@ -299,6 +300,8 @@ export async function proposerHistoires(
     nbMarionnettistes: dossier.nbMarionnettistes,
     exclus: dejaVu?.contes,
     ebauche: dossier.ebauche,
+    // Les contes déjà joués ou déjà montrés sur cet appareil reculent.
+    malus: malusDe(lireHistorique()),
   });
   // Moins de trois contes : le répertoire est épuisé pour ces marionnettes,
   // après trois séries de relances. Ce n'est pas une panne du modèle.

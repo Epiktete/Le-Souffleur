@@ -18,6 +18,7 @@ import {
 import type { Synopsis } from '../services/schemas';
 import type { Probleme } from '../services/scene';
 import { enregistrerSpectacle } from '../services/db';
+import { noterRencontres } from '../services/historiqueContes';
 import type { Marionnette, ParametresGeneration, Spectacle } from '../types';
 import { reglagesIa } from './reglagesIa.svelte';
 
@@ -148,6 +149,7 @@ function creerGeneration() {
           options((a) => (avancement = a)),
         );
         propositions = r;
+        noterRencontres(r.retenues.map((p) => p.conte), 'propose');
         jetons = cumulerJetons(jetons, r.jetons);
         phase = 'choix';
         avancement = null;
@@ -176,6 +178,7 @@ function creerGeneration() {
           { dossier: propositions.dossier, contes: contesVus, titres: titresVus },
         );
         propositions = r;
+        noterRencontres(r.retenues.map((p) => p.conte), 'propose');
         jetons = cumulerJetons(jetons, r.jetons);
         phase = 'choix';
         avancement = null;
@@ -224,6 +227,7 @@ function creerGeneration() {
         // pour cette raison.
         await enregistrerSpectacle($state.snapshot(spectacle) as Spectacle);
         spectacleId = spectacle.id;
+        noterRencontres([script.conteId], 'joue');
         problemes = script.problemes;
         phase = 'termine';
         avancement = null;

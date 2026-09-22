@@ -625,6 +625,11 @@ export interface OptionsChoix {
   /** Contes déjà proposés au parent, à ne pas reproposer. */
   exclus?: string[];
   ebauche?: string;
+  /**
+   * Facteur par conte, entre 0 et 1, qui multiplie sa note : les contes déjà
+   * joués ou déjà montrés sur cet appareil cèdent la place (historiqueContes).
+   */
+  malus?: Record<string, number>;
   /** Pour les tests : un autre répertoire que le vrai. */
   contes?: Conte[];
 }
@@ -712,7 +717,8 @@ export function choisirContes(
       espece: moyenne((a) => a.espece),
     };
     const total = (P.nombre * notes.nombre + P.traits * notes.traits + P.duree * notes.duree
-      + P.espece * notes.espece + (avecEbauche ? P.ebauche * notes.ebauche : 0)) / somme;
+      + P.espece * notes.espece + (avecEbauche ? P.ebauche * notes.ebauche : 0)) / somme
+      * (o.malus?.[conte.id] ?? 1);
 
     const tenus = new Set(distribution.map((a) => a.role));
     evalues.push({

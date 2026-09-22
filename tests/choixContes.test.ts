@@ -18,6 +18,7 @@ import {
   roleParNom,
 } from '../src/services/choixContes';
 import { compterMots } from '../src/services/mots';
+import { MALUS, malusDe, type Rencontre } from '../src/services/historiqueContes';
 import { CONTES, conteParId, lireFiche, texteDuConte } from '../src/services/repertoire';
 
 const INDEX = JSON.parse(INDEX_BRUT) as Record<string, { mots: number; cles: string[] }>;
@@ -313,5 +314,50 @@ describe('le choix des contes', () => {
     const six = ['Lapin', 'Renard', 'Ourse', 'Chat', 'Poule', 'Roi'].map((n, i) => m(String(i), n, ['gentil']));
     expect(choisirContes(six, { ...options, nbMarionnettistes: 2, ageAuditoire: 7 }).candidats.length)
       .toBeGreaterThanOrEqual(3);
+  });
+});
+
+describe('la mémoire des contes rencontrés varie les propositions', () => {
+  const trois = [
+    m('1', 'Doudou Lapin', ['gentil', 'peureux']),
+    m('2', 'Renard Rusé', ['rusé', 'menteur']),
+    m('3', 'Ourse Gourmande', ['gourmand', 'naïf']),
+  ];
+
+  it('un conte joué pèse moins qu’un conte seulement montré, et le cumul a un plancher', () => {
+    const f = malusDe([
+      { conte: 'a', type: 'propose' },
+      { conte: 'b', type: 'joue' },
+      { conte: 'b', type: 'propose' },
+      ...Array.from({ length: 10 }, () => ({ conte: 'c', type: 'propose' as const })),
+    ]);
+    expect(f.a).toBe(MALUS.propose);
+    // Montré puis joué : seul le malus du conte joué compte.
+    expect(f.b).toBe(MALUS.joue);
+    expect(f.c).toBe(MALUS.plancher);
+    expect(f.d).toBeUndefined();
+  });
+
+  it('avec les mêmes peluches, les séances successives proposent d’autres contes', () => {
+    // Sans mémoire, le classement est le même à chaque fois.
+    const sansMemoire = choisirContes(trois, options).candidats.slice(0, 3).map((c) => c.conte.id);
+    expect(choisirContes(trois, options).candidats.slice(0, 3).map((c) => c.conte.id)).toEqual(sansMemoire);
+
+    // Cinq séances : les trois premiers sont montrés, le premier est joué.
+    const historique: Rencontre[] = [];
+    const vus = new Set<string>();
+    const joues: string[] = [];
+    for (let seance = 0; seance < 5; seance++) {
+      const top = choisirContes(trois, { ...options, malus: malusDe(historique) })
+        .candidats.slice(0, 3).map((c) => c.conte.id);
+      // Un conte joué ne revient pas en tête la séance suivante.
+      expect(top).not.toContain(joues.at(-1));
+      top.forEach((id) => vus.add(id));
+      historique.push(...top.map((conte) => ({ conte, type: 'propose' as const })));
+      historique.push({ conte: top[0], type: 'joue' });
+      joues.push(top[0]);
+    }
+    expect(vus.size).toBeGreaterThanOrEqual(10);
+    expect(new Set(joues).size).toBe(5);
   });
 });

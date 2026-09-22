@@ -493,3 +493,19 @@ test('une revue finale qui répond hors format ne fait pas perdre le spectacle',
   await expect(page.getByText('Votre spectacle est prêt')).toBeVisible({ timeout: 30000 });
   await expect(page.getByText('La génération s’est arrêtée')).toHaveCount(0);
 });
+
+test('les contes montrés, puis celui qui est joué, sont retenus pour varier les prochaines propositions', async ({ page }) => {
+  await installerFauxModele(page);
+  await preparerStudio(page);
+  await lancerEtAttendreLeChoix(page);
+  const lire = () => page.evaluate(() => JSON.parse(localStorage.getItem('souffleur.contes.historique') ?? '[]'));
+  const montres = await lire();
+  expect(montres).toHaveLength(3);
+  expect(montres.every((r: { type: string }) => r.type === 'propose')).toBe(true);
+
+  await page.getByRole('button', { name: 'Choisir cette histoire' }).first().click();
+  await expect(page.getByText('Votre spectacle est prêt')).toBeVisible({ timeout: 30000 });
+  const apres = await lire();
+  expect(apres).toHaveLength(4);
+  expect(apres[3]).toEqual({ conte: montres[0].conte, type: 'joue' });
+});
