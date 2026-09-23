@@ -429,6 +429,75 @@ describe('le choix des contes', () => {
   });
 });
 
+describe('le vivier : générer sans avoir garni la scène', () => {
+  const vivier = [
+    m('1', 'Doudou Lapin', ['peureux'], 'un lapin gris'),
+    m('2', 'Renard Rusé', ['rusé'], 'un renard roux'),
+    m('3', 'Ourse Gourmande', ['gourmand'], 'une ourse brune'),
+    m('4', 'Pilou le Pingouin', ['curieux'], 'un pingouin'),
+    m('5', 'Mémé Tortue', ['sage'], 'une tortue'),
+    m('6', 'Zigzag la Souris', ['peureux'], 'une souris grise'),
+    m('7', 'Gros Loup', ['méchant'], 'un loup'),
+    m('8', 'Roi Corbeau', ['vantard'], 'un corbeau'),
+  ];
+  const pour = (extra: Record<string, unknown> = {}) =>
+    choisirContes([], { ageAuditoire: 6, dureeMinutes: 15, nbMarionnettistes: 1 as const, vivier, ...extra });
+
+  it('prend exactement autant de marionnettes que le conte a de rôles principaux', () => {
+    for (const c of pour().candidats) {
+      expect(c.distribution).toHaveLength(c.conte.personnages);
+      // Chacune ne joue qu'un rôle, et chaque rôle n'est tenu qu'une fois.
+      const ids = c.distribution.map((a) => a.marionnetteId);
+      expect(new Set(ids).size).toBe(ids.length);
+      const roles = c.distribution.map((a) => a.role.nom);
+      expect(new Set(roles).size).toBe(roles.length);
+      // Tous les rôles principaux sont tenus.
+      expect(c.sansMarionnette.filter((r) => !r.figurant)).toHaveLength(0);
+    }
+  });
+
+  it('la distribution change d’un conte à l’autre', () => {
+    const troupes = pour().candidats.map((c) =>
+      c.distribution.map((a) => a.marionnetteId).sort().join(','));
+    expect(new Set(troupes).size).toBeGreaterThan(1);
+  });
+
+  it('sans ébauche, ce qui se joue le mieux au castelet passe devant', () => {
+    const moyenne = (l: { notes: { castelet: number } }[]) =>
+      l.reduce((s2, c) => s2 + c.notes.castelet, 0) / l.length;
+    // Repère : la moyenne de tout le répertoire.
+    const fond = CONTES.reduce((s2, c) => s2 + noteCastelet(c), 0) / CONTES.length;
+    expect(moyenne(pour().candidats)).toBeGreaterThan(fond);
+    expect(moyenne(pour().candidats)).toBeGreaterThan(0.85);
+  });
+
+  it('avec une ébauche, c’est la demande écrite qui décide', () => {
+    const sans = pour().candidats.map((c) => c.conte.id);
+    const avec = pour({ ebauche: 'une histoire de loup dans la forêt' });
+    expect(avec.candidats.map((c) => c.conte.id)).not.toEqual(sans);
+    // Les contes remontés parlent du loup : leur note d'ébauche n'est pas nulle.
+    expect(avec.candidats[0].notes.ebauche).toBeGreaterThan(0);
+  });
+
+  it('un vivier de deux marionnettes écarte les contes à trois rôles', () => {
+    const r = choisirContes([], {
+      ageAuditoire: 6, dureeMinutes: 5, nbMarionnettistes: 1 as const,
+      vivier: vivier.slice(0, 2),
+    });
+    expect(r.candidats.length).toBeGreaterThan(0);
+    for (const c of r.candidats) expect(c.conte.personnages).toBeLessThanOrEqual(2);
+  });
+
+  it('une seule marionnette dans la marionnethèque reste jouable', () => {
+    const r = choisirContes([], {
+      ageAuditoire: 6, dureeMinutes: 5, nbMarionnettistes: 1 as const,
+      vivier: vivier.slice(0, 1),
+    });
+    expect(r.candidats.length).toBeGreaterThan(0);
+    for (const c of r.candidats) expect(c.distribution).toHaveLength(1);
+  });
+});
+
 describe('la mémoire des contes rencontrés varie les propositions', () => {
   const trois = [
     m('1', 'Doudou Lapin', ['gentil', 'peureux']),

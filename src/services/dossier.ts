@@ -30,17 +30,34 @@ export interface Dossier {
   budgetMotsTotal: number;
 }
 
+/** Les fiches telles que le modèle les lit. */
+export function fichesDe(marionnettes: Marionnette[]): FicheMarionnette[] {
+  return marionnettes.map((m) => ({
+    nom: m.nom,
+    description: m.description,
+    traits: [...m.traits],
+  }));
+}
+
+/**
+ * Le même dossier, resserré sur les marionnettes qui jouent vraiment.
+ *
+ * En mode automatique, le dossier de la phase 1 liste la réunion des
+ * distributions des huit contes candidats. Une fois le conte choisi, seules
+ * celles de SA distribution entrent en scène : les étapes d'écriture ne
+ * doivent pas lire le nom des autres.
+ */
+export function dossierPour(dossier: Dossier, marionnettes: Marionnette[]): Dossier {
+  return { ...dossier, marionnettes: fichesDe(marionnettes) };
+}
+
 /** Construit le dossier envoyé au modèle. */
 export function construireDossier(
   marionnettes: Marionnette[],
   parametres: Omit<ParametresGeneration, 'modele' | 'marionnetteIds'>,
 ): Dossier {
   return {
-    marionnettes: marionnettes.map((m) => ({
-      nom: m.nom,
-      description: m.description,
-      traits: [...m.traits],
-    })),
+    marionnettes: fichesDe(marionnettes),
     dureeMinutes: parametres.dureeMinutes,
     ageAuditoire: parametres.ageAuditoire,
     nbMarionnettistes: parametres.nbMarionnettistes,

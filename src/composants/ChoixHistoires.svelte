@@ -10,6 +10,7 @@
   // chaque carte, et « Proposer 3 autres histoires » (3 relances au maximum).
   import { tg } from '../textes';
   import { generation } from '../etat/generation.svelte';
+  import { studio } from '../etat/studio.svelte';
   import type { Synopsis } from '../services/schemas';
 
   /** Une consigne d'ajustement par carte : elles sont indépendantes. */
@@ -18,6 +19,9 @@
   const synopsis = $derived(generation.propositions?.retenues ?? []);
 
   function choisir(s: Synopsis) {
+    // Si la scène était vide, l'outil a choisi qui joue : on pose sa troupe
+    // sur la scène, pour que le parent la retrouve au retour (CDC §7).
+    studio.garnirScene(generation.distributionDe(s).map((m) => m.id));
     void generation.ecrire(s, (ajustements[s.id] ?? '').trim());
   }
 </script>

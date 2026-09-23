@@ -91,6 +91,20 @@ function creerStudio() {
       enregistrerBientot();
     },
 
+    /**
+     * Remplace la scène par cette troupe, dans l'ordre donné.
+     *
+     * Sert au mode automatique : quand le parent retient une histoire choisie
+     * sans qu'il ait garni la scène, il doit retrouver sur la scène les
+     * marionnettes que l'outil a distribuées (CDC §7).
+     */
+    garnirScene(ids: Id[]) {
+      const troupe = ids.slice(0, BORNES.marionnettesParSpectacle.max);
+      if (troupe.length === 0) return;
+      r.marionnetteIds = troupe;
+      enregistrerBientot();
+    },
+
     retirer(id: Id) {
       r.marionnetteIds = r.marionnetteIds.filter((x) => x !== id);
       enregistrerBientot();

@@ -120,10 +120,26 @@ test('l’ébauche ne porte plus de conseil de prudence', async ({ page }) => {
   await expect(page.getByText(/prénom de vos enfants/)).toHaveCount(0);
 });
 
-test('sans marionnette, le bouton de génération est désactivé et dit pourquoi', async ({ page }) => {
+test('marionnethèque vide : le bouton est désactivé et dit pourquoi', async ({ page }) => {
   const bouton = page.getByRole('button', { name: /Configurer ma clé IA|Générer le script/ });
   await expect(bouton).toBeDisabled();
-  await expect(page.getByText('Ajoutez au moins une marionnette aux personnages')).toBeVisible();
+  await expect(page.getByText('Créez d’abord une marionnette')).toBeVisible();
+});
+
+test('scène vide mais marionnethèque garnie : on peut générer quand même', async ({ page }) => {
+  // CDC §7 : le parent qui veut juste « une histoire » ne fait pas de casting
+  // d'abord ; le théâtre choisit l'histoire, puis les marionnettes qu'elle
+  // demande.
+  await creerMarionnette(page, 'Doudou');
+  // Elle reste dans la marionnethèque, personne ne la met sur la scène.
+  await expect(scene(page)).toContainText('0 / 6');
+
+  const bouton = page.getByRole('button', { name: /Configurer ma clé IA|Générer le script/ });
+  await expect(bouton).toBeEnabled();
+  await expect(page.getByText('le théâtre prendra celles que l’histoire demande', { exact: false }))
+    .toBeVisible();
+  // Et la scène vide l'annonce elle aussi.
+  await expect(scene(page)).toContainText('laissez la scène vide');
 });
 
 test('sans clé, le bouton mène aux paramètres IA', async ({ page }) => {

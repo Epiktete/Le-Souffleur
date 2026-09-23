@@ -24,8 +24,17 @@
   // La première fois, la visite guidée présente l'accueil.
   $effect(() => { visite.lancer('accueil'); });
 
-  /** Message affiché quand la génération n'est pas encore possible. */
-  const blocage = $derived(studio.sceneVide ? ts.generer.sansMarionnette : null);
+  /**
+   * La scène vide ne bloque plus : l'outil choisit alors l'histoire d'abord,
+   * puis les marionnettes qu'elle demande (CDC §7). Il ne reste qu'un cas
+   * impossible — une marionnethèque vide, où il n'y a rien à distribuer.
+   */
+  const blocage = $derived(
+    studio.sceneVide && bibliotheque.liste.length === 0 ? ts.generer.sansMarionnette : null,
+  );
+
+  /** Vrai quand c'est l'outil qui choisira la distribution. */
+  const automatique = $derived(studio.sceneVide && bibliotheque.liste.length > 0);
 
   /** Les marionnettes retenues, dans l'ordre de la scène. */
   const distribution = $derived(
@@ -40,13 +49,18 @@
       naviguer({ nom: 'parametres' });
       return;
     }
-    void generation.proposer(distribution, {
-      dureeMinutes: studio.valeurs.dureeMinutes,
-      ageAuditoire: studio.valeurs.ageAuditoire,
-      nbMarionnettistes: studio.valeurs.nbMarionnettistes,
-      interactionPublic: studio.valeurs.interactionPublic,
-      ebauche: studio.valeurs.ebauche,
-    });
+    void generation.proposer(
+      distribution,
+      {
+        dureeMinutes: studio.valeurs.dureeMinutes,
+        ageAuditoire: studio.valeurs.ageAuditoire,
+        nbMarionnettistes: studio.valeurs.nbMarionnettistes,
+        interactionPublic: studio.valeurs.interactionPublic,
+        ebauche: studio.valeurs.ebauche,
+      },
+      // Scène vide : toute la marionnethèque est offerte au choix.
+      automatique ? bibliotheque.liste : undefined,
+    );
   }
 
   // Un spectacle terminé doit apparaître aussitôt dans la colonne de droite.
@@ -148,6 +162,8 @@
       <!-- Le bouton désactivé doit dire pourquoi il l'est (CDC §7) -->
       {#if blocage}
         <p class="aide" aria-live="polite">{blocage}</p>
+      {:else if automatique}
+        <p class="aide" aria-live="polite">{ts.generer.automatique}</p>
       {/if}
     {/if}
   </div>

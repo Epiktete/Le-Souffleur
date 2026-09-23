@@ -294,6 +294,8 @@ export function promptSynopsis(
   contes: string,
   /** Titres déjà montrés au parent, s’il a demandé trois autres histoires. */
   dejaVus: string[],
+  /** Vrai quand la scène était vide et que l’outil a choisi qui joue. */
+  automatique = false,
 ) {
   const relance = dejaVus.length
     ? `\n\nLe parent a déjà vu, et n’a pas retenu : ${dejaVus.map((x) => `« ${x} »`).join(', ')}.
@@ -309,11 +311,18 @@ Ton travail ici : parmi les contes qu’on te présente, en retenir TROIS SYNOPS
 — trois contes qui feront chacun un bon spectacle avec les marionnettes de ce
 parent — et les lui présenter.
 
-Les contes présentés ont déjà été choisis pour ces marionnettes. Pour chacun,
+${automatique
+  ? `Le parent n’a choisi AUCUNE marionnette : il laisse le théâtre décider. Le
+dossier liste toutes celles dont il dispose, mais CHAQUE CONTE A DÉJÀ LA SIENNE,
+donnée sous « Distribution proposée ». Tu t’y tiens : pour un conte donné, ne
+fais jouer que les marionnettes de SA distribution, et toutes. Une marionnette
+du dossier qui n’apparaît pas dans la distribution d’un conte ne joue pas dans
+ce conte-là — ne l’y ajoute pas, ne la mentionne pas.`
+  : `Les contes présentés ont déjà été choisis pour ces marionnettes. Pour chacun,
 on te propose une distribution : quelle marionnette joue quel rôle. Tu peux la
 changer si le spectacle y gagne, à trois conditions : chaque marionnette joue
 exactement un rôle du conte ; tous les rôles principaux sont tenus ; une petite
-bête douce ne joue jamais un loup, un prédateur ou un ogre.
+bête douce ne joue jamais un loup, un prédateur ou un ogre.`}
 
 Pour choisir, demande-toi lequel ces marionnettes joueront le mieux, lequel
 tient dans ${d.dureeMinutes} minutes sans perdre sa fin (on te dit pour chacun
@@ -335,8 +344,9 @@ Pour chaque synopsis :
   marionnette animale garde son espèce : si Doudou Lapin joue le Crocodile, on
   écrit « Doudou Lapin guette au bord de l’eau », jamais « Doudou Lapin le
   crocodile » ;
-- « distribution » : pour CHAQUE marionnette, le rôle qu’elle joue (le nom du
-  rôle tel que la fiche l’écrit), et en quelques mots pourquoi elle y va bien ;
+- « distribution » : pour CHAQUE marionnette qui joue ce conte, le rôle qu’elle
+  tient (le nom du rôle tel que la fiche l’écrit), et en quelques mots pourquoi
+  elle y va bien ;
 - « changements » : un à trois points, ce qui diffère du conte et pourquoi.
 
 ${consignesAge(d.ageAuditoire)}

@@ -53,6 +53,8 @@ function creerGeneration() {
   let contexte: {
     marionnettes: Marionnette[];
     parametres: Omit<ParametresGeneration, 'modele' | 'marionnetteIds'>;
+    /** La Marionnethèque entière quand la scène était vide (CDC §7). */
+    vivier?: Marionnette[];
   } | null = null;
 
   function options(surAvancement: (a: Avancement) => void) {
@@ -126,12 +128,30 @@ function creerGeneration() {
     get relancesRestantes() { return IA.relancesPistesMax - relancesFaites; },
     get enCours() { return phase === 'propositions' || phase === 'ecriture'; },
 
-    /** Phase 1 : étapes P à 3. */
+    /**
+     * Qui joue le conte choisi. En mode automatique c'est l'application qui
+     * l'a décidé, conte par conte ; sinon c'est la scène garnie par le parent.
+     */
+    distributionDe(synopsis: Synopsis): Marionnette[] {
+      return propositions?.distributionParConte[synopsis.conte] ?? contexte?.marionnettes ?? [];
+    },
+
+    /**
+     * Phase 1 : étapes P à 3.
+     *
+     * `vivier` n'est donné que si la scène est vide : l'outil choisit alors
+     * le conte d'abord, et qui le joue ensuite (CDC §7).
+     */
     async proposer(
       marionnettes: Marionnette[],
       parametres: Omit<ParametresGeneration, 'modele' | 'marionnetteIds'>,
+      vivier?: Marionnette[],
     ) {
-      contexte = { marionnettes: instantaneMarionnettes(marionnettes), parametres };
+      contexte = {
+        marionnettes: instantaneMarionnettes(marionnettes),
+        parametres,
+        vivier: vivier && instantaneMarionnettes(vivier),
+      };
       phase = 'propositions';
       erreur = null;
       detailErreur = null;
@@ -147,6 +167,8 @@ function creerGeneration() {
           contexte.marionnettes,
           parametres,
           options((a) => (avancement = a)),
+          undefined,
+          contexte.vivier,
         );
         propositions = r;
         noterRencontres(r.retenues.map((p) => p.conte), 'propose');
@@ -176,6 +198,7 @@ function creerGeneration() {
           contexte.parametres,
           options((a) => (avancement = a)),
           { dossier: propositions.dossier, contes: contesVus, titres: titresVus },
+          contexte.vivier,
         );
         propositions = r;
         noterRencontres(r.retenues.map((p) => p.conte), 'propose');
@@ -193,10 +216,14 @@ function creerGeneration() {
       phase = 'ecriture';
       erreur = null;
 
+      // La troupe de CE conte : en mode automatique elle change d'un conte à
+      // l'autre, et c'est seulement ici qu'elle est arrêtée.
+      const troupe = this.distributionDe(synopsis);
+
       try {
         const script = await ecrireScript(
           propositions.dossier,
-          contexte.marionnettes,
+          troupe,
           synopsis,
           ajustement,
           options((a) => (avancement = a)),
@@ -205,11 +232,11 @@ function creerGeneration() {
 
         const parametres: ParametresGeneration = {
           ...contexte.parametres,
-          marionnetteIds: contexte.marionnettes.map((m) => m.id),
+          marionnetteIds: troupe.map((m) => m.id),
           modele: reglagesIa.modele,
         };
 
-        const spectacle = assemblerSpectacle(script, contexte.marionnettes, parametres, {
+        const spectacle = assemblerSpectacle(script, troupe, parametres, {
           dossier: propositions.dossier as unknown,
           contesPresentes: propositions.presentes,
           jouables: propositions.jouables,

@@ -33,6 +33,7 @@
 // les huit meilleurs, en retient trois et les raconte au parent.
 
 import INDEX_BRUT from '../../wiki/index.json?raw';
+import { BORNES } from '../config';
 import { budgetMots } from './duree';
 import { motsSignifiants } from './mots';
 import { CONTES, type Conte, type RoleConte } from './repertoire';
@@ -43,6 +44,9 @@ import type { Marionnette } from '../types';
  * tools/indexer-contes.mjs.
  */
 const INDEX = JSON.parse(INDEX_BRUT) as Record<string, { mots: number; cles: string[] }>;
+
+/** Six marionnettes au plus dans un spectacle (CDC §4). */
+const MAX_EN_SCENE = BORNES.marionnettesParSpectacle.max;
 
 /* ================================================================== */
 /* Réglages                                                            */
@@ -64,6 +68,17 @@ export const CHOIX = {
    * une fois le conte choisi (`meilleureDistribution`).
    */
   poids: { nombre: 3, traits: 0.25, ebauche: 2.5, duree: 2, espece: 1, castelet: 1 },
+  /**
+   * Poids quand le parent n'a posé aucune marionnette sur la scène et laisse
+   * l'outil puiser dans la Marionnethèque.
+   *
+   * Le nombre ne vaut plus rien : on prend exactement autant de marionnettes
+   * qu'il y a de rôles, donc tous les contes sont à égalité. Ce qui décide,
+   * c'est LA DEMANDE ÉCRITE du parent quand il y en a une (poids 4), et sinon
+   * CE QUE LE CONTE VAUT AU CASTELET (poids 3) — Guignol et Perrault d'abord,
+   * ce pour quoi le castelet a été inventé.
+   */
+  poidsVivier: { nombre: 0, traits: 0.25, ebauche: 4, duree: 2, espece: 1, castelet: 3 },
   /** Poids de l'espèce face aux traits, dans le choix des rôles. */
   poidsEspece: 0.3,
   /** Tolérance d'âge : un conte « 5-10 ans » reste possible à 4 ans. */
@@ -586,13 +601,26 @@ export function noteCastelet(
 export function meilleureDistribution(
   marionnettes: Pick<Marionnette, 'id' | 'nom' | 'description' | 'traits'>[],
   conte: Conte,
+  o: {
+    /**
+     * Vrai quand on puise dans la Marionnethèque entière au lieu d'une scène
+     * déjà garnie : toutes les marionnettes ne jouent pas, on retient les
+     * meilleures et on laisse les autres au placard. Tous les rôles
+     * principaux, eux, doivent être tenus.
+     */
+    facultatives?: boolean;
+  } = {},
 ): Attribution[] | null {
   const n = marionnettes.length;
   const principaux = conte.roles.filter((r) => !r.figurant);
-  const roles = n >= principaux.length ? conte.roles : principaux;
-  const exiges = n >= principaux.length
-    ? roles.reduce((m, r, i) => (r.figurant ? m : m | (1 << i)), 0)
-    : 0;
+  const roles = o.facultatives
+    ? principaux
+    : n >= principaux.length ? conte.roles : principaux;
+  const exiges = o.facultatives
+    ? roles.reduce((m, _r, i) => m | (1 << i), 0)
+    : n >= principaux.length
+      ? roles.reduce((m, r, i) => (r.figurant ? m : m | (1 << i)), 0)
+      : 0;
 
   const especes = marionnettes.map(especeMarionnette);
   const famillesRoles = roles.map(familleRole);
@@ -613,6 +641,12 @@ export function meilleureDistribution(
     const cle = `${i}:${pris}`;
     if (memo.has(cle)) return memo.get(cle)!;
     let meilleur: { valeur: number; choix: number[] } | null = null;
+    // Laisser cette marionnette au placard : seulement quand on puise dans la
+    // Marionnethèque, où elles sont plus nombreuses que les rôles.
+    if (o.facultatives) {
+      const suite = chercher(i + 1, pris);
+      if (suite) meilleur = { valeur: suite.valeur, choix: [-1, ...suite.choix] };
+    }
     for (let j = 0; j < roles.length; j++) {
       if (pris & (1 << j)) continue;
       const p = paires[i][j];
@@ -628,16 +662,17 @@ export function meilleureDistribution(
 
   const r = chercher(0, 0);
   if (!r) return null;
-  return r.choix.map((j, i) => {
+  return r.choix.flatMap((j, i) => {
+    if (j < 0) return []; // restée au placard
     const p = paires[i][j]!;
-    return {
+    return [{
       marionnetteId: marionnettes[i].id,
       marionnetteNom: marionnettes[i].nom,
       role: roles[j],
       traits: p.traits,
       espece: p.espece,
       communs: p.communs,
-    };
+    }];
   });
 }
 
@@ -703,6 +738,12 @@ export interface OptionsChoix {
    * joués ou déjà montrés sur cet appareil cèdent la place (historiqueContes).
    */
   malus?: Record<string, number>;
+  /**
+   * La Marionnethèque entière, quand la scène est vide : l'outil choisit
+   * lui-même qui joue. Le conte est alors choisi d'abord, la distribution
+   * ensuite — et elle diffère d'un candidat à l'autre.
+   */
+  vivier?: Pick<Marionnette, 'id' | 'nom' | 'description' | 'traits'>[];
   /** Pour les tests : un autre répertoire que le vrai. */
   contes?: Conte[];
 }
@@ -752,6 +793,9 @@ export function choisirContes(
   marionnettes: Pick<Marionnette, 'id' | 'nom' | 'description' | 'traits'>[],
   o: OptionsChoix,
 ): ResultatChoix {
+  // Mode automatique : la scène est vide, on puise dans la Marionnethèque.
+  const vivier = o.vivier;
+  const troupe = vivier ?? marionnettes;
   const n = marionnettes.length;
   const mains = o.nbMarionnettistes * 2;
   const exclus = new Set(o.exclus ?? []);
@@ -768,7 +812,7 @@ export function choisirContes(
   let possibles = pourAge(CHOIX.margeAge);
   if (possibles.length < CHOIX.presentes * 2) possibles = pourAge(CHOIX.margeAge + 2);
 
-  const P = CHOIX.poids;
+  const P = vivier ? CHOIX.poidsVivier : CHOIX.poids;
   const somme = P.nombre + P.traits + P.duree + P.espece + P.castelet
     + (avecEbauche ? P.ebauche : 0);
 
@@ -780,9 +824,15 @@ export function choisirContes(
       // longueur passe : on ne l'écarte pas sur une donnée manquante.
       const mots = INDEX[conte.id]?.mots ?? 0;
       if (mots && mots < motsSpectacle * plancher) continue;
-      const nombre = noteNombre(n, conte, mains);
+      // Le nombre. Sur une scène garnie, c'est une barrière : le conte doit
+      // aller aux marionnettes présentes. Avec le vivier, c'est l'inverse —
+      // on prend exactement autant de marionnettes qu'il y a de rôles —, et
+      // la seule limite est ce que la Marionnethèque peut fournir.
+      const nombre = vivier
+        ? (conte.personnages <= Math.min(vivier.length, MAX_EN_SCENE) ? 1 : null)
+        : noteNombre(n, conte, mains);
       if (nombre === null) continue;
-      const distribution = meilleureDistribution(marionnettes, conte);
+      const distribution = meilleureDistribution(troupe, conte, { facultatives: Boolean(vivier) });
       if (!distribution) continue;
 
       const moyenne = (f: (a: Attribution) => number) =>

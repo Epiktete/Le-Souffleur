@@ -29,6 +29,10 @@
 
   {#if studio.sceneVide}
     <p class="secondaire invite">{ts.scene.vide}</p>
+    <!-- Rien n'oblige à choisir : l'outil sait le faire (CDC §7). -->
+    {#if bibliotheque.liste.length > 0}
+      <p class="secondaire invite">{ts.scene.videAutomatique}</p>
+    {/if}
   {:else}
     <ul>
       {#each enScene as m (m.id)}

@@ -29,6 +29,23 @@ async function preparerStudio(page: Page) {
   await expect(page.getByText('5 min')).toBeVisible();
 }
 
+/**
+ * Le même studio, mais la scène reste VIDE : l'outil choisira lui-même
+ * l'histoire, puis les marionnettes qu'elle demande (CDC §7).
+ */
+async function preparerStudioSansScene(page: Page) {
+  await page.goto('/#/parametres');
+  await page.getByLabel('Clé API').fill('cle-de-test');
+  await page.getByLabel('Mémoriser la clé sur cet appareil').check();
+  await page.getByRole('button', { name: 'Enregistrer', exact: true }).click();
+  await expect(page.getByText('Enregistré.')).toBeVisible();
+
+  await page.goto('/');
+  for (const nom of TROIS_MARIONNETTES) await creerMarionnette(page, nom);
+  // Aucune n'est envoyée sur la scène.
+  await expect(scene(page)).toContainText('0 / 6');
+}
+
 /** Lance la génération et attend l'écran de choix. */
 async function lancerEtAttendreLeChoix(page: Page) {
   await page.getByRole('button', { name: 'Générer le script' }).click();
@@ -506,4 +523,38 @@ test('les contes montrés, puis celui qui est joué, sont retenus pour varier le
   const apres = await lire();
   expect(apres).toHaveLength(4);
   expect(apres[3]).toEqual({ conte: montres[0].conte, type: 'joue' });
+});
+
+test('on peut générer sans avoir garni la scène : l’outil distribue', async ({ page }) => {
+  // CDC §7 : le parent qui veut juste « une histoire » ne doit pas faire de
+  // casting d'abord. Le théâtre choisit l'histoire, puis qui la joue.
+  await preparerStudioSansScene(page);
+
+  // Le bouton n'est pas bloqué, et dit ce qui va se passer.
+  await expect(page.getByText('le théâtre prendra celles que l’histoire demande', { exact: false }))
+    .toBeVisible();
+
+  await lancerEtAttendreLeChoix(page);
+  await expect(page.getByRole('button', { name: 'Choisir cette histoire' })).toHaveCount(3);
+
+  // Chaque proposition arrive avec SA distribution.
+  const premiere = page.locator('article').filter({ hasText: 'La carotte disparue' });
+  await expect(premiere.locator('.distribution li').first()).not.toBeEmpty();
+
+  // Choisir une histoire garnit la scène de sa troupe.
+  await page.getByRole('button', { name: 'Choisir cette histoire' }).first().click();
+  await expect(page.getByText('Votre spectacle est prêt')).toBeVisible({ timeout: 20000 });
+  await expect(scene(page)).not.toContainText('0 / 6');
+});
+
+test('sans aucune marionnette, le bouton dit d’en créer une', async ({ page }) => {
+  await page.goto('/#/parametres');
+  await page.getByLabel('Clé API').fill('cle-de-test');
+  await page.getByLabel('Mémoriser la clé sur cet appareil').check();
+  await page.getByRole('button', { name: 'Enregistrer', exact: true }).click();
+  await expect(page.getByText('Enregistré.')).toBeVisible();
+  await page.goto('/');
+
+  await expect(page.getByText('Créez d’abord une marionnette')).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Générer le script' })).toBeDisabled();
 });

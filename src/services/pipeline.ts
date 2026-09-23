@@ -46,7 +46,7 @@ import {
   promptSynopsis,
 } from '../prompts';
 import { appelerModele, ErreurIa, type Acces, type Jetons } from './connecteurIa';
-import { construireDossier, trouverMarionnetteId, type Dossier } from './dossier';
+import { construireDossier, dossierPour, trouverMarionnetteId, type Dossier } from './dossier';
 import { budgetMots, dureeElements, dureeSpectacle } from './duree';
 import { choisirContes, especeDansLeTexte, roleParNom, type Candidat } from './choixContes';
 import { extraireJson } from './jsonLlm';
@@ -277,6 +277,12 @@ export interface PropositionsResultat {
   jouables: number;
   /** Les trois synopsis, dans l'ordre de préférence du modèle. */
   retenues: Synopsis[];
+  /**
+   * Mode automatique : qui joue, conte par conte. La scène étant vide, la
+   * distribution n'est connue qu'après le choix du conte — et elle diffère
+   * d'un candidat à l'autre. Vide quand le parent a garni la scène lui-même.
+   */
+  distributionParConte: Record<string, Marionnette[]>;
   jetons: Jetons;
 }
 
@@ -291,32 +297,61 @@ export async function proposerHistoires(
   parametres: Omit<ParametresGeneration, 'modele' | 'marionnetteIds'>,
   o: OptionsPipeline,
   dejaVu?: { dossier: Dossier; contes: string[]; titres: string[] },
+  /**
+   * La Marionnethèque entière, quand la scène est vide : l'outil choisit le
+   * conte d'abord, puis qui le joue. Le dossier est alors bâti sur la RÉUNION
+   * des marionnettes retenues sur les huit candidats, jamais sur le vivier
+   * entier — sinon le prompt enfle et le modèle mélange les peluches.
+   */
+  vivier?: Marionnette[],
 ): Promise<PropositionsResultat> {
-  const dossier = dejaVu?.dossier ?? construireDossier(marionnettes, parametres);
   o.surAvancement({ etape: 'propositions' });
 
+  const reglages = dejaVu?.dossier ?? construireDossier(vivier ?? marionnettes, parametres);
   const choix = choisirContes(marionnettes, {
-    ageAuditoire: dossier.ageAuditoire,
-    dureeMinutes: dossier.dureeMinutes,
-    nbMarionnettistes: dossier.nbMarionnettistes,
+    ageAuditoire: reglages.ageAuditoire,
+    dureeMinutes: reglages.dureeMinutes,
+    nbMarionnettistes: reglages.nbMarionnettistes,
     exclus: dejaVu?.contes,
-    ebauche: dossier.ebauche,
+    ebauche: reglages.ebauche,
     // Les contes déjà joués ou déjà montrés sur cet appareil reculent.
     malus: malusDe(lireHistorique()),
+    vivier,
   });
   // Moins de trois contes : le répertoire est épuisé pour ces marionnettes,
   // après trois séries de relances. Ce n'est pas une panne du modèle.
   if (choix.candidats.length < 3) throw new ErreurIa(t.erreursIa.repertoireEpuise);
 
   const ids = choix.candidats.map((c) => c.conte.id);
+
+  // Qui joue, conte par conte. Sur une scène garnie, c’est toujours la même
+  // troupe ; avec le vivier, elle change d’un candidat à l’autre.
+  const parId = new Map((vivier ?? marionnettes).map((m) => [m.id, m]));
+  const distributionParConte: Record<string, Marionnette[]> = {};
+  for (const c of choix.candidats) {
+    distributionParConte[c.conte.id] = c.distribution
+      .map((a) => parId.get(a.marionnetteId))
+      .filter((m): m is Marionnette => m !== undefined);
+  }
+
+  // Le dossier ne décrit que les marionnettes capables de jouer l’un des huit
+  // contes retenus : la réunion des distributions, jamais la Marionnethèque
+  // entière — sinon le prompt enfle et le modèle mélange les peluches.
+  const surScene = vivier
+    ? vivier.filter((m) => Object.values(distributionParConte).some((d) => d.some((x) => x.id === m.id)))
+    : marionnettes;
+  const dossier = dejaVu?.dossier ?? construireDossier(surScene, parametres);
+
   const r = await appelJson(
     o,
     promptSynopsis(
       dossier,
-      choix.candidats.map((c) => formaterCandidat(c, marionnettes, dossier.budgetMotsTotal)).join('\n\n'),
+      choix.candidats.map((c) => formaterCandidat(c, surScene, dossier.budgetMotsTotal))
+        .join('\n\n'),
       dejaVu?.titres ?? [],
+      Boolean(vivier),
     ),
-    schemaSynopsisPour(ids, marionnettes.map((m) => m.nom)),
+    schemaSynopsisPour(ids, surScene.map((m) => m.nom)),
     TEMPERATURES.synopsis,
     BUDGETS.synopsis,
     'synopsis',
@@ -332,7 +367,7 @@ export async function proposerHistoires(
       // « doudou lapin » là où la fiche dit « Doudou Lapin ».
       distribution: s.distribution.map((d) => ({
         ...d,
-        marionnette: marionnettes.find((m) => m.id === trouverMarionnetteId(d.marionnette, marionnettes))?.nom
+        marionnette: surScene.find((m) => m.id === trouverMarionnetteId(d.marionnette, surScene))?.nom
           ?? d.marionnette,
       })),
     };
@@ -343,6 +378,7 @@ export async function proposerHistoires(
     presentes: ids,
     jouables: choix.jouables,
     retenues,
+    distributionParConte: vivier ? distributionParConte : {},
     jetons: r.jetons ?? {},
   };
 }
@@ -454,12 +490,16 @@ export interface ScriptResultat {
 }
 
 export async function ecrireScript(
-  dossier: Dossier,
+  dossierPropositions: Dossier,
   distribution: Marionnette[],
   synopsis: Synopsis,
   ajustement: string,
   o: OptionsPipeline,
 ): Promise<ScriptResultat> {
+  // En mode automatique, le dossier de la phase 1 listait la réunion des
+  // distributions des huit candidats. On le resserre sur celles qui jouent
+  // vraiment : les étapes d'écriture ne doivent pas lire le nom des autres.
+  const dossier = dossierPour(dossierPropositions, distribution);
   let jetons: Jetons = {};
   const nomDe = (id: string) => distribution.find((m) => m.id === id)?.nom ?? id;
 
