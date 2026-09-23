@@ -493,6 +493,11 @@ en entier, et le dernier acte reçoit ce qu’il lui faut, quitte à dépasser. 
 le conte est court, on le joue plus lentement, sans rien ajouter. Répartis le
 budget dans « budgetMots ».
 
+LES CHANGEMENTS ANNONCÉS AU PARENT s’appliquent ICI. Le texte transposé ne
+les porte pas encore : il ne fait que remplacer les personnages. C’est à toi
+de couper, de resserrer et de transformer ce qui a été promis — si l’enjeu
+devient un gâteau, il devient un gâteau dans les actes que tu découpes.
+
 LES PERSONNAGES SANS MARIONNETTE sont supprimés, fondus dans un autre, ou
 restent en coulisse (on les entend, on ne les voit pas). Toutes les
 marionnettes du parent jouent et entrent au moins une fois. Dis dans
@@ -535,7 +540,8 @@ Tu renvoies un objet JSON de cette forme :
    "resume": "Une ou deux phrases.",
    "passage": "De « premiers mots… » à « …derniers mots ».",
    "temps": ["…", "…", "…"],
-   "mouvements": [{"type": "entree", "marionnette": "Nom exact", "main": "M1G"}],
+   "mouvements": [{"type": "entree", "marionnette": "Nom exact", "main": "M1G"},
+                   {"type": "sortie", "marionnette": "Nom exact", "main": "M1G"}],
    "momentsPublic": ["…"],
    "budgetMots": 200}],
  "voix": [{"marionnette": "Nom exact", "voix": "voix grave et lente, dit « sapristi »"}]}

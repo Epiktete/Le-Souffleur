@@ -341,6 +341,20 @@ describe('la distribution', () => {
     expect(meilleureDistribution([m('a', 'Lapin', ['gentil']), m('b', 'Lapine', ['gentil'])], c)).toBeNull();
   });
 
+  it('une tortue ni une fourmi ne jouent le loup', () => {
+    // « petit » ne suffisait pas : une tortue est rangée dans « eau », une
+    // fourmi dans « bestiole ». Le relais a vu l'application distribuer
+    // Mémé Tortue dans le rôle du Loup du Petit Chaperon rouge.
+    const loup = { mot: 'loup', famille: 'predateur' as const };
+    for (const bete of ['une tortue verte', 'une petite fourmi', 'un lapin gris']) {
+      expect(compatibiliteEspece(especeMarionnette({ nom: 'X', description: bete }), loup))
+        .toBe(INTERDIT);
+    }
+    // Un oiseau reste permis : la famille contient l'aigle et le hibou.
+    expect(compatibiliteEspece(especeMarionnette({ nom: 'X', description: 'un aigle' }), loup))
+      .not.toBe(INTERDIT);
+  });
+
   it('une grosse bête ne tient pas un rôle dit « minuscule »', () => {
     // « Le Renard, le Lièvre et le Coq » tient dans une idée : les chiens,
     // l'ours et le taureau reculent, et c'est le petit coq qui fait fuir la

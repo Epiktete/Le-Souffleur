@@ -311,6 +311,9 @@ export const INTERDIT = 'interdit' as const;
  * une petite bête douce ne la porte pas ; l'inverse — le loup qui joue
  * l'agneau — est seulement peu probable, et il peut faire rire.
  */
+/** Familles trop douces pour tenir un rôle de prédateur ou d'ogre. */
+const DOUCES: Famille[] = ['petit', 'eau', 'bestiole'];
+
 export function compatibiliteEspece(
   marionnette: { mot: string; famille: Famille } | null,
   role: { mot: string; famille: Famille | null },
@@ -321,7 +324,12 @@ export function compatibiliteEspece(
   const r = role.famille;
   if (p === r) return 0.8;
 
-  if (p === 'petit' && (r === 'predateur' || r === 'monstre')) return INTERDIT;
+  // Une petite bête douce ne joue ni un prédateur ni un ogre. « petit » ne
+  // suffisait pas : une tortue est rangée dans « eau », une fourmi dans
+  // « bestiole », et le relais a vu l'application distribuer Mémé Tortue dans
+  // le rôle du Loup du Petit Chaperon rouge. Les oiseaux restent permis : la
+  // famille contient l'aigle, le faucon et le hibou, qui sont des prédateurs.
+  if (DOUCES.includes(p) && (r === 'predateur' || r === 'monstre')) return INTERDIT;
   if ((p === 'predateur' || p === 'monstre') && r === 'petit') return 0.2;
   if (r === 'objet' || p === 'objet') return 0.3;
 
@@ -589,6 +597,39 @@ export function noteCastelet(
   if (c.lieux.split(',').filter((l) => l.trim()).length >= 4) note -= 0.15;
   note += c.personnages >= 2 && c.personnages <= 4 ? 0.1 : -0.15;
   return Math.max(0, Math.min(1, note));
+}
+
+/**
+ * LES SOSIES, quand l'histoire repose sur eux.
+ *
+ * « Le Lièvre et le Hérisson » tient tout entier dans une ruse : la femme du
+ * hérisson lui ressemble trait pour trait, et le lièvre s'y trompe. Le conte
+ * donne donc la MÊME espèce aux deux rôles. Distribuer une tortue et un
+ * pingouin ne casse aucune règle de scène, mais supprime la ruse — le lièvre
+ * n'a plus aucune raison de se tromper.
+ *
+ * Quand deux rôles ou plus partagent une espèce dans la fiche, on regarde si
+ * les marionnettes qui les tiennent la partagent aussi. Sinon la note
+ * d'espèce baisse : le conte n'est pas interdit — le parent peut très bien
+ * vouloir le jouer —, il recule simplement derrière un conte qui n'a pas ce
+ * problème.
+ */
+function facteurJumelles(distribution: Attribution[]): number {
+  const parEspece = new Map<string, Attribution[]>();
+  for (const a of distribution) {
+    const cle = normaliser(a.role.espece);
+    parEspece.set(cle, [...(parEspece.get(cle) ?? []), a]);
+  }
+  let facteur = 1;
+  for (const groupe of parEspece.values()) {
+    if (groupe.length < 2) continue;
+    const familles = new Set(groupe.map((a) => familleRole(a.role).famille));
+    // Les marionnettes de ce groupe partagent-elles une famille ?
+    const tenues = new Set(groupe.map((a) => a.espece >= 0.8));
+    if (familles.size === 1 && !tenues.has(false)) continue;
+    facteur *= 0.6;
+  }
+  return facteur;
 }
 
 /**
@@ -890,7 +931,7 @@ export function choisirContes(
         traits: (moyenne((a) => a.traits) + 1) / 2,
         duree: infos.mots ? noteDuree(infos.mots, motsSpectacle) : 0.5,
         ebauche: avecEbauche ? noteEbauche(o.ebauche!, conte, infos.cles) : 0,
-        espece: moyenne((a) => a.espece),
+        espece: moyenne((a) => a.espece) * facteurJumelles(distribution),
         castelet: noteCastelet(conte),
       };
       const total = (P.nombre * notes.nombre + P.traits * notes.traits + P.duree * notes.duree

@@ -1,0 +1,242 @@
+Marionnettes du parent :
+- Mémé Tortue
+  Traits : sage, têtu
+  Apparence : Une tortue verte à la carapace molle.
+- Pilou le Pingouin
+  Traits : curieux, bavard
+  Apparence : Un pingouin noir et blanc, le bec cousu de travers.
+- Roi Corbeau
+  Traits : vantard, orgueilleux
+  Apparence : Un corbeau noir au bec luisant.
+
+Réglages du spectacle :
+- durée visée : 8 minutes, soit environ 800 mots dits
+- âge du public : 7 ans
+- marionnettistes : 1, donc 2 mains
+- interaction avec le public : quelques moments, bien choisis
+
+Ébauche du parent, qui a servi à choisir le conte :
+« une histoire de course ou de pari, où le plus lent gagne »
+
+Contes présentés, du plus proche au moins proche de ces marionnettes :
+
+### de-lievre-et-herisson — Le Lièvre et le Hérisson
+Origine : Allemagne (Basse-Saxe). Jacob et Wilhelm Grimm, Contes de l'enfance et du foyer, 1857 (n° 187), en bas-allemand.
+Conte d'animaux, pour les 3-10 ans. 3 rôle(s) principal(aux), 0 figurant(s).
+Le conte fait environ 1184 mots ; le spectacle en dira environ 800 : un peu plus long que le spectacle : on le joue en coupant au plus un épisode.
+Rôles du conte :
+  - le Hérisson (hérisson) : rusé, minuscule, têtu
+  - le Lièvre (lièvre) : orgueilleux, vantard
+  - la Femme du Hérisson (hérisson) : grognon, courageux
+Distribution proposée :
+  - Mémé Tortue joue le Hérisson [hérisson → tortue] (en commun : tetu)
+  - Pilou le Pingouin joue la Femme du Hérisson [hérisson → pingouin]
+  - Roi Corbeau joue le Lièvre [lièvre → corbeau] (en commun : vantard, orgueilleux)
+
+**Essence.** Le lièvre se moque des jambes tordues du hérisson ; celui-ci le défie à la course et gagne sans courir, grâce à sa femme qui lui ressemble trait pour trait, postée à l'arrivée.
+
+**Trame.**
+1. Un dimanche matin, le lièvre se moque des jambes du hérisson.
+2. Piqué, le hérisson parie qu'il le battra à la course.
+3. Il va chercher sa femme et la poste au bout du sillon.
+4. Le lièvre file ; à l'arrivée : « Je suis déjà là ! » Il repart dans l'autre sens : « Je suis déjà là ! »
+5. Le lièvre s'obstine jusqu'à tomber d'épuisement ; le hérisson emporte l'enjeu.
+
+**À adapter.** Le lièvre n'en meurt pas : il s'écroule, essoufflé, et reconnaît sa défaite. L'enjeu devient un gâteau ou une médaille. Deux marionnettes de hérisson identiques, ou une seule qui passe par-dessous le castelet : le public est dans le secret.
+
+### afr-tortue-et-elephant — La Tortue et l’Éléphant
+Origine : Konde (Malawi, Tanzanie). René Basset, Contes populaires d’Afrique, 1903.
+Conte d'animaux, pour les 3-9 ans. 3 rôle(s) principal(aux), 1 figurant(s).
+Le conte fait environ 543 mots ; le spectacle en dira environ 800 : il faudra le jouer plus longuement qu’il ne se raconte.
+Rôles du conte :
+  - la Tortue (tortue) : rusé, minuscule, vantard
+  - l'Éléphant (éléphant) : orgueilleux, vantard, naïf
+  - la Femme de la Tortue (tortue) : rusé
+  - la famille de la Tortue (tortue) : farceur — figurant
+Distribution proposée :
+  - Mémé Tortue joue la Femme de la Tortue
+  - Pilou le Pingouin joue la Tortue [tortue → pingouin]
+  - Roi Corbeau joue l'Éléphant [éléphant → corbeau] (en commun : vantard, orgueilleux)
+Rôles sans marionnette, à supprimer, fondre ou laisser en coulisse : la famille de la Tortue
+
+**Essence.** La tortue se vante de sauter par-dessus l'éléphant puis de le battre à la course ; elle gagne les deux fois, grâce à des tortues identiques postées au bon endroit.
+
+**Trame.**
+1. « Tu te crois seul grand ? Je saute par-dessus toi ! » L'éléphant rit ; rendez-vous demain.
+2. La tortue cache sa femme de l'autre côté du chemin.
+3. « Hop ! » d'un côté, « Hé ! » de l'autre : l'éléphant se retourne, elle est déjà là-bas.
+4. Vexé, il la défie à la course ; la nuit, elle poste toute sa famille le long de la route.
+5. À chaque « Tortue ? », une voix répond « Ici ! »… devant lui. L'éléphant s'épuise.
+
+**À adapter.** Parfait pour marionnettes : deux tortues identiques suffisent, en jouant de cachettes. Le public est complice du secret. Parenté avec « Le Lièvre et le Hérisson ».
+
+### fr-perrault-chaperon-rouge — Le Petit Chaperon rouge
+Origine : France. Charles Perrault, Histoires ou contes du temps passé, 1697.
+Conte merveilleux, pour les 3-8 ans. 3 rôle(s) principal(aux), 1 figurant(s).
+Le conte fait environ 708 mots ; le spectacle en dira environ 800 : presque la bonne taille : on le joue tel quel, sans rien couper.
+Rôles du conte :
+  - le Petit Chaperon rouge (fillette) : naïf, gentil, curieux
+  - le Loup (loup) : méchant, rusé, gourmand
+  - la Mère-grand (grand-mère) : gentil
+  - la Mère (mère) : gentil — figurant
+Distribution proposée :
+  - Mémé Tortue joue le Loup [loup → tortue]
+  - Pilou le Pingouin joue le Petit Chaperon rouge [reste un·e pingouin qui fait le métier de fillette] (en commun : curieux)
+  - Roi Corbeau joue la Mère-grand [reste un·e corbeau qui fait le métier de grand-mère]
+Rôles sans marionnette, à supprimer, fondre ou laisser en coulisse : la Mère
+
+**Essence.** Envoyée porter une galette à sa grand-mère, une fillette dit tout au loup qu'elle rencontre ; il arrive avant elle, prend la place de la grand-mère dans le lit, et le dialogue des « grands bras, grandes oreilles, grandes dents » mène à la chute.
+
+**Trame.**
+1. La mère envoie le Petit Chaperon rouge porter une galette et un pot de beurre à sa mère-grand malade.
+2. Dans le bois, elle rencontre le loup et lui explique tout ; il propose une course, chacun son chemin.
+3. Le loup arrive le premier, se fait ouvrir (« Tire la chevillette, la bobinette cherra »), prend la place de la grand-mère.
+4. Le Chaperon rouge arrive, trouve sa mère-grand bien changée.
+5. « Que vous avez de grandes dents ! — C'est pour te manger ! »
+
+**À adapter.** La fin de Perrault (le loup mange la fillette) est à remplacer : la grand-mère était cachée dans l'armoire, un bûcheron ou un chien arrive, ou le Chaperon rouge comprend à temps et chasse le loup avec le public. Le dialogue des « grands… » est la scène que tous les enfants attendent et récitent. Perrault joue aussi sur la course : le public voit le loup prendre le raccourci.
+
+### ru-renard-lievre-coq — Le Renard, le Lièvre et le Coq
+Origine : Russie. Alexandre Afanassiev, Contes populaires russes, 1855-1863.
+Conte en randonnée, pour les 3-8 ans. 3 rôle(s) principal(aux), 3 figurant(s).
+Le conte fait environ 744 mots ; le spectacle en dira environ 800 : presque la bonne taille : on le joue tel quel, sans rien couper.
+Rôles du conte :
+  - le petit Lièvre (lièvre) : gentil, peureux, généreux
+  - la Renarde (renard) : rusé, méchant, vantard
+  - le Coq (coq) : courageux, minuscule, bavard
+  - les Chiens (chien) : vantard, peureux — figurant
+  - l'Ours (ours) : vantard, peureux — figurant
+  - le Taureau (taureau) : vantard, peureux — figurant
+Distribution proposée :
+  - Mémé Tortue joue le petit Lièvre [lièvre → tortue]
+  - Pilou le Pingouin joue le Coq [coq → pingouin] (en commun : bavard)
+  - Roi Corbeau joue la Renarde [renard → corbeau] (en commun : vantard)
+Rôles sans marionnette, à supprimer, fondre ou laisser en coulisse : les Chiens, l'Ours, le Taureau
+
+**Essence.** La renarde, dont la maison de glace a fondu, s'installe chez le lièvre et le met dehors ; les grands animaux reculent tous devant sa menace, et c'est le petit coq qui la fait déguerpir.
+
+**Trame.**
+1. Au printemps, la maison de glace de la renarde fond ; elle s'invite chez le lièvre et le chasse.
+2. Les chiens veulent la déloger ; « si je saute, les poils vont voler ! » Ils fuient.
+3. L'ours, puis le taureau, même menace, même fuite.
+4. Le coq arrive, sa faux sur l'épaule, et chante trois fois sa menace.
+5. « Je m'habille… je mets mon manteau… » La renarde s'enfuit ; le coq vit avec le lièvre.
+
+**À adapter.** La faux devient un grand balai ou une trompette ; la renarde s'enfuit, on ne la blesse pas. La réplique « si je saute, si je bondis… » et le cocorico sont des refrains pour le public. Les grands aides peuvent être réduits à deux.
+
+### dk-ce-que-fait-le-vieux — Ce que fait le vieux est bien fait
+Origine : Danemark. Hans Christian Andersen, 1861, d'après un conte populaire.
+Conte facétieux, pour les 4-10 ans. 3 rôle(s) principal(aux), 5 figurant(s).
+Le conte fait environ 1919 mots ; le spectacle en dira environ 800 : un peu plus long que le spectacle : on le joue en coupant au plus un épisode.
+Rôles du conte :
+  - le Paysan (grand-père) : naïf, gentil, rêveur
+  - la Paysanne (grand-mère) : gentil, généreux, farceur
+  - l'Étranger qui parie (voyageur) : vantard, curieux
+  - les Marchands de la route (marchand) : bavard — figurant
+  - la Vache (vache) : gentil — figurant
+  - le Mouton (mouton) : timide — figurant
+  - l'Oie (oie) : bavard — figurant
+  - la Poule (poule) : coquin — figurant
+Distribution proposée :
+  - Mémé Tortue joue le Paysan [reste un·e tortue qui fait le métier de grand-père]
+  - Pilou le Pingouin joue la Paysanne [reste un·e pingouin qui fait le métier de grand-mère]
+  - Roi Corbeau joue l'Étranger qui parie [reste un·e corbeau qui fait le métier de voyageur] (en commun : vantard)
+Rôles sans marionnette, à supprimer, fondre ou laisser en coulisse : les Marchands de la route, la Vache, le Mouton, l'Oie, la Poule
+
+**Essence.** Le vieux échange son cheval contre une vache, la vache contre un mouton… jusqu'à un sac de pommes pourries ; des étrangers parient que sa femme va le gronder, et à chaque échange qu'il avoue, elle trouve une raison de s'en réjouir.
+
+**Trame.**
+1. La femme envoie son mari vendre ou échanger le cheval : « Ce que tu fais est toujours bien fait. »
+2. En route : cheval contre vache, vache contre mouton, mouton contre oie, oie contre poule, poule contre pommes pourries.
+3. À l'auberge, deux riches étrangers entendent l'histoire et parient qu'il sera grondé.
+4. À la maison, il avoue chaque échange ; à chaque fois la femme s'en félicite.
+5. Pour les pommes pourries, elle l'embrasse : la voisine avare ne pourra plus dire qu'elle n'a même pas une pomme pourrie à prêter. Les parieurs paient.
+
+**À adapter.** Parfait tel quel. Le public, qui sait tout, parie avec les étrangers. Frère du « Jean la Chance » de Grimm : ici, l'échange est puni par personne et récompensé par l'amour. Les animaux peuvent être des voix, ou n'en garder que deux.
+
+### ja-mariage-souris — Le Mariage de la souris
+Origine : Japon. conte populaire, dans la version de Kusuyama Masao (1884-1950).
+Conte en chaîne, pour les 3-8 ans. 3 rôle(s) principal(aux), 4 figurant(s).
+Le conte fait environ 671 mots ; le spectacle en dira environ 800 : presque la bonne taille : on le joue tel quel, sans rien couper.
+Rôles du conte :
+  - le Père Souris (souris) : orgueilleux, vantard, naïf
+  - la Fille Souris (souris) : gentil, timide
+  - le Soleil (soleil) : sage, gentil
+  - le Nuage (nuage) : sage — figurant
+  - le Vent (vent) : sage — figurant
+  - le Mur (mur) : sage — figurant
+  - Chûsuke (souris) : gentil, timide — figurant
+Distribution proposée :
+  - Mémé Tortue joue la Fille Souris [souris → tortue]
+  - Pilou le Pingouin joue le Soleil [soleil → pingouin]
+  - Roi Corbeau joue le Père Souris [souris → corbeau] (en commun : vantard, orgueilleux)
+Rôles sans marionnette, à supprimer, fondre ou laisser en coulisse : le Nuage, le Vent, le Mur, Chûsuke
+
+**Essence.** Un père souris veut le plus grand du monde pour mari de sa fille ; le Soleil l'envoie au Nuage, le Nuage au Vent, le Vent au Mur — et le Mur avoue qu'il ne peut rien contre les souris.
+
+**Trame.**
+1. La fille des souris est si belle qu'aucune souris ne semble digne d'elle.
+2. Le père monte demander au Soleil ; « le Nuage est plus fort, il me cache ».
+3. Le Nuage : « le Vent est plus fort, il me chasse ». Le Vent : « le Mur est plus fort, il m'arrête ».
+4. Le Mur : « Les souris sont plus fortes que moi : elles me percent et passent au travers ! »
+5. Le père rentre fier ; sa fille épouse la souris d'à côté.
+
+**À adapter.** Le mariage devient une amitié ou « le meilleur ami pour jouer ». Chaîne parfaite pour les petits : le public devine le suivant. Les éléments (soleil, nuage, vent, mur) se font avec des accessoires simples ou des voix. Parent africain : « Qui est le plus fort ? ».
+
+### ru-chat-coq-renard — Le Chat, le Coq et le Renard
+Origine : Russie. Alexandre Afanassiev, Contes populaires russes, 1855-1863 (n° 37).
+Conte d'animaux, pour les 3-8 ans. 3 rôle(s) principal(aux), 1 figurant(s).
+Le conte fait environ 816 mots ; le spectacle en dira environ 800 : presque la bonne taille : on le joue tel quel, sans rien couper.
+Rôles du conte :
+  - le Coq (coq) : naïf, gourmand, curieux
+  - le Chat (chat) : courageux, sage, grognon
+  - la Renarde (renard) : rusé, menteur, gourmand
+  - le Vieux (grand-père) : gentil — figurant
+Distribution proposée :
+  - Mémé Tortue joue le Chat [chat → tortue] (en commun : sage)
+  - Pilou le Pingouin joue le Coq [coq → pingouin] (en commun : curieux)
+  - Roi Corbeau joue la Renarde [renard → corbeau]
+Rôles sans marionnette, à supprimer, fondre ou laisser en coulisse : le Vieux
+
+**Essence.** Chaque fois qu'on le laisse seul, la renarde chante sous la fenêtre du coq pour qu'il se montre ; il se laisse tenter, et le chat accourt le sauver — mais un jour, le chat ne l'entend pas.
+
+**Trame.**
+1. Le vieux et le chat partent ; le coq garde la maison.
+2. La renarde chante : « Montre-toi à la fenêtre, je te donnerai des petits pois ! » Le coq regarde, elle l'emporte ; il appelle, le chat le sauve.
+3. Deuxième fois : le coq résiste, mange les pois jetés, puis cède ; le chat le sauve encore.
+4. Troisième fois : la renarde fait semblant de partir, le coq regarde pour vérifier.
+5. Elle l'emporte trop loin : le chat ne l'entend pas.
+
+**À adapter.** La fin est à changer : le chat, averti par le public qui crie très fort, arrive à temps, ou il a suivi en cachette ; ou dans la variante russe, le chat joue de la musique devant le terrier et délivre le coq. Le public qui crie « Ne regarde pas ! » est tout le plaisir.
+
+### en-vieille-et-cochon — La Vieille et son cochon
+Origine : Angleterre. Joseph Jacobs, English Fairy Tales, 1890.
+Conte en chaîne, pour les 3-8 ans. 3 rôle(s) principal(aux), 7 figurant(s).
+Le conte fait environ 966 mots ; le spectacle en dira environ 800 : un peu plus long que le spectacle : on le joue en coupant au plus un épisode.
+Rôles du conte :
+  - la Vieille (grand-mère) : têtu, bavard, travailleur
+  - le Petit Cochon (cochon) : têtu
+  - le Chat (chat) : rusé, gourmand
+  - le Chien (chien) : têtu — figurant
+  - le Bâton (bâton) : têtu — figurant
+  - le Feu (feu) : têtu — figurant
+  - l'Eau (eau) : têtu — figurant
+  - le Bœuf (bœuf) : têtu — figurant
+  - le Rat (rat) : têtu — figurant
+  - la Vache (vache) : gentil — figurant
+Distribution proposée :
+  - Mémé Tortue joue le Petit Cochon [cochon → tortue] (en commun : tetu)
+  - Pilou le Pingouin joue la Vieille [reste un·e pingouin qui fait le métier de grand-mère] (en commun : bavard)
+  - Roi Corbeau joue le Chat [chat → corbeau]
+Rôles sans marionnette, à supprimer, fondre ou laisser en coulisse : le Chien, le Bâton, le Feu, l'Eau, le Bœuf, le Rat, la Vache
+
+**Essence.** Le petit cochon refuse de passer la barrière ; la vieille demande de l'aide à chacun, qui refuse, et la chaîne des refus s'allonge — jusqu'au chat qui accepte, contre un peu de lait, et déclenche toute la chaîne à l'envers.
+
+**Trame.**
+1. Une vieille achète un petit cochon, qui refuse de passer la barrière.
+2. Elle demande au chien de le mordre, au bâton de taper le chien, au feu de brûler le bâton… Tous refusent.
+3. La formule s'allonge à chaque demande.
+4. Le chat accepte, si on lui apporte du lait ; la vache veut du foin ; la vieille va chercher le foin.
+5. Le chat se met en marche, et toute la chaîne suit jusqu'au cochon, qui saute la barrière.
+
+**À adapter.** Remplacer les verbes violents par des poursuites : le chien « court après » le cochon, le bâton « chatouille » le chien, le boucher devient un fermier. Trois ou quatre maillons joués, le reste en accessoires ou au dessin. Le public récite la chaîne de plus en plus longue et adore la débâcle finale.

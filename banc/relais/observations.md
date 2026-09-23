@@ -166,3 +166,42 @@
 - Les interdits de style (points de suspension, maximes) ne disaient pas
   qu'ils portent sur ce que le modèle AJOUTE, pas sur le texte du conte.
   Précisé.
+
+## Cas 3, étape 001 — synopsis
+- L'application a distribué MÉMÉ TORTUE dans le rôle du LOUP du Petit
+  Chaperon rouge. L'interdit « une petite bête douce ne joue pas un
+  prédateur » ne couvrait que la famille « petit » : une tortue est rangée
+  dans « eau », une fourmi dans « bestiole ». Étendu — les oiseaux restent
+  permis, la famille contient l'aigle et le hibou.
+- Rien ne dit comment traiter un rôle qui n'est ni animal ni humain mais une
+  force personnifiée (le Soleil, le Nuage, le Mur).
+- Les critères de choix sont listés sans ordre de priorité, alors que les
+  contes arrivent déjà classés « du plus proche au moins proche ».
+
+## Cas 3, étape 002 — transposition  ⚠ DÉFAUT DE FOND
+- « Le Lièvre et le Hérisson » tient dans une ruse : la femme du hérisson lui
+  ressemble TRAIT POUR TRAIT, et le lièvre s'y trompe. Le conte donne donc la
+  même espèce aux deux rôles. L'application a distribué une TORTUE et un
+  PINGOUIN : la ruse s'effondre, et rien ne le disait au modèle.
+- Deux correctifs : la note d'espèce baisse quand des rôles jumeaux sont
+  tenus par des espèces différentes (le conte recule sans être interdit), et
+  surtout un AVERTISSEMENT explicite est envoyé au modèle, qui doit remotiver
+  la ressemblance autrement — même chapeau, même cri, obscurité.
+
+## Cas 3, étape 003 — découpage
+- MON PROPRE AVERTISSEMENT proposait « l'obscurité » pour remotiver une
+  ressemblance, ce qui contredit l'interdit des effets de lumière. Retiré.
+- « Le Lièvre et le Hérisson » demande TROIS marionnettes visibles en même
+  temps (le coureur et les deux sosies aux deux bouts) : impossible à deux
+  mains. La barrière du nombre l'autorise pourtant, avec une simple réduction
+  de note. Certains contes ont un besoin SIMULTANÉ que le nombre de rôles ne
+  dit pas.
+
+## Cas 3, étape 004 — découpage (2e essai)
+- Le schéma des « mouvements » ne montrait qu'un exemple d'ENTREE, jamais de
+  SORTIE : le modèle devait deviner si une sortie porte une main. Même famille
+  de défaut que l'exemple incomplet de la correction. Corrigé.
+- Écart né de mon correctif sur la transposition : les « changements annoncés
+  au parent » (l'enjeu devient un gâteau) n'étaient appliqués NULLE PART — la
+  transposition les ignore désormais, et rien ne disait au découpage que
+  c'était à lui de les appliquer. Corrigé.

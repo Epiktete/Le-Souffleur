@@ -1,0 +1,65 @@
+{"synopsis": [
+  {"conte": "de-lievre-et-herisson",
+   "titre": "Le Lièvre et le Hérisson",
+   "accroche": "Mémé Tortue, moquée pour ses petites pattes, parie qu’elle battra Roi Corbeau à la course, et gagne sans courir.",
+   "resume": [
+     "Un dimanche matin, Roi Corbeau se moque des petites pattes de Mémé Tortue.",
+     "Vexée, elle le met au défi : la première arrivée gagne un gâteau.",
+     "En cachette, elle poste Pilou le Pingouin à l’autre bout du chemin, prêt à répondre à sa place.",
+     "Roi Corbeau court de toutes ses forces ; à chaque arrivée, une voix lui lance déjà « Je suis là ! »",
+     "Il s’entête à recommencer jusqu’à s’écrouler, essoufflé, et reconnaît sa défaite : Mémé Tortue remporte le gâteau."
+   ],
+   "distribution": [
+     {"marionnette": "Mémé Tortue", "role": "le Hérisson", "note": "aussi têtue que lui, elle tient tête au vantard sans jamais courir."},
+     {"marionnette": "Pilou le Pingouin", "role": "la Femme du Hérisson", "note": "sa repartie vive lui va bien pour lancer la réplique qui piège Roi Corbeau."},
+     {"marionnette": "Roi Corbeau", "role": "le Lièvre", "note": "vantard et orgueilleux comme lui, il reçoit la leçon d’humilité qu’il faut."}
+   ],
+   "changements": [
+     "Roi Corbeau ne meurt pas d’épuisement : il s’écroule, essoufflé, et reconnaît sa défaite.",
+     "La course se joue pour un gâteau plutôt que pour rien, afin que l’enjeu parle aux 7 ans.",
+     "Le tour ne repose plus sur deux marionnettes identiques mais sur la cachette : le public est mis dans le secret."
+   ]
+  },
+  {"conte": "fr-perrault-chaperon-rouge",
+   "titre": "Le Petit Chaperon rouge",
+   "accroche": "Pilou le Pingouin va voir sa mère-grand Mémé Tortue, sans savoir que Roi Corbeau a pris sa place.",
+   "resume": [
+     "La maman envoie Pilou le Pingouin porter une galette à sa mère-grand, Mémé Tortue, qui est malade.",
+     "Dans les bois, Pilou croise Roi Corbeau et lui raconte tout : où elle va, par quel chemin passer.",
+     "Roi Corbeau prend le raccourci, arrive le premier, enferme Mémé Tortue dans l’armoire et prend sa place dans le lit.",
+     "Pilou arrive à son tour et trouve sa mère-grand bien changée : « Comme vous avez de grandes ailes ! Comme vous avez un grand bec ! »",
+     "Au moment où Roi Corbeau se jette sur elle, Mémé Tortue surgit de l’armoire, alertée par les cris du public, et le chasse pour de bon."
+   ],
+   "distribution": [
+     {"marionnette": "Pilou le Pingouin", "role": "le Petit Chaperon rouge", "note": "curieuse et bavarde comme elle, elle a la spontanéité qui la pousse à tout raconter."},
+     {"marionnette": "Roi Corbeau", "role": "le Loup", "note": "assez sûr de lui pour prendre le raccourci sans hésiter et jouer les grands airs devant Pilou."},
+     {"marionnette": "Mémé Tortue", "role": "la Mère-grand", "note": "sage et posée, elle garde son calme cachée dans l’armoire jusqu’au bon moment pour surgir."}
+   ],
+   "changements": [
+     "Le loup ne mange personne : il enferme Mémé Tortue dans l’armoire, et elle surgit pour le chasser, alertée par les cris du public.",
+     "La distribution proposée est inversée entre le Loup et la Mère-grand : Roi Corbeau prend le Loup et Mémé Tortue la Mère-grand, pour qu’une petite bête à la carapace douce ne joue jamais le loup.",
+     "« Que vous avez de grandes dents ! » devient « Quel grand bec, quelles grandes ailes ! », adapté à l’espèce de Roi Corbeau."
+   ]
+  },
+  {"conte": "ru-renard-lievre-coq",
+   "titre": "Le Renard, le Lièvre et le Coq",
+   "accroche": "Roi Corbeau s’installe chez Mémé Tortue et la chasse ; seul Pilou le Pingouin réussit à la faire fuir.",
+   "resume": [
+     "Au printemps, la maison de glace de Roi Corbeau fond ; elle s’installe chez Mémé Tortue et la met dehors.",
+     "De grands animaux du bois tentent bien de l’aider, mais Roi Corbeau les menace tous, et chacun renonce et s’enfuit.",
+     "Pilou le Pingouin arrive, un grand balai sur l’épaule, et chante trois fois qu’il vient chasser Roi Corbeau.",
+     "« Je m’habille... je mets mon manteau... » : à ces mots, Roi Corbeau prend peur et s’enfuit pour de bon.",
+     "Mémé Tortue retrouve sa maison, et Pilou le Pingouin reste vivre avec elle."
+   ],
+   "distribution": [
+     {"marionnette": "Mémé Tortue", "role": "le petit Lièvre", "note": "douce et patiente, elle subit l’expulsion sans se battre, jusqu’à ce qu’on vienne l’aider."},
+     {"marionnette": "Pilou le Pingouin", "role": "le Coq", "note": "bavard comme lui, il n’hésite pas à chanter bien fort pour faire fuir l’intruse."},
+     {"marionnette": "Roi Corbeau", "role": "la Renarde", "note": "vantarde et orgueilleuse comme elle, elle joue les fortes têtes jusqu’à ce qu’on lui tienne tête."}
+   ],
+   "changements": [
+     "Les chiens, l’ours et le taureau, sans marionnette, sont fondus en « de grands animaux du bois » qui tentent d’aider et s’enfuient, sans être joués un par un.",
+     "La faux du Coq devient un grand balai, moins impressionnant pour 7 ans mais tout aussi efficace.",
+     "Roi Corbeau s’enfuit sans être ni blessé ni humiliée : la défaite reste une fuite, comme le veut l’adaptation prévue pour cet âge."
+   ]
+  }
+]}

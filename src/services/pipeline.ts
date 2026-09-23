@@ -48,7 +48,13 @@ import {
 import { appelerModele, ErreurIa, type Acces, type Jetons } from './connecteurIa';
 import { construireDossier, dossierPour, trouverMarionnetteId, type Dossier } from './dossier';
 import { budgetMots, dureeElements, dureeSpectacle } from './duree';
-import { choisirContes, especeDansLeTexte, roleParNom, type Candidat } from './choixContes';
+import {
+  choisirContes,
+  especeDansLeTexte,
+  especeMarionnette,
+  roleParNom,
+  type Candidat,
+} from './choixContes';
 import { extraireJson } from './jsonLlm';
 import { conteParId, reference, texteDuConte, type Conte } from './repertoire';
 import { lireHistorique, malusDe } from './historiqueContes';
@@ -455,6 +461,46 @@ ${k.corps}`;
  * par le parent. Calculée par l'application et imposée au modèle : il ne doit
  * jamais écrire « Petit Dragon le renard ».
  */
+/**
+ * Quand le conte fait de deux personnages des SOSIES et que les marionnettes
+ * ne se ressemblent plus.
+ *
+ * « Le Lièvre et le Hérisson » tient dans une ruse : la femme du hérisson lui
+ * ressemble trait pour trait, et le lièvre s'y trompe. Le conte donne donc la
+ * même espèce aux deux rôles. Si le parent n'a qu'une tortue et un pingouin,
+ * la ruse s'effondre en silence — le lièvre n'a plus aucune raison de se
+ * tromper, et personne ne le dit au modèle.
+ *
+ * On le lui dit, et on lui laisse le soin de remotiver la ressemblance.
+ */
+function sosiesRompus(conte: Conte, s: Synopsis, marionnettes: Marionnette[]): string {
+  const parEspece = new Map<string, { role: string; nom: string; espece: string | null }[]>();
+  for (const d of s.distribution) {
+    const role = roleParNom(conte, d.role);
+    if (!role) continue;
+    const m = marionnettes.find((x) => x.id === trouverMarionnetteId(d.marionnette, marionnettes));
+    if (!m) continue;
+    const cle = role.espece.toLowerCase().trim();
+    parEspece.set(cle, [
+      ...(parEspece.get(cle) ?? []),
+      { role: role.nom, nom: m.nom, espece: especeMarionnette(m)?.mot ?? null },
+    ]);
+  }
+  const avertissements: string[] = [];
+  for (const [espece, groupe] of parEspece) {
+    if (groupe.length < 2) continue;
+    if (new Set(groupe.map((g) => g.espece)).size === 1) continue;
+    avertissements.push(
+      `Dans le conte, ${groupe.map((g) => g.role).join(' et ')} sont tous des ${espece}s `
+      + 'et se ressemblent : c’est souvent le ressort de l’histoire. Ici ce sont '
+      + `${groupe.map((g) => g.nom).join(' et ')}, qui ne se ressemblent plus. Remotive la `
+      + 'ressemblance par autre chose — le même chapeau, le même cri, une cachette, '
+      + 'un dos tourné — ou rends la confusion possible autrement. Ne fais pas comme si de rien n’était.',
+    );
+  }
+  return avertissements.length ? `${avertissements.map((a) => `⚠ ${a}`).join('\n')}\n\n` : '';
+}
+
 export function formaterEspeces(conte: Conte, s: Synopsis, marionnettes: Marionnette[]): string {
   const consignes = s.distribution
     .map((d) => {
@@ -463,7 +509,8 @@ export function formaterEspeces(conte: Conte, s: Synopsis, marionnettes: Marionn
     })
     .filter((x): x is string => x !== null);
   if (consignes.length === 0) return '';
-  return `L’ESPÈCE DES PERSONNAGES DANS LE TEXTE, impératif : chaque marionnette
+  const sosies = sosiesRompus(conte, s, marionnettes);
+  return `${sosies}L’ESPÈCE DES PERSONNAGES DANS LE TEXTE, impératif : chaque marionnette
 animale garde son espèce. Le nom de l’animal du conte disparaît de ce QUI SE
 JOUE — répliques, didascalies, titres, résumés, formules — et seulement de là.
 Les champs où tu expliques ton travail au parent (« changements », « note »)

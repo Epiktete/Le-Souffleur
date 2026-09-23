@@ -1,0 +1,160 @@
+Marionnettes du parent :
+- Mémé Tortue
+  Traits : sage, têtu
+  Apparence : Une tortue verte à la carapace molle.
+- Pilou le Pingouin
+  Traits : curieux, bavard
+  Apparence : Un pingouin noir et blanc, le bec cousu de travers.
+- Roi Corbeau
+  Traits : vantard, orgueilleux
+  Apparence : Un corbeau noir au bec luisant.
+
+Réglages du spectacle :
+- durée visée : 8 minutes, soit environ 800 mots dits
+- âge du public : 7 ans
+- marionnettistes : 1, donc 2 mains
+- interaction avec le public : quelques moments, bien choisis
+
+Ébauche du parent, qui a servi à choisir le conte :
+« une histoire de course ou de pari, où le plus lent gagne »
+
+LE CONTE, TRANSPOSÉ POUR LES MARIONNETTES DU PARENT : Le Lièvre et le Hérisson — Allemagne (Basse-Saxe), Jacob et Wilhelm Grimm, Contes de l'enfance et du foyer, 1857 (n° 187), en bas-allemand
+C’est le texte de référence : les répliques y sont prises mot pour mot.
+
+Fiche du conte :
+**Essence.** Le lièvre se moque des jambes tordues du hérisson ; celui-ci le défie à la course et gagne sans courir, grâce à sa femme qui lui ressemble trait pour trait, postée à l'arrivée.
+
+**Trame.**
+1. Un dimanche matin, le lièvre se moque des jambes du hérisson.
+2. Piqué, le hérisson parie qu'il le battra à la course.
+3. Il va chercher sa femme et la poste au bout du sillon.
+4. Le lièvre file ; à l'arrivée : « Je suis déjà là ! » Il repart dans l'autre sens : « Je suis déjà là ! »
+5. Le lièvre s'obstine jusqu'à tomber d'épuisement ; le hérisson emporte l'enjeu.
+
+**À adapter.** Le lièvre n'en meurt pas : il s'écroule, essoufflé, et reconnaît sa défaite. L'enjeu devient un gâteau ou une médaille. Deux marionnettes de hérisson identiques, ou une seule qui passe par-dessous le castelet : le public est dans le secret.
+Retouches déjà faites à la transposition :
+- Les jambes autrefois « tordues » du personnage moqué deviennent « petites », pour coller à la morphologie d'une tortue plutôt qu'à celle d'un hérisson.
+- La phrase qui expliquait la confusion du coureur par la ressemblance entre le hérisson et sa femme est retirée et remplacée par une simple incompréhension, car une tortue et un pingouin ne se ressemblent pas.
+- « Les oreilles au vent » devient « les plumes au vent », le détail des oreilles dressées à la course n'ayant pas d'équivalent chez un corbeau.
+- Le personnage jadis nommé « la femme du hérisson » est désigné par son nom, Pilou, et n'est plus appelé « Femme » ni qualifié d'épouse ; l'adresse « mon homme » disparaît puisque Mémé Tortue est féminine.
+- La morale finale sur le mariage entre semblables (« qui est hérisson doit veiller à ce que sa femme soit aussi un hérisson ») est réécrite autour de l'idée d'un allié fidèle, puisque Mémé Tortue et Pilou ne se ressemblent pas.
+
+TEXTE TRANSPOSÉ (environ 1150 mots) :
+"""
+Cette histoire, les enfants, a l'air d'un mensonge quand on la raconte, et pourtant elle est vraie. Car mon grand-père, de qui je la tiens, disait toujours en la racontant : « Il faut bien qu'elle soit vraie, mon garçon, sinon on ne pourrait pas la raconter. » Voici comment elle s'est passée.
+
+C'était un dimanche matin, au temps de la moisson, juste quand le sarrasin était en fleur. Le soleil s'était levé tout clair dans le ciel, le vent du matin soufflait tiède sur les chaumes, les alouettes chantaient dans l'air, les abeilles bourdonnaient dans le sarrasin, les gens allaient à l'église dans leurs habits du dimanche, et toutes les créatures étaient contentes. Mémé Tortue aussi.
+
+Mémé Tortue se tenait devant sa porte, les bras croisés. Elle regardait le vent du matin et fredonnait une petite chanson, ni mieux ni plus mal qu'une tortue n'a l'habitude de chanter un beau dimanche matin. Tout en chantonnant, il lui vint l'idée que, pendant que Pilou lavait et habillait les enfants, elle pourrait bien faire un petit tour dans les champs pour voir comment poussaient ses navets. Les navets étaient tout près de sa maison, et elle en mangeait avec sa famille : elle les considérait donc comme les siens. Aussitôt dit, aussitôt fait. Mémé Tortue ferma la porte derrière elle et prit le chemin des champs.
+
+Elle n'était pas encore bien loin de chez elle, et elle allait juste tourner autour du prunellier qui se trouve devant le champ, quand elle rencontra Roi Corbeau, sorti pour une affaire du même genre : voir comment poussaient ses choux. Quand Mémé Tortue aperçut Roi Corbeau, elle lui souhaita aimablement le bonjour. Mais Roi Corbeau, qui était à sa façon un monsieur distingué, et terriblement orgueilleux avec ça, ne répondit rien à son salut. Il dit à Mémé Tortue, en prenant un air très moqueur :
+
+— Comment se fait-il que tu cours déjà les champs de si bon matin ?
+
+— Je me promène, dit Mémé Tortue.
+
+— Tu te promènes ? rit Roi Corbeau. Il me semble que tu pourrais employer tes jambes à quelque chose de mieux.
+
+Cette réponse vexa terriblement Mémé Tortue. Elle pouvait tout supporter, mais qu'on ne lui parle pas de ses jambes, justement parce qu'elles étaient petites de nature.
+
+— Tu t'imagines peut-être, dit Mémé Tortue à Roi Corbeau, que tu fais mieux que moi avec tes jambes ?
+
+— Je le pense bien, dit Roi Corbeau.
+
+— Ça se vérifie, dit Mémé Tortue. Je parie que si nous faisons la course, je te dépasse.
+
+— Laisse-moi rire, toi et tes petites jambes ! dit Roi Corbeau. Mais soit, si tu en as tellement envie. Que parions-nous ?
+
+— Une pièce d'or et une bouteille de bon vin, dit Mémé Tortue.
+
+— Tope là, dit Roi Corbeau, et on peut commencer tout de suite.
+
+— Non, rien ne presse, dit Mémé Tortue. Je n'ai encore rien avalé. Je rentre d'abord déjeuner, et dans une demi-heure je suis de retour ici.
+
+Roi Corbeau fut d'accord, et Mémé Tortue s'en alla. En chemin, elle pensait : « Roi Corbeau compte sur ses longues jambes, mais je l'aurai bien. C'est un monsieur distingué, mais ce n'est qu'un sot, et il paiera. »
+
+Arrivée chez elle, elle dit à Pilou :
+
+— Pilou, habille-toi vite, tu dois venir avec moi dans les champs.
+
+— Qu'est-ce qui se passe ? dit Pilou.
+
+— J'ai parié avec Roi Corbeau une pièce d'or et une bouteille de vin que je le battrais à la course, et tu dois être de la partie.
+
+— Mon Dieu ! se mit à crier Pilou. Tu n'as plus ta tête ? Tu as perdu la raison ? Comment peux-tu vouloir faire la course avec Roi Corbeau ?
+
+— Tiens ta langue, dit Mémé Tortue, c'est mon affaire. Allez, habille-toi, et viens.
+
+Que pouvait faire Pilou ? Il dut suivre, qu'il le veuille ou non.
+
+En chemin, Mémé Tortue dit à Pilou :
+
+— Maintenant, écoute bien ce que je vais te dire. Tu vois, c'est sur ce long champ que nous allons faire notre course. Roi Corbeau court dans un sillon et moi dans l'autre, et nous partons d'en haut. Toi, tu n'as rien d'autre à faire que de te mettre ici, en bas, dans le sillon, et quand Roi Corbeau arrivera de son côté, tu lui crieras : « Je suis déjà là ! »
+
+Ils arrivèrent au champ ; Mémé Tortue montra sa place à Pilou et monta en haut du champ. Quand elle y arriva, Roi Corbeau était déjà là.
+
+— On peut y aller ? dit Roi Corbeau.
+
+— Bien sûr, dit Mémé Tortue.
+
+— Alors en avant !
+
+Et chacun se mit dans son sillon. Roi Corbeau compta : « Un, deux, trois ! » et il fila comme une tempête jusqu'en bas du champ. Mémé Tortue, elle, fit à peu près trois pas, puis elle se tapit dans le sillon et resta tranquillement assise.
+
+Quand Roi Corbeau arriva en bas à toute allure, Pilou lui cria :
+
+— Je suis déjà là !
+
+Roi Corbeau s'arrêta net, tout étonné. Il ne comprenait pas comment Mémé Tortue avait déjà pu arriver avant lui.
+
+— Il y a quelque chose de louche, pensa Roi Corbeau. Il cria : Encore une fois ! Dans l'autre sens !
+
+Et il repartit comme une tempête, les plumes au vent. Pilou resta tranquillement à sa place. Quand Roi Corbeau arriva en haut, Mémé Tortue lui cria :
+
+— Je suis déjà là !
+
+Roi Corbeau, hors de lui, hurla :
+
+— Encore une fois ! Dans l'autre sens !
+
+— Ça ne me dérange pas, répondit Mémé Tortue. Autant de fois que tu voudras.
+
+Roi Corbeau courut encore soixante-treize fois, et Mémé Tortue tint bon à chaque fois. Chaque fois que Roi Corbeau arrivait en bas ou en haut, Mémé Tortue ou Pilou disait : « Je suis déjà là ! »
+
+Mais la soixante-quatorzième fois, Roi Corbeau n'arriva pas au bout. Au milieu du champ, il s'effondra par terre et resta là, épuisé. Mémé Tortue prit la pièce d'or et la bouteille qu'elle avait gagnées, appela Pilou hors du sillon, et tous deux rentrèrent chez eux, bien contents. Et s'ils ne sont pas morts, ils vivent encore.
+
+C'est ainsi que, sur la lande de Buxtehude, Mémé Tortue a battu Roi Corbeau à la course, et depuis ce temps, aucun corbeau n'a plus jamais eu l'idée de faire la course avec une tortue de Buxtehude.
+
+La leçon de cette histoire, c'est d'abord que personne, si distingué qu'il se croie, ne doit se moquer d'un plus petit que lui, même si ce n'est qu'une tortue. Et ensuite, que pour un bon tour, il est utile d'avoir un allié fidèle prêt à répondre à votre place. Qui est tortue doit veiller à avoir un tel ami, et ainsi de suite.
+"""
+
+LE SYNOPSIS CHOISI PAR LE PARENT : Le Lièvre et le Hérisson
+Mémé Tortue, moquée pour ses petites pattes, parie qu’elle battra Roi Corbeau à la course, et gagne sans courir.
+- Un dimanche matin, Roi Corbeau se moque des petites pattes de Mémé Tortue.
+- Vexée, elle le met au défi : la première arrivée gagne un gâteau.
+- En cachette, elle poste Pilou le Pingouin à l’autre bout du chemin, prêt à répondre à sa place.
+- Roi Corbeau court de toutes ses forces ; à chaque arrivée, une voix lui lance déjà « Je suis là ! »
+- Il s’entête à recommencer jusqu’à s’écrouler, essoufflé, et reconnaît sa défaite : Mémé Tortue remporte le gâteau.
+
+Distribution :
+- Mémé Tortue joue le Hérisson : aussi têtue que lui, elle tient tête au vantard sans jamais courir.
+- Pilou le Pingouin joue la Femme du Hérisson : sa repartie vive lui va bien pour lancer la réplique qui piège Roi Corbeau.
+- Roi Corbeau joue le Lièvre : vantard et orgueilleux comme lui, il reçoit la leçon d’humilité qu’il faut.
+
+Changements annoncés au parent :
+- Roi Corbeau ne meurt pas d’épuisement : il s’écroule, essoufflé, et reconnaît sa défaite.
+- La course se joue pour un gâteau plutôt que pour rien, afin que l’enjeu parle aux 7 ans.
+- Le tour ne repose plus sur deux marionnettes identiques mais sur la cachette : le public est mis dans le secret.
+
+⚠ Dans le conte, le Hérisson et la Femme du Hérisson sont tous des hérissons et se ressemblent : c’est souvent le ressort de l’histoire. Ici ce sont Mémé Tortue et Pilou le Pingouin, qui ne se ressemblent plus. Remotive la ressemblance par autre chose — le même chapeau, le même cri, l’obscurité, une cachette — ou rends la confusion possible autrement. Ne fais pas comme si de rien n’était.
+
+L’ESPÈCE DES PERSONNAGES DANS LE TEXTE, impératif : chaque marionnette
+animale garde son espèce. Le nom de l’animal du conte disparaît de ce QUI SE
+JOUE — répliques, didascalies, titres, résumés, formules — et seulement de là.
+Les champs où tu expliques ton travail au parent (« changements », « note »)
+peuvent nommer l’animal d’origine : c’est même le plus clair pour lui.
+Le nom générique d’une espèce qui ne désigne PAS un personnage (« on chasse
+les loups en hiver ») ne change pas non plus.
+- Mémé Tortue joue le Hérisson : dans tout le texte, ce personnage est un·e tortue, pas un·e hérisson. On l'appelle ainsi, et seuls les détails qui l'exigent changent.
+- Pilou le Pingouin joue la Femme du Hérisson : dans tout le texte, ce personnage est un·e pingouin, pas un·e hérisson. On l'appelle ainsi, et seuls les détails qui l'exigent changent.
+- Roi Corbeau joue le Lièvre : dans tout le texte, ce personnage est un·e corbeau, pas un·e lièvre. On l'appelle ainsi, et seuls les détails qui l'exigent changent.
