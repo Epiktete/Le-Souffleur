@@ -3,7 +3,7 @@ id: zh-automate-de-yanshi
 titre: L’Automate de Yan Shi
 culture: Chine
 source: "Liezi, chapitre « Les Questions de Tang », IVe siècle"
-genre: légende
+genre: conte facétieux
 age: [6, 10]
 personnages: 3
 figurants: 2

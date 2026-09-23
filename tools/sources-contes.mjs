@@ -382,19 +382,14 @@ export const CONTES = [
   nasreddin('levain-dans-le-lac', 'Du levain dans le lac', 'Göle Maya Çalmak'),
   nasreddin('qui-paie-joue-du-sifflet', 'Qui paie joue du sifflet', 'Parayı Veren Düdüğü Çalar'),
 
-  chine('attendre-le-lievre', 'Attendre le lièvre au pied de l’arbre', '守株待兔', 'Han Feizi, IIIe s. av. J.-C.', '韓非子/五蠹', ['宋人有耕田者', '宋國笑。']),
   chine('renard-et-tigre', 'Le Renard qui emprunte la force du tigre', '狐假虎威', 'Stratagèmes des Royaumes combattants, Ier s. av. J.-C.', '戰國策/卷14', ['虎求百獸而食之', '以為畏狐也']),
   chine('serpent-et-pattes', 'Ajouter des pattes au serpent', '畫蛇添足', 'Stratagèmes des Royaumes combattants', '戰國策/卷09', ['楚有祠者', '終亡其酒']),
   chine('becasseau-et-moule', 'La Bécassine et la Moule', '鷸蚌相爭', 'Stratagèmes des Royaumes combattants', '戰國策/卷30', ['蚌方出曝', '并禽之']),
-  chine('vieux-fou-et-montagnes', 'Le Vieux Fou qui déplaça les montagnes', '愚公移山', 'Liezi, IVe s.', '列子/湯問篇', ['太行、王屋二山', '無隴斷焉。']),
   chine('automate-de-yanshi', 'L’Automate de Yan Shi', '偃師造人', 'Liezi, IVe s.', '列子/湯問篇', ['周穆王西巡狩', '而時執規矩。']),
   chine('grenouille-du-puits', 'La Grenouille du vieux puits', '埳井之蛙', 'Zhuangzi, IVe s. av. J.-C.', '莊子/秋水', ['子獨不聞夫埳井之鼃乎', '規規然自失也']),
   chine('tirer-les-pousses', 'Tirer sur les pousses pour les faire grandir', '揠苗助長', 'Mencius, IVe s. av. J.-C.', '孟子/公孫丑上', ['宋人有閔其苗之不長而揠之者', '苗則槁矣']),
   chine('lance-et-bouclier', 'La Lance et le Bouclier', '自相矛盾', 'Han Feizi', '韓非子/難一', ['楚人有鬻楯與矛者', '其人弗能應也']),
   chine('seigneur-qui-aimait-les-dragons', 'Le Seigneur qui aimait les dragons', '葉公好龍', 'Xinxu, Ier s. av. J.-C.', '新序/雜事/卷五', ['葉公子高好龍', '好夫似龍而非龍者也']),
-  chine('cheval-du-vieil-homme', 'Le Cheval du vieil homme de la frontière', '塞翁失馬', 'Huainanzi, IIe s. av. J.-C.', '淮南子/人間訓', ['夫禍福之轉而相生', '父子相保']),
-  chine('jingwei', 'Jingwei comble la mer', '精衛填海', 'Livre des monts et des mers, IVe s. av. J.-C.', '山海經/北山經', ['又北二百里，曰發鳩之山', '以堙于東海']),
-  chine('kuafu', 'Kuafu poursuit le soleil', '夸父逐日', 'Livre des monts et des mers', '山海經/海外北經', ['夸父與日逐走', '化為鄧林']),
   chine('poirier-magique', 'Le Poirier magique', '種梨', 'Pu Songling, Contes extraordinaires du pavillon du loisir, 1740', '聊齋志異/第01卷', ['有鄉人貨梨於市', '又何足怪？']),
   chine('taoiste-du-mont-lao', 'Le Taoïste du mont Lao', '勞山道士', 'Pu Songling, Contes extraordinaires du pavillon du loisir, 1740', '聊齋志異/第01卷', ['邑有王生', '不止也。']),
 
@@ -402,7 +397,6 @@ export const CONTES = [
   japon('singe-et-crabe', 'Le Singe et le Crabe', '猿かに合戦', '18334'),
   japon('moineau-langue-coupee', 'Le Moineau à la langue coupée', '舌切りすずめ', '18378'),
   japon('vieux-qui-faisait-fleurir', 'Le Vieux qui faisait fleurir les arbres', '花咲かじじい', '3391'),
-  japon('urashima', 'Urashima Tarō', '浦島太郎', '3390'),
   japon('issun-boshi', 'Issun-bōshi, le garçon pas plus haut qu’un pouce', '一寸法師', '43457'),
   japon('bosse-enlevee', 'La Bosse enlevée', '瘤とり', '43461'),
   japon('bouilloire-tanuki', 'La Bouilloire du tanuki', '文福茶がま', '18336'),
@@ -414,7 +408,6 @@ export const CONTES = [
   ...[
     ['tigre-mal-eleve', 'Le Tigre mal élevé', 'The Unmannerly Tiger', 'THE UNMANNERLY TIGER', 'TOKGABI AND HIS PRANKS'],
     ['vieux-moustaches-et-lapin', 'Vieilles Moustaches Blanches et Monsieur Lapin', 'Old White Whiskers and Mr. Bunny', 'OLD WHITE WHISKERS AND MR. BUNNY', 'THE KING OF THE FLOWERS'],
-    ['pont-des-oiseaux', 'Le Pont des oiseaux dans le ciel', 'The Sky Bridge of Birds', 'THE SKY BRIDGE OF BIRDS', 'LONGKA, THE DANCING GIRL'],
   ].map(([id, titre, original, debut, fin]) => gutenberg(
     `ko-${id}`, titre, original, 'Corée', 'Asie',
     'William Elliot Griffis, Korean Fairy Tales, 1922, d’après la tradition coréenne',

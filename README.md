@@ -4,7 +4,7 @@ Générez le script d'un spectacle de marionnettes avec les peluches de vos
 enfants, puis jouez-le en lisant un prompteur piloté au clavier ou à la pédale.
 
 Le Souffleur n'invente pas d'histoire : il choisit, dans une **contothèque** de
-163 contes, fables et pièces de marionnettes du domaine public venus de toutes
+156 contes, fables et pièces de marionnettes du domaine public venus de toutes
 les cultures, ceux qui vont à vos peluches, vous en propose trois, puis adapte
 celui que vous choisissez — en lui restant fidèle.
 
