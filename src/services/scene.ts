@@ -332,14 +332,16 @@ export function controler(c: ContexteControle): Probleme[] {
         gravite: 'important',
         acteNumero: acte.numero,
         message: motsAGagner > 0
-          ? `L'acte ${acte.numero} est trop court : il dit ${Math.round(sienne)} s `
-            + `au lieu des ${Math.round(partParActe)} s de sa part. Joue plus longuement `
-            + `ce que le conte raconte déjà — environ ${motsAGagner} mots de plus — `
-            + 'sans inventer d’épisode : développe les répliques du conte, laisse les '
-            + 'personnages se répondre, étire les répétitions que le conte porte déjà.'
-          : `L'acte ${acte.numero} est trop long : il dit ${Math.round(sienne)} s au lieu `
-            + `des ${Math.round(partParActe)} s de sa part. Resserre d'environ `
-            + `${-motsAGagner} mots, en coupant ce qui ne vient pas du conte.`,
+          ? `L'acte ${acte.numero} est un peu court : ${Math.round(sienne)} s au lieu `
+            + `des ${Math.round(partParActe)} s de sa part, soit environ ${motsAGagner} mots. `
+            + 'Joue plus longuement ce que le conte raconte DÉJÀ, sans inventer '
+            + 'd’épisode : développe ses répliques, laisse les personnages se '
+            + 'répondre, étire les répétitions qu’il porte.'
+          : `L'acte ${acte.numero} est un peu long : ${Math.round(sienne)} s au lieu `
+            + `des ${Math.round(partParActe)} s de sa part, soit environ ${-motsAGagner} mots. `
+            + 'Resserre ce qui ne vient pas du conte — didascalies bavardes, '
+            + 'répliques ajoutées. C’est une jauge, pas un quota : ne coupe jamais '
+            + 'une réplique du conte ni une information dont le parent a besoin.',
       });
     }
   }

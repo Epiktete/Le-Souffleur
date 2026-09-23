@@ -90,15 +90,6 @@ import type {
 import type { z } from 'zod';
 
 /**
- * Budget de jetons par étape.
- *
- * Volontairement large : « openai/gpt-5.6-sol » et les autres modèles à
- * raisonnement décomptent leurs jetons de réflexion du même budget que le
- * texte produit. Un budget trop juste ne donne pas une réponse plus courte,
- * il donne une réponse coupée au milieu du JSON. Ce sont des plafonds : on ne
- * paie que ce qui est consommé. En cas de troncature, le budget double.
- */
-/**
  * Budget de SORTIE par étape, en jetons.
  *
  * Attention au contresens : ce n'est pas une dépense, c'est un plafond. On ne
@@ -682,7 +673,11 @@ ${formaterAdaptation(adaptation)}`;
       promptRelecture(
         dossier,
         formaterScript(actes, nomDe),
-        formaterProblemes(problemes),
+        // Pas les écarts de DURÉE : le directeur éditorial a pour consigne de
+        // ne jamais proposer de couper pour gagner du temps, et lui montrer
+        // « resserre de quarante mots » le met en contradiction avec
+        // lui-même. La durée se règle à la passe de correction, pas ici.
+        formaterProblemes(problemes.filter((p) => !/trop (court|long)/.test(p.message))),
         tableaux.map((tb) => `- ${tb.titre} : ${tb.description || '(aucune description)'}`).join('\n'),
         conteOriginal,
         transposition.texte,
@@ -923,8 +918,9 @@ Résumé : ${a.resume}
 Passage du conte joué par cet acte : ${a.passage || '(non précisé)'}
 Déroulé :
 ${a.temps.map((tp, i) => `  ${i + 1}. ${tp}`).join('\n')}
-Entrées et sorties prévues :
-${a.mouvements.map((m) => `  ${m.type} — ${m.marionnette} — main ${m.main}`).join('\n')}
+Entrées et sorties prévues, dans cet ordre (la MAIN est calculée par
+l’application : ne l’indique pas, elle sera remplacée) :
+${a.mouvements.map((m) => `  ${m.type} — ${m.marionnette}`).join('\n')}
 Moments avec le public :
 ${a.momentsPublic.map((m) => `  - ${m}`).join('\n')}
 Budget indicatif pour cet acte : environ ${a.budgetMots} mots dits — une jauge, pas une limite ; jamais au prix de la fin`;

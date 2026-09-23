@@ -1,0 +1,58 @@
+{"synopsis": [
+  {"conte": "ru-paysan-ours-renard", "titre": "Le Paysan, l'Ours et le Renard",
+   "accroche": "Un partage de récolte tourne mal, une fausse chasse fait peur, une queue se dispute toute seule.",
+   "resume": [
+     "Ourse Gourmande menace le champ de Doudou Lapin ; pour garder la paix, il lui propose un partage : les fanes pour elle, les racines pour lui.",
+     "Quand la récolte arrive, Ourse Gourmande ne reçoit que des fanes ; en goûtant un navet, elle comprend qu'elle a été trompée et se fâche.",
+     "Elle interdit à Doudou Lapin d'entrer dans la forêt ; il se retrouve bientôt sans bois pour se chauffer.",
+     "Renard Rusé invente une grande chasse pour lui faire peur ; Ourse Gourmande, terrifiée, supplie Doudou Lapin de la cacher sous son bois, et il l'emmène loin avant de la relâcher, penaude.",
+     "Renard Rusé réclame sa récompense pour ce service ; mal payée, elle se dispute avec sa propre queue devant tout le monde."
+   ],
+   "distribution": [
+     {"marionnette": "Doudou Lapin", "role": "le Paysan", "note": "inquiet et serviable, il colle au paysan peureux qui négocie plutôt que d'affronter."},
+     {"marionnette": "Renard Rusé", "role": "la Renarde", "note": "malin et vaniteux, comme la renarde rusée et bavarde du conte."},
+     {"marionnette": "Ourse Gourmande", "role": "l'Ours", "note": "gourmande comme l'ours du conte, et sa franchise colle à sa naïveté."}
+   ],
+   "changements": [
+     "L'ours caché sous le bois n'est plus menacé à la hache : Doudou Lapin l'emmène loin et la relâche, penaude.",
+     "L'épisode où le paysan sème du blé l'année suivante est coupé, pour tenir dans le temps du spectacle.",
+     "Les chiens du conte original disparaissent : c'est Renard Rusé elle-même qui invente la fausse chasse."
+   ]},
+  {"conte": "afr-renard-babouin-lion", "titre": "Le Renard, le Babouin et le Lion",
+   "accroche": "Un renard vaniteux boude un partage de fruits, va se plaindre, et reçoit une leçon bien servie.",
+   "resume": [
+     "Renard Rusé et Doudou Lapin partent ensemble en promenade, avec une règle : tout ce qu'ils trouveront sera partagé entre eux deux.",
+     "Ils trouvent un premier arbre plein de fruits ; Doudou Lapin invite Renard Rusé à se servir, mais celui-ci refuse, préférant la viande.",
+     "Au deuxième arbre, même refus : Doudou Lapin mange donc tout, seul.",
+     "Vexé, Renard Rusé va se plaindre à Ourse Gourmande : il prétend que Doudou Lapin l'a laissé mourir de faim.",
+     "Ourse Gourmande fait mine de le consoler, puis, bien franchement, lui sert... une belle assiette de fruits."
+   ],
+   "distribution": [
+     {"marionnette": "Doudou Lapin", "role": "le Babouin", "note": "serviable, il partage volontiers ; c'est lui la victime injustement accusée."},
+     {"marionnette": "Renard Rusé", "role": "le Renard", "note": "malin et vaniteux, comme le renard grincheux et de mauvaise foi du conte."},
+     {"marionnette": "Ourse Gourmande", "role": "le Lion", "note": "franche, elle rend une justice sans détour plutôt qu'une moquerie cachée."}
+   ],
+   "changements": [
+     "La fin, ouverte dans le conte original, devient une vraie chute : Ourse Gourmande sert franchement une assiette de fruits à Renard Rusé, sans se moquer en cachette.",
+     "L'histoire, plus courte que les autres, est jouée plus lentement, avec plus de détails sur la balade et les deux arbres, pour remplir les 5 minutes."
+   ]},
+  {"conte": "en-vieille-et-cochon", "titre": "La Vieille et son cochon",
+   "accroche": "Un petit lapin têtu refuse la barrière ; toute une chaîne d'amis s'unit pour le convaincre.",
+   "resume": [
+     "Renard Rusé, qui tient ici le rôle d'une grand-mère, adopte Doudou Lapin, un petit lapin têtu qui refuse de rentrer à la maison en sautant par-dessus la barrière.",
+     "Elle demande de l'aide à un animal, puis à un autre : chacun refuse, et à chaque fois la liste des refus s'allonge quand elle la redit au public.",
+     "Elle finit par demander à Ourse Gourmande, qui accepte d'aider... mais seulement contre un peu de lait ; Renard Rusé le lui donne aussitôt.",
+     "Ourse Gourmande part alors convaincre celui qui avait refusé juste avant elle, qui convainc à son tour le précédent, et ainsi de suite.",
+     "La chaîne arrive enfin jusqu'à Doudou Lapin, qui saute la barrière : tout le monde rentre content."
+   ],
+   "distribution": [
+     {"marionnette": "Doudou Lapin", "role": "le Petit Cochon", "note": "têtu à sa façon, inquiet devant la barrière ; on le convainc pas à pas, comme lui."},
+     {"marionnette": "Renard Rusé", "role": "la Vieille", "note": "elle garde son espèce de renarde mais mène l'histoire, bavarde et obstinée comme il faut pour ce rôle."},
+     {"marionnette": "Ourse Gourmande", "role": "le Chat", "note": "gourmande, elle négocie son aide contre un peu de lait, ce qui lui va bien."}
+   ],
+   "changements": [
+     "Les personnages secondaires (chien, bâton, feu…) sont réduits à un animal, puis un autre : la chaîne se raconte plus qu'elle ne se joue, pour tenir avec une seule marionnettiste.",
+     "Les gestes violents (mordre, taper, brûler) deviennent des poursuites et des taquineries, pour rester doux à 6 ans.",
+     "Renard Rusé, une renarde, joue le rôle d'une grand-mère : elle garde son espèce mais change de métier."
+   ]}
+]}

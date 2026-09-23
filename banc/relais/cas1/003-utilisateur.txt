@@ -1,0 +1,144 @@
+Marionnettes du parent :
+- Doudou Lapin
+  Traits : inquiet, serviable
+  Apparence : Un lapin en tissu beige, une oreille recousue et qui retombe.
+- Renard Rusé
+  Traits : malin, vaniteux
+  Apparence : Un renard roux au museau pointu, la queue un peu pelée.
+- Ourse Gourmande
+  Traits : gourmande, franche
+  Apparence : Une grosse ourse en peluche marron, très douce, assez lourde.
+
+Réglages du spectacle :
+- durée visée : 5 minutes, soit environ 500 mots dits
+- âge du public : 6 ans
+- marionnettistes : 1, donc 2 mains
+- interaction avec le public : quelques moments, bien choisis
+
+LE CONTE, TRANSPOSÉ POUR LES MARIONNETTES DU PARENT : Le Paysan, l’Ours et le Renard — Russie, Alexandre Afanassiev, Contes populaires russes, 1855-1863 (n° 23)
+C’est le texte de référence : les répliques y sont prises mot pour mot.
+
+Fiche du conte :
+**Essence.** Le paysan partage la récolte avec l'ours : « à toi les fanes, à moi les racines » — et il plante des navets ; l'ours découvre qu'il a eu la mauvaise moitié, et il faut l'aide de la renarde pour s'en sortir.
+
+**Trame.**
+1. L'ours menace le paysan ; celui-ci propose de partager la récolte : les fanes pour l'ours, les racines pour lui.
+2. L'ours reçoit une charrette de fanes ; il goûte un navet et comprend qu'il a été trompé.
+3. Il interdit au paysan d'entrer dans la forêt ; le paysan n'a bientôt plus de bois.
+4. La renarde fait croire à une grande chasse ; l'ours, effrayé, supplie le paysan de le cacher sous le bois dans son traîneau.
+5. La renarde réclame sa récompense ; mal payée, elle se dispute avec sa propre queue.
+
+**À adapter.** Supprimer les coups de hache : l'ours caché sous les bûches est emmené loin et relâché, penaud. La première partie (le partage) se suffit à elle-même et peut se répéter : l'année suivante, l'ours demande les racines… et le paysan sème du blé. La dispute de la renarde avec ses yeux, ses oreilles et sa queue est un numéro solo délicieux.
+Retouches déjà faites à la transposition :
+- La scène où Doudou Lapin assomme Ourse Gourmande à coups de hache est remplacée : il l'emmène loin en traîneau puis la détache et la laisse repartir, penaude, sans coup porté.
+- En conséquence, la réplique « Le voilà, il est fini ! » devient « Elle est loin maintenant, on ne la reverra pas de sitôt ! », pour rester cohérente avec une ourse relâchée et non assommée.
+- Le mot « ours » (masculin) est remplacé par « ourse » partout où il désignait l'espèce, y compris dans la formule répétée « on chasse les loups et les ours », pour respecter l'espèce féminine de la marionnette.
+
+TEXTE TRANSPOSÉ (environ 673 mots) :
+"""
+Doudou Lapin labourait son champ. Ourse Gourmande vint le trouver et lui dit :
+
+— Doudou Lapin, je vais te briser !
+
+— Non, laisse-moi tranquille. Je suis en train de semer des navets : je prendrai pour moi seulement les racines, et toi, je te donnerai les fanes.
+
+— Soit, dit Ourse Gourmande. Mais si tu me trompes, ne viens plus jamais chercher du bois dans ma forêt !
+
+Elle dit, et s'en alla dans la chênaie. Le temps passa. Doudou Lapin arrache ses navets, et voilà Ourse Gourmande qui sort de la chênaie.
+
+— Eh bien, Doudou Lapin, partageons !
+
+— D'accord, Ourse Gourmande ! Je vais t'apporter les fanes.
+
+Et il lui apporta une charrette pleine de fanes. Ourse Gourmande fut contente de ce partage honnête.
+
+Puis Doudou Lapin chargea ses navets sur la charrette et partit les vendre à la ville. Et voilà Ourse Gourmande qui arrive en face :
+
+— Doudou Lapin, où vas-tu ?
+
+— Eh bien, Ourse Gourmande, je vais en ville vendre les racines.
+
+— Fais-moi goûter comment c'est, une racine !
+
+Doudou Lapin lui donna un navet. Dès qu'Ourse Gourmande l'eut mangé :
+
+— Aaah ! rugit-elle. Tu m'as trompé, Doudou Lapin ! Tes racines sont sucrées. Maintenant, ne viens plus chercher du bois chez moi, ou je t'écorche !
+
+Doudou Lapin revint de la ville, et il avait peur d'aller dans la forêt. Il brûla ses étagères, ses bancs, ses tonneaux ; mais à la fin, il n'y avait plus rien à faire, il fallait aller dans la forêt.
+
+Il y entre tout doucement. Et voilà que surgit de nulle part Renard Rusé qui accourt.
+
+— Qu'as-tu, Doudou Lapin, lui demande-t-elle, à avancer si doucement ?
+
+— J'ai peur d'Ourse Gourmande. Elle est fâchée contre moi, elle a promis de m'écorcher.
+
+— N'aie pas peur d'Ourse Gourmande. Coupe ton bois, et moi je vais faire du bruit comme une meute de chasse. Si Ourse Gourmande te demande ce que c'est, dis-lui : « On chasse les loups et les ourses. »
+
+Doudou Lapin se mit à couper du bois. Tout à coup, voilà Ourse Gourmande qui accourt et crie à Doudou Lapin :
+
+— Hé, le vieux ! Qu'est-ce que c'est que ces cris ?
+
+Doudou Lapin répond :
+
+— On chasse les loups et les ourses.
+
+— Oh, Doudou Lapin, mets-moi dans ton traîneau, couvre-moi de bûches et attache-moi avec une corde : peut-être qu'on croira que c'est un tronc d'arbre.
+
+Doudou Lapin la mit dans le traîneau, l'attacha avec une corde, et l'emmena en traîneau loin, très loin dans la forêt, avant de la détacher et de la laisser repartir, toute penaude.
+
+Renard Rusé accourt et dit :
+
+— Où est Ourse Gourmande ?
+
+— Elle est loin maintenant, on ne la reverra pas de sitôt !
+
+— Eh bien, Doudou Lapin, maintenant il faut me régaler.
+
+— Volontiers, Renard Rusé ! Viens chez moi, je vais te régaler.
+
+Doudou Lapin avance en traîneau, et Renard Rusé court devant. Quand il approcha de sa maison, Doudou Lapin siffla ses chiens et les lança sur Renard Rusé. Renard Rusé fila vers la forêt et se glissa dans son terrier. Cachée dans le terrier, elle demande :
+
+— Oh, mes petits yeux, que regardiez-vous pendant que je courais ?
+
+— Oh, Renard Rusé, nous regardions pour que tu ne trébuches pas.
+
+— Et vous, mes petites oreilles, que faisiez-vous ?
+
+— Nous écoutions si les chiens étaient encore loin.
+
+— Et toi, ma queue, que faisais-tu ?
+
+— Moi, dit la queue, je me suis tout le temps emmêlée dans tes pattes, pour que tu t'embrouilles, que tu tombes, et que tu finisses dans les dents des chiens.
+
+— Ah, canaille ! Alors que les chiens te mangent !
+
+Et, sortant sa queue du terrier, Renard Rusé cria :
+
+— Mangez, les chiens, la queue de Renard Rusé !
+
+Les chiens attrapèrent la queue et tirèrent Renard Rusé dehors. C'est souvent comme ça : à cause de la queue, on perd la tête.
+"""
+
+LE SYNOPSIS CHOISI PAR LE PARENT : Le Paysan, l'Ours et le Renard
+Un partage de récolte tourne mal, une fausse chasse fait peur, une queue se dispute toute seule.
+- Ourse Gourmande menace le champ de Doudou Lapin ; pour garder la paix, il lui propose un partage : les fanes pour elle, les racines pour lui.
+- Quand la récolte arrive, Ourse Gourmande ne reçoit que des fanes ; en goûtant un navet, elle comprend qu'elle a été trompée et se fâche.
+- Elle interdit à Doudou Lapin d'entrer dans la forêt ; il se retrouve bientôt sans bois pour se chauffer.
+- Renard Rusé invente une grande chasse pour lui faire peur ; Ourse Gourmande, terrifiée, supplie Doudou Lapin de la cacher sous son bois, et il l'emmène loin avant de la relâcher, penaude.
+- Renard Rusé réclame sa récompense pour ce service ; mal payée, elle se dispute avec sa propre queue devant tout le monde.
+
+Distribution :
+- Doudou Lapin joue le Paysan : inquiet et serviable, il colle au paysan peureux qui négocie plutôt que d'affronter.
+- Renard Rusé joue la Renarde : malin et vaniteux, comme la renarde rusée et bavarde du conte.
+- Ourse Gourmande joue l'Ours : gourmande comme l'ours du conte, et sa franchise colle à sa naïveté.
+
+Changements annoncés au parent :
+- L'ours caché sous le bois n'est plus menacé à la hache : Doudou Lapin l'emmène loin et la relâche, penaude.
+- L'épisode où le paysan sème du blé l'année suivante est coupé, pour tenir dans le temps du spectacle.
+- Les chiens du conte original disparaissent : c'est Renard Rusé elle-même qui invente la fausse chasse.
+
+L’ESPÈCE DES PERSONNAGES DANS LE TEXTE, impératif : chaque marionnette
+animale garde son espèce. Le nom de l’animal du conte disparaît du texte, y
+compris dans les titres, les résumés et les formules.
+- Doudou Lapin joue le Paysan et reste un·e lapin : c'est un·e lapin qui fait le métier de paysan.
+- Ourse Gourmande joue l'Ours : dans tout le texte, ce personnage est un·e ourse, pas un·e ours. On l'appelle ainsi, et seuls les détails qui l'exigent changent.

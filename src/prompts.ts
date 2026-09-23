@@ -228,15 +228,23 @@ export const PARLER_CLAIR = `Langue claire :
   sa forme.`;
 
 /** Ce que lit le parent (CDC §6). */
-export const POUR_LE_PARENT = `Entre crochets, après chaque rôle : l’espèce que la marionnette impose au
+export const POUR_LE_PARENT = `Ce que tu écris ici sera lu par le PARENT, qui
+n’a rien lu d’autre : écris ce qui SE PASSE, avec les noms de SES marionnettes,
+en phrases simples qui se tiennent seules, sans vocabulaire de métier.`;
+
+/**
+ * La légende des crochets, pour la seule étape qui présente une liste de rôles.
+ *
+ * Elle avait d'abord été glissée dans POUR_LE_PARENT, qui sert aussi au
+ * découpage : le modèle y cherchait des crochets qui n'existaient pas et
+ * devait deviner. Une consigne qui ne s'applique pas est pire qu'une consigne
+ * absente — elle fait dépenser de la réflexion pour rien.
+ */
+const LEGENDE_ESPECES = `Entre crochets, après chaque rôle : l’espèce que la marionnette impose au
 personnage. « crocodile → renard » veut dire que ce personnage est un renard
 dans tout le texte, qu’on l’appelle ainsi, et que seuls les détails qui
 l’exigent changent. « reste un·e X qui fait le métier de Y » veut dire que le
-personnage garde son métier mais prend l’espèce de la peluche.
-
-Ce que tu écris ici sera lu par le PARENT, qui
-n’a rien lu d’autre : écris ce qui SE PASSE, avec les noms de SES marionnettes,
-en phrases simples qui se tiennent seules, sans vocabulaire de métier.`;
+personnage garde son métier mais prend l’espèce de la peluche.`;
 
 /* ================================================================== */
 /* Le dossier                                                          */
@@ -335,6 +343,8 @@ tient dans ${d.dureeMinutes} minutes sans perdre sa fin (on te dit pour chacun
 s’il faudra l’étirer ou le couper), lequel convient à ${d.ageAuditoire} ans une
 fois adouci, et, si le parent a écrit une ébauche, lequel s’en approche. Trois
 histoires vraiment différentes, de préférence de trois origines.
+
+${LEGENDE_ESPECES}
 
 ${POUR_LE_PARENT}
 
@@ -751,6 +761,14 @@ l’application a relevées automatiquement.
 
 Ton travail ici : réécrire cet acte en appliquant les modifications listées,
 et RIEN D’AUTRE. Tout ce qui fonctionne doit être conservé mot pour mot.
+
+QUAND DEUX MODIFICATIONS SE CONTREDISENT, cet ordre trancHE :
+1. ce qui est marqué [bloquant] — le spectacle est injouable sans ;
+2. les remarques du directeur éditorial — la compréhension et la fidélité ;
+3. la longueur, en dernier. Un écart de durée ne justifie JAMAIS de couper
+   une réplique du conte ni une information dont le parent a besoin pour
+   jouer. Si l'acte ne peut pas raccourcir sans abîmer l'un des deux, laisse-le
+   plus long et n'en parle pas.
 Ce qui manque à la compréhension se reprend d’abord au conte d’origine. Le
 script entier t’est donné pour que l’acte réécrit s’accorde avec ceux qui
 l’entourent : ne réécris que celui-ci.
@@ -767,8 +785,18 @@ ${consignesInteraction(d.interactionPublic)}
 
 ${PARLER_CLAIR}
 
-Tu renvoies l’acte entier corrigé, au même format que celui qu’on te donne :
-{"elements": [{"type": "replique", "marionnette": "…", "texte": "…"}]}
+Tu renvoies l’acte ENTIER corrigé — tous ses éléments, y compris ceux que tu
+ne changes pas, et y compris les entrées, les sorties et les didascalies :
+{"elements": [
+  {"type": "entree", "marionnette": "Nom exact", "main": "M1G"},
+  {"type": "replique", "marionnette": "Nom exact", "texte": "…", "ton": "…"},
+  {"type": "didascalie", "texte": "…"},
+  {"type": "adresse_public", "marionnette": "Nom exact", "texte": "…", "attenteReponse": false},
+  {"type": "note_marionnettiste", "texte": "…"},
+  {"type": "sortie", "marionnette": "Nom exact", "main": "M1G"}]}
+
+Les noms des marionnettes doivent être recopiés EXACTEMENT comme dans le
+dossier : jamais le nom du rôle dans le conte.
 
 ${SEULEMENT_JSON}`,
     user: `${texteDossier(d)}

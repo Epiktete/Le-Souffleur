@@ -31,17 +31,10 @@ import type { Marionnette, ParametresGeneration } from '../src/types';
 import { assemblerSpectacle, ecrireScript, proposerHistoires } from '../src/services/pipeline';
 import { coulisses, scriptPourLeParent } from './rendre';
 
-const DOSSIER = resolve(process.env.RELAIS_SORTIE || 'banc/relais');
+const DOSSIER = resolve(process.env.RELAIS_SORTIE || `banc/relais/cas${process.env.RELAIS_CAS || 1}`);
 mkdirSync(DOSSIER, { recursive: true });
 
 const numero = (n: number) => String(n).padStart(3, '0');
-
-/** Levée quand une étape attend sa réponse : elle arrête proprement le rejeu. */
-class Attente extends Error {
-  constructor(public n: number, public etape: string) {
-    super(`étape ${numero(n)} en attente`);
-  }
-}
 
 /* ---------------------------------------------------------------- */
 /* Le relais : on remplace fetch, il n'y a donc aucun réseau         */
@@ -87,7 +80,23 @@ globalThis.fetch = (async (_url: string, init: { body: string }) => {
       + `Prompt réel : ${numero(n)}-systeme.txt et ${numero(n)}-utilisateur.txt\n`
       + `Réponse attendue (le JSON seul) : ${numero(n)}-reponse.json\n`,
   );
-  throw new Attente(n, '');
+  // Un état lisible d'un coup d'œil, pour piloter la boucle sans lire vitest.
+  writeFileSync(
+    join(DOSSIER, 'etat.json'),
+    JSON.stringify({
+      attente: n,
+      temperature: requete.temperature,
+      budgetSortie: requete.max_tokens,
+      motsSysteme: mots(system),
+      motsUtilisateur: mots(user),
+    }, null, 2),
+  );
+  // On se fait passer pour une ANNULATION, et pas pour une panne : le
+  // pipeline rattrape défensivement les échecs de la revue finale et des
+  // corrections (« un garde-fou, pas une condition »), si bien qu'un simple
+  // échec y serait avalé en silence et le spectacle livré sans elles. Seule
+  // l'annulation traverse ces rattrapages.
+  throw Object.assign(new Error('relais en attente'), { name: 'AbortError' });
 }) as unknown as typeof fetch;
 
 /* ---------------------------------------------------------------- */
@@ -102,20 +111,74 @@ const peluche = (nom: string, description: string, traits: string[]): Marionnett
   };
 };
 
-const DISTRIBUTION = [
-  peluche('Doudou Lapin', 'Un lapin en tissu beige, une oreille recousue et qui retombe.',
-    ['inquiet', 'serviable']),
-  peluche('Renard Rusé', 'Un renard roux au museau pointu, la queue un peu pelée.',
-    ['malin', 'vaniteux']),
-  peluche('Ourse Gourmande', 'Une grosse ourse en peluche marron, très douce, assez lourde.',
-    ['gourmande', 'franche']),
-];
+/**
+ * Cinq cas, volontairement dissemblables : c'est en variant l'âge, la durée,
+ * l'espèce des peluches et la présence d'une ébauche qu'on fait sortir les
+ * défauts. RELAIS_CAS choisit lequel ; chacun a son dossier.
+ */
+const CAS = {
+  1: {
+    troupe: [
+      peluche('Doudou Lapin', 'Un lapin en tissu beige, une oreille recousue et qui retombe.', ['inquiet', 'serviable']),
+      peluche('Renard Rusé', 'Un renard roux au museau pointu, la queue un peu pelée.', ['malin', 'vaniteux']),
+      peluche('Ourse Gourmande', 'Une grosse ourse en peluche marron, très douce, assez lourde.', ['gourmande', 'franche']),
+    ],
+    dureeMinutes: 5, ageAuditoire: 6, nbMarionnettistes: 1 as const,
+    interactionPublic: 'quelques' as const, ebauche: '',
+  },
+  2: {
+    // Deux marionnettes seulement, public très jeune, beaucoup d'interaction.
+    troupe: [
+      peluche('Petite Souris', 'Une souris grise minuscule, en feutrine.', ['peureux', 'curieux']),
+      peluche('Gros Loup', 'Un loup gris au museau râpé, assez grand.', ['méchant', 'gourmand']),
+    ],
+    dureeMinutes: 5, ageAuditoire: 4, nbMarionnettistes: 1 as const,
+    interactionPublic: 'beaucoup' as const, ebauche: '',
+  },
+  3: {
+    // Une ébauche écrite : elle doit mener le choix.
+    troupe: [
+      peluche('Mémé Tortue', 'Une tortue verte à la carapace molle.', ['sage', 'têtu']),
+      peluche('Pilou le Pingouin', 'Un pingouin noir et blanc, le bec cousu de travers.', ['curieux', 'bavard']),
+      peluche('Roi Corbeau', 'Un corbeau noir au bec luisant.', ['vantard', 'orgueilleux']),
+    ],
+    dureeMinutes: 8, ageAuditoire: 7, nbMarionnettistes: 1 as const,
+    interactionPublic: 'quelques' as const,
+    ebauche: 'une histoire de course ou de pari, où le plus lent gagne',
+  },
+  4: {
+    // Deux marionnettistes, quatre peluches, public grand.
+    troupe: [
+      peluche('Jean le Paysan', 'Une marionnette de tissu en salopette, chapeau de paille.', ['travailleur', 'rusé']),
+      peluche('Dame Chèvre', 'Une chèvre blanche à longue barbe.', ['têtu', 'grognon']),
+      peluche('Petit Chat', 'Un chaton roux tout doux.', ['coquin', 'farceur']),
+      peluche('Vieux Hibou', 'Un hibou brun aux grands yeux ronds.', ['sage', 'savant']),
+    ],
+    dureeMinutes: 10, ageAuditoire: 9, nbMarionnettistes: 2 as const,
+    interactionPublic: 'aucune' as const, ebauche: '',
+  },
+  5: {
+    // Une seule marionnette : le cas limite du CDC §6.
+    troupe: [
+      peluche('Grand Ours', 'Un ours brun massif, en peluche épaisse.', ['fort', 'naïf']),
+    ],
+    dureeMinutes: 5, ageAuditoire: 5, nbMarionnettistes: 1 as const,
+    interactionPublic: 'beaucoup' as const, ebauche: '',
+  },
+} as const;
+
+const NUM = Number(process.env.RELAIS_CAS || 1) as keyof typeof CAS;
+const cas = CAS[NUM];
+if (!cas) throw new Error('RELAIS_CAS doit valoir 1 à 5.');
+
+const DISTRIBUTION = [...cas.troupe];
 
 const PARAMETRES: ParametresGeneration = {
-  dureeMinutes: 10,
-  ageAuditoire: 6,
-  nbMarionnettistes: 1,
-  interactionPublic: 'quelques',
+  dureeMinutes: cas.dureeMinutes,
+  ageAuditoire: cas.ageAuditoire,
+  nbMarionnettistes: cas.nbMarionnettistes,
+  interactionPublic: cas.interactionPublic,
+  ebauche: cas.ebauche || undefined,
   marionnetteIds: DISTRIBUTION.map((m) => m.id),
   modele: 'relais-local',
 };
@@ -128,17 +191,17 @@ const acces: Acces = {
   fournisseurId: 'openrouter',
 };
 
-/** Retrouve le signal d'arrêt, quelle que soit l'enveloppe. */
-function chercherAttente(e: unknown): Attente | null {
-  for (let x = e; x; x = (x as { cause?: unknown }).cause) {
-    if (x instanceof Attente) return x;
-  }
-  return null;
+/** L'étape qui attend sa réponse, lue dans l'état écrit par le relais. */
+function attenteEnCours(): { n: number } | null {
+  const f = join(DOSSIER, 'etat.json');
+  if (!existsSync(f)) return null;
+  const etat = JSON.parse(readFileSync(f, 'utf8')) as { attente?: number };
+  return etat.attente ? { n: etat.attente } : null;
 }
 
 /* ---------------------------------------------------------------- */
 
-test('relais local', async () => {
+test(`relais local — cas ${NUM}`, async () => {
   const options = {
     acces,
     signal: new AbortController().signal,
@@ -162,13 +225,22 @@ test('relais local', async () => {
       relecture: script.bibleRelecture,
     });
 
+    writeFileSync(join(DOSSIER, 'etat.json'), JSON.stringify({
+      termine: true,
+      etapes: compteur,
+      conte: script.conteId,
+      titre: spectacle.titre,
+      dureeEstimeeSecondes: spectacle.dureeEstimeeSecondes,
+      dureeCibleSecondes: PARAMETRES.dureeMinutes * 60,
+      problemesRestants: script.problemes,
+    }, null, 2));
     writeFileSync(join(DOSSIER, 'script.md'), scriptPourLeParent(spectacle));
     writeFileSync(join(DOSSIER, 'coulisses.json'), coulisses(spectacle, { etapes: compteur }));
     console.log(`\n  TERMINÉ — ${compteur} étapes. Script dans ${DOSSIER}/script.md`);
   } catch (e) {
-    // Le connecteur enveloppe toute erreur de fetch dans une ErreurIa : on
-    // retrouve notre signal d'arrêt en remontant la chaîne des causes.
-    const attente = chercherAttente(e);
+    // L'arrêt se lit dans l'état, pas dans l'erreur : celle-ci a pu être
+    // retraduite plusieurs fois en remontant le pipeline.
+    const attente = attenteEnCours();
     if (attente) {
       console.log(
         `\n  EN ATTENTE de l'étape ${numero(attente.n)}.\n`

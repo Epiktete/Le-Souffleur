@@ -329,7 +329,7 @@ describe('controler : les contrôles automatiques du CDC §6', () => {
     expect(parActe.length).toBeGreaterThan(0);
     for (const x of parActe) {
       expect(x.gravite).toBe('important');
-      expect(x.message).toMatch(/mots de plus|Resserre/);
+      expect(x.message).toMatch(/environ \d+ mots/);
     }
 
     // Rien de tout cela n'empêche d'enregistrer (CDC §6).
