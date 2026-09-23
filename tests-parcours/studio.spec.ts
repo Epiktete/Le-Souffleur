@@ -136,7 +136,7 @@ test('scène vide mais marionnethèque garnie : on peut générer quand même', 
 
   const bouton = page.getByRole('button', { name: /Configurer ma clé IA|Générer le script/ });
   await expect(bouton).toBeEnabled();
-  await expect(page.getByText('le théâtre prendra celles que l’histoire demande', { exact: false }))
+  await expect(page.getByText('le dramaturge prendra celles que l’histoire demande', { exact: false }))
     .toBeVisible();
   // Et la scène vide l'annonce elle aussi.
   await expect(scene(page)).toContainText('laissez la scène vide');

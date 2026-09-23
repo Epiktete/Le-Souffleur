@@ -531,7 +531,7 @@ test('on peut générer sans avoir garni la scène : l’outil distribue', async
   await preparerStudioSansScene(page);
 
   // Le bouton n'est pas bloqué, et dit ce qui va se passer.
-  await expect(page.getByText('le théâtre prendra celles que l’histoire demande', { exact: false }))
+  await expect(page.getByText('le dramaturge prendra celles que l’histoire demande', { exact: false }))
     .toBeVisible();
 
   await lancerEtAttendreLeChoix(page);

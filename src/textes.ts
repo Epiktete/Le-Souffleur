@@ -162,7 +162,7 @@ export const ts = {
     vide: 'Ajoutez des marionnettes depuis la marionnethèque, avec la flèche sur le côté de chaque boîte.',
     /** Le parent peut aussi ne rien choisir : l'outil s'en charge (CDC §7). */
     videAutomatique:
-      'Ou laissez la scène vide : le théâtre choisira l’histoire d’abord, puis les marionnettes qu’elle demande.',
+      'Ou laissez la scène vide : le dramaturge choisira l’histoire d’abord, puis les marionnettes qu’elle demande.',
     versLaScene: (nom: string) => `Ajouter ${nom} aux personnages`,
     versLaBibliotheque: (nom: string) => `Retirer ${nom} des personnages`,
     pleine: (max: number) => `C’est complet : ${max} marionnettes au maximum.`,
@@ -204,7 +204,7 @@ export const ts = {
     sansMarionnette: 'Créez d’abord une marionnette dans la marionnethèque.',
     /** Scène vide, mais la marionnethèque est garnie : on peut générer. */
     automatique:
-      'Aucune marionnette choisie : le théâtre prendra celles que l’histoire demande, dans votre marionnethèque.',
+      'Aucune marionnette choisie : le dramaturge prendra celles que l’histoire demande, dans votre marionnethèque.',
     sansCle: 'Configurer ma clé IA',
   },
 } as const;
