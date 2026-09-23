@@ -12,7 +12,8 @@
 //
 //   1. LE NOMBRE : autant de marionnettes que de rôles vaut mieux que des
 //      marionnettes reléguées dans des petits rôles.
-//   2. LES TRAITS : chaque marionnette reçoit le rôle qui lui ressemble le plus.
+//   2. LES TRAITS, facultatifs et légers dans le choix du conte : leur vrai
+//      métier est de donner à chaque marionnette le rôle qui lui ressemble.
 //   3. L'ÉBAUCHE du parent, s'il en a écrit une : les contes qui en parlent
 //      passent devant.
 //   4. LA DURÉE : un conte de soixante mots ne s'étire pas sur dix minutes sans
@@ -52,8 +53,12 @@ export const CHOIX = {
    * rôles, puis l'ébauche du parent, puis la durée. L'espèce et les traits
    * des marionnettes ne font que départager : une peluche « gourmande » ne
    * doit pas ramener sans cesse les mêmes contes de gourmands.
+   *
+   * Les traits pesaient 0,5 ; ils sont tombés à 0,25 le jour où ils sont
+   * devenus facultatifs. Leur vrai métier est ailleurs : distribuer les rôles
+   * une fois le conte choisi (`meilleureDistribution`).
    */
-  poids: { nombre: 3, traits: 0.5, ebauche: 2.5, duree: 2, espece: 1 },
+  poids: { nombre: 3, traits: 0.25, ebauche: 2.5, duree: 2, espece: 1 },
   /** Poids de l'espèce face aux traits, dans le choix des rôles. */
   poidsEspece: 0.3,
   /** Tolérance d'âge : un conte « 5-10 ans » reste possible à 4 ans. */

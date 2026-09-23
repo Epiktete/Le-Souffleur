@@ -56,8 +56,10 @@ describe('validerSaisie', () => {
     expect(validerSaisie({ ...saisieCorrecte, description: trop }).description).toBeDefined();
   });
 
-  it('exige au moins un trait et en refuse plus de six', () => {
-    expect(validerSaisie({ ...saisieCorrecte, traits: [] }).traits).toBeDefined();
+  it('accepte une marionnette sans aucun trait, en refuse plus de six', () => {
+    // Les traits sont facultatifs : ils affinent la distribution des rôles,
+    // ils ne sont pas un péage à l'entrée de la Marionnethèque.
+    expect(validerSaisie({ ...saisieCorrecte, traits: [] }).traits).toBeUndefined();
     const sept = ['a', 'b', 'c', 'd', 'e', 'f', 'g'];
     expect(validerSaisie({ ...saisieCorrecte, traits: sept }).traits).toBeDefined();
     const six = sept.slice(0, 6);
@@ -67,7 +69,8 @@ describe('validerSaisie', () => {
   it('donne un seul message par champ, en français', () => {
     const erreurs = validerSaisie({ nom: '', description: '', traits: [] });
     expect(erreurs.nom).toBe('Donnez un nom à la marionnette.');
-    expect(erreurs.traits).toBe('Choisissez au moins un trait de caractère.');
+    // Le nom reste le SEUL champ obligatoire.
+    expect(Object.keys(erreurs)).toEqual(['nom']);
   });
 });
 

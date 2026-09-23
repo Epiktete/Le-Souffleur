@@ -24,9 +24,10 @@ export const schemaSaisieMarionnette = z.object({
     .string()
     .trim()
     .max(BORNES.descriptionMarionnette.max, tb.erreurs.descriptionTropLongue),
+  // Aucun trait exigé : une marionnette sans trait est distribuée sur sa
+  // seule espèce, ce que `meilleureDistribution` sait faire.
   traits: z
     .array(z.string().trim().min(1))
-    .min(BORNES.traitsMarionnette.min, tb.erreurs.traitsVides)
     .max(BORNES.traitsMarionnette.max, tb.erreurs.traitsTropNombreux),
 });
 

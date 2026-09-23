@@ -47,6 +47,18 @@ test('crée une marionnette, qui survit au rechargement de la page', async ({ pa
   await expect(page.getByText('gentil')).toBeVisible();
 });
 
+test('accepte une marionnette sans aucun trait', async ({ page }) => {
+  // Les traits sont facultatifs : le nom est le seul champ obligatoire.
+  await page.getByRole('button', { name: '+ Nouvelle marionnette' }).click();
+  await page.getByLabel('Nom').fill('Peluche Muette');
+  await page.getByLabel('Description').fill('Une peluche dont personne ne sait le caractère.');
+  await page.getByRole('button', { name: 'Enregistrer' }).click();
+
+  await expect(carte(page, 'Peluche Muette')).toBeVisible();
+  await page.reload();
+  await expect(carte(page, 'Peluche Muette')).toBeVisible();
+});
+
 test('refuse d’enregistrer sans nom, avec un message en français', async ({ page }) => {
   await page.getByRole('button', { name: '+ Nouvelle marionnette' }).click();
   await page.getByRole('button', { name: 'gentil', exact: true }).click();
@@ -55,14 +67,6 @@ test('refuse d’enregistrer sans nom, avec un message en français', async ({ p
   await expect(page.getByRole('alert')).toContainText('Donnez un nom à la marionnette.');
   // Le panneau reste ouvert : rien n'a été perdu.
   await expect(page.getByRole('button', { name: 'Enregistrer' })).toBeVisible();
-});
-
-test('exige au moins un trait de caractère', async ({ page }) => {
-  await page.getByRole('button', { name: '+ Nouvelle marionnette' }).click();
-  await page.getByLabel('Nom').fill('Sans Trait');
-  await page.getByRole('button', { name: 'Enregistrer' }).click();
-
-  await expect(page.getByRole('alert')).toContainText('Choisissez au moins un trait');
 });
 
 test('ne laisse pas choisir plus de six traits', async ({ page }) => {

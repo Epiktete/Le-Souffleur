@@ -135,7 +135,7 @@ export const tb = {
   champDescriptionAide:
     'Apparence, espèce, taille. Ex. : « Petit lapin en peluche beige, oreilles tombantes, écharpe rouge. »',
   champTraits: 'Traits de caractère',
-  champTraitsAide: 'De 1 à 6 traits. Cliquez pour choisir, ou ajoutez le vôtre.',
+  champTraitsAide: 'Facultatif, 6 au maximum. Cliquez pour choisir, ou ajoutez le vôtre.',
   champTraitLibre: 'Ajouter un trait',
 
   /** Messages de validation, en français et sans jargon. */
@@ -143,7 +143,6 @@ export const tb = {
     nomVide: 'Donnez un nom à la marionnette.',
     nomTropLong: 'Le nom ne doit pas dépasser 40 caractères.',
     descriptionTropLongue: 'La description ne doit pas dépasser 500 caractères.',
-    traitsVides: 'Choisissez au moins un trait de caractère.',
     traitsTropNombreux: 'Six traits au maximum.',
     traitDejaPresent: 'Ce trait est déjà choisi.',
     enregistrementImpossible:
@@ -522,7 +521,7 @@ export const ttu = {
       faire: [
         'Dans la colonne **Marionnethèque**, à gauche, cliquez sur **+ Nouvelle marionnette**.',
         'Donnez-lui un **nom**, et dites dans la **description** quel animal ou quel personnage c’est : « un lapin gris », « un petit dragon vert ».',
-        'Choisissez de **1 à 6 traits** de caractère : gourmand, peureux, rusé…',
+        'Si vous voulez, choisissez jusqu’à **6 traits** de caractère : gourmand, peureux, rusé…',
         'Puis **Enregistrer**.',
       ],
       astuce: 'L’espèce et les traits décident des rôles qu’elle jouera : un lapin peureux trouvera le lièvre peureux de La Fontaine.',

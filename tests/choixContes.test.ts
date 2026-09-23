@@ -122,6 +122,18 @@ describe('les traits', () => {
     expect(voisin).toBeGreaterThan(0);
     expect(contraire).toBeLessThan(0);
   });
+
+  it('une marionnette sans trait ne casse rien et ne vaut pas moins qu’un contraire', () => {
+    // Les traits sont facultatifs depuis qu'ils ne sont plus exigés à la
+    // création : l'absence de trait doit valoir « on ne sait pas » (0), pas
+    // « ça ne va pas du tout » (négatif), et surtout jamais NaN.
+    const sans = ressemblanceTraits([], ['rusé', 'méchant']).score;
+    expect(sans).toBe(0);
+    expect(Number.isNaN(sans)).toBe(false);
+    expect(sans).toBeGreaterThan(ressemblanceTraits(['peureux'], ['courageux']).score);
+    // Des deux côtés vides : pas de division par zéro.
+    expect(ressemblanceTraits([], []).score).toBe(0);
+  });
 });
 
 describe('le nombre, une barrière', () => {
@@ -240,6 +252,23 @@ describe('la distribution', () => {
       2,
     );
     expect(meilleureDistribution([m('a', 'Lapin', ['gentil']), m('b', 'Lapine', ['gentil'])], c)).toBeNull();
+  });
+
+  it('sans aucun trait, distribue sur la seule espèce', () => {
+    const c = fiche(
+      '  - {nom: le Lièvre, espece: lièvre, categorie: animal, traits: [vantard, paresseux], fonction: héros}\n'
+      + '  - {nom: la Tortue, espece: tortue, categorie: animal, traits: [têtu, travailleur], fonction: héros}',
+      2,
+    );
+    const d = meilleureDistribution([
+      m('a', 'Carapace', [], 'une tortue verte'),
+      m('b', 'Bond', [], 'un lièvre gris'),
+    ], c)!;
+    expect(d).not.toBeNull();
+    expect(d.find((x) => x.marionnetteId === 'a')?.role.espece).toBe('tortue');
+    expect(d.find((x) => x.marionnetteId === 'b')?.role.espece).toBe('lièvre');
+    // L'interdit d'espèce reste absolu, traits ou pas.
+    expect(d.every((x) => !Number.isNaN(x.traits))).toBe(true);
   });
 });
 
