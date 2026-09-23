@@ -1,7 +1,19 @@
 {
-  "attente": 5,
-  "temperature": 0.5,
-  "budgetSortie": 24000,
-  "motsSysteme": 1724,
-  "motsUtilisateur": 2509
+  "termine": true,
+  "etapes": 10,
+  "conte": "de-chat-et-souris-associes",
+  "titre": "Chat et souris associés",
+  "dureeEstimeeSecondes": 435,
+  "dureeCibleSecondes": 300,
+  "problemesRestants": [
+    {
+      "gravite": "important",
+      "message": "Le spectacle est trop long : 7 min au lieu de 5 min visées."
+    },
+    {
+      "gravite": "important",
+      "acteNumero": 2,
+      "message": "L'acte 2 est un peu long : 223 s au lieu des 100 s de sa part, soit environ 205 mots. Resserre ce qui ne vient pas du conte — didascalies bavardes, répliques ajoutées. C’est une jauge, pas un quota : ne coupe jamais une réplique du conte ni une information dont le parent a besoin."
+    }
+  ]
 }

@@ -523,16 +523,22 @@ export function noteNombre(
  * La note de durée : le conte a-t-il à peu près la longueur du spectacle ?
  *
  * On compare le nombre de mots du conte à celui que le spectacle dira. Entre
- * 0,7 et 3 fois, c'est parfait : on joue ce que le conte raconte, ou l'on coupe
- * un épisode. En dessous, il faudrait étirer, et un conte de soixante mots
- * étiré sur cinq minutes pousse à inventer : la note tombe vite. Au-dessus, il
- * faut couper, ce qui se fait mieux, et la note baisse doucement.
+ * 0,8 et 1,8 fois, c'est parfait : on joue ce que le conte raconte, ou l'on
+ * coupe un épisode. En dessous, il faudrait étirer, et un conte de soixante
+ * mots étiré sur cinq minutes pousse à inventer : la note tombe vite.
+ * Au-dessus, il faut couper, et la note baisse doucement.
+ *
+ * La bande haute allait jusqu'à 3. Mesuré au relais : un conte de 816 mots
+ * pour un spectacle de 500 était noté parfait, puis joué fidèlement — et le
+ * spectacle durait sept minutes au lieu de cinq. Depuis que la fidélité au
+ * texte passe avant la longueur, il ne suffit plus d'espérer que le découpage
+ * coupera : il faut CHOISIR des contes qui n'ont pas besoin d'être coupés.
  */
 export function noteDuree(motsConte: number, motsSpectacle: number): number {
   const r = motsConte / Math.max(1, motsSpectacle);
-  if (r >= 0.7 && r <= 3) return 1;
-  if (r < 0.7) return Math.pow(r / 0.7, 1.5);
-  return 1 / (1 + Math.log(r / 3));
+  if (r >= 0.8 && r <= 1.8) return 1;
+  if (r < 0.8) return Math.pow(r / 0.8, 1.5);
+  return 1 / (1 + Math.log(r / 1.8));
 }
 
 

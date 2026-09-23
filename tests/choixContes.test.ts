@@ -164,7 +164,11 @@ describe('le nombre, une barrière', () => {
 describe('la durée', () => {
   it('un conte de la bonne taille est parfait', () => {
     expect(noteDuree(500, 500)).toBe(1);
-    expect(noteDuree(1400, 500)).toBe(1);
+    expect(noteDuree(800, 500)).toBe(1);
+    // Au-delà de 1,8 fois, il faudrait couper : depuis que la fidélité au
+    // texte passe avant la longueur, on préfère choisir un conte qui tient.
+    expect(noteDuree(1400, 500)).toBeLessThan(1);
+    expect(noteDuree(1400, 500)).toBeGreaterThan(noteDuree(6000, 500));
   });
 
   it('étirer une fable minuscule coûte plus que couper un conte long', () => {
@@ -462,13 +466,25 @@ describe('le choix des contes', () => {
   });
 
   it('trouve des contes même pour une seule marionnette ou pour six', () => {
-    const seul = choisirContes([m('1', 'Lapin', ['peureux', 'rêveur'])], { ...options, ageAuditoire: 6 }).candidats;
+    // Pour un spectacle court, les contes à UN seul personnage passent en
+    // tête : ce sont de brèves fables, qui tiennent en trois minutes.
+    const seul = choisirContes(
+      [m('1', 'Lapin', ['peureux', 'rêveur'])],
+      { ...options, ageAuditoire: 6, dureeMinutes: 3 },
+    ).candidats;
     expect(seul.length).toBe(8);
-    // Les contes à un seul personnage passent en tête…
     expect(seul[0].conte.personnages).toBe(1);
     expect(seul.filter((c) => c.conte.personnages === 1).length).toBeGreaterThanOrEqual(4);
     // … et le lapin peureux trouve le lièvre peureux de La Fontaine.
     expect(seul.map((c) => c.conte.id)).toContain('fr-fontaine-lievre-grenouilles');
+
+    // Pour un spectacle long, les mêmes fables reculent : les étirer
+    // reviendrait à inventer.
+    const longue = choisirContes(
+      [m('1', 'Lapin', ['peureux', 'rêveur'])],
+      { ...options, ageAuditoire: 6, dureeMinutes: 10 },
+    ).candidats;
+    expect(longue[0].mots).toBeGreaterThan(seul[0].mots);
     const six = ['Lapin', 'Renard', 'Ourse', 'Chat', 'Poule', 'Roi'].map((n, i) => m(String(i), n, ['gentil']));
     expect(choisirContes(six, { ...options, nbMarionnettistes: 2, ageAuditoire: 7 }).candidats.length)
       .toBeGreaterThanOrEqual(3);

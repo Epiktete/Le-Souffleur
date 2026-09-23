@@ -66,7 +66,9 @@ export const LE_TEXTE_DU_CONTE = `LE TEXTE DU CONTE, PAS LE TIEN.
   petit rêve », « tu retombes sur… tes idées ». Personne ne parle ainsi, et
   un enfant n’y comprend rien. Pas de points de suspension pour ménager un
   effet, pas de mot de la fin en chute, pas de jeu de mots ajouté, pas de
-  maxime. N’en fais pas des tonnes : le conte est drôle tout seul.
+  maxime. N’en fais pas des tonnes : le conte est drôle tout seul. Ces
+  interdits portent sur ce que TU ajoutes : ce qui vient du conte reste tel
+  quel, points de suspension compris quand ils marquent une parole coupée.
 - La voix décidée au découpage se JOUE — tu peux la rappeler dans le champ
   « ton » —, elle ne s’écrit JAMAIS dans les mots : un personnage à la voix
   grave ne dit pas qu’il a la voix grave.
@@ -513,6 +515,13 @@ ${contraintesScene(d.nbMarionnettistes)}
 
 ${CONTRAINTES_MATERIELLES}
 
+${consignesInteraction(d.interactionPublic)}
+
+Les « momentsPublic » que tu proposes ici seront écrits tels quels à la passe
+suivante : ils doivent donc respecter ces règles dès maintenant, et ne pas
+dépasser la dose indiquée. Un moment qui demanderait aux enfants de trouver
+l'idée à la place du personnage sera refusé.
+
 Joue mentalement ta conduite, mouvement après mouvement, avant de répondre :
 une conduite qui fait tenir plus de marionnettes que de mains sera rejetée.
 
@@ -687,7 +696,6 @@ aussi garder ses péripéties, leur ordre et sa fin : une modification qui
 s’en écarte doit être nécessaire à la compréhension.
 
 Puis le reste de la checklist, dans cet ordre :
-- LA PLACE DES DIDASCALIES ET DES APARTÉS, en détail :
 ${PLACE_DES_DIDASCALIES}
 - les répliques inventées : une réplique absente du texte de référence, qui
   n’est pas nécessaire à la scène, ou qui sonne faux — phrase à effet,
@@ -719,8 +727,10 @@ incohérence qui touche deux actes donne une remarque pour chacun. La
 modification dit concrètement quoi écrire, déplacer ou retirer.
 
 Ne propose jamais de couper pour gagner du temps. Le champ « ton » d’une
-réplique (« traînant », « inquiet ») est prévu : c’est l’indication de jeu, ne
-le signale pas. Le décor proposé est prévu aussi. Ce qui fonctionne est laissé
+réplique (« traînant », « inquiet ») est prévu : c’est l’indication de jeu, et
+tu ne la signales pas — SAUF si elle contredit l’âge du public, par exemple un
+ton vraiment menaçant devant des tout-petits ; là, dis-le. Le décor proposé est
+prévu aussi. Ce qui fonctionne est laissé
 intact. Une liste vide est une réponse parfaitement acceptable.
 
 ${CONTRAINTES_RESUME}
@@ -785,6 +795,11 @@ QUAND DEUX MODIFICATIONS SE CONTREDISENT, cet ordre trancHE :
    une réplique du conte ni une information dont le parent a besoin pour
    jouer. Si l'acte ne peut pas raccourcir sans abîmer l'un des deux, laisse-le
    plus long et n'en parle pas.
+
+Une modification qui te ferait enfreindre une règle de scène ou dépasser la
+dose d'adresses au public s'applique AUTREMENT : garde son intention, et
+trouve la forme qui respecte la règle. Par exemple, transforme en adresse sans
+attente de réponse celle qui ferait une de trop.
 Ce qui manque à la compréhension se reprend d’abord au conte d’origine. Le
 script entier t’est donné pour que l’acte réécrit s’accorde avec ceux qui
 l’entourent : ne réécris que celui-ci.

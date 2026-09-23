@@ -932,12 +932,17 @@ Résumé : ${a.resume}
 Passage du conte joué par cet acte : ${a.passage || '(non précisé)'}
 Déroulé :
 ${a.temps.map((tp, i) => `  ${i + 1}. ${tp}`).join('\n')}
-Entrées et sorties prévues, dans cet ordre (la MAIN est calculée par
-l’application : ne l’indique pas, elle sera remplacée) :
+Entrées et sorties prévues par le découpage, dans cet ordre. C’est un plan,
+pas une contrainte de format : dans TA réponse, chaque entrée et chaque sortie
+porte bien un champ « main ». Choisis-la librement et cohéremment — c’est
+l’application qui l’arrêtera, ta valeur n’est qu’une préférence.
 ${a.mouvements.map((m) => `  ${m.type} — ${m.marionnette}`).join('\n')}
 Moments avec le public :
 ${a.momentsPublic.map((m) => `  - ${m}`).join('\n')}
-Budget indicatif pour cet acte : environ ${a.budgetMots} mots dits — une jauge, pas une limite ; jamais au prix de la fin`;
+Budget indicatif pour cet acte : environ ${a.budgetMots} mots dits. C'est une
+jauge, jamais une limite : la fidélité au texte du conte passe devant, et la
+fin de l'acte se joue en entier. Dépasser vaut mieux que couper une réplique
+du conte.`;
 }
 
 /* ================================================================== */

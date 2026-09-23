@@ -1,0 +1,230 @@
+Marionnettes du parent :
+- Petite Souris
+  Traits : peureux, curieux
+  Apparence : Une souris grise minuscule, en feutrine.
+- Gros Loup
+  Traits : méchant, gourmand
+  Apparence : Un loup gris au museau râpé, assez grand.
+
+Réglages du spectacle :
+- durée visée : 5 minutes, soit environ 500 mots dits
+- âge du public : 4 ans
+- marionnettistes : 1, donc 2 mains
+- interaction avec le public : beaucoup, le public est sollicité souvent
+
+LE CONTE, TRANSPOSÉ POUR LES MARIONNETTES DU PARENT : Chat et souris associés — Allemagne, Jacob et Wilhelm Grimm, Contes de l'enfance et du foyer, 1857 (n° 2)
+C’est le texte de référence : les répliques y sont prises mot pour mot.
+
+Fiche du conte :
+**Essence.** Le chat mange en cachette la réserve commune et avoue tout dans les noms qu'il invente — Entamé, À-moitié, Tout-fini — sans que la souris comprenne, jusqu'à l'hiver.
+
+**Trame.**
+1. Le chat et la souris s'installent ensemble et cachent un pot de graisse pour l'hiver.
+2. Le chat prétend être parrain d'un neveu, file et lèche le dessus : l'enfant s'appelle « Entamé ».
+3. Deuxième baptême : « À-moitié ». Troisième : « Tout-fini ».
+4. L'hiver venu, ils vont chercher la réserve : le pot est vide.
+5. La souris comprend et commence à réciter les noms ; le chat la menace de la manger.
+
+**À adapter.** La fin cruelle est à changer : la souris récite « Tout-fini ! » et le chat, confondu devant le public, doit aller lui trouver une autre réserve. Le pot de graisse devient un pot de miel ou de confiture ; l'église, le grenier. Le public comprend avant la souris : c'est tout le plaisir.
+Retouches déjà faites à la transposition :
+- Le pot de graisse devient un pot de miel, comme annoncé au parent.
+- La cachette n’est plus l’église mais le creux d’un grand chêne, l’église disparaissant du texte.
+- La promenade sur les toits de la ville devient une promenade dans la forêt, car un loup ne grimpe pas sur les toits.
+- Le trajet derrière les remparts jusqu’à l’église devient un trajet à travers la forêt jusqu’au grand chêne, par cohérence avec la nouvelle cachette.
+- « une belle amie » devient « un bel ami », accord au masculin pour Gros Loup.
+- La fin est adoucie : personne n’est mangé ; confus devant tout le monde d’avoir tout mangé, Gros Loup part réparer sa faute en promettant à Petite Souris un nouveau pot de miel.
+
+TEXTE TRANSPOSÉ (environ 990 mots) :
+"""
+Gros Loup avait fait la connaissance de Petite Souris, et il lui avait tant parlé du grand amour et de la grande amitié qu’il avait pour elle que Petite Souris accepta enfin d’habiter avec lui dans la même maison et de tenir ménage ensemble.
+
+— Mais il faut penser à l’hiver, sinon nous aurons faim, dit Gros Loup. Toi, Petite Souris, tu ne peux pas t’aventurer partout, et tu finirais par tomber dans un piège.
+
+Ils suivirent donc ce bon conseil et achetèrent un petit pot de miel. Mais ils ne savaient pas où le mettre. Enfin, après avoir longuement réfléchi, Gros Loup dit :
+
+— Je ne connais pas d’endroit plus sûr que le creux du grand chêne : là, personne n’ose rien prendre. Nous le mettrons tout au fond, et nous n’y toucherons pas avant d’en avoir besoin.
+
+Le petit pot fut donc mis à l’abri. Mais il ne se passa pas longtemps avant que Gros Loup en ait envie, et il dit à Petite Souris :
+
+— Petite Souris, j’oubliais de te dire : ma cousine m’a demandé d’être parrain. Elle a mis au monde un petit garçon, blanc avec des taches brunes, et je dois le porter au baptême. Laisse-moi sortir aujourd’hui, et garde la maison toute seule.
+
+— Oui, oui, répondit Petite Souris, va, et si tu manges quelque chose de bon, pense à moi : une petite goutte du bon vin de la fête, j’en boirais volontiers.
+
+Mais tout cela n’était pas vrai. Gros Loup n’avait pas de cousine et n’était parrain de personne. Il alla tout droit au creux du grand chêne, se glissa jusqu’au pot de miel, se mit à lécher, et lécha toute la couche du dessus. Puis il fit une promenade dans la forêt, regarda le paysage, s’étendit au soleil, et se pourlécha les moustaches chaque fois qu’il repensait au petit pot. Il ne rentra qu’au soir.
+
+— Ah, te voilà, dit Petite Souris. Tu as sûrement passé une joyeuse journée.
+
+— Ça s’est bien passé, répondit Gros Loup.
+
+— Et quel nom a-t-on donné à l’enfant ? demanda Petite Souris.
+
+— Entamé, dit Gros Loup, très sèchement.
+
+— Entamé ! s’écria Petite Souris. Mais c’est un nom bien étrange et bien bizarre. C’est l’habitude, dans ta famille ?
+
+— Et alors ? dit Gros Loup. Ce n’est pas pire que Voleur-de-miettes, comme s’appellent tes filleuls.
+
+Peu après, Gros Loup eut de nouveau une envie. Il dit à Petite Souris :
+
+— Il faut que tu me rendes encore service et que tu t’occupes seule de la maison. On m’a demandé une deuxième fois d’être parrain, et comme l’enfant a un anneau blanc autour du cou, je ne peux pas refuser.
+
+La bonne Petite Souris accepta. Gros Loup se glissa à travers la forêt jusqu’au grand chêne et mangea la moitié du pot de miel.
+
+— Rien n’a meilleur goût, dit-il, que ce qu’on mange soi-même.
+
+Et il fut très content de sa journée. Quand il rentra, Petite Souris demanda :
+
+— Et comment a-t-on baptisé cet enfant-là ?
+
+— À-moitié, répondit Gros Loup.
+
+— À-moitié ! Qu’est-ce que tu me racontes ! Je n’ai jamais entendu ce nom de ma vie. Je parie qu’il n’est pas dans le calendrier.
+
+Bientôt Gros Loup eut de nouveau l’eau à la bouche en pensant à la friandise.
+
+— Jamais deux sans trois, dit-il à Petite Souris. On me demande encore d’être parrain. L’enfant est tout noir, avec seulement les pattes blanches, pas un seul poil blanc ailleurs sur le corps : cela n’arrive qu’une fois tous les trois ou quatre ans. Tu me laisses sortir, n’est-ce pas ?
+
+— Entamé ! À-moitié ! répondit Petite Souris. Ce sont des noms si curieux, ils me donnent à réfléchir.
+
+— Tu restes à la maison dans ta robe gris foncé, avec ta longue natte, dit Gros Loup, et tu te fais des idées. Voilà ce qui arrive quand on ne sort pas de la journée.
+
+Pendant l’absence de Gros Loup, Petite Souris fit le ménage et rangea la maison. Mais Gros Loup, gourmand, vida complètement le pot de miel.
+
+— Quand tout est mangé, on est tranquille, se dit-il.
+
+Et il ne rentra que la nuit, repu et tout rond. Petite Souris lui demanda aussitôt le nom qu’on avait donné au troisième enfant.
+
+— Il ne te plaira sans doute pas non plus, dit Gros Loup. Il s’appelle Tout-fini.
+
+— Tout-fini ! s’écria Petite Souris. C’est le plus inquiétant de tous les noms. Je ne l’ai jamais vu écrit nulle part. Tout-fini ! Qu’est-ce que cela peut bien vouloir dire ?
+
+Elle secoua la tête, se roula en boule et s’endormit.
+
+À partir de ce jour, plus personne ne demanda à Gros Loup d’être parrain. Mais quand l’hiver arriva et qu’on ne trouva plus rien dehors, Petite Souris se souvint de leur réserve et dit :
+
+— Viens, Gros Loup, allons chercher notre pot de miel que nous avons mis de côté, il va nous régaler.
+
+— Oh oui, répondit Gros Loup, il te régalera autant que si tu tirais ta fine langue par la fenêtre.
+
+Ils se mirent en route, et quand ils arrivèrent, le pot de miel était bien à sa place, mais il était vide.
+
+— Ah, dit Petite Souris, je comprends maintenant ce qui s’est passé, maintenant tout s’éclaire ! Tu es vraiment un bel ami ! Tu as tout mangé, quand tu étais parrain : d’abord entamé, puis à moitié, puis…
+
+— Tais-toi ! cria Gros Loup. Encore un mot, et je te mange.
+
+« Tout-fini » était déjà sur la langue de la pauvre Petite Souris ; à peine l’eut-elle dit que Gros Loup resta bouche bée, confus devant tout le monde. Il n’y avait plus rien à cacher : c’était bien lui, le gourmand. Alors, penaud, il promit de lui trouver un nouveau pot de miel avant la nuit. Tu vois, c’est ainsi que va le monde.
+"""
+
+LE SYNOPSIS CHOISI PAR LE PARENT : Chat et souris associés
+Un pot de miel caché pour l'hiver, et Gros Loup qui le vide en cachette, un peu chaque jour.
+- Petite Souris et Gros Loup décident de vivre ensemble et cachent un pot de miel pour passer l'hiver.
+- Gros Loup s'éclipse en disant qu'on l'invite à un baptême, et revient avoir goûté le pot en cachette : il dit que le bébé s'appelle « Entamé ».
+- Il recommence une seconde fois : cette fois le bébé s'appelle « Tout-Fini », et le pot est maintenant vide.
+- Quand vient l'hiver, ils vont chercher leur pot ensemble et le trouvent vide.
+- Petite Souris comprend tout et dit devant tout le monde : « Tout-Fini ! » Gros Loup, confus, promet de lui trouver un nouveau pot.
+
+Distribution :
+- Petite Souris joue la Souris : Sa curiosité naturelle porte toute l'enquête : c'est elle qui comprend la ruse en premier.
+- Gros Loup joue le Chat : Son appétit gourmand est exactement ce qui le pousse à vider le pot en cachette.
+
+Changements annoncés au parent :
+- Le pot de graisse devient un pot de miel, plus parlant pour un enfant ; l'église et le grenier disparaissent du texte.
+- Un des trois faux baptêmes est supprimé pour tenir dans le temps du spectacle : il n'en reste que deux, jusqu'à « Tout-Fini ».
+- La fin est adoucie : personne n'est mangé ; Gros Loup, confondu devant le public, part chercher un nouveau pot pour se faire pardonner.
+
+L’ESPÈCE DES PERSONNAGES DANS LE TEXTE, impératif : chaque marionnette
+animale garde son espèce. Le nom de l’animal du conte disparaît de ce QUI SE
+JOUE — répliques, didascalies, titres, résumés, formules — et seulement de là.
+Les champs où tu expliques ton travail au parent (« changements », « note »)
+peuvent nommer l’animal d’origine : c’est même le plus clair pour lui.
+Le nom générique d’une espèce qui ne désigne PAS un personnage (« on chasse
+les loups en hiver ») ne change pas non plus.
+- Gros Loup joue le Chat : dans tout le texte, ce personnage est un·e loup, pas un·e chat. On l'appelle ainsi, et seuls les détails qui l'exigent changent.
+
+L’ADAPTATION DÉCIDÉE : « Le pot de miel de Petite Souris et Gros Loup »
+Petite Souris et Gros Loup cachent un pot de miel pour l’hiver, mais Gros Loup le vide en cachette, jusqu’à ce que la ruse éclate devant tout le monde.
+
+Ce qui change par rapport au conte, et que tu respectes :
+- Le deuxième faux baptême (« À-moitié ») est supprimé en entier pour tenir dans les 5 minutes : Gros Loup ne s’éclipse que deux fois, et la seconde fois il vide le pot d’un coup, si bien que le filleul s’appelle directement « Tout-Fini ».
+- Les moments où Gros Loup goûte le miel en cachette ne sont pas montrés : il sort simplement de scène puis revient annoncer le nom du filleul, car une peluche n’a pas de doigts pour ouvrir un pot.
+- Le neveu du faux baptême n’est jamais une marionnette : c’est un personnage inventé par Gros Loup dans ses mensonges, on ne le voit donc jamais en scène.
+
+Plan du spectacle :
+- Acte 1, Le pot caché : Petite Souris et Gros Loup décident de vivre ensemble et achètent un pot de miel pour passer l’hiver au chaud. Ils choisissent de le cacher dans le creux du grand chêne. (De « Gros Loup avait fait la connaissance de Petite Souris… » à « …nous n’y toucherons pas avant d’en avoir besoin. »)
+- Acte 2, Les faux baptêmes : Gros Loup s’invente des prétextes pour s’éclipser et grignoter le miel en cachette, donnant chaque fois un drôle de nom au « bébé » de son faux baptême. Petite Souris s’étonne sans comprendre, et l’hiver approche. (De « Le petit pot fut donc mis à l’abri. » à « …Elle secoua la tête, se roula en boule et s’endormit. »)
+- Acte 3, Tout-Fini ! : L’hiver venu, Petite Souris et Gros Loup vont ensemble chercher le pot promis : il est vide. Petite Souris comprend d’un coup et le dit devant tout le monde ; Gros Loup, confus, part réparer sa faute. (De « À partir de ce jour, plus personne ne demanda à Gros Loup d’être parrain. » à « …Tu vois, c’est ainsi que va le monde. »)
+
+État de la scène au début de cet acte :
+Petite Souris est en scène, main M1G.
+Gros Loup est en scène, main M1D.
+
+Texte des actes déjà écrits :
+--- Acte 1 : Le pot caché ---
+1. [entree] Petite Souris — main M1G
+2. [entree] Gros Loup — main M1D
+3. [action] Gros Loup s'approche de Petite Souris.
+4. Gros Loup : « Petite Souris, je t'aime beaucoup, comme un vrai ami. Habite avec moi ! » (chaleureux)
+5. Petite Souris : « D'accord, Gros Loup, j'habiterai avec toi ! » (joyeuse)
+6. [action] Petite Souris hoche la tête.
+7. Gros Loup : « Mais il faut penser à l'hiver, sinon nous aurons faim. Toi, Petite Souris, tu ne peux pas t'aventurer partout, et tu finirais par tomber dans un piège. » (sérieux, un peu grave)
+8. Petite Souris : « Allons acheter un pot, pour ne pas avoir faim cet hiver ! » (décidée)
+9. Petite Souris au public : « Qu'est-ce qu'on va mettre dedans, à votre avis ? » (attend une réponse)
+10. [action] Gros Loup se frotte le ventre.
+11. Gros Loup : « Un pot de miel ! » (gourmand)
+12. Petite Souris : « Mais où allons-nous le cacher ? » (inquiète, curieuse)
+13. Gros Loup au public : « À votre avis, où faut-il cacher le pot pour que personne ne le trouve ? » (attend une réponse)
+14. [action] Gros Loup penche la tête, immobile un instant.
+15. Gros Loup : « Je ne connais pas d'endroit plus sûr que le creux du grand chêne : là, personne n'ose rien prendre. Nous le mettrons tout au fond, et nous n'y toucherons pas avant d'en avoir besoin. » (convaincu, sûr de lui)
+
+--- Acte 2 : Les faux baptêmes ---
+1. [action] Gros Loup renifle l’air, gourmand.
+2. Gros Loup : « Petite Souris, j’oubliais de te dire : ma cousine m’a demandé d’être parrain. Elle a mis au monde un petit garçon, et je dois le porter au baptême. Laisse-moi sortir, et garde la maison toute seule. » (mielleux, l’air innocent)
+3. Petite Souris : « Oui, oui, va, et pense à moi si tu manges quelque chose de bon ! » (confiante, gentille)
+4. [sortie] Gros Loup — main M1D
+5. [action] Petite Souris trottine sur la scène, occupée, en attendant.
+6. [entree] Gros Loup — main M1D
+7. Petite Souris : « Ah, te voilà ! Tu as sûrement passé une joyeuse journée. » (contente, soulagée)
+8. Gros Loup : « Ça s’est bien passé. » (évasif)
+9. Petite Souris : « Et quel nom a-t-on donné à l’enfant ? » (curieuse)
+10. Gros Loup : « Entamé. » (sec, pressé de changer de sujet)
+11. Petite Souris au public : « Entamé… ça veut dire quoi, à votre avis ? » (attend une réponse)
+12. Petite Souris : « Mais c’est un nom bien étrange et bien bizarre ! C’est l’habitude, dans ta famille ? » (perplexe)
+13. Gros Loup : « Et alors ? Ce n’est pas pire que Voleur-de-miettes, comme s’appellent tes filleuls ! » (vexé, sur la défensive)
+14. [action] Gros Loup renifle de nouveau, et se tourne vers la coulisse.
+15. Gros Loup : « Il faut que tu me rendes encore service : on m’a demandé une deuxième fois d’être parrain. Tu me laisses sortir, n’est-ce pas ? » (un peu gêné)
+16. Petite Souris : « Entamé… c’est un nom bien curieux. Mais vas-y. » (songeuse, mais confiante)
+17. [sortie] Gros Loup — main M1D
+18. Petite Souris au public : « Vous, vous y croyez, à ces baptêmes ? »
+19. [action] Petite Souris penche la tête, songeuse, en attendant.
+20. [entree] Gros Loup — main M1D
+21. [action] Gros Loup se dandine en entrant, le pas lourd.
+22. Petite Souris au public : « À votre avis, pourquoi Gros Loup revient-il toujours le ventre plein ? » (attend une réponse)
+23. Petite Souris : « Et comment a-t-on baptisé cet enfant-là ? » (curieuse)
+24. Gros Loup : « Il ne te plaira sans doute pas non plus… Il s’appelle Tout-fini. » (gêné, presque honteux)
+25. Petite Souris : « Tout-fini ! C’est le plus inquiétant de tous les noms. Tout-fini ! Qu’est-ce que cela peut bien vouloir dire ? » (effarée)
+26. [action] Petite Souris secoue la tête, se roule en boule et s’endort.
+
+Ce qui viendra après cet acte :
+Rien : c’est le dernier acte, il referme le spectacle.
+
+Conduite de l’acte à écrire :
+Acte 3 — Tout-Fini !
+Résumé : L’hiver venu, Petite Souris et Gros Loup vont ensemble chercher le pot promis : il est vide. Petite Souris comprend d’un coup et le dit devant tout le monde ; Gros Loup, confus, part réparer sa faute.
+Passage du conte joué par cet acte : De « À partir de ce jour, plus personne ne demanda à Gros Loup d’être parrain. » à « …Tu vois, c’est ainsi que va le monde. »
+Déroulé :
+  1. L’hiver arrive ; ils vont ensemble chercher leur pot de miel.
+  2. Le pot est vide : Petite Souris comprend et dit « Tout-Fini ! » devant tout le monde.
+  3. Gros Loup, confus, promet de trouver un nouveau pot de miel.
+Entrées et sorties prévues par le découpage, dans cet ordre. C’est un plan,
+pas une contrainte de format : dans TA réponse, chaque entrée et chaque sortie
+porte bien un champ « main ». Choisis-la librement et cohéremment — c’est
+l’application qui l’arrêtera, ta valeur n’est qu’une préférence.
+  sortie — Gros Loup
+Moments avec le public :
+  - On demande aux enfants, avant d’ouvrir : « À votre avis, qu’est-ce qu’on va trouver dans le pot ? »
+  - On laisse les enfants deviner et crier le nom avant que Petite Souris ne le dise.
+  - On demande aux enfants comment Gros Loup pourrait se faire pardonner.
+Budget indicatif pour cet acte : environ 220 mots dits. C'est une
+jauge, jamais une limite : la fidélité au texte du conte passe devant, et la
+fin de l'acte se joue en entier. Dépasser vaut mieux que couper une réplique
+du conte.

@@ -122,3 +122,47 @@
 - Quand le découpage est refusé, le modèle reçoit le SYMPTÔME mais pas son
   propre découpage fautif : il doit deviner ce qu'il avait écrit. Corrigé :
   on lui montre ses entrées et sorties refusées.
+
+## Cas 2, étape 005 — écriture d'un acte
+- MON CORRECTIF a créé une ambiguïté : « la main est calculée par
+  l'application : ne l'indique pas » se lisait comme portant sur la RÉPONSE,
+  alors que le schéma JSON exige « main ». Reformulé.
+- Tension permanente entre « reprends le texte mot pour mot » et « une peluche
+  n'a pas de doigts » : le modèle doit arbitrer à chaque objet manipulé.
+
+## Cas 2, étape 006 — écriture d'un acte
+- CONFIRMÉ : la tension entre « budget de mots » et « répliques mot pour mot »
+  revient à chaque acte. Le budget disait « jamais au prix de la fin » ; il dit
+  maintenant que la fidélité passe devant et que dépasser vaut mieux que couper.
+- Quand le découpage fusionne deux épisodes, rien ne dit comment recoudre deux
+  répliques du conte qui ne se suivaient pas.
+
+## Cas 2, étape 007 — écriture d'un acte  ⚠ CAUSE RACINE TROUVÉE
+- CONFIRMÉ 3 FOIS : le découpage propose des « moments avec le public » que
+  l'écriture juge interdits (« demande aux enfants comment X pourrait se faire
+  pardonner »), et en propose plus que la dose autorisée.
+- CAUSE : `promptDecoupage` ne recevait JAMAIS `consignesInteraction`. Il
+  inventait donc ces moments sans connaître la règle qui les encadre, et
+  chaque acte devait ensuite les refuser ou les retordre. Corrigé.
+
+## Cas 2, étape 008 — relecture
+- Un titre de section DUPLIQUÉ dans la checklist (« LA PLACE DES DIDASCALIES
+  ET DES APARTÉS, en détail : » suivi immédiatement de « La place des
+  didascalies et des apartés : »). Supprimé.
+- ANGLE MORT : la consigne « le champ ton est prévu, ne le signale pas »
+  empêchait le relecteur de signaler un ton qui contredit l'âge du public
+  (« je te mange », l'air menaçant, devant des 4 ans). Exception ajoutée.
+
+## Cas 2, étape 009 — correction
+- La règle de priorité que j'ai ajoutée FONCTIONNE : le conflit longueur /
+  fidélité a été tranché tout seul, sans hésitation.
+- Reste un conflit : une modification éditoriale peut faire DÉPASSER la dose
+  d'adresses au public. Ajouté : une telle modification s'applique autrement,
+  en gardant son intention.
+
+## Cas 2, étape 010 — correction
+- La nouvelle règle « une modification qui enfreindrait une règle s'applique
+  autrement » FONCTIONNE : l'agent a choisi seul l'option compatible.
+- Les interdits de style (points de suspension, maximes) ne disaient pas
+  qu'ils portent sur ce que le modèle AJOUTE, pas sur le texte du conte.
+  Précisé.
