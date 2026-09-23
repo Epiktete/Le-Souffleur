@@ -276,7 +276,8 @@ export function repartitionAttendue(dureeMinutes: number): string {
   if (dureeMinutes <= 3) return '1 à 2 tableaux et 2 actes';
   if (dureeMinutes <= 6) return '2 tableaux et 3 actes';
   if (dureeMinutes <= 10) return '2 à 3 tableaux et 3 à 4 actes';
-  return '3 à 4 tableaux et 4 à 6 actes';
+  if (dureeMinutes <= 20) return '3 à 4 tableaux et 4 à 6 actes';
+  return '4 tableaux et 5 à 6 actes, plus longs';
 }
 
 /* ================================================================== */

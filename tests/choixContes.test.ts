@@ -183,6 +183,42 @@ describe('la durée', () => {
   });
 });
 
+describe('la durée, une barrière', () => {
+  const trois = [
+    m('1', 'Doudou Lapin', ['peureux'], 'un lapin'),
+    m('2', 'Renard', ['rusé'], 'un renard'),
+    m('3', 'Ourse', ['gourmand'], 'une ourse'),
+  ];
+  const pour = (dureeMinutes: number) =>
+    choisirContes(trois, { ageAuditoire: 6, dureeMinutes, nbMarionnettistes: 1 as const });
+
+  it('un conte court est proposé pour un spectacle court, pas pour un long', () => {
+    // « Le Corbeau et le Renard » fait 138 mots : parfait pour trois minutes,
+    // impossible pour trente. Le conte n'est pas trop court dans l'absolu.
+    const plusCourt = (d: number) => Math.min(...pour(d).candidats.map((c) => c.mots));
+    expect(plusCourt(2)).toBeLessThan(plusCourt(30));
+    expect(plusCourt(30)).toBeGreaterThan(1000);
+  });
+
+  it('écarte ce qu’il faudrait étirer plus de quatre fois', () => {
+    for (const d of [2, 5, 10, 20, 30]) {
+      const mots = d * 100;
+      for (const c of pour(d).candidats) {
+        expect(c.mots).toBeGreaterThanOrEqual(mots * 0.25);
+      }
+    }
+  });
+
+  it('le répertoire se resserre avec la durée, sans jamais se vider', () => {
+    const jouables = [2, 5, 10, 20, 30].map((d) => pour(d).jouables);
+    // Strictement décroissant : plus le spectacle est long, moins de contes
+    // sont assez fournis pour le tenir.
+    for (let i = 1; i < jouables.length; i++) expect(jouables[i]).toBeLessThan(jouables[i - 1]);
+    // Et il reste toujours de quoi proposer huit contes.
+    for (const d of [2, 5, 10, 20, 30]) expect(pour(d).candidats).toHaveLength(8);
+  });
+});
+
 describe('l’ébauche', () => {
   it('fait remonter le conte dont elle parle', () => {
     const singe = conteParId('in-crocodile-et-singe')!;

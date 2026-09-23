@@ -27,7 +27,10 @@ export const DUREE = {
 
 /** Bornes des réglages du studio (CDC §4). */
 export const BORNES = {
-  dureeMinutes: { min: 2, max: 20, defaut: 5 },
+  // Trente minutes : les pièces de Guignol du répertoire font jusqu'à 6 800
+  // mots, soit plus d'une heure lues telles quelles. À trente minutes on les
+  // coupe sans les mutiler.
+  dureeMinutes: { min: 2, max: 30, defaut: 5 },
   ageAuditoire: { min: 3, max: 10, defaut: 5 },
   marionnettesParSpectacle: { min: 1, max: 6 },
   /** Chaque marionnettiste a deux mains, donc deux marionnettes au plus. */

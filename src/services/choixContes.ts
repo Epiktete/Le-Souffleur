@@ -1,8 +1,10 @@
 // Le choix des contes : trouver, dans la contothèque, ceux qui vont aux
 // marionnettes choisies.
 //
-// D'abord deux BARRIÈRES, qu'aucune note ne rachète :
+// D'abord trois BARRIÈRES, qu'aucune note ne rachète :
 //   - l'âge du public ;
+//   - la durée : un conte qu'il faudrait étirer plus de quatre fois pour tenir
+//     le spectacle demandé n'est plus adapté, il est inventé ;
 //   - le nombre : pas plus de rôles principaux que de marionnettes invitées
 //     au studio, et chaque marionnette en trop doit trouver un petit rôle.
 //
@@ -63,6 +65,17 @@ export const CHOIX = {
   poidsEspece: 0.3,
   /** Tolérance d'âge : un conte « 5-10 ans » reste possible à 4 ans. */
   margeAge: 1,
+  /**
+   * Barrière de durée : part minimale du spectacle que le conte doit déjà
+   * raconter. À 0,25, un conte qu'il faudrait étirer plus de quatre fois est
+   * écarté — au-delà on n'adapte plus, on invente.
+   *
+   * Elle dépend de la durée demandée, et c'est tout l'intérêt : « Le Corbeau
+   * et le Renard », 138 mots, est parfait pour trois minutes et impossible
+   * pour vingt. Le même conte n'est pas trop court dans l'absolu, il l'est
+   * pour CE spectacle.
+   */
+  plancherDuree: 0.25,
 } as const;
 
 /* ================================================================== */
@@ -704,37 +717,52 @@ export function choisirContes(
   const P = CHOIX.poids;
   const somme = P.nombre + P.traits + P.duree + P.espece + (avecEbauche ? P.ebauche : 0);
 
-  const evalues: Candidat[] = [];
-  for (const conte of possibles) {
-    const nombre = noteNombre(n, conte, mains);
-    if (nombre === null) continue;
-    const distribution = meilleureDistribution(marionnettes, conte);
-    if (!distribution) continue;
+  const evaluer = (plancher: number) => {
+    const evalues: Candidat[] = [];
+    for (const conte of possibles) {
+      // La barrière de durée : un conte qu'il faudrait étirer plus de quatre
+      // fois n'est plus adapté, il est inventé. Un conte dont on ignore la
+      // longueur passe : on ne l'écarte pas sur une donnée manquante.
+      const mots = INDEX[conte.id]?.mots ?? 0;
+      if (mots && mots < motsSpectacle * plancher) continue;
+      const nombre = noteNombre(n, conte, mains);
+      if (nombre === null) continue;
+      const distribution = meilleureDistribution(marionnettes, conte);
+      if (!distribution) continue;
 
-    const moyenne = (f: (a: Attribution) => number) =>
-      distribution.reduce((s, a) => s + f(a), 0) / Math.max(1, distribution.length);
-    const infos = INDEX[conte.id] ?? { mots: 0, cles: [] };
-    const notes = {
-      nombre,
-      // Les traits vont de -1 à 1 : on les ramène entre 0 et 1.
-      traits: (moyenne((a) => a.traits) + 1) / 2,
-      duree: infos.mots ? noteDuree(infos.mots, motsSpectacle) : 0.5,
-      ebauche: avecEbauche ? noteEbauche(o.ebauche!, conte, infos.cles) : 0,
-      espece: moyenne((a) => a.espece),
-    };
-    const total = (P.nombre * notes.nombre + P.traits * notes.traits + P.duree * notes.duree
-      + P.espece * notes.espece + (avecEbauche ? P.ebauche * notes.ebauche : 0)) / somme
-      * (o.malus?.[conte.id] ?? 1);
+      const moyenne = (f: (a: Attribution) => number) =>
+        distribution.reduce((s, a) => s + f(a), 0) / Math.max(1, distribution.length);
+      const infos = INDEX[conte.id] ?? { mots: 0, cles: [] };
+      const notes = {
+        nombre,
+        // Les traits vont de -1 à 1 : on les ramène entre 0 et 1.
+        traits: (moyenne((a) => a.traits) + 1) / 2,
+        duree: infos.mots ? noteDuree(infos.mots, motsSpectacle) : 0.5,
+        ebauche: avecEbauche ? noteEbauche(o.ebauche!, conte, infos.cles) : 0,
+        espece: moyenne((a) => a.espece),
+      };
+      const total = (P.nombre * notes.nombre + P.traits * notes.traits + P.duree * notes.duree
+        + P.espece * notes.espece + (avecEbauche ? P.ebauche * notes.ebauche : 0)) / somme
+        * (o.malus?.[conte.id] ?? 1);
 
-    const tenus = new Set(distribution.map((a) => a.role));
-    evalues.push({
-      conte,
-      notes: { ...notes, total },
-      mots: infos.mots,
-      distribution,
-      sansMarionnette: conte.roles.filter((r) => !tenus.has(r)),
-    });
-  }
+      const tenus = new Set(distribution.map((a) => a.role));
+      evalues.push({
+        conte,
+        notes: { ...notes, total },
+        mots: infos.mots,
+        distribution,
+        sansMarionnette: conte.roles.filter((r) => !tenus.has(r)),
+      });
+    }
+
+    return evalues;
+  };
+
+  // On relâche le plancher plutôt que de rendre une liste vide : mieux vaut
+  // proposer un conte qu'il faudra étirer que n'en proposer aucun.
+  let evalues = evaluer(CHOIX.plancherDuree);
+  if (evalues.length < CHOIX.presentes) evalues = evaluer(CHOIX.plancherDuree / 2);
+  if (evalues.length < 3) evalues = evaluer(0);
 
   evalues.sort((a, b) => b.notes.total - a.notes.total || a.conte.id.localeCompare(b.conte.id));
 
