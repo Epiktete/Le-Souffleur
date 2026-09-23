@@ -21,7 +21,10 @@
 //   4. LA DURÉE : un conte de soixante mots ne s'étire pas sur dix minutes sans
 //      inventer, et un conte de quinze mille mots ne tient pas en cinq sans
 //      être mutilé.
-//   5. L'ESPÈCE, sans être trop regardant : un lapin peut jouer un chevreuil,
+//   5. LE CASTELET : ce que le conte vaut sur une table, avec des peluches au
+//      bout des mains. Une pièce de Guignol est écrite pour ça ; un mythe des
+//      origines ne l'est pas.
+//   6. L'ESPÈCE, sans être trop regardant : un lapin peut jouer un chevreuil,
 //      un ours un lion. Elle interdit dans un seul cas : une petite bête douce
 //      ne joue pas un prédateur ni un ogre. Un lapin n'est pas un loup.
 //
@@ -60,7 +63,7 @@ export const CHOIX = {
    * devenus facultatifs. Leur vrai métier est ailleurs : distribuer les rôles
    * une fois le conte choisi (`meilleureDistribution`).
    */
-  poids: { nombre: 3, traits: 0.25, ebauche: 2.5, duree: 2, espece: 1 },
+  poids: { nombre: 3, traits: 0.25, ebauche: 2.5, duree: 2, espece: 1, castelet: 1 },
   /** Poids de l'espèce face aux traits, dans le choix des rôles. */
   poidsEspece: 0.3,
   /** Tolérance d'âge : un conte « 5-10 ans » reste possible à 4 ans. */
@@ -457,6 +460,8 @@ export interface Notes {
   /** 0 quand le parent n'a pas écrit d'ébauche : elle ne compte alors pas. */
   ebauche: number;
   espece: number;
+  /** Ce que le conte vaut au castelet, indépendamment des marionnettes. */
+  castelet: number;
   total: number;
 }
 
@@ -515,6 +520,55 @@ export function noteDuree(motsConte: number, motsSpectacle: number): number {
   return 1 / (1 + Math.log(r / 3));
 }
 
+
+/**
+ * Ce que le conte vaut AU CASTELET, de 0 à 1.
+ *
+ * Tous les contes ne se jouent pas également bien sur une table avec des
+ * peluches au bout des mains. Une pièce de Guignol est écrite pour ça ; un
+ * mythe des origines, où un héros solitaire traverse le monde et se change en
+ * montagne, ne l'est pas — même bien raconté, il ne donne rien à jouer.
+ *
+ * Tout se lit dans la fiche, déjà écrite à la main :
+ *
+ *   - LE GENRE mène. Le vocabulaire est fermé (dix valeurs, vérifiées par
+ *     tools/verifier-fiches.mjs), ce qui en fait un signal fiable.
+ *   - LA RÉPÉTITION est le moteur du castelet : trois tentatives, une
+ *     randonnée, deux visites en miroir. L'enfant anticipe, et c'est là qu'il
+ *     rit.
+ *   - LES LIEUX ne comptent qu'au-delà de trois : l'application sait faire
+ *     plusieurs tableaux, mais quatre décors à préparer pèsent sur le parent.
+ *   - LE NOMBRE : deux à quatre personnages qui se répondent. Un personnage
+ *     seul n'a personne à qui parler ; au-delà de quatre, ça se bouscule.
+ *
+ * Une note calculée plutôt qu'un champ de plus à tenir dans 163 fiches :
+ * elle se relit ici en entier, et se corrige en changeant un chiffre.
+ */
+const CASTELET_GENRE: Record<string, number> = {
+  'pièce de marionnettes': 1,
+  'conte facétieux': 0.85,
+  'conte en randonnée': 0.85,
+  'conte en chaîne': 0.85,
+  'conte merveilleux': 0.75,
+  "conte d'animaux": 0.75,
+  fable: 0.5,
+  légende: 0.3,
+  'conte des origines': 0.3,
+  'conte philosophique': 0.3,
+};
+
+/** Structures qui reposent sur la répétition, celle qui fait rire au castelet. */
+const STRUCTURE_REPETEE = /trois|deux |double|randonn|chaîne|accumulation|miroir|répét|successi|série|cumulat/i;
+
+export function noteCastelet(
+  c: Pick<Conte, 'genre' | 'lieux' | 'structure' | 'personnages'>,
+): number {
+  let note = CASTELET_GENRE[c.genre] ?? 0.5;
+  if (STRUCTURE_REPETEE.test(c.structure)) note += 0.1;
+  if (c.lieux.split(',').filter((l) => l.trim()).length >= 4) note -= 0.15;
+  note += c.personnages >= 2 && c.personnages <= 4 ? 0.1 : -0.15;
+  return Math.max(0, Math.min(1, note));
+}
 
 /**
  * La meilleure distribution possible : chaque marionnette reçoit un rôle
@@ -715,7 +769,8 @@ export function choisirContes(
   if (possibles.length < CHOIX.presentes * 2) possibles = pourAge(CHOIX.margeAge + 2);
 
   const P = CHOIX.poids;
-  const somme = P.nombre + P.traits + P.duree + P.espece + (avecEbauche ? P.ebauche : 0);
+  const somme = P.nombre + P.traits + P.duree + P.espece + P.castelet
+    + (avecEbauche ? P.ebauche : 0);
 
   const evaluer = (plancher: number) => {
     const evalues: Candidat[] = [];
@@ -740,9 +795,11 @@ export function choisirContes(
         duree: infos.mots ? noteDuree(infos.mots, motsSpectacle) : 0.5,
         ebauche: avecEbauche ? noteEbauche(o.ebauche!, conte, infos.cles) : 0,
         espece: moyenne((a) => a.espece),
+        castelet: noteCastelet(conte),
       };
       const total = (P.nombre * notes.nombre + P.traits * notes.traits + P.duree * notes.duree
-        + P.espece * notes.espece + (avecEbauche ? P.ebauche * notes.ebauche : 0)) / somme
+        + P.espece * notes.espece + P.castelet * notes.castelet
+        + (avecEbauche ? P.ebauche * notes.ebauche : 0)) / somme
         * (o.malus?.[conte.id] ?? 1);
 
       const tenus = new Set(distribution.map((a) => a.role));

@@ -10,6 +10,7 @@ import {
   familleRole,
   INTERDIT,
   meilleureDistribution,
+  noteCastelet,
   noteDuree,
   noteEbauche,
   noteNombre,
@@ -180,6 +181,52 @@ describe('la durée', () => {
       expect(INDEX[id].mots, `${id} : relancez node tools/indexer-contes.mjs`)
         .toBe(compterMots(await texteDuConte(id)));
     }
+  });
+});
+
+describe('le castelet', () => {
+  const c = (
+    genre: string,
+    personnages = 3,
+    structure = 'situation, visite, fuite',
+    lieux = 'la maison, le pré',
+  ) => ({ genre, personnages, structure, lieux });
+
+  it('une pièce de Guignol vaut plus qu’un mythe des origines', () => {
+    expect(noteCastelet(c('pièce de marionnettes')))
+      .toBeGreaterThan(noteCastelet(c('conte des origines')));
+    expect(noteCastelet(c('conte merveilleux')))
+      .toBeGreaterThan(noteCastelet(c('fable')));
+  });
+
+  it('la répétition monte la note, quatre décors la baissent', () => {
+    const base = noteCastelet(c('fable'));
+    expect(noteCastelet(c('fable', 3, 'trois tentatives'))).toBeGreaterThan(base);
+    expect(noteCastelet(c('fable', 3, 'situation, visite, fuite', 'a, b, c, d')))
+      .toBeLessThan(base);
+  });
+
+  it('deux à quatre personnages qui se répondent valent mieux qu’un seul', () => {
+    expect(noteCastelet(c('fable', 3))).toBeGreaterThan(noteCastelet(c('fable', 1)));
+    expect(noteCastelet(c('fable', 3))).toBeGreaterThan(noteCastelet(c('fable', 6)));
+  });
+
+  it('reste toujours entre 0 et 1', () => {
+    for (const conte of CONTES) {
+      const n = noteCastelet(conte);
+      expect(n).toBeGreaterThanOrEqual(0);
+      expect(n).toBeLessThanOrEqual(1);
+    }
+  });
+
+  it('sur le vrai répertoire, Guignol et Perrault passent devant les fables', () => {
+    const moyenne = (prefixe: string) => {
+      const liste = CONTES.filter((x) => x.id.startsWith(prefixe));
+      expect(liste.length).toBeGreaterThan(0);
+      return liste.reduce((s2, x) => s2 + noteCastelet(x), 0) / liste.length;
+    };
+    expect(moyenne('guignol')).toBeGreaterThan(moyenne('fr-perrault'));
+    expect(moyenne('fr-perrault')).toBeGreaterThan(moyenne('fr-fontaine'));
   });
 });
 
