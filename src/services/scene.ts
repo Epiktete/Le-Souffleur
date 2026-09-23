@@ -336,7 +336,10 @@ export function controler(c: ContexteControle): Probleme[] {
             + `des ${Math.round(partParActe)} s de sa part, soit environ ${motsAGagner} mots. `
             + 'Joue plus longuement ce que le conte raconte DÉJÀ, sans inventer '
             + 'd’épisode : développe ses répliques, laisse les personnages se '
-            + 'répondre, étire les répétitions qu’il porte.'
+            + 'répondre, étire les répétitions qu’il porte. Si le passage est de la '
+            + 'pure narration, sans une réplique à développer, LAISSE L’ACTE COURT : '
+            + 'inventer tout un dialogue pour tenir la jauge est exactement ce qu’on '
+            + 'ne veut pas.'
           : `L'acte ${acte.numero} est un peu long : ${Math.round(sienne)} s au lieu `
             + `des ${Math.round(partParActe)} s de sa part, soit environ ${-motsAGagner} mots. `
             + 'Resserre ce qui ne vient pas du conte — didascalies bavardes, '
@@ -347,16 +350,32 @@ export function controler(c: ContexteControle): Probleme[] {
   }
 
   // 8. Interaction avec le public promise mais absente.
-  if (c.interactionPublic !== 'aucune') {
+  //
+  // La dose N'EST PAS la même selon le réglage, et le contrôle s'était aligné
+  // sur le mauvais. « Quelques moments » veut dire deux ou trois adresses
+  // dans TOUT le spectacle : en exiger une par acte contredisait la consigne
+  // donnée au modèle, et la correction d'un acte réclamait une adresse de plus
+  // alors que le spectacle avait déjà son compte.
+  if (c.interactionPublic === 'beaucoup') {
     for (const acte of c.actes) {
-      const aUneAdresse = acte.elements.some((e) => e.type === 'adresse_public');
-      if (!aUneAdresse) {
-        problemes.push({
-          gravite: 'mineur',
-          acteNumero: acte.numero,
-          message: `L’acte ${acte.numero} ne s’adresse jamais au public.`,
-        });
-      }
+      if (acte.elements.some((e) => e.type === 'adresse_public')) continue;
+      problemes.push({
+        gravite: 'mineur',
+        acteNumero: acte.numero,
+        message: `L’acte ${acte.numero} ne s’adresse jamais au public.`,
+      });
+    }
+  } else if (c.interactionPublic === 'quelques') {
+    const total = c.actes.reduce(
+      (n, a) => n + a.elements.filter((e) => e.type === 'adresse_public').length,
+      0,
+    );
+    if (total === 0) {
+      problemes.push({
+        gravite: 'mineur',
+        message: 'Le spectacle ne s’adresse jamais au public, alors que le parent '
+          + 'a demandé quelques moments avec lui.',
+      });
     }
   }
 

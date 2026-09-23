@@ -131,7 +131,11 @@ public, sans rien lui demander.`;
     : 'au moins une adresse au public par acte, et deux au plus qui attendent vraiment une réponse';
   return `Sollicitation du public : ${dose}. Prends-les dans le conte : la formule
 qui revient et que les enfants peuvent dire avec la marionnette, le danger
-qu’ils voient avant le personnage et qu’ils peuvent crier. Demande-leur d’agir
+qu’ils voient avant le personnage et qu’ils peuvent crier.
+Une réplique que les enfants REPRENNENT EN CHŒUR reste une « replique » — elle
+est dite à un personnage, pas au public —, suivie d’une « note_marionnettiste »
+qui dit au parent de la faire reprendre. N’en fais pas une « adresse_public » :
+ce champ est réservé à ce qu’on dit AUX enfants. Demande-leur d’agir
 — crier, compter, répéter une formule —, jamais de décider de la suite.
 INTERDIT : demander aux enfants de trouver l’idée à la place du personnage
 (« Qu’est-ce qu’il pourrait répondre pour se sauver ? ») — c’est le conte
@@ -731,6 +735,11 @@ Trois degrés de gravité :
 Chaque remarque vise un acte (et, si possible, le numéro de l’élément) : une
 incohérence qui touche deux actes donne une remarque pour chacun. La
 modification dit concrètement quoi écrire, déplacer ou retirer.
+
+Les « problèmes déjà détectés par l’application » te sont montrés pour que tu
+saches ce qui est DÉJÀ traité : ne les répète pas dans tes remarques. Tu es là
+pour ce que la machine ne voit pas — la compréhension, la cohérence, la
+fidélité au conte.
 
 Ne propose jamais de couper pour gagner du temps. Le champ « ton » d’une
 réplique (« traînant », « inquiet ») est prévu : c’est l’indication de jeu, et

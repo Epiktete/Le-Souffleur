@@ -979,10 +979,13 @@ Résumé : ${a.resume}
 Passage du conte joué par cet acte : ${a.passage || '(non précisé)'}
 Déroulé :
 ${a.temps.map((tp, i) => `  ${i + 1}. ${tp}`).join('\n')}
-Entrées et sorties prévues par le découpage, dans cet ordre. C’est un plan,
-pas une contrainte de format : dans TA réponse, chaque entrée et chaque sortie
-porte bien un champ « main ». Choisis-la librement et cohéremment — c’est
-l’application qui l’arrêtera, ta valeur n’est qu’une préférence.
+Entrées et sorties prévues par le découpage. C’est un PLAN, pas un ordre à
+exécuter : si la scène demande autre chose — un personnage qui doit rester
+pour parler, un échange qui exige deux présences —, arrange-le autrement,
+pourvu que les contraintes de scène tiennent. Ne coupe pas une réplique du
+conte parce que le plan fait sortir celui qui la dit : fais-le sortir après.
+Dans TA réponse, chaque entrée et chaque sortie porte un champ « main » :
+choisis-la librement, c’est l’application qui l’arrêtera.
 ${a.mouvements.map((m) => `  ${m.type} — ${m.marionnette}`).join('\n')}
 Moments avec le public :
 ${a.momentsPublic.map((m) => `  - ${m}`).join('\n')}

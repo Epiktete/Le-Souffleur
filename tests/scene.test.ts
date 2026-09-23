@@ -356,12 +356,31 @@ describe('controler : les contrôles automatiques du CDC §6', () => {
     expect(p[0].acteNumero).toBe(c.actes[0].numero);
   });
 
-  it('signale un acte sans adresse au public quand l’interaction est promise', () => {
+  it('avec « beaucoup », signale un acte sans adresse au public', () => {
     const c = spectacleCorrect();
+    c.interactionPublic = 'beaucoup';
     c.actes[1].elements = [replique('renard', 'Juste un mot.')];
     c.dureeCibleSecondes = 120;
     const p = controler(c);
     expect(p.some((x) => x.message === 'L’acte 2 ne s’adresse jamais au public.')).toBe(true);
+  });
+
+  it('avec « quelques », la dose se compte sur TOUT le spectacle', () => {
+    // La consigne donnée au modèle dit « deux ou trois adresses dans tout le
+    // spectacle » : en exiger une par acte la contredisait, et la correction
+    // d'un acte en réclamait une de plus alors que le compte y était déjà.
+    const c = spectacleCorrect();
+    c.interactionPublic = 'quelques';
+    c.actes[1].elements = [replique('renard', 'Juste un mot.')];
+    c.dureeCibleSecondes = 120;
+    const p = controler(c);
+    expect(p.some((x) => /ne s’adresse jamais au public/.test(x.message))).toBe(false);
+
+    // Aucune adresse nulle part, en revanche, se signale.
+    for (const acte of c.actes) {
+      acte.elements = acte.elements.filter((e) => e.type !== 'adresse_public');
+    }
+    expect(controler(c).some((x) => /ne s’adresse jamais au public/.test(x.message))).toBe(true);
   });
 
   it('ne réclame pas d’adresse au public quand l’interaction est « aucune »', () => {

@@ -205,3 +205,47 @@
   au parent » (l'enjeu devient un gâteau) n'étaient appliqués NULLE PART — la
   transposition les ignore désormais, et rien ne disait au découpage que
   c'était à lui de les appliquer. Corrigé.
+
+## Cas 3, étape 005 — écriture
+- Mon correctif fonctionne : l'enjeu « gâteau » est désormais appliqué, et le
+  modèle sait qu'il s'écarte du mot-à-mot pour une raison prévue.
+- Petite contradiction : le découpage peut annoncer « marionnettes déjà en
+  scène » alors que l'état fourni dit « la scène est vide ».
+
+## Cas 3, étape 006 — écriture  ⚠
+- L'ordre des entrées/sorties du découpage était traité comme IMPOSÉ : le
+  modèle a COUPÉ une réplique du conte parce que le plan faisait sortir le
+  personnage qui la disait. C'est exactement ce qu'on veut éviter. Corrigé :
+  le plan est un plan, et on ne coupe jamais une réplique pour lui obéir.
+
+## Cas 3, étape 007 — écriture
+- Les consignes DEMANDENT « la formule que les enfants peuvent dire avec la
+  marionnette », mais aucun des cinq types d'éléments ne l'exprime : ce n'est
+  ni une adresse au public (elle est dite à un personnage) ni une simple
+  réplique. Le modèle a inventé une combinaison. Elle est maintenant prescrite.
+
+## Cas 3, étape 009 — relecture
+- SUCCÈS DU CORRECTIF : le relecteur attrape de lui-même le problème des
+  sosies (« Roi Corbeau regarde Pilou en face et l'appelle Mémé Tortue sans
+  ressemblance qui l'explique »).
+- Rien ne disait quoi faire des « problèmes déjà détectés par l'application »
+  montrés au relecteur : les ignorer, les reprendre, ou construire dessus ?
+  Précisé — il ne les répète pas.
+- Les gravités « important » et « mineur » restent subjectives à la frontière.
+
+## Cas 3, étape 010 — correction  ⚠ CONTRESENS DANS LES CONTRÔLES
+- La consigne donnée au modèle dit, pour « quelques moments » : DEUX OU TROIS
+  adresses au public DANS TOUT LE SPECTACLE. Le contrôle de l'application en
+  exigeait UNE PAR ACTE. Il réclamait donc une adresse de plus alors que le
+  spectacle avait déjà son compte — et la correction devait désobéir à l'un ou
+  à l'autre. Corrigé : la dose se compte comme elle est annoncée.
+
+## Cas 3, étapes 011 à 013 — corrections  ⚠
+- Demander d'ALLONGER un acte dont le passage du conte est de la PURE
+  NARRATION oblige à inventer tout le dialogue — l'inverse exact du principe
+  de l'outil. La consigne disait « joue plus longuement ce que le conte
+  raconte déjà » sans prévoir le cas où il n'y a rien à développer. Ajouté :
+  dans ce cas, laisser l'acte court.
+- Plusieurs modifications du relecteur offrent deux options (« supprime… ou
+  remplace ») sans dire laquelle préférer, alors qu'une consigne voisine
+  (allonger) tranche implicitement.

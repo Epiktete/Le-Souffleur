@@ -1,0 +1,13 @@
+{"elements": [
+  {"type": "replique", "marionnette": "Roi Corbeau", "texte": "Un, deux, trois !", "ton": "décidé, en signal de départ"},
+  {"type": "didascalie", "texte": "Roi Corbeau s'élance de toutes ses forces et traverse la scène en courant."},
+  {"type": "note_marionnettiste", "texte": "Inviter les enfants à crier « Je suis déjà là ! » avec Pilou, de plus en plus fort à chaque reprise."},
+  {"type": "replique", "marionnette": "Pilou le Pingouin", "texte": "Je suis déjà là !", "ton": "malicieux, depuis sa cachette"},
+  {"type": "didascalie", "texte": "Roi Corbeau s'arrête net, tout étonné."},
+  {"type": "replique", "marionnette": "Roi Corbeau", "texte": "Encore une fois ! Dans l'autre sens !", "ton": "vexé, décidé"},
+  {"type": "didascalie", "texte": "Roi Corbeau repart comme une tempête, les plumes au vent, dans l'autre sens."},
+  {"type": "replique", "marionnette": "Pilou le Pingouin", "texte": "Je suis déjà là !", "ton": "malicieux, encore plus fort"},
+  {"type": "replique", "marionnette": "Roi Corbeau", "texte": "Encore une fois ! Dans l'autre sens !", "ton": "hurlé, hors de lui"},
+  {"type": "replique", "marionnette": "Pilou le Pingouin", "texte": "Ça ne me dérange pas. Autant de fois que tu voudras.", "ton": "calme, moqueur"},
+  {"type": "didascalie", "texte": "Roi Corbeau recommence, encore et encore, de plus en plus essoufflé, haletant à chaque retour."},
+  {"type": "didascalie", "texte": "Roi Corbeau s'élance une dernière fois, vacille au milieu de la scène, et s'effondre, épuisé."}]}

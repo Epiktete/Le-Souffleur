@@ -1,0 +1,409 @@
+{
+  "titre": "Le Lièvre et le Hérisson",
+  "parametres": {
+    "dureeMinutes": 8,
+    "ageAuditoire": 7,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "quelques",
+    "ebauche": "une histoire de course ou de pari, où le plus lent gagne",
+    "marionnetteIds": [
+      "mémé-tortue",
+      "pilou-le-pingouin",
+      "roi-corbeau"
+    ],
+    "modele": "relais-local"
+  },
+  "dureeEstimeeSecondes": 371,
+  "nbActes": 4,
+  "nbTableaux": 2,
+  "bible": {
+    "dossier": {
+      "marionnettes": [
+        {
+          "nom": "Mémé Tortue",
+          "description": "Une tortue verte à la carapace molle.",
+          "traits": [
+            "sage",
+            "têtu"
+          ]
+        },
+        {
+          "nom": "Pilou le Pingouin",
+          "description": "Un pingouin noir et blanc, le bec cousu de travers.",
+          "traits": [
+            "curieux",
+            "bavard"
+          ]
+        },
+        {
+          "nom": "Roi Corbeau",
+          "description": "Un corbeau noir au bec luisant.",
+          "traits": [
+            "vantard",
+            "orgueilleux"
+          ]
+        }
+      ],
+      "dureeMinutes": 8,
+      "ageAuditoire": 7,
+      "nbMarionnettistes": 1,
+      "interactionPublic": "quelques",
+      "ebauche": "une histoire de course ou de pari, où le plus lent gagne",
+      "budgetMotsTotal": 800
+    },
+    "contesPresentes": [
+      "de-lievre-et-herisson",
+      "afr-tortue-et-elephant",
+      "fr-perrault-chaperon-rouge",
+      "ru-renard-lievre-coq",
+      "dk-ce-que-fait-le-vieux",
+      "en-vieille-et-cochon",
+      "afr-belette-et-hyene",
+      "in-singes-jardiniers"
+    ],
+    "jouables": 72,
+    "synopsisProposes": [
+      {
+        "conte": "de-lievre-et-herisson",
+        "titre": "Le Lièvre et le Hérisson",
+        "accroche": "Mémé Tortue, moquée pour ses petites pattes, parie qu’elle battra Roi Corbeau à la course, et gagne sans courir.",
+        "resume": [
+          "Un dimanche matin, Roi Corbeau se moque des petites pattes de Mémé Tortue.",
+          "Vexée, elle le met au défi : la première arrivée gagne un gâteau.",
+          "En cachette, elle poste Pilou le Pingouin à l’autre bout du chemin, prêt à répondre à sa place.",
+          "Roi Corbeau court de toutes ses forces ; à chaque arrivée, une voix lui lance déjà « Je suis là ! »",
+          "Il s’entête à recommencer jusqu’à s’écrouler, essoufflé, et reconnaît sa défaite : Mémé Tortue remporte le gâteau."
+        ],
+        "distribution": [
+          {
+            "marionnette": "Mémé Tortue",
+            "role": "le Hérisson",
+            "note": "aussi têtue que lui, elle tient tête au vantard sans jamais courir."
+          },
+          {
+            "marionnette": "Pilou le Pingouin",
+            "role": "la Femme du Hérisson",
+            "note": "sa repartie vive lui va bien pour lancer la réplique qui piège Roi Corbeau."
+          },
+          {
+            "marionnette": "Roi Corbeau",
+            "role": "le Lièvre",
+            "note": "vantard et orgueilleux comme lui, il reçoit la leçon d’humilité qu’il faut."
+          }
+        ],
+        "changements": [
+          "Roi Corbeau ne meurt pas d’épuisement : il s’écroule, essoufflé, et reconnaît sa défaite.",
+          "La course se joue pour un gâteau plutôt que pour rien, afin que l’enjeu parle aux 7 ans.",
+          "Le tour ne repose plus sur deux marionnettes identiques mais sur la cachette : le public est mis dans le secret."
+        ],
+        "id": "de-lievre-et-herisson",
+        "reference": "Le Lièvre et le Hérisson — Allemagne (Basse-Saxe), Jacob et Wilhelm Grimm, Contes de l'enfance et du foyer, 1857 (n° 187), en bas-allemand"
+      },
+      {
+        "conte": "fr-perrault-chaperon-rouge",
+        "titre": "Le Petit Chaperon rouge",
+        "accroche": "Pilou le Pingouin va voir sa mère-grand Mémé Tortue, sans savoir que Roi Corbeau a pris sa place.",
+        "resume": [
+          "La maman envoie Pilou le Pingouin porter une galette à sa mère-grand, Mémé Tortue, qui est malade.",
+          "Dans les bois, Pilou croise Roi Corbeau et lui raconte tout : où elle va, par quel chemin passer.",
+          "Roi Corbeau prend le raccourci, arrive le premier, enferme Mémé Tortue dans l’armoire et prend sa place dans le lit.",
+          "Pilou arrive à son tour et trouve sa mère-grand bien changée : « Comme vous avez de grandes ailes ! Comme vous avez un grand bec ! »",
+          "Au moment où Roi Corbeau se jette sur elle, Mémé Tortue surgit de l’armoire, alertée par les cris du public, et le chasse pour de bon."
+        ],
+        "distribution": [
+          {
+            "marionnette": "Pilou le Pingouin",
+            "role": "le Petit Chaperon rouge",
+            "note": "curieuse et bavarde comme elle, elle a la spontanéité qui la pousse à tout raconter."
+          },
+          {
+            "marionnette": "Roi Corbeau",
+            "role": "le Loup",
+            "note": "assez sûr de lui pour prendre le raccourci sans hésiter et jouer les grands airs devant Pilou."
+          },
+          {
+            "marionnette": "Mémé Tortue",
+            "role": "la Mère-grand",
+            "note": "sage et posée, elle garde son calme cachée dans l’armoire jusqu’au bon moment pour surgir."
+          }
+        ],
+        "changements": [
+          "Le loup ne mange personne : il enferme Mémé Tortue dans l’armoire, et elle surgit pour le chasser, alertée par les cris du public.",
+          "La distribution proposée est inversée entre le Loup et la Mère-grand : Roi Corbeau prend le Loup et Mémé Tortue la Mère-grand, pour qu’une petite bête à la carapace douce ne joue jamais le loup.",
+          "« Que vous avez de grandes dents ! » devient « Quel grand bec, quelles grandes ailes ! », adapté à l’espèce de Roi Corbeau."
+        ],
+        "id": "fr-perrault-chaperon-rouge",
+        "reference": "Le Petit Chaperon rouge — France, Charles Perrault, Histoires ou contes du temps passé, 1697"
+      },
+      {
+        "conte": "ru-renard-lievre-coq",
+        "titre": "Le Renard, le Lièvre et le Coq",
+        "accroche": "Roi Corbeau s’installe chez Mémé Tortue et la chasse ; seul Pilou le Pingouin réussit à la faire fuir.",
+        "resume": [
+          "Au printemps, la maison de glace de Roi Corbeau fond ; elle s’installe chez Mémé Tortue et la met dehors.",
+          "De grands animaux du bois tentent bien de l’aider, mais Roi Corbeau les menace tous, et chacun renonce et s’enfuit.",
+          "Pilou le Pingouin arrive, un grand balai sur l’épaule, et chante trois fois qu’il vient chasser Roi Corbeau.",
+          "« Je m’habille... je mets mon manteau... » : à ces mots, Roi Corbeau prend peur et s’enfuit pour de bon.",
+          "Mémé Tortue retrouve sa maison, et Pilou le Pingouin reste vivre avec elle."
+        ],
+        "distribution": [
+          {
+            "marionnette": "Mémé Tortue",
+            "role": "le petit Lièvre",
+            "note": "douce et patiente, elle subit l’expulsion sans se battre, jusqu’à ce qu’on vienne l’aider."
+          },
+          {
+            "marionnette": "Pilou le Pingouin",
+            "role": "le Coq",
+            "note": "bavard comme lui, il n’hésite pas à chanter bien fort pour faire fuir l’intruse."
+          },
+          {
+            "marionnette": "Roi Corbeau",
+            "role": "la Renarde",
+            "note": "vantarde et orgueilleuse comme elle, elle joue les fortes têtes jusqu’à ce qu’on lui tienne tête."
+          }
+        ],
+        "changements": [
+          "Les chiens, l’ours et le taureau, sans marionnette, sont fondus en « de grands animaux du bois » qui tentent d’aider et s’enfuient, sans être joués un par un.",
+          "La faux du Coq devient un grand balai, moins impressionnant pour 7 ans mais tout aussi efficace.",
+          "Roi Corbeau s’enfuit sans être ni blessé ni humiliée : la défaite reste une fuite, comme le veut l’adaptation prévue pour cet âge."
+        ],
+        "id": "ru-renard-lievre-coq",
+        "reference": "Le Renard, le Lièvre et le Coq — Russie, Alexandre Afanassiev, Contes populaires russes, 1855-1863"
+      }
+    ],
+    "synopsis": {
+      "conte": "de-lievre-et-herisson",
+      "titre": "Le Lièvre et le Hérisson",
+      "accroche": "Mémé Tortue, moquée pour ses petites pattes, parie qu’elle battra Roi Corbeau à la course, et gagne sans courir.",
+      "resume": [
+        "Un dimanche matin, Roi Corbeau se moque des petites pattes de Mémé Tortue.",
+        "Vexée, elle le met au défi : la première arrivée gagne un gâteau.",
+        "En cachette, elle poste Pilou le Pingouin à l’autre bout du chemin, prêt à répondre à sa place.",
+        "Roi Corbeau court de toutes ses forces ; à chaque arrivée, une voix lui lance déjà « Je suis là ! »",
+        "Il s’entête à recommencer jusqu’à s’écrouler, essoufflé, et reconnaît sa défaite : Mémé Tortue remporte le gâteau."
+      ],
+      "distribution": [
+        {
+          "marionnette": "Mémé Tortue",
+          "role": "le Hérisson",
+          "note": "aussi têtue que lui, elle tient tête au vantard sans jamais courir."
+        },
+        {
+          "marionnette": "Pilou le Pingouin",
+          "role": "la Femme du Hérisson",
+          "note": "sa repartie vive lui va bien pour lancer la réplique qui piège Roi Corbeau."
+        },
+        {
+          "marionnette": "Roi Corbeau",
+          "role": "le Lièvre",
+          "note": "vantard et orgueilleux comme lui, il reçoit la leçon d’humilité qu’il faut."
+        }
+      ],
+      "changements": [
+        "Roi Corbeau ne meurt pas d’épuisement : il s’écroule, essoufflé, et reconnaît sa défaite.",
+        "La course se joue pour un gâteau plutôt que pour rien, afin que l’enjeu parle aux 7 ans.",
+        "Le tour ne repose plus sur deux marionnettes identiques mais sur la cachette : le public est mis dans le secret."
+      ],
+      "id": "de-lievre-et-herisson",
+      "reference": "Le Lièvre et le Hérisson — Allemagne (Basse-Saxe), Jacob et Wilhelm Grimm, Contes de l'enfance et du foyer, 1857 (n° 187), en bas-allemand"
+    },
+    "conteId": "de-lievre-et-herisson",
+    "adaptation": {
+      "titre": "Le Pari de Mémé Tortue",
+      "pitch": "Moquée pour ses petites pattes, Mémé Tortue met Roi Corbeau au défi d'une course qu'elle va gagner sans faire un seul pas.",
+      "changements": [
+        "L'entrée en matière du grand-père conteur (« Cette histoire, les enfants... ») est coupée : elle n'a pas de marionnette et n'ajoute rien à l'action ; le spectacle commence directement, un dimanche matin, marionnettes déjà en scène.",
+        "Les soixante-quatorze allers-retours du conte deviennent deux ou trois tentatives de Roi Corbeau, de plus en plus essoufflées : on garde la surprise et l'entêtement, sans rejouer la course entière ni multiplier les entrées et les sorties.",
+        "Mémé Tortue et Pilou ne se ressemblant pas, ils portent depuis le tout début le même petit bonnet : c'est ce détail-là, et non leur visage, que Roi Corbeau reconnaît confusément à chaque « Je suis déjà là ! »."
+      ],
+      "tableaux": [
+        {
+          "id": "t1",
+          "titre": "Le chemin, un dimanche matin",
+          "description": "Un tapis, une nappe ou un drap vert étalé au sol figure le chemin ; rien d'autre n'est nécessaire pour cette première scène. Avant de commencer, on coiffe Mémé Tortue et Pilou du même petit bonnet.",
+          "accessoires": [
+            "Deux petits bonnets identiques, un sur Mémé Tortue et un sur Pilou, posés avant le début du spectacle."
+          ],
+          "promptImage": ""
+        },
+        {
+          "id": "t2",
+          "titre": "Le champ aux deux sillons",
+          "description": "Deux boudins de tissu, deux coussins allongés ou deux bandes de nappe posés côte à côte tracent les deux sillons de la course. À l'autre bout, un carton retourné ou un coin de drap sert de cachette pour Pilou.",
+          "accessoires": [],
+          "promptImage": ""
+        }
+      ],
+      "actes": [
+        {
+          "numero": 1,
+          "titre": "La moquerie et le pari",
+          "tableauId": "t1",
+          "resume": "Mémé Tortue croise Roi Corbeau, qui se moque de ses petites pattes ; vexée, elle le met au défi d'une course pour un gâteau, et il accepte.",
+          "passage": "De « C'était un dimanche matin » à « et Mémé Tortue s'en alla. »",
+          "temps": [
+            "Mémé Tortue se promène tranquillement et croise Roi Corbeau.",
+            "Roi Corbeau se moque de ses petites pattes ; elle est piquée au vif.",
+            "Elle le met au défi d'une course, l'enjeu est un gâteau, et il accepte, tout fier."
+          ],
+          "mouvements": [
+            {
+              "type": "entree",
+              "marionnette": "Mémé Tortue",
+              "main": "M1G"
+            },
+            {
+              "type": "entree",
+              "marionnette": "Roi Corbeau",
+              "main": "M1D"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "Roi Corbeau",
+              "main": "M1G"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "Mémé Tortue",
+              "main": "M1G"
+            }
+          ],
+          "momentsPublic": [],
+          "budgetMots": 180
+        },
+        {
+          "numero": 2,
+          "titre": "Le secret dans le sillon",
+          "tableauId": "t2",
+          "resume": "Mémé Tortue amène Pilou en cachette, lui met le même bonnet qu'elle et le poste au bout du champ, puis rejoint Roi Corbeau pour le départ.",
+          "passage": "De « Arrivée chez elle, elle dit à Pilou » à « Et chacun se mit dans son sillon. »",
+          "temps": [
+            "Mémé Tortue amène Pilou en cachette et lui explique le tour.",
+            "Elle lui met le même petit bonnet qu'elle porte et le cache au bout du champ.",
+            "Elle rejoint Roi Corbeau ; tous deux se placent, prêts à partir."
+          ],
+          "mouvements": [
+            {
+              "type": "entree",
+              "marionnette": "Mémé Tortue",
+              "main": "M1G"
+            },
+            {
+              "type": "entree",
+              "marionnette": "Pilou le Pingouin",
+              "main": "M1D"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "Mémé Tortue",
+              "main": "M1G"
+            },
+            {
+              "type": "entree",
+              "marionnette": "Roi Corbeau",
+              "main": "M1G"
+            }
+          ],
+          "momentsPublic": [
+            "Les enfants mettent un doigt sur la bouche avec Pilou pour garder le secret : « Chut ! »"
+          ],
+          "budgetMots": 170
+        },
+        {
+          "numero": 3,
+          "titre": "La course entêtée",
+          "tableauId": "t2",
+          "resume": "Roi Corbeau s'élance de toutes ses forces, mais à chaque arrivée une voix coiffée du même bonnet le devance ; il s'entête jusqu'à l'épuisement.",
+          "passage": "De « Roi Corbeau compta : « Un, deux, trois ! » » à « … resta là, épuisé. »",
+          "temps": [
+            "Au signal, Roi Corbeau s'élance de toutes ses forces.",
+            "À chaque arrivée, la voix de Pilou le devance : « Je suis déjà là ! »",
+            "Il s'entête, retente, de plus en plus essoufflé, jusqu'à s'effondrer, vaincu par la fatigue."
+          ],
+          "mouvements": [],
+          "momentsPublic": [
+            "Les enfants crient avec Pilou, de plus en plus fort à chaque fois : « Je suis déjà là ! »"
+          ],
+          "budgetMots": 230
+        },
+        {
+          "numero": 4,
+          "titre": "Le gâteau bien gagné",
+          "tableauId": "t2",
+          "resume": "Roi Corbeau, à bout de souffle, reconnaît sa défaite ; Mémé Tortue vient chercher son gâteau sans avoir couru un pas, et rappelle la valeur d'un allié fidèle.",
+          "passage": "De « Mémé Tortue prit la pièce d'or et la bouteille qu'elle avait gagnées » à « et ainsi de suite. »",
+          "temps": [
+            "Roi Corbeau, à bout de souffle, reconnaît sa défaite.",
+            "Mémé Tortue vient récupérer son gâteau, sans avoir couru un seul pas.",
+            "Elle rappelle qu'un allié fidèle vaut mieux que de longues pattes."
+          ],
+          "mouvements": [
+            {
+              "type": "sortie",
+              "marionnette": "Pilou le Pingouin",
+              "main": "M1G"
+            },
+            {
+              "type": "entree",
+              "marionnette": "Mémé Tortue",
+              "main": "M1D"
+            }
+          ],
+          "momentsPublic": [],
+          "budgetMots": 220
+        }
+      ],
+      "voix": [
+        {
+          "marionnette": "Roi Corbeau",
+          "voix": "voix pompeuse et sonore, articule chaque mot comme s'il faisait un discours"
+        },
+        {
+          "marionnette": "Pilou le Pingouin",
+          "voix": "voix aiguë et pressée, répond toujours plus vite qu'on ne l'attend"
+        },
+        {
+          "marionnette": "Mémé Tortue",
+          "voix": "voix lente et posée, ne hausse jamais le ton, même vexée"
+        }
+      ]
+    },
+    "transposition": {
+      "texte": "Cette histoire, les enfants, a l'air d'un mensonge quand on la raconte, et pourtant elle est vraie. Car mon grand-père, de qui je la tiens, disait toujours en la racontant : « Il faut bien qu'elle soit vraie, mon garçon, sinon on ne pourrait pas la raconter. » Voici comment elle s'est passée.\n\nC'était un dimanche matin, au temps de la moisson, juste quand le sarrasin était en fleur. Le soleil s'était levé tout clair dans le ciel, le vent du matin soufflait tiède sur les chaumes, les alouettes chantaient dans l'air, les abeilles bourdonnaient dans le sarrasin, les gens allaient à l'église dans leurs habits du dimanche, et toutes les créatures étaient contentes. Mémé Tortue aussi.\n\nMémé Tortue se tenait devant sa porte, les bras croisés. Elle regardait le vent du matin et fredonnait une petite chanson, ni mieux ni plus mal qu'une tortue n'a l'habitude de chanter un beau dimanche matin. Tout en chantonnant, il lui vint l'idée que, pendant que Pilou lavait et habillait les enfants, elle pourrait bien faire un petit tour dans les champs pour voir comment poussaient ses navets. Les navets étaient tout près de sa maison, et elle en mangeait avec sa famille : elle les considérait donc comme les siens. Aussitôt dit, aussitôt fait. Mémé Tortue ferma la porte derrière elle et prit le chemin des champs.\n\nElle n'était pas encore bien loin de chez elle, et elle allait juste tourner autour du prunellier qui se trouve devant le champ, quand elle rencontra Roi Corbeau, sorti pour une affaire du même genre : voir comment poussaient ses choux. Quand Mémé Tortue aperçut Roi Corbeau, elle lui souhaita aimablement le bonjour. Mais Roi Corbeau, qui était à sa façon un monsieur distingué, et terriblement orgueilleux avec ça, ne répondit rien à son salut. Il dit à Mémé Tortue, en prenant un air très moqueur :\n\n— Comment se fait-il que tu cours déjà les champs de si bon matin ?\n\n— Je me promène, dit Mémé Tortue.\n\n— Tu te promènes ? rit Roi Corbeau. Il me semble que tu pourrais employer tes jambes à quelque chose de mieux.\n\nCette réponse vexa terriblement Mémé Tortue. Elle pouvait tout supporter, mais qu'on ne lui parle pas de ses jambes, justement parce qu'elles étaient petites de nature.\n\n— Tu t'imagines peut-être, dit Mémé Tortue à Roi Corbeau, que tu fais mieux que moi avec tes jambes ?\n\n— Je le pense bien, dit Roi Corbeau.\n\n— Ça se vérifie, dit Mémé Tortue. Je parie que si nous faisons la course, je te dépasse.\n\n— Laisse-moi rire, toi et tes petites jambes ! dit Roi Corbeau. Mais soit, si tu en as tellement envie. Que parions-nous ?\n\n— Une pièce d'or et une bouteille de bon vin, dit Mémé Tortue.\n\n— Tope là, dit Roi Corbeau, et on peut commencer tout de suite.\n\n— Non, rien ne presse, dit Mémé Tortue. Je n'ai encore rien avalé. Je rentre d'abord déjeuner, et dans une demi-heure je suis de retour ici.\n\nRoi Corbeau fut d'accord, et Mémé Tortue s'en alla. En chemin, elle pensait : « Roi Corbeau compte sur ses longues jambes, mais je l'aurai bien. C'est un monsieur distingué, mais ce n'est qu'un sot, et il paiera. »\n\nArrivée chez elle, elle dit à Pilou :\n\n— Pilou, habille-toi vite, tu dois venir avec moi dans les champs.\n\n— Qu'est-ce qui se passe ? dit Pilou.\n\n— J'ai parié avec Roi Corbeau une pièce d'or et une bouteille de vin que je le battrais à la course, et tu dois être de la partie.\n\n— Mon Dieu ! se mit à crier Pilou. Tu n'as plus ta tête ? Tu as perdu la raison ? Comment peux-tu vouloir faire la course avec Roi Corbeau ?\n\n— Tiens ta langue, dit Mémé Tortue, c'est mon affaire. Allez, habille-toi, et viens.\n\nQue pouvait faire Pilou ? Il dut suivre, qu'il le veuille ou non.\n\nEn chemin, Mémé Tortue dit à Pilou :\n\n— Maintenant, écoute bien ce que je vais te dire. Tu vois, c'est sur ce long champ que nous allons faire notre course. Roi Corbeau court dans un sillon et moi dans l'autre, et nous partons d'en haut. Toi, tu n'as rien d'autre à faire que de te mettre ici, en bas, dans le sillon, et quand Roi Corbeau arrivera de son côté, tu lui crieras : « Je suis déjà là ! »\n\nIls arrivèrent au champ ; Mémé Tortue montra sa place à Pilou et monta en haut du champ. Quand elle y arriva, Roi Corbeau était déjà là.\n\n— On peut y aller ? dit Roi Corbeau.\n\n— Bien sûr, dit Mémé Tortue.\n\n— Alors en avant !\n\nEt chacun se mit dans son sillon. Roi Corbeau compta : « Un, deux, trois ! » et il fila comme une tempête jusqu'en bas du champ. Mémé Tortue, elle, fit à peu près trois pas, puis elle se tapit dans le sillon et resta tranquillement assise.\n\nQuand Roi Corbeau arriva en bas à toute allure, Pilou lui cria :\n\n— Je suis déjà là !\n\nRoi Corbeau s'arrêta net, tout étonné. Il ne comprenait pas comment Mémé Tortue avait déjà pu arriver avant lui.\n\n— Il y a quelque chose de louche, pensa Roi Corbeau. Il cria : Encore une fois ! Dans l'autre sens !\n\nEt il repartit comme une tempête, les plumes au vent. Pilou resta tranquillement à sa place. Quand Roi Corbeau arriva en haut, Mémé Tortue lui cria :\n\n— Je suis déjà là !\n\nRoi Corbeau, hors de lui, hurla :\n\n— Encore une fois ! Dans l'autre sens !\n\n— Ça ne me dérange pas, répondit Mémé Tortue. Autant de fois que tu voudras.\n\nRoi Corbeau courut encore soixante-treize fois, et Mémé Tortue tint bon à chaque fois. Chaque fois que Roi Corbeau arrivait en bas ou en haut, Mémé Tortue ou Pilou disait : « Je suis déjà là ! »\n\nMais la soixante-quatorzième fois, Roi Corbeau n'arriva pas au bout. Au milieu du champ, il s'effondra par terre et resta là, épuisé. Mémé Tortue prit la pièce d'or et la bouteille qu'elle avait gagnées, appela Pilou hors du sillon, et tous deux rentrèrent chez eux, bien contents. Et s'ils ne sont pas morts, ils vivent encore.\n\nC'est ainsi que, sur la lande de Buxtehude, Mémé Tortue a battu Roi Corbeau à la course, et depuis ce temps, aucun corbeau n'a plus jamais eu l'idée de faire la course avec une tortue de Buxtehude.\n\nLa leçon de cette histoire, c'est d'abord que personne, si distingué qu'il se croie, ne doit se moquer d'un plus petit que lui, même si ce n'est qu'une tortue. Et ensuite, que pour un bon tour, il est utile d'avoir un allié fidèle prêt à répondre à votre place. Qui est tortue doit veiller à avoir un tel ami, et ainsi de suite.",
+      "changements": [
+        "Les jambes autrefois « tordues » du personnage moqué deviennent « petites », pour coller à la morphologie d'une tortue plutôt qu'à celle d'un hérisson.",
+        "La phrase qui expliquait la confusion du coureur par la ressemblance entre le hérisson et sa femme est retirée et remplacée par une simple incompréhension, car une tortue et un pingouin ne se ressemblent pas.",
+        "« Les oreilles au vent » devient « les plumes au vent », le détail des oreilles dressées à la course n'ayant pas d'équivalent chez un corbeau.",
+        "Le personnage jadis nommé « la femme du hérisson » est désigné par son nom, Pilou, et n'est plus appelé « Femme » ni qualifié d'épouse ; l'adresse « mon homme » disparaît puisque Mémé Tortue est féminine.",
+        "La morale finale sur le mariage entre semblables (« qui est hérisson doit veiller à ce que sa femme soit aussi un hérisson ») est réécrite autour de l'idée d'un allié fidèle, puisque Mémé Tortue et Pilou ne se ressemblent pas."
+      ]
+    },
+    "relecture": {
+      "remarques": [
+        {
+          "acte": 2,
+          "element": 11,
+          "gravite": "important",
+          "remarque": "Les bonnets identiques (éléments 11 à 14) annoncent un tour de ressemblance visuelle — « Roi Corbeau n'y verra que du feu » — qui ne sert jamais : Pilou reste caché tout du long de la course (acte 3, élément 4 : « depuis sa cachette ») et Roi Corbeau ne le voit jamais courir. Un enfant qui suit l'histoire peut se demander à quoi servaient ces bonnets.",
+          "modification": "Retire les éléments 11 à 14 (les bonnets, le regard complice, le « Chut ! »), ou remplace-les par une réplique qui annonce le vrai plan : Pilou se cachera dans le sillon et criera à sa place. Retire aussi la mention des bonnets identiques dans les décors si elle ne sert à rien d'autre dans l'action."
+        },
+        {
+          "acte": 4,
+          "element": 1,
+          "gravite": "important",
+          "remarque": "Roi Corbeau « regarde Pilou » puis dit aussitôt « Tu as gagné, Mémé Tortue » : il confond un pingouin et une tortue en le regardant en face, sans qu'aucune ressemblance ne l'explique — contrairement au conte d'origine, où la femme du hérisson lui ressemble trait pour trait. De plus, Pilou n'a jamais été montré quittant sa cachette : il redevient visible sans transition.",
+          "modification": "Ajoute une didascalie où Pilou sort de sa cachette et s'approche. Fais dire à Roi Corbeau une réplique de défaite qui ne nomme personne (« Je n'en peux plus... »), sans qu'il regarde Pilou comme s'il s'agissait de Mémé Tortue. Garde « Tu as gagné, Mémé Tortue » pour l'élément 8, quand elle est vraiment devant lui."
+        },
+        {
+          "acte": 4,
+          "element": 10,
+          "gravite": "important",
+          "remarque": "La réplique de Mémé Tortue reprend mot pour mot la morale du conteur (« il est utile d'avoir un allié fidèle prêt à répondre à votre place »), mais dans le conte c'est le narrateur qui la dit aux enfants après coup, pas un personnage à son adversaire vaincu. En dialogue, ça sonne comme une maxime plaquée, trop sentencieuse pour l'instant.",
+          "modification": "Supprime la réplique, ou remplace-la par une phrase plus simple et plus incarnée sur le tour joué (par exemple une pointe de malice adressée à Roi Corbeau), et laisse le salut final conclure la scène."
+        }
+      ]
+    }
+  },
+  "etapes": 13
+}
