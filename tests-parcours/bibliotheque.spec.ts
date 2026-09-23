@@ -36,7 +36,6 @@ test('crée une marionnette, qui survit au rechargement de la page', async ({ pa
   await page.getByLabel('Description').fill('Petit lapin beige aux oreilles tombantes.');
   await page.getByRole('button', { name: 'gentil', exact: true }).click();
   await page.getByRole('button', { name: 'peureux', exact: true }).click();
-  await page.getByLabel('Voix et tic de langage').fill('voix douce, dit « oh là là »');
   await page.getByRole('button', { name: 'Enregistrer' }).click();
 
   // La boîte apparaît dans la colonne de gauche.

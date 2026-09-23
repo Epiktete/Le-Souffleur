@@ -63,10 +63,9 @@ function peluche(
   nom: string,
   description: string,
   traits: string[],
-  voix: string,
 ): Marionnette {
   const maintenant = new Date().toISOString();
-  return { id: nom.toLowerCase().replace(/\s+/g, '-'), nom, description, traits, voix, creeLe: maintenant, modifieLe: maintenant };
+  return { id: nom.toLowerCase().replace(/\s+/g, '-'), nom, description, traits, creeLe: maintenant, modifieLe: maintenant };
 }
 
 /**
@@ -78,19 +77,16 @@ const DISTRIBUTION: Marionnette[] = [
     'Doudou Lapin',
     'Un lapin en tissu beige, une oreille recousue et qui retombe.',
     ['inquiet', 'serviable', 'ne sait pas dire non'],
-    'voix fluette, parle vite, recommence ses phrases quand il est gêné',
   ),
   peluche(
     'Renard Rusé',
     'Un renard roux au museau pointu, la queue un peu pelée.',
     ['malin', 'vaniteux', 'mauvais perdant'],
-    'voix traînante, marque un silence avant les mots importants',
   ),
   peluche(
     'Ourse Gourmande',
     'Une grosse ourse en peluche marron, très douce, assez lourde.',
     ['gourmande', 'franche', 'têtue'],
-    'voix grave et lente, soupire beaucoup, dit « bon » pour commencer',
   ),
 ];
 
@@ -99,19 +95,16 @@ const AUTRE_DISTRIBUTION: Marionnette[] = [
     'Pilou le Pingouin',
     'Un pingouin en peluche noir et blanc, le bec cousu de travers.',
     ['impatient', 'curieux', 'ne tient pas en place'],
-    'voix haute et saccadée, pose trois questions à la suite sans attendre',
   ),
   peluche(
     'Mémé Tortue',
     'Une tortue verte à la carapace molle, presque plate à force d’être serrée.',
     ['lente', 'rassurante', 'ne se presse jamais'],
-    'voix basse et posée, laisse un long silence avant de répondre',
   ),
   peluche(
     'Zigzag la Souris',
     'Une petite souris grise, une moustache plus longue que l’autre.',
     ['peureuse', 'maligne', 'garde tout pour elle'],
-    'chuchote presque tout le temps, et crie d’un coup quand elle a peur',
   ),
 ];
 

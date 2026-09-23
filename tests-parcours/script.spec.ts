@@ -48,10 +48,15 @@ test('le script généré s’affiche avec ses actes et sa distribution', async 
     await expect(page.getByRole('heading', { name: new RegExp(`Acte ${n}`) })).toBeVisible();
   }
 
-  // La distribution, avec la voix de chaque marionnette en aide-mémoire.
+  // La distribution, en tête du script, avec la voix décidée pour CE
+  // spectacle — la fiche de la marionnette n'en porte plus.
   for (const nom of TROIS_MARIONNETTES) {
     await expect(page.locator('.distribution')).toContainText(nom);
   }
+  await expect(page.locator('.distribution')).toContainText('voix fluette, parle vite');
+  await expect(page.locator('.distribution')).toContainText('voix traînante, dit « sapristi »');
+  // Celle dont la pièce n'appelle aucune voix particulière le dit.
+  await expect(page.locator('.distribution')).toContainText('Pas de voix particulière');
 
   // Les labels des types d'éléments du §8.
   await expect(page.getByText('ACTION').first()).toBeVisible();

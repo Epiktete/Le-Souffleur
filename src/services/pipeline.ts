@@ -81,6 +81,7 @@ import type {
   ElementScript,
   Main,
   Marionnette,
+  MarionnetteDistribuee,
   ParametresGeneration,
   Spectacle,
   Tableau,
@@ -440,6 +441,11 @@ export interface ScriptResultat {
   problemes: Probleme[];
   /** Le conte adapté, pour la bible et la régénération d'un acte. */
   conteId: string;
+  /**
+   * Voix et tic de langage décidés pour ce spectacle, par identifiant de
+   * marionnette. Vide quand la pièce n'en appelle aucun.
+   */
+  voix: Record<string, string>;
   /** Passe 1 : le texte du conte transposé, référence de toute la suite. */
   bibleTransposition: Transposition;
   bibleAdaptation: Adaptation;
@@ -704,6 +710,7 @@ ${formaterAdaptation(adaptation)}`;
     dureeEstimeeSecondes: dureeSpectacle(actes),
     problemes,
     conteId: conte.id,
+    voix: voixParMarionnette(adaptation, distribution),
     bibleTransposition: transposition,
     bibleAdaptation: adaptation,
     bibleRelecture: relecture,
@@ -1025,7 +1032,10 @@ export function assemblerSpectacle(
     pitch: script.pitch,
     morale: script.morale,
     parametres,
-    distribution: distribution.map((m) => ({ ...m })),
+    // La voix appartient au spectacle, pas à la peluche : elle ne vit que sur
+    // cette copie figée, jamais dans la Marionnethèque.
+    distribution: distribution.map((m): MarionnetteDistribuee =>
+      script.voix[m.id] ? { ...m, voix: script.voix[m.id] } : { ...m }),
     tableaux: script.tableaux,
     actes: script.actes,
     dureeEstimeeSecondes: script.dureeEstimeeSecondes,
@@ -1036,6 +1046,27 @@ export function assemblerSpectacle(
     creeLe: maintenant,
     modifieLe: maintenant,
   };
+}
+
+/**
+ * Les voix décidées au découpage, ramenées aux identifiants des marionnettes.
+ *
+ * Le modèle écrit des noms ; on les retrouve avec la même tolérance que partout
+ * ailleurs (« doudou lapin » pour « Doudou Lapin »). Un nom qu'on ne reconnaît
+ * pas est ignoré : une voix de trop ne vaut pas de perdre le spectacle.
+ */
+export function voixParMarionnette(
+  adaptation: Adaptation,
+  distribution: Marionnette[],
+): Record<string, string> {
+  const voix: Record<string, string> = {};
+  for (const v of adaptation.voix ?? []) {
+    const texte = v.voix.trim();
+    if (!texte) continue;
+    const id = trouverMarionnetteId(v.marionnette, distribution);
+    if (id) voix[id] = texte;
+  }
+  return voix;
 }
 
 /** Budget de mots d'un acte, pour l'affichage et les contrôles. */

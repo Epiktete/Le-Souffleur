@@ -209,6 +209,14 @@ export const schemaAdaptation = z.object({
     // Cinq actes au lieu de quatre ne casse rien : le contrôle de durée le
     // dira, et le parent peut couper. Refuser toute la génération, si.
     .max(6),
+  /**
+   * Voix et tic de langage décidés pour CE spectacle, une entrée par
+   * marionnette qui en appelle un. Affichés en tête du script : ils se jouent,
+   * ils ne s'écrivent pas dans les répliques.
+   */
+  voix: z
+    .array(z.object({ marionnette: z.string().min(1), voix: z.string().default('') }))
+    .default([]),
 });
 export type Adaptation = z.infer<typeof schemaAdaptation>;
 

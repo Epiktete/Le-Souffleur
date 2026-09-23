@@ -24,7 +24,10 @@ export default defineConfig({
     },
   },
   webServer: {
-    command: 'npm run preview -- --port 4173',
+    // On RECONSTRUIT avant de prévisualiser : « npm run preview » se contente
+    // de servir dist/, et sans cette reconstruction les parcours passaient sur
+    // le build précédent — un changement cassé pouvait donc paraître vert.
+    command: 'npm run build && npm run preview -- --port 4173',
     url: 'http://localhost:4173',
     reuseExistingServer: false,
     timeout: 60_000,

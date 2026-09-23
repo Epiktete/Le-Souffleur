@@ -14,10 +14,21 @@ export interface Marionnette {
   description: string;
   /** 1 à 6 traits, issus de la liste proposée ou libres. */
   traits: string[];
-  /** Ex. « voix grave, parle lentement, dit "sapristi" ». */
-  voix?: string;
   creeLe: string;
   modifieLe: string;
+}
+
+/**
+ * Une marionnette telle qu'UN spectacle la joue : sa fiche, plus la voix
+ * décidée pour ce spectacle-là.
+ *
+ * La voix ne vit pas dans la Marionnethèque : une peluche ne « possède » pas
+ * une voix, c'est la pièce qui en appelle une. Le metteur en scène la propose
+ * au découpage, et elle s'affiche en tête du script.
+ */
+export interface MarionnetteDistribuee extends Marionnette {
+  /** Ex. « voix grave, parle lentement, dit "sapristi" ». */
+  voix?: string;
 }
 
 export type NiveauInteraction = 'aucune' | 'quelques' | 'beaucoup';
@@ -116,7 +127,7 @@ export interface Spectacle {
   morale?: string;
   parametres: ParametresGeneration;
   /** Copie figée des marionnettes au moment de la génération (CDC §4). */
-  distribution: Marionnette[];
+  distribution: MarionnetteDistribuee[];
   tableaux: Tableau[];
   actes: Acte[];
   /** Calculée par l'application, jamais par le modèle. */

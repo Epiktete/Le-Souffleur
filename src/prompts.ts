@@ -67,8 +67,9 @@ export const LE_TEXTE_DU_CONTE = `LE TEXTE DU CONTE, PAS LE TIEN.
   un enfant n’y comprend rien. Pas de points de suspension pour ménager un
   effet, pas de mot de la fin en chute, pas de jeu de mots ajouté, pas de
   maxime. N’en fais pas des tonnes : le conte est drôle tout seul.
-- La voix que le parent a décrite pour sa marionnette se JOUE — tu peux
-  l’indiquer dans le champ « ton » —, elle ne s’écrit pas dans les mots.
+- La voix décidée au découpage se JOUE — tu peux la rappeler dans le champ
+  « ton » —, elle ne s’écrit JAMAIS dans les mots : un personnage à la voix
+  grave ne dit pas qu’il a la voix grave.
   Les traits des marionnettes ont servi à leur donner un rôle ; ils ne sont
   pas une raison d’ajouter des répliques.
 - Aucun personnage n’annonce son propre caractère ni celui d’un autre.
@@ -240,8 +241,7 @@ export function fichesMarionnettes(dossier: Dossier): string {
   return dossier.marionnettes
     .map((m) => {
       const description = m.description ? `\n  Apparence : ${m.description}` : '';
-      const voix = m.voix ? `\n  Voix, pour le jeu (elle ne s’écrit pas dans les mots) : ${m.voix}` : '';
-      return `- ${m.nom}\n  Traits : ${m.traits.join(', ')}${description}${voix}`;
+      return `- ${m.nom}\n  Traits : ${m.traits.join(', ')}${description}`;
     })
     .join('\n');
 }
@@ -456,6 +456,16 @@ marionnettes du parent jouent et entrent au moins une fois. Dis dans
 LE DÉCOR. La description de chaque tableau est la liste de préparation du
 parent : deux ou trois phrases qui disent quoi poser et où.
 
+LES VOIX. C’est la PIÈCE qui appelle une voix, pas la peluche : le parent n’en
+a décrit aucune. Pour chaque marionnette que cette pièce-ci gagne à faire
+entendre autrement, donne dans « voix » une indication courte et JOUABLE par
+un adulte sans matériel : une hauteur, un débit, un tic de langage. Par
+exemple « voix grave et lente, dit “sapristi” à chaque contrariété » ou
+« très aigu, parle trop vite ». Deux marionnettes qui se répondent souvent ne
+prennent jamais la même voix. Si une marionnette n’appelle rien de
+particulier, ne la cite pas : une liste vide est une réponse valable, et mieux
+vaut deux voix marquées que cinq approximatives.
+
 ${contraintesScene(d.nbMarionnettistes)}
 
 ${CONTRAINTES_MATERIELLES}
@@ -475,7 +485,8 @@ Tu renvoies un objet JSON de cette forme :
    "temps": ["…", "…", "…"],
    "mouvements": [{"type": "entree", "marionnette": "Nom exact", "main": "M1G"}],
    "momentsPublic": ["…"],
-   "budgetMots": 200}]}
+   "budgetMots": 200}],
+ "voix": [{"marionnette": "Nom exact", "voix": "voix grave et lente, dit « sapristi »"}]}
 
 Les noms des marionnettes sont recopiés exactement comme dans le dossier.
 

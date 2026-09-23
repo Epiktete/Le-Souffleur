@@ -232,7 +232,7 @@ node tools/telecharger-polices.mjs
 - Aucune dépendance chargée depuis un service extérieur à l'exécution.
 - Le fournisseur d'IA ne reçoit que du texte : aucune image ne part, jamais.
 - Ce qui part au fournisseur au moment d'une génération : le nom, la
-  description, les traits et la voix des marionnettes choisies, les réglages
+  description et les traits des marionnettes choisies, les réglages
   du studio, votre ébauche éventuelle, et le texte du conte adapté.
 - Vos données vivent dans le navigateur : l'export pour les sauvegarder reste
   à faire.

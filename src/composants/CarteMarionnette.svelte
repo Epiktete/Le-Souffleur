@@ -77,12 +77,6 @@
         </p>
       {/if}
 
-      {#if m.voix}
-        <p class="ligne">
-          <span class="mono etiquette">{tb.champVoix}</span>
-          <span>{m.voix}</span>
-        </p>
-      {/if}
 
       <div class="actions">
         <button class="secondaire-bouton" onclick={surModifier}>{tb.modifier}</button>

@@ -17,7 +17,6 @@ export interface FicheMarionnette {
   nom: string;
   description: string;
   traits: string[];
-  voix?: string;
 }
 
 export interface Dossier {
@@ -41,7 +40,6 @@ export function construireDossier(
       nom: m.nom,
       description: m.description,
       traits: [...m.traits],
-      voix: m.voix,
     })),
     dureeMinutes: parametres.dureeMinutes,
     ageAuditoire: parametres.ageAuditoire,

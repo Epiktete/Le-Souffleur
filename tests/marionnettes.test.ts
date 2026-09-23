@@ -17,7 +17,6 @@ const saisieCorrecte = {
   nom: 'Doudou Lapin',
   description: 'Petit lapin beige aux oreilles tombantes.',
   traits: ['gentil', 'peureux'],
-  voix: 'voix douce',
 };
 
 function marionnette(nom: string, extra: Partial<Marionnette> = {}): Marionnette {
@@ -66,7 +65,7 @@ describe('validerSaisie', () => {
   });
 
   it('donne un seul message par champ, en français', () => {
-    const erreurs = validerSaisie({ nom: '', description: '', traits: [], voix: '' });
+    const erreurs = validerSaisie({ nom: '', description: '', traits: [] });
     expect(erreurs.nom).toBe('Donnez un nom à la marionnette.');
     expect(erreurs.traits).toBe('Choisissez au moins un trait de caractère.');
   });
@@ -100,14 +99,12 @@ describe('dupliquerMarionnette', () => {
     const source = marionnette('Renard', {
       description: 'Rusé et roux.',
       traits: ['rusé'],
-      voix: 'voix mielleuse',
     });
     const copie = dupliquerMarionnette(source, ['Renard']);
     expect(copie.id).not.toBe(source.id);
     expect(copie.nom).toBe('Renard (copie)');
     expect(copie.description).toBe(source.description);
     expect(copie.traits).toEqual(source.traits);
-    expect(copie.voix).toBe(source.voix);
   });
 });
 
@@ -131,7 +128,7 @@ describe('filtrerMarionnettes', () => {
   const liste = [
     marionnette('Doudou Lapin', { traits: ['gentil', 'peureux'] }),
     marionnette('Renard', { description: 'Très rusé.', traits: ['rusé'] }),
-    marionnette('Hibou', { voix: 'parle lentement' }),
+    marionnette('Hibou', { description: 'Il parle lentement.' }),
   ];
 
   it('renvoie tout quand la recherche est vide', () => {
@@ -143,7 +140,7 @@ describe('filtrerMarionnettes', () => {
     expect(filtrerMarionnettes(liste, 'LAPIN').map((m) => m.nom)).toEqual(['Doudou Lapin']);
   });
 
-  it('cherche aussi dans la description, les traits et la voix', () => {
+  it('cherche aussi dans la description et les traits', () => {
     expect(filtrerMarionnettes(liste, 'peureux')).toHaveLength(1);
     expect(filtrerMarionnettes(liste, 'lentement')).toHaveLength(1);
   });

@@ -1,7 +1,7 @@
 <script lang="ts">
   // Formulaire de création et de modification, dans un panneau latéral (CDC §7).
   // Nom obligatoire, description avec exemple, traits en puces cliquables,
-  // voix et tic de langage.
+  // et traits de caractère.
   import { BORNES } from '../config';
   import { tb, TRAITS_PROPOSES } from '../textes';
   import { validerSaisie, type ErreursSaisie } from '../services/marionnettes';
@@ -27,8 +27,6 @@
   let description = $state(marionnette.description);
   // svelte-ignore state_referenced_locally
   let traits = $state([...marionnette.traits]);
-  // svelte-ignore state_referenced_locally
-  let voix = $state(marionnette.voix ?? '');
 
   let traitLibre = $state('');
   let erreurs = $state<ErreursSaisie>({});
@@ -40,7 +38,7 @@
 
   let champNom = $state<HTMLInputElement>();
 
-  const saisie = $derived({ nom, description, traits, voix });
+  const saisie = $derived({ nom, description, traits });
   const traitsPleins = $derived(traits.length >= BORNES.traitsMarionnette.max);
   /** Traits saisis librement : ils ne figurent pas dans la liste proposée. */
   const traitsLibres = $derived(
@@ -80,7 +78,6 @@
       nom: nom.trim(),
       description: description.trim(),
       traits,
-      voix: voix.trim() || undefined,
     });
     enregistrement = false;
     if (!ok) erreurEnregistrement = tb.erreurs.enregistrementImpossible;
@@ -185,14 +182,6 @@
         </div>
         <p class="compteur mono">{tb.compteur(traits.length, BORNES.traitsMarionnette.max)}</p>
         {#if erreurs.traits}<p class="erreur" role="alert">{erreurs.traits}</p>{/if}
-      </div>
-
-      <!-- Voix et tic de langage : aide-mémoire précieux pour jouer (CDC §8) -->
-      <div class="champ">
-        <label for="m-voix" class="mono">{tb.champVoix}</label>
-        <input id="m-voix" bind:value={voix} maxlength="200" aria-describedby="m-voix-aide" />
-        <p id="m-voix-aide" class="aide">{tb.champVoixAide}</p>
-        {#if erreurs.voix}<p class="erreur" role="alert">{erreurs.voix}</p>{/if}
       </div>
 
       {#if erreurEnregistrement}

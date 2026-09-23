@@ -49,6 +49,12 @@ const construction = {
   titre: 'Titre du découpage',
   pitch: 'Doudou Lapin cherche la carotte de son anniversaire.',
   changements: ['Le loup du conte devient Renard Rusé, qui ne mange personne.'],
+  // La voix est décidée ici, pour ce spectacle : la fiche de la marionnette
+  // n'en porte plus. Ourse Gourmande n'en reçoit pas : c'est permis.
+  voix: [
+    { marionnette: 'Doudou Lapin', voix: 'voix fluette, parle vite' },
+    { marionnette: 'Renard Rusé', voix: 'voix traînante, dit « sapristi »' },
+  ],
   tableaux: [
     { id: 't1', titre: 'La clairière', description: 'Un buisson vert et de l’herbe haute.', accessoires: ['une carotte en carton'] },
     { id: 't2', titre: 'Le terrier', description: 'Un tunnel de tissu brun.', accessoires: [] },

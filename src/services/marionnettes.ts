@@ -28,7 +28,6 @@ export const schemaSaisieMarionnette = z.object({
     .array(z.string().trim().min(1))
     .min(BORNES.traitsMarionnette.min, tb.erreurs.traitsVides)
     .max(BORNES.traitsMarionnette.max, tb.erreurs.traitsTropNombreux),
-  voix: z.string().trim().max(200, tb.erreurs.voixTropLongue),
 });
 
 export type SaisieMarionnette = z.infer<typeof schemaSaisieMarionnette>;
@@ -65,7 +64,6 @@ export function marionnetteVierge(): Marionnette {
     nom: '',
     description: '',
     traits: [],
-    voix: '',
     creeLe: maintenant,
     modifieLe: maintenant,
   };
@@ -119,7 +117,7 @@ export function filtrerMarionnettes(liste: Marionnette[], recherche: string): Ma
   const terme = sansAccents(recherche);
   if (!terme) return liste;
   return liste.filter((m) =>
-    sansAccents(`${m.nom} ${m.description} ${m.traits.join(' ')} ${m.voix ?? ''}`).includes(terme),
+    sansAccents(`${m.nom} ${m.description} ${m.traits.join(' ')}`).includes(terme),
   );
 }
 

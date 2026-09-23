@@ -137,8 +137,6 @@ export const tb = {
   champTraits: 'Traits de caractère',
   champTraitsAide: 'De 1 à 6 traits. Cliquez pour choisir, ou ajoutez le vôtre.',
   champTraitLibre: 'Ajouter un trait',
-  champVoix: 'Voix et tic de langage',
-  champVoixAide: 'Ex. : « voix grave, parle lentement, dit toujours sapristi ».',
 
   /** Messages de validation, en français et sans jargon. */
   erreurs: {
@@ -148,7 +146,6 @@ export const tb = {
     traitsVides: 'Choisissez au moins un trait de caractère.',
     traitsTropNombreux: 'Six traits au maximum.',
     traitDejaPresent: 'Ce trait est déjà choisi.',
-    voixTropLongue: 'La voix ne doit pas dépasser 200 caractères.',
     enregistrementImpossible:
       'Impossible d’enregistrer. Le navigateur refuse peut-être de stocker des données.',
   },
@@ -351,8 +348,7 @@ export const tsc = {
   ageValeur: (ans: number) => `${ans} ans`,
   marionnettistes: 'Marionnettistes',
   distribution: 'Distribution',
-  voix: 'Voix',
-  sansVoix: 'Voix non précisée',
+  sansVoix: 'Pas de voix particulière',
 
   /** Bandeau des tableaux (décors). */
   tableaux: 'Tableaux',
@@ -527,7 +523,7 @@ export const ttu = {
         'Dans la colonne **Marionnethèque**, à gauche, cliquez sur **+ Nouvelle marionnette**.',
         'Donnez-lui un **nom**, et dites dans la **description** quel animal ou quel personnage c’est : « un lapin gris », « un petit dragon vert ».',
         'Choisissez de **1 à 6 traits** de caractère : gourmand, peureux, rusé…',
-        'Si vous voulez, ajoutez sa **voix**, puis **Enregistrer**.',
+        'Puis **Enregistrer**.',
       ],
       astuce: 'L’espèce et les traits décident des rôles qu’elle jouera : un lapin peureux trouvera le lièvre peureux de La Fontaine.',
     },

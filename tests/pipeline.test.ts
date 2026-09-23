@@ -3,7 +3,7 @@
 // C'est le point de contact le plus fragile du pipeline : le modèle désigne les
 // marionnettes par leur nom, avec sa propre orthographe, et peut inventer.
 import { describe, expect, it } from 'vitest';
-import { convertirElements, decrireEtatScene, nettoyerReplique, simulerConduite } from '../src/services/pipeline';
+import { convertirElements, decrireEtatScene, nettoyerReplique, simulerConduite, voixParMarionnette } from '../src/services/pipeline';
 import { construireDossier, trouverMarionnetteId } from '../src/services/dossier';
 import { attribuerMains, controler, simulerActe } from '../src/services/scene';
 import {
@@ -71,6 +71,43 @@ describe('trouverMarionnetteId', () => {
 
   it('renvoie undefined pour un nom inconnu', () => {
     expect(trouverMarionnetteId('Dragon', distribution)).toBeUndefined();
+  });
+});
+
+describe('voixParMarionnette : la voix appartient au spectacle', () => {
+  const adaptation = (voix: { marionnette: string; voix: string }[]) =>
+    ({ voix }) as unknown as Parameters<typeof voixParMarionnette>[0];
+
+  it('ramène les noms écrits par le modèle aux identifiants', () => {
+    const v = voixParMarionnette(
+      adaptation([{ marionnette: 'Doudou Lapin', voix: 'voix fluette' }]),
+      distribution,
+    );
+    expect(v).toEqual({ 'id-lapin': 'voix fluette' });
+  });
+
+  it('tolère la graphie approximative du modèle, comme partout ailleurs', () => {
+    const v = voixParMarionnette(
+      adaptation([{ marionnette: 'renard rusé', voix: 'voix traînante' }]),
+      distribution,
+    );
+    expect(v).toEqual({ 'id-renard': 'voix traînante' });
+  });
+
+  it('ignore une voix vide et un nom inconnu, sans perdre le spectacle', () => {
+    const v = voixParMarionnette(
+      adaptation([
+        { marionnette: 'Doudou Lapin', voix: '   ' },
+        { marionnette: 'Marionnette fantôme', voix: 'voix grave' },
+        { marionnette: 'Ourse', voix: 'voix lente' },
+      ]),
+      distribution,
+    );
+    expect(v).toEqual({ 'id-ourse': 'voix lente' });
+  });
+
+  it('accepte une liste vide : toutes les pièces n’appellent pas une voix', () => {
+    expect(voixParMarionnette(adaptation([]), distribution)).toEqual({});
   });
 });
 
