@@ -34,7 +34,7 @@
   <div class="rangee">
     <!-- Le bouton porte le clic : la boîte reste accessible au clavier. -->
     <button class="tete" onclick={surBasculer} aria-expanded={depliee}>
-      <Vignette nom={m.nom} photo={m.photo} />
+      <Vignette nom={m.nom} />
       <span class="identite">
         <span class="nom">{m.nom}</span>
         {#if traitsVisibles.length > 0}

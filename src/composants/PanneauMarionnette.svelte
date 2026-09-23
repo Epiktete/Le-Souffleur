@@ -1,11 +1,9 @@
 <script lang="ts">
   // Formulaire de création et de modification, dans un panneau latéral (CDC §7).
   // Nom obligatoire, description avec exemple, traits en puces cliquables,
-  // voix et tic de langage, photo facultative redimensionnée à 512 px.
-  import Vignette from './Vignette.svelte';
+  // voix et tic de langage.
   import { BORNES } from '../config';
   import { tb, TRAITS_PROPOSES } from '../textes';
-  import { preparerPhoto } from '../services/photo';
   import { validerSaisie, type ErreursSaisie } from '../services/marionnettes';
   import type { Marionnette } from '../types';
 
@@ -31,20 +29,16 @@
   let traits = $state([...marionnette.traits]);
   // svelte-ignore state_referenced_locally
   let voix = $state(marionnette.voix ?? '');
-  // svelte-ignore state_referenced_locally
-  let photo = $state<Blob | undefined>(marionnette.photo);
 
   let traitLibre = $state('');
   let erreurs = $state<ErreursSaisie>({});
-  let erreurPhoto = $state<string | null>(null);
-  let photoEnCours = $state(false);
+  /** Un échec d'enregistrement (stockage plein, navigation privée) se dit ici. */
+  let erreurEnregistrement = $state<string | null>(null);
   let enregistrement = $state(false);
   /** Les erreurs n'apparaissent qu'après une première tentative d'envoi. */
   let tentative = $state(false);
 
   let champNom = $state<HTMLInputElement>();
-  let entreeFichier = $state<HTMLInputElement>();
-  let entreeAppareil = $state<HTMLInputElement>();
 
   const saisie = $derived({ nom, description, traits, voix });
   const traitsPleins = $derived(traits.length >= BORNES.traitsMarionnette.max);
@@ -71,23 +65,6 @@
     traitLibre = '';
   }
 
-  async function surFichier(evenement: Event) {
-    const entree = evenement.target as HTMLInputElement;
-    const fichier = entree.files?.[0];
-    entree.value = ''; // permet de reprendre le même fichier ensuite
-    if (!fichier) return;
-
-    erreurPhoto = null;
-    photoEnCours = true;
-    try {
-      photo = await preparerPhoto(fichier);
-    } catch {
-      erreurPhoto = tb.erreurs.photoIllisible;
-    } finally {
-      photoEnCours = false;
-    }
-  }
-
   async function envoyer(evenement: SubmitEvent) {
     evenement.preventDefault();
     tentative = true;
@@ -104,10 +81,9 @@
       description: description.trim(),
       traits,
       voix: voix.trim() || undefined,
-      photo,
     });
     enregistrement = false;
-    if (!ok) erreurPhoto = tb.erreurs.enregistrementImpossible;
+    if (!ok) erreurEnregistrement = tb.erreurs.enregistrementImpossible;
   }
 
   // Échap ferme le panneau, comme partout dans l'application.
@@ -219,47 +195,14 @@
         {#if erreurs.voix}<p class="erreur" role="alert">{erreurs.voix}</p>{/if}
       </div>
 
-      <!-- Photo facultative -->
-      <div class="champ">
-        <span class="mono">{tb.champPhoto}</span>
-        <p class="aide">{tb.champPhotoAide}</p>
-
-        <div class="photo">
-          <Vignette {nom} {photo} taille={72} />
-          <div class="photo-actions">
-            <button type="button" class="secondaire-bouton" onclick={() => entreeFichier?.click()}>
-              {tb.choisirPhoto}
-            </button>
-            <!-- « capture » ouvre l'appareil photo sur tablette et téléphone. -->
-            <button type="button" class="secondaire-bouton" onclick={() => entreeAppareil?.click()}>
-              {tb.prendrePhoto}
-            </button>
-            {#if photo}
-              <button type="button" class="secondaire-bouton" onclick={() => (photo = undefined)}>
-                {tb.retirerPhoto}
-              </button>
-            {/if}
-          </div>
-        </div>
-
-        <input bind:this={entreeFichier} type="file" accept="image/*" hidden onchange={surFichier} />
-        <input
-          bind:this={entreeAppareil}
-          type="file"
-          accept="image/*"
-          capture="environment"
-          hidden
-          onchange={surFichier}
-        />
-
-        <p class="etat mono" aria-live="polite">{photoEnCours ? tb.photoEnCours : ''}</p>
-        {#if erreurPhoto}<p class="erreur" role="alert">{erreurPhoto}</p>{/if}
-      </div>
+      {#if erreurEnregistrement}
+        <p class="erreur" role="alert">{erreurEnregistrement}</p>
+      {/if}
     </div>
 
     <footer>
       <button type="button" class="secondaire-bouton" onclick={surAnnuler}>{tb.annuler}</button>
-      <button type="submit" disabled={enregistrement || photoEnCours}>{tb.enregistrer}</button>
+      <button type="submit" disabled={enregistrement}>{tb.enregistrer}</button>
     </footer>
   </form>
 </aside>
@@ -293,7 +236,6 @@
 
   .aide { font-size: 13px; color: var(--encre2); margin: 4px 0 6px; }
   .compteur { color: var(--encre2); font-size: 11px; text-align: right; margin: 4px 0 0; }
-  .etat { color: var(--encre2); font-size: 11px; margin: 6px 0 0; min-height: 1em; }
 
   /* Le rouge ne sert qu'à signaler, jamais à décorer (CDC §11). */
   .erreur {
@@ -336,10 +278,6 @@
   .ajout { display: flex; gap: 6px; margin-top: 8px; }
   .ajout input { flex: 1; }
   .ajout button { flex: 0 0 var(--cible-tactile); }
-
-  .photo { display: flex; gap: 12px; align-items: flex-start; }
-  .photo-actions { display: flex; flex-direction: column; gap: 6px; flex: 1; }
-  .photo-actions button { font-size: 10px; }
 
   footer {
     display: flex;

@@ -434,16 +434,6 @@ describe('le schéma des synopsis, construit pour chaque appel', () => {
 });
 
 describe('construireDossier', () => {
-  it('n’inclut jamais les photos (CDC §12)', () => {
-    const avecPhoto = [{ ...marionnette('id-1', 'Photo'), photo: new Blob(['x']) }];
-    const d = construireDossier(avecPhoto, {
-      dureeMinutes: 5, ageAuditoire: 6, nbMarionnettistes: 1,
-      interactionPublic: 'quelques', ebauche: '',
-    });
-    expect(JSON.stringify(d)).not.toContain('photo');
-    expect(d.marionnettes[0]).not.toHaveProperty('photo');
-  });
-
   it('calcule le budget de mots à partir de la durée', () => {
     const d = construireDossier(distribution, {
       dureeMinutes: 5, ageAuditoire: 6, nbMarionnettistes: 1,

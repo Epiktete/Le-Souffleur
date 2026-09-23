@@ -41,7 +41,7 @@
               surAction={() => studio.retirer(m.id)}
             />
             <div class="identite">
-              <Vignette nom={m.nom} photo={m.photo} taille={36} />
+              <Vignette nom={m.nom} taille={36} />
               <span class="nom">{m.nom}</span>
             </div>
           </div>

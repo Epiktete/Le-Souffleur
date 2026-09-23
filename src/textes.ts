@@ -139,13 +139,6 @@ export const tb = {
   champTraitLibre: 'Ajouter un trait',
   champVoix: 'Voix et tic de langage',
   champVoixAide: 'Ex. : « voix grave, parle lentement, dit toujours sapristi ».',
-  champPhoto: 'Photo',
-  champPhotoAide:
-    'Facultatif. La photo reste sur cet appareil et n’est jamais envoyée à l’IA.',
-  choisirPhoto: 'Choisir une photo',
-  prendrePhoto: 'Prendre une photo',
-  retirerPhoto: 'Retirer la photo',
-  photoEnCours: 'Préparation de la photo…',
 
   /** Messages de validation, en français et sans jargon. */
   erreurs: {
@@ -156,7 +149,6 @@ export const tb = {
     traitsTropNombreux: 'Six traits au maximum.',
     traitDejaPresent: 'Ce trait est déjà choisi.',
     voixTropLongue: 'La voix ne doit pas dépasser 200 caractères.',
-    photoIllisible: 'Ce fichier n’est pas une image que le navigateur sait lire.',
     enregistrementImpossible:
       'Impossible d’enregistrer. Le navigateur refuse peut-être de stocker des données.',
   },
@@ -248,8 +240,7 @@ export const ti = {
   /** Rappel de confidentialité (CDC §10). */
   confidentialite:
     'Votre clé et vos données restent dans ce navigateur. Seuls les fiches des marionnettes '
-    + 'et votre ébauche sont envoyés au fournisseur que vous avez choisi, au moment d’une génération. '
-    + 'Les photos ne sont jamais envoyées.',
+    + 'et votre ébauche sont envoyés au fournisseur que vous avez choisi, au moment d’une génération.',
 
   enregistrer: 'Enregistrer',
   fermer: 'Fermer',
@@ -536,9 +527,9 @@ export const ttu = {
         'Dans la colonne **Marionnethèque**, à gauche, cliquez sur **+ Nouvelle marionnette**.',
         'Donnez-lui un **nom**, et dites dans la **description** quel animal ou quel personnage c’est : « un lapin gris », « un petit dragon vert ».',
         'Choisissez de **1 à 6 traits** de caractère : gourmand, peureux, rusé…',
-        'Si vous voulez, ajoutez sa **voix** et une **photo**, puis **Enregistrer**.',
+        'Si vous voulez, ajoutez sa **voix**, puis **Enregistrer**.',
       ],
-      astuce: 'L’espèce et les traits décident des rôles qu’elle jouera : un lapin peureux trouvera le lièvre peureux de La Fontaine. La photo reste sur votre appareil.',
+      astuce: 'L’espèce et les traits décident des rôles qu’elle jouera : un lapin peureux trouvera le lièvre peureux de La Fontaine.',
     },
     {
       titre: 'Préparez le studio et générez',

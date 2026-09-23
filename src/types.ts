@@ -16,8 +16,6 @@ export interface Marionnette {
   traits: string[];
   /** Ex. « voix grave, parle lentement, dit "sapristi" ». */
   voix?: string;
-  /** Photo redimensionnée à 512 px au plus, en JPEG. Jamais envoyée à l'IA en V1. */
-  photo?: Blob;
   creeLe: string;
   modifieLe: string;
 }

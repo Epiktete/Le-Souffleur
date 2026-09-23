@@ -78,7 +78,7 @@
             </span>
             <span class="distribution">
               {#each s.distribution.slice(0, 5) as m (m.id)}
-                <Vignette nom={m.nom} photo={m.photo} taille={26} />
+                <Vignette nom={m.nom} taille={26} />
               {/each}
             </span>
             <span class="mono date">{dateCourte(s.creeLe)}</span>

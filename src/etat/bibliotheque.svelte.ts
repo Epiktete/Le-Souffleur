@@ -16,9 +16,6 @@ import type { Marionnette } from '../types';
  * les données avec l'algorithme de clonage structuré du navigateur, refuse ces
  * objets et lève une erreur. On en prend donc un instantané ordinaire avant
  * toute écriture.
- *
- * `$state.snapshot` laisse intacts les objets qui ne sont pas réactifs, comme
- * le Blob de la photo.
  */
 function instantane(m: Marionnette): Marionnette {
   return $state.snapshot(m) as Marionnette;

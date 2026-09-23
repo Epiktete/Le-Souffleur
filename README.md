@@ -89,7 +89,7 @@ npm run test:parcours
 ```
 
 Lance les tests de parcours dans un vrai navigateur, sur le build réel : création
-d'une marionnette, persistance après rechargement, photo redimensionnée,
+d'une marionnette, persistance après rechargement,
 navigation au clavier, et **génération complète d'un spectacle** avec un
 fournisseur d'IA simulé — aucun appel réel, aucun coût. La première exécution
 télécharge un navigateur de test.
@@ -230,7 +230,7 @@ node tools/telecharger-polices.mjs
 
 - Aucune télémétrie, aucun traceur, aucun cookie.
 - Aucune dépendance chargée depuis un service extérieur à l'exécution.
-- Les photos de peluches ne sont jamais envoyées au fournisseur d'IA.
+- Le fournisseur d'IA ne reçoit que du texte : aucune image ne part, jamais.
 - Ce qui part au fournisseur au moment d'une génération : le nom, la
   description, les traits et la voix des marionnettes choisies, les réglages
   du studio, votre ébauche éventuelle, et le texte du conte adapté.

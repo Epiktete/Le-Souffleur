@@ -269,8 +269,8 @@ test('le nombre de jetons consommés est affiché', async ({ page }) => {
   await expect(page.getByText(/jetons consommés pour ce spectacle/)).toBeVisible();
 });
 
-test('aucune photo n’est envoyée au fournisseur', async ({ page }) => {
-  // Exigence du CDC §12.
+test('aucune image n’est envoyée au fournisseur', async ({ page }) => {
+  // Exigence du CDC §12 : le fournisseur ne reçoit que du texte.
   const corps: string[] = [];
   page.on('request', (r) => {
     if (r.url().includes('/chat/completions')) corps.push(r.postData() ?? '');
@@ -287,8 +287,6 @@ test('aucune photo n’est envoyée au fournisseur', async ({ page }) => {
     // qu'aucune donnée n'ait fuité.
     expect(c).not.toContain('base64');
     expect(c).not.toContain('data:image');
-    expect(c).not.toMatch(/"photo"\s*:/);
-    expect(c).not.toMatch(/"photoMiniature"\s*:/);
   }
 });
 

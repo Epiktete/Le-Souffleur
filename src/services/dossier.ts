@@ -12,7 +12,7 @@
 import { budgetMots } from './duree';
 import type { Marionnette, NiveauInteraction, ParametresGeneration } from '../types';
 
-/** Fiche d'une marionnette, telle qu'envoyée au modèle. Jamais la photo (§12). */
+/** Fiche d'une marionnette, telle qu'envoyée au modèle. */
 export interface FicheMarionnette {
   nom: string;
   description: string;
@@ -31,10 +31,7 @@ export interface Dossier {
   budgetMotsTotal: number;
 }
 
-/**
- * Construit le dossier. Les photos ne sont jamais incluses : le CDC §12
- * interdit de les envoyer au fournisseur en V1.
- */
+/** Construit le dossier envoyé au modèle. */
 export function construireDossier(
   marionnettes: Marionnette[],
   parametres: Omit<ParametresGeneration, 'modele' | 'marionnetteIds'>,

@@ -103,7 +103,7 @@ export function nomDeCopie(nomSource: string, nomsExistants: string[]): string {
   return nomSource.slice(0, max - 6) + ' ' + Date.now().toString().slice(-4);
 }
 
-/** Initiales affichées quand la marionnette n'a pas de photo (CDC §7). */
+/** Initiales affichées sur la vignette de la marionnette (CDC §7). */
 export function initiales(nom: string): string {
   const mots = nom.trim().split(/\s+/).filter(Boolean);
   if (mots.length === 0) return '?';

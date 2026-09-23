@@ -2,7 +2,7 @@
 //
 // Tout vit dans le navigateur de l'utilisateur : il n'y a pas de serveur.
 // IndexedDB est utilisée plutôt que localStorage car elle accepte le volume des
-// photos et sait stocker des Blob directement.
+// spectacles et sait stocker autre chose que du texte.
 //
 // L'interface n'appelle jamais IndexedDB en direct : elle passe par ce service.
 // C'est ce qui permettra d'ajouter un proxy serveur en V2 sans toucher aux écrans.
@@ -73,13 +73,25 @@ export function nouvelId(): string {
 
 export async function listerMarionnettes(): Promise<Marionnette[]> {
   const db = await ouvrirBase();
-  const toutes = await db.getAll('marionnettes');
+  const toutes = (await db.getAll('marionnettes')).map(sansPhoto);
   // Les plus récemment modifiées en premier.
   return toutes.sort((a, b) => b.modifieLe.localeCompare(a.modifieLe));
 }
 
 export async function lireMarionnette(id: string): Promise<Marionnette | undefined> {
-  return (await ouvrirBase()).get('marionnettes', id);
+  const m = await (await ouvrirBase()).get('marionnettes', id);
+  return m && sansPhoto(m);
+}
+
+/**
+ * Les marionnettes créées avant la suppression de la photo gardent un Blob
+ * dont plus personne ne se sert. On le retire à la lecture : il disparaît du
+ * stockage au premier enregistrement suivant, sans migration de schéma.
+ */
+function sansPhoto(m: Marionnette): Marionnette {
+  if (!('photo' in m)) return m;
+  const { photo: _, ...reste } = m as Marionnette & { photo?: unknown };
+  return reste;
 }
 
 /** Enregistre une marionnette et met à jour sa date de modification. */

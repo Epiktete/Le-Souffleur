@@ -36,8 +36,6 @@ export const BORNES = {
   descriptionMarionnette: { max: 500 },
   traitsMarionnette: { min: 1, max: 6 },
   ebauche: { max: 2000 },
-  /** Côté maximal d'une photo de marionnette, en pixels. */
-  photoPixels: 512,
 } as const;
 
 /** Appels à l'IA (CDC §5). Repris de l'étape 0. */

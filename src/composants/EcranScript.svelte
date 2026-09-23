@@ -122,7 +122,7 @@
       <div class="distribution">
         {#each s.distribution as m (m.id)}
           <div class="fiche">
-            <Vignette nom={m.nom} photo={m.photo} taille={40} />
+            <Vignette nom={m.nom} taille={40} />
             <div>
               <p class="nom">{m.nom}</p>
               <p class="voix">{m.voix || tsc.sansVoix}</p>
