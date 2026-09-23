@@ -1,0 +1,62 @@
+{"synopsis": [
+  {"conte": "it-giufa", "titre": "Une histoire de Giufà",
+   "accroche": "Chassé une première fois, reçu en grande pompe la seconde — grâce à un habit d'emprunt.",
+   "resume": [
+     "Petit Chat (Giufà) a faim ; il part vers une ferme lointaine, malgré les mises en garde de Jean le Paysan, sa mère.",
+     "Il réclame à manger à table : Dame Chèvre, la fermière, le chasse en criant.",
+     "Jean le Paysan emprunte à Vieux Hibou, le garde du coin, un grand habit et un chapeau à plumes.",
+     "Déguisé, Petit Chat revient à la même ferme : Dame Chèvre le reçoit cette fois comme un invité d'honneur, le sert et le régale.",
+     "Petit Chat remplit les poches de son habit de nourriture et l'arrose de jus, en disant que ce sont les habits qu'on a invités — puis il rentre chargé de cadeaux, ravissant Jean le Paysan, qui se demande maintenant comment rendre l'habit à Vieux Hibou."
+   ],
+   "distribution": [
+     {"marionnette": "Jean le Paysan", "role": "la Mère de Giufà", "note": "travailleuse et rusée comme elle, elle mène le stratagème de l'habit emprunté."},
+     {"marionnette": "Dame Chèvre", "role": "le Fermier grincheux", "note": "grognonne comme lui, elle chasse et reçoit avec le même excès."},
+     {"marionnette": "Petit Chat", "role": "Giufà", "note": "farceur comme lui, il porte tout le numéro du repas volé."},
+     {"marionnette": "Vieux Hibou", "role": "le Compère garde champêtre", "note": "prête l'habit qui déclenche toute la ruse."}
+   ],
+   "changements": [
+     "Le bâton qui chasse Giufà devient des cris, sans coup.",
+     "Le vin qui tache l'habit devient du jus de fruits.",
+     "Le fusil et la cartouchière du garde deviennent un chapeau à plumes et une sacoche, plus doux pour la scène."
+   ]},
+  {"conte": "en-punch-et-judy", "titre": "Punch et Judy",
+   "accroche": "Le grand ancêtre du théâtre de marionnettes : Punch enchaîne les bêtises sans jamais être puni.",
+   "resume": [
+     "Petit Chat (Punch) salue en tapant joyeusement sur le rebord de la scène.",
+     "Dame Chèvre (le chien Toby) réclame sa place et pince Petit Chat au bout du nez.",
+     "Jean le Paysan (Judy) confie un bébé à Petit Chat, qui le berce si mal que le bébé pleure très fort.",
+     "Un fantôme surgit derrière Petit Chat ; cette fois, c'est Jean le Paysan qui le prévient, et non les enfants dans la salle.",
+     "Petit Chat fait semblant d'être malade ; Vieux Hibou (le docteur) l'ausculte très sérieusement, et Petit Chat refuse quand même de payer la visite."
+   ],
+   "distribution": [
+     {"marionnette": "Petit Chat", "role": "Punch", "note": "aussi coquin et farceur que lui, il porte tout le numéro comique."},
+     {"marionnette": "Dame Chèvre", "role": "le Chien Toby", "note": "grognonne comme lui, elle mord et proteste avec la même mauvaise humeur."},
+     {"marionnette": "Jean le Paysan", "role": "Judy", "note": "le rôle raisonnable qui recadre Punch tout au long du spectacle."},
+     {"marionnette": "Vieux Hibou", "role": "le Docteur", "note": "savant comme lui, il garde son sérieux face à un faux malade."}
+   ],
+   "changements": [
+     "Aucun coup réel : le bâton devient un plumeau, les chutes sont des glissades comiques.",
+     "Le spectacle ne sollicite pas le public : c'est Jean le Paysan qui prévient Petit Chat pour le fantôme, pas les enfants.",
+     "Le montreur, Scaramouche et le cheval sont retirés faute de marionnette, ainsi qu'un personnage caricatural du texte d'origine, qui n'a pas sa place ici."
+   ]},
+  {"conte": "afr-lievre-et-rainette", "titre": "Le Lièvre et la Rainette",
+   "accroche": "Le Lièvre trompe tous les gardiens du puits par la ruse, jusqu'à un tout petit piège.",
+   "resume": [
+     "Tous les animaux creusent le puits que garde Dame Chèvre ; Petit Chat (le Lièvre) refuse d'aider, donc l'eau lui est interdite.",
+     "Vieux Hibou monte la garde ; Petit Chat lui fait goûter du miel et le persuade de se laisser attacher les pattes, puis boit tranquillement.",
+     "Jean le Paysan, tout petit, se propose à son tour et se cache au fond de l'eau.",
+     "Sûr de lui, Petit Chat vient se baigner : Jean le Paysan l'attrape patte après patte et l'amène devant Dame Chèvre.",
+     "Attrapé, Petit Chat doit à son tour nettoyer le puits du début à la fin."
+   ],
+   "distribution": [
+     {"marionnette": "Jean le Paysan", "role": "la Rainette", "note": "aussi rusé qu'elle, il l'emporte par la ruse plutôt que par la force."},
+     {"marionnette": "Dame Chèvre", "role": "le Roi", "note": "grognonne comme lui, elle interdit l'eau sans discuter."},
+     {"marionnette": "Petit Chat", "role": "le Lièvre", "note": "farceur comme lui, il multiplie les tours pour boire en cachette."},
+     {"marionnette": "Vieux Hibou", "role": "la Gazelle", "note": "joue le garde trop confiant qui se laisse avoir par les compliments."}
+   ],
+   "changements": [
+     "Les autres gardiens du conte (l'Antilope, le Buffle, l'Hippopotame) sont retirés faute de marionnette : un seul tour de miel suffit, avec Vieux Hibou.",
+     "Les coups de bâton deviennent des nœuds et des chatouilles.",
+     "La fin change : Petit Chat, attrapé, doit nettoyer le puits, au lieu de la fin plus dure du conte d'origine."
+   ]}
+]}

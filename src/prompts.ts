@@ -364,16 +364,18 @@ Pour chaque synopsis :
   Tortue »). Ni le nom d’une marionnette du parent, ni son espèce : c’est le
   repère qui dit au parent d’où vient l’histoire, et le résumé lui apprend
   ensuite qui joue quoi ;
-- « accroche » : une ligne simple qui dit de quoi il s’agit, 120 caractères au plus ;
+- « accroche » : UNE phrase simple qui dit de quoi il s’agit ;
 - « resume » : l’histoire du conte telle qu’elle sera jouée, dans son ordre et
-  jusqu’à sa fin, en trois à cinq points, avec les noms des marionnettes. Une
+  jusqu’à sa fin, en trois à cinq points d’une ou deux phrases chacun, avec
+  les noms des marionnettes. Une
   marionnette animale garde son espèce : si Doudou Lapin joue le Crocodile, on
   écrit « Doudou Lapin guette au bord de l’eau », jamais « Doudou Lapin le
   crocodile » ;
 - « distribution » : pour CHAQUE marionnette qui joue ce conte, le rôle qu’elle
   tient (le nom du rôle tel que la fiche l’écrit), et en quelques mots pourquoi
   elle y va bien ;
-- « changements » : un à trois points, ce qui diffère du conte et pourquoi.
+- « changements » : un à trois points d’une phrase chacun, ce qui diffère du
+  conte et pourquoi.
 
 ${consignesAge(d.ageAuditoire)}
 

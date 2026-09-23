@@ -1,0 +1,65 @@
+{"synopsis": [
+  {"conte": "it-giufa", "titre": "Une histoire de Giufà",
+   "accroche": "Chassé de la ferme en haillons, il y revient déguisé en garde — et c'est son habit qu'on reçoit comme invité.",
+   "resume": [
+     "Petit Chat a faim ; malgré les mises en garde de Jean le Paysan, il part seul, en habits usés, vers la ferme du bas.",
+     "À la ferme, Dame Chèvre le chasse en criant : sans bel habit, pas de repas pour lui.",
+     "Jean le Paysan emprunte à Vieux Hibou un chapeau à plumes et une sacoche de garde champêtre.",
+     "Déguisé, Petit Chat revient : Dame Chèvre le reçoit comme un roi et le régale de bon cœur.",
+     "Il remplit sacoche et chapeau pour « nourrir l'habit » ; rentré chargé de cadeaux, il doit maintenant le nettoyer avant de le rendre à Vieux Hibou."
+   ],
+   "distribution": [
+     {"marionnette": "Jean le Paysan", "role": "la Mère de Giufà", "note": "travailleur et rusé comme elle, il sait comment obtenir cet habit"},
+     {"marionnette": "Dame Chèvre", "role": "le Fermier grincheux", "note": "aussi grognon que ce fermier bougon"},
+     {"marionnette": "Petit Chat", "role": "Giufà", "note": "aussi farceur et gourmand que ce garçon plein de ruses"},
+     {"marionnette": "Vieux Hibou", "role": "le Compère garde champêtre", "note": "sage et digne de confiance, on lui prête volontiers son habit"}
+   ],
+   "changements": [
+     "Le bâton qui chasse Petit Chat devient des cris, sans coup porté — la bousculade reste comique, jamais violente.",
+     "Le fusil et la cartouchière du déguisement deviennent un chapeau à plumes et une sacoche, plus simples à mimer avec des marionnettes.",
+     "La fin ouverte du conte (l'habit taché) devient une vraie scène : Petit Chat se débrouille pour le laver avant de le rendre à Vieux Hibou."
+   ]
+  },
+  {"conte": "afr-lievre-et-rainette", "titre": "Le Lièvre et la Rainette",
+   "accroche": "Un lièvre malin boit en cachette à un puits interdit, jusqu'à ce qu'une toute petite rainette l'attrape par surprise.",
+   "resume": [
+     "Sur l'ordre de Dame Chèvre, tous les animaux creusent le puits ; Petit Chat refuse d'aider, et n'a donc plus le droit d'y boire.",
+     "Vieux Hibou monte la garde ; Petit Chat lui fait goûter du miel, le convainc de se laisser attacher les pattes, puis boit tranquillement.",
+     "Le même tour marche encore sur d'autres gardiens, chacun flatté puis ligoté à son tour.",
+     "Jean le Paysan, tout petit, se propose et se cache au fond de l'eau sans un bruit.",
+     "Sûr de lui, Petit Chat vient se baigner : Jean le Paysan l'attrape patte après patte et l'amène devant Dame Chèvre, qui le fait nettoyer le puits avant de le laisser filer."
+   ],
+   "distribution": [
+     {"marionnette": "Jean le Paysan", "role": "la Rainette", "note": "aussi rusé qu'elle, et c'est lui qui déjoue le tour final"},
+     {"marionnette": "Dame Chèvre", "role": "le Roi", "note": "aussi grognon que ce personnage qui fait respecter la règle du puits"},
+     {"marionnette": "Petit Chat", "role": "le Lièvre", "note": "aussi farceur que ce malin qui multiplie les tours"},
+     {"marionnette": "Vieux Hibou", "role": "la Gazelle", "note": "gardien facilement berné malgré sa sagesse — un ressort comique"}
+   ],
+   "changements": [
+     "Les cordes qui lient les gardiens à leur poste remplacent les coups de bâton du conte, avec des chatouilles pour faire rire plutôt que punir.",
+     "La fin cruelle disparaît : capturé, Petit Chat doit nettoyer le puits avant que Dame Chèvre ne le laisse repartir d'un bond, comme dans le conte.",
+     "La ruse du miel se répète en ritournelle sur deux gardiens plutôt que quatre, pour tenir dans le temps du spectacle."
+   ]
+  },
+  {"conte": "ru-ours-et-loups-effrayes", "titre": "L’Ours et les Loups effrayés",
+   "accroche": "Un chat et une chèvre en fuite font croire à des loups qu'ils sont des chasseurs redoutables, jusqu'à effrayer l'ours lui-même.",
+   "resume": [
+     "Surpris à voler de la crème, Petit Chat convainc Dame Chèvre de fuir avec lui dans la forêt.",
+     "Ils trouvent une vieille tête de loup en bois et arrivent près du feu d'une bande de loups.",
+     "« Choisis la plus grasse pour notre dîner ! » Dame Chèvre montre plusieurs fois la même tête ; les loups s'éclipsent un à un, terrorisés.",
+     "Les loups racontent tout à Jean le Paysan ; Vieux Hibou en rajoute encore. On invite les deux terribles visiteurs à dîner.",
+     "Petit Chat prend peur d'une petite queue et saute dans l'arbre où se cachait Jean le Paysan, qui tombe de terreur : la ruse a marché jusqu'au bout."
+   ],
+   "distribution": [
+     {"marionnette": "Jean le Paysan", "role": "l'Ours", "note": "travailleur et robuste, il porte bien la stature du gros ours peureux"},
+     {"marionnette": "Dame Chèvre", "role": "le Bélier", "note": "aussi têtue et forte que ce bélier qui tient bon dans le bluff"},
+     {"marionnette": "Petit Chat", "role": "le Chat", "note": "aussi coquin que ce chat rusé, meneur de toute la ruse"},
+     {"marionnette": "Vieux Hibou", "role": "la Renarde", "note": "bavarde comme elle, elle amplifie la rumeur jusqu'à l'ours"}
+   ],
+   "changements": [
+     "Les griffures et les coups de tête du conte deviennent de simples bousculades et gros mots comiques, sans blessure.",
+     "Le masque en tête de loup peut être un vieux bonnet ou un masque en carton, plus facile à manier par les marionnettistes.",
+     "Le public peut être rendu complice du bluff en voyant revenir plusieurs fois la même tête de loup, un clin d'œil gardé du conte."
+   ]
+  }
+]}

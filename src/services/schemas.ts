@@ -35,11 +35,17 @@ export const schemaRoleJoue = z.object({
 export const schemaSynopsis = z.object({
   /** Identifiant du conte dans le répertoire. */
   conte: z.string().min(1),
-  titre: z.string().min(1).max(90),
-  accroche: z.string().max(140).default(''),
-  resume: z.array(z.string().min(1).max(220)).min(2).max(6),
+  // Les bornes sont LARGES, et c'est délibéré. Un modèle ne sait pas compter
+  // des caractères : une limite serrée ne raccourcit pas sa réponse, elle la
+  // fait refuser — et tout l'appel est à refaire, prompt compris. Mesuré au
+  // relais : un point de résumé à 221 caractères a coûté un appel entier de
+  // 3 100 mots. La concision se demande dans le prompt, en phrases ; le
+  // schéma n'est là que pour arrêter ce qui casserait l'affichage.
+  titre: z.string().min(1).max(120),
+  accroche: z.string().max(200).default(''),
+  resume: z.array(z.string().min(1).max(400)).min(2).max(6),
   distribution: z.array(schemaRoleJoue).min(1),
-  changements: z.array(z.string().min(1).max(260)).max(4).default([]),
+  changements: z.array(z.string().min(1).max(400)).max(4).default([]),
 });
 
 /**

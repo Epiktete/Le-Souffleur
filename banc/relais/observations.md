@@ -249,3 +249,29 @@
 - Plusieurs modifications du relecteur offrent deux options (« supprime… ou
   remplace ») sans dire laquelle préférer, alors qu'une consigne voisine
   (allonger) tranche implicitement.
+
+## Cas 4, étape 001 — synopsis
+- « Punch et Judy » a été proposé alors que le parent a demandé AUCUNE
+  interaction avec le public — or toute la pièce repose sur les cris des
+  enfants (« c'est derrière toi ! »). Rien dans l'entonnoir ne sait qu'un
+  conte a besoin du public pour exister. (Non corrigé : demanderait une
+  donnée nouvelle dans les fiches.)
+- « Petit Chat » est classé PRÉDATEUR (le nom l'emporte sur la description
+  « chaton roux tout doux »), et peut donc jouer un renard. Défendable, mais
+  l'agent l'a jugé « petite bête douce » : la frontière n'est pas évidente.
+
+## Cas 4, étape 002 — relance de l'étape des synopsis  ⚠ COÛT
+- APPEL ENTIER PERDU : le schéma limite chaque point de résumé à 220
+  caractères, mais le prompt ne le disait NULLE PART. Le modèle a dépassé,
+  la réponse a été refusée, et les 3 100 mots du prompt ont été renvoyés.
+- Trois autres limites étaient muettes (titre 90, changements 260 et 4 points)
+  et une était FAUSSE : le prompt annonçait 120 caractères d'accroche pour un
+  schéma qui en accepte 140. Toutes énoncées désormais.
+
+## Cas 4, étape 002 — synopsis  ⚠ LEVIER DE COÛT
+- UN MODÈLE NE SAIT PAS COMPTER DES CARACTÈRES. Une limite serrée ne
+  raccourcit pas sa réponse : elle la fait refuser, et tout l'appel est à
+  refaire. Les bornes du schéma sont donc desserrées (résumé 220→400,
+  accroche 140→200, titre 90→120, changements 260→400) et la concision est
+  demandée EN PHRASES dans le prompt. Le schéma n'arrête plus que ce qui
+  casserait l'affichage.

@@ -1,0 +1,263 @@
+Marionnettes du parent :
+- Jean le Paysan
+  Traits : travailleur, rusé
+  Apparence : Une marionnette de tissu en salopette, chapeau de paille.
+- Dame Chèvre
+  Traits : têtu, grognon
+  Apparence : Une chèvre blanche à longue barbe.
+- Petit Chat
+  Traits : coquin, farceur
+  Apparence : Un chaton roux tout doux.
+- Vieux Hibou
+  Traits : sage, savant
+  Apparence : Un hibou brun aux grands yeux ronds.
+
+Réglages du spectacle :
+- durée visée : 10 minutes, soit environ 1000 mots dits
+- âge du public : 9 ans
+- marionnettistes : 2, donc 4 mains
+- interaction avec le public : aucune, le public regarde sans être sollicité
+
+Contes présentés, du plus proche au moins proche de ces marionnettes :
+
+### ru-hiver-des-betes — L’Hiver des bêtes
+Origine : Russie. Alexandre Afanassiev, Contes populaires russes, 1855-1863.
+Conte d'animaux, pour les 3-8 ans. 4 rôle(s) principal(aux), 4 figurant(s).
+Le conte fait environ 909 mots ; le spectacle en dira environ 1000 : presque la bonne taille : on le joue tel quel, sans rien couper.
+Rôles du conte :
+  - le Taureau (taureau) : travailleur, sage, grognon
+  - le Bélier (mouton) : vantard, paresseux
+  - le Coq (coq) : vantard, bavard
+  - la Renarde (renard) : rusé, gourmand
+  - le Cochon (cochon) : vantard, paresseux — figurant
+  - l'Oie (oie) : vantard — figurant
+  - le Loup (loup) : gourmand, naïf — figurant
+  - l'Ours (ours) : gourmand, naïf — figurant
+Distribution proposée :
+  - Jean le Paysan joue le Coq
+  - Dame Chèvre joue le Bélier [mouton → chèvre]
+  - Petit Chat joue la Renarde [renard → chat]
+  - Vieux Hibou joue le Taureau [taureau → hibou] (en commun : sage)
+Rôles sans marionnette, à supprimer, fondre ou laisser en coulisse : le Cochon, l'Oie, le Loup, l'Ours
+
+**Essence.** Seul le taureau construit une cabane pour l'hiver ; les autres, qui s'en moquaient, viennent tous s'y réfugier quand il gèle — et ensemble, ils repoussent la renarde, le loup et l'ours.
+
+**Trame.**
+1. Le taureau rencontre en route un bélier, un cochon, une oie et un coq qui fuient l'hiver.
+2. Il propose de bâtir une cabane : chacun répond qu'il n'en a pas besoin.
+3. Il la construit seul ; au premier gel, tous viennent frapper et menacent de l'abîmer s'il ne les laisse pas entrer.
+4. Le coq chante ; la renarde l'entend et amène le loup et l'ours.
+5. Ils entrent un par un dans la cabane, et en ressortent un par un, bousculés par le taureau et le bélier.
+
+**À adapter.** Les coups de cornes deviennent des bousculades. On peut réduire les compagnons à deux ou trois. Le conte parle aussi de partage : le taureau peut finir par dire « la prochaine fois, on construit ensemble ». Parent de « La Maison de la mouche » et de « La Petite Poule rousse ».
+
+### de-musiciens-de-breme — Les Musiciens de Brême
+Origine : Allemagne. Jacob et Wilhelm Grimm, Contes de l'enfance et du foyer, 1857 (n° 27).
+Conte d'animaux, pour les 3-9 ans. 4 rôle(s) principal(aux), 1 figurant(s).
+Le conte fait environ 1264 mots ; le spectacle en dira environ 1000 : un peu plus long que le spectacle : on le joue en coupant au plus un épisode.
+Rôles du conte :
+  - l'Âne (âne) : courageux, gentil, sage
+  - le Chien (chien) : peureux, gourmand
+  - le Chat (chat) : grognon, paresseux
+  - le Coq (coq) : bavard, vantard
+  - les Brigands (voleur) : peureux, gourmand — figurant
+Distribution proposée :
+  - Jean le Paysan joue le Chien
+  - Dame Chèvre joue le Coq [coq → chèvre]
+  - Petit Chat joue le Chat
+  - Vieux Hibou joue l'Âne [âne → hibou] (en commun : sage)
+Rôles sans marionnette, à supprimer, fondre ou laisser en coulisse : les Brigands
+
+**Essence.** Quatre bêtes qu'on trouve trop vieilles pour servir partent ensemble devenir musiciens ; ils n'arrivent jamais à Brême, mais leur vacarme chasse des brigands, et ils trouvent un foyer.
+
+**Trame.**
+1. L'âne, jugé trop vieux, part pour Brême devenir musicien.
+2. Il recrute en route le chien, le chat, puis le coq, chacun menacé chez lui.
+3. La nuit, ils trouvent une maison de brigands attablés ; ils montent les uns sur les autres et chantent tous ensemble.
+4. Les brigands fuient ; les animaux mangent et s'installent chacun à sa place.
+5. Un brigand revient en éclaireur, se fait griffer, mordre, ruer, et raconte à son chef qu'une sorcière, un homme au couteau, un monstre et un juge gardent la maison.
+
+**À adapter.** Les maîtres qui veulent « se débarrasser » des bêtes restent dans le vague ; les brigands deviennent des voleurs de gâteaux. La pyramide des quatre animaux est un grand moment : la faire à la voix si les mains manquent. Le récit terrifié du brigand est un sommet comique.
+
+### it-giufa — Une histoire de Giufà
+Origine : Sicile (Italie). conte de Venerando Gangi, fabuliste sicilien, adapté en italien par Agostino Longo, Aneddoti siciliani, Catane, 1845.
+Conte facétieux, pour les 5-10 ans. 4 rôle(s) principal(aux), 2 figurant(s).
+Le conte fait environ 1768 mots ; le spectacle en dira environ 1000 : un peu plus long que le spectacle : on le joue en coupant au plus un épisode.
+Rôles du conte :
+  - Giufà (garçon) : paresseux, gourmand, farceur
+  - la Mère de Giufà (mère) : bavard, rusé, travailleur
+  - le Fermier grincheux (fermier) : grognon, orgueilleux
+  - le Compère garde champêtre (garde) : généreux
+  - les Gens de la ferme (paysan) : naïf, bavard — figurant
+  - l'Habit de garde (habit) : gourmand — figurant
+Distribution proposée :
+  - Jean le Paysan joue la Mère de Giufà (en commun : travailleur, ruse)
+  - Dame Chèvre joue le Fermier grincheux [reste un·e chèvre qui fait le métier de fermier] (en commun : grognon)
+  - Petit Chat joue Giufà [reste un·e chat qui fait le métier de garçon] (en commun : farceur)
+  - Vieux Hibou joue le Compère garde champêtre [reste un·e hibou qui fait le métier de garde]
+Rôles sans marionnette, à supprimer, fondre ou laisser en coulisse : les Gens de la ferme, l'Habit de garde
+
+**Essence.** En guenilles, Giufà est chassé à coups de bâton de la ferme où l'on devait le nourrir ; déguisé en garde champêtre avec des habits empruntés, il y est reçu en roi — et fait manger son repas à ses habits, puisque c'est eux qu'on a invités.
+
+**Trame.**
+1. Affamé, Giufà part à la ferme de la plaine, en guenilles, malgré sa mère.
+2. Il réclame la table : on le chasse à coups de bâton.
+3. Sa mère emprunte au compère un habit de garde champêtre, avec fusil et cartouchière.
+4. Il revient à la même ferme : on le salue, on le régale ; il bourre son fusil et sa cartouchière de viande et arrose sa veste de vin : « Les invités, c'est vous ! »
+5. Il rentre chargé de cadeaux ; sa mère est ravie, puis horrifiée : comment rendre l'habit au compère ?
+
+**À adapter.** Supprimer le bâton (on le chasse en criant) et le vin (une cruche d'eau ou de jus). Le fusil peut devenir un chapeau à plumes et une sacoche. La même histoire existe chez Nasreddin Hodja (« Mange, mon manteau ! ») : la version sicilienne est plus longue et plus théâtrale. La fin ouverte (l'habit taché) peut devenir une vraie scène : Giufà doit se débrouiller pour laver l'habit du compère.
+
+### ru-ours-et-loups-effrayes — L’Ours et les Loups effrayés
+Origine : Russie. Alexandre Afanassiev, Contes populaires russes, 1855-1863 (n° 44).
+Conte d'animaux, pour les 4-10 ans. 4 rôle(s) principal(aux), 3 figurant(s).
+Le conte fait environ 1090 mots ; le spectacle en dira environ 1000 : presque la bonne taille : on le joue tel quel, sans rien couper.
+Rôles du conte :
+  - le Chat (chat) : rusé, coquin, vantard
+  - le Bélier (mouton) : courageux, naïf, fort
+  - l'Ours (ours) : peureux, fort
+  - la Renarde (renard) : bavard, peureux
+  - les Loups (loup) : peureux — figurant
+  - la Marmotte (marmotte) : timide — figurant
+  - le Vieux et la Vieille (grand-parent) : grognon — figurant
+Distribution proposée :
+  - Jean le Paysan joue l'Ours
+  - Dame Chèvre joue le Bélier [mouton → chèvre]
+  - Petit Chat joue le Chat (en commun : coquin)
+  - Vieux Hibou joue la Renarde [renard → hibou]
+Rôles sans marionnette, à supprimer, fondre ou laisser en coulisse : les Loups, la Marmotte, le Vieux et la Vieille
+
+**Essence.** Un chat et un bélier en fuite font croire à douze loups qu'ils mangent des loups, en montrant plusieurs fois la même tête de loup ; la réputation grossit de bouche en bouche, jusqu'à faire fuir l'ours lui-même.
+
+**Trame.**
+1. Le chat, surpris à voler la crème, persuade le bélier de s'enfuir avec lui.
+2. Ils trouvent une tête de loup en bois et arrivent au feu de douze loups.
+3. « Choisis la tête de loup la plus grasse pour notre dîner ! » Le bélier montre plusieurs fois la même ; les loups filent un à un sous des prétextes.
+4. Les loups racontent tout à l'ours ; la renarde en rajoute. On invite les terribles visiteurs à dîner.
+5. Le chat prend peur d'une queue de marmotte et saute dans l'arbre où se cachait l'ours, qui tombe de terreur.
+
+**À adapter.** La tête de loup devient un masque ou un vieux bonnet de loup. Les griffures et coups de tête deviennent des bousculades. Le public, complice du bluff, adore voir la même tête revenir. Le dernier retournement (le chat qui a peur d'une queue) fait une fin parfaite.
+
+### de-roitelet-et-ours — Le Roitelet et l’Ours
+Origine : Allemagne. Jacob et Wilhelm Grimm, Contes de l'enfance et du foyer, 1857 (n° 102).
+Conte d'animaux, pour les 4-9 ans. 4 rôle(s) principal(aux), 3 figurant(s).
+Le conte fait environ 903 mots ; le spectacle en dira environ 1000 : presque la bonne taille : on le joue tel quel, sans rien couper.
+Rôles du conte :
+  - le Roitelet (oiseau) : minuscule, orgueilleux, courageux
+  - l'Ours (ours) : grognon, curieux, vantard
+  - le Renard (renard) : rusé, vantard
+  - le Moustique (moustique) : minuscule, rusé
+  - le Loup (loup) : peureux — figurant
+  - les petits Roitelets (oiseau) : têtu, orgueilleux — figurant
+  - le Frelon (frelon) : courageux — figurant
+Distribution proposée :
+  - Jean le Paysan joue le Moustique (en commun : ruse)
+  - Dame Chèvre joue l'Ours [ours → chèvre] (en commun : grognon)
+  - Petit Chat joue le Renard [renard → chat]
+  - Vieux Hibou joue le Roitelet [oiseau → hibou]
+Rôles sans marionnette, à supprimer, fondre ou laisser en coulisse : le Loup, les petits Roitelets, le Frelon
+
+**Essence.** L'ours se moque du nid d'un tout petit roi ; la guerre éclate entre ceux qui marchent et ceux qui volent, et elle est gagnée par un moustique qui a surpris le signal de l'ennemi.
+
+**Trame.**
+1. L'ours veut voir le « palais » du roi des oiseaux ; il trouve un nid minuscule et insulte les petits.
+2. Les petits refusent de manger tant que l'honneur n'est pas lavé ; le roitelet déclare la guerre.
+3. Le moustique espionne : le général renard lèvera la queue pour « attaquer », la baissera pour « fuir ».
+4. Pendant la bataille, le frelon pique le renard sous la queue ; au troisième coup, il la baisse.
+5. Toute l'armée des quatre-pattes s'enfuit ; l'ours vient s'excuser devant le nid.
+
+**À adapter.** La bataille se joue à deux ou trois marionnettes et beaucoup de bruitages. La queue qui monte et descend est le gag central : le public peut crier « Lève ! », « Baisse ! ».
+
+### de-elise-la-maligne — Élise la maligne
+Origine : Allemagne. Jacob et Wilhelm Grimm, Contes de l'enfance et du foyer, 1857 (n° 34), « Die kluge Else ».
+Conte facétieux, pour les 5-10 ans. 4 rôle(s) principal(aux), 2 figurant(s).
+Le conte fait environ 1344 mots ; le spectacle en dira environ 1000 : un peu plus long que le spectacle : on le joue en coupant au plus un épisode.
+Rôles du conte :
+  - Élise (jeune fille) : rêveur, peureux, paresseux
+  - Jean (fiancé) : rusé, farceur
+  - la Mère (mère) : naïf, bavard
+  - le Père (père) : naïf, gourmand
+  - la Servante (servante) : naïf — figurant
+  - le Valet (valet) : naïf — figurant
+Distribution proposée :
+  - Jean le Paysan joue Jean (en commun : ruse)
+  - Dame Chèvre joue Élise [reste un·e chèvre qui fait le métier de jeune fille]
+  - Petit Chat joue la Mère [reste un·e chat qui fait le métier de mère]
+  - Vieux Hibou joue le Père [reste un·e hibou qui fait le métier de père]
+Rôles sans marionnette, à supprimer, fondre ou laisser en coulisse : la Servante, le Valet
+
+**Essence.** Élise pleure un malheur qui n'arrivera peut-être jamais, et toute la maison descend l'une après l'autre pleurer avec elle en s'extasiant de son intelligence.
+
+**Trame.**
+1. On présente Élise au fiancé comme très maligne ; on l'envoie chercher à boire à la cave.
+2. Elle voit une pioche au mur et imagine : son futur enfant, un jour, pourrait la recevoir sur la tête. Elle fond en larmes.
+3. La servante, le valet, la mère, le père descendent tour à tour, écoutent, s'écrient « quelle maligne ! » et pleurent avec elle.
+4. Le fiancé les trouve tous en larmes ; ravi de tant de « sagesse », il l'épouse.
+5. Envoyée aux champs, elle mange et dort ; Jean l'entoure de grelots et elle ne sait plus si elle est elle-même.
+
+**À adapter.** La première partie, la cave, suffit à un spectacle : la pioche devient une casserole mal accrochée. La fin (Élise perdue pour toujours) est à changer : Jean ouvre en riant, et Élise se reconnaît. Le public peut répondre « Quelle maligne ! ».
+
+### en-punch-et-judy — Punch et Judy
+Origine : Angleterre. pièce traditionnelle de marionnettes à gaine, dans la version publiée par W. J. Judd en 1879 d'après le texte noté par John Payne Collier (1828).
+Pièce de marionnettes, pour les 6-10 ans. 4 rôle(s) principal(aux), 5 figurant(s).
+Le conte fait environ 1956 mots ; le spectacle en dira environ 1000 : un peu plus long que le spectacle : on le joue en coupant au plus un épisode.
+Rôles du conte :
+  - Punch (polichinelle) : farceur, méchant, vantard, coquin
+  - Judy (femme) : grognon, courageux
+  - le Chien Toby (chien) : grognon, courageux
+  - le Docteur (docteur) : savant, avare
+  - le Montreur (montreur) : bavard, farceur — figurant
+  - Scaramouche (valet) : vantard — figurant
+  - Hector le cheval (cheval) : têtu — figurant
+  - le Bébé (bébé) : grognon — figurant
+  - le Fantôme (fantôme) : timide — figurant
+Distribution proposée :
+  - Jean le Paysan joue Judy
+  - Dame Chèvre joue le Chien Toby [chien → chèvre] (en commun : grognon)
+  - Petit Chat joue Punch [reste un·e chat qui fait le métier de polichinelle] (en commun : coquin, farceur)
+  - Vieux Hibou joue le Docteur [reste un·e hibou qui fait le métier de docteur] (en commun : savant)
+Rôles sans marionnette, à supprimer, fondre ou laisser en coulisse : le Montreur, Scaramouche, Hector le cheval, le Bébé, le Fantôme
+
+**Essence.** Le grand ancêtre du théâtre de marionnettes à gaine : un personnage insupportable enchaîne des rencontres avec d'autres marionnettes, et chacune tourne à la bagarre ; tout le plaisir est dans les numéros et la complicité avec le public.
+
+**Trame.**
+1. Le montreur appelle Punch, qui salue et tape sur le rebord.
+2. Scaramouche réclame son chien ; Toby arrive et attrape Punch par le nez.
+3. Punch essaie de monter son cheval Hector, qui le jette par terre.
+4. Judy lui confie le bébé ; Punch le berce mal, le bébé hurle.
+5. Un fantôme apparaît (« regardez à gauche ! — ici ? ») ; Punch fait le malade, le docteur l'examine, Punch refuse de payer.
+
+**À adapter.** Tout est à adoucir : aucun coup sur le bébé ni sur Judy, le bâton devient un plumeau ou une trompe, les « morts » sont des évanouissements comiques. Garder surtout les numéros purement théâtraux, qui font le génie du genre : le nez mordu, le cheval rétif, le « c'est derrière toi ! » avec le public, le faux malade et son « plus bas, plus bas ». Le texte contient une caricature raciste (non traduite) à ne jamais reprendre.
+
+### afr-lievre-et-rainette — Le Lièvre et la Rainette
+Origine : Ronga (Mozambique). René Basset, Contes populaires d’Afrique, 1903.
+Conte d'animaux, pour les 4-9 ans. 4 rôle(s) principal(aux), 3 figurant(s).
+Le conte fait environ 936 mots ; le spectacle en dira environ 1000 : presque la bonne taille : on le joue tel quel, sans rien couper.
+Rôles du conte :
+  - le Lièvre (lièvre) : paresseux, rusé, farceur
+  - la Rainette (grenouille) : minuscule, courageux, rusé
+  - la Gazelle (gazelle) : gourmand, naïf
+  - le Roi (roi) : grognon
+  - l'Antilope (antilope) : orgueilleux — figurant
+  - le Buffle (buffle) : vantard — figurant
+  - l'Hippopotame (hippopotame) : fort — figurant
+Distribution proposée :
+  - Jean le Paysan joue la Rainette (en commun : ruse)
+  - Dame Chèvre joue le Roi [reste un·e chèvre qui fait le métier de roi] (en commun : grognon)
+  - Petit Chat joue le Lièvre [lièvre → chat] (en commun : farceur)
+  - Vieux Hibou joue la Gazelle [gazelle → hibou]
+Rôles sans marionnette, à supprimer, fondre ou laisser en coulisse : l'Antilope, le Buffle, l'Hippopotame
+
+**Essence.** Le lièvre n'a pas aidé à creuser le puits mais veut y boire ; il ridiculise tous les grands gardiens avec du miel et des compliments, jusqu'à ce que la minuscule rainette l'attrape par surprise.
+
+**Trame.**
+1. Tous les animaux curent le puits du roi ; le lièvre refuse. Interdit d'eau.
+2. La gazelle monte la garde ; le lièvre lui fait goûter du miel, la persuade de se laisser lier les pattes, et boit.
+3. Même tour à l'antilope, au buffle, à l'hippopotame, chacun flatté à sa façon.
+4. La petite rainette se propose ; elle se cache au fond de l'eau.
+5. Le lièvre, sûr de lui, vient se baigner : elle l'agrippe patte après patte et l'amène au roi. Il s'échappe d'un bond.
+
+**À adapter.** Les coups de bâton deviennent des nœuds et des chatouilles. La fin sanglante de l'original disparaît : le lièvre, pris, doit à son tour nettoyer le puits. La scène du miel se répète en ritournelle.
+
+Ta réponse précédente était invalide : synopsis.0.resume.4 : Too big: expected string to have <=220 characters
+Renvoie uniquement un objet JSON conforme au format demandé.
