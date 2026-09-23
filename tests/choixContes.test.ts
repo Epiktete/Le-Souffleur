@@ -337,6 +337,52 @@ describe('la distribution', () => {
     expect(meilleureDistribution([m('a', 'Lapin', ['gentil']), m('b', 'Lapine', ['gentil'])], c)).toBeNull();
   });
 
+  it('une grosse bête ne tient pas un rôle dit « minuscule »', () => {
+    // « Le Renard, le Lièvre et le Coq » tient dans une idée : les chiens,
+    // l'ours et le taureau reculent, et c'est le petit coq qui fait fuir la
+    // renarde. Une ourse dans le rôle du coq ne casse aucune règle de scène,
+    // mais supprime la blague.
+    const c = fiche(
+      '  - {nom: le Coq, espece: coq, categorie: animal, traits: [minuscule, courageux], fonction: héros}\n'
+      + '  - {nom: la Renarde, espece: renard, categorie: animal, traits: [rusé], fonction: adversaire}',
+      2,
+    );
+    // L'ourse est reversée sur l'autre rôle plutôt que de jouer le coq.
+    const avecOurse = meilleureDistribution([
+      m('a', 'Ourse Gourmande', ['courageux'], 'une grosse ourse brune'),
+      m('b', 'Renard Rusé', ['rusé'], 'un renard roux'),
+    ], c)!;
+    expect(avecOurse).not.toBeNull();
+    expect(avecOurse.find((x) => x.marionnetteId === 'a')?.role.nom).not.toBe('le Coq');
+
+    // Seule grosse bête disponible pour ce rôle : le conte est écarté.
+    const queDesGrosses = meilleureDistribution([
+      m('a', 'Ourse Gourmande', ['courageux'], 'une grosse ourse brune'),
+      m('b', 'Gros Éléphant', ['fort'], 'un éléphant gris'),
+    ], c);
+    expect(queDesGrosses).toBeNull();
+
+    // Une petite marionnette tient le rôle sans difficulté.
+    const avecSouris = meilleureDistribution([
+      m('a', 'Zigzag la Souris', ['courageux'], 'une petite souris grise'),
+      m('b', 'Renard Rusé', ['rusé'], 'un renard roux'),
+    ], c)!;
+    expect(avecSouris.find((x) => x.marionnetteId === 'a')?.role.nom).toBe('le Coq');
+  });
+
+  it('une petite marionnette peut tenir un rôle « fort » : c’est un ressort de conte', () => {
+    const c = fiche(
+      '  - {nom: le Taureau, espece: taureau, categorie: animal, traits: [fort, courageux], fonction: héros}\n'
+      + '  - {nom: la Mouche, espece: mouche, categorie: animal, traits: [minuscule], fonction: trompeur}',
+      2,
+    );
+    const d = meilleureDistribution([
+      m('a', 'Zigzag la Souris', ['courageux'], 'une petite souris grise'),
+      m('b', 'Bzz', ['coquin'], 'une mouche'),
+    ], c);
+    expect(d).not.toBeNull();
+  });
+
   it('sans aucun trait, distribue sur la seule espèce', () => {
     const c = fiche(
       '  - {nom: le Lièvre, espece: lièvre, categorie: animal, traits: [vantard, paresseux], fonction: héros}\n'

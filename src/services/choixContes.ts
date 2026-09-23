@@ -586,6 +586,33 @@ export function noteCastelet(
 }
 
 /**
+ * La TAILLE, quand elle fait l'histoire.
+ *
+ * « Le Renard, le Lièvre et le Coq » tient tout entier dans une idée : les
+ * chiens reculent, l'ours recule, le taureau recule — et c'est le petit coq
+ * qui fait fuir la renarde. Distribuer une grosse ourse dans le rôle du coq
+ * ne casse aucune règle de scène, mais supprime la blague : un gros animal
+ * triomphe là où d'autres gros animaux ont fui.
+ *
+ * Les fiches portent déjà l'information, dans les traits du rôle :
+ * `minuscule` sur quarante-deux rôles du répertoire, `fort` sur d'autres. On
+ * s'en sert comme d'un interdit d'espèce, symétrique de celui qui existe
+ * déjà : un lapin n'est pas un loup, une ourse n'est pas un moineau.
+ *
+ * Seul le cas franc est interdit : une grosse bête ou un monstre dans un rôle
+ * dit minuscule. Une petite marionnette dans un rôle « fort » reste permise —
+ * le petit qui se montre fort est un ressort de conte, pas une erreur.
+ */
+export function tailleIncompatible(
+  marionnette: { famille: Famille } | null,
+  role: Pick<RoleConte, 'traits'>,
+): boolean {
+  if (!marionnette) return false;
+  const grosse = marionnette.famille === 'gros' || marionnette.famille === 'monstre';
+  return grosse && role.traits.some((t) => racineTrait(t) === 'minuscule');
+}
+
+/**
  * La meilleure distribution possible : chaque marionnette reçoit un rôle
  * différent, et la somme des ressemblances est la plus haute possible.
  *
@@ -630,6 +657,7 @@ export function meilleureDistribution(
     roles.map((r, j) => {
       const e = compatibiliteEspece(especes[i], famillesRoles[j]);
       if (e === INTERDIT) return null;
+      if (tailleIncompatible(especes[i], r)) return null;
       const t = ressemblanceTraits(m.traits, r.traits);
       return { traits: t.score, espece: e, communs: t.communs, total: t.score + CHOIX.poidsEspece * e };
     }),
@@ -697,6 +725,12 @@ export function meilleureDistribution(
 export function especeDansLeTexte(
   m: Pick<Marionnette, 'nom' | 'description'>,
   role: Pick<RoleConte, 'nom' | 'espece' | 'categorie'> | null,
+  /**
+   * Forme brève, pour les huit contes candidats : la règle y est déjà dite
+   * une fois en tête, et la répéter vingt fois coûtait près d'un millier de
+   * jetons par génération sans rien apprendre au modèle.
+   */
+  bref = false,
 ): string | null {
   const p = especeMarionnette(m);
   if (!p || HUMAINS.includes(p.famille)) return null;
@@ -706,7 +740,13 @@ export function especeDansLeTexte(
   }
   const r = familleRole(role as RoleConte);
   if (r.mot === p.mot) return null;
-  if (role.categorie === 'humain' || (r.famille && HUMAINS.includes(r.famille))) {
+  const metier = role.categorie === 'humain' || (r.famille && HUMAINS.includes(r.famille));
+  if (bref) {
+    return metier
+      ? `reste un·e ${p.libelle} qui fait le métier de ${role.espece}`
+      : `${role.espece} → ${p.libelle}`;
+  }
+  if (metier) {
     return `${m.nom} joue ${role.nom} et reste un·e ${p.libelle} : c'est un·e ${p.libelle} `
       + `qui fait le métier de ${role.espece}.`;
   }

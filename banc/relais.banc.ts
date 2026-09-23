@@ -1,0 +1,183 @@
+// RELAIS LOCAL — outillage de développement, jamais livré.
+//
+// Fait tourner le pipeline SANS aucun appel réseau et sans aucune clé : c'est
+// un humain (ou un agent) qui joue le modèle, à la main, étape par étape.
+//
+// À quoi ça sert : le banc ordinaire dit SI le texte produit est bon. Le
+// relais dit POURQUOI. En lisant le prompt exact reçu à chaque étape, on voit
+// ce qui manque, ce qui se contredit, ce qui se comprend de travers. Si l'on
+// n'arrive pas soi-même à écrire une bonne réponse à partir d'un prompt,
+// aucun modèle n'y arrivera.
+//
+// COMMENT ÇA MARCHE — rejeu déterministe, une étape par exécution :
+//   1. `npm run relais` lance le pipeline. À chaque appel au modèle, le relais
+//      cherche la réponse déjà écrite pour cette étape.
+//   2. Si elle existe, il la rend instantanément et le pipeline continue.
+//   3. Sinon, il écrit le prompt dans banc/relais/NNN-demande.md et s'arrête.
+//   4. On écrit sa réponse dans banc/relais/NNN-reponse.json, on relance.
+//
+// Rien n'est jamais rejoué « à peu près » : les étapes déjà répondues sont
+// relues telles quelles, donc la suite est toujours la même.
+//
+// Lancement :  npm run relais
+// Repartir de zéro :  effacer banc/relais/
+
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { join, resolve } from 'node:path';
+import { test } from 'vitest';
+
+import type { Acces } from '../src/services/connecteurIa';
+import type { Marionnette, ParametresGeneration } from '../src/types';
+import { assemblerSpectacle, ecrireScript, proposerHistoires } from '../src/services/pipeline';
+import { coulisses, scriptPourLeParent } from './rendre';
+
+const DOSSIER = resolve(process.env.RELAIS_SORTIE || 'banc/relais');
+mkdirSync(DOSSIER, { recursive: true });
+
+const numero = (n: number) => String(n).padStart(3, '0');
+
+/** Levée quand une étape attend sa réponse : elle arrête proprement le rejeu. */
+class Attente extends Error {
+  constructor(public n: number, public etape: string) {
+    super(`étape ${numero(n)} en attente`);
+  }
+}
+
+/* ---------------------------------------------------------------- */
+/* Le relais : on remplace fetch, il n'y a donc aucun réseau         */
+/* ---------------------------------------------------------------- */
+
+let compteur = 0;
+
+globalThis.fetch = (async (_url: string, init: { body: string }) => {
+  const n = ++compteur;
+  const requete = JSON.parse(init.body) as {
+    messages: { role: string; content: string }[];
+    temperature: number;
+    max_tokens: number;
+  };
+
+  const fichierReponse = join(DOSSIER, `${numero(n)}-reponse.json`);
+  if (existsSync(fichierReponse)) {
+    const texte = readFileSync(fichierReponse, 'utf8');
+    return new Response(
+      JSON.stringify({
+        choices: [{ message: { content: texte }, finish_reason: 'stop' }],
+        usage: { prompt_tokens: 0, completion_tokens: 0, total_tokens: 0 },
+      }),
+      { status: 200, headers: { 'content-type': 'application/json' } },
+    );
+  }
+
+  const system = requete.messages.find((m) => m.role === 'system')?.content ?? '';
+  const user = requete.messages.find((m) => m.role === 'user')?.content ?? '';
+  const mots = (s: string) => s.split(/\s+/).filter(Boolean).length;
+
+  // Le système et l'utilisateur sont écrits BRUTS, chacun dans son fichier.
+  // C'est ce qui permet de les donner tels quels à celui qui joue le modèle :
+  // enrobés dans une consigne à nous, ce ne serait plus le prompt réel qu'on
+  // éprouve, mais notre paraphrase.
+  writeFileSync(join(DOSSIER, `${numero(n)}-systeme.txt`), system);
+  writeFileSync(join(DOSSIER, `${numero(n)}-utilisateur.txt`), user);
+  writeFileSync(
+    join(DOSSIER, `${numero(n)}-demande.md`),
+    `# Étape ${numero(n)}\n\n`
+      + `température ${requete.temperature} · budget de sortie ${requete.max_tokens} jetons\n`
+      + `système ${mots(system)} mots · utilisateur ${mots(user)} mots\n\n`
+      + `Prompt réel : ${numero(n)}-systeme.txt et ${numero(n)}-utilisateur.txt\n`
+      + `Réponse attendue (le JSON seul) : ${numero(n)}-reponse.json\n`,
+  );
+  throw new Attente(n, '');
+}) as unknown as typeof fetch;
+
+/* ---------------------------------------------------------------- */
+/* Le cas joué                                                       */
+/* ---------------------------------------------------------------- */
+
+const peluche = (nom: string, description: string, traits: string[]): Marionnette => {
+  const maintenant = new Date().toISOString();
+  return {
+    id: nom.toLowerCase().replace(/\s+/g, '-'),
+    nom, description, traits, creeLe: maintenant, modifieLe: maintenant,
+  };
+};
+
+const DISTRIBUTION = [
+  peluche('Doudou Lapin', 'Un lapin en tissu beige, une oreille recousue et qui retombe.',
+    ['inquiet', 'serviable']),
+  peluche('Renard Rusé', 'Un renard roux au museau pointu, la queue un peu pelée.',
+    ['malin', 'vaniteux']),
+  peluche('Ourse Gourmande', 'Une grosse ourse en peluche marron, très douce, assez lourde.',
+    ['gourmande', 'franche']),
+];
+
+const PARAMETRES: ParametresGeneration = {
+  dureeMinutes: 10,
+  ageAuditoire: 6,
+  nbMarionnettistes: 1,
+  interactionPublic: 'quelques',
+  marionnetteIds: DISTRIBUTION.map((m) => m.id),
+  modele: 'relais-local',
+};
+
+// Aucune clé : le relais ne sort jamais de la machine.
+const acces: Acces = {
+  baseUrl: 'http://relais.local/v1',
+  cle: 'sans-cle',
+  modele: 'relais-local',
+  fournisseurId: 'openrouter',
+};
+
+/** Retrouve le signal d'arrêt, quelle que soit l'enveloppe. */
+function chercherAttente(e: unknown): Attente | null {
+  for (let x = e; x; x = (x as { cause?: unknown }).cause) {
+    if (x instanceof Attente) return x;
+  }
+  return null;
+}
+
+/* ---------------------------------------------------------------- */
+
+test('relais local', async () => {
+  const options = {
+    acces,
+    signal: new AbortController().signal,
+    surAvancement: (a: { etape: string }) => console.log(`  — ${a.etape}`),
+    surReprise: (raison: string) => console.warn(`  reprise : ${raison}`),
+  };
+
+  try {
+    const propositions = await proposerHistoires(DISTRIBUTION, PARAMETRES, options);
+    const choisie = propositions.retenues[0];
+    const script = await ecrireScript(propositions.dossier, DISTRIBUTION, choisie, '', options);
+    const spectacle = assemblerSpectacle(script, DISTRIBUTION, PARAMETRES, {
+      dossier: propositions.dossier,
+      contesPresentes: propositions.presentes,
+      jouables: propositions.jouables,
+      synopsisProposes: propositions.retenues,
+      synopsis: choisie,
+      conteId: script.conteId,
+      adaptation: script.bibleAdaptation,
+      transposition: script.bibleTransposition,
+      relecture: script.bibleRelecture,
+    });
+
+    writeFileSync(join(DOSSIER, 'script.md'), scriptPourLeParent(spectacle));
+    writeFileSync(join(DOSSIER, 'coulisses.json'), coulisses(spectacle, { etapes: compteur }));
+    console.log(`\n  TERMINÉ — ${compteur} étapes. Script dans ${DOSSIER}/script.md`);
+  } catch (e) {
+    // Le connecteur enveloppe toute erreur de fetch dans une ErreurIa : on
+    // retrouve notre signal d'arrêt en remontant la chaîne des causes.
+    const attente = chercherAttente(e);
+    if (attente) {
+      console.log(
+        `\n  EN ATTENTE de l'étape ${numero(attente.n)}.\n`
+        + `  Lire  : banc/relais/${numero(attente.n)}-demande.md\n`
+        + `  Écrire: banc/relais/${numero(attente.n)}-reponse.json\n`
+        + '  Puis relancer : npm run relais',
+      );
+      return;
+    }
+    throw e;
+  }
+});

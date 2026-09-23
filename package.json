@@ -12,7 +12,8 @@
     "check": "svelte-check --tsconfig ./tsconfig.app.json && tsc --noEmit -p tsconfig.banc.json",
     "test": "vitest run",
     "test:parcours": "playwright test",
-    "banc": "vitest run --config vitest.banc.config.ts"
+    "banc": "vitest run --config vitest.banc.config.ts",
+    "relais": "vitest run --config vitest.banc.config.ts banc/relais.banc.ts"
   },
   "dependencies": {
     "idb": "^8.0.3",

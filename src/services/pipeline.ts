@@ -98,13 +98,27 @@ import type { z } from 'zod';
  * il donne une réponse coupée au milieu du JSON. Ce sont des plafonds : on ne
  * paie que ce qui est consommé. En cas de troncature, le budget double.
  */
+/**
+ * Budget de SORTIE par étape, en jetons.
+ *
+ * Attention au contresens : ce n'est pas une dépense, c'est un plafond. On ne
+ * paie que ce que le modèle écrit vraiment. Un plafond trop bas, en revanche,
+ * coûte très cher : un modèle à raisonnement épuise le budget en réflexion,
+ * ne rend aucun texte, et l'essai entier est facturé pour rien avant qu'on ne
+ * relance avec le double.
+ *
+ * Mesuré sur le banc avec Sonnet 5 : l'étape des synopsis avait consommé
+ * 24 784 jetons de sortie pour un JSON qui en fait moins de 2 500 — un premier
+ * essai perdu, puis un second réussi. Des plafonds larges dès le départ font
+ * donc BAISSER la facture et suppriment un appel, donc de l'attente.
+ */
 const BUDGETS = {
-  synopsis: 16000,
+  synopsis: 32000,
   /** Un plancher : il grandit avec la longueur du conte (voir ecrireScript). */
-  transposition: 16000,
-  adaptation: 20000,
-  ecriture: 20000,
-  relecture: 12000,
+  transposition: 32000,
+  adaptation: 32000,
+  ecriture: 24000,
+  relecture: 24000,
 } as const;
 
 /**
@@ -410,10 +424,10 @@ export function formaterCandidat(c: Candidat, marionnettes: Marionnette[], motsS
   const distribution = c.distribution
     .map((a) => {
       const m = marionnettes.find((x) => x.id === a.marionnetteId);
-      const espece = m ? especeDansLeTexte(m, a.role) : null;
+      const espece = m ? especeDansLeTexte(m, a.role, true) : null;
       return `  - ${a.marionnetteNom} joue ${a.role.nom}`
-        + (a.communs.length ? ` (en commun : ${a.communs.join(', ')})` : '')
-        + (espece ? `\n    ${espece}` : '');
+        + (espece ? ` [${espece}]` : '')
+        + (a.communs.length ? ` (en commun : ${a.communs.join(', ')})` : '');
     })
     .join('\n');
   // Un rôle PRINCIPAL sans marionnette n'arrive qu'avec une seule marionnette
