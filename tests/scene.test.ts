@@ -314,15 +314,46 @@ describe('controler : les contrôles automatiques du CDC §6', () => {
     expect(p[0].gravite).toBe('bloquant');
   });
 
-  it('signale une durée hors tolérance, sans bloquer', () => {
+  it('désigne les actes à rallonger quand le spectacle est trop court', () => {
     const c = spectacleCorrect();
     c.dureeCibleSecondes = 600; // on vise 10 min pour un spectacle de ~4 min
     const p = controler(c);
-    expect(p).toHaveLength(1);
-    expect(p[0].gravite).toBe('mineur');
-    expect(p[0].message).toContain('trop court');
-    // Un problème mineur n'empêche pas d'enregistrer (CDC §6).
+
+    // Le constat d'ensemble, sans numéro d'acte…
+    const ensemble = p.filter((x) => x.acteNumero === undefined);
+    expect(ensemble).toHaveLength(1);
+    expect(ensemble[0].message).toContain('trop court');
+
+    // …et les actes désignés, qui seuls peuvent déclencher une réécriture.
+    const parActe = p.filter((x) => x.acteNumero !== undefined);
+    expect(parActe.length).toBeGreaterThan(0);
+    for (const x of parActe) {
+      expect(x.gravite).toBe('important');
+      expect(x.message).toMatch(/mots de plus|Resserre/);
+    }
+
+    // Rien de tout cela n'empêche d'enregistrer (CDC §6).
     expect(sansBlocage(p)).toBe(true);
+  });
+
+  it('ne dit rien de la durée quand elle est dans la tolérance', () => {
+    const c = spectacleCorrect();
+    const p = controler(c).filter((x) => /trop court|trop long/.test(x.message));
+    expect(p).toHaveLength(0);
+  });
+
+  it('une réplique non attribuée est un problème bloquant sur son acte', () => {
+    // Sans cela, la note « À corriger » restait dans le script et la réplique
+    // perdue n'était jamais réécrite.
+    const c = spectacleCorrect();
+    c.actes[0].elements = [
+      ...c.actes[0].elements,
+      { id: 'n1', type: 'note_marionnettiste', texte: 'À corriger : « Renard Roublard » ne fait pas partie de la distribution.' },
+    ];
+    const p = controler(c).filter((x) => x.message.includes('Renard Roublard'));
+    expect(p).toHaveLength(1);
+    expect(p[0].gravite).toBe('bloquant');
+    expect(p[0].acteNumero).toBe(c.actes[0].numero);
   });
 
   it('signale un acte sans adresse au public quand l’interaction est promise', () => {

@@ -55,6 +55,7 @@ import { lireHistorique, malusDe } from './historiqueContes';
 import {
   attribuerMains,
   controler,
+  MARQUE_A_CORRIGER,
   simulerActe,
   type EtatScene,
   type Probleme,
@@ -505,6 +506,9 @@ export async function ecrireScript(
 
   const conte = conteParId(synopsis.conte);
   if (!conte) throw new ErreurIa(t.erreursIa.conteIntrouvable, { conte: synopsis.conte });
+  // Qui tient quel rôle : sert de repli quand le modèle écrit le nom du rôle
+  // du conte au lieu de celui de la peluche.
+  const roles = tableDesRoles(conte, synopsis, distribution);
   o.surAvancement({ etape: 'transposition' });
   const texte = await texteDuConte(conte.id);
   // Le synopsis, suivi de l'espèce que chaque personnage prend dans le texte.
@@ -619,7 +623,9 @@ ${formaterAdaptation(adaptation)}`;
     );
     jetons = cumulerJetons(jetons, r.jetons);
 
-    const elements = convertirElements(r.valeur.elements, distribution, dossier.nbMarionnettistes, etatScene);
+    const elements = convertirElements(
+      r.valeur.elements, distribution, dossier.nbMarionnettistes, etatScene, roles,
+    );
     actes.push({
       id: nouvelId(),
       numero: ac.numero,
@@ -691,20 +697,30 @@ ${formaterAdaptation(adaptation)}`;
       .map((p) => p.acte as number),
   ]);
 
-  if (actesACorriger.size > 0) {
+  /**
+   * Réécrit les actes désignés, puis recompte les problèmes.
+   *
+   * `remarques` n'est donné qu'à la première passe : les remarques du
+   * directeur éditorial portent sur le script qu'il a lu, pas sur sa
+   * réécriture.
+   */
+  const corriger = async (
+    aCorriger: Set<number>,
+    remarques: typeof relus,
+  ) => {
     o.surAvancement({ etape: 'corrections' });
     let etat: EtatScene = {};
     // Le script tel que le directeur l'a lu : chaque réécriture s'y accorde.
     const scriptRelu = formaterScript(actes, nomDe);
 
     for (const acte of actes) {
-      if (actesACorriger.has(acte.numero)) {
+      if (aCorriger.has(acte.numero)) {
         const conduiteActe = actesConduite.find((a) => a.numero === acte.numero);
         const sesProblemes = [
           ...problemes
             .filter((p) => p.acteNumero === acte.numero)
             .map((p) => `- [${p.gravite}] ${p.message}`),
-          ...relus
+          ...remarques
             .filter((p) => p.acte === acte.numero)
             .map((p) => `- [${p.gravite}] ${p.remarque}`
               + (p.modification ? `\n  Modification : ${p.modification}` : '')),
@@ -728,7 +744,9 @@ ${formaterAdaptation(adaptation)}`;
             `correction de l'acte ${acte.numero}`,
           );
           jetons = cumulerJetons(jetons, r.jetons);
-          acte.elements = convertirElements(r.valeur.elements, distribution, dossier.nbMarionnettistes, etat);
+          acte.elements = convertirElements(
+            r.valeur.elements, distribution, dossier.nbMarionnettistes, etat, roles,
+          );
         } catch (e) {
           // Une correction qui échoue n'annule pas le spectacle : le problème
           // restera affiché en avertissement (CDC §6).
@@ -738,6 +756,23 @@ ${formaterAdaptation(adaptation)}`;
       etat = simulerActe(acte.elements, dossier.nbMarionnettistes, nomDe, etat, acte.numero).etatFinal;
     }
     problemes = controlerTout();
+  };
+
+  if (actesACorriger.size > 0) await corriger(actesACorriger, relus);
+
+  // SECONDE PASSE, une seule, et seulement sur ce qui BLOQUE encore : une
+  // réplique qu'on n'a pas su attribuer, une marionnette qui parle hors scène.
+  // Une première réécriture rate parfois sa cible, et le parent se retrouvait
+  // alors avec la note « À corriger » à la place du texte. On ne repasse pas
+  // sur les écarts de durée ni sur le style : ce serait payer cher pour peu.
+  const bloquantsRestants = new Set(
+    problemes
+      .filter((p) => p.gravite === 'bloquant' && p.acteNumero !== undefined)
+      .map((p) => p.acteNumero as number),
+  );
+  if (bloquantsRestants.size > 0) {
+    o.surReprise?.('des problèmes bloquants subsistent après correction');
+    await corriger(bloquantsRestants, []);
   }
 
   o.surAvancement({ etape: 'assemblage' });
@@ -761,6 +796,42 @@ ${formaterAdaptation(adaptation)}`;
 /* ================================================================== */
 /* Mises en forme pour les prompts                                     */
 /* ================================================================== */
+
+/** Clé de comparaison d'un nom : sans accents, sans casse, sans article. */
+function cleAlias(nom: string): string {
+  return nom
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .toLowerCase()
+    .replace(/^(le |la |les |l'|l’|un |une )/, '')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+/**
+ * Qui tient quel rôle, pour rattraper le modèle quand il écrit le nom du rôle
+ * du conte (« Renard Roublard ») au lieu de celui de la peluche.
+ *
+ * On indexe les deux graphies — celle du synopsis et celle de la fiche, qui ne
+ * coïncident pas toujours — et chaque mot distinctif du nom du rôle.
+ */
+export function tableDesRoles(
+  conte: Conte,
+  synopsis: Synopsis,
+  distribution: Marionnette[],
+): Map<string, string> {
+  const table = new Map<string, string>();
+  for (const d of synopsis.distribution) {
+    const id = trouverMarionnetteId(d.marionnette, distribution);
+    if (!id) continue;
+    table.set(cleAlias(d.role), id);
+    const role = roleParNom(conte, d.role);
+    if (!role) continue;
+    table.set(cleAlias(role.nom), id);
+    for (const mot of role.nom.split(/\s+/)) if (mot.length > 3) table.set(cleAlias(mot), id);
+  }
+  return table;
+}
 
 /**
  * Le conte transposé (passe 1), tel que le reçoivent le découpage, chaque
@@ -864,6 +935,15 @@ export function convertirElements(
   nbMarionnettistes: 1 | 2 = 1,
   /** État laissé par l'acte précédent : une marionnette peut y être restée. */
   etatInitial: EtatScene = {},
+  /**
+   * Nom d'un RÔLE du conte → identifiant de la marionnette qui le tient.
+   *
+   * Le modèle retombe parfois sur le nom du rôle (« Renard Roublard ») au lieu
+   * de celui de la peluche (« Papa Baleine »). Sans ce repli, la réplique était
+   * effacée et remplacée par une note : le personnage disparaissait du
+   * spectacle au moment même où il fait l'histoire.
+   */
+  alias: Map<string, string> = new Map(),
 ): ElementScript[] {
   const resultat: ElementScript[] = [];
 
@@ -873,12 +953,13 @@ export function convertirElements(
       continue;
     }
 
-    const marionnetteId = trouverMarionnetteId(e.marionnette, distribution);
+    const marionnetteId = trouverMarionnetteId(e.marionnette, distribution)
+      ?? alias.get(cleAlias(e.marionnette));
     if (!marionnetteId) {
       resultat.push({
         id: nouvelId(),
         type: 'note_marionnettiste',
-        texte: `À corriger : « ${e.marionnette} » ne fait pas partie de la distribution.`,
+        texte: `${MARQUE_A_CORRIGER} « ${e.marionnette} » ne fait pas partie de la distribution.`,
       });
       continue;
     }

@@ -12,7 +12,7 @@
 //     renvoyée au modèle sans avoir payé les répliques ;
 //   - sur les actes écrits.
 
-import { BORNES } from '../config';
+import { BORNES, DUREE } from '../config';
 import { dureeElements, dansLaTolerance } from './duree';
 import type { Acte, ElementScript, Id, Main, NiveauInteraction } from '../types';
 
@@ -168,8 +168,33 @@ export interface ContexteControle {
  * Le contrôle du JSON lui-même (point 1 de la liste du CDC) est fait en amont
  * par les schémas zod, au moment de la lecture de la réponse.
  */
+/**
+ * Marque posée dans le script quand une réplique n'a pas pu être attribuée.
+ *
+ * Elle reste VISIBLE — rien ne disparaît en silence — mais elle vaut aussi
+ * problème bloquant : sans quoi la réplique perdue ne serait jamais réécrite,
+ * et le parent lirait la note à la place du texte.
+ */
+export const MARQUE_A_CORRIGER = 'À corriger :';
+
 export function controler(c: ContexteControle): Probleme[] {
   const problemes: Probleme[] = [];
+
+  // 0. Une réplique qu'on n'a pas su attribuer. C'est le défaut le plus grave
+  //    du script : le texte a disparu, remplacé par une note.
+  for (const acte of c.actes) {
+    for (const e of acte.elements) {
+      if (e.type !== 'note_marionnettiste') continue;
+      if (!e.texte.startsWith(MARQUE_A_CORRIGER)) continue;
+      problemes.push({
+        gravite: 'bloquant',
+        acteNumero: acte.numero,
+        message: `${e.texte} Cette note a remplacé une réplique ou un mouvement `
+          + 'perdu : rends la parole à la marionnette de la distribution qui tient '
+          + 'ce rôle, et supprime la note.',
+      });
+    }
+  }
 
   // 1. Simulation de scène, l'état se poursuit d'un acte au suivant.
   let etat: EtatScene = {};
@@ -280,17 +305,43 @@ export function controler(c: ContexteControle): Probleme[] {
   }
 
   // 7. Durée dans la tolérance.
+  //
+  // Le problème d'ensemble ne porte aucun numéro d'acte : il ne pouvait donc
+  // déclencher aucune réécriture, et un spectacle à moitié trop court était
+  // simplement signalé au parent. On désigne maintenant AUSSI les actes qui
+  // s'écartent de leur part, avec le nombre de mots à gagner ou à perdre :
+  // c'est ce qui rend l'écart corrigible.
   const secondes = c.actes.reduce((t, a) => t + dureeElements(a.elements).secondes, 0);
   if (!dansLaTolerance(secondes, c.dureeCibleSecondes)) {
     const tropCourt = secondes < c.dureeCibleSecondes;
     problemes.push({
-      gravite: 'mineur',
+      gravite: 'important',
       message: tropCourt
         ? `Le spectacle est trop court : ${Math.round(secondes / 60)} min au lieu de `
           + `${Math.round(c.dureeCibleSecondes / 60)} min visées.`
         : `Le spectacle est trop long : ${Math.round(secondes / 60)} min au lieu de `
           + `${Math.round(c.dureeCibleSecondes / 60)} min visées.`,
     });
+
+    const partParActe = c.dureeCibleSecondes / Math.max(1, c.actes.length);
+    for (const acte of c.actes) {
+      const sienne = dureeElements(acte.elements).secondes;
+      if (dansLaTolerance(sienne, partParActe)) continue;
+      const motsAGagner = Math.round(((partParActe - sienne) / 60) * DUREE.motsParMinute);
+      problemes.push({
+        gravite: 'important',
+        acteNumero: acte.numero,
+        message: motsAGagner > 0
+          ? `L'acte ${acte.numero} est trop court : il dit ${Math.round(sienne)} s `
+            + `au lieu des ${Math.round(partParActe)} s de sa part. Joue plus longuement `
+            + `ce que le conte raconte déjà — environ ${motsAGagner} mots de plus — `
+            + 'sans inventer d’épisode : développe les répliques du conte, laisse les '
+            + 'personnages se répondre, étire les répétitions que le conte porte déjà.'
+          : `L'acte ${acte.numero} est trop long : il dit ${Math.round(sienne)} s au lieu `
+            + `des ${Math.round(partParActe)} s de sa part. Resserre d'environ `
+            + `${-motsAGagner} mots, en coupant ce qui ne vient pas du conte.`,
+      });
+    }
   }
 
   // 8. Interaction avec le public promise mais absente.

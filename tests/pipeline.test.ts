@@ -3,7 +3,8 @@
 // C'est le point de contact le plus fragile du pipeline : le modèle désigne les
 // marionnettes par leur nom, avec sa propre orthographe, et peut inventer.
 import { describe, expect, it } from 'vitest';
-import { convertirElements, decrireEtatScene, nettoyerReplique, simulerConduite, voixParMarionnette } from '../src/services/pipeline';
+import { convertirElements, decrireEtatScene, nettoyerReplique, simulerConduite, tableDesRoles, voixParMarionnette } from '../src/services/pipeline';
+import { conteParId } from '../src/services/repertoire';
 import { construireDossier, trouverMarionnetteId } from '../src/services/dossier';
 import { attribuerMains, controler, simulerActe } from '../src/services/scene';
 import {
@@ -155,6 +156,53 @@ describe('convertirElements', () => {
     expect((r[1] as { texte: string }).texte).toContain('À corriger');
     // Les éléments valides restent intacts.
     expect(r[2]).toMatchObject({ type: 'replique', marionnetteId: 'id-ourse' });
+  });
+});
+
+describe('le nom du rôle est rattrapé sur la marionnette qui le tient', () => {
+  // Le défaut observé : le modèle écrit « Renard Roublard » (le rôle du conte)
+  // au lieu de « Papa Baleine » (la peluche). Sans repli, la réplique était
+  // effacée et remplacée par une note, et le personnage disparaissait du
+  // spectacle à l'instant où il fait l'histoire.
+  const conte = conteParId('en-henny-penny')!;
+  const troupe = [
+    marionnette('id-poule', 'Poulette'),
+    marionnette('id-baleine', 'Papa Baleine'),
+  ];
+  const s = {
+    conte: 'en-henny-penny',
+    distribution: [
+      { marionnette: 'Poulette', role: 'Poulette Pioupiou' },
+      { marionnette: 'Papa Baleine', role: 'Renard Roublard' },
+    ],
+  } as unknown as Parameters<typeof tableDesRoles>[1];
+
+  it('reconnaît le nom du rôle, sa forme courte et sa forme avec article', () => {
+    const table = tableDesRoles(conte, s, troupe);
+    expect(table.get('renard roublard')).toBe('id-baleine');
+    expect(table.get('renard')).toBe('id-baleine');
+    expect(table.get('roublard')).toBe('id-baleine');
+    expect(table.get('poulette pioupiou')).toBe('id-poule');
+  });
+
+  it('la réplique est rendue à la marionnette, pas remplacée par une note', () => {
+    const table = tableDesRoles(conte, s, troupe);
+    const elements = convertirElements(
+      [{ type: 'replique', marionnette: 'Renard Roublard', texte: 'Par ici, le raccourci !' }] as never,
+      troupe, 1, { M1G: 'id-poule' }, table,
+    );
+    expect(elements).toHaveLength(1);
+    expect(elements[0].type).toBe('replique');
+    expect(elements[0]).toMatchObject({ marionnetteId: 'id-baleine' });
+  });
+
+  it('un nom vraiment inconnu laisse la note, qui vaut alerte', () => {
+    const elements = convertirElements(
+      [{ type: 'replique', marionnette: 'Marionnette Fantôme', texte: 'Coucou.' }] as never,
+      troupe, 1, {}, tableDesRoles(conte, s, troupe),
+    );
+    expect(elements[0].type).toBe('note_marionnettiste');
+    expect(elements[0]).toMatchObject({ texte: expect.stringContaining('À corriger :') });
   });
 });
 
