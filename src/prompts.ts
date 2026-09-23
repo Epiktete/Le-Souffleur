@@ -158,7 +158,11 @@ export function contraintesScene(nbMarionnettistes: 1 | 2): string {
 - une marionnette ne parle que si elle est entrée en scène et n’en est pas sortie ;
 - toute entrée précise la main, toute sortie concerne une marionnette présente ;
 - pour faire entrer une marionnette quand toutes les mains sont prises, fais
-  d’abord sortir une autre marionnette.`;
+  d’abord sortir une autre marionnette ;
+- LA SCÈNE SE POURSUIT D’UN ACTE AU SUIVANT. Une marionnette restée en scène à
+  la fin d’un acte y est encore au début du suivant : elle n’a pas à entrer de
+  nouveau, et le faire est une faute. Si elle ne doit pas être là, fais-la
+  sortir avant la fin de l’acte précédent.`;
 }
 
 /**
@@ -423,6 +427,12 @@ ${MAL_VIEILLI}
 
 ${consignesAge(d.ageAuditoire)}
 
+Les « changements annoncés au parent » qu’on te montre plus bas sont ceux du
+SPECTACLE ENTIER, pas de cette passe. Ceux qui coupent, resserrent ou
+réorganisent pour tenir dans le temps sont l’affaire du découpage, qui vient
+après : ici tu n’en tiens aucun compte. Tu n’appliques que ceux qu’impose le
+remplacement des personnages, et l’adoucissement demandé par l’âge.
+
 Et RIEN D’AUTRE. Tu ne coupes rien, tu ne résumes rien, tu n’ajoutes ni
 phrase ni réplique ni morale. Tout ce qui n’a pas besoin de changer reste mot
 pour mot, avec ses paragraphes, ses dialogues et sa langue — même ancienne.
@@ -448,10 +458,16 @@ ${SEULEMENT_JSON}`,
 export function promptDecoupage(
   d: Dossier,
   erreurPrecedente?: string,
+  /** Le découpage refusé, pour que le modèle voie ce qu’il doit corriger. */
+  conduitePrecedente?: string,
 ) {
+  // On montre AUSSI le découpage fautif : sans lui, le modèle n’a que le
+  // symptôme (« X entre dans une main déjà occupée par X ») et doit deviner ce
+  // qu’il avait écrit. Ces quelques lignes coûtent bien moins qu’un troisième
+  // essai.
   const correction = erreurPrecedente
     ? `\n\nTon découpage précédent était injouable. Corrige précisément ceci :
-${erreurPrecedente}`
+${erreurPrecedente}${conduitePrecedente ? `\n\nLes entrées et sorties que tu avais écrites :\n${conduitePrecedente}` : ''}`
     : '';
 
   return {

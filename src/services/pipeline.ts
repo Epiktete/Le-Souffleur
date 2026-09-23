@@ -393,11 +393,16 @@ export async function proposerHistoires(
 export function longueurConte(motsConte: number, motsSpectacle: number): string {
   if (!motsConte) return 'Longueur du conte inconnue.';
   const r = motsConte / Math.max(1, motsSpectacle);
+  // Quatre verdicts et non trois : un conte plus COURT que le spectacle
+  // recevait « on le joue, en coupant au plus un épisode », alors qu'il faut
+  // l'étoffer. Le modèle devait deviner que la formule ne s'appliquait pas.
   const verdict = r < 0.7
     ? 'il faudra le jouer plus longuement qu’il ne se raconte'
-    : r <= 3
-      ? 'la bonne taille : on le joue, en coupant au plus un épisode'
-      : 'il faudra supprimer des épisodes entiers';
+    : r <= 1.1
+      ? 'presque la bonne taille : on le joue tel quel, sans rien couper'
+      : r <= 3
+        ? 'un peu plus long que le spectacle : on le joue en coupant au plus un épisode'
+        : 'il faudra supprimer des épisodes entiers';
   return `Le conte fait environ ${motsConte} mots ; le spectacle en dira environ ${motsSpectacle} : ${verdict}.`;
 }
 
@@ -459,8 +464,12 @@ export function formaterEspeces(conte: Conte, s: Synopsis, marionnettes: Marionn
     .filter((x): x is string => x !== null);
   if (consignes.length === 0) return '';
   return `L’ESPÈCE DES PERSONNAGES DANS LE TEXTE, impératif : chaque marionnette
-animale garde son espèce. Le nom de l’animal du conte disparaît du texte, y
-compris dans les titres, les résumés et les formules.
+animale garde son espèce. Le nom de l’animal du conte disparaît de ce QUI SE
+JOUE — répliques, didascalies, titres, résumés, formules — et seulement de là.
+Les champs où tu expliques ton travail au parent (« changements », « note »)
+peuvent nommer l’animal d’origine : c’est même le plus clair pour lui.
+Le nom générique d’une espèce qui ne désigne PAS un personnage (« on chasse
+les loups en hiver ») ne change pas non plus.
 ${consignes.map((x) => `- ${x}`).join('\n')}`;
 }
 
@@ -549,9 +558,10 @@ export async function ecrireScript(
   o.surAvancement({ etape: 'construction' });
   let adaptation: Adaptation | null = null;
   let erreurConduite: string | undefined;
+  let conduiteRefusee: string | undefined;
 
   for (let essai = 0; essai < 2; essai++) {
-    const prompts = promptDecoupage(dossier, erreurConduite);
+    const prompts = promptDecoupage(dossier, erreurConduite, conduiteRefusee);
     const r = await appelJson(
       o,
       { system: prompts.system, user: `${prompts.user}\n\n${blocConte}\n\n${blocSynopsis}` },
@@ -570,6 +580,10 @@ export async function ecrireScript(
     if (problemes.length === 0) break;
 
     erreurConduite = problemes.map((pb) => `- ${pb.message}`).join('\n');
+    conduiteRefusee = r.valeur.actes
+      .map((a) => `Acte ${a.numero} : `
+        + (a.mouvements.map((mv) => `${mv.type} ${mv.marionnette}`).join(', ') || 'aucun mouvement'))
+      .join('\n');
     o.surReprise?.('découpage injouable');
   }
   if (!adaptation) throw new ErreurIa(t.erreursIa.jsonInvalide);

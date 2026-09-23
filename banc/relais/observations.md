@@ -85,3 +85,40 @@
   justifie jamais de couper une réplique du conte.
 - La consigne de durée était un QUOTA impossible à tenir quand tout le texte
   vient du conte. Corrigée en jauge explicite.
+
+## Cas 2, étape 001 — synopsis
+- `longueurConte` disait « on le joue, en coupant au plus un épisode » même
+  pour un conte PLUS COURT que le spectacle (390 mots pour 500 visés). Le
+  modèle devait deviner que la formule ne s'appliquait pas. Corrigé : quatre
+  verdicts au lieu de trois.
+- Deux contes d'une même saga (Frère Lapin) peuvent être retenus comme
+  « trois histoires vraiment différentes » : la lettre est respectée, pas
+  l'esprit.
+
+## Cas 2, étape 002 — transposition
+- CONFIRMÉ (2e cas) : la contradiction « tu ne coupes rien » / « changements
+  annoncés » qui listent des coupes de durée. Corrigé : le prompt dit
+  désormais que ces changements sont ceux du spectacle entier et que les
+  coupes relèvent du découpage.
+- Le résumé du synopsis fait DOUBLON avec le texte intégral à transposer :
+  du prompt payé pour rien.
+
+## Cas 2, étape 003 — découpage
+- « le nom de l'animal du conte disparaît du texte, y compris titres, résumés
+  et formules » s'appliquait AUSSI aux champs d'explication au parent
+  (« changements », « note »), qui devenaient allusifs. Corrigé : la règle ne
+  porte que sur ce qui se joue, et les mentions génériques sont épargnées —
+  c'était aussi le défaut relevé au cas 1 (« on chasse les loups et les ours »).
+- Le champ « passage » ne sait pas exprimer un extrait DISCONTINU quand une
+  partie interne est coupée.
+
+## Cas 2, étape 004 — découpage REFAIT  ⚠ COÛT
+- Le découpage a été rejeté par la simulation et REFAIT : un appel entier
+  perdu (≈ 2 700 mots de prompt). Motif : « Petite Souris entre dans la main
+  gauche, déjà occupée par Petite Souris » — le modèle la fait entrer alors
+  qu'elle était restée en scène à la fin de l'acte précédent.
+- Or RIEN dans les contraintes de scène ne disait que la scène se POURSUIT
+  d'un acte au suivant. Corrigé : c'est dit, et dit comme une faute.
+- Quand le découpage est refusé, le modèle reçoit le SYMPTÔME mais pas son
+  propre découpage fautif : il doit deviner ce qu'il avait écrit. Corrigé :
+  on lui montre ses entrées et sorties refusées.

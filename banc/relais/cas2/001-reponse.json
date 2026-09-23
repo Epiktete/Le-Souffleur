@@ -1,0 +1,54 @@
+{"synopsis": [
+  {"conte": "de-chat-et-souris-associes", "titre": "Chat et souris associés",
+   "accroche": "Un pot de miel caché pour l'hiver, et Gros Loup qui le vide en cachette, un peu chaque jour.",
+   "resume": [
+     "Petite Souris et Gros Loup décident de vivre ensemble et cachent un pot de miel pour passer l'hiver.",
+     "Gros Loup s'éclipse en disant qu'on l'invite à un baptême, et revient avoir goûté le pot en cachette : il dit que le bébé s'appelle « Entamé ».",
+     "Il recommence une seconde fois : cette fois le bébé s'appelle « Tout-Fini », et le pot est maintenant vide.",
+     "Quand vient l'hiver, ils vont chercher leur pot ensemble et le trouvent vide.",
+     "Petite Souris comprend tout et dit devant tout le monde : « Tout-Fini ! » Gros Loup, confus, promet de lui trouver un nouveau pot."
+   ],
+   "distribution": [
+     {"marionnette": "Petite Souris", "role": "la Souris", "note": "Sa curiosité naturelle porte toute l'enquête : c'est elle qui comprend la ruse en premier."},
+     {"marionnette": "Gros Loup", "role": "le Chat", "note": "Son appétit gourmand est exactement ce qui le pousse à vider le pot en cachette."}
+   ],
+   "changements": [
+     "Le pot de graisse devient un pot de miel, plus parlant pour un enfant ; l'église et le grenier disparaissent du texte.",
+     "Un des trois faux baptêmes est supprimé pour tenir dans le temps du spectacle : il n'en reste que deux, jusqu'à « Tout-Fini ».",
+     "La fin est adoucie : personne n'est mangé ; Gros Loup, confondu devant le public, part chercher un nouveau pot pour se faire pardonner."
+   ]},
+  {"conte": "us-remus-lapin-trop-malin", "titre": "Frère Lapin et le buisson de ronces",
+   "accroche": "Coincée, Petite Souris supplie qu'on ne la jette surtout pas dans les ronces.",
+   "resume": [
+     "Gros Loup tient Petite Souris coincée et savoure déjà sa victoire.",
+     "Petite Souris le supplie : « Fais-moi tout ce que tu veux, mais ne me jette pas dans les ronces ! »",
+     "Gros Loup cherche comment la punir — la chatouiller ? lui tirer les moustaches ? la priver de dessert ? — et chaque fois elle répond : « D'accord, mais pas les ronces ! »",
+     "Pour être sûr de lui faire le pire, Gros Loup la jette dans les ronces.",
+     "Libre, Petite Souris lui crie de loin : « Merci ! Je suis née dans les ronces ! »"
+   ],
+   "distribution": [
+     {"marionnette": "Petite Souris", "role": "Frère Lapin", "note": "Son air peureux rend sa fausse supplique très drôle, alors qu'elle mène le jeu du début à la fin."},
+     {"marionnette": "Gros Loup", "role": "Frère Renard", "note": "Sa méchanceté et son envie de bien faire mal le poussent tout droit dans le piège."}
+   ],
+   "changements": [
+     "Les menaces cruelles (rôtir, noyer, écorcher) deviennent des punitions de salon : chatouilles, moustaches tirées, dessert supprimé.",
+     "Le refrain « mais pas les ronces ! » est repris par le public, invité à le crier avec Petite Souris."
+   ]},
+  {"conte": "afr-lion-et-souris", "titre": "Le Lion et la Souris",
+   "accroche": "Un gros loup rit d'une promesse de souris — jusqu'au jour où elle seule peut le sauver.",
+   "resume": [
+     "Gros Loup attrape Petite Souris, qui l'a réveillé en jouant trop près de lui.",
+     "Elle promet : « Relâche-moi, un jour je te sauverai. » Gros Loup rit de l'idée, mais la laisse partir.",
+     "Plus tard, Gros Loup se fait prendre dans un filet et se retrouve coincé, sans pouvoir bouger.",
+     "La nuit venue, Petite Souris revient et grignote le filet qui le retient.",
+     "Gros Loup repart libre avec elle, tout étonné qu'une si petite amie ait tenu sa promesse."
+   ],
+   "distribution": [
+     {"marionnette": "Petite Souris", "role": "la Souris", "note": "Son côté peureux se change en courage quand elle revient seule, la nuit, pour sauver son ami."},
+     {"marionnette": "Gros Loup", "role": "le Lion", "note": "Sa force et son air sûr de lui collent bien au personnage qui se moque d'abord de la petite souris."}
+   ],
+   "changements": [
+     "Le chasseur reste hors scène, on l'entend seulement, pour ne garder que les deux marionnettes en jeu.",
+     "Les liens qui attachaient le personnage deviennent un filet que Petite Souris grignote, plus simple à montrer avec des marionnettes."
+   ]}
+]}
