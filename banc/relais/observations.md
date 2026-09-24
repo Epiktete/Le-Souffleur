@@ -334,3 +334,35 @@
   VRAIMENT JOUÉ : `motsJouables` retire la moitié de la part des rôles non
   tenus (approximation honnête — la narration et les rôles principaux portent
   plus que leur poids).
+
+## Cas 5 — une seule marionnette
+- Le prompt prévoit le cas « personnage sans marionnette » mais pas celui où
+  c'est le PROTAGONISTE qui n'en a pas. Avec une seule peluche, c'est pourtant
+  la règle plutôt que l'exception (CDC §6 : le second rôle se joue à la voix).
+- « passage » ne dit pas s'il doit être contigu quand une partie interne est
+  coupée (déjà relevé au cas 2).
+- CONFIRMÉ : avec UNE seule marionnette, tout un rôle se joue à la voix
+  depuis la coulisse — le CDC §6 le prévoit explicitement. Mais le prompt ne
+  décrit la « voix en coulisse » que pour un personnage PONCTUELLEMENT hors
+  champ. Le modèle a dû déduire qu'un rôle entier passe en
+  note_marionnettiste. À CORRIGER après le cas.
+
+## Cas 5, étape 006 — écriture
+- L'exemple JSON de l'ÉCRITURE omet « note_marionnettiste » alors que le
+  texte parle des « cinq types » — même famille de défaut que l'exemple
+  incomplet de la correction, déjà corrigé. À CORRIGER.
+- Le découpage a proposé un moment public qui suppose VISIBLE un personnage
+  qu'il a lui-même déclaré invisible (« faire crier aux enfants qu'Askeladden
+  a un sac caché »). Conséquence du cas à une seule marionnette.
+
+## Cas 5 terminé — LA VOIX EN COULISSE N'ÉTAIT PAS COMPTÉE
+- 2 min pour 5 visées. Avec UNE seule marionnette, tout un rôle du conte se
+  joue à la voix depuis la coulisse — le CDC §6 le prévoit. Ces répliques
+  sont écrites en `note_marionnettiste`, et `dureeElements` ne comptait pas
+  les notes, « pas dites à voix haute ». Or celles-là le sont : c'est le
+  parent qui prête sa voix. La moitié du spectacle était invisible au calcul.
+- Corrigé : `motsDitsEnCoulisse` extrait ce qui suit « en coulisse : » et le
+  compte. Le prompt impose désormais cette forme exacte, et dit qu'avec une
+  seule marionnette ce n'est pas l'exception mais la règle.
+- L'exemple JSON de l'écriture omettait `note_marionnettiste` alors que le
+  texte parle des « cinq types » : complété.

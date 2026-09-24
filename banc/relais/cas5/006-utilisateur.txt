@@ -1,0 +1,155 @@
+Marionnettes du parent :
+- Grand Ours
+  Traits : fort, naïf
+  Apparence : Un ours brun massif, en peluche épaisse.
+
+Réglages du spectacle :
+- durée visée : 5 minutes, soit environ 500 mots dits
+- âge du public : 5 ans
+- marionnettistes : 1, donc 2 mains
+- interaction avec le public : beaucoup, le public est sollicité souvent
+
+LE CONTE, TRANSPOSÉ POUR LES MARIONNETTES DU PARENT : Askeladden qui mangea plus que le troll — Norvège, Peter Christen Asbjørnsen et Jørgen Moe, Contes populaires norvégiens, 1843
+C’est le texte de référence : les répliques y sont prises mot pour mot.
+
+Fiche du conte :
+**Essence.** Les deux aînés fuient devant le troll ; le cadet, qu'on croyait bon à rien, lui fait croire qu'il est plus fort en pressant un fromage comme une pierre, puis le bat au concours du plus gros mangeur grâce à un sac caché sous sa veste.
+
+**Trame.**
+1. Deux frères partent couper du bois ; le troll les menace, ils s'enfuient.
+2. Le cadet part avec un fromage frais ; il le presse devant le troll : « Je t'écraserai comme cette pierre ! »
+3. Le troll, effrayé, l'aide à couper, puis l'invite chez lui.
+4. Devant des seaux trop lourds : « J'irai plutôt chercher le puits entier ! » Le troll y va lui-même.
+5. Au concours de bouillie, le garçon remplit un sac sous sa veste, le perce ; le troll, pour l'imiter, s'avoue vaincu.
+
+**À adapter.** Le troll ne se perce pas le ventre : il éclate de rire, ou roule sous la table en demandant grâce, et donne le trésor. Parent du « Vaillant Petit Tailleur » (même fromage). Le public voit le sac caché que le troll ne voit pas.
+Retouches déjà faites à la transposition :
+- La menace de mort du Troll (« je te tue ») devient un simple avertissement (« gare à toi »), moins effrayant pour un public de 5 ans.
+- Le Troll ne se blesse plus en imitant le sac percé : Grand Ours essaie, éclate de rire, roule par terre, demande grâce et offre son trésor à Askeladden.
+
+TEXTE TRANSPOSÉ (environ 790 mots) :
+"""
+Il était une fois un paysan qui avait trois fils. Il était pauvre, vieux et faible, et ses fils ne voulaient rien faire. Avec la ferme allait une grande et belle forêt, et le père voulait que les garçons y coupent du bois, pour pouvoir payer un peu de leurs dettes.
+À la fin, il arriva à les décider, et l'aîné dut partir couper le premier. Quand il fut dans la forêt et qu'il se mit à couper un vieux sapin barbu, Grand Ours, un énorme ours, s'approcha de lui.
+— Si tu coupes dans ma forêt, gare à toi ! dit Grand Ours.
+Quand le garçon entendit cela, il jeta sa hache et rentra à la maison aussi vite qu'il put. Il arriva tout essoufflé et raconta ce qui lui était arrivé. Mais son père lui dit qu'il avait un cœur de lièvre : les trolls ne l'avaient jamais empêché de couper du bois, lui, quand il était jeune.
+Le lendemain, ce fut le tour du deuxième fils, et il lui arriva exactement la même chose. À peine avait-il donné quelques coups de hache dans le sapin que Grand Ours arriva et dit :
+— Si tu coupes dans ma forêt, gare à toi !
+Le garçon osa à peine le regarder. Il jeta sa hache et prit ses jambes à son cou comme son frère, et même plus vite. Quand il rentra, son père se fâcha et dit que jamais les trolls ne l'avaient effrayé, lui, quand il était jeune.
+Le troisième jour, Askeladden voulut partir.
+— Ah oui, toi ! dirent les deux aînés. Tu vas sûrement y arriver, toi qui n'as jamais passé la porte de la maison !
+Askeladden ne répondit pas grand-chose ; il demanda seulement qu'on lui donne un bon casse-croûte. Sa mère n'avait pas de fromage tout fait, alors elle mit la marmite sur le feu pour lui en faire un petit, tout frais. Il le mit dans sa besace en cuir, et partit.
+Quand il eut coupé un petit moment, Grand Ours arriva et dit :
+— Si tu coupes dans ma forêt, gare à toi !
+Mais le garçon ne fut pas lent. Il sortit le fromage de sa besace et le serra si fort que le petit-lait gicla.
+— Si tu ne te tais pas, cria-t-il à Grand Ours, je vais t'écraser comme j'écrase l'eau de cette pierre blanche !
+— Non, mon ami, épargne-moi, dit Grand Ours. Je vais t'aider à couper le bois.
+À cette condition, le garçon l'épargna. Et Grand Ours était un rude bûcheron : ils abattirent et débitèrent des dizaines d'arbres dans la journée.
+Quand le soir approcha, Grand Ours dit :
+— Maintenant tu peux venir chez moi, c'est plus près que chez toi.
+Le garçon le suivit. Quand ils arrivèrent chez Grand Ours, celui-ci devait faire du feu dans la cheminée, et le garçon devait aller chercher de l'eau pour la marmite de bouillie. Mais il y avait là deux seaux en fer si grands et si lourds qu'il ne pouvait même pas les soulever.
+Alors le garçon dit :
+— Ça ne vaut pas la peine d'emporter ces dés à coudre. Je vais aller chercher le puits tout entier, moi.
+— Non, mon ami, dit Grand Ours. Je ne peux pas perdre mon puits. Fais le feu, j'irai chercher l'eau.
+Quand il revint avec l'eau, ils firent cuire une énorme marmite de bouillie.
+— Si tu veux bien, dit le garçon, on va faire un concours : à qui mangera le plus.
+— Oh oui ! répondit Grand Ours, car là, il pensait bien qu'il gagnerait.
+Ils se mirent à table. Mais le garçon prit en cachette sa besace en cuir et l'attacha devant son ventre, et il en versa plus dans la besace qu'il n'en mangeait lui-même. Quand la besace fut pleine, il prit son couteau et fit une fente dans la besace. Grand Ours le regardait, mais ne dit rien.
+Quand ils eurent mangé encore un bon moment, Grand Ours posa sa cuillère.
+— Non, maintenant, je n'en peux plus, dit-il.
+— Il faut manger ! répondit le garçon. Moi, je n'ai même pas à moitié faim. Fais comme moi : fais un trou dans ton ventre, et tu pourras manger autant que tu voudras.
+— Mais ça doit faire terriblement mal ? demanda Grand Ours.
+— Oh, rien du tout, répondit le garçon.
+Alors Grand Ours essaya bien de faire comme lui, mais dès qu'il y pensa, il éclata de rire, roula par terre et demanda grâce. Il donna à Askeladden tout l'or et l'argent qu'il y avait dans la montagne, et le garçon rentra chez lui. Avec ça, il put toujours payer une bonne partie des dettes.
+"""
+
+LE SYNOPSIS CHOISI PAR LE PARENT : Askeladden qui mangea plus que le troll
+Un gros costaud trop sûr de lui se fait battre par un petit malin qui n'a pas l'air bien fort.
+- Askeladden part seul dans la forêt et croise Grand Ours, qui gronde très fort pour lui faire peur.
+- Askeladden sort un fromage frais et le presse devant lui : « Je t'écraserai comme cette pierre ! » Grand Ours, impressionné, l'aide à couper le bois puis l'invite chez lui.
+- Devant des seaux trop lourds à porter, Askeladden dit qu'il préfère aller chercher le puits tout entier ; Grand Ours, pour montrer sa force, y va lui-même.
+- Au concours du plus gros mangeur, Askeladden cache un sac sous sa veste : le public le voit se remplir sans effort, mais pas Grand Ours. Askeladden le perce d'un coup, et Grand Ours, pour l'imiter, abandonne en riant, roule par terre et lui offre son trésor.
+
+Distribution :
+- Grand Ours joue le Troll : Un ours qui gronde fort et se laisse impressionner facilement : sa force et sa naïveté sont exactement celles du Troll.
+
+Changements annoncés au parent :
+- Grand Ours ne se fait pas mal en imitant le sac percé : il abandonne en riant, roule par terre et offre son trésor, alors que dans le conte le Troll se blessait bien plus.
+- Les deux frères aînés, le père et la mère disparaissent : l'histoire commence directement avec Askeladden qui part seul dans la forêt.
+- Un épisode (les seaux ou le puits) est coupé pour que le spectacle tienne en 5 minutes sans perdre la fin du concours.
+
+L’ESPÈCE DES PERSONNAGES DANS LE TEXTE, impératif : chaque marionnette
+animale garde son espèce. Le nom de l’animal du conte disparaît de ce QUI SE
+JOUE — répliques, didascalies, titres, résumés, formules — et seulement de là.
+Les champs où tu expliques ton travail au parent (« changements », « note »)
+peuvent nommer l’animal d’origine : c’est même le plus clair pour lui.
+Le nom générique d’une espèce qui ne désigne PAS un personnage (« on chasse
+les loups en hiver ») ne change pas non plus.
+- Grand Ours joue le Troll : dans tout le texte, ce personnage est un·e ours, pas un·e troll. On l'appelle ainsi, et seuls les détails qui l'exigent changent.
+
+L’ADAPTATION DÉCIDÉE : « Grand Ours et la ruse du fromage »
+Un gros ours très fort se laisse impressionner par un fromage écrasé, puis se fait battre au concours du plus gros mangeur par un malin qui cache un secret sous sa veste.
+
+Ce qui change par rapport au conte, et que tu respectes :
+- Askeladden n'a pas de marionnette dans le dossier, donc il reste en coulisse pendant tout le spectacle : on entend sa voix mais on ne le voit jamais, et Grand Ours, seul en scène, réagit à ce qu'il entend.
+- Les deux frères aînés, le père et la mère n'ont pas de marionnette non plus, donc ils sont supprimés : le spectacle commence directement avec le départ dans la forêt.
+- L'épisode des seaux d'eau est coupé pour que le concours de bouillie, qui termine l'histoire, garde toute la place dont il a besoin.
+
+Plan du spectacle :
+- Acte 1, La menace dans la forêt : Askeladden, qu'on entend depuis les coulisses, coupe du bois quand Grand Ours surgit et gronde pour lui faire peur. Le garçon presse un fromage devant lui en menaçant de l'écraser pareil, et Grand Ours, terrifié, se met à l'aider. (De « Le troisième jour, Askeladden voulut partir » à « ils abattirent et débitèrent des dizaines d'arbres dans la journée ».)
+- Acte 2, L'invitation chez Grand Ours : Le soir venu, Grand Ours invite Askeladden chez lui. Ils décident de faire un concours pour savoir qui mangera le plus, et Grand Ours, sûr de sa force, accepte avec enthousiasme. (De « Quand le soir approcha, Grand Ours dit » à « il pensait bien qu'il gagnerait ».)
+- Acte 3, Le concours de bouillie : Askeladden cache un sac sous sa veste que le public voit se remplir, et le perce d'un coup sec. Grand Ours veut l'imiter, mais échoue, éclate de rire, roule par terre et offre tout son trésor. (De « Ils se mirent à table » à « il put toujours payer une bonne partie des dettes ».)
+
+État de la scène au début de cet acte :
+Grand Ours est en scène, main M1D.
+
+Texte des actes déjà écrits :
+--- Acte 1 : La menace dans la forêt ---
+1. [action] En coulisse, on frappe deux coups sur la table : quelque part dans la forêt, Askeladden coupe du bois.
+2. [entree] Grand Ours — main M1D
+3. [action] Grand Ours surgit et se dresse de toute sa hauteur.
+4. Grand Ours au public : « Je vais lui faire une peur bleue avec ma plus grosse voix. Vous grondez avec moi ? » (attend une réponse)
+5. [action] Grand Ours prend une grande respiration. Les enfants grondent avec lui.
+6. Grand Ours : « Si tu coupes dans ma forêt, gare à toi ! » (très fort, en grondant)
+7. [note] Voix d'Askeladden, en coulisse : "Si tu ne te tais pas, je vais t'écraser comme j'écrase l'eau de cette pierre blanche !"
+8. [action] Grand Ours recule d'un bond et tremble de tous ses poils.
+9. Grand Ours : « Non, mon ami, épargne-moi. Je vais t'aider à couper le bois. » (tremblant, suppliant)
+10. [note] Voix d'Askeladden, en coulisse : "D'accord, je te laisse tranquille. Viens m'aider."
+11. [action] Grand Ours se penche et cogne le sol de toutes ses forces, encore et encore : la journée entière passe au rythme de ses coups.
+
+--- Acte 2 : L'invitation chez Grand Ours ---
+1. Grand Ours : « Maintenant tu peux venir chez moi, c'est plus près que chez toi. » (content, invitant)
+2. [action] Grand Ours traverse la scène à petits bonds, puis s'arrête et se penche vers le sol.
+3. Grand Ours : « Elle est prête, ma bouillie ! » (content, gourmand)
+4. [note] Voix d'Askeladden, en coulisse : "Si tu veux bien, on va faire un concours : à qui mangera le plus."
+5. Grand Ours : « Oh oui ! » (avec entrain, sûr de gagner)
+6. Grand Ours au public : « Vous voulez bien m'applaudir, pour me donner du courage ? » (attend une réponse)
+7. [action] Les enfants applaudissent. Grand Ours se redresse de toute sa hauteur.
+
+Ce qui viendra après cet acte :
+Rien : c’est le dernier acte, il referme le spectacle.
+
+Conduite de l’acte à écrire :
+Acte 3 — Le concours de bouillie
+Résumé : Askeladden cache un sac sous sa veste que le public voit se remplir, et le perce d'un coup sec. Grand Ours veut l'imiter, mais échoue, éclate de rire, roule par terre et offre tout son trésor.
+Passage du conte joué par cet acte : De « Ils se mirent à table » à « il put toujours payer une bonne partie des dettes ».
+Déroulé :
+  1. Ils mangent la bouillie ; Askeladden verse la sienne en cachette dans un sac attaché devant lui, que le public voit gonfler.
+  2. Grand Ours, essoufflé, dit qu'il n'en peut plus.
+  3. Askeladden le pousse à faire un trou dans son ventre comme lui, en perçant son sac d'un coup.
+  4. Grand Ours essaie d'imiter, échoue, éclate de rire, roule par terre et offre tout son trésor.
+Entrées et sorties prévues par le découpage. C’est un PLAN, pas un ordre à
+exécuter : si la scène demande autre chose — un personnage qui doit rester
+pour parler, un échange qui exige deux présences —, arrange-le autrement,
+pourvu que les contraintes de scène tiennent. Ne coupe pas une réplique du
+conte parce que le plan fait sortir celui qui la dit : fais-le sortir après.
+Dans TA réponse, chaque entrée et chaque sortie porte un champ « main » :
+choisis-la librement, c’est l’application qui l’arrêtera.
+
+Moments avec le public :
+  - Demander aux enfants de crier à Grand Ours qu'Askeladden a un sac caché sous sa veste, qu'eux seuls peuvent voir.
+  - Faire compter aux enfants, avec Grand Ours qui roule par terre, jusqu'à trois avant qu'il ne se relève tout content.
+Budget indicatif pour cet acte : environ 230 mots dits. C'est une
+jauge, jamais une limite : la fidélité au texte du conte passe devant, et la
+fin de l'acte se joue en entier. Dépasser vaut mieux que couper une réplique
+du conte.

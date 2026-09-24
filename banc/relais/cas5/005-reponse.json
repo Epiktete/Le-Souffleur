@@ -1,0 +1,9 @@
+{"elements": [
+  {"type": "replique", "marionnette": "Grand Ours", "texte": "Maintenant tu peux venir chez moi, c'est plus près que chez toi.", "ton": "content, invitant"},
+  {"type": "didascalie", "texte": "Grand Ours traverse la scène à petits bonds, puis s'arrête et se penche vers le sol."},
+  {"type": "replique", "marionnette": "Grand Ours", "texte": "Elle est prête, ma bouillie !", "ton": "content, gourmand"},
+  {"type": "note_marionnettiste", "texte": "Voix d'Askeladden, en coulisse : \"Si tu veux bien, on va faire un concours : à qui mangera le plus.\""},
+  {"type": "replique", "marionnette": "Grand Ours", "texte": "Oh oui !", "ton": "avec entrain, sûr de gagner"},
+  {"type": "adresse_public", "marionnette": "Grand Ours", "texte": "Vous voulez bien m'applaudir, pour me donner du courage ?", "attenteReponse": true},
+  {"type": "didascalie", "texte": "Les enfants applaudissent. Grand Ours se redresse de toute sa hauteur."}
+]}

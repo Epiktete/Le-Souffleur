@@ -614,8 +614,12 @@ Les cinq types d’éléments :
   s’il attend vraiment une réponse
 - note_marionnettiste : une consigne pour la personne qui joue, jamais dite ;
   à écrire rarement. C’est aussi là que s’écrit la VOIX EN COULISSE d’un
-  personnage sans marionnette, que le parent dit sans rien montrer :
-  « Voix du Bœuf, en coulisse : "Meuh." » — avec les mots du conte
+  personnage sans marionnette, que le parent dit sans rien montrer. Elle prend
+  TOUJOURS cette forme exacte, sans quoi la durée du spectacle est mal
+  calculée : « Voix du Bœuf, en coulisse : "Meuh." » — le nom, puis « en
+  coulisse : », puis les mots du conte entre guillemets. Avec UNE seule
+  marionnette, tout un rôle du conte se joue ainsi (le parent lui prête sa
+  voix) : ce n’est pas l’exception, c’est la règle du spectacle.
 - entree et sortie : avec la main qui tient la marionnette
 
 ${PLACE_DES_DIDASCALIES}
@@ -641,6 +645,7 @@ Tu renvoies un objet JSON de cette forme :
   {"type": "replique", "marionnette": "Nom exact", "texte": "…", "ton": "…"},
   {"type": "didascalie", "texte": "…"},
   {"type": "adresse_public", "marionnette": "Nom exact", "texte": "…", "attenteReponse": false},
+  {"type": "note_marionnettiste", "texte": "…"},
   {"type": "sortie", "marionnette": "Nom exact", "main": "M1G"}]}
 
 Les noms des marionnettes doivent être recopiés EXACTEMENT comme dans le

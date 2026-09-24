@@ -42,6 +42,19 @@ export interface DetailDuree {
 }
 
 /** Durée estimée d'une suite d'éléments, en secondes. */
+/**
+ * La part d'une note qui se dit à voix haute.
+ *
+ * Les prompts imposent une forme unique pour la voix d'un personnage sans
+ * marionnette : « Voix du Bœuf, en coulisse : "Meuh." ». Tout ce qui suit le
+ * deux-points est prononcé par le parent ; le reste est une consigne de jeu.
+ * Une note ordinaire ne contient pas cette amorce et ne compte donc pour rien.
+ */
+export function motsDitsEnCoulisse(texte: string): string {
+  const m = /voix\s+(?:de|du|des|d’|d')[^:]*en\s+coulisse\s*:(.*)/is.exec(texte);
+  return m ? m[1] : '';
+}
+
 export function dureeElements(elements: ElementScript[]): DetailDuree {
   let mots = 0;
   let didascalies = 0;
@@ -59,9 +72,17 @@ export function dureeElements(elements: ElementScript[]): DetailDuree {
       case 'didascalie':
         didascalies++;
         break;
-      // Les notes au marionnettiste ne sont pas dites à voix haute, et les
-      // entrées et sorties se font pendant le reste : ni l'une ni l'autre ne
-      // consomment de temps.
+      // Une note n'est pas dite à voix haute — SAUF quand elle porte la voix
+      // en coulisse d'un personnage sans marionnette, que le parent dit bel
+      // et bien. Avec une seule peluche, tout un rôle passe par là (CDC §6),
+      // et ne pas le compter faisait tomber la durée estimée à moins de la
+      // moitié du réel : mesuré au relais, deux minutes annoncées pour un
+      // spectacle de cinq.
+      case 'note_marionnettiste':
+        mots += compterMots(motsDitsEnCoulisse(e.texte));
+        break;
+      // Les entrées et sorties se font pendant le reste : elles ne consomment
+      // pas de temps.
       default:
         break;
     }

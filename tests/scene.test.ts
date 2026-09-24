@@ -191,6 +191,17 @@ describe('dureeElements', () => {
     expect(dureeElements([replique('lapin', cent)]).secondes).toBe(60);
   });
 
+  it('compte la voix en coulisse, que le parent dit bel et bien', () => {
+    // Avec une seule marionnette, tout un rôle du conte passe par là
+    // (CDC §6). Ne pas le compter faisait tomber la durée estimée sous la
+    // moitié du réel : deux minutes annoncées pour un spectacle de cinq.
+    const dix = Array.from({ length: 10 }, () => 'mot').join(' ');
+    expect(dureeElements([note(`Voix du Bœuf, en coulisse : « ${dix} »`)]).secondes).toBe(6);
+
+    // Une note ordinaire ne se dit pas, et ne compte donc pour rien.
+    expect(dureeElements([note(`Préparer le drap avant l'acte : ${dix}`)]).secondes).toBe(0);
+  });
+
   it('ajoute 3 secondes par didascalie', () => {
     const d = dureeElements([didascalie('Le lapin saute.'), didascalie('Il retombe.')]);
     expect(d.secondes).toBe(6);

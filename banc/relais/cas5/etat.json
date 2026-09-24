@@ -1,0 +1,29 @@
+{
+  "termine": true,
+  "etapes": 10,
+  "conte": "no-concours-de-manger",
+  "titre": "Askeladden qui mangea plus que le troll",
+  "dureeEstimeeSecondes": 133,
+  "dureeCibleSecondes": 300,
+  "problemesRestants": [
+    {
+      "gravite": "important",
+      "message": "Le spectacle est trop court : 2 min au lieu de 5 min visées."
+    },
+    {
+      "gravite": "important",
+      "acteNumero": 1,
+      "message": "L'acte 1 est un peu court : 45 s au lieu des 100 s de sa part, soit environ 92 mots. Joue plus longuement ce que le conte raconte DÉJÀ, sans inventer d’épisode : développe ses répliques, laisse les personnages se répondre, étire les répétitions qu’il porte. Si le passage est de la pure narration, sans une réplique à développer, LAISSE L’ACTE COURT : inventer tout un dialogue pour tenir la jauge est exactement ce qu’on ne veut pas."
+    },
+    {
+      "gravite": "important",
+      "acteNumero": 2,
+      "message": "L'acte 2 est un peu court : 43 s au lieu des 100 s de sa part, soit environ 95 mots. Joue plus longuement ce que le conte raconte DÉJÀ, sans inventer d’épisode : développe ses répliques, laisse les personnages se répondre, étire les répétitions qu’il porte. Si le passage est de la pure narration, sans une réplique à développer, LAISSE L’ACTE COURT : inventer tout un dialogue pour tenir la jauge est exactement ce qu’on ne veut pas."
+    },
+    {
+      "gravite": "important",
+      "acteNumero": 3,
+      "message": "L'acte 3 est un peu court : 45 s au lieu des 100 s de sa part, soit environ 92 mots. Joue plus longuement ce que le conte raconte DÉJÀ, sans inventer d’épisode : développe ses répliques, laisse les personnages se répondre, étire les répétitions qu’il porte. Si le passage est de la pure narration, sans une réplique à développer, LAISSE L’ACTE COURT : inventer tout un dialogue pour tenir la jauge est exactement ce qu’on ne veut pas."
+    }
+  ]
+}
