@@ -4,7 +4,7 @@ Un gros ours très fort se laisse impressionner par un fromage écrasé, puis se
 
 Spectacle de marionnettes à main, joué à la maison derrière une table.
 Public : 5 ans. 1 marionnettiste.
-Durée estimée : 2 min 13 s.
+Durée estimée : 3 min 18 s.
 
 ## Personnages
 
