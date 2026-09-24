@@ -374,6 +374,10 @@ export async function proposerHistoires(
     return {
       ...s,
       id: s.conte,
+      // Le titre vient de la FICHE, pas du modèle : c'est le repère qui dit au
+      // parent d'où vient l'histoire, et le recopier à la main finissait par
+      // en changer la typographie (« l'Ours » pour « l’Ours »).
+      titre: conte.titre,
       reference: reference(conte),
       // Les noms sont remis dans leur graphie exacte : le modèle écrit parfois
       // « doudou lapin » là où la fiche dit « Doudou Lapin ».
@@ -847,8 +851,11 @@ ${formaterAdaptation(adaptation)}`;
 
   o.surAvancement({ etape: 'assemblage' });
   return {
-    // Le titre est celui de la carte choisie : le titre du conte d'origine.
-    titre: synopsis.titre || adaptation.titre,
+    // LE TITRE DU SPECTACLE EST CELUI DU CONTE D'ORIGINE, pris dans la fiche
+    // et non écrit par le modèle. Le repli sur le titre du découpage a
+    // disparu : c'était le seul chemin par lequel un titre inventé pouvait
+    // encore arriver jusqu'au parent.
+    titre: conte.titre,
     pitch: adaptation.pitch || synopsis.accroche,
     tableaux,
     actes,

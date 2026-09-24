@@ -41,7 +41,14 @@ export const schemaSynopsis = z.object({
   // relais : un point de résumé à 221 caractères a coûté un appel entier de
   // 3 100 mots. La concision se demande dans le prompt, en phrases ; le
   // schéma n'est là que pour arrêter ce qui casserait l'affichage.
-  titre: z.string().min(1).max(120),
+  /**
+   * Le titre n'est plus demandé au modèle : l'application le recopie de la
+   * fiche. Le champ reste toléré s'il le renvoie quand même, et il est
+   * remplacé. Le modèle RETAPAIT le titre au lieu de le copier — « l'Ours »
+   * pour « l’Ours » —, et une faute de frappe pouvait faire rejeter tout
+   * l'appel.
+   */
+  titre: z.string().max(120).default(''),
   accroche: z.string().max(200).default(''),
   resume: z.array(z.string().min(1).max(400)).min(2).max(6),
   distribution: z.array(schemaRoleJoue).min(1),
@@ -86,17 +93,8 @@ export function schemaSynopsisPour(contes: string[], marionnettes: string[]) {
         ctx.addIssue({ code: 'custom', path: ['synopsis', i, 'conte'], message: `« ${s.conte} » est proposé deux fois` });
       }
       vus.add(s.conte);
-      // Le titre est celui du conte d'origine : jamais le nom d'une marionnette.
-      // Un nom d'un seul mot (« Lapin ») peut être l'espèce du titre : il passe.
-      const nomDansLeTitre = marionnettes.find((nom) =>
-        nom.trim().includes(' ') && norm(s.titre).includes(norm(nom)));
-      if (nomDansLeTitre) {
-        ctx.addIssue({
-          code: 'custom',
-          path: ['synopsis', i, 'titre'],
-          message: `le titre reprend celui du conte d'origine, sans « ${nomDansLeTitre} »`,
-        });
-      }
+      // Plus de contrôle sur le titre : l'application l'impose désormais,
+      // donc il ne peut plus contenir le nom d'une marionnette.
       const distribues = new Set(s.distribution.map((d) => norm(d.marionnette)));
       for (const nom of marionnettes) {
         if (!distribues.has(norm(nom))) {

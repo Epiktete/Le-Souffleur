@@ -215,7 +215,7 @@ test('Échap et la croix quittent le spectacle', async ({ page }) => {
   await page.keyboard.press('Escape');
   await expect(page.getByRole('region', { name: 'Spectacles' })).toBeVisible();
 
-  await page.getByRole('button', { name: /La carotte disparue/ }).click();
+  await page.getByRole('region', { name: 'Spectacles' }).getByRole('button').first().click();
   await page.getByRole('button', { name: 'Jouer' }).click();
   const reprise = page.getByRole('button', { name: /Recommencer/ });
   if (await reprise.isVisible()) await reprise.click();
@@ -265,7 +265,7 @@ test('la position est mémorisée et la reprise proposée', async ({ page }) => 
   expect(avant).toBeGreaterThan(1);
 
   await page.keyboard.press('Escape');
-  await page.getByRole('button', { name: /La carotte disparue/ }).click();
+  await page.getByRole('region', { name: 'Spectacles' }).getByRole('button').first().click();
   await page.getByRole('button', { name: 'Jouer' }).click();
 
   await expect(page.getByRole('button', { name: /Reprendre à la page/ })).toBeVisible();
@@ -280,7 +280,7 @@ test('« Recommencer » repart de la première page', async ({ page }) => {
   await page.waitForTimeout(320);
   await page.keyboard.press('Escape');
 
-  await page.getByRole('button', { name: /La carotte disparue/ }).click();
+  await page.getByRole('region', { name: 'Spectacles' }).getByRole('button').first().click();
   await page.getByRole('button', { name: 'Jouer' }).click();
   await page.getByRole('button', { name: 'Recommencer depuis le début' }).click();
   expect((await position(page))[0]).toBe(1);

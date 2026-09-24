@@ -360,10 +360,6 @@ ${POUR_LE_PARENT}
 
 Pour chaque synopsis :
 - « conte » : l’identifiant du conte, recopié exactement ;
-- « titre » : le titre du conte d’origine, RECOPIÉ TEL QUEL (« Le Lièvre et la
-  Tortue »). Ni le nom d’une marionnette du parent, ni son espèce : c’est le
-  repère qui dit au parent d’où vient l’histoire, et le résumé lui apprend
-  ensuite qui joue quoi ;
 - « accroche » : UNE phrase simple qui dit de quoi il s’agit ;
 - « resume » : l’histoire du conte telle qu’elle sera jouée, dans son ordre et
   jusqu’à sa fin, en trois à cinq points d’une ou deux phrases chacun, avec
@@ -381,7 +377,7 @@ ${consignesAge(d.ageAuditoire)}
 
 Tu renvoies un objet JSON de cette forme :
 {"synopsis": [
-  {"conte": "identifiant-du-conte", "titre": "…", "accroche": "…",
+  {"conte": "identifiant-du-conte", "accroche": "…",
    "resume": ["…", "…", "…"],
    "distribution": [{"marionnette": "Nom exact", "role": "le Rôle", "note": "…"}],
    "changements": ["…"]}

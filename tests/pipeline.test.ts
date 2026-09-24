@@ -504,13 +504,22 @@ describe('le schéma des synopsis, construit pour chaque appel', () => {
     expect(valider(schema, { synopsis: [synopsis('a', accents), synopsis('b'), synopsis('c')] }).ok).toBe(true);
   });
 
-  it('refuse un titre qui reprend le nom d’une marionnette au lieu du titre du conte', () => {
+  it('ne demande plus de titre : l’application le recopie de la fiche', () => {
+    // Le modèle RETAPAIT le titre au lieu de le copier — « l'Ours » pour
+    // « l’Ours ». C'est maintenant l'application qui l'impose, donc un titre
+    // absent ou fantaisiste ne fait plus rejeter l'appel.
     const titre = (s: ReturnType<typeof synopsis>, x: string) => ({ ...s, titre: x });
-    const r = valider(schema, { synopsis: [titre(synopsis('a'), 'Doudou Lapin et la Tortue'), synopsis('b'), synopsis('c')] });
-    expect(r.ok).toBe(false);
-    if (!r.ok) expect(r.erreur).toContain('Doudou Lapin');
-    // Un nom d'un seul mot peut être l'espèce du titre d'origine.
-    expect(valider(schema, { synopsis: [titre(synopsis('a'), 'L’Ourse et les deux amis'), synopsis('b'), synopsis('c')] }).ok).toBe(true);
+    expect(valider(schema, {
+      synopsis: [titre(synopsis('a'), 'Doudou Lapin et la Tortue'), synopsis('b'), synopsis('c')],
+    }).ok).toBe(true);
+
+    const sansTitre = (s: ReturnType<typeof synopsis>) => {
+      const { titre: _, ...reste } = s as Record<string, unknown>;
+      return reste;
+    };
+    expect(valider(schema, {
+      synopsis: [sansTitre(synopsis('a')), synopsis('b'), synopsis('c')],
+    }).ok).toBe(true);
   });
 
   it('refuse moins de trois synopsis', () => {

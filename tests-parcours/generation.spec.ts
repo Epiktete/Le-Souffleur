@@ -71,8 +71,12 @@ test('critère d’acceptation : 5 min, 3 marionnettes, 1 marionnettiste', async
   // L'écran de fin va à l'essentiel : plus de liste de points à vérifier.
   await expect(page.getByText('Points à vérifier')).toHaveCount(0);
 
-  await expect(page.getByRole('region', { name: 'Spectacles' }))
-    .toContainText('La carotte disparue');
+  // Le titre du spectacle est celui du conte d'origine, pris dans la fiche.
+  // Le faux modèle en propose un autre — « La carotte disparue » — qui ne doit
+  // JAMAIS remonter jusqu'au parent.
+  const listeSpectacles = page.getByRole('region', { name: 'Spectacles' });
+  await expect(listeSpectacles).not.toContainText('La carotte disparue');
+  await expect(listeSpectacles.getByRole('button').first()).toBeVisible();
 
   // On relit le spectacle réellement enregistré, plutôt que son affichage :
   // c'est lui qui porte le critère d'acceptation.
@@ -180,12 +184,21 @@ test('chaque carte cite le conte d’origine, raconte, distribue et dit ce qui c
   await preparerStudio(page);
   await lancerEtAttendreLeChoix(page);
 
-  const premiere = page.locator('article').filter({ hasText: 'La carotte disparue' });
+  const premiere = page.locator('article').filter({ hasText: 'l’histoire 1, en une ligne' });
 
   // D'où vient l'histoire : le titre du conte, son origine et sa source, lus
   // dans la fiche du répertoire et non recopiés par le modèle.
   await expect(premiere.locator('.reference')).toContainText('D’après');
   await expect(premiere.locator('.reference')).toContainText('—');
+
+  // L'INVARIANT : le titre de la carte est exactement celui du conte cité
+  // dans « D'après », et jamais celui que le modèle a proposé.
+  // textContent et non innerText : la charte affiche les titres en capitales,
+  // et innerText rendrait le texte tel qu'il s'affiche, pas tel qu'il est.
+  const titreCarte = ((await premiere.locator('h3').textContent()) ?? '').trim();
+  const reference = (await premiere.locator('.reference').textContent()) ?? '';
+  expect(reference).toContain(titreCarte);
+  expect(titreCarte).not.toBe('La carotte disparue');
 
   await expect(premiere.locator('.accroche')).toContainText('en une ligne');
   await expect(premiere.locator('.resume li')).toHaveCount(3);
@@ -198,10 +211,10 @@ test('chaque carte cite le conte d’origine, raconte, distribue et dit ce qui c
 test('« Proposer 3 autres histoires » renouvelle les propositions', async ({ page }) => {
   await preparerStudio(page);
   await lancerEtAttendreLeChoix(page);
-  await expect(page.getByText('La carotte disparue', { exact: false }).first()).toBeVisible();
+  await expect(page.getByText('en une ligne.', { exact: false }).first()).toBeVisible();
 
   await page.getByRole('button', { name: 'Proposer 3 autres histoires' }).click();
-  await expect(page.getByText('La carotte disparue bis').first()).toBeVisible({ timeout: 15000 });
+  await expect(page.getByText('en une ligne bis.').first()).toBeVisible({ timeout: 15000 });
 
   // Trois relances au maximum (CDC §6).
   await expect(page.getByText('2 relances possibles')).toBeVisible();
@@ -264,7 +277,7 @@ test('le spectacle généré se retrouve après rechargement, et se renomme', as
 
   await page.reload();
   const spectacles = page.getByRole('region', { name: 'Spectacles' });
-  await expect(spectacles).toContainText('La carotte disparue');
+  await expect(spectacles.getByRole('button').first()).toBeVisible();
 
   // Renommage depuis la colonne de droite (CDC §7).
   await spectacles.getByRole('button', { name: 'Renommer' }).first().click();
@@ -469,7 +482,7 @@ test('après avoir lu et joué le spectacle, le studio est prêt pour une nouvel
   await expect(page.getByText('Votre spectacle est prêt')).toBeVisible({ timeout: 20000 });
 
   // On ouvre le spectacle depuis la colonne de droite, pas par le bouton.
-  await page.getByRole('region', { name: 'Spectacles' }).getByText('La carotte disparue').first().click();
+  await page.getByRole('region', { name: 'Spectacles' }).getByRole('button').first().click();
   await expect(page).toHaveURL(/#\/spectacle\//);
   await page.getByRole('button', { name: 'Jouer' }).click();
   await expect(page).toHaveURL(/\/jouer$/);
@@ -538,7 +551,7 @@ test('on peut générer sans avoir garni la scène : l’outil distribue', async
   await expect(page.getByRole('button', { name: 'Choisir cette histoire' })).toHaveCount(3);
 
   // Chaque proposition arrive avec SA distribution.
-  const premiere = page.locator('article').filter({ hasText: 'La carotte disparue' });
+  const premiere = page.locator('article').filter({ hasText: 'l’histoire 1, en une ligne' });
   await expect(premiere.locator('.distribution li').first()).not.toBeEmpty();
 
   // Choisir une histoire garnit la scène de sa troupe.

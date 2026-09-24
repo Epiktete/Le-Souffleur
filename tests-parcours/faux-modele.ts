@@ -23,9 +23,11 @@ function synopsis(user: string, suffixe = '') {
   return {
     synopsis: contes.slice(0, 3).map((conte, i) => ({
       conte,
-      // Le premier porte le titre que le spectacle doit garder.
-      titre: `${i === 0 ? 'La carotte disparue' : `Histoire ${i + 1}`}${suffixe}`,
-      accroche: `De quoi parle l’histoire ${i + 1}, en une ligne.`,
+      // Le titre que le modèle propose est IGNORÉ : l'application recopie
+      // celui de la fiche. On en met un faux exprès, pour que les parcours
+      // vérifient qu'il ne remonte jamais jusqu'au parent.
+      titre: 'La carotte disparue',
+      accroche: `De quoi parle l’histoire ${i + 1}, en une ligne${suffixe}.`,
       resume: [
         'Doudou Lapin cherche la carotte de son anniversaire.',
         'Renard Rusé l’envoie sur une fausse piste.',
