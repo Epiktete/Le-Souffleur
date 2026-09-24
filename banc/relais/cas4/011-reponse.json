@@ -1,0 +1,12 @@
+{"elements": [
+  {"type": "didascalie", "texte": "Petit Chat, bien au chaud dans la cabane, se pelotonne et miaule de plaisir."},
+  {"type": "entree", "marionnette": "Jean le Paysan", "main": "M2D"},
+  {"type": "didascalie", "texte": "Jean le Paysan s'arrête net et penche la tête vers la cabane, l'air gourmand."},
+  {"type": "didascalie", "texte": "Jean le Paysan se tourne vers la coulisse."},
+  {"type": "replique", "marionnette": "Jean le Paysan", "texte": "Eh bien, mes chers compères, j'ai trouvé à manger pour tout le monde : pour toi, l'ours, un hibou ; pour toi, le loup, une chèvre ; et pour moi, un chat.", "ton": "à voix basse, rusé"},
+  {"type": "note_marionnettiste", "texte": "Voix du Loup et de l'Ours, en coulisse : grognements d'impatience."},
+  {"type": "sortie", "marionnette": "Jean le Paysan", "main": "M2D"},
+  {"type": "note_marionnettiste", "texte": "Voix du Loup et de l'Ours, en coulisse : « Très bien, compère, nous n'oublierons jamais ce service ! Allons-y, et mangeons ! »"},
+  {"type": "entree", "marionnette": "Jean le Paysan", "main": "M2D"},
+  {"type": "didascalie", "texte": "Jean le Paysan revient se poster devant la cabane, prêt à tenter sa chance."}
+]}

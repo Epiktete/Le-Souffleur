@@ -323,10 +323,14 @@ export function controler(c: ContexteControle): Probleme[] {
           + `${Math.round(c.dureeCibleSecondes / 60)} min visées.`,
     });
 
+    // Plus large que la tolérance du spectacle entier (±20 %) : les actes
+    // sont inégaux par nature, et une correction demandée pour dix secondes
+    // d'écart coûte un appel entier pour revenir, le plus souvent, inchangée.
+    const TOLERANCE_ACTE = 0.35;
     const partParActe = c.dureeCibleSecondes / Math.max(1, c.actes.length);
     for (const acte of c.actes) {
       const sienne = dureeElements(acte.elements).secondes;
-      if (dansLaTolerance(sienne, partParActe)) continue;
+      if (Math.abs(sienne - partParActe) <= partParActe * TOLERANCE_ACTE) continue;
       const motsAGagner = Math.round(((partParActe - sienne) / 60) * DUREE.motsParMinute);
       problemes.push({
         gravite: 'important',

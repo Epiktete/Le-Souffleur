@@ -269,12 +269,25 @@ export function especeMarionnette(m: Pick<Marionnette, 'nom' | 'description'>):
   // sur une chose : « un lapin offert par papa » est un lapin, et « il a peur
   // du feu » ne fait pas de lui un feu.
   const rang = (f: Famille) => (HUMAINS.includes(f) ? 1 : f === 'objet' ? 2 : 0);
-  for (const texte of [m.nom, m.description]) {
-    const trouves = mots(texte)
-      .map((mot) => ({ mot, famille: FAMILLE_DU_MOT.get(mot) }))
-      .filter((t): t is { mot: string; famille: Famille } =>
-        t.famille !== undefined && (t.famille !== 'objet' || jouets.includes(t.mot)));
+  const reconnus = (texte: string) => mots(texte)
+    .map((mot) => ({ mot, famille: FAMILLE_DU_MOT.get(mot) }))
+    .filter((t): t is { mot: string; famille: Famille } =>
+      t.famille !== undefined && (t.famille !== 'objet' || jouets.includes(t.mot)));
+
+  // Le nom l'emporte sur la description, SAUF quand la description précise le
+  // même mot : « Petit Chat », décrit « un chaton roux tout doux », est un
+  // chaton — une petite bête douce — et non un chat, qui est un prédateur.
+  // Sans cela, le relais a vu ce chaton distribué trois fois dans un rôle de
+  // renard.
+  const duNom = reconnus(m.nom);
+  const deLaDescription = reconnus(m.description);
+  const precise = duNom.length > 0 && deLaDescription.find(
+    (d) => duNom.some((n) => d.mot !== n.mot && d.mot.startsWith(n.mot)),
+  );
+
+  for (const trouves of precise ? [[precise]] : [duNom, deLaDescription]) {
     if (trouves.length === 0) continue;
+    const texte = trouves === duNom ? m.nom : m.description;
     const t = trouves.sort((a, b) => rang(a.famille) - rang(b.famille))[0];
     const libelle = libelleDans(texte, t.mot);
     // Une poupée ou un pantin joue un humain.
@@ -597,6 +610,32 @@ export function noteCastelet(
   if (c.lieux.split(',').filter((l) => l.trim()).length >= 4) note -= 0.15;
   note += c.personnages >= 2 && c.personnages <= 4 ? 0.1 : -0.15;
   return Math.max(0, Math.min(1, note));
+}
+
+/**
+ * Ce que le conte pèse VRAIMENT, une fois les rôles sans marionnette retirés.
+ *
+ * Le nombre de mots d'un conte compte tout ce qu'il raconte. Mais un rôle
+ * qu'aucune marionnette ne tient est supprimé, fondu ou relégué en coulisse :
+ * son texte ne se dit pas. « L'Hiver des bêtes » fait 909 mots pour un
+ * spectacle de 1 000 — le ratio idéal — mais quatre de ses huit rôles n'ont
+ * pas de peluche. Mesuré au relais : le spectacle a duré quatre minutes au
+ * lieu de dix.
+ *
+ * On ne retire pas leur part entière : la narration et les rôles principaux
+ * portent plus que leur poids, et un figurant supprimé se fond souvent dans un
+ * autre plutôt que de disparaître. La moitié est une approximation honnête.
+ */
+export function motsJouables(
+  mots: number,
+  conte: Pick<Conte, 'roles'>,
+  distribution: Attribution[],
+): number {
+  const total = conte.roles.length;
+  if (total === 0) return mots;
+  const tenus = new Set(distribution.map((a) => a.role));
+  const perdus = conte.roles.filter((r) => !tenus.has(r)).length;
+  return Math.round(mots * (1 - 0.5 * (perdus / total)));
 }
 
 /**
@@ -929,7 +968,7 @@ export function choisirContes(
         nombre,
         // Les traits vont de -1 à 1 : on les ramène entre 0 et 1.
         traits: (moyenne((a) => a.traits) + 1) / 2,
-        duree: infos.mots ? noteDuree(infos.mots, motsSpectacle) : 0.5,
+        duree: infos.mots ? noteDuree(motsJouables(infos.mots, conte, distribution), motsSpectacle) : 0.5,
         ebauche: avecEbauche ? noteEbauche(o.ebauche!, conte, infos.cles) : 0,
         espece: moyenne((a) => a.espece) * facteurJumelles(distribution),
         castelet: noteCastelet(conte),

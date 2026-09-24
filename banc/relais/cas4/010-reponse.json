@@ -1,0 +1,17 @@
+{"elements": [
+  {"type": "didascalie", "texte": "Le vent souffle fort dehors ; Vieux Hibou reste bien au chaud dans sa cabane."},
+  {"type": "entree", "marionnette": "Dame Chèvre", "main": "M1D"},
+  {"type": "didascalie", "texte": "Dame Chèvre s'approche de la cabane en tremblant, et frappe à la porte."},
+  {"type": "replique", "marionnette": "Dame Chèvre", "texte": "Laisse-moi entrer me réchauffer, frère.", "ton": "frigorifiée, suppliante"},
+  {"type": "replique", "marionnette": "Vieux Hibou", "texte": "Non, Dame Chèvre, tu as un manteau chaud, tu passeras l'hiver comme ça. Je ne te laisse pas entrer !", "ton": "ferme, un peu désolé"},
+  {"type": "replique", "marionnette": "Dame Chèvre", "texte": "Si tu ne me laisses pas entrer, je vais prendre mon élan et faire sauter une poutre de ta cabane : tu auras encore plus froid.", "ton": "menaçante, décidée"},
+  {"type": "adresse_public", "marionnette": "Vieux Hibou", "texte": "Je ferais mieux de la laisser entrer, sinon c'est moi qui vais geler.", "attenteReponse": false},
+  {"type": "didascalie", "texte": "Vieux Hibou s'écarte, et Dame Chèvre entre se blottir dans la cabane, soulagée."},
+  {"type": "entree", "marionnette": "Petit Chat", "main": "M2G"},
+  {"type": "didascalie", "texte": "Petit Chat s'approche à son tour, transi, et frappe à la porte."},
+  {"type": "replique", "marionnette": "Petit Chat", "texte": "Laisse-moi entrer me réchauffer, frère.", "ton": "transi, suppliant"},
+  {"type": "replique", "marionnette": "Vieux Hibou", "texte": "Non, je ne te laisse pas entrer. Toi, Petit Chat, tu as une bonne fourrure bien épaisse. Tu passeras l'hiver comme ça !", "ton": "ferme"},
+  {"type": "replique", "marionnette": "Petit Chat", "texte": "Tu ne me laisses pas entrer ? Alors je vais grimper là-haut et gratter toute la terre de ton toit : tu auras encore plus froid.", "ton": "menaçant, malicieux"},
+  {"type": "adresse_public", "marionnette": "Vieux Hibou", "texte": "Que puis-je faire ?", "attenteReponse": false},
+  {"type": "didascalie", "texte": "Vieux Hibou soupire, s'écarte, et Petit Chat se glisse dans la cabane, tout content."}
+]}

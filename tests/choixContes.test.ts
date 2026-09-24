@@ -341,6 +341,22 @@ describe('la distribution', () => {
     expect(meilleureDistribution([m('a', 'Lapin', ['gentil']), m('b', 'Lapine', ['gentil'])], c)).toBeNull();
   });
 
+  it('« Petit Chat », décrit comme un chaton, est une petite bête douce', () => {
+    // Le nom l'emporte sur la description, sauf quand la description PRÉCISE
+    // le même mot. Sans cela, le relais a vu ce chaton distribué trois fois
+    // dans un rôle de renard.
+    const chaton = especeMarionnette({ nom: 'Petit Chat', description: 'Un chaton roux tout doux.' });
+    expect(chaton?.mot).toBe('chaton');
+    expect(compatibiliteEspece(chaton, { mot: 'renard', famille: 'predateur' })).toBe(INTERDIT);
+
+    // Un vrai chat reste un prédateur.
+    expect(especeMarionnette({ nom: 'Minou', description: 'Un chat noir.' })?.famille)
+      .toBe('predateur');
+    // Et le nom l'emporte toujours quand la description parle d'autre chose.
+    expect(especeMarionnette({ nom: 'Doudou Lapin', description: 'Offert par sa mamie.' })?.mot)
+      .toBe('lapin');
+  });
+
   it('une tortue ni une fourmi ne jouent le loup', () => {
     // « petit » ne suffisait pas : une tortue est rangée dans « eau », une
     // fourmi dans « bestiole ». Le relais a vu l'application distribuer

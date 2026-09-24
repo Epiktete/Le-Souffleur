@@ -1,65 +1,10 @@
-{"synopsis": [
-  {"conte": "it-giufa", "titre": "Une histoire de Giufà",
-   "accroche": "Chassé de la ferme en haillons, il y revient déguisé en garde — et c'est son habit qu'on reçoit comme invité.",
-   "resume": [
-     "Petit Chat a faim ; malgré les mises en garde de Jean le Paysan, il part seul, en habits usés, vers la ferme du bas.",
-     "À la ferme, Dame Chèvre le chasse en criant : sans bel habit, pas de repas pour lui.",
-     "Jean le Paysan emprunte à Vieux Hibou un chapeau à plumes et une sacoche de garde champêtre.",
-     "Déguisé, Petit Chat revient : Dame Chèvre le reçoit comme un roi et le régale de bon cœur.",
-     "Il remplit sacoche et chapeau pour « nourrir l'habit » ; rentré chargé de cadeaux, il doit maintenant le nettoyer avant de le rendre à Vieux Hibou."
-   ],
-   "distribution": [
-     {"marionnette": "Jean le Paysan", "role": "la Mère de Giufà", "note": "travailleur et rusé comme elle, il sait comment obtenir cet habit"},
-     {"marionnette": "Dame Chèvre", "role": "le Fermier grincheux", "note": "aussi grognon que ce fermier bougon"},
-     {"marionnette": "Petit Chat", "role": "Giufà", "note": "aussi farceur et gourmand que ce garçon plein de ruses"},
-     {"marionnette": "Vieux Hibou", "role": "le Compère garde champêtre", "note": "sage et digne de confiance, on lui prête volontiers son habit"}
-   ],
-   "changements": [
-     "Le bâton qui chasse Petit Chat devient des cris, sans coup porté — la bousculade reste comique, jamais violente.",
-     "Le fusil et la cartouchière du déguisement deviennent un chapeau à plumes et une sacoche, plus simples à mimer avec des marionnettes.",
-     "La fin ouverte du conte (l'habit taché) devient une vraie scène : Petit Chat se débrouille pour le laver avant de le rendre à Vieux Hibou."
-   ]
-  },
-  {"conte": "afr-lievre-et-rainette", "titre": "Le Lièvre et la Rainette",
-   "accroche": "Un lièvre malin boit en cachette à un puits interdit, jusqu'à ce qu'une toute petite rainette l'attrape par surprise.",
-   "resume": [
-     "Sur l'ordre de Dame Chèvre, tous les animaux creusent le puits ; Petit Chat refuse d'aider, et n'a donc plus le droit d'y boire.",
-     "Vieux Hibou monte la garde ; Petit Chat lui fait goûter du miel, le convainc de se laisser attacher les pattes, puis boit tranquillement.",
-     "Le même tour marche encore sur d'autres gardiens, chacun flatté puis ligoté à son tour.",
-     "Jean le Paysan, tout petit, se propose et se cache au fond de l'eau sans un bruit.",
-     "Sûr de lui, Petit Chat vient se baigner : Jean le Paysan l'attrape patte après patte et l'amène devant Dame Chèvre, qui le fait nettoyer le puits avant de le laisser filer."
-   ],
-   "distribution": [
-     {"marionnette": "Jean le Paysan", "role": "la Rainette", "note": "aussi rusé qu'elle, et c'est lui qui déjoue le tour final"},
-     {"marionnette": "Dame Chèvre", "role": "le Roi", "note": "aussi grognon que ce personnage qui fait respecter la règle du puits"},
-     {"marionnette": "Petit Chat", "role": "le Lièvre", "note": "aussi farceur que ce malin qui multiplie les tours"},
-     {"marionnette": "Vieux Hibou", "role": "la Gazelle", "note": "gardien facilement berné malgré sa sagesse — un ressort comique"}
-   ],
-   "changements": [
-     "Les cordes qui lient les gardiens à leur poste remplacent les coups de bâton du conte, avec des chatouilles pour faire rire plutôt que punir.",
-     "La fin cruelle disparaît : capturé, Petit Chat doit nettoyer le puits avant que Dame Chèvre ne le laisse repartir d'un bond, comme dans le conte.",
-     "La ruse du miel se répète en ritournelle sur deux gardiens plutôt que quatre, pour tenir dans le temps du spectacle."
-   ]
-  },
-  {"conte": "ru-ours-et-loups-effrayes", "titre": "L’Ours et les Loups effrayés",
-   "accroche": "Un chat et une chèvre en fuite font croire à des loups qu'ils sont des chasseurs redoutables, jusqu'à effrayer l'ours lui-même.",
-   "resume": [
-     "Surpris à voler de la crème, Petit Chat convainc Dame Chèvre de fuir avec lui dans la forêt.",
-     "Ils trouvent une vieille tête de loup en bois et arrivent près du feu d'une bande de loups.",
-     "« Choisis la plus grasse pour notre dîner ! » Dame Chèvre montre plusieurs fois la même tête ; les loups s'éclipsent un à un, terrorisés.",
-     "Les loups racontent tout à Jean le Paysan ; Vieux Hibou en rajoute encore. On invite les deux terribles visiteurs à dîner.",
-     "Petit Chat prend peur d'une petite queue et saute dans l'arbre où se cachait Jean le Paysan, qui tombe de terreur : la ruse a marché jusqu'au bout."
-   ],
-   "distribution": [
-     {"marionnette": "Jean le Paysan", "role": "l'Ours", "note": "travailleur et robuste, il porte bien la stature du gros ours peureux"},
-     {"marionnette": "Dame Chèvre", "role": "le Bélier", "note": "aussi têtue et forte que ce bélier qui tient bon dans le bluff"},
-     {"marionnette": "Petit Chat", "role": "le Chat", "note": "aussi coquin que ce chat rusé, meneur de toute la ruse"},
-     {"marionnette": "Vieux Hibou", "role": "la Renarde", "note": "bavarde comme elle, elle amplifie la rumeur jusqu'à l'ours"}
-   ],
-   "changements": [
-     "Les griffures et les coups de tête du conte deviennent de simples bousculades et gros mots comiques, sans blessure.",
-     "Le masque en tête de loup peut être un vieux bonnet ou un masque en carton, plus facile à manier par les marionnettistes.",
-     "Le public peut être rendu complice du bluff en voyant revenir plusieurs fois la même tête de loup, un clin d'œil gardé du conte."
-   ]
-  }
-]}
+{"texte": "Vieux Hibou marchait dans la forêt ; il rencontre Dame Chèvre.\n\n— Où vas-tu, Dame Chèvre ? demanda Vieux Hibou.\n\n— Je fuis l'hiver, je cherche l'été, dit Dame Chèvre.\n\n— Viens avec moi !\n\nIls partent ensemble ; ils rencontrent un cochon.\n\n— Où vas-tu, cochon ? demanda Vieux Hibou.\n\n— Je fuis l'hiver, je cherche l'été, répond le cochon.\n\n— Viens avec nous !\n\nIls continuent à trois ; ils rencontrent une oie.\n\n— Où vas-tu, l'oie ? demanda Vieux Hibou.\n\n— Je fuis l'hiver, je cherche l'été, répond l'oie.\n\n— Eh bien, suis-nous !\n\nEt l'oie les suivit. Ils marchent, et voilà qu'ils rencontrent Petit Chat.\n\n— Où vas-tu, Petit Chat ? demanda Vieux Hibou.\n\n— Je fuis l'hiver, je cherche l'été, répond Petit Chat.\n\n— Suis-nous !\n\nLes voilà qui marchent sur la route, et qui discutent entre eux :\n\n— Alors, mes frères, mes camarades ? La saison froide arrive : où trouver de la chaleur ?\n\nVieux Hibou dit :\n\n— Eh bien, construisons une cabane, sinon nous allons vraiment geler cet hiver.\n\nDame Chèvre dit :\n\n— Moi, j'ai un manteau bien chaud — regardez-moi ce poil ! Je passerai l'hiver comme ça.\n\nLe cochon dit :\n\n— Moi, les gelées, je m'en moque, je n'en ai pas peur : je m'enfouirai dans la terre, et je passerai l'hiver sans cabane.\n\nL'oie dit :\n\n— Et moi, je me mettrai au milieu d'un sapin, j'étendrai une aile en dessous et je me couvrirai de l'autre : aucun froid ne m'attrapera. Je passerai l'hiver comme ça.\n\nPetit Chat dit :\n\n— Et moi, je me roulerai en boule dans la paille : aucun froid ne m'attrapera. Je passerai l'hiver comme ça.\n\nVieux Hibou voit que ça va mal, qu'il va devoir se débrouiller tout seul.\n\n— Eh bien, dit-il, faites comme vous voulez, moi je vais construire une cabane.\n\nIl se construisit une petite cabane, et il y vit.\n\nVoilà que vint l'hiver froid, et les gelées commencèrent à mordre. Dame Chèvre, il n'y a rien à faire, vient chez Vieux Hibou :\n\n— Laisse-moi entrer me réchauffer, frère.\n\n— Non, Dame Chèvre, tu as un manteau chaud, tu passeras l'hiver comme ça. Je ne te laisse pas entrer !\n\n— Si tu ne me laisses pas entrer, je vais prendre mon élan et faire sauter une poutre de ta cabane : tu auras encore plus froid.\n\nVieux Hibou réfléchit, réfléchit : « Je ferais mieux de la laisser entrer, sinon c'est moi qui vais geler. » Et il laissa entrer Dame Chèvre.\n\nPuis le cochon eut froid, et vint chez Vieux Hibou :\n\n— Laisse-moi entrer me réchauffer, frère.\n\n— Non, je ne te laisse pas entrer : tu t'enfouiras dans la terre, et tu passeras l'hiver comme ça !\n\n— Si tu ne me laisses pas entrer, je vais creuser sous tous tes poteaux avec mon groin, et faire tomber ta cabane.\n\nIl n'y a rien à faire, il faut le laisser entrer ; il laissa entrer aussi le cochon. Puis l'oie et Petit Chat vinrent chez Vieux Hibou :\n\n— Laisse-nous entrer nous réchauffer, frère.\n\n— Non, je ne vous laisse pas entrer. Toi, l'oie, tu as deux ailes : une pour te coucher dessus, l'autre pour te couvrir. Et toi, Petit Chat, tu as une bonne fourrure bien épaisse. Vous passerez l'hiver comme ça !\n\n— Si tu ne me laisses pas entrer, dit l'oie, je vais arracher toute la mousse entre les poutres de tes murs : tu auras encore plus froid.\n\n— Tu ne me laisses pas entrer ? dit Petit Chat. Alors je vais grimper là-haut et gratter toute la terre de ton toit : tu auras encore plus froid.\n\nQue pouvait faire Vieux Hibou ? Il laissa entrer chez lui l'oie et Petit Chat.\n\nLes voilà qui vivent tous ensemble dans la petite cabane. Petit Chat, une fois bien réchauffé, se mit à miauler de plaisir. Jean le Paysan entendit Petit Chat miauler ainsi, et il eut envie de se régaler du petit chat. Mais comment l'attraper ? Jean le Paysan eut recours à la ruse. Il alla trouver l'ours et le loup, et leur dit :\n\n— Eh bien, mes chers compères, j'ai trouvé à manger pour tout le monde : pour toi, l'ours, un hibou ; pour toi, le loup, une chèvre ; et pour moi, un chat.\n\n— Très bien, compère, dirent l'ours et le loup, nous n'oublierons jamais ce service ! Allons-y, et mangeons !\n\nJean le Paysan les mena à la petite cabane.\n\n— Compère, dit-il à l'ours, ouvre la porte, j'entre le premier, je vais manger le chat.\n\nL'ours ouvrit la porte, et Jean le Paysan sauta dans la cabane. Vieux Hibou le vit, et aussitôt le bouscula contre le mur, et Dame Chèvre se mit à le pousser des flancs. Jean le Paysan n'en menait pas large.\n\n— Qu'est-ce qu'il fait, à ne pas en finir avec le chat ? dit le loup. Ouvre, frère Michel ! J'y vais.\n\n— Eh bien, vas-y.\n\nL'ours ouvrit la porte, et le loup sauta dans la cabane. Vieux Hibou le bouscula lui aussi contre le mur, et Dame Chèvre se mit à le pousser des flancs, et ils le reçurent si bien que le loup en eut le souffle coupé.\n\nL'ours attendit, attendit :\n\n— Qu'est-ce qu'il fait, à ne pas en finir avec Dame Chèvre ! Laisse-moi y aller.\n\nIl entra dans la cabane, et Vieux Hibou et Dame Chèvre le reçurent de la même façon. Il eut bien du mal à s'échapper, et s'enfuit sans se retourner.",
+ "changements": [
+   "Le bélier devenu Dame Chèvre n'a pas de laine : elle vante « ce poil » plutôt que sa laine pour dire qu'elle craint pas le froid.",
+   "Le coq devenu Petit Chat ne pouvant ni voler ni s'abriter sous une aile comme l'oie, il promet de se rouler en boule dans la paille plutôt que de faire « pareil ».",
+   "Le refus adressé ensemble à l'oie et au coq (« vous avez chacun deux ailes ») est scindé en deux réponses, Petit Chat n'ayant pas d'ailes mais une bonne fourrure.",
+   "La menace du coq de s'envoler sur le toit devient, pour Petit Chat qui ne vole pas, le fait d'y grimper.",
+   "Le coq qui chantait des chansons devient Petit Chat qui miaule de plaisir, un chat ne chantant pas.",
+   "La Renarde devient Jean le Paysan : tous les accords passent au masculin (elle devient il, commère devient compère, « j'entre la première » devient « j'entre le premier »).",
+   "Les coups de cornes de Vieux Hibou, qui n'en a pas en tant que hibou, et de Dame Chèvre contre les intrus deviennent des bousculades, comme l'indique la fiche du conte pour adoucir la bagarre finale."
+ ]}

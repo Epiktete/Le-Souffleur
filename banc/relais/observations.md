@@ -275,3 +275,62 @@
   accroche 140→200, titre 90→120, changements 260→400) et la concision est
   demandée EN PHRASES dans le prompt. Le schéma n'arrête plus que ce qui
   casserait l'affichage.
+
+## Leçon de méthode
+- Changer un prompt EN COURS de cas désynchronise le rejeu : les réponses
+  enregistrées ne répondent plus aux prompts régénérés. Les cas 4 et 5 sont
+  donc joués d'un bloc, sans retouche, pour valider tous les correctifs
+  ensemble.
+
+## Cas 4, étape 001 (rejoué) — synopsis  ⚠ À CORRIGER APRÈS LE CAS
+- TROISIÈME occurrence : « Petit Chat », décrit « un chaton roux tout doux »,
+  est distribué en RENARDE. `especeMarionnette` lit le NOM avant la
+  description : « chat » est un prédateur, « chaton » une petite bête douce.
+  Le nom l'emporte, donc le chaton devient prédateur et peut jouer un renard.
+  L'agent a dû corriger la distribution de lui-même — « un piège caché dans
+  les données plutôt que dans la consigne ».
+- La légende des crochets n'illustre pas le cas d'une marionnette HUMAINE
+  jouant un rôle animal.
+
+## Cas 4, étape 002 — transposition
+- SUCCÈS : mon correctif est compris — l'agent garde le texte intégral et
+  laisse les coupes au découpage, sans hésiter.
+- Le changement de GENRE (la Renarde jouée par Jean le Paysan : elle→il,
+  commère→compère, « la première »→« le premier ») est « la retouche la plus
+  dense de tout le texte » et rien ne la signale. À ajouter.
+
+## Cas 4, étape 003 — découpage
+- CONFIRMÉ (2e fois) : le champ « temps » n'est décrit NULLE PART, alors que
+  « passage », « momentsPublic » et « budgetMots » le sont tous. À corriger.
+- Rien ne dit si un CHANGEMENT DE TABLEAU oblige à faire sortir tout le monde.
+  L'agent a supposé que oui, ce qui est raisonnable mais deviné.
+
+## Cas 4, étape 005 — écriture
+- Une PENSÉE INTÉRIEURE du conte (« Vieux Hibou réfléchit, réfléchit : … »)
+  peut aller en aparté ou en didascalie : le prompt ne tranche pas.
+
+## Cas 4, étape 008 — relecture
+- Le prompt donne TROIS textes (conte d'origine, transposition, script) et
+  n'indique pas lequel sert de référence : comparer au mauvais fait croire
+  que des personnages ont « disparu sans raison ».
+- Le format des remarques n'accepte que des remarques PAR ACTE : un défaut
+  récurrent dans tout le script (les didascalies qui finissent par un état —
+  « …soulagée », « …tout content ») n'a aucune place où se dire, et le
+  relecteur a préféré se taire plutôt que de répéter la même chose cinq fois.
+
+## Cas 4, étape 009 — correction  ⚠ LEVIER DE COÛT
+- L'échappatoire « laisse l'acte court » fonctionne, mais l'appel a été
+  DÉPENSÉ POUR RIEN : l'acte est revenu inchangé. Quand le seul reproche est
+  la durée et qu'il n'y a rien à développer honnêtement, la correction est
+  pure perte. À CORRIGER : élargir la tolérance PAR ACTE (±20 % → ±35 %) en
+  gardant ±20 % pour le spectacle entier, pour que seuls les vrais écarts
+  déclenchent une réécriture.
+
+## Cas 4 terminé — LA CAUSE DE VOTRE PLAINTE D'ORIGINE
+- 4 min pour 10 demandées. Le conte fait 909 mots pour 1 000 visés, le ratio
+  idéal — MAIS quatre de ses huit rôles n'ont pas de marionnette. Leur texte
+  ne se dit pas, et la durée s'effondre.
+- `noteDuree` comptait le conte ENTIER. Elle compte désormais ce qui sera
+  VRAIMENT JOUÉ : `motsJouables` retire la moitié de la part des rôles non
+  tenus (approximation honnête — la narration et les rôles principaux portent
+  plus que leur poids).

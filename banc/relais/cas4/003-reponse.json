@@ -1,0 +1,86 @@
+{"titre": "L’Hiver des bêtes",
+ "pitch": "Vieux Hibou est seul à préparer l’hiver, et sa petite cabane finit par sauver tout le monde, même le rôdeur qui voulait s’y inviter par ruse.",
+ "changements": [
+   "Le cochon et l’oie, déjà écartés par le synopsis du parent, ne jouent aucun rôle dans le découpage : sur le chemin comme à la porte de la cabane, seuls Dame Chèvre et Petit Chat entourent Vieux Hibou.",
+   "Les scènes de supplique, répétées quatre fois dans le conte (chèvre, cochon, oie, coq), sont resserrées à deux passages successifs à l’acte 2 (Dame Chèvre puis Petit Chat), pour tenir le budget de mots sans toucher au dénouement.",
+   "Le loup et l’ours restent hors scène du début à la fin : à l’acte 3 on les entend grogner d’impatience en coulisse, et à l’acte 4 leur propre tentative et leur fuite sont racontées par un effet de voix, non jouées, puisque seul Jean le Paysan a une marionnette pour entrer dans la cabane.",
+   "La bagarre finale, qui comptait trois assauts dans le conte, n’en montre qu’un sur scène (Jean le Paysan bousculé par Vieux Hibou et Dame Chèvre) ; les deux autres sont dits.",
+   "L’acte 4 ajoute une courte scène de réconciliation, suggérée par la fiche du conte : une fois le danger parti, les trois marionnettes de la cabane se promettent de rebâtir ensemble la prochaine fois."
+ ],
+ "tableaux": [
+   {"id": "t1", "titre": "Le chemin de l’hiver", "description": "Un espace dégagé devant les marionnettistes, sans meuble ni décor : le chemin que suivent les bêtes en fuite devant le froid. Rien à installer, juste la place pour que trois marionnettes se croisent et discutent debout.", "accessoires": []},
+   {"id": "t2", "titre": "La cabane de Vieux Hibou", "description": "Un carton ou une caisse retournée au centre figure la cabane, avec un tissu ou une planche posée devant en guise de porte. Un drap plié ou deux coussins juste à côté marquent l’intérieur, où les personnages se serrent une fois entrés.", "accessoires": []}
+ ],
+ "actes": [
+   {"numero": 1, "titre": "Le chemin de l’hiver", "tableauId": "t1",
+     "resume": "Vieux Hibou croise Dame Chèvre puis Petit Chat sur le chemin ; il propose de bâtir une cabane ensemble, mais les deux refusent en riant, chacun sûr de son pelage. Vieux Hibou les laisse partir et décide de construire seul.",
+     "passage": "De « Vieux Hibou marchait dans la forêt… » à « …moi je vais construire une cabane. »",
+     "temps": [
+       "Vieux Hibou marche seul sur le chemin de l’hiver.",
+       "Il croise Dame Chèvre, puis Petit Chat, qui vont dans la même direction que lui.",
+       "Il leur propose de bâtir une cabane ensemble ; les deux refusent en riant, chacun sûr de son pelage ou de sa fourrure.",
+       "Vieux Hibou les laisse partir et décide de construire seul."
+     ],
+     "mouvements": [
+       {"type": "entree", "marionnette": "Vieux Hibou", "main": "M1G"},
+       {"type": "entree", "marionnette": "Dame Chèvre", "main": "M1D"},
+       {"type": "entree", "marionnette": "Petit Chat", "main": "M2G"},
+       {"type": "sortie", "marionnette": "Dame Chèvre", "main": "M1D"},
+       {"type": "sortie", "marionnette": "Petit Chat", "main": "M2G"},
+       {"type": "sortie", "marionnette": "Vieux Hibou", "main": "M1G"}
+     ],
+     "momentsPublic": [],
+     "budgetMots": 220},
+   {"numero": 2, "titre": "La porte qui finit par s’ouvrir", "tableauId": "t2",
+     "resume": "L’hiver mord et Vieux Hibou vit à l’abri dans sa cabane. Dame Chèvre revient frigorifiée, menace de tout démolir, et finit par entrer. Petit Chat arrive à son tour, tout aussi transi, et Vieux Hibou le laisse entrer lui aussi.",
+     "passage": "De « Il se construisit une petite cabane, et il y vit. » à « …il laissa entrer chez lui l’oie et Petit Chat. »",
+     "temps": [
+       "L’hiver mord, et Vieux Hibou vit maintenant bien à l’abri dans sa cabane.",
+       "Dame Chèvre revient frigorifiée frapper à la porte et menace de tout démolir si on ne la laisse pas entrer.",
+       "Vieux Hibou refuse d’abord, puis cède et la laisse entrer.",
+       "Petit Chat arrive à son tour, tout aussi transi, menace de grimper gratter le toit, et Vieux Hibou finit par le laisser entrer aussi."
+     ],
+     "mouvements": [
+       {"type": "entree", "marionnette": "Vieux Hibou", "main": "M1G"},
+       {"type": "entree", "marionnette": "Dame Chèvre", "main": "M1D"},
+       {"type": "entree", "marionnette": "Petit Chat", "main": "M2G"}
+     ],
+     "momentsPublic": [],
+     "budgetMots": 260},
+   {"numero": 3, "titre": "Un miaulement de trop", "tableauId": "t2",
+     "resume": "Bien au chaud, Petit Chat se met à miauler de plaisir. Non loin, Jean le Paysan l’entend et comprend qu’il y a un repas facile. Il s’éloigne chercher du renfort, qu’on entend grogner d’impatience en coulisse, puis revient seul se poster devant la cabane.",
+     "passage": "De « Les voilà qui vivent tous ensemble dans la petite cabane. » à « Jean le Paysan les mena à la petite cabane. »",
+     "temps": [
+       "Bien au chaud, Petit Chat se met à miauler de plaisir.",
+       "Non loin, Jean le Paysan l’entend et comprend qu’il y a un repas facile à prendre.",
+       "Il s’éloigne annoncer son plan à deux compères, qu’on entend grogner d’impatience en coulisse.",
+       "Il revient seul se poster devant la cabane, prêt à tenter sa chance."
+     ],
+     "mouvements": [
+       {"type": "entree", "marionnette": "Jean le Paysan", "main": "M2D"},
+       {"type": "sortie", "marionnette": "Jean le Paysan", "main": "M2D"}
+     ],
+     "momentsPublic": [],
+     "budgetMots": 200},
+   {"numero": 4, "titre": "La cabane tient bon", "tableauId": "t2",
+     "resume": "Jean le Paysan entre le premier pour attraper Petit Chat ; Vieux Hibou et Dame Chèvre le bousculent aussitôt et il s’enfuit. Ses deux compères, entendus en coulisse, renoncent à leur tour et détalent. Réchauffés et rassurés, Vieux Hibou, Dame Chèvre et Petit Chat se promettent de bâtir ensemble la prochaine fois.",
+     "passage": "De « Compère, dit-il à l’ours, ouvre la porte, j’entre le premier, je vais manger le chat. » à « …il eut bien du mal à s’échapper, et s’enfuit sans se retourner. »",
+     "temps": [
+       "Jean le Paysan entre le premier dans la cabane pour attraper Petit Chat.",
+       "Vieux Hibou et Dame Chèvre le bousculent aussitôt contre la paroi, et il ressort en courant.",
+       "On entend au loin ses deux compères renoncer à leur tour et s’enfuir pour de bon.",
+       "Vieux Hibou, Dame Chèvre et Petit Chat, réchauffés et rassurés, se promettent de bâtir ensemble, la prochaine fois."
+     ],
+     "mouvements": [
+       {"type": "entree", "marionnette": "Jean le Paysan", "main": "M2D"},
+       {"type": "sortie", "marionnette": "Jean le Paysan", "main": "M2D"}
+     ],
+     "momentsPublic": [],
+     "budgetMots": 340}
+ ],
+ "voix": [
+   {"marionnette": "Vieux Hibou", "voix": "voix grave et lente, appuie sur la fin de ses phrases comme s’il réfléchissait tout haut"},
+   {"marionnette": "Dame Chèvre", "voix": "voix rauque et bougonne, râle « pfff » à chaque contrariété"},
+   {"marionnette": "Petit Chat", "voix": "voix aiguë et pressée, glisse un petit rire ou un miaulement content en fin de phrase"},
+   {"marionnette": "Jean le Paysan", "voix": "voix doucereuse et trop polie, traîne sur les mots quand il complote"}
+ ]}

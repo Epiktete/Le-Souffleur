@@ -423,7 +423,10 @@ parent, et de ne faire que les changements que ce remplacement impose.
 - Chaque personnage tenu par une marionnette prend son nom. L’espèce suit la
   consigne qu’on te donne : une marionnette animale garde son espèce, et le
   nom de l’animal du conte disparaît du texte.
-- Accorde ce qui doit l’être (masculin, féminin, pronoms) et change les seuls
+- Accorde ce qui doit l’être (masculin, féminin, pronoms). C’est la retouche
+  la plus DENSE quand un rôle change de genre — la Renarde jouée par une
+  marionnette masculine demande elle→il, commère→compère, « la première »→« le
+  premier » : relis le texte entier pour ces accords. et change les seuls
   détails que la nouvelle espèce rend faux (un renard ne vole pas : là où
   l’oiseau s’envole, le renard détale). L’action reste celle du conte.
 - Les personnages sans marionnette restent tels quels : la mise en scène
@@ -545,7 +548,7 @@ Tu renvoies un objet JSON de cette forme :
  "actes": [{"numero": 1, "titre": "…", "tableauId": "t1",
    "resume": "Une ou deux phrases.",
    "passage": "De « premiers mots… » à « …derniers mots ».",
-   "temps": ["…", "…", "…"],
+   "temps": ["le déroulé de l’acte en trois ou quatre moments, dans l’ordre"],
    "mouvements": [{"type": "entree", "marionnette": "Nom exact", "main": "M1G"},
                    {"type": "sortie", "marionnette": "Nom exact", "main": "M1G"}],
    "momentsPublic": ["…"],

@@ -1,0 +1,294 @@
+Marionnettes du parent :
+- Jean le Paysan
+  Traits : travailleur, rusé
+  Apparence : Une marionnette de tissu en salopette, chapeau de paille.
+- Dame Chèvre
+  Traits : têtu, grognon
+  Apparence : Une chèvre blanche à longue barbe.
+- Petit Chat
+  Traits : coquin, farceur
+  Apparence : Un chaton roux tout doux.
+- Vieux Hibou
+  Traits : sage, savant
+  Apparence : Un hibou brun aux grands yeux ronds.
+
+Réglages du spectacle :
+- durée visée : 10 minutes, soit environ 1000 mots dits
+- âge du public : 9 ans
+- marionnettistes : 2, donc 4 mains
+- interaction avec le public : aucune, le public regarde sans être sollicité
+
+LE CONTE, TRANSPOSÉ POUR LES MARIONNETTES DU PARENT : L’Hiver des bêtes — Russie, Alexandre Afanassiev, Contes populaires russes, 1855-1863
+C’est le texte de référence : les répliques y sont prises mot pour mot.
+
+Fiche du conte :
+**Essence.** Seul le taureau construit une cabane pour l'hiver ; les autres, qui s'en moquaient, viennent tous s'y réfugier quand il gèle — et ensemble, ils repoussent la renarde, le loup et l'ours.
+
+**Trame.**
+1. Le taureau rencontre en route un bélier, un cochon, une oie et un coq qui fuient l'hiver.
+2. Il propose de bâtir une cabane : chacun répond qu'il n'en a pas besoin.
+3. Il la construit seul ; au premier gel, tous viennent frapper et menacent de l'abîmer s'il ne les laisse pas entrer.
+4. Le coq chante ; la renarde l'entend et amène le loup et l'ours.
+5. Ils entrent un par un dans la cabane, et en ressortent un par un, bousculés par le taureau et le bélier.
+
+**À adapter.** Les coups de cornes deviennent des bousculades. On peut réduire les compagnons à deux ou trois. Le conte parle aussi de partage : le taureau peut finir par dire « la prochaine fois, on construit ensemble ». Parent de « La Maison de la mouche » et de « La Petite Poule rousse ».
+Retouches déjà faites à la transposition :
+- Le bélier devenu Dame Chèvre n'a pas de laine : elle vante « ce poil » plutôt que sa laine pour dire qu'elle craint pas le froid.
+- Le coq devenu Petit Chat ne pouvant ni voler ni s'abriter sous une aile comme l'oie, il promet de se rouler en boule dans la paille plutôt que de faire « pareil ».
+- Le refus adressé ensemble à l'oie et au coq (« vous avez chacun deux ailes ») est scindé en deux réponses, Petit Chat n'ayant pas d'ailes mais une bonne fourrure.
+- La menace du coq de s'envoler sur le toit devient, pour Petit Chat qui ne vole pas, le fait d'y grimper.
+- Le coq qui chantait des chansons devient Petit Chat qui miaule de plaisir, un chat ne chantant pas.
+- La Renarde devient Jean le Paysan : tous les accords passent au masculin (elle devient il, commère devient compère, « j'entre la première » devient « j'entre le premier »).
+- Les coups de cornes de Vieux Hibou, qui n'en a pas en tant que hibou, et de Dame Chèvre contre les intrus deviennent des bousculades, comme l'indique la fiche du conte pour adoucir la bagarre finale.
+
+TEXTE TRANSPOSÉ (environ 937 mots) :
+"""
+Vieux Hibou marchait dans la forêt ; il rencontre Dame Chèvre.
+
+— Où vas-tu, Dame Chèvre ? demanda Vieux Hibou.
+
+— Je fuis l'hiver, je cherche l'été, dit Dame Chèvre.
+
+— Viens avec moi !
+
+Ils partent ensemble ; ils rencontrent un cochon.
+
+— Où vas-tu, cochon ? demanda Vieux Hibou.
+
+— Je fuis l'hiver, je cherche l'été, répond le cochon.
+
+— Viens avec nous !
+
+Ils continuent à trois ; ils rencontrent une oie.
+
+— Où vas-tu, l'oie ? demanda Vieux Hibou.
+
+— Je fuis l'hiver, je cherche l'été, répond l'oie.
+
+— Eh bien, suis-nous !
+
+Et l'oie les suivit. Ils marchent, et voilà qu'ils rencontrent Petit Chat.
+
+— Où vas-tu, Petit Chat ? demanda Vieux Hibou.
+
+— Je fuis l'hiver, je cherche l'été, répond Petit Chat.
+
+— Suis-nous !
+
+Les voilà qui marchent sur la route, et qui discutent entre eux :
+
+— Alors, mes frères, mes camarades ? La saison froide arrive : où trouver de la chaleur ?
+
+Vieux Hibou dit :
+
+— Eh bien, construisons une cabane, sinon nous allons vraiment geler cet hiver.
+
+Dame Chèvre dit :
+
+— Moi, j'ai un manteau bien chaud — regardez-moi ce poil ! Je passerai l'hiver comme ça.
+
+Le cochon dit :
+
+— Moi, les gelées, je m'en moque, je n'en ai pas peur : je m'enfouirai dans la terre, et je passerai l'hiver sans cabane.
+
+L'oie dit :
+
+— Et moi, je me mettrai au milieu d'un sapin, j'étendrai une aile en dessous et je me couvrirai de l'autre : aucun froid ne m'attrapera. Je passerai l'hiver comme ça.
+
+Petit Chat dit :
+
+— Et moi, je me roulerai en boule dans la paille : aucun froid ne m'attrapera. Je passerai l'hiver comme ça.
+
+Vieux Hibou voit que ça va mal, qu'il va devoir se débrouiller tout seul.
+
+— Eh bien, dit-il, faites comme vous voulez, moi je vais construire une cabane.
+
+Il se construisit une petite cabane, et il y vit.
+
+Voilà que vint l'hiver froid, et les gelées commencèrent à mordre. Dame Chèvre, il n'y a rien à faire, vient chez Vieux Hibou :
+
+— Laisse-moi entrer me réchauffer, frère.
+
+— Non, Dame Chèvre, tu as un manteau chaud, tu passeras l'hiver comme ça. Je ne te laisse pas entrer !
+
+— Si tu ne me laisses pas entrer, je vais prendre mon élan et faire sauter une poutre de ta cabane : tu auras encore plus froid.
+
+Vieux Hibou réfléchit, réfléchit : « Je ferais mieux de la laisser entrer, sinon c'est moi qui vais geler. » Et il laissa entrer Dame Chèvre.
+
+Puis le cochon eut froid, et vint chez Vieux Hibou :
+
+— Laisse-moi entrer me réchauffer, frère.
+
+— Non, je ne te laisse pas entrer : tu t'enfouiras dans la terre, et tu passeras l'hiver comme ça !
+
+— Si tu ne me laisses pas entrer, je vais creuser sous tous tes poteaux avec mon groin, et faire tomber ta cabane.
+
+Il n'y a rien à faire, il faut le laisser entrer ; il laissa entrer aussi le cochon. Puis l'oie et Petit Chat vinrent chez Vieux Hibou :
+
+— Laisse-nous entrer nous réchauffer, frère.
+
+— Non, je ne vous laisse pas entrer. Toi, l'oie, tu as deux ailes : une pour te coucher dessus, l'autre pour te couvrir. Et toi, Petit Chat, tu as une bonne fourrure bien épaisse. Vous passerez l'hiver comme ça !
+
+— Si tu ne me laisses pas entrer, dit l'oie, je vais arracher toute la mousse entre les poutres de tes murs : tu auras encore plus froid.
+
+— Tu ne me laisses pas entrer ? dit Petit Chat. Alors je vais grimper là-haut et gratter toute la terre de ton toit : tu auras encore plus froid.
+
+Que pouvait faire Vieux Hibou ? Il laissa entrer chez lui l'oie et Petit Chat.
+
+Les voilà qui vivent tous ensemble dans la petite cabane. Petit Chat, une fois bien réchauffé, se mit à miauler de plaisir. Jean le Paysan entendit Petit Chat miauler ainsi, et il eut envie de se régaler du petit chat. Mais comment l'attraper ? Jean le Paysan eut recours à la ruse. Il alla trouver l'ours et le loup, et leur dit :
+
+— Eh bien, mes chers compères, j'ai trouvé à manger pour tout le monde : pour toi, l'ours, un hibou ; pour toi, le loup, une chèvre ; et pour moi, un chat.
+
+— Très bien, compère, dirent l'ours et le loup, nous n'oublierons jamais ce service ! Allons-y, et mangeons !
+
+Jean le Paysan les mena à la petite cabane.
+
+— Compère, dit-il à l'ours, ouvre la porte, j'entre le premier, je vais manger le chat.
+
+L'ours ouvrit la porte, et Jean le Paysan sauta dans la cabane. Vieux Hibou le vit, et aussitôt le bouscula contre le mur, et Dame Chèvre se mit à le pousser des flancs. Jean le Paysan n'en menait pas large.
+
+— Qu'est-ce qu'il fait, à ne pas en finir avec le chat ? dit le loup. Ouvre, frère Michel ! J'y vais.
+
+— Eh bien, vas-y.
+
+L'ours ouvrit la porte, et le loup sauta dans la cabane. Vieux Hibou le bouscula lui aussi contre le mur, et Dame Chèvre se mit à le pousser des flancs, et ils le reçurent si bien que le loup en eut le souffle coupé.
+
+L'ours attendit, attendit :
+
+— Qu'est-ce qu'il fait, à ne pas en finir avec Dame Chèvre ! Laisse-moi y aller.
+
+Il entra dans la cabane, et Vieux Hibou et Dame Chèvre le reçurent de la même façon. Il eut bien du mal à s'échapper, et s'enfuit sans se retourner.
+"""
+
+LE SYNOPSIS CHOISI PAR LE PARENT : L’Hiver des bêtes
+Vieux Hibou construit seul une cabane pour l'hiver, et c'est elle qui sauve tout le monde quand une rôdeuse rusée vient tourner autour.
+- En route vers l'hiver, Dame Chèvre et Petit Chat croisent Vieux Hibou et se moquent de son idée de bâtir une cabane ; ils préfèrent continuer leur chemin sans lui.
+- Vieux Hibou construit sa cabane tout seul ; au premier grand froid, Dame Chèvre et Petit Chat reviennent frapper à sa porte et menacent de tout démolir s'il ne les laisse pas entrer.
+- Vieux Hibou finit par ouvrir sa porte aux deux frigorifiés.
+- Une nuit, Petit Chat miaule si fort que Jean le Paysan, une rôdeuse rusée qui traînait par là, l'entend et revient avec deux autres rôdeurs affamés.
+- Les rôdeurs entrent un par un dans la cabane pour passer à l'attaque, et en ressortent un par un, bousculés par Vieux Hibou et Dame Chèvre, avant de s'enfuir pour de bon.
+
+Distribution :
+- Vieux Hibou joue le Taureau : sage et travailleur comme ce rôle, c'est lui qui a l'idée raisonnable de construire un abri.
+- Dame Chèvre joue le Bélier : grognonne et têtue, elle campe sur ses positions, d'abord en refusant d'aider, puis en réclamant d'entrer.
+- Petit Chat joue le Coq : farceur et coquin, il est le premier à faire du bruit et à attirer l'attention par ses miaulements.
+- Jean le Paysan joue la Renarde : rusé comme elle, c'est la marionnette la mieux placée pour jouer la rôdeuse qui essaie de forcer l'entrée par la ruse.
+
+Changements annoncés au parent :
+- Le Loup et l'Ours n'ont pas de marionnette : on les entend grogner en coulisse, seule la Renarde apparaît en scène, ce qui suffit avec 4 mains.
+- La Renarde est jouée par Jean le Paysan plutôt que par Petit Chat, pour qu'une petite bête toute douce ne joue jamais une rôdeuse ; Petit Chat récupère le rôle du Coq, qui devient un miaulement plutôt qu'un chant.
+- Les coups de cornes deviennent des bousculades : personne n'est blessé, tout le monde s'enfuit en courant.
+
+L’ESPÈCE DES PERSONNAGES DANS LE TEXTE, impératif : chaque marionnette
+animale garde son espèce. Le nom de l’animal du conte disparaît de ce QUI SE
+JOUE — répliques, didascalies, titres, résumés, formules — et seulement de là.
+Les champs où tu expliques ton travail au parent (« changements », « note »)
+peuvent nommer l’animal d’origine : c’est même le plus clair pour lui.
+Le nom générique d’une espèce qui ne désigne PAS un personnage (« on chasse
+les loups en hiver ») ne change pas non plus.
+- Vieux Hibou joue le Taureau : dans tout le texte, ce personnage est un·e hibou, pas un·e taureau. On l'appelle ainsi, et seuls les détails qui l'exigent changent.
+- Dame Chèvre joue le Bélier : dans tout le texte, ce personnage est un·e chèvre, pas un·e mouton. On l'appelle ainsi, et seuls les détails qui l'exigent changent.
+- Petit Chat joue le Coq : dans tout le texte, ce personnage est un·e chat, pas un·e coq. On l'appelle ainsi, et seuls les détails qui l'exigent changent.
+
+L’ADAPTATION DÉCIDÉE : « L’Hiver des bêtes »
+Vieux Hibou est seul à préparer l’hiver, et sa petite cabane finit par sauver tout le monde, même le rôdeur qui voulait s’y inviter par ruse.
+
+Ce qui change par rapport au conte, et que tu respectes :
+- Le cochon et l’oie, déjà écartés par le synopsis du parent, ne jouent aucun rôle dans le découpage : sur le chemin comme à la porte de la cabane, seuls Dame Chèvre et Petit Chat entourent Vieux Hibou.
+- Les scènes de supplique, répétées quatre fois dans le conte (chèvre, cochon, oie, coq), sont resserrées à deux passages successifs à l’acte 2 (Dame Chèvre puis Petit Chat), pour tenir le budget de mots sans toucher au dénouement.
+- Le loup et l’ours restent hors scène du début à la fin : à l’acte 3 on les entend grogner d’impatience en coulisse, et à l’acte 4 leur propre tentative et leur fuite sont racontées par un effet de voix, non jouées, puisque seul Jean le Paysan a une marionnette pour entrer dans la cabane.
+- La bagarre finale, qui comptait trois assauts dans le conte, n’en montre qu’un sur scène (Jean le Paysan bousculé par Vieux Hibou et Dame Chèvre) ; les deux autres sont dits.
+- L’acte 4 ajoute une courte scène de réconciliation, suggérée par la fiche du conte : une fois le danger parti, les trois marionnettes de la cabane se promettent de rebâtir ensemble la prochaine fois.
+
+Plan du spectacle :
+- Acte 1, Le chemin de l’hiver : Vieux Hibou croise Dame Chèvre puis Petit Chat sur le chemin ; il propose de bâtir une cabane ensemble, mais les deux refusent en riant, chacun sûr de son pelage. Vieux Hibou les laisse partir et décide de construire seul. (De « Vieux Hibou marchait dans la forêt… » à « …moi je vais construire une cabane. »)
+- Acte 2, La porte qui finit par s’ouvrir : L’hiver mord et Vieux Hibou vit à l’abri dans sa cabane. Dame Chèvre revient frigorifiée, menace de tout démolir, et finit par entrer. Petit Chat arrive à son tour, tout aussi transi, et Vieux Hibou le laisse entrer lui aussi. (De « Il se construisit une petite cabane, et il y vit. » à « …il laissa entrer chez lui l’oie et Petit Chat. »)
+- Acte 3, Un miaulement de trop : Bien au chaud, Petit Chat se met à miauler de plaisir. Non loin, Jean le Paysan l’entend et comprend qu’il y a un repas facile. Il s’éloigne chercher du renfort, qu’on entend grogner d’impatience en coulisse, puis revient seul se poster devant la cabane. (De « Les voilà qui vivent tous ensemble dans la petite cabane. » à « Jean le Paysan les mena à la petite cabane. »)
+- Acte 4, La cabane tient bon : Jean le Paysan entre le premier pour attraper Petit Chat ; Vieux Hibou et Dame Chèvre le bousculent aussitôt et il s’enfuit. Ses deux compères, entendus en coulisse, renoncent à leur tour et détalent. Réchauffés et rassurés, Vieux Hibou, Dame Chèvre et Petit Chat se promettent de bâtir ensemble la prochaine fois. (De « Compère, dit-il à l’ours, ouvre la porte, j’entre le premier, je vais manger le chat. » à « …il eut bien du mal à s’échapper, et s’enfuit sans se retourner. »)
+
+État de la scène au début de cet acte :
+Vieux Hibou est en scène, main M1G.
+Dame Chèvre est en scène, main M1D.
+Petit Chat est en scène, main M2G.
+Jean le Paysan est en scène, main M2D.
+
+Texte des actes déjà écrits :
+--- Acte 1 : Le chemin de l’hiver ---
+1. [entree] Vieux Hibou — main M1G
+2. [action] Vieux Hibou avance sur le chemin, seul, en tremblant de froid.
+3. [entree] Dame Chèvre — main M1D
+4. Vieux Hibou : « Où vas-tu, Dame Chèvre ? » (curieux, amical)
+5. Dame Chèvre : « Je fuis l'hiver, je cherche l'été. » (pressée, un peu grognonne)
+6. Vieux Hibou : « Viens avec moi ! » (chaleureux)
+7. [action] Dame Chèvre se range à côté de Vieux Hibou, et ils avancent ensemble sur le chemin.
+8. [entree] Petit Chat — main M2G
+9. Vieux Hibou : « Où vas-tu, Petit Chat ? » (curieux, amical)
+10. Petit Chat : « Je fuis l'hiver, je cherche l'été. » (un peu essoufflé)
+11. Vieux Hibou : « Viens avec nous ! » (chaleureux)
+12. [action] Petit Chat se glisse à côté des deux autres, et tous trois avancent sur le chemin.
+13. Vieux Hibou : « Alors, mes frères, mes camarades ? La saison froide arrive : où trouver de la chaleur ? » (pensif)
+14. Vieux Hibou : « Eh bien, construisons une cabane, sinon nous allons vraiment geler cet hiver. » (décidé)
+15. Dame Chèvre : « Moi, j'ai un manteau bien chaud — regardez-moi ce poil ! Je passerai l'hiver comme ça. » (fière, moqueuse)
+16. [action] Dame Chèvre rit et secoue la tête.
+17. Petit Chat : « Et moi, je me roulerai en boule dans la paille : aucun froid ne m'attrapera. Je passerai l'hiver comme ça. » (espiègle, rieur)
+18. [action] Petit Chat rit à son tour, et bondit sur place.
+19. Vieux Hibou : « Eh bien, faites comme vous voulez, moi je vais construire une cabane. » (résigné mais calme)
+20. [action] Dame Chèvre et Petit Chat repartent sur le chemin, en riant encore.
+21. [sortie] Dame Chèvre — main M1D
+22. [sortie] Petit Chat — main M2G
+23. [action] Vieux Hibou reste seul sur le chemin, puis se tourne vers le décor de sa future cabane.
+
+--- Acte 2 : La porte qui finit par s’ouvrir ---
+1. [action] Le vent souffle fort dehors ; Vieux Hibou reste bien au chaud dans sa cabane.
+2. [entree] Dame Chèvre — main M1D
+3. [action] Dame Chèvre s'approche de la cabane en tremblant, et frappe à la porte.
+4. Dame Chèvre : « Laisse-moi entrer me réchauffer, frère. » (frigorifiée, suppliante)
+5. Vieux Hibou : « Non, Dame Chèvre, tu as un manteau chaud, tu passeras l'hiver comme ça. Je ne te laisse pas entrer ! » (ferme, un peu désolé)
+6. Dame Chèvre : « Si tu ne me laisses pas entrer, je vais prendre mon élan et faire sauter une poutre de ta cabane : tu auras encore plus froid. » (menaçante, décidée)
+7. Vieux Hibou au public : « Je ferais mieux de la laisser entrer, sinon c'est moi qui vais geler. »
+8. [action] Vieux Hibou s'écarte, et Dame Chèvre entre se blottir dans la cabane, soulagée.
+9. [entree] Petit Chat — main M2G
+10. [action] Petit Chat s'approche à son tour, transi, et frappe à la porte.
+11. Petit Chat : « Laisse-moi entrer me réchauffer, frère. » (transi, suppliant)
+12. Vieux Hibou : « Non, je ne te laisse pas entrer. Toi, Petit Chat, tu as une bonne fourrure bien épaisse. Tu passeras l'hiver comme ça ! » (ferme)
+13. Petit Chat : « Tu ne me laisses pas entrer ? Alors je vais grimper là-haut et gratter toute la terre de ton toit : tu auras encore plus froid. » (menaçant, malicieux)
+14. [action] Vieux Hibou soupire, s'écarte, et Petit Chat se glisse dans la cabane, tout content.
+
+--- Acte 3 : Un miaulement de trop ---
+1. [action] Petit Chat, bien au chaud dans la cabane, se pelotonne et miaule de plaisir.
+2. [entree] Jean le Paysan — main M2D
+3. [action] Jean le Paysan s'arrête net et penche la tête vers la cabane, l'air gourmand.
+4. [action] Jean le Paysan se tourne vers la coulisse.
+5. Jean le Paysan : « Eh bien, mes chers compères, j'ai trouvé à manger pour tout le monde : pour toi, l'ours, un hibou ; pour toi, le loup, une chèvre ; et pour moi, un chat. » (à voix basse, rusé)
+6. [note] Voix du Loup et de l'Ours, en coulisse : grognements d'impatience.
+7. [sortie] Jean le Paysan — main M2D
+8. [entree] Jean le Paysan — main M2D
+9. [action] Jean le Paysan revient se poster devant la cabane, prêt à tenter sa chance.
+
+Ce qui viendra après cet acte :
+Rien : c’est le dernier acte, il referme le spectacle.
+
+Conduite de l’acte à écrire :
+Acte 4 — La cabane tient bon
+Résumé : Jean le Paysan entre le premier pour attraper Petit Chat ; Vieux Hibou et Dame Chèvre le bousculent aussitôt et il s’enfuit. Ses deux compères, entendus en coulisse, renoncent à leur tour et détalent. Réchauffés et rassurés, Vieux Hibou, Dame Chèvre et Petit Chat se promettent de bâtir ensemble la prochaine fois.
+Passage du conte joué par cet acte : De « Compère, dit-il à l’ours, ouvre la porte, j’entre le premier, je vais manger le chat. » à « …il eut bien du mal à s’échapper, et s’enfuit sans se retourner. »
+Déroulé :
+  1. Jean le Paysan entre le premier dans la cabane pour attraper Petit Chat.
+  2. Vieux Hibou et Dame Chèvre le bousculent aussitôt contre la paroi, et il ressort en courant.
+  3. On entend au loin ses deux compères renoncer à leur tour et s’enfuir pour de bon.
+  4. Vieux Hibou, Dame Chèvre et Petit Chat, réchauffés et rassurés, se promettent de bâtir ensemble, la prochaine fois.
+Entrées et sorties prévues par le découpage. C’est un PLAN, pas un ordre à
+exécuter : si la scène demande autre chose — un personnage qui doit rester
+pour parler, un échange qui exige deux présences —, arrange-le autrement,
+pourvu que les contraintes de scène tiennent. Ne coupe pas une réplique du
+conte parce que le plan fait sortir celui qui la dit : fais-le sortir après.
+Dans TA réponse, chaque entrée et chaque sortie porte un champ « main » :
+choisis-la librement, c’est l’application qui l’arrêtera.
+  entree — Jean le Paysan
+  sortie — Jean le Paysan
+Moments avec le public :
+
+Budget indicatif pour cet acte : environ 340 mots dits. C'est une
+jauge, jamais une limite : la fidélité au texte du conte passe devant, et la
+fin de l'acte se joue en entier. Dépasser vaut mieux que couper une réplique
+du conte.
