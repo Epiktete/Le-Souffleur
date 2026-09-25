@@ -270,3 +270,68 @@ describe('couperEnPhrases', () => {
     }
   });
 });
+
+describe('voix en coulisse, noms répétés, entrées orphelines', () => {
+  const autre = (texte: string): ElementScript =>
+    ({ id: id(), type: 'replique', marionnetteId: 'renard', texte });
+
+  it('lit une voix en coulisse comme une réplique', () => {
+    const r = construireRangees([acte(1, [
+      note('Voix du Nuage, en coulisse : « C’est le Vent. » — dit sans montrer de marionnette.'),
+      note('Attendre la réponse.'),
+    ])]);
+    expect(r[0].coulisse).toEqual({ qui: 'Nuage', dit: 'C’est le Vent.', consigne: 'dit sans montrer de marionnette.' });
+    expect(r[1].coulisse).toBeUndefined();
+  });
+
+  it('ne répète pas le nom quand le même personnage enchaîne', () => {
+    const r = construireRangees([acte(1, [
+      replique('Un.'), replique('Deux.'), didascalie(), replique('Trois.'), autre('Quatre.'),
+    ])]);
+    expect(r.map((x) => Boolean(x.memeVoix))).toEqual([false, true, false, false, false]);
+  });
+
+  it('fait passer une entrée avec la réplique qu’elle annonce', () => {
+    const rangees = construireRangees([acte(1, [
+      replique('Un.'), replique('Deux.'), entree(), replique('Trois.'),
+    ])]);
+    const h = new Map(rangees.map((r) => [r.id, 40]));
+    // 130 px : trois rangées tiennent, la quatrième non. L'entrée, troisième,
+    // ne doit pas rester seule en bas de la première page.
+    const pages = paginer(rangees, h, 130);
+    expect(pages.map((p) => p.rangees.length)).toEqual([2, 2]);
+    expect(pages[1].rangees[0].scene?.type).toBe('entree');
+  });
+
+  it('fait la place du nom quand une réplique qui continue ouvre la page', () => {
+    const rangees = construireRangees([acte(1, [replique('Un.'), replique('Deux.'), replique('Trois.')])]);
+    const h = new Map(rangees.map((r) => [r.id, 40]));
+    // Sans nom : 40 + 40 | 40. Avec 30 px de nom en haut de la page 2, la
+    // troisième passe encore (40 + 30 + 40 = 110 ≤ 120).
+    const pages = paginer(rangees, h, 90, 30);
+    expect(pages.map((p) => p.rangees.length)).toEqual([2, 1]);
+    const serrees = paginer(rangees, h, 75, 30);
+    // 75 px : la page 1 ne prend qu'une réplique (80 > 75) ; la 2e ouvre sur
+    // une réplique qui continue, donc 40 + 30 = 70, et la 3e ne tient plus.
+    expect(serrees.map((p) => p.rangees.length)).toEqual([1, 1, 1]);
+  });
+});
+
+describe('decouperTropLongues : jusqu’à ce que chaque morceau tienne', () => {
+  it('recoupe plus finement quand un morceau mesuré dépasse encore', () => {
+    const longue = replique('Une phrase. Deux phrases. Trois phrases. Quatre phrases. Cinq phrases. Six phrases.');
+    const [r] = construireRangees([acte(1, [longue])]);
+    // 250 px pour une page de 200 : l'estimation dit deux morceaux.
+    const h = new Map([[r.id, 250]]);
+    const deux = decouperTropLongues([r], h, 200);
+    expect(deux).toHaveLength(2);
+    // Mesurés, les deux morceaux dépassent encore : on passe à trois…
+    for (const m of deux) h.set(m.id, 210);
+    const trois = decouperTropLongues([r], h, 200);
+    expect(trois).toHaveLength(3);
+    // … et à la mesure suivante, qui ne connaît plus les deux premiers, on
+    // RESTE à trois au lieu de revenir en arrière.
+    const suivante = new Map([[r.id, 250], ...trois.map((m): [string, number] => [m.id, 150])]);
+    expect(decouperTropLongues([r], suivante, 200)).toHaveLength(3);
+  });
+});

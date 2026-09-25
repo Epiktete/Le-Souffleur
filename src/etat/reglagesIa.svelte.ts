@@ -76,7 +76,25 @@ function creerReglagesIa() {
     definirBaseUrl(valeur: string) { baseUrl = valeur; },
     definirModele(valeur: string) { modele = valeur; },
     definirCle(valeur: string) { cle = valeur; },
-    definirMemoriser(valeur: boolean) { memoriser = valeur; },
+    /**
+     * La case agit TOUT DE SUITE sur la clé stockée. Elle n'agissait qu'au
+     * clic sur « Enregistrer » : décocher puis repartir laissait la clé sur
+     * l'appareil, alors que l'écran affirmait déjà le contraire. Seule la clé
+     * est touchée ; les autres réglages attendent « Enregistrer ».
+     */
+    async definirMemoriser(valeur: boolean) {
+      memoriser = valeur;
+      try {
+        const stockes = await lireReglage('ia');
+        const base: ReglagesIa = stockes
+          ? { fournisseurId: stockes.fournisseurId, baseUrl: stockes.baseUrl, modele: stockes.modele }
+          : { fournisseurId, baseUrl: baseUrl.trim(), modele: modele.trim() };
+        await ecrireReglage('ia', valeur && cle.trim() ? { ...base, cle: cle.trim() } : base);
+      } catch (e) {
+        console.error('Le Souffleur — réglages IA : échec de l’enregistrement', e);
+        if (!valeur) await oublierReglage('ia').catch(() => {});
+      }
+    },
 
     /**
      * Enregistre les réglages. La clé n'y figure que si la mémorisation est

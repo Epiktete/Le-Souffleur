@@ -21,8 +21,13 @@ export const DUREE = {
   secondesParDidascalie: 3,
   /** Secondes ajoutées pour chaque adresse au public qui attend une réponse. */
   secondesParAttenteReponse: 8,
-  /** Écart toléré entre la durée visée d'un acte et sa durée réelle. */
+  /** Écart toléré entre la durée visée du SPECTACLE et sa durée estimée. */
   toleranceActe: 0.2,
+  /**
+   * Écart toléré pour UN acte, plus large : les actes sont inégaux par nature,
+   * et une correction demandée pour dix secondes coûte un appel entier.
+   */
+  toleranceParActe: 0.35,
 } as const;
 
 /** Bornes des réglages du studio (CDC §4). */

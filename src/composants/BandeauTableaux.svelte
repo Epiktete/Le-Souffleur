@@ -49,7 +49,9 @@
 
           {#if tableau.accessoires.length > 0}
             <ul class="cases">
-              {#each tableau.accessoires as a (a)}
+              <!-- Clé par position : le modèle peut écrire deux fois le même
+                   accessoire, et une clé en double ferait planter l'écran. -->
+              {#each tableau.accessoires as a, i (i)}
                 <li><span class="case" aria-hidden="true"></span>{a}</li>
               {/each}
             </ul>

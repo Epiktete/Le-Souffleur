@@ -12,7 +12,7 @@
 // jamais écrite dans un fichier, jamais affichée, jamais journalisée. On teste
 // seulement qu'elle existe, et on s'arrête net sinon.
 
-import { mkdirSync, writeFileSync } from 'node:fs';
+import { appendFileSync, mkdirSync, writeFileSync } from 'node:fs';
 import { join, resolve } from 'node:path';
 import { test } from 'vitest';
 
@@ -55,6 +55,21 @@ const acces: Acces = {
 
 const SORTIE = resolve(process.env.BANC_SORTIE || 'banc/sorties');
 mkdirSync(SORTIE, { recursive: true });
+
+// Le journal va AUSSI dans un fichier. Vitest ne recopiait aucune ligne de
+// console dans la sortie redirigée : impossible de savoir, après coup, si une
+// étape avait recommencé, si la revue finale avait échoué ou pourquoi la
+// banque refusait un versement. La clé n'y passe jamais : le pipeline ne la
+// journalise pas (voir journaliserEchec).
+const JOURNAL = join(SORTIE, 'journal.log');
+for (const niveau of ['log', 'warn', 'error'] as const) {
+  const original = console[niveau].bind(console);
+  console[niveau] = (...args: unknown[]) => {
+    original(...args);
+    const ligne = args.map((a) => (a instanceof Error ? `${a.name}: ${a.message}` : String(a))).join(' ');
+    appendFileSync(JOURNAL, `${new Date().toISOString().slice(11, 19)} ${niveau === 'log' ? '' : `[${niveau}] `}${ligne}\n`, 'utf8');
+  };
+}
 
 /* ---------------------------------------------------------------- */
 /* La distribution : trois peluches d'une chambre d'enfant           */
@@ -168,12 +183,24 @@ const FILTRE = process.env.BANC_CAS;
 for (const cas of CAS.filter((c) => !FILTRE || c.nom === FILTRE)) {
   test(`spectacle ${cas.nom}`, async () => {
     const debut = Date.now();
+    // Le temps passé dans chaque étape : c'est lui qui dit où gagner de
+    // l'attente pour le parent (une génération dure plus de dix minutes).
+    const etapes: { etape: string; secondes: number }[] = [];
+    let etapeEnCours = { nom: '', depuis: debut };
+    const cloreEtape = () => {
+      if (etapeEnCours.nom) {
+        etapes.push({ etape: etapeEnCours.nom, secondes: Math.round((Date.now() - etapeEnCours.depuis) / 1000) });
+      }
+    };
     const options = {
       acces,
       signal: new AbortController().signal,
-      surAvancement: (a: { etape: string }) => {
+      surAvancement: (a: { etape: string; acte?: number }) => {
         const s = Math.round((Date.now() - debut) / 1000);
-        console.log(`  [${cas.nom}] ${s}s — ${a.etape}`);
+        const nom = a.acte ? `${a.etape} ${a.acte}` : a.etape;
+        console.log(`  [${cas.nom}] ${s}s — ${nom}`);
+        cloreEtape();
+        etapeEnCours = { nom, depuis: Date.now() };
       },
       surReprise: (raison: string) => console.warn(`  [${cas.nom}] reprise : ${raison}`),
     };
@@ -232,6 +259,7 @@ for (const cas of CAS.filter((c) => !FILTRE || c.nom === FILTRE)) {
       scriptPourLeParent(spectacle),
       'utf8',
     );
+    cloreEtape();
     writeFileSync(
       join(SORTIE, `${cas.nom}-coulisses.json`),
       coulisses(spectacle, {
@@ -242,9 +270,13 @@ for (const cas of CAS.filter((c) => !FILTRE || c.nom === FILTRE)) {
           ecriture: script.jetons,
         },
         secondes: Math.round((Date.now() - debut) / 1000),
+        etapes,
       }),
       'utf8',
     );
+    // Le spectacle entier, tel que l'application l'enregistre : de quoi
+    // l'ouvrir dans le vrai mode lecture, ce que le Markdown ne permet pas.
+    writeFileSync(join(SORTIE, `${cas.nom}-spectacle.json`), JSON.stringify(spectacle, null, 2), 'utf8');
 
     console.log(
       `  [${cas.nom}] terminé en ${Math.round((Date.now() - debut) / 1000)}s — `

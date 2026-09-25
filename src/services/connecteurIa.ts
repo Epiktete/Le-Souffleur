@@ -189,10 +189,13 @@ export async function appelerModele(
     minuteur.abort();
   }, IA.delaiMs);
 
-  // On combine l'annulation de l'utilisateur et le délai maximal.
-  const signal = options.signal
-    ? AbortSignal.any([options.signal, minuteur.signal])
-    : minuteur.signal;
+  // On combine l'annulation de l'utilisateur et le délai maximal. Pas
+  // d'AbortSignal.any : il manque aux Safari antérieurs à 17.4, dont ceux des
+  // iPad, où toute génération échouait alors que le test de connexion passait.
+  const relayer = () => minuteur.abort();
+  if (options.signal?.aborted) minuteur.abort();
+  else options.signal?.addEventListener('abort', relayer, { once: true });
+  const signal = minuteur.signal;
 
   const debut = performance.now();
   try {
@@ -264,6 +267,7 @@ export async function appelerModele(
     throw new ErreurIa(t.erreursIa.navigateurBloque, e);
   } finally {
     clearTimeout(chrono);
+    options.signal?.removeEventListener('abort', relayer);
   }
 }
 

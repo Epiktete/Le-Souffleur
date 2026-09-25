@@ -105,7 +105,10 @@ est gardé.`;
   if (age <= 4) {
     return `${commun}
 À cet âge : aucune peur réelle, le méchant menace pour rire et reste
-maladroit.`;
+maladroit. Une menace de mort ou de blessure devient une menace pour rire :
+« je vais te briser », « je t’écorche », « je vais te manger » deviennent
+« gare à toi ! », « je vais te chatouiller ! ». Personne n’est attrapé, mordu
+ni mangé, même hors de scène : celui qui devait l’être s’enfuit à temps.`;
   }
   if (age <= 6) return `${commun}\nÀ cet âge : une petite tension, qui se résout vite.`;
   if (age <= 8) return `${commun}\nÀ cet âge : un vrai adversaire, jamais humilié.`;
@@ -422,7 +425,7 @@ parent, et de ne faire que les changements que ce remplacement impose.
 - Accorde ce qui doit l’être (masculin, féminin, pronoms). C’est la retouche
   la plus DENSE quand un rôle change de genre — la Renarde jouée par une
   marionnette masculine demande elle→il, commère→compère, « la première »→« le
-  premier » : relis le texte entier pour ces accords. et change les seuls
+  premier » : relis le texte entier pour ces accords. Change aussi les seuls
   détails que la nouvelle espèce rend faux (un renard ne vole pas : là où
   l’oiseau s’envole, le renard détale). L’action reste celle du conte.
 - Les personnages sans marionnette restent tels quels : la mise en scène
@@ -809,7 +812,7 @@ l’application a relevées automatiquement.
 Ton travail ici : réécrire cet acte en appliquant les modifications listées,
 et RIEN D’AUTRE. Tout ce qui fonctionne doit être conservé mot pour mot.
 
-QUAND DEUX MODIFICATIONS SE CONTREDISENT, cet ordre trancHE :
+QUAND DEUX MODIFICATIONS SE CONTREDISENT, cet ordre tranche :
 1. ce qui est marqué [bloquant] — le spectacle est injouable sans ;
 2. les remarques du directeur éditorial — la compréhension et la fidélité ;
 3. la longueur, en dernier. Un écart de durée ne justifie JAMAIS de couper

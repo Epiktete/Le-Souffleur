@@ -55,6 +55,36 @@ export function motsDitsEnCoulisse(texte: string): string {
   return m ? m[1] : '';
 }
 
+/** Une voix en coulisse, décomposée pour être lue comme une réplique. */
+export interface VoixEnCoulisse {
+  /** Le personnage qui parle, tel que la note le nomme (« Nuage »). */
+  qui: string;
+  /** Ce que le parent dit, sans guillemets. */
+  dit: string;
+  /** Ce qui reste de la note : une consigne de jeu, parfois vide. */
+  consigne: string;
+}
+
+/**
+ * Reconnaît une voix en coulisse (« Voix du Nuage, en coulisse : « C'est le
+ * Vent. » — dit sans montrer de marionnette ») et la décompose.
+ *
+ * En représentation, ce texte-là SE DIT : le mode lecture doit l'afficher
+ * comme une réplique, pas comme une note qu'on ne lit jamais à voix haute.
+ */
+export function voixEnCoulisse(texte: string): VoixEnCoulisse | null {
+  const m = /voix\s+(?:de\s+la|de\s+l['’]|de|du|des|d['’])\s*([^:]*?)\s*,?\s*en\s+coulisse\s*:\s*(.*)$/is.exec(texte);
+  if (!m) return null;
+  const qui = m[1].trim();
+  const reste = m[2].trim();
+  // Les mots dits sont entre guillemets ; ce qui suit est une consigne.
+  const cite = /^[«"“]\s*([\s\S]*?)\s*[»"”]\s*(.*)$/s.exec(reste);
+  const dit = (cite ? cite[1] : reste).trim();
+  const consigne = (cite ? cite[2] : '').replace(/^[—–\-.,;\s]+/, '').trim();
+  if (!qui || !dit) return null;
+  return { qui, dit, consigne };
+}
+
 export function dureeElements(elements: ElementScript[]): DetailDuree {
   let mots = 0;
   let didascalies = 0;

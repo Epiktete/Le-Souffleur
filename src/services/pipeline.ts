@@ -53,6 +53,7 @@ import {
   especeDansLeTexte,
   especeMarionnette,
   roleParNom,
+  sosiesRompus as groupesSosiesRompus,
   type Candidat,
 } from './choixContes';
 import { extraireJson } from './jsonLlm';
@@ -448,6 +449,14 @@ export function formaterCandidat(c: Candidat, marionnettes: Marionnette[], motsS
       ? `\nRôles sans marionnette, à supprimer, fondre ou laisser en coulisse : `
         + figurants.map((r) => r.nom).join(', ')
       : '');
+  // Des rôles de même espèce tenus par des peluches qui ne se ressemblent
+  // plus : si l'histoire repose sur cette ressemblance ou cette parenté, le
+  // modèle, qui lit le conte, est le mieux placé pour l'écarter.
+  const rompus = groupesSosiesRompus(c.distribution)
+    .map((g) => `\n⚠ Dans le conte, ${g.map((a) => a.role.nom).join(' et ')} sont de la même espèce `
+      + `(${g[0].role.espece}) ; ici, ${g.map((a) => a.marionnetteNom).join(' et ')} ne le sont pas. `
+      + 'Si l’histoire repose sur cette ressemblance ou cette parenté, ne retiens pas ce conte.')
+    .join('');
   return `### ${k.id} — ${k.titre}
 Origine : ${k.culture}. ${k.source}.
 ${capitale(k.genre)}, pour les ${k.ageMin}-${k.ageMax} ans. ${k.personnages} rôle(s) principal(aux), ${k.figurants} figurant(s).
@@ -455,7 +464,7 @@ ${longueurConte(c.mots, motsSpectacle)}
 Rôles du conte :
 ${roles}
 Distribution proposée :
-${distribution}${sans}
+${distribution}${sans}${rompus}
 
 ${k.corps}`;
 }
@@ -721,6 +730,7 @@ ${formaterAdaptation(adaptation)}`;
     nomDe,
     interactionPublic: dossier.interactionPublic,
     dureeCibleSecondes: dureeCible,
+    budgetsMots: Object.fromEntries(actesConduite.map((a) => [a.numero, a.budgetMots])),
   });
   let problemes = controlerTout();
 
@@ -790,13 +800,17 @@ ${formaterAdaptation(adaptation)}`;
     for (const acte of actes) {
       if (aCorriger.has(acte.numero)) {
         const conduiteActe = actesConduite.find((a) => a.numero === acte.numero);
+        // Le numéro d'élément est celui de l'« Acte à réécrire » tel qu'on le
+        // montre, numéroté : sans lui, le correcteur devait retrouver seul la
+        // réplique visée parmi quarante.
+        const ou = (n?: number) => (n ? ` (élément ${n})` : '');
         const sesProblemes = [
           ...problemes
             .filter((p) => p.acteNumero === acte.numero)
-            .map((p) => `- [${p.gravite}] ${p.message}`),
+            .map((p) => `- [${p.gravite}]${ou(p.position)} ${p.message}`),
           ...remarques
             .filter((p) => p.acte === acte.numero)
-            .map((p) => `- [${p.gravite}] ${p.remarque}`
+            .map((p) => `- [${p.gravite}]${ou(p.element)} ${p.remarque}`
               + (p.modification ? `\n  Modification : ${p.modification}` : '')),
         ].join('\n');
         try {
@@ -1366,8 +1380,13 @@ export async function regenererActe(
     `régénération de l'acte ${acte.numero}`,
   );
 
+  // Le même repli que l'écriture : un nom de rôle du conte retrouve sa
+  // peluche, au lieu de devenir une note « À corriger ».
+  const roles = conte && bible.synopsis
+    ? tableDesRoles(conte, bible.synopsis, distribution)
+    : new Map<string, string>();
   const elements = convertirElements(
-    r.valeur.elements, distribution, spectacle.parametres.nbMarionnettistes, etat,
+    r.valeur.elements, distribution, spectacle.parametres.nbMarionnettistes, etat, roles,
   );
   const problemes = simulerActe(
     elements, spectacle.parametres.nbMarionnettistes, nomDe, etat, acte.numero,

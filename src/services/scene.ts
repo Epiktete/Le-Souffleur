@@ -154,6 +154,11 @@ export interface ContexteControle {
   interactionPublic: NiveauInteraction;
   /** Durée visée du spectacle entier, en secondes. */
   dureeCibleSecondes: number;
+  /**
+   * Budget de mots de chaque acte, par numéro, tel que le découpage l'a
+   * réparti. Absent (spectacle importé, écran de script) : parts égales.
+   */
+  budgetsMots?: Record<number, number>;
 }
 
 /**
@@ -183,12 +188,13 @@ export function controler(c: ContexteControle): Probleme[] {
   // 0. Une réplique qu'on n'a pas su attribuer. C'est le défaut le plus grave
   //    du script : le texte a disparu, remplacé par une note.
   for (const acte of c.actes) {
-    for (const e of acte.elements) {
+    for (const [i, e] of acte.elements.entries()) {
       if (e.type !== 'note_marionnettiste') continue;
       if (!e.texte.startsWith(MARQUE_A_CORRIGER)) continue;
       problemes.push({
         gravite: 'bloquant',
         acteNumero: acte.numero,
+        position: i + 1,
         message: `${e.texte} Cette note a remplacé une réplique ou un mouvement `
           + 'perdu : rends la parole à la marionnette de la distribution qui tient '
           + 'ce rôle, et supprime la note.',
@@ -225,7 +231,7 @@ export function controler(c: ContexteControle): Probleme[] {
   // tourne vers les enfants… »), est une action : le parent ne saurait pas s'il
   // doit la dire ou la jouer.
   for (const acte of c.actes) {
-    for (const e of acte.elements) {
+    for (const [i, e] of acte.elements.entries()) {
       if (e.type !== 'replique' && e.type !== 'adresse_public') continue;
       const nom = c.nomDe(e.marionnetteId);
       if (!nom) continue;
@@ -233,6 +239,7 @@ export function controler(c: ContexteControle): Probleme[] {
         problemes.push({
           gravite: 'important',
           acteNumero: acte.numero,
+          position: i + 1,
           message: `${nom} dit une phrase qui commence par son propre nom : `
             + `« ${e.texte.slice(0, 60)}… ». C’est une didascalie écrite comme une `
             + 'réplique — le parent ne saura pas s’il doit la dire ou la jouer.',
@@ -269,13 +276,14 @@ export function controler(c: ContexteControle): Probleme[] {
   // en jouant, il ne relit pas.
   const debutsDeTon = ['voix ', 'ton ', 'd’un ton', 'sur un ton', 'd’une voix'];
   for (const acte of c.actes) {
-    for (const e of acte.elements) {
+    for (const [i, e] of acte.elements.entries()) {
       if (e.type !== 'didascalie') continue;
       const t = e.texte.trim().toLowerCase();
       if (debutsDeTon.some((d) => t.startsWith(d))) {
         problemes.push({
           gravite: 'important',
           acteNumero: acte.numero,
+          position: i + 1,
           message: `« ${e.texte} » décrit une manière de parler, pas une action. `
             + 'Cela va dans le champ « ton » de la réplique concernée, sinon le '
             + 'parent découvre le ton après avoir dit la phrase.',
@@ -288,19 +296,66 @@ export function controler(c: ContexteControle): Probleme[] {
   // déjà, et deux descriptions du même décor finissent par se contredire.
   const motsDeDecor = ['décor', 'accessoire', 'drap', 'carton', 'coussin', 'nappe', 'torchon'];
   for (const acte of c.actes) {
-    for (const e of acte.elements) {
+    for (const [i, e] of acte.elements.entries()) {
       if (e.type !== 'note_marionnettiste') continue;
       const t = e.texte.toLowerCase();
       if (motsDeDecor.some((m) => t.includes(m))) {
         problemes.push({
           gravite: 'important',
           acteNumero: acte.numero,
+          position: i + 1,
           message: `La note « ${e.texte.slice(0, 60)}… » décrit le décor, que la `
             + 'liste de préparation décrit déjà. Deux descriptions du même décor se '
             + 'contredisent toujours, et c’est le parent qui se retrouve devant sa '
             + 'table sans savoir quoi poser.',
         });
       }
+    }
+  }
+
+  // 6 bis. Pas de question d'opinion ni d'idée à trouver à la place du
+  // personnage (CDC §6). La consigne est dans tous les prompts, et la revue
+  // l'a pourtant laissée passer au banc : « Qui pourrait être plus fort que le
+  // Mur, à votre avis ? ». Un motif se vérifie mieux qu'une consigne.
+  const QUESTION_INTERDITE = /(?<![\p{L}])(à (votre|ton) avis|selon (vous|toi)|qu['’]en pensez-vous|que feriez-vous|vous croyez qu|qui pourrait|qu['’]est-ce qu['’](il|elle|on|je) (doit|devrait|pourrait|peut) faire|c['’]est bien de)/iu;
+  for (const acte of c.actes) {
+    for (const [i, e] of acte.elements.entries()) {
+      if (e.type !== 'adresse_public' || !e.texte.includes('?')) continue;
+      if (!QUESTION_INTERDITE.test(e.texte)) continue;
+      problemes.push({
+        gravite: 'important',
+        acteNumero: acte.numero,
+        position: i + 1,
+        message: `« ${e.texte.slice(0, 80)} » demande aux enfants leur avis, ou de `
+          + 'trouver l’idée à la place du personnage. On leur demande d’agir — crier, '
+          + 'compter, répéter une formule —, jamais de décider ni de deviner la suite.',
+      });
+    }
+  }
+
+  // 6 ter. La narration du conte ne va pas dans la bouche d'une marionnette
+  // (CDC §6). Le passé simple à la troisième personne la trahit : « Les deux
+  // amis vécurent heureux… », dit au public par le père. Les terminaisons en
+  // « -èrent » ne sont que du passé simple ; les autres formes retenues ne se
+  // confondent avec aucun présent.
+  const NARRATION = /(\p{L}+èrent|(?<![\p{L}])(vécurent|devinrent|devint|furent|prirent|firent|eurent|vinrent|revinrent|partirent|sortirent))(?![\p{L}])/iu;
+  // Le PRÉSENT des verbes en « -érer » finit aussi en « -èrent » : ils
+  // préfèrent, ils espèrent. Ce ne sont pas des passés simples.
+  const PRESENTS_EN_ERENT = /^(pr[ée]f|esp|d[ée]sesp|exag|dig|g|consid|tol|op|coop|r[ée]cup|lib|acc[ée]l|[ée]num|sugg|g[ée]n|r[ée]g[ée]n|ins|alt|diff|transf|conf|r[ée]f|d[ée]f|inf|prof|sid|adh|a|lac|mod|v[ée]n|temp|obtemp|r[ée]it|ing|ulc|incarc|pond|l[ée]gif|mac)èrent$/i;
+  const estNarration = (texte: string) => (texte.match(new RegExp(NARRATION, 'giu')) ?? [])
+    .some((mot) => !PRESENTS_EN_ERENT.test(mot));
+  for (const acte of c.actes) {
+    for (const [i, e] of acte.elements.entries()) {
+      if (e.type !== 'replique' && e.type !== 'adresse_public') continue;
+      if (!estNarration(e.texte)) continue;
+      problemes.push({
+        gravite: 'important',
+        acteNumero: acte.numero,
+        position: i + 1,
+        message: `${c.nomDe(e.marionnetteId)} récite la narration du conte : `
+          + `« ${e.texte.slice(0, 80)} ». Ce que raconte le conteur se montre en `
+          + 'didascalie, ou se dit à la première personne, comme on parle.',
+      });
     }
   }
 
@@ -326,11 +381,23 @@ export function controler(c: ContexteControle): Probleme[] {
     // Plus large que la tolérance du spectacle entier (±20 %) : les actes
     // sont inégaux par nature, et une correction demandée pour dix secondes
     // d'écart coûte un appel entier pour revenir, le plus souvent, inchangée.
-    const TOLERANCE_ACTE = 0.35;
-    const partParActe = c.dureeCibleSecondes / Math.max(1, c.actes.length);
+    //
+    // La part de chaque acte est celle que le DÉCOUPAGE lui a donnée (son
+    // budget de mots), pas une part égale : le dénouement reçoit souvent plus,
+    // et c'est voulu. Avec une part égale, le dernier acte se voyait demander
+    // des coupes qu'on interdit par ailleurs.
+    const sommeBudgets = c.actes.reduce((t, a) => t + (c.budgetsMots?.[a.numero] ?? 0), 0);
+    const partDe = (numero: number) => (sommeBudgets > 0 && c.budgetsMots?.[numero]
+      ? c.dureeCibleSecondes * (c.budgetsMots[numero] / sommeBudgets)
+      : c.dureeCibleSecondes / Math.max(1, c.actes.length));
+    const dernier = Math.max(...c.actes.map((a) => a.numero));
     for (const acte of c.actes) {
+      const partParActe = partDe(acte.numero);
       const sienne = dureeElements(acte.elements).secondes;
-      if (Math.abs(sienne - partParActe) <= partParActe * TOLERANCE_ACTE) continue;
+      if (Math.abs(sienne - partParActe) <= partParActe * DUREE.toleranceParActe) continue;
+      // La fin ne se coupe jamais (CDC §6) : un dernier acte trop long n'est
+      // pas un défaut à corriger.
+      if (acte.numero === dernier && sienne > partParActe) continue;
       const motsAGagner = Math.round(((partParActe - sienne) / 60) * DUREE.motsParMinute);
       problemes.push({
         gravite: 'important',

@@ -36,6 +36,17 @@
     );
   }
 
+  /**
+   * Avertissements qui ne visent aucun élément : ceux d'un acte entier (sa
+   * durée), ou du spectacle entier (une marionnette qui n'apparaît jamais).
+   * Sans eux, supprimer toutes les répliques d'une peluche ne signalait rien.
+   */
+  function problemesGeneraux(acteNumero?: number) {
+    return spectacleCourant.problemes.filter(
+      (p) => p.position === undefined && p.acteNumero === acteNumero,
+    );
+  }
+
   // Annuler et rétablir au clavier (CDC §8).
   function surTouche(e: KeyboardEvent) {
     // Échap ferme le spectacle, sauf si l'on est en train de saisir du texte.
@@ -130,6 +141,7 @@
           </div>
         {/each}
       </div>
+      {@render alertes(problemesGeneraux(undefined))}
     </header>
 
     <BandeauTableaux tableaux={s.tableaux} actes={s.actes} />
@@ -147,6 +159,7 @@
         </div>
 
         {#if acte.resume}<p class="resume">{acte.resume}</p>{/if}
+        {@render alertes(problemesGeneraux(acte.numero))}
 
         {#each acte.elements as element, index (element.id)}
           <ElementScriptVue
@@ -167,7 +180,25 @@
 
 {/if}
 
+{#snippet alertes(liste: { message: string }[])}
+  {#if liste.length > 0}
+    <ul class="alertes sans-impression" role="status">
+      {#each liste as p, i (i)}<li>{p.message}</li>{/each}
+    </ul>
+  {/if}
+{/snippet}
+
 <style>
+  /* L'accent marque les erreurs (§11) : un trait, pas un fond. */
+  .alertes {
+    list-style: none;
+    margin: 12px 0;
+    padding: 6px 10px;
+    border-left: 4px solid var(--accent);
+    font-size: 13px;
+    color: var(--encre2);
+  }
+  .alertes li + li { margin-top: 4px; }
   /* La barre reste en haut, le script défile seul en dessous. */
   .ecran {
     display: flex;

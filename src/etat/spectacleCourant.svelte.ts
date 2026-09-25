@@ -36,17 +36,31 @@ function creerSpectacleCourant() {
     if (!spectacle) return;
     clearTimeout(minuteur);
     enregistrement = true;
-    minuteur = setTimeout(async () => {
-      try {
-        if (spectacle) {
-          await enregistrerSpectacle($state.snapshot(spectacle) as Spectacle);
-        }
-      } catch (e) {
-        console.error('Le Souffleur — script : échec de l’enregistrement', e);
-      } finally {
-        enregistrement = false;
-      }
-    }, 800);
+    minuteur = setTimeout(() => void enregistrerMaintenant(), 800);
+  }
+
+  /**
+   * Écrit tout de suite ce qui attendait. Appelé aussi en quittant le script
+   * ou la page : annuler l'écriture en attente perdait la dernière correction,
+   * faite moins d'une seconde avant de fermer.
+   */
+  async function enregistrerMaintenant(copie = spectacle ? $state.snapshot(spectacle) as Spectacle : null) {
+    clearTimeout(minuteur);
+    minuteur = undefined;
+    try {
+      if (copie) await enregistrerSpectacle(copie);
+    } catch (e) {
+      console.error('Le Souffleur — script : échec de l’enregistrement', e);
+    } finally {
+      enregistrement = false;
+    }
+  }
+
+  // L'onglet qui se ferme n'attend pas le minuteur : on écrit sur-le-champ.
+  if (typeof window !== 'undefined') {
+    window.addEventListener('pagehide', () => {
+      if (minuteur !== undefined) void enregistrerMaintenant();
+    });
   }
 
   /** Applique une modification des actes, en la rendant annulable. */
@@ -153,7 +167,8 @@ function creerSpectacleCourant() {
     },
 
     fermer() {
-      clearTimeout(minuteur);
+      // La copie est prise AVANT de vider : l'écriture se fait ensuite.
+      if (minuteur !== undefined && spectacle) void enregistrerMaintenant($state.snapshot(spectacle) as Spectacle);
       spectacle = null;
       passe = [];
       futur = [];

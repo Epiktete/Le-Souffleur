@@ -453,6 +453,20 @@ describe('le choix des contes', () => {
     expect(r.candidats.filter((c) => c.conte.personnages === 3).length).toBeGreaterThanOrEqual(5);
   });
 
+  it('ne propose pas un conte dont les sosies sont rompus quand d’autres vont aussi bien', () => {
+    // Le banc : un pingouin pour père de la souris, et « Le Mariage de la
+    // souris », où tout repose sur ce qu'ils sont souris, arrivait premier.
+    const d = (id: string, nom: string, description: string) =>
+      ({ id, nom, description, traits: [], creeLe: '', modifieLe: '' });
+    const troupe = [
+      d('p', 'Pilou le Pingouin', 'Un pingouin en peluche noir et blanc.'),
+      d('t', 'Mémé Tortue', 'Une tortue verte à la carapace molle.'),
+      d('s', 'Zigzag la Souris', 'Une petite souris grise.'),
+    ];
+    const ids = choisirContes(troupe, { ...options, ageAuditoire: 6 }).candidats.map((c) => c.conte.id);
+    expect(ids).not.toContain('ja-mariage-souris');
+  });
+
   it('la durée demandée change les contes proposés', () => {
     const moyenne = (l: number[]) => l.reduce((s, x) => s + x, 0) / l.length;
     const court = choisirContes(trois, { ...options, ageAuditoire: 8, dureeMinutes: 2 }).candidats.map((c) => c.mots);

@@ -24,6 +24,11 @@
   // La première fois, la visite guidée présente l'accueil.
   $effect(() => { visite.lancer('accueil'); });
 
+  // Le studio a besoin de la Marionnethèque même quand sa colonne n'est pas
+  // affichée : sous 1 024 px elle devient un tiroir fermé, et le studio se
+  // croyait sans marionnette (bouton bloqué, ou « répertoire épuisé »).
+  $effect(() => { if (!bibliotheque.chargee) void bibliotheque.charger(); });
+
   /**
    * La scène vide ne bloque plus : l'outil choisit alors l'histoire d'abord,
    * puis les marionnettes qu'elle demande (CDC §7). Il ne reste qu'un cas

@@ -427,6 +427,8 @@ export const tl = {
   acte: (n: number) => `Acte ${n}`,
   vide: 'Ce spectacle n’a pas encore de dialogue.',
   suite: '(suite)',
+  /** Une voix sans peluche, que le parent dit depuis la coulisse. */
+  enCoulisse: '· EN COULISSE',
 
   /** Écran intercalaire au changement de décor. */
   changementDecor: 'Changement de décor',

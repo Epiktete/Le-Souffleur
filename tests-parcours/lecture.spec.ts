@@ -223,6 +223,17 @@ test('Échap et la croix quittent le spectacle', async ({ page }) => {
   await expect(page.getByRole('region', { name: 'Spectacles' })).toBeVisible();
 });
 
+test('le bouton Menu ouvre le menu sans tourner la page', async ({ page }) => {
+  await ouvrirLaLecture(page);
+  const [avant] = await position(page);
+
+  // L'appui sur le bouton remontait jusqu'au fond de l'écran, qui le prenait
+  // pour un toucher à droite : la page tournait en même temps.
+  await page.getByRole('button', { name: 'Menu', exact: true }).click();
+  await expect(page.getByRole('dialog', { name: 'Menu' })).toBeVisible();
+  expect((await position(page))[0]).toBe(avant);
+});
+
 test('le menu permet de basculer en mode édition', async ({ page }) => {
   await ouvrirLaLecture(page);
 

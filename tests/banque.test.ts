@@ -129,6 +129,16 @@ describe('variabiliser : plus aucun nom dans le modèle', () => {
     expect(m.roles[0].voix).toBe(`la voix grave d’${variable('r1')}`);
   });
 
+  it('ne remplace un nom qu’en mot entier', () => {
+    // Une marionnette « Lou » ne doit pas transformer « Loup » en « {{r1}}p ».
+    const s = spectacleFactice();
+    s.distribution[1] = { ...s.distribution[1], nom: 'Lou' };
+    s.actes[0].elements.push({ id: 'e7', type: 'didascalie', texte: 'On entend le Loup, puis Lou.' });
+    const m = variabiliser(s, 'en-essai--1');
+    const dida = m.actes[0].elements.at(-1)!;
+    expect('texte' in dida && dida.texte).toBe(`On entend le Loup, puis ${variable('r2')}.`);
+  });
+
   it('échoue bruyamment si un nom subsiste', () => {
     // Un nom écrit d'une autre façon — « ourse gourmande » en minuscules —
     // échappe à la substitution exacte. Le garde-fou, lui, cherche sous forme
@@ -194,6 +204,17 @@ describe('peupler : le spectacle redevient jouable', () => {
     };
     expect(peupler(avecDe, [{ ...autres[0], nom: 'Aglaé' }, { ...autres[1], nom: 'Gros Loup' }]).pitch)
       .toBe('le panier d’Aglaé et la maison de Gros Loup');
+  });
+
+  it('ne prend pas la fin d’un mot pour un « de » à élider', () => {
+    // « regarde {{r1}} » devenait « regard’Aglaé ».
+    const m = variabiliser(spectacleFactice(), 'en-essai--1');
+    const avecVerbe: SpectacleModele = {
+      ...m,
+      pitch: `Il regarde ${variable('r1')} et demande ${variable('r2')}.`,
+    };
+    expect(peupler(avecVerbe, [{ ...autres[0], nom: 'Aglaé' }, { ...autres[1], nom: 'Ernest' }]).pitch)
+      .toBe('Il regarde Aglaé et demande Ernest.');
   });
 
   it('refuse une troupe qui n’a pas le bon nombre de marionnettes', () => {

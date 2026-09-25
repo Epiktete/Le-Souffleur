@@ -121,7 +121,12 @@ function normaliser(texte: string): string {
  */
 function remplacer(texte: string, table: [string, string][]): string {
   let resultat = texte;
-  for (const [de, vers] of table) resultat = resultat.split(de).join(vers);
+  // EN MOT ENTIER : une marionnette « Lou » ne doit pas transformer « Loup »
+  // en « {{r1}}p ». \b ne connaît pas les lettres accentuées, d'où \p{L}.
+  for (const [de, vers] of table) {
+    const motif = new RegExp(`(?<![\\p{L}\\p{N}])${echapper(de)}(?![\\p{L}\\p{N}])`, 'gu');
+    resultat = resultat.replace(motif, () => vers);
+  }
   return resultat;
 }
 
@@ -142,7 +147,9 @@ const VOYELLE = /^[aeiouàâäéèêëiîïoôöuùûüyh]/i;
  * genre de la peluche, que rien ne nous dit.
  */
 function peuplerTexte(texte: string, noms: Map<string, string>): string {
-  return texte.replace(/([Dd])(['’]|e )(\{\{(r\d+)\}\})|\{\{(r\d+)\}\}/g,
+  // Le « de » doit être un MOT : sans la garde en tête, « regarde {{r1}} »
+  // devenait « regard’Ourse Gourmande ».
+  return texte.replace(/(?<![\p{L}\p{N}])([Dd])(['’]|e )(\{\{(r\d+)\}\})|\{\{(r\d+)\}\}/gu,
     (tout, d?: string, forme?: string, _avecDe?: string, cle1?: string, cle2?: string) => {
       const cle = cle1 ?? cle2;
       const nom = cle ? noms.get(cle) : undefined;

@@ -1,9 +1,10 @@
 <script lang="ts">
   // Mode lecture : le spectacle joué (CDC §9).
   //
-  // Deux colonnes : les dialogues à gauche, en grand, et tout ce qui s'y
-  // rapporte à droite, plus petit. Le marionnettiste se concentre sur ce qu'il
-  // doit dire et trouve le reste d'un coup d'œil, sans jamais confondre.
+  // Un seul fil, dans l'ordre du jeu : les répliques en grand, les indications
+  // scéniques plus petites entre elles, et à droite la façon de dire chaque
+  // réplique. Les voix en coulisse, que le parent dit à voix haute, se lisent
+  // comme des répliques.
   //
   // On tourne la page, on ne fait jamais défiler : avec une peluche sur chaque
   // main, seul le pied est libre.
@@ -48,11 +49,13 @@
   let zonePage = $state<HTMLElement>();
   let hauteurs = $state<Map<string, number>>(new Map());
   let hauteurDisponible = $state(0);
+  /** Place du nom au-dessus d'une réplique, rendu en haut de page. */
+  let hauteurNom = $state(0);
 
   // Une tirade plus haute que l'écran est coupée à la phrase plutôt que
   // tronquée : en représentation, il ne faut jamais perdre la fin d'un texte.
   const rangeesDecoupees = $derived(decouperTropLongues(rangees, hauteurs, hauteurDisponible));
-  const pages = $derived(paginer(rangeesDecoupees, hauteurs, hauteurDisponible));
+  const pages = $derived(paginer(rangeesDecoupees, hauteurs, hauteurDisponible, hauteurNom));
   const pageCourante = $derived(pages[lecture.page] as Page | undefined);
 
   let menuOuvert = $state(false);
@@ -102,6 +105,14 @@
       // Sans cette garde, l'effet boucle : les mesures changent le découpage,
       // qui relance l'effet, qui remesure. On s'arrête dès que rien ne bouge.
       if (!memesHauteurs(nouvelles, hauteurs)) hauteurs = nouvelles;
+
+      // Le nom qu'on ne répète pas entre deux répliques du même personnage
+      // revient en haut d'une page : on mesure la place qu'il y prend.
+      const nom = zoneMesure.querySelector<HTMLElement>('.nom');
+      if (nom) {
+        const h = nom.offsetHeight + (parseFloat(getComputedStyle(nom).marginBottom) || 0);
+        if (h !== hauteurNom) hauteurNom = h;
+      }
 
       // clientHeight comprend le rembourrage : c'est la hauteur du contenu
       // qu'il faut, sinon la dernière rangée d'une page est rognée.
@@ -229,6 +240,12 @@
 
   function surToucher(e: PointerEvent) {
     if (menuOuvert || testOuvert) return;
+    // Un bouton répond à son propre clic. Sans cette garde, l'appui sur
+    // « Menu » remontait jusqu'ici et tournait AUSSI la page.
+    const touche = e.target as HTMLElement;
+    if (touche.closest('button')) return;
+    // Toucher le bandeau du haut ouvre le menu (CDC §9).
+    if (touche.closest('.bandeau')) { menuOuvert = true; return; }
     const cible = e.currentTarget as HTMLElement;
     const rejet = filtrer(false, e.timeStamp, dernierAppui);
     if (rejet) return;
@@ -333,8 +350,10 @@
       {#if !pageCourante}
         <p class="vide">{tl.vide}</p>
       {:else}
-        {#each pageCourante.rangees as rangee (rangee.id)}
-          <div class="rangee" class:indication={!!rangee.scene}>{@render contenuRangee(rangee)}</div>
+        {#each pageCourante.rangees as rangee, i (rangee.id)}
+          <div class="rangee" class:indication={!!rangee.scene && !rangee.coulisse}>
+            {@render contenuRangee(rangee, i === 0)}
+          </div>
         {/each}
       {/if}
     </div>
@@ -353,17 +372,19 @@
     <!-- Les rangées entières : c'est sur leur hauteur qu'on décide s'il faut
          couper une tirade. -->
     {#each rangees as rangee (rangee.id)}
-      <div class="rangee" class:indication={!!rangee.scene} data-rangee={rangee.id}>{@render contenuRangee(rangee)}</div>
+      <div class="rangee" class:indication={!!rangee.scene && !rangee.coulisse}
+        data-rangee={rangee.id}>{@render contenuRangee(rangee, false)}</div>
     {/each}
     <!-- Puis les morceaux réellement affichés, pour la mise en pages. -->
     {#each rangeesDecoupees as rangee (rangee.id)}
-      <div class="rangee" class:indication={!!rangee.scene} data-rangee={rangee.id}>{@render contenuRangee(rangee)}</div>
+      <div class="rangee" class:indication={!!rangee.scene && !rangee.coulisse}
+        data-rangee={rangee.id}>{@render contenuRangee(rangee, false)}</div>
     {/each}
   </div>
 </div>
 
 <!-- Le contenu d'une rangée, partagé par la page affichée et la mesure. -->
-{#snippet contenuRangee(rangee: Rangee)}
+{#snippet contenuRangee(rangee: Rangee, hautDePage: boolean)}
   <!--
     Un seul fil, dans l'ordre du jeu : répliques et indications scéniques se
     suivent, et c'est leur forme qui les distingue. À droite, seulement la
@@ -376,6 +397,9 @@
     {#if rangee.dialogue}
       {@const d = rangee.dialogue}
       <div class="bulle {couleurDe(d)}" class:public={d.type === 'adresse_public'}>
+        <!-- Le nom n'est pas répété quand le même personnage continue ; il
+             revient en haut d'une page, où l'on a perdu le fil. -->
+        {#if !rangee.memeVoix || hautDePage}
         <p class="nom mono">
           <span class="pastille" aria-hidden="true"></span>
           {nomDe(d)}
@@ -387,10 +411,23 @@
             <span class="au-public">{tsc.labelPublic}</span>
           {/if}
         </p>
+        {/if}
         <p class="dit">{texteDe(d)}</p>
         {#if d.type === 'adresse_public' && d.attenteReponse}
           <p class="mono attente">{tsc.attendreReponse}</p>
         {/if}
+      </div>
+    {:else if rangee.coulisse}
+      <!-- Une voix en coulisse SE DIT : elle a la taille d'une réplique, et
+           le trait pointillé dit qu'aucune peluche ne la porte. -->
+      {@const v = rangee.coulisse}
+      <div class="bulle coulisse">
+        <p class="nom mono">
+          {v.qui} <span class="en-coulisse">{tl.enCoulisse}</span>
+          {#if rangee.suite}<span class="suite">{tl.suite}</span>{/if}
+        </p>
+        <p class="dit">{v.dit}</p>
+        {#if v.consigne}<p class="mono attente">{v.consigne}</p>{/if}
       </div>
     {:else if rangee.scene}
       {@render elementScene(rangee.scene)}
@@ -546,7 +583,9 @@
   /* Une adresse au public se distingue par le trait, jamais par la seule
      couleur : celle-ci appartient déjà au personnage. */
   .bulle.public { border-left-style: double; border-left-width: 7px; }
-
+  /* Une voix sans peluche : trait pointillé, sans couleur de personnage. */
+  .bulle.coulisse { border-left-style: dashed; }
+  .en-coulisse { opacity: 0.75; margin-left: 6px; }
   .pastille {
     display: inline-block;
     width: 0.5em;
@@ -614,6 +653,9 @@
   @media (max-width: 700px) {
     .rangee { grid-template-columns: 1fr; gap: 2px; }
     .jeu:empty { display: none; }
+    /* Sur une seule colonne, le ton passe AU-DESSUS : on doit savoir comment
+       dire la réplique avant de la lire, pas après. */
+    .jeu { order: -1; }
     .ton { padding-left: 17px; }
   }
   /* La note garde un fond distinct : elle ne se dit jamais à voix haute. */

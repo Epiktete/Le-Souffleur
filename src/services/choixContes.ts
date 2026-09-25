@@ -653,22 +653,43 @@ export function motsJouables(
  * vouloir le jouer —, il recule simplement derrière un conte qui n'a pas ce
  * problème.
  */
-function facteurJumelles(distribution: Attribution[]): number {
+export function sosiesRompus(distribution: Attribution[]): Attribution[][] {
   const parEspece = new Map<string, Attribution[]>();
   for (const a of distribution) {
     const cle = normaliser(a.role.espece);
     parEspece.set(cle, [...(parEspece.get(cle) ?? []), a]);
   }
-  let facteur = 1;
+  const rompus: Attribution[][] = [];
   for (const groupe of parEspece.values()) {
     if (groupe.length < 2) continue;
     const familles = new Set(groupe.map((a) => familleRole(a.role).famille));
     // Les marionnettes de ce groupe partagent-elles une famille ?
     const tenues = new Set(groupe.map((a) => a.espece >= 0.8));
     if (familles.size === 1 && !tenues.has(false)) continue;
-    facteur *= 0.6;
+    rompus.push(groupe);
   }
-  return facteur;
+  return rompus;
+}
+
+/**
+ * Le facteur appliqué à la NOTE TOTALE d'un conte dont les sosies sont
+ * rompus. Il ne portait d'abord que sur la note d'espèce, qui pèse un
+ * dixième du total : au banc, « Le Mariage de la souris » — où tout repose
+ * sur ce que le père et sa fille sont des souris — est arrivé premier avec un
+ * pingouin pour père, et le modèle a dû inventer « je suis leur papa depuis
+ * toujours ». Deux rôles PRINCIPAUX rompus pèsent plus lourd que des figurants.
+ *
+ * Le facteur reste modéré (0,85) : deux rôles de même espèce ne sont pas
+ * toujours des sosies — M. et Mme Crocodile se jouent très bien avec un
+ * renard et une ourse. Il suffit à faire reculer le conte hors des huit
+ * présentés quand d'autres vont aussi bien ; s'il est présenté malgré tout, la
+ * fiche montrée au modèle le signale, et c'est lui qui juge en lisant le conte.
+ */
+export function facteurJumelles(distribution: Attribution[]): number {
+  return sosiesRompus(distribution).reduce(
+    (f, groupe) => f * (groupe.filter((a) => !a.role.figurant).length >= 2 ? 0.85 : 0.95),
+    1,
+  );
 }
 
 /**
@@ -970,13 +991,14 @@ export function choisirContes(
         traits: (moyenne((a) => a.traits) + 1) / 2,
         duree: infos.mots ? noteDuree(motsJouables(infos.mots, conte, distribution), motsSpectacle) : 0.5,
         ebauche: avecEbauche ? noteEbauche(o.ebauche!, conte, infos.cles) : 0,
-        espece: moyenne((a) => a.espece) * facteurJumelles(distribution),
+        espece: moyenne((a) => a.espece),
         castelet: noteCastelet(conte),
       };
       const total = (P.nombre * notes.nombre + P.traits * notes.traits + P.duree * notes.duree
         + P.espece * notes.espece + P.castelet * notes.castelet
         + (avecEbauche ? P.ebauche * notes.ebauche : 0)) / somme
-        * (o.malus?.[conte.id] ?? 1);
+        * (o.malus?.[conte.id] ?? 1)
+        * facteurJumelles(distribution);
 
       const tenus = new Set(distribution.map((a) => a.role));
       evalues.push({

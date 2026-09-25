@@ -4,6 +4,7 @@
 // défiler. Il tourne la page entière d'un appui de pied. Une page contient
 // donc ce qui tient à l'écran, sans jamais couper un élément en deux.
 
+import { voixEnCoulisse, type VoixEnCoulisse } from './duree';
 import type { Acte, ElementScript, Id } from '../types';
 
 /**
@@ -20,6 +21,16 @@ export interface Rangee {
   dialogue?: ElementScript;
   /** Tout le reste : entrée, sortie, didascalie, note au marionnettiste. */
   scene?: ElementScript;
+  /**
+   * La voix en coulisse d'un personnage sans marionnette. C'est une note dans
+   * le script, mais le parent la DIT : elle se lit comme une réplique.
+   */
+  coulisse?: VoixEnCoulisse;
+  /**
+   * Vrai si la même marionnette vient de parler, sans rien entre les deux :
+   * son nom n'est pas répété, sauf en haut d'une page.
+   */
+  memeVoix?: boolean;
   /** Numéro de l'acte dont vient cette rangée. */
   acteNumero: number;
   acteId: Id;
@@ -37,15 +48,28 @@ function estDialogue(e: ElementScript): boolean {
 
 /** Transforme les actes en rangées : une par élément, dans l'ordre du script. */
 export function construireRangees(actes: Acte[]): Rangee[] {
-  return actes.flatMap((acte) => acte.elements.map((e, index): Rangee => ({
-    id: e.id,
-    ...(estDialogue(e) ? { dialogue: e } : { scene: e }),
-    acteNumero: acte.numero,
-    acteId: acte.id,
-    acteTitre: acte.titre,
-    tableauId: acte.tableauId,
-    debutActe: index === 0,
-  })));
+  return actes.flatMap((acte) => acte.elements.map((e, index): Rangee => {
+    const precedent = index > 0 ? acte.elements[index - 1] : undefined;
+    const coulisse = e.type === 'note_marionnettiste' ? voixEnCoulisse(e.texte) : null;
+    return {
+      id: e.id,
+      ...(estDialogue(e) ? { dialogue: e } : { scene: e }),
+      ...(coulisse ? { coulisse } : {}),
+      ...(estDialogue(e) && precedent?.type === 'replique' && e.type === 'replique'
+        && 'marionnetteId' in e && precedent.marionnetteId === e.marionnetteId
+        ? { memeVoix: true } : {}),
+      acteNumero: acte.numero,
+      acteId: acte.id,
+      acteTitre: acte.titre,
+      tableauId: acte.tableauId,
+      debutActe: index === 0,
+    };
+  }));
+}
+
+/** Vrai si la rangée annonce ce qui suit : une entrée en scène. */
+function prepare(r: Rangee): boolean {
+  return r.scene?.type === 'entree';
 }
 
 /** Une page de lecture : une suite de rangées qui tiennent à l'écran. */
@@ -61,11 +85,17 @@ export interface Page {
 /**
  * Répartit les rangées en pages, d'après la hauteur mesurée de chacune.
  *
- * Trois règles :
+ * Quatre règles :
  *   - une rangée n'est jamais coupée entre deux pages ;
  *   - une rangée plus haute que la page occupe une page entière, seule ;
  *   - un changement d'acte ou de tableau commence une nouvelle page, parce
- *     que le marionnettiste doit changer de décor ou de rythme.
+ *     que le marionnettiste doit changer de décor ou de rythme ;
+ *   - une ENTRÉE ne reste jamais seule en bas de page : elle annonce la
+ *     réplique qui suit, et passe avec elle à la page suivante.
+ *
+ * `hauteurNom` est la place du nom au-dessus d'une réplique. Une réplique qui
+ * continue celle du même personnage est mesurée sans son nom ; si elle ouvre
+ * une page, le nom y revient, et il faut lui faire cette place.
  *
  * Fonction pure : les hauteurs sont mesurées par le composant, la répartition
  * se teste sans navigateur.
@@ -74,6 +104,7 @@ export function paginer(
   rangees: Rangee[],
   hauteurs: Map<Id, number>,
   hauteurPage: number,
+  hauteurNom = 0,
 ): Page[] {
   const pages: Page[] = [];
   if (rangees.length === 0 || hauteurPage <= 0) return pages;
@@ -97,8 +128,12 @@ export function paginer(
     cumul = 0;
   };
 
+  const hauteurDe = (r: Rangee) => hauteurs.get(r.id) ?? 0;
+  // En haut de page, le nom d'une réplique qui continue revient.
+  const enTete = (r: Rangee) => (r.memeVoix ? hauteurNom : 0);
+
   for (const rangee of rangees) {
-    const hauteur = hauteurs.get(rangee.id) ?? 0;
+    const hauteur = hauteurDe(rangee);
     const changeActe = rangee.acteNumero !== acteCourant;
     const changeTableau = rangee.tableauId !== tableauCourant;
 
@@ -110,10 +145,25 @@ export function paginer(
 
     // La rangée ne tient pas sur ce qu'il reste : on tourne la page. Une
     // rangée seule plus haute que la page reste seule, on ne la coupe pas.
-    if (courante.length > 0 && cumul + hauteur > hauteurPage) fermer();
+    if (courante.length > 0 && cumul + hauteur > hauteurPage) {
+      // Les entrées qui finissent la page annoncent CETTE rangée : elles
+      // passent avec elle, si l'ensemble tient sur une page.
+      let queue = 0;
+      while (queue < courante.length - 1 && prepare(courante[courante.length - 1 - queue])) queue++;
+      const reportees = queue > 0 ? courante.slice(-queue) : [];
+      const hauteurReportee = reportees.reduce((t, r) => t + hauteurDe(r), 0);
+      if (reportees.length > 0 && hauteurReportee + hauteur <= hauteurPage) {
+        courante = courante.slice(0, -queue);
+        fermer();
+        courante = reportees;
+        cumul = hauteurReportee;
+      } else {
+        fermer();
+      }
+    }
 
+    cumul += hauteur + (courante.length === 0 ? enTete(rangee) : 0);
     courante.push(rangee);
-    cumul += hauteur;
   }
 
   fermer();
@@ -149,15 +199,41 @@ export function decouperTropLongues(
 
   for (const rangee of rangees) {
     const hauteur = hauteurs.get(rangee.id) ?? 0;
-    const texte = rangee.dialogue && 'texte' in rangee.dialogue ? rangee.dialogue.texte : '';
+    const texte = rangee.dialogue && 'texte' in rangee.dialogue
+      ? rangee.dialogue.texte
+      : rangee.coulisse?.dit ?? '';
 
-    if (hauteur <= hauteurPage || !rangee.dialogue || texte.length === 0) {
+    if (hauteur <= hauteurPage || texte.length === 0) {
       resultat.push(rangee);
       continue;
     }
 
-    // Marge de 15 % : l'estimation est proportionnelle, pas exacte.
-    const morceaux = Math.ceil(hauteur / (hauteurPage * 0.85));
+    // Marge de 15 % : l'estimation est proportionnelle, pas exacte. Elle peut
+    // donc encore laisser un morceau trop haut — au banc, une longue voix en
+    // coulisse sur téléphone. Les morceaux sont mesurés à leur tour : si l'un
+    // dépasse, on recoupe en un morceau de plus, jusqu'à ce que tout tienne.
+    //
+    // Les mesures ne portent que sur les morceaux AFFICHÉS : celles d'un
+    // découpage abandonné disparaissent. On repart donc du découpage estimé et
+    // on avance tant qu'il est mesuré trop haut, ou qu'un découpage plus fin a
+    // déjà été mesuré — sans quoi on reviendrait en arrière à chaque mesure.
+    const MAX_MORCEAUX = 20;
+    const idDe = (k: number, index: number) => `${rangee.id}#${k}.${index}`;
+    const mesures = (k: number) => {
+      const n = couperEnPhrases(texte, k).length;
+      const h = Array.from({ length: n }, (_, i) => hauteurs.get(idDe(k, i)));
+      return h.every((x) => x !== undefined) ? h as number[] : null;
+    };
+    const plusFinMesure = (k: number) => {
+      for (let j = k + 1; j <= MAX_MORCEAUX; j++) if (hauteurs.has(idDe(j, 0))) return true;
+      return false;
+    };
+    let morceaux = Math.ceil(hauteur / (hauteurPage * 0.85));
+    while (morceaux < MAX_MORCEAUX) {
+      const h = mesures(morceaux);
+      if (h ? h.every((x) => x <= hauteurPage) : !plusFinMesure(morceaux)) break;
+      morceaux++;
+    }
     const parts = couperEnPhrases(texte, morceaux);
 
     parts.forEach((part, index) => {
@@ -165,11 +241,17 @@ export function decouperTropLongues(
         ...rangee,
         // Même le premier morceau change d'identifiant : sinon sa hauteur
         // remplacerait celle de la tirade entière, le découpage se croirait
-        // inutile et se déferait, pour se refaire aussitôt.
-        id: `${rangee.id}#${index}`,
-        dialogue: { ...rangee.dialogue!, texte: part } as ElementScript,
+        // inutile et se déferait, pour se refaire aussitôt. Le nombre de
+        // morceaux y figure : un « premier morceau » sur trois n'a pas la
+        // hauteur d'un premier morceau sur deux.
+        id: idDe(morceaux, index),
+        ...(rangee.dialogue
+          ? { dialogue: { ...rangee.dialogue, texte: part } as ElementScript }
+          : { coulisse: { ...rangee.coulisse!, dit: part, consigne: index === parts.length - 1 ? rangee.coulisse!.consigne : '' } }),
         debutActe: index === 0 ? rangee.debutActe : false,
         suite: index > 0,
+        // Un morceau suivant porte « (suite) » à côté du nom : il le garde.
+        memeVoix: index === 0 ? rangee.memeVoix : false,
       });
     });
   }

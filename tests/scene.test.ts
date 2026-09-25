@@ -420,3 +420,67 @@ describe('controler : les contrôles automatiques du CDC §6', () => {
     expect(bloquant?.position).toBe(1);
   });
 });
+
+describe('controler : ce que la revue laissait passer au banc', () => {
+  const acte = (n: number, elements: ElementScript[]): Acte =>
+    ({ id: `a${n}`, numero: n, titre: `Acte ${n}`, tableauId: 't1', resume: '', elements });
+  const contexte = (actes: Acte[]) => ({
+    actes,
+    nbMarionnettistes: 1 as const,
+    marionnetteIds: ['lapin'],
+    nomDe,
+    interactionPublic: 'quelques' as const,
+    dureeCibleSecondes: 10,
+  });
+  const messages = (actes: Acte[]) => controler(contexte(actes)).map((p) => p.message);
+
+  it('refuse une question d’opinion ou une idée à trouver, et désigne l’élément', () => {
+    const p = controler(contexte([acte(1, [
+      entree('lapin', 'M1G'),
+      adresse('lapin', 'Qui pourrait être plus fort que le Mur, à votre avis ?', true),
+    ])])).filter((x) => /leur avis/.test(x.message));
+    expect(p).toHaveLength(1);
+    expect(p[0].position).toBe(2);
+  });
+
+  it('laisse passer ce qu’on demande de faire aux enfants', () => {
+    expect(messages([acte(1, [
+      entree('lapin', 'M1G'),
+      adresse('lapin', 'Vous m’aidez à crier très fort ?', true),
+    ])]).filter((m) => /leur avis/.test(m))).toEqual([]);
+  });
+
+  it('repère la narration du conteur dans une réplique', () => {
+    const m = messages([acte(1, [
+      entree('lapin', 'M1G'),
+      adresse('lapin', 'Les deux amis vécurent heureux, et partagèrent tout.'),
+    ])]);
+    expect(m.some((x) => /récite la narration/.test(x))).toBe(true);
+  });
+
+  it('ne prend pas le présent des verbes en -érer pour du passé simple', () => {
+    const m = messages([acte(1, [
+      entree('lapin', 'M1G'),
+      replique('lapin', 'Ils préfèrent les carottes, et ils espèrent en trouver.'),
+    ])]);
+    expect(m.some((x) => /récite la narration/.test(x))).toBe(false);
+  });
+
+  it('juge chaque acte sur le budget du découpage, et ne coupe jamais le dernier', () => {
+    const mots = (n: number) => Array.from({ length: n }, () => 'mot').join(' ');
+    // 5 min : l'acte 1 a 100 mots de budget, l'acte 2 (le dénouement) 400.
+    const c = {
+      ...contexte([
+        acte(1, [entree('lapin', 'M1G'), replique('lapin', mots(100))]),
+        acte(2, [replique('lapin', mots(700))]),
+      ]),
+      dureeCibleSecondes: 300,
+      budgetsMots: { 1: 100, 2: 400 },
+    };
+    const p = controler(c);
+    // Le spectacle est trop long dans son ensemble…
+    expect(p.some((x) => /trop long/.test(x.message))).toBe(true);
+    // … mais l'acte 1 tient sa part, et le dernier n'est pas à couper.
+    expect(p.filter((x) => x.acteNumero !== undefined && /un peu/.test(x.message))).toEqual([]);
+  });
+});
