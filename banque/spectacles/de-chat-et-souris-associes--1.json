@@ -1,0 +1,723 @@
+{
+  "id": "de-chat-et-souris-associes--1",
+  "conteId": "de-chat-et-souris-associes",
+  "titre": "Chat et souris associés",
+  "pitch": "{{r1}} et {{r2}} cachent un pot de miel pour l’hiver, mais {{r2}} le vide en cachette, jusqu’à ce que la ruse éclate devant tout le monde.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "souris",
+      "famille": "petit",
+      "traits": [
+        "peureux",
+        "curieux"
+      ],
+      "voix": "voix aiguë et pressée, qui répète le dernier mot entendu avec étonnement"
+    },
+    {
+      "cle": "r2",
+      "espece": "loup",
+      "famille": "predateur",
+      "traits": [
+        "méchant",
+        "gourmand"
+      ],
+      "voix": "voix grave et un peu traînante, qui commence chaque mensonge par un « Euh... » hésitant"
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 5,
+    "ageAuditoire": 4,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La maison",
+      "description": "Tends un drap ou une couverture marron derrière toi pour marquer l’intérieur de la maison. Tu peux poser un coussin devant toi pour figurer le sol de la pièce. Rien d’autre n’est nécessaire pour ce tableau.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "Le chêne",
+      "description": "Installe un grand carton ou un drap vert-brun pour figurer le tronc du chêne, avec un creux bien visible (un trou découpé ou un pli du tissu). Pose au pied du tronc un petit pot vide, à moitié caché, que tu ne toucheras plus avant la fin.",
+      "accessoires": [
+        "Un petit pot vide (pot à miel ou à confiture), posé au pied de l’arbre, jamais touché par les marionnettes"
+      ],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Le pot caché",
+      "tableauId": "t1",
+      "resume": "{{r1}} et {{r2}} décident de vivre ensemble et achètent un pot de miel pour passer l’hiver au chaud. Ils choisissent de le cacher dans le creux du grand chêne.",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e3",
+          "type": "didascalie",
+          "texte": "{{r2}} s'approche de {{r1}}."
+        },
+        {
+          "id": "a1e4",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "{{r1}}, je t'aime beaucoup, comme un vrai ami. Habite avec moi !",
+          "ton": "chaleureux"
+        },
+        {
+          "id": "a1e5",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "D'accord, {{r2}}, j'habiterai avec toi !",
+          "ton": "joyeuse"
+        },
+        {
+          "id": "a1e6",
+          "type": "didascalie",
+          "texte": "{{r1}} hoche la tête."
+        },
+        {
+          "id": "a1e7",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Mais il faut penser à l'hiver, sinon nous aurons faim. Toi, {{r1}}, tu ne peux pas t'aventurer partout, et tu finirais par tomber dans un piège.",
+          "ton": "sérieux, un peu grave"
+        },
+        {
+          "id": "a1e8",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Allons acheter un pot, pour ne pas avoir faim cet hiver !",
+          "ton": "décidée"
+        },
+        {
+          "id": "a1e9",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Qu'est-ce qu'on va mettre dedans, à votre avis ?",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e10",
+          "type": "didascalie",
+          "texte": "{{r2}} se frotte le ventre."
+        },
+        {
+          "id": "a1e11",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Un pot de miel !",
+          "ton": "gourmand"
+        },
+        {
+          "id": "a1e12",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Mais où allons-nous le cacher ?",
+          "ton": "inquiète, curieuse"
+        },
+        {
+          "id": "a1e13",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "À votre avis, où faut-il cacher le pot pour que personne ne le trouve ?",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e14",
+          "type": "didascalie",
+          "texte": "{{r2}} penche la tête, immobile un instant."
+        },
+        {
+          "id": "a1e15",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je ne connais pas d'endroit plus sûr que le creux du grand chêne : là, personne n'ose rien prendre. Nous le mettrons tout au fond, et nous n'y toucherons pas avant d'en avoir besoin.",
+          "ton": "convaincu, sûr de lui"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Les faux baptêmes",
+      "tableauId": "t1",
+      "resume": "{{r2}} s’invente des prétextes pour s’éclipser et grignoter le miel en cachette, donnant chaque fois un drôle de nom au « bébé » de son faux baptême. {{r1}} s’étonne sans comprendre, et l’hiver approche.",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "didascalie",
+          "texte": "{{r2}} renifle l'air, gourmand."
+        },
+        {
+          "id": "a2e2",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "{{r1}}, j'oubliais de te dire : ma cousine m'a demandé d'être parrain. Elle a mis au monde un petit garçon, et je dois le porter au baptême. Laisse-moi sortir, et garde la maison toute seule.",
+          "ton": "mielleux, l'air innocent"
+        },
+        {
+          "id": "a2e3",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oui, oui, va, et pense à moi si tu manges quelque chose de bon !",
+          "ton": "confiante, gentille"
+        },
+        {
+          "id": "a2e4",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e5",
+          "type": "didascalie",
+          "texte": "{{r1}} s'affaire, en attendant."
+        },
+        {
+          "id": "a2e6",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e7",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ah, te voilà ! Tu as sûrement passé une joyeuse journée.",
+          "ton": "contente, soulagée"
+        },
+        {
+          "id": "a2e8",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Ça s'est bien passé.",
+          "ton": "évasif"
+        },
+        {
+          "id": "a2e9",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Et quel nom a-t-on donné à l'enfant ?",
+          "ton": "curieuse"
+        },
+        {
+          "id": "a2e10",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Entamé.",
+          "ton": "sec, pressé de changer de sujet"
+        },
+        {
+          "id": "a2e11",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Entamé… ça veut dire quoi, à votre avis ?",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e12",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Mais c'est un nom bien étrange et bien bizarre ! C'est l'habitude, dans ta famille ?",
+          "ton": "perplexe"
+        },
+        {
+          "id": "a2e13",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Et alors ? Ce n'est pas pire que Voleur-de-miettes, comme s'appellent tes filleuls !",
+          "ton": "vexé, sur la défensive"
+        },
+        {
+          "id": "a2e14",
+          "type": "didascalie",
+          "texte": "{{r2}} renifle de nouveau."
+        },
+        {
+          "id": "a2e15",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Il faut que tu me rendes encore service : on m'a demandé une deuxième fois d'être parrain, et comme l'enfant a un anneau blanc autour du cou, je ne peux pas refuser. Tu me laisses sortir, n'est-ce pas ?",
+          "ton": "un peu gêné"
+        },
+        {
+          "id": "a2e16",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Entamé… c'est un nom bien curieux. Mais vas-y.",
+          "ton": "songeuse, mais confiante"
+        },
+        {
+          "id": "a2e17",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e18",
+          "type": "didascalie",
+          "texte": "{{r1}} fait le ménage, en attendant."
+        },
+        {
+          "id": "a2e19",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e20",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Et comment a-t-on baptisé cet enfant-là ?",
+          "ton": "curieuse"
+        },
+        {
+          "id": "a2e21",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "À-moitié.",
+          "ton": "évasif, pressé de changer de sujet"
+        },
+        {
+          "id": "a2e22",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "À-moitié ! Qu'est-ce que tu me racontes ! Je n'ai jamais entendu ce nom de ma vie. Je parie qu'il n'est pas dans le calendrier.",
+          "ton": "perplexe"
+        },
+        {
+          "id": "a2e23",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Jamais deux sans trois : on me demande encore d'être parrain. Le petit a les pattes toutes blanches, et pas un seul poil blanc ailleurs sur le corps : cela n'arrive qu'une fois tous les trois ou quatre ans. Tu me laisses sortir, n'est-ce pas ?",
+          "ton": "gourmand, un peu forcé"
+        },
+        {
+          "id": "a2e24",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Entamé ! À-moitié ! Ce sont des noms si curieux, ils me donnent à réfléchir. Mais vas-y.",
+          "ton": "songeuse, mais confiante"
+        },
+        {
+          "id": "a2e25",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e26",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Vous, vous y croyez, à ces baptêmes ?",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e27",
+          "type": "didascalie",
+          "texte": "{{r1}} regarde le public, attend."
+        },
+        {
+          "id": "a2e28",
+          "type": "didascalie",
+          "texte": "{{r1}} penche la tête, songeuse, en attendant."
+        },
+        {
+          "id": "a2e29",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e30",
+          "type": "didascalie",
+          "texte": "{{r2}} se dandine en entrant, le pas lourd."
+        },
+        {
+          "id": "a2e31",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "À votre avis, pourquoi {{r2}} revient-il toujours le ventre plein ?",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e32",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Et comment a-t-on baptisé cet enfant-là ?",
+          "ton": "curieuse"
+        },
+        {
+          "id": "a2e33",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Il ne te plaira sans doute pas non plus… Il s'appelle Tout-fini.",
+          "ton": "gêné, presque honteux"
+        },
+        {
+          "id": "a2e34",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tout-fini ! C'est le plus inquiétant de tous les noms. Tout-fini ! Qu'est-ce que cela peut bien vouloir dire ?",
+          "ton": "effarée"
+        },
+        {
+          "id": "a2e35",
+          "type": "didascalie",
+          "texte": "{{r1}} secoue la tête, se roule en boule et s'endort."
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Tout-Fini !",
+      "tableauId": "t2",
+      "resume": "L’hiver venu, {{r1}} et {{r2}} vont ensemble chercher le pot promis : il est vide. {{r1}} comprend d’un coup et le dit devant tout le monde ; {{r2}}, confus, part réparer sa faute.",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "didascalie",
+          "texte": "{{r1}} tremble, puis se réveille en sursaut."
+        },
+        {
+          "id": "a3e2",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Brr ! L'hiver est arrivé. Viens, {{r2}}, allons chercher notre pot de miel que nous avons mis de côté, il va nous régaler.",
+          "ton": "frileuse, gourmande"
+        },
+        {
+          "id": "a3e3",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Oh oui, il te régalera autant que si tu tirais ta fine langue par la fenêtre.",
+          "ton": "gourmand, un peu moqueur"
+        },
+        {
+          "id": "a3e4",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r2}} traversent la scène ensemble et s'approchent du grand chêne."
+        },
+        {
+          "id": "a3e5",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "À votre avis, qu'est-ce qu'on va trouver dans le pot ?",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e6",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r2}} se penchent vers le creux du grand chêne."
+        },
+        {
+          "id": "a3e7",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Le pot est vide !",
+          "ton": "stupéfaite"
+        },
+        {
+          "id": "a3e8",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ah, je comprends maintenant ce qui s'est passé, maintenant tout s'éclaire ! Tu es vraiment un bel ami ! Tu as tout mangé, quand tu étais parrain : d'abord entamé, et puis…",
+          "ton": "elle comprend soudain, indignée"
+        },
+        {
+          "id": "a3e9",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Tais-toi ! Encore un mot, et je te mange.",
+          "ton": "fort, l'air menaçant"
+        },
+        {
+          "id": "a3e10",
+          "type": "didascalie",
+          "texte": "{{r1}} recule d'un pas, puis se tourne vers le public."
+        },
+        {
+          "id": "a3e11",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Vous le savez, vous, ce nom-là ? Dites-le avec moi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e12",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tout-fini !",
+          "ton": "elle lâche le mot, décidée"
+        },
+        {
+          "id": "a3e13",
+          "type": "didascalie",
+          "texte": "{{r2}} recule d'un coup, puis reste immobile, la tête penchée vers le sol."
+        },
+        {
+          "id": "a3e14",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "C'est vrai. J'ai tout mangé.",
+          "ton": "penaud, tout petit"
+        },
+        {
+          "id": "a3e15",
+          "type": "didascalie",
+          "texte": "{{r2}} baisse la tête."
+        },
+        {
+          "id": "a3e16",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je vais te chercher un nouveau pot de miel, tout de suite, je te le promets.",
+          "ton": "décidé, un peu honteux"
+        },
+        {
+          "id": "a3e17",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Et voilà, c'est comme ça que va le monde !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e18",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "synopsis": {
+      "conte": "de-chat-et-souris-associes",
+      "titre": "Chat et souris associés",
+      "accroche": "Un pot de miel caché pour l'hiver, et {{r2}} qui le vide en cachette, un peu chaque jour.",
+      "resume": [
+        "{{r1}} et {{r2}} décident de vivre ensemble et cachent un pot de miel pour passer l'hiver.",
+        "{{r2}} s'éclipse en disant qu'on l'invite à un baptême, et revient avoir goûté le pot en cachette : il dit que le bébé s'appelle « Entamé ».",
+        "Il recommence une seconde fois : cette fois le bébé s'appelle « Tout-Fini », et le pot est maintenant vide.",
+        "Quand vient l'hiver, ils vont chercher leur pot ensemble et le trouvent vide.",
+        "{{r1}} comprend tout et dit devant tout le monde : « Tout-Fini ! » {{r2}}, confus, promet de lui trouver un nouveau pot."
+      ],
+      "distribution": [
+        {
+          "marionnette": "{{r1}}",
+          "role": "la Souris",
+          "note": "Sa curiosité naturelle porte toute l'enquête : c'est elle qui comprend la ruse en premier."
+        },
+        {
+          "marionnette": "{{r2}}",
+          "role": "le Chat",
+          "note": "Son appétit gourmand est exactement ce qui le pousse à vider le pot en cachette."
+        }
+      ],
+      "changements": [
+        "Le pot de graisse devient un pot de miel, plus parlant pour un enfant ; l'église et le grenier disparaissent du texte.",
+        "Un des trois faux baptêmes est supprimé pour tenir dans le temps du spectacle : il n'en reste que deux, jusqu'à « Tout-Fini ».",
+        "La fin est adoucie : personne n'est mangé ; {{r2}}, confondu devant le public, part chercher un nouveau pot pour se faire pardonner."
+      ],
+      "id": "de-chat-et-souris-associes",
+      "reference": "Chat et souris associés — Allemagne, Jacob et Wilhelm Grimm, Contes de l'enfance et du foyer, 1857 (n° 2)"
+    },
+    "conteId": "de-chat-et-souris-associes",
+    "adaptation": {
+      "titre": "Le pot de miel de {{r1}} et {{r2}}",
+      "pitch": "{{r1}} et {{r2}} cachent un pot de miel pour l’hiver, mais {{r2}} le vide en cachette, jusqu’à ce que la ruse éclate devant tout le monde.",
+      "changements": [
+        "Le deuxième faux baptême (« À-moitié ») est supprimé en entier pour tenir dans les 5 minutes : {{r2}} ne s’éclipse que deux fois, et la seconde fois il vide le pot d’un coup, si bien que le filleul s’appelle directement « Tout-Fini ».",
+        "Les moments où {{r2}} goûte le miel en cachette ne sont pas montrés : il sort simplement de scène puis revient annoncer le nom du filleul, car une peluche n’a pas de doigts pour ouvrir un pot.",
+        "Le neveu du faux baptême n’est jamais une marionnette : c’est un personnage inventé par {{r2}} dans ses mensonges, on ne le voit donc jamais en scène."
+      ],
+      "tableaux": [
+        {
+          "id": "t1",
+          "titre": "La maison",
+          "description": "Tends un drap ou une couverture marron derrière toi pour marquer l’intérieur de la maison. Tu peux poser un coussin devant toi pour figurer le sol de la pièce. Rien d’autre n’est nécessaire pour ce tableau.",
+          "accessoires": [],
+          "promptImage": ""
+        },
+        {
+          "id": "t2",
+          "titre": "Le chêne",
+          "description": "Installe un grand carton ou un drap vert-brun pour figurer le tronc du chêne, avec un creux bien visible (un trou découpé ou un pli du tissu). Pose au pied du tronc un petit pot vide, à moitié caché, que tu ne toucheras plus avant la fin.",
+          "accessoires": [
+            "Un petit pot vide (pot à miel ou à confiture), posé au pied de l’arbre, jamais touché par les marionnettes"
+          ],
+          "promptImage": ""
+        }
+      ],
+      "actes": [
+        {
+          "numero": 1,
+          "titre": "Le pot caché",
+          "tableauId": "t1",
+          "resume": "{{r1}} et {{r2}} décident de vivre ensemble et achètent un pot de miel pour passer l’hiver au chaud. Ils choisissent de le cacher dans le creux du grand chêne.",
+          "passage": "De « {{r2}} avait fait la connaissance de {{r1}}… » à « …nous n’y toucherons pas avant d’en avoir besoin. »",
+          "temps": [
+            "{{r1}} et {{r2}} décident de vivre ensemble.",
+            "Ils achètent un pot de miel pour l’hiver.",
+            "Ils choisissent une cachette : le creux du grand chêne."
+          ],
+          "mouvements": [
+            {
+              "type": "entree",
+              "marionnette": "{{r1}}",
+              "main": "M1G"
+            },
+            {
+              "type": "entree",
+              "marionnette": "{{r2}}",
+              "main": "M1D"
+            }
+          ],
+          "momentsPublic": [
+            "On demande aux enfants : « À votre avis, où faut-il cacher le pot pour que personne ne le trouve ? »",
+            "On fait deviner aux enfants ce qu’il y a dans le pot avant de le dire."
+          ],
+          "budgetMots": 140
+        },
+        {
+          "numero": 2,
+          "titre": "Les faux baptêmes",
+          "tableauId": "t1",
+          "resume": "{{r2}} s’invente des prétextes pour s’éclipser et grignoter le miel en cachette, donnant chaque fois un drôle de nom au « bébé » de son faux baptême. {{r1}} s’étonne sans comprendre, et l’hiver approche.",
+          "passage": "De « Le petit pot fut donc mis à l’abri. » à « …Elle secoua la tête, se roula en boule et s’endormit. »",
+          "temps": [
+            "{{r2}} invente un premier baptême pour s’éclipser et goûter le miel : le filleul s’appelle « Entamé ».",
+            "Il recommence, vide le reste du pot d’un coup : le filleul s’appelle « Tout-Fini ».",
+            "{{r1}} s’étonne de ces noms étranges et s’endort, sans comprendre."
+          ],
+          "mouvements": [
+            {
+              "type": "sortie",
+              "marionnette": "{{r2}}",
+              "main": "M1G"
+            },
+            {
+              "type": "entree",
+              "marionnette": "{{r2}}",
+              "main": "M1D"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "{{r2}}",
+              "main": "M1G"
+            },
+            {
+              "type": "entree",
+              "marionnette": "{{r2}}",
+              "main": "M1D"
+            }
+          ],
+          "momentsPublic": [
+            "On demande aux enfants : « Entamé, ça veut dire quoi, à votre avis ? »",
+            "On fait deviner aux enfants pourquoi {{r2}} revient toujours le ventre plein.",
+            "On demande : « Vous, vous y croyez, à ces baptêmes ? »"
+          ],
+          "budgetMots": 160
+        },
+        {
+          "numero": 3,
+          "titre": "Tout-Fini !",
+          "tableauId": "t2",
+          "resume": "L’hiver venu, {{r1}} et {{r2}} vont ensemble chercher le pot promis : il est vide. {{r1}} comprend d’un coup et le dit devant tout le monde ; {{r2}}, confus, part réparer sa faute.",
+          "passage": "De « À partir de ce jour, plus personne ne demanda à {{r2}} d’être parrain. » à « …Tu vois, c’est ainsi que va le monde. »",
+          "temps": [
+            "L’hiver arrive ; ils vont ensemble chercher leur pot de miel.",
+            "Le pot est vide : {{r1}} comprend et dit « Tout-Fini ! » devant tout le monde.",
+            "{{r2}}, confus, promet de trouver un nouveau pot de miel."
+          ],
+          "mouvements": [
+            {
+              "type": "sortie",
+              "marionnette": "{{r2}}",
+              "main": "M1G"
+            }
+          ],
+          "momentsPublic": [
+            "On demande aux enfants, avant d’ouvrir : « À votre avis, qu’est-ce qu’on va trouver dans le pot ? »",
+            "On laisse les enfants deviner et crier le nom avant que {{r1}} ne le dise.",
+            "On demande aux enfants comment {{r2}} pourrait se faire pardonner."
+          ],
+          "budgetMots": 220
+        }
+      ],
+      "voix": [
+        {
+          "marionnette": "{{r2}}",
+          "voix": "voix grave et un peu traînante, qui commence chaque mensonge par un « Euh... » hésitant"
+        },
+        {
+          "marionnette": "{{r1}}",
+          "voix": "voix aiguë et pressée, qui répète le dernier mot entendu avec étonnement"
+        }
+      ]
+    },
+    "transposition": {
+      "texte": "{{r2}} avait fait la connaissance de {{r1}}, et il lui avait tant parlé du grand amour et de la grande amitié qu’il avait pour elle que {{r1}} accepta enfin d’habiter avec lui dans la même maison et de tenir ménage ensemble.\n\n— Mais il faut penser à l’hiver, sinon nous aurons faim, dit {{r2}}. Toi, {{r1}}, tu ne peux pas t’aventurer partout, et tu finirais par tomber dans un piège.\n\nIls suivirent donc ce bon conseil et achetèrent un petit pot de miel. Mais ils ne savaient pas où le mettre. Enfin, après avoir longuement réfléchi, {{r2}} dit :\n\n— Je ne connais pas d’endroit plus sûr que le creux du grand chêne : là, personne n’ose rien prendre. Nous le mettrons tout au fond, et nous n’y toucherons pas avant d’en avoir besoin.\n\nLe petit pot fut donc mis à l’abri. Mais il ne se passa pas longtemps avant que {{r2}} en ait envie, et il dit à {{r1}} :\n\n— {{r1}}, j’oubliais de te dire : ma cousine m’a demandé d’être parrain. Elle a mis au monde un petit garçon, blanc avec des taches brunes, et je dois le porter au baptême. Laisse-moi sortir aujourd’hui, et garde la maison toute seule.\n\n— Oui, oui, répondit {{r1}}, va, et si tu manges quelque chose de bon, pense à moi : une petite goutte du bon vin de la fête, j’en boirais volontiers.\n\nMais tout cela n’était pas vrai. {{r2}} n’avait pas de cousine et n’était parrain de personne. Il alla tout droit au creux du grand chêne, se glissa jusqu’au pot de miel, se mit à lécher, et lécha toute la couche du dessus. Puis il fit une promenade dans la forêt, regarda le paysage, s’étendit au soleil, et se pourlécha les moustaches chaque fois qu’il repensait au petit pot. Il ne rentra qu’au soir.\n\n— Ah, te voilà, dit {{r1}}. Tu as sûrement passé une joyeuse journée.\n\n— Ça s’est bien passé, répondit {{r2}}.\n\n— Et quel nom a-t-on donné à l’enfant ? demanda {{r1}}.\n\n— Entamé, dit {{r2}}, très sèchement.\n\n— Entamé ! s’écria {{r1}}. Mais c’est un nom bien étrange et bien bizarre. C’est l’habitude, dans ta famille ?\n\n— Et alors ? dit {{r2}}. Ce n’est pas pire que Voleur-de-miettes, comme s’appellent tes filleuls.\n\nPeu après, {{r2}} eut de nouveau une envie. Il dit à {{r1}} :\n\n— Il faut que tu me rendes encore service et que tu t’occupes seule de la maison. On m’a demandé une deuxième fois d’être parrain, et comme l’enfant a un anneau blanc autour du cou, je ne peux pas refuser.\n\nLa bonne {{r1}} accepta. {{r2}} se glissa à travers la forêt jusqu’au grand chêne et mangea la moitié du pot de miel.\n\n— Rien n’a meilleur goût, dit-il, que ce qu’on mange soi-même.\n\nEt il fut très content de sa journée. Quand il rentra, {{r1}} demanda :\n\n— Et comment a-t-on baptisé cet enfant-là ?\n\n— À-moitié, répondit {{r2}}.\n\n— À-moitié ! Qu’est-ce que tu me racontes ! Je n’ai jamais entendu ce nom de ma vie. Je parie qu’il n’est pas dans le calendrier.\n\nBientôt {{r2}} eut de nouveau l’eau à la bouche en pensant à la friandise.\n\n— Jamais deux sans trois, dit-il à {{r1}}. On me demande encore d’être parrain. L’enfant est tout noir, avec seulement les pattes blanches, pas un seul poil blanc ailleurs sur le corps : cela n’arrive qu’une fois tous les trois ou quatre ans. Tu me laisses sortir, n’est-ce pas ?\n\n— Entamé ! À-moitié ! répondit {{r1}}. Ce sont des noms si curieux, ils me donnent à réfléchir.\n\n— Tu restes à la maison dans ta robe gris foncé, avec ta longue natte, dit {{r2}}, et tu te fais des idées. Voilà ce qui arrive quand on ne sort pas de la journée.\n\nPendant l’absence de {{r2}}, {{r1}} fit le ménage et rangea la maison. Mais {{r2}}, gourmand, vida complètement le pot de miel.\n\n— Quand tout est mangé, on est tranquille, se dit-il.\n\nEt il ne rentra que la nuit, repu et tout rond. {{r1}} lui demanda aussitôt le nom qu’on avait donné au troisième enfant.\n\n— Il ne te plaira sans doute pas non plus, dit {{r2}}. Il s’appelle Tout-fini.\n\n— Tout-fini ! s’écria {{r1}}. C’est le plus inquiétant de tous les noms. Je ne l’ai jamais vu écrit nulle part. Tout-fini ! Qu’est-ce que cela peut bien vouloir dire ?\n\nElle secoua la tête, se roula en boule et s’endormit.\n\nÀ partir de ce jour, plus personne ne demanda à {{r2}} d’être parrain. Mais quand l’hiver arriva et qu’on ne trouva plus rien dehors, {{r1}} se souvint de leur réserve et dit :\n\n— Viens, {{r2}}, allons chercher notre pot de miel que nous avons mis de côté, il va nous régaler.\n\n— Oh oui, répondit {{r2}}, il te régalera autant que si tu tirais ta fine langue par la fenêtre.\n\nIls se mirent en route, et quand ils arrivèrent, le pot de miel était bien à sa place, mais il était vide.\n\n— Ah, dit {{r1}}, je comprends maintenant ce qui s’est passé, maintenant tout s’éclaire ! Tu es vraiment un bel ami ! Tu as tout mangé, quand tu étais parrain : d’abord entamé, puis à moitié, puis…\n\n— Tais-toi ! cria {{r2}}. Encore un mot, et je te mange.\n\n« Tout-fini » était déjà sur la langue de la pauvre {{r1}} ; à peine l’eut-elle dit que {{r2}} resta bouche bée, confus devant tout le monde. Il n’y avait plus rien à cacher : c’était bien lui, le gourmand. Alors, penaud, il promit de lui trouver un nouveau pot de miel avant la nuit. Tu vois, c’est ainsi que va le monde.",
+      "changements": [
+        "Le pot de graisse devient un pot de miel, comme annoncé au parent.",
+        "La cachette n’est plus l’église mais le creux d’un grand chêne, l’église disparaissant du texte.",
+        "La promenade sur les toits de la ville devient une promenade dans la forêt, car un loup ne grimpe pas sur les toits.",
+        "Le trajet derrière les remparts jusqu’à l’église devient un trajet à travers la forêt jusqu’au grand chêne, par cohérence avec la nouvelle cachette.",
+        "« une belle amie » devient « un bel ami », accord au masculin pour {{r2}}.",
+        "La fin est adoucie : personne n’est mangé ; confus devant tout le monde d’avoir tout mangé, {{r2}} part réparer sa faute en promettant à {{r1}} un nouveau pot de miel."
+      ]
+    },
+    "relecture": {
+      "remarques": [
+        {
+          "acte": 3,
+          "element": 13,
+          "gravite": "bloquant",
+          "remarque": "La didascalie « {{r2}} reste bouche bée, immobile, confus devant tout le monde » demande une expression de bouche ouverte (bouche bée) et un état (« confus ») qu'une peluche enfilée sur la main, sans visage manipulable, ne peut pas montrer physiquement.",
+          "modification": "Remplacer par une action jouable à la main : « [action] {{r2}} recule d'un coup, puis reste immobile, la tête penchée vers le sol. » Laisser la réplique suivante (« C'est vrai. J'ai tout mangé. », penaud) porter seule l'idée de confusion."
+        },
+        {
+          "acte": 2,
+          "element": 15,
+          "gravite": "important",
+          "remarque": "Le conte fait trois faux baptêmes (Entamé, À-moitié, Tout-fini) ; le script n'en joue que deux. L'élément 15 annonce pourtant une « deuxième fois » de parrain, mais au retour (élément 24) c'est directement le nom « Tout-fini » — celui du troisième baptême du conte — qui est révélé, sans qu'un troisième aller-retour ni le nom « À-moitié » n'aient existé. La numérotation ne correspond plus à ce qui est raconté, et un pan entier de la répétition comique du conte disparaît sans que ce soit nécessaire à la compréhension.",
+          "modification": "Faire correspondre l'élément 15 à un deuxième baptême qui aboutit au nom « À-moitié » (garder ou simplifier le détail de l'anneau blanc du conte). Ajouter ensuite un troisième cycle sortie/retour de {{r2}} (« Jamais deux sans trois… ») qui aboutit au nom « Tout-fini », repris du conte, avant l'endormissement de {{r1}}."
+        },
+        {
+          "acte": 2,
+          "element": 18,
+          "gravite": "important",
+          "remarque": "L'aparté « Vous, vous y croyez, à ces baptêmes ? » est une question directe au public, mais contrairement à tous les autres apartés du script, elle ne porte pas l'indication « attend une réponse » ni de temps de pause prévu avant la suite.",
+          "modification": "Ajouter « (attend une réponse) » à cette réplique, et insérer avant l'élément 19 une courte action du type « [action] {{r1}} regarde le public, attend. » pour laisser le temps de répondre, comme pour les autres adresses au public."
+        },
+        {
+          "acte": 3,
+          "element": 17,
+          "gravite": "mineur",
+          "remarque": "« Je vous promets, je ne recommencerai plus ! » (élément 17) répète presque mot pour mot la promesse déjà faite à l'élément 16 (« je te le promets »), sans rien apporter de nouveau à la scène.",
+          "modification": "Supprimer l'élément 17, ou fusionner les deux en une seule réplique adressée à la fois à {{r1}} et au public, par exemple : « Je vais te chercher un nouveau pot de miel tout de suite, promis — et à vous aussi, je ne recommencerai plus ! »"
+        }
+      ]
+    }
+  },
+  "dureeEstimeeSecondes": 435
+}

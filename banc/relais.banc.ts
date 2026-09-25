@@ -29,6 +29,7 @@ import { test } from 'vitest';
 import type { Acces } from '../src/services/connecteurIa';
 import type { Marionnette, ParametresGeneration } from '../src/types';
 import { assemblerSpectacle, ecrireScript, proposerHistoires } from '../src/services/pipeline';
+import { verserALaBanque } from './banque';
 import { coulisses, scriptPourLeParent } from './rendre';
 
 const DOSSIER = resolve(process.env.RELAIS_SORTIE || `banc/relais/cas${process.env.RELAIS_CAS || 1}`);
@@ -224,6 +225,15 @@ test(`relais local — cas ${NUM}`, async () => {
       transposition: script.bibleTransposition,
       relecture: script.bibleRelecture,
     });
+
+    // Le spectacle entier, tel quel : c'est la matière du test d'aller-retour
+    // de la banque, qui a besoin de l'original pour le comparer au repeuplé.
+    // Écrit AVANT le versement, pour qu'un garde-fou qui refuse ne fasse pas
+    // perdre le cas.
+    writeFileSync(join(DOSSIER, 'spectacle.json'), `${JSON.stringify(spectacle, null, 2)}
+`);
+
+    verserALaBanque(spectacle);
 
     writeFileSync(join(DOSSIER, 'etat.json'), JSON.stringify({
       termine: true,

@@ -23,6 +23,7 @@ import {
   ecrireScript,
   proposerHistoires,
 } from '../src/services/pipeline';
+import { verserALaBanque } from './banque';
 import { coulisses, scriptPourLeParent } from './rendre';
 
 /* ---------------------------------------------------------------- */
@@ -203,6 +204,10 @@ for (const cas of CAS.filter((c) => !FILTRE || c.nom === FILTRE)) {
       transposition: script.bibleTransposition,
       relecture: script.bibleRelecture,
     });
+
+    // Le fonds : un spectacle écrit une fois peut resservir à une autre
+    // famille, en y remplaçant les noms des peluches.
+    verserALaBanque(spectacle);
 
     // Les trois cartes, telles que le parent les a lues pour choisir.
     writeFileSync(

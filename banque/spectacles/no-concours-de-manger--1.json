@@ -1,0 +1,453 @@
+{
+  "id": "no-concours-de-manger--1",
+  "conteId": "no-concours-de-manger",
+  "titre": "Askeladden qui mangea plus que le troll",
+  "pitch": "Un gros ours très fort se laisse impressionner par un fromage écrasé, puis se fait battre au concours du plus gros mangeur par un malin qui cache un secret sous sa veste.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "ours",
+      "famille": "gros",
+      "traits": [
+        "fort",
+        "naïf"
+      ],
+      "voix": "voix grave, forte et un peu lente, qui s'emballe vite dans le rire"
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 5,
+    "ageAuditoire": 5,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La forêt",
+      "description": "Un drap ou une couverture vert ou marron tendue en fond, ou deux ou trois coussins empilés pour figurer des arbres ; installable en un instant.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "Chez {{r1}}",
+      "description": "Une nappe ou un plaid posé au sol pour la table du repas, avec deux coussins de part et d'autre pour représenter les places.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "La menace dans la forêt",
+      "tableauId": "t1",
+      "resume": "Askeladden, qu'on entend depuis les coulisses, coupe du bois quand {{r1}} surgit et gronde pour lui faire peur. Le garçon presse un fromage devant lui en menaçant de l'écraser pareil, et {{r1}}, terrifié, se met à l'aider.",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "note_marionnettiste",
+          "texte": "Voix du conteur, en coulisse, avant les premiers coups de hache : « Le père d'Askeladden est pauvre ; il a envoyé ses fils couper du bois, pour payer ses dettes. »"
+        },
+        {
+          "id": "a1e2",
+          "type": "didascalie",
+          "texte": "En coulisse, on frappe deux coups sur la table : quelque part dans la forêt, Askeladden coupe du bois."
+        },
+        {
+          "id": "a1e3",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e4",
+          "type": "didascalie",
+          "texte": "{{r1}} surgit et se dresse de toute sa hauteur."
+        },
+        {
+          "id": "a1e5",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Je vais lui faire une peur bleue avec ma plus grosse voix. Vous grondez avec moi ?",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e6",
+          "type": "didascalie",
+          "texte": "{{r1}} prend une grande respiration. Les enfants grondent avec lui."
+        },
+        {
+          "id": "a1e7",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Si tu coupes dans ma forêt, gare à toi !",
+          "ton": "très fort, en grondant"
+        },
+        {
+          "id": "a1e8",
+          "type": "note_marionnettiste",
+          "texte": "Voix d'Askeladden, en coulisse, en pressant son fromage : « Si tu ne te tais pas, je vais t'écraser comme j'écrase l'eau de cette pierre blanche ! »"
+        },
+        {
+          "id": "a1e9",
+          "type": "didascalie",
+          "texte": "{{r1}} recule d'un bond et tremble de tous ses poils."
+        },
+        {
+          "id": "a1e10",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Non, mon ami, épargne-moi. Je vais t'aider à couper le bois.",
+          "ton": "tremblant, suppliant"
+        },
+        {
+          "id": "a1e11",
+          "type": "note_marionnettiste",
+          "texte": "Voix d'Askeladden, en coulisse : « D'accord, je te laisse tranquille. Viens m'aider. »"
+        },
+        {
+          "id": "a1e12",
+          "type": "didascalie",
+          "texte": "{{r1}} se penche et cogne le sol de toutes ses forces, encore et encore : la journée entière passe au rythme de ses coups."
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "L'invitation chez {{r1}}",
+      "tableauId": "t2",
+      "resume": "Le soir venu, {{r1}} invite Askeladden chez lui. Ils décident de faire un concours pour savoir qui mangera le plus, et {{r1}}, sûr de sa force, accepte avec enthousiasme.",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Maintenant tu peux venir chez moi, c'est plus près que chez toi.",
+          "ton": "content, invitant"
+        },
+        {
+          "id": "a2e2",
+          "type": "didascalie",
+          "texte": "{{r1}} traverse la scène à petits bonds, puis s'arrête et se penche pour souffler sur un feu."
+        },
+        {
+          "id": "a2e3",
+          "type": "note_marionnettiste",
+          "texte": "Voix d'Askeladden, en coulisse : \"Ça ne vaut pas la peine d'emporter ces dés à coudre. Je vais aller chercher le puits tout entier, moi.\""
+        },
+        {
+          "id": "a2e4",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Non, mon ami, je ne peux pas perdre mon puits. Fais le feu, j'irai chercher l'eau.",
+          "ton": "inquiet pour son puits, pressé"
+        },
+        {
+          "id": "a2e5",
+          "type": "didascalie",
+          "texte": "{{r1}} s'éloigne à petits bonds, puis revient et se penche de nouveau vers le sol."
+        },
+        {
+          "id": "a2e6",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Elle est prête, ma bouillie !",
+          "ton": "content, gourmand"
+        },
+        {
+          "id": "a2e7",
+          "type": "note_marionnettiste",
+          "texte": "Voix d'Askeladden, en coulisse : \"Si tu veux bien, on va faire un concours : à qui mangera le plus.\""
+        },
+        {
+          "id": "a2e8",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oh oui !",
+          "ton": "avec entrain, sûr de gagner"
+        },
+        {
+          "id": "a2e9",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Vous voulez bien m'applaudir, pour me donner du courage ?",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e10",
+          "type": "didascalie",
+          "texte": "Les enfants applaudissent. {{r1}} se redresse de toute sa hauteur."
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Le concours de bouillie",
+      "tableauId": "t2",
+      "resume": "Askeladden cache un sac sous sa veste que le public voit se remplir, et le perce d'un coup sec. {{r1}} veut l'imiter, mais échoue, éclate de rire, roule par terre et offre tout son trésor.",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "didascalie",
+          "texte": "{{r1}} se penche vers le sol et mange sa bouillie à grands coups, la tête basse."
+        },
+        {
+          "id": "a3e2",
+          "type": "note_marionnettiste",
+          "texte": "Voix d'Askeladden, en coulisse : \"J'attache ma besace devant mon ventre, en cachette, et j'en verse plus dedans que je n'en mange.\""
+        },
+        {
+          "id": "a3e3",
+          "type": "note_marionnettiste",
+          "texte": "Inviter les enfants à crier à {{r1}} qu'Askeladden cache un sac devant son ventre : eux seuls le savent, grâce à ce qu'ils viennent d'entendre."
+        },
+        {
+          "id": "a3e4",
+          "type": "didascalie",
+          "texte": "{{r1}} continue de manger, sans se douter de rien."
+        },
+        {
+          "id": "a3e5",
+          "type": "note_marionnettiste",
+          "texte": "Voix d'Askeladden, en coulisse : \"Ma besace est pleine. Je prends mon couteau, et j'y fais une fente.\""
+        },
+        {
+          "id": "a3e6",
+          "type": "didascalie",
+          "texte": "Ils mangent encore un bon moment. {{r1}} s'arrête, le ventre lourd, et souffle, essoufflé."
+        },
+        {
+          "id": "a3e7",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Non, maintenant, je n'en peux plus.",
+          "ton": "essoufflé, à bout de souffle"
+        },
+        {
+          "id": "a3e8",
+          "type": "note_marionnettiste",
+          "texte": "Voix d'Askeladden, en coulisse : \"Il faut manger ! Moi, je n'ai même pas à moitié faim. Fais comme moi : fais un trou dans ton ventre, et tu pourras manger autant que tu voudras.\""
+        },
+        {
+          "id": "a3e9",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Mais ça doit faire terriblement mal ?",
+          "ton": "inquiet"
+        },
+        {
+          "id": "a3e10",
+          "type": "note_marionnettiste",
+          "texte": "Voix d'Askeladden, en coulisse : \"Oh, rien du tout.\""
+        },
+        {
+          "id": "a3e11",
+          "type": "didascalie",
+          "texte": "{{r1}} se penche, prêt à essayer, mais dès qu'il y pense, il éclate de rire et roule par terre."
+        },
+        {
+          "id": "a3e12",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Comptez jusqu'à trois avec moi, et je me relève !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e13",
+          "type": "didascalie",
+          "texte": "{{r1}} roule encore par terre pendant que les enfants comptent, puis se relève d'un bond, tout content."
+        },
+        {
+          "id": "a3e14",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "J'abandonne ! Tout mon or et mon argent sont à toi.",
+          "ton": "joyeux, riant encore"
+        },
+        {
+          "id": "a3e15",
+          "type": "note_marionnettiste",
+          "texte": "Voix d'Askeladden, en coulisse : \"Merci, {{r1}} ! Me voilà riche.\""
+        },
+        {
+          "id": "a3e16",
+          "type": "didascalie",
+          "texte": "{{r1}} agite la patte pour lui dire au revoir, tout content."
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "synopsis": {
+      "conte": "no-concours-de-manger",
+      "titre": "Askeladden qui mangea plus que le troll",
+      "accroche": "Un gros costaud trop sûr de lui se fait battre par un petit malin qui n'a pas l'air bien fort.",
+      "resume": [
+        "Askeladden part seul dans la forêt et croise {{r1}}, qui gronde très fort pour lui faire peur.",
+        "Askeladden sort un fromage frais et le presse devant lui : « Je t'écraserai comme cette pierre ! » {{r1}}, impressionné, l'aide à couper le bois puis l'invite chez lui.",
+        "Devant des seaux trop lourds à porter, Askeladden dit qu'il préfère aller chercher le puits tout entier ; {{r1}}, pour montrer sa force, y va lui-même.",
+        "Au concours du plus gros mangeur, Askeladden cache un sac sous sa veste : le public le voit se remplir sans effort, mais pas {{r1}}. Askeladden le perce d'un coup, et {{r1}}, pour l'imiter, abandonne en riant, roule par terre et lui offre son trésor."
+      ],
+      "distribution": [
+        {
+          "marionnette": "{{r1}}",
+          "role": "le Troll",
+          "note": "Un ours qui gronde fort et se laisse impressionner facilement : sa force et sa naïveté sont exactement celles du Troll."
+        }
+      ],
+      "changements": [
+        "{{r1}} ne se fait pas mal en imitant le sac percé : il abandonne en riant, roule par terre et offre son trésor, alors que dans le conte le Troll se blessait bien plus.",
+        "Les deux frères aînés, le père et la mère disparaissent : l'histoire commence directement avec Askeladden qui part seul dans la forêt.",
+        "Un épisode (les seaux ou le puits) est coupé pour que le spectacle tienne en 5 minutes sans perdre la fin du concours."
+      ],
+      "id": "no-concours-de-manger",
+      "reference": "Askeladden qui mangea plus que le troll — Norvège, Peter Christen Asbjørnsen et Jørgen Moe, Contes populaires norvégiens, 1843"
+    },
+    "conteId": "no-concours-de-manger",
+    "adaptation": {
+      "titre": "{{r1}} et la ruse du fromage",
+      "pitch": "Un gros ours très fort se laisse impressionner par un fromage écrasé, puis se fait battre au concours du plus gros mangeur par un malin qui cache un secret sous sa veste.",
+      "changements": [
+        "Askeladden n'a pas de marionnette dans le dossier, donc il reste en coulisse pendant tout le spectacle : on entend sa voix mais on ne le voit jamais, et {{r1}}, seul en scène, réagit à ce qu'il entend.",
+        "Les deux frères aînés, le père et la mère n'ont pas de marionnette non plus, donc ils sont supprimés : le spectacle commence directement avec le départ dans la forêt.",
+        "L'épisode des seaux d'eau est coupé pour que le concours de bouillie, qui termine l'histoire, garde toute la place dont il a besoin."
+      ],
+      "tableaux": [
+        {
+          "id": "t1",
+          "titre": "La forêt",
+          "description": "Un drap ou une couverture vert ou marron tendue en fond, ou deux ou trois coussins empilés pour figurer des arbres ; installable en un instant.",
+          "accessoires": [],
+          "promptImage": ""
+        },
+        {
+          "id": "t2",
+          "titre": "Chez {{r1}}",
+          "description": "Une nappe ou un plaid posé au sol pour la table du repas, avec deux coussins de part et d'autre pour représenter les places.",
+          "accessoires": [],
+          "promptImage": ""
+        }
+      ],
+      "actes": [
+        {
+          "numero": 1,
+          "titre": "La menace dans la forêt",
+          "tableauId": "t1",
+          "resume": "Askeladden, qu'on entend depuis les coulisses, coupe du bois quand {{r1}} surgit et gronde pour lui faire peur. Le garçon presse un fromage devant lui en menaçant de l'écraser pareil, et {{r1}}, terrifié, se met à l'aider.",
+          "passage": "De « Le troisième jour, Askeladden voulut partir » à « ils abattirent et débitèrent des dizaines d'arbres dans la journée ».",
+          "temps": [
+            "Askeladden part couper du bois ; on l'entend depuis les coulisses.",
+            "{{r1}} surgit et gronde très fort pour lui faire peur.",
+            "Askeladden presse un fromage devant lui en menaçant de l'écraser pareil.",
+            "{{r1}}, terrifié, promet de l'aider et coupe le bois avec lui."
+          ],
+          "mouvements": [
+            {
+              "type": "entree",
+              "marionnette": "{{r1}}",
+              "main": "M1G"
+            }
+          ],
+          "momentsPublic": [
+            "Demander aux enfants de gronder très fort en même temps que {{r1}}, pour lui faire sa plus grosse voix."
+          ],
+          "budgetMots": 180
+        },
+        {
+          "numero": 2,
+          "titre": "L'invitation chez {{r1}}",
+          "tableauId": "t2",
+          "resume": "Le soir venu, {{r1}} invite Askeladden chez lui. Ils décident de faire un concours pour savoir qui mangera le plus, et {{r1}}, sûr de sa force, accepte avec enthousiasme.",
+          "passage": "De « Quand le soir approcha, {{r1}} dit » à « il pensait bien qu'il gagnerait ».",
+          "temps": [
+            "{{r1}} propose d'aller chez lui, c'est plus près.",
+            "Ils arrivent et une grande marmite de bouillie est prête.",
+            "Askeladden propose un concours : qui mangera le plus.",
+            "{{r1}} accepte tout de suite, certain de gagner."
+          ],
+          "mouvements": [],
+          "momentsPublic": [
+            "Demander aux enfants d'applaudir pour donner du courage à {{r1}} avant le concours."
+          ],
+          "budgetMots": 90
+        },
+        {
+          "numero": 3,
+          "titre": "Le concours de bouillie",
+          "tableauId": "t2",
+          "resume": "Askeladden cache un sac sous sa veste que le public voit se remplir, et le perce d'un coup sec. {{r1}} veut l'imiter, mais échoue, éclate de rire, roule par terre et offre tout son trésor.",
+          "passage": "De « Ils se mirent à table » à « il put toujours payer une bonne partie des dettes ».",
+          "temps": [
+            "Ils mangent la bouillie ; Askeladden verse la sienne en cachette dans un sac attaché devant lui, que le public voit gonfler.",
+            "{{r1}}, essoufflé, dit qu'il n'en peut plus.",
+            "Askeladden le pousse à faire un trou dans son ventre comme lui, en perçant son sac d'un coup.",
+            "{{r1}} essaie d'imiter, échoue, éclate de rire, roule par terre et offre tout son trésor."
+          ],
+          "mouvements": [],
+          "momentsPublic": [
+            "Demander aux enfants de crier à {{r1}} qu'Askeladden a un sac caché sous sa veste, qu'eux seuls peuvent voir.",
+            "Faire compter aux enfants, avec {{r1}} qui roule par terre, jusqu'à trois avant qu'il ne se relève tout content."
+          ],
+          "budgetMots": 230
+        }
+      ],
+      "voix": [
+        {
+          "marionnette": "{{r1}}",
+          "voix": "voix grave, forte et un peu lente, qui s'emballe vite dans le rire"
+        }
+      ]
+    },
+    "transposition": {
+      "texte": "Il était une fois un paysan qui avait trois fils. Il était pauvre, vieux et faible, et ses fils ne voulaient rien faire. Avec la ferme allait une grande et belle forêt, et le père voulait que les garçons y coupent du bois, pour pouvoir payer un peu de leurs dettes.\nÀ la fin, il arriva à les décider, et l'aîné dut partir couper le premier. Quand il fut dans la forêt et qu'il se mit à couper un vieux sapin barbu, {{r1}}, un énorme ours, s'approcha de lui.\n— Si tu coupes dans ma forêt, gare à toi ! dit {{r1}}.\nQuand le garçon entendit cela, il jeta sa hache et rentra à la maison aussi vite qu'il put. Il arriva tout essoufflé et raconta ce qui lui était arrivé. Mais son père lui dit qu'il avait un cœur de lièvre : les trolls ne l'avaient jamais empêché de couper du bois, lui, quand il était jeune.\nLe lendemain, ce fut le tour du deuxième fils, et il lui arriva exactement la même chose. À peine avait-il donné quelques coups de hache dans le sapin que {{r1}} arriva et dit :\n— Si tu coupes dans ma forêt, gare à toi !\nLe garçon osa à peine le regarder. Il jeta sa hache et prit ses jambes à son cou comme son frère, et même plus vite. Quand il rentra, son père se fâcha et dit que jamais les trolls ne l'avaient effrayé, lui, quand il était jeune.\nLe troisième jour, Askeladden voulut partir.\n— Ah oui, toi ! dirent les deux aînés. Tu vas sûrement y arriver, toi qui n'as jamais passé la porte de la maison !\nAskeladden ne répondit pas grand-chose ; il demanda seulement qu'on lui donne un bon casse-croûte. Sa mère n'avait pas de fromage tout fait, alors elle mit la marmite sur le feu pour lui en faire un petit, tout frais. Il le mit dans sa besace en cuir, et partit.\nQuand il eut coupé un petit moment, {{r1}} arriva et dit :\n— Si tu coupes dans ma forêt, gare à toi !\nMais le garçon ne fut pas lent. Il sortit le fromage de sa besace et le serra si fort que le petit-lait gicla.\n— Si tu ne te tais pas, cria-t-il à {{r1}}, je vais t'écraser comme j'écrase l'eau de cette pierre blanche !\n— Non, mon ami, épargne-moi, dit {{r1}}. Je vais t'aider à couper le bois.\nÀ cette condition, le garçon l'épargna. Et {{r1}} était un rude bûcheron : ils abattirent et débitèrent des dizaines d'arbres dans la journée.\nQuand le soir approcha, {{r1}} dit :\n— Maintenant tu peux venir chez moi, c'est plus près que chez toi.\nLe garçon le suivit. Quand ils arrivèrent chez {{r1}}, celui-ci devait faire du feu dans la cheminée, et le garçon devait aller chercher de l'eau pour la marmite de bouillie. Mais il y avait là deux seaux en fer si grands et si lourds qu'il ne pouvait même pas les soulever.\nAlors le garçon dit :\n— Ça ne vaut pas la peine d'emporter ces dés à coudre. Je vais aller chercher le puits tout entier, moi.\n— Non, mon ami, dit {{r1}}. Je ne peux pas perdre mon puits. Fais le feu, j'irai chercher l'eau.\nQuand il revint avec l'eau, ils firent cuire une énorme marmite de bouillie.\n— Si tu veux bien, dit le garçon, on va faire un concours : à qui mangera le plus.\n— Oh oui ! répondit {{r1}}, car là, il pensait bien qu'il gagnerait.\nIls se mirent à table. Mais le garçon prit en cachette sa besace en cuir et l'attacha devant son ventre, et il en versa plus dans la besace qu'il n'en mangeait lui-même. Quand la besace fut pleine, il prit son couteau et fit une fente dans la besace. {{r1}} le regardait, mais ne dit rien.\nQuand ils eurent mangé encore un bon moment, {{r1}} posa sa cuillère.\n— Non, maintenant, je n'en peux plus, dit-il.\n— Il faut manger ! répondit le garçon. Moi, je n'ai même pas à moitié faim. Fais comme moi : fais un trou dans ton ventre, et tu pourras manger autant que tu voudras.\n— Mais ça doit faire terriblement mal ? demanda {{r1}}.\n— Oh, rien du tout, répondit le garçon.\nAlors {{r1}} essaya bien de faire comme lui, mais dès qu'il y pensa, il éclata de rire, roula par terre et demanda grâce. Il donna à Askeladden tout l'or et l'argent qu'il y avait dans la montagne, et le garçon rentra chez lui. Avec ça, il put toujours payer une bonne partie des dettes.",
+      "changements": [
+        "La menace de mort du Troll (« je te tue ») devient un simple avertissement (« gare à toi »), moins effrayant pour un public de 5 ans.",
+        "Le Troll ne se blesse plus en imitant le sac percé : {{r1}} essaie, éclate de rire, roule par terre, demande grâce et offre son trésor à Askeladden."
+      ]
+    },
+    "relecture": {
+      "remarques": [
+        {
+          "acte": 1,
+          "element": 1,
+          "gravite": "important",
+          "remarque": "L'élément 15 de l'acte 3 fait dire à Askeladden qu'il pourra payer « nos dettes », mais rien avant ce moment ne prépare cette idée : ni le père pauvre, ni la raison pour laquelle le garçon coupe seul du bois ne sont mentionnés. La fin répond à un début qu'elle n'a pas.",
+          "modification": "Ajouter, avant ou pendant l'élément 1 de l'acte 1, une courte phrase reprise du conte qui pose l'enjeu, par exemple une narration en coulisse : « Le père d'Askeladden est pauvre ; il a envoyé ses fils couper du bois pour payer ses dettes. »"
+        },
+        {
+          "acte": 1,
+          "element": 7,
+          "gravite": "important",
+          "remarque": "La réplique en coulisse d'Askeladden (« je vais t'écraser comme j'écrase l'eau de cette pierre blanche ») ne dit jamais qu'il s'agit en réalité d'un fromage pressé, et rien ne le montre : les enfants ne peuvent pas comprendre qu'il bluffe plutôt qu'il n'est vraiment capable d'écraser une pierre. C'est l'inverse de la scène du sac, acte 3, où la ruse est rendue explicite pour eux.",
+          "modification": "Nommer le fromage dans la note ou la réplique, par exemple : « Voix d'Askeladden, en coulisse, en pressant son fromage : Si tu ne te tais pas, je vais t'écraser comme j'écrase l'eau de cette pierre blanche ! », ou ajouter une note « on entend le petit-lait gicler du fromage qu'il presse » pour que la ruse soit perceptible."
+        },
+        {
+          "acte": 2,
+          "element": 2,
+          "gravite": "important",
+          "remarque": "Entre les éléments 1 et 3, tout l'épisode des seaux trop lourds et du puits, pourtant présent dans le conte (Askeladden propose d'aller chercher le puits entier ; {{r1}} préfère aller chercher l'eau lui-même pour ne pas le perdre), a disparu : l'action de l'élément 2 ne montre ni le feu ni la corvée d'eau, et on passe directement à la bouillie déjà prête. C'est un maillon du conte perdu, alors que l'acte 2 est signalé trop court par l'application : jouer cet épisode comblerait le manque de durée sans rien inventer.",
+          "modification": "Remplacer ou compléter l'élément 2 par la scène du conte : {{r1}} doit faire du feu pendant qu'Askeladden, en coulisse, doit aller chercher l'eau, mais les seaux sont trop lourds ; reprendre la réplique d'Askeladden (« Ça ne vaut pas la peine d'emporter ces dés à coudre. Je vais aller chercher le puits tout entier, moi. ») et la réponse de {{r1}} (« Non, mon ami, je ne peux pas perdre mon puits. Fais le feu, j'irai chercher l'eau. ») avant d'enchaîner sur « Elle est prête, ma bouillie ! »"
+        },
+        {
+          "acte": 3,
+          "element": 3,
+          "gravite": "important",
+          "remarque": "L'élément 3 invite les enfants à crier à {{r1}} qu'Askeladden « cache un sac sous sa veste », alors que l'élément 2 dit qu'il l'attache « devant son ventre » : les deux descriptions se contredisent. De plus, la note dit que les enfants « le voient », alors qu'Askeladden n'est jamais un personnage visible sur scène, toujours une voix en coulisse : il n'y a rien de concret à voir pour le public.",
+          "modification": "Harmoniser avec l'élément 2 (« devant son ventre », pas « sous sa veste »), et remplacer « eux seuls le voient » par une formule cohérente avec un personnage en coulisse, par exemple « eux seuls le savent, grâce à ce qu'ils viennent d'entendre »."
+        },
+        {
+          "acte": 3,
+          "element": 15,
+          "gravite": "important",
+          "remarque": "L'élément 15 fait dire « je pourrai payer nos dettes », une idée jamais introduite plus tôt dans le script : aucune mention du père, de la pauvreté ou d'une dette avant ce moment. La fin répond à un début qui ne l'annonce pas.",
+          "modification": "Soit préparer cette idée dès l'acte 1 (voir la remarque correspondante), soit simplifier ici en une formule autonome qui ne suppose pas ce contexte, par exemple « Merci, {{r1}} ! Me voilà riche. »"
+        }
+      ]
+    }
+  },
+  "dureeEstimeeSecondes": 198
+}

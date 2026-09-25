@@ -13,7 +13,8 @@
     "test": "vitest run",
     "test:parcours": "playwright test",
     "banc": "vitest run --config vitest.banc.config.ts",
-    "relais": "vitest run --config vitest.banc.config.ts banc/relais.banc.ts"
+    "relais": "vitest run --config vitest.banc.config.ts banc/relais.banc.ts",
+    "banque": "node tools/indexer-banque.mjs"
   },
   "dependencies": {
     "idb": "^8.0.3",
