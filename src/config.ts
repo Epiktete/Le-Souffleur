@@ -57,6 +57,13 @@ export const IA = {
    * arrête une génération qui travaillait encore.
    */
   delaiMs: 240_000,
+  /**
+   * La revue finale lit TROIS textes — le conte d'origine, sa transposition et
+   * le script — avant de répondre. Au banc (Sonnet 5, 25 septembre), elle a
+   * dépassé 240 s deux fois sur trois : le spectacle partait alors sans
+   * relecture, sans que rien ne le dise. Elle a son propre délai, plus long.
+   */
+  delaiRelectureMs: 480_000,
   /** Nombre maximal de relances quand le modèle renvoie un JSON invalide. */
   relancesJsonMax: 1,
   /** Nombre maximal de séries de nouvelles propositions d'histoires (CDC §6, étape 4). */

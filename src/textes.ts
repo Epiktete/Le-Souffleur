@@ -354,6 +354,8 @@ export const tsc = {
   marionnettistes: 'Marionnettistes',
   distribution: 'Distribution',
   sansVoix: 'Pas de voix particulière',
+  relectureEchouee: 'La relecture finale n’a pas pu se faire : le modèle a mis trop de temps. '
+    + 'Le script est complet, mais relisez-le avant de le jouer.',
 
   /** Bandeau des tableaux (décors). */
   tableaux: 'Tableaux',

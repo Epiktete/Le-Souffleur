@@ -198,6 +198,8 @@ async function appelJson<T>(
   maxTokens: number,
   /** Nom de l'étape, pour le journal de diagnostic. */
   etape: string,
+  /** Délai propre à cette étape, quand le délai commun ne suffit pas. */
+  delaiMs?: number,
 ): Promise<{ valeur: T; jetons?: Jetons }> {
   let dernierProbleme = '';
   let tronquee = false;
@@ -219,7 +221,7 @@ async function appelJson<T>(
       reponse = await appelerModele(
         o.acces,
         [{ role: 'system', content: prompts.system }, { role: 'user', content: user }],
-        { temperature, maxTokens: budget, signal: o.signal },
+        { temperature, maxTokens: budget, signal: o.signal, delaiMs },
       );
     } catch (e) {
       if (e instanceof ErreurIa && e.message === t.erreursIa.reponseTronquee && essai < essaisMax) {
@@ -740,7 +742,7 @@ ${formaterAdaptation(adaptation)}`;
   // La revue finale est un garde-fou, pas une condition : si elle échoue
   // (réponse hors format, modèle récalcitrant), le spectacle déjà écrit est
   // livré tel quel plutôt que perdu. Seule une annulation l'interrompt.
-  let relecture: Relecture = { remarques: [] };
+  let relecture: Relecture & { echec?: string } = { remarques: [] };
   const conteOriginal = formaterConte(conte, texte).replace('LE CONTE À ADAPTER', 'LE CONTE D’ORIGINE');
   try {
     const rRelecture = await appelJson(
@@ -761,12 +763,16 @@ ${formaterAdaptation(adaptation)}`;
       TEMPERATURES.relecture,
       BUDGETS.relecture,
       'relecture',
+      IA.delaiRelectureMs,
     );
     jetons = cumulerJetons(jetons, rRelecture.jetons);
     relecture = rRelecture.valeur;
   } catch (e) {
     if ((e as ErreurIa).message === t.erreursIa.annule) throw e;
     console.warn('Le Souffleur — la revue finale a échoué ; le spectacle est livré sans elle.', e);
+    // Le dire, au lieu de l'avaler : un spectacle non relu ressemble en tout
+    // point à un spectacle relu sans remarque, et le parent doit le savoir.
+    relecture = { remarques: [], echec: (e as Error).message || String(e) };
   }
   const relus = relecture.remarques;
 

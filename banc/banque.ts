@@ -68,6 +68,12 @@ export function verserALaBanque(spectacle: Spectacle): string | null {
     console.warn('  banque : spectacle sans conteId, non versé.');
     return null;
   }
+  // Un spectacle que la revue finale n'a pas relu n'entre pas au fonds : il
+  // y serait resservi à d'autres familles avec ses défauts.
+  if ((spectacle.bible.relecture as { echec?: string } | undefined)?.echec) {
+    console.warn('  banque : NON VERSÉ — la revue finale a échoué, le spectacle n’a pas été relu.');
+    return null;
+  }
 
   let modele: SpectacleModele;
   try {

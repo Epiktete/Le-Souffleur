@@ -42,9 +42,14 @@
    * Sans eux, supprimer toutes les répliques d'une peluche ne signalait rien.
    */
   function problemesGeneraux(acteNumero?: number) {
-    return spectacleCourant.problemes.filter(
+    const liste: { message: string }[] = spectacleCourant.problemes.filter(
       (p) => p.position === undefined && p.acteNumero === acteNumero,
     );
+    // Une revue finale qui a échoué laisse un spectacle non relu : il
+    // ressemblerait sinon à un spectacle relu sans rien à redire.
+    const relecture = s?.bible.relecture as { echec?: string } | undefined;
+    if (acteNumero === undefined && relecture?.echec) liste.unshift({ message: tsc.relectureEchouee });
+    return liste;
   }
 
   // Annuler et rétablir au clavier (CDC §8).

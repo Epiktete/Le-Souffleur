@@ -180,14 +180,14 @@ function messageErreur(statut: number, corps: string): string {
 export async function appelerModele(
   acces: Acces,
   messages: { role: 'system' | 'user'; content: string }[],
-  options: { temperature: number; maxTokens: number; signal?: AbortSignal },
+  options: { temperature: number; maxTokens: number; signal?: AbortSignal; delaiMs?: number },
 ): Promise<ReponseIa> {
   const minuteur = new AbortController();
   let delaiDepasse = false;
   const chrono = setTimeout(() => {
     delaiDepasse = true;
     minuteur.abort();
-  }, IA.delaiMs);
+  }, options.delaiMs ?? IA.delaiMs);
 
   // On combine l'annulation de l'utilisateur et le délai maximal. Pas
   // d'AbortSignal.any : il manque aux Safari antérieurs à 17.4, dont ceux des
