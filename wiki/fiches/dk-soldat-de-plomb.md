@@ -4,7 +4,7 @@ titre: L’Intrépide Soldat de plomb
 culture: Danemark
 source: "Hans Christian Andersen, 1838"
 genre: conte merveilleux
-age: [5, 10]
+age: [7, 10]
 personnages: 3
 figurants: 3
 roles:

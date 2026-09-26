@@ -19,9 +19,10 @@ développement, jamais par un appel OpenRouter. Nicolas en relit un échantillon
    lit, et c'est en entendant des mots rares qu'il les apprend. On ne remplace que
    ce qu'il ne peut pas comprendre.
 3. **Un adoucissement qui retourne le sens du conte ne se fait pas.** Si le seul
-   moyen de jouer un conte à 4 ans est de lui ôter ce qu'il raconte (Kolobok qui
-   n'est pas mangé, un soldat de plomb qui ne fond pas), on ne l'adoucit pas : on
-   relève l'âge minimum de sa fiche.
+   moyen de jouer un conte à 4 ans est de lui ôter ce qu'il raconte (un soldat de
+   plomb qui ne fond pas), on ne l'adoucit pas : on relève l'âge minimum de sa
+   fiche. *Le Soldat de plomb* est ainsi passé à 7-10 ans (décision de Nicolas,
+   2026-09-26).
 
 ## La grille du fond
 
@@ -56,6 +57,15 @@ fiche, quand il manque de candidats. Le premier niveau d'un moment doit donc
 convenir au plus jeune public possible, max(3, âge minimum − 3) : pour un conte
 `age: [7, 10]`, c'est un enfant de 4 ans. Un moment dont aucun niveau n'atteint
 cet âge ne serait jamais appliqué, et le vérificateur le signale.
+
+**Deux cas tranchés sur l'échantillon** (Nicolas, 2026-09-26) :
+- **Le petit pain mangé à la fin d'un conte de randonnée n'est pas un « gentil tué
+  pour de bon ».** Kolobok, le Bonhomme de pain d'épice : un pain avalé d'un
+  « ham ! », c'est la chute d'un conte de tout-petits, pas une mort qu'on pleure.
+  Aucun moment, et le conte garde son âge.
+- **Un parent qui bat un enfant innocent se traite comme un abandon** (*La Table,
+  l'Âne et le Bâton*) : jusqu'à 4 ans, le parent gronde au lieu de battre ;
+  ensuite, le conte tel qu'il est écrit.
 
 **Hors scène** veut dire que la chose arrive derrière le castelet ou entre deux
 scènes, et qu'on la sait par une phrase : « Le loup avala la mère-grand d'une
