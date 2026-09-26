@@ -1,0 +1,9 @@
+{
+  "termine": true,
+  "etapes": 9,
+  "conte": "fr-perrault-chaperon-rouge",
+  "titre": "Le Petit Chaperon rouge",
+  "dureeEstimeeSecondes": 262,
+  "dureeCibleSecondes": 300,
+  "problemesRestants": []
+}

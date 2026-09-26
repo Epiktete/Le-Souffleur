@@ -1,0 +1,19 @@
+{
+  "termine": true,
+  "etapes": 10,
+  "conte": "fr-perrault-chaperon-rouge",
+  "titre": "Le Petit Chaperon rouge",
+  "dureeEstimeeSecondes": 223,
+  "dureeCibleSecondes": 300,
+  "problemesRestants": [
+    {
+      "gravite": "important",
+      "message": "Le spectacle est trop court : 4 min au lieu de 5 min visées."
+    },
+    {
+      "gravite": "important",
+      "acteNumero": 2,
+      "message": "L'acte 2 est un peu court : 66 s au lieu des 110 s de sa part, soit environ 73 mots. D’abord, relis le passage du texte transposé que joue cet acte, réplique par réplique, et RÉTABLIS celles que l’acte a coupées ou résumées : ce sont les mots du conte, ils ont leur place. Ensuite seulement, joue plus longuement ce que le conte raconte déjà, sans inventer d’épisode : laisse les personnages se répondre, étire les répétitions qu’il porte. Si, cela fait, le passage n’a vraiment plus rien à rendre — de la pure narration —, laisse l’acte court : inventer tout un dialogue pour tenir la jauge est exactement ce qu’on ne veut pas."
+    }
+  ]
+}

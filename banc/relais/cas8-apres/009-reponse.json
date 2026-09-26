@@ -1,0 +1,14 @@
+{"elements": [
+  {"type": "entree", "marionnette": "Mamie Rose", "main": "M1G"},
+  {"type": "didascalie", "texte": "Mamie Rose s’installe dans son lit, un peu souffrante."},
+  {"type": "entree", "marionnette": "Loup Gris", "main": "M1D"},
+  {"type": "didascalie", "texte": "Loup Gris s’approche de la porte et frappe : toc, toc."},
+  {"type": "replique", "marionnette": "Mamie Rose", "texte": "Qui est là ?", "ton": "faible, depuis son lit"},
+  {"type": "replique", "marionnette": "Loup Gris", "texte": "C’est votre fille, Rosette, qui vous apporte une galette et un petit pot de beurre, que ma mère vous envoie.", "ton": "d’une voix aiguë, en imitant Rosette"},
+  {"type": "replique", "marionnette": "Mamie Rose", "texte": "Tire la chevillette, la bobinette cherra.", "ton": "faible, depuis son lit"},
+  {"type": "didascalie", "texte": "La porte s’ouvre en grinçant."},
+  {"type": "replique", "marionnette": "Loup Gris", "texte": "Trois jours que je n’ai rien mangé !", "ton": "gourmand, avide"},
+  {"type": "didascalie", "texte": "Loup Gris se jette sur Mamie Rose, qui disparaît d’un coup sous la couverture."},
+  {"type": "sortie", "marionnette": "Mamie Rose", "main": "M1G"},
+  {"type": "didascalie", "texte": "Loup Gris repousse la porte, qui se referme."},
+  {"type": "didascalie", "texte": "Loup Gris se glisse dans le lit et se cache sous la couverture, immobile."}]}

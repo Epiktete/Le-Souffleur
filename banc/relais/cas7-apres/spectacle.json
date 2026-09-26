@@ -1,0 +1,881 @@
+{
+  "id": "21b7ce1b-2b4d-4bf2-b6bd-95b885263096",
+  "titre": "Le Petit Chaperon rouge",
+  "pitch": "Rosette part porter une galette à Mamie Rose malade, sans savoir que Loup Gris a pris les devants pour prendre sa place dans le lit.",
+  "parametres": {
+    "dureeMinutes": 5,
+    "ageAuditoire": 4,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "quelques",
+    "ebauche": "le Petit Chaperon rouge",
+    "marionnetteIds": [
+      "rosette",
+      "loup-gris",
+      "mamie-rose"
+    ],
+    "modele": "relais-local"
+  },
+  "distribution": [
+    {
+      "id": "rosette",
+      "nom": "Rosette",
+      "description": "Une poupée de chiffon en robe rouge, avec un petit bonnet.",
+      "traits": [
+        "curieux",
+        "gentil"
+      ],
+      "creeLe": "2026-09-26T20:35:04.859Z",
+      "modifieLe": "2026-09-26T20:35:04.859Z",
+      "voix": "voix claire et pressée, enchaîne ses phrases sans reprendre souffle, curieuse de tout"
+    },
+    {
+      "id": "loup-gris",
+      "nom": "Loup Gris",
+      "description": "Un loup gris en peluche, grandes oreilles et gueule rouge.",
+      "traits": [
+        "méchant",
+        "gourmand"
+      ],
+      "creeLe": "2026-09-26T20:35:04.859Z",
+      "modifieLe": "2026-09-26T20:35:04.859Z",
+      "voix": "voix grave et traînante, savoure chaque mot comme une friandise, ralentit encore avant « pour te manger »"
+    },
+    {
+      "id": "mamie-rose",
+      "nom": "Mamie Rose",
+      "description": "Une marionnette de grand-mère en tissu, cheveux de laine blanche.",
+      "traits": [
+        "sage",
+        "gentil"
+      ],
+      "creeLe": "2026-09-26T20:35:04.859Z",
+      "modifieLe": "2026-09-26T20:35:04.859Z",
+      "voix": "voix douce et un peu chevrotante, parle lentement"
+    }
+  ],
+  "tableaux": [
+    {
+      "id": "90240b43-92f8-4743-a91b-bb419add5f94",
+      "titre": "La forêt",
+      "description": "Tendez un drap ou une nappe verte en fond pour figurer les bois ; posez éventuellement deux coussins pour des buissons. Rien d'autre n'est nécessaire, la scène se joue même sans décor installé.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "d50a2606-e049-4d53-a8d9-868a41c7e872",
+      "titre": "La maison de Mamie Rose",
+      "description": "Tendez un drap devant une petite table ou un dossier de chaise pour figurer la façade de la maison, avec une ouverture au centre pour la porte. Empilez deux coussins d'un côté pour le lit, et posez un carton ou tirez un pan de rideau de l'autre côté pour figurer l'armoire où Mamie Rose se cache.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "9887c6b7-749b-4b87-914f-c47cbf804274",
+      "numero": 1,
+      "titre": "La rencontre dans le bois",
+      "tableauId": "90240b43-92f8-4743-a91b-bb419add5f94",
+      "resume": "Rosette part avec sa galette voir Mamie Rose malade ; dans le bois, elle croise Loup Gris qui lui fait tout raconter, puis fonce par le chemin le plus court pendant qu'elle s'attarde à cueillir des fleurs.",
+      "elements": [
+        {
+          "id": "c8b50d00-152d-4989-b1d5-e5a10bace96a",
+          "type": "entree",
+          "marionnetteId": "rosette",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "76618188-b7aa-447c-aa86-cb44b923a6ab",
+          "type": "didascalie",
+          "texte": "Rosette traverse la scène d’un pas guilleret, en direction du bois."
+        },
+        {
+          "id": "3055c747-b6c2-46e1-b93e-053a36966247",
+          "type": "adresse_public",
+          "marionnetteId": "rosette",
+          "texte": "Ma mère m’envoie porter une galette et ce petit pot de beurre à Mamie Rose, qui est malade.",
+          "attenteReponse": false
+        },
+        {
+          "id": "f7bc96dd-932f-4f4e-8067-8fc714ea7b1a",
+          "type": "entree",
+          "marionnetteId": "loup-gris",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "6487b1cc-7df0-4b0c-9983-69413bbaa631",
+          "type": "didascalie",
+          "texte": "Loup Gris s’approche de Rosette à pas de loup, reniflant l’air."
+        },
+        {
+          "id": "f000b559-1c35-45a6-9fe2-a34ee265380f",
+          "type": "adresse_public",
+          "marionnetteId": "loup-gris",
+          "texte": "J’ai bien envie de la manger ! Mais il y a des bûcherons dans ce bois : je n’ose pas.",
+          "attenteReponse": false
+        },
+        {
+          "id": "01dc3852-fd97-48d8-8ad5-2dfdb36581ff",
+          "type": "replique",
+          "marionnetteId": "loup-gris",
+          "texte": "Où vas-tu ?",
+          "ton": "doucereux"
+        },
+        {
+          "id": "4d7e973b-43fc-40f9-9430-d14c7321d6d6",
+          "type": "replique",
+          "marionnetteId": "rosette",
+          "texte": "Je vais voir Mamie Rose, et lui porter une galette, avec un petit pot de beurre, que ma mère lui envoie.",
+          "ton": "gentille, sans méfiance"
+        },
+        {
+          "id": "a015aff0-1f65-4b21-8f68-debcd00c82f6",
+          "type": "replique",
+          "marionnetteId": "loup-gris",
+          "texte": "Elle habite bien loin ?",
+          "ton": "l’air de rien"
+        },
+        {
+          "id": "c248b4c9-a24a-4c6c-90b1-22f187fc872e",
+          "type": "didascalie",
+          "texte": "Rosette tourne la tête vers le fond de la scène, comme pour montrer le chemin."
+        },
+        {
+          "id": "c0f88f52-ed28-49df-8da4-31def88bfc86",
+          "type": "replique",
+          "marionnetteId": "rosette",
+          "texte": "Oh ! oui, c’est après le moulin que vous voyez tout là-bas, à la première maison du village.",
+          "ton": "joyeuse"
+        },
+        {
+          "id": "0205664f-d534-4563-b636-c1cfa7d2e928",
+          "type": "didascalie",
+          "texte": "Loup Gris tourne la tête d’un côté, puis de l’autre, montrant les deux chemins."
+        },
+        {
+          "id": "591ea616-e5df-454a-a888-97a5e852a31a",
+          "type": "replique",
+          "marionnetteId": "loup-gris",
+          "texte": "Eh bien ! je veux aller la voir aussi : j’y vais par ce chemin-ci, et toi par ce chemin-là ; et nous verrons qui y sera le premier.",
+          "ton": "finaud"
+        },
+        {
+          "id": "d283d8e7-f751-4ff6-8e2b-ebf1d1781baa",
+          "type": "didascalie",
+          "texte": "Loup Gris détale de toute sa force vers le chemin le plus court."
+        },
+        {
+          "id": "e4f4b746-074f-453b-9b07-01fedfac5ba5",
+          "type": "sortie",
+          "marionnetteId": "loup-gris",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "2ecf4692-a5be-4aee-8055-2d6efaedaf74",
+          "type": "note_marionnettiste",
+          "texte": "Laissez un instant les enfants réagir, s’ils veulent avertir Rosette du raccourci de Loup Gris."
+        },
+        {
+          "id": "937e6f34-24cb-4b11-a641-73bdd39c6584",
+          "type": "didascalie",
+          "texte": "Rosette s’éloigne par le chemin le plus long, s’arrêtant pour humer des fleurs et suivre des papillons du regard, sans se presser."
+        },
+        {
+          "id": "5a9ab00e-b6d7-4064-a822-0214a3abe5e3",
+          "type": "sortie",
+          "marionnetteId": "rosette",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "47ddf857-8115-4465-83a2-dd36f0028a31",
+      "numero": 2,
+      "titre": "Loup Gris prend la place de Mamie Rose",
+      "tableauId": "d50a2606-e049-4d53-a8d9-868a41c7e872",
+      "resume": "Loup Gris arrive le premier chez Mamie Rose, se fait ouvrir en imitant une voix, et la pourchasse jusqu'à ce qu'elle se réfugie dans l'armoire ; n'arrivant pas à l'ouvrir, il se couche à sa place pour attendre Rosette.",
+      "elements": [
+        {
+          "id": "9a24b8a2-a886-4064-a0e3-2dd6de4c7fe6",
+          "type": "entree",
+          "marionnetteId": "mamie-rose",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "498419be-0afd-43f7-8bdc-ea5413a30426",
+          "type": "didascalie",
+          "texte": "Mamie Rose s’approche du lit."
+        },
+        {
+          "id": "5da011c6-5b36-411b-9c02-79cea7f7bc0f",
+          "type": "entree",
+          "marionnetteId": "loup-gris",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "66aa93e0-ba3c-4917-b398-be9b53ec01b8",
+          "type": "didascalie",
+          "texte": "Loup Gris s’approche de la porte et frappe deux coups : toc, toc."
+        },
+        {
+          "id": "2a44cb8f-53a6-49c0-b6c1-3205f1bab289",
+          "type": "replique",
+          "marionnetteId": "mamie-rose",
+          "texte": "Qui est là ?",
+          "ton": "faible, depuis son lit"
+        },
+        {
+          "id": "07e5d9c2-334f-40db-91e4-da7ccc458e48",
+          "type": "replique",
+          "marionnetteId": "loup-gris",
+          "texte": "C’est votre fille, Rosette, qui vous apporte une galette et un petit pot de beurre, que ma mère vous envoie.",
+          "ton": "en imitant la voix de Rosette"
+        },
+        {
+          "id": "f93ef9f0-f516-41f2-b810-38bf502e09bb",
+          "type": "replique",
+          "marionnetteId": "mamie-rose",
+          "texte": "Tire la chevillette, la bobinette cherra.",
+          "ton": "sans méfiance"
+        },
+        {
+          "id": "e70f8ddc-a10d-4428-9865-cc9ecef5a400",
+          "type": "didascalie",
+          "texte": "Loup Gris bondit sur Mamie Rose."
+        },
+        {
+          "id": "c26a2b94-1f68-4f1d-98de-6f0381dc6c48",
+          "type": "didascalie",
+          "texte": "Mamie Rose bondit du lit."
+        },
+        {
+          "id": "1e09f99a-09e1-4fde-95f1-3ebf4f19cdf7",
+          "type": "didascalie",
+          "texte": "Elle court se cacher dans l’armoire."
+        },
+        {
+          "id": "75e6eb0c-db7b-47df-8884-65cead0adf38",
+          "type": "sortie",
+          "marionnetteId": "mamie-rose",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "cb531ecc-f9e5-4dd1-8a50-983fa546fcc9",
+          "type": "didascalie",
+          "texte": "Loup Gris gratte à la porte de l’armoire, sans parvenir à l’ouvrir."
+        },
+        {
+          "id": "31799eca-9854-4c6f-b2a1-1cd1da18e77e",
+          "type": "didascalie",
+          "texte": "Loup Gris renonce, s’installe dans le lit de Mamie Rose et se tourne vers la porte."
+        }
+      ]
+    },
+    {
+      "id": "d68fd53d-4f57-40bb-9c7c-ae75cd601e4c",
+      "numero": 3,
+      "titre": "Les grandes dents",
+      "tableauId": "d50a2606-e049-4d53-a8d9-868a41c7e872",
+      "resume": "Rosette arrive et s'étonne des « grands bras », des « grandes oreilles » et des « grandes dents » de la fausse Mamie Rose ; quand Loup Gris se jette sur elle, elle esquive et crie, les bûcherons accourent et le chassent, et Mamie Rose sort enfin de l'armoire pour partager la galette avec elle.",
+      "elements": [
+        {
+          "id": "15ab3b4b-2952-4380-bb5b-fd23d2ee0b2b",
+          "type": "entree",
+          "marionnetteId": "rosette",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "b1d717aa-c478-4382-90c1-f9635a111f11",
+          "type": "didascalie",
+          "texte": "Au loin, dans la forêt, on entend des coups de hache : des bûcherons travaillent quelque part."
+        },
+        {
+          "id": "3a30745d-6a68-4403-8879-d7f99a055f22",
+          "type": "didascalie",
+          "texte": "Rosette s’approche de la porte et frappe deux coups : toc, toc."
+        },
+        {
+          "id": "d12498fb-b99b-43e4-a293-083b259afa22",
+          "type": "replique",
+          "marionnetteId": "loup-gris",
+          "texte": "Qui est là ?",
+          "ton": "grosse voix, depuis le lit"
+        },
+        {
+          "id": "a30096ae-1095-4048-acbf-4f5e3f6ef585",
+          "type": "didascalie",
+          "texte": "Rosette sursaute en entendant cette grosse voix."
+        },
+        {
+          "id": "17de51d7-a2f0-4aac-a8d3-1ac0e8ca58ab",
+          "type": "adresse_public",
+          "marionnetteId": "rosette",
+          "texte": "Elle doit être bien enrhumée, ma Mamie Rose !",
+          "attenteReponse": false
+        },
+        {
+          "id": "0eca7f1d-de04-4c88-95cf-ed44d4f02bea",
+          "type": "replique",
+          "marionnetteId": "rosette",
+          "texte": "C’est votre fille, Rosette, qui vous apporte une galette et un petit pot de beurre, que ma mère vous envoie.",
+          "ton": "rassurée"
+        },
+        {
+          "id": "49d469aa-c34e-4335-a214-52adb41e6b0c",
+          "type": "replique",
+          "marionnetteId": "loup-gris",
+          "texte": "Tire la chevillette, la bobinette cherra.",
+          "ton": "voix adoucie"
+        },
+        {
+          "id": "01118280-0d93-4056-aabd-af27130e7cfc",
+          "type": "note_marionnettiste",
+          "texte": "Les enfants connaissent déjà cette formule : laissez-les la dire avec Loup Gris."
+        },
+        {
+          "id": "17527128-1100-417c-a5cc-4fb95a1394d6",
+          "type": "replique",
+          "marionnetteId": "loup-gris",
+          "texte": "Mets la galette et le petit pot de beurre sur la table, et viens près de moi.",
+          "ton": "mielleux, caché sous la couverture"
+        },
+        {
+          "id": "3f4cbd96-2dd3-4567-bcc8-2e47c566d703",
+          "type": "didascalie",
+          "texte": "Rosette s’approche du lit et s’étonne de voir Mamie Rose si changée, dans sa chemise de nuit."
+        },
+        {
+          "id": "101b930f-eb46-4ef4-b6f4-ba7e47be6a6d",
+          "type": "replique",
+          "marionnetteId": "rosette",
+          "texte": "Mamie Rose, que vous avez de grands bras !",
+          "ton": "étonnée"
+        },
+        {
+          "id": "c47f5b57-906e-48a6-b473-119f6230d9c6",
+          "type": "replique",
+          "marionnetteId": "loup-gris",
+          "texte": "C’est pour mieux t’embrasser, ma fille !",
+          "ton": "doucereux"
+        },
+        {
+          "id": "cf8bb7b5-ea27-4c17-a16a-28807e550382",
+          "type": "replique",
+          "marionnetteId": "rosette",
+          "texte": "Mamie Rose, que vous avez de grandes jambes !",
+          "ton": "de plus en plus étonnée"
+        },
+        {
+          "id": "fe2edab6-9f9c-4830-99ed-167635a75df4",
+          "type": "replique",
+          "marionnetteId": "loup-gris",
+          "texte": "C’est pour mieux courir, mon enfant !",
+          "ton": "doucereux"
+        },
+        {
+          "id": "aba481e3-f708-4230-b17e-3f01cc956df1",
+          "type": "replique",
+          "marionnetteId": "rosette",
+          "texte": "Mamie Rose, que vous avez de grandes oreilles !",
+          "ton": "de plus en plus étonnée"
+        },
+        {
+          "id": "0c92bebc-3fc5-4a4a-9f3a-4bc28e9acf76",
+          "type": "replique",
+          "marionnetteId": "loup-gris",
+          "texte": "C’est pour mieux écouter, mon enfant !",
+          "ton": "doucereux"
+        },
+        {
+          "id": "3b0dd44c-93ee-4b6c-a711-1c9279f826eb",
+          "type": "replique",
+          "marionnetteId": "rosette",
+          "texte": "Mamie Rose, que vous avez de grands yeux !",
+          "ton": "de plus en plus étonnée"
+        },
+        {
+          "id": "299ac470-f419-4d30-b063-62658e0f8596",
+          "type": "replique",
+          "marionnetteId": "loup-gris",
+          "texte": "C’est pour mieux te voir, mon enfant !",
+          "ton": "doucereux"
+        },
+        {
+          "id": "7861822e-b3ad-4462-9fdb-7e5871f6492b",
+          "type": "replique",
+          "marionnetteId": "rosette",
+          "texte": "Mamie Rose, que vous avez de grandes dents !",
+          "ton": "inquiète"
+        },
+        {
+          "id": "3a395b6e-f128-4155-8a73-7053a7e1337e",
+          "type": "replique",
+          "marionnetteId": "loup-gris",
+          "texte": "C’est pour te manger !",
+          "ton": "soudain féroce"
+        },
+        {
+          "id": "4cb630e6-7356-4de1-8d48-07b973e974e4",
+          "type": "didascalie",
+          "texte": "Loup Gris bondit hors de la couverture et se jette sur Rosette."
+        },
+        {
+          "id": "06fd5e4f-16b0-4eea-b0e2-3578b9ab25cb",
+          "type": "didascalie",
+          "texte": "Rosette saute de côté."
+        },
+        {
+          "id": "067d18e8-4649-46ce-be8c-e44df7bbfe1c",
+          "type": "replique",
+          "marionnetteId": "rosette",
+          "texte": "Au secours ! Au secours !",
+          "ton": "criée de toutes ses forces"
+        },
+        {
+          "id": "e1c23b50-f169-4f91-982f-e9290b3d6a5f",
+          "type": "note_marionnettiste",
+          "texte": "Invitez les enfants à crier au secours avec Rosette."
+        },
+        {
+          "id": "0e90eaee-39ea-41fe-a7da-f8d0c29d4fce",
+          "type": "didascalie",
+          "texte": "Les coups de hache s’arrêtent net ; on entend au loin des cris et des coups de bâton : les bûcherons accourent."
+        },
+        {
+          "id": "170a9038-9bf1-4c11-8da9-e9b260ce4f6b",
+          "type": "didascalie",
+          "texte": "Loup Gris détale, pourchassé, et disparaît."
+        },
+        {
+          "id": "12ce6997-bd33-457a-b516-772b32211efa",
+          "type": "sortie",
+          "marionnetteId": "loup-gris",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "6f99b3fe-1b59-4cd9-8e73-d87570f9a88c",
+          "type": "replique",
+          "marionnetteId": "rosette",
+          "texte": "Mamie Rose ? Mamie Rose ?",
+          "ton": "appelant, un peu inquiète"
+        },
+        {
+          "id": "61413906-b8ad-4a75-98dd-af282c6ce5a8",
+          "type": "entree",
+          "marionnetteId": "mamie-rose",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "685130a8-8c49-4a6d-8845-c204b0c16ddb",
+          "type": "didascalie",
+          "texte": "Mamie Rose sort de l’armoire et s’approche de Rosette."
+        },
+        {
+          "id": "84c11680-61bb-47b1-a385-19e454d75a2d",
+          "type": "replique",
+          "marionnetteId": "mamie-rose",
+          "texte": "Merci, ma petite Rosette.",
+          "ton": "émue, tendre"
+        },
+        {
+          "id": "a7d692ab-6e83-4bf2-a294-a60c56c169d5",
+          "type": "replique",
+          "marionnetteId": "rosette",
+          "texte": "Mangeons la galette ensemble, Mamie Rose !",
+          "ton": "joyeuse"
+        },
+        {
+          "id": "5738cf87-7711-4248-a6c8-2c374e562aac",
+          "type": "didascalie",
+          "texte": "Mamie Rose et Rosette se serrent l’une contre l’autre."
+        }
+      ]
+    }
+  ],
+  "dureeEstimeeSecondes": 235,
+  "statut": "complet",
+  "bible": {
+    "dossier": {
+      "marionnettes": [
+        {
+          "nom": "Rosette",
+          "description": "Une poupée de chiffon en robe rouge, avec un petit bonnet.",
+          "traits": [
+            "curieux",
+            "gentil"
+          ]
+        },
+        {
+          "nom": "Loup Gris",
+          "description": "Un loup gris en peluche, grandes oreilles et gueule rouge.",
+          "traits": [
+            "méchant",
+            "gourmand"
+          ]
+        },
+        {
+          "nom": "Mamie Rose",
+          "description": "Une marionnette de grand-mère en tissu, cheveux de laine blanche.",
+          "traits": [
+            "sage",
+            "gentil"
+          ]
+        }
+      ],
+      "dureeMinutes": 5,
+      "ageAuditoire": 4,
+      "nbMarionnettistes": 1,
+      "interactionPublic": "quelques",
+      "ebauche": "le Petit Chaperon rouge",
+      "budgetMotsTotal": 500
+    },
+    "contesPresentes": [
+      "fr-perrault-chaperon-rouge",
+      "de-loup-et-sept-chevreaux",
+      "en-vieille-et-cochon",
+      "en-jacques-le-paresseux",
+      "ru-renard-lievre-coq",
+      "afr-elephant-et-tortue",
+      "in-singes-jardiniers",
+      "ru-chat-coq-renard"
+    ],
+    "jouables": 69,
+    "synopsisProposes": [
+      {
+        "conte": "fr-perrault-chaperon-rouge",
+        "titre": "Le Petit Chaperon rouge",
+        "accroche": "Rosette part voir sa mamie malade dans les bois, sans savoir que Loup Gris a pris les devants.",
+        "resume": [
+          "La maman de Rosette l'envoie porter une galette et un petit pot de beurre à Mamie Rose, qui est malade.",
+          "Dans le bois, Rosette croise Loup Gris et lui raconte où elle va ; il file aussitôt par le chemin le plus court.",
+          "Loup Gris arrive le premier chez Mamie Rose, qui se cache dans l'armoire avant qu'il entre.",
+          "Rosette arrive à son tour et trouve dans le lit un Loup Gris déguisé en mamie : « Que vous avez de grandes dents ! — C'est pour te manger ! »",
+          "Rosette crie, des bûcherons accourent aussitôt et chassent Loup Gris avant qu'il ait pu l'attraper."
+        ],
+        "distribution": [
+          {
+            "marionnette": "Rosette",
+            "role": "le Petit Chaperon rouge",
+            "note": "Une petite fille curieuse et gentille, déjà en robe rouge et bonnet : le rôle lui va sans rien changer."
+          },
+          {
+            "marionnette": "Loup Gris",
+            "role": "le Loup",
+            "note": "Un vrai loup gourmand aux grandes oreilles et à la gueule rouge : la scène des « grandes dents » est déjà écrite pour lui."
+          },
+          {
+            "marionnette": "Mamie Rose",
+            "role": "la Mère-grand",
+            "note": "Une vraie mamie douce et sage : elle joue une grand-mère, tout simplement."
+          }
+        ],
+        "changements": [
+          "La Mère n'a pas de marionnette : on raconte juste qu'elle envoie Rosette chez sa mamie, sans jouer cette scène."
+        ],
+        "id": "fr-perrault-chaperon-rouge",
+        "reference": "Le Petit Chaperon rouge — France, Charles Perrault, Histoires ou contes du temps passé, 1697",
+        "annonces": [
+          "La mère-grand s’enferme dans l’armoire, et les bûcherons chassent le loup avant qu’il mange le Chaperon rouge."
+        ]
+      },
+      {
+        "conte": "ru-renard-lievre-coq",
+        "titre": "Le Renard, le Lièvre et le Coq",
+        "accroche": "Loup Gris s'installe chez Mamie Rose sans lui demander la permission, et c'est la toute petite Rosette qui va le faire déguerpir.",
+        "resume": [
+          "Au printemps, la maison de glace de Loup Gris fond ; il s'installe chez Mamie Rose et la chasse de chez elle.",
+          "De gros animaux essaient de l'aider à partir, mais Loup Gris les menace en gonflant les joues, et ils s'enfuient tous, l'un après l'autre.",
+          "Rosette arrive avec un grand balai sur l'épaule, et chante trois fois qu'elle vient le chercher.",
+          "Loup Gris a peur et s'enfuit pour de bon ; Mamie Rose retrouve sa maison, et Rosette reste vivre avec elle."
+        ],
+        "distribution": [
+          {
+            "marionnette": "Rosette",
+            "role": "le Coq",
+            "note": "La plus petite des trois, mais celle qui n'a pas peur d'aller réclamer une maison : la surprise plaît toujours aux enfants."
+          },
+          {
+            "marionnette": "Loup Gris",
+            "role": "la Renarde",
+            "note": "Déjà méchant et gourmand comme ce personnage qui s'installe chez les autres sans y être invité."
+          },
+          {
+            "marionnette": "Mamie Rose",
+            "role": "le petit Lièvre",
+            "note": "Douce et gentille comme ce personnage qui se laisse chasser sans se battre, avant de retrouver sa maison."
+          }
+        ],
+        "changements": [
+          "Les gros animaux qui reculent devant Loup Gris ne sont pas joués, faute de marionnettes : on les raconte vite, avant l'arrivée de Rosette.",
+          "La faux du conte devient un grand balai, pour qu'aucune arme n'apparaisse en scène.",
+          "La menace de Loup Gris est jouée pour rire, avec de grands gestes et des joues gonflées, jamais comme un vrai danger."
+        ],
+        "id": "ru-renard-lievre-coq",
+        "reference": "Le Renard, le Lièvre et le Coq — Russie, Alexandre Afanassiev, Contes populaires russes, 1855-1863"
+      },
+      {
+        "conte": "en-vieille-et-cochon",
+        "titre": "La Vieille et son cochon",
+        "accroche": "Rosette le petit cochon refuse de rentrer à la maison, et Mamie Rose doit convaincre toute une chaîne d'aides récalcitrants pour qu'il saute enfin la barrière.",
+        "resume": [
+          "Au marché, Mamie Rose achète Rosette, un petit cochon ; mais au moment de rentrer, Rosette refuse de sauter par-dessus la barrière.",
+          "Mamie Rose demande de l'aide à d'autres, qui doivent chacun faire un peu peur au précédent pour qu'il obéisse ; mais tous refusent, et la liste s'allonge à chaque fois.",
+          "Loup Gris accepte enfin d'aider, mais seulement contre un peu de lait ; pour avoir ce lait, il faut d'abord apporter du foin, et Mamie Rose part le chercher.",
+          "Dès que Loup Gris a son lait, toute la chaîne se met en marche à l'envers, et chacun fait enfin ce qu'on lui demandait, du premier jusqu'au dernier.",
+          "Poursuivie par le premier de la chaîne, Rosette saute enfin par-dessus la barrière, et tout le monde est content."
+        ],
+        "distribution": [
+          {
+            "marionnette": "Mamie Rose",
+            "role": "la Vieille",
+            "note": "Une vraie mamie bavarde et obstinée : le rôle d'une vieille femme qui ne renonce pas lui va de lui-même."
+          },
+          {
+            "marionnette": "Rosette",
+            "role": "le Petit Cochon",
+            "note": "Sa petite taille et son air décidé collent bien à ce petit cochon qui n'en fait qu'à sa tête."
+          },
+          {
+            "marionnette": "Loup Gris",
+            "role": "le Chat",
+            "note": "Gourmand comme ce personnage, qui n'accepte d'aider que contre un peu de lait."
+          }
+        ],
+        "changements": [
+          "Seuls trois personnages ont une marionnette (Mamie Rose, Loup Gris, Rosette) ; les autres aides de la chaîne ne sont que racontés, pour aller à l'essentiel en 5 minutes.",
+          "Personne ne mord, ne tape ni ne brûle personne : chacun fait juste un peu peur ou chatouille le précédent, pour que ça reste drôle."
+        ],
+        "id": "en-vieille-et-cochon",
+        "reference": "La Vieille et son cochon — Angleterre, Joseph Jacobs, English Fairy Tales, 1890"
+      }
+    ],
+    "synopsis": {
+      "conte": "fr-perrault-chaperon-rouge",
+      "titre": "Le Petit Chaperon rouge",
+      "accroche": "Rosette part voir sa mamie malade dans les bois, sans savoir que Loup Gris a pris les devants.",
+      "resume": [
+        "La maman de Rosette l'envoie porter une galette et un petit pot de beurre à Mamie Rose, qui est malade.",
+        "Dans le bois, Rosette croise Loup Gris et lui raconte où elle va ; il file aussitôt par le chemin le plus court.",
+        "Loup Gris arrive le premier chez Mamie Rose, qui se cache dans l'armoire avant qu'il entre.",
+        "Rosette arrive à son tour et trouve dans le lit un Loup Gris déguisé en mamie : « Que vous avez de grandes dents ! — C'est pour te manger ! »",
+        "Rosette crie, des bûcherons accourent aussitôt et chassent Loup Gris avant qu'il ait pu l'attraper."
+      ],
+      "distribution": [
+        {
+          "marionnette": "Rosette",
+          "role": "le Petit Chaperon rouge",
+          "note": "Une petite fille curieuse et gentille, déjà en robe rouge et bonnet : le rôle lui va sans rien changer."
+        },
+        {
+          "marionnette": "Loup Gris",
+          "role": "le Loup",
+          "note": "Un vrai loup gourmand aux grandes oreilles et à la gueule rouge : la scène des « grandes dents » est déjà écrite pour lui."
+        },
+        {
+          "marionnette": "Mamie Rose",
+          "role": "la Mère-grand",
+          "note": "Une vraie mamie douce et sage : elle joue une grand-mère, tout simplement."
+        }
+      ],
+      "changements": [
+        "La Mère n'a pas de marionnette : on raconte juste qu'elle envoie Rosette chez sa mamie, sans jouer cette scène."
+      ],
+      "id": "fr-perrault-chaperon-rouge",
+      "reference": "Le Petit Chaperon rouge — France, Charles Perrault, Histoires ou contes du temps passé, 1697",
+      "annonces": [
+        "La mère-grand s’enferme dans l’armoire, et les bûcherons chassent le loup avant qu’il mange le Chaperon rouge."
+      ]
+    },
+    "conteId": "fr-perrault-chaperon-rouge",
+    "adaptation": {
+      "titre": "Rosette chez Mamie Rose",
+      "pitch": "Rosette part porter une galette à Mamie Rose malade, sans savoir que Loup Gris a pris les devants pour prendre sa place dans le lit.",
+      "changements": [
+        "Rien n'est coupé : toute l'histoire est jouée, du départ de Rosette jusqu'au repas final avec Mamie Rose.",
+        "La Mère n'a pas de marionnette : au tout début, Rosette raconte elle-même en une phrase que sa mère l'envoie porter une galette et un pot de beurre à Mamie Rose malade ; cette scène n'est pas jouée.",
+        "Les bûcherons n'ont pas de marionnette non plus : on les entend crier et frapper au loin quand ils chassent Loup Gris, mais ils n'entrent jamais en scène.",
+        "Ouvrir le loquet (« tire la chevillette ») reste seulement dit, jamais mimé : une peluche n'a pas de doigts pour tirer un verrou ; c'est vous qui entrouvrez le drap-porte au bon moment."
+      ],
+      "tableaux": [
+        {
+          "id": "t1",
+          "titre": "La forêt",
+          "description": "Tendez un drap ou une nappe verte en fond pour figurer les bois ; posez éventuellement deux coussins pour des buissons. Rien d'autre n'est nécessaire, la scène se joue même sans décor installé.",
+          "accessoires": [],
+          "promptImage": ""
+        },
+        {
+          "id": "t2",
+          "titre": "La maison de Mamie Rose",
+          "description": "Tendez un drap devant une petite table ou un dossier de chaise pour figurer la façade de la maison, avec une ouverture au centre pour la porte. Empilez deux coussins d'un côté pour le lit, et posez un carton ou tirez un pan de rideau de l'autre côté pour figurer l'armoire où Mamie Rose se cache.",
+          "accessoires": [],
+          "promptImage": ""
+        }
+      ],
+      "actes": [
+        {
+          "numero": 1,
+          "titre": "La rencontre dans le bois",
+          "tableauId": "t1",
+          "resume": "Rosette part avec sa galette voir Mamie Rose malade ; dans le bois, elle croise Loup Gris qui lui fait tout raconter, puis fonce par le chemin le plus court pendant qu'elle s'attarde à cueillir des fleurs.",
+          "passage": "De « Il était une fois une petite fille de village » à « faire des bouquets des petites fleurs qu'elle rencontrait. »",
+          "temps": [
+            "Rosette entre, en route vers chez Mamie Rose avec sa galette et son pot de beurre.",
+            "Elle croise Loup Gris dans le bois ; il lui demande où elle va.",
+            "Rosette raconte sans méfiance tout son chemin ; Loup Gris propose une course, chacun par un chemin différent.",
+            "Loup Gris détale par le raccourci pendant que Rosette s'attarde à cueillir des fleurs."
+          ],
+          "mouvements": [
+            {
+              "type": "entree",
+              "marionnette": "Rosette",
+              "main": "M1G"
+            },
+            {
+              "type": "entree",
+              "marionnette": "Loup Gris",
+              "main": "M1D"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "Loup Gris",
+              "main": "M1D"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "Rosette",
+              "main": "M1G"
+            }
+          ],
+          "momentsPublic": [
+            "Les enfants voient Loup Gris filer par le raccourci pendant que Rosette flâne : ils peuvent crier pour l'avertir."
+          ],
+          "budgetMots": 160
+        },
+        {
+          "numero": 2,
+          "titre": "Loup Gris prend la place de Mamie Rose",
+          "tableauId": "t2",
+          "resume": "Loup Gris arrive le premier chez Mamie Rose, se fait ouvrir en imitant une voix, et la pourchasse jusqu'à ce qu'elle se réfugie dans l'armoire ; n'arrivant pas à l'ouvrir, il se couche à sa place pour attendre Rosette.",
+          "passage": "De « Loup Gris ne fut pas longtemps à arriver à la maison de Mamie Rose » à « alla se coucher dans le lit de Mamie Rose, en attendant Rosette. »",
+          "temps": [
+            "Loup Gris arrive le premier à la maison et frappe à la porte en imitant la voix de Rosette.",
+            "Mamie Rose, dans son lit, lui répond de tirer la chevillette ; la porte s'ouvre.",
+            "Mamie Rose s'échappe et se cache dans l'armoire avant que Loup Gris ne l'attrape ; il tente en vain d'ouvrir la porte de l'armoire.",
+            "Loup Gris renonce, ferme la porte et se couche dans le lit de Mamie Rose pour attendre Rosette."
+          ],
+          "mouvements": [
+            {
+              "type": "entree",
+              "marionnette": "Mamie Rose",
+              "main": "M1G"
+            },
+            {
+              "type": "entree",
+              "marionnette": "Loup Gris",
+              "main": "M1D"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "Mamie Rose",
+              "main": "M1G"
+            }
+          ],
+          "momentsPublic": [],
+          "budgetMots": 100
+        },
+        {
+          "numero": 3,
+          "titre": "Les grandes dents",
+          "tableauId": "t2",
+          "resume": "Rosette arrive et s'étonne des « grands bras », des « grandes oreilles » et des « grandes dents » de la fausse Mamie Rose ; quand Loup Gris se jette sur elle, elle esquive et crie, les bûcherons accourent et le chassent, et Mamie Rose sort enfin de l'armoire pour partager la galette avec elle.",
+          "passage": "De « qui, quelque temps après, vint frapper à la porte » à « elles mangèrent ensemble la galette et le petit pot de beurre. »",
+          "temps": [
+            "Rosette arrive à son tour et frappe ; elle entend la grosse voix mais y croit à peine et répond quand même.",
+            "Loup Gris, adoucissant sa voix, lui dit de tirer la chevillette ; les enfants peuvent le dire avec lui, la formule leur étant déjà connue.",
+            "Rosette s'approche du lit et s'étonne, de partie en partie du corps, jusqu'aux « grandes dents » ; Loup Gris se jette sur elle.",
+            "Rosette esquive et crie pour appeler les bûcherons, avec les enfants ; ils accourent, chassent Loup Gris, et Mamie Rose sort de l'armoire pour partager la galette avec Rosette."
+          ],
+          "mouvements": [
+            {
+              "type": "entree",
+              "marionnette": "Rosette",
+              "main": "M1G"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "Loup Gris",
+              "main": "M1D"
+            },
+            {
+              "type": "entree",
+              "marionnette": "Mamie Rose",
+              "main": "M1D"
+            }
+          ],
+          "momentsPublic": [
+            "Loup Gris répète « Tire la chevillette, la bobinette cherra » : les enfants la connaissent déjà et peuvent la dire avec lui.",
+            "Quand Rosette crie pour appeler les bûcherons, les enfants crient avec elle."
+          ],
+          "budgetMots": 260
+        }
+      ],
+      "voix": [
+        {
+          "marionnette": "Rosette",
+          "voix": "voix claire et pressée, enchaîne ses phrases sans reprendre souffle, curieuse de tout"
+        },
+        {
+          "marionnette": "Loup Gris",
+          "voix": "voix grave et traînante, savoure chaque mot comme une friandise, ralentit encore avant « pour te manger »"
+        },
+        {
+          "marionnette": "Mamie Rose",
+          "voix": "voix douce et un peu chevrotante, parle lentement"
+        }
+      ]
+    },
+    "transposition": {
+      "texte": "Il était une fois une petite fille de village, la plus éveillée qu’on ait jamais vue : sa mère l’aimait à la folie, et Mamie Rose plus encore. Cette bonne vieille lui fit faire un petit chaperon rouge qui lui allait si bien, que partout on l’appelait Rosette.\n\nUn jour, sa mère ayant cuit et fait des galettes, lui dit : « Va voir comment se porte Mamie Rose, car on m’a dit qu’elle était malade. Porte-lui une galette et ce petit pot de beurre. »\n\nRosette partit aussitôt pour aller chez Mamie Rose, qui demeurait dans un autre village. En passant dans un bois, elle rencontra compère Loup Gris, qui eut bien envie de la manger ; mais il n’osa, à cause de quelques bûcherons qui étaient dans la forêt. Il lui demanda où elle allait. La pauvre enfant, qui ne savait pas qu’il était dangereux de s’arrêter à écouter un loup, lui dit : Je vais voir Mamie Rose, et lui porter une galette, avec un petit pot de beurre, que ma mère lui envoie. — Elle habite bien loin ? lui dit Loup Gris. — Oh ! oui, dit Rosette ; c’est après le moulin que vous voyez tout là-bas, à la première maison du village. — Eh bien ! dit Loup Gris, je veux aller la voir aussi : j’y vais par ce chemin-ci, et toi par ce chemin-là ; et nous verrons qui y sera le premier.\n\nLoup Gris se mit à courir de toute sa force par le chemin qui était le plus court, et la petite fille s’en alla par le chemin le plus long, s’amusant à cueillir des noisettes, à courir après des papillons, et à faire des bouquets des petites fleurs qu’elle rencontrait.\n\nLoup Gris ne fut pas longtemps à arriver à la maison de Mamie Rose ; il frappe : toc, toc. — Qui est là ? — C’est votre fille, Rosette, dit Loup Gris en contrefaisant sa voix, qui vous apporte une galette et un petit pot de beurre, que ma mère vous envoie. — La bonne Mamie Rose, qui était dans son lit, parce qu’elle se trouvait un peu mal, lui cria : Tire la chevillette, la bobinette cherra. — Loup Gris tira la chevillette, et la porte s’ouvrit. Il se jeta sur la bonne vieille ; mais elle fut plus prompte que lui : elle sauta du lit et courut s’enfermer dans l’armoire, et Loup Gris eut beau gratter à la porte de l’armoire, il ne put l’ouvrir.\n\nEnsuite il ferma la porte, et alla se coucher dans le lit de Mamie Rose, en attendant Rosette, qui, quelque temps après, vint frapper à la porte : toc, toc. — Qui est là ? — Rosette, qui entendit la grosse voix de Loup Gris, eut peur d’abord, mais, croyant que Mamie Rose était enrhumée, répondit : C’est votre fille, Rosette, qui vous apporte une galette et un petit pot de beurre, que ma mère vous envoie. — Loup Gris lui cria en adoucissant un peu sa voix : Tire la chevillette, la bobinette cherra. — Rosette tira la chevillette, et la porte s’ouvrit.\n\nLoup Gris, la voyant entrer, lui dit en se cachant dans le lit, sous la couverture : Mets la galette et le petit pot de beurre sur la table, et viens près de moi. Rosette s’approche du lit, et elle fut bien étonnée de voir comment Mamie Rose était faite dans sa chemise de nuit. — Elle lui dit : Mamie Rose, que vous avez de grands bras ! — C’est pour mieux t’embrasser, ma fille ! — Mamie Rose, que vous avez de grandes jambes ! — C’est pour mieux courir, mon enfant ! — Mamie Rose, que vous avez de grandes oreilles ! — C’est pour mieux écouter, mon enfant ! — Mamie Rose, que vous avez de grands yeux ! — C’est pour mieux te voir, mon enfant ! — Mamie Rose, que vous avez de grandes dents ! — C’est pour te manger ! Et, en disant ces mots, ce méchant Loup Gris se jeta sur Rosette ; mais elle sauta de côté, et cria si fort que les bûcherons l’entendirent de la forêt. Ils accoururent, et chassèrent Loup Gris à grands coups de bâton, si loin qu’on ne le revit jamais dans le bois. Alors Mamie Rose sortit de son armoire, et elles mangèrent ensemble la galette et le petit pot de beurre.",
+      "changements": []
+    },
+    "retouches": {
+      "age": 4,
+      "profil": [
+        "au-lit-avec-le-loup@10",
+        "langue#11",
+        "langue#12",
+        "le-loup-mange@4"
+      ],
+      "annonces": [
+        "La mère-grand s’enferme dans l’armoire, et les bûcherons chassent le loup avant qu’il mange le Chaperon rouge."
+      ]
+    },
+    "relecture": {
+      "remarques": [
+        {
+          "acte": 1,
+          "element": 5,
+          "gravite": "important",
+          "remarque": "Un maillon du conte manque : on ne sait jamais pourquoi Loup Gris, qui pourrait attaquer Rosette dans le bois, préfère lui proposer une course. Le conte le dit — il a envie de la manger mais n'ose pas, à cause des bûcherons dans la forêt — et cette même phrase prépare aussi les bûcherons qui la sauveront à l'acte 3 ; sans elle, leur arrivée sort de nulle part pour un enfant qui découvre l'histoire.",
+          "modification": "Entre les éléments 5 et 6, ajouter une réplique ou un aparté de Loup Gris reprenant les mots du conte : par exemple, en aparté, gourmand : « Quel bon petit repas... mais il y a des bûcherons dans ce bois, je n'ose pas la croquer ici. »"
+        },
+        {
+          "acte": 3,
+          "element": 25,
+          "gravite": "important",
+          "remarque": "Les bûcherons qui accourent et chassent Loup Gris n'ont jamais été mentionnés ni entendus avant cet instant : pour un enfant qui découvre l'histoire, leur intervention n'est pas préparée, elle tombe de nulle part. C'est la même incohérence qu'à l'acte 1 (voir la remarque sur l'élément 5) : si elle est corrigée là, ce problème disparaît ici aussi.",
+          "modification": "Corriger l'acte 1 (ajouter la présence des bûcherons dans le bois, comme le dit le conte) suffit à préparer cette arrivée ; sinon, ajouter ici une courte didascalie rappelant qu'on entendait déjà, plus tôt, des coups de hache au loin."
+        },
+        {
+          "acte": 1,
+          "element": 16,
+          "gravite": "bloquant",
+          "remarque": "La didascalie fait « cueillir des noisettes » et « faire des bouquets de petites fleurs » à Rosette : ce sont des gestes de préhension fine qu'une peluche sans doigts ne peut pas jouer, alors que la contrainte est absolue pour ce spectacle.",
+          "modification": "Garder l'idée d'une Rosette qui flâne sans se presser, mais remplacer les gestes de cueillette par des gestes que la marionnette peut faire : par exemple « Rosette s'éloigne par le chemin le plus long, s'arrêtant pour humer des fleurs et suivre des papillons du regard, sans se presser. »"
+        }
+      ]
+    }
+  },
+  "creeLe": "2026-09-26T20:35:05.138Z",
+  "modifieLe": "2026-09-26T20:35:05.138Z"
+}

@@ -1,0 +1,59 @@
+{"synopsis": [
+  {"conte": "fr-perrault-chaperon-rouge",
+   "accroche": "Rosette part porter une galette à Mamie Rose, sans savoir que Loup Gris a pris sa place avant elle.",
+   "resume": [
+     "Rosette part porter une galette et un petit pot de beurre à Mamie Rose, qui est un peu malade.",
+     "Dans le bois, elle croise Loup Gris et lui raconte tout : où elle va et par quel chemin. Il lui propose une course, chacun par un chemin différent, et prend le raccourci.",
+     "Loup Gris arrive le premier, se fait passer pour Rosette pour entrer, et prend la place de Mamie Rose dans le lit — qui, elle, s'est cachée dans l'armoire.",
+     "Rosette arrive et trouve sa mamie bien changée : « Comme vous avez de grandes oreilles ! Comme vous avez de grandes dents ! »",
+     "Au moment où Loup Gris veut bondir, Mamie Rose sort de l'armoire et, avec l'aide des enfants qui crient, elles chassent Loup Gris, qui s'enfuit sans avoir croqué personne."
+   ],
+   "distribution": [
+     {"marionnette": "Rosette", "role": "le Petit Chaperon rouge", "note": "Elle est déjà curieuse et gentille comme cette fillette qui parle à tout le monde en chemin."},
+     {"marionnette": "Loup Gris", "role": "le Loup", "note": "Gourmand et un peu bête, c'est exactement le loup du conte, qui veut croquer tout le monde."},
+     {"marionnette": "Mamie Rose", "role": "la Mère-grand", "note": "Sa douceur va bien à cette grand-mère malade, et sa sagesse lui permet de sauver la situation à la fin."}
+   ],
+   "changements": [
+     "La mère qui envoie Rosette au début disparaît : Rosette part directement avec sa galette.",
+     "La fin change : personne n'est mangé. Mamie Rose se cache dans l'armoire à l'arrivée du loup, et ressort à temps pour le chasser avec l'aide des enfants.",
+     "La phrase magique pour ouvrir la porte est dite simplement, avec des mots d'aujourd'hui."
+   ]},
+  {"conte": "ru-renard-lievre-coq",
+   "accroche": "Loup Gris s'installe chez Mamie Rose et la met dehors ; il faudra le courage de Rosette pour le faire fuir.",
+   "resume": [
+     "Au printemps, la maison de glace de Loup Gris fond. Il s'invite chez Mamie Rose et la met dehors.",
+     "Mamie Rose, désolée, demande de l'aide à de grands animaux du coin. Devant les menaces de Loup Gris, ils reculent tous et s'enfuient sans oser entrer.",
+     "Rosette arrive à son tour. Toute petite, elle n'a pas peur et menace Loup Gris trois fois, de plus en plus fort.",
+     "Loup Gris, qui croyait avoir affaire à un géant, prend peur pour de bon et s'enfuit en courant.",
+     "Mamie Rose retrouve sa maison, et Rosette reste vivre avec elle."
+   ],
+   "distribution": [
+     {"marionnette": "Loup Gris", "role": "la Renarde", "note": "Gourmand et prêt à s'imposer chez les autres, ce rôle de trouble-fête lui va comme un gant."},
+     {"marionnette": "Mamie Rose", "role": "le petit Lièvre", "note": "Sa gentillesse va bien à cette voisine désemparée qui se fait chasser de chez elle."},
+     {"marionnette": "Rosette", "role": "le Coq", "note": "Sa curiosité et son aplomb portent bien ce petit personnage qui n'a peur de rien."}
+   ],
+   "changements": [
+     "Le personnage rusé du conte devient un loup, puisque c'est la peluche de la troupe : même toupet, même gourmandise.",
+     "Les grands animaux qui reculent tour à tour sont réduits à un ou deux amis de passage, pour aller à l'essentiel en 5 minutes.",
+     "La menace du petit héros, à l'origine assez violente, devient une menace pour rire : un grand geste et une grosse voix, sans aucun coup porté."
+   ]},
+  {"conte": "in-singes-jardiniers",
+   "accroche": "Pendant que Rosette part à la foire, Loup Gris et sa bande arrosent le jardin... à leur façon.",
+   "resume": [
+     "Rosette, jardinière, doit aller à la foire. Elle demande à Loup Gris et ses amis de s'occuper d'arroser les fleurs pendant son absence.",
+     "Loup Gris accepte avec enthousiasme et réunit sa bande pour décider comment bien faire les choses.",
+     "Pour ne pas gaspiller l'eau, Loup Gris décide : chaque fleur recevra autant d'eau que ses racines sont longues.",
+     "Toute la bande arrache chaque fleur du jardin pour mesurer ses racines, l'arrose, puis la replante.",
+     "Rosette revient : toutes les fleurs sont fanées. Mamie Rose, qui dirige le parc, gronde tout le monde gentiment, et ils replantent ensemble."
+   ],
+   "distribution": [
+     {"marionnette": "Rosette", "role": "le Jardinier", "note": "Sa gentillesse et sa confiance un peu naïve collent bien à ce rôle."},
+     {"marionnette": "Loup Gris", "role": "le Chef des singes", "note": "Son air gourmand et sûr de lui devient ici un sérieux tout à fait ridicule, pour beaucoup rire."},
+     {"marionnette": "Mamie Rose", "role": "le Maître du parc", "note": "Sa sagesse va bien à celle qui a le dernier mot et qui pardonne à la fin."}
+   ],
+   "changements": [
+     "La troupe de singes devient une troupe de loups, puisque c'est la peluche disponible : même bande joyeuse et maladroite.",
+     "Le jardinier grondé à la fin n'est pas renvoyé : Mamie Rose le gronde gentiment et tout le monde replante ensemble.",
+     "Les fleurs sont de vraies fleurs en papier piquées dans le castelet, qu'on arrache une à une devant les enfants."
+   ]}
+]}

@@ -1,0 +1,15 @@
+{"elements": [
+  {"type": "entree", "marionnette": "Rosette", "main": "M1G"},
+  {"type": "didascalie", "texte": "Rosette traverse la scène d’un pas sautillant."},
+  {"type": "entree", "marionnette": "Loup Gris", "main": "M1D"},
+  {"type": "didascalie", "texte": "Loup Gris s’approche de Rosette à petits pas. Un coup de hache résonne au loin ; il recule aussitôt et regarde autour de lui."},
+  {"type": "replique", "marionnette": "Loup Gris", "texte": "Où vas-tu comme ça, et qu’est-ce que tu portes ?", "ton": "l’air de rien, presque gentil"},
+  {"type": "adresse_public", "marionnette": "Rosette", "texte": "Ce loup me demande où je vais. Je peux tout lui dire ?", "attenteReponse": true},
+  {"type": "replique", "marionnette": "Rosette", "texte": "Je vais voir ma Mamie Rose, et lui porter une galette, avec un petit pot de beurre, que ma mère lui envoie.", "ton": "joyeuse, sans méfiance"},
+  {"type": "replique", "marionnette": "Loup Gris", "texte": "Demeure-t-elle bien loin ?", "ton": "mine de rien"},
+  {"type": "replique", "marionnette": "Rosette", "texte": "Oh ! oui, c’est par delà le moulin que vous voyez tout là-bas, à la première maison du village.", "ton": "fière de connaître le chemin"},
+  {"type": "replique", "marionnette": "Loup Gris", "texte": "Eh bien ! je veux l’aller voir aussi : je m’y en vais par ce chemin-ci, et toi par ce chemin-là ; et nous verrons à qui plus tôt y sera.", "ton": "malicieux, l’air innocent"},
+  {"type": "didascalie", "texte": "Loup Gris se tourne et détale à toute allure par son chemin."},
+  {"type": "sortie", "marionnette": "Loup Gris", "main": "M1D"},
+  {"type": "didascalie", "texte": "Rosette s’attarde, tourne la tête vers des fleurs au bord du chemin, puis s’éloigne en flânant."},
+  {"type": "sortie", "marionnette": "Rosette", "main": "M1G"}]}

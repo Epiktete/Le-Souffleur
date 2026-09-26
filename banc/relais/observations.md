@@ -366,3 +366,51 @@
   seule marionnette ce n'est pas l'exception mais la règle.
 - L'exemple JSON de l'écriture omettait `note_marionnettiste` alors que le
   texte parle des « cinq types » : complété.
+
+## Cas 7, 8 et 9 — LE MÊME CONTE À 4, 7 ET 9 ANS, AVANT ET APRÈS LES RETOUCHES
+
+Chantier « l'âge », 2026-09-26. *Le Petit Chaperon rouge*, même troupe (Rosette,
+Loup Gris, Mamie Rose), 5 minutes, joué par Sonnet 5. On compare deux chaînes :
+- « avant » (`casN-avant`) : la chaîne du commit 5765dce, où le modèle adoucit
+  lui-même selon l'âge ;
+- « après » (`casN-apres`) : la chaîne du commit 137a226, où le texte arrive
+  déjà retouché par wiki/retouches/.
+
+**Avant, l'âge ne changeait rien au fond.** Les trois spectacles ont la même fin
+à 4, 7 et 9 ans : Mamie Rose cachée dans l'armoire, le loup qui s'enfuit, et une
+consolation inventée (« Viens, ma Rosette, tout va bien », « Il ne reviendra
+plus »). Dès la transposition, à 7 ans, le joueur écrit que « Loup Gris s'enfuit
+penaud ».
+
+**L'excès sur la langue est visible aussi.** À 4 ans, l'ancienne chaîne supprime la
+formule « Tire la chevillette, la bobinette cherra » ; à 7 ans, elle laisse
+passer « heurte » et « huche ».
+
+**Après, il y a trois spectacles distincts, fidèles aux retouches :**
+
+| Âge | La fin | La langue |
+| --- | --- | --- |
+| 4 ans | Mamie Rose sort de l'armoire ; les bûcherons, entendus au loin, chassent le loup à coups de bâton ; la galette se mange ensemble | « Elle habite bien loin ? » |
+| 7 ans | le loup mange Rosette, s'endort ; secoué, il les rend toutes deux vivantes ; deux coups de bâton, il détale | « Demeure-t-elle… » |
+| 9 ans | la fin de Perrault, hors scène : « En coulisse, on entend un grand bruit, puis plus rien. » | « Demeure-t-elle… » |
+
+À tous les âges, la formule de la chevillette est gardée, et « heurte »,
+« huche » et « seyait » ont disparu. Aucun joueur n'a réadouci le texte :
+- la transposition de 7 ans ne change que les noms (« changements » vide) ;
+- la revue de 9 ans ne signale pas la fin de Perrault comme une cruauté.
+
+**Ce qui reste à reprendre** (hors du chantier, sauf le point 2) :
+1. À 7 ans, les bûcherons ne sont jamais nommés dans le script. On n'entend que
+   des « voix confuses », et l'enfant ne sait pas qui secoue le loup. Le texte
+   retouché les nomme, mais la mise en scène a changé leur phrase en
+   didascalie. C'est la règle « ce qu'on ne peut pas montrer est dit par un
+   personnage » qui n'a pas joué.
+2. À 9 ans, la fin de Perrault n'est annoncée nulle part au parent : aucune
+   retouche, donc aucune annonce. Il découvrira la fin en lisant le script.
+   Une annonce pour la fin gardée (« À cet âge, la fin de Perrault est
+   gardée : le loup mange le Chaperon rouge ») serait honnête.
+3. Les six spectacles sont trop courts : 3 min 38 à 4 min 22 pour 5 min visées,
+   avant comme après. C'est la jauge de durée d'un conte de 700 mots joué tel
+   quel, pas une question d'âge.
+4. Des répliques sentimentales sont encore inventées aux deux chaînes
+   (« Merci, ma petite Rosette »).

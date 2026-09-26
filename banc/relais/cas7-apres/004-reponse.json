@@ -1,0 +1,18 @@
+{"elements": [
+  {"type": "entree", "marionnette": "Rosette", "main": "M1G"},
+  {"type": "didascalie", "texte": "Rosette traverse la scène d’un pas guilleret, en direction du bois."},
+  {"type": "adresse_public", "marionnette": "Rosette", "texte": "Ma mère m’envoie porter une galette et ce petit pot de beurre à Mamie Rose, qui est malade.", "attenteReponse": false},
+  {"type": "entree", "marionnette": "Loup Gris", "main": "M1D"},
+  {"type": "didascalie", "texte": "Loup Gris s’approche de Rosette à pas de loup, reniflant l’air."},
+  {"type": "replique", "marionnette": "Loup Gris", "texte": "Où vas-tu ?", "ton": "doucereux"},
+  {"type": "replique", "marionnette": "Rosette", "texte": "Je vais voir Mamie Rose, et lui porter une galette, avec un petit pot de beurre, que ma mère lui envoie.", "ton": "gentille, sans méfiance"},
+  {"type": "replique", "marionnette": "Loup Gris", "texte": "Elle habite bien loin ?", "ton": "l’air de rien"},
+  {"type": "didascalie", "texte": "Rosette tourne la tête vers le fond de la scène, comme pour montrer le chemin."},
+  {"type": "replique", "marionnette": "Rosette", "texte": "Oh ! oui, c’est après le moulin que vous voyez tout là-bas, à la première maison du village.", "ton": "joyeuse"},
+  {"type": "didascalie", "texte": "Loup Gris tourne la tête d’un côté, puis de l’autre, montrant les deux chemins."},
+  {"type": "replique", "marionnette": "Loup Gris", "texte": "Eh bien ! je veux aller la voir aussi : j’y vais par ce chemin-ci, et toi par ce chemin-là ; et nous verrons qui y sera le premier.", "ton": "finaud"},
+  {"type": "didascalie", "texte": "Loup Gris détale de toute sa force vers le chemin le plus court."},
+  {"type": "sortie", "marionnette": "Loup Gris", "main": "M1D"},
+  {"type": "note_marionnettiste", "texte": "Laissez un instant les enfants réagir, s’ils veulent avertir Rosette du raccourci de Loup Gris."},
+  {"type": "didascalie", "texte": "Rosette s’éloigne par le chemin le plus long, s’arrêtant pour cueillir des noisettes, courir après des papillons et faire des bouquets de petites fleurs."},
+  {"type": "sortie", "marionnette": "Rosette", "main": "M1G"}]}

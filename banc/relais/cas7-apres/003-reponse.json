@@ -1,0 +1,76 @@
+{"titre": "Rosette chez Mamie Rose",
+ "pitch": "Rosette part porter une galette à Mamie Rose malade, sans savoir que Loup Gris a pris les devants pour prendre sa place dans le lit.",
+ "changements": [
+   "Rien n'est coupé : toute l'histoire est jouée, du départ de Rosette jusqu'au repas final avec Mamie Rose.",
+   "La Mère n'a pas de marionnette : au tout début, Rosette raconte elle-même en une phrase que sa mère l'envoie porter une galette et un pot de beurre à Mamie Rose malade ; cette scène n'est pas jouée.",
+   "Les bûcherons n'ont pas de marionnette non plus : on les entend crier et frapper au loin quand ils chassent Loup Gris, mais ils n'entrent jamais en scène.",
+   "Ouvrir le loquet (« tire la chevillette ») reste seulement dit, jamais mimé : une peluche n'a pas de doigts pour tirer un verrou ; c'est vous qui entrouvrez le drap-porte au bon moment."
+ ],
+ "tableaux": [
+   {"id": "t1", "titre": "La forêt",
+    "description": "Tendez un drap ou une nappe verte en fond pour figurer les bois ; posez éventuellement deux coussins pour des buissons. Rien d'autre n'est nécessaire, la scène se joue même sans décor installé.",
+    "accessoires": []},
+   {"id": "t2", "titre": "La maison de Mamie Rose",
+    "description": "Tendez un drap devant une petite table ou un dossier de chaise pour figurer la façade de la maison, avec une ouverture au centre pour la porte. Empilez deux coussins d'un côté pour le lit, et posez un carton ou tirez un pan de rideau de l'autre côté pour figurer l'armoire où Mamie Rose se cache.",
+    "accessoires": []}
+ ],
+ "actes": [
+   {"numero": 1, "titre": "La rencontre dans le bois", "tableauId": "t1",
+    "resume": "Rosette part avec sa galette voir Mamie Rose malade ; dans le bois, elle croise Loup Gris qui lui fait tout raconter, puis fonce par le chemin le plus court pendant qu'elle s'attarde à cueillir des fleurs.",
+    "passage": "De « Il était une fois une petite fille de village » à « faire des bouquets des petites fleurs qu'elle rencontrait. »",
+    "temps": [
+      "Rosette entre, en route vers chez Mamie Rose avec sa galette et son pot de beurre.",
+      "Elle croise Loup Gris dans le bois ; il lui demande où elle va.",
+      "Rosette raconte sans méfiance tout son chemin ; Loup Gris propose une course, chacun par un chemin différent.",
+      "Loup Gris détale par le raccourci pendant que Rosette s'attarde à cueillir des fleurs."
+    ],
+    "mouvements": [
+      {"type": "entree", "marionnette": "Rosette", "main": "M1G"},
+      {"type": "entree", "marionnette": "Loup Gris", "main": "M1D"},
+      {"type": "sortie", "marionnette": "Loup Gris", "main": "M1D"},
+      {"type": "sortie", "marionnette": "Rosette", "main": "M1G"}
+    ],
+    "momentsPublic": ["Les enfants voient Loup Gris filer par le raccourci pendant que Rosette flâne : ils peuvent crier pour l'avertir."],
+    "budgetMots": 160},
+   {"numero": 2, "titre": "Loup Gris prend la place de Mamie Rose", "tableauId": "t2",
+    "resume": "Loup Gris arrive le premier chez Mamie Rose, se fait ouvrir en imitant une voix, et la pourchasse jusqu'à ce qu'elle se réfugie dans l'armoire ; n'arrivant pas à l'ouvrir, il se couche à sa place pour attendre Rosette.",
+    "passage": "De « Loup Gris ne fut pas longtemps à arriver à la maison de Mamie Rose » à « alla se coucher dans le lit de Mamie Rose, en attendant Rosette. »",
+    "temps": [
+      "Loup Gris arrive le premier à la maison et frappe à la porte en imitant la voix de Rosette.",
+      "Mamie Rose, dans son lit, lui répond de tirer la chevillette ; la porte s'ouvre.",
+      "Mamie Rose s'échappe et se cache dans l'armoire avant que Loup Gris ne l'attrape ; il tente en vain d'ouvrir la porte de l'armoire.",
+      "Loup Gris renonce, ferme la porte et se couche dans le lit de Mamie Rose pour attendre Rosette."
+    ],
+    "mouvements": [
+      {"type": "entree", "marionnette": "Mamie Rose", "main": "M1G"},
+      {"type": "entree", "marionnette": "Loup Gris", "main": "M1D"},
+      {"type": "sortie", "marionnette": "Mamie Rose", "main": "M1G"}
+    ],
+    "momentsPublic": [],
+    "budgetMots": 100},
+   {"numero": 3, "titre": "Les grandes dents", "tableauId": "t2",
+    "resume": "Rosette arrive et s'étonne des « grands bras », des « grandes oreilles » et des « grandes dents » de la fausse Mamie Rose ; quand Loup Gris se jette sur elle, elle esquive et crie, les bûcherons accourent et le chassent, et Mamie Rose sort enfin de l'armoire pour partager la galette avec elle.",
+    "passage": "De « qui, quelque temps après, vint frapper à la porte » à « elles mangèrent ensemble la galette et le petit pot de beurre. »",
+    "temps": [
+      "Rosette arrive à son tour et frappe ; elle entend la grosse voix mais y croit à peine et répond quand même.",
+      "Loup Gris, adoucissant sa voix, lui dit de tirer la chevillette ; les enfants peuvent le dire avec lui, la formule leur étant déjà connue.",
+      "Rosette s'approche du lit et s'étonne, de partie en partie du corps, jusqu'aux « grandes dents » ; Loup Gris se jette sur elle.",
+      "Rosette esquive et crie pour appeler les bûcherons, avec les enfants ; ils accourent, chassent Loup Gris, et Mamie Rose sort de l'armoire pour partager la galette avec Rosette."
+    ],
+    "mouvements": [
+      {"type": "entree", "marionnette": "Rosette", "main": "M1G"},
+      {"type": "sortie", "marionnette": "Loup Gris", "main": "M1D"},
+      {"type": "entree", "marionnette": "Mamie Rose", "main": "M1D"}
+    ],
+    "momentsPublic": [
+      "Loup Gris répète « Tire la chevillette, la bobinette cherra » : les enfants la connaissent déjà et peuvent la dire avec lui.",
+      "Quand Rosette crie pour appeler les bûcherons, les enfants crient avec elle."
+    ],
+    "budgetMots": 260}
+ ],
+ "voix": [
+   {"marionnette": "Rosette", "voix": "voix claire et pressée, enchaîne ses phrases sans reprendre souffle, curieuse de tout"},
+   {"marionnette": "Loup Gris", "voix": "voix grave et traînante, savoure chaque mot comme une friandise, ralentit encore avant « pour te manger »"},
+   {"marionnette": "Mamie Rose", "voix": "voix douce et un peu chevrotante, parle lentement"}
+ ]
+}

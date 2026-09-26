@@ -1,0 +1,72 @@
+{"titre": "Rosette et la galette de Mamie Rose",
+ "pitch": "Rosette part porter une galette à Mamie Rose malade, mais Loup Gris s'est déjà glissé dans son lit.",
+ "changements": [
+   "Le rôle de la mère est fondu dans Rosette : au lieu d'une réplique de la mère, c'est Rosette elle-même qui annonce qu'elle part porter une galette à Mamie Rose malade.",
+   "Loup Gris n'explique pas pourquoi il ne mange pas Rosette tout de suite dans le bois : il file directement vers son plan, la course jusque chez Mamie Rose.",
+   "La galette et le pot de beurre restent hors scène : on en parle, mais aucune marionnette ne les tient, puisqu'une peluche n'a pas de doigts.",
+   "Pour que les deux mains suffisent à la fin, Loup Gris s'enfuit dès que Rosette crie, et Mamie Rose ne sort de l'armoire qu'ensuite : l'ordre est à peine changé par rapport au conte.",
+   "La fin est adoucie comme prévu : Rosette comprend à temps, crie avec l'aide des enfants, et chasse Loup Gris, qui s'enfuit sans manger personne."
+ ],
+ "tableaux": [
+   {"id": "t1", "titre": "La forêt", "description": "Un tissu ou un drap vert posé au sol figure le chemin dans le bois. Poser un ou deux coussins pour évoquer des buissons où Rosette cueille des fleurs. Rien d'autre n'est nécessaire.", "accessoires": []},
+   {"id": "t2", "titre": "La maison de Mamie Rose", "description": "Un carton ou une caisse retournée, recouvert d'un drap, figure le lit de Mamie Rose. Placer à côté un pan de tissu ou un carton découpé pour marquer la porte d'entrée. Un coussin peut servir d'oreiller.", "accessoires": []}
+ ],
+ "actes": [
+   {"numero": 1, "titre": "La rencontre dans le bois", "tableauId": "t1",
+     "resume": "Rosette part porter une galette à Mamie Rose, malade, et croise Loup Gris dans la forêt. Il la fait parler, puis file par le chemin le plus court pendant qu'elle s'attarde à cueillir des fleurs.",
+     "passage": "De « Il était une fois une petite fille de village » à « des petites fleurs qu'elle rencontrait ».",
+     "temps": [
+       "Rosette entre, en chemin pour porter une galette à Mamie Rose malade.",
+       "Elle croise Loup Gris, qui lui demande où elle va et où habite Mamie Rose.",
+       "Loup Gris propose une course, chacun par son chemin, et s'élance par le raccourci.",
+       "Rosette s'attarde à cueillir des fleurs, sans se douter de rien."
+     ],
+     "mouvements": [
+       {"type": "entree", "marionnette": "Rosette", "main": "M1G"},
+       {"type": "entree", "marionnette": "Loup Gris", "main": "M1D"},
+       {"type": "sortie", "marionnette": "Loup Gris", "main": "M1D"},
+       {"type": "sortie", "marionnette": "Rosette", "main": "M1G"}
+     ],
+     "momentsPublic": ["Avant que Rosette ne réponde à Loup Gris, le parent demande aux enfants de crier pour l'avertir de ne rien lui dire."],
+     "budgetMots": 170
+   },
+   {"numero": 2, "titre": "Loup Gris prend la place de Mamie Rose", "tableauId": "t2",
+     "resume": "Loup Gris arrive le premier chez Mamie Rose, se fait ouvrir en imitant la voix de Rosette, et se jette sur elle : elle n'a que le temps de se cacher dans l'armoire. Il prend sa place dans le lit.",
+     "passage": "De « Loup Gris ne fut pas longtemps à arriver à la maison de Mamie Rose » à « il y avait plus de trois jours qu'il n'avait mangé ».",
+     "temps": [
+       "Mamie Rose est déjà couchée, un peu malade, en attendant sa galette.",
+       "Loup Gris arrive à la porte et imite la voix de Rosette pour se faire ouvrir.",
+       "Mamie Rose lui dit comment tirer la chevillette ; la porte s'ouvre.",
+       "Loup Gris se jette sur elle ; elle n'a que le temps de se cacher dans l'armoire, et il se couche à sa place."
+     ],
+     "mouvements": [
+       {"type": "entree", "marionnette": "Mamie Rose", "main": "M1G"},
+       {"type": "entree", "marionnette": "Loup Gris", "main": "M1D"},
+       {"type": "sortie", "marionnette": "Mamie Rose", "main": "M1G"}
+     ],
+     "momentsPublic": [],
+     "budgetMots": 90
+   },
+   {"numero": 3, "titre": "Les grandes dents", "tableauId": "t2",
+     "resume": "Rosette arrive à son tour et s'étonne de voir Mamie Rose si changée, jusqu'aux fameuses grandes dents. Elle comprend, crie avec les enfants, et Loup Gris s'enfuit pendant que la vraie Mamie Rose sort de l'armoire.",
+     "passage": "De « Ensuite il ferma la porte » à « sans demander son reste ».",
+     "temps": [
+       "Rosette arrive à son tour, frappe, et Loup Gris lui répond en adoucissant sa voix.",
+       "Elle entre et s'approche du lit, étonnée de trouver Mamie Rose si changée.",
+       "Vient le dialogue des grands bras, des grandes oreilles, des grandes dents, jusqu'à ce que Loup Gris se jette sur elle.",
+       "Rosette bondit hors du lit et crie ; Loup Gris, affolé, détale par la porte, et Mamie Rose sort alors de l'armoire."
+     ],
+     "mouvements": [
+       {"type": "entree", "marionnette": "Rosette", "main": "M1G"},
+       {"type": "sortie", "marionnette": "Loup Gris", "main": "M1D"},
+       {"type": "entree", "marionnette": "Mamie Rose", "main": "M1D"}
+     ],
+     "momentsPublic": ["Au moment où Loup Gris se jette sur elle, le parent demande aux enfants de crier tous ensemble pour l'aider à faire fuir Loup Gris."],
+     "budgetMots": 240
+   }
+ ],
+ "voix": [
+   {"marionnette": "Loup Gris", "voix": "voix grave et gourmande, prend une petite voix flûtée pour imiter Mamie Rose et glousse après chaque mensonge"},
+   {"marionnette": "Mamie Rose", "voix": "voix fluette et chevrotante, un peu essoufflée par la maladie"}
+ ]
+}
