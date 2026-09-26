@@ -1,0 +1,28 @@
+{
+  "id": "de-table-ane-baton",
+  "langue": [
+    {"avant": "Ne vous donnez pas cette peine, mon grison, je le mène moi-même", "apres": "Ne vous donnez pas cette peine : mon âne, je le mène moi-même", "nature": "mot-disparu"},
+    {"avant": "tous nos parents et amis", "apres": "toute la famille et nos amis", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "tous nos parents", "apres": "toute la famille", "nature": "mot-rare", "jusqua": 6, "partout": true}
+  ],
+  "moments": [
+    {
+      "id": "les-fils-chasses",
+      "type": "abandon",
+      "niveaux": [
+        {
+          "jusqua": 4,
+          "annonce": "Le tailleur ne bat pas ses fils : il les gronde si fort qu'ils s'enfuient de la maison.",
+          "retouches": [
+            {"avant": "il décrocha l'aune du mur et le chassa de la maison à coups de bâton.", "apres": "il le gronda si fort que le garçon s'enfuit de la maison."},
+            {"avant": "Il remonta en courant et chassa le garçon à coups d'aune jusqu'à la porte.", "apres": "Il remonta en courant et gronda le garçon si fort que celui-ci s'enfuit lui aussi de la maison."},
+            {"avant": "tanna si fort le dos du pauvre garçon avec l'aune que celui-ci s'enfuit de la maison", "apres": "gronda si fort le pauvre garçon que celui-ci s'enfuit de la maison"},
+            {"avant": "comprit qu'il avait chassé ses trois fils sans raison", "apres": "comprit qu'il avait fait fuir ses trois fils sans raison"},
+            {"avant": "Et comme l'aune aurait été trop d'honneur pour elle, il prit le fouet", "apres": "Puis il prit le fouet"},
+            {"avant": "c'est à cause d'elle que le tailleur avait chassé ses trois fils", "apres": "c'est à cause d'elle que le tailleur avait fait fuir ses trois fils"}
+          ]
+        }
+      ]
+    }
+  ]
+}

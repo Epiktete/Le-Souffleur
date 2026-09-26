@@ -29,4 +29,4 @@ structure: trois frères, trois objets, trois échanges
 4. Le troisième reçoit un bâton qui sort du sac ; il se vante à l'auberge et fait semblant de dormir.
 5. L'aubergiste tente le vol ; « Bâton, sors du sac ! » Il rend tout ; la famille est réunie.
 
-**À adapter.** Les coups d'aune et de fouet disparaissent : le père gronde et les fils partent voyager. Le bâton « poursuit » l'aubergiste plutôt qu'il ne le bat. La chèvre peut porter seule un spectacle court (son double discours se joue très bien). Les formules magiques sont des refrains à faire dire au public.
+**À jouer.** La chèvre peut porter seule un spectacle court : son double discours se joue très bien, et le public reprend ses « bêê ! bêê ! ». Les formules magiques sont des refrains à faire dire au public : « Petite table, mets le couvert ! », « Bricklebrit ! », « Bâton, sors du sac ! ». Même ressort que « Les Couverts volés » (Guignol) : un objet magique qui obéit à un mot confond le voleur.

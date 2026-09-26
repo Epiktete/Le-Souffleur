@@ -26,4 +26,4 @@ structure: trois maisons, puis trois rendez-vous
 4. À la foire, le cochon se cache dans une baratte qui dévale la colline et terrorise le loup.
 5. Le loup descend par la cheminée et tombe dans la marmite.
 
-**À adapter.** Les deux premiers cochons s'enfuient chez leur frère au lieu d'être mangés ; le loup tombe dans l'eau et repart en courant, la queue fumante. La série des rendez-vous, souvent oubliée, est la partie la plus drôle et la plus jouable. Le « je vais souffler » se fait avec le public.
+**À jouer.** La série des rendez-vous, souvent oubliée, est la partie la plus drôle et la plus jouable. Le « je vais souffler » se fait avec le public, et « Non, non, par les poils de mon petit menton ! » revient trois fois : à la troisième, les enfants le disent avec le cochon. Parenté avec « Le Loup et les Sept Chevreaux » : le loup qui veut entrer.

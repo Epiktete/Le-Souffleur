@@ -28,4 +28,4 @@ structure: évasions en série
 4. Avec l'antilope, elle boit en cachette la réserve de la panthère, perchée sur un palmier ; surprise, l'antilope la laisse tomber sur le nez de la panthère.
 5. Conduite par les petits de la panthère, elle demande une pause dans les buissons, et disparaît avec le chapeau de la panthère.
 
-**À adapter.** Le vin de palme devient du jus de fruit ; supprimer la tête coupée, les yeux réclamés aux femmes et la vendetta finale. Garder deux évasions sur trois pour un spectacle court.
+**À jouer.** Garder deux évasions sur trois pour un spectacle court. La mangue sur le nez du chien et la tortue qui tombe sur le nez de la panthère sont les deux chutes qui font rire : bien marquer le silence juste avant. Le public est complice de la tortue à chaque évasion. Parenté avec les autres ruses de la tortue, comme « La Tortue et l’Éléphant ».

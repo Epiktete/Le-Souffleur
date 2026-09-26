@@ -26,4 +26,4 @@ structure: double visite (le bon, puis le méchant)
 4. La vieille, jalouse, y court et exige le lourd sans même saluer.
 5. En chemin, elle l'ouvre : il en sort des fantômes grimaçants. Elle rentre en courant.
 
-**À adapter.** La langue coupée disparaît : la vieille gronde le moineau et le chasse (le titre peut devenir « Le Moineau chassé »). Les fantômes deviennent des diablotins farceurs qui la chatouillent. La chanson d'appel et de réponse est un refrain parfait avec le public, et le choix des deux paniers un vrai suspense.
+**À jouer.** La chanson d'appel et de réponse est un refrain parfait avec le public : le parent chante l'appel, les enfants répondent « Ma maison est ici ! ». Le choix des deux paniers est un vrai suspense : le public peut conseiller le vieux, puis crier à la vieille de ne pas ouvrir. Parenté avec « Le Vieux qui faisait fleurir les arbres », du même conteur : le bon vieux récompensé, l'envieux puni en l'imitant.

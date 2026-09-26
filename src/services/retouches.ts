@@ -27,8 +27,33 @@ import { z } from 'zod';
 
 /** Ce qu'une retouche de langue corrige (wiki/ADAPTATION.md, « La langue »). */
 export const NATURES_LANGUE = [
-  'mot-disparu', 'faux-ami', 'tournure', 'pronom', 'relative', 'mot-cle',
+  'mot-disparu', 'faux-ami', 'tournure', 'connecteur', 'pronom', 'relative', 'ordre',
+  'mot-rare', 'parler',
 ] as const;
+
+export type NatureLangue = (typeof NATURES_LANGUE)[number];
+
+/**
+ * L'âge plafond de chaque nature de retouche de langue. « toujours » : un mot
+ * disparu ou un faux ami gêne à tout âge, la retouche n'a pas d'âge limite. Les
+ * autres ne valent que pour les plus jeunes : au-delà, le texte reste tel qu'il
+ * est écrit. C'est le garde-fou contre l'excès : on ne remplace pas un mot rare
+ * pour un enfant de 7 ans, qui apprend des mots en écoutant des histoires.
+ */
+export const PLAFONDS_LANGUE: Record<NatureLangue, number | 'toujours'> = {
+  'mot-disparu': 'toujours',
+  'faux-ami': 'toujours',
+  tournure: 'toujours',
+  connecteur: 8,
+  pronom: 6,
+  relative: 6,
+  ordre: 6,
+  'mot-rare': 6,
+  parler: 4,
+};
+
+/** Part des mots changés pour la langue au-delà de laquelle on relit une fiche. */
+export const PLAFONDS_PROVISOIRES_LANGUE: Record<number, number> = { 3: 0.15, 6: 0.1, 9: 0.05 };
 
 /** Les types de moments de fond, un par ligne de la grille. */
 export const TYPES_MOMENT = [

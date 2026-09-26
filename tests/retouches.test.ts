@@ -8,6 +8,7 @@ import {
   lireFicheRetouches,
   motsChanges,
   niveauPour,
+  PLAFONDS_LANGUE,
   trouverExtrait,
   validerFicheRetouches,
   versionsDistinctes,
@@ -102,7 +103,7 @@ describe('la langue', () => {
   });
 
   it('une retouche avec un âge limite ne vaut que jusqu’à cet âge, et entre dans le profil', () => {
-    const f = fiche({ langue: [{ avant: 'la dévora', apres: 'l’avala', nature: 'mot-cle', jusqua: 5 }] });
+    const f = fiche({ langue: [{ avant: 'la dévora', apres: 'l’avala', nature: 'mot-rare', jusqua: 5 }] });
     expect(texte(appliquerRetouches(CONTE, f, 5))).toContain('l’avala');
     expect(texte(appliquerRetouches(CONTE, f, 6))).toContain('la dévora');
     const r = appliquerRetouches(CONTE, f, 4);
@@ -184,7 +185,7 @@ describe('le fond', () => {
 describe('la langue et le fond ensemble', () => {
   const f = fiche({
     langue: [
-      { avant: 'dévora', apres: 'avala', nature: 'mot-cle' },
+      { avant: 'dévora', apres: 'avala', nature: 'mot-rare', jusqua: 6 },
       { avant: 'mère-grand lui ouvre, et le', apres: 'grand-mère lui ouvre, et le', nature: 'mot-disparu' },
     ],
     moments: devoration.moments,
@@ -192,7 +193,7 @@ describe('la langue et le fond ensemble', () => {
 
   it('une retouche de langue dans un passage de fond retouché est ignorée, et vaut au-dessus', () => {
     expect(texte(appliquerRetouches(CONTE, f, 4))).not.toContain('avala');
-    expect(texte(appliquerRetouches(CONTE, f, 9))).toContain('et le Loup la avala.');
+    expect(texte(appliquerRetouches(CONTE, f, 6))).toContain('et le Loup la avala.');
   });
 
   it('une retouche de langue à cheval sur un passage de fond est écartée, avec un avertissement', () => {
@@ -248,6 +249,11 @@ describe('les fiches de la contothèque', () => {
       const f = await retouchesDuConte(id);
       expect(f, `${id} : lancez node tools/verifier-retouches.mjs`).not.toBeNull();
       expect(conteParId(id)?.corps, `${id} : la fiche du conte doit passer en « À jouer »`).toContain('**À jouer.**');
+      for (const r of f!.langue) {
+        const plafond = PLAFONDS_LANGUE[r.nature];
+        const juste = plafond === 'toujours' ? r.jusqua === undefined : r.jusqua !== undefined && r.jusqua <= plafond;
+        expect(juste, `${id} : « ${r.avant} » (${r.nature}) dépasse l’âge plafond de sa nature`).toBe(true);
+      }
       const t = await texteDuConte(id);
       for (let age = 3; age <= 10; age++) {
         const r = appliquerRetouches(t, f!, age);
@@ -262,6 +268,8 @@ describe('les fiches de la contothèque', () => {
     const [a4, a7, a10] = [4, 7, 10].map((age) => texte(appliquerRetouches(t, f, age)));
 
     expect(a4).toContain('s’enfermer dans l’armoire');
+    expect(a4).toContain('Elle habite bien loin ?');
+    expect(a7).toContain('Demeure-t-elle bien loin ?');
     expect(a4).not.toMatch(/la dévora|et la mangea/);
     expect(a7).toContain('la dévora en moins de rien');
     expect(a7).toContain('bien vivantes');

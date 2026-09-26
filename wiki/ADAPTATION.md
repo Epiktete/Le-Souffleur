@@ -42,7 +42,7 @@ conte reste tel qu'il est écrit.
 | `abandon` — des parents abandonnent leurs enfants | perdus en forêt | gardé comme le conte le porte (misère, marâtre, père à contrecœur) | comme le conte | comme le conte | 4 |
 | `cruaute` — mutilation, torture, détail sanglant | retiré | retiré | le fait en une phrase, si l'histoire en a besoin | idem | 10 |
 | `sexualite` — sous-entendu sexuel, morale galante | retiré | retiré | retiré | retiré | 10 |
-| `mal-vieilli` — caricature d'un peuple, sexisme, moquerie d'une infirmité | retourné | retourné | retourné | retourné | 10 |
+| `mal-vieilli` — caricature d'un peuple, sexisme, moquerie d'une infirmité | retiré, ou retourné | idem | idem | idem | 10 |
 
 **L'âge limite le plus haut** est un garde-fou contre l'excès de prudence.
 `tools/verifier-retouches.mjs` signale un moment dont un niveau dépasse cette
@@ -63,8 +63,9 @@ bouchée. » Elle n'est ni montrée ni détaillée.
 
 **Les petits reçoivent une note de jeu, pas un texte changé.** Pour 3 à 6 ans,
 l'application ajoute d'elle-même une note au parent en tête du script : grosse voix
-oui, cri soudain non ; aucune transformation à vue ; dire avant de commencer que
-l'histoire finit bien. Il n'y a rien à écrire pour cela dans une fiche.
+oui, cri soudain non ; aucun personnage qui se change en menace sous leurs yeux (la
+citrouille qui devient carrosse, elle, se joue à vue) ; dire avant de commencer
+que l'histoire finit bien. Il n'y a rien à écrire pour cela dans une fiche.
 
 ## La langue
 
@@ -76,35 +77,62 @@ La plupart des textes de `wiki/fr/` sont nos propres traductions, déjà en fran
 d'aujourd'hui. Le travail de langue se concentre sur Perrault, La Fontaine et les
 pièces de Guignol.
 
-**Toujours retouché** (retouche sans âge limite, qui vaut jusqu'à 10 ans) :
+La langue se règle **par tranche d'âge**, comme le fond. Chaque nature de
+retouche a son âge plafond : au-delà, le texte du conte reste tel qu'il est
+écrit. Le vérificateur le fait respecter. On ne peut donc pas remplacer un mot
+rare pour un enfant de 7 ans : c'est à cet âge-là qu'il apprend des mots en
+écoutant des histoires.
 
-| Nature | Exemples | Ce qu'on fait |
-| --- | --- | --- |
-| `mot-disparu` | seyait, huis, heurter (frapper à la porte) | le mot d'aujourd'hui |
-| `faux-ami` | ennui (tourment), étonné (frappé de stupeur), gentil (noble), incontinent (aussitôt) | le mot d'aujourd'hui ; c'est le plus urgent, car l'enfant croit comprendre |
-| `tournure` | « à cause qu'elle », « je veux l'aller voir », « je m'y en vais », un subjonctif imparfait dans une réplique | la tournure d'aujourd'hui, en gardant les mots |
+| Nature | Jusqu'à | Ce qui gêne | Ce qu'on fait |
+| --- | --- | --- | --- |
+| `mot-disparu` | toujours | seyait, huis, heurter (frapper à la porte) | le mot d'aujourd'hui |
+| `faux-ami` | toujours | ennui (tourment), étonné (frappé de stupeur), gentil (noble), incontinent (aussitôt) | le mot d'aujourd'hui ; c'est le plus urgent, car l'enfant croit comprendre |
+| `tournure` | toujours | « à cause qu'elle », « je veux l'aller voir », « je m'y en vais », un subjonctif imparfait dans une réplique | la tournure d'aujourd'hui, en gardant les mots |
+| `connecteur` | 8 ans | dans une réplique, un connecteur rare d'opposition ou de temps : « or », « cependant », « néanmoins », « tandis que » | « mais », « pendant que » |
+| `pronom` | 6 ans | un « il » ou un « elle » loin de son nom, ou qui pourrait désigner deux personnages | on redit le nom |
+| `relative` | 6 ans | une relative enchâssée : « le loup que la fille avait vu près du moulin courut… » | deux propositions |
+| `ordre` | 6 ans | des faits racontés dans le désordre : « avant de partir, il avait… » | dans l'ordre où ils arrivent |
+| `mot-rare` | 6 ans | un mot rare que la scène n'éclaire pas | le mot courant, ou quelques mots d'explication en passant quand le mot compte pour l'histoire |
+| `parler` | 4 ans | dans une réplique, une tournure qui ne se dit qu'à l'écrit : interrogation inversée (« Demeure-t-elle bien loin ? »), passé simple, négation sans « pas » (« il n'osa ») | la tournure parlée : « Elle habite bien loin ? » |
 
-**Retouché selon l'âge** (en général jusqu'à 4 ou 6 ans) :
+**Choisir l'âge d'un mot rare.** Il vaut jusqu'à 4 ans s'il dépasse le vocabulaire
+d'un enfant de maternelle, et jusqu'à 6 ans s'il reste opaque à un enfant de CP.
+Les livres pour les tout-petits contiennent deux fois moins de mots rares que les
+livres pour enfants : c'est le seul endroit où l'on en retire vraiment.
 
-| Nature | Ce qu'on fait |
-| --- | --- |
-| `pronom` | un « il » ou un « elle » loin de son nom, ou qui pourrait désigner deux personnages : on redit le nom |
-| `relative` | une relative enchâssée (« le loup que la fille avait vu près du moulin courut… ») devient deux propositions |
-| `mot-cle` | un mot rare dont dépend l'intrigue et que la scène n'éclaire pas : on l'explique en passant, plus rarement on le remplace |
+**D'abord les répliques.** Ce que les enfants entendent, ce sont les répliques. Les
+retouches par âge portent donc sur les paroles des personnages, et sur la
+narration qu'un personnage pourrait dire. Une narration qui deviendra une
+didascalie ne reçoit que les retouches « toujours », puisque seul le parent la lit.
+
+**Une retouche est la plus petite possible.**
+- On change le mot ou le bout de phrase qui gêne, et le reste de la phrase ne
+  bouge pas.
+- On n'ajoute rien : ni diminutif, ni « petit », ni exclamation, ni onomatopée,
+  ni phrase d'explication. La seule exception est l'explication de quelques mots
+  d'un `mot-rare`.
 
 **Jamais retouché** :
-- un mot rare mais vivant (dévorer, chaumière, festin, rusé, aussitôt, galette) ;
+- un mot rare que la scène éclaire, et tout mot rare à partir de 7 ans (dévorer,
+  chaumière, festin, rusé, aussitôt, galette) ;
 - une formule rituelle, même ancienne : « Tire la chevillette, la bobinette
   cherra ». L'action en donne le sens (la porte s'ouvre), et Perrault la voulait
   déjà vieillie ;
 - la longueur d'une phrase en elle-même ;
 - le rythme, les répétitions, le passé simple du récit ;
+- les vers d'une fable : leur musique fait partie du conte. Un mot à la rime ne se
+  remplace que s'il empêche de comprendre, et jamais pour 7 ans et plus ;
 - le parler de Guignol, qui est son personnage. On n'y retouche que ce qu'un
   enfant ne peut pas comprendre, et on lui laisse son accent.
 
 **La question à se poser**, pour chaque retouche de langue : « Un enfant de cet âge
 qui entend cette réplique jouée par une marionnette comprend-il qui fait quoi, et
 pourquoi ? » Si oui, on ne touche à rien.
+
+**Les plafonds provisoires.** La part des mots changés pour la langue est
+signalée au-dessus de 15 % à 3 ans, 10 % à 6 ans et 5 % à 9 ans. Ces chiffres
+seront fixés d'après l'échantillon. Un conte au-dessus n'est pas faux, mais il
+faut relire ses retouches une à une.
 
 ## Le format d'une fiche
 
@@ -114,7 +142,7 @@ pourquoi ? » Si oui, on ne touche à rien.
   "langue": [
     {"avant": "lui seyait si bien", "apres": "lui allait si bien", "nature": "mot-disparu"},
     {"avant": "à cause qu'elle se trouvait un peu mal", "apres": "parce qu'elle se trouvait un peu mal", "nature": "tournure"},
-    {"avant": "…", "apres": "…", "nature": "pronom", "jusqua": 4}
+    {"avant": "Demeure-t-elle bien loin ?", "apres": "Elle habite bien loin ?", "nature": "parler", "jusqua": 4}
   ],
   "moments": [
     {
@@ -141,8 +169,8 @@ pourquoi ? » Si oui, on ne touche à rien.
 | --- | --- |
 | `avant` | un extrait du texte de `wiki/fr/<id>.md`, recopié tel quel |
 | `apres` | ce qui le remplace |
-| `nature` | un mot de la liste ci-dessus : `mot-disparu`, `faux-ami`, `tournure`, `pronom`, `relative` ou `mot-cle` |
-| `jusqua` | facultatif, l'âge jusqu'auquel la retouche s'applique ; absent, elle vaut toujours |
+| `nature` | un mot de la liste ci-dessus |
+| `jusqua` | l'âge jusqu'auquel la retouche s'applique, au plus le plafond de sa nature ; absent pour les natures qui valent toujours |
 | `partout` | facultatif : la retouche s'applique à chaque occurrence, en mot entier et en gardant la majuscule. C'est pour les refrains et les mots qui reviennent. Sans lui, l'extrait doit être unique dans le texte. |
 
 **Les champs d'un moment de fond.**

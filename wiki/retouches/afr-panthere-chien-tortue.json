@@ -1,0 +1,71 @@
+{
+  "id": "afr-panthere-chien-tortue",
+  "langue": [
+    {"avant": "un mangot sauvage", "apres": "une mangue sauvage", "nature": "mot-disparu"},
+    {"avant": "un énorme mangot", "apres": "une énorme mangue", "nature": "mot-disparu"},
+    {"avant": "Je puis à peine respirer", "apres": "Je peux à peine respirer", "nature": "tournure"},
+    {"avant": "je ne puis monter à cet arbre", "apres": "je ne peux pas monter à cet arbre", "nature": "tournure"},
+    {"avant": "part pour les factoreries de la côte", "apres": "part pour les comptoirs de la côte", "nature": "mot-disparu"},
+    {"avant": "les blancs de la factorerie lui donnent force marchandises", "apres": "les blancs du comptoir lui donnent beaucoup de marchandises", "nature": "mot-disparu"},
+    {"avant": "observe le plus profond silence", "apres": "ne fais aucun bruit", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "de crainte que le méchant chef ou l’un de ses enfants ne s’aperçoive de notre présence en ces lieux", "apres": "pour que le méchant chef ou l’un de ses enfants ne nous trouve pas ici", "nature": "parler", "jusqua": 4},
+    {"avant": "pour t’en éviter la peine", "apres": "pour que tu n’aies pas à grimper", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "je vais entrer dans ce taillis, car j’éprouve un pressant besoin", "apres": "je vais entrer dans ces buissons, car il faut que je fasse mes besoins", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "qui allait assister à un grand palabre", "apres": "qui allait à une grande réunion", "nature": "mot-rare", "jusqua": 6}
+  ],
+  "moments": [
+    {
+      "id": "panthere-se-grise",
+      "type": "alcool",
+      "niveaux": [
+        {
+          "jusqua": 4,
+          "annonce": "La panthère ne veut pas se griser : elle veut boire son vin de palme, puis faire une bonne sieste.",
+          "retouches": [
+            {"avant": "la panthère avait décidé ce matin qu’elle se griserait ce jour-là", "apres": "la panthère avait décidé ce matin qu’elle boirait son vin et ferait une bonne sieste ce jour-là"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "yeux-des-femmes",
+      "type": "cruaute",
+      "niveaux": [
+        {
+          "jusqua": 6,
+          "annonce": "La tortue ne réclame pas un œil à chacune des femmes de la panthère : elle se fait donner le chapeau et le pagne, puis vole la défense d’éléphant pendant qu’elles ne la regardent pas.",
+          "retouches": [
+            {"avant": "Il veut aussi un œil de chacune de vous pour faire son fétiche afin que le palabre lui soit favorable.", "apres": ""},
+            {"avant": "Les femmes tremblantes lui donnent le chapeau et le pagne, mais se sauvent dans la brousse pour garder leurs deux yeux. C’est ce que voulait la rusée tortue qui met à profit leur absence pour s’emparer", "apres": "Les femmes lui donnent le chapeau et le pagne. Alors la rusée tortue profite d’un moment où elles ne la regardent pas pour s’emparer"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "panthere-meurt-de-rage",
+      "type": "punition",
+      "niveaux": [
+        {
+          "jusqua": 4,
+          "annonce": "La panthère ne meurt pas de rage : elle en est malade trois jours, et reste la risée des enfants du village voisin.",
+          "retouches": [
+            {"avant": "mourut de rage en trois jours, laissant à ses petits le soin de la venger", "apres": "en fut malade de rage pendant trois jours, et chargea ses petits de la venger"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vendetta",
+      "type": "mort-gentil",
+      "niveaux": [
+        {
+          "jusqua": 6,
+          "annonce": "La fin ne parle pas de squelettes : les petits de la panthère cherchent toujours la tortue et l’antilope, qui se cachent.",
+          "retouches": [
+            {"avant": "Si vous trouvez dans la forêt le squelette blanc d’une antilope ou la carapace vide d’une tortue, c’est que la vengeance de la panthère n’est pas encore satisfaite et que la vendetta dure toujours.", "apres": "Si vous voyez dans la forêt une antilope ou une tortue qui se cache, c’est que les petits de la panthère les cherchent encore pour venger leur mère."}
+          ]
+        }
+      ]
+    }
+  ]
+}

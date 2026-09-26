@@ -27,4 +27,4 @@ structure: voyage aller-retour
 4. Un rat réclame son passeport, le bateau coule, un poisson l'avale.
 5. Le poisson est pêché et cuisiné… dans la maison même : il retrouve sa danseuse.
 
-**À adapter.** La fin tragique (le poêle, le cœur de plomb) est à remplacer : le soldat et la danseuse sont posés côte à côte sur l'étagère, ou le diablotin est enfermé pour de bon dans sa boîte. Les jouets qui s'animent la nuit sont un décor idéal pour marionnettes. Le soldat ne parle presque pas : les autres personnages et le public parlent pour lui.
+**À jouer.** Les jouets qui s'animent la nuit sont un décor idéal pour marionnettes. Le soldat ne parle presque pas : les autres personnages et le public parlent pour lui. Quand la servante et le petit garçon le cherchent dans la rue, les enfants peuvent crier « Me voici ! » à sa place, et le rat leur fait répéter « Arrêtez-le ! ». Les épreuves du voyage (la chute, le caniveau, le rat, le poisson) se jouent vite ; le retour sur la table et la fin prennent leur temps. Parenté : Issun-bōshi, minuscule lui aussi, descend la rivière dans un bateau de fortune et finit avalé.

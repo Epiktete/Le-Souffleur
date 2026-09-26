@@ -1,0 +1,213 @@
+{
+  "id": "ar-ali-baba",
+  "langue": [
+    {"avant": "que prétendez-vous faire ?", "apres": "que voulez-vous faire ?", "nature": "faux-ami"},
+    {"avant": "Je le prétends bien ainsi", "apres": "Je l’entends bien ainsi", "nature": "faux-ami"},
+    {"avant": "enseignes", "apres": "repères", "nature": "faux-ami", "partout": true},
+    {"avant": "Il faut bien que je me fasse violence", "apres": "Il faut bien que je me retienne", "nature": "faux-ami"},
+    {"avant": "On n’entend rien à sa maladie", "apres": "On ne comprend rien à sa maladie", "nature": "faux-ami"},
+    {"avant": "la bière", "apres": "le cercueil", "nature": "faux-ami", "partout": true},
+    {"avant": "chargèrent la bière sur leurs épaules ; et en suivant l’iman, qui récitait des prières, ils la portèrent", "apres": "chargèrent le cercueil sur leurs épaules ; et en suivant l’iman, qui récitait des prières, ils le portèrent", "nature": "faux-ami"},
+    {"avant": "la malice du faux marchand", "apres": "la ruse du faux marchand", "nature": "faux-ami"},
+    {"avant": "dont je n’avais pas cru devoir vous entretenir", "apres": "dont je n’avais pas cru devoir vous parler", "nature": "faux-ami"},
+    {"avant": "veiller à votre conservation", "apres": "veiller sur vous", "nature": "faux-ami"},
+    {"avant": "enterrer incessamment", "apres": "enterrer sans tarder", "nature": "faux-ami"},
+    {"avant": "honnêtetés", "apres": "politesses", "nature": "faux-ami", "partout": true},
+    {"avant": "de vous posséder à souper", "apres": "de vous avoir à souper", "nature": "faux-ami"},
+    {"avant": "c’est son plus fier ennemi", "apres": "c’est son pire ennemi", "nature": "faux-ami"},
+    {"avant": "à qui je veux bien donner la vie", "apres": "à qui je veux bien laisser la vie", "nature": "faux-ami"},
+    {"avant": "ma cuisinière et dépensière en même temps", "apres": "ma cuisinière et intendante en même temps", "nature": "faux-ami"},
+    {"avant": "je l’ai fait pour votre conservation", "apres": "je l’ai fait pour vous sauver", "nature": "faux-ami"},
+    {"avant": "à quel fier ennemi vous aviez affaire", "apres": "à quel terrible ennemi vous aviez affaire", "nature": "faux-ami"},
+    {"avant": "je ne puis vous rien dire, qu’auparavant vous ne me promettiez de m’écouter", "apres": "je ne puis rien vous dire avant que vous me promettiez de m’écouter", "nature": "tournure"},
+    {"avant": "à cause qu’il n’était pas encore bien jour", "apres": "parce qu’il n’était pas encore bien jour", "nature": "tournure"},
+    {"avant": "Dieu garde, reprit Morgiane, que j’exige rien de vous, que vous ne puissiez faire en tout honneur.", "apres": "Dieu me garde, reprit Morgiane, d’exiger de vous rien que vous ne puissiez faire en tout honneur.", "nature": "tournure"},
+    {"avant": "il n’y a pas d’apparence que plus de deux personnes", "apres": "il n’est pas croyable que plus de deux personnes", "nature": "tournure"},
+    {"avant": "je fais gloire d’exposer ma vie", "apres": "je suis fier d’exposer ma vie", "nature": "tournure"},
+    {"avant": "je ne laisse pas d’avoir les yeux excellens", "apres": "j’ai pourtant les yeux excellents", "nature": "tournure"},
+    {"avant": "Je n’ai garde de vouloir entrer dans votre secret", "apres": "Je me garde bien de vouloir entrer dans votre secret", "nature": "tournure"},
+    {"avant": "avant que je me couchasse", "apres": "avant de me coucher", "nature": "tournure"},
+    {"avant": "sans savoir à quel dessein cela pouvait avait été fait", "apres": "sans savoir pourquoi cela avait été fait", "nature": "tournure"},
+    {"avant": "Je ne mourrai pas que je ne t’aye récompensée", "apres": "Je ne mourrai pas sans t’avoir récompensée", "nature": "tournure"},
+    {"avant": "Dieu m’a délivré par ton moyen", "apres": "Dieu m’a délivré grâce à toi", "nature": "tournure"},
+    {"avant": "qu’auparavant je ne lui aie ôté la vie", "apres": "avant de lui avoir ôté la vie", "nature": "tournure"},
+    {"avant": "Avant que je l’eusse vu", "apres": "Avant que je l’aie vu", "nature": "tournure"},
+    {"avant": "et s’il y eût réussi, vous ne devez pas douter qu’il ne vous eût sacrifié aussi à sa vengeance", "apres": "et s’il y avait réussi, vous ne devez pas douter qu’il vous aurait sacrifié aussi à sa vengeance", "nature": "tournure"},
+    {"avant": "l’après-dînée", "apres": "l’après-midi", "nature": "mot-disparu"},
+    {"avant": "l’après-dîné", "apres": "l’après-midi", "nature": "mot-disparu"},
+    {"avant": "Faites néanmoins ce qu’il vous plaira", "apres": "Faites quand même ce qu’il vous plaira", "nature": "connecteur", "jusqua": 8},
+    {"avant": "au lieu que j’en aurai ma part", "apres": "et moi, j’en aurai ma part", "nature": "connecteur", "jusqua": 8},
+    {"avant": "si quelque chose néanmoins est capable de vous consoler", "apres": "si quelque chose est pourtant capable de vous consoler", "nature": "connecteur", "jusqua": 8},
+    {"avant": "Si la proposition vous agrée", "apres": "Si la proposition vous plaît", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "insensiblement nous allons perdre", "apres": "peu à peu nous allons perdre", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "À quelque intention qu’on l’ait pu faire, ajouta-t-elle, il est bon de se précautionner contre tout événement.", "apres": "Quoi qu’il en soit, ajouta-t-elle, il est bon de prendre ses précautions.", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "si quelqu’un sait un expédient meilleur", "apres": "si quelqu’un sait un moyen meilleur", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "le pernicieux dessein qui les avait amenés", "apres": "le méchant projet qui les avait amenés", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "juré votre perte", "apres": "juré votre mort", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "m’ont dressé ces embûches", "apres": "m’ont tendu ce piège", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "son dessein pernicieux", "apres": "son méchant projet", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "dans le dessein de mieux réussir", "apres": "dans le but de mieux réussir", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "quelqu’un voudrait-il du mal à mon maître, ou l’a-t-on faite pour se divertir ?", "apres": "quelqu’un veut du mal à mon maître, ou on l’a faite pour s’amuser ?", "nature": "parler", "jusqua": 4}
+  ],
+  "moments": [
+    {
+      "id": "cassim-tue-et-coupe",
+      "type": "cruaute",
+      "pourquoi": "Un seul moment pour la mort de Cassim et son corps coupé en quatre, qui se tiennent jusqu’au bout du conte (le savetier qui coud, la maison retrouvée). Jusqu’à 4 ans, Cassim est puni sans mourir, comme la grille le veut pour une punition ; à partir de 5 ans, il meurt comme dans le conte, et seule la mutilation suit la ligne « cruauté ».",
+      "niveaux": [
+        {
+          "jusqua": 4,
+          "annonce": "Les voleurs ne tuent pas Cassim : ils le rouent de coups et l’attachent dans la grotte, Ali Baba le délivre, et Cassim, qui a eu trop peur, quitte la ville en laissant sa maison à son frère.",
+          "retouches": [
+            {"avant": "Mais il n’échappa pas aux autres voleurs, qui avaient aussi le sabre à la main, et qui lui otèrent la vie sur-le-champ.", "apres": "Mais il n’échappa pas aux autres voleurs, qui avaient aussi le sabre à la main : ils le rouèrent de coups et mirent sa belle robe en pièces. Ils lui demandèrent comment il était entré ; mais Cassim avait si peur qu’il ne put dire un mot. Alors ils l’attachèrent bien serré."},
+            {"avant": "Le premier soin des voleurs après cette exécution,", "apres": "Le premier soin des voleurs, après cela,"},
+            {"avant": "ils convinrent de faire quatre quartiers du cadavre de Cassim, et de le mettre près de la porte en dedans de la grotte, deux d’un côté, deux de l’autre, pour épouvanter quiconque aurait la hardiesse de faire une pareille entreprise ; sauf à ne revenir dans la grotte que dans quelque temps, après que la puanteur du cadavre serait exhalée.", "apres": "ils convinrent de laisser Cassim attaché près de la porte, en dedans de la grotte, et de ne revenir que dans quelque temps, pour décider alors de ce qu’ils en feraient."},
+            {"avant": "ni son mari, s’il eût été vivant,", "apres": "ni son mari,"},
+            {"avant": "il fut étonné du sang répandu qu’il aperçut près de la porte, et il en prit un mauvais augure", "apres": "il en prit un mauvais augure"},
+            {"avant": "et il fut frappé du triste spectacle du corps de son frère mis en quatre quartiers. Il n’hésita pas sur le parti qu’il devait prendre, pour rendre les derniers devoirs à son frère, en oubliant le peu d’amitié fraternelle qu’il avait eue pour lui. Il trouva dans la grotte de quoi faire deux paquets des quatre quartiers, dont il fit la charge d’un de ses ânes, avec du bois pour les cacher.", "apres": "et il trouva son frère attaché près de la porte, tout couvert de bosses. Il n’hésita pas sur le parti qu’il devait prendre, en oubliant le peu d’amitié fraternelle que Cassim avait eue pour lui : il le détacha, le fit monter sur un de ses ânes, et le cacha sous du bois."},
+            {"avant": "il déchargea l’âne du bois et des deux paquets", "apres": "il déchargea l’âne du bois, et Cassim en descendit tout penaud"},
+            {"avant": "Voilà le corps de ton maître dans ces deux paquets, il s’agit de le faire enterrer comme s’il était mort de sa mort naturelle.", "apres": "Voilà ton maître, que les voleurs ont roué de coups : il faut que personne dans la ville ne sache d’où il revient."},
+            {"avant": "« Hé bien, beau-frère, demanda la belle-sœur à Ali Baba avec grande impatience, quelle nouvelle apportez-vous de mon mari ? Je n’aperçois rien sur votre visage qui doive me consoler. »\n\n« Belle-sœur, répondit Ali Baba, je ne puis vous rien dire, qu’auparavant vous ne me promettiez de m’écouter depuis le commencement jusqu’à la fin sans ouvrir la bouche. Il ne vous est pas moins important qu’à moi, dans ce qui est arrivé, de garder un grand secret pour votre bien, et pour votre repos. »\n\n« Ah, s’écria la belle-sœur sans élever la voix, ce préambule me fait connaître que mon mari n’est plus ; mais en même temps je connais la nécessité du secret que vous me demandez. Il faut bien que je me fasse violence : dites, je vous écoute. »\n\nAli Baba raconta à sa belle-sœur, tout le succès de son voyage jusqu’à son arrivée avec le corps de Cassim.\n\n« Belle-sœur, ajouta-t-il, voilà un sujet d’affliction pour vous d’autant plus grand que vous vous y attendiez moins. Quoique le mal soit sans remède, si quelque chose néanmoins est capable de vous consoler, je vous offre de joindre le peu de bien que Dieu m’a envoyé au vôtre, en vous épousant, et en vous assurant que ma femme n’en sera pas jalouse, et que vous vivrez bien ensemble. Si la proposition vous agrée, il faut songer à faire en sorte qu’il paroisse que mon frère est mort de sa mort naturelle ; et c’est un soin dont il me semble que vous pouvez vous reposer sur Morgiane, et j’y contribuerai de mon côté de tout ce qui sera en mon pouvoir. »\n\nQuel meilleur parti pouvait prendre la veuve de Cassim, que celui qu’Ali Baba lui proposait, elle qui, avec les biens qui lui demeuraient par la mort de son premier mari, en trouvait un autre plus riche qu’elle ; et qui, par la découverte du trésor qu’il avait faite, pouvait le devenir davantage ? Elle ne refusa pas le parti, elle le regarda au contraire comme un motif raisonnable de consolation. En essuyant ses larmes qu’elle avait commencé de verser en abondance, en supprimant les cris perçans ordinaires aux femmes qui ont perdu leurs maris, elle témoigna suffisamment à Ali Baba qu’elle acceptait son offre.\n\nAli Baba laissa la veuve de Cassim dans cette disposition ; et après avoir recommandé à Morgiane de bien s’acquitter de son personnage, il retourna chez lui avec son âne.\n\nMorgiane ne s’oublia pas ; et elle sortit en même temps qu’Ali Baba, et alla chez un apothicaire qui était dans le voisinage : elle frappe à la boutique, on ouvre, elle demande d’une sorte de tablette très-salutaire dans les maladies les plus dangereuses. L’apothicaire lui en donna pour l’argent qu’elle avait présenté, en demandant qui était malade chez son maître ?\n\n« Ah, dit-elle avec un grand soupir, c’est Cassim lui-même, mon bon maître ! On n’entend rien à sa maladie, il ne parle, ni ne peut manger. »\n\nAvec ces paroles, elle emporte les tablettes dont véritablement Cassim n’était plus en état de faire usage.\n\nLe lendemain, la même Morgiane vient chez le même apothicaire, et demande, les larmes aux yeux, d’une essence dont on avait coutume de ne faire prendre aux malades qu’à la dernière extrémité ; et on n’espérait rien de leur vie, si cette essence ne les faisait revivre.\n\n« Hélas, dit-elle avec une grande affliction, en la recevant des mains de l’apothicaire, je crains fort que ce remède ne fasse pas plus d’effet que les tablettes ! Ah, que je perds un bon maître ! »\n\nD’un autre côté, comme on vit toute la journée Ali Baba et sa femme d’un air triste faire plusieurs allées et venues chez Cassim, on ne fut pas étonné sur le soir d’entendre des cris lamentables de la femme de Cassim, et sur-tout de Morgiane, qui annonçaient que Cassim était mort.", "apres": "La femme de Cassim fut bien soulagée de revoir son mari. Ali Baba leur raconta ce qui était arrivé, et il leur recommanda de garder un grand secret, pour leur bien et pour leur repos. Puis, après avoir recommandé à Morgiane de faire recoudre en secret la robe de son maître, que les voleurs avaient mise en pièces, il retourna chez lui avec son âne."},
+            {"avant": "le mena chez défunt son maître, et elle ne lui ôta le mouchoir que dans la chambre où elle avait mis le corps, chaque quartier à sa place.", "apres": "le mena chez son maître, et elle ne lui ôta le mouchoir que dans la chambre où elle avait mis la robe de Cassim, que les voleurs avaient mise en pièces."},
+            {"avant": "Morgiane avait fait chauffer de l’eau pour laver le corps de Cassim. Ainsi Ali Baba, qui arriva comme elle venait de rentrer, le lava, le parfuma d’encens, et l’ensevelit avec les cérémonies accoutumées. Le menuisier apporta aussi la bière, qu’Ali Baba avait pris le soin de commander.\n\nAfin que le menuisier ne pût s’apercevoir de rien, Morgiane reçut la bière à la porte ; et après l’avoir payé et renvoyé, elle aida à Ali Baba à mettre le corps dedans ; et quand Ali Baba eut bien cloué les planches par-dessus, elle alla à la mosquée avertir que tout était prêt pour l’enterrement. Les gens de la mosquée destinés pour laver les corps morts, s’offrirent pour venir s’acquitter de leur fonction ; mais elle leur dit que la chose était faite.\n\nMorgiane de retour, ne faisait que de rentrer, quand l’iman et d’autres ministres de la mosquée arrivèrent. Quatre voisins assemblés chargèrent la bière sur leurs épaules ; et en suivant l’iman, qui récitait des prières, ils la portèrent au cimetière. Morgiane en pleurs, comme esclave du défunt, suivit la tête nue, en poussant des cris pitoyables, en se frappant la poitrine de grands coups, et en s’arrachant les cheveux ; et Ali Baba marchait après, accompagné des voisins qui se détachaient tour-à-tour, de temps en temps, pour relayer et soulager les autres voisins qui portaient la bière, jusqu’à ce qu’on arrivât au cimetière.\n\nPour ce qui est de la femme de Cassim, elle resta dans sa maison, en se désolant et en poussant des cris lamentables avec les femmes du voisinage, qui, selon la coutume, y accoururent pendant la cérémonie de l’enterrement, et qui en joignant leurs lamentations aux siennes, remplirent tout le quartier de tristesse bien loin aux environs.\n\nDe la sorte, la mort funeste de Cassim fut cachée et dissimulée entre Ali Baba, sa femme, la veuve de Cassim et Morgiane, avec un ménagement si grand, que personne de la ville, loin d’en avoir connoissance, n’en eut pas le moindre soupçon.", "apres": "De la sorte, l’aventure de Cassim fut cachée entre les deux frères, leurs femmes et Morgiane, avec un ménagement si grand, que personne de la ville n’en eut le moindre soupçon."},
+            {"avant": "Trois ou quatre jours après l’enterrement de Cassim, Ali Baba transporta le peu de meubles qu’il avait, avec l’argent qu’il avait enlevé du trésor des voleurs, qu’il ne porta que la nuit dans la maison de la veuve de son frère, pour s’y établir, ce qui fit connaître son nouveau mariage avec sa belle-sœur. Et comme ces sortes de mariages ne sont pas extraordinaires dans notre religion, personne n’en fut surpris.", "apres": "Cassim avait eu si peur des voleurs qu’il ne voulut plus demeurer si près de leur forêt : il partit avec sa femme pour une ville lointaine, et laissa à son frère sa maison et sa boutique ; Morgiane y resta pour servir Ali Baba. Trois ou quatre jours après, Ali Baba transporta le peu de meubles qu’il avait, avec l’argent qu’il avait enlevé du trésor des voleurs, qu’il ne porta que la nuit dans la maison de son frère, pour s’y établir."},
+            {"avant": "de ne pas trouver le corps de Cassim", "apres": "de ne pas trouver Cassim"},
+            {"avant": "Son corps emporté et notre trésor diminué", "apres": "Notre prisonnier délivré et notre trésor diminué"},
+            {"avant": "après avoir fait périr l’un, il faut que nous fassions périr l’autre de même", "apres": "après avoir pris l’un, il faut que nous fassions périr l’autre"},
+            {"avant": "de la mort étrange de celui que nous avons massacré comme il le méritait", "apres": "de celui que nous avons surpris dans notre grotte"},
+            {"avant": "j’ai cousu un mort", "apres": "j’ai cousu une robe mise en pièces"},
+            {"avant": "«Un mort, reprit-il avec étonnement ! » Et pour le faire parler : « Pourquoi coudre un mort, ajouta-t-il ? Vous voulez dire apparemment que vous avez cousu le linceul dans lequel il a été enseveli. »\n\n« Non, non, reprit Baba Moustafa :", "apres": "« Une robe mise en pièces ! reprit-il avec étonnement. »\n\n« Oui, oui, reprit Baba Moustafa :"},
+            {"avant": "la maison où vous avez cousu ce mort", "apres": "la maison où vous avez cousu cette robe"},
+            {"avant": "depuis qu’il en avait tiré et rapporté le corps de son frère Cassim sur un de ses trois ânes", "apres": "depuis qu’il en avait ramené son frère Cassim sur un de ses trois ânes"}
+          ]
+        },
+        {
+          "jusqua": 6,
+          "annonce": "Les voleurs tuent Cassim, mais son corps n’est pas coupé en morceaux : le savetier vient coudre son linceul.",
+          "retouches": [
+            {"avant": "ils convinrent de faire quatre quartiers du cadavre de Cassim, et de le mettre près de la porte en dedans de la grotte, deux d’un côté, deux de l’autre, pour épouvanter quiconque aurait la hardiesse de faire une pareille entreprise ; sauf à ne revenir dans la grotte que dans quelque temps, après que la puanteur du cadavre serait exhalée.", "apres": "ils convinrent de laisser le corps de Cassim près de la porte, en dedans de la grotte, pour épouvanter quiconque aurait la hardiesse de faire une pareille entreprise ; sauf à ne revenir dans la grotte que dans quelque temps."},
+            {"avant": "il fut étonné du sang répandu qu’il aperçut près de la porte, et il en prit un mauvais augure", "apres": "il en prit un mauvais augure"},
+            {"avant": "et il fut frappé du triste spectacle du corps de son frère mis en quatre quartiers.", "apres": "et il fut frappé du triste spectacle du corps de son frère."},
+            {"avant": "de quoi faire deux paquets des quatre quartiers, dont il fit la charge d’un de ses ânes, avec du bois pour les cacher", "apres": "de quoi envelopper le corps, dont il fit la charge d’un de ses ânes, avec du bois pour le cacher"},
+            {"avant": "il déchargea l’âne du bois et des deux paquets", "apres": "il déchargea l’âne du bois et du corps"},
+            {"avant": "Voilà le corps de ton maître dans ces deux paquets,", "apres": "Voilà le corps de ton maître,"},
+            {"avant": "où elle avait mis le corps, chaque quartier à sa place. Quand elle le lui eut ôté : « Baba Moustafa, dit-elle, c’est pour vous faire coudre les pièces que voilà", "apres": "où elle avait mis le corps. Quand elle le lui eut ôté : « Baba Moustafa, dit-elle, c’est pour vous faire coudre le linceul de ce mort"},
+            {"avant": "j’ai cousu un mort", "apres": "j’ai cousu le linceul d’un mort"},
+            {"avant": "«Un mort, reprit-il avec étonnement ! » Et pour le faire parler : « Pourquoi coudre un mort, ajouta-t-il ? Vous voulez dire apparemment que vous avez cousu le linceul dans lequel il a été enseveli. »\n\n« Non, non, reprit Baba Moustafa :", "apres": "« Un mort ! reprit-il avec étonnement. »\n\n« Oui, oui, reprit Baba Moustafa :"},
+            {"avant": "la maison où vous avez cousu ce mort", "apres": "la maison où vous avez cousu ce linceul"}
+          ]
+        },
+        {
+          "jusqua": 10,
+          "retouches": [
+            {"avant": "grotte, deux d’un côté, deux de l’autre, pour épouvanter", "apres": "grotte, pour épouvanter"},
+            {"avant": "sauf à ne revenir dans la grotte que dans quelque temps, après que la puanteur du cadavre serait exhalée.", "apres": "sauf à ne revenir dans la grotte que dans quelque temps."},
+            {"avant": "il fut étonné du sang répandu qu’il aperçut près de la porte, et il en prit un mauvais augure", "apres": "il en prit un mauvais augure"},
+            {"avant": "et il fut frappé du triste spectacle du corps de son frère mis en quatre quartiers.", "apres": "et il fut frappé du triste spectacle du corps de son frère."},
+            {"avant": "de quoi faire deux paquets des quatre quartiers", "apres": "de quoi faire deux paquets du corps"},
+            {"avant": "où elle avait mis le corps, chaque quartier à sa place.", "apres": "où elle avait mis le corps."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "voleurs-chaties",
+      "type": "punition",
+      "niveaux": [
+        {
+          "jusqua": 4,
+          "annonce": "Les deux voleurs qui se trompent de maison ne sont pas mis à mort : leurs camarades les chassent de la troupe à coups de bâton.",
+          "retouches": [
+            {"avant": "Aussitôt le conducteur fut déclaré digne de mort tout d’une voix, et il s’y condamna lui-même, en reconnoissant qu’il aurait dû prendre mieux ses précautions, et il présenta le col avec fermeté à celui qui se présenta pour lui couper la tête.", "apres": "Aussitôt le conducteur fut déclaré digne de mort tout d’une voix, et il s’y condamna lui-même, en reconnaissant qu’il aurait dû prendre mieux ses précautions ; mais ses camarades se contentèrent de le chasser de la troupe à grands coups de bâton."},
+            {"avant": "subit pareillement le châtiment auquel il s’était soumis volontairement.", "apres": "fut pareillement chassé de la troupe à grands coups de bâton."}
+          ]
+        },
+        {
+          "jusqua": 6,
+          "retouches": [
+            {"avant": "et il présenta le col avec fermeté à celui qui se présenta pour lui couper la tête.", "apres": "et il fut mis à mort."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "voleurs-dans-les-vases",
+      "type": "punition",
+      "niveaux": [
+        {
+          "jusqua": 4,
+          "annonce": "Morgiane ne verse pas d’huile bouillante : elle ficelle bien serré les vases où les voleurs sont cachés, et Ali Baba les livre en secret au juge, qui les met en prison.",
+          "retouches": [
+            {"avant": "ne manquez pas de vous faire ouverture, en fendant le vase depuis le haut jusqu’en bas, avec le couteau dont vous êtes muni, et d’en sortir : aussitôt je serai à vous. »\n\nLe couteau dont il parlait était pointu et affilé pour cet usage.", "apres": "ne manquez pas de sortir de vos vases : aussitôt je serai à vous. »"},
+            {"avant": "elle prend une grande chaudière, elle retourne à la cour où elle l’emplit de l’huile du vase. Elle la rapporte, la met sur le feu, et met dessous force bois, parce que plutôt l’huile bouillira, plutôt elle aura exécuté ce qui doit contribuer au salut commun de la maison, qui ne demande pas de retardement. L’huile bout enfin, elle prend la chaudière, et elle va verser dans chaque vase assez d’huile toute bouillante, depuis le premier jusqu’au dernier, pour les étouffer et leur ôter la vie, comme elle la leur ôta.", "apres": "elle prend une grosse pelote de ficelle, elle retourne à la cour, et elle va fermer bien serré la bouche de chaque vase, depuis le premier jusqu’au dernier, si bien que pas un des voleurs ne pouvait plus en sortir."},
+            {"avant": "avec la chaudière vide, et ferme la porte. Elle éteint le grand feu qu’elle avait allumé, et elle n’en laisse qu’autant qu’il en faut pour achever", "apres": "et ferme la porte. Elle ne garde de feu qu’autant qu’il en faut pour achever"},
+            {"avant": "et cependant pas un des voleurs ne donne le moindre signe de vie", "apres": "et cependant pas un des voleurs ne sort de son vase"},
+            {"avant": "et quand il veut demander au voleur, qu’il croit vivant, s’il dort, il sent une odeur d’huile chaude et de brûlé, qui exhale du vase, par où il connoît que", "apres": "et quand il veut demander au voleur s’il dort, il trouve la bouche du vase ficelée bien serré, et il entend son homme qui s’y débat sans pouvoir en sortir ; par où il connaît que"},
+            {"avant": "et il trouve que ses gens avaient péri par le même sort ; et par la diminution de l’huile dans le vase qu’il avait apporté plein, il connut la manière dont on s’y était pris pour le priver du secours qu’il en attendait.", "apres": "et il trouve que tous ses gens sont pris de la même manière, et ficelés si serré qu’il ne pourrait les délivrer sans éveiller toute la maison."},
+            {"avant": "il n’a plus de vie.", "apres": "il ne peut plus sortir de là."},
+            {"avant": "depuis le premier jusqu’au dernier ou il y avait de l’huile, dont il remarqua que l’huile était notablement diminuée", "apres": "depuis le premier jusqu’au dernier, où il y avait de l’huile"},
+            {"avant": "et après avoir pris la chaudière la plus grande de la cuisine, j’allai l’emplir d’huile. Je la mis sur le feu, et quand elle fut bien bouillante, j’en allai verser dans chaque vase où étaient les voleurs, autant qu’il en fallut pour les empêcher tous d’exécuter le pernicieux dessein qui les avait amenés.", "apres": "et après avoir pris une grosse pelote de ficelle, j’allai fermer bien serré la bouche de chaque vase où étaient les voleurs, pour les empêcher tous d’exécuter le méchant projet qui les avait amenés."},
+            {"avant": "Ce que nous avons à faire, c’est d’enterrer incessamment les corps de cette peste du genre humain, avec un si grand secret, que personne ne puisse rien soupçonner de leur destinée ; et c’est à quoi je vais travailler avec Abdalla.", "apres": "Ce que nous avons à faire, c’est de livrer sans tarder cette peste du genre humain au juge, avec un si grand secret, que personne ne puisse rien soupçonner de leur destinée ; et c’est à quoi je vais travailler avec Abdalla."},
+            {"avant": "Le jardin d’Ali Baba était d’une grande longueur, terminé par de grands arbres. Sans différer, il alla sous ces arbres avec son esclave, creuser une fosse longue et large à proportion des corps qu’ils avaient à y enterrer. Le terrain était aisé à remuer, et ils ne mirent pas un long-temps à l’achever. Ils tirèrent les corps hors des vases, et ils mirent à part les armes dont les voleurs s’étaient munis. Ils transportèrent ces corps au bout du jardin, et ils les arrangèrent dans la fosse ; et après les avoir couverts de la terre qu’ils en avaient tirée, ils dispersèrent ce qui en restait aux environs, de manière que le terrain parut égal comme auparavant. Ali Baba fit cacher soigneusement les vases à l’huile et les armes ; et quant aux mulets, dont il n’avait pas besoin pour lors, il les envoya au marché à différentes fois, où il les fit vendre par son esclave.", "apres": "Sans différer, Ali Baba chargea les vases sur les mulets, avec les voleurs bien ficelés dedans, et il alla en secret avec son esclave les livrer au juge, qui les fit mettre en prison sans bruit. Ali Baba fit cacher soigneusement les armes des voleurs ; et quant aux mulets, dont il n’avait pas besoin pour lors, il les envoya au marché à différentes fois, où il les fit vendre par son esclave."},
+            {"avant": "pour vous voir périr tous à la fois par une destinée si fatale et si indigne de votre courage ? Je vous regretterais moins si vous étiez morts le sabre à la main en vaillants hommes.", "apres": "pour vous voir pris tous à la fois d’une manière si indigne de votre courage ? Je vous regretterais moins si vous aviez été pris le sabre à la main en vaillants hommes."},
+            {"avant": "était entièrement dissipée et exterminée depuis ce temps-là", "apres": "était entièrement dissipée depuis ce temps-là"}
+          ]
+        },
+        {
+          "jusqua": 6,
+          "retouches": [
+            {"avant": "pour les étouffer et leur ôter la vie, comme elle la leur ôta.", "apres": "pour leur ôter la vie, comme elle la leur ôta."},
+            {"avant": "il sent une odeur d’huile chaude et de brûlé, qui exhale du vase", "apres": "il sent une odeur d’huile chaude, qui exhale du vase"},
+            {"avant": "creuser une fosse longue et large à proportion des corps qu’ils avaient à y enterrer. Le terrain était aisé à remuer, et ils ne mirent pas un long-temps à l’achever. Ils tirèrent les corps hors des vases, et ils mirent à part les armes dont les voleurs s’étaient munis. Ils transportèrent ces corps au bout du jardin, et ils les arrangèrent dans la fosse ; et après les avoir couverts de la terre qu’ils en avaient tirée,", "apres": "enterrer les voleurs dans une grande fosse, après avoir mis à part leurs armes ; et après les avoir couverts de terre,"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "capitaine-poignarde",
+      "type": "punition",
+      "niveaux": [
+        {
+          "jusqua": 4,
+          "annonce": "Morgiane ne poignarde pas le capitaine : elle l’assomme d’un grand coup de tambour de basque, et on le mène en prison chez le juge.",
+          "retouches": [
+            {"avant": "lui enfonça le poignard au milieu du cœur, si avant qu’elle ne le retira qu’après lui avoir ôté la vie.", "apres": "lui abattit le tambour de basque sur la tête, de toute sa force, si bien qu’il tomba tout étourdi."},
+            {"avant": "à enterrer le corps du capitaine, auprès de ceux des quarante voleurs", "apres": "à mener le capitaine, bien ficelé, chez le juge, qui le mit en prison avec ses voleurs"},
+            {"avant": "après la mort des trente-huit voleurs, en y comprenant leur capitaine,", "apres": "après que les trente-huit voleurs, en y comprenant leur capitaine, eurent été mis en prison,"}
+          ]
+        },
+        {
+          "jusqua": 6,
+          "retouches": [
+            {"avant": "lui enfonça le poignard au milieu du cœur, si avant qu’elle ne le retira qu’après lui avoir ôté la vie.", "apres": "le frappa de son poignard, et lui ôta la vie."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "faire-boire",
+      "type": "alcool",
+      "niveaux": [
+        {
+          "jusqua": 4,
+          "retouches": [
+            {"avant": "faire enivrer le père et le fils", "apres": "faire boire le père et le fils jusqu’à ce qu’ils s’endorment"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "morgiane-mariee",
+      "type": "mal-vieilli",
+      "pourquoi": "Morgiane est donnée en mariage comme une récompense, sans qu’on lui demande son avis ; il suffit qu’Ali Baba le lui demande.",
+      "niveaux": [
+        {
+          "jusqua": 10,
+          "retouches": [
+            {"avant": "Ce temps est venu, et je te fais ma belle-fille.", "apres": "Ce temps est venu : si tu le veux bien, je te fais ma belle-fille."}
+          ]
+        }
+      ]
+    }
+  ]
+}

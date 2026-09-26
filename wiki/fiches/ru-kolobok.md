@@ -27,4 +27,4 @@ structure: randonnée
 4. La renarde le flatte : « Je suis sourde, viens chanter sur mon museau… sur ma langue. »
 5. Il saute, et la renarde le croque.
 
-**À adapter.** La fin peut rester (elle fait rire les enfants) ou tourner : le petit pain comprend la ruse au dernier moment et roule jusqu'à la maison. La chanson qui s'allonge est à chanter avec le public. Le petit pain en marionnette est une simple boule.
+**À jouer.** La fin fait rire les enfants. La chanson qui s'allonge est à chanter avec le public : à chaque rencontre, les enfants ajoutent la bête que le petit pain vient de quitter. Le petit pain en marionnette est une simple boule. Parent : « Le Corbeau et le Renard », où le renard flatte aussi pour manger.

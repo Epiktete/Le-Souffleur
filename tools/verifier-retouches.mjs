@@ -14,12 +14,15 @@
 //     ambigu ou à cheval ;
 //   - la grille : aucun niveau pour une menace, des coups ou une ruse, et aucun
 //     niveau au-dessus de l'âge limite du type, sauf raison écrite (`pourquoi`) ;
+//   - pour la langue, l'âge plafond de chaque nature : un mot disparu vaut
+//     toujours, un mot rare jusqu'à 6 ans au plus, une tournure parlée 4 ans ;
 //   - qu'aucun moment ni aucune retouche ne reste lettre morte : le conte est
 //     proposé au plus bas à max(3, âge minimum de la fiche − 3) ;
 //   - que la fiche du conte a passé sa section « À adapter » en « À jouer ».
 // Puis il affiche la part du texte retouchée à 3, 6 et 9 ans, langue et fond
 // séparés : un chiffre très au-dessus des autres contes veut presque toujours
-// dire qu'on en fait trop.
+// dire qu'on en fait trop. Au-dessus des plafonds provisoires de la langue, il
+// le signale d'un « ⚠ », sans compter d'erreur.
 //
 // Se termine en erreur s'il reste un problème.
 
@@ -30,6 +33,8 @@ import {
   AGE_MIN,
   appliquerRetouches,
   PLAFONDS,
+  PLAFONDS_LANGUE,
+  PLAFONDS_PROVISOIRES_LANGUE,
   validerFicheRetouches,
   versionsDistinctes,
 } from '../src/services/retouches.ts';
@@ -112,6 +117,13 @@ for (const fichier of fichiers) {
     }
   }
   fiche.langue.forEach((r) => {
+    const plafond = PLAFONDS_LANGUE[r.nature];
+    if (plafond === 'toujours' && r.jusqua !== undefined) {
+      signaler(id, `langue : « ${r.avant} » est un « ${r.nature} », qui vaut toujours : retirer « jusqua » ou choisir une autre nature`);
+    }
+    if (plafond !== 'toujours' && (r.jusqua === undefined || r.jusqua > plafond)) {
+      signaler(id, `langue : « ${r.avant} » est un « ${r.nature} », qui vaut jusqu'à ${plafond} ans au plus`);
+    }
     if (r.jusqua !== undefined && r.jusqua < plancher) {
       signaler(id, `langue : « ${r.avant} » n'est jamais appliqué, le conte n'est pas proposé sous ${plancher} ans`);
     }
@@ -132,9 +144,9 @@ for (const fichier of fichiers) {
   // La part retouchée, à trois âges.
   const mesures = [3, 6, 9].map((age) => {
     const r = appliquerRetouches(texte, fiche, age);
-    return r.ok
-      ? `${age} ans : langue ${pourcent(r.touches.langue, r.touches.total)}, fond ${pourcent(r.touches.fond, r.touches.total)}`
-      : `${age} ans : —`;
+    if (!r.ok) return `${age} ans : —`;
+    const alerte = r.touches.langue / Math.max(1, r.touches.total) > PLAFONDS_PROVISOIRES_LANGUE[age] ? ' ⚠' : '';
+    return `${age} ans : langue ${pourcent(r.touches.langue, r.touches.total)}${alerte}, fond ${pourcent(r.touches.fond, r.touches.total)}`;
   });
   parts.push(`${id.padEnd(40)} ${mesures.join(' | ')}`);
 

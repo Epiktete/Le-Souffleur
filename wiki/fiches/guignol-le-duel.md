@@ -25,4 +25,4 @@ structure: marché, combat, faux mort, quiproquo final
 4. Le soldat va chercher la garde ; Guignol se relève, l'assomme de son bâton et va boire un coup.
 5. Le bourgeois revient voir ce qui se passe : Guignol et le soldat, chacun croyant frapper l'autre, tapent sur lui. « L'honneur est satisfait ! »
 
-**À adapter.** Pour les grands (6-10 ans) : les épées deviennent des baguettes ou des chaussettes roulées, les coups des coussins. Supprimer la Morgue et la Saône. La querelle absurde (la place des cuirassiers à Wagram) peut devenir une dispute sur la couleur d'un chat. Le marchandage et le faux mort sont les grands moments.
+**À jouer.** Le marchandage et le faux mort sont les grands moments. Le récit de Wagram se dit très vite, d'une traite : c'est le débit qui fait rire ; pour un spectacle court, il peut s'abréger. « On ne passe pas ! » et « L'honneur est satisfait ! » reviennent comme des refrains que le public peut crier avec Guignol, et la chanson finale s'adresse à lui. Même faux mort qui se relève que dans « Le Lapin et le Wapiti » (Sioux).

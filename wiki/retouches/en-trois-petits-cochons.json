@@ -1,0 +1,45 @@
+{
+  "id": "en-trois-petits-cochons",
+  "langue": [
+    {"avant": "un fagot d'ajoncs", "apres": "un fagot de branches", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "donnez-moi ces ajoncs", "apres": "donnez-moi ces branches", "nature": "mot-rare", "jusqua": 6}
+  ],
+  "moments": [
+    {
+      "id": "deux-cochons-manges",
+      "type": "mort-gentil",
+      "niveaux": [
+        {
+          "jusqua": 4,
+          "annonce": "Les deux premiers petits cochons se sauvent de justesse quand le loup fait s'envoler leur maison, et les trois frères vivent heureux à la fin.",
+          "retouches": [
+            {"avant": "Et il souffla, et il souffla, et la maison s'envola, et il mangea le petit cochon.", "apres": "Et il souffla, et il souffla, et la maison s'envola ; mais le petit cochon se sauva de justesse, et le loup ne put pas l'attraper."},
+            {"avant": "et à la fin la maison s'envola, et il mangea le petit cochon.", "apres": "et à la fin la maison s'envola ; mais le petit cochon se sauva de justesse, et le loup ne put pas l'attraper."},
+            {"avant": "et vécut heureux pour toujours", "apres": "et les trois petits cochons vécurent heureux pour toujours"}
+          ]
+        },
+        {
+          "jusqua": 8,
+          "annonce": "Le loup mange les deux premiers petits cochons, mais quand il tombe dans la marmite, il les recrache, bien vivants.",
+          "retouches": [
+            {"avant": "et le loup tomba dedans.", "apres": "et le loup tomba dedans. L'eau était si chaude qu'il ouvrit grand la gueule pour hurler, et les deux premiers petits cochons en sautèrent, tout étourdis, mais bien vivants."},
+            {"avant": "et vécut heureux pour toujours", "apres": "et les trois petits cochons vécurent heureux pour toujours"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "loup-dans-la-marmite",
+      "type": "punition",
+      "niveaux": [
+        {
+          "jusqua": 4,
+          "annonce": "Le loup tombe dans la marmite d'eau chaude, en ressort d'un bond, la queue fumante, et s'enfuit pour ne jamais revenir.",
+          "retouches": [
+            {"avant": "Le petit cochon remit aussitôt le couvercle, fit bouillir le loup et le mangea au dîner,", "apres": "Il en ressortit d'un bond, la queue toute fumante, remonta par la cheminée en hurlant et s'enfuit si loin qu'on ne le revit jamais ;"}
+          ]
+        }
+      ]
+    }
+  ]
+}

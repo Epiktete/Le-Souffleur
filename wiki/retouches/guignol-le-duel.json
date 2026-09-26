@@ -1,0 +1,50 @@
+{
+  "id": "guignol-le-duel",
+  "langue": [
+    {"avant": "y a la distance des picaillons", "apres": "y a la distance des sous", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "de z’escalins comme vous", "apres": "des sous comme vous", "nature": "mot-disparu"},
+    {"avant": "si le destin voulait que je fusse tué", "apres": "si le destin voulait que je sois tué", "nature": "tournure"},
+    {"avant": "quand il a accepté mon cartel", "apres": "quand il a accepté mon défi", "nature": "faux-ami"},
+    {"avant": "Cependant il m’a semblé", "apres": "Mais il m’a semblé", "nature": "connecteur", "jusqua": 8},
+    {"avant": "dussé-je le chercher jusqu’au fond des enfers", "apres": "même si je dois le chercher jusqu’au fond des enfers", "nature": "tournure"}
+  ],
+  "moments": [
+    {
+      "id": "l-oncle-capitaine",
+      "type": "cruaute",
+      "niveaux": [
+        {
+          "jusqua": 6,
+          "retouches": [
+            {"avant": "cinquante-six blessures ; il avait reçu vingt-quatre coups de sabre sur la figure, & il avait le ventre cousu.", "apres": "cinquante-six blessures."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "la-fille-qui-louche",
+      "type": "mal-vieilli",
+      "niveaux": [
+        {
+          "jusqua": 10,
+          "retouches": [
+            {"avant": "votre demoiselle est charmante… elle a de z’ieux qui louchent…", "apres": "votre demoiselle est charmante…"},
+            {"avant": "Elle est fort belle. GUIGNOL. Quand y en a un qui regarde à Fourvières, l’autre regarde à Bellecour… ça n’est pas tout le monde qui peut faire ça. BERTRAND. Ce n’est rien… mon médecin m’a dit que ça passerait dans une dizaine d’années. GUIGNOL. Dix ans !… mais votre fille, qui a trente-quatre ans, en aura alors manquablement quarante-quatre. BERTRAND. Je songerai alors à l’établir. GUIGNOL. Pauvre vieux !… à quarante-quatre ans, on a son congé pour se marier. BERTRAND. Non, non, c’est un bel âge pour faire un mariage… de raison… & ce sont les meilleurs…", "apres": "Elle est fort belle…"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "les-cosaques",
+      "type": "mal-vieilli",
+      "niveaux": [
+        {
+          "jusqua": 10,
+          "retouches": [
+            {"avant": "que voulez-vous de plus ? Les Français sont pas des Cosaques.", "apres": "que voulez-vous de plus ?"}
+          ]
+        }
+      ]
+    }
+  ]
+}

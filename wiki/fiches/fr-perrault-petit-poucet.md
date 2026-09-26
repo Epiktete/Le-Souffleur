@@ -29,4 +29,4 @@ structure: abandon, retour, piège, ruse, fortune
 4. Ils s'enfuient ; l'ogre les poursuit avec ses bottes de sept lieues et s'endort, épuisé.
 5. Poucet lui prend les bottes, qui s'ajustent à son pied, et fait fortune comme messager.
 
-**À adapter.** Supprimer l'abandon volontaire (on se perd), et surtout la scène des filles de l'ogre : l'ogre, trompé dans le noir, enferme ses propres filles dans le placard à balais par erreur, et le lendemain tout le monde est furieux mais sain et sauf. Le Petit Poucet est un rôle parfait pour la plus petite marionnette. Parent : « Hansel et Gretel ».
+**À jouer.** Le Petit Poucet est un rôle parfait pour la plus petite marionnette. Le public peut crier « Nous voilà ! nous voilà ! » avec les frères derrière la porte, et attend l'Ogre qui « sent la chair fraîche ». Perrault donne deux fins, au choix : l'or de l'Ogre rapporté à la maison, ou le métier de messager du roi. Parent : « Hansel et Gretel ».

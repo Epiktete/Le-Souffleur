@@ -23,4 +23,4 @@ structure: flatterie et chute
 4. Le corbeau ouvre le bec pour chanter ; le fromage tombe.
 5. « Tout flatteur vit aux dépens de celui qui l'écoute : cette leçon vaut bien un fromage. »
 
-**À adapter.** Parfait tel quel. La plus célèbre des fables : on peut la jouer en vers de La Fontaine, ou en prose, ou lui donner une suite (le corbeau prend sa revanche). Le public peut chanter faux avec le corbeau.
+**À jouer.** La plus célèbre des fables, à jouer dans les vers de La Fontaine : beaucoup d'enfants l'apprennent à l'école et peuvent dire les vers avec les marionnettes. Le public peut chanter faux avec le corbeau. Parent : « Le Petit Pain rond », où la renarde flatte aussi pour manger.

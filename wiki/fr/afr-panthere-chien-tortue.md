@@ -16,7 +16,7 @@ Le chien promet de ne pas aboyer ; mais voici qu’un coup de vent secoue les br
 
 — Nous sommes perdus, dit-il en détalant.
 
-La tortue le sait bien ; elle fait tous ses efforts pour s’éloigner de l’arbre fatal. Hélas ! il est trop tard Les hommes du village accourent et s’en emparent.
+La tortue le sait bien ; elle fait tous ses efforts pour s’éloigner de l’arbre fatal. Hélas ! il est trop tard. Les hommes du village accourent et s’en emparent.
 
 — Voici donc notre voleur, dit le chef ; qu’on l’emmène au village ; demain on lui coupera la tête et on donnera sa viande aux femmes pour la faire cuire.
 
@@ -30,7 +30,7 @@ L’enfant, qui ne connaît pas la malice de la tortue, fait ce qu’elle demand
 
 À peine est-il sorti de la case que la tortue commence à ronger le panier et en quelques instants, elle a conquis sa liberté.
 
-Elle se sauve et le jour la surprend en pleine brousse, Depuis la veille, elle n’a ni bu ni mangé. Fatiguée, elle s’arrête au pied d’un palmier au haut duquel la panthère avait placé une gourde pour récolter du vin de palme.
+Elle se sauve et le jour la surprend en pleine brousse. Depuis la veille, elle n’a ni bu ni mangé. Fatiguée, elle s’arrête au pied d’un palmier au haut duquel la panthère avait placé une gourde pour récolter du vin de palme.
 
 La tortue roulait dans sa tête mille plans pour s’emparer de la précieuse gourde, mais tous étaient irréalisables.
 
@@ -60,7 +60,7 @@ Les petits de la panthère s’assoient sur le bord du chemin pour l’attendre.
 
 — Je viens de rencontrer votre mari qui allait assister à un grand palabre. Il m’a dit de lui apporter le chapeau et le beau pagne que les blancs de la côte lui ont envoyés. Il veut aussi un œil de chacune de vous pour faire son fétiche afin que le palabre lui soit favorable.
 
-Les femmes tremblantes lui donnent le chapeau et le pagne, mais se sauvent dans la brousse pour garder leurs deux jeux. C’est ce que voulait la rusée tortue qui met à profit leur absence pour s’emparer d’une grosse défense d’éléphant que la panthère comptait envoyer prochainement à la côte.
+Les femmes tremblantes lui donnent le chapeau et le pagne, mais se sauvent dans la brousse pour garder leurs deux yeux. C’est ce que voulait la rusée tortue qui met à profit leur absence pour s’emparer d’une grosse défense d’éléphant que la panthère comptait envoyer prochainement à la côte.
 
 La tortue, affublée du chapeau et du magnifique pagne de la panthère, part pour les factoreries de la côte avec ses femmes et ses petits portant la dent.
 

@@ -28,4 +28,4 @@ structure: humiliation, aide magique, deux bals, reconnaissance
 4. Au second bal, elle oublie l'heure, s'enfuit au douzième coup et perd une pantoufle de verre.
 5. On l'essaie à toutes les filles du royaume : elle ne va qu'à Cendrillon, qui sort l'autre de sa poche.
 
-**À adapter.** Les métamorphoses se font à vue (une citrouille qu'on retourne, des souris-marionnettes). Le mariage peut devenir une amitié, et les sœurs sont pardonnées comme chez Perrault. Les douze coups de minuit comptés avec le public font un grand moment. On peut jouer avec deux marionnettes qui changent de costume.
+**À jouer.** Les métamorphoses se font à vue (une citrouille qu'on retourne, des souris-marionnettes). Les douze coups de minuit comptés avec le public font un grand moment. On peut jouer avec deux marionnettes qui changent de costume.

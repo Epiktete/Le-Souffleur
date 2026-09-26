@@ -27,4 +27,4 @@ structure: abandon, piège, retournement, retour
 4. Hansel tend un os au lieu de son doigt ; la vieille, lassée, veut faire cuire Gretel dans le four.
 5. Gretel fait semblant de ne pas comprendre, la sorcière montre, Gretel referme. Un canard les ramène chez leur père.
 
-**À adapter.** L'abandon devient une vraie perte en forêt en ramassant du bois (aucun parent ne veut les perdre). La sorcière est « mise au four » sans brûler : elle y reste enfermée, ou s'échappe par la cheminée en fumée comique. Le « Grignoti, grignotons » et l'os tendu sont des jeux avec le public, qui aime crier « c'est un os ! ».
+**À jouer.** Le « Grignoti, grignotons » et l'os tendu sont des jeux avec le public, qui aime crier « c'est un os ! ». Parent : « Le Petit Poucet ».
