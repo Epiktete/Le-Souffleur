@@ -1,0 +1,52 @@
+{
+  "id": "fr-perrault-chaperon-rouge",
+  "langue": [
+    {"avant": "la plus éveillée qu’on eût su voir", "apres": "la plus éveillée qu’on ait jamais vue", "nature": "tournure"},
+    {"avant": "sa mère en était folle, et sa mère-grand plus folle encore", "apres": "sa mère l’aimait à la folie, et sa mère-grand plus encore", "nature": "faux-ami"},
+    {"avant": "bonne femme", "apres": "bonne vieille", "nature": "faux-ami", "partout": true},
+    {"avant": "qui lui seyait si bien", "apres": "qui lui allait si bien", "nature": "mot-disparu"},
+    {"avant": "je veux l’aller voir aussi : je m’y en vais par ce chemin-ci", "apres": "je veux aller la voir aussi : j’y vais par ce chemin-ci", "nature": "tournure"},
+    {"avant": "nous verrons à qui plus tôt y sera", "apres": "nous verrons qui y sera le premier", "nature": "tournure"},
+    {"avant": "il heurte : toc, toc", "apres": "il frappe : toc, toc", "nature": "mot-disparu"},
+    {"avant": "vint heurter à la porte", "apres": "vint frapper à la porte", "nature": "mot-disparu"},
+    {"avant": "à cause qu’elle se trouvait un peu mal", "apres": "parce qu’elle se trouvait un peu mal", "nature": "tournure"},
+    {"avant": "s’alla coucher dans le lit", "apres": "alla se coucher dans le lit", "nature": "tournure"},
+    {"avant": "sur la huche", "apres": "sur la table", "nature": "mot-disparu"}
+  ],
+  "moments": [
+    {
+      "id": "au-lit-avec-le-loup",
+      "type": "sexualite",
+      "niveaux": [
+        {
+          "jusqua": 10,
+          "retouches": [
+            {"avant": "et viens te coucher avec moi", "apres": "et viens près de moi"},
+            {"avant": "Le petit Chaperon rouge se déshabille, et va se mettre dans le lit, où elle fut bien étonnée de voir comment sa mère-grand était faite en son déshabillé", "apres": "Le petit Chaperon rouge s’approche du lit, et elle fut bien étonnée de voir comment sa mère-grand était faite dans sa chemise de nuit"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "le-loup-mange",
+      "type": "mort-gentil",
+      "niveaux": [
+        {
+          "jusqua": 4,
+          "annonce": "La mère-grand s’enferme dans l’armoire, et les bûcherons chassent le loup avant qu’il mange le Chaperon rouge.",
+          "retouches": [
+            {"avant": "Il se jeta sur la bonne femme, et la dévora en moins de rien, car il y avait plus de trois jours qu’il n’avait mangé.", "apres": "Il se jeta sur la bonne vieille ; mais elle fut plus prompte que lui : elle sauta du lit et courut s’enfermer dans l’armoire, et le Loup eut beau gratter à la porte de l’armoire, il ne put l’ouvrir."},
+            {"avant": "Et, en disant ces mots, ce méchant Loup se jeta sur le petit Chaperon rouge, et la mangea.", "apres": "Et, en disant ces mots, ce méchant Loup se jeta sur le petit Chaperon rouge ; mais elle sauta de côté, et cria si fort que les bûcherons l’entendirent de la forêt. Ils accoururent, et chassèrent le Loup à grands coups de bâton, si loin qu’on ne le revit jamais dans le bois. Alors la mère-grand sortit de son armoire, et elles mangèrent ensemble la galette et le petit pot de beurre."}
+          ]
+        },
+        {
+          "jusqua": 8,
+          "annonce": "Le loup mange la mère-grand et le Chaperon rouge, mais les bûcherons les lui font recracher, bien vivantes.",
+          "retouches": [
+            {"avant": "Et, en disant ces mots, ce méchant Loup se jeta sur le petit Chaperon rouge, et la mangea.", "apres": "Et, en disant ces mots, ce méchant Loup se jeta sur le petit Chaperon rouge, et la mangea. Puis, bien repu, il se recoucha et s’endormit. Les bûcherons, qui passaient devant la maison, l’entendirent ronfler si fort qu’ils entrèrent voir. Ils le prirent par les pattes de derrière et le secouèrent tant et tant qu’il recracha le petit Chaperon rouge et sa mère-grand, tout étourdies, mais bien vivantes. Puis ils chassèrent le Loup à grands coups de bâton, si loin qu’on ne le revit jamais dans le bois."}
+          ]
+        }
+      ]
+    }
+  ]
+}

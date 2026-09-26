@@ -17,15 +17,23 @@ marionnettes de la famille.
    son essence.
 4. Le parent choisit, et le script s'écrit à partir du conte choisi.
 
-## Les trois dossiers
+## Les quatre dossiers
 
 | Dossier | Contenu | Qui le lit |
 | --- | --- | --- |
 | `raw/` | Le texte original, dans sa langue, avec sa source et ses droits en en-tête | Nous, pour vérifier |
 | `fr/` | La version française intégrale, traduite par nous depuis l'original | Le modèle, pour adapter le conte retenu |
 | `fiches/` | La fiche synthétique : personnages, attributs, essence, trame | Le modèle et l'application, pour choisir |
+| `retouches/` | Ce qui change dans le texte de `fr/` selon l'âge du public : la langue ancienne et les moments de fond (peur, violence, mort) | L'application, qui l'applique au texte avant de le donner au modèle |
 
-Un conte porte le même identifiant dans les trois dossiers :
+Les fiches de `retouches/` se préparent en suivant le guide
+[`ADAPTATION.md`](ADAPTATION.md) : la grille par âge, les règles de langue et
+le format. On les vérifie avec :
+
+    node tools/verifier-retouches.mjs
+    node tools/verifier-retouches.mjs --rendre <id>    # chaque version du conte
+
+Un conte porte le même identifiant dans chaque dossier :
 `raw/de-musiciens-de-breme.md`, `fr/de-musiciens-de-breme.md`,
 `fiches/de-musiciens-de-breme.md`. Le préfixe dit l'origine (`de-`
 Allemagne, `afr-` Afrique, `zh-` Chine, `guignol-` Lyon…).
@@ -66,9 +74,15 @@ structure: randonnée
 ```
 
 Suivent trois paragraphes courts : **Essence** (une phrase : ce qu'il faut
-garder pour que ce soit encore ce conte), **Trame** (cinq points au plus) et
-**À adapter** (ce qui ne passe pas devant des enfants de 3 à 10 ans, ou pas
-sur un théâtre de salon, et comment le remplacer).
+garder pour que ce soit encore ce conte), **Trame** (cinq points au plus), et
+enfin l'un de ces deux-là :
+
+- **À jouer**, quand le conte a sa fiche de retouches : les idées de mise en
+  scène, ce que le public peut crier ou répéter, les conseils de durée. Le fond
+  ne s'y écrit plus, il dépend de l'âge et vit dans `retouches/`.
+- **À adapter**, l'ancienne forme, pour les contes qui n'ont pas encore leur
+  fiche de retouches : ce qui ne passe pas devant des enfants de 3 à 10 ans, ou
+  pas sur un théâtre de salon, et comment le remplacer.
 
 ### Les champs qui servent au choix
 

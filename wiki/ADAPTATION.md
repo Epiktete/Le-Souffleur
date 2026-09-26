@@ -50,10 +50,12 @@ limite, et aussi un moment de type `menace`, `coups` ou `ruse` qui aurait un
 niveau. Il reste possible de passer outre, mais la raison doit être écrite dans le
 champ `pourquoi` du moment.
 
-**Le niveau le plus bas.** Le choix des contes peut proposer un conte jusqu'à 3 ans
-sous l'âge minimum de sa fiche, quand il manque de candidats. Chaque moment doit
-donc avoir un niveau pour l'âge max(3, âge minimum − 3). Un conte `age: [7, 10]`
-dont on retire un moment doit l'avoir retiré jusqu'à 4 ans au moins.
+**Le niveau le plus bas vaut pour tous les âges au-dessous**, jusqu'à 3 ans. Le
+choix des contes peut proposer un conte jusqu'à 3 ans sous l'âge minimum de sa
+fiche, quand il manque de candidats. Le premier niveau d'un moment doit donc
+convenir au plus jeune public possible, max(3, âge minimum − 3) : pour un conte
+`age: [7, 10]`, c'est un enfant de 4 ans. Un moment dont aucun niveau n'atteint
+cet âge ne serait jamais appliqué, et le vérificateur le signale.
 
 **Hors scène** veut dire que la chose arrive derrière le castelet ou entre deux
 scènes, et qu'on la sait par une phrase : « Le loup avala la mère-grand d'une

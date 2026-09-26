@@ -2,11 +2,15 @@
 // vocabulaire des traits, des fonctions et des catégories, comptes de
 // personnages et de figurants, sections du corps.
 //
+// La dernière section est « À adapter » (ancienne forme : ce qu'on change pour
+// les enfants, sans âge) ou « À jouer » (mise en scène seulement : le fond
+// dépend alors de l'âge et vit dans wiki/retouches/<id>.json). Jamais les deux.
+//
 // Usage : node tools/verifier-fiches.mjs
 // Affiche chaque problème, puis un décompte des traits, genres, catégories et
 // nombres de personnages. Se termine en erreur s'il reste un problème.
 
-import { readdirSync, readFileSync } from 'node:fs';
+import { existsSync, readdirSync, readFileSync } from 'node:fs';
 
 const DOSSIER = 'wiki/fiches';
 
@@ -25,7 +29,7 @@ const CHAMPS = [
   'titre', 'culture', 'source', 'genre', 'age', 'personnages', 'figurants', 'lieux',
   'ressorts', 'structure',
 ];
-const SECTIONS = ['**Essence.**', '**Trame.**', '**À adapter.**'];
+const SECTIONS = ['**Essence.**', '**Trame.**'];
 
 let problemes = 0;
 const decompte = { traits: {}, genres: {}, categories: {}, personnages: {} };
@@ -82,6 +86,15 @@ for (const fichier of readdirSync(DOSSIER).filter((f) => f.endsWith('.md'))) {
   verifier(Number(champ('figurants')) === figurants, fichier,
     `figurants : ${champ('figurants')} annoncés, ${figurants} rôles de figurant`);
   for (const section of SECTIONS) verifier(corps.includes(section), fichier, `section ${section} absente`);
+  const aAdapter = corps.includes('**À adapter.**');
+  const aJouer = corps.includes('**À jouer.**');
+  verifier(aAdapter !== aJouer, fichier, aAdapter
+    ? 'sections « À adapter » et « À jouer » toutes deux présentes'
+    : 'section « À adapter » ou « À jouer » absente');
+  if (aJouer) {
+    verifier(existsSync(`wiki/retouches/${fichier.replace(/\.md$/, '.json')}`), fichier,
+      'section « À jouer » sans fiche de retouches dans wiki/retouches/');
+  }
 
   compter(decompte.genres, champ('genre'));
   compter(decompte.personnages, principaux);

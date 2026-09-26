@@ -10,9 +10,14 @@
 //   - wiki/fr/ : les textes français intégraux, CHARGÉS À LA DEMANDE. Ils pèsent
 //     un mégaoctet et demi ; seul celui du conte retenu est utile, et seulement
 //     au moment d'écrire.
+//   - wiki/retouches/ : ce qui change dans chaque texte selon l'âge du public
+//     (voir retouches.ts), chargé à la demande comme le texte lui-même.
 //
 // Le dossier wiki/raw/ (textes dans leur langue d'origine) ne sert qu'à nous,
 // pour vérifier une traduction : il n'est jamais empaqueté.
+
+import { corpsDuTexte } from './mots';
+import { lireFicheRetouches, type FicheRetouches } from './retouches';
 
 /** Un rôle du conte, tel que la fiche le décrit. */
 export interface RoleConte {
@@ -43,7 +48,7 @@ export interface Conte {
   lieux: string;
   ressorts: string;
   structure: string;
-  /** Essence, trame et « à adapter », tels qu'écrits dans la fiche. */
+  /** Essence, trame et « à adapter » ou « à jouer », tels qu'écrits dans la fiche. */
   corps: string;
 }
 
@@ -141,7 +146,13 @@ const TEXTES = import.meta.glob('../../wiki/fr/*.md', {
   import: 'default',
 }) as Record<string, () => Promise<string>>;
 
-const idDuChemin = (chemin: string) => chemin.replace(/^.*\/([^/]+)\.md$/, '$1');
+/** Les fiches de retouches selon l'âge, de même. */
+const RETOUCHES = import.meta.glob('../../wiki/retouches/*.json', {
+  query: '?raw',
+  import: 'default',
+}) as Record<string, () => Promise<string>>;
+
+const idDuChemin = (chemin: string) => chemin.replace(/^.*\/([^/]+)\.(md|json)$/, '$1');
 
 /** Tous les contes du répertoire, dans l'ordre des identifiants. */
 export const CONTES: Conte[] = Object.entries(FICHES)
@@ -164,8 +175,18 @@ export function conteParId(id: string): Conte | undefined {
 export async function texteDuConte(id: string): Promise<string> {
   const chemin = Object.keys(TEXTES).find((c) => idDuChemin(c) === id);
   if (!chemin) return '';
-  const brut = (await TEXTES[chemin]()).replace(/\r\n/g, '\n');
-  return brut.replace(/^# .*\n+\*[^\n]*\*\n+/, '').trim();
+  return corpsDuTexte(await TEXTES[chemin]());
+}
+
+/**
+ * La fiche de retouches d'un conte, ou null s'il n'en a pas encore (ou si elle
+ * est illisible : tools/verifier-retouches.mjs dit pourquoi). Le conte garde
+ * alors l'ancien comportement.
+ */
+export async function retouchesDuConte(id: string): Promise<FicheRetouches | null> {
+  const chemin = Object.keys(RETOUCHES).find((c) => idDuChemin(c) === id);
+  if (!chemin) return null;
+  return lireFicheRetouches(await RETOUCHES[chemin]());
 }
 
 /** « D'après … » : la ligne qui cite le conte original, pour le parent. */
