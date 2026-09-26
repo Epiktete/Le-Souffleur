@@ -158,12 +158,23 @@
   .distribution { display: flex; gap: 3px; flex-wrap: wrap; }
   .statut { margin-top: 2px; }
 
+  /* Trois boutons dans une colonne de 280 px : on les resserre, et s'ils ne
+     tiennent toujours pas, ils passent à la ligne plutôt que de déborder de la
+     carte (ce qui faisait défiler toute la colonne de côté). */
   .actions {
     display: flex;
+    flex-wrap: wrap;
     gap: 6px;
     padding: 0 10px 10px;
   }
-  .actions button { flex: 1; font-size: 10px; min-height: 36px; }
+  .actions button {
+    flex: 1 1 auto;
+    min-width: 0;
+    font-size: 10px;
+    min-height: 36px;
+    padding: 6px 8px;
+    letter-spacing: 0.08em;
+  }
 
   .renommage { display: flex; gap: 6px; padding: 10px; }
   .renommage input { flex: 1; font-size: 14px; }

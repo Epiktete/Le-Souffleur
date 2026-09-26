@@ -361,8 +361,9 @@ test('l’écrivain anime la boîte de progression pendant que le modèle travai
   await expect(page.getByRole('status', { name: 'Génération en cours' }))
     .toContainText('Consulte la contothèque');
 
+  // Pendant la recherche des contes, c'est le lecteur au grimoire.
   // Empaquetée avec l'application : aucun appel extérieur (CDC §12).
-  await expect(plume).toHaveAttribute('src', /Ecriture-.*\.webp$/);
+  await expect(plume).toHaveAttribute('src', /ConsultationGrimoire-.*\.webp$/);
   // Décorative : muette pour les lecteurs d'écran.
   await expect(plume).toHaveAttribute('alt', '');
 
@@ -619,4 +620,15 @@ test('« Réessayer » après une erreur d’écriture relance l’écriture de 
   // L'écriture reprend directement : pas de nouvel écran de choix.
   await expect(page.getByRole('status', { name: 'Génération en cours' })).toContainText('Adaptation du conte');
   await expect(page.getByText('Votre spectacle est prêt')).toBeVisible({ timeout: 25000 });
+});
+
+test('le grimoire pendant la recherche des contes, l’écrivain pendant l’écriture', async ({ page }) => {
+  await installerFauxModele(page, { delaiMs: 1500 });
+  await preparerStudio(page);
+  await page.getByRole('button', { name: 'Générer le script' }).click();
+  await expect(page.locator('.plume')).toHaveAttribute('src', /ConsultationGrimoire-.*\.webp$/);
+
+  await expect(page.getByText('Choisissez une histoire')).toBeVisible({ timeout: 15000 });
+  await page.getByRole('button', { name: 'Choisir cette histoire' }).first().click();
+  await expect(page.locator('.plume')).toHaveAttribute('src', /Ecriture-.*\.webp$/);
 });

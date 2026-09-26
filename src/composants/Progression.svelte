@@ -9,6 +9,9 @@
   import type { NomEtape } from '../services/pipeline';
   // L'écrivain à la plume : il dit, sans un mot, que le modèle est à l'ouvrage.
   import ecriture from '../../assets/Ecriture.webp';
+  // Le lecteur penché sur son grimoire : pendant « Consulte la contothèque »,
+  // on cherche des contes, on n'écrit pas encore.
+  import grimoire from '../../assets/ConsultationGrimoire.webp';
 
   /**
    * Les étapes affichées.
@@ -156,7 +159,7 @@
     Purement décorative : ce qui se passe est dit par la liste des étapes, que
     les lecteurs d'écran annoncent déjà.
   -->
-  <img class="plume" src={ecriture} alt="" />
+  <img class="plume" src={generation.phase === 'propositions' ? grimoire : ecriture} alt="" />
 </div>
 
 <style>
