@@ -1,0 +1,59 @@
+{"titre":"Le Duel","pitch":"Un voisin trop peureux pour se battre paie Doudou Lapin pour se battre à sa place, et c'est finalement lui qui reçoit tous les coups.","changements":["Le gendarme n'a pas de marionnette : il disparaît, et Ourse Gourmande part seule chercher du secours puis revient bredouille, sans lui.","Le conte se joue entièrement sur une seule place publique, sans vrai changement de lieu : les deux tableaux distinguent seulement deux coins de cette même place (le seuil de la maison, puis la place dégagée pour le duel) plutôt que d'inventer quatre décors différents.","Le long marchandage sur les chiffres et les digressions (l'agent de change, l'argenterie, la fille de Renard) est resserré : on garde l'idée d'un prix qui grimpe par surenchère, sans suivre le détail de chaque plaisanterie.","Une peluche ne pouvant tenir une épée avec précision, le duel se joue en gestes mimés (approche, recul, chute) plutôt qu'avec une arme réellement tenue ; le mot « baguette » ne reste que dans les répliques.","Comme il n'y a que deux mains pour trois marionnettes, la scène finale où Doudou Lapin et Ourse Gourmande frappent chacun Renard Rusé par erreur est jouée en deux temps l'un après l'autre, au lieu d'être simultanée : Doudou Lapin frappe et sort, puis Ourse Gourmande entre et frappe à son tour."],
+"tableaux":[
+{"id":"t1","titre":"Devant la maison de Doudou Lapin","description":"Tendre un drap uni pour figurer le mur de la maison, avec une chaise ou un tabouret devant pour marquer le seuil de la porte. Garder les trois marionnettes à portée de main, cachées derrière le castelet.","accessoires":[]},
+{"id":"t2","titre":"La place, plus loin","description":"Le même castelet, mais sans la chaise : la place est dégagée pour le duel. On peut poser un coussin au sol, pour marquer l'endroit où une marionnette tombera.","accessoires":[]}
+],
+"actes":[
+{"numero":1,"titre":"Renard Rusé a peur","tableauId":"t1",
+"resume":"Renard Rusé doit se battre en duel à midi et il est terrifié ; il décide d'aller demander à son voisin Doudou Lapin de se battre à sa place.",
+"passage":"De « IL est bientôt neuf heures » à « Voyons s’il est chez lui. »",
+"temps":["Renard Rusé, seul, raconte qu'il doit se battre en duel à midi et qu'il en tremble de peur.","Il explique qu'il ne peut pas risquer sa vie et qu'il lui faut une idée.","Il se souvient de son voisin Doudou Lapin, sans le sou, et décide de lui demander un service.","Il frappe à sa porte."],
+"mouvements":[{"type":"entree","marionnette":"Renard Rusé","main":"M1G"}],
+"momentsPublic":[],
+"budgetMots":300},
+
+{"numero":2,"titre":"Le marchandage","tableauId":"t1",
+"resume":"Doudou Lapin comprend ce que Renard Rusé lui demande et fait monter le prix, de plus en plus haut, jusqu'à ce que Renard Rusé accepte ; ils partent chercher l'argent.",
+"passage":"De « Qui est-ce qui cogne ? » à « il me gargouille dans l’estomac. »",
+"temps":["Doudou Lapin descend et Renard Rusé lui avoue qu'il a un duel sur les bras.","Doudou Lapin comprend qu'on lui demande de se battre à sa place et refuse d'abord, par prudence.","Renard Rusé propose de l'argent ; Doudou Lapin fait monter le prix, chiffre après chiffre, jusqu'à un montant énorme.","Renard Rusé accepte tout ; ils partent ensemble chercher l'argent et de quoi boire un coup avant l'affaire."],
+"mouvements":[{"type":"entree","marionnette":"Doudou Lapin","main":"M1D"},{"type":"sortie","marionnette":"Renard Rusé","main":"M1G"},{"type":"sortie","marionnette":"Doudou Lapin","main":"M1D"}],
+"momentsPublic":["Les enfants peuvent crier le prix avec Doudou Lapin, de plus en plus fort, comme dans une enchère qui monte."],
+"budgetMots":650},
+
+{"numero":3,"titre":"La rencontre et le faux mort","tableauId":"t2",
+"resume":"Ourse Gourmande cherche l'adresse de Renard Rusé ; Doudou Lapin lui barre le chemin, l'insulte, et ils finissent par se battre. Doudou Lapin tombe, faisant semblant d'être assommé.",
+"passage":"De « Enfin, je crois que je parviendrai à trouver le logis de mon homme » à « elle m’a crevé le bedon ! »",
+"temps":["Ourse Gourmande cherche son chemin sur la place, pressée d'en finir avec son duel.","Doudou Lapin lui barre la route et se moque d'elle ; ils échangent des insultes de plus en plus vives.","Piqués au vif, ils décident de se battre tout de suite, sur place.","Après un bref combat mimé, Doudou Lapin tombe et fait le mort."],
+"mouvements":[{"type":"entree","marionnette":"Ourse Gourmande","main":"M1G"},{"type":"entree","marionnette":"Doudou Lapin","main":"M1D"},{"type":"sortie","marionnette":"Ourse Gourmande","main":"M1G"}],
+"momentsPublic":[],
+"budgetMots":600},
+
+{"numero":4,"titre":"Le réveil et la vengeance manquée","tableauId":"t2",
+"resume":"Ourse Gourmande revient sans avoir trouvé de secours ; Doudou Lapin, bien vivant, la surprend et l'assomme à son tour avant de partir boire un coup. Restée seule, Ourse Gourmande jure de se venger.",
+"passage":"De « Ah ! grand bête ! elle croyait donc que je me laisserais mettre en perce » à « jusqu’au fond des enfers ! »",
+"temps":["Doudou Lapin se relève dès qu'il est seul, bien vivant, content de son tour.","Ourse Gourmande revient sans avoir trouvé personne pour l'aider.","Doudou Lapin la surprend et lui donne un bon coup, puis s'en va tranquillement boire un verre.","Restée seule, sonnée, Ourse Gourmande comprend qu'on s'est joué d'elle et jure de se venger."],
+"mouvements":[{"type":"entree","marionnette":"Ourse Gourmande","main":"M1G"},{"type":"sortie","marionnette":"Doudou Lapin","main":"M1D"},{"type":"sortie","marionnette":"Ourse Gourmande","main":"M1G"}],
+"momentsPublic":["Les enfants peuvent prévenir Doudou Lapin à voix haute qu'Ourse Gourmande va bientôt revenir, pour qu'il se dépêche de se remettre en place."],
+"budgetMots":450},
+
+{"numero":5,"titre":"Renard Rusé pris pour un autre","tableauId":"t2",
+"resume":"Renard Rusé revient voir où en est son affaire ; dans la confusion, Doudou Lapin le prend pour Ourse Gourmande et lui donne un coup avant de comprendre son erreur.",
+"passage":"De « Je suis dans une inquiétude mortelle » à « Tiens ! tiens ! »",
+"temps":["Renard Rusé revient sur la place, rongé d'inquiétude, se demandant ce qui a bien pu se passer.","Doudou Lapin arrive en sens inverse et, dans la confusion, croit reconnaître Ourse Gourmande.","Il lui donne un bon coup en criant qu'elle n'est toujours pas morte.","Renard Rusé crie qu'on l'a tué ; Doudou Lapin comprend sa méprise et part prévenir Ourse Gourmande."],
+"mouvements":[{"type":"entree","marionnette":"Renard Rusé","main":"M1G"},{"type":"entree","marionnette":"Doudou Lapin","main":"M1D"},{"type":"sortie","marionnette":"Doudou Lapin","main":"M1D"}],
+"momentsPublic":[],
+"budgetMots":350},
+
+{"numero":6,"titre":"L'honneur est satisfait","tableauId":"t2",
+"resume":"Ourse Gourmande arrive à son tour et frappe Renard Rusé en le prenant pour Doudou Lapin ; les trois comprennent enfin le quiproquo, décident que l'honneur est satisfait et partent fêter ça ensemble.",
+"passage":"De « Ah ! scélérat, je t’apprendrai si je ne suis pas forte au bâton » à « fin du duel. »",
+"temps":["Ourse Gourmande arrive et, croyant elle aussi reconnaître Doudou Lapin, frappe Renard Rusé à son tour.","Renard Rusé, deux fois assommé, proteste qu'on ne tenait pas ce qui était promis.","Ourse Gourmande repart, rassurée, pendant que Doudou Lapin revient expliquer toute l'affaire à Renard Rusé.","Tous conviennent que l'honneur est satisfait, se réconcilient, décident d'aller fêter ça ensemble, et Doudou Lapin lance un dernier mot joyeux au public."],
+"mouvements":[{"type":"entree","marionnette":"Ourse Gourmande","main":"M1D"},{"type":"sortie","marionnette":"Ourse Gourmande","main":"M1D"},{"type":"entree","marionnette":"Doudou Lapin","main":"M1D"}],
+"momentsPublic":["À la toute fin, les enfants peuvent reprendre en chœur, avec les marionnettes, le petit refrain qui dit que tout le monde est content."],
+"budgetMots":650}
+],
+"voix":[
+{"marionnette":"Doudou Lapin","voix":"débit rapide et malin, marchande comme à la criée, se frotte les pattes en annonçant chaque nouveau prix"},
+{"marionnette":"Renard Rusé","voix":"voix posée et un peu pompeuse, qui se met à trembler et à monter dans les aigus dès qu'il a peur"},
+{"marionnette":"Ourse Gourmande","voix":"voix forte et directe, qui gueule d'un coup et éclate de rire juste après"}
+]}

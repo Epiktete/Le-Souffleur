@@ -1,0 +1,996 @@
+Marionnettes du parent :
+- Doudou Lapin
+  Traits : inquiet, serviable
+  Apparence : Un lapin en tissu beige, une oreille recousue et qui retombe.
+- Renard Rusé
+  Traits : malin, vaniteux
+  Apparence : Un renard roux au museau pointu, la queue un peu pelée.
+- Ourse Gourmande
+  Traits : gourmande, franche
+  Apparence : Une grosse ourse en peluche marron, très douce, assez lourde.
+
+Réglages du spectacle :
+- durée visée : 30 minutes, soit environ 3000 mots dits
+- âge du public : 7 ans
+- marionnettistes : 1, donc 2 mains
+- interaction avec le public : quelques moments, bien choisis
+
+LE CONTE, TRANSPOSÉ POUR LES MARIONNETTES DU PARENT : Le Duel — Lyon (France), J.-B. Onofrio, Théâtre lyonnais de Guignol, 1865-1870
+C’est le texte de référence : les répliques y sont prises mot pour mot.
+
+Fiche du conte :
+**Essence.** Un vieux bourgeois peureux qui doit se battre en duel paie son voisin Guignol pour y aller à sa place ; Guignol fait le mort, puis la situation tourne si bien que c'est le bourgeois qui reçoit tous les coups — et l'honneur est satisfait.
+
+**Trame.**
+1. Le père Bertrand s'est fâché avec un vieux soldat vantard sur la bataille de Wagram : duel à midi.
+2. Il propose à Guignol, son voisin sans le sou, de prendre sa place ; Guignol fait monter le prix.
+3. Guignol barre la route au vieux soldat, l'insulte, se fait provoquer lui-même, se bat et fait le mort.
+4. Le soldat va chercher la garde ; Guignol se relève, l'assomme de son bâton et va boire un coup.
+5. Le bourgeois revient voir ce qui se passe : Guignol et le soldat, chacun croyant frapper l'autre, tapent sur lui. « L'honneur est satisfait ! »
+
+**À adapter.** Pour les grands (6-10 ans) : les épées deviennent des baguettes ou des chaussettes roulées, les coups des coussins. Supprimer la Morgue et la Saône. La querelle absurde (la place des cuirassiers à Wagram) peut devenir une dispute sur la couleur d'un chat. Le marchandage et le faux mort sont les grands moments.
+Retouches déjà faites à la transposition :
+- Ourse Gourmande, qui joue le rôle du vieux soldat La Ramée, devient un personnage féminin : pronoms, accords et adresses familières (« papa » devient « la mère », « vieux » devient « vieille », etc.) ont été changés en conséquence dans tout le texte.
+- L’insulte « vieil ours blanc », lancée à La Ramée, a été remplacée par « vieille rosse », car Ourse Gourmande est une véritable ourse.
+- La moquerie sur les yeux qui louchent de la demoiselle a été retirée et remplacée par une plaisanterie sur son indécision.
+- Les mentions de la Morgue et du transport du corps en Saône ont été supprimées, comme l’indique la fiche du conte pour ce public.
+- Le décompte macabre (« c’est le quatrième de cette année ») laissant entendre que le vieux soldat a déjà tué plusieurs adversaires a été retiré.
+- Les blessures très graphiques de l’oncle capitaine (coups de sabre sur le visage, ventre cousu) ont été adoucies en une évocation plus légère.
+
+TEXTE TRANSPOSÉ (environ 3561 mots) :
+"""
+LE DUEL
+
+pièce en un acte
+
+PERSONNAGES
+
+Le RENARD RUSÉ, rentier,
+
+DOUDOU LAPIN, canut,
+
+OURSE GOURMANDE, ancienne militaire,
+
+UN GENDARME.
+
+LE DUEL
+
+PIÈCE EN UN ACTE
+
+Une Place publique, à Lyon.
+
+Scène PREMIÈRE.
+
+RENARD, seul.
+
+IL est bientôt neuf heures & j’ai un rendez-vous d’honneur à midi !… Il faut que je me batte… à mon âge !… & avec une ancienne traîneuse de sabre encore !… Il me semble que la matinée n’a duré qu’une minute aujourd’hui… J’ai la fièvre… & dire qu’il y a des gens qui se font tuer tous les huit jours !… je ne comprends pas comment ils peuvent vivre… Décidément je ne puis pas aller sur le terrain… J’ai une fille ; j’ai gagné ma fortune en travaillant, je ne puis pas la jouer sur un coup d’épée… D’autre part, si je ne me bats pas, cette terreur viendra faire ici un esclandre, & les commères du Gourguillon m’accableront de leurs moqueries… Il m’est bien venu une idée… J’ai là pour voisin un pauvre diable qui n’a ni sou ni maille ; il sera peut-être bien aise de gagner quelque argent… si je lui proposais de prendre ma place ?… C’est un homme sans famille & sans position… Il ne doit pas lui coûter beaucoup d’exposer sa vie, & je m’en tirerai peut-être à bon compte… C’est cela ! L’heure approche… Voyons s’il est chez lui. (Il frappe.)
+
+Scène II.
+
+RENARD, DOUDOU LAPIN.
+
+DOUDOU LAPIN à sa fenêtre.
+
+Qui est-ce qui cogne ?
+
+RENARD.
+
+(À part) Il y est ! quel bonheur ! (Haut.) Bonjour, Monsieur Lapin ; je voudrais bien vous parler.
+
+DOUDOU LAPIN.
+
+Hé bien ! parlez, ne vous gênez pas ; j’ai le temps. J’attends mon agent de change, mais il n’est pas encore venu.
+
+RENARD.
+
+Ce que j’ai à vous dire est tout à fait secret. Voulez-vous me faire le plaisir de descendre ?
+
+DOUDOU LAPIN.
+
+Vous voulez que je dégringole ? Me v’là ! Rien que le temps de couvrir ma pièce.
+
+RENARD.
+
+(À part.) Voilà l’homme qu’il me faut ! (À Doudou Lapin, qui est descendu.) Vraiment, Monsieur Lapin, depuis le temps que nous habitons porte à porte, je ne comprends pas que vous ne soyez pas venu me voir.
+
+DOUDOU LAPIN.
+
+Ma foi ! M’sieu, j’ai pas osé ; la distance est trop grande.
+
+RENARD.
+
+Pas du tout ; il n’y a que la rue à traverser.
+
+DOUDOU LAPIN.
+
+C’est vrai, mais y a la distance des picaillons.
+
+RENARD.
+
+Oh ! cela ne fait rien entre voisins ; vous pouviez bien venir me faire payer une bouteille de vin.
+
+DOUDOU LAPIN.
+
+(À part.) Il est bien en générosité, aujourd’hui, le vieux grigou ! (Haut.) Si c’est pour ça, tant que vous voudrez… de suite, si ça vous va.
+
+RENARD.
+
+Tout à l’heure !… C’est maintenant un service que je voudrais vous demander.
+
+DOUDOU LAPIN.
+
+Un service ? une cuillère & une fourchette ?.. Je vais vous chercher ça tout de suite.
+
+RENARD.
+
+Non, non ; il ne manque pas de cuillères & de fourchettes chez moi.
+
+DOUDOU LAPIN.
+
+Oh ! on les donne quelquefois à retamer.
+
+RENARD.
+
+L’argenterie ne se rétame pas.
+
+DOUDOU LAPIN.
+
+Si, si ; on la retame… au Mont-de-Piété.
+
+RENARD.
+
+Il ne s’agit pas de cela… c’est autre chose & quelque chose de pressé que j’ai à vous communiquer. Écoutez-moi, je commence de suite.
+
+DOUDOU LAPIN.
+
+(À part.) Nous en avons pour un moment. (Haut.) Allons, je vous écoute.
+
+RENARD.
+
+Voici de quoi il s’agit… J’ai aujourd’hui même une affaire de duel.
+
+DOUDOU LAPIN.
+
+Des duelles de tonneau ?
+
+RENARD.
+
+Non, un duel au sabre, à l’épée ou au pistolet.
+
+DOUDOU LAPIN.
+
+Je comprends… avec le machin qui coupe, avec c’li qui pique ou avec c’li-là qui pette.
+
+RENARD.
+
+Je vous avoue que ça m’embarrasse un peu.
+
+DOUDOU LAPIN.
+
+Ça m’embarrasserait ben aussi… Mais je vous vois venir… vous voulez que je soye votre second.
+
+RENARD.
+
+Non ; je vous estime plus que cela… Pas mon second… mon premier.
+
+DOUDOU LAPIN.
+
+J’aimerais assez être votre second… parce que je sais qu’après un duel y a toujours un morceau à fricoter pour les seconds.
+
+RENARD.
+
+Vous voulez rire ; mais vous devez comprendre que dans ma position je ne peux pas aller me battre.
+
+DOUDOU LAPIN.
+
+Quand on a de z’escalins comme vous, c’est dur d’exposer sa peau.
+
+RENARD.
+
+Je suis père de famille, j’ai une fille charmante qui fait mon bonheur, & si le destin voulait que je fusse tué, elle en mourrait de chagrin.
+
+DOUDOU LAPIN.
+
+C’est vrai, votre demoiselle est charmante… elle a de ces manières…
+
+RENARD.
+
+Elle est fort belle.
+
+DOUDOU LAPIN.
+
+Quand elle s’est décidée pour une chose, elle en a changé avant le soir… ça n’est pas tout le monde qui peut faire ça.
+
+RENARD.
+
+Ce n’est rien… mon médecin m’a dit que ça passerait dans une dizaine d’années.
+
+DOUDOU LAPIN.
+
+Dix ans !… mais votre fille, qui a trente-quatre ans, en aura alors manquablement quarante-quatre.
+
+RENARD.
+
+Je songerai alors à l’établir.
+
+DOUDOU LAPIN.
+
+Pauvre vieux !… à quarante-quatre ans, on a son congé pour se marier.
+
+RENARD.
+
+Non, non, c’est un bel âge pour faire un mariage… de raison… & ce sont les meilleurs… Mais il ne s’agit pas de cela aujourd’hui… j’ai besoin de votre appui.
+
+DOUDOU LAPIN.
+
+Faut vous appuyer ?… par dernier ?
+
+RENARD.
+
+Non, non.
+
+DOUDOU LAPIN.
+
+Alors, c’est par devant ?
+
+RENARD.
+
+Vous m’interrompez toujours. Laissez-moi donc vous expliquer mon affaire.
+
+DOUDOU LAPIN.
+
+Allons, continuez. (À part.) Je suis sûr qu’il ne finira pas avant dîner.
+
+RENARD.
+
+L’autre jour…
+
+DOUDOU LAPIN.
+
+Qu’il faisait nuit.
+
+RENARD.
+
+Bavard sempiternel, laissez-moi donc parler.
+
+DOUDOU LAPIN.
+
+Allons, je clos mon bec.
+
+RENARD.
+
+L’autre jour… j’étais sur un des bancs de la place Impériale… Vous savez que j’y vais de temps en temps prendre le frais… je cause avec des amis… Il y en a qui lisent le journal, qui me racontent ce qu’il y a de nouveau… c’est fort agréable, l’été…
+
+DOUDOU LAPIN.
+
+Et puis ça ne coûte rien, je sais… L’hiver, vous allez à la police correptionnelle… qui est un moyen de se chauffer à bon marché.
+
+RENARD.
+
+Ce jour-là j’étais avec une ancienne militaire, une ancienne hussarde… qui me racontait la bataille de Wagram… avec sa canne… sur le sable… je la sais par cœur, sa bataille de Wagram… elle me l’a déjà racontée au moins quarante fois. Hé bien, ça me fait toujours plaisir… Vous savez que j’ai été sergent dans la garde nationale… & que j’ai toujours aimé les vieilles culottes de peau…
+
+DOUDOU LAPIN.
+
+Je crois bien, c’était votre état… Un ancien tanneur !… Hé ben ! c’est comme moi, j’aime les vieux militaires : j’ai eu un oncle capitaine, qui s’était retiré avec trente-sept ans de services ; il en avait vu de toutes les couleurs, & il n’avait jamais eu peur de rien.
+
+RENARD.
+
+Nous en étions au moment le plus intéressant de la bataille… (Avec emphase.) celui où les soixante bouches à feu de la Garde arrivent en faisant trembler la terre, suivies de quarante autres. — Elle me dit alors : Les hussards s’élancent… Elle se trompait… Je lui dis : Mais la mère Ourse, ce n’est pas les hussards qui s’élancent, c’est les cuirassiers… vous me l’avez dit hier. — Comment ! les cuirassiers, s’écrie-t-elle ; mais (très-vite) puisqu’il s’agissait de reprendre les hauteurs de Baumersdorf & de Neusiedel, comment les cuirassiers, qui étaient à l’aile droite, auraient-ils pu passer le Russbach & se porter sur le centre des Autrichiens qui s’étaient placés sur ces hauteurs, pour nous disputer la victoire ? Me comprenez-vous ? — Certainement, que je le comprenais.
+
+DOUDOU LAPIN.
+
+Et ben ! vous avez une fière comprenette.
+
+RENARD, toujours très-vite.
+
+Oui, lui réponds-je ; mais qu’est-ce que ça fait pour les cuirassiers ?… puisque le centre étant au milieu, il importe peu que l’aile droite ou l’aile gauche… — Elle s’emporte alors.
+
+DOUDOU LAPIN.
+
+Elle s’emporte toute seule !
+
+RENARD.
+
+Taisez-vous donc, mauvais plaisant !… Elle se fâche… Vous me prenez pour une hâbleuse, dit-elle. Vous y étiez, peut-être, à la bataille de Wagram ? & moi je n’y étais pas ?… Prétendez-vous m’apprendre mon métier, mauvais pékin ? — À ce mot de pékin, la moutarde me monte au nez ; je lui riposte un peu vertement… Elle m’appelle « ganache ! »
+
+DOUDOU LAPIN, à part.
+
+Pas si bête !
+
+RENARD.
+
+Je l’appelle « vieille entêtée ! » Elle me donne un soufflet…
+
+DOUDOU LAPIN.
+
+Que vous avez gardé… pour l’hiver ?
+
+RENARD.
+
+Non, non ; je le lui ai rendu… J’ai été moi-même étonné de ma vivacité. Mais, que voulez-vous ? une fois lancé… Elle m’a dit : Mossieu, vous m’avez manqué.
+
+DOUDOU LAPIN.
+
+Vous ne l’aviez donc pas touchée ?
+
+RENARD.
+
+Si bien ; mais c’est précisément parce que je l’avais touchée qu’elle m’a dit : Vous m’avez manqué.
+
+DOUDOU LAPIN.
+
+Il fallait recommencer & elle n’aurait pas pu parler comme ça.
+
+RENARD.
+
+Elle devint furieuse & me dit que de telles insultes voulaient être lavées dans le sang ; qu’une vieille militaire ne terminait pas autrement ses querelles. Je lui réponds que je suis aussi raffiné qu’elle sur le point d’honneur… J’accepte le rendez-vous, & c’est aujourd’hui à midi que nous devons nous battre.
+
+DOUDOU LAPIN.
+
+Eh bien ! que voulez-vous de moi ?
+
+RENARD.
+
+Que vous preniez ma place.
+
+DOUDOU LAPIN.
+
+Que je prenne votre place !.. Vous voulez rire, papa. Je tiens bien autant à ma peau que vous.
+
+RENARD.
+
+Ah ! ça ne risque rien.
+
+DOUDOU LAPIN.
+
+Eh ben ! si ça ne risque rien, pourquoi y allez-vous pas ? Si vous croyez que je vais me faire percer la bedaine pour vos beaux yeux !
+
+RENARD.
+
+Mon ami, je sais bien que ce n’est pas ici une question de sentiment & qu’il vous faut du positif. J’entends vous payer généreusement.
+
+DOUDOU LAPIN.
+
+Combien donnerez-vous donc ?
+
+RENARD.
+
+Je vous donnerai cent cinquante francs.
+
+DOUDOU LAPIN.
+
+Allons donc, vieille lanterne !
+
+RENARD.
+
+Comment ! vous m’appelez vieille lanterne ; qu’entendez-vous par là ?
+
+DOUDOU LAPIN.
+
+J’entends que vous voulez vous ficher du monde… Cent cinquante francs pour aller m’aligner à votre place avec cette vieille rosse !
+
+RENARD.
+
+Voyons ; combien voulez-vous donc ?
+
+DOUDOU LAPIN.
+
+Ma foi, attendez !… c’est un calcul à faire… À trois ans, ma mère me disait : Te m’as déjà coûté plus de mille francs, & c’est à peine si te les vaux… Si je valais à peu près mille francs dans ce temps-là, je dois bien valoir à présent pour le sûr… cinq, six, sept, huit, neuf, dix mille.
+
+RENARD.
+
+Assez, assez, diable ! comme vous y allez ! c’est comme à la criée.
+
+DOUDOU LAPIN.
+
+Vous m’avez arrêté trop tôt… Je veux, sans surfaire, douze mille francs.
+
+RENARD.
+
+C’est cher… Mais, voyez-vous, je veux faire votre bonheur ; je vous ai toujours aimé… je vous donnerai ce que vous me demandez.
+
+DOUDOU LAPIN.
+
+(À part.) Il paraît que j’ai pas assez demandé. (Haut.) Voyons, maintenant ; comment entendez-vous me payer ? Je veux des gros sous ou des billets de banque : lequel aimez-vous mieux ?
+
+RENARD.
+
+Comme vous voudrez. Pourquoi me dites-vous ça ?
+
+DOUDOU LAPIN.
+
+Parce que si vous avez l’intention de me payer en gros sous, c’est à condition que vous me les porterez à la Croix-Rousse… sans prendre le chemin de fer.
+
+RENARD.
+
+Dans ce cas, je préfère vous payer en billets.
+
+DOUDOU LAPIN.
+
+Si c’est en billets, je veux quinze mille francs.
+
+RENARD.
+
+Vous êtes bien exigeant !… qu’est-ce que cela signifie ? Tout à l’heure c’était convenu à douze mille.
+
+DOUDOU LAPIN.
+
+Mon pauvre vieux, c’est mon dernier mot. Choisissez : douze mille francs en gros sous rendus à la Croix-Rousse, sans chemin de fer… ou quinze mille francs en billets… Pas de milieu… c’est à prendre ou à laisser.
+
+RENARD.
+
+Allons ! je vous donnerai quinze mille francs en billets, c’est entendu. Je vous paierai aussitôt après le combat.
+
+DOUDOU LAPIN.
+
+Non, non, d’argent tout de suite ;… ou sinon pas de chapotement.
+
+RENARD.
+
+Allons, venez chercher votre argent tout de suite à la maison.
+
+DOUDOU LAPIN.
+
+Vous paierez ben aussi une bouteille, papa… pour me donner de courage ?
+
+RENARD.
+
+Certainement.
+
+DOUDOU LAPIN, à part.
+
+C’est la première qu’il me paie, le vieux ladre… Allons, pour quinze mille francs je me ferais ben tuer tous les jours. (Ils sortent.)
+
+RENARD, dans la coulisse.
+
+Attendez-moi un instant chez moi ; je descends à la cave.
+
+DOUDOU LAPIN, de même.
+
+Et surtout apportez du bon, papa… du vieux ! Le Brindas me fait mal ; il me gargouille dans l’estomac.
+
+Scène III
+
+OURSE, seule.
+
+Enfin, je crois que je parviendrai à trouver le logis de mon homme… Ce doit être par ici… c’est bien la place qu’il m’a indiquée. Pourvu qu’il ne m’ait pas donné une fausse adresse !… Ah ! ah ! ce pékin me fait rire… Quelle boule il avait l’autre jour quand il a accepté mon cartel !… Ah ! pauvre vieux, si tu savais à qui tu as affaire, tu serais déjà mort de frayeur… Je ne veux pas le tuer, mais j’entends lui donner une leçon dont il se souviendra… Voyons, informons-nous de sa demeure au boulanger du coin… Ah ! voici fort heureusement quelqu’un qui va me renseigner.
+
+Scène IV
+
+OURSE, DOUDOU LAPIN.
+
+OURSE.
+
+Pardonnez-moi, Mossieu…
+
+DOUDOU LAPIN.
+
+(À part.) Une ancienne troupière ! ça doit être mon adversaire ! (Haut.) Vous avez donc fait de sottises que vous demandez pardon ?
+
+OURSE.
+
+Pourriez-vous m’indiquer la demeure de Mossieu Renard ?
+
+DOUDOU LAPIN.
+
+Je veux pas te le dire ; te m’ennuies, toi !
+
+OURSE.
+
+Qu’est-ce que cela ! vous ne répondez pas à ma question… L’adresse de Mossieu Renard ?
+
+DOUDOU LAPIN, se mettant devant elle.
+
+On ne passe pas.
+
+OURSE.
+
+Comment ! on ne passe pas ?
+
+DOUDOU LAPIN.
+
+On ne passe pas ! on-ne-pas-se-pas !
+
+OURSE.
+
+Vraiment ! c’est inconcevable !
+
+DOUDOU LAPIN.
+
+Ah ! cette trombine ! ce pif ! Mettez donc votre nez de côté, la mère ; il m’empêche de voir le Cheval de bronze.
+
+OURSE, le menaçant.
+
+Je ne souffrirai pas qu’on m’insulte de la sorte.
+
+DOUDOU LAPIN.
+
+Ne bute pas, ne bute pas… Reculez-vous donc un peu, vous m’envoyez des postillons, fermez votre portail.
+
+OURSE.
+
+Vous me prenez, je crois, pour un jobard, mon cher. La main me démange, & j’ai envie de vous apprendre à qui vous avez affaire.
+
+DOUDOU LAPIN.
+
+Tant pis, ma vieille ; votre nez m’offusque, il ressemble à un éteignoir pour cierge.
+
+OURSE.
+
+Ah ! si je n’avais pas déjà une affaire ce matin !… Encore une fois voulez-vous me laisser passer ?
+
+DOUDOU LAPIN.
+
+Je vous ai déjà dit qu’on ne passe pas.
+
+OURSE.
+
+Et pourquoi cela ?
+
+DOUDOU LAPIN.
+
+Parce qu’on ne passe pas, vieille farceuse !
+
+OURSE.
+
+Ah ! c’est trop fort, je n’y tiens plus. Tenez. (Elle lui donne un soufflet.)
+
+DOUDOU LAPIN, lui donnant un coup de tête.
+
+Tenez, vous aussi. Vous croyez avoir affaire à une bugne.
+
+OURSE.
+
+Je m’importe peu qui vous êtes. Vous m’avez frappé ; de pareils affronts veulent du sang. Il faut nous battre sur-le-champ. Au sabre, à l’épée, au pistolet ?… Quelle est votre arme ?
+
+DOUDOU LAPIN.
+
+Tout ce que vous voudrez. À l’épée, à coup de groles, au tournebroche, à coup de torchon, à tout.
+
+OURSE.
+
+À l’épée.
+
+DOUDOU LAPIN.
+
+T’aimes la salade : allons chercher de fourchettes.
+
+OURSE.
+
+Oui, allons chercher des armes ; mais tout de suite, parce que j’ai encore une affaire à vider ce matin.
+
+DOUDOU LAPIN.
+
+Allons-y. (Ils vont pour sortir.)
+
+OURSE.
+
+Mossieu. (Ils se font des politesses.)
+
+DOUDOU LAPIN.
+
+Allons, passe donc, patet. (Ils sortent & rentrent aussitôt avec des épées.)
+
+OURSE.
+
+En garde !
+
+DOUDOU LAPIN.
+
+Voyons que j’empoigne bien ma lardoire. J’y suis. (Ils se battent.) Tiens donc ! tiens donc !
+
+OURSE, après un instant.
+
+Comment ! comment ! que faites-vous donc ? vous reculez, je crois.
+
+DOUDOU LAPIN, tombant.
+
+Ah ! le gone, elle m’a crevé le bedon !
+
+OURSE.
+
+Allons, il a son compte ; j’ai décidément la main malheureuse… (Elle essuie son épée.) C’est ennuyeux tout de même de se battre comme ça, sans témoin… Mais il m’a insulté ; tant pis pour lui !… Pour prévenir les soupçons, allons nous-même chercher la garde.
+
+Scène V
+
+DOUDOU LAPIN, seul, se relevant.
+
+Ah ! grand bête ! elle croyait donc que je me laisserais mettre en perce. Pas si cornichon ! Je m’en vais maintenant prendre ma véritable épée, l’épée de Doudou Lapin !… Qu’elle essaye de revenir & je me charge de lui régler le compte du père Renard avec le mien ! (Il sort.)
+
+Scène VI
+
+OURSE, un GENDARME, puis DOUDOU LAPIN.
+
+OURSE.
+
+Venez, venez, cavalier : c’est ici tout près que j’ai vu quelqu’un tomber, bien mal en point… Il faudra le relever & le porter chez le médecin… Il n’y a plus personne !… Ne voyez-vous donc rien, cavalier ?
+
+LE GENDARME.
+
+Du tout, je ne vois rien.
+
+OURSE.
+
+Probablement qu’on l’aura déjà emporté ailleurs : nous sommes venus trop tard. (Doudou Lapin donne un coup de bâton au gendarme qui s’enfuit ; puis il frappe Ourse qui tombe.)
+
+DOUDOU LAPIN, la roulant avec le bâton.
+
+Eh ben ! cette fois, pauvre vieille, t’en as assez… Que dis-tu de cette pontiselle ? Faut convenir que si t’es forte à l’épée, tu n’entends rien au bâton… Mais qu’en faire à présent ?… Je vais boire un coup chez le père Chibroc & je reviens tout de suite. (Il sort.)
+
+Scène VII.
+
+OURSE, seule, se relevant.
+
+Ah ! sapristi, je crois qu’il m’est tombé une cheminée sur la tête… Cependant il m’a semblé que c’étaient des coups de bâton… Est-ce que ce pékin se serait joué de moi ?… Ça ne peut pas se passer comme ça… j’aurais cette affaire-là sur le cœur jusqu’au dernier de mes jours… Le drôle a dit, je crois, que je n’entends rien au bâton : je lui montrerai mon savoir… & dussé-je le chercher jusqu’au fond des enfers !… (Elle sort.)
+
+Scène VIII.
+
+RENARD, seul, arrivant.
+
+Je suis dans une inquiétude mortelle. Doudou Lapin a-t-il rencontré cette vieille ferrailleuse ? J’étais allé jusqu’aux portes de Trion pour ne pas me trouver dans le premier moment entre l’enclume & le marteau ; mais je ne puis pas rester dans cette incertitude… Que sont-ils devenus ?
+
+Scène IX.
+
+RENARD, DOUDOU LAPIN, puis OURSE.
+
+DOUDOU LAPIN, entrant & frappant sur Renard qu’il prend pour Ourse.
+
+Ah ! vieille féroce, te n’es pas morte !… Tiens ! tiens !
+
+OURSE entrant & frappant avec un bâton sur Renard qu’elle prend pour Doudou Lapin.
+
+Ah ! scélérat, je t’apprendrai si je ne suis pas forte au bâton ; tiens ! tiens ! tiens !
+
+RENARD.
+
+Au secours ! au secours ! je suis mort.
+
+OURSE.
+
+Comment ! c’est vous, Mossieu Renard ? Pardon, je me trompe.
+
+RENARD.
+
+Ourse !… je suis perdu.
+
+DOUDOU LAPIN.
+
+Comment ! c’est vous, papa Renard ? Pardon, je me trompe.
+
+RENARD à Doudou Lapin.
+
+Voilà comme vous tenez vos engagements ?
+
+DOUDOU LAPIN.
+
+Je les ai ben tenus, vos engagements, puisque je me suis fait tuer tout à l’heure.
+
+RENARD.
+
+Oui, vous vous êtes fait tuer, & vous n’êtes pas mort !
+
+OURSE.
+
+Comment ! comment ! En effet, Mossieu, vous devriez être mort : vous l’étiez tout à l’heure.
+
+DOUDOU LAPIN.
+
+Et vous aussi, la mère !
+
+OURSE.
+
+Tout cela me paraît louche.
+
+DOUDOU LAPIN.
+
+Voyons ! ça serait trop long à vous expliquer. Mais il me semble que tout peut s’arranger. L’honneur est satisfait.
+
+OURSE.
+
+Vous plaisantez, morbleu !
+
+DOUDOU LAPIN.
+
+Fâchez pas, la mère !… Moi, vous m’avez passé votre latte au travers du corps : que voulez-vous de plus ? Les Français sont pas des Cosaques. L’honneur est satisfait.
+
+OURSE.
+
+Mais ces coups de bâton que j’ai reçus ; ils sont postérieurs.
+
+DOUDOU LAPIN.
+
+Vous venez de les repasser au père Renard. L’honneur est satisfait.
+
+OURSE.
+
+Mais ma querelle avec Mossieu Renard ?
+
+DOUDOU LAPIN.
+
+Il en a ben assez reçu, le pauvre vieux ! Il a reçu des deux mains, de la mienne & de la vôtre. L’honneur est satisfait.
+
+RENARD.
+
+Hé ben ! & moi ?
+
+DOUDOU LAPIN.
+
+Hé ben ! je me suis battu pour vous. N’est-ce pas ce qui était convenu ?
+
+RENARD.
+
+Et mes coups de bâton ! étaient-ils convenus ?
+
+DOUDOU LAPIN.
+
+Que voulez-vous ? C’est par-dessus le marché ; ils n’étaient pas pour vous. C’était un solde de règlement entre la mère & moi : c’est vous qui avez reçu le solde. L’honneur est satisfait !
+
+TOUS.
+
+Oui, oui, l’honneur est satisfait !
+
+RENARD.
+
+C’est égal, je regrette mon argent.
+
+DOUDOU LAPIN.
+
+Nom d’un rat, je l’ai bien gagné. Puis, il ne sera pas tout perdu pour vous, papa. Pour mettre le bouquet à notre réconciliation, faut aller déjeuner tous ensemble, & c’est moi qui paie !… un fricot chenu !
+
+RENARD.
+
+Accepté !… nous trinquerons en braves.
+
+OURSE.
+
+Accepté!… Et le verre en main je vous conterai la bataille de Wagram.
+
+DOUDOU LAPIN, au public.
+
+air de La la itou.
+
+L’honneur est satisfait !
+
+Mais nous ne serions pas gais,
+
+Si vous ne disiez ici
+
+Que vous êtes satisfaits aussi.
+
+La itou, la la itou…
+
+(Chœur)
+
+fin du duel.
+"""
+
+LE SYNOPSIS CHOISI PAR LE PARENT : Le Duel
+Un voisin trop peureux pour se battre paie Doudou Lapin pour aller en duel à sa place — et c'est finalement lui qui reçoit tous les coups.
+- Renard Rusé s'est disputé avec Ourse Gourmande à propos de la couleur d'un chat, et un duel est prévu à midi.
+- Bien trop peureux pour se battre lui-même, Renard Rusé propose à Doudou Lapin, son voisin sans le sou, de se battre à sa place ; Doudou Lapin fait monter le prix avant d'accepter.
+- Doudou Lapin barre la route à Ourse Gourmande, la provoque, se bat avec elle à coups de baguettes, puis fait semblant de tomber, assommé.
+- Ourse Gourmande part chercher du secours ; Doudou Lapin se relève aussitôt, lui donne un bon coup de bâton, et s'en va boire tranquillement un coup.
+- Renard Rusé revient voir ce qui se passe : dans la confusion, Doudou Lapin et Ourse Gourmande, chacun croyant frapper l'autre, tapent tous les deux sur lui. « L'honneur est satisfait ! »
+
+Distribution :
+- Doudou Lapin joue Guignol : sa petite taille et son côté inquiet rendent ses bluffs et sa peur très drôles, avant qu'il surprenne tout le monde par son courage.
+- Renard Rusé joue le Père Bertrand : sa vanité colle bien à un bourgeois qui se vante mais se dégonfle, et sa malice le pousse à négocier plutôt qu'à se battre.
+- Ourse Gourmande joue La Ramée : sa présence imposante en fait un vieux soldat vantard crédible, et sa franchise directe convient à un personnage qui gueule fort avant de se faire avoir.
+
+Changements annoncés au parent :
+- Les épées deviennent des baguettes et les coups des coups de coussin.
+- La dispute ne porte plus sur une bataille lointaine mais sur la couleur d'un chat.
+- Un épisode du conte est raccourci pour que le spectacle tienne dans le temps prévu.
+
+L’ESPÈCE DES PERSONNAGES DANS LE TEXTE, impératif : chaque marionnette
+animale garde son espèce. Le nom de l’animal du conte disparaît de ce QUI SE
+JOUE — répliques, didascalies, titres, résumés, formules — et seulement de là.
+Les champs où tu expliques ton travail au parent (« changements », « note »)
+peuvent nommer l’animal d’origine : c’est même le plus clair pour lui.
+Le nom générique d’une espèce qui ne désigne PAS un personnage (« on chasse
+les loups en hiver ») ne change pas non plus.
+- Doudou Lapin joue Guignol et reste un·e lapin : c'est un·e lapin qui fait le métier de canut.
+- Renard Rusé joue le Père Bertrand et reste un·e renard : c'est un·e renard qui fait le métier de bourgeois.
+- Ourse Gourmande joue La Ramée et reste un·e ourse : c'est un·e ourse qui fait le métier de vieux soldat.
+
+L’ADAPTATION DÉCIDÉE : « Le Duel »
+Un voisin trop peureux pour se battre paie Doudou Lapin pour se battre à sa place, et c'est finalement lui qui reçoit tous les coups.
+
+Ce qui change par rapport au conte, et que tu respectes :
+- Le gendarme n'a pas de marionnette : il disparaît, et Ourse Gourmande part seule chercher du secours puis revient bredouille, sans lui.
+- Le conte se joue entièrement sur une seule place publique, sans vrai changement de lieu : les deux tableaux distinguent seulement deux coins de cette même place (le seuil de la maison, puis la place dégagée pour le duel) plutôt que d'inventer quatre décors différents.
+- Le long marchandage sur les chiffres et les digressions (l'agent de change, l'argenterie, la fille de Renard) est resserré : on garde l'idée d'un prix qui grimpe par surenchère, sans suivre le détail de chaque plaisanterie.
+- Une peluche ne pouvant tenir une épée avec précision, le duel se joue en gestes mimés (approche, recul, chute) plutôt qu'avec une arme réellement tenue ; le mot « baguette » ne reste que dans les répliques.
+- Comme il n'y a que deux mains pour trois marionnettes, la scène finale où Doudou Lapin et Ourse Gourmande frappent chacun Renard Rusé par erreur est jouée en deux temps l'un après l'autre, au lieu d'être simultanée : Doudou Lapin frappe et sort, puis Ourse Gourmande entre et frappe à son tour.
+
+Plan du spectacle :
+- Acte 1, Renard Rusé a peur : Renard Rusé doit se battre en duel à midi et il est terrifié ; il décide d'aller demander à son voisin Doudou Lapin de se battre à sa place. (De « IL est bientôt neuf heures » à « Voyons s’il est chez lui. »)
+- Acte 2, Le marchandage : Doudou Lapin comprend ce que Renard Rusé lui demande et fait monter le prix, de plus en plus haut, jusqu'à ce que Renard Rusé accepte ; ils partent chercher l'argent. (De « Qui est-ce qui cogne ? » à « il me gargouille dans l’estomac. »)
+- Acte 3, La rencontre et le faux mort : Ourse Gourmande cherche l'adresse de Renard Rusé ; Doudou Lapin lui barre le chemin, l'insulte, et ils finissent par se battre. Doudou Lapin tombe, faisant semblant d'être assommé. (De « Enfin, je crois que je parviendrai à trouver le logis de mon homme » à « elle m’a crevé le bedon ! »)
+- Acte 4, Le réveil et la vengeance manquée : Ourse Gourmande revient sans avoir trouvé de secours ; Doudou Lapin, bien vivant, la surprend et l'assomme à son tour avant de partir boire un coup. Restée seule, Ourse Gourmande jure de se venger. (De « Ah ! grand bête ! elle croyait donc que je me laisserais mettre en perce » à « jusqu’au fond des enfers ! »)
+- Acte 5, Renard Rusé pris pour un autre : Renard Rusé revient voir où en est son affaire ; dans la confusion, Doudou Lapin le prend pour Ourse Gourmande et lui donne un coup avant de comprendre son erreur. (De « Je suis dans une inquiétude mortelle » à « Tiens ! tiens ! »)
+- Acte 6, L'honneur est satisfait : Ourse Gourmande arrive à son tour et frappe Renard Rusé en le prenant pour Doudou Lapin ; les trois comprennent enfin le quiproquo, décident que l'honneur est satisfait et partent fêter ça ensemble. (De « Ah ! scélérat, je t’apprendrai si je ne suis pas forte au bâton » à « fin du duel. »)
+
+État de la scène au début de cet acte :
+La scène est vide, toutes les mains sont libres.
+
+Texte des actes déjà écrits :
+--- Acte 1 : Renard Rusé a peur ---
+1. [entree] Renard Rusé — main M1G
+2. Renard Rusé : « Il est bientôt neuf heures et j'ai un rendez-vous d'honneur à midi ! Il faut que je me batte... à mon âge ! Et avec une ancienne traîneuse de sabre encore ! » (affolé, la voix qui monte)
+3. Renard Rusé : « Il me semble que la matinée n'a duré qu'une minute aujourd'hui... J'ai la fièvre... Et dire qu'il y a des gens qui se font tuer tous les huit jours ! Je ne comprends pas comment ils peuvent vivre. » (geignard)
+4. [action] Renard Rusé tremble de tout son corps.
+5. Renard Rusé : « Décidément je ne puis pas aller sur le terrain. J'ai une fille ; j'ai gagné ma fortune en travaillant, je ne puis pas la jouer sur un coup d'épée. » (ferme, malgré la peur)
+6. Renard Rusé : « D'autre part, si je ne me bats pas, cette terreur viendra faire ici un esclandre, et les commères m'accableront de leurs moqueries. » (dépité)
+7. [action] Renard Rusé se gratte le museau, cherchant une idée.
+8. Renard Rusé : « Il m'est bien venu une idée. J'ai là pour voisin quelqu'un qui n'a ni sou ni maille ; il sera peut-être bien aise de gagner quelque argent... Si je lui proposais de prendre ma place ? Ça ne doit pas lui coûter beaucoup d'exposer sa vie, et je m'en tirerai peut-être à bon compte. » (malicieux, soulagé)
+9. Renard Rusé : « C'est cela ! L'heure approche... Voyons s'il est chez lui. » (décidé)
+10. [action] Renard Rusé s'approche de la porte de Doudou Lapin et frappe.
+
+--- Acte 2 : Le marchandage ---
+1. [entree] Doudou Lapin — main M1D
+2. Doudou Lapin : « Qui est-ce qui cogne ? » (surpris, à sa fenêtre)
+3. Renard Rusé au public : « Il y est ! Quel bonheur ! »
+4. Renard Rusé : « Bonjour, Monsieur Lapin. Je voudrais bien vous parler. » (aimable)
+5. Doudou Lapin : « Hé bien, parlez, ne vous gênez pas ; j'ai le temps. » (décontracté)
+6. Renard Rusé : « Ce que j'ai à vous dire est tout à fait secret. Voulez-vous me faire le plaisir de descendre ? » (mystérieux)
+7. Doudou Lapin : « Vous voulez que je dégringole ? Me v'là ! » (enjoué)
+8. [action] Doudou Lapin s'approche de Renard Rusé.
+9. Renard Rusé : « Vraiment, Monsieur Lapin, depuis le temps que nous habitons porte à porte, je ne comprends pas que vous ne soyez pas venu me voir. » (affable)
+10. Doudou Lapin : « Ma foi, M'sieu, j'ai pas osé ; la distance est trop grande. » (malicieux)
+11. Renard Rusé : « Pas du tout ; il n'y a que la rue à traverser. » (léger)
+12. Doudou Lapin : « C'est vrai, mais y a la distance des picaillons. » (goguenard)
+13. Renard Rusé : « Oh, cela ne fait rien entre voisins ; vous pouviez bien venir me faire payer une bouteille de vin. » (généreux, un peu forcé)
+14. Doudou Lapin au public : « Il est bien en générosité aujourd'hui, le vieux grigou ! »
+15. Doudou Lapin : « Si c'est pour ça, tant que vous voudrez, de suite, si ça vous va. » (gourmand)
+16. Renard Rusé : « Tout à l'heure ! C'est maintenant un service que je voudrais vous demander. » (pressé)
+17. Doudou Lapin : « Un service ? Une cuillère et une fourchette ? Je vais vous chercher ça tout de suite. » (naïf)
+18. Renard Rusé : « Il ne s'agit pas de cela. C'est autre chose, et quelque chose de pressé que j'ai à vous communiquer. Écoutez-moi, je commence. » (sérieux)
+19. Doudou Lapin au public : « Nous en avons pour un moment. »
+20. Doudou Lapin : « Allons, je vous écoute. » (résigné)
+21. Renard Rusé : « Voici de quoi il s'agit. J'ai aujourd'hui même une affaire de duel. » (grave)
+22. Doudou Lapin : « Des duels de tonneau ? » (content de sa blague)
+23. Renard Rusé : « Non, un duel à la baguette. » (sombre)
+24. Doudou Lapin : « Je comprends... avec le machin qui fait mal. » (amusé)
+25. Renard Rusé : « Je vous avoue que ça m'embarrasse un peu. » (gêné)
+26. Doudou Lapin : « Ça m'embarrasserait ben aussi. Mais je vous vois venir... vous voulez que je soye votre second. » (méfiant)
+27. Renard Rusé : « Non ; je vous estime plus que cela. Pas mon second... mon premier. » (flatteur)
+28. Doudou Lapin : « J'aimerais assez être votre second, parce qu'après un duel y a toujours un morceau à fricoter pour les seconds. » (gourmand)
+29. Renard Rusé : « Vous voulez rire ; mais vous devez comprendre que dans ma position je ne peux pas aller me battre. » (vexé)
+30. Doudou Lapin : « Quand on a des sous comme vous, c'est dur d'exposer sa peau. » (taquin)
+31. Renard Rusé : « Il ne s'agit pas de cela aujourd'hui. J'ai besoin de votre appui. » (pressant)
+32. Doudou Lapin : « Faut vous appuyer ? Par derrière ? » (faussement bête)
+33. Renard Rusé : « Non, non. » (agacé)
+34. Doudou Lapin : « Alors, c'est par devant ? » (faussement bête)
+35. Renard Rusé : « Vous m'interrompez toujours. Laissez-moi donc vous expliquer mon affaire. » (excédé)
+36. Doudou Lapin au public : « Je suis sûr qu'il ne finira pas avant ce soir. »
+37. Doudou Lapin : « Allons, continuez. » (patience forcée)
+38. Renard Rusé : « L'autre jour, j'étais assis sur un banc avec la vieille qui doit se battre avec moi. Nous causions bien tranquillement, et puis nous avons parlé d'un chat du quartier. » (qui se lance)
+39. Renard Rusé : « Elle disait qu'il était tout noir. Moi je disais qu'il était gris. Elle a insisté, je n'ai pas cédé. » (qui s'échauffe)
+40. Renard Rusé : « Elle m'a traité de tous les noms, je lui en ai rendu autant, et voilà que nous devons nous battre à midi pour cette histoire de chat. » (dépité)
+41. Doudou Lapin : « Eh bien, que voulez-vous de moi ? » (neutre)
+42. Renard Rusé : « Que vous preniez ma place. » (lâché d'un coup)
+43. [action] Doudou Lapin recule.
+44. Doudou Lapin : « Que je prenne votre place ! Vous voulez rire. Je tiens bien autant à ma peau que vous. » (outré)
+45. Renard Rusé : « Ah ! Ça ne risque rien. » (trop vite dit)
+46. Doudou Lapin : « Eh ben ! Si ça ne risque rien, pourquoi n'y allez-vous pas vous-même ? » (malin)
+47. Renard Rusé : « Mon ami, je sais bien qu'il vous faut du positif. J'entends vous payer généreusement. » (négociateur)
+48. Doudou Lapin : « Combien donnerez-vous donc ? » (gourmand)
+49. Renard Rusé : « Je vous donnerai cent francs. » (fier de son offre)
+50. Doudou Lapin : « Allons donc, vieille lanterne ! » (méprisant)
+51. Renard Rusé : « Voyons, combien voulez-vous donc ? » (résigné)
+52. Doudou Lapin : « Mille francs ! » (lancé très fort)
+53. [note] Faire crier ce prix aux enfants avec Doudou Lapin, une première fois.
+54. Renard Rusé : « Assez, assez ! C'est comme à la criée. » (affolé)
+55. Doudou Lapin : « Cinq mille francs ! » (encore plus fort)
+56. [note] Faire crier ce prix aux enfants avec Doudou Lapin, plus fort que la première fois.
+57. Renard Rusé : « C'est cher ! Mais voyez-vous, je vous ai toujours aimé... je vous donnerai ce que vous me demandez. » (qui craque)
+58. Doudou Lapin au public : « Il paraît que j'ai pas assez demandé ! »
+59. Doudou Lapin : « Dix mille francs, alors, et pas un sou de moins ! » (le plus fort possible)
+60. [note] Faire crier ce prix aux enfants avec Doudou Lapin, le plus fort de tous.
+61. Renard Rusé : « Allons, je vous donnerai dix mille francs. Je vous paierai après le combat. » (vaincu)
+62. Doudou Lapin : « Non, non, l'argent tout de suite, ou sinon pas de bagarre. » (ferme)
+63. Renard Rusé : « Allons, venez chercher votre argent tout de suite à la maison. » (résigné)
+64. Doudou Lapin : « Vous paierez ben aussi une bouteille, papa, pour me donner du courage ? » (gourmand)
+65. Renard Rusé : « Certainement. » (petit soupir)
+66. Doudou Lapin au public : « C'est la première qu'il me paie, le vieux ladre. Allons, pour dix mille francs, je me ferais ben tuer tous les jours. »
+67. Renard Rusé : « Attendez-moi un instant chez moi ; je descends à la cave. » (en s'éloignant)
+68. Doudou Lapin : « Et surtout apportez du bon, papa, du vieux ! Ça me gargouille dans l'estomac. » (en s'éloignant, gourmand)
+69. [sortie] Renard Rusé — main M1G
+70. [sortie] Doudou Lapin — main M1D
+
+--- Acte 3 : La rencontre et le faux mort ---
+1. [entree] Ourse Gourmande — main M1G
+2. Ourse Gourmande : « Enfin, je crois que je vais trouver la maison de mon adversaire... Ce doit être par ici, c'est bien la place qu'il m'a indiquée. » (pressée, un peu essoufflée)
+3. Ourse Gourmande : « Pourvu qu'il ne m'ait pas donné une fausse adresse ! Ah, ah, ce pauvre type me fait rire. Quelle tête il avait l'autre jour, quand il a accepté mon duel ! » (goguenarde)
+4. Ourse Gourmande : « Je ne veux pas le tuer, mais j'entends bien lui donner une leçon dont il se souviendra. » (décidée)
+5. [action] Ourse Gourmande regarde autour d'elle, cherchant son chemin.
+6. [entree] Doudou Lapin — main M1D
+7. [action] Doudou Lapin s'étire, l'air très satisfait.
+8. Ourse Gourmande : « Pardonnez-moi, monsieur... » (polie, hésitante)
+9. Doudou Lapin au public : « Une ancienne militaire ! Ça doit être mon adversaire ! »
+10. Doudou Lapin : « Vous avez donc fait des bêtises, pour demander pardon comme ça ? » (malicieux)
+11. Ourse Gourmande : « Pourriez-vous m'indiquer la maison de Monsieur Renard ? » (pressée)
+12. Doudou Lapin : « Je ne veux pas vous le dire ; vous m'ennuyez ! » (taquin)
+13. Ourse Gourmande : « Qu'est-ce que cela ? Vous ne répondez pas à ma question... L'adresse de Monsieur Renard ! » (agacée)
+14. [action] Doudou Lapin se plante devant Ourse Gourmande, lui barrant le passage.
+15. Doudou Lapin : « On ne passe pas. » (ferme, l'air important)
+16. Ourse Gourmande : « Comment ! On ne passe pas ? » (outrée)
+17. Doudou Lapin : « On ne passe pas ! On-ne-pas-se-pas ! » (en articulant bêtement)
+18. Ourse Gourmande : « Vraiment ! C'est inconcevable ! » (indignée)
+19. Doudou Lapin : « Ah, cette bouille ! Ce nez ! Mettez-le donc de côté, la mère, il m'empêche de voir le Cheval de bronze ! » (moqueur)
+20. [action] Ourse Gourmande s'avance vers lui, menaçante.
+21. Ourse Gourmande : « Je ne souffrirai pas qu'on m'insulte de la sorte. » (sévère)
+22. Doudou Lapin : « Ne bougez pas, ne bougez pas... Reculez-vous donc un peu, vous m'envoyez des postillons ! » (dégoûté, amusé)
+23. Ourse Gourmande : « Vous me prenez pour une idiote, mon cher. La main me démange, j'ai envie de vous apprendre à qui vous avez affaire. » (menaçante)
+24. Doudou Lapin : « Tant pis, ma vieille ; votre nez m'offusque, il ressemble à un éteignoir à bougie. » (goguenard)
+25. Ourse Gourmande : « Ah, si je n'avais pas déjà une affaire ce matin ! Encore une fois, voulez-vous me laisser passer ? » (excédée)
+26. Doudou Lapin : « Je vous ai déjà dit qu'on ne passe pas. » (buté)
+27. Ourse Gourmande : « Et pourquoi cela ? » (sèche)
+28. Doudou Lapin : « Parce qu'on ne passe pas, vieille bagarreuse ! » (provocateur)
+29. Ourse Gourmande : « Ah, c'est trop fort, je n'y tiens plus ! Tenez ! » (furieuse)
+30. [action] Ourse Gourmande pousse la tête de Doudou Lapin d'un coup sec.
+31. [action] Doudou Lapin donne à son tour un coup de tête à Ourse Gourmande.
+32. Doudou Lapin : « Tenez, vous aussi ! Vous croyez avoir affaire à un poids plume ? » (fanfaron)
+33. Ourse Gourmande : « Peu m'importe qui vous êtes. Vous m'avez frappée ; un tel affront se lave dans le sang. Il faut nous battre sur-le-champ ! Quelle est votre arme ? » (solennelle, furieuse)
+34. Doudou Lapin : « Tout ce que vous voudrez ! À la baguette, à tout ! » (gonflé, un peu bravache)
+35. Ourse Gourmande : « À la baguette. » (décidée)
+36. [action] Ourse Gourmande et Doudou Lapin se font face et se mettent en garde, chacun mimant une baguette dans sa patte.
+37. Ourse Gourmande : « En garde ! » (martiale)
+38. Doudou Lapin : « Voyons que je m'y mette bien... J'y suis ! » (concentré, un peu tremblant)
+39. [action] Doudou Lapin et Ourse Gourmande s'avancent l'un vers l'autre, puis reculent, plusieurs fois.
+40. Doudou Lapin : « Tiens donc ! Tiens donc ! » (vaillant, essoufflé)
+41. Ourse Gourmande : « Comment ! Comment ! Que faites-vous donc ? Vous reculez, je crois ! » (surprise, moqueuse)
+42. [action] Doudou Lapin bascule en arrière et s'écroule d'un seul coup.
+43. Doudou Lapin : « Ah, la vilaine ! Elle m'a crevé le bedon ! » (geignant, puis silence)
+44. [action] Ourse Gourmande s'éloigne pour chercher du secours.
+45. [sortie] Ourse Gourmande — main M1G
+
+--- Acte 4 : Le réveil et la vengeance manquée ---
+1. [action] Doudou Lapin se relève d'un bond, bien vivant, tout content de son tour.
+2. Doudou Lapin : « Ah, grande bête ! Elle croyait donc que je me laisserais mettre en perce. Pas si cornichon ! » (goguenard, fier de lui)
+3. Doudou Lapin : « Je m'en vais prendre ma véritable baguette, la vraie baguette de Doudou Lapin ! Qu'elle essaie de revenir, et je me charge de lui régler son compte ! » (décidé, mauvais rire)
+4. [action] Doudou Lapin se frotte les pattes, bien en vue sur la place.
+5. Doudou Lapin au public : « Si vous voyez Ourse Gourmande revenir, criez-le-moi bien fort, que je me cache à temps ! » (attend une réponse)
+6. [note] Laisser les enfants crier dès qu'Ourse Gourmande entre en scène ; faire réagir Doudou Lapin aussitôt, qui se cache.
+7. [entree] Ourse Gourmande — main M1G
+8. [action] Doudou Lapin sursaute et se cache vivement.
+9. Ourse Gourmande : « Il n'y a plus personne... Probablement qu'on l'aura déjà emporté ailleurs : je suis venue trop tard. » (essoufflée, dépitée)
+10. [action] Ourse Gourmande regarde autour d'elle, désemparée.
+11. [action] Doudou Lapin surgit derrière elle et lui donne un coup de tête. Ourse Gourmande tombe.
+12. Doudou Lapin : « Eh ben, cette fois, pauvre vieille, t'en as assez ! Que dis-tu de cette pontiselle ? Faut convenir que si t'es forte à la baguette, tu n'entends rien à ça ! » (goguenard, très fier)
+13. Doudou Lapin : « Mais qu'en faire à présent... Je vais boire un coup, et je reviens tout de suite. » (désinvolte)
+14. [sortie] Doudou Lapin — main M1D
+15. [action] Ourse Gourmande se relève, la tête qui tourne.
+16. Ourse Gourmande : « Ah, sapristi, je crois qu'il m'est tombé une cheminée sur la tête... Cependant il m'a semblé que c'étaient des coups de bâton... Est-ce que ce pékin se serait joué de moi ? » (sonnée, méfiante)
+17. Ourse Gourmande : « Ça ne peut pas se passer comme ça... J'aurai cette affaire-là sur le cœur jusqu'au dernier de mes jours. Le drôle a dit, je crois, que je n'entends rien au bâton : je lui montrerai mon savoir, et dussé-je le chercher jusqu'au fond des enfers ! » (rageuse, jurant vengeance)
+18. [sortie] Ourse Gourmande — main M1G
+
+Ce qui viendra après cet acte :
+Acte 6 — L'honneur est satisfait : Ourse Gourmande arrive à son tour et frappe Renard Rusé en le prenant pour Doudou Lapin ; les trois comprennent enfin le quiproquo, décident que l'honneur est satisfait et partent fêter ça ensemble.
+
+Conduite de l’acte à écrire :
+Acte 5 — Renard Rusé pris pour un autre
+Résumé : Renard Rusé revient voir où en est son affaire ; dans la confusion, Doudou Lapin le prend pour Ourse Gourmande et lui donne un coup avant de comprendre son erreur.
+Passage du conte joué par cet acte : De « Je suis dans une inquiétude mortelle » à « Tiens ! tiens ! »
+Déroulé :
+  1. Renard Rusé revient sur la place, rongé d'inquiétude, se demandant ce qui a bien pu se passer.
+  2. Doudou Lapin arrive en sens inverse et, dans la confusion, croit reconnaître Ourse Gourmande.
+  3. Il lui donne un bon coup en criant qu'elle n'est toujours pas morte.
+  4. Renard Rusé crie qu'on l'a tué ; Doudou Lapin comprend sa méprise et part prévenir Ourse Gourmande.
+Entrées et sorties prévues par le découpage. C’est un PLAN, pas un ordre à
+exécuter : si la scène demande autre chose — un personnage qui doit rester
+pour parler, un échange qui exige deux présences —, arrange-le autrement,
+pourvu que les contraintes de scène tiennent. Ne coupe pas une réplique du
+conte parce que le plan fait sortir celui qui la dit : fais-le sortir après.
+Dans TA réponse, chaque entrée et chaque sortie porte un champ « main » :
+choisis-la librement, c’est l’application qui l’arrêtera.
+  entree — Renard Rusé
+  entree — Doudou Lapin
+  sortie — Doudou Lapin
+Moments avec le public :
+
+Budget indicatif pour cet acte : environ 350 mots dits. C'est une
+jauge, jamais une limite : la fidélité au texte du conte passe devant, et la
+fin de l'acte se joue en entier. Dépasser vaut mieux que couper une réplique
+du conte.

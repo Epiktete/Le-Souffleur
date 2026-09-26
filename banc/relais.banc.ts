@@ -113,7 +113,7 @@ const peluche = (nom: string, description: string, traits: string[]): Marionnett
 };
 
 /**
- * Cinq cas, volontairement dissemblables : c'est en variant l'âge, la durée,
+ * Six cas, volontairement dissemblables : c'est en variant l'âge, la durée,
  * l'espèce des peluches et la présence d'une ébauche qu'on fait sortir les
  * défauts. RELAIS_CAS choisit lequel ; chacun a son dossier.
  */
@@ -166,11 +166,23 @@ const CAS = {
     dureeMinutes: 5, ageAuditoire: 5, nbMarionnettistes: 1 as const,
     interactionPublic: 'beaucoup' as const, ebauche: '',
   },
+  6: {
+    // Le plus long spectacle possible : trente minutes. Le conte est long,
+    // les actes nombreux, et la revue relit tout — c'est là que la
+    // génération réelle s'arrêtait par délai dépassé.
+    troupe: [
+      peluche('Doudou Lapin', 'Un lapin en tissu beige, une oreille recousue et qui retombe.', ['inquiet', 'serviable']),
+      peluche('Renard Rusé', 'Un renard roux au museau pointu, la queue un peu pelée.', ['malin', 'vaniteux']),
+      peluche('Ourse Gourmande', 'Une grosse ourse en peluche marron, très douce, assez lourde.', ['gourmande', 'franche']),
+    ],
+    dureeMinutes: 30, ageAuditoire: 7, nbMarionnettistes: 1 as const,
+    interactionPublic: 'quelques' as const, ebauche: '',
+  },
 } as const;
 
 const NUM = Number(process.env.RELAIS_CAS || 1) as keyof typeof CAS;
 const cas = CAS[NUM];
-if (!cas) throw new Error('RELAIS_CAS doit valoir 1 à 5.');
+if (!cas) throw new Error('RELAIS_CAS doit valoir 1 à 6.');
 
 const DISTRIBUTION = [...cas.troupe];
 

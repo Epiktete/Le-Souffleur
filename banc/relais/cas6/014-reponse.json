@@ -1,0 +1,15 @@
+{"elements": [
+  {"type": "entree", "marionnette": "Renard Rusé", "main": "M1G"},
+  {"type": "didascalie", "texte": "Renard Rusé revient sur la place, l'air inquiet, regardant autour de lui."},
+  {"type": "replique", "marionnette": "Renard Rusé", "texte": "Je suis dans une inquiétude mortelle.", "ton": "angoissé"},
+  {"type": "replique", "marionnette": "Renard Rusé", "texte": "Doudou Lapin a-t-il rencontré cette vieille bagarreuse ?", "ton": "inquiet"},
+  {"type": "replique", "marionnette": "Renard Rusé", "texte": "J'étais allé jusqu'aux portes de Trion, pour ne pas me trouver dans le premier moment entre l'enclume et le marteau ; mais je ne puis pas rester dans cette incertitude...", "ton": "nerveux, se justifiant"},
+  {"type": "replique", "marionnette": "Renard Rusé", "texte": "Que sont-ils devenus ?", "ton": "anxieux"},
+  {"type": "entree", "marionnette": "Doudou Lapin", "main": "M1D"},
+  {"type": "didascalie", "texte": "Doudou Lapin surgit derrière Renard Rusé et lui donne un coup de tête, sûr d'avoir affaire à Ourse Gourmande."},
+  {"type": "replique", "marionnette": "Doudou Lapin", "texte": "Ah ! vieille féroce, tu n'es pas morte ! Tiens ! Tiens !", "ton": "triomphant, fier de lui"},
+  {"type": "replique", "marionnette": "Renard Rusé", "texte": "Au secours ! Au secours ! Je suis mort !", "ton": "paniqué, hurlant"},
+  {"type": "didascalie", "texte": "Doudou Lapin se penche pour regarder qui il vient de frapper."},
+  {"type": "replique", "marionnette": "Doudou Lapin", "texte": "Comment ! C'est vous, papa Renard ? Pardon, je me trompe.", "ton": "surpris, gêné"},
+  {"type": "replique", "marionnette": "Doudou Lapin", "texte": "Je ferais mieux de filer avant qu'elle ne revienne !", "ton": "pris de court, en partant"},
+  {"type": "sortie", "marionnette": "Doudou Lapin", "main": "M1D"}]}

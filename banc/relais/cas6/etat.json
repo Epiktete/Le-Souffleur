@@ -1,0 +1,35 @@
+{
+  "termine": true,
+  "etapes": 15,
+  "conte": "guignol-le-duel",
+  "titre": "Le Duel",
+  "dureeEstimeeSecondes": 1124,
+  "dureeCibleSecondes": 1800,
+  "problemesRestants": [
+    {
+      "gravite": "important",
+      "acteNumero": 6,
+      "position": 28,
+      "message": "Ourse Gourmande enfile la main M1D à l’instant même où Doudou Lapin la quitte. Le parent n’a pas le temps de changer de peluche : intercale une réplique ou une didascalie."
+    },
+    {
+      "gravite": "important",
+      "message": "Le spectacle est trop court : 19 min au lieu de 30 min visées."
+    },
+    {
+      "gravite": "important",
+      "acteNumero": 4,
+      "message": "L'acte 4 est un peu court : 147 s au lieu des 270 s de sa part, soit environ 205 mots. Joue plus longuement ce que le conte raconte DÉJÀ, sans inventer d’épisode : développe ses répliques, laisse les personnages se répondre, étire les répétitions qu’il porte. Si le passage est de la pure narration, sans une réplique à développer, LAISSE L’ACTE COURT : inventer tout un dialogue pour tenir la jauge est exactement ce qu’on ne veut pas."
+    },
+    {
+      "gravite": "important",
+      "acteNumero": 5,
+      "message": "L'acte 5 est un peu court : 56 s au lieu des 210 s de sa part, soit environ 257 mots. Joue plus longuement ce que le conte raconte DÉJÀ, sans inventer d’épisode : développe ses répliques, laisse les personnages se répondre, étire les répétitions qu’il porte. Si le passage est de la pure narration, sans une réplique à développer, LAISSE L’ACTE COURT : inventer tout un dialogue pour tenir la jauge est exactement ce qu’on ne veut pas."
+    },
+    {
+      "gravite": "important",
+      "acteNumero": 6,
+      "message": "L'acte 6 est un peu court : 168 s au lieu des 390 s de sa part, soit environ 370 mots. Joue plus longuement ce que le conte raconte DÉJÀ, sans inventer d’épisode : développe ses répliques, laisse les personnages se répondre, étire les répétitions qu’il porte. Si le passage est de la pure narration, sans une réplique à développer, LAISSE L’ACTE COURT : inventer tout un dialogue pour tenir la jauge est exactement ce qu’on ne veut pas."
+    }
+  ]
+}
