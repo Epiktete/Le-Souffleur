@@ -54,13 +54,17 @@
 
   // Annuler et rétablir au clavier (CDC §8).
   function surTouche(e: KeyboardEvent) {
+    const cible = e.target as HTMLElement | null;
+    const saisie = cible?.tagName === 'INPUT' || cible?.tagName === 'TEXTAREA';
     // Échap ferme le spectacle, sauf si l'on est en train de saisir du texte.
     if (e.key === 'Escape') {
-      const cible = e.target as HTMLElement | null;
-      const saisie = cible?.tagName === 'INPUT' || cible?.tagName === 'TEXTAREA';
       if (!saisie) { surQuitter(); return; }
     }
     if (!(e.ctrlKey || e.metaKey)) return;
+    // Dans une zone de saisie, Ctrl+Z annule la FRAPPE, comme partout : il
+    // annulait la dernière modification du spectacle, et remettait l'ancien
+    // texte dans le brouillon qu'on était en train d'écrire.
+    if (saisie) return;
     const touche = e.key.toLowerCase();
     if (touche === 'z' && !e.shiftKey) {
       e.preventDefault();

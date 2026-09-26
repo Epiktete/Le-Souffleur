@@ -19,6 +19,7 @@ import type { Synopsis } from '../services/schemas';
 import type { Probleme } from '../services/scene';
 import { enregistrerSpectacle } from '../services/db';
 import { noterRencontres } from '../services/historiqueContes';
+import { noterSpectacleCree } from '../services/sauvegarde';
 import type { Marionnette, ParametresGeneration, Spectacle } from '../types';
 import { reglagesIa } from './reglagesIa.svelte';
 
@@ -45,7 +46,16 @@ function creerGeneration() {
   let titresVus = $state<string[]>([]);
   let relancesFaites = $state(0);
 
+  /**
+   * L'histoire choisie et sa consigne, gardées le temps de l'écriture : si
+   * elle échoue, « Réessayer » relance l'écriture de CETTE histoire, au lieu
+   * de tout reprendre depuis les propositions.
+   */
+  let dernierChoix = $state<{ synopsis: Synopsis; ajustement: string } | null>(null);
+
   let spectacleId = $state<string | null>(null);
+  /** Vrai au 3e spectacle créé sans export : on rappelle de sauvegarder (CDC §12). */
+  let rappelSauvegarde = $state(false);
   let problemes = $state<Probleme[]>([]);
 
   let controleur: AbortController | null = null;
@@ -92,10 +102,15 @@ function creerGeneration() {
     return $state.snapshot(liste) as Marionnette[];
   }
 
-  function traiterErreur(e: unknown) {
-    // Une annulation n'est pas une erreur : on revient simplement au repos.
+  /**
+   * `retourChoix` : l'échec survient APRÈS que les trois histoires ont été
+   * proposées (écriture, ou « Proposer 3 autres »). Elles ne sont pas perdues :
+   * une annulation y ramène, et une erreur permet d'y revenir.
+   */
+  function traiterErreur(e: unknown, retourChoix = false) {
+    // Une annulation n'est pas une erreur : on revient là où l'on était.
     if (e instanceof ErreurIa && e.message.includes('annulée')) {
-      phase = 'repos';
+      phase = retourChoix && propositions ? 'choix' : 'repos';
       avancement = null;
       return;
     }
@@ -124,9 +139,14 @@ function creerGeneration() {
     get jetons() { return jetons; },
     get propositions() { return propositions; },
     get spectacleId() { return spectacleId; },
+    get rappelSauvegarde() { return rappelSauvegarde; },
     get problemes() { return problemes; },
     get relancesRestantes() { return IA.relancesPistesMax - relancesFaites; },
     get enCours() { return phase === 'propositions' || phase === 'ecriture'; },
+    /** Après une erreur, les histoires proposées sont-elles encore là ? */
+    get peutRevenirAuChoix() { return phase === 'erreur' && propositions !== null; },
+    /** Après une erreur d'écriture, on peut relancer l'écriture seule. */
+    get peutReessayerEcriture() { return phase === 'erreur' && propositions !== null && dernierChoix !== null; },
 
     /**
      * Qui joue le conte choisi. En mode automatique c'est l'application qui
@@ -161,6 +181,7 @@ function creerGeneration() {
       relancesFaites = 0;
       problemes = [];
       spectacleId = null;
+      dernierChoix = null;
 
       try {
         const r = await proposerHistoires(
@@ -183,8 +204,12 @@ function creerGeneration() {
     /** « Proposer 3 autres histoires » : relance l'étape 1 (CDC §6). */
     async proposerAutres() {
       if (!contexte || !propositions || this.relancesRestantes <= 0) return;
+      // Ce qui était affiché, pour le rendre intact si la relance est annulée
+      // ou échoue : elle ne doit ni effacer les cartes ni consommer un essai.
+      const avant = { propositions, contesVus, titresVus, relancesFaites };
       phase = 'propositions';
       erreur = null;
+      dernierChoix = null;
       // Les contes montrés au modèle sont exclus du choix, et pas seulement
       // les trois retenus : ceux qu'il a écartés une fois n'ont aucune raison
       // de mieux lui plaire la fois suivante, et d'autres doivent remonter.
@@ -206,7 +231,8 @@ function creerGeneration() {
         phase = 'choix';
         avancement = null;
       } catch (e) {
-        traiterErreur(e);
+        ({ propositions, contesVus, titresVus, relancesFaites } = avant);
+        traiterErreur(e, true);
       }
     },
 
@@ -215,6 +241,7 @@ function creerGeneration() {
       if (!contexte || !propositions) return;
       phase = 'ecriture';
       erreur = null;
+      dernierChoix = { synopsis, ajustement };
 
       // La troupe de CE conte : en mode automatique elle change d'un conte à
       // l'autre, et c'est seulement ici qu'elle est arrêtée.
@@ -254,13 +281,28 @@ function creerGeneration() {
         // pour cette raison.
         await enregistrerSpectacle($state.snapshot(spectacle) as Spectacle);
         spectacleId = spectacle.id;
+        rappelSauvegarde = noterSpectacleCree();
         noterRencontres([script.conteId], 'joue');
         problemes = script.problemes;
         phase = 'termine';
         avancement = null;
       } catch (e) {
-        traiterErreur(e);
+        traiterErreur(e, true);
       }
+    },
+
+    /** Après une erreur : retour aux trois histoires, telles qu'elles étaient. */
+    revenirAuChoix() {
+      if (!propositions) return;
+      phase = 'choix';
+      erreur = null;
+      detailErreur = null;
+    },
+
+    /** Après une erreur d'écriture : on relance l'écriture de la même histoire. */
+    async reessayerEcriture() {
+      if (!dernierChoix) return;
+      await this.ecrire(dernierChoix.synopsis, dernierChoix.ajustement);
     },
 
     /** Bouton « Annuler » pendant un appel (CDC §5). */
@@ -279,6 +321,7 @@ function creerGeneration() {
       spectacleId = null;
       problemes = [];
       contexte = null;
+      dernierChoix = null;
     },
   };
 }

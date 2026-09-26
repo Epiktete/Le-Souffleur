@@ -228,11 +228,30 @@ export function variabiliser(spectacle: Spectacle, id: string): SpectacleModele 
 
   const sansNoms = <T>(v: T): T => transformerChaines(v, (s) => remplacer(s, parNom));
 
+  // LES PHRASES DE PRÉSENTATION — le pitch, l'accroche — décrivent souvent la
+  // troupe par des noms communs : « une ourse gourmande », « un renard rusé ».
+  // Elles ne valent que pour CETTE troupe, et faisaient refuser deux
+  // spectacles sur trois au banc, alors que tout le texte joué était propre.
+  // On les vide plutôt que de perdre le spectacle ; l'écran de script se
+  // passe très bien d'un pitch.
+  const presentation = (texte: string | undefined): string => {
+    const t = sansNoms(texte ?? '');
+    return contientUnNom(t, spectacle.distribution) ? '' : t;
+  };
+  const bibleAllegee = allegerBible(spectacle.bible);
+  const adaptation = bibleAllegee.adaptation as { pitch?: string } | undefined;
+  const synopsis = bibleAllegee.synopsis as { accroche?: string } | undefined;
+  const bibleNeutre: Bible = {
+    ...bibleAllegee,
+    ...(adaptation ? { adaptation: { ...adaptation, pitch: presentation(adaptation.pitch) } } : {}),
+    ...(synopsis ? { synopsis: { ...synopsis, accroche: presentation(synopsis.accroche) } } : {}),
+  };
+
   const modele: SpectacleModele = {
     id,
     conteId: spectacle.bible.conteId ?? '',
     titre: spectacle.titre,
-    pitch: sansNoms(spectacle.pitch),
+    pitch: presentation(spectacle.pitch),
     roles: roles.map((r) => (r.voix ? { ...r, voix: sansNoms(r.voix) } : r)),
     parametres: {
       dureeMinutes: spectacle.parametres.dureeMinutes,
@@ -254,7 +273,7 @@ export function variabiliser(spectacle: Spectacle, id: string): SpectacleModele 
         ...('marionnetteId' in e ? { marionnetteId: parId.get(e.marionnetteId) ?? e.marionnetteId } : {}),
       })),
     })),
-    bible: sansNoms(allegerBible(spectacle.bible)),
+    bible: sansNoms(bibleNeutre),
     dureeEstimeeSecondes: spectacle.dureeEstimeeSecondes,
   };
 
@@ -293,13 +312,26 @@ function allegerBible(bible: Bible): Bible {
  * normalisée : un écart de graphie fait ÉCHOUER le versement plutôt que de
  * passer inaperçu.
  */
-export function verifierAucunNom(modele: SpectacleModele, distribution: Marionnette[]): void {
-  // Le nom se cherche EN MOT ENTIER. Sans cette précaution, « Ours » se
-  // retrouverait dans « ourse », dans « ourson » et dans « nourrir ».
-  const cherches = distribution
+/**
+ * Les noms à chercher, sous forme normalisée, EN MOT ENTIER. Sans cette
+ * précaution, « Ours » se retrouverait dans « ourse », dans « ourson » et dans
+ * « nourrir ».
+ */
+function nomsCherches(distribution: Pick<Marionnette, 'nom'>[]) {
+  return distribution
     .map((m) => normaliser(m.nom))
     .filter((n) => n.length >= 3)
     .map((n) => ({ nom: n, motif: new RegExp(`\\b${echapper(n)}\\b`) }));
+}
+
+/** Vrai si un nom de la troupe subsiste dans ce texte, sous quelque graphie. */
+function contientUnNom(texte: string, distribution: Pick<Marionnette, 'nom'>[]): boolean {
+  const normalise = normaliser(texte);
+  return nomsCherches(distribution).some(({ motif }) => motif.test(normalise));
+}
+
+export function verifierAucunNom(modele: SpectacleModele, distribution: Marionnette[]): void {
+  const cherches = nomsCherches(distribution);
   if (cherches.length === 0) return;
 
   // Les rôles sont des DONNÉES, pas du texte joué : ils gardent l'espèce et les

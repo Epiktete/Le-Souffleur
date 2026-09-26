@@ -2,6 +2,7 @@
   // Barre de progression par étapes (CDC §7).
   // Pas de streaming en V1 : on affiche l'étape en cours, ce qui suffit et
   // simplifie l'analyse du JSON (CDC §5).
+  import { untrack } from 'svelte';
   import { DUREES_ETAPES, ETAPES_ECRITURE, ETAPES_PROPOSITIONS } from '../config';
   import { tg } from '../textes';
   import { generation } from '../etat/generation.svelte';
@@ -50,11 +51,20 @@
   const surUneInstantanee = $derived(!!courante && INSTANTANEES.includes(courante));
 
   // Un $derived ne doit rien écrire : c'est l'effet qui mémorise, le dérivé qui lit.
+  //
+  // L'effet ne dépend QUE de l'étape en cours. Il relisait aussi
+  // `dernierIndex`, qu'il écrit : Svelte le rejouait alors en boucle, et
+  // pendant « Vérifications » la liste sautait d'un coup à la dernière étape,
+  // affichée terminée avant d'avoir commencé.
   $effect(() => {
-    if (position >= 0) dernierIndex = position;
-    // Une étape instantanée n'est pas dans la liste : on avance d'un cran pour
-    // que la précédente se termine visiblement, au lieu de rester à 92 %.
-    else if (surUneInstantanee) dernierIndex = Math.min(dernierIndex + 1, etapes.length - 1);
+    const pos = position;
+    const instantanee = surUneInstantanee;
+    untrack(() => {
+      if (pos >= 0) dernierIndex = pos;
+      // Une étape instantanée n'est pas dans la liste : on avance d'un cran pour
+      // que la précédente se termine visiblement, au lieu de rester à 92 %.
+      else if (instantanee) dernierIndex = Math.min(dernierIndex + 1, etapes.length - 1);
+    });
   });
 
   const indexCourant = $derived(position >= 0 ? position : dernierIndex);

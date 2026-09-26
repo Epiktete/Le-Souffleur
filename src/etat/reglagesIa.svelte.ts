@@ -24,6 +24,8 @@ function creerReglagesIa() {
   let cle = $state('');
   let memoriser = $state(false);
   let chargee = $state(false);
+  /** Les clés des autres fournisseurs, le temps de la visite : jamais stockées. */
+  const clesMisesDeCote = new Map<string, string>();
 
   return {
     get fournisseurId() { return fournisseurId; },
@@ -67,6 +69,14 @@ function creerReglagesIa() {
     /** Change de fournisseur : l'adresse et le modèle suivent le préréglage. */
     choisirFournisseur(id: string) {
       const p = prereglage(id);
+      // UNE CLÉ PAR FOURNISSEUR. Une clé OpenRouter gardée en passant sur
+      // OpenAI partait chez OpenAI dès le test de connexion ou la liste des
+      // modèles. On la met de côté, en mémoire seulement, et on la retrouve si
+      // l'on revient à ce fournisseur.
+      if (id !== fournisseurId) {
+        clesMisesDeCote.set(fournisseurId, cle);
+        cle = clesMisesDeCote.get(id) ?? '';
+      }
       fournisseurId = id;
       // « Autre » garde ce que l'utilisateur a saisi.
       if (p.baseUrl) baseUrl = p.baseUrl;
@@ -119,6 +129,7 @@ function creerReglagesIa() {
     /** Bouton « Oublier la clé » (CDC §5) : mémoire et stockage. */
     async oublierCle() {
       cle = '';
+      clesMisesDeCote.clear();
       memoriser = false;
       try {
         await ecrireReglage('ia', {

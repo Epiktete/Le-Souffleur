@@ -484,3 +484,24 @@ describe('controler : ce que la revue laissait passer au banc', () => {
     expect(p.filter((x) => x.acteNumero !== undefined && /un peu/.test(x.message))).toEqual([]);
   });
 });
+
+describe('controler : une peluche ne change pas de costume', () => {
+  const acte = (elements: ElementScript[]): Acte =>
+    ({ id: 'a1', numero: 1, titre: 'Acte 1', tableauId: 't1', resume: '', elements });
+  const costumes = (texte: string) => controler({
+    actes: [acte([entree('lapin', 'M1G'), didascalie(texte)])],
+    nbMarionnettistes: 1, marionnetteIds: ['lapin'], nomDe,
+    interactionPublic: 'aucune', dureeCibleSecondes: 10,
+  }).filter((p) => /costume/.test(p.message));
+
+  it('signale un chapeau ou un déguisement, et désigne l’élément', () => {
+    const p = costumes('Pilou arrive fièrement, un petit chapeau sur la tête et un beau nœud.');
+    expect(p).toHaveLength(1);
+    expect(p[0].position).toBe(2);
+    expect(costumes('Il se déguise en loup.')).toHaveLength(1);
+  });
+
+  it('ne confond pas un mot qui contient « robe » ou « cape »', () => {
+    expect(costumes('Il dérobe le grain et s’échappe.')).toEqual([]);
+  });
+});

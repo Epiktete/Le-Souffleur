@@ -2,6 +2,7 @@
 //
 // Critère d'acceptation du §13 : « une réplique modifiée met à jour la durée ;
 // l'impression tient sur des pages A4 lisibles ».
+import { readFileSync } from 'node:fs';
 import { expect, type Page, test } from '@playwright/test';
 import { creerMarionnette } from './aides';
 import { installerFauxModele, TROIS_MARIONNETTES } from './faux-modele';
@@ -226,4 +227,51 @@ test('le bouton Jouer mène au mode spectacle', async ({ page }) => {
   await ouvrirUnScript(page);
   await page.getByRole('button', { name: 'Jouer' }).click();
   await expect(page).toHaveURL(/\/jouer$/);
+});
+
+test('ce qu’on tape dans un élément survit à une autre modification du script', async ({ page }) => {
+  await ouvrirUnScript(page);
+
+  await page.getByRole('button', { name: /Modifier cet élément \(2\)/ }).first().click();
+  const zone = page.locator('.edition textarea');
+  await zone.fill('Brouillon pas encore validé.');
+
+  // « Insérer après » change les actes ; le brouillon était alors effacé.
+  await page.getByRole('button', { name: 'Insérer après' }).first().click();
+  await expect(zone).toHaveValue('Brouillon pas encore validé.');
+
+  // Ctrl+Z dans la zone de texte n'annule plus le spectacle entier.
+  // Elle annulait l'insertion qu'on vient de faire : le nombre d'éléments
+  // retombait d'un cran.
+  const n = await page.locator('.element').count();
+  await zone.focus();
+  await page.keyboard.press('Control+z');
+  await page.waitForTimeout(200);
+  await expect(page.locator('.element')).toHaveCount(n);
+  await expect(zone).toBeVisible();
+});
+
+test('la sauvegarde exporte un fichier, puis le réimporte avec un aperçu', async ({ page }) => {
+  await ouvrirUnScript(page);
+  await page.goto('/');
+
+  await page.getByRole('button', { name: 'Sauvegarde', exact: true }).click();
+  const panneau = page.getByRole('dialog', { name: 'Sauvegarde' });
+  const [telechargement] = await Promise.all([
+    page.waitForEvent('download'),
+    panneau.getByRole('button', { name: 'Exporter toutes mes données' }).click(),
+  ]);
+  expect(telechargement.suggestedFilename()).toMatch(/^le-souffleur-sauvegarde-\d{4}-\d{2}-\d{2}\.json$/);
+  const chemin = await telechargement.path();
+  const contenu = JSON.parse(readFileSync(chemin, 'utf8'));
+  expect(contenu.format).toBe('le-souffleur');
+  expect(contenu.spectacles.length).toBe(1);
+  // La clé de test n'est jamais dans le fichier.
+  expect(JSON.stringify(contenu)).not.toContain('cle-de-test');
+
+  // Réimport : l'aperçu d'abord, puis « Ajouter » ne crée aucun doublon.
+  await panneau.locator('input[type=file]').setInputFiles(chemin!);
+  await expect(panneau).toContainText('1 spectacle');
+  await panneau.getByRole('button', { name: 'Ajouter à mes données' }).click();
+  await expect(panneau).toContainText('Importé : 0 marionnette, 0 spectacle.');
 });

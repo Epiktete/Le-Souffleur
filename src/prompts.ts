@@ -103,12 +103,14 @@ s’enfuit, est chassé ou tombe dans son propre piège. Un mot trop ancien pour
 cet âge est remplacé par le mot d’aujourd’hui ; le reste de la langue du conte
 est gardé.`;
   if (age <= 4) {
+    // Sans exemple, volontairement : au banc, le modèle a recopié l'exemple
+    // donné (« je vais te chatouiller ») dans toutes les menaces du spectacle,
+    // jusqu'à « Chatouillez, les chiens, la queue du renard ».
     return `${commun}
 À cet âge : aucune peur réelle, le méchant menace pour rire et reste
-maladroit. Une menace de mort ou de blessure devient une menace pour rire :
-« je vais te briser », « je t’écorche », « je vais te manger » deviennent
-« gare à toi ! », « je vais te chatouiller ! ». Personne n’est attrapé, mordu
-ni mangé, même hors de scène : celui qui devait l’être s’enfuit à temps.`;
+maladroit. Une menace de mort ou de blessure devient une menace pour rire,
+trouvée dans la situation de la scène. Personne n’est attrapé, mordu ni
+mangé, même hors de scène : celui qui devait l’être s’enfuit à temps.`;
   }
   if (age <= 6) return `${commun}\nÀ cet âge : une petite tension, qui se résout vite.`;
   if (age <= 8) return `${commun}\nÀ cet âge : un vrai adversaire, jamais humilié.`;
@@ -742,7 +744,10 @@ Trois degrés de gravité :
 - « mineur » : un détail.
 
 Chaque remarque vise un acte (et, si possible, le numéro de l’élément) : une
-incohérence qui touche deux actes donne une remarque pour chacun. La
+incohérence qui touche deux actes donne une remarque pour chacun. Un défaut
+qui revient dans TOUT le script (la même tournure, la même faute de
+didascalie) donne une seule remarque, sans « acte » : elle sera appliquée à
+chaque acte. La
 modification dit concrètement quoi écrire, déplacer ou retirer.
 
 Les « problèmes déjà détectés par l’application » te sont montrés pour que tu

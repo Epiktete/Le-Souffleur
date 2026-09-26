@@ -6,6 +6,7 @@
   // charte. Exception assumée du §11 : le texte est en casse normale, car les
   // capitales ralentissent la lecture d'un texte long. Seuls les noms des
   // marionnettes et les labels restent en capitales.
+  import { untrack } from 'svelte';
   import { tsc } from '../textes';
   import { spectacleCourant, elementVierge } from '../etat/spectacleCourant.svelte';
   import type { ElementScript, Id, Main } from '../types';
@@ -50,8 +51,14 @@
   // svelte-ignore state_referenced_locally
   let brouillon = $state<ElementScript>({ ...element });
 
+  // La copie se fait À L'OUVERTURE de l'édition, et seulement là. L'effet
+  // relisait `element`, qui change d'objet à chaque modification du script
+  // (insérer, déplacer, annuler) : ce que le parent venait de taper était
+  // alors effacé sous ses doigts.
   $effect(() => {
-    if (enEdition) brouillon = structuredClone($state.snapshot(element)) as ElementScript;
+    if (enEdition) {
+      brouillon = untrack(() => structuredClone($state.snapshot(element)) as ElementScript);
+    }
   });
 
   function valider() {

@@ -12,7 +12,7 @@
   import Progression from './Progression.svelte';
   import ChoixHistoires from './ChoixHistoires.svelte';
   import { BORNES } from '../config';
-  import { tb, tg, ts } from '../textes';
+  import { tb, tg, ts, tsv } from '../textes';
   import { studio } from '../etat/studio.svelte';
   import { reglagesIa } from '../etat/reglagesIa.svelte';
   import { bibliotheque } from '../etat/bibliotheque.svelte';
@@ -137,6 +137,10 @@
         {#if generation.jetons.total}
           <p class="aide">{tg.fin.jetons(generation.jetons.total)}</p>
         {/if}
+        <!-- Rappel discret, au 3e spectacle créé sans export (CDC §12). -->
+        {#if generation.rappelSauvegarde}
+          <p class="aide" role="status">{tsv.rappel}</p>
+        {/if}
         <button class="cta" onclick={ouvrirSpectacle}>{tg.fin.ouvrir}</button>
       </section>
 
@@ -155,7 +159,16 @@
           <button class="secondaire-bouton" onclick={() => generation.reinitialiser()}>
             {tg.erreur.fermer}
           </button>
-          <button onclick={generer}>{tg.erreur.reessayer}</button>
+          <!-- Les trois histoires ne sont pas perdues : on peut y revenir, et
+               « Réessayer » relance l'écriture de celle qui était choisie. -->
+          {#if generation.peutRevenirAuChoix}
+            <button class="secondaire-bouton" onclick={() => generation.revenirAuChoix()}>
+              {tg.erreur.revenirChoix}
+            </button>
+          {/if}
+          <button onclick={() => (generation.peutReessayerEcriture ? generation.reessayerEcriture() : generer())}>
+            {tg.erreur.reessayer}
+          </button>
         </div>
       </section>
 

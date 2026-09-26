@@ -359,6 +359,27 @@ export function controler(c: ContexteControle): Probleme[] {
     }
   }
 
+  // 6 quater. Une peluche ne change pas de costume (CDC §6, contraintes
+  // matérielles). Au banc : « Pilou arrive fièrement, un petit chapeau sur la
+  // tête et un beau nœud autour du cou » — le parent n'a pas de troisième main
+  // pour l'habiller entre deux répliques.
+  const COSTUME = /(?<![\p{L}])(chapeau|nœud|noeud|écharpe|foulard|cravate|lunettes|couronne|costume|robe|cape|masque|perruque|collier|tablier|bonnet|casquette|déguis\p{L}*|habill\p{L}*|coiff[ée]\p{L}*)(?![\p{L}])/iu;
+  for (const acte of c.actes) {
+    for (const [i, e] of acte.elements.entries()) {
+      if (e.type !== 'didascalie') continue;
+      const trouve = COSTUME.exec(e.texte);
+      if (!trouve) continue;
+      problemes.push({
+        gravite: 'important',
+        acteNumero: acte.numero,
+        position: i + 1,
+        message: `« ${e.texte.slice(0, 80)} » habille la marionnette (« ${trouve[1]} »). `
+          + 'Une peluche ne change pas de costume en cours de spectacle : le parent a '
+          + 'les deux mains prises. Montre-le par l’attitude, ou fais-le dire.',
+      });
+    }
+  }
+
   // 7. Durée dans la tolérance.
   //
   // Le problème d'ensemble ne porte aucun numéro d'acte : il ne pouvait donc

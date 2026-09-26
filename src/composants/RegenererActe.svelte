@@ -3,7 +3,8 @@
   //
   // L'ancienne version est gardée le temps de comparer : rien n'est remplacé
   // tant que le parent n'a pas tranché.
-  import { tsc } from '../textes';
+  import { onDestroy } from 'svelte';
+  import { t, tsc } from '../textes';
   import { spectacleCourant } from '../etat/spectacleCourant.svelte';
   import { reglagesIa } from '../etat/reglagesIa.svelte';
   import { regenererActe } from '../services/pipeline';
@@ -25,6 +26,11 @@
 
   let controleur: AbortController | null = null;
 
+  // L'appel est lié à cet écran : quitter le script, ou passer en mode Jouer,
+  // l'annule. Sinon l'acte était remplacé en pleine lecture, sans les boutons
+  // « Garder / Revenir » pour trancher.
+  onDestroy(() => controleur?.abort());
+
   async function lancer() {
     const s = spectacleCourant.spectacle;
     if (!s || !reglagesIa.pretPourGenerer) {
@@ -36,10 +42,7 @@
     erreur = null;
     controleur = new AbortController();
 
-    const acte = s.actes.find((a) => a.id === acteId);
-    const sauvegarde = acte
-      ? (structuredClone($state.snapshot(acte.elements)) as ElementScript[])
-      : null;
+    const spectacleId = s.id;
 
     try {
       const r = await regenererActe($state.snapshot(s), acteId, consigne, {
@@ -47,11 +50,21 @@
         signal: controleur.signal,
         surAvancement: () => {},
       });
+      if (spectacleCourant.spectacle?.id !== spectacleId) return;
+      // L'ancienne version est celle d'AU MOMENT DU REMPLACEMENT : une
+      // correction faite à la main pendant l'appel reste récupérable par
+      // « Revenir à l'ancienne ».
+      const acte = spectacleCourant.spectacle.actes.find((a) => a.id === acteId);
+      const sauvegarde = acte
+        ? (structuredClone($state.snapshot(acte.elements)) as ElementScript[])
+        : null;
       spectacleCourant.remplacerActe(acteId, r.elements);
       ancienne = sauvegarde;
       ouvert = false;
       consigne = '';
     } catch (e) {
+      // Annuler n'est pas une erreur : on revient simplement au formulaire.
+      if (e instanceof ErreurIa && e.message === t.erreursIa.annule) return;
       erreur = e instanceof ErreurIa ? e.message : String(e);
     } finally {
       enCours = false;

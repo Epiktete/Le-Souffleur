@@ -139,6 +139,20 @@ describe('variabiliser : plus aucun nom dans le modèle', () => {
     expect('texte' in dida && dida.texte).toBe(`On entend le Loup, puis ${variable('r2')}.`);
   });
 
+  it('vide une phrase de présentation qui décrit la troupe, au lieu de refuser le spectacle', () => {
+    // Au banc : « Une grosse ourse gourmande se fait berner… » — un nom commun
+    // qui est aussi le nom de la peluche. Le texte joué, lui, reste strict.
+    const s = spectacleFactice();
+    s.pitch = 'Une grosse ourse gourmande se fait berner.';
+    s.bible = { ...s.bible, adaptation: { pitch: 'Une ourse gourmande et un ours.' }, synopsis: { accroche: 'Ours rencontre Ourse Gourmande.' } };
+    const m = variabiliser(s, 'en-essai--1');
+    expect(m.pitch).toBe('');
+    expect((m.bible.adaptation as { pitch: string }).pitch).toBe('');
+    // Une accroche qui n'emploie que les noms exacts est gardée, variabilisée.
+    expect((m.bible.synopsis as { accroche: string }).accroche)
+      .toBe(`${variable('r2')} rencontre ${variable('r1')}.`);
+  });
+
   it('échoue bruyamment si un nom subsiste', () => {
     // Un nom écrit d'une autre façon — « ourse gourmande » en minuscules —
     // échappe à la substitution exacte. Le garde-fou, lui, cherche sous forme

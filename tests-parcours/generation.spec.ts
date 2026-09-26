@@ -571,3 +571,52 @@ test('sans aucune marionnette, le bouton dit d’en créer une', async ({ page }
   await expect(page.getByText('Créez d’abord une marionnette')).toBeVisible();
   await expect(page.getByRole('button', { name: 'Générer le script' })).toBeDisabled();
 });
+
+test('annuler pendant l’écriture ramène aux trois histoires, sans les perdre', async ({ page }) => {
+  await installerFauxModele(page, { delaiMs: 1500 });
+  await preparerStudio(page);
+  await lancerEtAttendreLeChoix(page);
+
+  await page.getByRole('button', { name: 'Choisir cette histoire' }).first().click();
+  const progression = page.getByRole('status', { name: 'Génération en cours' });
+  await expect(progression).toContainText('Adaptation du conte');
+  await progression.getByRole('button', { name: 'Annuler' }).click();
+
+  // Les cartes sont toujours là : le parent peut en choisir une autre.
+  await expect(page.getByText('Choisissez une histoire')).toBeVisible();
+  await expect(page.getByRole('button', { name: 'Choisir cette histoire' })).toHaveCount(3);
+});
+
+test('après une erreur d’écriture, on revient aux histoires, et « Réessayer » ne relance que l’écriture', async ({ page }) => {
+  // Appel 1 : les synopsis. Appel 2 : la transposition, qui échoue une fois.
+  await installerFauxModele(page, { echecAuNumero: 2, statutEchec: 500 });
+  await preparerStudio(page);
+  await lancerEtAttendreLeChoix(page);
+
+  await page.getByRole('button', { name: 'Choisir cette histoire' }).first().click();
+  await expect(page.getByText('La génération s’est arrêtée')).toBeVisible({ timeout: 15000 });
+
+  // « Revenir aux histoires » : les trois cartes, intactes.
+  await page.getByRole('button', { name: 'Revenir aux histoires' }).click();
+  await expect(page.getByRole('button', { name: 'Choisir cette histoire' })).toHaveCount(3);
+
+  // On rechoisit : l'écriture repart et aboutit, sans repasser par les
+  // propositions.
+  await page.getByRole('button', { name: 'Choisir cette histoire' }).first().click();
+  await expect(page.getByRole('status', { name: 'Génération en cours' })).toContainText('Adaptation du conte');
+  await expect(page.getByText('Votre spectacle est prêt')).toBeVisible({ timeout: 25000 });
+});
+
+test('« Réessayer » après une erreur d’écriture relance l’écriture de la même histoire', async ({ page }) => {
+  await installerFauxModele(page, { echecAuNumero: 2, statutEchec: 500 });
+  await preparerStudio(page);
+  await lancerEtAttendreLeChoix(page);
+
+  await page.getByRole('button', { name: 'Choisir cette histoire' }).first().click();
+  await expect(page.getByText('La génération s’est arrêtée')).toBeVisible({ timeout: 15000 });
+  await page.getByRole('button', { name: 'Réessayer' }).click();
+
+  // L'écriture reprend directement : pas de nouvel écran de choix.
+  await expect(page.getByRole('status', { name: 'Génération en cours' })).toContainText('Adaptation du conte');
+  await expect(page.getByText('Votre spectacle est prêt')).toBeVisible({ timeout: 25000 });
+});

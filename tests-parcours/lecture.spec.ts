@@ -29,6 +29,13 @@ async function ouvrirLaLecture(page: Page) {
   await page.getByRole('button', { name: 'Ouvrir le script' }).click();
   await page.getByRole('button', { name: 'Jouer' }).click();
   await expect(page.getByRole('application', { name: 'Lecture' })).toBeVisible();
+
+  // Au lever de rideau, le premier décor s'annonce : on le referme pour que
+  // chaque parcours parte de la première page de texte.
+  await expect(page.locator('.decor')).toContainText('Premier décor');
+  await page.keyboard.press('Space');
+  await expect(page.locator('.decor')).toBeHidden();
+  await page.waitForTimeout(320); // l'anti-rebond des pédales
 }
 
 /** Numéro de page affiché dans le bandeau, et total. */
@@ -177,6 +184,30 @@ test('le changement de décor s’annonce et attend un appui', async ({ page }) 
   }
   // Le spectacle simulé a deux tableaux : l'écran doit apparaître.
   expect(vu).toBe(true);
+});
+
+test('revenir en arrière ne rejoue pas l’annonce d’un décor', async ({ page }) => {
+  await ouvrirLaLecture(page);
+  const [, total] = await position(page);
+  for (let i = 1; i < total; i++) {
+    await page.keyboard.press('Space');
+    await page.waitForTimeout(320);
+    if (!(await page.locator('.decor').isVisible())) continue;
+    // Le décor annoncé, on le referme ; on avance d'une page, puis on RECULE
+    // sur la page qui change de décor : l'annonce ne doit pas revenir.
+    await page.keyboard.press('Space');
+    await page.waitForTimeout(320);
+    const [ici] = await position(page);
+    if (ici >= total) throw new Error('le décor change sur la dernière page : le test ne prouve rien');
+    await page.keyboard.press('Space');
+    await page.waitForTimeout(320);
+    await page.keyboard.press('ArrowLeft');
+    await page.waitForTimeout(320);
+    await expect(page.locator('.decor')).toBeHidden();
+    expect((await position(page))[0]).toBe(ici);
+    return;
+  }
+  throw new Error('aucun changement de décor rencontré : le test ne prouve rien');
 });
 
 test('le nombre de pages ne bouge pas pendant l’annonce d’un décor', async ({ page }) => {

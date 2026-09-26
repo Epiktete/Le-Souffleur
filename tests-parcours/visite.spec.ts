@@ -105,7 +105,12 @@ test('le premier script puis la première lecture ont chacun leurs bulles', asyn
   await expect(bulle(page)).toHaveCount(0);
   await expect(place).toHaveText(avant!);
 
-  // Ensuite, la barre Espace tourne bien les pages.
+  // Ensuite, la barre Espace referme l'annonce du premier décor…
+  await expect(page.locator('.decor')).toContainText('Premier décor');
+  await page.keyboard.press(' ');
+  await expect(page.locator('.decor')).toBeHidden();
+  // … puis tourne bien les pages (après l'anti-rebond des pédales).
+  await page.waitForTimeout(320);
   await page.keyboard.press(' ');
   await expect(place).not.toHaveText(avant!);
 });

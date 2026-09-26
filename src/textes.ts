@@ -315,6 +315,7 @@ export const tg = {
     titre: 'La génération s’est arrêtée',
     reessayer: 'Réessayer',
     fermer: 'Fermer',
+    revenirChoix: 'Revenir aux histoires',
     details: 'Détail technique',
     detailsAide:
       'Copiez ces lignes si vous signalez le problème. Elles ne contiennent pas votre clé.',
@@ -322,6 +323,43 @@ export const tg = {
 } as const;
 
 /** Textes de la colonne des spectacles (CDC §7, colonne de droite). */
+/** Sauvegarde : export et import des données (CDC §12). */
+export const tsv = {
+  titre: 'Sauvegarde',
+  intro: 'Vos marionnettes et vos spectacles ne vivent que dans ce navigateur. '
+    + 'Un fichier de sauvegarde est la seule façon de ne pas les perdre, ou de les '
+    + 'retrouver sur un autre appareil.',
+  exporter: 'Exporter toutes mes données',
+  exporterAide: 'Un fichier .json : marionnettes, spectacles et réglages. Jamais votre clé API.',
+  importer: 'Importer un fichier',
+  importerAide: 'Un fichier exporté par Le Souffleur, ici ou sur un autre appareil.',
+  exporte: 'Fichier enregistré dans vos téléchargements.',
+  apercu: (marionnettes: number, spectacles: number, date: string) =>
+    `Ce fichier contient ${marionnettes} marionnette${marionnettes > 1 ? 's' : ''} et `
+    + `${spectacles} spectacle${spectacles > 1 ? 's' : ''}, exporté le ${date}.`,
+  ajouter: 'Ajouter à mes données',
+  ajouterAide: 'Ce que vous avez déjà est gardé ; seul ce qui manque est ajouté.',
+  remplacer: 'Remplacer mes données',
+  remplacerAide: 'Vos marionnettes et vos spectacles actuels sont effacés.',
+  confirmerRemplacement: 'Effacer vos marionnettes et vos spectacles actuels, et les remplacer par ceux du fichier ? '
+    + 'Cela ne peut pas être annulé.',
+  confirmerOui: 'Oui, remplacer',
+  annuler: 'Annuler',
+  fermer: 'Fermer',
+  bilan: (marionnettes: number, spectacles: number, ignores: number) =>
+    `Importé : ${marionnettes} marionnette${marionnettes > 1 ? 's' : ''}, `
+    + `${spectacles} spectacle${spectacles > 1 ? 's' : ''}.`
+    + (ignores ? ` ${ignores} élément${ignores > 1 ? 's' : ''} déjà présent${ignores > 1 ? 's' : ''}, gardé${ignores > 1 ? 's' : ''} tel${ignores > 1 ? 's' : ''} quel${ignores > 1 ? 's' : ''}.` : ''),
+  erreurs: {
+    illisible: 'Ce fichier n’est pas lisible. Choisissez un fichier .json exporté par Le Souffleur.',
+    pasSouffleur: 'Ce fichier n’est pas une sauvegarde du Souffleur.',
+    tropRecent: 'Ce fichier vient d’une version plus récente du Souffleur. Mettez la page à jour, puis réessayez.',
+    ecriture: 'L’import a échoué ; rien n’a été modifié.',
+  },
+  rappel: 'Pensez à sauvegarder : trois spectacles ont été créés depuis votre dernier export.',
+  exporterSpectacle: 'Exporter',
+} as const;
+
 export const tsp = {
   ouvrir: 'Ouvrir',
   renommer: 'Renommer',
@@ -434,6 +472,8 @@ export const tl = {
 
   /** Écran intercalaire au changement de décor. */
   changementDecor: 'Changement de décor',
+  /** Au lever de rideau : le décor à installer avant de commencer. */
+  premierDecor: 'Premier décor',
   continuer: 'Appuyez pour continuer',
 
   /** Menu. */

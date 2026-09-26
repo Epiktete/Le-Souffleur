@@ -13,6 +13,7 @@
   import titreSouffleur from '../../assets/Titre.webp';
   import { reglagesIa } from '../etat/reglagesIa.svelte';
   import { tutoriel } from '../etat/tutoriel.svelte';
+  import PanneauSauvegarde from './PanneauSauvegarde.svelte';
 
   interface Props {
     surTiroir: (lequel: 'bibliotheque' | 'spectacles') => void;
@@ -27,6 +28,9 @@
   );
 
   const tiroirsVisibles = $derived(largeur.etroit && !largeur.tresEtroit);
+
+  /** Le panneau d'export et d'import (CDC §12). */
+  let sauvegardeOuverte = $state(false);
 </script>
 
 <div class="entete sans-impression" class:avec-bandeau={avecBandeau}>
@@ -56,7 +60,7 @@
       {t.entete.parametresIa}
       <span class="badge">{etatCle}</span>
     </button>
-    <button class="secondaire-bouton">{t.entete.sauvegarde}</button>
+    <button class="secondaire-bouton" onclick={() => (sauvegardeOuverte = true)}>{t.entete.sauvegarde}</button>
     <button class="secondaire-bouton" onclick={() => tutoriel.ouvrir(0)}>{t.entete.aide}</button>
   </nav>
 
@@ -67,6 +71,10 @@
   {/if}
   </header>
 </div>
+
+{#if sauvegardeOuverte}
+  <PanneauSauvegarde surFermer={() => (sauvegardeOuverte = false)} />
+{/if}
 
 <style>
   .entete {

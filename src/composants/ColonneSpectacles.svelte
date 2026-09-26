@@ -7,7 +7,8 @@
   import { formaterDuree } from '../services/duree';
   import { naviguer } from '../services/routeur';
   import { spectacles } from '../etat/spectacles.svelte';
-  import { t, tsp } from '../textes';
+  import { t, tsp, tsv } from '../textes';
+  import { exporterSpectacle, nomDeFichier, telecharger } from '../services/sauvegarde';
   import type { Spectacle } from '../types';
 
   let aSupprimer = $state<Spectacle | null>(null);
@@ -90,6 +91,13 @@
           <div class="actions">
             <button class="secondaire-bouton" onclick={() => commencerRenommage(s)}>
               {tsp.renommer}
+            </button>
+            <!-- Un seul spectacle, pour l'envoyer à un autre parent (CDC §12). -->
+            <button
+              class="secondaire-bouton"
+              onclick={() => telecharger(nomDeFichier(s.titre), exporterSpectacle($state.snapshot(s) as Spectacle))}
+            >
+              {tsv.exporterSpectacle}
             </button>
             <button class="secondaire-bouton" onclick={() => (aSupprimer = s)}>
               {tsp.supprimer}

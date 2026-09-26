@@ -130,8 +130,6 @@
       // spectacle se repliait alors sur une seule page, la position était
       // ramenée en arrière, l'annonce de décor se rejouait — et le spectacle
       // tournait en rond sur ce décor, page après page, sans jamais avancer.
-      // Le garde-fou de decorVuPour ne suffisait pas : c'est le nombre de
-      // pages qui changeait sous lui.
       if (disponible > 0 && disponible !== hauteurDisponible) {
         hauteurDisponible = disponible;
       }
@@ -171,20 +169,23 @@
   /**
    * Un changement de décor s'annonce et attend un appui (CDC §9).
    *
-   * On retient la page déjà annoncée : sans cela, une remesure de l'écran
-   * recalculerait les pages, l'effet se rejouerait et l'annonce reviendrait
-   * sans fin, bloquant le spectacle sur ce décor.
+   * Il s'annonce quand on AVANCE vers la page qui change de décor, et
+   * seulement là : en revenant en arrière pour relire une réplique, l'annonce
+   * se rejouait et coûtait un appui de plus en pleine représentation. C'est un
+   * geste, pas un état : une remesure de l'écran ne peut donc plus la rejouer.
+   *
+   * Le premier décor s'annonce aussi, au lever de rideau : c'est celui qu'il
+   * faut installer avant de commencer.
    */
-  let decorVuPour = $state<number | null>(null);
-
+  let leverDeRideauFait = false;
   $effect(() => {
-    const numero = lecture.page;
-    if (pages[numero]?.changementTableau && decorVuPour !== numero) decorAnnonce = true;
+    if (leverDeRideauFait || pages.length === 0) return;
+    leverDeRideauFait = true;
+    if (lecture.page === 0 && s?.tableaux.length) decorAnnonce = true;
   });
 
-  /** Referme l'annonce de décor et retient qu'elle a été vue. */
+  /** Referme l'annonce de décor. */
   function fermerDecor() {
-    decorVuPour = lecture.page;
     decorAnnonce = false;
   }
 
@@ -195,6 +196,11 @@
   /** Va à une page et met l'ancre à jour, repère du prochain redécoupage. */
   function allerA(numero: number) {
     const borne = Math.min(Math.max(numero, 0), Math.max(pages.length - 1, 0));
+    // On annonce le décor en avançant d'une page, ou en repartant du début.
+    const avance = borne === lecture.page + 1;
+    if ((avance && pages[borne]?.changementTableau) || (borne === 0 && numero === 0 && lecture.page !== 0)) {
+      decorAnnonce = true;
+    }
     lecture.allerA(borne);
     const premiere = pages[borne]?.rangees[0]?.id;
     if (premiere) lecture.memoriserAncre(premiere);
@@ -339,7 +345,7 @@
   {#if decorAnnonce && tableau}
     <!-- Écran intercalaire : on ne joue pas pendant qu'on change le décor. -->
     <div class="decor" data-visite="page">
-      <p class="mono etiquette">{tl.changementDecor}</p>
+      <p class="mono etiquette">{lecture.page === 0 ? tl.premierDecor : tl.changementDecor}</p>
       <p class="titre-decor">{tableau.titre}</p>
       {#if tableau.description}<p class="description">{tableau.description}</p>{/if}
       <p class="mono continuer">{tl.continuer}</p>

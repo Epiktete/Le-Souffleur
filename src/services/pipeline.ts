@@ -775,8 +775,16 @@ ${formaterAdaptation(adaptation)}`;
     relecture = { remarques: [], echec: (e as Error).message || String(e) };
   }
   const relus = relecture.remarques;
+  // Une remarque SANS acte vise le spectacle entier : un défaut qui revient
+  // partout (des didascalies qui finissent toutes sur un état, par exemple).
+  // Elle était jetée sans bruit ; elle va désormais à chaque acte réécrit, et
+  // si elle est importante, elle fait réécrire tous les actes.
+  const globaleImportante = relus.some(
+    (p) => p.acte === undefined && (p.gravite === 'bloquant' || p.gravite === 'important'),
+  );
 
   const actesACorriger = new Set<number>([
+    ...(globaleImportante ? actesConduite.map((a) => a.numero) : []),
     ...problemes
       .filter((p) => (p.gravite === 'bloquant' || p.gravite === 'important') && p.acteNumero !== undefined)
       .map((p) => p.acteNumero as number),
@@ -815,8 +823,8 @@ ${formaterAdaptation(adaptation)}`;
             .filter((p) => p.acteNumero === acte.numero)
             .map((p) => `- [${p.gravite}]${ou(p.position)} ${p.message}`),
           ...remarques
-            .filter((p) => p.acte === acte.numero)
-            .map((p) => `- [${p.gravite}]${ou(p.element)} ${p.remarque}`
+            .filter((p) => p.acte === acte.numero || p.acte === undefined)
+            .map((p) => `- [${p.gravite}]${p.acte === undefined ? ' (tout le spectacle)' : ou(p.element)} ${p.remarque}`
               + (p.modification ? `\n  Modification : ${p.modification}` : '')),
         ].join('\n');
         try {
