@@ -79,10 +79,6 @@ que l'histoire finit bien. Il n'y a rien à écrire pour cela dans une fiche.
 
 ## La langue
 
-Les enfants n'entendent que les **répliques** : la narration devient des
-didascalies, que seul le parent lit. Les retouches de langue portent donc d'abord
-sur ce que disent les personnages.
-
 La plupart des textes de `wiki/fr/` sont nos propres traductions, déjà en français
 d'aujourd'hui. Le travail de langue se concentre sur Perrault, La Fontaine et les
 pièces de Guignol.
@@ -110,10 +106,12 @@ d'un enfant de maternelle, et jusqu'à 6 ans s'il reste opaque à un enfant de C
 Les livres pour les tout-petits contiennent deux fois moins de mots rares que les
 livres pour enfants : c'est le seul endroit où l'on en retire vraiment.
 
-**D'abord les répliques.** Ce que les enfants entendent, ce sont les répliques. Les
-retouches par âge portent donc sur les paroles des personnages, et sur la
-narration qu'un personnage pourrait dire. Une narration qui deviendra une
-didascalie ne reçoit que les retouches « toujours », puisque seul le parent la lit.
+**Tout ce qui s'entend.** Les enfants entendent les répliques, et aussi la
+narration que dit le conteur (CDC §6, « Le conteur et les trois voies de la
+parole », 2026-09-26). Les retouches par âge portent donc sur les paroles des
+personnages comme sur la narration. Une seule exception : `parler` ne vaut que
+pour les répliques. Le conteur garde la langue du récit, passé simple compris :
+c'est celle de toutes les histoires qu'on lit aux enfants.
 
 **Une retouche est la plus petite possible.**
 - On change le mot ou le bout de phrase qui gêne, et le reste de la phrase ne
