@@ -63,6 +63,12 @@ export type Synopsis = z.infer<typeof schemaSynopsis> & {
   id: string;
   /** « D'après … » : titre, culture, source. Calculé depuis la fiche. */
   reference: string;
+  /**
+   * Ce que l'âge du public change au conte, recopié de sa fiche de retouches
+   * par l'application (CDC §6), jamais écrit par le modèle. Absent quand le
+   * conte n'a pas encore de fiche de retouches.
+   */
+  annonces?: string[];
 };
 
 /**

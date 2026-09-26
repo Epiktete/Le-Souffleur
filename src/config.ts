@@ -37,6 +37,12 @@ export const BORNES = {
   // coupe sans les mutiler.
   dureeMinutes: { min: 2, max: 30, defaut: 5 },
   ageAuditoire: { min: 3, max: 10, defaut: 5 },
+  /**
+   * Jusqu'à cet âge, le script s'ouvre sur une note de jeu (CDC §6) : chez les
+   * petits, la peur passe par ce qu'on voit et entend plus que par ce qu'on
+   * raconte, et savoir d'avance que ça finit bien les rassure.
+   */
+  ageNoteDeJeu: 6,
   marionnettesParSpectacle: { min: 1, max: 6 },
   /** Chaque marionnettiste a deux mains, donc deux marionnettes au plus. */
   mainsParMarionnettiste: 2,

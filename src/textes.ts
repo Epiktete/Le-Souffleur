@@ -392,6 +392,10 @@ export const tsc = {
   marionnettistes: 'Marionnettistes',
   distribution: 'Distribution',
   sansVoix: 'Pas de voix particulière',
+  /** Note de jeu pour les petits (CDC §6), écrite par l'application. */
+  noteDeJeuTitre: 'Pour les petits',
+  noteDeJeu: 'La grosse voix, oui ; le cri qui surprend, non. Aucun personnage ne se change '
+    + 'en menace sous leurs yeux. Dites-leur avant de commencer que l’histoire finit bien.',
   relectureEchouee: 'La relecture finale n’a pas pu se faire : le modèle a mis trop de temps. '
     + 'Le script est complet, mais relisez-le avant de le jouer.',
 

@@ -90,7 +90,24 @@ Tout le reste du conte, même rugueux, reste le conte.`;
 /* ================================================================== */
 
 /**
- * Ce qu’on adoucit selon l’âge du public (CDC §6).
+ * L’âge, quand le texte du conte a déjà été retouché pour lui (CDC §6, « Les
+ * retouches selon l’âge »). Le modèle n’adapte plus rien : un petit modèle à
+ * qui l’on dit « adoucis pour 4 ans » adoucit à chaque étape, et en force le
+ * style. Il lui reste à ne pas défaire ce qui a été décidé.
+ */
+export function consignesAgeRetouche(age: number): string {
+  return `Public de ${age} ans. Le texte du conte qu’on te donne est DÉJÀ à la mesure
+de cet âge : ce qui fait peur, ce qui est cruel et la langue ancienne y ont été
+retouchés exprès, pour cet âge précis. N’adoucis rien de plus et ne durcis
+rien : ce qui reste dans le texte — une menace, un coup de bâton, un méchant
+puni, un personnage avalé — est voulu, et se joue comme le texte le dit, sans
+détail ajouté. Les mots du texte sont ceux qu’un enfant de cet âge comprend :
+garde-les, n’en simplifie aucun.`;
+}
+
+/**
+ * Ce qu’on adoucit selon l’âge du public (CDC §6), pour un conte qui n’a pas
+ * encore sa fiche de retouches (wiki/retouches/).
  *
  * Seulement ce qui concerne un conte existant : la peur et la cruauté. Rien
  * ici ne demande d’ajouter des répliques.
@@ -355,9 +372,9 @@ bête douce ne joue jamais un loup, un prédateur ou un ogre.`}
 
 Pour choisir, demande-toi lequel ces marionnettes joueront le mieux, lequel
 tient dans ${d.dureeMinutes} minutes sans perdre sa fin (on te dit pour chacun
-s’il faudra l’étirer ou le couper), lequel convient à ${d.ageAuditoire} ans une
-fois adouci, et, si le parent a écrit une ébauche, lequel s’en approche. Trois
-histoires vraiment différentes, de préférence de trois origines.
+s’il faudra l’étirer ou le couper), lequel convient à ${d.ageAuditoire} ans, et,
+si le parent a écrit une ébauche, lequel s’en approche. Trois histoires
+vraiment différentes, de préférence de trois origines.
 
 ${LEGENDE_ESPECES}
 
@@ -376,8 +393,15 @@ Pour chaque synopsis :
   tient (le nom du rôle tel que la fiche l’écrit), et en quelques mots pourquoi
   elle y va bien ;
 - « changements » : un à trois points d’une phrase chacun, ce qui diffère du
-  conte et pourquoi.
+  conte et pourquoi. Pour un conte marqué « Déjà adapté pour ${d.ageAuditoire} ans »,
+  l’application montre elle-même au parent ce que l’âge change : tes
+  « changements » ne le répètent pas, et n’ajoutent aucun adoucissement ; ils
+  ne disent que ce que la durée et les marionnettes imposent. Un tel conte peut
+  n’en avoir aucun.
 
+L’âge : un conte marqué « Déjà adapté pour ${d.ageAuditoire} ans » l’est déjà, fond
+et langue ; ce qu’il garde de peur ou de cruauté est voulu, et ton résumé le
+raconte tel quel. Pour un conte qui n’est pas marqué ainsi :
 ${consignesAge(d.ageAuditoire)}
 
 Tu renvoies un objet JSON de cette forme :
@@ -412,7 +436,28 @@ ${contes}${relance}`,
  * référence de toute la suite : la mise en scène y prend ses répliques, et la
  * relecture y compare le script.
  */
-export function promptTransposition(d: Dossier) {
+export function promptTransposition(
+  d: Dossier,
+  /** Vrai quand le texte a déjà reçu les retouches de l’âge (wiki/retouches/). */
+  retouche = false,
+) {
+  // Un texte déjà retouché pour l’âge : la transposition ne fait plus que le
+  // remplacement des personnages. Sinon, l’ancienne consigne d’adoucissement.
+  const aRetoucher = retouche
+    ? `- Le texte a DÉJÀ été retouché pour l’âge du public et pour ce qui a mal
+  vieilli : tu n’y changes rien d’autre que ce qu’impose le remplacement des
+  personnages.
+
+${consignesAgeRetouche(d.ageAuditoire)}`
+    : `- Tu retouches aussi, en changeant le moins de mots possible, ce qui a mal
+  vieilli et ce qui est trop cruel pour l’âge du public :
+
+${MAL_VIEILLI}
+
+${consignesAge(d.ageAuditoire)}`;
+  const permis = retouche
+    ? 'Tu n’appliques que ceux qu’impose le remplacement des personnages.'
+    : 'Tu n’appliques que ceux qu’impose le\nremplacement des personnages, et l’adoucissement demandé par l’âge.';
   return {
     system: `Tu es ÉDITEUR pour un théâtre de marionnettes d’enfants : tu prépares
 le texte d’un conte, en le respectant comme on respecte l’œuvre d’un auteur.
@@ -432,18 +477,12 @@ parent, et de ne faire que les changements que ce remplacement impose.
   l’oiseau s’envole, le renard détale). L’action reste celle du conte.
 - Les personnages sans marionnette restent tels quels : la mise en scène
   décidera plus tard de ce qu’ils deviennent.
-- Tu retouches aussi, en changeant le moins de mots possible, ce qui a mal
-  vieilli et ce qui est trop cruel pour l’âge du public :
-
-${MAL_VIEILLI}
-
-${consignesAge(d.ageAuditoire)}
+${aRetoucher}
 
 Les « changements annoncés au parent » qu’on te montre plus bas sont ceux du
 SPECTACLE ENTIER, pas de cette passe. Ceux qui coupent, resserrent ou
 réorganisent pour tenir dans le temps sont l’affaire du découpage, qui vient
-après : ici tu n’en tiens aucun compte. Tu n’appliques que ceux qu’impose le
-remplacement des personnages, et l’adoucissement demandé par l’âge.
+après : ici tu n’en tiens aucun compte. ${permis}
 
 Et RIEN D’AUTRE. Tu ne coupes rien, tu ne résumes rien, tu n’ajoutes ni
 phrase ni réplique ni morale. Tout ce qui n’a pas besoin de changer reste mot
@@ -586,6 +625,8 @@ export function promptEcrireActe(
   aSuivre: string,
   etatScene: string,
   consigneParent?: string,
+  /** Vrai quand le conte a déjà reçu les retouches de l’âge. */
+  retouche = false,
 ) {
   const consigne = consigneParent
     ? `\n\nConsigne du parent pour cet acte, prioritaire :\n« ${consigneParent} »`
@@ -597,7 +638,9 @@ enfants.
 
 C’est la DEUXIÈME PASSE : tu dois écrire cet acte en entier, en mettant en
 scène le passage du texte transposé qu’il joue.
-
+${retouche ? `
+${consignesAgeRetouche(d.ageAuditoire)}
+` : ''}
 - Les paroles des personnages du texte deviennent des répliques, MOT POUR MOT.
 - La narration devient ce qu’on voit : des didascalies (ce que font les
   mains), des effets de scène, des entrées et des sorties. Ce qu’on ne peut
@@ -693,7 +736,20 @@ export function promptRelecture(
   conteOriginal: string,
   /** Le texte transposé pour les marionnettes du parent. */
   texteTranspose: string,
+  /** Vrai quand le conte a déjà reçu les retouches de l’âge : il fait référence. */
+  retouche = false,
 ) {
+  // Un conte retouché pour l’âge : la revue juge l’écart au texte, DANS LES
+  // DEUX SENS. Un adoucissement ajouté est une faute, comme une cruauté restée.
+  const ecartAge = retouche
+    ? `- ce qui a mal vieilli et serait revenu (caricature, sexisme, moquerie
+  d’une infirmité) ; un écart au conte de référence sur ce qui fait peur ou
+  mal, DANS UN SENS COMME DANS L’AUTRE : une cruauté ou un détail qu’il n’a
+  pas, ou un adoucissement qu’il n’a pas (le méchant qui s’enfuit au lieu
+  d’être puni, un coup changé en chatouille) — la modification rend ce que dit
+  le conte ;`
+    : `- ce qui a mal vieilli et serait resté (caricature, sexisme, moquerie d’une
+  infirmité), ou une cruauté que l’âge ne supporte pas ;`;
   return {
     system: `Tu es DIRECTEUR ÉDITORIAL d’un théâtre de marionnettes destiné aux
 enfants : tu fais la dernière revue avant que le script soit livré au parent.
@@ -733,8 +789,7 @@ ${PLACE_DES_DIDASCALIES}
   c’est bien de… ? ») : c’est une morale déguisée, à supprimer ;
 - la fin : jouée en entier, ni expédiée ni seulement annoncée ;
 - une marionnette animale appelée par l’espèce du conte et non par la sienne ;
-- ce qui a mal vieilli et serait resté (caricature, sexisme, moquerie d’une
-  infirmité), ou une cruauté que l’âge ne supporte pas ;
+${ecartAge}
 - ce qu’une main ne peut pas faire, un objet à manipuler ;
 - chaque tableau décrit concrètement.
 
@@ -768,7 +823,7 @@ intact. Une liste vide est une réponse parfaitement acceptable.
 
 ${CONTRAINTES_RESUME}
 
-${consignesAge(d.ageAuditoire)}
+${retouche ? consignesAgeRetouche(d.ageAuditoire) : consignesAge(d.ageAuditoire)}
 
 Tu renvoies un objet JSON de cette forme :
 {"remarques": [{"acte": 2, "element": 14, "gravite": "important",
@@ -811,6 +866,8 @@ export function promptCorrectionActe(
   conteOriginal: string,
   /** Le script entier, pour garder la cohérence d'un acte à l'autre. */
   scriptComplet: string,
+  /** Vrai quand le conte a déjà reçu les retouches de l’âge. */
+  retouche = false,
 ) {
   return {
     system: `Tu es DIRECTEUR ÉDITORIAL d’un théâtre de marionnettes pour enfants.
@@ -836,7 +893,9 @@ attente de réponse celle qui ferait une de trop.
 Ce qui manque à la compréhension se reprend d’abord au conte d’origine. Le
 script entier t’est donné pour que l’acte réécrit s’accorde avec ceux qui
 l’entourent : ne réécris que celui-ci.
-
+${retouche ? `
+${consignesAgeRetouche(d.ageAuditoire)}
+` : ''}
 ${LE_TEXTE_DU_CONTE}
 
 ${PLACE_DES_DIDASCALIES}

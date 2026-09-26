@@ -229,6 +229,7 @@ for (const cas of CAS.filter((c) => !FILTRE || c.nom === FILTRE)) {
       conteId: script.conteId,
       adaptation: script.bibleAdaptation,
       transposition: script.bibleTransposition,
+      retouches: script.bibleRetouches,
       relecture: script.bibleRelecture,
     });
 

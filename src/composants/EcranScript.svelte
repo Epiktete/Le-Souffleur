@@ -6,6 +6,7 @@
   import Vignette from './Vignette.svelte';
   import RegenererActe from './RegenererActe.svelte';
   import { formaterDuree } from '../services/duree';
+  import { BORNES } from '../config';
   import { spectacleCourant } from '../etat/spectacleCourant.svelte';
   import { t, tl, tsc } from '../textes';
   import { visite } from '../etat/visite.svelte';
@@ -138,6 +139,10 @@
         {s.parametres.nbMarionnettistes > 1 ? 'marionnettistes' : 'marionnettiste'}
       </p>
 
+      {#if s.parametres.ageAuditoire <= BORNES.ageNoteDeJeu}
+        <p class="note-jeu"><strong>{tsc.noteDeJeuTitre}.</strong> {tsc.noteDeJeu}</p>
+      {/if}
+
       <!-- La fiche des voix est un aide-mémoire précieux pour le parent. -->
       <div class="distribution">
         {#each s.distribution as m (m.id)}
@@ -260,6 +265,7 @@
 
   .pitch { font-size: 16px; margin: 8px 0 4px; }
   .meta { font-size: 12px; color: var(--encre2); margin: 8px 0 12px; }
+  .note-jeu { font-size: 13px; color: var(--encre2); margin: 0 0 12px; max-width: 70ch; }
 
   .distribution { display: flex; flex-wrap: wrap; gap: 14px; }
   .fiche { display: flex; align-items: center; gap: 8px; }

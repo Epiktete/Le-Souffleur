@@ -273,6 +273,7 @@ function creerGeneration() {
           conteId: script.conteId,
           adaptation: script.bibleAdaptation,
           transposition: script.bibleTransposition,
+          retouches: script.bibleRetouches,
           relecture: script.bibleRelecture,
         });
 

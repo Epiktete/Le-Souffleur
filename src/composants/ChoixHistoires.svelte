@@ -63,10 +63,12 @@
           </ul>
         </div>
 
-        {#if s.changements.length}
+        <!-- Ce que l'âge change vient de la fiche de retouches ; le reste, du modèle. -->
+        {#if s.changements.length || s.annonces?.length}
           <div class="bloc">
             <span class="mono etiquette">{tg.choix.changements}</span>
             <ul class="changements">
+              {#each s.annonces ?? [] as a, i (i)}<li>{a}</li>{/each}
               {#each s.changements as c, i (i)}<li>{c}</li>{/each}
             </ul>
           </div>

@@ -57,7 +57,8 @@ import {
   type Candidat,
 } from './choixContes';
 import { extraireJson } from './jsonLlm';
-import { conteParId, reference, texteDuConte, type Conte } from './repertoire';
+import { conteParId, reference, retouchesDuConte, texteDuConte, type Conte } from './repertoire';
+import { appliquerRetouches, type TexteRetouche } from './retouches';
 import { lireHistorique, malusDe } from './historiqueContes';
 import {
   attribuerMains,
@@ -375,11 +376,23 @@ export async function proposerHistoires(
     : marionnettes;
   const dossier = dejaVu?.dossier ?? construireDossier(surScene, parametres);
 
+  // Chaque candidat qui a sa fiche de retouches, retouché pour cet âge : le
+  // modèle lit ce que l'âge y change déjà, et le parent le lira sur la carte.
+  const retouches = new Map<string, TexteRetouche>();
+  await Promise.all(choix.candidats.map(async (c) => {
+    const rc = await retoucherPourAge(c.conte.id, await texteDuConte(c.conte.id), dossier.ageAuditoire);
+    if (rc) retouches.set(c.conte.id, rc);
+  }));
+
   const r = await appelJson(
     o,
     promptSynopsis(
       dossier,
-      choix.candidats.map((c) => formaterCandidat(c, surScene, dossier.budgetMotsTotal))
+      choix.candidats
+        .map((c) => formaterCandidat(c, surScene, dossier.budgetMotsTotal,
+          retouches.has(c.conte.id)
+            ? { age: dossier.ageAuditoire, annonces: retouches.get(c.conte.id)!.annonces }
+            : null))
         .join('\n\n'),
       dejaVu?.titres ?? [],
       Boolean(vivier),
@@ -400,6 +413,9 @@ export async function proposerHistoires(
       // en changer la typographie (« l'Ours » pour « l’Ours »).
       titre: conte.titre,
       reference: reference(conte),
+      // Ce que l'âge change déjà, écrit par la fiche de retouches et non par
+      // le modèle : le parent le lit sur la carte, avant les changements.
+      ...(retouches.has(conte.id) ? { annonces: retouches.get(conte.id)!.annonces } : {}),
       // Les noms sont remis dans leur graphie exacte : le modèle écrit parfois
       // « doudou lapin » là où la fiche dit « Doudou Lapin ».
       distribution: s.distribution.map((d) => ({
@@ -448,7 +464,13 @@ export function longueurConte(motsConte: number, motsSpectacle: number): string 
  * rôles, la distribution proposée par l'application avec ce que devient
  * l'espèce de chaque personnage, et le corps de sa fiche.
  */
-export function formaterCandidat(c: Candidat, marionnettes: Marionnette[], motsSpectacle: number): string {
+export function formaterCandidat(
+  c: Candidat,
+  marionnettes: Marionnette[],
+  motsSpectacle: number,
+  /** Le conte déjà retouché pour l'âge du public, s'il a sa fiche de retouches. */
+  retouche?: { age: number; annonces: string[] } | null,
+): string {
   const k = c.conte;
   const roles = k.roles
     .map((r) => `  - ${r.nom} (${r.espece}) : ${r.traits.join(', ') || '—'}`
@@ -483,9 +505,15 @@ export function formaterCandidat(c: Candidat, marionnettes: Marionnette[], motsS
       + `(${g[0].role.espece}) ; ici, ${g.map((a) => a.marionnetteNom).join(' et ')} ne le sont pas. `
       + 'Si l’histoire repose sur cette ressemblance ou cette parenté, ne retiens pas ce conte.')
     .join('');
+  // Ce que l'âge change DÉJÀ dans ce conte : le modèle n'a pas à l'adoucir
+  // davantage, ni à l'annoncer au parent (l'application le fait).
+  const dejaAdapte = retouche
+    ? `\nDéjà adapté pour ${retouche.age} ans : ${retouche.annonces.join(' ')
+      || 'rien ne change au fond du conte à cet âge.'}`
+    : '';
   return `### ${k.id} — ${k.titre}
 Origine : ${k.culture}. ${k.source}.
-${capitale(k.genre)}, pour les ${k.ageMin}-${k.ageMax} ans. ${k.personnages} rôle(s) principal(aux), ${k.figurants} figurant(s).
+${capitale(k.genre)}, pour les ${k.ageMin}-${k.ageMax} ans. ${k.personnages} rôle(s) principal(aux), ${k.figurants} figurant(s).${dejaAdapte}
 ${longueurConte(c.mots, motsSpectacle)}
 Rôles du conte :
 ${roles}
@@ -564,6 +592,35 @@ function capitale(s: string): string {
 }
 
 /* ================================================================== */
+/* Les retouches selon l'âge                                           */
+/* ================================================================== */
+
+/** Ce que la bible garde des retouches appliquées : de quoi les recalculer. */
+export interface RetouchesAppliquees {
+  age: number;
+  /** Les niveaux retenus, triés : deux âges de même profil, même texte. */
+  profil: string[];
+  annonces: string[];
+}
+
+/**
+ * Le texte d'un conte retouché pour un âge, ou null s'il n'a pas de fiche de
+ * retouches. Une fiche qui ne s'applique plus (un passage du texte a changé
+ * depuis) vaut null aussi : l'ancien comportement vaut mieux qu'un texte à
+ * moitié adouci. tools/verifier-retouches.mjs dit ce qui cloche.
+ */
+export async function retoucherPourAge(id: string, texte: string, age: number): Promise<TexteRetouche | null> {
+  const fiche = await retouchesDuConte(id);
+  if (!fiche || !texte) return null;
+  const r = appliquerRetouches(texte, fiche, age);
+  if (!r.ok) {
+    console.warn(`Retouches de « ${id} » inapplicables, ancien comportement : ${r.erreurs.join(' ; ')}`);
+    return null;
+  }
+  return r;
+}
+
+/* ================================================================== */
 /* Phase 2 : écrire le script                                          */
 /* ================================================================== */
 
@@ -585,6 +642,11 @@ export interface ScriptResultat {
   voix: Record<string, string>;
   /** Passe 1 : le texte du conte transposé, référence de toute la suite. */
   bibleTransposition: Transposition;
+  /**
+   * Les retouches de l'âge appliquées au conte (CDC §6), ou null quand il n'a
+   * pas encore sa fiche. Le texte retouché ne se garde pas : il se recalcule.
+   */
+  bibleRetouches: RetouchesAppliquees | null;
   bibleAdaptation: Adaptation;
   bibleRelecture: unknown;
   jetons: Jetons;
@@ -610,12 +672,20 @@ export async function ecrireScript(
   // du conte au lieu de celui de la peluche.
   const roles = tableDesRoles(conte, synopsis, distribution);
   o.surAvancement({ etape: 'transposition' });
-  const texte = await texteDuConte(conte.id);
+  const texteOriginal = await texteDuConte(conte.id);
+  // Le texte du conte POUR CET ÂGE (CDC §6, « Les retouches selon l'âge ») :
+  // décidé hors ligne, appliqué ici par le code. C'est lui que toute la suite
+  // prend pour référence. Sans fiche de retouches, le texte d'origine et
+  // l'ancienne consigne d'adoucissement.
+  const retouche = await retoucherPourAge(conte.id, texteOriginal, dossier.ageAuditoire);
+  const texte = retouche?.texte ?? texteOriginal;
   // Le délai de chaque appel suit la durée du spectacle et la longueur du conte.
   const motsConte = compterMots(texte);
   const delai = (base: number = IA.delaiMs) => delaiAppel(base, dossier.dureeMinutes, motsConte);
   // Le synopsis, suivi de l'espèce que chaque personnage prend dans le texte.
-  const blocSynopsis = [formaterSynopsis(synopsis, ajustement), formaterEspeces(conte, synopsis, distribution)]
+  // Ses annonces sont celles des retouches réellement appliquées.
+  const synopsisLu: Synopsis = { ...synopsis, annonces: retouche?.annonces };
+  const blocSynopsis = [formaterSynopsis(synopsisLu, ajustement), formaterEspeces(conte, synopsis, distribution)]
     .filter(Boolean).join('\n\n');
 
   /* ---------------------------------------------------------------- */
@@ -624,12 +694,13 @@ export async function ecrireScript(
 
   // Le modèle récrit le conte ENTIER : il lui faut de quoi écrire autant de
   // mots qu'il en lit, plus sa réflexion.
-  const pTransposition = promptTransposition(dossier);
+  const pTransposition = promptTransposition(dossier, Boolean(retouche));
+  const ageRetouche = retouche ? dossier.ageAuditoire : undefined;
   const rTransposition = await appelJson(
     o,
     {
       system: pTransposition.system,
-      user: `${pTransposition.user}\n\n${formaterConte(conte, texte)}\n\n${blocSynopsis}`,
+      user: `${pTransposition.user}\n\n${formaterConte(conte, texte, ageRetouche)}\n\n${blocSynopsis}`,
     },
     schemaTransposition,
     TEMPERATURES.transposition,
@@ -729,6 +800,8 @@ ${formaterAdaptation(adaptation)}`;
         formaterScript(actes, nomDe),
         aSuivre,
         decrireEtatScene(etatScene, nomDe),
+        undefined,
+        Boolean(retouche),
       ),
       schemaActeEcrit,
       TEMPERATURES.ecriture,
@@ -777,7 +850,11 @@ ${formaterAdaptation(adaptation)}`;
   // (réponse hors format, modèle récalcitrant), le spectacle déjà écrit est
   // livré tel quel plutôt que perdu. Seule une annulation l'interrompt.
   let relecture: Relecture & { echec?: string } = { remarques: [] };
-  const conteOriginal = formaterConte(conte, texte).replace('LE CONTE À ADAPTER', 'LE CONTE D’ORIGINE');
+  // La référence de la revue et des corrections : le conte TEL QU'IL SE JOUE
+  // à cet âge. Leur donner l'original, c'était les inviter à remettre la
+  // dévoration que la fiche de retouches avait retirée.
+  const conteOriginal = formaterConte(conte, texte, ageRetouche)
+    .replace('LE CONTE À ADAPTER', 'LE CONTE D’ORIGINE');
   try {
     const rRelecture = await appelJson(
       o,
@@ -792,6 +869,7 @@ ${formaterAdaptation(adaptation)}`;
         tableaux.map((tb) => `- ${tb.titre} : ${tb.description || '(aucune description)'}`).join('\n'),
         conteOriginal,
         transposition.texte,
+        Boolean(retouche),
       ),
       schemaRelecture,
       TEMPERATURES.relecture,
@@ -873,6 +951,7 @@ ${formaterAdaptation(adaptation)}`;
               blocAdaptation,
               conteOriginal,
               scriptRelu,
+              Boolean(retouche),
             ),
             schemaActeEcrit,
             TEMPERATURES.correction,
@@ -931,6 +1010,9 @@ ${formaterAdaptation(adaptation)}`;
     conteId: conte.id,
     voix: voixParMarionnette(adaptation, distribution),
     bibleTransposition: transposition,
+    bibleRetouches: retouche
+      ? { age: dossier.ageAuditoire, profil: retouche.profil, annonces: retouche.annonces }
+      : null,
     bibleAdaptation: adaptation,
     bibleRelecture: relecture,
     jetons,
@@ -1002,9 +1084,17 @@ ${tr.texte}
  * son texte intégral. Si le texte manque, la fiche seule — c'est mieux que
  * rien, et cela ne devrait jamais arriver.
  */
-export function formaterConte(c: Conte, texte: string): string {
+export function formaterConte(
+  c: Conte,
+  texte: string,
+  /** L'âge pour lequel le texte a déjà été retouché, s'il l'a été. */
+  ageRetouche?: number,
+): string {
+  const quel = ageRetouche
+    ? `TEXTE INTÉGRAL DU CONTE, DÉJÀ RETOUCHÉ POUR ${ageRetouche} ANS`
+    : 'TEXTE INTÉGRAL DU CONTE';
   const integral = texte
-    ? `TEXTE INTÉGRAL DU CONTE (environ ${compterMots(texte)} mots) :
+    ? `${quel} (environ ${compterMots(texte)} mots) :
 """
 ${texte}
 """`
@@ -1019,6 +1109,14 @@ ${integral}`;
 
 /** Le synopsis que le parent a choisi, avec sa consigne d'ajustement. */
 function formaterSynopsis(s: Synopsis, ajustement: string): string {
+  // Ce que l'âge change, DÉJÀ fait dans le texte : présenté à part, pour
+  // qu'aucune étape ne l'applique une seconde fois.
+  const annonces = s.annonces?.length
+    ? `Retouches de l’âge, DÉJÀ faites dans le texte du conte (ne les applique pas une seconde fois) :
+${s.annonces.map((x) => `- ${x}`).join('\n')}
+
+`
+    : '';
   const consigne = ajustement
     ? `\n\nConsigne d’ajustement du parent, à respecter :\n« ${ajustement} »`
     : '';
@@ -1029,7 +1127,7 @@ ${s.resume.map((x) => `- ${x}`).join('\n')}
 Distribution :
 ${s.distribution.map((d) => `- ${d.marionnette} joue ${d.role}${d.note ? ` : ${d.note}` : ''}`).join('\n')}
 
-Changements annoncés au parent :
+${annonces}Changements annoncés au parent :
 ${s.changements.length ? s.changements.map((x) => `- ${x}`).join('\n') : '- aucun'}${consigne}`;
 }
 
@@ -1381,19 +1479,29 @@ export async function regenererActe(
     conteId?: string;
     synopsis?: Synopsis;
     transposition?: Transposition;
+    retouches?: RetouchesAppliquees | null;
     adaptation?: Adaptation;
   };
   const dossier = bible.dossier ?? construireDossier(distribution, spectacle.parametres);
 
   const conte = bible.conteId ? conteParId(bible.conteId) : undefined;
+  // Le conte a-t-il été écrit sur un texte retouché pour l'âge ? Sa
+  // transposition l'est alors déjà. Un spectacle d'avant les trois passes
+  // relit le texte, retouché s'il a désormais sa fiche.
+  let retouche = Boolean(bible.retouches);
   let blocAdaptation = `Titre : ${spectacle.titre}\n${spectacle.pitch}`;
   if (conte) {
+    let texteLu = '';
+    if (!bible.transposition) {
+      const texte = await texteDuConte(conte.id);
+      const r = await retoucherPourAge(conte.id, texte, spectacle.parametres.ageAuditoire);
+      retouche = Boolean(r);
+      texteLu = formaterConte(conte, r?.texte ?? texte, r ? spectacle.parametres.ageAuditoire : undefined);
+    }
     blocAdaptation = [
       // Le conte transposé s'il existe ; les spectacles d'avant les trois
       // passes n'ont que le texte d'origine.
-      bible.transposition
-        ? formaterTransposition(conte, bible.transposition)
-        : formaterConte(conte, await texteDuConte(conte.id)),
+      bible.transposition ? formaterTransposition(conte, bible.transposition) : texteLu,
       bible.synopsis ? formaterSynopsis(bible.synopsis, '') : '',
       bible.synopsis ? formaterEspeces(conte, bible.synopsis, distribution) : '',
       bible.adaptation ? formaterAdaptation(bible.adaptation) : '',
@@ -1429,6 +1537,7 @@ export async function regenererActe(
       aSuivre,
       decrireEtatScene(etat, nomDe),
       consigne.trim() || undefined,
+      retouche,
     ),
     schemaActeEcrit,
     TEMPERATURES.ecriture,

@@ -112,6 +112,20 @@ const peluche = (nom: string, description: string, traits: string[]): Marionnett
   };
 };
 
+/** Le Petit Chaperon rouge, sans l'âge : la troupe et les réglages communs. */
+function chaperon() {
+  return {
+    troupe: [
+      peluche('Rosette', 'Une poupée de chiffon en robe rouge, avec un petit bonnet.', ['curieux', 'gentil']),
+      peluche('Loup Gris', 'Un loup gris en peluche, grandes oreilles et gueule rouge.', ['méchant', 'gourmand']),
+      peluche('Mamie Rose', 'Une marionnette de grand-mère en tissu, cheveux de laine blanche.', ['sage', 'gentil']),
+    ],
+    dureeMinutes: 5, nbMarionnettistes: 1 as const,
+    interactionPublic: 'quelques' as const, ebauche: 'le Petit Chaperon rouge',
+    conte: 'fr-perrault-chaperon-rouge',
+  };
+}
+
 /**
  * Six cas, volontairement dissemblables : c'est en variant l'âge, la durée,
  * l'espèce des peluches et la présence d'une ébauche qu'on fait sortir les
@@ -178,11 +192,21 @@ const CAS = {
     dureeMinutes: 30, ageAuditoire: 7, nbMarionnettistes: 1 as const,
     interactionPublic: 'quelques' as const, ebauche: '',
   },
+  // 7, 8 et 9 : LE MÊME CONTE À TROIS ÂGES (chantier « l'âge », CDC §13). Une
+  // version par tranche de la fiche de retouches du Chaperon : l'armoire
+  // (jusqu'à 4 ans), les bûcherons (5 à 8), la fin de Perrault (9 et 10).
+  // Seul l'âge change. L'ébauche fait venir le conte parmi les candidats, et
+  // `conte` dit au relais de retenir son synopsis parmi les trois.
+  7: { ...chaperon(), ageAuditoire: 4 },
+  8: { ...chaperon(), ageAuditoire: 7 },
+  9: { ...chaperon(), ageAuditoire: 9 },
 } as const;
 
 const NUM = Number(process.env.RELAIS_CAS || 1) as keyof typeof CAS;
 const cas = CAS[NUM];
-if (!cas) throw new Error('RELAIS_CAS doit valoir 1 à 6.');
+if (!cas) throw new Error('RELAIS_CAS doit valoir 1 à 9.');
+/** Le conte imposé par le cas, s'il y en a un. */
+const CONTE_IMPOSE: string | undefined = 'conte' in cas ? cas.conte : undefined;
 
 const DISTRIBUTION = [...cas.troupe];
 
@@ -224,7 +248,13 @@ test(`relais local — cas ${NUM}`, async () => {
 
   try {
     const propositions = await proposerHistoires(DISTRIBUTION, PARAMETRES, options);
-    const choisie = propositions.retenues[0];
+    const choisie = CONTE_IMPOSE
+      ? propositions.retenues.find((s) => s.conte === CONTE_IMPOSE)
+      : propositions.retenues[0];
+    if (!choisie) {
+      throw new Error(`Le conte imposé « ${CONTE_IMPOSE} » n'est pas parmi les trois synopsis : `
+        + `${propositions.retenues.map((s) => s.conte).join(', ')}.`);
+    }
     const script = await ecrireScript(propositions.dossier, DISTRIBUTION, choisie, '', options);
     const spectacle = assemblerSpectacle(script, DISTRIBUTION, PARAMETRES, {
       dossier: propositions.dossier,
@@ -235,6 +265,7 @@ test(`relais local — cas ${NUM}`, async () => {
       conteId: script.conteId,
       adaptation: script.bibleAdaptation,
       transposition: script.bibleTransposition,
+      retouches: script.bibleRetouches,
       relecture: script.bibleRelecture,
     });
 

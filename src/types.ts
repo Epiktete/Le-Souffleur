@@ -115,6 +115,8 @@ export interface Bible {
   synopsis?: unknown;
   ajustement?: string;
   transposition?: unknown;
+  /** Les retouches de l'âge appliquées au conte : âge, profil, annonces (CDC §6). */
+  retouches?: unknown;
   adaptation?: unknown;
   relecture?: unknown;
 }
