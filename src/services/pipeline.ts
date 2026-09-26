@@ -186,6 +186,24 @@ export function cumulerJetons(total: Jetons, ajout?: Jetons): Jetons {
 }
 
 /**
+ * Le délai d'un appel, à la mesure du spectacle.
+ *
+ * Un spectacle de 30 minutes part d'un conte plus long, découpé en actes plus
+ * longs, et relu en entier : chaque appel prend plus de temps. Avec un délai
+ * fixe, la génération s'arrêtait sur « le modèle met trop de temps ». Le
+ * délai de base vaut jusqu'à 10 minutes de spectacle et 4 000 mots de conte ;
+ * au-delà, il grandit en proportion du plus exigeant des deux.
+ */
+export function delaiAppel(baseMs: number, dureeMinutes: number, motsConte = 0): number {
+  const facteur = Math.max(
+    1,
+    dureeMinutes / IA.dureeReferenceDelaiMinutes,
+    motsConte / IA.motsConteReferenceDelai,
+  );
+  return Math.round(baseMs * facteur);
+}
+
+/**
  * Un appel au modèle, dont la réponse est lue et validée.
  * En cas de JSON invalide, une relance renvoie au modèle le message d'erreur
  * précis (CDC §6, « Lecture des réponses »).
@@ -587,6 +605,9 @@ export async function ecrireScript(
   const roles = tableDesRoles(conte, synopsis, distribution);
   o.surAvancement({ etape: 'transposition' });
   const texte = await texteDuConte(conte.id);
+  // Le délai de chaque appel suit la durée du spectacle et la longueur du conte.
+  const motsConte = compterMots(texte);
+  const delai = (base: number = IA.delaiMs) => delaiAppel(base, dossier.dureeMinutes, motsConte);
   // Le synopsis, suivi de l'espèce que chaque personnage prend dans le texte.
   const blocSynopsis = [formaterSynopsis(synopsis, ajustement), formaterEspeces(conte, synopsis, distribution)]
     .filter(Boolean).join('\n\n');
@@ -608,6 +629,7 @@ export async function ecrireScript(
     TEMPERATURES.transposition,
     Math.max(BUDGETS.transposition, Math.round(compterMots(texte) * 2.2) + 8000),
     'transposition',
+    delai(),
   );
   jetons = cumulerJetons(jetons, rTransposition.jetons);
   const transposition = rTransposition.valeur;
@@ -631,6 +653,7 @@ export async function ecrireScript(
       TEMPERATURES.decoupage,
       BUDGETS.adaptation,
       'découpage',
+      delai(),
     );
     jetons = cumulerJetons(jetons, r.jetons);
 
@@ -701,6 +724,7 @@ ${formaterAdaptation(adaptation)}`;
       TEMPERATURES.ecriture,
       BUDGETS.ecriture,
       `acte ${ac.numero}`,
+      delai(),
     );
     jetons = cumulerJetons(jetons, r.jetons);
 
@@ -763,7 +787,7 @@ ${formaterAdaptation(adaptation)}`;
       TEMPERATURES.relecture,
       BUDGETS.relecture,
       'relecture',
-      IA.delaiRelectureMs,
+      delai(IA.delaiRelectureMs),
     );
     jetons = cumulerJetons(jetons, rRelecture.jetons);
     relecture = rRelecture.valeur;
@@ -844,6 +868,7 @@ ${formaterAdaptation(adaptation)}`;
             TEMPERATURES.correction,
             BUDGETS.ecriture,
             `correction de l'acte ${acte.numero}`,
+            delai(),
           );
           jetons = cumulerJetons(jetons, r.jetons);
           acte.elements = convertirElements(
@@ -1361,6 +1386,9 @@ export async function regenererActe(
     ].filter(Boolean).join('\n\n');
   }
   const conduiteActe = bible.adaptation?.actes.find((a) => a.numero === acte.numero);
+  // Le conte transposé est relu à chaque régénération : sa longueur compte
+  // dans le délai, comme celle du spectacle.
+  const motsDuConte = bible.transposition ? compterMots(bible.transposition.texte) : 0;
 
   // État de la scène au début de l'acte, rejoué depuis le premier.
   let etat: EtatScene = {};
@@ -1392,6 +1420,7 @@ export async function regenererActe(
     TEMPERATURES.ecriture,
     BUDGETS.ecriture,
     `régénération de l'acte ${acte.numero}`,
+    delaiAppel(IA.delaiMs, spectacle.parametres.dureeMinutes, motsDuConte),
   );
 
   // Le même repli que l'écriture : un nom de rôle du conte retrouve sa

@@ -3,7 +3,7 @@
 // C'est le point de contact le plus fragile du pipeline : le modèle désigne les
 // marionnettes par leur nom, avec sa propre orthographe, et peut inventer.
 import { describe, expect, it } from 'vitest';
-import { convertirElements, decrireEtatScene, nettoyerReplique, simulerConduite, tableDesRoles, voixParMarionnette } from '../src/services/pipeline';
+import { convertirElements, delaiAppel, decrireEtatScene, nettoyerReplique, simulerConduite, tableDesRoles, voixParMarionnette } from '../src/services/pipeline';
 import { conteParId } from '../src/services/repertoire';
 import { construireDossier, trouverMarionnetteId } from '../src/services/dossier';
 import { attribuerMains, controler, simulerActe } from '../src/services/scene';
@@ -672,5 +672,22 @@ describe('le schéma de la revue finale tolère les petits modèles', () => {
     const r = valider(schemaRelecture, { problemes: [{ gravite: 'moyen', probleme: 'x' }] });
     expect(r.ok).toBe(true);
     if (r.ok) expect(r.valeur.remarques[0].gravite).toBe('mineur');
+  });
+});
+
+describe('delaiAppel : le délai suit la taille du spectacle', () => {
+  it('garde le délai de base jusqu’à 10 minutes et 4 000 mots de conte', () => {
+    expect(delaiAppel(240_000, 5)).toBe(240_000);
+    expect(delaiAppel(240_000, 10, 4000)).toBe(240_000);
+  });
+
+  it('le double à 20 minutes, le triple à 30', () => {
+    expect(delaiAppel(240_000, 20)).toBe(480_000);
+    expect(delaiAppel(480_000, 30)).toBe(1_440_000);
+  });
+
+  it('suit le conte quand c’est lui le plus long', () => {
+    // Un conte de 12 000 mots pour un spectacle de 5 minutes : triple.
+    expect(delaiAppel(240_000, 5, 12_000)).toBe(720_000);
   });
 });

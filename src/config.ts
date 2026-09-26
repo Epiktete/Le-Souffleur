@@ -64,6 +64,19 @@ export const IA = {
    * relecture, sans que rien ne le dise. Elle a son propre délai, plus long.
    */
   delaiRelectureMs: 480_000,
+  /**
+   * Les deux délais ci-dessus valent pour un spectacle de 10 minutes au plus.
+   * Au-delà, ils grandissent avec lui : à 30 minutes, le conte, le texte
+   * transposé, chaque acte et le script relu sont trois fois plus longs, et
+   * la génération s'arrêtait sur « le modèle met trop de temps ».
+   * 20 minutes : délais doublés ; 30 minutes : triplés.
+   */
+  dureeReferenceDelaiMinutes: 10,
+  /**
+   * Même règle pour la longueur du conte, qui est lu (et récrit en entier à
+   * la transposition) : au-delà de 4 000 mots, les délais grandissent aussi.
+   */
+  motsConteReferenceDelai: 4000,
   /** Nombre maximal de relances quand le modèle renvoie un JSON invalide. */
   relancesJsonMax: 1,
   /** Nombre maximal de séries de nouvelles propositions d'histoires (CDC §6, étape 4). */
