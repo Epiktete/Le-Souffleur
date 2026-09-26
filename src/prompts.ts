@@ -500,8 +500,12 @@ LA LONGUEUR. Le spectacle dira environ ${d.budgetMotsTotal} mots, à peu près :
 c’est une indication, la qualité de l’histoire passe avant. S’il faut couper,
 supprime des épisodes ENTIERS du milieu, jamais la fin : le dénouement se joue
 en entier, et le dernier acte reçoit ce qu’il lui faut, quitte à dépasser. Si
-le conte est court, on le joue plus lentement, sans rien ajouter. Répartis le
-budget dans « budgetMots ».
+le conte est court, on le joue plus lentement, sans rien ajouter. La ligne
+« Le conte fait environ… » qui suit le dossier te dit s’il faut couper : quand
+elle dit « tel quel », tu ne coupes AUCUN épisode et tu joues toutes les
+répliques du conte. Répartis le budget dans « budgetMots » selon la longueur
+du passage de chaque acte : un acte qui joue peu de texte reçoit peu de mots,
+un acte qui en joue beaucoup en reçoit beaucoup.
 
 LES CHANGEMENTS ANNONCÉS AU PARENT s’appliquent ICI. Le texte transposé ne
 les porte pas encore : il ne fait que remplacer les personnages. C’est à toi

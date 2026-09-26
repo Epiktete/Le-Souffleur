@@ -129,6 +129,16 @@ describe('variabiliser : plus aucun nom dans le modèle', () => {
     expect(m.roles[0].voix).toBe(`la voix grave d’${variable('r1')}`);
   });
 
+  it('remplace aussi un nom écrit en capitales, et le rend en capitales', () => {
+    // Une pièce de Guignol ouvre sur sa liste de personnages en capitales.
+    const s = spectacleFactice();
+    s.bible = { ...s.bible, transposition: { texte: 'PERSONNAGES — OURSE GOURMANDE, rentière.', changements: [] } };
+    const m = variabiliser(s, 'en-essai--1');
+    expect((m.bible.transposition as { texte: string }).texte).toBe('PERSONNAGES — {{R1}}, rentière.');
+    const autre = peupler(m, [{ ...s.distribution[0], nom: 'Petite Souris' }, { ...s.distribution[1] }]);
+    expect((autre.bible.transposition as { texte: string }).texte).toBe('PERSONNAGES — PETITE SOURIS, rentière.');
+  });
+
   it('ne remplace un nom qu’en mot entier', () => {
     // Une marionnette « Lou » ne doit pas transformer « Loup » en « {{r1}}p ».
     const s = spectacleFactice();
@@ -292,7 +302,8 @@ describe('le fonds versé dans le dépôt', () => {
     for (const f of fichiers) {
       const brut = readFileSync(`banque/spectacles/${f}`, 'utf8');
       // Toute accolade double doit être une variable de rôle bien formée.
-      const orphelines = brut.match(/\{\{(?!r\d+\}\})/g) ?? [];
+      // « {{R1}} » est la même variable, pour un nom écrit en capitales.
+      const orphelines = brut.match(/\{\{(?![rR]\d+\}\})/g) ?? [];
       expect(orphelines, f).toEqual([]);
     }
   });

@@ -505,3 +505,21 @@ describe('controler : une peluche ne change pas de costume', () => {
     expect(costumes('Il dérobe le grain et s’échappe.')).toEqual([]);
   });
 });
+
+describe('controler : ce qui mérite une seconde passe', () => {
+  it('marque la peluche changée sur la même main sans pause', () => {
+    const p = controler({
+      actes: [{
+        id: 'a1', numero: 1, titre: 'Acte 1', tableauId: 't1', resume: '',
+        elements: [
+          entree('lapin', 'M1G'), replique('lapin', 'Bonjour.'),
+          sortie('lapin', 'M1G'), entree('renard', 'M1G'), replique('renard', 'Me voici.'),
+        ],
+      }],
+      nbMarionnettistes: 1, marionnetteIds: ['lapin', 'renard'], nomDe,
+      interactionPublic: 'aucune', dureeCibleSecondes: 10,
+    }).filter((x) => /enfile la main/.test(x.message));
+    expect(p).toHaveLength(1);
+    expect(p[0].aReprendre).toBe(true);
+  });
+});

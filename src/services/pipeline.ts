@@ -427,9 +427,15 @@ export function longueurConte(motsConte: number, motsSpectacle: number): string 
   // Quatre verdicts et non trois : un conte plus COURT que le spectacle
   // recevait « on le joue, en coupant au plus un épisode », alors qu'il faut
   // l'étoffer. Le modèle devait deviner que la formule ne s'appliquait pas.
+  //
+  // « Tel quel » va jusqu'à 1,5 fois et non plus 1,1 : un conte ne se dit pas
+  // en entier. Sa narration devient des didascalies, qui ne se disent pas, et
+  // les incises du conteur disparaissent. Au relais (cas 6, « Le Duel »), un
+  // conte de 3 522 mots pour 3 000 à dire a reçu « couper un épisode » : le
+  // découpage a coupé, et le spectacle est tombé à 19 minutes sur 30.
   const verdict = r < 0.7
     ? 'il faudra le jouer plus longuement qu’il ne se raconte'
-    : r <= 1.1
+    : r <= 1.5
       ? 'presque la bonne taille : on le joue tel quel, sans rien couper'
       : r <= 3
         ? 'un peu plus long que le spectacle : on le joue en coupant au plus un épisode'
@@ -646,9 +652,13 @@ export async function ecrireScript(
 
   for (let essai = 0; essai < 2; essai++) {
     const prompts = promptDecoupage(dossier, erreurConduite, conduiteRefusee);
+    // Le verdict de longueur, sur le texte TRANSPOSÉ : c'est lui qui se joue.
+    // Le découpage ne l'avait pas, et coupait par prudence un conte qui avait
+    // déjà la bonne taille.
+    const longueur = longueurConte(compterMots(transposition.texte), dossier.budgetMotsTotal);
     const r = await appelJson(
       o,
-      { system: prompts.system, user: `${prompts.user}\n\n${blocConte}\n\n${blocSynopsis}` },
+      { system: prompts.system, user: `${prompts.user}\n${longueur}\n\n${blocConte}\n\n${blocSynopsis}` },
       schemaAdaptation,
       TEMPERATURES.decoupage,
       BUDGETS.adaptation,
@@ -888,13 +898,17 @@ ${formaterAdaptation(adaptation)}`;
   if (actesACorriger.size > 0) await corriger(actesACorriger, relus);
 
   // SECONDE PASSE, une seule, et seulement sur ce qui BLOQUE encore : une
-  // réplique qu'on n'a pas su attribuer, une marionnette qui parle hors scène.
+  // réplique qu'on n'a pas su attribuer, une marionnette qui parle hors scène,
+  // une peluche changée sur la même main sans pause (marquée « aReprendre »).
   // Une première réécriture rate parfois sa cible, et le parent se retrouvait
   // alors avec la note « À corriger » à la place du texte. On ne repasse pas
   // sur les écarts de durée ni sur le style : ce serait payer cher pour peu.
   const bloquantsRestants = new Set(
     problemes
-      .filter((p) => p.gravite === 'bloquant' && p.acteNumero !== undefined)
+      // Au relais (cas 6), une correction a introduit une peluche changée
+      // sur la même main sans pause, et rien ne la reprenait : le parent se
+      // retrouvait devant un geste impossible. Elle repasse aussi.
+      .filter((p) => (p.gravite === 'bloquant' || p.aReprendre) && p.acteNumero !== undefined)
       .map((p) => p.acteNumero as number),
   );
   if (bloquantsRestants.size > 0) {

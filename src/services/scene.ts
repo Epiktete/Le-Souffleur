@@ -39,6 +39,12 @@ export interface Probleme {
   position?: number;
   /** Message en français, affichable tel quel à côté de l'élément. */
   message: string;
+  /**
+   * Un défaut qui, sans être bloquant, mérite la SECONDE passe de correction
+   * s'il survit à la première : le spectacle se lit, mais ne se joue pas tel
+   * quel. Aujourd'hui, une peluche changée sur la même main sans pause.
+   */
+  aReprendre?: boolean;
 }
 
 /** État de la scène à un instant donné : quelle main tient quoi. */
@@ -262,6 +268,7 @@ export function controler(c: ContexteControle): Probleme[] {
         gravite: 'important',
         acteNumero: acte.numero,
         position: i + 1,
+        aReprendre: true,
         message: `${c.nomDe(entree.marionnetteId)} enfile la main `
           + `${entree.mainMarionnettiste} à l’instant même où `
           + `${c.nomDe(sortie.marionnetteId)} la quitte. Le parent n’a pas le temps `
@@ -426,10 +433,17 @@ export function controler(c: ContexteControle): Probleme[] {
         message: motsAGagner > 0
           ? `L'acte ${acte.numero} est un peu court : ${Math.round(sienne)} s au lieu `
             + `des ${Math.round(partParActe)} s de sa part, soit environ ${motsAGagner} mots. `
-            + 'Joue plus longuement ce que le conte raconte DÉJÀ, sans inventer '
-            + 'd’épisode : développe ses répliques, laisse les personnages se '
-            + 'répondre, étire les répétitions qu’il porte. Si le passage est de la '
-            + 'pure narration, sans une réplique à développer, LAISSE L’ACTE COURT : '
+            // D'ABORD rétablir le texte du conte. Au relais (cas 6), une pièce de
+            // Guignol presque entièrement dialoguée a vu ses actes rester
+            // courts : l'échappatoire « laisse l'acte court » servait de
+            // réponse, alors que le conte avait encore des répliques à rendre.
+            + 'D’abord, relis le passage du texte transposé que joue cet acte, '
+            + 'réplique par réplique, et RÉTABLIS celles que l’acte a coupées ou '
+            + 'résumées : ce sont les mots du conte, ils ont leur place. Ensuite '
+            + 'seulement, joue plus longuement ce que le conte raconte déjà, sans '
+            + 'inventer d’épisode : laisse les personnages se répondre, étire les '
+            + 'répétitions qu’il porte. Si, cela fait, le passage n’a vraiment plus '
+            + 'rien à rendre — de la pure narration —, laisse l’acte court : '
             + 'inventer tout un dialogue pour tenir la jauge est exactement ce qu’on '
             + 'ne veut pas.'
           : `L'acte ${acte.numero} est un peu long : ${Math.round(sienne)} s au lieu `

@@ -157,7 +157,9 @@ function peuplerTexte(texte: string, noms: Map<string, string>): string {
       if (!d) return nom;
       const elide = VOYELLE.test(nom);
       return `${d}${elide ? '’' : 'e '}${nom}`;
-    });
+    })
+    // Les noms écrits en capitales dans le modèle (« {{R1}} ») le restent.
+    .replace(/\{\{R(\d+)\}\}/g, (tout, n: string) => noms.get(`r${n}`)?.toUpperCase() ?? tout);
 }
 
 /**
@@ -216,8 +218,16 @@ export function variabiliser(spectacle: Spectacle, id: string): SpectacleModele 
   });
 
   // Noms et identifiants, du plus long au plus court.
+  // Le nom tel qu'il est écrit, et le nom EN CAPITALES : une pièce de
+  // Guignol ouvre sur sa liste de personnages (« DOUDOU LAPIN, canut »), que
+  // la substitution exacte laissait passer. La variable en capitales,
+  // « {{R1}} », rend le nom en capitales au repeuplement.
   const parNom: [string, string][] = spectacle.distribution
-    .map((m, i): [string, string] => [m.nom, variable(cleRole(i + 1))])
+    .flatMap((m, i): [string, string][] => {
+      const exact: [string, string] = [m.nom, variable(cleRole(i + 1))];
+      const capitales = m.nom.toUpperCase();
+      return capitales === m.nom ? [exact] : [exact, [capitales, variable(cleRole(i + 1).toUpperCase())]];
+    })
     .sort((a, b) => b[0].length - a[0].length);
   const parId = new Map(spectacle.distribution.map((m, i) => [m.id, cleRole(i + 1)]));
   // Les identifiants internes du spectacle sont des UUID tirés au hasard à

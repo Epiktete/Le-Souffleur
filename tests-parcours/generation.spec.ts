@@ -509,9 +509,15 @@ test('le directeur éditorial lit les deux histoires, puis réécrit lui-même l
   expect(appels.revue).toEqual({ original: true, transpose: true });
   // La réécriture : l'acte 2 seul, même pour une remarque de détail, par le
   // directeur, avec le conte d'origine, le script entier et sa modification.
-  expect(appels.reecritures).toEqual([
+  expect(appels.reecritures[0]).toEqual(
     { acte: 2, parLeDirecteur: true, original: true, scriptEntier: true, modification: true },
-  ]);
+  );
+  // Une seule réécriture porte la modification du directeur. Le faux acte 2
+  // change aussi de peluche sur la même main sans pause, et le faux modèle le
+  // rend inchangé : la seconde passe, faite pour ce défaut, le reprend une
+  // fois de plus, sans remarque du directeur.
+  expect(appels.reecritures.filter((r) => r.modification)).toHaveLength(1);
+  expect(appels.reecritures.length).toBeLessThanOrEqual(2);
 });
 
 test('une revue finale qui répond hors format ne fait pas perdre le spectacle', async ({ page }) => {

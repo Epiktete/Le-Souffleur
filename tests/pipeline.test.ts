@@ -3,7 +3,7 @@
 // C'est le point de contact le plus fragile du pipeline : le modèle désigne les
 // marionnettes par leur nom, avec sa propre orthographe, et peut inventer.
 import { describe, expect, it } from 'vitest';
-import { convertirElements, delaiAppel, decrireEtatScene, nettoyerReplique, simulerConduite, tableDesRoles, voixParMarionnette } from '../src/services/pipeline';
+import { convertirElements, delaiAppel, longueurConte, decrireEtatScene, nettoyerReplique, simulerConduite, tableDesRoles, voixParMarionnette } from '../src/services/pipeline';
 import { conteParId } from '../src/services/repertoire';
 import { construireDossier, trouverMarionnetteId } from '../src/services/dossier';
 import { attribuerMains, controler, simulerActe } from '../src/services/scene';
@@ -689,5 +689,20 @@ describe('delaiAppel : le délai suit la taille du spectacle', () => {
   it('suit le conte quand c’est lui le plus long', () => {
     // Un conte de 12 000 mots pour un spectacle de 5 minutes : triple.
     expect(delaiAppel(240_000, 5, 12_000)).toBe(720_000);
+  });
+});
+
+describe('longueurConte : couper seulement quand le conte déborde vraiment', () => {
+  it('joue tel quel un conte jusqu’à une fois et demie le spectacle', () => {
+    // Le cas du relais : 3 522 mots pour 3 000 à dire. Sa narration deviendra
+    // des didascalies, qui ne se disent pas : il n'y a rien à couper.
+    expect(longueurConte(3522, 3000)).toContain('tel quel, sans rien couper');
+    expect(longueurConte(4500, 3000)).toContain('tel quel');
+  });
+
+  it('coupe un épisode au-delà, et étire en deçà', () => {
+    expect(longueurConte(6000, 3000)).toContain('au plus un épisode');
+    expect(longueurConte(10000, 3000)).toContain('supprimer des épisodes entiers');
+    expect(longueurConte(1500, 3000)).toContain('plus longuement');
   });
 });
