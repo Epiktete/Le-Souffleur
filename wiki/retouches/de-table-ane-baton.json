@@ -3,7 +3,14 @@
   "langue": [
     {"avant": "Ne vous donnez pas cette peine, mon grison, je le mène moi-même", "apres": "Ne vous donnez pas cette peine : mon âne, je le mène moi-même", "nature": "mot-disparu"},
     {"avant": "tous nos parents et amis", "apres": "toute la famille et nos amis", "nature": "mot-rare", "jusqua": 6},
-    {"avant": "tous nos parents", "apres": "toute la famille", "nature": "mot-rare", "jusqua": 6, "partout": true}
+    {"avant": "tous nos parents", "apres": "toute la famille", "nature": "mot-rare", "jusqua": 6, "partout": true},
+    {"avant": "il l'accueillerait volontiers", "apres": "son père l'accueillerait volontiers", "nature": "pronom", "jusqua": 6},
+    {"avant": "Les parents se moquèrent de lui", "apres": "Les invités se moquèrent de lui", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "il regarda par un trou du bois", "apres": "l'aubergiste regarda par un trou du bois", "nature": "pronom", "jusqua": 6},
+    {"avant": "emmena le maître des monnaies", "apres": "emmena l'âne à or", "nature": "mot-rare", "jusqua": 4},
+    {"avant": "appeler les parents", "apres": "appeler la famille", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "demanda pardon aux parents", "apres": "demanda pardon aux invités", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "rassembla quand même les parents", "apres": "rassembla quand même la famille", "nature": "mot-rare", "jusqua": 6}
   ],
   "moments": [
     {

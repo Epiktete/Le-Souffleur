@@ -11,7 +11,10 @@
     {"avant": "de crainte que le méchant chef ou l’un de ses enfants ne s’aperçoive de notre présence en ces lieux", "apres": "pour que le méchant chef ou l’un de ses enfants ne nous trouve pas ici", "nature": "parler", "jusqua": 4},
     {"avant": "pour t’en éviter la peine", "apres": "pour que tu n’aies pas à grimper", "nature": "mot-rare", "jusqua": 6},
     {"avant": "je vais entrer dans ce taillis, car j’éprouve un pressant besoin", "apres": "je vais entrer dans ces buissons, car il faut que je fasse mes besoins", "nature": "mot-rare", "jusqua": 6},
-    {"avant": "qui allait assister à un grand palabre", "apres": "qui allait à une grande réunion", "nature": "mot-rare", "jusqua": 6}
+    {"avant": "qui allait assister à un grand palabre", "apres": "qui allait à une grande réunion", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "Celle-ci, interrogée", "apres": "La petite tortue, interrogée", "nature": "pronom", "jusqua": 6},
+    {"avant": "Le chien, instruit de ce fait par son petit, et connaissant le mauvais caractère de la tortue,", "apres": "Le chien est instruit de ce fait par son petit. Il connaît le mauvais caractère de la tortue, et", "nature": "relative", "jusqua": 6},
+    {"avant": "se garde bien de lui demander son secret", "apres": "ne lui demande surtout pas son secret", "nature": "mot-rare", "jusqua": 6}
   ],
   "moments": [
     {

@@ -13,7 +13,8 @@
     {"avant": "s’alla coucher dans le lit", "apres": "alla se coucher dans le lit", "nature": "tournure"},
     {"avant": "sur la huche", "apres": "sur la table", "nature": "mot-disparu"},
     {"avant": "Demeure-t-elle bien loin ?", "apres": "Elle habite bien loin ?", "nature": "parler", "jusqua": 4},
-    {"avant": "c’est par delà le moulin", "apres": "c’est après le moulin", "nature": "mot-rare", "jusqua": 4}
+    {"avant": "c’est par delà le moulin", "apres": "c’est après le moulin", "nature": "mot-rare", "jusqua": 4},
+    {"avant": "quelques bûcherons qui étaient dans la forêt", "apres": "quelques bûcherons qui coupaient du bois dans la forêt", "nature": "mot-rare", "jusqua": 4}
   ],
   "moments": [
     {

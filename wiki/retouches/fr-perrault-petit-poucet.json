@@ -39,7 +39,15 @@
     {"avant": "ne laissait pas d’être fort bon mari", "apres": "était tout de même un fort bon mari", "nature": "tournure"},
     {"avant": "il n’avait pas fait conscience de lui prendre", "apres": "il n’avait pas eu de scrupule à lui prendre", "nature": "mot-disparu"},
     {"avant": "des offices de nouvelle création", "apres": "des emplois de nouvelle création", "nature": "faux-ami"},
-    {"avant": "fit parfaitement bien sa cour", "apres": "se fit parfaitement bien voir du roi", "nature": "faux-ami"}
+    {"avant": "fit parfaitement bien sa cour", "apres": "se fit parfaitement bien voir du roi", "nature": "faux-ami"},
+    {"avant": "Cependant", "apres": "Mais", "nature": "connecteur", "jusqua": 8, "partout": true},
+    {"avant": "le plus fin et le plus avisé", "apres": "le plus malin et le plus avisé", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "leur envoya dix écus", "apres": "leur envoya dix écus d’argent", "nature": "mot-rare", "jusqua": 4},
+    {"avant": "mais, quoiqu’il se fût levé de grand matin pour aller ramasser de petits cailloux, il ne put en venir à bout", "apres": "il se leva de grand matin pour aller ramasser de petits cailloux, mais il ne put en venir à bout", "nature": "connecteur", "jusqua": 8},
+    {"avant": "Le Petit Poucet, qui avait remarqué que les filles de l’Ogre avaient des couronnes d’or sur la tête, et qui craignait qu’il ne prît à l’Ogre quelque remords de ne les avoir pas égorgés dès le soir même, se leva", "apres": "Le Petit Poucet avait remarqué que les filles de l’Ogre avaient des couronnes d’or sur la tête, et il craignait qu’il ne prît à l’Ogre quelque remords de ne les avoir pas égorgés dès le soir même. Le Petit Poucet se leva", "nature": "relative", "jusqua": 6},
+    {"avant": "il alla tout doucement les mettre sur la tête des sept filles de l’Ogre, après leur avoir ôté leurs couronnes d’or, qu’il mit sur la tête de ses frères et sur la sienne", "apres": "il alla tout doucement ôter aux sept filles de l’Ogre leurs couronnes d’or, et leur mettre les bonnets sur la tête ; il mit les couronnes sur la tête de ses frères et sur la sienne", "nature": "ordre", "jusqua": 6},
+    {"avant": "La chose réussit comme il l’avait pensé", "apres": "La chose réussit comme le Petit Poucet l’avait pensé", "nature": "pronom", "jusqua": 6},
+    {"avant": "parce qu’il ne s’en servait que pour courir après les petits enfants", "apres": "parce que l’Ogre ne s’en servait que pour courir après les petits enfants", "nature": "pronom", "jusqua": 6}
   ],
   "moments": [
     {

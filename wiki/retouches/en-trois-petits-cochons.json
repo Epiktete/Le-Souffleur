@@ -2,7 +2,8 @@
   "id": "en-trois-petits-cochons",
   "langue": [
     {"avant": "un fagot d'ajoncs", "apres": "un fagot de branches", "nature": "mot-rare", "jusqua": 6},
-    {"avant": "donnez-moi ces ajoncs", "apres": "donnez-moi ces branches", "nature": "mot-rare", "jusqua": 6}
+    {"avant": "donnez-moi ces ajoncs", "apres": "donnez-moi ces branches", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "il ôta le couvercle", "apres": "le petit cochon ôta le couvercle", "nature": "pronom", "jusqua": 6}
   ],
   "moments": [
     {

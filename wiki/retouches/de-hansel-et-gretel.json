@@ -1,7 +1,10 @@
 {
   "id": "de-hansel-et-gretel",
   "langue": [
-    {"avant": "il n'y a pas de salut pour nous", "apres": "nous ne nous en sortirons pas", "nature": "mot-rare", "jusqua": 6}
+    {"avant": "il n'y a pas de salut pour nous", "apres": "nous ne nous en sortirons pas", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "elle voulait fermer le four", "apres": "la sorcière voulait fermer le four", "nature": "pronom", "jusqua": 6},
+    {"avant": "devina ce qu'elle avait en tête", "apres": "devina ce que la sorcière avait en tête", "nature": "pronom", "jusqua": 6},
+    {"avant": "si bien qu'elle bascula tout au fond, ferma la porte de fer", "apres": "si bien qu'elle bascula tout au fond ; Gretel ferma la porte de fer", "nature": "pronom", "jusqua": 6}
   ],
   "moments": [
     {

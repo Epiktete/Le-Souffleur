@@ -1,6 +1,8 @@
 {
   "id": "ar-ali-baba",
   "langue": [
+    {"avant": "résolu de le prévenir", "apres": "résolu de le devancer", "nature": "faux-ami"},
+    {"avant": "il le caressa", "apres": "il le flatta", "nature": "faux-ami"},
     {"avant": "que prétendez-vous faire ?", "apres": "que voulez-vous faire ?", "nature": "faux-ami"},
     {"avant": "Je le prétends bien ainsi", "apres": "Je l’entends bien ainsi", "nature": "faux-ami"},
     {"avant": "enseignes", "apres": "repères", "nature": "faux-ami", "partout": true},
@@ -47,7 +49,31 @@
     {"avant": "m’ont dressé ces embûches", "apres": "m’ont tendu ce piège", "nature": "mot-rare", "jusqua": 6},
     {"avant": "son dessein pernicieux", "apres": "son méchant projet", "nature": "mot-rare", "jusqua": 6},
     {"avant": "dans le dessein de mieux réussir", "apres": "dans le but de mieux réussir", "nature": "mot-rare", "jusqua": 6},
-    {"avant": "quelqu’un voudrait-il du mal à mon maître, ou l’a-t-on faite pour se divertir ?", "apres": "quelqu’un veut du mal à mon maître, ou on l’a faite pour s’amuser ?", "nature": "parler", "jusqua": 4}
+    {"avant": "quelqu’un voudrait-il du mal à mon maître, ou l’a-t-on faite pour se divertir ?", "apres": "quelqu’un veut du mal à mon maître, ou on l’a faite pour s’amuser ?", "nature": "parler", "jusqua": 4},
+    {"avant": "néanmoins", "apres": "pourtant", "nature": "connecteur", "jusqua": 8, "partout": true},
+    {"avant": "cependant", "apres": "pourtant", "nature": "connecteur", "jusqua": 8, "partout": true},
+    {"avant": "La femme de Cassim cependant fut", "apres": "Pendant ce temps, la femme de Cassim fut", "nature": "connecteur", "jusqua": 8},
+    {"avant": "Le voleur cependant qui continuait son chemin", "apres": "Pendant ce temps, le voleur qui continuait son chemin", "nature": "connecteur", "jusqua": 8},
+    {"avant": "Le capitaine des voleurs, cependant, à la sortie de l’écurie", "apres": "Le capitaine des voleurs, pendant ce temps, à la sortie de l’écurie", "nature": "connecteur", "jusqua": 8},
+    {"avant": "Ali Baba cependant sortit avant le jour", "apres": "Ali Baba, lui, sortit avant le jour", "nature": "connecteur", "jusqua": 8},
+    {"avant": "au lieu que le capitaine était entré le dernier", "apres": "alors que le capitaine était entré le dernier", "nature": "connecteur", "jusqua": 8},
+    {"avant": "Le plus apparent, chargé de sa valise comme les autres, qu’Ali Baba prit pour le capitaine des voleurs, s’approcha du rocher", "apres": "Ali Baba prit le plus apparent pour le capitaine des voleurs. Chargé de sa valise comme les autres, le capitaine s’approcha du rocher", "nature": "relative", "jusqua": 6},
+    {"avant": "du gros arbre où il s’était réfugié", "apres": "du gros arbre où Ali Baba s’était réfugié", "nature": "pronom", "jusqua": 6},
+    {"avant": "et Ali Baba qui craignait que quelqu’un d’eux, ou que tous ensemble ne sortissent s’il quittait son poste pour se sauver, fut contraint", "apres": "et Ali Baba craignait que quelqu’un d’eux, ou que tous ensemble ne sortissent s’il quittait son poste pour se sauver : il fut contraint", "nature": "relative", "jusqua": 6},
+    {"avant": "du suif au-dessous de la mesure", "apres": "du suif, une graisse qui colle, au-dessous de la mesure", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "Le lendemain il alla chez lui", "apres": "Le lendemain il alla chez Ali Baba", "nature": "pronom", "jusqua": 6},
+    {"avant": "pour n’y rentrer que de nuit", "apres": "pour ne rentrer en ville que de nuit", "nature": "pronom", "jusqua": 6},
+    {"avant": "de bien s’acquitter de son personnage", "apres": "de bien jouer son rôle", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "Morgiane qui savait qu’il y avait sur la place un bon homme de savetier fort vieux, qui ouvrait tous les jours sa boutique le premier, long-temps avant les autres, sort,", "apres": "Morgiane savait qu’il y avait sur la place un bon homme de savetier fort vieux, qui ouvrait tous les jours sa boutique le premier, long-temps avant les autres : elle sort,", "nature": "relative", "jusqua": 6},
+    {"avant": "il la lui donna avec promesse", "apres": "il donna la boutique à son fils avec promesse", "nature": "pronom", "jusqua": 6},
+    {"avant": "et il augmenta quand ils se furent aperçus", "apres": "et leur étonnement augmenta quand ils se furent aperçus", "nature": "pronom", "jusqua": 6},
+    {"avant": "les lui banda", "apres": "lui banda les yeux", "nature": "pronom", "jusqua": 6},
+    {"avant": "Avant de lui ôter le mouchoir de devant les yeux, le voleur fit promptement une marque à la porte avec de la craie qu’il tenait prête ; et quand il le lui eut ôté,", "apres": "Le voleur fit promptement une marque à la porte avec de la craie qu’il tenait prête ; puis il lui ôta le mouchoir de devant les yeux, et", "nature": "ordre", "jusqua": 6},
+    {"avant": "dessein", "apres": "projet", "nature": "mot-rare", "jusqua": 6, "partout": true},
+    {"avant": "dans le dessein de frapper", "apres": "dans le but de frapper", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "il alla le prendre pour le faire entrer", "apres": "Ali Baba alla le prendre pour le faire entrer", "nature": "pronom", "jusqua": 6},
+    {"avant": "il entra dans la cour, sous prétexte", "apres": "le capitaine entra dans la cour, sous prétexte", "nature": "pronom", "jusqua": 6},
+    {"avant": "Le capitaine des voleurs qui avait pris le nom de Cogia Houssain, comme nouveau venu, ne manqua pas", "apres": "Le capitaine des voleurs avait pris le nom de Cogia Houssain. Comme nouveau venu, il ne manqua pas", "nature": "relative", "jusqua": 6}
   ],
   "moments": [
     {

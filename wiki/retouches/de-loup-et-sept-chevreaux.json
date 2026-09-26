@@ -1,7 +1,8 @@
 {
   "id": "de-loup-et-sept-chevreaux",
   "langue": [
-    {"avant": "se pourrait-il que mes pauvres enfants, qu'il a avalés pour son dîner, soient encore en vie ?", "apres": "et si mes pauvres enfants, qu'il a avalés pour son dîner, étaient encore en vie ?", "nature": "parler", "jusqua": 4}
+    {"avant": "se pourrait-il que mes pauvres enfants, qu'il a avalés pour son dîner, soient encore en vie ?", "apres": "et si mes pauvres enfants, qu'il a avalés pour son dîner, étaient encore en vie ?", "nature": "parler", "jusqua": 4},
+    {"avant": "l'horloge, il ne le trouva pas", "apres": "l'horloge, le loup ne le trouva pas", "nature": "pronom", "jusqua": 4}
   ],
   "moments": [
     {

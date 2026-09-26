@@ -32,7 +32,10 @@
     {"avant": "Cendrillon ne se sentait pas de joie", "apres": "Cendrillon était folle de joie", "nature": "tournure"},
     {"avant": "ne pourrais-je point la voir ?", "apres": "je ne pourrais pas la voir ?", "nature": "parler", "jusqua": 4},
     {"avant": "il faudrait que je fusse bien folle", "apres": "il faudrait que je sois bien folle", "nature": "tournure"},
-    {"avant": "si elle ne me serait pas bonne", "apres": "si elle ne m’irait pas", "nature": "tournure"}
+    {"avant": "si elle ne me serait pas bonne", "apres": "si elle ne m’irait pas", "nature": "tournure"},
+    {"avant": "Elle la chargea", "apres": "La belle-mère la chargea", "nature": "pronom", "jusqua": 6},
+    {"avant": "Le fils du roi, qu’on alla avertir qu’il venait d’arriver une grande princesse qu’on ne connaissait point, courut la recevoir.", "apres": "On alla avertir le fils du roi qu’il venait d’arriver une grande princesse qu’on ne connaissait point. Il courut la recevoir.", "nature": "relative", "jusqua": 6},
+    {"avant": "elle en fut bien aise", "apres": "elle en fut bien contente", "nature": "mot-rare", "jusqua": 6}
   ],
   "moments": []
 }

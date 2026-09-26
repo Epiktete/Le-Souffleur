@@ -2,7 +2,9 @@
   "id": "dk-soldat-de-plomb",
   "langue": [
     {"avant": "Veux-tu bien garder tes yeux pour toi !", "apres": "Veux-tu bien arrêter de la regarder !", "nature": "mot-rare", "jusqua": 4},
-    {"avant": "Où vais-je arriver maintenant ?", "apres": "Où est-ce que je vais arriver maintenant ?", "nature": "parler", "jusqua": 4}
+    {"avant": "Où vais-je arriver maintenant ?", "apres": "Où est-ce que je vais arriver maintenant ?", "nature": "parler", "jusqua": 4},
+    {"avant": "ne pouvait pas la voir du tout", "apres": "ne pouvait pas voir cette jambe du tout", "nature": "pronom", "jusqua": 6},
+    {"avant": "Quelque chose le traversa comme un éclair. La lumière brilla, toute claire, et quelqu'un cria bien fort : « Un soldat de plomb ! » Le poisson avait été pêché, porté au marché, vendu, et il était arrivé dans une cuisine, où la servante l'avait ouvert avec un grand couteau.", "apres": "Le poisson fut pêché, porté au marché, vendu, et il arriva dans une cuisine, où la servante l'ouvrit avec un grand couteau. Quelque chose le traversa comme un éclair. La lumière brilla, toute claire, et quelqu'un cria bien fort : « Un soldat de plomb ! »", "nature": "ordre", "jusqua": 6}
   ],
   "moments": [
     {
