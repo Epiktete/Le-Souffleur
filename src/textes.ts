@@ -409,6 +409,9 @@ export const tsc = {
   labelAction: 'ACTION',
   labelPublic: 'AU PUBLIC',
   labelNote: 'NOTE',
+  labelConteur: 'CONTEUR',
+  /** Part des mots dits par le conteur, en tête du script. */
+  partConteur: (pourcent: number) => `conteur ${pourcent} %`,
   attendreReponse: 'attendre la réponse',
   entree: (nom: string, main: string) => `ENTRÉE : ${nom.toUpperCase()} · ${main}`,
   sortie: (nom: string, main: string) => `SORTIE : ${nom.toUpperCase()} · ${main}`,
@@ -434,6 +437,7 @@ export const tsc = {
     didascalie: 'Action',
     adresse_public: 'Adresse au public',
     note_marionnettiste: 'Note au marionnettiste',
+    conteur: 'Conteur',
     entree: 'Entrée',
     sortie: 'Sortie',
   },
@@ -473,6 +477,8 @@ export const tl = {
   suite: '(suite)',
   /** Une voix sans peluche, que le parent dit depuis la coulisse. */
   enCoulisse: '· EN COULISSE',
+  /** Le conteur : le parent, de sa propre voix, sans marionnette. */
+  conteur: 'CONTEUR',
 
   /** Écran intercalaire au changement de décor. */
   changementDecor: 'Changement de décor',

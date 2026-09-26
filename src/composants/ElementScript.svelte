@@ -185,6 +185,13 @@
           <span class="dit">{element.texte}</span>
         </p>
 
+      {:else if element.type === 'conteur'}
+        <!-- Le parent le dit de sa propre voix : un label, pas de nom. -->
+        <p class="conteur">
+          <span class="mono label">{tsc.labelConteur}</span>
+          <span class="dit">{element.texte}</span>
+        </p>
+
       {:else}
         <p class="mouvement mono">
           {element.type === 'entree'
@@ -276,6 +283,14 @@
     margin: 6px 0;
   }
   .note .label { color: var(--papier); }
+
+  /* Conteur : dit à voix haute comme une réplique, mais par le parent, sans
+     marionnette. Un trait pointillé à gauche, comme la voix en coulisse. */
+  .conteur {
+    border-left: 3px dashed var(--encre);
+    padding: 2px 0 2px 10px;
+    margin: 6px 0;
+  }
 
   /* Entrée ou sortie : ligne pleine largeur en mono. */
   .mouvement {

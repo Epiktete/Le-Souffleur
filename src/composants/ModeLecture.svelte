@@ -429,7 +429,7 @@
       {@const v = rangee.coulisse}
       <div class="bulle coulisse">
         <p class="nom mono">
-          {v.qui} <span class="en-coulisse">{tl.enCoulisse}</span>
+          {#if v.conteur}{tl.conteur}{:else}{v.qui} <span class="en-coulisse">{tl.enCoulisse}</span>{/if}
           {#if rangee.suite}<span class="suite">{tl.suite}</span>{/if}
         </p>
         <p class="dit">{v.dit}</p>

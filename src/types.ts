@@ -75,6 +75,12 @@ export type ElementScript =
   | { id: Id; type: 'adresse_public'; marionnetteId: Id; texte: string; attenteReponse: boolean }
   /** Jamais dit à voix haute. */
   | { id: Id; type: 'note_marionnettiste'; texte: string }
+  /**
+   * La narration du conte, dite à voix haute par le parent, de sa propre voix
+   * et sans marionnette (CDC §6, « Le conteur et les trois voies de la
+   * parole »). Elle ne prend aucune main.
+   */
+  | { id: Id; type: 'conteur'; texte: string }
   | { id: Id; type: 'entree' | 'sortie'; marionnetteId: Id; mainMarionnettiste: Main };
 
 export interface Acte {

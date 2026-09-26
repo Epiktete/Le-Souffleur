@@ -840,6 +840,7 @@ ${formaterAdaptation(adaptation)}`;
     interactionPublic: dossier.interactionPublic,
     dureeCibleSecondes: dureeCible,
     budgetsMots: Object.fromEntries(actesConduite.map((a) => [a.numero, a.budgetMots])),
+    texteReference: transposition.texte,
   });
   let problemes = controlerTout();
 
@@ -1199,8 +1200,10 @@ export function convertirElements(
   const resultat: ElementScript[] = [];
 
   for (const e of ecrits) {
-    if (e.type === 'didascalie' || e.type === 'note_marionnettiste') {
-      resultat.push({ id: nouvelId(), type: e.type, texte: e.texte });
+    // Sans marionnette : l'action, la note, et le conteur, que le parent dit
+    // de sa propre voix.
+    if (e.type === 'didascalie' || e.type === 'note_marionnettiste' || e.type === 'conteur') {
+      resultat.push({ id: nouvelId(), type: e.type, texte: e.texte.trim() });
       continue;
     }
 
@@ -1368,6 +1371,8 @@ function formaterElement(e: ElementScript, nomDe: (id: string) => string): strin
         + `${e.attenteReponse ? ' (attend une réponse)' : ''}`;
     case 'note_marionnettiste':
       return `[note] ${e.texte}`;
+    case 'conteur':
+      return `[conteur] « ${e.texte} »`;
     default:
       return `[${e.type}] ${nomDe(e.marionnetteId)} — main ${e.mainMarionnettiste}`;
   }

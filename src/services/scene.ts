@@ -14,6 +14,7 @@
 
 import { BORNES, DUREE } from '../config';
 import { dureeElements, dansLaTolerance } from './duree';
+import { controlerParole } from './parole';
 import type { Acte, ElementScript, Id, Main, NiveauInteraction } from '../types';
 
 /** Les mains d'un marionnettiste, dans l'ordre. */
@@ -165,6 +166,11 @@ export interface ContexteControle {
    * réparti. Absent (spectacle importé, écran de script) : parts égales.
    */
   budgetsMots?: Record<number, number>;
+  /**
+   * Le texte de référence, c'est-à-dire le conte transposé, pour vérifier que
+   * la parole en vient (contrôle 9). Absent (écran de script) : pas de contrôle.
+   */
+  texteReference?: string;
 }
 
 /**
@@ -437,15 +443,11 @@ export function controler(c: ContexteControle): Probleme[] {
             // Guignol presque entièrement dialoguée a vu ses actes rester
             // courts : l'échappatoire « laisse l'acte court » servait de
             // réponse, alors que le conte avait encore des répliques à rendre.
-            + 'D’abord, relis le passage du texte transposé que joue cet acte, '
-            + 'réplique par réplique, et RÉTABLIS celles que l’acte a coupées ou '
-            + 'résumées : ce sont les mots du conte, ils ont leur place. Ensuite '
-            + 'seulement, joue plus longuement ce que le conte raconte déjà, sans '
-            + 'inventer d’épisode : laisse les personnages se répondre, étire les '
-            + 'répétitions qu’il porte. Si, cela fait, le passage n’a vraiment plus '
-            + 'rien à rendre — de la pure narration —, laisse l’acte court : '
-            + 'inventer tout un dialogue pour tenir la jauge est exactement ce qu’on '
-            + 'ne veut pas.'
+            // Le conte lui-même rallonge l'acte : ses répliques, et sa narration
+            // dite par le conteur (CDC §6). Jamais une réplique inventée.
+            + 'Rallonge-le avec le conte lui-même : les répliques du passage que '
+            + 'l’acte aurait laissées de côté, puis sa narration, dite par le '
+            + 'conteur, mot pour mot. Jamais une réplique inventée pour tenir la jauge.'
           : `L'acte ${acte.numero} est un peu long : ${Math.round(sienne)} s au lieu `
             + `des ${Math.round(partParActe)} s de sa part, soit environ ${-motsAGagner} mots. `
             + 'Resserre ce qui ne vient pas du conte — didascalies bavardes, '
@@ -485,6 +487,9 @@ export function controler(c: ContexteControle): Probleme[] {
     }
   }
 
+
+  // 9. La parole vient du conte (CDC §6, « Le conteur et les trois voies »).
+  if (c.texteReference) problemes.push(...controlerParole(c.actes, c.texteReference));
   return problemes;
 }
 

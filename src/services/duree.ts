@@ -59,6 +59,8 @@ export function motsDitsEnCoulisse(texte: string): string {
 export interface VoixEnCoulisse {
   /** Le personnage qui parle, tel que la note le nomme (« Nuage »). */
   qui: string;
+  /** Vrai pour le conteur : ce n'est pas un personnage, mais le parent. */
+  conteur?: boolean;
   /** Ce que le parent dit, sans guillemets. */
   dit: string;
   /** Ce qui reste de la note : une consigne de jeu, parfois vide. */
@@ -111,6 +113,10 @@ export function dureeElements(elements: ElementScript[]): DetailDuree {
       case 'note_marionnettiste':
         mots += compterMots(motsDitsEnCoulisse(e.texte));
         break;
+      // Le conteur est dit à voix haute, par le parent : ses mots comptent.
+      case 'conteur':
+        mots += compterMots(e.texte);
+        break;
       // Les entrées et sorties se font pendant le reste : elles ne consomment
       // pas de temps.
       default:
@@ -124,6 +130,23 @@ export function dureeElements(elements: ElementScript[]): DetailDuree {
     + DUREE.secondesParAttenteReponse * attentesReponse;
 
   return { secondes: Math.round(secondes), mots, didascalies, attentesReponse };
+}
+
+/**
+ * La part des mots dits qui vient du conteur, en pourcentage arrondi. Un
+ * spectacle reste du théâtre, pas une lecture : l'écran de script l'affiche
+ * pour qu'on la voie (CDC §6, « La dose »).
+ */
+export function partDuConteur(actes: Acte[]): number {
+  let conteur = 0;
+  let total = 0;
+  for (const acte of actes) {
+    for (const e of acte.elements) {
+      if (e.type === 'conteur') conteur += compterMots(e.texte);
+      total += dureeElements([e]).mots;
+    }
+  }
+  return total ? Math.round((100 * conteur) / total) : 0;
 }
 
 /** Durée estimée d'un spectacle entier, en secondes. */

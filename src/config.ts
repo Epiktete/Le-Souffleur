@@ -30,6 +30,17 @@ export const DUREE = {
   toleranceParActe: 0.35,
 } as const;
 
+/**
+ * La parole vient du conte (CDC §6, contrôle 9). Valeurs provisoires, à
+ * calibrer au relais du chantier « le conteur » (CDC §14).
+ */
+export const PAROLE = {
+  /** Part des mots dits absents du texte de référence au-delà de laquelle on avertit. */
+  seuilInvente: 0.25,
+  /** Une phrase du conteur plus courte n'est pas vérifiée (« Et voilà. »). */
+  motsMinPhrase: 4,
+} as const;
+
 /** Bornes des réglages du studio (CDC §4). */
 export const BORNES = {
   // Trente minutes : les pièces de Guignol du répertoire font jusqu'à 6 800

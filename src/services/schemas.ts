@@ -266,6 +266,10 @@ export const schemaElementEcrit = z.discriminatedUnion('type', [
     texte: z.string().min(1),
   }),
   z.object({
+    type: z.literal('conteur'),
+    texte: z.string().min(1),
+  }),
+  z.object({
     type: z.literal('entree'),
     marionnette: z.string().min(1),
     main: schemaMain,

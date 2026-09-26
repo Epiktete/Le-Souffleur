@@ -5,7 +5,7 @@
   import ElementScriptVue from './ElementScript.svelte';
   import Vignette from './Vignette.svelte';
   import RegenererActe from './RegenererActe.svelte';
-  import { formaterDuree } from '../services/duree';
+  import { formaterDuree, partDuConteur } from '../services/duree';
   import { BORNES } from '../config';
   import { spectacleCourant } from '../etat/spectacleCourant.svelte';
   import { t, tl, tsc } from '../textes';
@@ -25,6 +25,8 @@
   let editionId = $state<Id | null>(null);
 
   const s = $derived(spectacleCourant.spectacle);
+  /** Part des mots dits par le conteur (CDC §8), en pourcentage. */
+  const partConteur = $derived(s ? partDuConteur(s.actes) : 0);
   const deuxMarionnettistes = $derived(s?.parametres.nbMarionnettistes === 2);
 
   // Le premier script ouvert : la visite montre comment corriger et jouer.
@@ -137,6 +139,7 @@
         · {tsc.ageValeur(s.parametres.ageAuditoire)}
         · {s.parametres.nbMarionnettistes}
         {s.parametres.nbMarionnettistes > 1 ? 'marionnettistes' : 'marionnettiste'}
+        {#if partConteur > 0}· {tsc.partConteur(partConteur)}{/if}
       </p>
 
       {#if s.parametres.ageAuditoire <= BORNES.ageNoteDeJeu}

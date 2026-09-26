@@ -50,7 +50,11 @@ function estDialogue(e: ElementScript): boolean {
 export function construireRangees(actes: Acte[]): Rangee[] {
   return actes.flatMap((acte) => acte.elements.map((e, index): Rangee => {
     const precedent = index > 0 ? acte.elements[index - 1] : undefined;
-    const coulisse = e.type === 'note_marionnettiste' ? voixEnCoulisse(e.texte) : null;
+    // Deux voix sans marionnette se lisent comme une réplique : la voix en
+    // coulisse d'un personnage, et le conteur.
+    const coulisse = e.type === 'note_marionnettiste'
+      ? voixEnCoulisse(e.texte)
+      : e.type === 'conteur' ? { qui: '', dit: e.texte, consigne: '', conteur: true } : null;
     return {
       id: e.id,
       ...(estDialogue(e) ? { dialogue: e } : { scene: e }),

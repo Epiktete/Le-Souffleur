@@ -29,6 +29,8 @@ function rendreElement(e: ElementScript, distribution: Marionnette[]): string {
       return `*${e.texte}*`;
     case 'note_marionnettiste':
       return `> Note : ${e.texte}`;
+    case 'conteur':
+      return `**Conteur** — ${e.texte}`;
     case 'entree':
       return `*[ ${nomDe(distribution, e.marionnetteId)} entre — main ${e.mainMarionnettiste} ]*`;
     case 'sortie':

@@ -19,7 +19,8 @@
 //   2. la MISE EN SCÈNE, confiée au DRAMATURGE ET METTEUR EN SCÈNE : le
 //      découpage en tableaux et en actes, puis chaque acte écrit à partir du
 //      texte transposé — ses paroles reprises telles quelles, sa narration
-//      devenue didascalies, effets de scène et apartés ;
+//      montrée (didascalies, effets de scène) ou dite par le conteur, le
+//      parent, mot pour mot ;
 //   3. la DERNIÈRE REVUE avant livraison, confiée au DIRECTEUR ÉDITORIAL. Il
 //      lit le conte d'origine et le script : l'histoire se comprend-elle, se
 //      tient-elle, reste-t-elle fidèle ? Il dresse d'abord la liste de ses
@@ -44,23 +45,29 @@ import type { Dossier } from './services/dossier';
  */
 export const LE_TEXTE_DU_CONTE = `LE TEXTE DU CONTE, PAS LE TIEN.
 
-- Les répliques viennent du conte : ce que le conte fait dire à ses
-  personnages, repris mot pour mot. C’est la règle, et l’exception doit
-  rester rare.
+Tout ce qui se dit vient du conte, par trois voies :
+- la RÉPLIQUE : ce que le conte fait dire à un personnage, mot pour mot ;
+- le DISCOURS RENDU DIRECT : ce que le conte fait dire, demander ou penser de
+  façon indirecte devient une réplique, avec ses mots autant que possible et
+  sans rien y ajouter : « il lui demanda où elle allait » devient « Où vas-tu ? » ;
+- le CONTEUR (élément « conteur ») : le parent, de sa propre voix, dit une
+  phrase de narration que la scène ne peut pas montrer — ce qui se passe hors
+  de la scène, ce qu’un personnage sait, veut ou craint quand aucune réplique
+  ne le dit, le temps qui passe, l’ouverture et la fin du conte. Il la dit
+  MOT POUR MOT, en phrases entières recopiées du texte transposé ; seul un
+  pronom en tête de phrase peut devenir le nom qu’il désigne. L’application
+  vérifie que chacune de ses phrases est dans le conte.
+Chaque phrase de narration est MONTRÉE (didascalie, entrée, sortie) ou DITE
+par le conteur : jamais les deux, et jamais par une marionnette. Le conteur
+ne commente pas, ne résume pas et ne parle pas aux enfants.
+Seuls s’ajoutent des RACCORDS : une réplique courte et simple, dite comme on
+parle, pour saluer, appeler ou faire entrer quelqu’un (« Bonjour, Mamie
+Rose. », « Attends-moi ! »).
+
 - Une réplique ne contient QUE ce que dit le personnage. Retire les tirets
   de dialogue et les incises du conteur : « — Je suis sûr que tu as faim,
   dit Renard Rusé. » devient « Je suis sûr que tu as faim. » ; « cria-t-il »,
   « continua-t-il », « gémit la tortue » disparaissent.
-- La narration du conte, à la troisième personne, ne va JAMAIS telle quelle
-  dans la bouche d’une marionnette : « Renard Rusé fit claquer des dents de
-  dépit » n’est pas une réplique, c’est une didascalie (« Renard Rusé claque
-  des dents, vexé »). Si un personnage doit dire ce que raconte le conteur,
-  il le dit à la première personne, comme on parle.
-- Quand la scène a besoin d’une réplique que le conte n’a pas — pour faire
-  entrer quelqu’un, pour dire ce que le conte raconte et qu’on ne peut pas
-  montrer —, elle est courte, simple, et dite comme on parle vraiment :
-  « Bonjour, Tortue. Où vas-tu ? », « Attends-moi ! », « Je n’ai plus rien
-  à manger. »
 - INTERDIT : les phrases à effet, faussement profondes ou poétiques. « Ici,
   le silence, c’est la vie », « je respire tout petit », « même pas un…
   petit rêve », « tu retombes sur… tes idées ». Personne ne parle ainsi, et
@@ -542,7 +549,9 @@ en entier, et le dernier acte reçoit ce qu’il lui faut, quitte à dépasser. 
 le conte est court, on le joue plus lentement, sans rien ajouter. La ligne
 « Le conte fait environ… » qui suit le dossier te dit s’il faut couper : quand
 elle dit « tel quel », tu ne coupes AUCUN épisode et tu joues toutes les
-répliques du conte. Répartis le budget dans « budgetMots » selon la longueur
+répliques du conte. Les mots comptés sont les mots DITS : répliques, apartés,
+et la narration que dira le conteur quand la scène ne peut pas la montrer.
+Répartis le budget dans « budgetMots » selon la longueur
 du passage de chaque acte : un acte qui joue peu de texte reçoit peu de mots,
 un acte qui en joue beaucoup en reçoit beaucoup.
 
@@ -642,15 +651,14 @@ ${retouche ? `
 ${consignesAgeRetouche(d.ageAuditoire)}
 ` : ''}
 - Les paroles des personnages du texte deviennent des répliques, MOT POUR MOT.
-- La narration devient ce qu’on voit : des didascalies (ce que font les
-  mains), des effets de scène, des entrées et des sorties. Ce qu’on ne peut
-  pas montrer et qu’il faut pourtant savoir est dit par un personnage — à un
-  autre, ou en aparté aux enfants — avec les mots du conte autant que possible.
+- La narration est MONTRÉE — didascalies (ce que font les mains), effets de
+  scène, entrées et sorties — ou DITE par le conteur, mot pour mot, quand la
+  scène ne peut pas la montrer et que l’histoire en a besoin (voir plus bas).
 - Ce que le découpage a coupé reste coupé.
 
 ${LE_TEXTE_DU_CONTE}
 
-Les cinq types d’éléments :
+Les six types d’éléments :
 - replique : ce qu’une marionnette dit à voix haute. « ton » dit comment la
   dire, en quelques mots (« vite, en tremblotant », « fort, l’air furieux ») :
   il s’affiche à côté de la réplique. La façon de parler va dans « ton »,
@@ -668,6 +676,9 @@ Les cinq types d’éléments :
   coulisse : », puis les mots du conte entre guillemets. Avec UNE seule
   marionnette, tout un rôle du conte se joue ainsi (le parent lui prête sa
   voix) : ce n’est pas l’exception, c’est la règle du spectacle.
+- conteur : la narration du conte que le parent dit de sa propre voix, sans
+  marionnette et sans main, mot pour mot (voir « Tout ce qui se dit vient du
+  conte »)
 - entree et sortie : avec la main qui tient la marionnette
 
 ${PLACE_DES_DIDASCALIES}
@@ -694,6 +705,7 @@ Tu renvoies un objet JSON de cette forme :
   {"type": "didascalie", "texte": "…"},
   {"type": "adresse_public", "marionnette": "Nom exact", "texte": "…", "attenteReponse": false},
   {"type": "note_marionnettiste", "texte": "…"},
+  {"type": "conteur", "texte": "…"},
   {"type": "sortie", "marionnette": "Nom exact", "main": "M1G"}]}
 
 Les noms des marionnettes doivent être recopiés EXACTEMENT comme dans le
@@ -785,6 +797,10 @@ ${PLACE_DES_DIDASCALIES}
 - une réplique qui garde l’incise du conteur (« dit-il », « cria Renard
   Rusé ») ou un tiret de dialogue, ou une marionnette qui récite la narration
   à la troisième personne (« Renard Rusé fit claquer des dents… ») ;
+- une phrase de narration dont l’histoire a besoin et qui n’est ni montrée ni
+  dite par le conteur (on ne sait plus qui arrive, ni pourquoi) ; ou, à
+  l’inverse, un conteur qui commente, résume, parle aux enfants, ou redit une
+  action déjà montrée ;
 - une question d’opinion ou une leçon adressée aux enfants (« à votre avis,
   c’est bien de… ? ») : c’est une morale déguisée, à supprimer ;
 - la fin : jouée en entier, ni expédiée ni seulement annoncée ;
@@ -916,6 +932,7 @@ ne changes pas, et y compris les entrées, les sorties et les didascalies :
   {"type": "didascalie", "texte": "…"},
   {"type": "adresse_public", "marionnette": "Nom exact", "texte": "…", "attenteReponse": false},
   {"type": "note_marionnettiste", "texte": "…"},
+  {"type": "conteur", "texte": "…"},
   {"type": "sortie", "marionnette": "Nom exact", "main": "M1G"}]}
 
 Les noms des marionnettes doivent être recopiés EXACTEMENT comme dans le
