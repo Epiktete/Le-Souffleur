@@ -25,4 +25,4 @@ structure: refus, tour de magie, découverte
 4. Il distribue toutes les poires à la foule, puis coupe l'arbre et s'en va.
 5. Le marchand, qui regardait bouche bée, découvre sa charrette vide : c'étaient ses poires.
 
-**À adapter.** Parfait tel quel. L'arbre qui pousse est un magnifique moment de castelet (tissu qui monte, fleurs en papier qu'on déplie, fruits qu'on accroche). Le public peut voir, lui, les poires disparaître de la charrette pendant le tour de magie.
+**À jouer.** L'arbre qui pousse est un magnifique moment de castelet (tissu qui monte, fleurs en papier qu'on déplie, fruits qu'on accroche). Le public peut voir, lui, les poires disparaître de la charrette pendant le tour de magie.

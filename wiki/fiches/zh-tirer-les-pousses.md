@@ -24,4 +24,4 @@ structure: action, vantardise, découverte
 4. Son fils court voir.
 5. Toutes les pousses sont couchées et sèches.
 
-**À adapter.** Fin plus douce : le fils replante avec son père, et ils apprennent à attendre en arrosant ; les pousses repoussent au rythme du public qui compte les jours. Excellente fable pour un personnage impatient.
+**À jouer.** Le public peut compter avec lui les pousses qu'il tire, une à une. Excellente fable pour un personnage impatient.

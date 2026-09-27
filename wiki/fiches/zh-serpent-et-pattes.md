@@ -25,4 +25,4 @@ structure: concours et retournement
 4. Pour épater, il ajoute des pattes à son serpent.
 5. Un autre finit, reprend la coupe : « Un serpent n'a pas de pattes ! »
 
-**À adapter.** Le vin devient un gâteau, une médaille, une part de tarte. Le dessin se fait en direct avec le public (grande feuille, craie). Excellente fable pour un personnage vantard : le public voit l'erreur venir.
+**À jouer.** Le dessin se fait en direct avec le public (grande feuille, craie). Excellente fable pour un personnage vantard : le public voit l'erreur venir.

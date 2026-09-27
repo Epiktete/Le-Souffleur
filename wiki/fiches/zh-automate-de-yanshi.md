@@ -26,4 +26,4 @@ structure: présentation, spectacle, incident, preuve
 4. Terrifié, Yan Shi le démonte : tout est en bois, cuir, colle et peinture, jusqu'au cœur.
 5. Le roi, émerveillé, l'emmène ; les plus grands inventeurs n'osent plus se vanter.
 
-**À adapter.** Une histoire de marionnette jouée par des marionnettes : l'automate peut être une marionnette « qui échappe à son marionnettiste ». On ne démonte pas le corps : on ouvre un petit coffre dans son dos, plein de ressorts et de rubans. Les clins d'œil deviennent des grimaces et des farces. Pour les grands.
+**À jouer.** Une histoire de marionnette jouée par des marionnettes : l'automate peut être une marionnette « qui échappe à son marionnettiste ». Le démontage se joue pièce par pièce, devant le roi qui regarde de près. Pour les grands.

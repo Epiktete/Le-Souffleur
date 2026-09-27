@@ -24,4 +24,4 @@ structure: défi et démonstration
 4. Le renard marche devant, le tigre derrière : chaque bête qui les voit s'enfuit.
 5. Le tigre, impressionné, laisse le renard partir.
 
-**À adapter.** Parfait tel quel pour deux marionnettes principales ; les bêtes qui fuient peuvent être des voix, des ombres, ou le public qui crie et se cache. Le public comprend avant le tigre : c'est tout le plaisir. Peut se terminer sur le tigre qui comprend, trop tard.
+**À jouer.** Parfait pour deux marionnettes principales ; les bêtes qui fuient peuvent être des voix, des ombres, ou le public qui crie et se cache. Le public comprend avant le tigre : c'est tout le plaisir.

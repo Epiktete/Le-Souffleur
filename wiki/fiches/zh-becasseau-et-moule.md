@@ -24,4 +24,4 @@ structure: dispute bloquée, arrivée du troisième
 4. Aucune ne cède.
 5. Le pêcheur passe et les emporte toutes les deux.
 
-**À adapter.** Le pêcheur peut les séparer et les renvoyer chacune chez soi en riant, ou les mettre dans son panier d'où elles doivent s'aider à sortir. Fable idéale sur la dispute entre frères et sœurs : deux marionnettes accrochées l'une à l'autre, c'est très visuel. Le public voit venir le pêcheur.
+**À jouer.** Fable idéale sur la dispute entre frères et sœurs : deux marionnettes accrochées l'une à l'autre, c'est très visuel. Le public voit venir le pêcheur.

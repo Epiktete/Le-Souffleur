@@ -23,4 +23,4 @@ structure: situation, visite, fuite
 4. Il passe la tête par la fenêtre, et sa queue par la porte.
 5. Le seigneur hurle et s'enfuit.
 
-**À adapter.** Le dragon, vexé puis triste, peut devenir le vrai héros : le seigneur apprend à ne plus avoir peur, et ils deviennent amis. Une marionnette de dragon dont on ne voit que la tête d'un côté du castelet et la queue de l'autre fait un effet superbe. Parfait pour un personnage vantard et peureux.
+**À jouer.** Une marionnette de dragon dont on ne voit que la tête d'un côté du castelet et la queue de l'autre fait un effet superbe. Parfait pour un personnage vantard et peureux.

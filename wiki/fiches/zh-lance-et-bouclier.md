@@ -24,4 +24,4 @@ structure: boniment, question, silence
 4. Un passant demande : « Et si ta lance frappe ton bouclier ? »
 5. Le marchand reste sans voix.
 
-**À adapter.** La lance et le bouclier deviennent un parapluie qui ne se mouille jamais et un arrosoir qui mouille tout, ou une colle qui colle tout et un produit qui décolle tout : à inventer. Idéal pour un personnage vantard ; le public peut poser la question fatale.
+**À jouer.** Idéal pour un personnage vantard, qui crie son boniment au public comme au marché ; le public peut poser la question fatale.

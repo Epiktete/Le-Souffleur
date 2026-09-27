@@ -23,4 +23,4 @@ structure: invitation, échec, récit, prise de conscience
 4. Elle recule, et décrit la mer : sans bord, sans fond, qui ne monte ni ne baisse.
 5. La grenouille reste bouche bée.
 
-**À adapter.** Donner une suite : la tortue emmène la grenouille voir la mer, sur son dos. Le puits peut être un seau ou une boîte. Très beau pour parler de curiosité et de voyage.
+**À jouer.** Le puits peut être un seau ou une boîte. La tortue coincée dès le genou est le moment drôle. Très beau pour parler de curiosité et de voyage.
