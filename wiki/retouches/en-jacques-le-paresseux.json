@@ -1,0 +1,8 @@
+{
+  "id": "en-jacques-le-paresseux",
+  "langue": [
+    {"avant": "gagnait sa vie en filant", "apres": "gagnait sa vie en filant la laine", "nature": "faux-ami"},
+    {"avant": "retrouva aussitôt la parole et l'ouïe", "apres": "put aussitôt parler et entendre", "nature": "mot-rare", "jusqua": 6}
+  ],
+  "moments": []
+}

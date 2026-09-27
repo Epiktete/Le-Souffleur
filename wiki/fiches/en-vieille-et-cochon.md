@@ -31,4 +31,4 @@ structure: conte en chaîne (aller et retour)
 4. Le chat accepte, si on lui apporte du lait ; la vache veut du foin ; la vieille va chercher le foin.
 5. Le chat se met en marche, et toute la chaîne suit jusqu'au cochon, qui saute la barrière.
 
-**À adapter.** Remplacer les verbes violents par des poursuites : le chien « court après » le cochon, le bâton « chatouille » le chien, le boucher devient un fermier. Trois ou quatre maillons joués, le reste en accessoires ou au dessin. Le public récite la chaîne de plus en plus longue et adore la débâcle finale.
+**À jouer.** Trois ou quatre maillons joués, le reste en accessoires ou au dessin. Le public récite la chaîne de plus en plus longue et adore la débâcle finale. Parent : « Le Navet », autre chaîne qui s'allonge à chaque rencontre.

@@ -27,4 +27,4 @@ structure: série de journées, chaque conseil décalé d'un jour
 4. On lui donne un âne : il le porte sur ses épaules, les pattes en l'air.
 5. La fille qui n'a jamais ri le voit passer, éclate de rire et guérit.
 
-**À adapter.** Le mariage devient une récompense ou une amitié. La viande de mouton devient un gros saucisson ou un gâteau. Le public comprend avant Jacques ce qu'il va faire de travers et le crie. L'âne sur les épaules est une image de castelet irrésistible.
+**À jouer.** Le public comprend avant Jacques ce qu'il va faire de travers et le crie, et il répond avec lui « Je le ferai la prochaine fois ! ». L'âne sur les épaules est une image de castelet irrésistible. Parent : « Jean la Chance », autre nigaud heureux à la fin.

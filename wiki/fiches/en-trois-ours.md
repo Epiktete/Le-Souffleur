@@ -25,4 +25,4 @@ structure: triple série, puis triple découverte
 4. Les ours rentrent : « Quelqu'un a touché à ma bouillie ! » en trois voix ; puis les chaises, puis les lits.
 5. « … et la voilà ! » La petite voix réveille l'intruse, qui saute par la fenêtre.
 
-**À adapter.** L'intruse peut être la marionnette la plus coquine de la famille (souvent une fillette : Boucle d'or). Les trois voix des ours sont le cœur du jeu. On peut finir par une réparation : elle revient s'excuser et répare la chaise. Idéal pour les tout-petits.
+**À jouer.** L'intruse peut être la marionnette la plus coquine de la famille. Les trois voix des ours sont le cœur du jeu : le public reprend avec eux « Quelqu'un a touché à ma bouillie ! », en grosse, moyenne et toute petite voix. Idéal pour les tout-petits. Parent : « Boucle d'or », la version plus récente, où l'intruse est une fillette.

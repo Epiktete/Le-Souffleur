@@ -28,4 +28,4 @@ structure: point de départ, puis trois rencontres
 4. Un voyageur essaie d'enfiler son pantalon en sautant dedans.
 5. Tout un village veut repêcher la lune tombée dans la mare. Le fiancé revient se marier.
 
-**À adapter.** Supprimer la vache pendue et la femme coincée dans la cheminée : la vache refuse de monter, et c'est tout. Le mariage devient une amitié. Chaque rencontre peut se jouer seule. Même début que « Élise la maligne » (Grimm) : les deux peuvent se combiner.
+**À jouer.** La cave est une scène de chœur : chacun descend, écoute, et se met à pleurer à son tour, et le public peut pleurer avec eux. Chaque rencontre du voyage peut se jouer seule ; pour un spectacle court, on en garde une ou deux. Même début que « Élise la maligne » (Grimm) : les deux peuvent se combiner.

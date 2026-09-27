@@ -28,4 +28,4 @@ structure: trois ascensions
 4. Deuxième visite : la poule aux œufs d'or ; troisième : la harpe qui chante.
 5. La harpe crie « Maître ! » ; poursuite dans la tige ; Jack la coupe, l'ogre tombe.
 
-**À adapter.** L'ogre n'est pas tué : il tombe dans une meule de foin, ou remonte en grommelant, ou la tige se replie vers le ciel. On peut rendre à l'ogre ce qui était à lui, ou justifier les « prises » (l'ogre les avait volés). Les cachettes pendant que l'ogre renifle sont des scènes de complicité idéales avec le public.
+**À jouer.** Les cachettes pendant que l'ogre renifle sont des scènes de complicité idéales avec le public, qui dit « Fi, fa, fo, fum ! » avec l'ogre dès la deuxième visite. La montée et la descente de la tige se jouent à la verticale du castelet. Parent : « Le Petit Poucet », autre ogre qui sent la chair fraîche.

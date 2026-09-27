@@ -24,4 +24,4 @@ structure: leçon puis catastrophe
 4. La nuit, une étincelle tombe sur la queue de la chatte.
 5. Elle réveille son maître avec une phrase entièrement faite de ses mots inventés — et c'est tout.
 
-**À adapter.** Conte parfait tel quel : très court, pure mécanique de langage. Le public apprend les mots en même temps que la servante et peut l'aider à formuler l'alerte. On peut inventer les mots avec les enfants. Finir en éteignant le feu, bien sûr.
+**À jouer.** Conte parfait tel quel : très court, pure mécanique de langage. Le public apprend les mots en même temps que la servante et peut l'aider à formuler l'alerte. On peut inventer les mots avec les enfants. La fin tombe net sur l'alerte : c'est la chute.

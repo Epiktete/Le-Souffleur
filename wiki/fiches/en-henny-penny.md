@@ -28,4 +28,4 @@ structure: randonnée cumulative
 4. Renard Roublard propose de leur montrer « le raccourci ».
 5. C'est sa tanière ; il attrape les premiers entrés, le coq prévient la poule qui s'enfuit.
 
-**À adapter.** Pas de têtes coupées : le renard les enferme, et la poule, revenue avec du renfort (ou le public qui crie), les délivre ; ou le roi explique enfin que c'était un gland. Les noms rimés sont le vrai jeu : on peut les inventer avec les marionnettes de la famille.
+**À jouer.** Les noms rimés sont le vrai jeu : on peut les inventer avec les marionnettes de la famille. La liste qui s'allonge se dit avec le public, qui la sait vite par cœur, et « ils allèrent, et ils allèrent, et ils allèrent » se marche sur place. Parent : « Le Petit Pain rond », autre randonnée qui finit chez le renard.
