@@ -638,7 +638,11 @@ export function promptEcrireActe(
   /** Le texte transposé et le découpage, mis en forme par le pipeline. */
   adaptation: string,
   conduiteActe: string,
-  /** Le TEXTE des actes déjà écrits. */
+  /**
+   * Ce qui se joue avant cet acte. À la génération, le PLAN des actes
+   * précédents (résumés et passages : les actes s'écrivent en même temps) ;
+   * à la régénération d'un acte, leur texte réel, déjà connu.
+   */
   actesPrecedents: string,
   aSuivre: string,
   etatScene: string,
@@ -692,6 +696,13 @@ Les six types d’éléments :
 
 ${PLACE_DES_DIDASCALIES}
 
+CHAQUE ACTE S’ÉCRIT DE SON CÔTÉ, et ils se recollent par le texte transposé :
+ton acte joue EXACTEMENT son passage — rien avant ses premiers mots, rien
+après ses derniers, ce qui les précède et les suit appartient aux actes
+voisins. Ne redis pas, même par le conteur, la dernière phrase de l’acte
+d’avant ni la première de l’acte d’après, et n’écris aucune formule de rappel
+(« Comme vous l’avez vu… ») : l’acte précédent vient d’être joué.
+
 SI C’EST LE PREMIER ACTE, on doit comprendre dès les premières répliques où
 l’on est et qui est qui. SI C’EST LE DERNIER, la fin du conte se JOUE en
 entier devant les enfants : le budget de mots est une indication, jamais une
@@ -728,8 +739,8 @@ ${adaptation}
 État de la scène au début de cet acte :
 ${etatScene}
 
-Texte des actes déjà écrits :
-${actesPrecedents || 'C’est le premier acte : rien n’a encore été écrit.'}
+Ce qui se joue avant cet acte :
+${actesPrecedents || 'Rien : c’est le premier acte, il ouvre le spectacle.'}
 
 Ce qui viendra après cet acte :
 ${aSuivre || 'Rien : c’est le dernier acte, il referme le spectacle.'}

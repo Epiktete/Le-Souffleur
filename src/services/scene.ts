@@ -14,7 +14,7 @@
 
 import { BORNES, DUREE } from '../config';
 import { dureeElements, dansLaTolerance } from './duree';
-import { controlerParole } from './parole';
+import { controlerParole, frontieresRepetees } from './parole';
 import type { Acte, ElementScript, Id, Main, NiveauInteraction } from '../types';
 
 /** Les mains d'un marionnettiste, dans l'ordre. */
@@ -490,6 +490,9 @@ export function controler(c: ContexteControle): Probleme[] {
 
   // 9. La parole vient du conte (CDC §6, « Le conteur et les trois voies »).
   if (c.texteReference) problemes.push(...controlerParole(c.actes, c.texteReference));
+  // 10. Les frontières : les actes s'écrivent en même temps (pipeline), et
+  // deux voisins se recouvrent parfois d'une phrase dite en double.
+  problemes.push(...frontieresRepetees(c.actes));
   return problemes;
 }
 

@@ -806,30 +806,40 @@ ${formaterAdaptation(adaptation)}`;
   });
 
   /* ---------------------------------------------------------------- */
-  /* Étape 4 : écriture, un appel par acte                             */
+  /* Étape 4 : écriture, un appel par acte, TOUS EN MÊME TEMPS         */
   /* ---------------------------------------------------------------- */
 
+  // Les actes s'écrivaient l'un après l'autre, chacun attendant le texte du
+  // précédent : la moitié du temps d'une génération. Or leur vraie couture
+  // n'est pas le texte des voisins, c'est le TEXTE TRANSPOSÉ : chaque acte
+  // joue un passage borné par ses premiers et derniers mots, et les répliques
+  // en viennent mot pour mot. Trois garde-fous tiennent les transitions :
+  //   1. l'état de scène au début de chaque acte est calculé d'avance depuis
+  //      la conduite, que la simulation vient de valider ;
+  //   2. les mains et l'état réels sont rejoués EN ORDRE sur les réponses
+  //      (convertirElements ci-dessous), et les contrôles voient tout écart ;
+  //   3. le contrôle des frontières (parole.ts) attrape une phrase dite en
+  //      double de part et d'autre d'une couture, et la revue finale, qui lit
+  //      le script entier, vérifie que les actes s'enchaînent.
   const actesConduite = [...adaptation.actes].sort((a, b) => a.numero - b.numero);
-  const actes: Acte[] = [];
-  let etatScene: EtatScene = {};
+  const etatsPrevus = etatsPrevusParConduite(adaptation, dossier.nbMarionnettistes, distribution);
 
-  for (const [index, ac] of actesConduite.entries()) {
-    o.surAvancement({ etape: 'ecriture', acte: index + 1, actesTotal: actesConduite.length });
-
-    const aSuivre = actesConduite
-      .slice(index + 1)
-      .map((a) => `Acte ${a.numero} — ${a.titre} : ${a.resume}`)
-      .join('\n');
-
-    const r = await appelJson(
+  o.surAvancement({ etape: 'ecriture', acte: 1, actesTotal: actesConduite.length });
+  let actesTermines = 0;
+  const ligne = (a: Conduite['actes'][number]) =>
+    `Acte ${a.numero} — ${a.titre} : ${a.resume}${a.passage ? ` (${a.passage})` : ''}`;
+  const reponses = await Promise.all(actesConduite.map((ac, index) => {
+    const dejaJoue = actesConduite.slice(0, index).map(ligne).join('\n');
+    const aSuivre = actesConduite.slice(index + 1).map(ligne).join('\n');
+    return appelJson(
       o,
       promptEcrireActe(
         dossier,
         blocAdaptation,
         formaterConduiteActe(ac),
-        formaterScript(actes, nomDe),
+        dejaJoue,
         aSuivre,
-        decrireEtatScene(etatScene, nomDe),
+        decrireEtatScene(etatsPrevus.get(ac.numero) ?? {}, nomDe),
         undefined,
         Boolean(retouche),
       ),
@@ -838,9 +848,24 @@ ${formaterAdaptation(adaptation)}`;
       BUDGETS.ecriture,
       `acte ${ac.numero}`,
       delai(),
-    );
-    jetons = cumulerJetons(jetons, r.jetons);
+    ).then((r) => {
+      actesTermines++;
+      o.surAvancement({
+        etape: 'ecriture',
+        acte: Math.min(actesTermines + 1, actesConduite.length),
+        actesTotal: actesConduite.length,
+      });
+      return r;
+    });
+  }));
 
+  // La conversion, elle, reste EN ORDRE : les mains réelles de l'acte suivant
+  // dépendent de ce que l'acte précédent a vraiment écrit.
+  const actes: Acte[] = [];
+  let etatScene: EtatScene = {};
+  for (const [index, ac] of actesConduite.entries()) {
+    const r = reponses[index];
+    jetons = cumulerJetons(jetons, r.jetons);
     const elements = convertirElements(
       r.valeur.elements, distribution, dossier.nbMarionnettistes, etatScene, roles,
     );
@@ -1294,6 +1319,35 @@ export function nettoyerReplique(texte: string): string {
  * Simule le découpage avant toute écriture. Les mouvements sont
  * joués dans l'ordre des actes.
  */
+/**
+ * L'état de scène PRÉVU au début de chaque acte, joué depuis les mouvements
+ * de la conduite — celle que la simulation vient de valider. C'est ce qui
+ * permet d'écrire tous les actes en même temps : chacun sait qui est en scène
+ * à son lever, sans attendre le texte du précédent.
+ */
+export function etatsPrevusParConduite(
+  conduite: Conduite,
+  nbMarionnettistes: 1 | 2,
+  distribution: Marionnette[],
+): Map<number, EtatScene> {
+  const nomDe = (id: string) => distribution.find((m) => m.id === id)?.nom ?? id;
+  const etats = new Map<number, EtatScene>();
+  let etat: EtatScene = {};
+  for (const acte of [...conduite.actes].sort((a, b) => a.numero - b.numero)) {
+    etats.set(acte.numero, etat);
+    const elements: ElementScript[] = [];
+    for (const mv of acte.mouvements) {
+      const id = trouverMarionnetteId(mv.marionnette, distribution);
+      if (!id) continue;
+      elements.push({ id: nouvelId(), type: mv.type, marionnetteId: id, mainMarionnettiste: mv.main as Main });
+    }
+    etat = simulerActe(
+      attribuerMains(elements, nbMarionnettistes, etat), nbMarionnettistes, nomDe, etat, acte.numero,
+    ).etatFinal;
+  }
+  return etats;
+}
+
 export function simulerConduite(
   conduite: Conduite,
   nbMarionnettistes: 1 | 2,

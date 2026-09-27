@@ -6,7 +6,7 @@ import { LE_TEXTE_DU_CONTE, promptCorrectionActe, promptEcrireActe, promptRelect
 import { construireDossier } from '../src/services/dossier';
 import { dureeElements, partDuConteur } from '../src/services/duree';
 import { construireRangees } from '../src/services/pagination';
-import { controlerParole, motsInventes } from '../src/services/parole';
+import { controlerParole, frontieresRepetees, motsInventes } from '../src/services/parole';
 import { convertirElements } from '../src/services/pipeline';
 import { controler, simulerActe } from '../src/services/scene';
 import { schemaElementEcrit, valider } from '../src/services/schemas';
@@ -127,6 +127,28 @@ describe('le contrôle 9 : la parole vient du conte', () => {
     expect(controler({ ...base, texteReference: REFERENCE }).some((p) => /pas dans le conte/.test(p.message)))
       .toBe(true);
     expect(controler(base).some((p) => /pas dans le conte/.test(p.message))).toBe(false);
+  });
+});
+
+describe('le contrôle des frontières : les actes écrits en même temps ne se recouvrent pas', () => {
+  it('signale une phrase dite en double de part et d’autre d’une couture', () => {
+    const a1 = acte([replique('rosette', 'Je vais voir ma mère-grand.'),
+      conteur('Les bûcherons, qui passaient devant la maison, l’entendirent ronfler.')], 1);
+    const a2 = acte([conteur('Les bûcherons, qui passaient devant la maison, l’entendirent ronfler.'),
+      replique('loup', 'Qui est là ?')], 2);
+    const [p] = frontieresRepetees([a1, a2]);
+    expect(p).toMatchObject({ gravite: 'important', acteNumero: 2, position: 1 });
+    expect(p.message).toContain('se recouvrent');
+  });
+
+  it('laisse passer des coutures propres, et les répétitions à l’intérieur d’un acte', () => {
+    // Le refrain répété DANS un acte est la forme du conte : il ne regarde
+    // pas ce contrôle, qui ne compare que la couture entre deux actes.
+    const a1 = acte([replique('loup', 'Tire la chevillette, la bobinette cherra.'),
+      replique('loup', 'Tire la chevillette, la bobinette cherra.'),
+      conteur('Il se jeta sur la bonne femme.')], 1);
+    const a2 = acte([conteur('Le petit Chaperon rouge vint heurter à la porte.')], 2);
+    expect(frontieresRepetees([a1, a2])).toEqual([]);
   });
 });
 

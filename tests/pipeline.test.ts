@@ -3,7 +3,7 @@
 // C'est le point de contact le plus fragile du pipeline : le modèle désigne les
 // marionnettes par leur nom, avec sa propre orthographe, et peut inventer.
 import { describe, expect, it } from 'vitest';
-import { convertirElements, delaiAppel, longueurConte, decrireEtatScene, nettoyerReplique, simulerConduite, tableDesRoles, voixParMarionnette } from '../src/services/pipeline';
+import { convertirElements, delaiAppel, etatsPrevusParConduite, longueurConte, decrireEtatScene, nettoyerReplique, simulerConduite, tableDesRoles, voixParMarionnette } from '../src/services/pipeline';
 import { conteParId } from '../src/services/repertoire';
 import { construireDossier, trouverMarionnetteId } from '../src/services/dossier';
 import { attribuerMains, controler, simulerActe } from '../src/services/scene';
@@ -249,6 +249,26 @@ describe('simulerConduite : le garde-fou de l’étape 6', () => {
 
   it('accepte une conduite jouable', () => {
     expect(simulerConduite(conduiteDeBase, 1, duo)).toEqual([]);
+  });
+
+  it('donne l’état de scène prévu au début de chaque acte, pour écrire en parallèle', () => {
+    const deuxActes = {
+      ...conduiteDeBase,
+      actes: [
+        conduiteDeBase.actes[0],
+        {
+          ...conduiteDeBase.actes[0],
+          numero: 2,
+          titre: 'Acte 2',
+          mouvements: [{ type: 'sortie' as const, marionnette: 'Doudou Lapin', main: 'M1G' as const }],
+        },
+      ],
+    };
+    const etats = etatsPrevusParConduite(deuxActes, 1, duo);
+    // L'acte 1 lève le rideau sur une scène vide ; l'acte 2 retrouve les deux
+    // marionnettes que l'acte 1 a fait entrer.
+    expect(etats.get(1)).toEqual({});
+    expect(Object.values(etats.get(2) ?? {}).sort()).toEqual([duo[0].id, duo[1].id].sort());
   });
 
   it('refuse une conduite qui laisse une marionnette en coulisse', () => {

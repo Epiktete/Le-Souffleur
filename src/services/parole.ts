@@ -86,6 +86,41 @@ export function motsInventes(actes: Acte[], reference: string) {
   return { part: total ? inventes / total : 0, parElement };
 }
 
+/**
+ * Le contrôle des frontières : les actes s'écrivent en même temps, et deux
+ * voisins se recouvrent parfois d'une phrase — le conteur de l'acte suivant
+ * redit la transition que l'acte précédent vient de dire. On compare la
+ * dernière phrase dite d'un acte à la première du suivant, sous leur forme
+ * normalisée : identiques, l'acte suivant repart en correction.
+ */
+export function frontieresRepetees(actes: Acte[]): Probleme[] {
+  const problemes: Probleme[] = [];
+  const dits = (a: Acte) => a.elements.filter((e) => DIT.has(e.type) && 'texte' in e);
+  const cle = (p: string) => normaliser(p);
+
+  const tries = [...actes].sort((a, b) => a.numero - b.numero);
+  for (let i = 1; i < tries.length; i++) {
+    const avant = dits(tries[i - 1]);
+    const apres = dits(tries[i]);
+    if (avant.length === 0 || apres.length === 0) continue;
+    const dernieres = phrases((avant[avant.length - 1] as { texte: string }).texte);
+    const premieres = phrases((apres[0] as { texte: string }).texte);
+    if (dernieres.length === 0 || premieres.length === 0) continue;
+    if (cle(dernieres[dernieres.length - 1]) !== cle(premieres[0])) continue;
+    const position = tries[i].elements.indexOf(apres[0]) + 1;
+    problemes.push({
+      gravite: 'important',
+      acteNumero: tries[i].numero,
+      position,
+      message: `La phrase « ${court(premieres[0])} » se dit à la fin de l'acte `
+        + `${tries[i - 1].numero} et au début de l'acte ${tries[i].numero} : les deux actes se `
+        + 'recouvrent d\'une phrase. Garde-la d\'un seul côté — sauf si le conte la répète '
+        + 'exprès à cet endroit.',
+    });
+  }
+  return problemes;
+}
+
 /** Le contrôle 9 : la parole vient du conte. */
 export function controlerParole(actes: Acte[], reference: string): Probleme[] {
   const problemes: Probleme[] = [];
