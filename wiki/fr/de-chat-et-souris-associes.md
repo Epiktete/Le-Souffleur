@@ -74,7 +74,7 @@ Elle secoua la tête, se roula en boule et s'endormit.
 
 Ils se mirent en route, et quand ils arrivèrent, le pot de graisse était bien à sa place, mais il était vide.
 
-— Ah, dit la souris, je comprends maintenant ce qui s'est passé, maintenant tout s'éclaire ! Tu es vraiment une belle amie ! Tu as tout mangé, quand tu étais parrain : d'abord entamé, puis à moitié, puis…
+— Ah, dit la souris, je comprends maintenant ce qui s'est passé, maintenant tout s'éclaire ! Tu es vraiment un bel ami ! Tu as tout mangé, quand tu étais parrain : d'abord entamé, puis à moitié, puis…
 
 — Tais-toi ! cria le chat. Encore un mot, et je te mange.
 
