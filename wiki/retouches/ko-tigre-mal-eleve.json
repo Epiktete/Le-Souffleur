@@ -1,0 +1,8 @@
+{
+  "id": "ko-tigre-mal-eleve",
+  "langue": [
+    {"avant": "Cependant, comme j'ai très faim, je dois vous manger.", "apres": "Mais comme j'ai très faim, je dois vous manger.", "nature": "connecteur", "jusqua": 8},
+    {"avant": "Il était sûr que le Vieux Dos-Tacheté allait lui donner raison.", "apres": "Le tigre était sûr que le crapaud, le Vieux Dos-Tacheté, allait lui donner raison.", "nature": "pronom", "jusqua": 6}
+  ],
+  "moments": []
+}

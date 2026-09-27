@@ -30,4 +30,4 @@ structure: voyage nocturne aller-retour
 4. Avec une escorte, ils passent devant le chat Don Gaiferos endormi, jusqu'à la mansarde glacée de Gilito.
 5. Le roi, bouleversé, rentre et éternue : il est dans son lit, et décide de s'occuper des enfants pauvres.
 
-**À adapter.** La leçon religieuse peut devenir une leçon de partage : le roi offre son cadeau à Gilito, ou crée une grande fête pour tous les enfants. Supprimer les allusions mondaines pour adultes (le club, les diplomates). Le passage devant le chat qui dort est une scène de suspense idéale avec le public (« chut ! »). C'est l'origine espagnole de notre petite souris des dents.
+**À jouer.** Le passage devant le chat qui dort est une scène de suspense idéale avec le public (« chut ! »). C'est l'origine espagnole de notre petite souris des dents.

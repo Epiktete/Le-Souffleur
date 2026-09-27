@@ -27,4 +27,4 @@ structure: accumulation
 4. Une vieille vagabonde vient insulter les trois prisonniers, glisse, et tombe avec eux.
 5. Coincée, elle gronde le renard qui s'agite et loue l'ours, « si sage, le maître de la maison ». L'homme arrive.
 
-**À adapter.** La fin est à changer : l'homme les sort tous et les renvoie chacun chez soi, penauds, ou ils s'entraident pour sortir (la vieille sur l'ours, le renard sur la vieille…). La chute de chacun, toujours sur la même formule, est un jeu idéal avec le public.
+**À jouer.** La chute de chacun, toujours sur la même formule (« droit dans la fosse »), est un jeu idéal avec le public.

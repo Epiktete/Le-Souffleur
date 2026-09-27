@@ -26,4 +26,4 @@ structure: frères successifs puis joute de bluff
 4. Devant des seaux trop lourds : « J'irai plutôt chercher le puits entier ! » Le troll y va lui-même.
 5. Au concours de bouillie, le garçon remplit un sac sous sa veste, le perce ; le troll, pour l'imiter, s'avoue vaincu.
 
-**À adapter.** Le troll ne se perce pas le ventre : il éclate de rire, ou roule sous la table en demandant grâce, et donne le trésor. Parent du « Vaillant Petit Tailleur » (même fromage). Le public voit le sac caché que le troll ne voit pas.
+**À jouer.** Le public voit le sac caché que le troll ne voit pas. Parent du « Vaillant Petit Tailleur » (même fromage).

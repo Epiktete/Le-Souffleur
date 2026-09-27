@@ -1,0 +1,22 @@
+{
+  "id": "it-giufa",
+  "langue": [
+    {"avant": "Madame ma commère est la maîtresse.", "apres": "C'est madame ma commère qui décide.", "nature": "faux-ami"},
+    {"avant": "Je vous suis toujours obligée.", "apres": "Je vous en remercie bien.", "nature": "faux-ami"}
+  ],
+  "moments": [
+    {
+      "id": "giufa-et-le-vin",
+      "type": "alcool",
+      "niveaux": [
+        {
+          "jusqua": 4,
+          "annonce": "À la ferme, on ne dit pas que Giufà est soûl : le vin lui a seulement donné sommeil.",
+          "retouches": [
+            {"avant": "Non. Il est soûl. Le vin lui a tourné la cervelle.", "apres": "Non. Il dort debout. Le vin lui a donné sommeil."}
+          ]
+        }
+      ]
+    }
+  ]
+}

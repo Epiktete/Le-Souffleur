@@ -24,4 +24,4 @@ structure: rencontre, marché, piège
 4. Le tigre s'endort ; le lapin prépare son tour autour de lui.
 5. Réveillé en sursaut, le tigre doit sauter pour s'enfuir ; les autres tigres se moquent de sa fourrure ébouriffée.
 
-**À adapter.** Le feu d'herbes sèches est à remplacer impérativement : cercle de casseroles qui font un vacarme, bassine d'eau froide, chatouilles de plumes, ou pétards de papier. Le « gardez les yeux fermés ! » est un jeu idéal avec le public, qui peut surveiller le tigre. Proche des tours de Frère Lapin.
+**À jouer.** Le « gardez les yeux fermés ! » est un jeu idéal avec le public, qui peut surveiller le tigre. Proche des tours de Frère Lapin.

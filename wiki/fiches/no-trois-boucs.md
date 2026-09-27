@@ -25,4 +25,4 @@ structure: trois passages
 4. « TRIP TRAP » : le grand bouc, d'une grosse voix, qui ne demande rien.
 5. Il envoie le troll dans la cascade ; les trois boucs s'engraissent là-haut.
 
-**À adapter.** Le troll tombe dans l'eau et part bouder en aval, plutôt que d'être « réduit en morceaux ». Idéal pour 4 marionnettes et un pont en bord de castelet. Le « trip trap » se fait avec le public, de plus en plus fort.
+**À jouer.** Idéal pour 4 marionnettes et un pont en bord de castelet. Le « trip trap » se fait avec le public, de plus en plus fort.

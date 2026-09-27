@@ -27,4 +27,4 @@ structure: deux visites en miroir, puis conséquences
 4. Il revient à la même ferme : on le salue, on le régale ; il bourre son fusil et sa cartouchière de viande et arrose sa veste de vin : « Les invités, c'est vous ! »
 5. Il rentre chargé de cadeaux ; sa mère est ravie, puis horrifiée : comment rendre l'habit au compère ?
 
-**À adapter.** Supprimer le bâton (on le chasse en criant) et le vin (une cruche d'eau ou de jus). Le fusil peut devenir un chapeau à plumes et une sacoche. La même histoire existe chez Nasreddin Hodja (« Mange, mon manteau ! ») : la version sicilienne est plus longue et plus théâtrale. La fin ouverte (l'habit taché) peut devenir une vraie scène : Giufà doit se débrouiller pour laver l'habit du compère.
+**À jouer.** Les deux arrivées à la ferme se jouent en miroir : même cour, accueil contraire. La même histoire existe chez Nasreddin Hodja (« Mange, mon manteau ! ») : la version sicilienne est plus longue et plus théâtrale.

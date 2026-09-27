@@ -25,4 +25,4 @@ structure: piège, sauvetage, ingratitude, jugement truqué
 4. Le crapaud réfléchit longuement et demande à voir le piège ; pendant que le tigre y court, le moine s'enfuit.
 5. Le crapaud rend son jugement depuis une fente de rocher où le tigre ne peut pas l'atteindre.
 
-**À adapter.** La fin du tigre (il se blesse à mort, le chasseur vend sa peau) devient : il se coince le museau dans la fente et part tout penaud. Le tigre face au miroir est un gag visuel parfait. Parent du conte africain du « lièvre juge » et de la fable indienne du brahmane et du tigre. Le public adore les lenteurs du crapaud.
+**À jouer.** Le tigre face au miroir est un gag visuel parfait. Parent du conte africain du « lièvre juge » et de la fable indienne du brahmane et du tigre. Le public adore les lenteurs du crapaud.
