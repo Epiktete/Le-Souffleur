@@ -27,4 +27,4 @@ structure: bonne visite, mauvaise copie
 4. Pour qu'il revienne, ils prennent en gage « ce à quoi il tient le plus » : sa bosse. Il fait semblant de protester.
 5. Le voisin jaloux y va à son tour, danse mal : on lui « rend » la bosse — il en a maintenant deux.
 
-**À adapter.** La bosse peut devenir une verrue, un nez rouge, un hoquet qui ne passe pas. Les ogres sont des lutins fêtards plutôt effrayants au début, puis drôles. La danse du vieux et celle, ratée, du voisin sont deux numéros à faire avec de la musique ; le public tape dans ses mains avec les ogres.
+**À jouer.** Les ogres, un peu effrayants à leur arrivée, deviennent drôles pendant la fête. La danse du vieux et celle, ratée, du voisin sont deux numéros à faire avec de la musique ; le public tape dans ses mains et crie « Bravo ! Bravo ! » avec les ogres. Parenté avec « Le Moineau à la langue coupée », du même conteur : le bon vieux récompensé, l'envieux puni en l'imitant.

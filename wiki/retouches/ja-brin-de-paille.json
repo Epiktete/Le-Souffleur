@@ -1,0 +1,8 @@
+{
+  "id": "ja-brin-de-paille",
+  "langue": [
+    {"avant": "une dame de qualité", "apres": "une grande dame", "nature": "faux-ami"},
+    {"avant": "dites-le-moi, ne serait-ce qu'en rêve", "apres": "dites-le-moi, même en rêve", "nature": "parler", "jusqua": 4}
+  ],
+  "moments": []
+}

@@ -28,4 +28,4 @@ structure: naissance, départ, compagnons, victoire, retour
 4. Sur l'île : le faisan pique, le singe ouvre la porte, le chien mord les mollets ; les ogres, si grands et si peureux, pleurent.
 5. Le chef des ogres se rend et rend les trésors ; retour triomphal chez les vieux.
 
-**À adapter.** Les ogres ne sont pas battus mais chatouillés, ou effrayés par le bruit ; ils rendent les trésors volés et deviennent amis. Les armes disparaissent (l'éventail reste). Le triple recrutement est la partie idéale pour les petits, et on peut remplacer chien, singe et faisan par les animaux de la famille. La pêche qui descend la rivière en chantant est un début magnifique.
+**À jouer.** Le triple recrutement est la partie idéale pour les petits : le public reprend le dialogue avec chaque animal et fait les cris (« Ouah, ouah ! », « Kia, kia ! », « Kèn, kèn ! »). La pêche qui descend la rivière en chantant est un début magnifique. Les cris d'effort du retour (« Enyarasa ! ») se reprennent aussi en chœur.

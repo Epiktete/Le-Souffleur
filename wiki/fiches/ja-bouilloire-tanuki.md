@@ -26,4 +26,4 @@ structure: objet ensorcelé, fuite, association heureuse
 4. Ils montent un spectacle : la bouilloire-tanuki danse sur une corde avec une ombrelle, la foule accourt.
 5. Devenu riche, le chiffonnier la laisse se reposer au temple, sur un coussin de soie, pour toujours.
 
-**À adapter.** Parfait tel quel, et idéal pour marionnettes : la bouilloire qui se transforme (une marionnette-bouilloire d'où sortent une tête et une queue), le numéro de corde raide, le spectacle dans le spectacle où le public joue les spectateurs. Les novices qu'on ne croit pas sont un ressort que les enfants adorent.
+**À jouer.** Idéal pour marionnettes : la bouilloire qui se transforme (une marionnette-bouilloire d'où sortent une tête et une queue), le numéro de corde raide, le spectacle dans le spectacle où le public joue les spectateurs. Les novices qu'on ne croit pas sont un ressort que les enfants adorent.

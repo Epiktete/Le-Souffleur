@@ -29,4 +29,4 @@ structure: chaîne d'échanges ascendante
 4. Il échange une étoffe contre un magnifique cheval tombé d'épuisement, qu'il soigne et remet sur pied.
 5. Une famille qui part en voyage lui échange le cheval contre des champs et lui confie sa maison ; il y vit heureux.
 
-**À adapter.** Le cheval « mort » devient un cheval épuisé qu'on croit perdu. Supprimer la leçon sur les fautes des vies passées. C'est le parfait contraire de « Jean la Chance » (Grimm), où chaque échange fait perdre : les deux peuvent se répondre dans un même spectacle. Chaque objet est un accessoire simple que la marionnette porte au bout de sa branche.
+**À jouer.** Le public peut reprendre avec le jeune homme chaque « … est devenu … ! », de plus en plus émerveillé. C'est le parfait contraire de « Jean la Chance » (Grimm), où chaque échange fait perdre : les deux peuvent se répondre dans un même spectacle. Chaque objet est un accessoire simple que la marionnette porte au bout de sa branche.

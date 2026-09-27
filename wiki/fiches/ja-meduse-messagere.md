@@ -27,4 +27,4 @@ structure: mission, voyage, révélation, retour penaud
 4. Le singe, sans paniquer : « Il fallait le dire ! Je l'ai laissé sécher sur mon arbre. » Elle le ramène.
 5. Le singe grimpe dans l'arbre et se moque d'elle ; au palais, on la punit : elle devient toute molle.
 
-**À adapter.** Le « foie » devient autre chose de moins cru : la moustache magique du singe, sa chanson, son rire (« le rire d'un singe guérit la reine »). La punition devient une pluie de chatouilles qui la rend toute molle de rire. Deux personnages principaux très contrastés : un bavard naïf et un malin.
+**À jouer.** Deux personnages principaux très contrastés : un bavard naïf et un malin. Pendant la traversée, le public voit venir la bêtise et peut crier à la méduse de se taire ; quand le singe, en haut de son arbre, se moque d'elle, il peut rire avec lui.

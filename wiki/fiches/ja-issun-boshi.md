@@ -28,4 +28,4 @@ structure: départ, service, bêtise, épreuve, métamorphose
 4. Sur une île, deux ogres veulent la croquer ; avalé, Issun-bōshi les pique de l'intérieur jusqu'à ce qu'ils s'enfuient.
 5. Ils laissent un maillet magique : « Grandis ! » Issun-bōshi devient grand, et ils rentrent avec des trésors.
 
-**À adapter.** La farce contre la princesse peut disparaître (ils partent à l'aventure ensemble), ou devenir une vraie leçon (il la répare). Les ogres le recrachent en éternuant plutôt qu'avalé-piqué. Le mariage devient une amitié. Idéal pour la plus petite marionnette de la famille (ou un simple doigt ganté) : le bol-bateau, l'aiguille-sabre et la croissance finale sont des images parfaites.
+**À jouer.** Idéal pour la plus petite marionnette de la famille (ou un simple doigt ganté) : le bol-bateau, l'aiguille-sabre et la croissance finale sont des images parfaites. Le public peut crier avec lui « Il y a quelqu'un ? » devant la grande maison, puis « Issun-bōshi, grandis ! » à chaque secousse du maillet.

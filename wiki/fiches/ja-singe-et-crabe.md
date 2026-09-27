@@ -26,6 +26,6 @@ structure: tromperie, injustice, alliance, piège
 2. Le crabe fait pousser l'arbre en le menaçant de sa pince ; mais il ne peut pas grimper.
 3. Le singe grimpe, mange les kakis mûrs et lance au crabe les plus verts et les plus durs.
 4. Le petit crabe pleure ; une châtaigne, une abeille, une algue et un mortier promettent de l'aider.
-5. Chez le singe : la châtaigne saute du feu, l'abeille pique, l'algue fait glisser, le mortier tombe dessus — le singe demande pardon.
+5. Chez le singe : la châtaigne saute du feu, l'abeille pique, l'algue fait glisser, le mortier tombe dessus — et le petit crabe le pince.
 
-**À adapter.** Le crabe n'est pas tué mais assommé (il se remet à la fin), et la vengeance devient une leçon : le singe, coincé sous le mortier, promet de partager les kakis. La série des pièges dans la maison est un grand numéro de castelet (chaque objet surgit de sa cachette). Les alliés se jouent à la voix ou avec des accessoires.
+**À jouer.** La formule du crabe à son arbre (« Ou je te coupe avec ma pince ! ») revient trois fois : le public la reprend. Les quatre alliés arrivent l'un après l'autre avec la même question et la même réponse. La série des pièges dans la maison est un grand numéro de castelet (chaque objet surgit de sa cachette). Les alliés se jouent à la voix ou avec des accessoires.

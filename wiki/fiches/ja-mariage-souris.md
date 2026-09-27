@@ -28,4 +28,4 @@ structure: conte en chaîne circulaire
 4. Le Mur : « Les souris sont plus fortes que moi : elles me percent et passent au travers ! »
 5. Le père rentre fier ; sa fille épouse la souris d'à côté.
 
-**À adapter.** Le mariage devient une amitié ou « le meilleur ami pour jouer ». Chaîne parfaite pour les petits : le public devine le suivant. Les éléments (soleil, nuage, vent, mur) se font avec des accessoires simples ou des voix. Parent africain : « Qui est le plus fort ? ».
+**À jouer.** Chaîne parfaite pour les petits : le public devine le suivant. Les éléments (soleil, nuage, vent, mur) se font avec des accessoires simples ou des voix. Parent africain : « Qui est le plus fort ? ».

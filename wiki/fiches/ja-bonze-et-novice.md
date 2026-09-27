@@ -25,4 +25,4 @@ structure: deux farces
 4. Il barbouille de pâte sucrée la bouche de la statue dorée : « C'est elle qui a mangé ! »
 5. Le bonze tape la statue — « kwan, kwan » (« pas mangé ») ; le novice conseille de la faire bouillir — « kutta, kutta » (« j'ai mangé »).
 
-**À adapter.** La statue devient une statue de chat ou un bibelot quelconque. On ne fait pas bouillir : on la trempe dans une bassine qui fait « glouglou » (« j'ai tout bu ! »), en inventant les jeux de sons en français. Le public est complice du novice. Un conte de chipeur malin idéal pour un personnage coquin.
+**À jouer.** Le public est complice du novice. Les deux bruits de la statue, « kwan, kwan » puis « kutta, kutta », sont des sons à faire répéter au public, en disant chaque fois ce qu'ils veulent dire. Un conte de chipeur malin, idéal pour un personnage coquin.

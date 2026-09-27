@@ -27,4 +27,4 @@ structure: trois prodiges, trois copies ratées
 4. Les cendres font fleurir les arbres morts : le vieux honnête fleurit un cerisier devant le seigneur et reçoit une récompense.
 5. Le voisin l'imite : aucune fleur, les cendres volent dans les yeux du seigneur, qui le fait emmener.
 
-**À adapter.** Shiro n'est pas tué : il se sauve, blessé dans son orgueil, et c'est de son vieux panier (ou de sa niche) que naît la magie. Les « choses dégoûtantes » deviennent des chaussettes sales et des cailloux, ce qui fait bien rire. La scène finale des cendres qui volent dans le nez du seigneur est un sommet comique. Les formules (« Creuse ici, ouah ouah ! », « Cerisier d'or, sara-sara ! ») sont à reprendre avec le public.
+**À jouer.** Les « choses dégoûtantes » qui sortent de terre et du mortier font bien rire : le public se bouche le nez avec le vieux avide. La scène finale des cendres qui volent dans le nez du seigneur est un sommet comique. Les formules (« Creuse ici, ouah ouah ! », « Cerisier d'or, sara-sara ! ») sont à reprendre avec le public.
