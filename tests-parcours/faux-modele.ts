@@ -19,10 +19,20 @@ function mots(n: number): string {
  * vrai : un conte qui n'était pas dans la liste serait refusé par le schéma.
  */
 function synopsis(user: string, suffixe = '') {
-  const contes = [...user.matchAll(/^### ([a-z0-9-]+) — /gm)].map((m) => m[1]);
+  // Comme le vrai modèle, on suit la « Distribution proposée » de CHAQUE
+  // conte : sur une scène garnie c'est toujours la même troupe, mais avec la
+  // scène vide elle change d'un candidat à l'autre, et le schéma la vérifie.
+  const blocs = user.split(/^### /m).slice(1);
+  const candidats = blocs.map((bloc) => {
+    const id = /^([a-z0-9-]+) — /.exec(bloc)?.[1] ?? '';
+    const section = (bloc.split('Distribution proposée :')[1] ?? '').split(/\n[ \t]*\n/)[0];
+    const distribution = [...section.matchAll(/^\s*- (.+?) joue ([^[\n]+)/gm)]
+      .map((m) => ({ marionnette: m[1].trim(), role: m[2].trim(), note: 'avec son caractère' }));
+    return { id, distribution };
+  }).filter((c) => c.id && c.distribution.length > 0);
   return {
-    synopsis: contes.slice(0, 3).map((conte, i) => ({
-      conte,
+    synopsis: candidats.slice(0, 3).map((c, i) => ({
+      conte: c.id,
       // Le titre que le modèle propose est IGNORÉ : l'application recopie
       // celui de la fiche. On en met un faux exprès, pour que les parcours
       // vérifient qu'il ne remonte jamais jusqu'au parent.
@@ -33,9 +43,7 @@ function synopsis(user: string, suffixe = '') {
         'Renard Rusé l’envoie sur une fausse piste.',
         'Ourse Gourmande finit par avouer.',
       ],
-      distribution: TROIS_MARIONNETTES.map((marionnette, j) => ({
-        marionnette, role: `le rôle ${j + 1}`, note: 'avec son caractère',
-      })),
+      distribution: c.distribution,
       changements: ['La fin est adoucie : personne n’est mangé.'],
     })),
   };
@@ -209,9 +217,12 @@ export async function installerFauxModele(page: Page, o: OptionsFauxModele = {})
           modification: user.includes('Modification : Nommer la carotte.'),
         });
       }
+      // Les actes s'écrivent EN PARALLÈLE : la réponse suit le numéro d'acte
+      // demandé dans le prompt, jamais l'ordre d'arrivée des appels.
+      const demande = Number(user.match(/Conduite de l’acte à écrire :\nActe (\d+)/)?.[1] ?? 0);
       charge = corrige
         ? actesEcrits[Math.min(corrige - 1, actesEcrits.length - 1)]
-        : actesEcrits[Math.min(compteurs.actes, actesEcrits.length - 1)];
+        : actesEcrits[Math.min((demande || compteurs.actes + 1) - 1, actesEcrits.length - 1)];
     } else if (system.includes('TROIS SYNOPSIS')) {
       // Phase 1 : trois synopsis. Le suffixe distingue les relances.
       charge = synopsis(user, user.includes('déjà vu') ? ' bis' : '');
@@ -238,8 +249,10 @@ export async function installerFauxModele(page: Page, o: OptionsFauxModele = {})
       }
     } else if (system.includes('DIRECTEUR ÉDITORIAL')) {
       compteurs.revue = {
+        // Le conte d'origine n'est PLUS envoyé : sa transposition, qui porte
+        // tout ce qu'il raconte, est la seule référence (révision 2026-09-27).
         original: user.includes('LE CONTE D’ORIGINE'),
-        transpose: user.includes('transposé pour les marionnettes'),
+        transpose: user.includes('TRANSPOSÉ POUR LES MARIONNETTES'),
       };
       charge = o.relectureInvalide
         ? { remarques: [{ remarque: '' }] }

@@ -498,19 +498,20 @@ test('après avoir lu et joué le spectacle, le studio est prêt pour une nouvel
   await expect(page.getByText('5 min')).toBeVisible();
 });
 
-test('le directeur éditorial lit les deux histoires, puis réécrit lui-même l’acte qu’il a annoté', async ({ page }) => {
+test('le directeur éditorial lit le conte transposé, puis réécrit lui-même l’acte qu’il a annoté', async ({ page }) => {
   const appels = await installerFauxModele(page, { remarqueSurActe: 2 });
   await preparerStudio(page);
   await lancerEtAttendreLeChoix(page);
   await page.getByRole('button', { name: 'Choisir cette histoire' }).first().click();
   await expect(page.getByText('Votre spectacle est prêt')).toBeVisible({ timeout: 30000 });
 
-  // La revue : le conte d'origine et sa transposition.
-  expect(appels.revue).toEqual({ original: true, transpose: true });
+  // La revue : la transposition seule fait référence ; le conte d'origine
+  // n'est plus envoyé en double (révision du 2026-09-27).
+  expect(appels.revue).toEqual({ original: false, transpose: true });
   // La réécriture : l'acte 2 seul, même pour une remarque de détail, par le
-  // directeur, avec le conte d'origine, le script entier et sa modification.
+  // directeur, avec la transposition, le script entier et sa modification.
   expect(appels.reecritures[0]).toEqual(
-    { acte: 2, parLeDirecteur: true, original: true, scriptEntier: true, modification: true },
+    { acte: 2, parLeDirecteur: true, original: false, scriptEntier: true, modification: true },
   );
   // Une seule réécriture porte la modification du directeur. Le faux acte 2
   // change aussi de peluche sur la même main sans pause, et le faux modèle le
