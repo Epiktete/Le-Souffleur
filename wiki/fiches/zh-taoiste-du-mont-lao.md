@@ -27,4 +27,4 @@ structure: apprentissage raté, démonstration, échec final
 4. « Baisse la tête et fonce, sans hésiter ! » Ça marche. « Reste modeste, sinon ça ne marchera plus. »
 5. Chez lui, il se vante devant sa femme, fonce… et se cogne.
 
-**À adapter.** Le vin de la cruche magique devient du thé. Le spectacle peut garder la nuit magique (très belle pour le castelet : un rond de papier qui s'allume, une petite danseuse qui sort de la lune) et la chute finale, que les enfants adorent. Parfait pour un personnage paresseux et vantard.
+**À jouer.** La nuit magique est très belle pour le castelet : un rond de papier qui s'allume, une petite danseuse qui sort de la lune, la cruche qui ne se vide jamais. Les enfants peuvent crier la formule avec Wang (« Baisse la tête et fonce ! ») — la première fois ça marche, la seconde c'est le « boum » et la bosse, qu'ils adorent. Parfait pour un personnage paresseux et vantard.

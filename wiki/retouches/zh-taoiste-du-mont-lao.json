@@ -1,0 +1,11 @@
+{
+  "id": "zh-taoiste-du-mont-lao",
+  "langue": [
+    {"avant": "et leur dit de boire tout leur soûl", "apres": "et leur dit de boire tant qu’ils voulaient", "nature": "faux-ami"},
+    {"avant": "Il n’y tint plus et vint prendre congé", "apres": "Il n’y tint plus et vint annoncer son départ", "nature": "faux-ami"},
+    {"avant": "venu de plusieurs centaines de lieues", "apres": "venu de très loin", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "les mains et les pieds couverts de cals", "apres": "les mains et les pieds couverts d’ampoules", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "Tous acquiescèrent et se retirèrent", "apres": "Tous dirent oui et se retirèrent", "nature": "mot-rare", "jusqua": 6}
+  ],
+  "moments": []
+}
