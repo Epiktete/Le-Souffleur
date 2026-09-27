@@ -23,4 +23,4 @@ structure: va-et-vient sans fin
 4. Seule, elle regrette et revient ; il refuse.
 5. Et ils font encore le chemin aujourd'hui.
 
-**À adapter.** Le mariage devient une amitié : « viens habiter avec moi », « jouons ensemble », « partageons le goûter ». Un conte sans fin idéal pour deux marionnettes : le public voit le malentendu et peut leur crier de dire oui en même temps, ce qui donne une vraie fin.
+**À jouer.** Un conte sans fin idéal pour deux marionnettes, chacune à un bout du castelet. Le public voit le malentendu avant les deux oiseaux, et fait avec eux le « flic, flac ! » de chaque traversée du marais. La fin ouverte fait rire : ils y vont encore. Parent : « Le Renard et les oies », autre histoire sans fin.

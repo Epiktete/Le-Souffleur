@@ -29,4 +29,4 @@ structure: randonnée cumulative
 4. Le lièvre, la renarde, le loup entrent aussi.
 5. L'ours se présente : « l'écraseur de tout le monde ! », s'assoit dessus, et tout le monde sort en courant.
 
-**À adapter.** Dans la version devenue classique (« Téremok »), tous reconstruisent ensuite une maison plus grande avec l'ours : c'est la meilleure fin. Les surnoms sont à inventer avec les marionnettes de la famille. Parfait pour les tout-petits.
+**À jouer.** « Qui habite dans ce palais ? » se demande en chœur, et la liste des habitants, qui s'allonge à chaque visite, se récite avec le public. Les surnoms sont à inventer avec les marionnettes de la famille. Parfait pour les tout-petits. Parent de « L'Hiver des bêtes ».

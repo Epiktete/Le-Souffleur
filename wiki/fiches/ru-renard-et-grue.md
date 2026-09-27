@@ -23,4 +23,4 @@ structure: deux invitations en miroir
 4. Elle sert la soupe dans une cruche étroite ; la renarde tourne autour sans pouvoir y goûter, la grue mange tout.
 5. « Comme on appelle, on vous répond. » L'amitié est finie.
 
-**À adapter.** Parfait tel quel (même fable que « Le Renard et la Cigogne » de La Fontaine). On peut finir sur une réconciliation autour d'un vrai repas partagé. Le public voit l'injustice et attend la revanche.
+**À jouer.** Parfait tel quel (même fable que « Le Renard et la Cigogne » de La Fontaine). Les deux repas en miroir font tout : les enfants voient tout de suite pourquoi l'une mange et l'autre pas. Le public peut faire le « toc-toc » du bec de la grue sur l'assiette plate. Il voit l'injustice et attend la revanche.

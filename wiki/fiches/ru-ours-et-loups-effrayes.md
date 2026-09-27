@@ -28,4 +28,4 @@ structure: fuite, bluff, réputation
 4. Les loups racontent tout à l'ours ; la renarde en rajoute. On invite les terribles visiteurs à dîner.
 5. Le chat prend peur d'une queue de marmotte et saute dans l'arbre où se cachait l'ours, qui tombe de terreur.
 
-**À adapter.** La tête de loup devient un masque ou un vieux bonnet de loup. Les griffures et coups de tête deviennent des bousculades. Le public, complice du bluff, adore voir la même tête revenir. Le dernier retournement (le chat qui a peur d'une queue) fait une fin parfaite.
+**À jouer.** Le public, complice du bluff, adore voir la même tête revenir : « Celle-ci ? » La tête de loup en bois se lève simplement derrière le castelet, dans les buissons où le bélier est allé. Les enfants peuvent compter les loups qui s'en vont, quatre par quatre. Le dernier retournement (le chat qui a peur d'une queue de marmotte) fait une fin parfaite. Parentés : « Les Musiciens de Brême » et « L'Hiver des bêtes », où des bêtes réunies chassent plus forts qu'elles.

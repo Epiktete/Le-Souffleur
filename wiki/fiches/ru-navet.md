@@ -27,4 +27,4 @@ structure: randonnée cumulative
 4. Toujours rien ; il faut encore un renfort.
 5. Avec le dernier venu, le navet sort d'un coup et tout le monde tombe à la renverse.
 
-**À adapter.** La version d'Afanassiev ajoute d'étranges « jambes » ; la version connue termine par le chat et la souris : on peut prendre n'importe quel ordre de marionnettes du plus grand au plus petit. Le public tire aussi. Parfait pour les tout-petits.
+**À jouer.** Les étranges « jambes » d'Afanassiev laissent le choix des derniers venus : n'importe quelles marionnettes, de la plus grande à la plus petite, comme le chat et la souris de la version connue. La formule qui s'allonge se dit avec le public, et le public tire aussi. Parfait pour les tout-petits.

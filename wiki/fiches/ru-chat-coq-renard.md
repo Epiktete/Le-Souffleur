@@ -25,4 +25,4 @@ structure: trois tentations
 4. Troisième fois : la renarde fait semblant de partir, le coq regarde pour vérifier.
 5. Elle l'emporte trop loin : le chat ne l'entend pas.
 
-**À adapter.** La fin est à changer : le chat, averti par le public qui crie très fort, arrive à temps, ou il a suivi en cachette ; ou dans la variante russe, le chat joue de la musique devant le terrier et délivre le coq. Le public qui crie « Ne regarde pas ! » est tout le plaisir.
+**À jouer.** Le public qui crie au coq « Ne regarde pas ! » est tout le plaisir. La chanson de la renarde revient trois fois et s'allonge : les enfants la reconnaissent vite. Le cri du coq emporté (« La renarde m'emporte… ») est un refrain que le public connaît vite. Parents : « Kolobok », où la renarde flatte aussi pour manger, et « Le Loup et les sept chevreaux », où il ne fallait pas ouvrir.

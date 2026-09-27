@@ -24,4 +24,4 @@ structure: tentative et fuite
 4. Il décrit ce qui arrive : un homme, et derrière lui « un poulain à la queue en crochet ».
 5. La renarde s'en va aussitôt : elle a très bien compris que c'était un chien.
 
-**À adapter.** Conte très court et très drôle : le tétras flegmatique est un rôle parfait pour un enfant timide ou un grognon. Le public peut deviner avant la renarde ce qu'est le « poulain ».
+**À jouer.** Conte très court et très drôle : le tétras flegmatique est un rôle parfait pour un enfant timide ou un grognon. Le public reprend son « bou-bou-bou », et peut deviner avant la renarde ce qu'est le « poulain ».

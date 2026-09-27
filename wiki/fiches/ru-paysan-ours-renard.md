@@ -25,4 +25,4 @@ structure: partage truqué, peur, ruse d'un allié
 4. La renarde fait croire à une grande chasse ; l'ours, effrayé, supplie le paysan de le cacher sous le bois dans son traîneau.
 5. La renarde réclame sa récompense ; mal payée, elle se dispute avec sa propre queue.
 
-**À adapter.** Supprimer les coups de hache : l'ours caché sous les bûches est emmené loin et relâché, penaud. La première partie (le partage) se suffit à elle-même et peut se répéter : l'année suivante, l'ours demande les racines… et le paysan sème du blé. La dispute de la renarde avec ses yeux, ses oreilles et sa queue est un numéro solo délicieux.
+**À jouer.** Au partage des fanes et des racines, le public comprend la ruse avant l'ours. Quand la renarde fait le bruit de la meute de chasse, le public peut aboyer et crier avec elle. La dispute de la renarde avec ses yeux, ses oreilles et sa queue est un numéro solo délicieux. Parent : « Snégourouchka et le Renard », où la renarde, au lieu de sa récompense, reçoit aussi des chiens à ses trousses.

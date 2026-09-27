@@ -27,4 +27,4 @@ structure: trois propositions
 4. La renarde propose à son tour ; Snégourouchka accepte et rentre sur son dos.
 5. La renarde demande une poule en paiement ; les grands-parents lâchent un chien à la place.
 
-**À adapter.** On peut garder la fin (le public aime voir la renarde filer) ou la rendre juste : on récompense vraiment la renarde, qui devient amie de la maison. La complainte « Hou-hou, Snégourouchka » est un chant à reprendre ensemble.
+**À jouer.** La complainte « Hou-hou, Snégourouchka » est un chant à reprendre ensemble. Le public peut répondre avec elle à l'ours et au loup : « Non, tu vas me manger ! » Il aime voir la renarde filer devant le chien. Parents : « Le Paysan, l'Ours et le Renard », où la renarde reçoit aussi des chiens au lieu de sa récompense, et « Le Renard, le Lièvre et le Coq », où le dernier venu réussit là où les grands ont échoué.

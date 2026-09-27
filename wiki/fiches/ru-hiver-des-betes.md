@@ -29,4 +29,4 @@ structure: randonnée, puis siège
 4. Le coq chante ; la renarde l'entend et amène le loup et l'ours.
 5. Ils entrent un par un dans la cabane, et en ressortent un par un, bousculés par le taureau et le bélier.
 
-**À adapter.** Les coups de cornes deviennent des bousculades. On peut réduire les compagnons à deux ou trois. Le conte parle aussi de partage : le taureau peut finir par dire « la prochaine fois, on construit ensemble ». Parent de « La Maison de la mouche » et de « La Petite Poule rousse ».
+**À jouer.** « Je fuis l'hiver, je cherche l'été » et « Laisse-moi entrer me réchauffer, frère » sont des refrains que le public reprend. On peut réduire les compagnons à deux ou trois. La bagarre dans la cabane se joue derrière la porte : dehors, ceux qui attendent se demandent ce qui prend tant de temps. Parent de « La Maison de la mouche » et de « La Petite Poule rousse ».

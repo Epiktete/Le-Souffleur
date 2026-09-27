@@ -27,4 +27,4 @@ structure: aides successives, le dernier réussit
 4. Le coq arrive, sa faux sur l'épaule, et chante trois fois sa menace.
 5. « Je m'habille… je mets mon manteau… » La renarde s'enfuit ; le coq vit avec le lièvre.
 
-**À adapter.** La faux devient un grand balai ou une trompette ; la renarde s'enfuit, on ne la blesse pas. La réplique « si je saute, si je bondis… » et le cocorico sont des refrains pour le public. Les grands aides peuvent être réduits à deux.
+**À jouer.** La réplique « si je bondis, si je saute… » et le cocorico sont des refrains pour le public. Les grands aides peuvent être réduits à deux. Parents : « L'Hiver des bêtes », où l'on chasse aussi la renarde d'une maison, et « Snégourouchka et le Renard », où l'on refuse deux grands avant que le troisième venu réussisse.

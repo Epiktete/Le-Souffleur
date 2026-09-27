@@ -27,4 +27,4 @@ structure: épreuve double (famille de « Dame Holle »)
 4. La marâtre envoie ses propres filles ; elles se disputent en attendant et l'insultent quand il pose la question.
 5. Morozko les laisse au froid ; la gentille est heureuse.
 
-**À adapter.** Les deux sœurs ne meurent pas : elles reviennent avec le nez bleu et des glaçons aux cheveux, et doivent apprendre à dire merci. Le « mariage » avec le Gel devient une visite. La question de Morozko est un refrain parfait, et le public adore que les sœurs répondent mal.
+**À jouer.** La question de Morozko est un refrain parfait, et le public adore que les sœurs répondent mal. Morozko qui craque et claque des doigts en sautant de sapin en sapin, de plus en plus près, s'entend avant de se voir. La dispute des deux sœurs sous le pin est une scène de comédie. Famille de « Dame Holle » et des « Fées » de Perrault.
