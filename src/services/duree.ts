@@ -180,3 +180,34 @@ export function dansLaTolerance(secondesReelles: number, secondesCibles: number)
 export function budgetMots(secondesCibles: number): number {
   return Math.round((secondesCibles / 60) * DUREE.motsParMinute);
 }
+
+/** Un acte qui dit nettement moins de mots que le découpage ne lui en prévoyait. */
+export interface ActeCourt {
+  numero: number;
+  dits: number;
+  prevus: number;
+  /** Les mots qui manquent pour atteindre ce qui était prévu. */
+  manque: number;
+}
+
+/**
+ * Les actes courts, comptés en MOTS DITS contre le budget du découpage.
+ *
+ * Un modèle ne sait pas compter : au relais du 2026-09-27, les actes du
+ * Chaperon disaient de 10 à 30 % de mots de moins que prévu, jusqu'à 64 mots
+ * pour 150. La durée estimée ne le voyait pas, parce qu'elle ajoute 3 s par
+ * didascalie et ne se juge que sur le spectacle entier. On compte donc ici
+ * les mots seuls, acte par acte, et l'on donne l'écart au directeur éditorial,
+ * qui complète avec le conte (CDC §6, « Budget de durée »).
+ */
+export function actesCourts(actes: Acte[], budgetsMots: Record<number, number>): ActeCourt[] {
+  const courts: ActeCourt[] = [];
+  for (const acte of actes) {
+    const prevus = budgetsMots[acte.numero] ?? 0;
+    if (prevus <= 0) continue;
+    const dits = dureeElements(acte.elements).mots;
+    if (dits >= prevus * DUREE.seuilActeCourt) continue;
+    courts.push({ numero: acte.numero, dits, prevus, manque: prevus - dits });
+  }
+  return courts;
+}

@@ -46,6 +46,12 @@ export interface Probleme {
    * quel. Aujourd'hui, une peluche changée sur la même main sans pause.
    */
   aReprendre?: boolean;
+  /**
+   * Un écart de durée. Le directeur éditorial ne le voit pas : il a pour
+   * consigne de ne jamais couper pour gagner du temps, et les actes courts
+   * lui sont donnés à part, comptés en mots (`actesCourts`).
+   */
+  duree?: true;
 }
 
 /** État de la scène à un instant donné : quelle main tient quoi. */
@@ -395,16 +401,21 @@ export function controler(c: ContexteControle): Probleme[] {
 
   // 7. Durée dans la tolérance.
   //
-  // Le problème d'ensemble ne porte aucun numéro d'acte : il ne pouvait donc
-  // déclencher aucune réécriture, et un spectacle à moitié trop court était
-  // simplement signalé au parent. On désigne maintenant AUSSI les actes qui
-  // s'écartent de leur part, avec le nombre de mots à gagner ou à perdre :
-  // c'est ce qui rend l'écart corrigible.
+  // Le problème d'ensemble ne porte aucun numéro d'acte : il ne déclenche
+  // aucune réécriture, il avertit le parent. S'y ajoutent les actes TROP
+  // LONGS, avec le nombre de mots à perdre : c'est ce qui rend l'écart
+  // corrigible.
+  //
+  // Les actes trop COURTS ne passent plus par ici : ils sont comptés en mots
+  // avant la revue, et c'est le directeur éditorial qui les complète avec le
+  // conte (`actesCourts`, CDC §6). Deux ordres pour le même acte, l'un de
+  // l'application, l'autre du directeur, se seraient additionnés.
   const secondes = c.actes.reduce((t, a) => t + dureeElements(a.elements).secondes, 0);
   if (!dansLaTolerance(secondes, c.dureeCibleSecondes)) {
     const tropCourt = secondes < c.dureeCibleSecondes;
     problemes.push({
       gravite: 'important',
+      duree: true,
       message: tropCourt
         ? `Le spectacle est trop court : ${Math.round(secondes / 60)} min au lieu de `
           + `${Math.round(c.dureeCibleSecondes / 60)} min visées.`
@@ -428,31 +439,20 @@ export function controler(c: ContexteControle): Probleme[] {
     for (const acte of c.actes) {
       const partParActe = partDe(acte.numero);
       const sienne = dureeElements(acte.elements).secondes;
-      if (Math.abs(sienne - partParActe) <= partParActe * DUREE.toleranceParActe) continue;
+      if (sienne - partParActe <= partParActe * DUREE.toleranceParActe) continue;
       // La fin ne se coupe jamais (CDC §6) : un dernier acte trop long n'est
       // pas un défaut à corriger.
-      if (acte.numero === dernier && sienne > partParActe) continue;
-      const motsAGagner = Math.round(((partParActe - sienne) / 60) * DUREE.motsParMinute);
+      if (acte.numero === dernier) continue;
+      const motsAPerdre = Math.round(((sienne - partParActe) / 60) * DUREE.motsParMinute);
       problemes.push({
         gravite: 'important',
+        duree: true,
         acteNumero: acte.numero,
-        message: motsAGagner > 0
-          ? `L'acte ${acte.numero} est un peu court : ${Math.round(sienne)} s au lieu `
-            + `des ${Math.round(partParActe)} s de sa part, soit environ ${motsAGagner} mots. `
-            // D'ABORD rétablir le texte du conte. Au relais (cas 6), une pièce de
-            // Guignol presque entièrement dialoguée a vu ses actes rester
-            // courts : l'échappatoire « laisse l'acte court » servait de
-            // réponse, alors que le conte avait encore des répliques à rendre.
-            // Le conte lui-même rallonge l'acte : ses répliques, et sa narration
-            // dite par le conteur (CDC §6). Jamais une réplique inventée.
-            + 'Rallonge-le avec le conte lui-même : les répliques du passage que '
-            + 'l’acte aurait laissées de côté, puis sa narration, dite par le '
-            + 'conteur, mot pour mot. Jamais une réplique inventée pour tenir la jauge.'
-          : `L'acte ${acte.numero} est un peu long : ${Math.round(sienne)} s au lieu `
-            + `des ${Math.round(partParActe)} s de sa part, soit environ ${-motsAGagner} mots. `
-            + 'Resserre ce qui ne vient pas du conte — didascalies bavardes, '
-            + 'répliques ajoutées. C’est une jauge, pas un quota : ne coupe jamais '
-            + 'une réplique du conte ni une information dont le parent a besoin.',
+        message: `L'acte ${acte.numero} est un peu long : ${Math.round(sienne)} s au lieu `
+          + `des ${Math.round(partParActe)} s de sa part, soit environ ${motsAPerdre} mots. `
+          + 'Resserre ce qui ne vient pas du conte — didascalies bavardes, '
+          + 'répliques ajoutées. C’est une jauge, pas un quota : ne coupe jamais '
+          + 'une réplique du conte ni une information dont le parent a besoin.',
       });
     }
   }

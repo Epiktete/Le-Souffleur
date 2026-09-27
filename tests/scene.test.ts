@@ -10,6 +10,7 @@ import {
   simulerActe,
 } from '../src/services/scene';
 import {
+  actesCourts,
   budgetMots,
   compterMots,
   dansLaTolerance,
@@ -280,6 +281,45 @@ describe('budgetMots', () => {
   });
 });
 
+describe('actesCourts : l’application compte, le directeur complète', () => {
+  const acte = (n: number, elements: ElementScript[]): Acte =>
+    ({ id: `a${n}`, numero: n, titre: `Acte ${n}`, tableauId: 't1', resume: '', elements });
+  const mots = (n: number) => Array.from({ length: n }, () => 'mot').join(' ');
+
+  it('désigne l’acte qui dit moins de 80 % de ses mots prévus, avec ce qui manque', () => {
+    const actes = [
+      acte(1, [replique('lapin', mots(170))]),
+      acte(2, [replique('lapin', mots(64))]),
+      acte(3, [replique('renard', mots(120))]),
+    ];
+    expect(actesCourts(actes, { 1: 200, 2: 150, 3: 150 }))
+      .toEqual([{ numero: 2, dits: 64, prevus: 150, manque: 86 }]);
+  });
+
+  it('compte les mots dits, pas les secondes : les didascalies ne rallongent rien', () => {
+    const actes = [acte(1, [
+      replique('lapin', mots(50)),
+      ...Array.from({ length: 12 }, () => didascalie('Le lapin sautille.')),
+    ])];
+    // 50 mots et 12 didascalies font 66 s, la part d'un acte de 100 mots :
+    // la durée ne voyait rien, le compte des mots voit l'acte à moitié vide.
+    expect(dureeElements(actes[0].elements).secondes).toBe(66);
+    expect(actesCourts(actes, { 1: 100 })).toHaveLength(1);
+  });
+
+  it('compte le conteur comme des mots dits', () => {
+    const actes = [acte(1, [
+      { id: id(), type: 'conteur', texte: mots(60) },
+      replique('lapin', mots(25)),
+    ])];
+    expect(actesCourts(actes, { 1: 100 })).toEqual([]);
+  });
+
+  it('ignore un acte sans budget', () => {
+    expect(actesCourts([acte(1, [replique('lapin', 'Bonjour.')])], {})).toEqual([]);
+  });
+});
+
 describe('controler : les contrôles automatiques du CDC §6', () => {
   const acte = (n: number, elements: ElementScript[]): Acte =>
     ({ id: `a${n}`, numero: n, titre: `Acte ${n}`, tableauId: 't1', resume: '', elements });
@@ -325,26 +365,31 @@ describe('controler : les contrôles automatiques du CDC §6', () => {
     expect(p[0].gravite).toBe('bloquant');
   });
 
-  it('désigne les actes à rallonger quand le spectacle est trop court', () => {
+  it('un spectacle trop court n’envoie aucun acte en correction : le directeur le complète', () => {
     const c = spectacleCorrect();
-    c.dureeCibleSecondes = 600; // on vise 10 min pour un spectacle de ~4 min
+    c.dureeCibleSecondes = 600; // on vise 10 min pour un spectacle de ~5 min
     const p = controler(c);
 
-    // Le constat d'ensemble, sans numéro d'acte…
-    const ensemble = p.filter((x) => x.acteNumero === undefined);
-    expect(ensemble).toHaveLength(1);
-    expect(ensemble[0].message).toContain('trop court');
-
-    // …et les actes désignés, qui seuls peuvent déclencher une réécriture.
-    const parActe = p.filter((x) => x.acteNumero !== undefined);
-    expect(parActe.length).toBeGreaterThan(0);
-    for (const x of parActe) {
-      expect(x.gravite).toBe('important');
-      expect(x.message).toMatch(/environ \d+ mots/);
-    }
-
-    // Rien de tout cela n'empêche d'enregistrer (CDC §6).
+    // Le constat d'ensemble, pour le parent, marqué comme un écart de durée…
+    expect(p).toHaveLength(1);
+    expect(p[0]).toMatchObject({ gravite: 'important', duree: true });
+    expect(p[0].message).toContain('trop court');
+    // …et aucun acte désigné : les actes courts sont comptés en mots avant la
+    // revue, et donnés au directeur éditorial (actesCourts).
+    expect(p[0].acteNumero).toBeUndefined();
     expect(sansBlocage(p)).toBe(true);
+  });
+
+  it('désigne les actes à resserrer quand le spectacle est trop long, jamais le dernier', () => {
+    const c = spectacleCorrect();
+    c.dureeCibleSecondes = 150; // on vise 2 min 30 pour un spectacle de ~5 min
+    const p = controler(c);
+
+    expect(p.filter((x) => x.acteNumero === undefined)[0].message).toContain('trop long');
+    const parActe = p.filter((x) => x.acteNumero !== undefined);
+    expect(parActe.map((x) => x.acteNumero)).toEqual([1]);
+    expect(parActe[0]).toMatchObject({ gravite: 'important', duree: true });
+    expect(parActe[0].message).toMatch(/un peu long.*environ \d+ mots/);
   });
 
   it('ne dit rien de la durée quand elle est dans la tolérance', () => {

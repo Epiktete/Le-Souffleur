@@ -2,7 +2,7 @@
 // propre voix et sans marionnette, la narration que la scène ne peut pas
 // montrer. L'application vérifie que ce qu'il dit vient du conte (contrôle 9).
 import { describe, expect, it } from 'vitest';
-import { LE_TEXTE_DU_CONTE, promptCorrectionActe, promptEcrireActe } from '../src/prompts';
+import { LE_TEXTE_DU_CONTE, promptCorrectionActe, promptEcrireActe, promptRelecture } from '../src/prompts';
 import { construireDossier } from '../src/services/dossier';
 import { dureeElements, partDuConteur } from '../src/services/duree';
 import { construireRangees } from '../src/services/pagination';
@@ -133,5 +133,28 @@ describe('les consignes parlent des trois voies', () => {
   it('l’écriture et la correction d’un acte connaissent l’élément conteur', () => {
     expect(promptEcrireActe(d, '', '', '', '', '').system).toContain('{"type": "conteur"');
     expect(promptCorrectionActe(d, '', '', '', '', '', '', '').system).toContain('{"type": "conteur"');
+  });
+});
+
+describe('la revue complète les actes courts avec le conte', () => {
+  const d = construireDossier(TROUPE, {
+    dureeMinutes: 5, ageAuditoire: 9, nbMarionnettistes: 1, interactionPublic: 'aucune',
+    marionnetteIds: TROUPE.map((m) => m.id), modele: 'essai',
+  });
+  const courts = '- Acte 2 : 64 mots dits pour 150 prévus ; il en manque environ 86.';
+
+  it('reçoit le compte de l’application et la consigne de compléter sans inventer', () => {
+    const p = promptRelecture(d, '', '', '', '', '', false, courts);
+    expect(p.user).toContain(`Actes plus courts que prévu (comptés par l’application) :\n${courts}`);
+    expect(p.system).toMatch(/tu n’as pas à compter/);
+    expect(p.system).toMatch(/le conteur dit mot pour mot/);
+    expect(p.system).toMatch(/Rien d’inventé pour tenir la\s+jauge/);
+    expect(p.system).toMatch(/Ne propose jamais de couper pour gagner du temps/);
+  });
+
+  it('sans acte court, ni la liste ni la consigne n’apparaissent', () => {
+    const p = promptRelecture(d, '', '', '', '', '');
+    expect(p.user).not.toMatch(/plus courts que prévu/);
+    expect(p.system).not.toMatch(/plus courts que prévu/);
   });
 });

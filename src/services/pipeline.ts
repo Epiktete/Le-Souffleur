@@ -47,7 +47,7 @@ import {
 } from '../prompts';
 import { appelerModele, ErreurIa, type Acces, type Jetons } from './connecteurIa';
 import { construireDossier, dossierPour, trouverMarionnetteId, type Dossier } from './dossier';
-import { budgetMots, dureeElements, dureeSpectacle } from './duree';
+import { actesCourts, budgetMots, dureeElements, dureeSpectacle, type ActeCourt } from './duree';
 import {
   choisirContes,
   especeDansLeTexte,
@@ -832,6 +832,7 @@ ${formaterAdaptation(adaptation)}`;
 
   o.surAvancement({ etape: 'controles' });
   const dureeCible = dossier.dureeMinutes * 60;
+  const budgetsMots = Object.fromEntries(actesConduite.map((a) => [a.numero, a.budgetMots]));
   const controlerTout = () => controler({
     actes,
     nbMarionnettistes: dossier.nbMarionnettistes,
@@ -839,7 +840,7 @@ ${formaterAdaptation(adaptation)}`;
     nomDe,
     interactionPublic: dossier.interactionPublic,
     dureeCibleSecondes: dureeCible,
-    budgetsMots: Object.fromEntries(actesConduite.map((a) => [a.numero, a.budgetMots])),
+    budgetsMots,
     texteReference: transposition.texte,
   });
   let problemes = controlerTout();
@@ -865,12 +866,16 @@ ${formaterAdaptation(adaptation)}`;
         // Pas les écarts de DURÉE : le directeur éditorial a pour consigne de
         // ne jamais proposer de couper pour gagner du temps, et lui montrer
         // « resserre de quarante mots » le met en contradiction avec
-        // lui-même. La durée se règle à la passe de correction, pas ici.
-        formaterProblemes(problemes.filter((p) => !/trop (court|long)/.test(p.message))),
+        // lui-même. Un acte trop long se règle à la passe de correction.
+        formaterProblemes(problemes.filter((p) => !p.duree)),
         tableaux.map((tb) => `- ${tb.titre} : ${tb.description || '(aucune description)'}`).join('\n'),
         conteOriginal,
         transposition.texte,
         Boolean(retouche),
+        // Les actes courts, eux, lui sont donnés, comptés en mots : un modèle
+        // ne sait pas compter, mais il sait retrouver dans le conte ce que
+        // l'acte a laissé de côté. C'est lui qui complète (CDC §6).
+        formaterActesCourts(actesCourts(actes, budgetsMots)),
       ),
       schemaRelecture,
       TEMPERATURES.relecture,
@@ -1382,6 +1387,14 @@ function formaterScript(actes: Acte[], nomDe: (id: string) => string): string {
   return actes
     .map((a) => `--- Acte ${a.numero} : ${a.titre} ---\n${formaterActe(a, nomDe)}`)
     .join('\n\n');
+}
+
+/** Les actes courts, tels que le directeur éditorial les lit. */
+function formaterActesCourts(courts: ActeCourt[]): string {
+  return courts
+    .map((c) => `- Acte ${c.numero} : ${c.dits} mots dits pour ${c.prevus} prévus ; `
+      + `il en manque environ ${c.manque}.`)
+    .join('\n');
 }
 
 function formaterProblemes(problemes: Probleme[]): string {

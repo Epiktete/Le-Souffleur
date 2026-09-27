@@ -1,0 +1,69 @@
+{"titre": "La galette de Mamie Rose",
+ "pitch": "Rosette part porter une galette à Mamie Rose malade, mais Loup Gris veut arriver le premier chez elle.",
+ "changements": [
+   "La Mère n’a pas de marionnette : le spectacle commence directement avec Rosette déjà en chemin, sa galette à la main ; sa demande de départ est résumée en une phrase par le conteur, pas jouée.",
+   "Les bûcherons n’ont pas de marionnette : on les entend arriver à grand bruit sans les voir, et cela suffit à faire fuir Loup Gris.",
+   "L’épisode où Rosette s’attarde à cueillir des noisettes et des papillons est resserré en une phrase du conteur, pour aller vite jusqu’à l’arrivée de Loup Gris chez Mamie Rose."
+ ],
+ "tableaux": [
+   {"id": "t1", "titre": "Le bois", "description": "Un drap ou une nappe unie tendue en fond suffit à figurer le bois ; on peut aussi ne rien installer du tout. Aucun meuble n’est nécessaire, Rosette et Loup Gris s’y croisent debout.", "accessoires": []},
+   {"id": "t2", "titre": "La maison de Mamie Rose", "description": "Poser un coussin ou un carton plié pour marquer le lit de Mamie Rose, et un carton fermé à côté pour figurer l’armoire où elle se cache. Un coin de table peut indiquer où Rosette dépose la galette, sans rien y poser vraiment.", "accessoires": []}
+ ],
+ "actes": [
+   {"numero": 1, "titre": "La rencontre dans le bois", "tableauId": "t1",
+     "resume": "Rosette part porter une galette à Mamie Rose malade ; dans le bois, elle raconte tout à Loup Gris, qui lui propose une course.",
+     "passage": "De « Rosette partit aussitôt… » à « …qui y sera le premier. »",
+     "temps": [
+       "Rosette traverse le bois avec sa galette et son petit pot de beurre.",
+       "Elle croise Loup Gris, qui lui demande où elle va.",
+       "Sans se méfier, elle lui dit tout : Mamie Rose, la galette, le chemin.",
+       "Loup Gris propose une course, chacun par un chemin différent."
+     ],
+     "mouvements": [
+       {"type": "entree", "marionnette": "Rosette", "main": "M1G"},
+       {"type": "entree", "marionnette": "Loup Gris", "main": "M1D"},
+       {"type": "sortie", "marionnette": "Rosette", "main": "M1G"},
+       {"type": "sortie", "marionnette": "Loup Gris", "main": "M1D"}
+     ],
+     "momentsPublic": ["Le public voit Loup Gris filer par le chemin le plus court et peut avertir Rosette qu’il va arriver avant elle."],
+     "budgetMots": 130},
+   {"numero": 2, "titre": "Loup Gris prend la place de Mamie Rose", "tableauId": "t2",
+     "resume": "Loup Gris arrive le premier, se fait ouvrir en imitant une voix, et Mamie Rose n’a que le temps de s’enfermer dans l’armoire.",
+     "passage": "De « Loup Gris se mit à courir… » à « …il ne put l’ouvrir. »",
+     "temps": [
+       "Le conteur dit en une phrase que Loup Gris court par le chemin le plus court, pendant que Rosette flâne par l’autre.",
+       "Loup Gris frappe chez Mamie Rose et se fait ouvrir en imitant la voix de Rosette.",
+       "Mamie Rose comprend le danger et court se cacher dans l’armoire."
+     ],
+     "mouvements": [
+       {"type": "entree", "marionnette": "Mamie Rose", "main": "M1G"},
+       {"type": "entree", "marionnette": "Loup Gris", "main": "M1D"},
+       {"type": "sortie", "marionnette": "Mamie Rose", "main": "M1G"}
+     ],
+     "momentsPublic": [],
+     "budgetMots": 110},
+   {"numero": 3, "titre": "Que vous avez de grandes dents !", "tableauId": "t2",
+     "resume": "Rosette arrive, trouve Mamie Rose bien changée, et le dialogue mène à l’attaque du loup ; ses cris font venir les bûcherons, qui le chassent, et Mamie Rose sort saine et sauve de l’armoire.",
+     "passage": "De « Ensuite il ferma la porte… » à « …le petit pot de beurre. »",
+     "temps": [
+       "Loup Gris s’installe dans le lit de Mamie Rose pour attendre Rosette, qui frappe et entre.",
+       "Le dialogue des « grandes dents » s’égrène jusqu’à l’attaque de Loup Gris.",
+       "Rosette esquive et crie de toutes ses forces ; les bûcherons arrivent et chassent Loup Gris.",
+       "Mamie Rose sort de l’armoire et les deux mangent la galette ensemble."
+     ],
+     "mouvements": [
+       {"type": "entree", "marionnette": "Rosette", "main": "M1G"},
+       {"type": "sortie", "marionnette": "Loup Gris", "main": "M1D"},
+       {"type": "entree", "marionnette": "Mamie Rose", "main": "M1D"}
+     ],
+     "momentsPublic": [
+       "Quand Loup Gris redit « Tire la chevillette, la bobinette cherra » en imitant Mamie Rose, les enfants la reconnaissent et peuvent la dire avec lui.",
+       "Quand Rosette crie pour appeler les bûcherons, les enfants crient avec elle."
+     ],
+     "budgetMots": 260}
+ ],
+ "voix": [
+   {"marionnette": "Loup Gris", "voix": "voix grave et un peu rauque, prend son temps, savoure chaque mot"},
+   {"marionnette": "Mamie Rose", "voix": "voix un peu chevrotante, phrases courtes et douces"}
+ ]
+}

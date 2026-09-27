@@ -28,6 +28,12 @@ export const DUREE = {
    * et une correction demandée pour dix secondes coûte un appel entier.
    */
   toleranceParActe: 0.35,
+  /**
+   * Part des mots prévus par le découpage en dessous de laquelle un acte est
+   * donné au directeur éditorial pour qu'il le complète avec le conte.
+   * Tranché le 2026-09-27 par Nicolas.
+   */
+  seuilActeCourt: 0.8,
 } as const;
 
 /**

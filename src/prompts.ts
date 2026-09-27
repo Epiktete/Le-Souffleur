@@ -752,7 +752,30 @@ export function promptRelecture(
   texteTranspose: string,
   /** Vrai quand le conte a déjà reçu les retouches de l’âge : il fait référence. */
   retouche = false,
+  /**
+   * Les actes qui disent nettement moins de mots que prévu, comptés par
+   * l’application (une ligne par acte). Vide : rien à compléter.
+   */
+  actesCourts = '',
 ) {
+  // Un modèle ne sait pas compter : l’application compte, le directeur
+  // retrouve dans le conte ce qui manque. Le paragraphe n’apparaît que s’il y
+  // a un acte à compléter ; une consigne sans objet, un petit modèle
+  // l’applique quand même.
+  const aCompleter = actesCourts.trim()
+    ? `
+Les actes plus courts que prévu te sont donnés à part. L’application a compté
+les mots dits dans chaque acte (répliques, adresses au public, conteur) et les
+a comparés à ce que le découpage prévoyait : tu n’as pas à compter. Pour
+chacun de ces actes, relis le passage du texte transposé qu’il joue, et
+cherche ce qu’il en a laissé de côté : d’abord des répliques, puis la
+narration, que le conteur dit mot pour mot. Fais une remarque « important »
+sur cet acte, dont la modification cite les mots du conte à ajouter et dit où
+les placer, jusqu’à combler à peu près le manque. Rien d’inventé pour tenir la
+jauge, rien de ce qui est déjà montré : si le passage n’a plus rien à rendre,
+ne fais pas de remarque, et l’acte restera court.
+`
+    : '';
   // Un conte retouché pour l’âge : la revue juge l’écart au texte, DANS LES
   // DEUX SENS. Un adoucissement ajouté est une faute, comme une cruauté restée.
   const ecartAge = retouche
@@ -831,7 +854,7 @@ Les « problèmes déjà détectés par l’application » te sont montrés pour
 saches ce qui est DÉJÀ traité : ne les répète pas dans tes remarques. Tu es là
 pour ce que la machine ne voit pas — la compréhension, la cohérence, la
 fidélité au conte.
-
+${aCompleter}
 Ne propose jamais de couper pour gagner du temps. Le champ « ton » d’une
 réplique (« traînant », « inquiet ») est prévu : c’est l’indication de jeu, et
 tu ne la signales pas — SAUF si elle contredit l’âge du public, par exemple un
@@ -864,7 +887,10 @@ Décors que le parent devra préparer :
 ${tableaux}
 
 Problèmes déjà détectés automatiquement par l’application :
-${resultatsControles || 'Aucun.'}`,
+${resultatsControles || 'Aucun.'}${actesCourts.trim() ? `
+
+Actes plus courts que prévu (comptés par l’application) :
+${actesCourts}` : ''}`,
   };
 }
 

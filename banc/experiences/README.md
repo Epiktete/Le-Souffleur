@@ -16,3 +16,4 @@ histoires et les notes.
 | --- | --- |
 | 2026-09-26 | [Le même conte à 4, 7 et 9 ans, avant et après les retouches selon l'âge](2026-09-26-age-avant-apres/NOTES.md) |
 | 2026-09-27 | [Le conteur : la narration dite par le parent](2026-09-27-conteur/NOTES.md) |
+| 2026-09-27 | [Les actes courts comptés en mots, complétés par le directeur éditorial](2026-09-27-actes-courts/NOTES.md) |

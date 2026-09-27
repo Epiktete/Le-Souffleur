@@ -1,0 +1,56 @@
+{"synopsis": [
+  {"conte": "fr-perrault-chaperon-rouge",
+   "accroche": "Rosette part porter une galette à Mamie Rose, et Loup Gris essaie d'arriver le premier chez elle.",
+   "resume": [
+     "Mamie Rose est malade ; Rosette part lui porter une galette et un pot de beurre.",
+     "Dans le bois, Rosette raconte tout à Loup Gris, qui lui propose une course : chacun prend son chemin.",
+     "Loup Gris arrive le premier chez Mamie Rose, qui a juste le temps de s'enfermer dans l'armoire ; il prend sa place dans son lit.",
+     "Rosette arrive et trouve Mamie Rose bien changée : « Que vous avez de grandes dents ! » — « C'est pour te manger ! »",
+     "Rosette crie, des bûcherons arrivent et chassent Loup Gris ; Mamie Rose sort de l'armoire, saine et sauve."
+   ],
+   "distribution": [
+     {"marionnette": "Rosette", "role": "le Petit Chaperon rouge", "note": "curieuse et gentille, comme le personnage."},
+     {"marionnette": "Loup Gris", "role": "le Loup", "note": "déjà un loup gourmand, taillé pour le rôle."},
+     {"marionnette": "Mamie Rose", "role": "la Mère-grand", "note": "une grand-mère qui joue une grand-mère."}
+   ],
+   "changements": [
+     "La Mère n'a pas de marionnette : l'histoire commence directement avec Rosette qui part porter la galette.",
+     "Les bûcherons n'ont pas de marionnette non plus : on les entend arriver sans les voir, et cela suffit à faire fuir Loup Gris."
+   ]},
+  {"conte": "ru-renard-lievre-coq",
+   "accroche": "Loup Gris chasse Mamie Rose de sa maison, jusqu'à ce que Rosette arrive et le fasse fuir avec sa chanson.",
+   "resume": [
+     "Au printemps, la maison de glace de Loup Gris fond ; il s'installe chez Mamie Rose et la met à la porte.",
+     "De grandes bêtes de la forêt viennent l'aider, mais Loup Gris les menace, et elles repartent sans oser rester.",
+     "Rosette arrive avec un grand bâton sur l'épaule et chante trois fois : « Je m'habille, je mets mon manteau, je viens te chasser de chez moi ! »",
+     "Loup Gris a si peur qu'il s'enfuit pour de bon, et Mamie Rose retrouve sa maison avec Rosette."
+   ],
+   "distribution": [
+     {"marionnette": "Rosette", "role": "le Coq", "note": "bavarde et courageuse, elle a de la voix pour la chanson finale."},
+     {"marionnette": "Loup Gris", "role": "la Renarde", "note": "déjà un loup méchant, parfait pour l'intruse de l'histoire."},
+     {"marionnette": "Mamie Rose", "role": "le petit Lièvre", "note": "douce, elle se laisse chasser sans se défendre."}
+   ],
+   "changements": [
+     "Le grand bâton remplace la faux du conte, pour rester doux à l'œil ; personne n'est blessé, Loup Gris s'enfuit simplement.",
+     "Les chiens, l'ours et le taureau n'ont pas de marionnette : leurs tentatives ratées sont racontées en une seule phrase, sans les jouer un par un."
+   ]},
+  {"conte": "en-vieille-et-cochon",
+   "accroche": "Rosette refuse de rentrer à la maison, et Mamie Rose demande de l'aide à tout le monde jusqu'à ce que Loup Gris accepte enfin.",
+   "resume": [
+     "Mamie Rose ramène Rosette du marché, mais Rosette refuse de passer la barrière pour rentrer.",
+     "Mamie Rose demande de l'aide à tous ceux qu'elle croise ; chacun refuse, et la liste des refus s'allonge.",
+     "Loup Gris accepte enfin d'aider, mais seulement si on lui apporte du lait ; Mamie Rose part chercher ce qu'il faut.",
+     "Une fois servi, Loup Gris se met en route, et d'un bout à l'autre, tout le monde bouge enfin à son tour.",
+     "Rosette, voyant tout ce mouvement, saute enfin la barrière."
+   ],
+   "distribution": [
+     {"marionnette": "Mamie Rose", "role": "la Vieille", "note": "son allure de grand-mère convient bien à ce rôle."},
+     {"marionnette": "Rosette", "role": "le Petit Cochon", "note": "sa curiosité et sa bonne humeur en font un petit têtu attachant."},
+     {"marionnette": "Loup Gris", "role": "le Chat", "note": "gourmand comme le personnage, il négocie son aide contre du lait."}
+   ],
+   "changements": [
+     "J'échange les rôles proposés pour la Vieille et le Petit Cochon : Mamie Rose, qui a l'allure d'une grand-mère, joue la Vieille, et Rosette joue le Petit Cochon.",
+     "Le chien, le bâton, le feu, l'eau, le bœuf et le rat n'ont pas de marionnette : leurs refus sont racontés en une seule phrase qui s'allonge, sans les montrer un par un.",
+     "Les demandes plus dures du conte (mordre, taper, brûler) restent de simples paroles : personne ne les met en pratique, pour rester léger à 4 ans."
+   ]}
+]}

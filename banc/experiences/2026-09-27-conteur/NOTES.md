@@ -91,10 +91,23 @@ Quand le parent peut dire la narration du conte, mot pour mot :
    (`RELAIS_BANQUE=1`). La banque ne sait pas encore l'âge, et un spectacle de
    9 ans ne doit pas être servi à 4.
 
-## À décider
+## Décidé
 
-Les deux défauts restants (la dose du conteur, et la coupe des contes longs) ont
-une même cause : **rien ne décide combien le conteur dit**. Une piste de
-structure : le découpage fixe, acte par acte, ce que dira le conteur, et ses
-coupes s'imposent à la revue et aux corrections. Le contrôle 9 vérifie ensuite
-un plafond de la part du conteur. Voir le compte rendu à Nicolas du 2026-09-27.
+**Le conteur reste tel quel** (Nicolas, 2026-09-27) : pas de plafond, pas
+d'étape de plus. La génération est déjà longue et chère.
+
+**Les actes sont courts.** À relire, le Chaperon paraît court à Nicolas, et la
+mesure le confirme :
+- les actes disent de 10 à 30 % de mots de moins que ce que le découpage leur
+  prévoyait ;
+- à 9 ans, l'acte 2 dit 64 mots pour 150 prévus.
+
+Rien ne les a rallongés, pour deux raisons :
+- la durée ne se juge que sur le spectacle entier, à ± 20 % ;
+- chaque didascalie ajoute 3 s à la durée estimée.
+
+Un spectacle qui dit 356 mots pour 500 prévus s'estime donc à 4:06 pour 5:00, et
+passe.
+
+Piste de Nicolas : l'application compte les mots de chaque acte avant la revue,
+et donne l'écart au directeur éditorial pour qu'il complète avec le conte.
