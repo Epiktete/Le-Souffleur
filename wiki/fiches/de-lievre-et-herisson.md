@@ -24,4 +24,4 @@ structure: pari et répétition
 4. Le lièvre file ; à l'arrivée : « Je suis déjà là ! » Il repart dans l'autre sens : « Je suis déjà là ! »
 5. Le lièvre s'obstine jusqu'à tomber d'épuisement ; le hérisson emporte l'enjeu.
 
-**À adapter.** Le lièvre n'en meurt pas : il s'écroule, essoufflé, et reconnaît sa défaite. L'enjeu devient un gâteau ou une médaille. Deux marionnettes de hérisson identiques, ou une seule qui passe par-dessous le castelet : le public est dans le secret.
+**À jouer.** Deux marionnettes de hérisson identiques, ou une seule qui passe par-dessous le castelet : le public est dans le secret, et crie avec les hérissons « Je suis déjà là ! ». Trois ou quatre allers-retours joués suffisent ; le public peut les compter. Parentés : « La Tortue et l'Éléphant » (des tortues identiques postées au bon endroit) et « Le Lièvre et la Tortue ».

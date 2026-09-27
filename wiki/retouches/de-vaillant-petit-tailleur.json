@@ -1,0 +1,22 @@
+{
+  "id": "de-vaillant-petit-tailleur",
+  "langue": [
+    {"avant": "demandèrent leur congé", "apres": "demandèrent à partir", "nature": "faux-ami"}
+  ],
+  "moments": [
+    {
+      "id": "les-geants-se-battent",
+      "type": "punition",
+      "niveaux": [
+        {
+          "jusqua": 4,
+          "annonce": "Les deux géants de la forêt ne meurent pas : ils s'assomment l'un l'autre, puis, à leur réveil, s'enfuient du pays pour toujours.",
+          "retouches": [
+            {"avant": "ils tombèrent tous les deux par terre en même temps, et ne se relevèrent pas.", "apres": "ils tombèrent tous les deux par terre en même temps, assommés."},
+            {"avant": "ils trouvèrent les géants étendus par terre, et tout autour, les arbres arrachés.", "apres": "ils trouvèrent les géants étendus par terre, et tout autour, les arbres arrachés. Quand les deux géants se réveillèrent, ils s'enfuirent si loin qu'on ne les revit jamais dans le pays."}
+          ]
+        }
+      ]
+    }
+  ]
+}

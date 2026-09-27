@@ -1,0 +1,19 @@
+{
+  "id": "de-tracassin",
+  "langue": [],
+  "moments": [
+    {
+      "id": "tracassin-se-dechire",
+      "type": "cruaute",
+      "niveaux": [
+        {
+          "jusqua": 6,
+          "annonce": "Tracassin ne se déchire pas en deux : de rage, il s'enfonce tout entier dans la terre, et on ne le revoit jamais.",
+          "retouches": [
+            {"avant": "Puis, dans sa rage, il attrapa son pied gauche à deux mains et se déchira lui-même en deux.", "apres": "Puis, dans sa rage, il se débattit tant qu'il s'enfonça tout entier dans la terre, et on ne le revit jamais."}
+          ]
+        }
+      ]
+    }
+  ]
+}

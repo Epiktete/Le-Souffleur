@@ -28,4 +28,4 @@ structure: épreuves successives gagnées par la ruse
 4. La licorne plante sa corne dans un tronc ; le sanglier s'enferme dans une chapelle.
 5. Le roi doit tenir parole ; démasqué par sa femme qui l'entend parler couture en rêve, il fait fuir les gardes en énumérant ses exploits.
 
-**À adapter.** Les géants se disputent et partent fâchés au lieu de mourir. Le mariage devient une récompense ou un titre. Pour un spectacle court, garder les mouches, le géant (fromage, oiseau, arbre) et une épreuve. Le public connaît la vérité et savoure chaque bluff.
+**À jouer.** Le public compte les mouches avec le tailleur, jusqu'à sept. Pour un spectacle court, garder les mouches, le géant (fromage, oiseau, arbre) et une épreuve. Le public connaît la vérité et savoure chaque bluff.

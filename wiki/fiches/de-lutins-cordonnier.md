@@ -25,4 +25,4 @@ structure: aide mystérieuse, découverte, remerciement
 4. Pour les remercier, ils leur confectionnent des habits et des souliers.
 5. Les lutins s'habillent, chantent, dansent, et ne reviennent plus ; le cordonnier reste heureux.
 
-**À adapter.** Les lutins « n'ont que des guenilles » plutôt que nus. Le guet caché est une scène de chuchotements avec le public. Parfait pour une période de Noël.
+**À jouer.** Le guet caché est une scène de chuchotements avec le public. La chanson des lutins habillés se reprend en chœur. Parfait pour une période de Noël.

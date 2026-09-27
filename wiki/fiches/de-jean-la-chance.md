@@ -28,4 +28,4 @@ structure: chaîne d'échanges (randonnée)
 4. L'oie contre une pierre à aiguiser ; le rémouleur lui récapitule tout : « Et l'or ? »
 5. Les pierres tombent dans le puits : Jean, libéré de tout poids, rentre en sautant de joie.
 
-**À adapter.** Un seul marionnettiste peut jouer tous les marchands en changeant de chapeau. On peut garder trois ou quatre échanges. Le public devine avant Jean que c'est une mauvaise affaire, et peut le lui crier. La fin n'est pas une leçon : Jean est vraiment heureux.
+**À jouer.** Un seul marionnettiste peut jouer tous les marchands en changeant de chapeau. On peut garder trois ou quatre échanges. Le public devine avant Jean que c'est une mauvaise affaire, et peut le lui crier. L'inventaire à rebours du rémouleur (« Et la vache ? — Contre un cheval ! ») se dit avec le public. La fin n'est pas une leçon : Jean est vraiment heureux. Parent : « Ce que fait le vieux est bien fait », autre chaîne d'échanges de plus en plus mauvais.

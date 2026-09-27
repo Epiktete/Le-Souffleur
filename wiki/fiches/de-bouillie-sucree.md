@@ -25,4 +25,4 @@ structure: objet magique qui s'emballe
 4. La bouillie déborde : la maison, la rue, le village.
 5. La fillette rentre : « Petit pot, arrête ! » Pour rentrer chez soi, il faut manger son chemin.
 
-**À adapter.** Parfait tel quel. Le débordement se joue avec un tissu qui monte, et le public peut chercher la formule avec la mère.
+**À jouer.** Le débordement se joue avec un tissu qui monte, et le public peut chercher la formule avec la mère, puis crier « Petit pot, arrête ! » avec la fillette quand elle rentre.

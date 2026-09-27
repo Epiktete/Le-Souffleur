@@ -28,4 +28,4 @@ structure: offense, guerre, réparation
 4. Pendant la bataille, le frelon pique le renard sous la queue ; au troisième coup, il la baisse.
 5. Toute l'armée des quatre-pattes s'enfuit ; l'ours vient s'excuser devant le nid.
 
-**À adapter.** La bataille se joue à deux ou trois marionnettes et beaucoup de bruitages. La queue qui monte et descend est le gag central : le public peut crier « Lève ! », « Baisse ! ».
+**À jouer.** La bataille se joue à deux ou trois marionnettes et beaucoup de bruitages. La queue qui monte et descend est le gag central : le public peut crier « Lève ! », « Baisse ! ».

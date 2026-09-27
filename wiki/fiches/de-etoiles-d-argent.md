@@ -24,4 +24,4 @@ structure: randonnée, don après don, merveille
 4. La nuit, dans la forêt, elle donne encore sa chemise.
 5. Les étoiles tombent du ciel et deviennent des pièces d'argent : elle est riche pour toute sa vie.
 
-**À adapter.** Les parents morts deviennent « partis bien loin » pour les plus petits. La chemise devient son écharpe ou sa cape : on ne se déshabille pas. Ceux qui reçoivent sont des voix en coulisse, ou une seconde marionnette si le parent en a une. Les étoiles qui tombent se disent et se jouent (la marionnette lève la tête, tend les bras) ; une poignée de confettis dorés fait merveille.
+**À jouer.** Ceux qui reçoivent sont des voix en coulisse, ou une seconde marionnette si le parent en a une. Les étoiles qui tombent se disent et se jouent (la marionnette lève la tête, tend les bras) ; une poignée de confettis dorés fait merveille.

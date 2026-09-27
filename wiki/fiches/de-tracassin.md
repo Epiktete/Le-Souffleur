@@ -26,4 +26,4 @@ structure: trois nuits, trois jours
 4. Le lutin revient ; attendri, il lui laisse trois jours pour trouver son nom.
 5. Un messager l'a entendu chanter son nom autour d'un feu : « Tracassin ! » Le lutin, furieux, disparaît sous terre.
 
-**À adapter.** L'enfant promis devient le chat de la reine, son doudou ou son trésor le plus cher ; la menace de mort du roi devient une menace de renvoi. Le lutin trépigne et s'enfonce dans le sol sans se déchirer. Les noms farfelus sont un jeu avec le public.
+**À jouer.** Les noms farfelus sont un jeu avec le public. Le public peut faire tourner le rouet avec le petit bonhomme : « vrr, vrr, vrr ».

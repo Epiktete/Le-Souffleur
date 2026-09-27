@@ -24,4 +24,4 @@ structure: sursis infini
 4. Elle commence « Ga ! ga ! ga ! », et ne s'arrête plus ; les autres s'y mettent.
 5. Le conte s'arrête là : elles prient toujours.
 
-**À adapter.** La prière devient une dernière chanson ou une dernière histoire. Conte très court : idéal en prologue, ou pour 2 minutes avec les petits qui font les oies. Donner une vraie fin : le renard s'endort d'ennui.
+**À jouer.** Conte très court : idéal en prologue, ou pour deux minutes avec les petits qui font les oies et « prient » tous ensemble : « Ga ! ga ! ». La fin ouverte fait rire : elles prient toujours. Parent : « La Grue et le Héron », autre histoire sans fin.

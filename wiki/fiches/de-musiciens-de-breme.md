@@ -26,4 +26,4 @@ structure: randonnée puis siège
 4. Les brigands fuient ; les animaux mangent et s'installent chacun à sa place.
 5. Un brigand revient en éclaireur, se fait griffer, mordre, ruer, et raconte à son chef qu'une sorcière, un homme au couteau, un monstre et un juge gardent la maison.
 
-**À adapter.** Les maîtres qui veulent « se débarrasser » des bêtes restent dans le vague ; les brigands deviennent des voleurs de gâteaux. La pyramide des quatre animaux est un grand moment : la faire à la voix si les mains manquent. Le récit terrifié du brigand est un sommet comique.
+**À jouer.** La pyramide des quatre animaux est un grand moment : la faire à la voix si les mains manquent. Le public fait le concert avec eux : braire, aboyer, miauler, chanter. Le récit terrifié du brigand est un sommet comique. Parentés : « L'Hiver des bêtes » (des bêtes réunies chassent plus forts qu'elles) et « L'Ours et les Loups effrayés ».

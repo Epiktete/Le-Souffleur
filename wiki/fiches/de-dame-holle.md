@@ -27,4 +27,4 @@ structure: parcours double
 4. La mère envoie la paresseuse ; elle refuse d'aider le pain et le pommier, puis bâcle son service.
 5. Elle rentre sous une pluie de poix : « notre demoiselle toute sale est de retour ! »
 
-**À adapter.** Supprimer le sang : la bobine tombe simplement. La poix devient de la boue ou de la farine collante qui partira… quand elle aura appris à aider. Le pain et le pommier qui parlent sont des voix ; le secouage de la couette qui fait neiger est une belle image de castelet.
+**À jouer.** Le pain et le pommier qui parlent sont des voix ; le secouage de la couette qui fait neiger est une belle image de castelet. Le public peut reprendre le chant du coq, et au second voyage il sait d'avance ce que le pain et le pommier vont demander. Famille des « Fées » de Perrault.

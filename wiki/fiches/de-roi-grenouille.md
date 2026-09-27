@@ -25,4 +25,4 @@ structure: promesse, réclamation, délivrance
 4. Le roi exige qu'elle tienne parole : la grenouille mange dans son assiette, veut monter dans son lit.
 5. Excédée, la princesse la jette contre le mur : c'est un prince ensorcelé, enfin délivré.
 
-**À adapter.** Remplacer le jet contre le mur par un baiser, un éternuement, ou la princesse qui finit par dire merci (le vrai sortilège). Le mariage devient une amitié. La chanson de la grenouille à la porte est un refrain parfait. Le fidèle Henri peut disparaître.
+**À jouer.** La chanson de la grenouille à la porte est un refrain parfait : le public peut la reprendre, et faire avec elle « plitch, platch » dans l'escalier.

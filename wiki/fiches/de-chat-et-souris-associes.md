@@ -23,4 +23,4 @@ structure: trois absences, une découverte
 4. L'hiver venu, ils vont chercher la réserve : le pot est vide.
 5. La souris comprend et commence à réciter les noms ; le chat la menace de la manger.
 
-**À adapter.** La fin cruelle est à changer : la souris récite « Tout-fini ! » et le chat, confondu devant le public, doit aller lui trouver une autre réserve. Le pot de graisse devient un pot de miel ou de confiture ; l'église, le grenier. Le public comprend avant la souris : c'est tout le plaisir.
+**À jouer.** Le public comprend avant la souris : c'est tout le plaisir. Il peut répéter avec elle les trois noms, « Entamé », « À-moitié », « Tout-fini », de plus en plus intrigué.

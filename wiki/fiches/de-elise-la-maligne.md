@@ -27,4 +27,4 @@ structure: accumulation puis farce
 4. Le fiancé les trouve tous en larmes ; ravi de tant de « sagesse », il l'épouse.
 5. Envoyée aux champs, elle mange et dort ; Jean l'entoure de grelots et elle ne sait plus si elle est elle-même.
 
-**À adapter.** La première partie, la cave, suffit à un spectacle : la pioche devient une casserole mal accrochée. La fin (Élise perdue pour toujours) est à changer : Jean ouvre en riant, et Élise se reconnaît. Le public peut répondre « Quelle maligne ! ».
+**À jouer.** Pour un spectacle court, la première partie, la cave, suffit. Le public peut répondre « Quelle maligne ! » à chaque personnage qui descend pleurer.
