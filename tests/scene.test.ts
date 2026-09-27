@@ -201,6 +201,12 @@ describe('dureeElements', () => {
 
     // Une note ordinaire ne se dit pas, et ne compte donc pour rien.
     expect(dureeElements([note(`Préparer le drap avant l'acte : ${dix}`)]).secondes).toBe(0);
+
+    // La consigne de jeu qui suit la citation ne se dit pas non plus : seuls
+    // les mots entre guillemets comptent.
+    expect(
+      dureeElements([note(`Voix du Bœuf, en coulisse : « ${dix} » — dit lentement, sans montrer la marionnette`)]).secondes,
+    ).toBe(6);
   });
 
   it('ajoute 3 secondes par didascalie', () => {

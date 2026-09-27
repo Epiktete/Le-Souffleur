@@ -80,7 +80,18 @@ export type Synopsis = z.infer<typeof schemaSynopsis> & {
  * même conte, une marionnette oubliée ou inventée sont des réponses fausses,
  * et le message d'erreur repart au modèle pour qu'il corrige.
  */
-export function schemaSynopsisPour(contes: string[], marionnettes: string[]) {
+export function schemaSynopsisPour(
+  contes: string[],
+  marionnettes: string[],
+  /**
+   * Mode « scène vide » : la distribution PROPRE à chaque conte, imposée par
+   * l'application (identifiant du conte → noms des peluches qui le jouent).
+   * Le prompt dit alors au modèle de s'y tenir : exiger ici que toutes les
+   * peluches du dossier jouent dans chaque synopsis — la règle de la scène
+   * garnie — rejetait précisément les réponses conformes au prompt.
+   */
+  distributionParConte?: Record<string, string[]>,
+) {
   const norm = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim();
   const noms = new Set(marionnettes.map(norm));
   return z.object({
@@ -102,21 +113,32 @@ export function schemaSynopsisPour(contes: string[], marionnettes: string[]) {
       // Plus de contrôle sur le titre : l'application l'impose désormais,
       // donc il ne peut plus contenir le nom d'une marionnette.
       const distribues = new Set(s.distribution.map((d) => norm(d.marionnette)));
-      for (const nom of marionnettes) {
+      // Qui DOIT jouer ce conte-là : sa distribution imposée (scène vide),
+      // ou toutes les marionnettes de la scène (scène garnie).
+      const attendues = distributionParConte ? distributionParConte[s.conte] ?? [] : marionnettes;
+      for (const nom of attendues) {
         if (!distribues.has(norm(nom))) {
           ctx.addIssue({
             code: 'custom',
             path: ['synopsis', i, 'distribution'],
-            message: `${nom} n'a pas de rôle ; chaque marionnette doit en avoir un`,
+            message: distributionParConte
+              ? `${nom} n'a pas de rôle ; la distribution proposée pour ce conte doit être suivie`
+              : `${nom} n'a pas de rôle ; chaque marionnette doit en avoir un`,
           });
         }
       }
+      // Qui PEUT jouer ce conte-là : les mêmes, plus personne d'autre.
+      const permises = distributionParConte
+        ? new Set(attendues.map(norm))
+        : noms;
       for (const d of s.distribution) {
-        if (!noms.has(norm(d.marionnette))) {
+        if (!permises.has(norm(d.marionnette))) {
           ctx.addIssue({
             code: 'custom',
             path: ['synopsis', i, 'distribution'],
-            message: `« ${d.marionnette} » n'est pas une marionnette du parent`,
+            message: noms.has(norm(d.marionnette))
+              ? `« ${d.marionnette} » ne fait pas partie de la distribution proposée pour ce conte`
+              : `« ${d.marionnette} » n'est pas une marionnette du parent`,
           });
         }
       }

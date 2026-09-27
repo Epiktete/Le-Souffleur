@@ -13,25 +13,13 @@
 // chronométrant deux spectacles réels (CDC §14).
 
 import { DUREE } from '../config';
+import { compterMots } from './mots';
 import type { Acte, ElementScript } from '../types';
 
-/**
- * Compte les mots réellement prononcés. Les tirets et apostrophes ne séparent
- * pas : « l'arc-en-ciel » est un mot.
- *
- * La typographie française met une espace avant « ? », « ! », « : » et « ; ».
- * Un découpage naïf sur les espaces compterait donc chaque point
- * d'interrogation comme un mot — et les dialogues de marionnettes en sont
- * pleins. On ne garde que les fragments contenant au moins une lettre ou un
- * chiffre.
- */
-export function compterMots(texte: string): number {
-  return texte
-    .trim()
-    .split(/\s+/)
-    .filter((fragment) => /[\p{L}\p{N}]/u.test(fragment))
-    .length;
-}
+// Le compteur de mots vit dans mots.ts : c'est le même pour l'index des
+// contes, le choix, les verdicts de coupe et la durée. Réexporté ici parce
+// que c'est la durée qui lui donne son sens (100 mots dits par minute).
+export { compterMots };
 
 /** Détail du calcul, utile pour expliquer une durée à l'écran. */
 export interface DetailDuree {
@@ -39,20 +27,6 @@ export interface DetailDuree {
   mots: number;
   didascalies: number;
   attentesReponse: number;
-}
-
-/** Durée estimée d'une suite d'éléments, en secondes. */
-/**
- * La part d'une note qui se dit à voix haute.
- *
- * Les prompts imposent une forme unique pour la voix d'un personnage sans
- * marionnette : « Voix du Bœuf, en coulisse : "Meuh." ». Tout ce qui suit le
- * deux-points est prononcé par le parent ; le reste est une consigne de jeu.
- * Une note ordinaire ne contient pas cette amorce et ne compte donc pour rien.
- */
-export function motsDitsEnCoulisse(texte: string): string {
-  const m = /voix\s+(?:de|du|des|d’|d')[^:]*en\s+coulisse\s*:(.*)/is.exec(texte);
-  return m ? m[1] : '';
 }
 
 /** Une voix en coulisse, décomposée pour être lue comme une réplique. */
@@ -109,10 +83,13 @@ export function dureeElements(elements: ElementScript[]): DetailDuree {
       // et bien. Avec une seule peluche, tout un rôle passe par là (CDC §6),
       // et ne pas le compter faisait tomber la durée estimée à moins de la
       // moitié du réel : mesuré au relais, deux minutes annoncées pour un
-      // spectacle de cinq.
-      case 'note_marionnettiste':
-        mots += compterMots(motsDitsEnCoulisse(e.texte));
+      // spectacle de cinq. Seuls les mots CITÉS comptent : la consigne de jeu
+      // qui suit la citation ne se dit pas.
+      case 'note_marionnettiste': {
+        const v = voixEnCoulisse(e.texte);
+        if (v) mots += compterMots(v.dit);
         break;
+      }
       // Le conteur est dit à voix haute, par le parent : ses mots comptent.
       case 'conteur':
         mots += compterMots(e.texte);

@@ -56,9 +56,24 @@ export function motsSignifiants(texte: string): string[] {
     .map(racine);
 }
 
-/** Longueur d'un texte en mots, comme on la compte pour la durée. */
+/**
+ * Longueur d'un texte en mots, comme on la compte pour la durée.
+ *
+ * LE SEUL compteur du projet : l'index des contes, le choix, les verdicts de
+ * coupe du pipeline et la durée estimée doivent compter pareil, sans quoi un
+ * conte « de la bonne taille » à l'index reçoit « couper un épisode » au
+ * découpage. La typographie française met une espace avant « ? », « ! »,
+ * « : » et « ; » : un découpage naïf sur les espaces comptait chaque point
+ * d'interrogation comme un mot — et les dialogues en sont pleins. On ne garde
+ * que les fragments contenant au moins une lettre ou un chiffre ; les tirets
+ * et apostrophes ne séparent pas : « l'arc-en-ciel » est un mot.
+ */
 export function compterMots(texte: string): number {
-  return texte.split(/\s+/).filter(Boolean).length;
+  return texte
+    .trim()
+    .split(/\s+/)
+    .filter((fragment) => /[\p{L}\p{N}]/u.test(fragment))
+    .length;
 }
 
 /**

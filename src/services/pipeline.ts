@@ -225,11 +225,15 @@ async function appelJson<T>(
   let budget = maxTokens;
   let jetonsCumules: Jetons = {};
 
-  // Une relance de plus est accordée aux troncatures : elles se corrigent en
-  // augmentant le budget, pas en réexpliquant le format au modèle.
-  const essaisMax = IA.relancesJsonMax + 1;
+  // Deux compteurs séparés. Les erreurs de FORMAT ont droit à
+  // IA.relancesJsonMax relances ; les TRONCATURES à une de plus, parce
+  // qu'elles se corrigent en doublant le budget, pas en réexpliquant le
+  // format au modèle. Avec un seul compteur, un modèle hors format recevait
+  // par erreur la relance réservée aux troncatures : un appel payé de trop.
+  let relancesFormat = 0;
+  let relancesTroncature = 0;
 
-  for (let essai = 0; essai <= essaisMax; essai++) {
+  for (let essai = 0; ; essai++) {
     const user = essai === 0 || tronquee
       ? prompts.user
       : `${prompts.user}\n\nTa réponse précédente était invalide : ${dernierProbleme}\n`
@@ -243,7 +247,9 @@ async function appelJson<T>(
         { temperature, maxTokens: budget, signal: o.signal, delaiMs },
       );
     } catch (e) {
-      if (e instanceof ErreurIa && e.message === t.erreursIa.reponseTronquee && essai < essaisMax) {
+      if (e instanceof ErreurIa && e.message === t.erreursIa.reponseTronquee
+        && relancesTroncature < IA.relancesJsonMax + 1) {
+        relancesTroncature++;
         journaliserEchec(etape, essai, 'réponse vide, budget épuisé', '', budget);
         o.surReprise?.('réponse vide');
         budget *= 2;
@@ -257,10 +263,12 @@ async function appelJson<T>(
 
     if (reponse.tronquee) {
       journaliserEchec(etape, essai, `coupée (${reponse.motifArret})`, reponse.texte, budget);
+      dernierProbleme = 'la réponse a été coupée avant la fin';
+      tronquee = true;
+      if (relancesTroncature >= IA.relancesJsonMax + 1) break;
+      relancesTroncature++;
       o.surReprise?.('réponse coupée');
       budget *= 2;
-      tronquee = true;
-      dernierProbleme = 'la réponse a été coupée avant la fin';
       continue;
     }
     tronquee = false;
@@ -268,8 +276,10 @@ async function appelJson<T>(
     const extrait = extraireJson(reponse.texte);
     if (!extrait.ok) {
       journaliserEchec(etape, essai, extrait.erreur, reponse.texte, budget);
-      o.surReprise?.('JSON illisible');
       dernierProbleme = extrait.erreur;
+      if (relancesFormat >= IA.relancesJsonMax) break;
+      relancesFormat++;
+      o.surReprise?.('JSON illisible');
       continue;
     }
 
@@ -277,8 +287,10 @@ async function appelJson<T>(
     if (controle.ok) return { valeur: controle.valeur, jetons: jetonsCumules };
 
     journaliserEchec(etape, essai, controle.erreur, reponse.texte, budget);
-    o.surReprise?.('réponse hors format');
     dernierProbleme = controle.erreur;
+    if (relancesFormat >= IA.relancesJsonMax) break;
+    relancesFormat++;
+    o.surReprise?.('réponse hors format');
   }
 
   throw new ErreurIa(
@@ -371,10 +383,17 @@ export async function proposerHistoires(
   // Le dossier ne décrit que les marionnettes capables de jouer l’un des huit
   // contes retenus : la réunion des distributions, jamais la Marionnethèque
   // entière — sinon le prompt enfle et le modèle mélange les peluches.
+  //
+  // Avec le vivier, ce dossier se RECONSTRUIT à chaque série : « Proposer 3
+  // autres histoires » fait remonter d'autres contes, donc d'autres
+  // distributions — relire le dossier de la première série, c'était décrire
+  // au modèle des peluches qui ne jouent plus et lui cacher celles qui jouent.
   const surScene = vivier
     ? vivier.filter((m) => Object.values(distributionParConte).some((d) => d.some((x) => x.id === m.id)))
     : marionnettes;
-  const dossier = dejaVu?.dossier ?? construireDossier(surScene, parametres);
+  const dossier = vivier
+    ? construireDossier(surScene, parametres)
+    : dejaVu?.dossier ?? construireDossier(surScene, parametres);
 
   // Chaque candidat qui a sa fiche de retouches, retouché pour cet âge : le
   // modèle lit ce que l'âge y change déjà, et le parent le lira sur la carte.
@@ -397,7 +416,18 @@ export async function proposerHistoires(
       dejaVu?.titres ?? [],
       Boolean(vivier),
     ),
-    schemaSynopsisPour(ids, surScene.map((m) => m.nom)),
+    schemaSynopsisPour(
+      ids,
+      surScene.map((m) => m.nom),
+      // Avec le vivier, chaque conte a SA distribution, imposée par
+      // l'application : le schéma vérifie celle-là, pas « toutes les
+      // peluches partout » — ce que le prompt interdit justement.
+      vivier
+        ? Object.fromEntries(
+          Object.entries(distributionParConte).map(([id, ms]) => [id, ms.map((m) => m.nom)]),
+        )
+        : undefined,
+    ),
     TEMPERATURES.synopsis,
     BUDGETS.synopsis,
     'synopsis',
@@ -1458,14 +1488,6 @@ export function voixParMarionnette(
   }
   return voix;
 }
-
-/** Budget de mots d'un acte, pour l'affichage et les contrôles. */
-export function budgetActe(dureeMinutes: number, nbActes: number): number {
-  return Math.round(budgetMots(dureeMinutes * 60) / Math.max(1, nbActes));
-}
-
-/** Durée estimée d'un acte, réexportée pour l'écran de script. */
-export { dureeElements };
 
 /* ================================================================== */
 /* Régénérer un acte depuis l'écran de script (CDC §6 et §8)           */

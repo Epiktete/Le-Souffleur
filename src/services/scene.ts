@@ -546,10 +546,6 @@ export function attribuerMains(
 }
 
 /** Mains disponibles pour un nombre de marionnettistes donné. */
-export function mainsDe(nbMarionnettistes: 1 | 2): Main[] {
-  return [...MAINS[nbMarionnettistes]];
-}
-
 /** Nombre maximal de marionnettes simultanément en scène. */
 export function maxSimultanees(nbMarionnettistes: 1 | 2): number {
   return nbMarionnettistes * BORNES.mainsParMarionnettiste;

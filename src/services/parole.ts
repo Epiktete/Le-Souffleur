@@ -45,11 +45,14 @@ function phrases(texte: string): string[] {
  * Vrai si la phrase se retrouve dans le texte de référence. Un pronom en tête
  * de phrase peut avoir été remplacé par le nom qu'il désigne, et le nom d'une
  * marionnette tient en plusieurs mots (« Il » devenu « Loup Gris ») : on
- * cherche aussi la phrase privée de ses trois premiers mots au plus.
+ * cherche aussi la phrase privée de ses quatre premiers mots au plus —
+ * quatre et non trois, parce que le pronom peut suivre une conjonction
+ * (« Et il » devenu « Et Pilou le Pingouin » : mesuré au relais, cas 3,
+ * l'acte repartait en correction pour un remplacement pourtant permis).
  */
 function dansLeConte(phrase: string, reference: string): boolean {
   const motsPhrase = sansGuillemets(phrase).trim().split(/\s+/);
-  for (let tete = 0; tete <= 3; tete++) {
+  for (let tete = 0; tete <= 4; tete++) {
     const reste = motsPhrase.slice(tete);
     if (reste.length < PAROLE.motsMinPhrase - 1) break;
     if (trouverExtrait(reference, reste.join(' ')).length > 0) return true;

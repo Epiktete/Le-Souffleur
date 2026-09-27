@@ -78,6 +78,17 @@ describe('le contrôle 9 : la parole vient du conte', () => {
       .toEqual([]);
   });
 
+  it('accepte le remplacement d’un pronom qui suit une conjonction, même par un nom de trois mots', () => {
+    // « Et il lui noua son foulard » dit « Et Pilou le Pingouin lui noua son
+    // foulard » : quatre mots de tête. Mesuré au relais (cas 3), la tolérance
+    // de trois renvoyait l'acte en correction pour un remplacement permis.
+    const ref = 'Et il lui noua son foulard, car ça, il savait mieux le faire qu’elle.';
+    const a = acte([conteur('Et Pilou le Pingouin lui noua son foulard, car ça, il savait mieux le faire qu’elle.')]);
+    // Seule la mesure des mots inventés (mineure) réagit au nom absent de ce
+    // texte de référence minuscule : la phrase, elle, doit être reconnue.
+    expect(controlerParole([a], ref).filter((p) => p.gravite === 'important')).toEqual([]);
+  });
+
   it('ignore guillemets et tirets : la parole d’un personnage dite sans eux reste le conte', () => {
     const a = acte([conteur('Où vas-tu ? lui dit Loup Gris.')]);
     expect(controlerParole([a], REFERENCE)).toEqual([]);

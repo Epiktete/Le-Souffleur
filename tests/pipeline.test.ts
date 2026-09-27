@@ -525,6 +525,50 @@ describe('le schéma des synopsis, construit pour chaque appel', () => {
   it('refuse moins de trois synopsis', () => {
     expect(valider(schema, { synopsis: [synopsis('a'), synopsis('b')] }).ok).toBe(false);
   });
+
+  // Scène vide : chaque conte a SA distribution, imposée par l'application.
+  // Le prompt interdit de faire jouer les autres peluches du dossier ; le
+  // schéma doit donc vérifier la distribution du conte, pas l'union.
+  describe('avec une distribution imposée par conte (scène vide)', () => {
+    const parConte = {
+      a: ['Doudou Lapin', 'Renard Rusé'],
+      b: ['Ourse'],
+      c: ['Doudou Lapin', 'Renard Rusé', 'Ourse'],
+    };
+    const vivier = schemaSynopsisPour(contes, noms, parConte);
+    const deux = [
+      { marionnette: 'Doudou Lapin', role: 'le Lièvre' },
+      { marionnette: 'Renard Rusé', role: 'le Renard' },
+    ];
+
+    it('accepte une réponse conforme au prompt : chaque conte avec sa seule distribution', () => {
+      expect(valider(vivier, {
+        synopsis: [
+          synopsis('a', deux),
+          synopsis('b', [{ marionnette: 'Ourse', role: 'l’Ours' }]),
+          synopsis('c'),
+        ],
+      }).ok).toBe(true);
+    });
+
+    it('refuse une peluche ajoutée hors de la distribution du conte', () => {
+      const r = valider(vivier, {
+        synopsis: [synopsis('a'), synopsis('b', [{ marionnette: 'Ourse', role: 'l’Ours' }]), synopsis('c')],
+      });
+      expect(r.ok).toBe(false);
+      if (!r.ok) expect(r.erreur).toContain('distribution proposée');
+    });
+
+    it('refuse une peluche de la distribution du conte laissée sans rôle', () => {
+      expect(valider(vivier, {
+        synopsis: [
+          synopsis('a', [{ marionnette: 'Doudou Lapin', role: 'le Lièvre' }]),
+          synopsis('b', [{ marionnette: 'Ourse', role: 'l’Ours' }]),
+          synopsis('c'),
+        ],
+      }).ok).toBe(false);
+    });
+  });
 });
 
 describe('construireDossier', () => {

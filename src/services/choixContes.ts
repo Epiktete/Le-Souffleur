@@ -35,7 +35,7 @@
 import INDEX_BRUT from '../../wiki/index.json?raw';
 import { BORNES } from '../config';
 import { budgetMots } from './duree';
-import { motsSignifiants } from './mots';
+import { motsSignifiants, normaliser } from './mots';
 import { CONTES, type Conte, type RoleConte } from './repertoire';
 import type { Marionnette } from '../types';
 
@@ -211,15 +211,10 @@ for (const [famille, mots] of Object.entries(LEXIQUE) as [Famille, string[]][]) 
 // pantin qu'on anime), mais une marionnette-poupée joue un humain : voir
 // `especeMarionnette`.
 
-export function normaliser(texte: string): string {
-  return texte
-    .normalize('NFD')
-    .replace(/[̀-ͯ]/g, '')
-    .toLowerCase()
-    .replace(/[’']/g, ' ')
-    .replace(/[^a-z0-9-]+/g, ' ')
-    .trim();
-}
+// La normalisation vit dans mots.ts, à côté du compteur : ce fichier en
+// importait déjà les mots signifiants, la copie locale ne pouvait que
+// diverger un jour.
+export { normaliser };
 
 /** Les mots d'un texte, avec leur forme sans « s » ou « x » final. */
 function mots(texte: string): string[] {
