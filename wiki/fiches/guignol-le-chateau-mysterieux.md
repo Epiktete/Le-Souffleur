@@ -29,4 +29,4 @@ structure: faim et arrivée, substitution, attente angoissée, fausse alerte, r�
 4. Une suivante voilée, pour s'amuser, se fait passer pour la fiancée et effraie Guignol ; il court annoncer à son maître qu'elle est un monstre.
 5. Le mariage se fait malgré eux ; le voile se lève : la fiancée est charmante, et chacun comprend la farce.
 
-**À adapter.** La pièce originale repose sur une caricature raciste (la suivante noire prise pour un monstre) : à supprimer entièrement. La fausse alerte peut venir d'un masque de carnaval, d'une grimace ou d'un chat caché sous le voile. Le mariage forcé devient une rencontre où les deux jeunes gens choisissent. Restent de très bons moments : la faim de Guignol, le serviteur qui fait durer le suspense, le menu mal compris (« du vin de Tonnerre ? trop de vacarme dans mon ventre »).
+**À jouer.** Les grands moments : la faim de Guignol, le serviteur qui fait durer le suspense (« un jour… »), le menu mal compris (« du vin de Tonnerre ? trop de vacarme dans mon ventre »), et le voile levé, où Guignol n'ose pas regarder.

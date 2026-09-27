@@ -25,4 +25,4 @@ structure: accusation, pari, tentation, piège, pardon
 4. Seul, Guignol lutte : il les sent, les regarde, lèche son pouce… et vide le pot. Il ment : elle les a trouvées très bonnes.
 5. Octave : « Malheur ! elles étaient empoisonnées ! » Guignol s'écroule en mourant ; on le rassure, on lui pardonne, Émilie annonce le mariage.
 
-**À adapter.** Tout est jouable avec des enfants, à condition de retirer le vin, les menaces de bâton et le soufflet. Le monologue de la tentation est un modèle de numéro solo, et le « je suis mort… mais j'ai gardé la parole » une chute irrésistible. Le parler lyonnais de Guignol peut être gardé par touches (« nom d'un rat ! »).
+**À jouer.** Le monologue de la tentation est un modèle de numéro solo, et le « je suis mort… mais j'ai gardé la parole » une chute irrésistible. Le parler lyonnais de Guignol (« nom d'un rat ! ») fait partie du personnage.

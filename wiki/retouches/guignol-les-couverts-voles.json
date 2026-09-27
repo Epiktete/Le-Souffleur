@@ -1,0 +1,10 @@
+{
+  "id": "guignol-les-couverts-voles",
+  "langue": [
+    {"avant": "mais dans sa corniole", "apres": "mais dans sa gorge", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "la patte sur les pistoles du papa Cassandre", "apres": "la patte sur les sous du papa Cassandre", "nature": "mot-disparu"},
+    {"avant": "je veux le confondre", "apres": "je veux le démasquer", "nature": "faux-ami"},
+    {"avant": "m’aura mis ces couverts sur le casaquin", "apres": "m’aura mis ces couverts sur le dos", "nature": "mot-rare", "jusqua": 6}
+  ],
+  "moments": []
+}

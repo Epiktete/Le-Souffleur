@@ -1,0 +1,23 @@
+{
+  "id": "guignol-le-portrait-de-l-oncle",
+  "langue": [
+    {"avant": "je veux cependant accomplir mon projet", "apres": "je veux quand même accomplir mon projet", "nature": "connecteur", "jusqua": 8},
+    {"avant": "n’était pas bien fait pour le fâcher cependant", "apres": "n’était pas bien fait pour le fâcher pourtant", "nature": "connecteur", "jusqua": 8},
+    {"avant": "il a dû laisser des escalins", "apres": "il a dû laisser des sous", "nature": "mot-disparu"},
+    {"avant": "Cependant le papa Durand ne mangeait pas ses rentes", "apres": "Pourtant le papa Durand ne mangeait pas ses rentes", "nature": "connecteur", "jusqua": 8}
+  ],
+  "moments": [
+    {
+      "id": "le-manche-a-balai",
+      "type": "mal-vieilli",
+      "niveaux": [
+        {
+          "jusqua": 10,
+          "retouches": [
+            {"avant": "Ah ! Madelon, marche droit !… Te connais le manche à balai ; te sais que je tape… En avant !", "apres": "Ah ! Madelon, marche droit !… En avant !"}
+          ]
+        }
+      ]
+    }
+  ]
+}

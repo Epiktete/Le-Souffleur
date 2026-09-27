@@ -1,0 +1,8 @@
+{
+  "id": "guignol-tu-chanteras-tu-ne-chanteras-pas",
+  "langue": [
+    {"avant": "le bruit peut lui être funeste", "apres": "le bruit peut lui faire du mal", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "je me suis cependant occupé de lui", "apres": "je me suis quand même occupé de lui", "nature": "connecteur", "jusqua": 8}
+  ],
+  "moments": []
+}

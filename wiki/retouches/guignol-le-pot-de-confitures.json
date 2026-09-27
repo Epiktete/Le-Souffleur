@@ -1,0 +1,9 @@
+{
+  "id": "guignol-le-pot-de-confitures",
+  "langue": [
+    {"avant": "tu m’as fait perdre ma gageure", "apres": "tu m’as fait perdre mon pari", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "puisque j’ai gagné ma gageure", "apres": "puisque j’ai gagné mon pari", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "Cependant le jour de la noce", "apres": "Mais le jour de la noce", "nature": "connecteur", "jusqua": 8}
+  ],
+  "moments": []
+}

@@ -25,4 +25,4 @@ structure: injustice, plan, scène de la dictée, piège refermé, mariage des j
 4. L'avare lit le testament, croit la veuve riche et achète à Guignol sa part pour trois mille francs.
 5. Guignol lui avoue que tout était une farce ; l'avare est lié par son contrat et accepte, pour s'en tirer, de marier son fils avec la nièce de la veuve.
 
-**À adapter.** Le testament et la mort sont difficiles pour les petits : transformer en « la lettre du trésor » ou « la liste de cadeaux » que Guignol dicte, déguisé en vieux capitaine. La scène de la dictée avec la puce est un grand numéro : le public peut crier où est la puce. Supprimer le pot de chambre, le vin et le coup de tête.
+**À jouer.** La scène de la dictée avec la puce est un grand numéro : le public peut crier où est la puce.

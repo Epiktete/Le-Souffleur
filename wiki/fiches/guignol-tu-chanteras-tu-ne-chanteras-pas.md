@@ -27,4 +27,4 @@ structure: double commande, surenchère, crise, dénouement heureux
 4. Surenchère : l'un paie pour chanter, l'autre pour dormir ; Guignol ronfle (« vous vouliez quelque chose de ronflant ! »), chante, se recouche.
 5. Le bourgeois sort, radieux : le bébé est né ; tout le monde peut chanter, et Guignol trouve enfin un « métier » à sa mesure.
 
-**À adapter.** Remplacer l'absinthe et les coups par des bousculades et des chapeaux enfoncés ; l'accouchement devient « le bébé dort, chut ! » puis « le bébé est réveillé, fête ! ». Mécanique parfaite pour trois marionnettes : Guignol au milieu, un « chante ! » à gauche, un « tais-toi ! » à droite — le public peut se partager en deux camps.
+**À jouer.** Mécanique parfaite pour trois marionnettes : Guignol au milieu, un « chante ! » à gauche, un « tais-toi ! » à droite — le public peut se partager en deux camps.

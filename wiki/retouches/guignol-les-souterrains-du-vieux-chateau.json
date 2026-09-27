@@ -1,0 +1,47 @@
+{
+  "id": "guignol-les-souterrains-du-vieux-chateau",
+  "langue": [
+    {"avant": "livres", "apres": "pièces d’or", "nature": "faux-ami", "partout": true},
+    {"avant": "pour qu’il renonçât à t’épouser", "apres": "pour qu’il renonce à t’épouser", "nature": "tournure"},
+    {"avant": "qu’il vous arrivât malheur", "apres": "qu’il vous arrive malheur", "nature": "tournure"},
+    {"avant": "pas mal d’escalins dedans", "apres": "pas mal de sous dedans", "nature": "mot-disparu"},
+    {"avant": "un peu vif cependant…", "apres": "mais un peu vif…", "nature": "connecteur", "jusqua": 8}
+  ],
+  "moments": [
+    {
+      "id": "la-fiancee-boiteuse",
+      "type": "mal-vieilli",
+      "niveaux": [
+        {
+          "jusqua": 10,
+          "retouches": [
+            {"avant": "c’était avec une tailleuse de Vaise. Notre mariage était déjà bien avancé… & je l’avais jamais vue qu’assise. Le jour du contrat, nous allons chez le notaire… je lui donne le bras naturellement… Voilà que le long du chemin je sens que mon bras était sigogné, sigogné. (Il fait le mouvement d’une personne qui boîte fortement.) Ma future était toute bancane. J’ai dit : Nous ne pourrons jamais marcher ensemble comme ça, & j’ai tout envoyé promener.", "apres": "c’était avec une tailleuse de Vaise…"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "les-brigands-vaincus",
+      "type": "punition",
+      "niveaux": [
+        {
+          "jusqua": 4,
+          "annonce": "Bras-de-Fer et Sacripant sont assommés, pas tués.",
+          "retouches": [
+            {"avant": "Un bandit vient tomber mort sur la rampe.", "apres": "Un bandit vient tomber assommé sur la rampe."},
+            {"avant": "la fourche & le corps du bandit.", "apres": "la fourche & le bandit."},
+            {"avant": "Guignol en a tué douze de sa main, sans compter ceux que le maître a définis.", "apres": "Guignol en a assommé douze de sa main, sans compter ceux du maître."}
+          ]
+        },
+        {
+          "jusqua": 6,
+          "annonce": "Un des brigands meurt hors de la scène ; Guignol rapporte l’autre au bout de sa fourche.",
+          "retouches": [
+            {"avant": "— Un bandit vient tomber mort sur la rampe. — GUIGNOL entre tenant au bout de sa fourche l’autre bandit qu’il jette aussi sur la rampe.", "apres": "— GUIGNOL entre tenant au bout de sa fourche un bandit qu’il jette sur la rampe."},
+            {"avant": "la fourche & le corps du bandit.", "apres": "la fourche & le bandit."}
+          ]
+        }
+      ]
+    }
+  ]
+}

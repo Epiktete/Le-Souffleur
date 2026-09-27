@@ -27,4 +27,4 @@ structure: commande comique, fausse accusation, fuite, don magique, vérité ré
 4. Affamé et désespéré, Guignol reçoit d'un génie une baguette : « berlique » fige, « berloque » réveille. Il fige les poursuivants, les fait saluer et danser.
 5. Il cache les gendarmes, réveille le filou, qui avoue ; le maître demande pardon et Guignol réclame… son dîner.
 
-**À adapter.** Supprimer la tentation de se noyer, remplacer les coups de bâton par des chatouilles de baguette. La liste des plats mal comprise, le jeu droite/gauche et les mots magiques repris par le public sont trois moments de participation parfaits. Le génie peut être une fée ou un vieil arbre.
+**À jouer.** La liste des plats mal comprise, le jeu droite/gauche et les mots magiques repris par le public sont trois moments de participation parfaits. Le génie peut être une fée ou un vieil arbre.

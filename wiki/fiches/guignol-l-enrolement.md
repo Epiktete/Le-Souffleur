@@ -25,4 +25,4 @@ structure: promesse reniée, piège, leçon comique, retournement
 4. La leçon d'exercice tourne au désastre : Guignol ne sait pas où est sa gauche, se sauve à « garde à vous ! », tape le sergent avec son « fusil » ; puis il révèle qu'il a tout compris et n'a rien signé.
 5. Le sergent passe de son côté ; Guignol, en « vieux soldat » exalté, provoque Gnafron en duel, qui cède la main de sa fille.
 
-**À adapter.** Supprimer le vin et les menaces de gifles ; l'armée peut devenir « la garde du château » ou « la fanfare ». La leçon d'exercice est un grand numéro comique à deux, et le public peut faire l'exercice avec Guignol. Le « je ne suis pas éloigné de le croire » du sergent est un tic de langage à garder.
+**À jouer.** La leçon d'exercice est un grand numéro comique à deux, et le public peut faire l'exercice avec Guignol. Le « je ne suis pas éloigné de le croire » du sergent est un tic de langage à garder.

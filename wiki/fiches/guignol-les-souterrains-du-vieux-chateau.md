@@ -29,4 +29,4 @@ structure: défi proclamé, deux échecs, nuit d'épreuves, découverte, triomph
 4. Cachés, maître et valet entendent les brigands : ils fabriquent de la fausse monnaie et font les fantômes pour qu'on les laisse tranquilles. « Ils ne sont que deux ! » — Guignol devient brave.
 5. Les brigands sont vaincus ; au village, Guignol raconte le combat en exagérant tout, et Victor épouse la fille du comte.
 
-**À adapter.** Remplacer le combat au sabre et au pistolet par un piège (les brigands trébuchent dans la marmite, se prennent dans leurs draps). La scène de la soupe magique est un modèle de jeu de marionnettiste, et « ils ne sont que deux ! » un refrain à faire reprendre. Les fantômes démasqués rassurent les petits : la peur a toujours une explication.
+**À jouer.** La scène de la soupe magique est un modèle de jeu de marionnettiste, et « ils ne sont que deux ! » un refrain à faire reprendre. Les fantômes démasqués rassurent les petits : la peur a toujours une explication.

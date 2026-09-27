@@ -1,0 +1,10 @@
+{
+  "id": "guignol-le-testament",
+  "langue": [
+    {"avant": "Il me faut cependant en prendre mon parti", "apres": "Il me faut quand même en prendre mon parti", "nature": "connecteur", "jusqua": 8},
+    {"avant": "& cependant il m’avait toujours promis", "apres": "mais il m’avait toujours promis", "nature": "connecteur", "jusqua": 8},
+    {"avant": "Mais je désirerais cependant lire ce testament.", "apres": "Mais je désirerais quand même lire ce testament.", "nature": "connecteur", "jusqua": 8},
+    {"avant": "Néanmoins je désirerais le lire…", "apres": "Mais je désirerais le lire…", "nature": "connecteur", "jusqua": 8}
+  ],
+  "moments": []
+}

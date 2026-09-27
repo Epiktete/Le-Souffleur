@@ -26,4 +26,4 @@ structure: épreuve cachée, partage injuste en apparence, découverte, retourne
 4. Le notaire lit le testament : tout à Guillaume, le portrait à Guignol, à condition d'en réparer le cadre. Madelon énumère, dépitée : la maison ? le jardin ? le pré ?… « Il l'a donné à Guillaume. »
 5. En démontant le cadre, Guignol trouve le trésor ; la maison de Guillaume, elle, n'est que dettes. Guillaume revient proposer le mariage ; Guignol lui rend sa réplique mot pour mot.
 
-**À adapter.** Remplacer la mort de l'oncle par un départ en voyage (« je pars faire le tour du monde, voici ce que je vous laisse »), supprimer les coups de tête et le manche à balai. L'énumération de Madelon est un jeu de questions-réponses parfait avec le public. On peut remplacer les billets par des pièces d'or qui pleuvent du cadre. Morale claire et douce : le plus dupe est celui qui a voulu être fripon.
+**À jouer.** L'énumération de Madelon (« il l'a donné à Guillaume ») est un jeu de questions-réponses parfait avec le public. Les billets qui dégringolent du cadre sont le grand moment visuel. Morale claire et douce : le plus dupe est celui qui a voulu être fripon.

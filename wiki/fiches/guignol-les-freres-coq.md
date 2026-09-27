@@ -27,4 +27,4 @@ structure: refus, épreuve déguisée, accueil contrasté, révélation, récomp
 4. Chez Guignol : il n'est reconnu qu'à ses yeux et sa voix, embrassé en pleurant ; Guignol, qui n'a rien, veut quand même préparer un festin.
 5. Le notaire, ruiné, vient supplier ; Guignol plaide pour lui (« nous avons eu le même papa ! ») ; Jérôme l'aide, puis marie Louison à son compagnon et fait de Guignol le bottier de tous les pauvres de la ville.
 
-**À adapter.** Retirer le vin, le soufflet donné à Louison et le passage raciste de Guignol sur l'épouse que ramènerait son frère. Le festin impossible (gras-double fait avec un vieux tablier de cuir, nappe faite d'une chemise retournée) est un beau moment comique. Le cœur, universel, est le conte des deux frères et du voyageur déguisé qui teste l'hospitalité.
+**À jouer.** Le festin impossible (gras-double fait avec un vieux tablier de cuir, nappe faite d'une chemise retournée) est un beau moment comique. Le cœur, universel, est le conte des deux frères et du voyageur déguisé qui teste l'hospitalité.

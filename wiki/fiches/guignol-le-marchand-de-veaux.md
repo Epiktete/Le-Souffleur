@@ -29,4 +29,4 @@ structure: condition, trois ventes, trois réclamations, retournement contre le 
 4. Les trois acheteurs reviennent, un par un, et repartent furieux ; le Bailli, devant ce « fou », renvoie tout le monde.
 5. Butavant réclame son dû : « Fui ! fui ! » Le Bailli a tout entendu et fait payer le filou ; Guignol garde son veau et épouse Madelon.
 
-**À adapter.** Pour les enfants, la morale est à ajuster : Guignol rend l'argent aux trois acheteurs à la fin, ou le veau « choisit » lui-même son maître. Supprimer le bâton et le coup de tête. La triple répétition (un acheteur, puis deux, puis trois) et le « fui ! fui ! » repris par le public sont le cœur du spectacle ; le veau qu'on ne voit jamais (on l'entend meugler en coulisse) est une belle idée de marionnettiste.
+**À jouer.** La triple répétition (un acheteur, puis deux, puis trois) et le « fui ! fui ! » repris par le public sont le cœur du spectacle ; le veau qu'on ne voit jamais (on l'entend meugler en coulisse) est une belle idée de marionnettiste.

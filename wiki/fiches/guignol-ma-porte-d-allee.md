@@ -28,4 +28,4 @@ structure: une nuit devant une porte
 4. Sa femme et sa belle-mère rentrent de la fête des Rois qu'il a oubliée ; il invente une excuse extravagante ; dispute générale.
 5. Chalumeau apprend qu'il hérite et invite tout le monde à déjeuner ; la belle-mère reste enfermée.
 
-**À adapter.** Pour les plus grands seulement, et à transformer : pas de vin, pas de bagarre de couple ; le « seau » devient de l'eau de vaisselle ou une pluie de confettis. Le cœur jouable est universel : quelqu'un enfermé dehors la nuit, qui réveille tout le quartier, et l'excuse invraisemblable qu'il bredouille. La belle-mère est une grande figure comique.
+**À jouer.** Le cœur jouable est universel : quelqu'un enfermé dehors la nuit, qui réveille tout le quartier, et l'excuse invraisemblable qu'il bredouille. La belle-mère est une grande figure comique.

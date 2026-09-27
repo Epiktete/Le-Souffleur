@@ -1,0 +1,33 @@
+{
+  "id": "guignol-l-enrolement",
+  "langue": [
+    {"avant": "Faites voir votre talent au briquet", "apres": "Faites voir votre talent au sabre", "nature": "faux-ami"}
+  ],
+  "moments": [
+    {
+      "id": "guignol-fait-mine-d-avoir-bu",
+      "type": "alcool",
+      "niveaux": [
+        {
+          "jusqua": 4,
+          "annonce": "Devant Gnafron, Guignol joue le soldat plein d’ardeur, sans faire semblant d’avoir bu.",
+          "retouches": [
+            {"avant": "GUIGNOL, il fait mine d’être un peu ivre.", "apres": "GUIGNOL."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "le-bedouin",
+      "type": "mal-vieilli",
+      "niveaux": [
+        {
+          "jusqua": 10,
+          "retouches": [
+            {"avant": "Je ne suis pas un Bédouin, peste !…", "apres": "Peste !…"}
+          ]
+        }
+      ]
+    }
+  ]
+}
