@@ -49,8 +49,8 @@ structure: course
 }
 
 describe('le répertoire', () => {
-  it('lit les 156 fiches, sans en perdre une', () => {
-    expect(CONTES.length).toBe(156);
+  it('lit les 136 fiches, sans en perdre une', () => {
+    expect(CONTES.length).toBe(136);
     for (const c of CONTES) {
       expect(c.titre, c.id).not.toBe('');
       expect(c.source, c.id).not.toBe('');
@@ -181,7 +181,7 @@ describe('la durée', () => {
 
   it('l’index du répertoire est à jour avec les textes', async () => {
     expect(Object.keys(INDEX).sort()).toEqual(CONTES.map((c) => c.id).sort());
-    for (const id of ['ru-kolobok', 'ar-ali-baba', 'zh-tirer-les-pousses']) {
+    for (const id of ['ru-kolobok', 'ar-ali-baba', 'zh-renard-et-tigre']) {
       expect(INDEX[id].mots, `${id} : relancez node tools/indexer-contes.mjs`)
         .toBe(compterMots(await texteDuConte(id)));
       expect((INDEX[id] as { dialogue?: number }).dialogue, `${id} : relancez node tools/indexer-contes.mjs`)

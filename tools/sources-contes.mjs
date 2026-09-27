@@ -249,37 +249,22 @@ export const CONTES = [
   /* langues d'origine, qui ne s'écrivaient pas ou peu à l'époque.        */
   /* ------------------------------------------------------------------ */
   basset(1, 'lion-et-souris', 'Le Lion et la Souris', 'Égyptien ancien', 'Égypte'),
-  basset(5, 'djaha-et-sa-femme', 'Djah’a et sa femme', 'Berbère de Ghat', 'Libye'),
-  basset(9, 'assemblee-des-animaux', 'Le Lion, le Chacal, le Mulet et l’assemblée des animaux', 'Kabyle', 'Algérie'),
-  basset(14, 'gueule-tapee-hyene-lion', 'La Gueule tapée, la Hyène et le Lion', 'Berbère', 'Sénégal'),
   basset(19, 'moineau-et-poule', 'Le Moineau et la Poule', 'Haoussa', 'Nigeria, Niger'),
   basset(22, 'renard-babouin-lion', 'Le Renard, le Babouin et le Lion', 'Bilin', 'Érythrée'),
-  basset(28, 'souris-et-grenouille', 'La Souris et la Grenouille', 'Kunama', 'Érythrée'),
   basset(30, 'lion-leopard-singe', 'Le Lion, le Léopard et le Singe', 'Oromo', 'Éthiopie'),
-  basset(34, 'vieille-femme-et-lion', 'La Vieille Femme et le Lion', 'Somali', 'Somalie'),
   basset(52, 'singe-et-bucheron', 'Le Singe et le Bûcheron', 'Nubien de Dongola', 'Soudan'),
   basset(55, 'coq-et-elephant', 'Le Coq et l’Éléphant', 'Dinka', 'Soudan du Sud'),
-  basset(57, 'lievre-bari', 'Le Lièvre', 'Bari', 'Soudan du Sud'),
-  basset(64, 'belette-et-hyene', 'La Belette et la Hyène', 'Kanouri', 'Bornou, Tchad'),
   basset(68, 'hyene-et-lievre', 'La Hyène et le Lièvre', 'Mandé', 'Mali'),
   basset(69, 'lievre-gris-gris', 'Le Lièvre et son gris-gris', 'Malinké', 'Guinée, Mali'),
-  basset(70, 'qui-est-le-plus-fort', 'Qui est le plus fort ?', 'Soninké', 'Mali, Sénégal'),
   basset(72, 'araignee-vai', 'L’Araignée', 'Vaï', 'Liberia'),
   basset(74, 'lievre-et-moineaux', 'Le Lièvre et les Moineaux', 'Wolof', 'Sénégal'),
   basset(82, 'cameleon-et-crapaud', 'Le Caméléon et le Crapaud', 'Agni', 'Côte d’Ivoire'),
   basset(88, 'singes-dans-les-arbres', 'Pourquoi les singes habitent dans les arbres', 'Éwé', 'Togo, Ghana'),
   basset(89, 'caille-et-crabe', 'La Caille et le Crabe', 'Atakpamé', 'Togo'),
-  basset(90, 'lezard-et-tortue', 'Le Lézard et la Tortue', 'Yoruba (Nago)', 'Bénin, Nigeria'),
-  basset(94, 'arret-du-babouin', 'L’Arrêt du babouin', 'Nama', 'Namibie'),
-  basset(99, 'lievre-hyene-lion', 'Le Lièvre, la Hyène et le Lion', 'Swahili', 'Zanzibar, Tanzanie'),
   basset(108, 'tortue-et-elephant', 'La Tortue et l’Éléphant', 'Konde', 'Malawi, Tanzanie'),
   basset(118, 'courge-qui-parle', 'La Courge qui parle', 'Shambala', 'Tanzanie'),
-  basset(121, 'lievre-et-rainette', 'Le Lièvre et la Rainette', 'Ronga', 'Mozambique'),
-  basset(135, 'elephant-et-tortue', 'L’Éléphant et la Tortue', 'Herero', 'Namibie'),
   basset(143, 'crocodile-et-poule', 'Pourquoi le crocodile ne mange pas la poule', 'Kongo (Fiote)', 'Congo'),
   basset(147, 'panthere-chien-tortue', 'La Panthère, le Chien et la Tortue', 'Téké', 'Congo, Gabon'),
-  basset(154, 'cameleon-et-araignee', 'Le Caméléon et l’Araignée', 'Dagomba', 'Ghana'),
-  basset(159, 'chat-sauvage-et-rat', 'Le Chat sauvage et le Rat', 'Merina (Hova)', 'Madagascar'),
   basset(167, 'anansi-tigre-chevre', 'Anansi, le Tigre et la Chèvre', 'Afro-antillais', 'Antilles anglaises'),
   ...[
     ['tar-baby', 'Le Bébé de goudron', 'The Wonderful Tar-Baby Story'],
@@ -352,17 +337,6 @@ export const CONTES = [
   jacobs('trois-nigauds', 'Les Trois Nigauds', 'The Three Sillies'),
 
   {
-    id: 'es-raton-perez',
-    titre: 'Le Rat Pérez',
-    titreOriginal: 'Ratón Pérez',
-    culture: 'Espagne',
-    continent: 'Europe',
-    langue: 'es',
-    collecteur: 'Luis Coloma, 1894, d’après la tradition',
-    droits: 'Coloma (1851-1915) : domaine public',
-    source: { type: 'ws', wiki: 'es', page: 'Ratón Pérez' },
-  },
-  {
     id: 'it-giufa',
     titre: 'Une histoire de Giufà',
     titreOriginal: 'Una storia di Giufà',
@@ -387,9 +361,6 @@ export const CONTES = [
   chine('becasseau-et-moule', 'La Bécassine et la Moule', '鷸蚌相爭', 'Stratagèmes des Royaumes combattants', '戰國策/卷30', ['蚌方出曝', '并禽之']),
   chine('automate-de-yanshi', 'L’Automate de Yan Shi', '偃師造人', 'Liezi, IVe s.', '列子/湯問篇', ['周穆王西巡狩', '而時執規矩。']),
   chine('grenouille-du-puits', 'La Grenouille du vieux puits', '埳井之蛙', 'Zhuangzi, IVe s. av. J.-C.', '莊子/秋水', ['子獨不聞夫埳井之鼃乎', '規規然自失也']),
-  chine('tirer-les-pousses', 'Tirer sur les pousses pour les faire grandir', '揠苗助長', 'Mencius, IVe s. av. J.-C.', '孟子/公孫丑上', ['宋人有閔其苗之不長而揠之者', '苗則槁矣']),
-  chine('lance-et-bouclier', 'La Lance et le Bouclier', '自相矛盾', 'Han Feizi', '韓非子/難一', ['楚人有鬻楯與矛者', '其人弗能應也']),
-  chine('seigneur-qui-aimait-les-dragons', 'Le Seigneur qui aimait les dragons', '葉公好龍', 'Xinxu, Ier s. av. J.-C.', '新序/雜事/卷五', ['葉公子高好龍', '好夫似龍而非龍者也']),
   chine('poirier-magique', 'Le Poirier magique', '種梨', 'Pu Songling, Contes extraordinaires du pavillon du loisir, 1740', '聊齋志異/第01卷', ['有鄉人貨梨於市', '又何足怪？']),
   chine('taoiste-du-mont-lao', 'Le Taoïste du mont Lao', '勞山道士', 'Pu Songling, Contes extraordinaires du pavillon du loisir, 1740', '聊齋志異/第01卷', ['邑有王生', '不止也。']),
 
@@ -429,7 +400,6 @@ export const CONTES = [
   /* Amériques                                                           */
   /* ------------------------------------------------------------------ */
   ...[
-    ['raton-laveur-et-ecrevisse', 'Le Raton laveur et l’Écrevisse', 'The Raccoon and the Crawfish', 'THE RACCOON AND THE CRAWFISH', 'LEGEND OF STANDING ROCK'],
     ['lapin-et-wapiti', 'Le Lapin et le Wapiti', 'The Rabbit and the Elk', 'THE RABBIT AND THE ELK', 'THE RABBIT AND THE GROUSE GIRLS'],
   ].map(([id, titre, original, debut, fin]) => gutenberg(
     `sioux-${id}`, titre, original, 'Sioux (Lakota, Dakota)', 'Amérique',

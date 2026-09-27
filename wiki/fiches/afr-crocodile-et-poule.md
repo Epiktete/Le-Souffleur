@@ -24,4 +24,4 @@ structure: menace répétée, explication
 4. Il part consulter le grand esprit ; en route, il en parle au grand lézard.
 5. « Idiot ! Canard, tortue, moi, la poule et toi : nous pondons tous des œufs. Nous sommes frères. » Et depuis, le crocodile ne mange pas la poule.
 
-**À jouer.** Idéal à trois, et pour les petits : le « Ô frère, ne le faites pas ! » de la poule revient comme un gag, et le public le crie avec elle. Le crocodile qui repart tout troublé, puis revient bien décidé, se joue en miroir. Parenté avec les autres contes des origines, comme « Le Lézard et la Tortue ».
+**À jouer.** Idéal à trois, et pour les petits : le « Ô frère, ne le faites pas ! » de la poule revient comme un gag, et le public le crie avec elle. Le crocodile qui repart tout troublé, puis revient bien décidé, se joue en miroir.
