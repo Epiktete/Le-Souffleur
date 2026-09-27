@@ -1,0 +1,77 @@
+{"titre": "Ce que fait Mémé Tortue est bien fait", "pitch": "Mémé Tortue échange son cheval de troc en troc jusqu'à un sac de pommes pourries, et Pilou le Pingouin trouve que tout est toujours bien fait, au grand dam de Roi Corbeau qui avait parié le contraire.",
+ "changements": [
+   "L'ouverture du conteur sur la campagne et la vieille maison est coupée : c'est le seul épisode retiré, remplacé par le décor installé sur la table.",
+   "Les vendeurs croisés sur la route (la vache, le mouton, l'oie, la poule, le valet de l'auberge) n'ont pas de marionnette : le conteur raconte leurs trocs à mesure que Mémé Tortue les mime, sans les faire entrer en scène.",
+   "Le second parieur anglais disparaît : Roi Corbeau parie seul, pour ne pas demander une troisième main.",
+   "La voisine avare et le maître d'école ne sont pas joués : Pilou le Pingouin les raconte en une phrase, comme un souvenir, sans les faire entrer.",
+   "L'argent du pari reste hors scène : Roi Corbeau annonce qu'il paie, il ne manipule aucune pièce."
+ ],
+ "tableaux": [
+   {"id": "t1", "titre": "La maison de Mémé Tortue et Pilou le Pingouin", "description": "Tends un drap ou installe un pan de mur pour figurer la façade ; pose un coussin ou une caisse basse devant, comme le pas de la porte. Les deux marionnettes parlent depuis ce seuil.", "accessoires": []},
+   {"id": "t2", "titre": "La route et l'auberge", "description": "Étends un tapis ou un long coussin au sol pour tracer la route ; à un bout, pose un plateau ou une caisse renversée en guise de comptoir, avec un tissu rouge ou orange dessus pour le poêle allumé.", "accessoires": []}
+ ],
+ "actes": [
+   {"numero": 1, "titre": "Le départ pour la foire", "tableauId": "t1",
+    "resume": "Pilou le Pingouin décide qu'il faut se défaire du cheval et envoie Mémé Tortue à la foire, sûr que tout ce qu'elle fait est toujours bien fait.",
+    "passage": "De « C'est toi, ma vieille, qui le sauras le mieux ! » à « elle partit sur le cheval qu'il fallait vendre ou échanger. »",
+    "temps": [
+      "Pilou le Pingouin annonce qu'il faut vendre ou échanger le cheval et propose la foire.",
+      "Il prépare Mémé Tortue pour la route, plein de confiance dans son jugement.",
+      "Mémé Tortue part à cheval vers la ville."
+    ],
+    "mouvements": [
+      {"type": "entree", "marionnette": "Mémé Tortue", "main": "M1G"},
+      {"type": "entree", "marionnette": "Pilou le Pingouin", "main": "M1D"},
+      {"type": "sortie", "marionnette": "Pilou le Pingouin", "main": "M1D"},
+      {"type": "sortie", "marionnette": "Mémé Tortue", "main": "M1G"}
+    ],
+    "momentsPublic": [],
+    "budgetMots": 150},
+   {"numero": 2, "titre": "Les cinq échanges de la route", "tableauId": "t2",
+    "resume": "En chemin, Mémé Tortue échange le cheval contre une vache, la vache contre un mouton, le mouton contre une oie, l'oie contre une poule, et la poule contre un sac de pommes pourries.",
+    "passage": "De « Un homme passait en poussant une vache devant lui » à « elle donna la poule en échange, eut les pommes »",
+    "temps": [
+      "Sur la route, Mémé Tortue croise une vache, un mouton, une oie et une poule, et échange à chaque fois, persuadée de faire mieux.",
+      "Devant l'auberge, elle échange sa poule contre un sac de pommes pourries."
+    ],
+    "mouvements": [
+      {"type": "entree", "marionnette": "Mémé Tortue", "main": "M1G"}
+    ],
+    "momentsPublic": ["Les enfants comptent avec Mémé Tortue chaque nouvel échange, sur leurs doigts."],
+    "budgetMots": 200},
+   {"numero": 3, "titre": "Le pari de Roi Corbeau", "tableauId": "t2",
+    "resume": "À l'auberge, Roi Corbeau entend raconter la suite des échanges et parie que Pilou le Pingouin va gronder Mémé Tortue à son retour.",
+    "passage": "De « Il y avait beaucoup d'étrangers dans la salle » à « Et le pari fut fait. »",
+    "temps": [
+      "Roi Corbeau entend raconter les échanges, jusqu'au sac de pommes pourries.",
+      "Certain que Mémé Tortue va se faire gronder, il propose un pari.",
+      "Mémé Tortue accepte : elle mise ses pommes, elle-même, et Pilou le Pingouin."
+    ],
+    "mouvements": [
+      {"type": "entree", "marionnette": "Roi Corbeau", "main": "M1D"}
+    ],
+    "momentsPublic": ["Les enfants parient à leur tour avec Roi Corbeau, en criant s'ils croient que Pilou le Pingouin va gronder ou non."],
+    "budgetMots": 150},
+   {"numero": 4, "titre": "Le retour et le baiser", "tableauId": "t1",
+    "resume": "De retour, Mémé Tortue raconte chaque échange à Pilou le Pingouin, qui se réjouit à chaque fois davantage et l'embrasse pour les pommes pourries ; Roi Corbeau, qui a perdu son pari, doit payer.",
+    "passage": "De « Bonsoir, le père ! » à « à elle qui avait reçu un baiser et pas des coups. »",
+    "temps": [
+      "Mémé Tortue arrive et retrouve Pilou le Pingouin, qui l'accueille avec joie.",
+      "Elle raconte chaque échange, du cheval jusqu'aux pommes pourries, et Pilou le Pingouin s'en réjouit chaque fois davantage.",
+      "Pour les pommes pourries, Pilou le Pingouin l'embrasse, ravi de pouvoir enfin prêter une pomme pourrie à la voisine avare.",
+      "Roi Corbeau revient, avoue avoir perdu son pari, et paie cent pièces d'or."
+    ],
+    "mouvements": [
+      {"type": "sortie", "marionnette": "Roi Corbeau", "main": "M1D"},
+      {"type": "entree", "marionnette": "Pilou le Pingouin", "main": "M1D"},
+      {"type": "sortie", "marionnette": "Pilou le Pingouin", "main": "M1D"},
+      {"type": "entree", "marionnette": "Roi Corbeau", "main": "M1D"}
+    ],
+    "momentsPublic": [],
+    "budgetMots": 300}
+ ],
+ "voix": [
+   {"marionnette": "Mémé Tortue", "voix": "voix grave et très lente, qui prend son temps même pour annoncer la pire nouvelle."},
+   {"marionnette": "Pilou le Pingouin", "voix": "voix aiguë et rapide, qui s'exclame de joie avant même d'avoir tout entendu."},
+   {"marionnette": "Roi Corbeau", "voix": "voix forte et sûre d'elle, qui dit « foi de moi ! » à chaque pari."}
+ ]}

@@ -1,0 +1,14 @@
+{"elements": [
+  {"type": "entree", "marionnette": "Roi Corbeau", "main": "M1D"},
+  {"type": "didascalie", "texte": "Un sifflement s'échappe du poêle : les pommes commencent à cuire."},
+  {"type": "replique", "marionnette": "Roi Corbeau", "texte": "Qu'est-ce que c'est ?", "ton": "surpris, curieux"},
+  {"type": "conteur", "texte": "Toute l'histoire du cheval échangé contre la vache, et ainsi de suite jusqu'aux pommes pourries."},
+  {"type": "replique", "marionnette": "Roi Corbeau", "texte": "Eh bien ! Tu vas recevoir des coups de ton mari en rentrant ! Ça va être la tempête !", "ton": "vantard, sûr de lui"},
+  {"type": "adresse_public", "marionnette": "Roi Corbeau", "texte": "Et vous, les enfants ? Est-ce que Pilou le Pingouin va gronder Mémé Tortue, ou pas ? Criez « oui » ou « non » !", "attenteReponse": true},
+  {"type": "note_marionnettiste", "texte": "Laisser les enfants crier leur pari, puis continuer quelle que soit leur réponse."},
+  {"type": "replique", "marionnette": "Mémé Tortue", "texte": "Je recevrai un baiser et pas des coups. Mon mari va dire : « Ce que fait Mémé Tortue est bien fait ! »", "ton": "tranquille, assurée"},
+  {"type": "replique", "marionnette": "Roi Corbeau", "texte": "On parie ? Des pièces d'or, à pleins tonneaux ! Cent livres !", "ton": "sûr de gagner"},
+  {"type": "replique", "marionnette": "Mémé Tortue", "texte": "Un plein boisseau, ça suffira. Je ne peux mettre en jeu qu'un plein boisseau de pommes, et moi-même, et mon mari avec. Mais ça fait plus qu'un boisseau ras : ça fait un boisseau bien comble !", "ton": "calme, décidée"},
+  {"type": "replique", "marionnette": "Roi Corbeau", "texte": "Tope là ! Tope là !", "ton": "enthousiaste"},
+  {"type": "conteur", "texte": "Et le pari fut fait."}
+]}
