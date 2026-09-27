@@ -10,6 +10,7 @@
   import VisiteGuidee from './composants/VisiteGuidee.svelte';
   import { reglagesIa } from './etat/reglagesIa.svelte';
   import { studio } from './etat/studio.svelte';
+  import { bibliotheque } from './etat/bibliotheque.svelte';
   import { t } from './textes';
   import { analyserFragment, type Route } from './services/routeur';
   import { demanderStockagePersistant } from './services/db';
@@ -34,7 +35,12 @@
   // doivent être retrouvés d'une visite à l'autre (CDC §7).
   $effect(() => {
     void reglagesIa.charger();
-    void studio.charger();
+    // Une scène mémorisée peut porter des marionnettes qui n'existent plus
+    // (import « Remplacer ») : on la nettoie une fois la marionnethèque lue,
+    // sinon la scène paraît garnie alors qu'il n'y a personne à faire jouer.
+    void Promise.all([studio.charger(), bibliotheque.charger()]).then(() => {
+      studio.nettoyer(bibliotheque.liste.map((m) => m.id));
+    });
   });
 
   function surTiroir(lequel: 'bibliotheque' | 'spectacles') {

@@ -178,7 +178,16 @@ export function paginer(
 export function pageDeLaRangee(pages: Page[], rangeeId: Id | null): number {
   if (!rangeeId) return 0;
   const index = pages.findIndex((p) => p.rangees.some((r) => r.id === rangeeId));
-  return index < 0 ? 0 : index;
+  if (index >= 0) return index;
+  // L'ancre peut être un MORCEAU d'une tirade redécoupée (« id#2.0 »). Quand
+  // le parent change la taille du texte, le découpage change et ce morceau
+  // n'existe plus : on retombe sur la rangée d'origine ou ses nouveaux
+  // morceaux, plutôt que de renvoyer à la première page en pleine
+  // représentation.
+  const base = rangeeId.split('#')[0];
+  const parBase = pages.findIndex((p) =>
+    p.rangees.some((r) => r.id === base || r.id.startsWith(`${base}#`)));
+  return parBase < 0 ? 0 : parBase;
 }
 
 /**

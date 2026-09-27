@@ -32,9 +32,15 @@
   // Le premier script ouvert : la visite montre comment corriger et jouer.
   $effect(() => { if (s) visite.lancer('script'); });
 
+  // Les contrôles reparcourent tout le script : on les calcule UNE fois par
+  // modification, pas une fois par élément affiché. Sans cela, chaque frappe
+  // validée relançait ~200 simulations complètes sur un long spectacle.
+  const problemes = $derived(spectacleCourant.problemes);
+  const badges = $derived(spectacleCourant.badges);
+
   /** Avertissements rattachés à un élément précis. */
   function problemesDe(acteNumero: number, position: number) {
-    return spectacleCourant.problemes.filter(
+    return problemes.filter(
       (p) => p.acteNumero === acteNumero && p.position === position,
     );
   }
@@ -45,7 +51,7 @@
    * Sans eux, supprimer toutes les répliques d'une peluche ne signalait rien.
    */
   function problemesGeneraux(acteNumero?: number) {
-    const liste: { message: string }[] = spectacleCourant.problemes.filter(
+    const liste: { message: string }[] = problemes.filter(
       (p) => p.position === undefined && p.acteNumero === acteNumero,
     );
     // Une revue finale qui a échoué laisse un spectacle non relu : il
@@ -184,7 +190,7 @@
             acteId={acte.id}
             position={index + 1}
             problemes={problemesDe(acte.numero, index + 1)}
-            badge={deuxMarionnettistes ? (spectacleCourant.badges.get(element.id) ?? '') : ''}
+            badge={deuxMarionnettistes ? (badges.get(element.id) ?? '') : ''}
             enEdition={editionId === element.id}
             surEditer={() => (editionId = element.id)}
             surFermerEdition={() => (editionId = null)}

@@ -20,6 +20,7 @@ import type { Probleme } from '../services/scene';
 import { enregistrerSpectacle } from '../services/db';
 import { noterRencontres } from '../services/historiqueContes';
 import { noterSpectacleCree } from '../services/sauvegarde';
+import { t } from '../textes';
 import type { Marionnette, ParametresGeneration, Spectacle } from '../types';
 import { reglagesIa } from './reglagesIa.svelte';
 
@@ -109,7 +110,9 @@ function creerGeneration() {
    */
   function traiterErreur(e: unknown, retourChoix = false) {
     // Une annulation n'est pas une erreur : on revient là où l'on était.
-    if (e instanceof ErreurIa && e.message.includes('annulée')) {
+    // La comparaison est la même que dans le pipeline : le libellé exact,
+    // pas un fragment qui casserait en silence si le texte changeait.
+    if (e instanceof ErreurIa && e.message === t.erreursIa.annule) {
       phase = retourChoix && propositions ? 'choix' : 'repos';
       avancement = null;
       return;

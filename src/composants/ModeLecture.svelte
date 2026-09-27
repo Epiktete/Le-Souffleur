@@ -43,6 +43,8 @@
 
   const s = $derived(spectacleCourant.spectacle);
   const rangees = $derived(s ? construireRangees(s.actes) : []);
+  // Calculée une fois par spectacle, pas deux fois par rangée affichée.
+  const badges = $derived(spectacleCourant.badges);
 
   /** Mesures et découpage. */
   let zoneMesure = $state<HTMLElement>();
@@ -410,8 +412,8 @@
           <span class="pastille" aria-hidden="true"></span>
           {nomDe(d)}
           {#if rangee.suite}<span class="suite">{tl.suite}</span>{/if}
-          {#if spectacleCourant.badges.get(d.id)}
-            <span class="badge-m">{spectacleCourant.badges.get(d.id)}</span>
+          {#if badges.get(d.id)}
+            <span class="badge-m">{badges.get(d.id)}</span>
           {/if}
           {#if d.type === 'adresse_public'}
             <span class="au-public">{tsc.labelPublic}</span>

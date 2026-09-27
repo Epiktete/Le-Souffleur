@@ -23,11 +23,15 @@
     touche: string;
     effet: string;
     rejet: Rejet;
-    horodatage: number;
+    /** Numéro d'ordre : deux appuis dans la même milliseconde — précisément
+     * le rebond que cette page sert à diagnostiquer — doivent rester deux
+     * lignes distinctes. */
+    numero: number;
   }
 
   let appuis = $state<Appui[]>([]);
   let dernierRetenu: number | null = null;
+  let compteur = 0;
 
   function libelleEffet(touche: string): string {
     const c = commandeDe(touche);
@@ -52,7 +56,7 @@
     if (!rejet && rebond) dernierRetenu = e.timeStamp;
 
     appuis = [
-      { touche: nommer(e.key), effet: libelleEffet(e.key), rejet, horodatage: Date.now() },
+      { touche: nommer(e.key), effet: libelleEffet(e.key), rejet, numero: ++compteur },
       ...appuis,
     ].slice(0, 12);
   }
@@ -79,7 +83,7 @@
       <p class="attente mono" aria-live="polite">{tl.test.enAttente}</p>
     {:else}
       <ul aria-live="polite">
-        {#each appuis as a (a.horodatage)}
+        {#each appuis as a (a.numero)}
           <li class:ignore={a.rejet !== null}>
             <span class="touche mono">{a.touche}</span>
             <span class="effet">

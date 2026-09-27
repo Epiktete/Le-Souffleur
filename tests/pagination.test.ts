@@ -168,6 +168,26 @@ describe('pageDeLaRangee : retrouver sa place après redécoupage', () => {
     expect(pageDeLaRangee(pages, 'inexistante')).toBe(0);
     expect(pageDeLaRangee(pages, null)).toBe(0);
   });
+
+  it('retrouve la rangée d’origine quand l’ancre était un morceau redécoupé', () => {
+    // En représentation, l'ancre mémorisée peut être « id#2.0 » (1er morceau
+    // d'une tirade coupée en 2). Après un changement de taille du texte, le
+    // découpage passe à 3 morceaux : « id#2.0 » n'existe plus, mais la rangée
+    // d'origine (ou ses nouveaux morceaux) doit être retrouvée.
+    const r = construireRangees([acte(1, [
+      replique('un'), replique('deux'), replique('trois'), replique('quatre'),
+    ])]);
+    const pages = paginer(r, new Map(r.map((x) => [x.id, 100])), 250);
+    const cible = r[2].id;
+    expect(pageDeLaRangee(pages, `${cible}#2.0`)).toBe(pageDeLaRangee(pages, cible));
+    // Et si la page affiche elle-même des morceaux, l'ancre en morceau
+    // retrouve la page qui porte un morceau de la même rangée.
+    const morceaux = pages.map((p) => ({
+      ...p,
+      rangees: p.rangees.map((x) => ({ ...x, id: `${x.id}#3.0` })),
+    }));
+    expect(pageDeLaRangee(morceaux, `${cible}#2.0`)).toBe(pageDeLaRangee(pages, cible));
+  });
 });
 
 describe('decouperTropLongues : ne jamais perdre la fin d’une tirade', () => {
