@@ -28,4 +28,4 @@ structure: ascension par un auxiliaire
 4. Il court devant et oblige les paysans à dire que tout appartient au marquis de Carabas.
 5. Chez l'ogre : « Vous pouvez devenir lion ? Et une souris ? » Il le croque ; le château devient celui du marquis.
 
-**À adapter.** L'ogre n'est pas mangé : il se change en souris et s'enfuit par un trou, ou reste souris et devient l'ami du chat. Les paysans ne sont pas menacés d'être « hachés menu comme chair à pâté » : le chat les soudoie avec des friandises. Le mariage devient une récompense. Un rôle en or pour la marionnette la plus bavarde et rusée ; parent africain : « Le Singe et le Bûcheron ».
+**À jouer.** Un rôle en or pour la marionnette la plus bavarde et rusée. Le refrain « C'est à monsieur le marquis de Carabas ! » revient de champ en champ : les enfants peuvent le crier avec les paysans. Le faux noyé se joue à grand bruit — le public peut appeler « Au secours ! » avec le Chat. Les métamorphoses de l'ogre se font en coulisse : la marionnette sort, le lion s'annonce d'une grosse voix, la souris n'est qu'un petit cri — et le Chat bondit derrière le castelet. Parent africain : « Le Singe et le Bûcheron ».

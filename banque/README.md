@@ -102,6 +102,18 @@ qu'aux demandes qu'il peut satisfaire par simple remplacement :
   peluche d'origine et un booléen **espèce citée hors du nom** (mesuré au
   versement, comme le garde-fou des noms résiduels) ; et, pour le spectacle,
   l'**âge** et le **profil de retouches** ;
+- le spectacle stocké porte, par rôle, la **liste de ses termes accordés en
+  genre** (précisé par Nicolas, 2026-09-27) : les mots du texte qui suivent le
+  genre de la peluche — pronoms voisins du nom, adjectifs, participes,
+  appellations (« la première », « compère ») —, relevés au versement, chacun
+  avec ses deux formes quand elle existe (« gourmande » ↔ « gourmand »). C'est
+  ce qui rend la retouche d'accords mécanique ou presque : si la liste couvre
+  tout, le code accorde seul ; sinon, elle borne exactement ce que le petit
+  modèle doit toucher ;
+- le **genre de la peluche du parent** se détecte par le code, du nom d'abord
+  (« Mémé », « Papa », « Ourse », un prénom), de la description ensuite (les
+  accords que le parent y a écrits : « une grosse ourse, très douce ») —
+  et l'appariement demande au parent en cas de doute, plutôt que de deviner ;
 - une demande s'apparie si, rôle par rôle, la peluche du parent a le **même
   genre grammatical**, et la **même espèce** quand elle est citée hors du nom
   (la même famille suffit sinon) ; et si l'âge demandé donne le **même profil

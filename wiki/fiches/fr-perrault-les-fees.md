@@ -25,4 +25,4 @@ structure: épreuve double
 4. La fée est cette fois déguisée en princesse ; l'aînée lui répond grossièrement : à chaque mot, un serpent ou un crapaud.
 5. La cadette part et trouve le bonheur ; l'aînée reste seule.
 
-**À adapter.** Supprimer la fin de l'aînée (chassée, « morte au coin d'un bois ») : elle finit par apprendre à parler gentiment, et les crapauds disparaissent. Les fleurs et crapauds qui sortent de la bouche sont un jeu d'accessoires irrésistible. Famille de « Dame Holle » et de « Morozko ».
+**À jouer.** Les dons se jouent à la voix : un petit son clair (« ting ! ») à chaque parole de la cadette, un « ploc » de crapaud à chaque parole de l'aînée — les enfants les guettent, puis les font avec le parent. L'épreuve jouée deux fois est la force du conte : la seconde visite à la fontaine, les enfants savent ce qui attend l'aînée et le savourent. La fée change de costume entre les deux visites : une sortie et une entrée suffisent. Famille de « Dame Holle » et de « Morozko ».

@@ -1,0 +1,82 @@
+{
+  "id": "fr-perrault-chat-botte",
+  "langue": [
+    {"avant": "tout le pauvre patrimoine", "apres": "tout le pauvre héritage", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "mais qui n’en fit pas semblant", "apres": "mais qui n’en laissa rien paraître", "nature": "faux-ami"},
+    {"avant": "Ne vous affligez point, mon maître", "apres": "Ne soyez pas triste, mon maître", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "ne fît pas grand fond là-dessus", "apres": "n’y crût guère", "nature": "tournure"},
+    {"avant": "il se botta bravement", "apres": "il enfila fièrement ses bottes", "nature": "faux-ami"},
+    {"avant": "Il mit du son et des lasserons dans son sac", "apres": "Il mit du son et des herbes fraîches dans son sac", "nature": "mot-disparu"},
+    {"avant": "À peine fut-il couché, qu’il eut contentement", "apres": "À peine fut-il couché qu’il obtint ce qu’il attendait", "nature": "tournure"},
+    {"avant": "Tout glorieux de sa proie", "apres": "Tout fier de sa prise", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "c’était le nom qu’il lui prit l’idée de donner à son maître", "apres": "c’était le nom qu’il eut l’idée de donner à son maître", "nature": "tournure"},
+    {"avant": "et lui fit donner pour boire", "apres": "et lui fit donner un pourboire", "nature": "tournure"},
+    {"avant": "le drôle les avait cachés sous une grosse pierre", "apres": "le coquin les avait cachés sous une grosse pierre", "nature": "faux-ami"},
+    {"avant": "aux officiers de sa garde-robe", "apres": "aux serviteurs de sa garde-robe", "nature": "faux-ami"},
+    {"avant": "d’aller quérir un de ses plus beaux habits", "apres": "d’aller chercher un de ses plus beaux habits", "nature": "mot-disparu"},
+    {"avant": "Le roi lui fit mille caresses", "apres": "Le roi lui fit mille compliments", "nature": "faux-ami"},
+    {"avant": "ravi de voir que son dessein commençait à réussir", "apres": "ravi de voir que son plan commençait à réussir", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "ne manqua pas à demander", "apres": "ne manqua pas de demander", "nature": "tournure"},
+    {"avant": "étaient de la dépendance de ce château", "apres": "appartenaient à ce château", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "aussi civilement que le peut un ogre", "apres": "aussi poliment que le peut un ogre", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "je vous avoue que je tiens cela tout à fait impossible", "apres": "je vous avoue que je crois cela tout à fait impossible", "nature": "tournure"},
+    {"avant": "Cependant le roi, qui vit en passant", "apres": "Pendant ce temps, le roi, qui vit en passant", "nature": "faux-ami"},
+    {"avant": "voyons les dedans, s’il vous plaît", "apres": "voyons l’intérieur, s’il vous plaît", "nature": "tournure"},
+    {"avant": "une magnifique collation", "apres": "un magnifique goûter", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "qui le devaient venir voir", "apres": "qui devaient venir le voir", "nature": "tournure"},
+    {"avant": "Il ne tiendra qu’à vous, monsieur le marquis, que vous ne soyez mon gendre", "apres": "Il ne tient qu’à vous, monsieur le marquis, d’épouser ma fille", "nature": "tournure"}
+  ],
+  "moments": [
+    {
+      "id": "vendre-pas-manger",
+      "type": "cruaute",
+      "niveaux": [
+        {
+          "jusqua": 6,
+          "annonce": "Le fils du meunier parle de vendre son chat, non de le manger.",
+          "retouches": [
+            {"avant": "lorsque j’aurai mangé mon chat, et que je me serai fait un manchon de sa peau, il faudra que je meure de faim", "apres": "lorsque j’aurai vendu mon chat, il faudra que je meure de faim"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "le-lapin-attrape",
+      "type": "cruaute",
+      "niveaux": [
+        {
+          "jusqua": 6,
+          "annonce": "Le Chat attrape le jeune lapin dans son sac, sans le tuer.",
+          "retouches": [
+            {"avant": "le prit et le tua sans miséricorde", "apres": "le prit dans son sac, bien serré"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l-ogre-souris-s-echappe",
+      "type": "punition",
+      "niveaux": [
+        {
+          "jusqua": 4,
+          "annonce": "L’ogre changé en souris s’échappe par un trou et ne revient jamais.",
+          "retouches": [
+            {"avant": "Le Chat ne l’eut pas plus tôt aperçue, qu’il se jeta dessus et la mangea.", "apres": "Le Chat ne l’eut pas plus tôt aperçue, qu’il se jeta dessus ; mais la souris lui fila entre les pattes, se sauva par un trou de la muraille, et s’enfuit si loin qu’on ne la revit jamais au château."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "la-princesse-d-accord",
+      "type": "mal-vieilli",
+      "niveaux": [
+        {
+          "jusqua": 10,
+          "retouches": [
+            {"avant": "et, dès le même jour, il épousa la princesse", "apres": "et, dès le même jour, il épousa la princesse, qui le trouvait fort à son goût"}
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -26,4 +26,4 @@ structure: rencontre, promesse, échéance, révélation
 4. Riquet réclame sa parole ; elle hésite à cause de sa laideur.
 5. Elle souhaite qu'il devienne beau : il le devient — ou, dit Perrault, elle ne voit plus que ses qualités.
 
-**À adapter.** Pour les grands (7-10 ans) : conte subtil sur l'apparence. Le mariage devient une amitié ou une promesse de jouer ensemble. La scène des cuisiniers souterrains (un castelet qui s'ouvre sur une cuisine en pleine agitation) est très théâtrale.
+**À jouer.** Pour les grands (7-10 ans) : conte subtil sur l'apparence, presque tout en conversation — le duo final se joue comme un match d'arguments, en laissant chaque réplique retomber. La scène des cuisiniers souterrains est très théâtrale : les voix sortent de sous la table (« Apporte-moi cette marmite ! »), toutes faites par le parent. La métamorphose finale ne change rien à la marionnette : c'est le regard de la princesse qui change, et c'est ce qu'on donne à entendre.
