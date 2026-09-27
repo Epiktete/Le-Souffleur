@@ -29,4 +29,4 @@ structure: errance puis révélation
 4. Il voit passer des cygnes et les aime sans savoir pourquoi ; il passe un hiver terrible.
 5. Au printemps, il s'approche des cygnes en s'attendant à être chassé, voit son reflet : c'est un cygne.
 
-**À adapter.** Supprimer la chasse et les coups ; l'hiver se raconte en une scène. La scène chez le chat et la poule, drôle et cruelle, est le cœur jouable. Pour les petits, deux ou trois rencontres suffisent avant le reflet.
+**À jouer.** L'hiver se raconte en une scène. La scène chez le chat et la poule, drôle et cruelle, est le cœur jouable. Quand le spectacle doit être court, deux ou trois rencontres suffisent avant le reflet.

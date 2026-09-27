@@ -25,4 +25,4 @@ structure: épreuve secrète
 4. Au matin : « J'ai affreusement mal dormi, il y avait quelque chose de dur ! »
 5. C'est donc une vraie princesse ; le petit pois finit au musée.
 
-**À adapter.** Conte très court, idéal pour les petits : l'empilement des matelas se fait en comptant avec le public, et le public sait où est le petit pois. Le mariage peut devenir une invitation à rester.
+**À jouer.** Conte très court, idéal pour les petits : l'empilement des matelas se fait en comptant avec le public, et le public sait où est le petit pois.

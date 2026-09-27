@@ -29,4 +29,4 @@ structure: chaîne d'échanges puis récapitulation
 4. À la maison, il avoue chaque échange ; à chaque fois la femme s'en félicite.
 5. Pour les pommes pourries, elle l'embrasse : la voisine avare ne pourra plus dire qu'elle n'a même pas une pomme pourrie à prêter. Les parieurs paient.
 
-**À adapter.** Parfait tel quel. Le public, qui sait tout, parie avec les étrangers. Frère du « Jean la Chance » de Grimm : ici, l'échange est puni par personne et récompensé par l'amour. Les animaux peuvent être des voix, ou n'en garder que deux.
+**À jouer.** Le public, qui sait tout, parie avec les étrangers. Les animaux peuvent être des voix, ou l'on n'en garde que deux. Frère du « Jean la Chance » de Grimm : ici, l'échange n'est puni par personne et il est récompensé par l'amour.

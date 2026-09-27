@@ -28,4 +28,4 @@ structure: inspections successives, puis révélation
 4. Il défile dans la rue ; tout le monde admire.
 5. Un enfant dit : « Il n'a rien sur lui ! » ; toute la foule le reprend. L'empereur continue, plus fier encore.
 
-**À adapter.** L'empereur défile en sous-vêtements à pois, pas nu. Le public joue naturellement l'enfant qui dit la vérité : c'est lui qu'on attend. Les escrocs qui miment le tissu sont un numéro de pantomime.
+**À jouer.** Sous ses habits, la marionnette de l'empereur porte un caleçon à pois : c'est ce que voit le public quand il les ôte, et le conte continue de dire qu'il n'a rien sur lui. Le public joue naturellement l'enfant qui dit la vérité : c'est lui qu'on attend. Les escrocs qui miment le tissu sont un numéro de pantomime.
