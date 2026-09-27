@@ -24,4 +24,4 @@ structure: promesse, fausse victoire, chute
 4. Le wapiti se relève en riant et s'enfuit.
 5. Le lapin court arrêter sa grand-mère… trop tard.
 
-**À adapter.** La robe brûlée devient une robe jetée dans la rivière, ou découpée pour faire des chiffons. Fin plus douce : le lapin, penaud, fabrique lui-même une nouvelle robe avec des feuilles. Conte très court, idéal pour les petits : le public voit le wapiti ouvrir un œil et peut prévenir le lapin.
+**À jouer.** Conte très court, idéal pour les petits : le public voit le wapiti ouvrir un œil et peut essayer de prévenir le lapin.

@@ -23,4 +23,4 @@ structure: supplication inversée
 4. Le renard, pour être sûr de lui faire mal, le lance dans les ronces.
 5. Le lapin, libre, lui crie de loin : « Je suis né dans les ronces ! »
 
-**À adapter.** Remplacer les menaces cruelles (rôtir, noyer, écorcher) par des punitions de salon : le chatouiller, lui tirer les moustaches, le priver de dessert. Le refrain « mais pas les ronces ! » est au public. Se joue seul ou à la suite du « Bébé de goudron ».
+**À jouer.** Le refrain « mais pas les ronces ! » est au public. Se joue seul ou à la suite du « Bébé de goudron ».

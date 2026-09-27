@@ -26,4 +26,4 @@ structure: piège, vérification, fête, réveil
 4. Tout le village, peint et paré, vient danser autour du raton en chantant sa chanson de festin.
 5. Le raton laveur bondit : « Qui donc allez-vous manger ? »
 
-**À adapter.** La fin (le raton dévore le village) devient une grande débandade : les écrevisses s'enfuient dans la rivière, le raton les poursuit sans les attraper. La scène des chatouilles où le raton se retient de rire est irrésistible, et le public adore danser en rond avec les écrevisses tout en sachant que le raton fait semblant. Parent de « Pourquoi les singes habitent dans les arbres » (Éwé).
+**À jouer.** La scène des chatouilles où le raton se retient de rire est irrésistible, et le public adore danser en rond avec les écrevisses tout en sachant que le raton fait semblant. Parent de « Pourquoi les singes habitent dans les arbres » (Éwé).

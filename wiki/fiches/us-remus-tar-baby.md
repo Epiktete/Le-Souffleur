@@ -24,4 +24,4 @@ structure: accumulation
 4. Il se fâche davantage : l'autre patte, les pieds, la tête — tout colle.
 5. Le renard sort en riant : « Tu dîneras avec moi. » (Suite : « Frère Lapin et le buisson de ronces ».)
 
-**À adapter.** Le goudron devient de la colle, du miel ou de la confiture ; la poupée est un vrai objet facile à fabriquer, la marionnette « colle » en restant appuyée dessus. Les coups deviennent des tapes. Aucun cadre de l'oncle Remus ni dialecte. Le public peut dire au lapin de ne pas taper.
+**À jouer.** La poupée est un vrai objet facile à fabriquer ; la marionnette « colle » en restant appuyée dessus. Aucun parler imité : les personnages parlent un français simple. Le public peut dire au lapin de ne pas taper, et reprendre « Et Frère Renard ne bouge pas ». Se joue seul ou suivi de « Frère Lapin et le buisson de ronces ».

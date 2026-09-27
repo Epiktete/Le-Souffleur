@@ -1,0 +1,19 @@
+{
+  "id": "sioux-raton-laveur-et-ecrevisse",
+  "langue": [],
+  "moments": [
+    {
+      "id": "village-croque",
+      "type": "punition",
+      "niveaux": [
+        {
+          "jusqua": 4,
+          "annonce": "Le Raton laveur ne mange pas les écrevisses : tout le village s'enfuit en criant et plonge au fond de la rivière, et c'est le Raton laveur qui se moque des écrevisses.",
+          "retouches": [
+            {"avant": "Les guerriers écrevisses se battirent bravement, et les femmes s'enfuirent en criant, mais rien n'y fit. Ce ne furent pas les écrevisses qui se régalèrent du raton laveur : ce fut le raton laveur qui se régala des écrevisses !", "apres": "Les guerriers écrevisses se battirent bravement, mais rien n'y fit : tout le village s'enfuit en criant et plongea au fond de la rivière. Ce ne furent pas les écrevisses qui se moquèrent du raton laveur : ce fut le raton laveur qui se moqua des écrevisses !"}
+          ]
+        }
+      ]
+    }
+  ]
+}

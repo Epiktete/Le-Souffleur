@@ -1,0 +1,19 @@
+{
+  "id": "us-remus-lapin-trop-malin",
+  "langue": [],
+  "moments": [
+    {
+      "id": "yeux-oreilles-pattes",
+      "type": "cruaute",
+      "niveaux": [
+        {
+          "jusqua": 6,
+          "annonce": "Frère Lapin ne propose pas à Frère Renard de lui arracher les yeux et les oreilles ni de lui couper les pattes : il s'en tient à « Arrache-moi la peau ».",
+          "retouches": [
+            {"avant": "arrache-moi les yeux, arrache-moi les oreilles, coupe-moi les pattes, mais s'il te plaît", "apres": "mais s'il te plaît"}
+          ]
+        }
+      ]
+    }
+  ]
+}
