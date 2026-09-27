@@ -23,4 +23,4 @@ structure: emprunt, parade, démasqué, rejeté
 3. Quelqu'un le reconnaît : on le siffle, on se moque de lui, on lui reprend les plumes.
 4. Il retourne chez les geais, qui le mettent à la porte.
 
-**À adapter.** Pas de plumage arraché : les paons reprennent leurs plumes. Les paons et les geais restent en coulisse (voix). Pour les plus jeunes, les geais peuvent finir par le reprendre. La morale sur les « plagiaires » est pour les adultes : ne pas la dire.
+**À jouer.** Les paons et les geais restent en coulisse (voix) : le geai seul en scène se pavane, puis se fait plumer à grands cris venus de partout. La morale sur les « plagiaires » parle surtout aux adultes.

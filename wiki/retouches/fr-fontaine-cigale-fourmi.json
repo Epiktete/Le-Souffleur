@@ -1,0 +1,9 @@
+{
+  "id": "fr-fontaine-cigale-fourmi",
+  "langue": [
+    {"avant": "Avant l’oût, foi d’animal", "apres": "Avant l’août, foi d’animal", "nature": "mot-disparu"},
+    {"avant": "Quand la bise fut venue", "apres": "Quand la neige fut venue", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "Quelque grain pour subsister", "apres": "Quelque grain pour pouvoir manger", "nature": "mot-rare", "jusqua": 6}
+  ],
+  "moments": []
+}

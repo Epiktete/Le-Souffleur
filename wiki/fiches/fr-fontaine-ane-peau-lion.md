@@ -23,4 +23,4 @@ structure: déguisement, terreur, détail qui dépasse, démasqué
 3. Un petit bout d'oreille dépasse.
 4. On le reconnaît : Martin, le meunier, le ramène au moulin.
 
-**À adapter.** Pas de coups de bâton : Martin gronde et ramène l'âne au moulin. La fable est courte : le spectacle se joue sur les passants effrayés (voix en coulisse) et l'oreille qui dépasse, que les enfants voient avant tout le monde et peuvent crier. Le déguisement se dit, il ne se montre pas.
+**À jouer.** La fable est courte : le spectacle se joue sur les passants effrayés (voix en coulisse) et l'oreille qui dépasse, que les enfants voient avant tout le monde et peuvent crier. Le déguisement se dit, il ne se montre pas.

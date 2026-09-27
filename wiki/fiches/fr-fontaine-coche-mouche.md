@@ -25,4 +25,4 @@ structure: effort collectif, vantardise
 4. Le coche arrive enfin en haut.
 5. « Respirons ! J'ai tant fait que nous voilà en haut : payez-moi de ma peine. »
 
-**À adapter.** Parfait tel quel. La mouche est un rôle pour la marionnette la plus agitée et la plus bavarde, et les chevaux peuvent être le public qui tire. La mouche du coche est une expression française à expliquer.
+**À jouer.** Parfait tel quel. La mouche est un rôle pour la marionnette la plus agitée et la plus bavarde, et les chevaux peuvent être le public qui tire. La mouche du coche est une expression française à expliquer.

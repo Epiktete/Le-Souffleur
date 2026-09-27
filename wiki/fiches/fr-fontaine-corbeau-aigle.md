@@ -25,4 +25,4 @@ structure: modèle, imitation, empêtrement, capture
 4. Ses pattes s'empêtrent dans la laine épaisse ; il ne peut plus repartir.
 5. Le berger le prend et le donne à ses enfants pour s'amuser.
 
-**À adapter.** Le mouton n'est pas enlevé par l'aigle : l'aigle passe au loin, on le raconte. Le corbeau empêtré se débat longtemps (grand moment de jeu seul), puis le berger le délivre et le laisse repartir, bien penaud. Aigle, mouton et berger restent en coulisse ou deviennent la voix du parent.
+**À jouer.** Le corbeau empêtré dans la toison se débat longtemps : un grand moment de jeu pour une marionnette seule. Aigle, mouton et berger restent en coulisse ou deviennent la voix du parent.

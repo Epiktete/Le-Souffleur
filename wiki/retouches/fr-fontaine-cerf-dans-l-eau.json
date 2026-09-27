@@ -1,0 +1,11 @@
+{
+  "id": "fr-fontaine-cerf-dans-l-eau",
+  "langue": [
+    {"avant": "Souffrir ses jambes de fuseaux", "apres": "Supporter ses jambes de fuseaux", "nature": "faux-ami"},
+    {"avant": "Un limier le fait partir", "apres": "Un chien de chasse le fait partir", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "Il tâche à se garantir", "apres": "Il essaie de s’enfuir", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "Nuit à l’office que lui rendent", "apres": "Nuit au service que lui rendent", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "Il se dédit alors, et maudit", "apres": "Il regrette alors, et maudit", "nature": "mot-rare", "jusqua": 6}
+  ],
+  "moments": []
+}

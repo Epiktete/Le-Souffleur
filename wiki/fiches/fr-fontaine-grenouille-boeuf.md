@@ -24,4 +24,4 @@ structure: envie, efforts, chute
 4. Elle continue de se gonfler.
 5. Elle crève.
 
-**À adapter.** La grenouille ne crève pas : elle se dégonfle d'un coup comme un ballon, en s'envolant en zigzag avec un bruit de pet de ballon — les enfants adorent. Un ballon de baudruche fait merveille.
+**À jouer.** L'enflure se joue : la marionnette se gonfle par à-coups (et les joues du parent avec), pendant que les enfants répondent avec la sœur : « Non, non ! Point du tout ! » L'éclatement est un bruit fait à la voix — burlesque, jamais triste : c'est la chute de la fable.

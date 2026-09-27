@@ -23,4 +23,4 @@ structure: admiration, alerte, fuite, retournement
 4. Dans la forêt, ses bois s'accrochent aux branches ; ses jambes le sauvent.
 5. Il maudit ce qu'il admirait.
 
-**À adapter.** Pas de chasse menaçante : le chien reste en coulisse (aboiements à la voix) et le cerf s'en tire. La fuite se joue : la marionnette court, se prend dans une branche imaginaire, se dégage. Un peluche qui n'a pas de bois peut admirer autre chose de très grand (ses oreilles, sa crinière) : c'est le même ressort.
+**À jouer.** Le chien reste en coulisse : des aboiements à la voix. La fuite se joue : la marionnette court, se prend dans une branche imaginaire, se dégage. Une peluche qui n'a pas de bois peut admirer autre chose de très grand (ses oreilles, sa crinière) : c'est le même ressort.

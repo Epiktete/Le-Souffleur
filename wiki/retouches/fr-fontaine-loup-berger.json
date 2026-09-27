@@ -1,0 +1,10 @@
+{
+  "id": "fr-fontaine-loup-berger",
+  "langue": [
+    {"avant": "endosse un hoqueton", "apres": "endosse un veston", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "Empêché par son hoqueton", "apres": "Empêché par son veston", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "Guillot le sycophante approche doucement", "apres": "Guillot le trompeur approche doucement", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "mener vers son fort les brebis", "apres": "mener vers son repaire les brebis", "nature": "mot-rare", "jusqua": 6}
+  ],
+  "moments": []
+}

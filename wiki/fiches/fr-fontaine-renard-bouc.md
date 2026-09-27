@@ -23,4 +23,4 @@ structure: entraide apparente, abandon
 4. Il grimpe sur le dos, puis sur les cornes du bouc, et sort.
 5. Au lieu d'aider, il lui fait la morale : « En toute chose il faut considérer la fin. »
 
-**À adapter.** La fin est à compléter : le public trouve comment sortir le bouc (une corde, un seau, un ami). Très visuel : la pyramide bouc-renard. Excellente fable pour parler de la parole donnée.
+**À jouer.** Très visuel : la pyramide bouc-renard pour sortir du puits (un carton, un drap sombre), puis le renard qui fait son sermon d'en haut. Excellente fable pour parler, après le spectacle, de la parole donnée.

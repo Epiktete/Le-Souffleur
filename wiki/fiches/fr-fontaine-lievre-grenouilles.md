@@ -23,4 +23,4 @@ structure: plainte, fuite, découverte, fierté
 4. Les grenouilles, effrayées, plongent toutes dans l'eau.
 5. « Je suis donc un foudre de guerre ! » Il y a toujours plus poltron que soi.
 
-**À adapter.** Un monologue idéal pour une marionnette seule. Les grenouilles restent en coulisse : le parent fait les « plouf » à la voix. Les bruits qui effraient le lièvre (un souffle, un craquement) sont des effets faits à la voix. « Foudre de guerre » peut rester : la scène le rend clair.
+**À jouer.** Un monologue idéal pour une marionnette seule. Les grenouilles restent en coulisse : le parent fait les « plouf » à la voix. Les bruits qui effraient le lièvre (un souffle, un craquement) sont des effets faits à la voix. « Foudre de guerre » peut rester : la scène le rend clair.

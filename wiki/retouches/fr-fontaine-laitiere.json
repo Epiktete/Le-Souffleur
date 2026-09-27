@@ -1,0 +1,20 @@
+{
+  "id": "fr-fontaine-laitiere",
+  "langue": [
+    {"avant": "quittant d’un œil marri", "apres": "quittant d’un œil navré", "nature": "mot-disparu"}
+  ],
+  "moments": [
+    {
+      "id": "le-mari-menace",
+      "type": "mal-vieilli",
+      "niveaux": [
+        {
+          "jusqua": 10,
+          "retouches": [
+            {"avant": "En grand danger d’être battue", "apres": "En grand danger d’être grondée"}
+          ]
+        }
+      ]
+    }
+  ]
+}

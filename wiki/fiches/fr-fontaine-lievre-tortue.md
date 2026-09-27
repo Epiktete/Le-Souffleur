@@ -24,4 +24,4 @@ structure: pari, course, surprise
 4. Le lièvre part enfin comme une flèche, mais trop tard.
 5. « Rien ne sert de courir, il faut partir à point. »
 
-**À adapter.** Parfait tel quel. Le lièvre qui s'endort ou fait la sieste est une variante connue. Le public encourage la tortue pas à pas. Même course gagnée autrement : « Le Lièvre et le Hérisson » (Grimm), « La Tortue et l'Éléphant » (Konde).
+**À jouer.** Parfait tel quel. Le lièvre qui s'endort ou fait la sieste est une variante connue. Le public encourage la tortue pas à pas. Même course gagnée autrement : « Le Lièvre et le Hérisson » (Grimm), « La Tortue et l'Éléphant » (Konde).

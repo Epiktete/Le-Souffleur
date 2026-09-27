@@ -1,0 +1,11 @@
+{
+  "id": "fr-fontaine-meunier-fils-ane",
+  "langue": [
+    {"avant": "Le premier qui les vit de rire s’éclata", "apres": "Le premier qui les vit éclata de rire", "nature": "ordre", "jusqua": 6},
+    {"avant": "voir ainsi clocher ce jeune fils", "apres": "voir ainsi peiner ce jeune fils", "nature": "mot-disparu"},
+    {"avant": "Après maints quolibets coup sur coup renvoyés", "apres": "Après bien des moqueries coup sur coup renvoyées", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "Trouve encore à gloser", "apres": "Trouve encore à redire", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "Un quidam les rencontre", "apres": "Un passant les rencontre", "nature": "mot-rare", "jusqua": 6}
+  ],
+  "moments": []
+}

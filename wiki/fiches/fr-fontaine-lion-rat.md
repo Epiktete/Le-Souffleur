@@ -23,4 +23,4 @@ structure: grâce, piège, sauvetage
 4. Le rat accourt et ronge une maille, puis une autre.
 5. « Patience et longueur de temps font plus que force ni que rage. »
 
-**À adapter.** Parfait tel quel. Version antérieure et plus développée : « Le Lion et la Souris » de l'Égypte ancienne (Basset), où la souris promet et le lion se moque. Un filet de ficelle sur la marionnette du lion, et le public compte les mailles rongées.
+**À jouer.** Parfait tel quel. Version antérieure et plus développée : « Le Lion et la Souris » de l'Égypte ancienne (Basset), où la souris promet et le lion se moque. Un filet de ficelle sur la marionnette du lion, et le public compte les mailles rongées.

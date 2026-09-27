@@ -23,4 +23,4 @@ structure: rencontre, tentation, découverte, refus
 4. Il remarque le cou pelé du chien : « Qu'est-ce que c'est ? — Le collier. »
 5. « Vous ne courez donc pas où vous voulez ? » Et le loup s'enfuit, et court encore.
 
-**À adapter.** Parfait tel quel pour les plus grands : un vrai sujet (confort ou liberté ?) à discuter après. Le collier peut devenir un nœud trop serré ou une laisse. Deux marionnettes, un seul dialogue.
+**À jouer.** Parfait tel quel pour les plus grands : un vrai sujet (confort ou liberté ?) à discuter après le spectacle. Deux marionnettes, un seul dialogue — le moment du cou pelé se joue tout en silence avant la question du loup.

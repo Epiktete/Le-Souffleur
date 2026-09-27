@@ -24,4 +24,4 @@ structure: invitation, festin, alerte, choix
 4. Le rat des champs rentre chez lui.
 5. « Fi du plaisir que la crainte peut corrompre ! »
 
-**À adapter.** Parfait tel quel pour les petits : le bruit à la porte peut être fait par le public, et on peut ajouter la visite retour à la campagne. Le chat qu'on ne voit jamais fait plus peur que celui qu'on voit.
+**À jouer.** Parfait tel quel pour les petits : le bruit à la porte peut être fait par le public. Le danger qu'on ne voit jamais fait plus d'effet que celui qu'on voit.

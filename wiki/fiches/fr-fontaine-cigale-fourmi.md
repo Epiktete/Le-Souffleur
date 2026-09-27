@@ -23,4 +23,4 @@ structure: saison chaude, saison froide, refus
 4. « Que faisiez-vous au temps chaud ? — Je chantais. »
 5. « Vous chantiez ? J'en suis fort aise. Eh bien, dansez maintenant. »
 
-**À adapter.** La fin peut rester ouverte ou devenir un débat avec le public (la fourmi a-t-elle raison ?), ou la cigale propose de payer en chansons et la fourmi, qui s'ennuie l'hiver, accepte. Très bon pour deux marionnettes au caractère opposé.
+**À jouer.** Très bon pour deux marionnettes au caractère opposé. Beaucoup d'enfants connaissent les vers : ils peuvent dire « Vous chantiez ? j'en suis fort aise ! Eh bien ! dansez maintenant » avec la fourmi. L'été qui passe se joue : la cigale chante, danse, salue — puis le vent souffle (à la voix) et elle grelotte.

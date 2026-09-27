@@ -25,4 +25,4 @@ structure: déguisement, approche, trahison par la voix, capture
 4. Sa voix de loup fait retentir les bois : tout le monde se réveille.
 5. Empêtré dans son déguisement, il ne peut ni fuir ni se défendre.
 
-**À adapter.** Le loup n'est pas tué : empêtré, il s'enfuit sous les aboiements (faits à la voix par le parent). Le berger, le chien et les brebis restent en coulisse : on entend leurs ronflements puis leur réveil. Le moment de la voix est le grand numéro : le loup essaie une voix douce, qui sort grosse. Le déguisement se dit, il ne se montre pas.
+**À jouer.** Le berger, le chien et les brebis restent en coulisse : on entend leurs ronflements puis leur réveil, et le loup empêtré se débat sous les aboiements faits à la voix. Le moment de la voix est le grand numéro : le loup essaie une voix douce, qui sort grosse. Le déguisement se dit, il ne se montre pas.

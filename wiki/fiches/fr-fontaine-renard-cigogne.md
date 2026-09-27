@@ -23,4 +23,4 @@ structure: deux repas en miroir
 4. Elle sert la viande dans un vase au col long et étroit ; son bec y passe, pas le museau du renard.
 5. « Trompeurs, c'est pour vous que j'écris : attendez-vous à la pareille. »
 
-**À adapter.** Parfait tel quel ; même fable en Russie (« Le Renard et la Grue »). Les accessoires (assiette plate, vase étroit) font tout. On peut finir sur un troisième repas, enfin partagé.
+**À jouer.** Parfait tel quel ; même fable en Russie (« Le Renard et la Grue »). Les deux accessoires (assiette plate, vase étroit) font tout : les enfants voient tout de suite pourquoi l'un mange et l'autre pas.

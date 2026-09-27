@@ -23,4 +23,4 @@ structure: départ, émerveillement, tentation, piège
 4. Une huître bâille au soleil : « C'est quelque victuaille ! »
 5. Il approche le museau : l'huître se referme sur lui.
 
-**À adapter.** L'huître pince le museau puis se rouvre, et le rat s'enfuit, le nez rouge, en direction de son champ. L'huître peut être un poing du parent, ou rester invisible (un « clac ! » à la voix). La première partie, le rat qui s'émerveille de tout, est un beau monologue.
+**À jouer.** L'huître peut être un poing du parent, ou rester invisible (un « clac ! » à la voix). La première partie, le rat qui s'émerveille de tout, est un beau monologue : chaque taupinière devient une montagne, et les enfants voient l'erreur avant lui.

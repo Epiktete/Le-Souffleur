@@ -23,4 +23,4 @@ structure: rêverie en chaîne, chute
 4. Elle imagine le veau qui saute, et saute de joie.
 5. Le lait tombe : « Adieu veau, vache, cochon, couvée. »
 
-**À adapter.** Parfait tel quel, et idéal pour un seul marionnettiste : un seul personnage qui rêve à voix haute, les animaux imaginés peuvent surgir un par un. Parent : la chaîne d'échanges (« Jean la Chance »). Le public voit le pot vaciller.
+**À jouer.** Parfait tel quel, et idéal pour un seul marionnettiste : un seul personnage qui rêve à voix haute, les animaux imaginés peuvent surgir un par un. Parent : la chaîne d'échanges (« Jean la Chance »). Le public voit le pot vaciller.

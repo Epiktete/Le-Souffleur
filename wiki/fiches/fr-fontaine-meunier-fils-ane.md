@@ -25,4 +25,4 @@ structure: série de rencontres et de changements
 4. Tous les deux montent : « Pauvre âne ! » Aucun ne monte : « Quels nigauds, qui usent leurs souliers ! »
 5. Le meunier conclut : désormais il fera à sa tête.
 
-**À adapter.** Parfait tel quel. Le public peut jouer les passants et donner son avis, et le meunier obéir à chaque fois. Une fable qui parle aux enfants de ce qu'on dira d'eux. La dédicace à Maucroix est à laisser de côté.
+**À jouer.** Parfait tel quel. Les passants restent en coulisse, et le public peut crier leurs moqueries avec eux, telles que la fable les écrit. Une fable qui parle aux enfants de ce qu'on dira d'eux. La dédicace à Maucroix et le préambule de Racan et Malherbe sont l'affaire des coupes de durée : la fable commence au meunier.

@@ -1,0 +1,9 @@
+{
+  "id": "fr-fontaine-lion-rat",
+  "langue": [
+    {"avant": "obliger tout le monde", "apres": "rendre service à tout le monde", "nature": "faux-ami"},
+    {"avant": "Ce lion fut pris dans des rets", "apres": "Ce lion fut pris dans des filets", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "il advint qu’au sortir", "apres": "il arriva qu’au sortir", "nature": "mot-rare", "jusqua": 6}
+  ],
+  "moments": []
+}

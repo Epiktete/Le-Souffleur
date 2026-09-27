@@ -21,4 +21,4 @@ structure: désir, efforts, dépit
 3. Il ne peut pas les atteindre.
 4. « Ils sont trop verts, et bons pour des goujats. »
 
-**À adapter.** Tout est jouable seul : la marionnette saute, s'étire, retombe, recommence, et la chute arrive en une réplique. La fable est très courte : le spectacle vient des essais (sauter, se hisser, appeler les enfants à l'aide) qu'il faut jouer longuement sans rien ajouter à l'histoire. « Goujats » peut devenir « bons pour les autres ».
+**À jouer.** Tout est jouable seul : la marionnette saute, s'étire, retombe, recommence, et la chute arrive en une réplique. La fable est très courte : le spectacle vient des essais (sauter, se hisser, appeler les enfants à l'aide) qu'il faut jouer longuement sans rien ajouter à l'histoire.
