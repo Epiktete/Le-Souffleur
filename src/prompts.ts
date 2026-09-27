@@ -22,7 +22,7 @@
 //      montrée (didascalies, effets de scène) ou dite par le conteur, le
 //      parent, mot pour mot ;
 //   3. la DERNIÈRE REVUE avant livraison, confiée au DIRECTEUR ÉDITORIAL. Il
-//      lit le conte d'origine et le script : l'histoire se comprend-elle, se
+//      lit le conte transposé et le script : l'histoire se comprend-elle, se
 //      tient-elle, reste-t-elle fidèle ? Il dresse d'abord la liste de ses
 //      remarques et des modifications qu'il propose, puis réécrit lui-même
 //      chaque acte concerné pour les appliquer.
@@ -465,8 +465,8 @@ ${MAL_VIEILLI}
 
 ${consignesAge(d.ageAuditoire)}`;
   const permis = retouche
-    ? 'Tu n’appliques que ceux qu’impose le remplacement des personnages.'
-    : 'Tu n’appliques que ceux qu’impose le\nremplacement des personnages, et l’adoucissement demandé par l’âge.';
+    ? 'Pour le reste du texte, tu n’appliques que ce qu’impose la distribution.'
+    : 'Pour le reste du texte, tu n’appliques que ce qu’impose la\ndistribution, et l’adoucissement demandé par l’âge.';
   return {
     system: `Tu es ÉDITEUR pour un théâtre de marionnettes d’enfants : tu prépares
 le texte d’un conte, en le respectant comme on respecte l’œuvre d’un auteur.
@@ -484,14 +484,20 @@ parent, et de ne faire que les changements que ce remplacement impose.
   premier » : relis le texte entier pour ces accords. Change aussi les seuls
   détails que la nouvelle espèce rend faux (un renard ne vole pas : là où
   l’oiseau s’envole, le renard détale). L’action reste celle du conte.
-- Les personnages sans marionnette restent tels quels : la mise en scène
-  décidera plus tard de ce qu’ils deviennent.
+- LA DISTRIBUTION S’APPLIQUE EN ENTIER, parce que le texte qui sort d’ici est
+  la référence de tout ce qui se dira sur scène. Un personnage sans
+  marionnette que le synopsis SUPPRIME ou FOND dans un autre disparaît du
+  texte dès maintenant : récris ce que ce retrait impose — les accords et les
+  pluriels (« les deux marchands » devenus un seul), qui fait ou dit quoi —
+  et rien de plus. Un personnage sans marionnette que le synopsis GARDE
+  (une voix depuis la coulisse, un figurant du récit) reste tel quel.
 ${aRetoucher}
 
 Les « changements annoncés au parent » qu’on te montre plus bas sont ceux du
-SPECTACLE ENTIER, pas de cette passe. Ceux qui coupent, resserrent ou
-réorganisent pour tenir dans le temps sont l’affaire du découpage, qui vient
-après : ici tu n’en tiens aucun compte. ${permis}
+SPECTACLE ENTIER. Tu n’appliques ici que ceux qui portent sur les
+PERSONNAGES : qui existe, qui est fondu avec qui. Ceux qui coupent,
+resserrent ou réorganisent pour tenir dans le temps sont l’affaire du
+découpage, qui vient après : n’en tiens aucun compte. ${permis}
 
 Et RIEN D’AUTRE. Tu ne coupes rien, tu ne résumes rien, tu n’ajoutes ni
 phrase ni réplique ni morale. Tout ce qui n’a pas besoin de changer reste mot
@@ -557,13 +563,14 @@ Répartis le budget dans « budgetMots » selon la longueur
 du passage de chaque acte : un acte qui joue peu de texte reçoit peu de mots,
 un acte qui en joue beaucoup en reçoit beaucoup.
 
-LES CHANGEMENTS ANNONCÉS AU PARENT s’appliquent ICI. Le texte transposé ne
-les porte pas encore : il ne fait que remplacer les personnages. C’est à toi
-de couper, de resserrer et de transformer ce qui a été promis — si l’enjeu
-devient un gâteau, il devient un gâteau dans les actes que tu découpes.
+LES CHANGEMENTS ANNONCÉS AU PARENT s’appliquent ICI, sauf ceux des
+personnages : le texte transposé porte déjà la distribution entière —
+personnages remplacés, supprimés ou fondus. C’est à toi de couper, de
+resserrer et de transformer ce qui a été promis — si l’enjeu devient un
+gâteau, il devient un gâteau dans les actes que tu découpes.
 
-LES PERSONNAGES SANS MARIONNETTE sont supprimés, fondus dans un autre, ou
-restent en coulisse (on les entend, on ne les voit pas). Toutes les
+UN PERSONNAGE SANS MARIONNETTE encore présent dans le texte reste en
+coulisse : on l’entend, on ne le voit pas. Toutes les
 marionnettes du parent jouent et entrent au moins une fois. Dis dans
 « changements » ce que tu coupes et ce que deviennent ces personnages.
 
@@ -746,10 +753,13 @@ export function promptRelecture(
   script: string,
   resultatsControles: string,
   tableaux: string,
-  /** Le conte d'origine : sa fiche et son texte intégral. */
-  conteOriginal: string,
-  /** Le texte transposé pour les marionnettes du parent. */
-  texteTranspose: string,
+  /**
+   * Le conte transposé pour les marionnettes du parent (fiche et texte
+   * intégral, mis en forme par le pipeline). C'est LA référence : il porte
+   * tout ce que le conte d'origine disait, distribution appliquée — le donner
+   * en plus du conte d'origine doublait le prompt pour ne rien apprendre.
+   */
+  conteTranspose: string,
   /** Vrai quand le conte a déjà reçu les retouches de l’âge : il fait référence. */
   retouche = false,
   /**
@@ -795,9 +805,9 @@ de tes remarques, avec pour chacune la modification que tu proposes ; ensuite
 seulement, tu réécriras toi-même les actes concernés pour les appliquer.
 Ici, tu fais la liste.
 
-Tu as les deux histoires sous les yeux : le conte d’origine, tel que son
-auteur l’a écrit, et le script tiré de sa transposition pour les
-marionnettes du parent. Compare-les.
+Tu as sous les yeux le conte transposé pour les marionnettes du parent —
+c’est le texte de référence, il porte tout ce que le conte raconte — et le
+script qui en est tiré. Compare-les.
 
 Ta première question : l’histoire se comprend-elle, et se tient-elle ? Lis le
 script comme un enfant qui le découvre, sans connaître le conte :
@@ -807,8 +817,8 @@ script comme un enfant qui le découvre, sans connaître le conte :
 - les actes s’enchaînent-ils : un personnage ne sait pas ce qu’il n’a pas pu
   apprendre, ne réapparaît pas sans être revenu, ne change pas de nom ;
 - la fin répond-elle au début ?
-Quand il manque quelque chose, la modification le reprend d’abord au conte
-d’origine : ses mots, ses événements. Tu n’inventes que si le conte ne dit
+Quand il manque quelque chose, la modification le reprend d’abord au texte
+de référence : ses mots, ses événements. Tu n’inventes que si le conte ne dit
 rien, et alors le plus simplement possible. Rester fidèle au conte, c’est
 aussi garder ses péripéties, leur ordre et sa fin : une modification qui
 s’en écarte doit être nécessaire à la compréhension.
@@ -873,12 +883,7 @@ Tu renvoies un objet JSON de cette forme :
 ${SEULEMENT_JSON}`,
     user: `${texteDossier(d)}
 
-${conteOriginal}
-
-Le même conte, transposé pour les marionnettes du parent :
-"""
-${texteTranspose}
-"""
+${conteTranspose}
 
 Script complet :
 ${script}
@@ -904,10 +909,12 @@ export function promptCorrectionActe(
   acteFautif: string,
   problemes: string,
   etatScene: string,
-  /** Le texte transposé et le découpage, pour rester fidèle en corrigeant. */
+  /**
+   * Le conte transposé, le synopsis et le découpage, pour rester fidèle en
+   * corrigeant. Le conte d'origine n'est plus donné en plus : la
+   * transposition porte tout ce qu'il raconte, distribution appliquée.
+   */
   adaptation: string,
-  /** Le conte d'origine, fiche et texte intégral. */
-  conteOriginal: string,
   /** Le script entier, pour garder la cohérence d'un acte à l'autre. */
   scriptComplet: string,
   /** Vrai quand le conte a déjà reçu les retouches de l’âge. */
@@ -934,7 +941,7 @@ Une modification qui te ferait enfreindre une règle de scène ou dépasser la
 dose d'adresses au public s'applique AUTREMENT : garde son intention, et
 trouve la forme qui respecte la règle. Par exemple, transforme en adresse sans
 attente de réponse celle qui ferait une de trop.
-Ce qui manque à la compréhension se reprend d’abord au conte d’origine. Le
+Ce qui manque à la compréhension se reprend d’abord au texte transposé. Le
 script entier t’est donné pour que l’acte réécrit s’accorde avec ceux qui
 l’entourent : ne réécris que celui-ci.
 ${retouche ? `
@@ -968,8 +975,6 @@ dossier : jamais le nom du rôle dans le conte.
 
 ${SEULEMENT_JSON}`,
     user: `${texteDossier(d)}
-
-${conteOriginal}
 
 ${adaptation}
 

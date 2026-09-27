@@ -100,11 +100,22 @@ describe('les consignes d’âge, quand le texte est déjà retouché', () => {
     expect(promptTransposition(d).system).toMatch(/trop cruel/);
   });
 
+  it('la transposition applique la distribution entière : le texte est la référence de ce qui se dit', () => {
+    // Révision du 2026-09-27 : un personnage supprimé ou fondu au découpage
+    // rendait sa narration indicible par le conteur (contrôle 9, mesuré au
+    // relais, cas 3 : « deux Anglais » devenus un seul parieur). La
+    // suppression et la fusion se font donc dès la transposition.
+    const p = promptTransposition(d).system;
+    expect(p).toMatch(/LA DISTRIBUTION S’APPLIQUE EN ENTIER/);
+    expect(p).toMatch(/SUPPRIME ou FOND/);
+    expect(p).not.toMatch(/restent tels quels/);
+  });
+
   it('la revue juge l’écart dans les deux sens', () => {
-    const avec = promptRelecture(d, '', '', '', '', '', true).system;
+    const avec = promptRelecture(d, '', '', '', '', true).system;
     expect(avec).toMatch(/DANS UN SENS COMME DANS L’AUTRE/);
     expect(avec).not.toMatch(/une cruauté que l’âge ne supporte pas/);
-    expect(promptRelecture(d, '', '', '', '', '').system).toMatch(/une cruauté que l’âge ne supporte pas/);
+    expect(promptRelecture(d, '', '', '', '').system).toMatch(/une cruauté que l’âge ne supporte pas/);
   });
 });
 

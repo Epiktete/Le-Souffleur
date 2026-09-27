@@ -975,7 +975,7 @@ export function choisirContes(
   const somme = P.nombre + P.traits + P.duree + P.espece + P.castelet
     + (avecEbauche ? P.ebauche : 0);
 
-  const evaluer = (plancher: number, plancherDialogue = CHOIX.plancherDialogue) => {
+  const evaluer = (plancher: number, plancherDialogue: number = CHOIX.plancherDialogue) => {
     const evalues: Candidat[] = [];
     for (const conte of possibles) {
       // La barrière de durée : un conte qu'il faudrait étirer plus de quatre

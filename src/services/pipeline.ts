@@ -882,11 +882,11 @@ ${formaterAdaptation(adaptation)}`;
   // (réponse hors format, modèle récalcitrant), le spectacle déjà écrit est
   // livré tel quel plutôt que perdu. Seule une annulation l'interrompt.
   let relecture: Relecture & { echec?: string } = { remarques: [] };
-  // La référence de la revue et des corrections : le conte TEL QU'IL SE JOUE
-  // à cet âge. Leur donner l'original, c'était les inviter à remettre la
-  // dévoration que la fiche de retouches avait retirée.
-  const conteOriginal = formaterConte(conte, texte, ageRetouche)
-    .replace('LE CONTE À ADAPTER', 'LE CONTE D’ORIGINE');
+  // La référence de la revue et des corrections : le conte transposé, TEL
+  // QU'IL SE JOUE à cet âge et pour cette distribution (blocConte). Leur
+  // donner en plus le conte d'origine, c'était doubler le prompt pour rien —
+  // et les inviter à remettre la dévoration que la fiche de retouches avait
+  // retirée, ou le personnage que la distribution avait fondu.
   try {
     const rRelecture = await appelJson(
       o,
@@ -899,8 +899,7 @@ ${formaterAdaptation(adaptation)}`;
         // lui-même. Un acte trop long se règle à la passe de correction.
         formaterProblemes(problemes.filter((p) => !p.duree)),
         tableaux.map((tb) => `- ${tb.titre} : ${tb.description || '(aucune description)'}`).join('\n'),
-        conteOriginal,
-        transposition.texte,
+        blocConte,
         Boolean(retouche),
         // Les actes courts, eux, lui sont donnés, comptés en mots : un modèle
         // ne sait pas compter, mais il sait retrouver dans le conte ce que
@@ -985,7 +984,6 @@ ${formaterAdaptation(adaptation)}`;
               sesProblemes,
               decrireEtatScene(etat, nomDe),
               blocAdaptation,
-              conteOriginal,
               scriptRelu,
               Boolean(retouche),
             ),
