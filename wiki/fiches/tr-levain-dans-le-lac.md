@@ -24,4 +24,4 @@ structure: situation, question, réponse
 4. « Un lac ne deviendra jamais du yaourt ! »
 5. « Et si ça prenait ? »
 
-**À adapter.** Anecdote très courte : une graine à développer (le Hodja revient chaque jour vérifier, le public vérifie avec lui, un poisson finit par goûter). Idéal pour un personnage rêveur ou têtu. La réplique finale peut devenir un refrain.
+**À jouer.** Anecdote très courte : le spectacle vient des cuillerées versées une à une, que le public peut compter, et des badauds qui s'attroupent en posant chacun leur question, sans rien ajouter à l'histoire. Idéal pour un personnage rêveur ou têtu. La réplique finale peut devenir un refrain que le public reprend : « Et si ça prenait ? ». Parentés : les autres anecdotes du Hodja (« Mange, mon manteau ! », « La Marmite a accouché », « Qui paie joue du sifflet »), qui peuvent se jouer à la suite.

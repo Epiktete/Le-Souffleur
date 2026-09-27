@@ -23,4 +23,4 @@ structure: deux emprunts en miroir
 4. Le voisin vient la réclamer : « Hélas, elle est morte ! — Une marmite, ça ne meurt pas ! »
 5. « Tu as bien cru qu'elle avait accouché… »
 
-**À adapter.** Parfait tel quel pour deux marionnettes. On peut donner une vraie fin : le Hodja rend la marmite… avec deux petites casseroles, pour rire. La marmite et la casserole sont de vrais objets faciles à manier. Le public sent venir la chute.
+**À jouer.** Parfait tel quel pour deux marionnettes. La marmite et la casserole sont de vrais objets faciles à manier : le public voit la petite casserole avant le voisin. Les deux emprunts se jouent en miroir, et le public sent venir la chute. Parentés : les autres anecdotes du Hodja (« Mange, mon manteau ! », « Du levain dans le lac », « Qui paie joue du sifflet »).

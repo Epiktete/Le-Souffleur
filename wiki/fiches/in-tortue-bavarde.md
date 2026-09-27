@@ -26,4 +26,4 @@ structure: condition, voyage, tentation, chute
 4. En l'air, des enfants se moquent : « Une tortue sur un bâton ! »
 5. Elle ouvre la bouche pour répondre… et tombe.
 
-**À adapter.** La tortue tombe dans une meule de foin ou dans une mare, et s'en tire avec une grosse bosse sur la carapace (on peut en faire un conte « pourquoi la carapace de la tortue est toute craquelée »). Le public peut jouer les enfants moqueurs, ou l'aider à ne pas répondre (en se bouchant la bouche). Une fable parfaite pour une marionnette bavarde.
+**À jouer.** Une fable parfaite pour une marionnette bavarde : son bavardage du début est un numéro, et son silence forcé sur le bâton en est un autre. Le public peut jouer les enfants moqueurs, ou l'aider à ne pas répondre (en se bouchant la bouche). Parentés : « La Tortue et les deux Canards » de La Fontaine, la même fable, et « Le Corbeau et le Renard », où l'on ouvre aussi la bouche au mauvais moment.

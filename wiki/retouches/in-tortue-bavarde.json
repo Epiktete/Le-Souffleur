@@ -1,0 +1,19 @@
+{
+  "id": "in-tortue-bavarde",
+  "langue": [],
+  "moments": [
+    {
+      "id": "la-chute",
+      "type": "mort-gentil",
+      "niveaux": [
+        {
+          "jusqua": 6,
+          "annonce": "La Tortue lâche toujours le bâton et tombe sur les pierres, mais elle s'en tire de justesse, avec une grosse bosse sur la carapace.",
+          "retouches": [
+            {"avant": "elle lâcha le bâton, tomba, et s'écrasa sur les pierres.", "apres": "elle lâcha le bâton, tomba sur les pierres, et s'en tira de justesse, avec une grosse bosse sur la carapace."}
+          ]
+        }
+      ]
+    }
+  ]
+}

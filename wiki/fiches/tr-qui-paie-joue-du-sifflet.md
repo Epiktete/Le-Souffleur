@@ -26,4 +26,4 @@ structure: demande, attente, distribution
 4. Tous réclament leur sifflet.
 5. Il n'en sort qu'un, pour celui qui a payé : « C'est celui qui paie qui joue du sifflet. »
 
-**À adapter.** Le proverbe peut rester sans cruauté : le Hodja peut ensuite apprendre aux autres à fabriquer un sifflet avec une herbe. Un vrai sifflet sur scène fait merveille. Très court : une scène ou un spectacle de 2 minutes.
+**À jouer.** Un vrai sifflet sur scène fait merveille. Le public peut jouer les enfants du quartier : réclamer avec eux « Achète-nous un sifflet ! », guetter l'âne qui revient au loin, puis crier « Où sont nos sifflets ? ». Très court : une scène ou un spectacle de 2 minutes. Parentés : les autres anecdotes du Hodja (« Mange, mon manteau ! », « La Marmite a accouché », « Du levain dans le lac »).

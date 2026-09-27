@@ -25,4 +25,4 @@ structure: deux arrivées en miroir, puis leçon
 4. Il trempe sa manche dans le plat : « Mange, mon manteau, mange ! »
 5. « Un manteau qui mange ? — C'est lui que vous avez honoré, qu'il mange donc ! »
 
-**À adapter.** Très court et parfait tel quel : un spectacle de 2 à 3 minutes, ou une scène dans un spectacle plus long. Le manteau peut devenir un chapeau ou une couronne en carton. Le public comprend avant les invités.
+**À jouer.** Très court et parfait tel quel : un spectacle de 2 à 3 minutes, ou une scène dans un spectacle plus long. Les deux arrivées se jouent en miroir : même entrée, accueil opposé. Le public comprend avant les invités, et peut reprendre avec le Hodja « Mange, mon manteau, mange ! ». Parenté : « Une histoire de Giufà » (Sicile), la même histoire en plus long.

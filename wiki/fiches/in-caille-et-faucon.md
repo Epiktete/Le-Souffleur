@@ -24,4 +24,4 @@ structure: imprudence, capture, défi, esquive
 4. Elle se perche sur une grosse motte : « Viens donc ! »
 5. Le faucon plonge ; elle bascule de l'autre côté, et il s'écrase contre la motte.
 
-**À adapter.** Le faucon ne meurt pas : il se cogne, voit trente-six chandelles et repart vexé. Une fable courte, idéale pour deux marionnettes avec un obstacle de castelet (une motte, un coussin). Le défi au vantard est un ressort que les petits comprennent tout de suite.
+**À jouer.** Une fable courte, idéale pour deux marionnettes avec un obstacle de castelet (une motte, un coussin). Le faucon qui s'écrase contre la motte est une chute burlesque, et le public peut crier avec la caille « Viens donc, faucon ! ». Le défi au vantard est un ressort que les petits comprennent tout de suite.

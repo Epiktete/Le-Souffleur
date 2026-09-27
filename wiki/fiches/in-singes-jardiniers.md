@@ -25,4 +25,4 @@ structure: mission, conseil, désastre, verdict
 4. Ils arrachent chaque plante, mesurent ses racines, l'arrosent, la replantent.
 5. Le jardinier revient : tout est fané. Le maître conclut que le plus sot, c'est celui qui a confié le jardin à des singes.
 
-**À adapter.** Parfait tel quel, et très drôle. Les plantes sont des fleurs en papier piquées dans le rebord du castelet, qu'on arrache une à une. Le conseil des singes, sérieux comme un conseil de savants, est un grand moment. Le jardinier renvoyé peut simplement être grondé et replanter avec les singes.
+**À jouer.** Parfait tel quel, et très drôle. Les plantes sont des fleurs en papier piquées dans le rebord du castelet, qu'on arrache une à une. Le conseil des singes, sérieux comme un conseil de savants, est un grand moment. Le public voit l'erreur avant les singes, et peut mesurer les racines avec eux : « Longue ! Beaucoup d'eau ! Courte ! Très peu ! ».

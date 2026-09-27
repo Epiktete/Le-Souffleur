@@ -24,4 +24,4 @@ structure: offre, révélation, contre-ruse
 4. Le singe, sans paniquer : « Je ne le porte jamais sur moi, il est là-haut dans le figuier ! »
 5. Le crocodile le dépose au pied de l'arbre ; le singe grimpe et se régale de figues.
 
-**À adapter.** Le « cœur » peut devenir la moustache, la chanson ou le rire du singe. Madame Crocodile peut rester hors scène (on l'entend pleurer). Le même conte existe au Japon avec une méduse (« La Méduse messagère »). Le public comprend la ruse du singe avant le crocodile.
+**À jouer.** Madame Crocodile peut rester hors scène (on entend ses larmes : plouf, plouf, plouf, que le public peut faire avec le parent). La traversée se joue à fleur de castelet : le crocodile s'enfonce, le singe crie « Attention ! ». Le public comprend la ruse du singe avant le crocodile. Parenté : le même conte existe au Japon avec une méduse (« La Méduse messagère »).
