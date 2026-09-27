@@ -162,6 +162,9 @@ function peuplerTexte(texte: string, noms: Map<string, string>): string {
     .replace(/\{\{R(\d+)\}\}/g, (tout, n: string) => noms.get(`r${n}`)?.toUpperCase() ?? tout);
 }
 
+/** Les champs qui portent un identifiant, jamais du texte. */
+const CLES_IDENTIFIANTS = new Set(['id', 'conteId', 'marionnetteId', 'tableauId']);
+
 /**
  * Parcourt un objet en profondeur et transforme chaque chaîne rencontrée.
  *
@@ -175,7 +178,13 @@ function transformerChaines<T>(valeur: T, f: (s: string) => string): T {
   if (Array.isArray(valeur)) return valeur.map((v) => transformerChaines(v, f)) as unknown as T;
   if (valeur && typeof valeur === 'object') {
     const sortie: Record<string, unknown> = {};
-    for (const [cle, v] of Object.entries(valeur)) sortie[cle] = transformerChaines(v, f);
+    for (const [cle, v] of Object.entries(valeur)) {
+      // Un IDENTIFIANT est une donnée, pas du texte joué : on n'y cherche ni ne
+      // remplace aucun nom. Au relais (2026-09-27), une peluche nommée
+      // « Soldat » faisait de « dk-soldat-de-plomb » un « nom résiduel », et le
+      // remplacement aurait altéré l'identifiant du conte.
+      sortie[cle] = CLES_IDENTIFIANTS.has(cle) ? v : transformerChaines(v, f);
+    }
     return sortie as unknown as T;
   }
   return valeur;
@@ -347,7 +356,10 @@ export function verifierAucunNom(modele: SpectacleModele, distribution: Marionne
   // Les rôles sont des DONNÉES, pas du texte joué : ils gardent l'espèce et les
   // traits de la marionnette d'origine, et c'est exactement leur travail — sans
   // quoi on ne pourrait plus apparier. On ne les fouille donc pas.
-  const { roles: _, ...texteJoue } = modele;
+  // Le titre aussi : c'est celui du CONTE, recopié de sa fiche, jamais le nom
+  // d'une peluche — même quand une peluche s'appelle « Soldat » et joue
+  // « L'Intrépide Soldat de plomb ».
+  const { roles: _, titre: _titre, ...texteJoue } = modele;
 
   let fautif: NomResiduel | null = null;
   transformerChaines(texteJoue, (s) => {

@@ -1,0 +1,16 @@
+{
+  "termine": true,
+  "etapes": 10,
+  "conte": "fr-perrault-chaperon-rouge",
+  "titre": "Le Petit Chaperon rouge",
+  "dureeEstimeeSecondes": 314,
+  "dureeCibleSecondes": 300,
+  "problemesRestants": [
+    {
+      "gravite": "important",
+      "acteNumero": 3,
+      "position": 21,
+      "message": "Le conteur dit une phrase qui n’est pas dans le conte : « Et, en disant ces mots, ce méchant Loup Gris mangea Rosette ». Le conteur ne dit que la narration du texte transposé, mot pour mot, en phrases entières. Ce qui n’y est pas se montre, ou ne se dit pas."
+    }
+  ]
+}

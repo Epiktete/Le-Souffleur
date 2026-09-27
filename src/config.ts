@@ -35,8 +35,11 @@ export const DUREE = {
  * calibrer au relais du chantier « le conteur » (CDC §14).
  */
 export const PAROLE = {
-  /** Part des mots dits absents du texte de référence au-delà de laquelle on avertit. */
-  seuilInvente: 0.25,
+  /**
+   * Part des mots dits absents du texte de référence au-delà de laquelle on
+   * avertit. Calibré au relais du 2026-09-27 : de 0 à 8 % sur dix spectacles.
+   */
+  seuilInvente: 0.1,
   /** Une phrase du conteur plus courte n'est pas vérifiée (« Et voilà. »). */
   motsMinPhrase: 4,
 } as const;

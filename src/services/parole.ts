@@ -25,6 +25,14 @@ import type { Acte, ElementScript } from '../types';
 
 const court = (t: string) => (t.length > 70 ? `${t.slice(0, 67)}…` : t);
 
+/**
+ * Guillemets et tirets de dialogue ne comptent pas : le conteur qui dit la
+ * parole d'un personnage sans marionnette (« sa mère lui dit : Va voir… ») la
+ * dit sans les guillemets du texte. Mesuré au relais : sans cela, une phrase
+ * recopiée mot pour mot passait pour inventée.
+ */
+const sansGuillemets = (t: string) => t.replace(/[«»"“”—–]/g, ' ');
+
 /** Les phrases d'un texte, sans leur ponctuation finale. */
 function phrases(texte: string): string[] {
   return texte
@@ -40,7 +48,7 @@ function phrases(texte: string): string[] {
  * cherche aussi la phrase privée de ses trois premiers mots au plus.
  */
 function dansLeConte(phrase: string, reference: string): boolean {
-  const motsPhrase = phrase.split(/\s+/);
+  const motsPhrase = sansGuillemets(phrase).trim().split(/\s+/);
   for (let tete = 0; tete <= 3; tete++) {
     const reste = motsPhrase.slice(tete);
     if (reste.length < PAROLE.motsMinPhrase - 1) break;
@@ -80,19 +88,21 @@ export function controlerParole(actes: Acte[], reference: string): Probleme[] {
   const problemes: Probleme[] = [];
   if (!reference.trim()) return problemes;
 
-  // 1. Le conteur ne dit que le conte.
+  // 1. Le conteur ne dit que le conte : un passage continu du texte, mot pour
+  //    mot, une phrase entière ou la fin d'une phrase dont le début est montré.
+  const texte = sansGuillemets(reference);
   for (const acte of actes) {
     acte.elements.forEach((e, i) => {
       if (e.type !== 'conteur') return;
-      const horsTexte = phrases(e.texte).filter((p) => !dansLeConte(p, reference));
+      const horsTexte = phrases(e.texte).filter((p) => !dansLeConte(p, texte));
       if (horsTexte.length === 0) return;
       problemes.push({
         gravite: 'important',
         acteNumero: acte.numero,
         position: i + 1,
         message: `Le conteur dit une phrase qui n’est pas dans le conte : « ${court(horsTexte[0])} ». `
-          + 'Le conteur ne dit que la narration du texte transposé, mot pour mot, en phrases '
-          + 'entières. Ce qui n’y est pas se montre, ou ne se dit pas.',
+          + 'Le conteur ne dit que la narration du texte transposé, mot pour mot : un passage '
+          + 'continu, jamais une phrase refaite. Ce qui n’y est pas se montre, ou ne se dit pas.',
       });
     });
   }

@@ -274,12 +274,25 @@ describe('l’aller-retour rend le spectacle de départ', () => {
   });
 
   const reels = spectaclesDuRelais();
+  // La propriété : un spectacle rend EXACTEMENT celui de départ, ou il est
+  // refusé clairement — jamais altéré en silence. Une peluche nommée d'un nom
+  // commun du conte (« Soldat » dans « L'Intrépide Soldat de plomb », cas 10)
+  // ne se distingue pas de ce nom commun : le refus est alors la bonne réponse.
   it.runIf(reels.length > 0)('sur les spectacles réels du relais', () => {
+    let rendus = 0;
     for (const { cas, spectacle } of reels) {
-      const modele = variabiliser(spectacle, `${spectacle.bible.conteId}--1`);
+      let modele;
+      try {
+        modele = variabiliser(spectacle, `${spectacle.bible.conteId}--1`);
+      } catch (e) {
+        expect(e, cas).toBeInstanceOf(NomResiduel);
+        continue;
+      }
       const retour = peupler(modele, spectacle.distribution);
       expect(comparable(retour), cas).toEqual(comparable(spectacle));
+      rendus++;
     }
+    expect(rendus).toBeGreaterThan(0);
   });
 });
 

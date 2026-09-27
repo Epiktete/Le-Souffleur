@@ -78,6 +78,16 @@ describe('le contrôle 9 : la parole vient du conte', () => {
       .toEqual([]);
   });
 
+  it('ignore guillemets et tirets : la parole d’un personnage dite sans eux reste le conte', () => {
+    const a = acte([conteur('Où vas-tu ? lui dit Loup Gris.')]);
+    expect(controlerParole([a], REFERENCE)).toEqual([]);
+  });
+
+  it('accepte la fin d’une phrase dont le début est montré', () => {
+    const a = acte([conteur('mais il n’osa, à cause de quelques bûcherons qui étaient dans la forêt.')]);
+    expect(controlerParole([a], REFERENCE)).toEqual([]);
+  });
+
   it('renvoie en correction un conteur qui invente ou résume', () => {
     const a = acte([conteur('Heureusement, les gentils bûcherons veillaient sur la petite fille.')], 2);
     const [p] = controlerParole([a], REFERENCE);

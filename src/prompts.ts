@@ -54,9 +54,11 @@ Tout ce qui se dit vient du conte, par trois voies :
   phrase de narration que la scène ne peut pas montrer — ce qui se passe hors
   de la scène, ce qu’un personnage sait, veut ou craint quand aucune réplique
   ne le dit, le temps qui passe, l’ouverture et la fin du conte. Il la dit
-  MOT POUR MOT, en phrases entières recopiées du texte transposé ; seul un
-  pronom en tête de phrase peut devenir le nom qu’il désigne. L’application
-  vérifie que chacune de ses phrases est dans le conte.
+  MOT POUR MOT : un passage continu recopié du texte transposé — une phrase
+  entière, ou la fin d’une phrase dont le début vient d’être montré (« Il la
+  mangea. ») —, jamais une phrase refaite ; seul un pronom en tête peut devenir
+  le nom qu’il désigne. L’application vérifie que tout ce qu’il dit est dans
+  le conte.
 Chaque phrase de narration est MONTRÉE (didascalie, entrée, sortie) ou DITE
 par le conteur : jamais les deux, et jamais par une marionnette. Le conteur
 ne commente pas, ne résume pas et ne parle pas aux enfants.

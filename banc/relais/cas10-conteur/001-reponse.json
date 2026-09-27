@@ -1,0 +1,56 @@
+{"synopsis": [
+  {"conte": "dk-soldat-de-plomb",
+   "accroche": "Le Soldat aime la Danseuse en secret, et malgré la jalousie du Diablotin et un long voyage forcé, il revient tout droit vers elle.",
+   "resume": [
+     "Parmi tous les soldats bien alignés, seul le Soldat n'a qu'une jambe ; il regarde la Danseuse sans oser le lui dire, car elle aussi semble tenir sur un seul pied.",
+     "La nuit, quand les jouets s'animent, le Diablotin surgit de sa boîte et menace le Soldat, jaloux de le voir regarder la Danseuse.",
+     "Le lendemain, le Soldat tombe de la fenêtre, roule jusqu'à l'eau, et un poisson l'avale tout entier.",
+     "Le poisson est rapporté et ouvert dans cette même maison : le Soldat retrouve sa place, tout près de la Danseuse, comme si le voyage n'avait jamais eu lieu.",
+     "Le lendemain, on trouve dans les cendres un petit cœur de plomb et une paillette : le Soldat et la Danseuse restent unis pour toujours."
+   ],
+   "distribution": [
+     {"marionnette": "Soldat", "role": "le Soldat de plomb", "note": "Courageux et timide comme lui : il porte cette histoire sans dire un mot de trop."},
+     {"marionnette": "Danseuse", "role": "la Danseuse de papier", "note": "Rêveuse et timide comme elle : son silence face au Soldat sonne juste."},
+     {"marionnette": "Diablotin", "role": "le Diablotin de la tabatière", "note": "Méchant et farceur comme lui : il jaillit de sa boîte exactement comme le rôle le demande."}
+   ],
+   "changements": [
+     "Le passage du rat qui réclame un laissez-passer et des enfants qui mettent le Soldat dans un petit bateau est raccourci en une phrase de voyage, pour tenir dans les huit minutes.",
+     "Avec seulement trois marionnettes, la traversée de l'eau se raconte plutôt qu'elle ne se joue en plusieurs scènes."
+   ]},
+  {"conte": "ru-chat-coq-renard",
+   "accroche": "Chaque fois que le Chat s'éloigne, la Renarde essaie d'attirer le Coq à sa fenêtre pour l'emporter.",
+   "resume": [
+     "Le Chat part faire une course et laisse le Coq garder la maison tout seul.",
+     "La Renarde chante sous la fenêtre en promettant des petits pois ; le Coq se montre, elle l'attrape, mais il appelle si fort que le Chat revient à temps pour le sauver.",
+     "La deuxième fois, le Coq résiste d'abord, se laisse tenter par les pois qu'elle jette, puis se montre quand même ; le Chat le sauve encore.",
+     "La troisième fois, la Renarde fait semblant de partir ; le Coq regarde pour vérifier, et elle l'emporte, cette fois trop loin pour que le Chat l'entende.",
+     "Le Chat suit sa trace jusqu'au terrier et se met à jouer une musique si entraînante que la Renarde sort danser : il en profite pour délivrer le Coq et rentrer avec lui."
+   ],
+   "distribution": [
+     {"marionnette": "Soldat", "role": "le Chat", "note": "Courageux comme lui : c'est lui qui part au secours du Coq chaque fois qu'il le faut."},
+     {"marionnette": "Danseuse", "role": "le Coq", "note": "Sa part rêveuse rend crédible qu'il se laisse chaque fois attirer par le chant, malgré le danger."},
+     {"marionnette": "Diablotin", "role": "la Renarde", "note": "Méchante et farceuse comme lui : ses ruses pour attirer le Coq lui vont comme un gant."}
+   ],
+   "changements": [
+     "La fin change : au lieu que la Renarde reparte pour de bon avec le Coq, le Chat la retrouve et la fait danser à sa propre musique pour le délivrer — la peur reste, la perte non.",
+     "Le Vieux, qui partait avec le Chat au tout début du conte, n'apparaît pas : le Chat s'absente simplement, sans qu'on dise pourquoi."
+   ]},
+  {"conte": "ja-bonze-et-novice",
+   "accroche": "Le Bonze cache ses friandises en disant qu'elles sont empoisonnées, mais le Diablotin les mange quand même et s'en tire chaque fois.",
+   "resume": [
+     "Le Bonze cache un pot de sirop et dit au Diablotin que c'est un poison très dangereux, pour qu'il n'y touche jamais.",
+     "Le Diablotin mange tout le sirop, casse volontairement un bol, puis fait semblant d'avoir avalé le poison pour ne pas être puni d'avoir cassé le bol.",
+     "Des boulettes sucrées arrivent pour le Bonze ; le Diablotin les mange toutes en cachette.",
+     "Pour cacher son coup, il barbouille de pâte sucrée la bouche de la Statue dorée et accuse la Statue d'avoir tout mangé.",
+     "Le Bonze gronde la Statue, qui ne répond rien ; le Diablotin propose alors de la tremper dans une bassine d'eau — elle fait « glouglou », comme pour dire « j'ai tout bu ! », et tout le monde éclate de rire."
+   ],
+   "distribution": [
+     {"marionnette": "Soldat", "role": "la Statue dorée", "note": "Il n'a qu'une jambe et ne bouge presque jamais : il tient sans effort ce rôle où il faut rester immobile et se faire accuser à tort."},
+     {"marionnette": "Danseuse", "role": "le Bonze avare", "note": "Sa part rêveuse et timide donne à ce personnage un air naïf qui rend sa mésaventure attendrissante plutôt que méchante."},
+     {"marionnette": "Diablotin", "role": "le Petit Novice", "note": "Farceur et espiègle comme lui : c'est le rôle du chipeur malin qui s'en tire toujours, fait pour lui."}
+   ],
+   "changements": [
+     "On ne fait pas bouillir la Statue à la fin : le Diablotin propose de la tremper dans une bassine d'eau, qui fait « glouglou » pour rire, sans rien de dur.",
+     "La voisine qui apporte les boulettes n'apparaît pas en personne : les friandises arrivent déjà posées près du Bonze."
+   ]}
+]}

@@ -1,0 +1,18 @@
+{"elements": [
+  {"type": "conteur", "texte": "Il était une fois vingt-cinq soldats de plomb, tous frères, car ils étaient nés d'une vieille cuillère en plomb."},
+  {"type": "conteur", "texte": "La toute première chose qu'ils entendirent en ce monde, quand on souleva le couvercle de la boîte où ils étaient couchés, ce fut le mot : « Des soldats de plomb ! »"},
+  {"type": "conteur", "texte": "C'était un petit garçon qui l'avait crié en battant des mains."},
+  {"type": "conteur", "texte": "On les lui avait offerts pour son anniversaire, et il les aligna sur la table."},
+  {"type": "entree", "marionnette": "Soldat", "main": "M1G"},
+  {"type": "conteur", "texte": "Chaque soldat ressemblait exactement à l'autre ; un seul était un peu différent : il n'avait qu'une jambe, car il avait été fondu le dernier, et il n'y avait plus assez de plomb."},
+  {"type": "conteur", "texte": "Pourtant il se tenait aussi solidement sur sa jambe unique que les autres sur leurs deux jambes, et c'est justement lui qui va devenir remarquable."},
+  {"type": "conteur", "texte": "Sur la table où on les avait alignés, il y avait beaucoup d'autres jouets ; mais celui qui attirait le plus le regard était un joli château en papier."},
+  {"type": "conteur", "texte": "Tout cela était ravissant, mais le plus ravissant de tout était une petite demoiselle debout dans l'embrasure de la porte du château."},
+  {"type": "entree", "marionnette": "Danseuse", "main": "M1D"},
+  {"type": "conteur", "texte": "Elle aussi était découpée dans du papier, mais elle avait une jupe de la gaze la plus fine, et un petit ruban bleu étroit sur l'épaule, comme une écharpe, au milieu duquel brillait une paillette aussi grande que tout son visage."},
+  {"type": "conteur", "texte": "La petite demoiselle tendait les deux bras, car c'était une Danseuse, et elle levait une jambe si haut que le Soldat de plomb ne pouvait pas la voir du tout : il crut qu'elle n'avait qu'une jambe, comme lui."},
+  {"type": "replique", "marionnette": "Soldat", "texte": "Voilà une femme pour moi. Mais elle est un peu trop distinguée : elle habite un château, et moi je n'ai qu'une boîte, et nous y sommes vingt-cinq ; ce n'est pas un endroit pour elle. Pourtant, il faut que je fasse sa connaissance.", "ton": "à mi-voix, pour lui-même, intimidé"},
+  {"type": "didascalie", "texte": "Le Soldat se couche à plat derrière la tabatière, pour regarder la Danseuse sans être vu."},
+  {"type": "conteur", "texte": "De là, il pouvait bien regarder la petite dame élégante, qui restait debout sur une jambe sans perdre l'équilibre."},
+  {"type": "didascalie", "texte": "Le soir tombe ; la Danseuse incline la tête et rentre dans son château pour la nuit."},
+  {"type": "sortie", "marionnette": "Danseuse", "main": "M1D"}]}

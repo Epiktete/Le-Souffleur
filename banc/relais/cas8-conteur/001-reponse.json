@@ -1,0 +1,55 @@
+{"synopsis": [
+  {"conte": "fr-perrault-chaperon-rouge",
+   "accroche": "Rosette part porter une galette à Mamie Rose, mais Loup Gris arrive le premier et prend sa place dans le lit.",
+   "resume": [
+     "Rosette part porter une galette et un pot de beurre à Mamie Rose, qui est malade et couchée.",
+     "En chemin dans le bois, elle raconte tout à Loup Gris, qui lui propose une course : chacun prend un chemin différent.",
+     "Loup Gris arrive le premier chez Mamie Rose, imite sa voix pour se faire ouvrir, et prend sa place dans son lit.",
+     "Rosette arrive à son tour et remarque que « Mamie Rose » a de très grandes dents ; Loup Gris avale Mamie Rose, puis Rosette.",
+     "Des bûcherons qui passent par là entendent du bruit, entrent, et forcent Loup Gris à recracher les deux, bien vivantes."
+   ],
+   "distribution": [
+     {"marionnette": "Rosette", "role": "le Petit Chaperon rouge", "note": "curieuse et gentille, comme le personnage"},
+     {"marionnette": "Loup Gris", "role": "le Loup", "note": "déjà méchant et gourmand, sans rien à jouer"},
+     {"marionnette": "Mamie Rose", "role": "la Mère-grand", "note": "déjà une grand-mère douce, sans rien à jouer"}
+   ],
+   "changements": [
+     "La Mère n'a pas de marionnette : l'histoire commence directement quand Rosette part avec sa galette, sans qu'on la voie partir de chez elle."
+   ]},
+  {"conte": "ru-renard-lievre-coq",
+   "accroche": "Loup Gris chasse Mamie Rose de sa maison, et c'est la minuscule Rosette qui finit, seule, par le faire fuir.",
+   "resume": [
+     "Au printemps, la maison de glace de Loup Gris fond ; il s'installe chez Mamie Rose et la met à la porte.",
+     "De grands animaux costauds essaient de l'aider, mais Loup Gris les menace à chaque fois, et ils s'enfuient tous.",
+     "Rosette arrive à son tour, un grand balai sur l'épaule, et chante trois fois sa menace en s'approchant.",
+     "Effrayé, Loup Gris s'enfuit pour de bon ; Mamie Rose retrouve sa maison et y vit désormais avec Rosette."
+   ],
+   "distribution": [
+     {"marionnette": "Rosette", "role": "le Coq", "note": "curieuse, elle ose s'approcher là où les autres ont fui"},
+     {"marionnette": "Loup Gris", "role": "la Renarde", "note": "déjà méchant, il fait un adversaire crédible"},
+     {"marionnette": "Mamie Rose", "role": "le petit Lièvre", "note": "déjà gentille, comme le personnage"}
+   ],
+   "changements": [
+     "La Renarde du conte devient un loup : c'est Loup Gris qui joue ce rôle du début à la fin.",
+     "La faux du Coq devient un grand balai, moins inquiétant à montrer aux enfants.",
+     "Loup Gris s'enfuit à la fin sans être blessé : la peur qu'il a eue suffit."
+   ]},
+  {"conte": "in-singes-jardiniers",
+   "accroche": "Rosette confie son jardin à Loup Gris pour la journée, qui l'arrose si consciencieusement qu'il arrache chaque fleur pour mesurer ses racines.",
+   "resume": [
+     "Rosette doit s'absenter pour aller à la fête ; elle demande à Loup Gris et à ses amis d'arroser son jardin pendant ce temps.",
+     "Loup Gris accepte avec enthousiasme et tient un grand conseil très sérieux pour savoir comment bien faire.",
+     "Persuadé qu'il faut économiser l'eau, il décide que chaque fleur recevra autant d'eau que ses racines sont longues.",
+     "Loup Gris et ses amis arrachent chaque fleur, mesurent ses racines, l'arrosent, puis la replantent.",
+     "Rosette revient et trouve le jardin fané ; Mamie Rose la gronde gentiment, et toutes deux replantent avec Loup Gris."
+   ],
+   "distribution": [
+     {"marionnette": "Rosette", "role": "le Jardinier", "note": "gentille et un peu naïve, comme le personnage"},
+     {"marionnette": "Loup Gris", "role": "le Chef des singes", "note": "prend tout très au sérieux, ce qui rend sa bêtise plus drôle"},
+     {"marionnette": "Mamie Rose", "role": "le Maître du parc", "note": "sage, elle apporte la voix raisonnable qui conclut l'histoire"}
+   ],
+   "changements": [
+     "Les autres singes ne sont pas des marionnettes : on les imagine autour de Loup Gris, sans les montrer.",
+     "Rosette n'est pas renvoyée à la fin : Mamie Rose la gronde gentiment, et elles replantent ensemble avec Loup Gris."
+   ]}
+]}

@@ -228,6 +228,12 @@ conte reçoit sa fiche de retouches.
 **Elle perd** tout ce qui change l'histoire (« remplacer… par… », « supprimer… ») :
 c'est désormais le travail de la fiche de retouches, âge par âge.
 
+**Elle ne décrit jamais un événement qui n'existe qu'à certains âges.** Elle vaut
+pour tous les âges, et le modèle la lit comme l'histoire. Au relais, la phrase
+« Quand la fillette crie pour appeler les bûcherons, le public crie avec elle »,
+vraie seulement jusqu'à 4 ans, a suffi pour qu'à 9 ans le modèle remplace la fin
+de Perrault par le sauvetage.
+
 ## Avant de valider une fiche
 
 1. `node tools/verifier-retouches.mjs` passe sans erreur. Ses avertissements sont

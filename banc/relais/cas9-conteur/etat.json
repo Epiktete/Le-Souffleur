@@ -1,0 +1,14 @@
+{
+  "termine": true,
+  "etapes": 8,
+  "conte": "fr-perrault-chaperon-rouge",
+  "titre": "Le Petit Chaperon rouge",
+  "dureeEstimeeSecondes": 246,
+  "dureeCibleSecondes": 300,
+  "problemesRestants": [
+    {
+      "gravite": "mineur",
+      "message": "Le spectacle ne s’adresse jamais au public, alors que le parent a demandé quelques moments avec lui."
+    }
+  ]
+}

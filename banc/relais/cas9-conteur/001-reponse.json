@@ -1,0 +1,56 @@
+{"synopsis": [
+  {"conte": "fr-perrault-chaperon-rouge",
+   "accroche": "Rosette part porter une galette à Mamie Rose malade, mais Loup Gris a pris les devants et l'attend, déguisé, dans son lit.",
+   "resume": [
+     "Rosette part porter une galette et un petit pot de beurre à Mamie Rose, qui est malade, de l'autre côté du bois.",
+     "Dans le bois, elle croise Loup Gris. Elle lui raconte tout : où elle va et ce qu'elle porte. Il lui propose une course, chacun par son chemin.",
+     "Loup Gris arrive le premier, se fait ouvrir la porte en imitant sa voix, et prend la place de Mamie Rose dans le lit.",
+     "Rosette arrive à son tour et trouve « Mamie Rose » bien changée : « Que vous avez de grands bras ! De grandes oreilles ! De grandes dents ! »",
+     "« C'est pour te manger ! » Loup Gris se jette sur elle et la dévore."
+   ],
+   "distribution": [
+     {"marionnette": "Rosette", "role": "le Petit Chaperon rouge", "note": "Curieuse et gentille comme elle, et sa robe rouge à bonnet est déjà son costume."},
+     {"marionnette": "Loup Gris", "role": "le Loup", "note": "Méchant et gourmand : c'est exactement le rôle du grand méchant loup."},
+     {"marionnette": "Mamie Rose", "role": "la Mère-grand", "note": "Une vraie grand-mère en tissu pour jouer la grand-mère du conte."}
+   ],
+   "changements": [
+     "La maman qui envoie Rosette avec la galette n'a pas de marionnette : on le raconte en une phrase, sans la jouer."
+   ]},
+  {"conte": "ru-chat-coq-renard",
+   "accroche": "Chaque fois que Mamie Rose a le dos tourné, Loup Gris chante sous la fenêtre pour attirer Rosette dehors et l'emporter.",
+   "resume": [
+     "Un matin, Mamie Rose s'absente et laisse Rosette garder seule la maison, avec la consigne de ne se montrer à personne.",
+     "Sous la fenêtre, Loup Gris chante : « Montre-toi, petit coq, j'ai de bonnes graines pour toi ! » Rosette se penche pour regarder ; il l'attrape et l'emporte. Elle appelle au secours, et Mamie Rose accourt la délivrer.",
+     "Loup Gris revient, fait mine de repartir pour de bon ; Rosette, pour vérifier, regarde une dernière fois. Il l'attrape encore et l'emporte, cette fois bien plus loin.",
+     "Mamie Rose ne l'entend pas partir, mais le public, lui, a tout vu : à force de cris pour la prévenir, elle se lance sur la piste et rattrape Loup Gris à temps.",
+     "Elle délivre Rosette, et cette fois, plus personne ne regarde par la fenêtre sans y être invité."
+   ],
+   "distribution": [
+     {"marionnette": "Rosette", "role": "le Coq", "note": "Curieuse comme lui, elle est de celles qui ne résistent pas à regarder dehors."},
+     {"marionnette": "Loup Gris", "role": "la Renarde", "note": "Gourmand comme la renarde du conte ; il devient un loup qui rôde et chante sous la fenêtre."},
+     {"marionnette": "Mamie Rose", "role": "le Chat", "note": "Sage et protectrice, elle est celle qui veille et qui sauve."}
+   ],
+   "changements": [
+     "Le conte se joue avec deux tentatives d'enlèvement au lieu de trois, pour tenir dans le temps du spectacle.",
+     "La renarde du conte devient Loup Gris : il chante sous la fenêtre pour attirer Rosette, comme le ferait la renarde.",
+     "La fin change : au lieu que Mamie Rose n'entende pas partir Loup Gris et perde Rosette pour de bon, elle est prévenue par les cris du public et arrive à temps pour la délivrer."
+   ]},
+  {"conte": "in-singes-jardiniers",
+   "accroche": "Pour économiser l'eau du jardin, Loup Gris a une riche idée : arracher chaque fleur pour mesurer ses racines avant de l'arroser.",
+   "resume": [
+     "Rosette, pour aller à la foire, demande à Loup Gris de s'occuper d'arroser le jardin à sa place pendant son absence.",
+     "Loup Gris accepte avec enthousiasme et réfléchit tout seul à la meilleure façon de faire.",
+     "Pour économiser l'eau, il décide : chaque fleur n'aura que l'eau que méritent ses racines, il faut donc les mesurer.",
+     "Il arrache chaque fleur une à une, mesure ses racines, l'arrose, puis la replante.",
+     "Rosette revient : tout est fané. Mamie Rose conclut que le plus sot, c'est celui qui a confié le jardin à un loup."
+   ],
+   "distribution": [
+     {"marionnette": "Rosette", "role": "le Jardinier", "note": "Gentille comme lui, elle part de bonne foi à la foire en confiant son jardin."},
+     {"marionnette": "Loup Gris", "role": "le Chef des singes", "note": "C'est lui qui invente le plan absurde et le fait exécuter tout seul, en loup savant et orgueilleux."},
+     {"marionnette": "Mamie Rose", "role": "le Maître du parc", "note": "Sage comme lui, c'est elle qui a le dernier mot sur le désastre."}
+   ],
+   "changements": [
+     "Le conseil des singes devient la réflexion de Loup Gris tout seul, puisqu'il n'y a qu'une seule marionnette pour ce rôle.",
+     "À la fin, le maître du parc dit qu'on a confié le jardin « à un loup » et non « à des singes », puisqu'il n'y a plus qu'un loup en scène."
+   ]}
+]}

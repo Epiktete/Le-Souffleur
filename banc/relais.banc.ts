@@ -200,11 +200,24 @@ const CAS = {
   7: { ...chaperon(), ageAuditoire: 4 },
   8: { ...chaperon(), ageAuditoire: 7 },
   9: { ...chaperon(), ageAuditoire: 9 },
+  // 10 : le conte le plus NARRATIF de l'échantillon (chantier « le conteur »,
+  // CDC §13) : presque tout Andersen est récit, très peu est dialogue. C'est
+  // là que la narration dite par le conteur doit porter l'histoire.
+  10: {
+    troupe: [
+      peluche('Soldat', 'Un soldat de plomb en tissu rouge et bleu, une seule jambe.', ['courageux', 'timide']),
+      peluche('Danseuse', 'Une poupée danseuse en tulle, une paillette sur l’écharpe.', ['rêveur', 'timide']),
+      peluche('Diablotin', 'Un diable à ressort en peluche noire, qui jaillit d’une boîte.', ['méchant', 'farceur']),
+    ],
+    dureeMinutes: 8, ageAuditoire: 7, nbMarionnettistes: 1 as const,
+    interactionPublic: 'quelques' as const, ebauche: 'le soldat de plomb',
+    conte: 'dk-soldat-de-plomb',
+  },
 } as const;
 
 const NUM = Number(process.env.RELAIS_CAS || 1) as keyof typeof CAS;
 const cas = CAS[NUM];
-if (!cas) throw new Error('RELAIS_CAS doit valoir 1 à 9.');
+if (!cas) throw new Error('RELAIS_CAS doit valoir 1 à 10.');
 /** Le conte imposé par le cas, s'il y en a un. */
 const CONTE_IMPOSE: string | undefined = 'conte' in cas ? cas.conte : undefined;
 
@@ -276,7 +289,11 @@ test(`relais local — cas ${NUM}`, async () => {
     writeFileSync(join(DOSSIER, 'spectacle.json'), `${JSON.stringify(spectacle, null, 2)}
 `);
 
-    verserALaBanque(spectacle);
+    // Verser à la banque se DEMANDE (RELAIS_BANQUE=1) : la banque ne sait pas
+    // encore l'âge (CDC §6, « Les retouches selon l'âge »), et un spectacle
+    // joué pour 9 ans ne doit pas être servi à 4. Deux expériences du chantier
+    // « l'âge » l'avaient remplie sans le vouloir.
+    if (process.env.RELAIS_BANQUE) verserALaBanque(spectacle);
 
     writeFileSync(join(DOSSIER, 'etat.json'), JSON.stringify({
       termine: true,

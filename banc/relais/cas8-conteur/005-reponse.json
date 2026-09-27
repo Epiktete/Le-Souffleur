@@ -1,0 +1,13 @@
+{"elements": [
+  {"type": "entree", "marionnette": "Loup Gris", "main": "M1G"},
+  {"type": "conteur", "texte": "Loup Gris se mit à courir de toute sa force par le chemin qui était le plus court, et la petite fille s'en alla par le chemin le plus long, s'amusant à cueillir des noisettes, à courir après des papillons, et à faire des bouquets des petites fleurs qu'elle rencontrait."},
+  {"type": "didascalie", "texte": "Loup Gris arrive devant la maison de Mamie Rose et frappe deux coups sur la table (toc, toc)."},
+  {"type": "entree", "marionnette": "Mamie Rose", "main": "M1D"},
+  {"type": "replique", "marionnette": "Mamie Rose", "texte": "Qui est là ?", "ton": "surprise, depuis son lit"},
+  {"type": "replique", "marionnette": "Loup Gris", "texte": "C'est votre fille, Rosette, qui vous apporte une galette et un petit pot de beurre, que ma mère vous envoie.", "ton": "en imitant une petite voix, mine de rien"},
+  {"type": "replique", "marionnette": "Mamie Rose", "texte": "Tire la chevillette, la bobinette cherra.", "ton": "fort, malgré la fatigue"},
+  {"type": "didascalie", "texte": "Loup Gris s'approche du lit de Mamie Rose."},
+  {"type": "sortie", "marionnette": "Mamie Rose", "main": "M1D"},
+  {"type": "conteur", "texte": "Loup Gris se jeta sur la bonne vieille, et la dévora en moins de rien, car il y avait plus de trois jours qu'il n'avait mangé."},
+  {"type": "didascalie", "texte": "Loup Gris se cache sous la couverture, à la place de Mamie Rose, et attend Rosette."}
+]}
