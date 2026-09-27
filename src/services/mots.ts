@@ -84,3 +84,71 @@ export function compterMots(texte: string): number {
 export function corpsDuTexte(brut: string): string {
   return brut.replace(/\r\n/g, '\n').replace(/^# .*\n+\*[^\n]*\*\n+/, '').trim();
 }
+
+/* ================================================================== */
+/* La part de dialogue d'un conte                                      */
+/* ================================================================== */
+
+/** Une ligne qui n'est qu'un nom de personnage, au format théâtre. */
+function estNomDeTheatre(ligne: string): boolean {
+  const t = ligne.trim();
+  return t.length >= 2 && t.length <= 60
+    && /^[A-ZÀ-ÜŒ][A-ZÀ-ÜŒ'’ ,.&-]*\.?$/.test(t)
+    && /[A-ZÀ-ÜŒ]{2}/.test(t);
+}
+
+/**
+ * La part des mots du conte qui sont des paroles de personnages, entre 0 et 1.
+ *
+ * Elle sert de barrière au choix des contes : un conte presque tout en récit
+ * ne se prête pas au castelet — les marionnettes n'auraient rien à dire, et
+ * le spectacle serait une lecture (mesuré au relais : le Soldat de plomb,
+ * 96 % de conteur). On ne demande pas cette part au modèle : elle se mesure.
+ *
+ * Trois écritures du dialogue cohabitent dans wiki/fr/ :
+ * - le format THÉÂTRE des pièces de Guignol : le personnage en capitales sur
+ *   sa ligne, puis sa tirade (les didascalies entre parenthèses ne se disent
+ *   pas) ;
+ * - les guillemets « … » ;
+ * - le tiret de dialogue, et « dit : », qui portent la parole jusqu'au tiret
+ *   suivant ou à la fin du paragraphe — les incises (« dit-il ») restent
+ *   comptées avec la parole qu'elles coupent, l'approximation est assumée.
+ *
+ * La parole seulement RAPPORTÉE (« il lui demanda où elle allait ») n'est pas
+ * comptée : la mesure est donc un plancher, pas un plafond.
+ */
+export function partDialogue(texte: string): number {
+  const total = compterMots(texte);
+  if (!total) return 0;
+  let dits = 0;
+
+  // Format théâtre : il se reconnaît au nombre de lignes-noms.
+  const lignes = texte.split('\n');
+  if (lignes.filter(estNomDeTheatre).length >= 6) {
+    let parle = false;
+    for (const ligne of lignes) {
+      const t = ligne.trim();
+      if (!t) continue;
+      if (estNomDeTheatre(t)) { parle = true; continue; }
+      if (parle) dits += compterMots(t.replace(/\([^)]*\)/g, ' '));
+    }
+    return Math.min(1, dits / total);
+  }
+
+  // Format prose : guillemets, tirets, « dit : ».
+  const VERBES_DE_PAROLE = /\b(dit|dirent|disait|cria|crie|criait|demanda|demande|répondit|répond|reprit|ajouta|s['’]écria|hurla|chuchota|murmura|appela|supplia|ordonna|annonça|déclara|gémit|soupira|grogna|rugit|lança|fit)\s*:\s*(.+)$/u;
+  for (const paragraphe of texte.split(/\n+/)) {
+    let p = paragraphe.replace(/«[^»]*»|“[^”]*”/g, (m) => {
+      dits += compterMots(m);
+      return ' ';
+    });
+    const morceaux = p.split(/[—–]/);
+    if (morceaux.length > 1) {
+      for (const m of morceaux.slice(1)) dits += compterMots(m);
+      p = morceaux[0];
+    }
+    const m = VERBES_DE_PAROLE.exec(p);
+    if (m) dits += compterMots(m[2]);
+  }
+  return Math.min(1, dits / total);
+}

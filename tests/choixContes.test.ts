@@ -18,7 +18,7 @@ import {
   ressemblanceTraits,
   roleParNom,
 } from '../src/services/choixContes';
-import { compterMots } from '../src/services/mots';
+import { compterMots, partDialogue } from '../src/services/mots';
 import { MALUS, malusDe, type Rencontre } from '../src/services/historiqueContes';
 import { CONTES, conteParId, lireFiche, texteDuConte } from '../src/services/repertoire';
 
@@ -184,6 +184,8 @@ describe('la durée', () => {
     for (const id of ['ru-kolobok', 'ar-ali-baba', 'zh-tirer-les-pousses']) {
       expect(INDEX[id].mots, `${id} : relancez node tools/indexer-contes.mjs`)
         .toBe(compterMots(await texteDuConte(id)));
+      expect((INDEX[id] as { dialogue?: number }).dialogue, `${id} : relancez node tools/indexer-contes.mjs`)
+        .toBe(Math.round(partDialogue(await texteDuConte(id)) * 100) / 100);
     }
   });
 });
@@ -267,6 +269,62 @@ describe('la durée, une barrière', () => {
     for (let i = 1; i < jouables.length; i++) expect(jouables[i]).toBeLessThan(jouables[i - 1]);
     // Et il reste toujours de quoi proposer huit contes.
     for (const d of [2, 5, 10, 20, 30]) expect(pour(d).candidats).toHaveLength(8);
+  });
+});
+
+describe('partDialogue : la part des paroles dans un texte', () => {
+  it('reconnaît le format théâtre : le personnage en capitales, puis sa tirade', () => {
+    const noms = Array.from({ length: 3 }, (_, i) => `PERSONNAGE ${'ABC'[i]}.\n\nUne tirade de sept mots pour la scène.\n\n`).join('');
+    const piece = `${noms}${noms}Il salue le public sans parler.`;
+    // Les lignes-noms comptent dans le total mais pas dans les paroles, et la
+    // dernière ligne, arrivée après une tirade, compte avec elle :
+    // l'approximation est connue, il suffit que la pièce se voie.
+    expect(partDialogue(piece)).toBeGreaterThan(0.75);
+  });
+
+  it('compte les guillemets, les tirets et « dit : », pas le récit', () => {
+    const texte = 'Le loup marchait dans le bois depuis le matin.\n'
+      + 'Il dit : Bonjour petite fille du village voisin.\n'
+      + '— Bonjour monsieur le loup gris, répondit-elle.\n'
+      + 'Puis chacun reprit sa route sous les grands arbres.';
+    const part = partDialogue(texte);
+    expect(part).toBeGreaterThan(0.3);
+    expect(part).toBeLessThan(0.6);
+  });
+
+  it('ne voit pas la parole seulement rapportée : la mesure est un plancher', () => {
+    expect(partDialogue('Il lui demanda où elle allait, et elle répondit sans se méfier.')).toBe(0);
+  });
+});
+
+describe('le dialogue, une barrière', () => {
+  const index = JSON.parse(INDEX_BRUT) as Record<string, { dialogue?: number }>;
+  const trois = [
+    m('1', 'Soldat', ['courageux'], 'un soldat de tissu'),
+    m('2', 'Danseuse', ['rêveur'], 'une poupée danseuse'),
+    m('3', 'Diablotin', ['méchant'], 'un diable en peluche noire'),
+  ];
+
+  it('écarte un conte presque tout en récit, même appelé par l’ébauche', () => {
+    // Le Soldat de plomb : 15 % de dialogue, et au relais un spectacle dit à
+    // 96 % par le conteur. On écarte plutôt que d'inventer des dialogues.
+    const r = choisirContes(trois, {
+      ageAuditoire: 8, dureeMinutes: 8, nbMarionnettistes: 1 as const,
+      ebauche: 'le soldat de plomb à une jambe et la danseuse de papier',
+    });
+    expect(r.candidats.map((c) => c.conte.id)).not.toContain('dk-soldat-de-plomb');
+  });
+
+  it('ne propose que des contes qui donnent la parole aux marionnettes, fables et randonnées à part', () => {
+    for (const age of [4, 7, 9]) {
+      const r = choisirContes(trois, { ageAuditoire: age, dureeMinutes: 5, nbMarionnettistes: 1 as const });
+      for (const c of r.candidats) {
+        const dialogue = index[c.conte.id]?.dialogue;
+        if (dialogue === undefined) continue;
+        if (['fable', 'conte en randonnée'].includes(c.conte.genre)) continue;
+        expect(dialogue, `${c.conte.id} : ${dialogue}`).toBeGreaterThanOrEqual(0.16);
+      }
+    }
   });
 });
 

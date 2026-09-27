@@ -43,7 +43,7 @@ import type { Marionnette } from '../types';
  * Longueur et mots-clés de chaque conte, tirés de son texte intégral par
  * tools/indexer-contes.mjs.
  */
-const INDEX = JSON.parse(INDEX_BRUT) as Record<string, { mots: number; cles: string[] }>;
+const INDEX = JSON.parse(INDEX_BRUT) as Record<string, { mots: number; dialogue?: number; cles: string[] }>;
 
 /** Six marionnettes au plus dans un spectacle (CDC §4). */
 const MAX_EN_SCENE = BORNES.marionnettesParSpectacle.max;
@@ -94,6 +94,23 @@ export const CHOIX = {
    * pour CE spectacle.
    */
   plancherDuree: 0.25,
+  /**
+   * Barrière de dialogue : part minimale des mots du conte qui sont des
+   * paroles de personnages (`partDialogue`, mesurée dans l'index). Un conte
+   * presque tout en récit ne se prête pas au castelet : les marionnettes
+   * n'ont rien à dire, et le spectacle devient une lecture — mesuré au
+   * relais, le Soldat de plomb (15 % de dialogue) a donné un spectacle dit à
+   * 96 % par le conteur. Décision de Nicolas, 2026-09-27 : on écarte, pour le
+   * moment, plutôt que d'inventer des dialogues.
+   *
+   * À 0,16, treize contes sont écartés (dont le Soldat de plomb, Les Trois
+   * Ours à 10 %, Le Navet à 2 %). Deux genres sont exemptés, parce que leur
+   * récit EST leur forme de scène : la fable (ses vers se disent, et la
+   * barrière de durée la réserve déjà aux spectacles courts) et le conte en
+   * randonnée (le refrain repris par les enfants porte le spectacle).
+   */
+  plancherDialogue: 0.16,
+  genresExemptesDeDialogue: ['fable', 'conte en randonnée'],
 } as const;
 
 /* ================================================================== */
@@ -958,7 +975,7 @@ export function choisirContes(
   const somme = P.nombre + P.traits + P.duree + P.espece + P.castelet
     + (avecEbauche ? P.ebauche : 0);
 
-  const evaluer = (plancher: number) => {
+  const evaluer = (plancher: number, plancherDialogue = CHOIX.plancherDialogue) => {
     const evalues: Candidat[] = [];
     for (const conte of possibles) {
       // La barrière de durée : un conte qu'il faudrait étirer plus de quatre
@@ -966,6 +983,12 @@ export function choisirContes(
       // longueur passe : on ne l'écarte pas sur une donnée manquante.
       const mots = INDEX[conte.id]?.mots ?? 0;
       if (mots && mots < motsSpectacle * plancher) continue;
+      // La barrière de dialogue : un conte presque tout en récit ne se joue
+      // pas, il se lit (voir CHOIX.plancherDialogue). Une part inconnue
+      // passe ; la fable et le conte en randonnée sont exemptés.
+      const dialogue = INDEX[conte.id]?.dialogue;
+      if (dialogue !== undefined && dialogue < plancherDialogue
+        && !(CHOIX.genresExemptesDeDialogue as readonly string[]).includes(conte.genre)) continue;
       // Le nombre. Sur une scène garnie, c'est une barrière : le conte doit
       // aller aux marionnettes présentes. Avec le vivier, c'est l'inverse —
       // on prend exactement autant de marionnettes qu'il y a de rôles —, et
@@ -1008,11 +1031,12 @@ export function choisirContes(
     return evalues;
   };
 
-  // On relâche le plancher plutôt que de rendre une liste vide : mieux vaut
-  // proposer un conte qu'il faudra étirer que n'en proposer aucun.
+  // On relâche les planchers plutôt que de rendre une liste vide : mieux vaut
+  // proposer un conte qu'il faudra étirer, ou plus narratif qu'on ne voudrait,
+  // que n'en proposer aucun.
   let evalues = evaluer(CHOIX.plancherDuree);
   if (evalues.length < CHOIX.presentes) evalues = evaluer(CHOIX.plancherDuree / 2);
-  if (evalues.length < 3) evalues = evaluer(0);
+  if (evalues.length < 3) evalues = evaluer(0, 0);
 
   evalues.sort((a, b) => b.notes.total - a.notes.total || a.conte.id.localeCompare(b.conte.id));
 

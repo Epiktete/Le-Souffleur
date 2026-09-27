@@ -20,7 +20,7 @@
 
 import { readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
-import { corpsDuTexte, compterMots, motsSignifiants } from '../src/services/mots.ts';
+import { corpsDuTexte, compterMots, motsSignifiants, partDialogue } from '../src/services/mots.ts';
 
 const DOSSIER = 'wiki/fr';
 const MOTS_CLES = 60;
@@ -49,7 +49,9 @@ for (const t of textes) {
     .slice(0, MOTS_CLES)
     .map(([m]) => m)
     .sort();
-  index[t.id] = { mots: compterMots(t.corps), cles };
+  // La part de dialogue, arrondie au centième : la barrière du choix des
+  // contes écarte ce qui est presque tout en récit (choixContes.ts).
+  index[t.id] = { mots: compterMots(t.corps), dialogue: Math.round(partDialogue(t.corps) * 100) / 100, cles };
 }
 
 writeFileSync('wiki/index.json', `${JSON.stringify(index, null, 0).replace(/\},"/g, '},\n"')}\n`);
