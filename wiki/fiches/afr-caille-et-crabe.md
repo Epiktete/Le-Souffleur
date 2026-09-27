@@ -25,4 +25,4 @@ structure: bienfait trahi et puni
 4. Il se cache et entend tout ; le lendemain, il l'attrape par le cou.
 5. « Lâche le cou, prends la queue, la queue c'est ma mort ! » Il lâche le cou : elle s'envole, lui laisse sa queue.
 
-**À adapter.** Les deux chœurs d'enfants (« tiens-la bien ! », « rends-lui son eau ! ») se partagent entre le public et les marionnettes. La ruse finale est la même que celle du renard à la queue coupée.
+**À jouer.** Les deux chœurs d'enfants (« tiens-la bien ! », « rends-lui son eau ! ») se partagent entre le public et les marionnettes. La ruse finale est la même que celle du renard à la queue coupée.

@@ -1,0 +1,31 @@
+{
+  "id": "afr-belette-et-hyene",
+  "langue": [
+    {"avant": "mais l’autre la saisit, attacha un bâton", "apres": "mais la belette la saisit, attacha un bâton", "nature": "pronom", "jusqua": 6},
+    {"avant": "mais tandis qu’elle se préparait", "apres": "mais pendant qu’elle se préparait", "nature": "connecteur", "jusqua": 8}
+  ],
+  "moments": [
+    {
+      "id": "oreille-mangee",
+      "type": "cruaute",
+      "niveaux": [
+        {
+          "jusqua": 6,
+          "annonce": "L’homme n’arrache pas l’oreille de la Hyène : il l’attaque, et elle s’enfuit dans la forêt. Elle n’a perdu que sa queue, au trou de la Belette.",
+          "retouches": [
+            {"avant": "il commença à l’attaquer, saisit une de ses oreilles, la serra fortement, l’arracha et la mit sur le feu. Quand il l’eut exposée un peu au feu, il la reprit et la mangea en sorte que la hyène vit l’homme manger son oreille. À cette vue, elle dit :", "apres": "il commença à l’attaquer. À cette vue, elle dit :"},
+            {"avant": "L’homme qui m’a arraché l’oreille et la mange m’épargnera-t-il s’il reste ?", "apres": "Cet homme ne m’épargnera pas si je reste !"},
+            {"avant": "La belette rendit la hyène sans queue et sans oreille", "apres": "La belette rendit la hyène sans queue"}
+          ]
+        },
+        {
+          "jusqua": 10,
+          "annonce": "L’homme arrache une oreille à la Hyène et la mange, mais le conte le dit en une phrase, sans détail.",
+          "retouches": [
+            {"avant": "il commença à l’attaquer, saisit une de ses oreilles, la serra fortement, l’arracha et la mit sur le feu. Quand il l’eut exposée un peu au feu, il la reprit et la mangea en sorte que la hyène vit l’homme manger son oreille. À cette vue, elle dit :", "apres": "il commença à l’attaquer, lui arracha une oreille, la fit griller et la mangea sous ses yeux. À cette vue, elle dit :"}
+          ]
+        }
+      ]
+    }
+  ]
+}

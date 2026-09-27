@@ -23,4 +23,4 @@ structure: vol déjoué
 4. Au matin : « Tu t'es battu avec les voleurs ? — Oui. »
 5. « Quel bras ! Le coup a été si fort qu'il m'a atteinte jusqu'ici, de l'autre côté ! »
 
-**À adapter.** Le tison devient un seau d'eau ou une poignée de sable. Le public sait tout depuis le début : il peut prévenir le lièvre.
+**À jouer.** Le public sait tout depuis le début : il peut prévenir le lièvre. La traversée de nuit se joue sur la pointe des pattes ; au matin, le lièvre sourit sans rien dire pendant que la hyène se trahit toute seule. Parenté : « La Gueule tapée, la Hyène et le Lion », autre hyène voleuse.

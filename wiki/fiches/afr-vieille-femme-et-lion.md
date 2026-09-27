@@ -24,4 +24,4 @@ structure: service rendu puis trahison
 4. Elle jure, et crie aussitôt aux bergers : « Il y a un lion ! »
 5. Le lion, chassé, conclut : on ne peut pas se fier à qui promet trop vite.
 
-**À adapter.** Pas de dévoration : le lion revient réclamer des comptes et la vieille doit réparer (lui trouver un autre repas, lui présenter des excuses). Le lion devient le héros trompé, le public prend son parti.
+**À jouer.** Le lion répète sa demande et la vieille jure deux fois : bien marquer la répétition, pour que la trahison fasse son effet. Le lion est le bienfaiteur trompé, le public prend son parti.

@@ -23,4 +23,4 @@ structure: association rompue
 4. Le rat perce le panier et mange tout.
 5. Le chat revient, trouve le panier vide, poursuit le rat qui disparaît dans son trou : « Désormais, les chats mangeront les rats ! »
 
-**À adapter.** Le bœuf volé devient une grosse provision ou un gâteau. Le trou creusé au début est un bon « fusil de Tchekhov » à montrer au public.
+**À jouer.** Le trou creusé au début est un bon « fusil de Tchekhov » à montrer au public.

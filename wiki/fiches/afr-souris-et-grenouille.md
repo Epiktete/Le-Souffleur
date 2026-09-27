@@ -24,4 +24,4 @@ structure: procès truqué
 4. Le lézard se présente en habits de fête pour le mariage : la souris le chasse en l'insultant.
 5. Le lézard lui lance : « Rends donc le grain de la grenouille ! »
 
-**À adapter.** Le mariage devient une promesse d'invitation ou d'amitié ; les armes de parade, un chapeau et un nœud. Finir sur la souris qui rend le grain devant tout le monde.
+**À jouer.** Le procès se joue comme un tribunal : chacune pose sa question au lézard, qui jure. Le lézard arrive en grande parade pour son mariage : le contraste avec l'accueil de la souris fait la chute, et sa dernière réplique rend justice à la grenouille.

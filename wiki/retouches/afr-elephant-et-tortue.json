@@ -1,0 +1,32 @@
+{
+  "id": "afr-elephant-et-tortue",
+  "langue": [],
+  "moments": [
+    {
+      "id": "mordu-de-l-interieur",
+      "type": "cruaute",
+      "niveaux": [
+        {
+          "jusqua": 6,
+          "annonce": "On ne dit pas ce que la Tortue mord dans le ventre de l’Éléphant : elle le mord de l’intérieur.",
+          "retouches": [
+            {"avant": "elle lui mordit le foie, le cœur et les reins", "apres": "elle le mordit de l’intérieur"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mort-de-l-elephant",
+      "type": "punition",
+      "niveaux": [
+        {
+          "jusqua": 4,
+          "annonce": "L’Éléphant ne meurt pas : mordu de l’intérieur, il recrache bien vite la Tortue, qui s’en va où elle veut.",
+          "retouches": [
+            {"avant": "tu me tues. Ainsi mourut l’éléphant. La tortue sortit et s’en alla où elle voulut.", "apres": "tu me fais mal ! Et l’éléphant la recracha bien vite. La tortue s’en alla où elle voulut."}
+          ]
+        }
+      ]
+    }
+  ]
+}

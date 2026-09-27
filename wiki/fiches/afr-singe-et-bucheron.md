@@ -26,4 +26,4 @@ structure: ascension par un auxiliaire (famille du Chat botté)
 4. Il rit sans raison, la princesse se vexe ; le singe lui souffle une excuse : il regrettait son palais de briques d'or.
 5. La princesse veut voir ce palais : le singe en trouve un, en chasse l'usurpateur, et y installe son maître.
 
-**À adapter.** Le vol du trésor devient un « emprunt » que le singe rend à la fin ; supprimer les coups donnés à la princesse ; les esclaves deviennent des serviteurs ou disparaissent.
+**À jouer.** Le singe qui amuse la princesse par ses jeux est une scène de pitreries pour la marionnette. Le public est complice de chaque ruse : la clé sous le coussin, l'or du roi qui paie la fille du roi, l'excuse du palais de briques d'or. Parenté avec « Le Chat botté » de Perrault.

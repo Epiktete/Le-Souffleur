@@ -30,4 +30,4 @@ structure: conte en chaîne
 4. Le babouin condamne : chat, mords la souris ; chien, mords le chat… fourmi, pique l'éléphant.
 5. Le tailleur est satisfait ; le babouin, pour ce jugement insensé, perd le droit de marcher debout.
 
-**À adapter.** Les morsures deviennent des poursuites. La chaîne peut être raccourcie à trois ou quatre maillons joués, les autres racontés. Le public peut tenir la liste et rappeler qui accuse qui.
+**À jouer.** La chaîne peut être raccourcie à trois ou quatre maillons joués, les autres racontés. Le public peut tenir la liste et rappeler qui accuse qui.

@@ -24,4 +24,4 @@ structure: accord et plainte
 4. Le renard va se plaindre au lion : le babouin l'aurait affamé.
 5. Le lion fait mine de le consoler, et se moque de lui en secret.
 
-**À adapter.** La fin est ouverte : donner au lion une vraie sentence comique (il sert au renard… une assiette de fruits).
+**À jouer.** L'accord « Ce que nous trouverons, nous le mangerons en commun » revient en refrain, et le public peut le redire. Le lion console le renard à voix haute et se moque de lui en aparté : le public est dans la confidence.

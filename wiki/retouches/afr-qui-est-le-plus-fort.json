@@ -1,0 +1,8 @@
+{
+  "id": "afr-qui-est-le-plus-fort",
+  "langue": [
+    {"avant": "que mon père qu’il supporte", "apres": "que mon père qu’il soutient", "nature": "faux-ami"},
+    {"avant": "déjà sur l’âge", "apres": "déjà vieux", "nature": "mot-disparu"}
+  ],
+  "moments": []
+}

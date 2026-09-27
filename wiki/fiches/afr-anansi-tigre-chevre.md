@@ -25,4 +25,4 @@ structure: fuite et traversée
 4. Le tigre arrive au moment de la dernière pierre.
 5. Anansi tend un fil par-dessus l'eau et passe ; le tigre reste seul sur la rive : « Groum… »
 
-**À adapter.** Rien de délicat. Le « groum ! groum ! » qui se rapproche est à faire avec le public. Les pierres peuvent être des galets de tissu.
+**À jouer.** Le « groum ! groum ! » qui se rapproche est à faire avec le public. Les pierres peuvent être des galets de tissu.

@@ -27,4 +27,4 @@ structure: suite d'aventures du rusé
 4. Avec le renard, il pille un autre arbre ; le propriétaire y pose une poupée de glu : ils restent collés.
 5. Le lièvre fait le mort, se laisse emporter dans le panier, mange les fruits en route et s'échappe.
 
-**À adapter.** Supprimer le sang et la fosse de feu (l'épreuve devient un saut au-dessus d'une flaque) ; le renard n'y reste pas : il s'enfuit penaud. Deux spectacles possibles : le sauvetage, ou la poupée de glu (proche de Tar-Baby).
+**À jouer.** Deux spectacles possibles : le sauvetage de la jeune fille, ou la poupée de glu (proche du « Bébé de goudron »). Le « Beaucoup, beaucoup » du lièvre qui marchande ses poules est un gag à répéter. Dans la corbeille, le lièvre mange les fruits dans le dos du propriétaire : le public est complice.

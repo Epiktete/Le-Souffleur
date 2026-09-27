@@ -23,4 +23,4 @@ structure: concours
 4. Le coq grimpe sur son dos et picore : « Je mange les petites bêtes sur ta peau. »
 5. L'éléphant, épouvanté par un tel appétit, s'enfuit — et fuit encore quand le coq chante.
 
-**À adapter.** Rien de délicat. Le concours se rythme par des « Tu manges encore ? » que le public peut crier. Conte explicatif à garder : « depuis ce jour… ».
+**À jouer.** Le concours se rythme par des « Tu manges encore ? » que le public peut crier. La fin explicative se garde : « depuis ce jour… ».

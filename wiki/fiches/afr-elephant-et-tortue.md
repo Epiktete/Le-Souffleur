@@ -29,4 +29,4 @@ structure: garde et reddition de comptes
 4. Le lion ne demande pas : il bouscule la tortue et boit ; tous les autres après lui.
 5. L'éléphant furieux menace d'avaler la tortue : « Avale-moi donc ! » — et de l'intérieur, elle le chatouille jusqu'à ce qu'il la recrache.
 
-**À adapter.** L'original finit par la mort de l'éléphant, mordu de l'intérieur : la remplacer par des chatouilles ou un hoquet géant. La réplique de la tortue revient à chaque visiteur : le public la dit avec elle.
+**À jouer.** La réplique de la tortue revient à chaque visiteur : le public la dit avec elle. Trois ou quatre assoiffés suffisent avant le lion. Parentés : « Le Lièvre et la Rainette », autres gardiens d'un point d'eau, et « La Tortue et l'Éléphant », où la plus petite a aussi le dernier mot.

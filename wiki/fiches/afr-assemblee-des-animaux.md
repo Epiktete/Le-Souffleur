@@ -25,4 +25,4 @@ structure: épreuve devant l'assemblée
 4. Le chacal prétexte de mauvais yeux et envoie le lion ; le mulet lui décoche une ruade.
 5. Le lion tombe ; le chacal se jette sur lui : « C'est celui qui tombe que je prends. »
 
-**À adapter.** Pas de dévoration : le lion renversé est ridiculisé et le chacal file avec le dîner prévu. La tournée des questions se joue en ritournelle, le public peut répondre.
+**À jouer.** La tournée des questions se joue en ritournelle, le public peut répondre.

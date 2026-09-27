@@ -1,0 +1,49 @@
+{
+  "id": "afr-lievre-bari",
+  "langue": [
+    {"avant": "une image de jeune fille", "apres": "une poupée de jeune fille", "nature": "faux-ami"}
+  ],
+  "moments": [
+    {
+      "id": "poules-egorgees",
+      "type": "cruaute",
+      "niveaux": [
+        {
+          "jusqua": 6,
+          "annonce": "On ne voit pas le Lièvre égorger les poules : il les mange, puis rapporte un peu de leur sang pour en barbouiller la Hyène.",
+          "retouches": [
+            {"avant": "Alors il les égorgea et versa leur sang dans un petit plateau. Après qu’il eut mangé à satiété, il revint à l’arbre en emportant le plateau avec le sang.", "apres": "Alors il les mangea jusqu’à n’en plus pouvoir, et il revint à l’arbre en emportant un peu de leur sang dans un petit plateau."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fosse-de-feu",
+      "type": "punition",
+      "niveaux": [
+        {
+          "jusqua": 4,
+          "annonce": "L’épreuve du Lièvre est une fosse pleine de boue, et non de feu : tous les animaux tombent dans la boue.",
+          "retouches": [
+            {"avant": "une fosse profonde et large avec du feu dedans : tous les animaux sauteront par dessus le feu", "apres": "une fosse profonde et large pleine de boue : tous les animaux sauteront par dessus la boue"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "le-renard-meurt",
+      "type": "mort-gentil",
+      "niveaux": [
+        {
+          "jusqua": 6,
+          "annonce": "Le Renard ne meurt pas sous les coups : il s’évanouit, et se réveille dans la marmite juste à temps pour s’enfuir avec le Lièvre.",
+          "retouches": [
+            {"avant": "Le renard gémit beaucoup jusqu’à ce qu’il crevât.", "apres": "Le renard gémit beaucoup, tant et si bien qu’il finit par s’évanouir."},
+            {"avant": "voulut réveiller le renard, mais celui-ci était mort.", "apres": "voulut réveiller le renard, mais celui-ci resta évanoui."},
+            {"avant": "sauta dehors et s’enfuit. Le propriétaire le poursuivit, mais inutilement.", "apres": "sauta dehors et s’enfuit ; le renard, réveillé par l’eau chaude, sauta derrière lui. Le propriétaire les poursuivit, mais inutilement."}
+          ]
+        }
+      ]
+    }
+  ]
+}

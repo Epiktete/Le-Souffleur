@@ -26,4 +26,4 @@ structure: imposture puis retour
 4. Le daim, méfiant, vient voir « le bébé », le démasque et le chasse.
 5. L'araignée rentre chez elle, où sa femme a travaillé et récolté : « L'araignée est morte depuis longtemps. »
 
-**À adapter.** Remplacer la potion et la grossesse par un déguisement de bébé dans un berceau (effet comique garanti). La fin est une vraie leçon : celui qui a fui le travail ne mange pas la récolte.
+**À jouer.** L'araignée dans les vêtements du nouveau-né, nourrie de riz par la femme riche, est l'effet comique du conte. La fin est une vraie leçon : celui qui a fui le travail ne mange pas la récolte.

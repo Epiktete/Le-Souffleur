@@ -27,4 +27,4 @@ structure: quête à épreuves
 4. Il convainc la hyène de l'accompagner chez Dieu : on la paiera au centuple.
 5. Dieu passe la liste en revue, tout y est : « Va, tu as déjà ta finesse. »
 
-**À adapter.** Dans la tradition, Dieu conclut que le lièvre n'a pas besoin de talisman : le garder. Le donneur peut être un vieux sage ou une fée. Les épreuves se jouent une par une, en ritournelle.
+**À jouer.** Les épreuves se jouent une par une, en ritournelle. Dieu peut n'être qu'une voix, hors du castelet ; sa revue de la liste (« Apporte, mon ami ») se joue comme un appel que le public suit. Parenté : « Le Lièvre et les Moineaux », où le lièvre remplit une gourde de la même façon.

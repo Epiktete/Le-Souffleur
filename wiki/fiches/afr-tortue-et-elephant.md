@@ -25,4 +25,4 @@ structure: deux défis gagnés par la même ruse
 4. Vexé, il la défie à la course ; la nuit, elle poste toute sa famille le long de la route.
 5. À chaque « Tortue ? », une voix répond « Ici ! »… devant lui. L'éléphant s'épuise.
 
-**À adapter.** Parfait pour marionnettes : deux tortues identiques suffisent, en jouant de cachettes. Le public est complice du secret. Parenté avec « Le Lièvre et le Hérisson ».
+**À jouer.** Parfait pour marionnettes : deux tortues identiques suffisent, en jouant de cachettes. Le public est complice du secret. Parenté avec « Le Lièvre et le Hérisson ».

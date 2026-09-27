@@ -26,4 +26,4 @@ structure: conte en chaîne
 4. La femme commande au forgeron ; le bébé commande à la femme en pleurant.
 5. Le père répond à chaque fois : « Attends encore. »
 
-**À adapter.** L'original finit sur la mort du bébé et sur Dieu : terminer sur le bébé qui s'endort… vaincu par le sommeil, ou par la berceuse du père. Chaîne idéale pour faire deviner le public.
+**À jouer.** Chaîne idéale pour faire deviner le public : à chaque étape, on lui demande qui est le plus fort. Le « Attends » du père revient en refrain.

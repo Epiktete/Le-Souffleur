@@ -23,4 +23,4 @@ structure: joute verbale
 4. Le crapaud : elle n'avait que trois sommets, j'ai dû sauter de l'un à l'autre, voilà pourquoi je saute.
 5. « Et ce sont mes sommets fondus qui ont fait ta terre molle : je suis plus vieux que toi ! »
 
-**À adapter.** Conte court : une bonne base pour un spectacle de 2 à 3 minutes, ou un prologue. On peut ajouter un troisième vantard (l'escargot, la tortue) et laisser le public trancher.
+**À jouer.** Conte court : une bonne base pour un spectacle de 2 à 3 minutes, ou un prologue. Le public peut compter les trois sauts du crapaud.

@@ -28,4 +28,4 @@ structure: gardiens successifs
 4. La petite rainette se propose ; elle se cache au fond de l'eau.
 5. Le lièvre, sûr de lui, vient se baigner : elle l'agrippe patte après patte et l'amène au roi. Il s'échappe d'un bond.
 
-**À adapter.** Les coups de bâton deviennent des nœuds et des chatouilles. La fin sanglante de l'original disparaît : le lièvre, pris, doit à son tour nettoyer le puits. La scène du miel se répète en ritournelle.
+**À jouer.** La scène du miel se répète en ritournelle, avec son « Salut, belle dame ! » ; le public peut compter les gardiens liés. La rainette cachée au fond du puits attrape le lièvre par surprise, patte après patte. Parentés : « L'Éléphant et la Tortue », autre gardien d'un point d'eau, et « Le Bébé de goudron », où le rusé se fait prendre à son tour.

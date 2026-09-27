@@ -24,4 +24,4 @@ structure: complicité et abandon
 4. Le fermier la trouve ; elle dénonce le lézard.
 5. Le lézard fait le mourant : « Depuis trois mois je ne quitte pas mon lit ! » La tortue, rafistolée par la fourmi, garde sa carapace en morceaux.
 
-**À adapter.** Pas de mise à mort : la tortue est grondée et doit tout rendre ; le public peut lui souffler la formule qu'elle a oubliée. Parenté avec Ali Baba.
+**À jouer.** Le public connaît la formule que la tortue a oubliée, et la voit s'épuiser devant la pierre, chargée d'ignames jusqu'aux cheveux. Le faux « Kékéréké » de la tortue et le lézard étendu les pattes en l'air sont deux numéros comiques. Parenté avec « Ali Baba et les quarante voleurs ».

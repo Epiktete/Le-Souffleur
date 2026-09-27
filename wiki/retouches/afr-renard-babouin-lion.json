@@ -1,0 +1,9 @@
+{
+  "id": "afr-renard-babouin-lion",
+  "langue": [
+    {"avant": "Le renard et le babouin firent une course", "apres": "Le renard et le babouin partirent ensemble", "nature": "faux-ami"},
+    {"avant": "repartit le babouin", "apres": "répondit le babouin", "nature": "faux-ami"},
+    {"avant": "Où est votre butin ?", "apres": "Où est ce que vous avez trouvé ?", "nature": "mot-rare", "jusqua": 4}
+  ],
+  "moments": []
+}

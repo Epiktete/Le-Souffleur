@@ -25,4 +25,4 @@ structure: perte et reconquête
 4. Il crie dans la rue : « Qui veut changer une vieille outre contre une neuve ? »
 5. Le pèlerin accourt et lui rend, sans le savoir, l'outre pleine d'or.
 
-**À adapter.** Supprimer l'enfant mort et la répudiation finale ; l'outre devient un vieux sac, le trésor des pièces qu'on entend tinter. Djah'a et sa femme peuvent finir complices.
+**À jouer.** L'or se fait entendre : des pièces qui tintent dans la vieille outre. Le public sait avant Djah'a où l'outre est partie, et voit venir la ruse du vieux contre le neuf. « Qui veut changer une vieille outre pour une neuve ? » se lance dans la rue comme un cri de marchand. Parentés : les anecdotes du Hodja (« La Marmite a accouché », « Mange, mon manteau ! ») et « Une histoire de Giufà ».

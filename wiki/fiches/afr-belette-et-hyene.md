@@ -24,4 +24,4 @@ structure: association qui tourne mal
 4. « Des voleurs l'ont mis dans ce trou ! Tends ta queue, j'y attache la viande. » Elle y attache un bâton.
 5. La hyène tire, tire… et s'en va sans queue ni repas.
 
-**À adapter.** Supprimer l'oreille arrachée et mangée ; la queue n'est pas rompue mais la hyène tombe à la renverse. La course au soleil est une belle scène muette.
+**À jouer.** La course au soleil est une belle scène muette. Le public peut crier « Tire ! » avec la belette.

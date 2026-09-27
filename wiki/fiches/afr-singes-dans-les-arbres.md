@@ -25,4 +25,4 @@ structure: farce et vengeance manquée
 4. Le chat fait annoncer sa mort ; les animaux viennent danser autour de lui.
 5. Il bondit sur le singe, qui saute dans l'arbre : depuis, les singes ne descendent plus.
 
-**À adapter.** Rien de délicat. La danse autour du « mort » est une scène de participation idéale : le public sait qu'il fait semblant.
+**À jouer.** La danse autour du « mort » est une scène de participation idéale : le public sait qu'il fait semblant.

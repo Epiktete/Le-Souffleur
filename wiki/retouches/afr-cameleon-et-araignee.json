@@ -1,0 +1,21 @@
+{
+  "id": "afr-cameleon-et-araignee",
+  "langue": [
+    {"avant": "elle avait déjà enfanté", "apres": "elle avait déjà eu des enfants", "nature": "mot-rare", "jusqua": 6}
+  ],
+  "moments": [
+    {
+      "id": "fille-en-recompense",
+      "type": "mal-vieilli",
+      "niveaux": [
+        {
+          "jusqua": 10,
+          "retouches": [
+            {"avant": "Le roi possédait une très belle jeune fille", "apres": "Le roi avait une très belle jeune fille"},
+            {"avant": "recevrait la jeune fille", "apres": "pourrait demander la jeune fille en mariage"}
+          ]
+        }
+      ]
+    }
+  ]
+}

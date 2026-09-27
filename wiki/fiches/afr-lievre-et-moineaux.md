@@ -24,4 +24,4 @@ structure: épreuve réussie, récompense refusée
 4. Intrigués, les moineaux s'informent : il se demande si tous tiendraient dans sa gourde. « Bien sûr, nous sommes si petits ! » Ils entrent l'un après l'autre.
 5. Dieu voit la gourde pleine : « Halte ! Si je te rendais plus malin, tu mettrais le monde sens dessus dessous. »
 
-**À adapter.** Les moineaux sont relâchés à la fin. La dispute solitaire du lièvre est un numéro d'acteur à soigner. Le public peut crier aux moineaux de ne pas entrer.
+**À jouer.** La dispute solitaire du lièvre est un numéro d'acteur à soigner. Le public peut crier aux moineaux de ne pas entrer, et les compter à mesure qu'ils entrent dans la gourde. Parenté : « Le Lièvre et son gris-gris », où le lièvre remplit ses calebasses en piquant l'orgueil de chacun.

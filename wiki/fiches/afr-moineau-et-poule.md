@@ -24,4 +24,4 @@ structure: avertissement, danger, sauvetage
 4. Le soir, il lui donne le secret : « Ponds un œuf chaque matin, et il te gardera. »
 5. La poule remercie son ami.
 
-**À adapter.** Le maître ne vient pas « tuer » la poule mais « la mettre à la marmite » dit à mots couverts, ou la vendre au marché. Les œufs peuvent être remplacés par tout talent qui rend la poule indispensable.
+**À jouer.** Deux hauteurs : le moineau sur sa branche, la poule dans la cour. Quand le maître cherche la poule dans l'herbe, le public se tait avec elle. La poule vexée, puis affolée, puis reconnaissante : trois humeurs bien contrastées.

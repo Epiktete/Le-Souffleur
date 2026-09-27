@@ -25,4 +25,4 @@ structure: vol puni par l'objet lui-même (famille de l'Apprenti sorcier)
 4. … mais la houe continue : la forêt, la cour, les ruisseaux, des années durant.
 5. Seul le caméléon connaît le mot qui l'arrête ; la houe glisse, l'araignée file se cacher derrière les assiettes, où elle vit depuis.
 
-**À adapter.** La récompense n'est pas une jeune fille mais un grand repas ou une couronne de fleurs. Le caméléon dit enfin la formule d'arrêt : le public peut l'aider à la trouver.
+**À jouer.** Le caméléon dit enfin la formule d'arrêt : le public peut l'aider à la trouver.

@@ -1,0 +1,37 @@
+{
+  "id": "afr-lievre-hyene-lion",
+  "langue": [
+    {"avant": "ils délibérèrent d’aller dans le pays", "apres": "ils décidèrent d’aller dans le pays", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "y plantèrent des choses comestibles", "apres": "y plantèrent des choses à manger", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "Lorsque le temps de la maturité des comestibles fut pleinement arrivé", "apres": "Lorsque le temps de la récolte fut arrivé", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "Je ne puis pas te manger par devant", "apres": "Je ne peux pas te manger par devant", "nature": "tournure"}
+  ],
+  "moments": [
+    {
+      "id": "la-hyene-mangee",
+      "type": "punition",
+      "niveaux": [
+        {
+          "jusqua": 4,
+          "annonce": "La Hyène n’est pas mangée : le Lion et le Lièvre la chassent à grands coups de pied.",
+          "retouches": [
+            {"avant": "Les compagnons de la hyène la prirent et la mangèrent.", "apres": "Les compagnons de la hyène la prirent et la chassèrent à grands coups de pied."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "le-lion-mange",
+      "type": "cruaute",
+      "niveaux": [
+        {
+          "jusqua": 6,
+          "annonce": "Le Lièvre ne mange pas le Lion coincé dans la caverne : il l’y laisse, et garde le jardin pour lui.",
+          "retouches": [
+            {"avant": "Alors le lièvre arriva par derrière le lion et mangea sa chair. Quand il eut mangé, le lion dit : — Frère, mange-moi par devant. Le lièvre répondit : — Je ne puis pas te manger par devant : mes yeux ont honte.", "apres": ""}
+          ]
+        }
+      ]
+    }
+  ]
+}

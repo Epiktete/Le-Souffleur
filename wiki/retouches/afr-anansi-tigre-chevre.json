@@ -1,0 +1,8 @@
+{
+  "id": "afr-anansi-tigre-chevre",
+  "langue": [
+    {"avant": "À la fin, néanmoins, ils se querellèrent.", "apres": "Mais à la fin, ils se querellèrent.", "nature": "connecteur", "jusqua": 8},
+    {"avant": "Tandis qu’elles étaient en route", "apres": "Pendant qu’elles étaient en route", "nature": "connecteur", "jusqua": 8}
+  ],
+  "moments": []
+}

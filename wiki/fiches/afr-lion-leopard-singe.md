@@ -25,4 +25,4 @@ structure: procès puis vengeance déjouée
 4. Le lion fait le malade pour l'attirer ; le singe reste à distance.
 5. Il l'entraîne vers un faux trésor, grimpe à un arbre : « Je t'ai trompé, va en paix. »
 
-**À adapter.** Remplacer le cerf mort par un gâteau oublié, et le couteau par une cuillère. Les trois rappels du singe se jouent en ritournelle avec le public.
+**À jouer.** Les trois rappels du singe se jouent en ritournelle avec le public (« Je vais bientôt venir ! »). Le singe lâche son absurdité et file aussitôt : bien marquer le silence de l'assemblée juste avant. « Je t'ai trompé, va en paix », lancé du haut de l'arbre, est la chute.

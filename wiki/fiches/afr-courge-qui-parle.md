@@ -26,4 +26,4 @@ structure: menace, disparition, délivrance
 4. Un garçon, élevé par la seule survivante, part la chercher : « Courge, sors ! »
 5. Il la vainc ; tout le monde sort de la courge et le fait chef.
 
-**À adapter.** Les flèches et le couteau deviennent une ruse (la chatouiller, la faire éternuer, la faire rire) qui la force à tout recracher. La formule « Cueille-moi, je te cueillerai » est un refrain parfait.
+**À jouer.** La formule « Cueille-moi, je te cueillerai » est un refrain parfait. Le public peut appeler avec le garçon : « Courge, sors ! »

@@ -24,4 +24,4 @@ structure: vol puni
 4. Elle pose la marmite… sur la tête d'un lion endormi.
 5. « Voici ce que t'envoie ma mère ! » Et elle s'enfuit les mains vides.
 
-**À adapter.** La gueule tapée (grand lézard du désert) se joue par n'importe quel petit personnage. Ajouter le retour de l'œuf à son propriétaire, rendu par le lion.
+**À jouer.** La gueule tapée (grand lézard du désert) se joue par n'importe quel petit personnage. Le public voit le lion endormi avant la hyène : la marmite posée sur sa tête est la chute, bien marquer le silence juste avant. Parenté : « La Hyène et le Lièvre », autre hyène voleuse qui repart bredouille.

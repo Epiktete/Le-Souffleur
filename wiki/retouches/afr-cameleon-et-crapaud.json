@@ -1,0 +1,12 @@
+{
+  "id": "afr-cameleon-et-crapaud",
+  "langue": [
+    {"avant": "comment était la terre lorsque tu vins au monde ?", "apres": "comment était la terre quand tu es venu au monde ?", "nature": "parler", "jusqua": 4},
+    {"avant": "Lorsque je vins au monde, la terre était", "apres": "Quand je suis venu au monde, la terre était", "nature": "parler", "jusqua": 4},
+    {"avant": "tout entière à l’état liquide", "apres": "toute liquide, comme de l’eau", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "Quant à moi, lorsque je vins au monde", "apres": "Quant à moi, quand je suis venu au monde", "nature": "parler", "jusqua": 4},
+    {"avant": "la terre consistait en trois sommets", "apres": "la terre était faite de trois sommets", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "c’est la liquéfaction de ces sommets qui a formé", "apres": "ce sont ces sommets, en fondant, qui ont formé", "nature": "mot-rare", "jusqua": 6}
+  ],
+  "moments": []
+}

@@ -24,4 +24,4 @@ structure: voyage à règle, élimination
 4. La hyène s'arrête ; « à quoi pensais-tu ? — À rien. » Elle est punie.
 5. Devant une caverne, le lièvre entre et ressort ; le lion l'imite et reste coincé. Le lièvre garde le jardin.
 
-**À adapter.** Personne n'est mangé : la hyène est renvoyée à la maison, le lion coincé doit promettre de partager. Les questions du lièvre sont des devinettes à poser au public.
+**À jouer.** Les questions du lièvre sont des devinettes à poser au public. L'échange de chaque arrêt (« Je réfléchissais. — À quoi réfléchissais-tu ? ») revient comme un refrain que le public reprend. Le lion coincé dans la caverne se joue à moitié caché par le décor. Parenté : « La Hyène et le Lièvre ».

@@ -24,4 +24,4 @@ structure: dette et remboursement
 4. La nuit, la souris revient et ronge les liens.
 5. Le lion repart avec elle, cachée dans sa crinière.
 
-**À adapter.** Le chasseur peut rester hors scène (on l'entend) ; les liens deviennent un filet que la souris grignote en passant derrière le lion.
+**À jouer.** Le chasseur peut rester hors scène (on l'entend). La souris ronge les liens en passant derrière le lion. Le rire du lion devant la promesse de la souris prépare la chute : c'est la minuscule qui délivre le grand. Parenté avec « Le Lion et le Rat » de La Fontaine.
