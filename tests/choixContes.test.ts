@@ -49,8 +49,8 @@ structure: course
 }
 
 describe('le répertoire', () => {
-  it('lit les 136 fiches, sans en perdre une', () => {
-    expect(CONTES.length).toBe(136);
+  it('lit les 146 fiches, sans en perdre une', () => {
+    expect(CONTES.length).toBe(146);
     for (const c of CONTES) {
       expect(c.titre, c.id).not.toBe('');
       expect(c.source, c.id).not.toBe('');
