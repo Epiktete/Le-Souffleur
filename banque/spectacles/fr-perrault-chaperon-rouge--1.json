@@ -1,0 +1,1000 @@
+{
+  "id": "fr-perrault-chaperon-rouge--1",
+  "conteId": "fr-perrault-chaperon-rouge",
+  "titre": "Le Petit Chaperon rouge",
+  "pitch": "{{r1}} traverse le bois pour porter une galette à {{r3}}, mais elle raconte tout au loup {{r2}}, qui court y arriver avant elle.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "poupee",
+      "famille": "adulte",
+      "traits": [
+        "curieux",
+        "gentil"
+      ],
+      "voix": "voix claire et vive, parle vite et avec entrain"
+    },
+    {
+      "cle": "r2",
+      "espece": "loup",
+      "famille": "predateur",
+      "traits": [
+        "méchant",
+        "gourmand"
+      ],
+      "voix": "voix grave et râpeuse, parle en grognant et se lèche les babines, « miam » ; il fait une petite voix aiguë et fausse quand il imite {{r1}} ou {{r3}}"
+    },
+    {
+      "cle": "r3",
+      "espece": "mamie",
+      "famille": "vieux",
+      "traits": [
+        "sage",
+        "gentil"
+      ],
+      "voix": "voix chevrotante et lente, un peu fatiguée, dit « mon petit » avec douceur"
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 6,
+    "ageAuditoire": 5,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup",
+    "ebauche": "le Petit Chaperon rouge"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "Le bois",
+      "description": "Posez deux coussins debout, un à chaque bout de la table : ce sont les arbres du bois. Si vous en avez une, étalez une nappe ou un drap vert devant, pour cacher vos bras.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "La maison de {{r3}}",
+      "description": "Couchez un coussin à droite de la table : c'est le lit, avec un torchon posé dessus comme couverture. À gauche, un carton debout fait la porte : c'est là qu'on frappe « toc, toc » sur la table.",
+      "accessoires": [
+        "un torchon (la couverture du lit)"
+      ],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "La rencontre dans le bois",
+      "tableauId": "t1",
+      "resume": "La maman de {{r1}} l'envoie chez {{r3}} avec une galette. Dans le bois, {{r1}} rencontre {{r2}}, lui dit tout, et il lui propose une course : il prend le chemin le plus court.",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Il était une fois une petite fille de village, la plus éveillée qu’on ait jamais vue : sa mère l’aimait à la folie, et sa mère-grand plus encore."
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e3",
+          "type": "didascalie",
+          "texte": "{{r1}} sautille au milieu de la scène et tourne sur elle-même, toute fière, la tête bien haute."
+        },
+        {
+          "id": "a1e4",
+          "type": "conteur",
+          "texte": "Cette bonne vieille lui fit faire un petit chaperon rouge qui lui allait si bien, que partout on l’appelait {{r1}}."
+        },
+        {
+          "id": "a1e5",
+          "type": "conteur",
+          "texte": "Un jour, sa mère ayant cuit et fait des galettes, lui dit :"
+        },
+        {
+          "id": "a1e6",
+          "type": "note_marionnettiste",
+          "texte": "Voix de la Maman, en coulisse : \"Va voir comment se porte {{r3}}, car on m’a dit qu’elle était malade. Porte-lui une galette et ce petit pot de beurre.\""
+        },
+        {
+          "id": "a1e7",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne vers le fond du castelet, d’où vient la voix, et hoche la tête."
+        },
+        {
+          "id": "a1e8",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oui, Maman !",
+          "ton": "joyeux, vers la coulisse"
+        },
+        {
+          "id": "a1e9",
+          "type": "conteur",
+          "texte": "{{r1}} partit aussitôt pour aller chez sa mère-grand, {{r3}}, qui demeurait dans un autre village."
+        },
+        {
+          "id": "a1e10",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e11",
+          "type": "conteur",
+          "texte": "En passant dans un bois, elle rencontra compère {{r2}}, qui eut bien envie de la manger ; mais il n’osa, à cause de quelques bûcherons qui étaient dans la forêt."
+        },
+        {
+          "id": "a1e12",
+          "type": "didascalie",
+          "texte": "{{r2}} s’approche tout près de {{r1}}, lentement, le museau tendu vers elle."
+        },
+        {
+          "id": "a1e13",
+          "type": "didascalie",
+          "texte": "{{r2}} recule d’un coup, regarde à droite, à gauche, puis revient vers {{r1}}."
+        },
+        {
+          "id": "a1e14",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Bonjour, petite. Où vas-tu ?",
+          "ton": "doux et mielleux, trop gentil"
+        },
+        {
+          "id": "a1e15",
+          "type": "conteur",
+          "texte": "La pauvre enfant, qui ne savait pas qu’il était dangereux de s’arrêter à écouter un loup, lui dit :"
+        },
+        {
+          "id": "a1e16",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je vais voir {{r3}}, et lui porter une galette, avec un petit pot de beurre, que ma mère lui envoie.",
+          "ton": "gaiement, toute contente"
+        },
+        {
+          "id": "a1e17",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Demeure-t-elle bien loin ?",
+          "ton": "l’air de rien, en se léchant les babines"
+        },
+        {
+          "id": "a1e18",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne et montre le lointain d’un grand mouvement de tête."
+        },
+        {
+          "id": "a1e19",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oh ! oui ; c’est par delà le moulin que vous voyez tout là-bas, à la première maison du village.",
+          "ton": "en expliquant bien, sans se méfier"
+        },
+        {
+          "id": "a1e20",
+          "type": "didascalie",
+          "texte": "{{r2}} montre un côté de la scène d’un coup de tête, puis l’autre côté."
+        },
+        {
+          "id": "a1e21",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Eh bien ! je veux aller la voir aussi : j’y vais par ce chemin-ci, et toi par ce chemin-là ; et nous verrons qui y sera le premier.",
+          "ton": "gai, comme pour un jeu"
+        },
+        {
+          "id": "a1e22",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne vers son chemin et regarde au loin. {{r2}} pivote vers les enfants."
+        },
+        {
+          "id": "a1e23",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Chut ! Moi, je prends le chemin le plus court !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e24",
+          "type": "note_marionnettiste",
+          "texte": "Pendant le chuchotement de {{r2}}, {{r1}} reste tournée vers le lointain et ne bouge pas."
+        },
+        {
+          "id": "a1e25",
+          "type": "didascalie",
+          "texte": "{{r2}} file en courant de toute sa force vers le côté le plus proche de la scène."
+        },
+        {
+          "id": "a1e26",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e27",
+          "type": "didascalie",
+          "texte": "{{r1}} part tout doucement de l’autre côté, s’arrête et se penche vers le sol, deux fois, comme pour ramasser des noisettes."
+        },
+        {
+          "id": "a1e28",
+          "type": "didascalie",
+          "texte": "{{r1}} saute en l’air à droite, puis à gauche, comme après un papillon."
+        },
+        {
+          "id": "a1e29",
+          "type": "didascalie",
+          "texte": "{{r1}} se penche vers le sol trois fois, en se relevant à chaque fois, comme pour cueillir des fleurs."
+        },
+        {
+          "id": "a1e30",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Comptez avec moi les fleurs de mon bouquet !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e31",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Une, deux, trois !",
+          "ton": "lentement, en hochant la tête à chaque nombre"
+        },
+        {
+          "id": "a1e32",
+          "type": "note_marionnettiste",
+          "texte": "Faire reprendre « Une, deux, trois ! » en chœur par les enfants, un hochement de tête de {{r1}} par nombre ; si personne ne compte, {{r1}} recompte seule, un peu plus fort."
+        },
+        {
+          "id": "a1e33",
+          "type": "didascalie",
+          "texte": "{{r1}} s’éloigne en sautillant vers le côté opposé à celui de {{r2}}."
+        },
+        {
+          "id": "a1e34",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Tire la chevillette",
+      "tableauId": "t2",
+      "resume": "{{r2}} arrive le premier chez {{r3}}, imite la voix de {{r1}} et se fait ouvrir. Il mange la grand-mère et se couche à sa place.",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e2",
+          "type": "didascalie",
+          "texte": "{{r3}} se couche dans son lit, sous le torchon, et ne bouge presque plus."
+        },
+        {
+          "id": "a2e3",
+          "type": "conteur",
+          "texte": "{{r2}} ne fut pas longtemps à arriver à la maison de {{r3}}"
+        },
+        {
+          "id": "a2e4",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e5",
+          "type": "didascalie",
+          "texte": "{{r2}} traverse la scène en courant et s'arrête devant la porte de la maison."
+        },
+        {
+          "id": "a2e6",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Frappez avec moi sur vos genoux : toc, toc !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e7",
+          "type": "didascalie",
+          "texte": "{{r2}} frappe deux coups sur la table : toc, toc."
+        },
+        {
+          "id": "a2e8",
+          "type": "note_marionnettiste",
+          "texte": "Frapper les deux coups en même temps que les enfants, puis attendre que tout le monde se taise avant la réplique de {{r3}}."
+        },
+        {
+          "id": "a2e9",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Qui est là ?",
+          "ton": "doucement, d'une voix fatiguée"
+        },
+        {
+          "id": "a2e10",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "C'est votre fille, {{r1}}, qui vous apporte une galette et un petit pot de beurre, que ma mère vous envoie.",
+          "ton": "avec une petite voix aiguë, pour imiter {{r1}}"
+        },
+        {
+          "id": "a2e11",
+          "type": "conteur",
+          "texte": "La bonne {{r3}}, qui était dans son lit, parce qu'elle se trouvait un peu mal, lui cria :"
+        },
+        {
+          "id": "a2e12",
+          "type": "adresse_public",
+          "marionnetteId": "r3",
+          "texte": "Dites-le avec moi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e13",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Tire la chevillette, la bobinette cherra.",
+          "ton": "fort et lentement, en détachant les mots"
+        },
+        {
+          "id": "a2e14",
+          "type": "note_marionnettiste",
+          "texte": "Faire reprendre la formule en chœur par les enfants, lentement, avec {{r3}}."
+        },
+        {
+          "id": "a2e15",
+          "type": "conteur",
+          "texte": "{{r2}} tira la chevillette, et la porte s'ouvrit."
+        },
+        {
+          "id": "a2e16",
+          "type": "didascalie",
+          "texte": "{{r2}} entre dans la maison."
+        },
+        {
+          "id": "a2e17",
+          "type": "didascalie",
+          "texte": "{{r2}} saute d'un bond sur le lit. {{r3}} plonge derrière le lit et disparaît."
+        },
+        {
+          "id": "a2e18",
+          "type": "conteur",
+          "texte": "Il se jeta sur la bonne vieille, et la dévora en moins de rien, car il y avait plus de trois jours qu'il n'avait mangé."
+        },
+        {
+          "id": "a2e19",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e20",
+          "type": "conteur",
+          "texte": "Ensuite il ferma la porte, et alla se coucher dans le lit de {{r3}}, en attendant {{r1}}."
+        },
+        {
+          "id": "a2e21",
+          "type": "didascalie",
+          "texte": "{{r2}} se glisse dans le lit, sous le torchon, la tête sur l'oreiller, et reste couché, immobile."
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Que vous avez de grandes dents !",
+      "tableauId": "t2",
+      "resume": "{{r1}} arrive, se fait ouvrir par {{r2}} déguisé en grand-mère et trouve {{r3}} bien changée, jusqu'à « C'est pour te manger ! ». Les bûcherons font recracher {{r1}} et {{r3}}, bien vivantes, et chassent {{r2}}.",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "didascalie",
+          "texte": "{{r2}} est couché dans le lit, la tête sur l'oreiller, et ne bouge plus."
+        },
+        {
+          "id": "a3e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e3",
+          "type": "note_marionnettiste",
+          "texte": "Pendant que le conteur dit « toc, toc », {{r1}} se penche deux fois vers la porte et vous frappez deux coups sur la table."
+        },
+        {
+          "id": "a3e4",
+          "type": "conteur",
+          "texte": "{{r1}}, quelque temps après, vint frapper à la porte : toc, toc."
+        },
+        {
+          "id": "a3e5",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Qui est là ?",
+          "ton": "avec sa grosse voix de loup"
+        },
+        {
+          "id": "a3e6",
+          "type": "conteur",
+          "texte": "{{r1}}, qui entendit la grosse voix de {{r2}}, eut peur d'abord, mais, croyant que {{r3}} était enrhumée, répondit :"
+        },
+        {
+          "id": "a3e7",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "C'est votre fille, {{r1}}, qui vous apporte une galette et un petit pot de beurre, que ma mère vous envoie.",
+          "ton": "gentiment"
+        },
+        {
+          "id": "a3e8",
+          "type": "note_marionnettiste",
+          "texte": "Dites la formule lentement : les enfants la reconnaissent. Faites-la dire en chœur avec {{r2}}, puis laissez un temps."
+        },
+        {
+          "id": "a3e9",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Tire la chevillette, la bobinette cherra.",
+          "ton": "lentement, en adoucissant un peu sa voix"
+        },
+        {
+          "id": "a3e10",
+          "type": "conteur",
+          "texte": "{{r1}} tira la chevillette, et la porte s'ouvrit."
+        },
+        {
+          "id": "a3e11",
+          "type": "didascalie",
+          "texte": "{{r1}} entre dans la maison. {{r2}} s'enfonce sous la couverture, seule sa tête dépasse."
+        },
+        {
+          "id": "a3e12",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Mets la galette et le petit pot de beurre sur la table, et viens près de moi.",
+          "ton": "tout doux, en faisant semblant d'être une grand-mère"
+        },
+        {
+          "id": "a3e13",
+          "type": "conteur",
+          "texte": "{{r1}} s'approche du lit, et elle fut bien étonnée de voir comment {{r3}} était faite dans sa chemise de nuit."
+        },
+        {
+          "id": "a3e14",
+          "type": "note_marionnettiste",
+          "texte": "Pour chaque question de {{r1}}, faites dire aux enfants, avec elle, le début « {{r3}}, que vous avez de… ». Sans se presser : un temps avant chaque réponse de {{r2}}."
+        },
+        {
+          "id": "a3e15",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "{{r3}}, que vous avez de grands bras !",
+          "ton": "étonnée"
+        },
+        {
+          "id": "a3e16",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "C'est pour mieux t'embrasser, ma fille !",
+          "ton": "tout doux"
+        },
+        {
+          "id": "a3e17",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "{{r3}}, que vous avez de grandes jambes !",
+          "ton": "de plus en plus étonnée"
+        },
+        {
+          "id": "a3e18",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "C'est pour mieux courir, mon enfant !",
+          "ton": "tout doux"
+        },
+        {
+          "id": "a3e19",
+          "type": "didascalie",
+          "texte": "{{r2}} sort un peu plus la tête de sous la couverture."
+        },
+        {
+          "id": "a3e20",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "{{r3}}, que vous avez de grandes oreilles !",
+          "ton": "en reculant un peu"
+        },
+        {
+          "id": "a3e21",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "C'est pour mieux écouter, mon enfant !",
+          "ton": "doux, mais la grosse voix revient"
+        },
+        {
+          "id": "a3e22",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "{{r3}}, que vous avez de grands yeux !",
+          "ton": "tout bas, un peu inquiète"
+        },
+        {
+          "id": "a3e23",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "C'est pour mieux te voir, mon enfant !",
+          "ton": "lentement"
+        },
+        {
+          "id": "a3e24",
+          "type": "didascalie",
+          "texte": "{{r2}} se redresse d'un coup hors de la couverture, la gueule tournée vers {{r1}}."
+        },
+        {
+          "id": "a3e25",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "{{r3}}, que vous avez de grandes dents !",
+          "ton": "en tremblant"
+        },
+        {
+          "id": "a3e26",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "C'est pour te manger !",
+          "ton": "très fort, avec sa vraie grosse voix"
+        },
+        {
+          "id": "a3e27",
+          "type": "conteur",
+          "texte": "Et, en disant ces mots, ce méchant {{r2}} se jeta sur {{r1}}, et la mangea."
+        },
+        {
+          "id": "a3e28",
+          "type": "didascalie",
+          "texte": "{{r1}} plonge derrière le lit et disparaît."
+        },
+        {
+          "id": "a3e29",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e30",
+          "type": "conteur",
+          "texte": "Puis, bien repu, il se recoucha et s'endormit."
+        },
+        {
+          "id": "a3e31",
+          "type": "didascalie",
+          "texte": "{{r2}} se tortille de plaisir dans le lit."
+        },
+        {
+          "id": "a3e32",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Ronflez avec moi, très fort !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e33",
+          "type": "didascalie",
+          "texte": "{{r2}} ronfle à grand bruit, fait à la voix : « Rrron… pchhh… Rrron… pchhh… »"
+        },
+        {
+          "id": "a3e34",
+          "type": "note_marionnettiste",
+          "texte": "Ronflez avec les enfants plusieurs fois, de plus en plus fort. S'ils ne ronflent pas, ronflez seul, encore plus fort."
+        },
+        {
+          "id": "a3e35",
+          "type": "conteur",
+          "texte": "Les bûcherons, qui passaient devant la maison, l'entendirent ronfler si fort qu'ils entrèrent voir."
+        },
+        {
+          "id": "a3e36",
+          "type": "didascalie",
+          "texte": "{{r2}} se retrouve tête en bas, soulevé par les pattes, et tremble de tout son corps."
+        },
+        {
+          "id": "a3e37",
+          "type": "conteur",
+          "texte": "Ils le prirent par les pattes de derrière et le secouèrent tant et tant qu'il recracha {{r1}} et {{r3}}, tout étourdies, mais bien vivantes."
+        },
+        {
+          "id": "a3e38",
+          "type": "conteur",
+          "texte": "Puis ils chassèrent {{r2}} à grands coups de bâton, si loin qu'on ne le revit jamais dans le bois."
+        },
+        {
+          "id": "a3e39",
+          "type": "didascalie",
+          "texte": "Frapper de grands coups sur la table : boum, boum, boum ! À chaque coup, {{r2}} saute en l'air, puis il file vers la coulisse."
+        },
+        {
+          "id": "a3e40",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e41",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e42",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e43",
+          "type": "note_marionnettiste",
+          "texte": "{{r1}} et {{r3}} surgissent ensemble de derrière le lit."
+        },
+        {
+          "id": "a3e44",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "{{r3}} !",
+          "ton": "toute joyeuse"
+        },
+        {
+          "id": "a3e45",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Ma {{r1}} !",
+          "ton": "tendrement"
+        },
+        {
+          "id": "a3e46",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r3}} se serrent l'une contre l'autre, puis saluent les enfants."
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "synopsis": {
+      "conte": "fr-perrault-chaperon-rouge",
+      "titre": "Le Petit Chaperon rouge",
+      "accroche": "{{r1}} traverse le bois pour porter une galette à sa grand-mère, mais elle raconte tout à {{r2}}, le loup, qui court y arriver avant elle.",
+      "resume": [
+        "La maman de {{r1}} l'envoie porter une galette et un petit pot de beurre à sa grand-mère, {{r3}}, qui est malade.",
+        "Dans le bois, {{r1}} rencontre {{r2}}, le loup, et lui explique où elle va. Il lui propose une course, chacun par son chemin, et il prend le plus court.",
+        "{{r2}} arrive le premier chez {{r3}} et se fait ouvrir : « Tire la chevillette, la bobinette cherra. » Il mange la grand-mère et se couche dans son lit, à sa place.",
+        "{{r1}} arrive, tire la chevillette à son tour et trouve sa grand-mère bien changée : « Que vous avez de grands bras ! De grandes oreilles ! De grandes dents ! — C'est pour te manger ! » Et {{r2}} la mange.",
+        "Les bûcherons arrivent et font recracher à {{r2}} {{r1}} et {{r3}}, bien vivantes."
+      ],
+      "distribution": [
+        {
+          "marionnette": "{{r1}}",
+          "role": "le Petit Chaperon rouge",
+          "note": "Sa robe rouge et son bonnet en font le Chaperon rouge, et elle est curieuse et gentille comme lui."
+        },
+        {
+          "marionnette": "{{r2}}",
+          "role": "le Loup",
+          "note": "C'est un loup, méchant et gourmand, avec une grande gueule rouge faite pour « C'est pour te manger ! »."
+        },
+        {
+          "marionnette": "{{r3}}",
+          "role": "la Mère-grand",
+          "note": "Une vraie grand-mère aux cheveux blancs, douce et gentille."
+        }
+      ],
+      "changements": [
+        "La maman n'a pas de marionnette : on entend seulement sa voix derrière le castelet, au début."
+      ],
+      "id": "fr-perrault-chaperon-rouge",
+      "reference": "Le Petit Chaperon rouge — France, Charles Perrault, Histoires ou contes du temps passé, 1697",
+      "annonces": [
+        "Le loup mange la mère-grand et le Chaperon rouge, mais les bûcherons les lui font recracher, bien vivantes."
+      ]
+    },
+    "conteId": "fr-perrault-chaperon-rouge",
+    "adaptation": {
+      "titre": "{{r1}} et le loup {{r2}}",
+      "pitch": "{{r1}} traverse le bois pour porter une galette à {{r3}}, mais elle raconte tout au loup {{r2}}, qui court y arriver avant elle.",
+      "changements": [
+        "On ne coupe rien : le conte est déjà à la bonne longueur, toutes les répliques sont jouées.",
+        "La maman de {{r1}} n'a pas de marionnette : on entend seulement sa voix derrière le castelet, au début, quand elle envoie {{r1}} chez {{r3}}.",
+        "Les bûcherons n'ont pas de marionnette : on les entend en coulisse à la fin, avec de grosses voix et des coups frappés sur la table, et on ne les voit jamais.",
+        "La galette et le petit pot de beurre ne sont jamais montrés : {{r1}} en parle, {{r2}} les réclame, et c'est tout.",
+        "Quand {{r2}} mange {{r3}} puis {{r1}}, la marionnette mangée plonge derrière le lit et disparaît.",
+        "À la fin, on ne peut pas montrer les trois marionnettes ensemble. {{r2}} est donc chassé d'abord, puis {{r1}} et {{r3}} réapparaissent ensemble, bien vivantes."
+      ],
+      "tableaux": [
+        {
+          "id": "t1",
+          "titre": "Le bois",
+          "description": "Posez deux coussins debout, un à chaque bout de la table : ce sont les arbres du bois. Si vous en avez une, étalez une nappe ou un drap vert devant, pour cacher vos bras.",
+          "accessoires": [],
+          "promptImage": ""
+        },
+        {
+          "id": "t2",
+          "titre": "La maison de {{r3}}",
+          "description": "Couchez un coussin à droite de la table : c'est le lit, avec un torchon posé dessus comme couverture. À gauche, un carton debout fait la porte : c'est là qu'on frappe « toc, toc » sur la table.",
+          "accessoires": [
+            "un torchon (la couverture du lit)"
+          ],
+          "promptImage": ""
+        }
+      ],
+      "actes": [
+        {
+          "numero": 1,
+          "titre": "La rencontre dans le bois",
+          "tableauId": "t1",
+          "resume": "La maman de {{r1}} l'envoie chez {{r3}} avec une galette. Dans le bois, {{r1}} rencontre {{r2}}, lui dit tout, et il lui propose une course : il prend le chemin le plus court.",
+          "passage": "De « Il était une fois une petite fille de village… » à « …des petites fleurs qu'elle rencontrait. »",
+          "temps": [
+            "Le conteur présente {{r1}}. On entend la voix de sa maman en coulisse : elle l'envoie porter une galette et un petit pot de beurre à {{r3}}, qui est malade.",
+            "{{r1}} part dans le bois. {{r2}} arrive, a très envie de la manger mais n'ose pas à cause des bûcherons. Il lui demande où elle va, et elle lui explique tout.",
+            "{{r2}} propose la course : lui par ce chemin-ci, elle par ce chemin-là. Il part en courant par le plus court.",
+            "{{r1}} prend le chemin le plus long, cueille des noisettes, court après les papillons, fait un bouquet, puis s'en va."
+          ],
+          "mouvements": [
+            {
+              "type": "entree",
+              "marionnette": "{{r1}}",
+              "main": "M1G"
+            },
+            {
+              "type": "entree",
+              "marionnette": "{{r2}}",
+              "main": "M1D"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "{{r2}}",
+              "main": "M1D"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "{{r1}}",
+              "main": "M1G"
+            }
+          ],
+          "momentsPublic": [
+            "Avant de filer, {{r2}} se tourne vers les enfants pendant que {{r1}} regarde ailleurs, et chuchote : « Chut ! Moi, je prends le chemin le plus court ! » {{r1}} ne réagit pas.",
+            "{{r1}} demande aux enfants de compter avec elle les fleurs de son bouquet : « Une, deux, trois ! »"
+          ],
+          "budgetMots": 230
+        },
+        {
+          "numero": 2,
+          "titre": "Tire la chevillette",
+          "tableauId": "t2",
+          "resume": "{{r2}} arrive le premier chez {{r3}}, imite la voix de {{r1}} et se fait ouvrir. Il mange la grand-mère et se couche à sa place.",
+          "passage": "De « {{r2}} ne fut pas longtemps à arriver… » à « …alla se coucher dans le lit de {{r3}} ».",
+          "temps": [
+            "{{r3}} est couchée dans son lit, un peu malade. {{r2}} arrive et frappe à la porte : toc, toc.",
+            "Il fait une petite voix pour se faire passer pour {{r1}}. {{r3}} lui répond : « Tire la chevillette, la bobinette cherra. »",
+            "{{r2}} pousse la porte, saute sur {{r3}} et la mange : elle disparaît derrière le lit.",
+            "{{r2}} se glisse sous le torchon, dans le lit de {{r3}}, et attend {{r1}}."
+          ],
+          "mouvements": [
+            {
+              "type": "entree",
+              "marionnette": "{{r3}}",
+              "main": "M1G"
+            },
+            {
+              "type": "entree",
+              "marionnette": "{{r2}}",
+              "main": "M1D"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "{{r3}}",
+              "main": "M1G"
+            }
+          ],
+          "momentsPublic": [
+            "{{r2}} demande aux enfants de frapper avec lui sur leurs genoux : « toc, toc ».",
+            "{{r3}} dit la formule « Tire la chevillette, la bobinette cherra » lentement, et invite les enfants à la répéter avec elle pour bien la retenir."
+          ],
+          "budgetMots": 120
+        },
+        {
+          "numero": 3,
+          "titre": "Que vous avez de grandes dents !",
+          "tableauId": "t2",
+          "resume": "{{r1}} arrive, se fait ouvrir par {{r2}} déguisé en grand-mère et trouve {{r3}} bien changée, jusqu'à « C'est pour te manger ! ». Les bûcherons font recracher {{r1}} et {{r3}}, bien vivantes, et chassent {{r2}}.",
+          "passage": "De « …en attendant {{r1}}, qui, quelque temps après, vint frapper à la porte » à « …on ne le revit jamais dans le bois. »",
+          "temps": [
+            "{{r1}} frappe : toc, toc. Elle entend la grosse voix, croit {{r3}} enrhumée. {{r2}}, d'une voix plus douce, lui dit : « Tire la chevillette, la bobinette cherra. » Elle entre.",
+            "{{r2}}, caché sous le torchon, lui dit de poser la galette sur la table. {{r1}} s'approche doucement du lit : grands bras, grandes jambes, grandes oreilles, grands yeux, grandes dents… « C'est pour te manger ! »",
+            "{{r2}} saute sur {{r1}}, qui disparaît derrière le lit. Il se recouche et ronfle très fort.",
+            "Les bûcherons, en coulisse, l'entendent, entrent et le secouent par les pattes : {{r2}} tremble de tout son corps. On le chasse à grands coups de bâton, frappés sur la table. Puis {{r1}} et {{r3}} réapparaissent, étourdies mais bien vivantes."
+          ],
+          "mouvements": [
+            {
+              "type": "entree",
+              "marionnette": "{{r1}}",
+              "main": "M1G"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "{{r1}}",
+              "main": "M1G"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "{{r2}}",
+              "main": "M1D"
+            },
+            {
+              "type": "entree",
+              "marionnette": "{{r1}}",
+              "main": "M1G"
+            },
+            {
+              "type": "entree",
+              "marionnette": "{{r3}}",
+              "main": "M1D"
+            }
+          ],
+          "momentsPublic": [
+            "Quand {{r2}} dit « Tire la chevillette, la bobinette cherra », les enfants la reconnaissent et la disent en chœur avec lui.",
+            "Pendant les « {{r3}}, que vous avez de grands… », les enfants disent le début de chaque phrase avec {{r1}}, sans se presser, jusqu'aux grandes dents.",
+            "Le conteur demande aux enfants de ronfler très fort avec {{r2}}, pour que les bûcherons l'entendent."
+          ],
+          "budgetMots": 270
+        }
+      ],
+      "voix": [
+        {
+          "marionnette": "{{r2}}",
+          "voix": "voix grave et râpeuse, parle en grognant et se lèche les babines, « miam » ; il fait une petite voix aiguë et fausse quand il imite {{r1}} ou {{r3}}"
+        },
+        {
+          "marionnette": "{{r1}}",
+          "voix": "voix claire et vive, parle vite et avec entrain"
+        },
+        {
+          "marionnette": "{{r3}}",
+          "voix": "voix chevrotante et lente, un peu fatiguée, dit « mon petit » avec douceur"
+        }
+      ]
+    },
+    "transposition": {
+      "texte": "Il était une fois une petite fille de village, la plus éveillée qu’on ait jamais vue : sa mère l’aimait à la folie, et sa mère-grand plus encore. Cette bonne vieille lui fit faire un petit chaperon rouge qui lui allait si bien, que partout on l’appelait {{r1}}.\n\nUn jour, sa mère ayant cuit et fait des galettes, lui dit : « Va voir comment se porte {{r3}}, car on m’a dit qu’elle était malade. Porte-lui une galette et ce petit pot de beurre. »\n\n{{r1}} partit aussitôt pour aller chez sa mère-grand, {{r3}}, qui demeurait dans un autre village. En passant dans un bois, elle rencontra compère {{r2}}, qui eut bien envie de la manger ; mais il n’osa, à cause de quelques bûcherons qui étaient dans la forêt. Il lui demanda où elle allait. La pauvre enfant, qui ne savait pas qu’il était dangereux de s’arrêter à écouter un loup, lui dit : Je vais voir {{r3}}, et lui porter une galette, avec un petit pot de beurre, que ma mère lui envoie. — Demeure-t-elle bien loin ? lui dit {{r2}}. — Oh ! oui, dit {{r1}} ; c’est par delà le moulin que vous voyez tout là-bas, à la première maison du village. — Eh bien ! dit {{r2}}, je veux aller la voir aussi : j’y vais par ce chemin-ci, et toi par ce chemin-là ; et nous verrons qui y sera le premier.\n\n{{r2}} se mit à courir de toute sa force par le chemin qui était le plus court, et la petite fille s’en alla par le chemin le plus long, s’amusant à cueillir des noisettes, à courir après des papillons, et à faire des bouquets des petites fleurs qu’elle rencontrait.\n\n{{r2}} ne fut pas longtemps à arriver à la maison de {{r3}} ; il frappe : toc, toc. — Qui est là ? — C’est votre fille, {{r1}}, dit {{r2}} en contrefaisant sa voix, qui vous apporte une galette et un petit pot de beurre, que ma mère vous envoie. — La bonne {{r3}}, qui était dans son lit, parce qu’elle se trouvait un peu mal, lui cria : Tire la chevillette, la bobinette cherra. — {{r2}} tira la chevillette, et la porte s’ouvrit. Il se jeta sur la bonne vieille, et la dévora en moins de rien, car il y avait plus de trois jours qu’il n’avait mangé.\n\nEnsuite il ferma la porte, et alla se coucher dans le lit de {{r3}}, en attendant {{r1}}, qui, quelque temps après, vint frapper à la porte : toc, toc. — Qui est là ? — {{r1}}, qui entendit la grosse voix de {{r2}}, eut peur d’abord, mais, croyant que {{r3}} était enrhumée, répondit : C’est votre fille, {{r1}}, qui vous apporte une galette et un petit pot de beurre, que ma mère vous envoie. — {{r2}} lui cria en adoucissant un peu sa voix : Tire la chevillette, la bobinette cherra. — {{r1}} tira la chevillette, et la porte s’ouvrit.\n\n{{r2}}, la voyant entrer, lui dit en se cachant dans le lit, sous la couverture : Mets la galette et le petit pot de beurre sur la table, et viens près de moi. {{r1}} s’approche du lit, et elle fut bien étonnée de voir comment {{r3}} était faite dans sa chemise de nuit. — Elle lui dit : {{r3}}, que vous avez de grands bras ! — C’est pour mieux t’embrasser, ma fille ! — {{r3}}, que vous avez de grandes jambes ! — C’est pour mieux courir, mon enfant ! — {{r3}}, que vous avez de grandes oreilles ! — C’est pour mieux écouter, mon enfant ! — {{r3}}, que vous avez de grands yeux ! — C’est pour mieux te voir, mon enfant ! — {{r3}}, que vous avez de grandes dents ! — C’est pour te manger ! Et, en disant ces mots, ce méchant {{r2}} se jeta sur {{r1}}, et la mangea. Puis, bien repu, il se recoucha et s’endormit. Les bûcherons, qui passaient devant la maison, l’entendirent ronfler si fort qu’ils entrèrent voir. Ils le prirent par les pattes de derrière et le secouèrent tant et tant qu’il recracha {{r1}} et {{r3}}, tout étourdies, mais bien vivantes. Puis ils chassèrent {{r2}} à grands coups de bâton, si loin qu’on ne le revit jamais dans le bois.",
+      "changements": [
+        "Dans la première phrase, le surnom que vaut le chaperon rouge devient le nom de {{r1}} : « partout on l’appelait {{r1}} ».",
+        "Au départ de {{r1}}, « sa mère-grand » est complétée par son nom : « sa mère-grand, {{r3}} », pour présenter le personnage.",
+        "Là où le texte désigne la grand-mère comme personnage (« la mère-grand », « ma mère-grand » dans les répliques), elle est appelée {{r3}} ; le premier « sa mère-grand », avant qu’elle soit nommée, reste tel quel.",
+        "La mère, sans marionnette mais gardée par le synopsis comme voix en coulisse, reste telle quelle dans le texte."
+      ]
+    },
+    "retouches": {
+      "age": 5,
+      "profil": [
+        "au-lit-avec-le-loup@10",
+        "le-loup-mange@8"
+      ],
+      "annonces": [
+        "Le loup mange la mère-grand et le Chaperon rouge, mais les bûcherons les lui font recracher, bien vivantes."
+      ]
+    },
+    "relecture": {
+      "remarques": [
+        {
+          "acte": 1,
+          "element": 12,
+          "gravite": "important",
+          "remarque": "La phrase du conteur commence par « qui eut bien envie de la manger » : elle n’a pas de sujet. L’enfant voit arriver un loup sans qu’on lui dise qui il est ni comment il s’appelle. Le conte donne ce maillon : « En passant dans un bois, elle rencontra compère {{r2}} ».",
+          "modification": "Remplacer l’élément 12 par la phrase complète du conte : « En passant dans un bois, elle rencontra compère {{r2}}, qui eut bien envie de la manger ; mais il n’osa, à cause de quelques bûcherons qui étaient dans la forêt. » La placer juste après l’entrée de {{r2}} (élément 10) et avant son approche (élément 11)."
+        },
+        {
+          "acte": 2,
+          "element": 12,
+          "gravite": "important",
+          "remarque": "Acte plus court que prévu. Il manque aussi la narration qui dit que {{r3}} est au lit parce qu’elle se sent mal, et que c’est elle qui répond au loup.",
+          "modification": "Entre la réplique de {{r2}} (élément 10) et l’adresse de {{r3}} au public (élément 11), ajouter le conteur : « La bonne {{r3}}, qui était dans son lit, parce qu’elle se trouvait un peu mal, lui cria : »."
+        },
+        {
+          "acte": 2,
+          "element": 14,
+          "gravite": "important",
+          "remarque": "Acte plus court que prévu. Après la formule, la narration du conte « {{r2}} tira la chevillette, et la porte s’ouvrit » manque : l’enfant ne relie pas la formule à l’ouverture de la porte.",
+          "modification": "Juste avant l’action 14 ({{r2}} pousse la porte), ajouter le conteur : « {{r2}} tira la chevillette, et la porte s’ouvrit. »"
+        },
+        {
+          "acte": 2,
+          "element": 17,
+          "gravite": "important",
+          "remarque": "Le conteur dit seulement « car il y avait plus de trois jours qu’il n’avait mangé ». La phrase qui l’explique a disparu : l’enfant ne sait pas que {{r3}} a été mangée. Il ne comprend donc pas qu’elle soit recrachée à la fin. Maillon essentiel perdu.",
+          "modification": "Remplacer l’élément 17 par la phrase complète du conte : « Il se jeta sur la bonne vieille, et la dévora en moins de rien, car il y avait plus de trois jours qu’il n’avait mangé. » La placer juste après l’action 15 ({{r2}} saute sur le lit), avant la sortie de {{r3}} (élément 16)."
+        },
+        {
+          "acte": 2,
+          "element": 18,
+          "gravite": "important",
+          "remarque": "Acte plus court que prévu. La narration « en attendant {{r1}} » manque : c’est elle qui annonce l’acte suivant et fait comprendre pourquoi le loup se couche dans le lit.",
+          "modification": "Juste avant l’action 18, ajouter le conteur : « Ensuite il ferma la porte, et alla se coucher dans le lit de {{r3}}, en attendant {{r1}}. »"
+        },
+        {
+          "acte": 2,
+          "element": 11,
+          "gravite": "mineur",
+          "remarque": "L’adresse « Dites-le avec moi ! » demande aux enfants de répondre, mais elle n’est pas marquée comme telle.",
+          "modification": "Marquer l’élément 11 « attend une réponse »."
+        },
+        {
+          "acte": 3,
+          "element": 3,
+          "gravite": "important",
+          "remarque": "Acte plus court que prévu. Rien ne dit que du temps a passé avant que {{r1}} arrive, alors que le conte le dit.",
+          "modification": "Juste après l’entrée de {{r1}} (élément 2), ajouter le conteur : « {{r1}}, quelque temps après, vint frapper à la porte : toc, toc. »"
+        },
+        {
+          "acte": 3,
+          "element": 6,
+          "gravite": "important",
+          "remarque": "La phrase du conteur commence par « mais, croyant que… » : il lui manque le début que donne le conte, « {{r1}}, qui entendit la grosse voix de {{r2}}, eut peur d’abord ». C’est aussi un manque de l’acte court.",
+          "modification": "Remplacer l’élément 6 par : « {{r1}}, qui entendit la grosse voix de {{r2}}, eut peur d’abord, mais, croyant que {{r3}} était enrhumée, répondit : »."
+        },
+        {
+          "acte": 3,
+          "element": 9,
+          "gravite": "important",
+          "remarque": "La note qui fait dire la formule en chœur est placée après la réplique : le parent la lit trop tard pour lancer les enfants avec {{r2}}.",
+          "modification": "Déplacer la note 9 juste avant la réplique 8 de {{r2}}."
+        },
+        {
+          "acte": 3,
+          "element": 14,
+          "gravite": "mineur",
+          "remarque": "La phrase du conteur commence par « et elle fut bien étonnée » : elle est coupée de ce qui précède.",
+          "modification": "Écrire : « {{r1}} s’approche du lit, et elle fut bien étonnée de voir comment {{r3}} était faite dans sa chemise de nuit. »"
+        },
+        {
+          "acte": 3,
+          "element": 29,
+          "gravite": "important",
+          "remarque": "Le conteur dit seulement « et la mangea. » : c’est une phrase coupée. Il manque aussi le début du conte, qui compte dans l’acte court.",
+          "modification": "Remplacer l’élément 29 par : « Et, en disant ces mots, ce méchant {{r2}} se jeta sur {{r1}}, et la mangea. »"
+        },
+        {
+          "acte": 3,
+          "element": 31,
+          "gravite": "important",
+          "remarque": "La note « {{r1}} plonge derrière le lit et disparaît » vient après la sortie de {{r1}} : la main fait ce geste alors qu’elle est déjà sortie.",
+          "modification": "En faire une action placée avant la sortie : l’élément 31 passe avant l’élément 30."
+        },
+        {
+          "acte": 3,
+          "element": 32,
+          "gravite": "important",
+          "remarque": "Acte plus court que prévu. Il manque la narration du conte qui explique pourquoi le loup dort et ronfle.",
+          "modification": "Juste avant l’action 32, ajouter le conteur : « Puis, bien repu, il se recoucha et s’endormit. »"
+        },
+        {
+          "acte": 3,
+          "element": 40,
+          "gravite": "important",
+          "remarque": "Le conteur dit seulement « si loin qu’on ne le revit jamais dans le bois. » : on ne sait pas que ce sont les bûcherons qui chassent {{r2}} à coups de bâton. Les coups sur la table restent sans explication, et la punition du conte est perdue.",
+          "modification": "Remplacer l’élément 40 par la phrase complète : « Puis ils chassèrent {{r2}} à grands coups de bâton, si loin qu’on ne le revit jamais dans le bois. » La placer juste avant l’action 39 (les coups sur la table)."
+        }
+      ]
+    }
+  },
+  "dureeEstimeeSecondes": 490
+}

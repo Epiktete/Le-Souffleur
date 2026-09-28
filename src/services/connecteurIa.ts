@@ -95,6 +95,13 @@ export interface Acces {
   modele: string;
   /** Identifiant du préréglage, qui détermine les en-têtes particuliers. */
   fournisseurId: string;
+  /**
+   * Effort de raisonnement demandé au modèle, transmis tel quel dans le champ
+   * `reasoning` d'OpenRouter (vérifié au catalogue le 2026-09-28). Absent, la
+   * requête reste au plus petit dénominateur commun entre fournisseurs :
+   * l'application ne le renseigne jamais, seul le banc s'en sert.
+   */
+  raisonnement?: 'low' | 'medium' | 'high';
 }
 
 /** Erreur d'appel, déjà traduite pour l'utilisateur. */
@@ -208,6 +215,7 @@ export async function appelerModele(
         messages,
         temperature: options.temperature,
         max_tokens: options.maxTokens,
+        ...(acces.raisonnement ? { reasoning: { effort: acces.raisonnement } } : {}),
       }),
     });
 

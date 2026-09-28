@@ -1,0 +1,1282 @@
+{
+  "id": "fr-perrault-chat-botte--1",
+  "conteId": "fr-perrault-chat-botte",
+  "titre": "Le Chat botté",
+  "pitch": "{{r1}}, un chat en bottes rouges, fait croire à tout le monde que {{r2}}, son pauvre maître, est le grand marquis de Carabas, jusqu'à lui gagner le château de l'ogre {{r4}}.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "chat",
+      "famille": "predateur",
+      "traits": [
+        "rusé",
+        "bavard",
+        "vantard"
+      ],
+      "voix": "voix vive et rapide, un peu chantante, roule les « r » et dit « parole de chat ! » quand il se vante"
+    },
+    {
+      "cle": "r2",
+      "espece": "jeune",
+      "famille": "enfant",
+      "traits": [
+        "naïf",
+        "timide"
+      ],
+      "voix": "voix douce et lente, hésitante, commence souvent par « euh… »"
+    },
+    {
+      "cle": "r3",
+      "espece": "roi",
+      "famille": "noble",
+      "traits": [
+        "naïf",
+        "gourmand"
+      ],
+      "voix": "voix haute et un peu chevrotante, très solennelle, fait « mmm, délicieux ! » dès qu'on parle de manger"
+    },
+    {
+      "cle": "r4",
+      "espece": "ogre",
+      "famille": "monstre",
+      "traits": [
+        "vantard",
+        "orgueilleux",
+        "méchant"
+      ],
+      "voix": "voix très grave et tonitruante, parle fort et termine ses vantardises par un gros « ho ho ho ! »"
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 8,
+    "ageAuditoire": 7,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "quelques",
+    "ebauche": "le Chat botté et le marquis de Carabas"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "Le moulin et la garenne",
+      "description": "Tendez un drap sur deux chaises : c'est derrière que vous vous cachez pour jouer. À gauche, posez un carton avec une croix en papier collée dessus : c'est le moulin. À droite, posez un coussin vert : c'est la garenne aux lapins, et le sac de {{r1}} est posé devant.",
+      "accessoires": [
+        "un petit sac en tissu (une chaussette propre fait l'affaire)"
+      ],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "Le pays du roi",
+      "description": "À gauche, posez un coussin couvert d'un torchon jaune : c'est le trône de {{r3}}, et le sac de {{r1}} est posé devant. À droite, étalez une serviette bleue au bord du drap : c'est la rivière. Le milieu reste libre : ce sont les champs.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t3",
+      "titre": "Le château de l'ogre",
+      "description": "Posez au centre un grand carton retourné : c'est le château de {{r4}}. Mettez devant une boîte à chaussures : c'est la grande table du festin.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Un chat pour tout héritage",
+      "tableauId": "t1",
+      "resume": "{{r2}} se désole de n'avoir hérité que de son chat. {{r1}} lui demande un sac et des bottes, puis va attraper un lapin dans la garenne.",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Un meunier ne laissa pour tous biens, à trois enfants qu’il avait, que son moulin, son âne et son chat."
+        },
+        {
+          "id": "a1e2",
+          "type": "conteur",
+          "texte": "L’aîné eut le moulin, le second eut l’âne, et le plus jeune, {{r2}}, n’eut que le chat, {{r1}}."
+        },
+        {
+          "id": "a1e3",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e4",
+          "type": "didascalie",
+          "texte": "{{r1}} se couche dans un coin de la scène, la tête sur le bord du drap."
+        },
+        {
+          "id": "a1e5",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e6",
+          "type": "didascalie",
+          "texte": "{{r2}} avance jusqu’au milieu de la scène, la tête basse."
+        },
+        {
+          "id": "a1e7",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Mes frères pourront gagner leur vie honnêtement en se mettant ensemble ; pour moi, lorsque j’aurai mangé mon chat, et que je me serai fait un manchon de sa peau, il faudra que je meure de faim.",
+          "ton": "triste, d’une petite voix"
+        },
+        {
+          "id": "a1e8",
+          "type": "didascalie",
+          "texte": "{{r1}} lève la tête, se redresse et s’approche de {{r2}}."
+        },
+        {
+          "id": "a1e9",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ne vous affligez point, mon maître ; vous n’avez qu’à me donner un sac et me faire faire une paire de bottes pour aller dans les broussailles, et vous verrez que vous n’êtes pas si mal partagé que vous croyez.",
+          "ton": "posé et sérieux, lentement"
+        },
+        {
+          "id": "a1e10",
+          "type": "didascalie",
+          "texte": "{{r2}} penche la tête d’un côté, puis de l’autre."
+        },
+        {
+          "id": "a1e11",
+          "type": "conteur",
+          "texte": "Quoique {{r2}} n’y crût guère, il lui avait vu faire tant de tours de souplesse pour prendre des rats et des souris, comme quand il se pendait par les pieds, ou qu’il se cachait dans la farine pour faire le mort, qu’il ne désespéra pas d’en être secouru dans sa misère."
+        },
+        {
+          "id": "a1e12",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e13",
+          "type": "conteur",
+          "texte": "Lorsque {{r1}} eut ce qu’il avait demandé, il enfila fièrement ses bottes, et, mettant son sac à son cou, il en prit les cordons avec ses deux pattes de devant, et s’en alla dans une garenne où il y avait grand nombre de lapins."
+        },
+        {
+          "id": "a1e14",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne vers les enfants, lève une patte botte rouge, puis l’autre, et se dandine."
+        },
+        {
+          "id": "a1e15",
+          "type": "didascalie",
+          "texte": "{{r1}} va jusqu’au sac, y plonge le nez, puis s’étend à côté et ne bouge plus."
+        },
+        {
+          "id": "a1e16",
+          "type": "conteur",
+          "texte": "Il mit du son et des herbes fraîches dans son sac, et s’étendant comme s’il eût été mort, il attendit que quelque jeune lapin, peu instruit encore des ruses de ce monde, vînt se fourrer dans son sac pour manger ce qu’il y avait mis."
+        },
+        {
+          "id": "a1e17",
+          "type": "conteur",
+          "texte": "À peine fut-il couché qu’il obtint ce qu’il attendait ; un jeune étourdi de lapin entra dans son sac, et maître {{r1}}, tirant aussitôt les cordons, le prit et le tua sans miséricorde."
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Le lapin du roi et le faux noyé",
+      "tableauId": "t2",
+      "resume": "{{r1}} offre le lapin à {{r3}} de la part du « marquis de Carabas ». Plus tard, il fait baigner {{r2}} dans la rivière et crie qu'il se noie, et le roi habille {{r2}} et l'emmène dans son carrosse.",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "Tout glorieux de sa proie, il s'en alla chez le roi {{r3}} et demanda à lui parler."
+        },
+        {
+          "id": "a2e2",
+          "type": "didascalie",
+          "texte": "{{r1}} avance à grands pas jusqu'au côté du trône."
+        },
+        {
+          "id": "a2e3",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e4",
+          "type": "didascalie",
+          "texte": "{{r1}} fait une grande révérence devant {{r3}}, puis pousse le sac du bout du nez jusqu'aux pieds de {{r3}} : le lapin est dedans."
+        },
+        {
+          "id": "a2e5",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Voilà, sire, un lapin de garenne que monsieur le marquis de Carabas m'a chargé de vous présenter de sa part.",
+          "ton": "poli, avec de grands airs"
+        },
+        {
+          "id": "a2e6",
+          "type": "conteur",
+          "texte": "C'était le nom qu'il eut l'idée de donner à son maître."
+        },
+        {
+          "id": "a2e7",
+          "type": "didascalie",
+          "texte": "{{r3}} se penche vers le sac, se redresse et sautille."
+        },
+        {
+          "id": "a2e8",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Dis à ton maître que je le remercie et qu'il me fait plaisir.",
+          "ton": "gourmand, tout content"
+        },
+        {
+          "id": "a2e9",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e10",
+          "type": "conteur",
+          "texte": "{{r1}} continua ainsi, pendant deux ou trois mois, à porter de temps en temps à {{r3}} du gibier de la chasse de son maître."
+        },
+        {
+          "id": "a2e11",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e12",
+          "type": "conteur",
+          "texte": "Un jour qu'il sut que {{r3}} devait aller à la promenade, sur le bord de la rivière, il dit à son maître :"
+        },
+        {
+          "id": "a2e13",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Si vous voulez suivre mon conseil, votre fortune est faite : vous n'avez qu'à vous baigner dans la rivière, à l'endroit que je vous montrerai, et ensuite me laisser faire.",
+          "ton": "malin, en confidence"
+        },
+        {
+          "id": "a2e14",
+          "type": "didascalie",
+          "texte": "{{r1}} montre la serviette bleue d'un mouvement de tête."
+        },
+        {
+          "id": "a2e15",
+          "type": "conteur",
+          "texte": "Le marquis de Carabas fit ce que son chat lui conseillait, sans savoir à quoi cela serait bon."
+        },
+        {
+          "id": "a2e16",
+          "type": "didascalie",
+          "texte": "{{r2}} plonge derrière la serviette bleue."
+        },
+        {
+          "id": "a2e17",
+          "type": "note_marionnettiste",
+          "texte": "Faire un grand « plouf ! » à la voix au moment où {{r2}} disparaît."
+        },
+        {
+          "id": "a2e18",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e19",
+          "type": "note_marionnettiste",
+          "texte": "Faire au loin, à la voix, le bruit des roues du carrosse qui approche : « cataclop, cataclop »."
+        },
+        {
+          "id": "a2e20",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Le roi arrive ! Aidez-moi à crier très fort : Au secours ! Au secours !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e21",
+          "type": "didascalie",
+          "texte": "{{r1}} saute sur place et agite la tête vers la serviette bleue."
+        },
+        {
+          "id": "a2e22",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Au secours ! au secours ! voilà monsieur le marquis de Carabas qui se noie !",
+          "ton": "de toute sa force, affolé pour de faux"
+        },
+        {
+          "id": "a2e23",
+          "type": "note_marionnettiste",
+          "texte": "Faire crier « Au secours ! au secours ! » aux enfants en même temps que {{r1}}, puis faire le bruit des roues qui s'arrêtent."
+        },
+        {
+          "id": "a2e24",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e25",
+          "type": "didascalie",
+          "texte": "{{r3}} se penche en avant, comme par la portière, regarde {{r1}} et hoche la tête."
+        },
+        {
+          "id": "a2e26",
+          "type": "didascalie",
+          "texte": "{{r3}} se tourne vers la coulisse."
+        },
+        {
+          "id": "a2e27",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Gardes ! Allez vite au secours de monsieur le marquis de Carabas !",
+          "ton": "fort, en donnant un ordre"
+        },
+        {
+          "id": "a2e28",
+          "type": "note_marionnettiste",
+          "texte": "Faire des bruits d'éclaboussures à la voix derrière la serviette bleue : les gardes repêchent {{r2}}."
+        },
+        {
+          "id": "a2e29",
+          "type": "didascalie",
+          "texte": "{{r1}} s'approche tout près de {{r3}}."
+        },
+        {
+          "id": "a2e30",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Sire, dans le temps que mon maître se baignait, il est venu des voleurs qui ont emporté ses habits, quoiqu'il ait crié au voleur ! de toute sa force.",
+          "ton": "vite, en faisant l'indigné"
+        },
+        {
+          "id": "a2e31",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne vers les enfants et hoche la tête."
+        },
+        {
+          "id": "a2e32",
+          "type": "conteur",
+          "texte": "Le coquin les avait cachés sous une grosse pierre."
+        },
+        {
+          "id": "a2e33",
+          "type": "didascalie",
+          "texte": "{{r3}} se tourne vers la coulisse."
+        },
+        {
+          "id": "a2e34",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Serviteurs ! Allez chercher un de mes plus beaux habits pour monsieur le marquis de Carabas !",
+          "ton": "fort, pressé"
+        },
+        {
+          "id": "a2e35",
+          "type": "conteur",
+          "texte": "{{r3}} lui fit mille compliments, et, comme les beaux habits qu'on venait de lui donner relevaient sa bonne mine (car il était beau et bien fait de sa personne), {{r3}} voulut qu'il montât dans son carrosse et qu'il fût de la promenade."
+        },
+        {
+          "id": "a2e36",
+          "type": "note_marionnettiste",
+          "texte": "Faire repartir à la voix le bruit des roues du carrosse pendant que {{r3}} sort."
+        },
+        {
+          "id": "a2e37",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "C'est à monsieur le marquis de Carabas !",
+      "tableauId": "t2",
+      "resume": "{{r1}} court devant le carrosse et menace les paysans pour qu'ils disent que tout appartient au marquis de Carabas. {{r3}}, qui passe avec {{r2}}, s'émerveille de tant de richesses.",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "note_marionnettiste",
+          "texte": "Faites à la voix le bruit des faux dans l'herbe : « chhh… chhh… »"
+        },
+        {
+          "id": "a3e2",
+          "type": "conteur",
+          "texte": "{{r1}}, ravi de voir que son dessein commençait à réussir, prit les devants, et, ayant rencontré des paysans qui fauchaient un pré, il leur dit :"
+        },
+        {
+          "id": "a3e3",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne vers la coulisse et se dresse bien haut."
+        },
+        {
+          "id": "a3e4",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Bonnes gens qui fauchez, si vous ne dites au roi que le pré que vous fauchez appartient à monsieur le marquis de Carabas, vous serez tous hachés menu comme chair à pâté.",
+          "ton": "fort, l'air terrible"
+        },
+        {
+          "id": "a3e5",
+          "type": "didascalie",
+          "texte": "{{r1}} fait un grand bond et disparaît en courant."
+        },
+        {
+          "id": "a3e6",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e7",
+          "type": "note_marionnettiste",
+          "texte": "Faites à la voix le bruit des roues du carrosse : « cataclop, cataclop, gling-gling »."
+        },
+        {
+          "id": "a3e8",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e9",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e10",
+          "type": "didascalie",
+          "texte": "{{r3}} et {{r2}} avancent côte à côte en se balançant, comme dans le carrosse. {{r3}} se penche vers la coulisse."
+        },
+        {
+          "id": "a3e11",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "À qui est ce pré que vous fauchez ?",
+          "ton": "curieux, bien aimable"
+        },
+        {
+          "id": "a3e12",
+          "type": "note_marionnettiste",
+          "texte": "Voix des paysans, en coulisse : « C'est à monsieur le marquis de Carabas ! » Faites signe aux enfants de la crier avec eux. Si personne ne crie, dites-la seul, d'une grosse voix de foule."
+        },
+        {
+          "id": "a3e13",
+          "type": "conteur",
+          "texte": "la menace de {{r1}} leur avait fait peur."
+        },
+        {
+          "id": "a3e14",
+          "type": "didascalie",
+          "texte": "{{r3}} se tourne vers {{r2}} et hoche la tête plusieurs fois."
+        },
+        {
+          "id": "a3e15",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Vous avez là un bel héritage.",
+          "ton": "émerveillé"
+        },
+        {
+          "id": "a3e16",
+          "type": "didascalie",
+          "texte": "{{r2}} recule un tout petit peu, puis s'incline."
+        },
+        {
+          "id": "a3e17",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Vous voyez, sire ; c'est un pré qui ne manque point de rapporter abondamment toutes les années.",
+          "ton": "timide, en hésitant un peu"
+        },
+        {
+          "id": "a3e18",
+          "type": "note_marionnettiste",
+          "texte": "Refaites le bruit des roues : « cataclop, cataclop ». {{r3}} et {{r2}} repartent en se balançant et passent derrière le drap."
+        },
+        {
+          "id": "a3e19",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e20",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e21",
+          "type": "conteur",
+          "texte": "Maître {{r1}}, qui allait toujours devant, rencontra des moissonneurs et leur dit :"
+        },
+        {
+          "id": "a3e22",
+          "type": "note_marionnettiste",
+          "texte": "Voix de {{r1}}, en coulisse : « Bonnes gens qui moissonnez, si vous ne dites que tous ces blés appartiennent à monsieur le marquis de Carabas, vous serez tous hachés menu comme chair à pâté. »"
+        },
+        {
+          "id": "a3e23",
+          "type": "note_marionnettiste",
+          "texte": "Refaites le bruit des roues qui approchent : « cataclop, cataclop »."
+        },
+        {
+          "id": "a3e24",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e25",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e26",
+          "type": "didascalie",
+          "texte": "{{r3}} s'arrête, regarde tout autour de lui, puis se penche vers la coulisse."
+        },
+        {
+          "id": "a3e27",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "À qui appartiennent tous ces blés ?",
+          "ton": "étonné, les yeux ronds"
+        },
+        {
+          "id": "a3e28",
+          "type": "note_marionnettiste",
+          "texte": "Voix des moissonneurs, en coulisse : « C'est à monsieur le marquis de Carabas ! » Faites de nouveau crier les enfants avec eux. Si personne ne crie, dites-la seul, d'une grosse voix de foule."
+        },
+        {
+          "id": "a3e29",
+          "type": "didascalie",
+          "texte": "{{r3}} sautille de joie et se tourne vers {{r2}}, qui hoche la tête."
+        },
+        {
+          "id": "a3e30",
+          "type": "conteur",
+          "texte": "{{r1}}, qui allait au devant du carrosse, disait toujours la même chose à tous ceux qu'il rencontrait, et {{r3}} était étonné des grands biens de monsieur le marquis de Carabas."
+        },
+        {
+          "id": "a3e31",
+          "type": "note_marionnettiste",
+          "texte": "Bruit des roues qui s'éloignent : « cataclop… cataclop »."
+        },
+        {
+          "id": "a3e32",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e33",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "numero": 4,
+      "titre": "Le lion, la souris et le château",
+      "tableauId": "t3",
+      "resume": "{{r1}} flatte l'ogre {{r4}}, qui se change en lion, puis en souris pour prouver qu'il en est capable. {{r1}} croque la souris, accueille le roi au « château du marquis de Carabas », et {{r3}} fait de {{r2}} son ami.",
+      "elements": [
+        {
+          "id": "a4e1",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e2",
+          "type": "conteur",
+          "texte": "Maître {{r1}} arriva enfin dans un beau château, dont le maître était l’ogre {{r4}}, le plus riche qu’on ait jamais vu ; car toutes les terres par où {{r3}} avait passé étaient de la dépendance de ce château."
+        },
+        {
+          "id": "a4e3",
+          "type": "didascalie",
+          "texte": "{{r1}} frappe trois coups sur la table avec sa patte."
+        },
+        {
+          "id": "a4e4",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je voudrais parler au maître de ce château !",
+          "ton": "fort, très poli"
+        },
+        {
+          "id": "a4e5",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e6",
+          "type": "didascalie",
+          "texte": "{{r1}} s’incline très bas devant {{r4}}."
+        },
+        {
+          "id": "a4e7",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je n’ai pas voulu passer si près de votre château sans avoir l’honneur de vous faire la révérence.",
+          "ton": "doux et flatteur"
+        },
+        {
+          "id": "a4e8",
+          "type": "conteur",
+          "texte": "{{r4}} le reçut aussi civilement que le peut un ogre et le fit reposer."
+        },
+        {
+          "id": "a4e9",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "On m’a assuré que vous aviez le don de vous changer en toutes sortes d’animaux ; que vous pouviez, par exemple, vous transformer en lion, en éléphant.",
+          "ton": "l’air émerveillé"
+        },
+        {
+          "id": "a4e10",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Cela est vrai, et, pour vous le montrer, vous m’allez voir devenir lion.",
+          "ton": "brusque, grosse voix fière"
+        },
+        {
+          "id": "a4e11",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e12",
+          "type": "note_marionnettiste",
+          "texte": "Faites à la voix, en coulisse, un énorme rugissement : Grrraaaaooooh !"
+        },
+        {
+          "id": "a4e13",
+          "type": "didascalie",
+          "texte": "{{r1}} tremble de tout son corps, puis grimpe sur le bord du drap, glisse sur ses bottes, se rattrape et s’y cache."
+        },
+        {
+          "id": "a4e14",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e15",
+          "type": "didascalie",
+          "texte": "{{r1}} sort la tête, regarde {{r4}}, puis redescend lentement près de lui."
+        },
+        {
+          "id": "a4e16",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "J’ai eu bien peur !",
+          "ton": "en tremblotant encore"
+        },
+        {
+          "id": "a4e17",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "On m’a assuré encore, mais je ne saurais le croire, que vous aviez aussi le pouvoir de prendre la forme des plus petits animaux, par exemple de vous changer en un rat, en une souris : je vous avoue que je crois cela tout à fait impossible.",
+          "ton": "l’air de ne pas y croire"
+        },
+        {
+          "id": "a4e18",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Impossible ! Vous allez voir !",
+          "ton": "vexé, très fort"
+        },
+        {
+          "id": "a4e19",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e20",
+          "type": "note_marionnettiste",
+          "texte": "Faites à la voix, en coulisse, un tout petit cri : Hiii ! Hiii !"
+        },
+        {
+          "id": "a4e21",
+          "type": "conteur",
+          "texte": "Et en même temps il se changea en une souris, qui se mit à courir sur le plancher."
+        },
+        {
+          "id": "a4e22",
+          "type": "didascalie",
+          "texte": "{{r1}} bondit d’un coup derrière le bord du drap."
+        },
+        {
+          "id": "a4e23",
+          "type": "conteur",
+          "texte": "{{r1}} ne l’eut pas plus tôt aperçue, qu’il se jeta dessus et la mangea."
+        },
+        {
+          "id": "a4e24",
+          "type": "didascalie",
+          "texte": "{{r1}} ressort de derrière le drap en se léchant les babines."
+        },
+        {
+          "id": "a4e25",
+          "type": "conteur",
+          "texte": "Pendant ce temps, {{r3}}, qui vit en passant le beau château de {{r4}}, voulut entrer dedans."
+        },
+        {
+          "id": "a4e26",
+          "type": "note_marionnettiste",
+          "texte": "Faites à la voix le bruit du carrosse qui roule sur le pont-levis : « Cataclop, cataclop, bong, bong ! »"
+        },
+        {
+          "id": "a4e27",
+          "type": "didascalie",
+          "texte": "{{r1}} se retourne vers la coulisse, puis court vers le bord de la scène."
+        },
+        {
+          "id": "a4e28",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e29",
+          "type": "didascalie",
+          "texte": "{{r1}} fait une grande révérence devant {{r3}}."
+        },
+        {
+          "id": "a4e30",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Votre Majesté soit la bienvenue dans ce château de monsieur le marquis de Carabas !",
+          "ton": "fier, les bras grands ouverts"
+        },
+        {
+          "id": "a4e31",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne vers le carrosse et s’incline, puis recule en s’inclinant jusqu’au bord de la scène."
+        },
+        {
+          "id": "a4e32",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e33",
+          "type": "didascalie",
+          "texte": "{{r3}} se tourne vers le côté du carrosse et attend."
+        },
+        {
+          "id": "a4e34",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e35",
+          "type": "didascalie",
+          "texte": "{{r2}} arrive à côté de {{r3}}, comme s’il descendait du carrosse."
+        },
+        {
+          "id": "a4e36",
+          "type": "didascalie",
+          "texte": "{{r3}} se tourne vers {{r2}}, puis regarde tout autour de lui."
+        },
+        {
+          "id": "a4e37",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Comment, monsieur le marquis, ce château est encore à vous ! Il ne se peut rien de plus beau que cette cour et que tous ces bâtiments qui l’environnent ; voyons l’intérieur, s’il vous plaît.",
+          "ton": "ébloui, en s’écriant"
+        },
+        {
+          "id": "a4e38",
+          "type": "conteur",
+          "texte": "Le marquis et {{r3}}, qui montait le premier, entrèrent dans une grande salle, où ils trouvèrent une magnifique collation que {{r4}} avait fait préparer."
+        },
+        {
+          "id": "a4e39",
+          "type": "didascalie",
+          "texte": "{{r3}} se penche cinq ou six fois vers la table, comme s’il buvait, puis se tourne vers {{r2}}."
+        },
+        {
+          "id": "a4e40",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Il ne tient qu’à vous, monsieur le marquis, d’être mon ami.",
+          "ton": "joyeux, le ventre plein"
+        },
+        {
+          "id": "a4e41",
+          "type": "didascalie",
+          "texte": "{{r2}} fait de grandes révérences devant {{r3}}, une, deux, trois."
+        },
+        {
+          "id": "a4e42",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Merci, sire ! J’accepte.",
+          "ton": "timide, tout ému"
+        },
+        {
+          "id": "a4e43",
+          "type": "conteur",
+          "texte": "Dès le même jour, il devint l’ami du roi, qui le trouvait fort à son goût."
+        },
+        {
+          "id": "a4e44",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e45",
+          "type": "didascalie",
+          "texte": "{{r2}} se tourne vers le côté où {{r3}} est parti et lui fait encore une petite révérence."
+        },
+        {
+          "id": "a4e46",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e47",
+          "type": "didascalie",
+          "texte": "{{r1}} se place à côté de {{r2}} et fait le fier en tapant du pied avec ses bottes."
+        },
+        {
+          "id": "a4e48",
+          "type": "conteur",
+          "texte": "{{r1}} devint grand seigneur, et ne courut plus après les souris que pour se divertir."
+        },
+        {
+          "id": "a4e49",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r2}} saluent ensemble les enfants."
+        },
+        {
+          "id": "a4e50",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e51",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "synopsis": {
+      "conte": "fr-perrault-chat-botte",
+      "titre": "Le Chat botté",
+      "accroche": "Un chat en bottes rouges fait croire à tout le monde que son pauvre maître est un grand seigneur, le marquis de Carabas.",
+      "resume": [
+        "{{r2}}, le plus jeune fils du meunier, n'hérite que du chat {{r1}}. {{r1}} lui demande une paire de bottes et un sac, et lui promet qu'il ne le regrettera pas.",
+        "{{r1}} attrape un lapin dans son sac et le porte au roi {{r3}}, « de la part de mon maître, le marquis de Carabas ». {{r3}}, qui adore les bonnes choses, est ravi.",
+        "Quand le carrosse du roi passe près de la rivière, {{r1}} crie : « Au secours ! Le marquis de Carabas se noie ! » {{r3}} fait sortir {{r2}} de l'eau, lui donne de beaux habits et l'emmène dans son carrosse.",
+        "{{r1}} court devant et fait dire à tous les paysans que les champs sont « à monsieur le marquis de Carabas ! ». Puis il arrive au château de l'ogre {{r4}}.",
+        "{{r1}} flatte {{r4}}, qui se change en lion, puis en souris pour prouver qu'il en est capable. {{r1}} croque la souris et accueille le roi « au château de monsieur le marquis de Carabas ». {{r3}}, ébloui, fait de {{r2}} son ami, et {{r1}} devient un grand seigneur."
+      ],
+      "distribution": [
+        {
+          "marionnette": "{{r1}}",
+          "role": "le Chat botté",
+          "note": "un chat rusé, bavard et vantard, et il a déjà ses bottes rouges"
+        },
+        {
+          "marionnette": "{{r2}}",
+          "role": "le Fils du meunier",
+          "note": "timide et naïf, avec son gilet de meunier, il se laisse faire par son chat"
+        },
+        {
+          "marionnette": "{{r3}}",
+          "role": "le Roi",
+          "note": "un roi naïf et gourmand qui se régale du gibier et croit tout"
+        },
+        {
+          "marionnette": "{{r4}}",
+          "role": "l'Ogre",
+          "note": "vantard et orgueilleux, il tombe dans le piège de ses propres vantardises"
+        }
+      ],
+      "changements": [
+        "La princesse et les frères aînés n'ont pas de marionnette : on dit seulement que les frères ont pris le moulin et l'âne, et à la fin {{r2}} gagne l'amitié du roi au lieu d'épouser sa fille.",
+        "Les paysans restent derrière le castelet : ce sont les enfants qui crient avec eux « C'est à monsieur le marquis de Carabas ! ».",
+        "Pour tenir en 8 minutes, {{r1}} ne porte son gibier au roi qu'une seule fois au lieu de plusieurs."
+      ],
+      "id": "fr-perrault-chat-botte",
+      "reference": "Le Chat botté — France, Charles Perrault, Histoires ou contes du temps passé, 1697",
+      "annonces": []
+    },
+    "conteId": "fr-perrault-chat-botte",
+    "adaptation": {
+      "titre": "Le Chat botté et le marquis de Carabas",
+      "pitch": "{{r1}}, un chat en bottes rouges, fait croire à tout le monde que {{r2}}, son pauvre maître, est le grand marquis de Carabas, jusqu'à lui gagner le château de l'ogre {{r4}}.",
+      "changements": [
+        "Les frères aînés de {{r2}} n'apparaissent pas : le conteur dit seulement qu'ils ont pris le moulin et l'âne.",
+        "{{r1}} n'apporte son gibier au roi qu'une seule fois, avec le lapin : l'épisode des deux perdrix est coupé.",
+        "Les gardes et les serviteurs du roi restent derrière le drap : {{r3}} leur donne ses ordres en regardant vers la coulisse, et on ne les voit jamais.",
+        "Les paysans restent derrière le drap : {{r1}} les menace en regardant vers la coulisse, et leur réponse « C'est à monsieur le marquis de Carabas ! » est criée par le parent avec les enfants.",
+        "{{r1}} menace seulement les faucheurs sur scène. Pour les moissonneurs, le conteur dit que {{r1}} leur a répété la même chose, et on n'entend que leur réponse.",
+        "Le carrosse du roi n'existe que par un bruit de roues fait à la voix. {{r3}} entre simplement en scène comme s'il était dedans.",
+        "{{r2}} ne change pas de costume : quand il revient après la rivière, {{r3}} et le conteur disent qu'il porte le plus bel habit du roi.",
+        "Les transformations de {{r4}} se font derrière le drap. Le lion n'est qu'un grand rugissement, la souris n'est qu'un petit cri, et {{r1}} bondit derrière le bord du drap pour la croquer.",
+        "Les amis de l'ogre qui devaient venir au festin sont coupés : le conteur dit seulement que la table était prête."
+      ],
+      "tableaux": [
+        {
+          "id": "t1",
+          "titre": "Le moulin et la garenne",
+          "description": "Tendez un drap sur deux chaises : c'est derrière que vous vous cachez pour jouer. À gauche, posez un carton avec une croix en papier collée dessus : c'est le moulin. À droite, posez un coussin vert : c'est la garenne aux lapins, et le sac de {{r1}} est posé devant.",
+          "accessoires": [
+            "un petit sac en tissu (une chaussette propre fait l'affaire)"
+          ],
+          "promptImage": ""
+        },
+        {
+          "id": "t2",
+          "titre": "Le pays du roi",
+          "description": "À gauche, posez un coussin couvert d'un torchon jaune : c'est le trône de {{r3}}, et le sac de {{r1}} est posé devant. À droite, étalez une serviette bleue au bord du drap : c'est la rivière. Le milieu reste libre : ce sont les champs.",
+          "accessoires": [],
+          "promptImage": ""
+        },
+        {
+          "id": "t3",
+          "titre": "Le château de l'ogre",
+          "description": "Posez au centre un grand carton retourné : c'est le château de {{r4}}. Mettez devant une boîte à chaussures : c'est la grande table du festin.",
+          "accessoires": [],
+          "promptImage": ""
+        }
+      ],
+      "actes": [
+        {
+          "numero": 1,
+          "titre": "Un chat pour tout héritage",
+          "tableauId": "t1",
+          "resume": "{{r2}} se désole de n'avoir hérité que de son chat. {{r1}} lui demande un sac et des bottes, puis va attraper un lapin dans la garenne.",
+          "passage": "De « Un meunier ne laissa pour tous biens » à « …le prit et le tua sans miséricorde. »",
+          "temps": [
+            "Le conteur dit que les frères ont pris le moulin et l'âne, et que {{r2}} n'a eu que le chat. {{r2}} se lamente.",
+            "{{r1}}, d'un air sérieux, demande à {{r2}} un sac et des bottes, et promet qu'il ne le regrettera pas.",
+            "{{r2}} sort, pas très convaincu. {{r1}} montre fièrement ses bottes rouges au public et s'approche du sac.",
+            "{{r1}} s'allonge près du sac et fait le mort. Le conteur dit qu'un jeune lapin étourdi s'y est fourré et que {{r1}} l'a pris."
+          ],
+          "mouvements": [
+            {
+              "type": "entree",
+              "marionnette": "{{r2}}",
+              "main": "M1G"
+            },
+            {
+              "type": "entree",
+              "marionnette": "{{r1}}",
+              "main": "M1D"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "{{r2}}",
+              "main": "M1G"
+            }
+          ],
+          "momentsPublic": [],
+          "budgetMots": 170
+        },
+        {
+          "numero": 2,
+          "titre": "Le lapin du roi et le faux noyé",
+          "tableauId": "t2",
+          "resume": "{{r1}} offre le lapin à {{r3}} de la part du « marquis de Carabas ». Plus tard, il fait baigner {{r2}} dans la rivière et crie qu'il se noie, et le roi habille {{r2}} et l'emmène dans son carrosse.",
+          "passage": "De « Tout glorieux de sa proie » à « …qu'il fût de la promenade. » (sans les deux perdrix)",
+          "temps": [
+            "{{r1}}, resté en scène, marche jusqu'au trône. {{r3}} entre, {{r1}} fait une grande révérence et pousse le sac vers lui : « de la part de monsieur le marquis de Carabas ». {{r3}}, ravi, remercie, puis sort.",
+            "Le conteur dit que des mois ont passé. {{r2}} entre. {{r1}} lui conseille d'aller se baigner dans la rivière, et {{r2}} plonge derrière la serviette bleue avec un « plouf ! » fait à la voix.",
+            "{{r1}} crie « Au secours ! Le marquis de Carabas se noie ! » avec les enfants. Au bruit du carrosse, {{r3}} entre et ordonne à ses gardes, en coulisse, de sauver le marquis.",
+            "{{r1}} raconte que des voleurs ont emporté les habits de son maître. {{r3}} fait apporter son plus bel habit, invite le marquis dans son carrosse, puis sort."
+          ],
+          "mouvements": [
+            {
+              "type": "entree",
+              "marionnette": "{{r3}}",
+              "main": "M1G"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "{{r3}}",
+              "main": "M1G"
+            },
+            {
+              "type": "entree",
+              "marionnette": "{{r2}}",
+              "main": "M1G"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "{{r2}}",
+              "main": "M1G"
+            },
+            {
+              "type": "entree",
+              "marionnette": "{{r3}}",
+              "main": "M1G"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "{{r3}}",
+              "main": "M1G"
+            }
+          ],
+          "momentsPublic": [
+            "Juste avant l'arrivée du carrosse, {{r1}} se tourne vers les enfants : « Le roi arrive ! Aidez-moi à crier très fort : Au secours ! Au secours ! » Puis {{r1}} crie avec eux « Au secours ! au secours ! voilà monsieur le marquis de Carabas qui se noie ! »."
+          ],
+          "budgetMots": 230
+        },
+        {
+          "numero": 3,
+          "titre": "C'est à monsieur le marquis de Carabas !",
+          "tableauId": "t2",
+          "resume": "{{r1}} court devant le carrosse et menace les paysans pour qu'ils disent que tout appartient au marquis de Carabas. {{r3}}, qui passe avec {{r2}}, s'émerveille de tant de richesses.",
+          "passage": "De « {{r1}}, ravi de voir que son dessein commençait à réussir » à « …des grands biens de monsieur le marquis de Carabas. »",
+          "temps": [
+            "{{r1}}, seul, se tourne vers la coulisse où fauchent les paysans et les menace d'être « hachés menu comme chair à pâté » s'ils ne disent pas que le pré est au marquis de Carabas. Puis il file.",
+            "{{r3}} entre avec {{r2}}, bien habillé à ses côtés, comme dans le carrosse. {{r3}} demande à qui est ce pré. Les paysans, depuis la coulisse, répondent avec les enfants.",
+            "{{r3}} félicite le marquis pour son bel héritage, et {{r2}} répond timidement, comme son chat le lui a appris.",
+            "Le conteur dit que {{r1}} a fait la même menace aux moissonneurs. {{r3}} demande à qui sont les blés, et les enfants crient encore le refrain. {{r3}} et {{r2}} sortent pour continuer la promenade."
+          ],
+          "mouvements": [
+            {
+              "type": "sortie",
+              "marionnette": "{{r1}}",
+              "main": "M1D"
+            },
+            {
+              "type": "entree",
+              "marionnette": "{{r3}}",
+              "main": "M1G"
+            },
+            {
+              "type": "entree",
+              "marionnette": "{{r2}}",
+              "main": "M1D"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "{{r2}}",
+              "main": "M1D"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "{{r3}}",
+              "main": "M1G"
+            }
+          ],
+          "momentsPublic": [
+            "Quand {{r3}} demande à qui est le pré, puis à qui sont les blés, les paysans répondent depuis la coulisse « C'est à monsieur le marquis de Carabas ! ». C'est une réplique des paysans, avec une note au parent pour que les enfants la crient avec eux les deux fois. Si les enfants ne crient pas, le parent la dit seul, d'une grosse voix de foule."
+          ],
+          "budgetMots": 150
+        },
+        {
+          "numero": 4,
+          "titre": "Le lion, la souris et le château",
+          "tableauId": "t3",
+          "resume": "{{r1}} flatte l'ogre {{r4}}, qui se change en lion, puis en souris pour prouver qu'il en est capable. {{r1}} croque la souris, accueille le roi au « château du marquis de Carabas », et {{r3}} fait de {{r2}} son ami.",
+          "passage": "De « Maître {{r1}} arriva enfin dans un beau château » à « …que pour se divertir. »",
+          "temps": [
+            "{{r1}} arrive au château et fait la révérence. {{r4}} entre, et {{r1}} lui dit qu'on le dit capable de se changer en lion. {{r4}} sort pour se transformer, un énorme rugissement monte de la coulisse, et {{r1}} tremble puis se cache au bord du drap, comme sur les gouttières.",
+            "{{r4}} revient en ogre. {{r1}} avoue qu'il a eu peur, puis dit qu'il ne croit pas qu'un ogre puisse devenir une souris. « Impossible ! » {{r4}} sort, un tout petit cri monte de la coulisse, et {{r1}} bondit derrière le bord du drap, puis ressort en se léchant les babines.",
+            "On entend le bruit du carrosse. {{r3}} entre, et {{r1}} l'accueille : « Votre Majesté soit la bienvenue dans ce château de monsieur le marquis de Carabas ! » {{r3}} s'émerveille, puis {{r1}} file chercher son maître.",
+            "{{r2}} entre. Devant la grande table du festin, {{r3}} lui propose d'être son ami, et {{r2}} accepte en faisant de grandes révérences. Le conteur termine : {{r1}} devint grand seigneur et ne courut plus après les souris que pour s'amuser."
+          ],
+          "mouvements": [
+            {
+              "type": "entree",
+              "marionnette": "{{r1}}",
+              "main": "M1D"
+            },
+            {
+              "type": "entree",
+              "marionnette": "{{r4}}",
+              "main": "M1G"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "{{r4}}",
+              "main": "M1G"
+            },
+            {
+              "type": "entree",
+              "marionnette": "{{r4}}",
+              "main": "M1G"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "{{r4}}",
+              "main": "M1G"
+            },
+            {
+              "type": "entree",
+              "marionnette": "{{r3}}",
+              "main": "M1G"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "{{r1}}",
+              "main": "M1D"
+            },
+            {
+              "type": "entree",
+              "marionnette": "{{r2}}",
+              "main": "M1D"
+            }
+          ],
+          "momentsPublic": [],
+          "budgetMots": 280
+        }
+      ],
+      "voix": [
+        {
+          "marionnette": "{{r1}}",
+          "voix": "voix vive et rapide, un peu chantante, roule les « r » et dit « parole de chat ! » quand il se vante"
+        },
+        {
+          "marionnette": "{{r2}}",
+          "voix": "voix douce et lente, hésitante, commence souvent par « euh… »"
+        },
+        {
+          "marionnette": "{{r3}}",
+          "voix": "voix haute et un peu chevrotante, très solennelle, fait « mmm, délicieux ! » dès qu'on parle de manger"
+        },
+        {
+          "marionnette": "{{r4}}",
+          "voix": "voix très grave et tonitruante, parle fort et termine ses vantardises par un gros « ho ho ho ! »"
+        }
+      ]
+    },
+    "transposition": {
+      "texte": "Un meunier ne laissa pour tous biens, à trois enfants qu’il avait, que son moulin, son âne et son chat. Les partages furent bientôt faits ; ni le notaire, ni le procureur n’y furent point appelés. Ils auraient eu bientôt mangé tout le pauvre patrimoine. L’aîné eut le moulin, le second eut l’âne, et le plus jeune, {{r2}}, n’eut que le chat, {{r1}}.\n\n{{r2}} ne pouvait se consoler d’avoir un si pauvre lot : « Mes frères, disait-il, pourront gagner leur vie honnêtement en se mettant ensemble ; pour moi, lorsque j’aurai mangé mon chat, et que je me serai fait un manchon de sa peau, il faudra que je meure de faim. »\n\n{{r1}}, qui entendait ce discours, mais qui n’en laissa rien paraître, lui dit d’un air posé et sérieux : « Ne vous affligez point, mon maître ; vous n’avez qu’à me donner un sac et me faire faire une paire de bottes pour aller dans les broussailles, et vous verrez que vous n’êtes pas si mal partagé que vous croyez. »\n\nQuoique {{r2}} n’y crût guère, il lui avait vu faire tant de tours de souplesse pour prendre des rats et des souris, comme quand il se pendait par les pieds, ou qu’il se cachait dans la farine pour faire le mort, qu’il ne désespéra pas d’en être secouru dans sa misère.\n\nLorsque {{r1}} eut ce qu’il avait demandé, il enfila fièrement ses bottes, et, mettant son sac à son cou, il en prit les cordons avec ses deux pattes de devant, et s’en alla dans une garenne où il y avait grand nombre de lapins. Il mit du son et des herbes fraîches dans son sac, et s’étendant comme s’il eût été mort, il attendit que quelque jeune lapin, peu instruit encore des ruses de ce monde, vînt se fourrer dans son sac pour manger ce qu’il y avait mis.\n\nÀ peine fut-il couché qu’il obtint ce qu’il attendait ; un jeune étourdi de lapin entra dans son sac, et maître {{r1}}, tirant aussitôt les cordons, le prit et le tua sans miséricorde.\n\nTout glorieux de sa proie, il s’en alla chez le roi {{r3}} et demanda à lui parler. On le fit monter à l’appartement de Sa Majesté, où étant entré, il fit une grande révérence à {{r3}}, et lui dit : « Voilà, sire, un lapin de garenne que monsieur le marquis de Carabas (c’était le nom qu’il eut l’idée de donner à son maître) m’a chargé de vous présenter de sa part. — Dis à ton maître, répondit {{r3}}, que je le remercie et qu’il me fait plaisir. »\n\nUne autre fois, il alla se cacher dans un blé, tenant toujours son sac ouvert, et, lorsque deux perdrix y furent entrées, il tira les cordons et les prit toutes deux. Il alla ensuite les présenter à {{r3}}, comme il avait fait du lapin de garenne. {{r3}} reçut encore avec plaisir les deux perdrix, et lui fit donner un pourboire.\n\n{{r1}} continua ainsi, pendant deux ou trois mois, à porter de temps en temps à {{r3}} du gibier de la chasse de son maître. Un jour qu’il sut que {{r3}} devait aller à la promenade, sur le bord de la rivière, il dit à son maître : « Si vous voulez suivre mon conseil, votre fortune est faite : vous n’avez qu’à vous baigner dans la rivière, à l’endroit que je vous montrerai, et ensuite me laisser faire. »\n\nLe marquis de Carabas fit ce que son chat lui conseillait, sans savoir à quoi cela serait bon. Dans le temps qu’il se baignait, {{r3}} vint à passer, et {{r1}} se mit à crier de toute sa force : « Au secours ! au secours ! voilà monsieur le marquis de Carabas qui se noie ! » À ce cri, {{r3}} mit la tête à la portière, et, reconnaissant {{r1}} qui lui avait apporté tant de fois du gibier, il ordonna à ses gardes qu’on allât vite au secours de monsieur le marquis de Carabas.\n\nPendant qu’on retirait le pauvre marquis de la rivière, {{r1}} s’approcha du carrosse et dit à {{r3}} que, dans le temps que son maître se baignait, il était venu des voleurs qui avaient emporté ses habits, quoiqu’il eût crié au voleur ! de toute sa force ; le coquin les avait cachés sous une grosse pierre.\n\n{{r3}} ordonna aussitôt aux serviteurs de sa garde-robe d’aller chercher un de ses plus beaux habits pour monsieur le marquis de Carabas. {{r3}} lui fit mille compliments, et, comme les beaux habits qu’on venait de lui donner relevaient sa bonne mine (car il était beau et bien fait de sa personne), {{r3}} voulut qu’il montât dans son carrosse et qu’il fût de la promenade. {{r1}}, ravi de voir que son dessein commençait à réussir, prit les devants, et, ayant rencontré des paysans qui fauchaient un pré, il leur dit : « Bonnes gens qui fauchez, si vous ne dites au roi que le pré que vous fauchez appartient à monsieur le marquis de Carabas, vous serez tous hachés menu comme chair à pâté. »\n\n{{r3}} ne manqua pas de demander aux faucheurs à qui était ce pré qu’ils fauchaient : « C’est à monsieur le marquis de Carabas, » dirent-ils tous ensemble ; car la menace de {{r1}} leur avait fait peur.\n\n« Vous avez là un bel héritage, dit {{r3}} au marquis de Carabas. — Vous voyez, sire, répondit le marquis ; c’est un pré qui ne manque point de rapporter abondamment toutes les années. »\n\nMaître {{r1}}, qui allait toujours devant, rencontra des moissonneurs et leur dit : « Bonnes gens qui moissonnez, si vous ne dites que tous ces blés appartiennent à monsieur le marquis de Carabas, vous serez tous hachés menu comme chair à pâté. » {{r3}}, qui passa un moment après, voulut savoir à qui appartenaient tous les blés qu’il voyait. « C’est à monsieur le marquis de Carabas, » répondirent les moissonneurs ; et {{r3}} s’en réjouit encore avec le marquis. {{r1}}, qui allait au devant du carrosse, disait toujours la même chose à tous ceux qu’il rencontrait, et {{r3}} était étonné des grands biens de monsieur le marquis de Carabas.\n\nMaître {{r1}} arriva enfin dans un beau château, dont le maître était l’ogre {{r4}}, le plus riche qu’on ait jamais vu ; car toutes les terres par où {{r3}} avait passé étaient de la dépendance de ce château. {{r1}}, qui eut soin de s’informer qui était cet ogre et ce qu’il savait faire, demanda à lui parler, disant qu’il n’avait pas voulu passer si près de son château sans avoir l’honneur de lui faire la révérence. {{r4}} le reçut aussi civilement que le peut un ogre et le fit reposer. « On m’a assuré, dit {{r1}}, que vous aviez le don de vous changer en toutes sortes d’animaux ; que vous pouviez, par exemple, vous transformer en lion, en éléphant. — Cela est vrai, répondit {{r4}} brusquement, et, pour vous le montrer, vous m’allez voir devenir lion. » {{r1}} fut si effrayé de voir un lion devant lui, qu’il gagna aussitôt les gouttières, non sans peine et sans péril, à cause de ses bottes, qui ne valaient rien pour marcher sur les tuiles.\n\nQuelque temps après, {{r1}}, ayant vu que {{r4}} avait quitté sa première forme, descendit et avoua qu’il avait eu bien peur. « On m’a assuré encore, dit {{r1}}, mais je ne saurais le croire, que vous aviez aussi le pouvoir de prendre la forme des plus petits animaux, par exemple de vous changer en un rat, en une souris : je vous avoue que je crois cela tout à fait impossible. — Impossible ! reprit {{r4}} ; vous allez voir ; » et en même temps il se changea en une souris, qui se mit à courir sur le plancher. {{r1}} ne l’eut pas plus tôt aperçue, qu’il se jeta dessus et la mangea.\n\nPendant ce temps, {{r3}}, qui vit en passant le beau château de {{r4}}, voulut entrer dedans. {{r1}}, qui entendit le bruit du carrosse, qui passait sur le pont-levis, courut au-devant et dit à {{r3}} : « Votre Majesté soit la bienvenue dans ce château de monsieur le marquis de Carabas ! — Comment, monsieur le marquis, s’écria {{r3}}, ce château est encore à vous ! il ne se peut rien de plus beau que cette cour et que tous ces bâtiments qui l’environnent ; voyons l’intérieur, s’il vous plaît. »\n\nLe marquis et {{r3}}, qui montait le premier, entrèrent dans une grande salle, où ils trouvèrent une magnifique collation que {{r4}} avait fait préparer pour ses amis, qui devaient venir le voir ce même jour-là, mais qui n’avaient pas osé entrer, sachant que le roi y était. {{r3}}, charmé des bonnes qualités de monsieur le marquis de Carabas, et voyant les grands biens qu’il possédait, lui dit, après avoir bu cinq ou six coups : « Il ne tient qu’à vous, monsieur le marquis, d’être mon ami. » Le marquis, faisant de grandes révérences, accepta l’honneur que lui faisait {{r3}}, et, dès le même jour, il devint l’ami du roi, qui le trouvait fort à son goût. {{r1}} devint grand seigneur, et ne courut plus après les souris que pour se divertir.",
+      "changements": [
+        "La princesse n’ayant pas de marionnette, l’offre du roi « d’épouser ma fille » devient « d’être mon ami ».",
+        "Le mariage final « il épousa la princesse, qui le trouvait fort à son goût » devient « il devint l’ami du roi, qui le trouvait fort à son goût »."
+      ]
+    },
+    "retouches": {
+      "age": 7,
+      "profil": [
+        "la-princesse-d-accord@10"
+      ],
+      "annonces": []
+    },
+    "relecture": {
+      "remarques": [
+        {
+          "acte": 1,
+          "element": 14,
+          "gravite": "important",
+          "remarque": "Il manque un maillon. Le script ne dit jamais que {{r2}} a donné le sac et les bottes. L'enfant voit {{r1}} montrer ses bottes sans savoir d'où elles viennent. La phrase du conteur à l'élément 16 commence par « et s'en alla… » : c'est un fragment qui ne s'accroche à rien.",
+          "modification": "Juste avant l'élément 14, ajouter un conteur : « Lorsque {{r1}} eut ce qu'il avait demandé, il enfila fièrement ses bottes, et, mettant son sac à son cou, il s'en alla dans une garenne où il y avait grand nombre de lapins. » Supprimer l'élément 16, devenu inutile."
+        },
+        {
+          "acte": 1,
+          "element": 18,
+          "gravite": "important",
+          "remarque": "Le piège n'est pas expliqué. {{r1}} plonge le nez dans le sac puis fait le mort, mais personne ne dit qu'il y met du son et des herbes, ni qu'il fait semblant d'être mort. La phrase « il attendit… » commence en plein milieu, sans sujet clair.",
+          "modification": "Remplacer l'élément 18 par le conteur : « Il mit du son et des herbes fraîches dans son sac, et s'étendant comme s'il eût été mort, il attendit que quelque jeune lapin, peu instruit encore des ruses de ce monde, vînt se fourrer dans son sac pour manger ce qu'il y avait mis. »"
+        },
+        {
+          "acte": 1,
+          "element": 13,
+          "gravite": "mineur",
+          "remarque": "Le décor place déjà le sac devant la garenne. La note demande à la main gauche de le poser une seconde fois.",
+          "modification": "Retirer le sac de la description du décor « Le moulin et la garenne » et garder la note 13. Ou bien supprimer la note 13 et laisser le sac en place dès le début."
+        },
+        {
+          "acte": 2,
+          "element": 2,
+          "gravite": "mineur",
+          "remarque": "{{r1}} crie « Je demande à parler au roi ! » dans le vide. Rien ne dit qu'on arrive chez le roi ni qu'il porte sa prise.",
+          "modification": "Juste avant l'élément 2, ajouter un conteur : « Tout glorieux de sa proie, il s'en alla chez le roi {{r3}} et demanda à lui parler. » La réplique de {{r1}} peut rester."
+        },
+        {
+          "acte": 2,
+          "element": 4,
+          "gravite": "mineur",
+          "remarque": "La didascalie montre « le lapin posé à ses pieds ». Or il n'existe aucun lapin : il est dans le sac, qui est posé devant le trône.",
+          "modification": "Remplacer la fin de l'élément 4 par : « puis pousse le sac du bout du nez jusqu'aux pieds de {{r3}} : le lapin est dedans. »"
+        },
+        {
+          "acte": 2,
+          "element": 10,
+          "gravite": "important",
+          "remarque": "L'épisode des deux perdrix et du pourboire, qui fait partie du conte, a disparu. On passe directement à « {{r1}} continua ainsi ».",
+          "modification": "Avant l'élément 10, ajouter un conteur : « Une autre fois, il alla se cacher dans un blé, tenant toujours son sac ouvert, et, lorsque deux perdrix y furent entrées, il tira les cordons et les prit toutes deux. {{r3}} reçut encore avec plaisir les deux perdrix, et lui fit donner un pourboire. »"
+        },
+        {
+          "acte": 2,
+          "element": 30,
+          "gravite": "important",
+          "remarque": "Dans le conte, « le coquin les avait cachés sous une grosse pierre » est une remarque du conteur : c'est {{r1}} lui-même qui a caché les habits. Placée dans la bouche de {{r1}}, la phrase désigne le voleur. L'enfant perd la ruse du chat.",
+          "modification": "Couper la réplique après « de toute sa force. » Juste après, ajouter un conteur : « Le coquin de {{r1}} les avait cachés lui-même sous une grosse pierre. »"
+        },
+        {
+          "acte": 3,
+          "element": 1,
+          "gravite": "important",
+          "remarque": "On ne sait pas pourquoi {{r1}} file ni où il va. Le conte dit qu'il prend les devants du carrosse et rencontre des faucheurs. Sans ce maillon, la menace lancée vers la coulisse arrive sans raison.",
+          "modification": "Juste après l'élément 1, ajouter un conteur : « {{r1}}, ravi de voir que son dessein commençait à réussir, prit les devants, et rencontra des paysans qui fauchaient un pré. »"
+        },
+        {
+          "acte": 3,
+          "element": 22,
+          "gravite": "important",
+          "remarque": "La menace de {{r1}} aux moissonneurs se fait entendre alors que {{r3}} et {{r2}} sont en scène. Le roi entendrait donc la ruse. Dans le conte, {{r1}} est loin devant et le roi ne passe qu'« un moment après ».",
+          "modification": "Juste après l'élément 20, faire sortir {{r2}} et {{r3}} derrière le drap : le carrosse s'éloigne. Garder ensuite le conteur 21 et la voix de {{r1}} 22. Refaire le bruit des roues, puis faire rentrer {{r3}} (M1D) et {{r2}} (M1G) avant l'élément 23."
+        },
+        {
+          "acte": 4,
+          "element": 22,
+          "gravite": "important",
+          "remarque": "On n'apprend jamais que {{r4}} s'est changé en souris. On n'entend qu'un cri « Hiii ». Puis « Il la mangea » : « la » ne renvoie à rien, et l'enfant ne comprend pas ce que {{r1}} a croqué.",
+          "modification": "Juste après l'élément 20, ajouter un conteur : « Et en même temps il se changea en une souris, qui se mit à courir sur le plancher. » Remplacer ensuite l'élément 22 par : « {{r1}} ne l'eut pas plus tôt aperçue, qu'il se jeta dessus et la mangea. »"
+        },
+        {
+          "acte": 4,
+          "element": 12,
+          "gravite": "mineur",
+          "remarque": "Les éléments 12 (rugissement) et 20 (petit cri) sont notés comme des actions, alors qu'aucune main n'agit : ce sont des bruits à la voix.",
+          "modification": "Transformer les éléments 12 et 20 en notes : « Faites à la voix, en coulisse, un énorme rugissement : Grrraaaaooooh ! » et « Faites à la voix, en coulisse, un tout petit cri : Hiii ! Hiii ! »"
+        },
+        {
+          "acte": 4,
+          "element": 30,
+          "gravite": "mineur",
+          "remarque": "« Monsieur le marquis ! Venez vite ! » sonne faux : {{r2}} était dans le carrosse avec {{r3}}. On ne l'appelle pas de loin comme s'il était ailleurs.",
+          "modification": "Remplacer l'élément 30 par une action : « {{r1}} se tourne vers le carrosse et s'incline : le marquis en descend. » Faire ensuite entrer {{r2}} comme s'il descendait du carrosse, à côté de {{r3}}."
+        }
+      ]
+    }
+  },
+  "dureeEstimeeSecondes": 775
+}
