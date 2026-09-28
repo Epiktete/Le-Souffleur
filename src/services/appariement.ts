@@ -45,8 +45,10 @@ export type Ecart =
   /** Aucune distribution sans couple interdit n'existe. */
   | 'distribution'
   /**
-   * Le texte nomme une espèce (« un loup ») qu'aucune distribution ne peut
-   * honorer : la création ne réécrit pas le texte, il faut la même espèce.
+   * Un rôle à espèce IMPOSÉE (l'annotation a jugé que la remplacer
+   * dénaturerait le conte) qu'aucune peluche de la troupe ne peut tenir.
+   * Pour tous les autres rôles, la création met le texte à l'espèce de la
+   * peluche : aucune barrière (décision du 2026-09-28).
    */
   | 'espece';
 
@@ -159,10 +161,10 @@ export function evaluerModele(
 
   if (ecarts.length > 0) return { signature: s, ecarts, distribution: null };
 
-  // Une espèce citée dans le texte exige une peluche de la même espèce (au
-  // genre près) : si la troupe n'en a pas, inutile de chercher une distribution.
+  // Une espèce IMPOSÉE exige une peluche de la même espèce (au genre près) :
+  // si la troupe n'en a pas, inutile de chercher une distribution.
   const sansEspece = s.roles.some((r) =>
-    r.especeCitee && !troupe.some((m) => memeEspece(especeMarionnette(m)?.mot, r.espece)));
+    r.especeImposee && !troupe.some((m) => memeEspece(especeMarionnette(m)?.mot, r.espece)));
   if (sansEspece) return { signature: s, ecarts: ['espece'], distribution: null };
 
   const conte = conteDeSignature(s);
@@ -217,7 +219,7 @@ function reparerEspecesCitees(
   s.roles.forEach((role, k) => {
     const courante = (reparee ?? distribution)[k];
     const m = marionnette(courante.marionnetteId);
-    if (!role.especeCitee || !m || memeEspece(especeMarionnette(m)?.mot, role.espece)) return;
+    if (!role.especeImposee || !m || memeEspece(especeMarionnette(m)?.mot, role.espece)) return;
 
     const base = reparee ?? distribution.map((a) => ({ ...a }));
     // La bonne peluche joue-t-elle un autre rôle ? On échange. Sinon, elle
@@ -256,7 +258,7 @@ function motsDe(texte: string): string[] {
  * distribution demande alors « il ou elle ? ») que de deviner de travers.
  */
 const MOTS_FEMININS = new Set([
-  'ourse', 'chatte', 'louve', 'renarde', 'lapine', 'lionne', 'chienne', 'anesse', 'tigresse',
+  'ourse', 'chatte', 'louve', 'renarde', 'lapine', 'lionne', 'chienne', 'anesse', 'tigresse', 'ogresse',
   'souris', 'tortue', 'poule', 'chevre', 'vache', 'brebis', 'biche', 'jument',
   'grenouille', 'abeille', 'coccinelle', 'araignee', 'fourmi', 'libellule',
   'mouche', 'guepe', 'chouette', 'pie', 'cane', 'oie', 'hirondelle', 'mesange',
@@ -309,7 +311,7 @@ export function genreMarionnette(
 const JUMELLES: [string, string][] = [
   ['loup', 'louve'], ['ours', 'ourse'], ['chat', 'chatte'], ['renard', 'renarde'],
   ['lapin', 'lapine'], ['lion', 'lionne'], ['chien', 'chienne'], ['ane', 'anesse'],
-  ['tigre', 'tigresse'],
+  ['tigre', 'tigresse'], ['ogre', 'ogresse'],
 ];
 
 /** Même espèce, au genre près. */
@@ -333,7 +335,7 @@ export function problemeAttribution(
   const roleConte = roleConteDe(role);
   if (compatibiliteEspece(espece, familleRole(roleConte)) === INTERDIT) return 'interdit';
   if (tailleIncompatible(espece, roleConte)) return 'interdit';
-  if (role.especeCitee && !memeEspece(espece?.mot, role.espece)) return 'espece';
+  if (role.especeImposee && !memeEspece(espece?.mot, role.espece)) return 'espece';
   return null;
 }
 

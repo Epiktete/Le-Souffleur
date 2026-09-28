@@ -19,11 +19,6 @@
         "remplacements": [
           {
             "id": "pitch",
-            "avant": "un petit lapin",
-            "apres": "une petite lapine"
-          },
-          {
-            "id": "pitch",
             "avant": "être mangé",
             "apres": "être mangée"
           },
@@ -41,11 +36,6 @@
             "id": "a2e5:texte",
             "avant": ", lui,",
             "apres": ", elle,"
-          },
-          {
-            "id": "a2e6:texte",
-            "avant": "au petit lapin",
-            "apres": "à la petite lapine"
           },
           {
             "id": "a2e8:texte",
@@ -88,19 +78,9 @@
             "apres": "Elle ne trembla"
           },
           {
-            "id": "a2e12:texte",
-            "avant": "au lapin",
-            "apres": "à la lapine"
-          },
-          {
             "id": "a2e16:texte",
             "avant": "si petit",
             "apres": "si petite"
-          },
-          {
-            "id": "a2e21:texte",
-            "avant": "Le lapin",
-            "apres": "La lapine"
           },
           {
             "id": "a2e21:texte",
@@ -143,7 +123,29 @@
             "apres": "Coquine !"
           }
         ]
-      }
+      },
+      "especeMentions": [
+        {
+          "id": "pitch",
+          "avant": "un petit lapin",
+          "gabarit": "{un} {petit|petite} {espece}"
+        },
+        {
+          "id": "a2e6:texte",
+          "avant": "au petit lapin",
+          "gabarit": "{au} {petit|petite} {espece}"
+        },
+        {
+          "id": "a2e12:texte",
+          "avant": "au lapin",
+          "gabarit": "{au} {espece}"
+        },
+        {
+          "id": "a2e21:texte",
+          "avant": "Le lapin",
+          "gabarit": "{Le} {espece}"
+        }
+      ]
     },
     {
       "cle": "r2",
@@ -161,33 +163,13 @@
         "remplacements": [
           {
             "id": "pitch",
-            "avant": ", le tigre",
-            "apres": ", la tigresse"
-          },
-          {
-            "id": "pitch",
             "avant": "le plus orgueilleux",
             "apres": "la plus orgueilleuse"
-          },
-          {
-            "id": "pitch",
-            "avant": "que le tigre",
-            "apres": "que la tigresse"
-          },
-          {
-            "id": "a1:titre",
-            "avant": "Le tigre",
-            "apres": "La tigresse"
           },
           {
             "id": "a1:titre",
             "avant": "le plus orgueilleux",
             "apres": "la plus orgueilleuse"
-          },
-          {
-            "id": "a1:resume",
-            "avant": "le tigre",
-            "apres": "la tigresse"
           },
           {
             "id": "a1:resume",
@@ -213,16 +195,6 @@
             "id": "a1:resume",
             "avant": "le rouler",
             "apres": "la rouler"
-          },
-          {
-            "id": "a1e1:texte",
-            "avant": "d'un énorme tigre",
-            "apres": "d'une énorme tigresse"
-          },
-          {
-            "id": "a1e4:texte",
-            "avant": "le tigre",
-            "apres": "la tigresse"
           },
           {
             "id": "a1e4:texte",
@@ -308,26 +280,6 @@
             "id": "a2e9:texte",
             "avant": "reste tourné",
             "apres": "reste tournée"
-          },
-          {
-            "id": "a2e12:texte",
-            "avant": "Le tigre",
-            "apres": "La tigresse"
-          },
-          {
-            "id": "a2e19:texte",
-            "avant": "le tigre",
-            "apres": "la tigresse"
-          },
-          {
-            "id": "a2e21:texte",
-            "avant": "de tigre",
-            "apres": "de tigresse"
-          },
-          {
-            "id": "a2e22:texte",
-            "avant": "du tigre",
-            "apres": "de la tigresse"
           },
           {
             "id": "a2e22:texte",
@@ -460,7 +412,74 @@
             "apres": "une servante"
           }
         ]
-      }
+      },
+      "especeMentions": [
+        {
+          "id": "pitch",
+          "avant": ", le tigre le plus",
+          "gabarit": ", {le} {espece} {le|la} plus"
+        },
+        {
+          "id": "pitch",
+          "avant": "que le tigre",
+          "gabarit": "que {le} {espece}"
+        },
+        {
+          "id": "a1:titre",
+          "avant": "Le tigre",
+          "gabarit": "{Le} {espece}"
+        },
+        {
+          "id": "a1:resume",
+          "avant": "le tigre",
+          "gabarit": "{le} {espece}"
+        },
+        {
+          "id": "a1e1:texte",
+          "avant": "d'un énorme tigre",
+          "gabarit": "d'{un} énorme {espece}"
+        },
+        {
+          "id": "a1e4:texte",
+          "avant": "le tigre",
+          "gabarit": "{le} {espece}"
+        },
+        {
+          "id": "a2e12:texte",
+          "avant": "Le tigre",
+          "gabarit": "{Le} {espece}"
+        },
+        {
+          "id": "a2e19:texte",
+          "avant": "le tigre",
+          "gabarit": "{le} {espece}"
+        },
+        {
+          "id": "a2e21:texte",
+          "avant": "de tigre",
+          "gabarit": "{de} {espece}"
+        },
+        {
+          "id": "a2e22:texte",
+          "avant": "du tigre",
+          "gabarit": "{du} {espece}"
+        },
+        {
+          "id": "a3:resume",
+          "avant": "les autres tigres",
+          "gabarit": "les autres {especes}"
+        },
+        {
+          "id": "a3e26:texte",
+          "avant": "les autres tigres",
+          "gabarit": "les autres {especes}"
+        },
+        {
+          "id": "a3e27:texte",
+          "avant": "des autres tigres",
+          "gabarit": "des autres {especes}"
+        }
+      ]
     }
   ],
   "parametres": {

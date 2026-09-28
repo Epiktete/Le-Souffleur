@@ -450,7 +450,8 @@
             "apres": "à Monsieur"
           }
         ]
-      }
+      },
+      "especeImposee": true
     }
   ],
   "parametres": {

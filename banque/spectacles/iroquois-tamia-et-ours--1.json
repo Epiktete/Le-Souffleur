@@ -54,7 +54,8 @@
             "apres": "elle ressortit"
           }
         ]
-      }
+      },
+      "especeImposee": true
     },
     {
       "cle": "r2",
@@ -72,18 +73,8 @@
         "remplacements": [
           {
             "id": "pitch",
-            "avant": "L’ours",
-            "apres": "L’ourse"
-          },
-          {
-            "id": "pitch",
             "avant": "le défie",
             "apres": "la défie"
-          },
-          {
-            "id": "a1e3:texte",
-            "avant": "l’ours",
-            "apres": "l’ourse"
           },
           {
             "id": "a1e3:texte",
@@ -119,14 +110,26 @@
             "id": "a3e7:texte",
             "avant": "le maître",
             "apres": "la maîtresse"
-          },
-          {
-            "id": "a3e20:texte",
-            "avant": "d’un ours",
-            "apres": "d’une ourse"
           }
         ]
-      }
+      },
+      "especeMentions": [
+        {
+          "id": "pitch",
+          "avant": "L’ours",
+          "gabarit": "{Le} {espece}"
+        },
+        {
+          "id": "a1e3:texte",
+          "avant": "l’ours",
+          "gabarit": "{le} {espece}"
+        },
+        {
+          "id": "a3e20:texte",
+          "avant": "d’un ours",
+          "gabarit": "d’{un} {espece}"
+        }
+      ]
     }
   ],
   "parametres": {

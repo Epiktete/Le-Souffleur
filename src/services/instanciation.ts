@@ -18,8 +18,15 @@
 
 import type { Marionnette, NiveauInteraction, Spectacle } from '../types';
 import { tba } from '../textes';
-import { chargerModele, peupler, lignesModele, type SpectacleModele } from './banque';
+import {
+  chargerModele,
+  peupler,
+  lignesModele,
+  rendreMention,
+  type SpectacleModele,
+} from './banque';
 import { dureeSpectacle } from './duree';
+import { especeMarionnette } from './choixContes';
 import { genreMarionnette, type AttributionBanque, type Genre } from './appariement';
 
 /** Erreur d'instanciation, déjà traduite pour l'utilisateur. */
@@ -45,6 +52,39 @@ export interface ResultatInstanciation {
    * Vide dans le cas nominal.
    */
   avertissements: string[];
+}
+
+/**
+ * Met les mentions d'espèce d'un rôle à l'espèce de la peluche : chaque
+ * gabarit est rendu avec l'espèce et le genre cibles, puis appliqué. Tout ou
+ * rien par rôle, avec la même tolérance que les accords pour un extrait
+ * qu'un autre rôle aurait déjà transformé.
+ */
+function mettreALEspece(
+  modele: SpectacleModele,
+  cle: string,
+  espece: string,
+  genre: Genre,
+): boolean {
+  const role = modele.roles.find((r) => r.cle === cle);
+  if (!role?.especeMentions) return false;
+  const lignes = new Map(lignesModele(modele).map((l) => [l.id, l]));
+
+  const rendus = role.especeMentions.map((m) => ({
+    ...m,
+    apres: rendreMention(m.gabarit, espece, genre),
+  }));
+  for (const r of rendus) {
+    const ligne = lignes.get(r.id);
+    if (!ligne) return false;
+    const texte = ligne.lire();
+    if (!texte.includes(r.avant) && !texte.includes(r.apres)) return false;
+  }
+  for (const r of rendus) {
+    const ligne = lignes.get(r.id)!;
+    ligne.ecrire(ligne.lire().split(r.avant).join(r.apres));
+  }
+  return true;
 }
 
 /**
@@ -128,8 +168,28 @@ export function instancierModele(
   }
   const troupe = marionnettes as Marionnette[];
 
-  // 1. Les accords, rôle par rôle.
   const avertissements: string[] = [];
+
+  // 1. L'espèce, rôle par rôle : le texte prend le mot de la peluche
+  //    (décision du 2026-09-28). Un rôle sans mention n'a rien à changer.
+  modele.roles.forEach((role, k) => {
+    const m = troupe[k];
+    if (!role.especeMentions?.length || !role.espece) return;
+    const cible = especeMarionnette(m)?.libelle ?? null;
+    if (cible === null) {
+      avertissements.push(tba.creation.especeInconnue(m.nom, role.espece));
+      return;
+    }
+    const plat = (t: string) =>
+      t.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim();
+    if (plat(cible) === plat(role.espece)) return;
+    const genre = genreMarionnette(m) ?? role.genre ?? 'masculin';
+    if (!mettreALEspece(modele, role.cle, cible.trim().toLowerCase(), genre)) {
+      avertissements.push(tba.creation.especeIndisponible(m.nom));
+    }
+  });
+
+  // 2. Les accords, rôle par rôle.
   modele.roles.forEach((role, k) => {
     const m = troupe[k];
     const cible = genreMarionnette(m) ?? options.genresChoisis?.[role.cle] ?? null;
@@ -146,10 +206,10 @@ export function instancierModele(
     }
   });
 
-  // 2. Les interactions, selon le réglage du studio.
+  // 3. Les interactions, selon le réglage du studio.
   reduireInteractions(modele, options.interactionPublic ?? modele.parametres.interactionPublic);
 
-  // 3. Les noms, et la durée recalculée (des adresses ont pu partir).
+  // 4. Les noms, et la durée recalculée (des adresses ont pu partir).
   const spectacle = peupler(modele, troupe);
   spectacle.dureeEstimeeSecondes = dureeSpectacle(spectacle.actes);
   spectacle.parametres.interactionPublic = options.interactionPublic

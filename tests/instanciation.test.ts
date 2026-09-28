@@ -30,7 +30,7 @@ function modele(): SpectacleModele {
     id: 'fr-test--1',
     conteId: 'fr-test',
     titre: 'Le conte d’essai',
-    pitch: '',
+    pitch: 'Le loup {{r1}} rôde.',
     roles: [{
       cle: 'r1',
       espece: 'loup',
@@ -41,6 +41,7 @@ function modele(): SpectacleModele {
         vers: 'feminin',
         remplacements: [{ id: 'a1e1:texte', avant: 'Il est gourmand', apres: 'Elle est gourmande' }],
       },
+      especeMentions: [{ id: 'pitch', avant: 'Le loup', gabarit: '{Le} {espece}' }],
     }],
     parametres: {
       dureeMinutes: 5, ageAuditoire: 5, nbMarionnettistes: 1, interactionPublic: 'beaucoup',
@@ -88,7 +89,7 @@ describe('instancierModele — les accords', () => {
     expect(TEXTE(fidele)).toContain('Il est gourmand');
 
     const muet = instancierModele(modele(), distribution, [
-      peluche('louve', 'Zig', ''),
+      { ...peluche('louve', 'Zig', ''), espece: 'loup' },
     ]);
     expect(muet.avertissements).toEqual([]);
     expect(TEXTE(muet)).toContain('Il est gourmand');
@@ -122,6 +123,35 @@ describe('instancierModele — les accords', () => {
     ]);
     expect(b.avertissements).toHaveLength(1);
     expect(TEXTE(b)).toContain('Il est gourmand');
+  });
+});
+
+describe('instancierModele — l’espèce suit la peluche', () => {
+  const distribution = [{ cle: 'r1', marionnetteId: 'x' }];
+
+  it('rend la mention avec l’espèce et le genre déclarés', () => {
+    const r = instancierModele(modele(), distribution, [
+      peluche('x', 'Caramel', 'Toute douce.', 'feminin'),
+    ].map((m) => ({ ...m, espece: 'ourse' })));
+    expect(r.avertissements).toEqual([]);
+    expect(r.spectacle.pitch).toBe('L’ourse Caramel rôde.');
+    // Et les accords de genre suivent aussi.
+    expect(TEXTE(r)).toContain('Elle est gourmande');
+  });
+
+  it('même espèce : rien ne bouge, accents compris', () => {
+    const r = instancierModele(modele(), distribution, [
+      { ...peluche('x', 'Grognard', 'Un loup gris.'), espece: 'loup' },
+    ]);
+    expect(r.spectacle.pitch).toBe('Le loup Grognard rôde.');
+  });
+
+  it('espèce introuvable : le texte garde le mot d’origine, et on le dit', () => {
+    const r = instancierModele(modele(), distribution, [
+      peluche('x', 'Zig', ''),
+    ]);
+    expect(r.avertissements.join(' ')).toContain('Zig');
+    expect(r.spectacle.pitch).toContain('Le loup');
   });
 });
 
@@ -206,6 +236,27 @@ describe('instancier — sur le vrai fonds', () => {
     expect(joue).not.toContain('au loup Louna');
     expect(joue).not.toContain('compère Louna');
     expect(joue).toContain('commère Louna');
+  });
+
+  it('met le conte coréen à l’espèce des peluches : un loup joue le tigre', async () => {
+    const { spectacle, avertissements } = await instancier(
+      'ko-vieux-moustaches-et-lapin--1',
+      [
+        { cle: 'r1', marionnetteId: 'souris' },
+        { cle: 'r2', marionnetteId: 'loup' },
+      ],
+      [
+        { ...peluche('souris', 'Perle', 'Une petite souris grise.'), espece: 'souris' },
+        { ...peluche('loup', 'Grognard', 'Un loup en peluche.'), espece: 'loup' },
+      ],
+    );
+    expect(avertissements).toEqual([]);
+    const joue = JSON.stringify({ pitch: spectacle.pitch, actes: spectacle.actes });
+    expect(joue).toContain('énorme loup');
+    expect(joue).toContain('les autres loups');
+    expect(joue).toContain('la petite souris');
+    expect(joue).not.toContain('tigre');
+    expect(joue).not.toContain('lapin');
   });
 
   it('refuse proprement un modèle inconnu', async () => {

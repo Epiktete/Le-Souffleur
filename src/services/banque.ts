@@ -70,16 +70,36 @@ export interface RoleModele {
     vers: 'masculin' | 'feminin';
     remplacements: { id: string; avant: string; apres: string }[];
   };
+  /**
+   * Les mentions de l'espèce de CE personnage dans le texte joué, annotées
+   * une fois pour toutes : extrait exact + gabarit à trous, que la création
+   * rend avec l'espèce et le genre de la peluche du parent (« au petit
+   * lapin » / « {au} {petit|petite} {espece} » → « à la petite ourse »).
+   * Un rôle peut avoir une liste vide : son mot d'espèce n'apparaît jamais
+   * (ou n'est que relationnel, comme « ma femme »), rien à changer.
+   * Les mentions génériques (« les autres tigres », « comme un chien attrape
+   * une mouche ») ne sont PAS listées : elles restent telles quelles.
+   */
+  especeMentions?: { id: string; avant: string; gabarit: string }[];
+  /**
+   * Vrai quand remplacer l'espèce dénaturerait le conte (le surnom « la
+   * mouche bourdonneuse » du Teremok) : la distribution exige alors une
+   * peluche de la même espèce, au genre près.
+   */
+  especeImposee?: boolean;
 }
 
 /** Un rôle tel que l'index le connaît. */
 export interface RoleSignature extends Pick<RoleModele, 'cle' | 'espece' | 'famille' | 'traits'> {
   /**
-   * Vrai quand le mot d'espèce apparaît dans le texte joué (« un loup ») :
-   * le rôle exige alors une peluche de la même espèce, puisque la création
-   * ne réécrit pas le texte (CDC §7).
+   * Vrai quand le rôle exige une peluche de la même espèce (au genre près) :
+   * l'annotation a jugé que remplacer l'espèce dénaturerait le conte. Pour
+   * tous les autres rôles, la création met le texte à l'espèce de la peluche
+   * (décision du 2026-09-28).
    */
-  especeCitee?: boolean;
+  especeImposee?: boolean;
+  /** Vrai quand le texte nomme l'espèce ET la suivra : des mentions existent. */
+  especeMobile?: boolean;
 }
 
 /** La signature d'un spectacle : de quoi l'apparier sans ouvrir son fichier. */
@@ -462,18 +482,57 @@ export function lignesModele(m: SpectacleModele): LigneModele[] {
 }
 
 /**
- * Le mot d'espèce, en mot entier et au pluriel près, est-il dans le texte
- * joué ? Reproduit à l'identique dans tools/indexer-banque.mjs — un test
- * vérifie que l'index et `signatureDe` disent la même chose.
+ * Rend un gabarit de mention d'espèce avec l'espèce et le genre de la
+ * peluche. Les trous : `{le}` `{Le}` `{un}` `{Un}` `{du}` `{au}` `{de}`
+ * (articles, avec élision devant voyelle), `{espece}` (le mot déclaré), et
+ * toute paire `{masculin|féminin}` d'adjectif. Un test du fonds vérifie que
+ * chaque gabarit, rendu avec l'espèce et le genre D'ORIGINE du rôle, redonne
+ * exactement l'extrait « avant » : les annotations se prouvent elles-mêmes.
  */
-function especeCiteeDans(texteJoue: string, espece: string): boolean {
-  const motif = new RegExp(`(?<![a-z])${echapper(normaliser(espece))}s?(?![a-z])`);
-  return motif.test(normaliser(texteJoue));
+export function rendreMention(
+  gabarit: string,
+  espece: string,
+  genre: 'masculin' | 'feminin',
+): string {
+  const fem = genre === 'feminin';
+  // Le pluriel français en +s couvre nos espèces (ours, souris gardent le
+  // leur : ils finissent déjà par s).
+  const pluriel = /[sxz]$/.test(espece) ? espece : `${espece}s`;
+  const rendus = gabarit.split(/\s+/).filter(Boolean).map((jeton) => {
+    const paire = /^\{([^|{}]*)\|([^|{}]*)\}$/.exec(jeton);
+    if (paire) return fem ? paire[2] : paire[1];
+    // Les trous sans élision peuvent vivre DANS un mot : « d'{un} » → « d'une ».
+    return jeton
+      .replaceAll('{especes}', pluriel)
+      .replaceAll('{espece}', espece)
+      .replaceAll('{un}', fem ? 'une' : 'un')
+      .replaceAll('{Un}', fem ? 'Une' : 'Un');
+  });
+
+  const voyelle = /^[aeiouyàâäéèêëîïôöùûüh]/i;
+  const morceaux: string[] = [];
+  for (let i = 0; i < rendus.length; i++) {
+    const jeton = rendus[i];
+    const suivant = rendus[i + 1] ?? '';
+    const elide = voyelle.test(suivant);
+    const articles: Record<string, string> = {
+      '{le}': elide ? 'l’' : fem ? 'la' : 'le',
+      '{Le}': elide ? 'L’' : fem ? 'La' : 'Le',
+      '{un}': fem ? 'une' : 'un',
+      '{Un}': fem ? 'Une' : 'Un',
+      '{du}': elide ? 'de l’' : fem ? 'de la' : 'du',
+      '{au}': elide ? 'à l’' : fem ? 'à la' : 'au',
+      '{de}': elide ? 'd’' : 'de',
+    };
+    morceaux.push(articles[jeton] ?? jeton);
+  }
+  // Une forme élidée se colle au mot qui suit : « l’ » + « ourse ».
+  return morceaux.reduce((texte, mot) =>
+    (texte === '' ? mot : texte.endsWith('’') ? texte + mot : `${texte} ${mot}`), '');
 }
 
 /** La signature d'un modèle, telle qu'elle entre dans l'index. */
 export function signatureDe(m: SpectacleModele): SignatureModele {
-  const texteJoue = lignesModele(m).map((l) => l.lire()).join('\n');
   return {
     id: m.id,
     conteId: m.conteId,
@@ -483,12 +542,13 @@ export function signatureDe(m: SpectacleModele): SignatureModele {
     nbMarionnettistes: m.parametres.nbMarionnettistes,
     interactionPublic: m.parametres.interactionPublic,
     dureeEstimeeSecondes: m.dureeEstimeeSecondes,
-    roles: m.roles.map(({ cle, espece, famille, traits }) => ({
+    roles: m.roles.map(({ cle, espece, famille, traits, especeImposee, especeMentions }) => ({
       cle,
       espece,
       famille,
       traits,
-      ...(espece !== null && especeCiteeDans(texteJoue, espece) ? { especeCitee: true } : {}),
+      ...(especeImposee ? { especeImposee: true } : {}),
+      ...(especeMentions && especeMentions.length > 0 ? { especeMobile: true } : {}),
     })),
   };
 }

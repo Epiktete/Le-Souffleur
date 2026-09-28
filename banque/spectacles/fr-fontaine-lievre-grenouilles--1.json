@@ -94,7 +94,19 @@
             "apres": "toute contente"
           }
         ]
-      }
+      },
+      "especeMentions": [
+        {
+          "id": "pitch",
+          "avant": "un lièvre",
+          "gabarit": "{un} {espece}"
+        },
+        {
+          "id": "a1e3:texte",
+          "avant": "Un lièvre",
+          "gabarit": "{Un} {espece}"
+        }
+      ]
     }
   ],
   "parametres": {

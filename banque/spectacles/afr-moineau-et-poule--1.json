@@ -103,7 +103,8 @@
             "apres": "reconnaissant"
           }
         ]
-      }
+      },
+      "especeImposee": true
     },
     {
       "cle": "r2",
@@ -159,7 +160,14 @@
             "apres": "elle s’en alla"
           }
         ]
-      }
+      },
+      "especeMentions": [
+        {
+          "id": "a3e15:texte",
+          "avant": "du moineau",
+          "gabarit": "{du} {espece}"
+        }
+      ]
     }
   ],
   "parametres": {

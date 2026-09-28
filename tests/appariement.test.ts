@@ -158,9 +158,9 @@ describe('problemeAttribution', () => {
     )).toBe(null);
   });
 
-  it('exige la même espèce quand le texte la nomme — au genre près', () => {
+  it('exige la même espèce quand elle est imposée — au genre près', () => {
     const role = {
-      cle: 'r1', espece: 'loup', famille: 'predateur' as const, traits: [], especeCitee: true,
+      cle: 'r1', espece: 'loup', famille: 'predateur' as const, traits: [], especeImposee: true,
     };
     expect(problemeAttribution(
       peluche('Rex', 'Un gros chien en peluche.'), role,
@@ -175,12 +175,12 @@ describe('problemeAttribution', () => {
   });
 });
 
-describe('l’espèce citée dans le texte', () => {
+describe('l’espèce imposée', () => {
   it('écarte le spectacle quand la troupe n’a pas l’espèce nommée', () => {
     const citee = signature({
       roles: [
         { cle: 'r1', espece: 'poupee', famille: 'enfant', traits: [] },
-        { cle: 'r2', espece: 'loup', famille: 'predateur', traits: [], especeCitee: true },
+        { cle: 'r2', espece: 'loup', famille: 'predateur', traits: [], especeImposee: true },
         { cle: 'r3', espece: 'mamie', famille: 'vieux', traits: [] },
       ],
     });

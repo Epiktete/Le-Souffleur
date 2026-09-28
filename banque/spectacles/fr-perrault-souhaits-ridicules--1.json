@@ -19,24 +19,9 @@
         "vers": "feminin",
         "remplacements": [
           {
-            "id": "pitch",
-            "avant": "au bûcheron",
-            "apres": "à la bûcheronne"
-          },
-          {
             "id": "voix:r1",
             "avant": "quand il est content ou embarrassé",
             "apres": "quand elle est contente ou embarrassée"
-          },
-          {
-            "id": "a1:resume",
-            "avant": "vie de bûcheron",
-            "apres": "vie de bûcheronne"
-          },
-          {
-            "id": "a1e1:texte",
-            "avant": "un pauvre bûcheron nommé",
-            "apres": "une pauvre bûcheronne nommée"
           },
           {
             "id": "a1e2:texte",
@@ -174,7 +159,24 @@
             "apres": "ce qu'elle souhaitait"
           }
         ]
-      }
+      },
+      "especeMentions": [
+        {
+          "id": "pitch",
+          "avant": "au bûcheron",
+          "gabarit": "{au} {espece}"
+        },
+        {
+          "id": "a1:resume",
+          "avant": "vie de bûcheron",
+          "gabarit": "vie {de} {espece}"
+        },
+        {
+          "id": "a1e1:texte",
+          "avant": "un pauvre bûcheron nommé",
+          "gabarit": "{un} pauvre {espece} {nommé|nommée}"
+        }
+      ]
     },
     {
       "cle": "r2",

@@ -129,7 +129,8 @@
             "apres": "si elles ne sont pas mortes, elles vivent"
           }
         ]
-      }
+      },
+      "especeImposee": true
     },
     {
       "cle": "r2",
@@ -221,7 +222,14 @@
             "apres": "épuisée"
           }
         ]
-      }
+      },
+      "especeMentions": [
+        {
+          "id": "a4e21:texte",
+          "avant": "aucun lièvre",
+          "gabarit": "{aucun|aucune} {espece}"
+        }
+      ]
     },
     {
       "cle": "r3",
@@ -267,7 +275,8 @@
             "apres": "qu'il le veuille"
           }
         ]
-      }
+      },
+      "especeImposee": true
     }
   ],
   "parametres": {

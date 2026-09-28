@@ -84,7 +84,8 @@
             "apres": "qu’il fit"
           }
         ]
-      }
+      },
+      "especeImposee": true
     },
     {
       "cle": "r2",
@@ -98,14 +99,15 @@
       "genre": "masculin",
       "accords": {
         "vers": "feminin",
-        "remplacements": [
-          {
-            "id": "a1e4:texte",
-            "avant": "un chat,",
-            "apres": "une chatte,"
-          }
-        ]
-      }
+        "remplacements": []
+      },
+      "especeMentions": [
+        {
+          "id": "a1e4:texte",
+          "avant": "un chat",
+          "gabarit": "{un} {espece}"
+        }
+      ]
     },
     {
       "cle": "r3",
@@ -120,7 +122,14 @@
       "accords": {
         "vers": "feminin",
         "remplacements": []
-      }
+      },
+      "especeMentions": [
+        {
+          "id": "a1e4:texte",
+          "avant": "un canard",
+          "gabarit": "{un} {espece}"
+        }
+      ]
     },
     {
       "cle": "r4",
@@ -135,7 +144,14 @@
       "accords": {
         "vers": "feminin",
         "remplacements": []
-      }
+      },
+      "especeMentions": [
+        {
+          "id": "a1e4:texte",
+          "avant": "un cochon",
+          "gabarit": "{un} {espece}"
+        }
+      ]
     }
   ],
   "parametres": {

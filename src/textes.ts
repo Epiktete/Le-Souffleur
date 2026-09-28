@@ -274,6 +274,8 @@ export const tba = {
       `${nomMarionnette} ne peut pas tenir ce rôle : le texte nomme l’espèce (« ${espece} »), il faut une marionnette de la même espèce.`,
     interditBloque: 'Corrigez la distribution : un rôle est mal attribué.',
     retour: 'Revenir aux spectacles',
+    /** Aperçu : le mot que le texte emploiera pour cette peluche. */
+    dansLeTexte: (mot: string) => `Dans le texte : ${mot}.`,
   },
   /** La création d'un spectacle depuis le fonds (CDC §7) : sans aucun appel IA. */
   creation: {
@@ -284,6 +286,11 @@ export const tba = {
     /** Un rôle dont les accords n'ont pas pu suivre le genre de la peluche. */
     accordsIndisponibles: (nom: string) =>
       `Le texte n’a pas pu être accordé pour ${nom} : il garde les accords d’origine.`,
+    /** L'espèce de la peluche est introuvable : le texte garde le mot d'origine. */
+    especeInconnue: (nom: string, espece: string) =>
+      `L’espèce de ${nom} n’est pas renseignée : le texte garde « ${espece} ». Précisez-la sur sa fiche.`,
+    especeIndisponible: (nom: string) =>
+      `Le texte n’a pas pu être mis à l’espèce de ${nom} : il garde l’espèce d’origine.`,
   },
 } as const;
 

@@ -4,7 +4,7 @@
 import { readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
-import { lignesModele, type SpectacleModele } from '../src/services/banque';
+import { lignesModele, rendreMention, type SpectacleModele } from '../src/services/banque';
 import { dureeSpectacle } from '../src/services/duree';
 
 const DOSSIER = 'banque/spectacles';
@@ -61,6 +61,49 @@ describe.each(MODELES)('le fonds : $fichier', ({ fichier, modele: m }) => {
           ligne!.lire().includes(remp.avant) || ligne!.lire().includes(remp.apres),
           `rôle ${r.cle} : extrait introuvable dans [${remp.id}] : « ${remp.avant} »`,
         ).toBe(true);
+      }
+    }
+  });
+
+  it('a des mentions d’espèce qui se prouvent elles-mêmes', () => {
+    // L'invariant : chaque gabarit, rendu avec l'espèce et le genre D'ORIGINE
+    // du rôle, redonne exactement l'extrait « avant ». Une annotation fausse
+    // ne peut donc pas entrer au fonds.
+    const lignes = new Map(lignesModele(m).map((l) => [l.id, l]));
+    for (const r of m.roles) {
+      expect(
+        Boolean(r.especeImposee) && (r.especeMentions?.length ?? 0) > 0,
+        `rôle ${r.cle} : imposée ET mobile à la fois`,
+      ).toBe(false);
+      for (const mention of r.especeMentions ?? []) {
+        expect(r.espece, `rôle ${r.cle} : mentions sans espèce d'origine`).toBeTruthy();
+        expect(r.genre, `rôle ${r.cle} : mentions sans genre d'origine`).toBeTruthy();
+        const ligne = lignes.get(mention.id);
+        expect(ligne, `rôle ${r.cle} : ligne inconnue « ${mention.id} »`).toBeTruthy();
+        expect(
+          ligne!.lire().includes(mention.avant),
+          `rôle ${r.cle} : extrait introuvable dans [${mention.id}] : « ${mention.avant} »`,
+        ).toBe(true);
+        // L'espèce d'origine est stockée sans accents (« lievre ») : la
+        // preuve se fait donc à accents près. À la création, c'est l'espèce
+        // écrite par le parent, accents compris, qui est rendue.
+        const sansAccents = (t: string) =>
+          t.normalize('NFD').replace(/[̀-ͯ]/g, '');
+        expect(
+          sansAccents(rendreMention(mention.gabarit, r.espece!, r.genre!)),
+          `rôle ${r.cle} [${mention.id}] : le gabarit ne redonne pas « ${mention.avant} »`,
+        ).toBe(sansAccents(mention.avant));
+      }
+      // Un rôle qui suit l'espèce ne doit plus porter son mot d'espèce dans
+      // ses accords de genre : ces mentions-là vivent dans especeMentions.
+      if ((r.especeMentions?.length ?? 0) > 0 && r.espece) {
+        const mot = new RegExp(`(?<![\\p{L}])${r.espece}s?(?![\\p{L}])`, 'iu');
+        for (const remp of r.accords?.remplacements ?? []) {
+          expect(
+            mot.test(remp.avant) || mot.test(remp.apres),
+            `rôle ${r.cle} : l'accord « ${remp.avant} » touche encore l'espèce`,
+          ).toBe(false);
+        }
       }
     }
   });

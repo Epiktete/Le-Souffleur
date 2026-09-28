@@ -74,7 +74,8 @@
             "apres": "comme elle n'en avait"
           }
         ]
-      }
+      },
+      "especeImposee": true
     },
     {
       "cle": "r2",
@@ -181,7 +182,8 @@
             "apres": "comme elle l'était"
           }
         ]
-      }
+      },
+      "especeImposee": true
     },
     {
       "cle": "r3",
@@ -267,7 +269,8 @@
             "apres": "son mari"
           }
         ]
-      }
+      },
+      "especeImposee": true
     }
   ],
   "parametres": {

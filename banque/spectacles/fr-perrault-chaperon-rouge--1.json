@@ -174,11 +174,6 @@
         "vers": "feminin",
         "remplacements": [
           {
-            "id": "pitch",
-            "avant": "au loup {{r2}}",
-            "apres": "à la louve {{r2}}"
-          },
-          {
             "id": "voix:r2",
             "avant": "il fait",
             "apres": "elle fait"
@@ -259,11 +254,6 @@
             "apres": "est couchée"
           },
           {
-            "id": "a3e5:ton",
-            "avant": "voix de loup",
-            "apres": "voix de louve"
-          },
-          {
             "id": "a3e12:ton",
             "avant": "tout doux",
             "apres": "toute douce"
@@ -324,7 +314,24 @@
             "apres": "puis elle file"
           }
         ]
-      }
+      },
+      "especeMentions": [
+        {
+          "id": "pitch",
+          "avant": "au loup",
+          "gabarit": "{au} {espece}"
+        },
+        {
+          "id": "a1e15:texte",
+          "avant": "un loup",
+          "gabarit": "{un} {espece}"
+        },
+        {
+          "id": "a3e5:ton",
+          "avant": "de loup",
+          "gabarit": "{de} {espece}"
+        }
+      ]
     },
     {
       "cle": "r3",

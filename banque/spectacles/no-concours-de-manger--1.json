@@ -18,11 +18,6 @@
         "vers": "feminin",
         "remplacements": [
           {
-            "id": "pitch",
-            "avant": "Un gros ours très fort",
-            "apres": "Une grosse ourse très forte"
-          },
-          {
             "id": "a1:resume",
             "avant": "terrifié",
             "apres": "terrifiée"
@@ -118,7 +113,14 @@
             "apres": "toute contente"
           }
         ]
-      }
+      },
+      "especeMentions": [
+        {
+          "id": "pitch",
+          "avant": "Un gros ours très fort",
+          "gabarit": "{Un} {gros|grosse} {espece} très {fort|forte}"
+        }
+      ]
     }
   ],
   "parametres": {

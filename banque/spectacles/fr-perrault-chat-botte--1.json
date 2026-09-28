@@ -264,7 +264,8 @@
             "apres": "grande dame"
           }
         ]
-      }
+      },
+      "especeImposee": true
     },
     {
       "cle": "r2",
@@ -646,7 +647,8 @@
             "apres": "est partie"
           }
         ]
-      }
+      },
+      "especeImposee": true
     },
     {
       "cle": "r4",
@@ -723,7 +725,8 @@
             "apres": "elle se changea"
           }
         ]
-      }
+      },
+      "especeImposee": true
     }
   ],
   "parametres": {

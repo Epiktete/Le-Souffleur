@@ -9,8 +9,10 @@
   // création — même règle que le générateur. Jamais de glisser-déposer.
   import { tba } from '../textes';
   import type { Marionnette } from '../types';
-  import type { SignatureModele } from '../services/banque';
+  import { rendreMention, type SignatureModele } from '../services/banque';
+  import { especeMarionnette } from '../services/choixContes';
   import {
+    genreMarionnette,
     problemeAttribution,
     type AttributionBanque,
   } from '../services/appariement';
@@ -69,6 +71,20 @@
   function nomRole(role: SignatureModele['roles'][number]): string {
     return role.espece ?? tba.fiche.roleSansEspece;
   }
+
+  /**
+   * Le mot que le texte emploiera pour cette peluche (« la souris »), quand
+   * le rôle suit l'espèce et que la peluche en change.
+   */
+  function apercuEspece(k: number): string | null {
+    const role = signature.roles[k];
+    const m = marionnette(attribution[k]);
+    if (!role.especeMobile || !role.espece || !m) return null;
+    const cible = especeMarionnette(m)?.libelle?.trim().toLowerCase() ?? null;
+    if (!cible || cible === role.espece.toLowerCase()) return null;
+    const genre = genreMarionnette(m) ?? 'masculin';
+    return rendreMention('{le} {espece}', cible, genre);
+  }
 </script>
 
 <section class="distribution" aria-label={tba.distribution.titre}>
@@ -106,6 +122,8 @@
           <p class="alerte" role="alert">
             {tba.distribution.especeImposee(marionnette(attribution[k])?.nom ?? '?', role.espece ?? '?')}
           </p>
+        {:else if apercuEspece(k)}
+          <p class="apercu">{tba.distribution.dansLeTexte(apercuEspece(k)!)}</p>
         {/if}
       </li>
     {/each}
@@ -138,6 +156,7 @@
   select { width: 100%; }
 
   .alerte { margin: 8px 0 0; font-size: 13px; }
+  .apercu { margin: 8px 0 0; font-size: 12px; color: var(--encre2); font-style: italic; }
 
   .visually-hidden {
     position: absolute;
