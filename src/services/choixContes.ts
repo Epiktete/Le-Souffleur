@@ -151,7 +151,7 @@ const LEXIQUE: Record<Famille, string[]> = {
     'tanuki', 'singe', 'babouin', 'macaque', 'suricate', 'chinchilla',
   ],
   predateur: [
-    'loup', 'louve', 'renard', 'renarde', 'tigre', 'lion', 'lionne', 'leopard', 'panthere',
+    'loup', 'louve', 'renard', 'renarde', 'tigre', 'tigresse', 'lion', 'lionne', 'leopard', 'panthere',
     'jaguar', 'guepard', 'lynx', 'hyene', 'chacal', 'crocodile', 'alligator', 'serpent',
     'requin', 'chat', 'chatte', 'fouine', 'coyote', 'puma',
   ],

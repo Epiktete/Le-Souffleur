@@ -256,7 +256,7 @@ function motsDe(texte: string): string[] {
  * distribution demande alors « il ou elle ? ») que de deviner de travers.
  */
 const MOTS_FEMININS = new Set([
-  'ourse', 'chatte', 'louve', 'renarde', 'lapine', 'lionne', 'chienne', 'anesse',
+  'ourse', 'chatte', 'louve', 'renarde', 'lapine', 'lionne', 'chienne', 'anesse', 'tigresse',
   'souris', 'tortue', 'poule', 'chevre', 'vache', 'brebis', 'biche', 'jument',
   'grenouille', 'abeille', 'coccinelle', 'araignee', 'fourmi', 'libellule',
   'mouche', 'guepe', 'chouette', 'pie', 'cane', 'oie', 'hirondelle', 'mesange',
@@ -307,6 +307,7 @@ export function genreMarionnette(m: Pick<Marionnette, 'nom' | 'description' | 'g
 const JUMELLES: [string, string][] = [
   ['loup', 'louve'], ['ours', 'ourse'], ['chat', 'chatte'], ['renard', 'renarde'],
   ['lapin', 'lapine'], ['lion', 'lionne'], ['chien', 'chienne'], ['ane', 'anesse'],
+  ['tigre', 'tigresse'],
 ];
 
 /** Même espèce, au genre près. */

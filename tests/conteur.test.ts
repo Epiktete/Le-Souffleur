@@ -191,3 +191,15 @@ describe('la revue complète les actes courts avec le conte', () => {
     expect(p.system).not.toMatch(/plus courts que prévu/);
   });
 });
+
+describe('la voix en coulisse', () => {
+  it('reconnaît « des » sans l’amputer : la voix des grenouilles', async () => {
+    const { voixEnCoulisse } = await import('../src/services/duree');
+    const v = voixEnCoulisse('Voix des grenouilles, en coulisse : « Plouf ! »');
+    expect(v).not.toBeNull();
+    // Le bug : « de » passait avant « des », et il restait « s grenouilles ».
+    expect(v!.qui).toBe('grenouilles');
+    expect(v!.dit).toBe('Plouf !');
+    expect(voixEnCoulisse('Voix du Nuage, en coulisse : « C’est le Vent. »')!.qui).toBe('Nuage');
+  });
+});

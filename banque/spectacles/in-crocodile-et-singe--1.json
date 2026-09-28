@@ -1,0 +1,887 @@
+{
+  "id": "in-crocodile-et-singe--1",
+  "conteId": "in-crocodile-et-singe",
+  "titre": "Le Crocodile et le Singe",
+  "pitch": "{{r3}}, la femme de {{r2}}, veut le cœur de {{r1}} ; alors {{r2}} propose au singe de le porter sur son dos jusqu'aux arbres pleins de fruits de l'autre rive. Mais au milieu de la rivière, {{r1}} garde la tête froide.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "singe",
+      "famille": "petit",
+      "traits": [
+        "rusé",
+        "gourmand",
+        "courageux"
+      ],
+      "voix": "voix aiguë et vive, qui rit « hi, hi ! » à tout bout de champ, et devient calme et lente quand le danger arrive",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "de le porter",
+            "apres": "de la porter"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "il était là",
+            "apres": "elle était là"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "de le porter",
+            "apres": "de la porter"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "il ne porte jamais son cœur sur lui",
+            "apres": "elle ne porte jamais son cœur sur elle"
+          },
+          {
+            "id": "a2e7:texte",
+            "avant": "et il fut plutôt surpris",
+            "apres": "et elle fut plutôt surprise"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "mon cher",
+            "apres": "ma chère"
+          },
+          {
+            "id": "a2e9:ton",
+            "avant": "étonné",
+            "apres": "étonnée"
+          },
+          {
+            "id": "a2e18:texte",
+            "avant": "il sauta",
+            "apres": "elle sauta"
+          },
+          {
+            "id": "a2e26:texte",
+            "avant": "naïf",
+            "apres": "naïve"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "il se régale",
+            "apres": "elle se régale"
+          },
+          {
+            "id": "a3e23:texte",
+            "avant": "comme il n'en avait",
+            "apres": "comme elle n'en avait"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r2",
+      "espece": "crocodile",
+      "famille": "predateur",
+      "traits": [
+        "naïf",
+        "gourmand",
+        "bavard"
+      ],
+      "voix": "voix grave et traînante, qui grince quand elle se fait douce ; dit « hmm » avant de parler",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e4:texte",
+            "avant": "près de lui",
+            "apres": "près d'elle"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "il bondissait",
+            "apres": "elle bondissait"
+          },
+          {
+            "id": "a1e19:texte",
+            "avant": "autour de lui",
+            "apres": "autour d'elle"
+          },
+          {
+            "id": "a1e26:texte",
+            "avant": "et il lui aurait",
+            "apres": "et elle lui aurait"
+          },
+          {
+            "id": "a1e26:texte",
+            "avant": "seulement il n'avait",
+            "apres": "seulement elle n'avait"
+          },
+          {
+            "id": "a1e33:texte",
+            "avant": "s'il était très gros",
+            "apres": "si elle était très grosse"
+          },
+          {
+            "id": "a1e33:texte",
+            "avant": "il était très bête",
+            "apres": "elle était très bête"
+          },
+          {
+            "id": "a1e33:texte",
+            "avant": "il poussa",
+            "apres": "elle poussa"
+          },
+          {
+            "id": "a1e33:texte",
+            "avant": "il croyait",
+            "apres": "elle croyait"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "il s'enfonce",
+            "apres": "elle s'enfonce"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "Je suis sûr",
+            "apres": "Je suis sûre"
+          },
+          {
+            "id": "a2e14:ton",
+            "avant": "rusé",
+            "apres": "rusée"
+          },
+          {
+            "id": "a2e28:texte",
+            "avant": "je suis sûr",
+            "apres": "je suis sûre"
+          },
+          {
+            "id": "a3e2:texte",
+            "avant": "bien content",
+            "apres": "bien contente"
+          },
+          {
+            "id": "a3e2:texte",
+            "avant": "et il ne voyait",
+            "apres": "et elle ne voyait"
+          },
+          {
+            "id": "a3e3:ton",
+            "avant": "étonné",
+            "apres": "étonnée"
+          },
+          {
+            "id": "a3e8:ton",
+            "avant": "ravi",
+            "apres": "ravie"
+          },
+          {
+            "id": "a3e20:texte",
+            "avant": "comme il l'était",
+            "apres": "comme elle l'était"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r3",
+      "espece": "crocodile",
+      "famille": "predateur",
+      "traits": [
+        "gourmand",
+        "grognon"
+      ],
+      "voix": "voix pleurnicharde, qui renifle bruyamment entre les mots",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "la femme de",
+            "apres": "le mari de"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "la femme de",
+            "apres": "le mari de"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "elle veut",
+            "apres": "il veut"
+          },
+          {
+            "id": "a1e12:texte",
+            "avant": "la femme de",
+            "apres": "le mari de"
+          },
+          {
+            "id": "a1e15:texte",
+            "avant": "elle se mit",
+            "apres": "il se mit"
+          },
+          {
+            "id": "a1e20:texte",
+            "avant": "ma femme",
+            "apres": "mon mari"
+          },
+          {
+            "id": "a1e26:texte",
+            "avant": "sa femme",
+            "apres": "son mari"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "sa femme",
+            "apres": "son mari"
+          },
+          {
+            "id": "a2e28:texte",
+            "avant": "ma femme",
+            "apres": "mon mari"
+          },
+          {
+            "id": "a2e28:texte",
+            "avant": "qu'elle veut",
+            "apres": "qu'il veut"
+          },
+          {
+            "id": "a2e28:texte",
+            "avant": "l'avais vue",
+            "apres": "l'avais vu"
+          },
+          {
+            "id": "a2e28:texte",
+            "avant": "qu'elle t'aurait",
+            "apres": "qu'il t'aurait"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "sa femme",
+            "apres": "son mari"
+          },
+          {
+            "id": "a3e20:texte",
+            "avant": "sa femme",
+            "apres": "son mari"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 9,
+    "ageAuditoire": 4,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La rive boueuse",
+      "description": "Étalez une serviette ou un drap bleu sur la table : c'est la rivière. Au milieu, devant, froissez un torchon marron : c'est la boue où dorment les crocodiles. À gauche, posez un coussin debout : c'est l'arbre de {{r1}}.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "La rivière et le figuier",
+      "description": "Gardez la rivière, la boue et l'arbre de {{r1}} à gauche. À l'autre bout de la table, à droite, posez un deuxième coussin debout : c'est le figuier de l'autre rive. Tout en haut de ce coussin, posez les chaussettes roulées en boule : ce sont les figues.",
+      "accessoires": [
+        "quelques chaussettes rouges ou violettes roulées en boule (les figues)"
+      ],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Les larmes de crocodile",
+      "resume": "{{r2}} dort dans la boue de la rivière, et {{r1}} n'a presque plus de fruits à manger. {{r3}}, la femme de {{r2}}, pleure de grosses larmes : elle veut le cœur de {{r1}}, et {{r2}} cherche un plan.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Il était une fois une rivière large et profonde, et dans cette rivière vivait un crocodile, {{r2}}."
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e3",
+          "type": "didascalie",
+          "texte": "{{r2}} entre en glissant tout doucement au ras de la table, s'arrête au milieu, sur la boue, et ne bouge plus."
+        },
+        {
+          "id": "a1e4",
+          "type": "conteur",
+          "texte": "Mais si un petit animal passait près de lui, il bondissait, ouvrait ses grandes mâchoires et l'attrapait, comme un chien attrape une mouche."
+        },
+        {
+          "id": "a1e5",
+          "type": "didascalie",
+          "texte": "{{r2}} bondit d'un coup vers les enfants — vous faites « clac ! » à la voix —, puis revient se coucher sans bouger."
+        },
+        {
+          "id": "a1e6",
+          "type": "conteur",
+          "texte": "Sur la rive de cette rivière vivait un singe, {{r1}}."
+        },
+        {
+          "id": "a1e7",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e8",
+          "type": "didascalie",
+          "texte": "{{r1}} grimpe tout en haut du coussin de gauche et cherche partout, d'un côté, puis de l'autre."
+        },
+        {
+          "id": "a1e9",
+          "type": "conteur",
+          "texte": "Mais il était là depuis si longtemps qu'il ne restait presque plus de fruits sur les arbres."
+        },
+        {
+          "id": "a1e10",
+          "type": "didascalie",
+          "texte": "{{r1}} baisse la tête, puis saute derrière le coussin et disparaît."
+        },
+        {
+          "id": "a1e11",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e12",
+          "type": "conteur",
+          "texte": "Or il arriva que la femme de {{r2}}, {{r3}}, eut envie de {{r1}}."
+        },
+        {
+          "id": "a1e13",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e14",
+          "type": "didascalie",
+          "texte": "{{r3}} arrive en glissant sur la boue et se serre tout contre {{r2}}, qui dort."
+        },
+        {
+          "id": "a1e15",
+          "type": "conteur",
+          "texte": "Alors un matin, elle se mit à pleurer."
+        },
+        {
+          "id": "a1e16",
+          "type": "didascalie",
+          "texte": "{{r3}} tremble de tout son corps et fait « ouin, ouin ! » à la voix."
+        },
+        {
+          "id": "a1e17",
+          "type": "adresse_public",
+          "marionnetteId": "r3",
+          "texte": "Faites avec moi mes grosses larmes : plouf, plouf, plouf !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e18",
+          "type": "didascalie",
+          "texte": "À chaque « plouf », {{r3}} se penche et tape la table d'un petit coup de tête."
+        },
+        {
+          "id": "a1e19",
+          "type": "conteur",
+          "texte": "Les larmes de crocodile sont très grosses, et quand ses larmes tombèrent dans l'eau, plouf, plouf, plouf, {{r2}} se réveilla de son somme et regarda autour de lui ce qui se passait."
+        },
+        {
+          "id": "a1e20",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Eh bien, ma femme, pourquoi pleures-tu ?",
+          "ton": "en bâillant"
+        },
+        {
+          "id": "a1e21",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "J'ai faim !",
+          "ton": "en gémissant"
+        },
+        {
+          "id": "a1e22",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Bon, attends un peu. Je vais vite t'attraper quelque chose.",
+          "ton": "gentiment"
+        },
+        {
+          "id": "a1e23",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Mais je veux le cœur de {{r1}} !",
+          "ton": "en pleurant encore plus fort"
+        },
+        {
+          "id": "a1e24",
+          "type": "conteur",
+          "texte": "Plouf, plouf, plouf, firent de nouveau ses larmes."
+        },
+        {
+          "id": "a1e25",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Allons, allons, courage.",
+          "ton": "doucement"
+        },
+        {
+          "id": "a1e26",
+          "type": "conteur",
+          "texte": "{{r2}} aimait beaucoup sa femme, et il lui aurait bien essuyé les larmes, seulement il n'avait pas de mouchoir."
+        },
+        {
+          "id": "a1e27",
+          "type": "didascalie",
+          "texte": "{{r2}} frotte doucement sa tête contre celle de {{r3}}."
+        },
+        {
+          "id": "a1e28",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Courage ! Je vais voir ce que je peux faire.",
+          "ton": "d'un air décidé"
+        },
+        {
+          "id": "a1e29",
+          "type": "didascalie",
+          "texte": "{{r3}} se secoue pour sécher ses larmes et s'éloigne en glissant ; {{r2}} se recouche dans la boue, la tête sur la table."
+        },
+        {
+          "id": "a1e30",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e31",
+          "type": "conteur",
+          "texte": "{{r2}} réfléchit pendant une heure entière."
+        },
+        {
+          "id": "a1e32",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Faites avec moi : hmm, hmm, hmm !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e33",
+          "type": "conteur",
+          "texte": "Car, voyez-vous, s'il était très gros, il était très bête. Enfin, il poussa un soupir de soulagement : il croyait avoir trouvé un plan très malin."
+        },
+        {
+          "id": "a1e34",
+          "type": "didascalie",
+          "texte": "{{r2}} se redresse d'un coup, secoue la tête de plaisir et s'en va en glissant hors de la rivière."
+        },
+        {
+          "id": "a1e35",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Saute sur mon dos !",
+      "resume": "{{r2}} propose à {{r1}} de le porter sur son dos jusqu'aux arbres pleins de fruits de l'autre rive. Au milieu de la rivière, il s'enfonce et avoue que sa femme veut manger le cœur de {{r1}} ; mais {{r1}} garde la tête froide : il ne porte jamais son cœur sur lui.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e2",
+          "type": "didascalie",
+          "texte": "Tout en haut du coussin de gauche, {{r1}} se retourne la tête en bas et se balance de droite à gauche, en bavardant à la voix : « hi, hi, ha, ha ! »"
+        },
+        {
+          "id": "a2e3",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e4",
+          "type": "didascalie",
+          "texte": "{{r2}} arrive en glissant au ras de la table, tout le long de la rive, et s'arrête juste au pied du coussin de gauche."
+        },
+        {
+          "id": "a2e5",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "{{r1}} !",
+          "ton": "de sa voix la plus douce, qui grince comme une crécelle"
+        },
+        {
+          "id": "a2e6",
+          "type": "didascalie",
+          "texte": "{{r1}} s'arrête de se balancer, se remet à l'endroit et se penche vers le bas."
+        },
+        {
+          "id": "a2e7",
+          "type": "conteur",
+          "texte": "{{r2}} ne lui avait jamais parlé, et il fut plutôt surpris."
+        },
+        {
+          "id": "a2e8",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "{{r1}}, mon cher !",
+          "ton": "encore plus doucement"
+        },
+        {
+          "id": "a2e9",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Eh bien, qu'y a-t-il ?",
+          "ton": "étonné"
+        },
+        {
+          "id": "a2e10",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je suis sûr que tu dois avoir faim. Je vois que tu as mangé tous les fruits de ces arbres ; mais pourquoi n'essaies-tu pas les arbres de l'autre côté de la rivière ?",
+          "ton": "d'une voix de miel"
+        },
+        {
+          "id": "a2e11",
+          "type": "didascalie",
+          "texte": "{{r2}} se tourne vers le coussin de droite et le montre d'un grand mouvement de tête."
+        },
+        {
+          "id": "a2e12",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Regarde : des pommes, des poires, des coings, des prunes, tout ce que tu peux désirer ! Et des tas !",
+          "ton": "en détaillant chaque fruit"
+        },
+        {
+          "id": "a2e13",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "C'est bien joli. Mais comment traverser une rivière aussi large ?",
+          "ton": "en hésitant"
+        },
+        {
+          "id": "a2e14",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Oh ! C'est facile. Tu me plais, et je veux te rendre service. Saute sur mon dos, je vais traverser à la nage, et tu pourras te régaler !",
+          "ton": "rusé, l'air de rien"
+        },
+        {
+          "id": "a2e15",
+          "type": "conteur",
+          "texte": "Jamais {{r1}} n'avait reçu une offre aussi tentante."
+        },
+        {
+          "id": "a2e16",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Comptez mes tours avec moi : un, deux, trois !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e17",
+          "type": "didascalie",
+          "texte": "{{r1}} tourne trois fois sur place, tout en haut du coussin, de joie."
+        },
+        {
+          "id": "a2e18",
+          "type": "conteur",
+          "texte": "Ses yeux brillèrent, et sans réfléchir un instant, il sauta sur le dos de {{r2}}."
+        },
+        {
+          "id": "a2e19",
+          "type": "note_marionnettiste",
+          "texte": "Posez votre main gauche sur votre main droite : {{r1}} reste sur le dos de {{r2}} jusqu'à l'autre rive."
+        },
+        {
+          "id": "a2e20",
+          "type": "didascalie",
+          "texte": "{{r2}} nage lentement vers le coussin de droite ; sur son dos, {{r1}} regarde les figues et sautille de joie."
+        },
+        {
+          "id": "a2e21",
+          "type": "didascalie",
+          "texte": "Au milieu de la table, {{r2}} s'enfonce tout doucement derrière le bord, et {{r1}} s'enfonce aussi, un peu, puis encore un peu."
+        },
+        {
+          "id": "a2e22",
+          "type": "conteur",
+          "texte": "Tout à coup, {{r1}} sentit l'eau autour de ses pieds ! Elle monta jusqu'à ses jambes, elle monta jusqu'à sa taille. {{r2}} s'enfonçait !"
+        },
+        {
+          "id": "a2e23",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "{{r2}} ! {{r2}} ! Attention ! Vous allez me noyer !",
+          "ton": "en criant très fort"
+        },
+        {
+          "id": "a2e24",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Criez avec moi : attention !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e25",
+          "type": "didascalie",
+          "texte": "{{r2}} secoue la tête d'avant en arrière, et vous faites « clac, clac ! » à la voix."
+        },
+        {
+          "id": "a2e26",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Ha, ha, ha ! Alors tu croyais que je te faisais traverser par pure bonté ? Tu es bien naïf, vraiment !",
+          "ton": "en riant très fort"
+        },
+        {
+          "id": "a2e27",
+          "type": "didascalie",
+          "texte": "{{r1}} s'arrête de bouger et écoute, sans trembler."
+        },
+        {
+          "id": "a2e28",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "La vérité, c'est que ma femme a envie de toi, et qu'elle veut manger ton cœur ! Si tu l'avais vue pleurer ce matin, je suis sûr qu'elle t'aurait fait pitié.",
+          "ton": "avec gourmandise"
+        },
+        {
+          "id": "a2e29",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Heureusement que tu me le dis !",
+          "ton": "calmement"
+        },
+        {
+          "id": "a2e30",
+          "type": "conteur",
+          "texte": "C'était un singe très malin, qui gardait toujours la tête froide."
+        },
+        {
+          "id": "a2e31",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Attends un peu, et je vais te dire pourquoi. Mon cœur, tu as bien dit ? Mais je ne porte jamais mon cœur sur moi : ce serait bien trop dangereux !",
+          "ton": "tranquillement"
+        },
+        {
+          "id": "a2e32",
+          "type": "didascalie",
+          "texte": "{{r1}} fait trois petits bonds sur le dos de {{r2}}."
+        },
+        {
+          "id": "a2e33",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Si nous, les singes, nous sautions d'arbre en arbre avec notre cœur à l'intérieur, nous le casserions en mille morceaux en un rien de temps.",
+          "ton": "très sérieusement"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Le cœur dans le figuier",
+      "resume": "{{r1}} promet de lancer son cœur à {{r2}} depuis le figuier de l'autre rive. Mais une fois en haut, il se régale de figues et y reste, et {{r2}} retourne auprès de sa femme en se sentant très bête.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "didascalie",
+          "texte": "{{r2}} remonte tout doucement au-dessus du bord, avec {{r1}} toujours sur le dos."
+        },
+        {
+          "id": "a3e2",
+          "type": "conteur",
+          "texte": "{{r2}} était bien content de ne pas avoir noyé {{r1}}, car, comme je vous l'ai dit, c'était une bête stupide, et il ne voyait pas que {{r1}} lui jouait un tour."
+        },
+        {
+          "id": "a3e3",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Oh, alors où est ton cœur ?",
+          "ton": "étonné"
+        },
+        {
+          "id": "a3e4",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne et montre d'un grand mouvement de tête le haut du coussin de droite."
+        },
+        {
+          "id": "a3e5",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tu vois cette grappe de choses rondes là-haut dans l'arbre, sur l'autre rive ? Ce sont nos cœurs, tous ensemble, bien à l'abri, à cette hauteur, j'espère !",
+          "ton": "très sérieusement"
+        },
+        {
+          "id": "a3e6",
+          "type": "conteur",
+          "texte": "C'était en réalité un figuier, et c'est vrai que les figues ressemblaient beaucoup à une grappe de cœurs."
+        },
+        {
+          "id": "a3e7",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Fais-moi traverser, et je vais grimper là-haut te lancer mon cœur ; je peux très bien m'en passer.",
+          "ton": "gentiment"
+        },
+        {
+          "id": "a3e8",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Excellente créature ! D'accord !",
+          "ton": "ravi"
+        },
+        {
+          "id": "a3e9",
+          "type": "didascalie",
+          "texte": "{{r2}} se tourne vers le coussin de droite."
+        },
+        {
+          "id": "a3e10",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Chut ! Ne dites rien à {{r2}} !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e11",
+          "type": "didascalie",
+          "texte": "{{r2}} nage jusqu'au pied du coussin de droite ; là, {{r1}} saute de son dos et grimpe tout en haut, près des figues."
+        },
+        {
+          "id": "a3e12",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites miam avec moi : miam, miam, miam !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e13",
+          "type": "didascalie",
+          "texte": "{{r1}} se penche vers les figues, se redresse, et se penche encore, de plus en plus vite."
+        },
+        {
+          "id": "a3e14",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Ton cœur, s'il te plaît ! Tu ne vois pas que j'attends ?",
+          "ton": "en s'impatientant"
+        },
+        {
+          "id": "a3e15",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Eh bien, attends tant que tu voudras ! Es-tu assez bête pour croire qu'une créature garde son cœur dans un arbre ?",
+          "ton": "en riant"
+        },
+        {
+          "id": "a3e16",
+          "type": "didascalie",
+          "texte": "{{r2}} recule d'un coup dans l'eau."
+        },
+        {
+          "id": "a3e17",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ton corps est grand, mais ton esprit est petit. Non, non ; je suis ici, et j'y reste. Merci beaucoup de m'avoir fait traverser !",
+          "ton": "gaiement"
+        },
+        {
+          "id": "a3e18",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Faites avec vos bras une grande bouche de crocodile : clac, clac !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e19",
+          "type": "didascalie",
+          "texte": "{{r2}} secoue la tête d'avant en arrière, très fort, et vous faites « clac, clac ! » à la voix."
+        },
+        {
+          "id": "a3e20",
+          "type": "conteur",
+          "texte": "{{r2}} fit claquer ses mâchoires de dépit, et retourna auprès de sa femme, en se sentant très bête, comme il l'était ;"
+        },
+        {
+          "id": "a3e21",
+          "type": "didascalie",
+          "texte": "{{r2}} s'en va en nageant lentement vers la gauche, la tête basse, et disparaît derrière la table."
+        },
+        {
+          "id": "a3e22",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e23",
+          "type": "conteur",
+          "texte": "Et {{r1}} fit dans le figuier un festin comme il n'en avait jamais fait de sa vie."
+        },
+        {
+          "id": "a3e24",
+          "type": "didascalie",
+          "texte": "{{r1}} se penche vers les figues encore et encore, puis se tourne vers les enfants et les salue."
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "in-crocodile-et-singe",
+    "synopsis": {
+      "accroche": "{{r2}} le crocodile propose à {{r1}} le singe de le porter sur son dos jusqu'aux fruits de l'autre rive ; mais c'est pour que sa femme, {{r3}}, mange le cœur de {{r1}} !",
+      "resume": [
+        "{{r1}}, le singe, a mangé presque tous les fruits des arbres, au bord de la rivière.",
+        "{{r3}}, la femme de {{r2}} le crocodile, pleure de grosses larmes, plouf, plouf, plouf : elle veut le cœur de {{r1}}.",
+        "{{r2}}, pas très malin, réfléchit une heure, puis propose à {{r1}} de le porter sur son dos jusqu'aux arbres pleins de fruits de l'autre rive.",
+        "Au milieu de la rivière, {{r2}} s'enfonce et avoue tout : sa femme veut manger le cœur de {{r1}}.",
+        "{{r1}} garde la tête froide : il ne porte jamais son cœur sur lui, il est là-haut dans le figuier ! {{r2}} le fait traverser, et {{r1}} grimpe dans le figuier se régaler de figues, pour de bon."
+      ]
+    },
+    "transposition": {
+      "texte": "Il était une fois une rivière large et profonde, et dans cette rivière vivait un crocodile, {{r2}}. Je ne sais pas si vous avez déjà vu un crocodile ; mais si vous en voyiez un, je suis sûr que vous auriez peur. Ils sont très longs, deux fois plus longs que votre lit ; ils sont couverts d'écailles dures, vertes ou jaunes ; et ils ont un museau large et plat, et une énorme mâchoire avec des centaines de dents pointues, si grande qu'elle pourrait vous contenir tout entier.\n\n{{r2}} restait couché toute la journée dans la boue, à moitié dans l'eau, à se chauffer au soleil, sans jamais bouger ; mais si un petit animal passait près de lui, il bondissait, ouvrait ses grandes mâchoires et l'attrapait, comme un chien attrape une mouche.\n\nSur la rive de cette rivière vivait un singe, {{r1}}. Il passait la journée à grimper aux arbres et à manger des noix et des fruits sauvages ; mais il était là depuis si longtemps qu'il ne restait presque plus de fruits sur les arbres.\n\nOr il arriva que la femme de {{r2}}, {{r3}}, eut envie de {{r1}}. {{r3}} était très difficile pour sa nourriture, et elle aimait les morceaux de choix. Alors un matin, elle se mit à pleurer. Les larmes de crocodile sont très grosses, et quand ses larmes tombèrent dans l'eau, plouf, plouf, plouf, {{r2}} se réveilla de son somme et regarda autour de lui ce qui se passait.\n\n— Eh bien, ma femme, dit-il, pourquoi pleures-tu ?\n\n— J'ai faim ! gémit {{r3}}.\n\n— Bon, dit-il, attends un peu. Je vais vite t'attraper quelque chose.\n\n— Mais je veux le cœur de {{r1}} ! dit {{r3}}.\n\nPlouf, plouf, plouf, firent de nouveau ses larmes.\n\n— Allons, allons, courage, dit {{r2}}.\n\nIl aimait beaucoup sa femme, et il lui aurait bien essuyé les larmes, seulement il n'avait pas de mouchoir.\n\n— Courage ! dit-il. Je vais voir ce que je peux faire.\n\n{{r3}} sécha ses larmes, et {{r2}} se recoucha dans la boue, à réfléchir. Il réfléchit pendant une heure entière. Car, voyez-vous, s'il était très gros, il était très bête. Enfin, il poussa un soupir de soulagement : il croyait avoir trouvé un plan très malin.\n\nIl se traîna le long de la rive jusqu'à un endroit juste sous un grand arbre. Là-haut, dans l'arbre, {{r1}} se balançait par la queue en bavardant tout seul.\n\n— {{r1}} ! appela-t-il de la voix la plus douce qu'il put.\n\nCe n'était pas très doux, plutôt comme une crécelle ; mais c'était le mieux qu'il pouvait faire, avec toutes ces dents pointues. {{r1}} s'arrêta de se balancer et regarda en bas. {{r2}} ne lui avait jamais parlé, et il fut plutôt surpris.\n\n— {{r1}}, mon cher ! appela encore {{r2}}.\n\n— Eh bien, qu'y a-t-il ? demanda {{r1}}.\n\n— Je suis sûr que tu dois avoir faim, dit {{r2}}. Je vois que tu as mangé tous les fruits de ces arbres ; mais pourquoi n'essaies-tu pas les arbres de l'autre côté de la rivière ? Regarde : des pommes, des poires, des coings, des prunes, tout ce que tu peux désirer ! Et des tas !\n\n— C'est bien joli, dit {{r1}}. Mais comment traverser une rivière aussi large ?\n\n— Oh ! dit le rusé {{r2}}, c'est facile. Tu me plais, et je veux te rendre service. Saute sur mon dos, je vais traverser à la nage, et tu pourras te régaler !\n\nJamais {{r1}} n'avait reçu une offre aussi tentante. Il fit trois fois le tour d'une branche de joie ; ses yeux brillèrent, et sans réfléchir un instant, il sauta sur le dos de {{r2}}.\n\n{{r2}} se mit à nager lentement. {{r1}} avait les yeux fixés sur l'autre rive avec ses magnifiques arbres fruitiers, et dansait de joie. Tout à coup, il sentit l'eau autour de ses pieds ! Elle monta jusqu'à ses jambes, elle monta jusqu'à sa taille. {{r2}} s'enfonçait !\n\n— {{r2}} ! {{r2}} ! Attention ! dit-il. Vous allez me noyer !\n\n— Ha, ha, ha ! rit {{r2}} en faisant claquer ses grandes mâchoires. Alors tu croyais que je te faisais traverser par pure bonté ? Tu es bien naïf, vraiment ! La vérité, c'est que ma femme a envie de toi, et qu'elle veut manger ton cœur ! Si tu l'avais vue pleurer ce matin, je suis sûr qu'elle t'aurait fait pitié.\n\n— Heureusement que tu me le dis ! dit {{r1}}.\n\n(C'était un singe très malin, qui gardait toujours la tête froide.)\n\n— Attends un peu, et je vais te dire pourquoi. Mon cœur, tu as bien dit ? Mais je ne porte jamais mon cœur sur moi : ce serait bien trop dangereux ! Si nous, les singes, nous sautions d'arbre en arbre avec notre cœur à l'intérieur, nous le casserions en mille morceaux en un rien de temps.\n\n{{r2}} remonta à la surface. Il était bien content de ne pas avoir noyé {{r1}}, car, comme je vous l'ai dit, c'était une bête stupide, et il ne voyait pas que {{r1}} lui jouait un tour.\n\n— Oh, dit-il, alors où est ton cœur ?\n\n— Tu vois cette grappe de choses rondes là-haut dans l'arbre, sur l'autre rive ? Ce sont nos cœurs, tous ensemble, bien à l'abri, à cette hauteur, j'espère !\n\nC'était en réalité un figuier, et c'est vrai que les figues ressemblaient beaucoup à une grappe de cœurs.\n\n— Fais-moi traverser, continua-t-il, et je vais grimper là-haut te lancer mon cœur ; je peux très bien m'en passer.\n\n— Excellente créature ! dit {{r2}}. D'accord !\n\nEt il traversa la rivière à la nage. {{r1}} sauta lestement du dos de {{r2}} et grimpa dans le figuier. Puis il s'assit sur une branche et se mit à manger les figues avec délices.\n\n— Ton cœur, s'il te plaît ! cria {{r2}}. Tu ne vois pas que j'attends ?\n\n— Eh bien, attends tant que tu voudras ! dit {{r1}}. Es-tu assez bête pour croire qu'une créature garde son cœur dans un arbre ? Ton corps est grand, mais ton esprit est petit. Non, non ; je suis ici, et j'y reste. Merci beaucoup de m'avoir fait traverser !\n\n{{r2}} fit claquer ses mâchoires de dépit, et retourna auprès de sa femme, en se sentant très bête, comme il l'était ; et {{r1}} fit dans le figuier un festin comme il n'en avait jamais fait de sa vie."
+    }
+  },
+  "dureeEstimeeSecondes": 577,
+  "interactionsOrdonnees": [
+    "a1e17",
+    "a2e24",
+    "a3e10",
+    "a2e16",
+    "a3e18",
+    "a3e12",
+    "a1e32"
+  ]
+}

@@ -49,7 +49,10 @@ export interface VoixEnCoulisse {
  * comme une réplique, pas comme une note qu'on ne lit jamais à voix haute.
  */
 export function voixEnCoulisse(texte: string): VoixEnCoulisse | null {
-  const m = /voix\s+(?:de\s+la|de\s+l['’]|de|du|des|d['’])\s*([^:]*?)\s*,?\s*en\s+coulisse\s*:\s*(.*)$/is.exec(texte);
+  // « des » avant « de » : l'alternative courte avalait le « de » de « des »,
+  // et « Voix des grenouilles » devenait la voix de « s grenouilles »
+  // (trouvé par la relecture du lot fable, 2026-09-28).
+  const m = /voix\s+(?:de\s+la|de\s+l['’]|des|du|de|d['’])\s*([^:]*?)\s*,?\s*en\s+coulisse\s*:\s*(.*)$/is.exec(texte);
   if (!m) return null;
   const qui = m[1].trim();
   const reste = m[2].trim();

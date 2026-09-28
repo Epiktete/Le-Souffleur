@@ -15,6 +15,7 @@
     "banc": "vitest run --config vitest.banc.config.ts",
     "banc:perrault": "vitest run --config vitest.banc.config.ts banc/perrault.banc.ts",
     "banc:annoter": "vitest run --config vitest.banc.config.ts banc/annoter.banc.ts",
+    "banc:fable": "vitest run --config vitest.banc.config.ts banc/fable.banc.ts",
     "relais": "vitest run --config vitest.banc.config.ts banc/relais.banc.ts",
     "banque": "node tools/indexer-banque.mjs"
   },

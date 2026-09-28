@@ -1,0 +1,547 @@
+{
+  "id": "iroquois-tamia-et-ours--1",
+  "conteId": "iroquois-tamia-et-ours",
+  "titre": "Le Tamia et l'Ours",
+  "pitch": "L’ours {{r2}} se vante que tout lui obéit ; {{r1}}, le petit écureuil brun, le défie d’empêcher le soleil de se lever demain matin.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "ecureuil",
+      "famille": "petit",
+      "traits": [
+        "coquin",
+        "curieux",
+        "bavard"
+      ],
+      "voix": "petite voix aiguë et rapide, qui chantonne ses phrases",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a3e6:texte",
+            "avant": "il dansait",
+            "apres": "elle dansait"
+          },
+          {
+            "id": "a3e6:texte",
+            "avant": "il sautait",
+            "apres": "elle sautait"
+          },
+          {
+            "id": "a3e6:texte",
+            "avant": "il chantait",
+            "apres": "elle chantait"
+          },
+          {
+            "id": "a3e9:texte",
+            "avant": "sur lui",
+            "apres": "sur elle"
+          },
+          {
+            "id": "a3e10:texte",
+            "avant": "qu’il plonge",
+            "apres": "qu’elle plonge"
+          },
+          {
+            "id": "a3e15:texte",
+            "avant": "caché",
+            "apres": "cachée"
+          },
+          {
+            "id": "a3e15:texte",
+            "avant": "il ressortit",
+            "apres": "elle ressortit"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r2",
+      "espece": "ours",
+      "famille": "gros",
+      "traits": [
+        "fort",
+        "vantard",
+        "grognon"
+      ],
+      "voix": "voix très grave et lente, qui fait « hmm » avant de parler",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "L’ours",
+            "apres": "L’ourse"
+          },
+          {
+            "id": "pitch",
+            "avant": "le défie",
+            "apres": "la défie"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "l’ours",
+            "apres": "l’ourse"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "il le savait",
+            "apres": "elle le savait"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "le plus fort",
+            "apres": "la plus forte"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "il s’assit",
+            "apres": "elle s’assit"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "très droit",
+            "apres": "très droite"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "sûr de lui",
+            "apres": "sûre d’elle"
+          },
+          {
+            "id": "a2e3:texte",
+            "avant": "à côté de lui",
+            "apres": "à côté d’elle"
+          },
+          {
+            "id": "a3e7:texte",
+            "avant": "le maître",
+            "apres": "la maîtresse"
+          },
+          {
+            "id": "a3e20:texte",
+            "avant": "d’un ours",
+            "apres": "d’une ourse"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 5,
+    "ageAuditoire": 3,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La forêt, face au levant",
+      "description": "Posez deux coussins debout sur la table, un à chaque bout : ce sont les arbres de la forêt. À gauche, froissez un torchon en tas : ce sont les feuilles où se cache {{r1}}. Juste derrière, un carton debout fait son terrier. Le levant, là où le soleil se lève, c’est du côté des enfants.",
+      "accessoires": [
+        "un torchon froissé (le tas de feuilles)"
+      ],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Tout m’obéit",
+      "resume": "{{r2}} se promène en disant que tout lui obéit. {{r1}} sort d’un tas de feuilles et lui demande d’interdire au soleil de se lever demain matin.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "En ce temps-là, le tamia n’avait pas de rayures : c’était un petit écureuil tout brun."
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e3",
+          "type": "conteur",
+          "texte": "Et en ce temps-là comme aujourd’hui, l’ours {{r2}} était le plus gros animal de la forêt, et il le savait."
+        },
+        {
+          "id": "a1e4",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Tapez sur vos genoux avec moi : boum, boum !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e5",
+          "type": "didascalie",
+          "texte": "{{r2}} traverse la scène à gros pas lourds, en tapant la table à chaque pas : boum, boum."
+        },
+        {
+          "id": "a1e6",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je suis le plus fort.",
+          "ton": "d’une grosse voix, en se redressant"
+        },
+        {
+          "id": "a1e7",
+          "type": "didascalie",
+          "texte": "{{r2}} se jette contre un des coussins-arbres et le pousse de tout son poids."
+        },
+        {
+          "id": "a1e8",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je déracine les arbres. Je fais tout ce que je veux. Tout m’obéit.",
+          "ton": "en se promenant, la tête haute"
+        },
+        {
+          "id": "a1e9",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Poussez-vous, poussez-vous ! Je passe !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e10",
+          "type": "conteur",
+          "texte": "Les animaux s’écartaient sur son passage et ne répondaient rien."
+        },
+        {
+          "id": "a1e11",
+          "type": "conteur",
+          "texte": "Mais un jour, une petite voix sortit d’un tas de feuilles :"
+        },
+        {
+          "id": "a1e12",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e13",
+          "type": "didascalie",
+          "texte": "{{r1}} pointe juste le bout de la tête hors du tas de feuilles."
+        },
+        {
+          "id": "a1e14",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tout t’obéit ? Vraiment tout ?",
+          "ton": "d’une petite voix, depuis les feuilles"
+        },
+        {
+          "id": "a1e15",
+          "type": "didascalie",
+          "texte": "{{r1}} sort des feuilles d’un bond et se plante devant {{r2}}."
+        },
+        {
+          "id": "a1e16",
+          "type": "conteur",
+          "texte": "C’était {{r1}}, le petit écureuil brun."
+        },
+        {
+          "id": "a1e17",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Tout.",
+          "ton": "d’une grosse voix, en se penchant vers {{r1}}"
+        },
+        {
+          "id": "a1e18",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Alors, dis au soleil de ne pas se lever demain matin. On verra bien s’il t’obéit.",
+          "ton": "malicieusement, en sautillant"
+        },
+        {
+          "id": "a1e19",
+          "type": "note_marionnettiste",
+          "texte": "Pendant la phrase suivante, {{r2}} lève lentement la tête vers le ciel."
+        },
+        {
+          "id": "a1e20",
+          "type": "conteur",
+          "texte": "{{r2}} regarda le ciel, qui devenait rose du côté du soir."
+        },
+        {
+          "id": "a1e21",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Le soleil ne se lèvera pas. Je le lui interdis.",
+          "ton": "d’une voix forte, sans hésiter"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Soleil, ne te lève pas",
+      "resume": "Toute la nuit, face à l’est, {{r2}} ordonne au soleil de ne pas se lever, et {{r1}} chante qu’il va se lever. Au matin, le soleil se lève, comme tous les matins.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "Et il s’assit face à l’est, très droit, très sûr de lui."
+        },
+        {
+          "id": "a2e2",
+          "type": "didascalie",
+          "texte": "{{r2}} se tourne face aux enfants et s’assoit, la tête haute."
+        },
+        {
+          "id": "a2e3",
+          "type": "conteur",
+          "texte": "{{r1}} s’assit à côté de lui, et toute la nuit, ils attendirent."
+        },
+        {
+          "id": "a2e4",
+          "type": "didascalie",
+          "texte": "{{r1}} vient s’asseoir tout contre {{r2}}, face aux enfants."
+        },
+        {
+          "id": "a2e5",
+          "type": "conteur",
+          "texte": "{{r2}} répétait d’une voix profonde :"
+        },
+        {
+          "id": "a2e6",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Soleil, ne te lève pas. Soleil, ne te lève pas.",
+          "ton": "très grave, très lentement, vers les enfants"
+        },
+        {
+          "id": "a2e7",
+          "type": "conteur",
+          "texte": "Et {{r1}}, de sa petite voix :"
+        },
+        {
+          "id": "a2e8",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Chantez avec moi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e9",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Le soleil va se lever. Le soleil va se lever.",
+          "ton": "en chantonnant, avec un petit saut à chaque phrase"
+        },
+        {
+          "id": "a2e10",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Soleil, ne te lève pas. Soleil, ne te lève pas.",
+          "ton": "encore plus grave, en grondant"
+        },
+        {
+          "id": "a2e11",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Le soleil va se lever. Le soleil va se lever.",
+          "ton": "en chantant plus fort"
+        },
+        {
+          "id": "a2e12",
+          "type": "note_marionnettiste",
+          "texte": "Vous pouvez reprendre le duo encore une fois, de plus en plus lentement : la nuit est longue."
+        },
+        {
+          "id": "a2e13",
+          "type": "conteur",
+          "texte": "Au bout de la nuit, le bord du ciel pâlit. Puis il devint gris, puis rose, puis doré."
+        },
+        {
+          "id": "a2e14",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r2}} se penchent vers les enfants et ne bougent plus."
+        },
+        {
+          "id": "a2e15",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites le soleil avec moi : levez les bras, tout doucement !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e16",
+          "type": "conteur",
+          "texte": "Et le soleil se leva, rond et tranquille, comme tous les matins."
+        },
+        {
+          "id": "a2e17",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r2}} lèvent lentement la tête, comme pour suivre le soleil qui monte."
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Les trois rayures",
+      "resume": "{{r1}} danse et se moque de {{r2}}, de plus en plus fort. La grosse patte de {{r2}} s’abat : {{r1}} file dans son terrier, mais les griffes lui laissent trois rayures sur le dos.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Criez avec moi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e2",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Le soleil s’est levé ! Le soleil s’est levé !",
+          "ton": "en criant de joie"
+        },
+        {
+          "id": "a3e3",
+          "type": "didascalie",
+          "texte": "{{r1}} danse tout autour de {{r2}}, en sautant par-devant, puis par-derrière."
+        },
+        {
+          "id": "a3e4",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tu le lui avais interdit, et il s’est levé quand même !",
+          "ton": "en sautillant sous le nez de {{r2}}"
+        },
+        {
+          "id": "a3e5",
+          "type": "conteur",
+          "texte": "{{r2}} ne dit rien."
+        },
+        {
+          "id": "a3e6",
+          "type": "conteur",
+          "texte": "{{r1}} aurait mieux fait de s’en tenir là — mais il dansait, il sautait, il chantait de plus en plus fort :"
+        },
+        {
+          "id": "a3e7",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "{{r2}} n’est pas le maître du soleil ! {{r2}} n’est pas le maître du soleil !",
+          "ton": "en chantant très fort pour se moquer, en sautillant de plus en plus près de {{r2}}"
+        },
+        {
+          "id": "a3e8",
+          "type": "didascalie",
+          "texte": "{{r2}} se dresse, puis s’abat d’un grand coup sur la table, juste là où danse {{r1}} : boum !"
+        },
+        {
+          "id": "a3e9",
+          "type": "conteur",
+          "texte": "Alors, d’un coup, la grosse patte de {{r2}} s’abattit sur lui."
+        },
+        {
+          "id": "a3e10",
+          "type": "conteur",
+          "texte": "{{r1}} se faufila dessous, fila comme un éclair — mais les griffes de {{r2}} lui frôlèrent le dos, du cou jusqu’à la queue, avant qu’il plonge dans son terrier."
+        },
+        {
+          "id": "a3e11",
+          "type": "didascalie",
+          "texte": "{{r1}} se glisse sous {{r2}} à toute vitesse et plonge derrière le carton du terrier."
+        },
+        {
+          "id": "a3e12",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e13",
+          "type": "didascalie",
+          "texte": "{{r2}} regarde le terrier un moment, puis s’en va à gros pas lourds."
+        },
+        {
+          "id": "a3e14",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e15",
+          "type": "conteur",
+          "texte": "{{r1}} y resta caché tout l’hiver, et quand il ressortit au printemps, son dos portait trois longues rayures sombres, là où les griffes étaient passées."
+        },
+        {
+          "id": "a3e16",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e17",
+          "type": "didascalie",
+          "texte": "{{r1}} sort doucement de derrière le carton et tourne son dos vers les enfants."
+        },
+        {
+          "id": "a3e18",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Comptez mes rayures avec moi : une, deux, trois !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e19",
+          "type": "conteur",
+          "texte": "C’est depuis ce jour que le tamia porte des rayures."
+        },
+        {
+          "id": "a3e20",
+          "type": "conteur",
+          "texte": "Elles disent deux choses, racontent les Iroquois : que les plus forts ne peuvent pas tout — le soleil se lève sans leur permission — et qu’il n’est pas bien malin de danser sous le nez d’un ours pour le lui rappeler."
+        },
+        {
+          "id": "a3e21",
+          "type": "didascalie",
+          "texte": "{{r1}} salue les enfants, puis file derrière le carton."
+        },
+        {
+          "id": "a3e22",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "iroquois-tamia-et-ours",
+    "synopsis": {
+      "accroche": "L’ours {{r2}} dit que tout lui obéit ; {{r1}}, le petit écureuil brun, le met au défi d’empêcher le soleil de se lever.",
+      "resume": [
+        "L’ours {{r2}} se promène dans la forêt en disant que tout lui obéit.",
+        "{{r1}}, un petit écureuil tout brun, sort d’un tas de feuilles : « Alors, dis au soleil de ne pas se lever demain matin. »",
+        "Toute la nuit, face à l’est, {{r2}} répète « Soleil, ne te lève pas », et {{r1}} chante « Le soleil va se lever ».",
+        "Au matin, le soleil se lève. {{r1}} danse et se moque : « {{r2}} n’est pas le maître du soleil ! »",
+        "La grosse patte de {{r2}} s’abat : {{r1}} file dans son terrier, mais les griffes lui laissent trois rayures sur le dos. C’est depuis ce jour que le tamia porte des rayures."
+      ]
+    },
+    "transposition": {
+      "texte": "En ce temps-là, le tamia n’avait pas de rayures : c’était un petit écureuil tout brun. Et en ce temps-là comme aujourd’hui, l’ours {{r2}} était le plus gros animal de la forêt, et il le savait.\n\n— Je suis le plus fort, disait {{r2}} en se promenant. Je déracine les arbres. Je fais tout ce que je veux. Tout m’obéit.\n\nLes animaux s’écartaient sur son passage et ne répondaient rien. Mais un jour, une petite voix sortit d’un tas de feuilles :\n\n— Tout t’obéit ? Vraiment tout ?\n\nC’était {{r1}}, le petit écureuil brun.\n\n— Tout, dit {{r2}}.\n\n— Alors, dis au soleil de ne pas se lever demain matin. On verra bien s’il t’obéit.\n\n{{r2}} regarda le ciel, qui devenait rose du côté du soir.\n\n— Le soleil ne se lèvera pas, décida {{r2}}. Je le lui interdis.\n\nEt il s’assit face à l’est, très droit, très sûr de lui. {{r1}} s’assit à côté de lui, et toute la nuit, ils attendirent. {{r2}} répétait d’une voix profonde :\n\n— Soleil, ne te lève pas. Soleil, ne te lève pas.\n\nEt {{r1}}, de sa petite voix :\n\n— Le soleil va se lever. Le soleil va se lever.\n\nAu bout de la nuit, le bord du ciel pâlit. Puis il devint gris, puis rose, puis doré. Et le soleil se leva, rond et tranquille, comme tous les matins.\n\n— Le soleil s’est levé ! Le soleil s’est levé ! chanta {{r1}} en dansant autour de {{r2}}. Tu le lui avais interdit, et il s’est levé quand même !\n\n{{r2}} ne dit rien. {{r1}} aurait mieux fait de s’en tenir là — mais il dansait, il sautait, il chantait de plus en plus fort :\n\n— {{r2}} n’est pas le maître du soleil ! {{r2}} n’est pas le maître du soleil !\n\nAlors, d’un coup, la grosse patte de {{r2}} s’abattit sur lui. {{r1}} se faufila dessous, fila comme un éclair — mais les griffes de {{r2}} lui frôlèrent le dos, du cou jusqu’à la queue, avant qu’il plonge dans son terrier.\n\nIl y resta caché tout l’hiver, et quand il ressortit au printemps, son dos portait trois longues rayures sombres, là où les griffes étaient passées.\n\nC’est depuis ce jour que le tamia porte des rayures. Elles disent deux choses, racontent les Iroquois : que les plus forts ne peuvent pas tout — le soleil se lève sans leur permission — et qu’il n’est pas bien malin de danser sous le nez d’un ours pour le lui rappeler."
+    }
+  },
+  "dureeEstimeeSecondes": 350,
+  "interactionsOrdonnees": [
+    "a2e8",
+    "a3e1",
+    "a3e18",
+    "a2e15",
+    "a1e4",
+    "a1e9"
+  ]
+}

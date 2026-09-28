@@ -1,0 +1,939 @@
+{
+  "id": "ru-renard-lievre-coq--1",
+  "conteId": "ru-renard-lievre-coq",
+  "titre": "Le Renard, le Lièvre et le Coq",
+  "pitch": "{{r2}} a pris la maison de {{r1}}. Les chiens, l'ours et le taureau ont trop peur pour l'en chasser : c'est {{r3}}, sa faux sur l'épaule, qui va la faire déguerpir.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "lievre",
+      "famille": "petit",
+      "traits": [
+        "gentil",
+        "peureux",
+        "généreux"
+      ],
+      "voix": "petite voix douce et tremblante ; renifle entre ses phrases quand il pleure",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "voix:r1",
+            "avant": "quand il pleure",
+            "apres": "quand elle pleure"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "et le met dehors",
+            "apres": "et la met dehors"
+          },
+          {
+            "id": "a1e17:texte",
+            "avant": "mis dehors",
+            "apres": "mise dehors"
+          },
+          {
+            "id": "a2e3:texte",
+            "avant": "mis dehors",
+            "apres": "mise dehors"
+          },
+          {
+            "id": "a2e17:texte",
+            "avant": "mis dehors",
+            "apres": "mise dehors"
+          },
+          {
+            "id": "a3e7:texte",
+            "avant": "mis dehors",
+            "apres": "mise dehors"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r2",
+      "espece": "renarde",
+      "famille": "predateur",
+      "traits": [
+        "rusé",
+        "méchant",
+        "vantard"
+      ],
+      "voix": "voix aiguë et pointue, sûre d'elle ; crie très fort quand elle menace",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "la faire déguerpir",
+            "apres": "le faire déguerpir"
+          },
+          {
+            "id": "voix:r2",
+            "avant": "sûre d'elle",
+            "apres": "sûr de lui"
+          },
+          {
+            "id": "voix:r2",
+            "avant": "quand elle menace",
+            "apres": "quand il menace"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "Elle s'invite",
+            "apres": "Il s'invite"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "veulent la chasser",
+            "apres": "veulent le chasser"
+          },
+          {
+            "id": "a1e12:texte",
+            "avant": "Et elle mit",
+            "apres": "Et il mit"
+          },
+          {
+            "id": "a1e17:texte",
+            "avant": "elle m'a demandé",
+            "apres": "il m'a demandé"
+          },
+          {
+            "id": "a1e17:texte",
+            "avant": "et elle m'a",
+            "apres": "et il m'a"
+          },
+          {
+            "id": "a1e19:texte",
+            "avant": "la chasser",
+            "apres": "le chasser"
+          },
+          {
+            "id": "a1e20:texte",
+            "avant": "la chasserez",
+            "apres": "le chasserez"
+          },
+          {
+            "id": "a1e21:texte",
+            "avant": "la chasserons",
+            "apres": "le chasserons"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "elle leur fait",
+            "apres": "il leur fait"
+          },
+          {
+            "id": "a2e3:texte",
+            "avant": "elle m'a demandé",
+            "apres": "il m'a demandé"
+          },
+          {
+            "id": "a2e3:texte",
+            "avant": "et elle m'a",
+            "apres": "et il m'a"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "la chasser",
+            "apres": "le chasser"
+          },
+          {
+            "id": "a2e5:texte",
+            "avant": "Non, tu ne la chasseras",
+            "apres": "Non, tu ne le chasseras"
+          },
+          {
+            "id": "a2e5:texte",
+            "avant": "l'ont chassée et ne l'ont pas chassée",
+            "apres": "l'ont chassé et ne l'ont pas chassé"
+          },
+          {
+            "id": "a2e5:texte",
+            "avant": "plus tu ne la chasseras",
+            "apres": "plus tu ne le chasseras"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "la chasserai",
+            "apres": "le chasserai"
+          },
+          {
+            "id": "a2e7:texte",
+            "avant": "la chasser",
+            "apres": "le chasser"
+          },
+          {
+            "id": "a2e17:texte",
+            "avant": "elle m'a demandé",
+            "apres": "il m'a demandé"
+          },
+          {
+            "id": "a2e17:texte",
+            "avant": "et elle m'a",
+            "apres": "et il m'a"
+          },
+          {
+            "id": "a2e18:texte",
+            "avant": "la chasser",
+            "apres": "le chasser"
+          },
+          {
+            "id": "a2e19:texte",
+            "avant": "le taureau, tu ne la chasseras",
+            "apres": "le taureau, tu ne le chasseras"
+          },
+          {
+            "id": "a2e19:texte",
+            "avant": "l'ont chassée et ne l'ont pas chassée",
+            "apres": "l'ont chassé et ne l'ont pas chassé"
+          },
+          {
+            "id": "a2e19:texte",
+            "avant": "l'a chassée et ne l'a pas chassée",
+            "apres": "l'a chassé et ne l'a pas chassé"
+          },
+          {
+            "id": "a2e19:texte",
+            "avant": "plus tu ne la chasseras",
+            "apres": "plus tu ne le chasseras"
+          },
+          {
+            "id": "a2e20:texte",
+            "avant": "la chasserai",
+            "apres": "le chasserai"
+          },
+          {
+            "id": "a3e7:texte",
+            "avant": "elle m'a demandé",
+            "apres": "il m'a demandé"
+          },
+          {
+            "id": "a3e7:texte",
+            "avant": "et elle m'a",
+            "apres": "et il m'a"
+          },
+          {
+            "id": "a3e8:texte",
+            "avant": "la chasser",
+            "apres": "le chasser"
+          },
+          {
+            "id": "a3e9:texte",
+            "avant": "Non, tu ne la chasseras",
+            "apres": "Non, tu ne le chasseras"
+          },
+          {
+            "id": "a3e9:texte",
+            "avant": "l'ont chassée et ne l'ont pas chassée",
+            "apres": "l'ont chassé et ne l'ont pas chassé"
+          },
+          {
+            "id": "a3e9:texte",
+            "avant": "l'ours l'a chassée et ne l'a pas chassée",
+            "apres": "l'ours l'a chassé et ne l'a pas chassé"
+          },
+          {
+            "id": "a3e9:texte",
+            "avant": "le taureau l'a chassée et ne l'a pas chassée",
+            "apres": "le taureau l'a chassé et ne l'a pas chassé"
+          },
+          {
+            "id": "a3e9:texte",
+            "avant": "plus tu ne la chasseras",
+            "apres": "plus tu ne le chasseras"
+          },
+          {
+            "id": "a3e10:texte",
+            "avant": "la chasserai",
+            "apres": "le chasserai"
+          },
+          {
+            "id": "a3e19:texte",
+            "avant": "Et elle",
+            "apres": "Et il"
+          },
+          {
+            "id": "a3e26:texte",
+            "avant": "Et elle",
+            "apres": "Et il"
+          },
+          {
+            "id": "a3e32:texte",
+            "avant": "la chassa",
+            "apres": "le chassa"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r3",
+      "espece": "coq",
+      "famille": "oiseau",
+      "traits": [
+        "courageux",
+        "minuscule",
+        "bavard"
+      ],
+      "voix": "voix claire et perçante ; lance son cocorico à pleine gorge et parle vite",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a3e8:ton",
+            "avant": "sûr de lui",
+            "apres": "sûre d'elle"
+          },
+          {
+            "id": "a3e32:texte",
+            "avant": "; il",
+            "apres": "; elle"
+          },
+          {
+            "id": "a3e32:texte",
+            "avant": "et il se mit",
+            "apres": "et elle se mit"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 7,
+    "ageAuditoire": 3,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La maison d'écorce",
+      "description": "Posez un carton debout au milieu de la table : c'est la petite maison d'écorce de {{r1}}. La marionnette qui habite la maison se cache derrière le carton et surgit par-dessus, comme du haut du poêle. De chaque côté de la maison, la table fait la route. Si vous en avez une, étalez une nappe devant pour cacher vos bras.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "La maison de glace a fondu",
+      "resume": "Au printemps, la maison de glace de {{r2}} fond. Elle s'invite chez {{r1}} et le met dehors ; les chiens veulent la chasser, mais sa menace leur fait peur.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Il était une fois {{r2}} et {{r1}}."
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e3",
+          "type": "didascalie",
+          "texte": "{{r1}} sautille autour de la maison et s'arrête devant la porte."
+        },
+        {
+          "id": "a1e4",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e5",
+          "type": "didascalie",
+          "texte": "{{r2}} arrive de l'autre bout de la table et s'arrête tout au bord."
+        },
+        {
+          "id": "a1e6",
+          "type": "conteur",
+          "texte": "{{r2}} avait une petite maison de glace, et {{r1}} une petite maison d'écorce."
+        },
+        {
+          "id": "a1e7",
+          "type": "conteur",
+          "texte": "Vint le beau printemps : la maison de {{r2}} fondit, et celle de {{r1}} resta debout comme avant."
+        },
+        {
+          "id": "a1e8",
+          "type": "didascalie",
+          "texte": "{{r2}} tremble de tout son corps, puis s'approche tout près de {{r1}}."
+        },
+        {
+          "id": "a1e9",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Laisse-moi me réchauffer chez toi !",
+          "ton": "d'une voix toute douce, en suppliant"
+        },
+        {
+          "id": "a1e10",
+          "type": "didascalie",
+          "texte": "{{r1}} hoche la tête et s'écarte de la porte. {{r2}} se glisse derrière la maison."
+        },
+        {
+          "id": "a1e11",
+          "type": "didascalie",
+          "texte": "{{r2}} surgit par-dessus la maison et repousse {{r1}} d'un grand coup de tête, loin de la porte."
+        },
+        {
+          "id": "a1e12",
+          "type": "conteur",
+          "texte": "Et elle mit {{r1}} dehors."
+        },
+        {
+          "id": "a1e13",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e14",
+          "type": "didascalie",
+          "texte": "{{r1}} s'en va vers le bout de la table, tête basse, en tremblant."
+        },
+        {
+          "id": "a1e15",
+          "type": "conteur",
+          "texte": "{{r1}} s'en va sur la route en pleurant, et voilà les chiens qui arrivent en face :"
+        },
+        {
+          "id": "a1e16",
+          "type": "note_marionnettiste",
+          "texte": "Voix des chiens, en coulisse : « Ouah, ouah, ouah ! Pourquoi pleures-tu, {{r1}} ? » — de grosses voix qui aboient, venues du bout de la table."
+        },
+        {
+          "id": "a1e17",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Laissez-moi, les chiens ! Comment ne pas pleurer ? J'avais une petite maison d'écorce, et {{r2}} une maison de glace ; elle m'a demandé d'entrer chez moi, et elle m'a mis dehors.",
+          "ton": "en reniflant, la voix tremblante"
+        },
+        {
+          "id": "a1e18",
+          "type": "note_marionnettiste",
+          "texte": "Cette plainte revient mot pour mot à chaque rencontre : gardez-lui toujours le même air, les enfants finiront par la dire avec {{r1}}."
+        },
+        {
+          "id": "a1e19",
+          "type": "note_marionnettiste",
+          "texte": "Voix des chiens, en coulisse : « Ne pleure pas, {{r1}} ! Nous allons la chasser. »"
+        },
+        {
+          "id": "a1e20",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Non, vous ne la chasserez pas !",
+          "ton": "tristement"
+        },
+        {
+          "id": "a1e21",
+          "type": "note_marionnettiste",
+          "texte": "Voix des chiens, en coulisse : « Si, nous la chasserons ! »"
+        },
+        {
+          "id": "a1e22",
+          "type": "conteur",
+          "texte": "Ils arrivent devant la petite maison :"
+        },
+        {
+          "id": "a1e23",
+          "type": "didascalie",
+          "texte": "{{r1}} revient devant la maison, tout près de la porte."
+        },
+        {
+          "id": "a1e24",
+          "type": "note_marionnettiste",
+          "texte": "Ces deux trajets reviennent à chaque rencontre : {{r1}} s'éloigne en tremblant, puis revient devant la maison avec celui qui veut l'aider."
+        },
+        {
+          "id": "a1e25",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Aboyez avec les chiens : ouah, ouah, ouah !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e26",
+          "type": "note_marionnettiste",
+          "texte": "Voix des chiens, en coulisse : « Ouah, ouah, ouah ! Dehors, {{r2}} ! » — bien fort, vers la maison."
+        },
+        {
+          "id": "a1e27",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e28",
+          "type": "didascalie",
+          "texte": "{{r2}} surgit d'un bond par-dessus la maison, face au bout de la table."
+        },
+        {
+          "id": "a1e29",
+          "type": "note_marionnettiste",
+          "texte": "Dites la menace lentement, en détachant les mots : elle reviendra à chaque visite."
+        },
+        {
+          "id": "a1e30",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Si je bondis, si je saute, les poils vont voler dans toutes les ruelles !",
+          "ton": "très fort, en grossissant la voix"
+        },
+        {
+          "id": "a1e31",
+          "type": "conteur",
+          "texte": "Les chiens eurent peur et s'en allèrent."
+        },
+        {
+          "id": "a1e32",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "L'ours et le taureau",
+      "resume": "{{r1}} repart en pleurant. L'ours, puis le taureau, veulent chasser {{r2}} ; à chaque fois, elle leur fait sa menace, et ils s'enfuient.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "{{r1}} repart en pleurant. Voilà l'ours qui arrive en face :"
+        },
+        {
+          "id": "a2e2",
+          "type": "note_marionnettiste",
+          "texte": "Voix de l'ours, en coulisse : « Pourquoi pleures-tu, {{r1}} ? » — une voix très grosse et très lente."
+        },
+        {
+          "id": "a2e3",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Laisse-moi, l'ours ! Comment ne pas pleurer ? J'avais une petite maison d'écorce, et {{r2}} une maison de glace ; elle m'a demandé d'entrer chez moi, et elle m'a mis dehors.",
+          "ton": "en reniflant"
+        },
+        {
+          "id": "a2e4",
+          "type": "note_marionnettiste",
+          "texte": "Voix de l'ours, en coulisse : « Ne pleure pas, {{r1}} ! Je vais la chasser. »"
+        },
+        {
+          "id": "a2e5",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Non, tu ne la chasseras pas ! Les chiens l'ont chassée et ne l'ont pas chassée, et toi non plus tu ne la chasseras pas.",
+          "ton": "tristement"
+        },
+        {
+          "id": "a2e6",
+          "type": "note_marionnettiste",
+          "texte": "Voix de l'ours, en coulisse : « Si, je la chasserai ! »"
+        },
+        {
+          "id": "a2e7",
+          "type": "conteur",
+          "texte": "Ils vont la chasser :"
+        },
+        {
+          "id": "a2e8",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Criez avec l'ours : Dehors, {{r2}} !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e9",
+          "type": "note_marionnettiste",
+          "texte": "Voix de l'ours, en coulisse : « Dehors, {{r2}} ! » — d'une très grosse voix, vers la maison."
+        },
+        {
+          "id": "a2e10",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e11",
+          "type": "didascalie",
+          "texte": "{{r2}} surgit d'un bond par-dessus la maison, face au bout de la table."
+        },
+        {
+          "id": "a2e12",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Si je bondis, si je saute, les poils vont voler dans toutes les ruelles !",
+          "ton": "très fort, en grossissant la voix"
+        },
+        {
+          "id": "a2e13",
+          "type": "conteur",
+          "texte": "L'ours eut peur et s'en alla."
+        },
+        {
+          "id": "a2e14",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e15",
+          "type": "conteur",
+          "texte": "{{r1}} repart en pleurant, et voilà le taureau qui arrive en face :"
+        },
+        {
+          "id": "a2e16",
+          "type": "note_marionnettiste",
+          "texte": "Voix du taureau, en coulisse : « Pourquoi pleures-tu, {{r1}} ? » — une voix grave, qui mugit un peu."
+        },
+        {
+          "id": "a2e17",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Laisse-moi, le taureau ! Comment ne pas pleurer ? J'avais une petite maison d'écorce, et {{r2}} une maison de glace ; elle m'a demandé d'entrer chez moi, et elle m'a mis dehors.",
+          "ton": "en reniflant"
+        },
+        {
+          "id": "a2e18",
+          "type": "note_marionnettiste",
+          "texte": "Voix du taureau, en coulisse : « Viens, je vais la chasser. »"
+        },
+        {
+          "id": "a2e19",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Non, le taureau, tu ne la chasseras pas ! Les chiens l'ont chassée et ne l'ont pas chassée, l'ours l'a chassée et ne l'a pas chassée, et toi non plus tu ne la chasseras pas.",
+          "ton": "tristement"
+        },
+        {
+          "id": "a2e20",
+          "type": "note_marionnettiste",
+          "texte": "Voix du taureau, en coulisse : « Si, je la chasserai ! »"
+        },
+        {
+          "id": "a2e21",
+          "type": "conteur",
+          "texte": "Ils arrivent devant la petite maison :"
+        },
+        {
+          "id": "a2e22",
+          "type": "note_marionnettiste",
+          "texte": "Voix du taureau, en coulisse : « Dehors, {{r2}} ! » — d'une voix grave, vers la maison."
+        },
+        {
+          "id": "a2e23",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e24",
+          "type": "didascalie",
+          "texte": "{{r2}} surgit d'un bond par-dessus la maison."
+        },
+        {
+          "id": "a2e25",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Dites-le avec moi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e26",
+          "type": "note_marionnettiste",
+          "texte": "Les enfants connaissent la menace : dites-la lentement, pour qu'ils puissent la dire avec {{r2}}."
+        },
+        {
+          "id": "a2e27",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Si je bondis, si je saute, les poils vont voler dans toutes les ruelles !",
+          "ton": "très fort, vers le bout de la table"
+        },
+        {
+          "id": "a2e28",
+          "type": "conteur",
+          "texte": "Le taureau eut peur et s'en alla."
+        },
+        {
+          "id": "a2e29",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "La faux sur l'épaule",
+      "resume": "{{r3}} arrive, sa faux sur l'épaule, et chante trois fois sa menace. {{r2}} a peur et s'enfuit en courant, et {{r3}} reste vivre avec {{r1}}.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "conteur",
+          "texte": "{{r1}} repart en pleurant, et voilà {{r3}} qui arrive en face, une faux sur l'épaule :"
+        },
+        {
+          "id": "a3e2",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e3",
+          "type": "didascalie",
+          "texte": "{{r3}} arrive à grands pas, la tête bien haute, et s'arrête devant {{r1}}."
+        },
+        {
+          "id": "a3e4",
+          "type": "note_marionnettiste",
+          "texte": "La faux n'est jamais montrée : elle n'existe que dans les mots de {{r3}}."
+        },
+        {
+          "id": "a3e5",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Cocorico ! Pourquoi pleures-tu, {{r1}} ?",
+          "ton": "à pleine voix"
+        },
+        {
+          "id": "a3e6",
+          "type": "note_marionnettiste",
+          "texte": "Les enfants connaissent la plainte : ralentissez, et laissez-les la dire avec {{r1}}."
+        },
+        {
+          "id": "a3e7",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Laisse-moi, {{r3}} ! Comment ne pas pleurer ? J'avais une petite maison d'écorce, et {{r2}} une maison de glace ; elle m'a demandé d'entrer chez moi, et elle m'a mis dehors.",
+          "ton": "en reniflant"
+        },
+        {
+          "id": "a3e8",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Viens, je vais la chasser.",
+          "ton": "gaiement, sûr de lui"
+        },
+        {
+          "id": "a3e9",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Non, tu ne la chasseras pas ! Les chiens l'ont chassée et ne l'ont pas chassée, l'ours l'a chassée et ne l'a pas chassée, le taureau l'a chassée et ne l'a pas chassée, et toi non plus tu ne la chasseras pas.",
+          "ton": "tristement, de plus en plus bas"
+        },
+        {
+          "id": "a3e10",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Si, je la chasserai !",
+          "ton": "très fort"
+        },
+        {
+          "id": "a3e11",
+          "type": "conteur",
+          "texte": "Ils arrivent devant la petite maison."
+        },
+        {
+          "id": "a3e12",
+          "type": "didascalie",
+          "texte": "{{r1}} recule et va se cacher au bout de la table."
+        },
+        {
+          "id": "a3e13",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e14",
+          "type": "didascalie",
+          "texte": "{{r3}} se plante devant la porte de la maison, la tête bien haute."
+        },
+        {
+          "id": "a3e15",
+          "type": "adresse_public",
+          "marionnetteId": "r3",
+          "texte": "Faites cocorico avec moi, très fort !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e16",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Cocorico ! Je porte ma faux sur l'épaule, je viens faire déguerpir {{r2}} ! Dehors, {{r2}} !",
+          "ton": "à pleine voix"
+        },
+        {
+          "id": "a3e17",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e18",
+          "type": "didascalie",
+          "texte": "{{r2}} montre juste le bout du museau par-dessus la maison, et tremble."
+        },
+        {
+          "id": "a3e19",
+          "type": "conteur",
+          "texte": "Et elle l'entendit, eut peur, et dit :"
+        },
+        {
+          "id": "a3e20",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je m'habille…",
+          "ton": "d'une toute petite voix"
+        },
+        {
+          "id": "a3e21",
+          "type": "didascalie",
+          "texte": "{{r2}} se baisse derrière la maison : on ne voit plus que ses oreilles."
+        },
+        {
+          "id": "a3e22",
+          "type": "conteur",
+          "texte": "{{r3}}, encore :"
+        },
+        {
+          "id": "a3e23",
+          "type": "note_marionnettiste",
+          "texte": "Faites reprendre le cocorico aux enfants, avec {{r3}}, puis laissez un temps avant la réponse de {{r2}}."
+        },
+        {
+          "id": "a3e24",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Cocorico ! Je porte ma faux sur l'épaule, je viens faire déguerpir {{r2}} ! Dehors, {{r2}} !",
+          "ton": "encore plus fort"
+        },
+        {
+          "id": "a3e25",
+          "type": "didascalie",
+          "texte": "{{r2}} remonte un peu et tremble de plus belle."
+        },
+        {
+          "id": "a3e26",
+          "type": "conteur",
+          "texte": "Et elle dit :"
+        },
+        {
+          "id": "a3e27",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je mets mon manteau…",
+          "ton": "d'une voix qui tremble"
+        },
+        {
+          "id": "a3e28",
+          "type": "conteur",
+          "texte": "{{r3}}, pour la troisième fois :"
+        },
+        {
+          "id": "a3e29",
+          "type": "adresse_public",
+          "marionnetteId": "r3",
+          "texte": "Criez avec moi : Dehors, {{r2}} !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e30",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Cocorico ! Je porte ma faux sur l'épaule, je viens faire déguerpir {{r2}} ! Dehors, {{r2}} !",
+          "ton": "le plus fort possible"
+        },
+        {
+          "id": "a3e31",
+          "type": "didascalie",
+          "texte": "{{r2}} jaillit de derrière la maison et s'enfuit en courant vers le bout de la table ; {{r3}} lui court après en sautant."
+        },
+        {
+          "id": "a3e32",
+          "type": "conteur",
+          "texte": "{{r2}} sortit en courant ; il la chassa avec sa faux, et il se mit à vivre avec {{r1}}, heureux et prospères."
+        },
+        {
+          "id": "a3e33",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e34",
+          "type": "didascalie",
+          "texte": "{{r3}} revient devant la maison en sautillant."
+        },
+        {
+          "id": "a3e35",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e36",
+          "type": "didascalie",
+          "texte": "{{r1}} sort de sa cachette et vient se serrer contre {{r3}}."
+        },
+        {
+          "id": "a3e37",
+          "type": "conteur",
+          "texte": "Voilà ton conte, et pour moi, un pot de beurre."
+        },
+        {
+          "id": "a3e38",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r3}} se tournent vers les enfants et saluent."
+        },
+        {
+          "id": "a3e39",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Au revoir, les enfants !",
+          "attenteReponse": true
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "ru-renard-lievre-coq",
+    "synopsis": {
+      "accroche": "{{r2}} a pris la maison de {{r1}}, et les grands animaux ont trop peur pour l'en chasser : c'est {{r3}}, tout petit, qui va la faire déguerpir.",
+      "resume": [
+        "Au printemps, la maison de glace de {{r2}} fond. Elle demande à {{r1}} de la laisser se réchauffer chez lui, puis elle le met dehors.",
+        "Les chiens veulent la chasser, mais elle leur crie : « Si je bondis, si je saute, les poils vont voler dans toutes les ruelles ! » Et les chiens s'en vont.",
+        "L'ours, puis le taureau, essaient à leur tour : même menace, même fuite.",
+        "{{r3}} arrive, une faux sur l'épaule, et chante trois fois : « Cocorico ! Je porte ma faux sur l'épaule, je viens faire déguerpir {{r2}} ! Dehors, {{r2}} ! » {{r2}} répond « Je m'habille… », puis « Je mets mon manteau… ».",
+        "Au troisième cocorico, {{r2}} s'enfuit en courant, et {{r3}} reste vivre avec {{r1}}."
+      ]
+    },
+    "transposition": {
+      "texte": "Il était une fois {{r2}} et {{r1}}. {{r2}} avait une petite maison de glace, et {{r1}} une petite maison d'écorce. Vint le beau printemps : la maison de {{r2}} fondit, et celle de {{r1}} resta debout comme avant. {{r2}} demanda à {{r1}} de la laisser se réchauffer chez lui — et elle mit {{r1}} dehors.\n\n{{r1}} s'en va sur la route en pleurant, et voilà les chiens qui arrivent en face :\n\n— Ouah, ouah, ouah ! Pourquoi pleures-tu, {{r1}} ?\n\nEt {{r1}} répond :\n\n— Laissez-moi, les chiens ! Comment ne pas pleurer ? J'avais une petite maison d'écorce, et {{r2}} une maison de glace ; elle m'a demandé d'entrer chez moi, et elle m'a mis dehors.\n\n— Ne pleure pas, {{r1}} ! disent les chiens. Nous allons la chasser.\n\n— Non, vous ne la chasserez pas !\n\n— Si, nous la chasserons !\n\nIls arrivent devant la petite maison :\n\n— Ouah, ouah, ouah ! Dehors, {{r2}} !\n\nEt elle leur répond du haut du poêle :\n\n— Si je bondis, si je saute, les poils vont voler dans toutes les ruelles !\n\nLes chiens eurent peur et s'en allèrent.\n\n{{r1}} repart en pleurant. Voilà l'ours qui arrive en face :\n\n— Pourquoi pleures-tu, {{r1}} ?\n\nEt {{r1}} répond :\n\n— Laisse-moi, l'ours ! Comment ne pas pleurer ? J'avais une petite maison d'écorce, et {{r2}} une maison de glace ; elle m'a demandé d'entrer chez moi, et elle m'a mis dehors.\n\n— Ne pleure pas, {{r1}} ! dit l'ours. Je vais la chasser.\n\n— Non, tu ne la chasseras pas ! Les chiens l'ont chassée et ne l'ont pas chassée, et toi non plus tu ne la chasseras pas.\n\n— Si, je la chasserai !\n\nIls vont la chasser :\n\n— Dehors, {{r2}} !\n\nEt elle, du haut du poêle :\n\n— Si je bondis, si je saute, les poils vont voler dans toutes les ruelles !\n\nL'ours eut peur et s'en alla.\n\n{{r1}} repart en pleurant, et voilà le taureau qui arrive en face :\n\n— Pourquoi pleures-tu, {{r1}} ?\n\n— Laisse-moi, le taureau ! Comment ne pas pleurer ? J'avais une petite maison d'écorce, et {{r2}} une maison de glace ; elle m'a demandé d'entrer chez moi, et elle m'a mis dehors.\n\n— Viens, je vais la chasser.\n\n— Non, le taureau, tu ne la chasseras pas ! Les chiens l'ont chassée et ne l'ont pas chassée, l'ours l'a chassée et ne l'a pas chassée, et toi non plus tu ne la chasseras pas.\n\n— Si, je la chasserai !\n\nIls arrivent devant la petite maison :\n\n— Dehors, {{r2}} !\n\nEt elle, du haut du poêle :\n\n— Si je bondis, si je saute, les poils vont voler dans toutes les ruelles !\n\nLe taureau eut peur et s'en alla.\n\n{{r1}} repart en pleurant, et voilà {{r3}} qui arrive en face, une faux sur l'épaule :\n\n— Cocorico ! Pourquoi pleures-tu, {{r1}} ?\n\n— Laisse-moi, {{r3}} ! Comment ne pas pleurer ? J'avais une petite maison d'écorce, et {{r2}} une maison de glace ; elle m'a demandé d'entrer chez moi, et elle m'a mis dehors.\n\n— Viens, je vais la chasser.\n\n— Non, tu ne la chasseras pas ! Les chiens l'ont chassée et ne l'ont pas chassée, l'ours l'a chassée et ne l'a pas chassée, le taureau l'a chassée et ne l'a pas chassée, et toi non plus tu ne la chasseras pas.\n\n— Si, je la chasserai !\n\nIls arrivent devant la petite maison.\n\n— Cocorico ! Je porte ma faux sur l'épaule, je viens faire déguerpir {{r2}} ! Dehors, {{r2}} !\n\nEt elle l'entendit, eut peur, et dit :\n\n— Je m'habille…\n\n{{r3}}, encore :\n\n— Cocorico ! Je porte ma faux sur l'épaule, je viens faire déguerpir {{r2}} ! Dehors, {{r2}} !\n\nEt elle dit :\n\n— Je mets mon manteau…\n\n{{r3}}, pour la troisième fois :\n\n— Cocorico ! Je porte ma faux sur l'épaule, je viens faire déguerpir {{r2}} ! Dehors, {{r2}} !\n\n{{r2}} sortit en courant ; il la chassa avec sa faux, et il se mit à vivre avec {{r1}}, heureux et prospères.\n\nVoilà ton conte, et pour moi, un pot de beurre."
+    }
+  },
+  "dureeEstimeeSecondes": 465,
+  "interactionsOrdonnees": [
+    "a3e15",
+    "a1e25",
+    "a3e29",
+    "a2e25",
+    "a2e8",
+    "a3e39"
+  ]
+}

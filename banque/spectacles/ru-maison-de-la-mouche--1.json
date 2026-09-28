@@ -1,0 +1,678 @@
+{
+  "id": "ru-maison-de-la-mouche--1",
+  "conteId": "ru-maison-de-la-mouche",
+  "titre": "La Maison de la mouche",
+  "pitch": "{{r1}} vit tranquille dans une cruche perdue ; chaque visiteur frappe, demande qui habite là et entre, jusqu'à {{r4}}, qui s'assoit dessus et l'écrase.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "mouche",
+      "famille": "bestiole",
+      "traits": [
+        "minuscule",
+        "généreux",
+        "bavard"
+      ],
+      "voix": "petite voix aiguë et rapide, fait « bzzz » en volant",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a1e7:texte",
+            "avant": "Un jour elle",
+            "apres": "Un jour il"
+          },
+          {
+            "id": "a1e7:texte",
+            "avant": "deux jours elle",
+            "apres": "deux jours il"
+          },
+          {
+            "id": "a2e20:ton",
+            "avant": "toute fière",
+            "apres": "tout fier"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r2",
+      "espece": "souris",
+      "famille": "petit",
+      "traits": [
+        "curieux",
+        "gentil"
+      ],
+      "voix": "voix douce et pressée, renifle « snif, snif » en arrivant",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a1e22:texte",
+            "avant": "la fureteuse",
+            "apres": "le fureteur"
+          },
+          {
+            "id": "a1e22:ton",
+            "avant": "toute contente",
+            "apres": "tout content"
+          },
+          {
+            "id": "a2e5:texte",
+            "avant": "la fureteuse",
+            "apres": "le fureteur"
+          },
+          {
+            "id": "a2e14:texte",
+            "avant": "la fureteuse",
+            "apres": "le fureteur"
+          },
+          {
+            "id": "a2e20:texte",
+            "avant": "la fureteuse",
+            "apres": "le fureteur"
+          },
+          {
+            "id": "a2e26:texte",
+            "avant": "la fureteuse",
+            "apres": "le fureteur"
+          },
+          {
+            "id": "a3e7:texte",
+            "avant": "la fureteuse",
+            "apres": "le fureteur"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r3",
+      "espece": "grenouille",
+      "famille": "eau",
+      "traits": [
+        "bavard",
+        "farceur"
+      ],
+      "voix": "voix un peu rauque et joyeuse, parle vite et fort",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a2e6:texte",
+            "avant": "la bavarde",
+            "apres": "le bavard"
+          },
+          {
+            "id": "a2e14:texte",
+            "avant": "la bavarde",
+            "apres": "le bavard"
+          },
+          {
+            "id": "a2e20:texte",
+            "avant": "la bavarde",
+            "apres": "le bavard"
+          },
+          {
+            "id": "a2e26:texte",
+            "avant": "la bavarde",
+            "apres": "le bavard"
+          },
+          {
+            "id": "a3e7:texte",
+            "avant": "la bavarde",
+            "apres": "le bavard"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r4",
+      "espece": "ours",
+      "famille": "gros",
+      "traits": [
+        "maladroit",
+        "fort",
+        "gourmand"
+      ],
+      "voix": "très grosse voix lente, souffle « hmmm » avant de parler",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a3:titre",
+            "avant": "L'écraseur",
+            "apres": "L'écraseuse"
+          },
+          {
+            "id": "a3e9:texte",
+            "avant": "l'écraseur",
+            "apres": "l'écraseuse"
+          },
+          {
+            "id": "a3e21:texte",
+            "avant": "seul sur",
+            "apres": "seule sur"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 5,
+    "ageAuditoire": 3,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La cruche au bord du chemin",
+      "description": "Couchez un petit carton sur le côté, au milieu de la table, l'ouverture tournée vers les enfants : c'est la cruche, la petite maison. Prenez un vieux carton, une boîte à chaussures par exemple, qu'on pourra aplatir à la fin. Posez un coussin debout à chaque bout de la table : les marionnettes attendent leur tour derrière. Si vous en avez une, tendez une nappe devant la table pour cacher vos bras.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "La cruche perdue",
+      "tableauId": "t1",
+      "resume": "Un paysan perd une grande cruche, et {{r1}} s'y installe. Le moustique frappe le premier et entre, puis {{r2}} : ils sont trois.",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Un paysan transportait des pots dans sa charrette, et il perdit une grande cruche."
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e3",
+          "type": "didascalie",
+          "texte": "{{r1}} vole en zigzag au-dessus de la table, en montant et en descendant."
+        },
+        {
+          "id": "a1e4",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites bzzz avec moi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e5",
+          "type": "conteur",
+          "texte": "{{r1}} entra en volant dans la cruche, et se mit à y vivre, tranquille."
+        },
+        {
+          "id": "a1e6",
+          "type": "note_marionnettiste",
+          "texte": "{{r1}} reste désormais à l'entrée de la cruche et répond de là à chaque visiteur, en se tournant vers lui."
+        },
+        {
+          "id": "a1e7",
+          "type": "conteur",
+          "texte": "Un jour elle y vit, deux jours elle y vit."
+        },
+        {
+          "id": "a1e8",
+          "type": "conteur",
+          "texte": "Arrive un moustique qui frappe :"
+        },
+        {
+          "id": "a1e9",
+          "type": "note_marionnettiste",
+          "texte": "Voix du moustique, en coulisse : « Qui, qui habite dans la petite maison ? » — frappez d'abord deux petits coups sur la table, toc, toc, puis parlez d'une toute petite voix pointue."
+        },
+        {
+          "id": "a1e10",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Moi, {{r1}}, la mouche bourdonneuse. Et toi, qui es-tu ?",
+          "ton": "gaiement"
+        },
+        {
+          "id": "a1e11",
+          "type": "note_marionnettiste",
+          "texte": "Voix du moustique, en coulisse : « Moi, le moustique qui pique. »"
+        },
+        {
+          "id": "a1e12",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Viens habiter avec moi.",
+          "ton": "gentiment"
+        },
+        {
+          "id": "a1e13",
+          "type": "conteur",
+          "texte": "Et ils se mirent à vivre à deux."
+        },
+        {
+          "id": "a1e14",
+          "type": "conteur",
+          "texte": "Arrive en courant {{r2}}, qui frappe :"
+        },
+        {
+          "id": "a1e15",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e16",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Frappez avec moi : toc, toc !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e17",
+          "type": "didascalie",
+          "texte": "{{r2}} trottine jusqu'à la cruche et cogne deux fois contre le carton : toc, toc."
+        },
+        {
+          "id": "a1e18",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Dites-le avec moi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e19",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Qui, qui habite dans la petite maison ?",
+          "ton": "lentement, bien fort"
+        },
+        {
+          "id": "a1e20",
+          "type": "note_marionnettiste",
+          "texte": "Les enfants disent ce refrain avec vous. Il revient tel quel à chaque visite : dites-le chaque fois lentement, pour qu'ils puissent suivre."
+        },
+        {
+          "id": "a1e21",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Moi, {{r1}}, la mouche bourdonneuse, et le moustique qui pique. Et toi, qui es-tu ?",
+          "ton": "gaiement"
+        },
+        {
+          "id": "a1e22",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Moi, {{r2}}, la fureteuse du coin.",
+          "ton": "en reniflant, toute contente"
+        },
+        {
+          "id": "a1e23",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Viens habiter avec nous.",
+          "ton": "gentiment"
+        },
+        {
+          "id": "a1e24",
+          "type": "didascalie",
+          "texte": "{{r2}} se glisse dans la cruche, derrière le carton."
+        },
+        {
+          "id": "a1e25",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e26",
+          "type": "conteur",
+          "texte": "Et ils furent trois."
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "La maison se remplit",
+      "tableauId": "t1",
+      "resume": "{{r3}} arrive en sautant, puis le lièvre, la renarde et le loup, qu'on entend en coulisse. À chaque visite, {{r1}} récite la liste des habitants, qui s'allonge.",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "Arrive en sautant {{r3}}, qui frappe :"
+        },
+        {
+          "id": "a2e2",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e3",
+          "type": "didascalie",
+          "texte": "{{r3}} arrive par grands bonds et cogne deux fois contre le carton : toc, toc."
+        },
+        {
+          "id": "a2e4",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Qui, qui habite dans la petite maison ?",
+          "ton": "joyeusement"
+        },
+        {
+          "id": "a2e5",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Moi, {{r1}}, la mouche bourdonneuse, et le moustique qui pique, et la fureteuse du coin. Et toi, qui es-tu ?",
+          "ton": "gaiement"
+        },
+        {
+          "id": "a2e6",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Moi, {{r3}}, la bavarde de la mare.",
+          "ton": "fièrement"
+        },
+        {
+          "id": "a2e7",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Viens habiter avec nous.",
+          "ton": "gentiment"
+        },
+        {
+          "id": "a2e8",
+          "type": "didascalie",
+          "texte": "{{r3}} saute dans la cruche, derrière le carton."
+        },
+        {
+          "id": "a2e9",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e10",
+          "type": "conteur",
+          "texte": "Et ils furent quatre."
+        },
+        {
+          "id": "a2e11",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Comptez avec moi : un, deux, trois, quatre !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e12",
+          "type": "conteur",
+          "texte": "Arrive un lièvre, qui frappe :"
+        },
+        {
+          "id": "a2e13",
+          "type": "note_marionnettiste",
+          "texte": "Voix du lièvre, en coulisse : « Qui, qui habite dans la petite maison ? » — frappez d'abord deux coups sur la table, toc, toc, puis parlez vite, un peu essoufflé."
+        },
+        {
+          "id": "a2e14",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Moi, {{r1}}, la mouche bourdonneuse, et le moustique qui pique, et la fureteuse du coin, et la bavarde de la mare. Et toi, qui es-tu ?",
+          "ton": "sans se presser"
+        },
+        {
+          "id": "a2e15",
+          "type": "note_marionnettiste",
+          "texte": "Voix du lièvre, en coulisse : « Moi, le zigzagueur des champs. »"
+        },
+        {
+          "id": "a2e16",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Viens avec nous.",
+          "ton": "gentiment"
+        },
+        {
+          "id": "a2e17",
+          "type": "conteur",
+          "texte": "Et ils furent cinq."
+        },
+        {
+          "id": "a2e18",
+          "type": "conteur",
+          "texte": "Arrive encore une renarde, qui frappe :"
+        },
+        {
+          "id": "a2e19",
+          "type": "note_marionnettiste",
+          "texte": "Voix de la renarde, en coulisse : « Qui, qui habite dans la petite maison ? » — frappez d'abord deux coups sur la table, toc, toc, puis parlez d'une voix douce et chantante."
+        },
+        {
+          "id": "a2e20",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Moi, {{r1}}, la mouche bourdonneuse, et le moustique qui pique, et la fureteuse du coin, et la bavarde de la mare, et le zigzagueur des champs. Et toi, qui es-tu ?",
+          "ton": "toute fière de sa maison"
+        },
+        {
+          "id": "a2e21",
+          "type": "note_marionnettiste",
+          "texte": "Voix de la renarde, en coulisse : « Moi, la beauté des champs. »"
+        },
+        {
+          "id": "a2e22",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Entre avec nous.",
+          "ton": "gentiment"
+        },
+        {
+          "id": "a2e23",
+          "type": "conteur",
+          "texte": "Et ils furent six."
+        },
+        {
+          "id": "a2e24",
+          "type": "conteur",
+          "texte": "Arrive un loup, qui frappe :"
+        },
+        {
+          "id": "a2e25",
+          "type": "note_marionnettiste",
+          "texte": "Voix du loup, en coulisse : « Qui, qui habite dans la petite maison ? » — frappez d'abord deux coups sur la table, toc, toc, puis parlez d'une voix grave."
+        },
+        {
+          "id": "a2e26",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Moi, {{r1}}, la mouche bourdonneuse, et le moustique qui pique, et la fureteuse du coin, et la bavarde de la mare, et le zigzagueur des champs, et la beauté des champs. Et toi, qui es-tu ?",
+          "ton": "sans se presser"
+        },
+        {
+          "id": "a2e27",
+          "type": "note_marionnettiste",
+          "texte": "Voix du loup, en coulisse : « Moi, le happe-tout des buissons. »"
+        },
+        {
+          "id": "a2e28",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Entre avec nous.",
+          "ton": "gentiment"
+        },
+        {
+          "id": "a2e29",
+          "type": "conteur",
+          "texte": "Et ils furent sept."
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "L'écraseur de tout le monde",
+      "tableauId": "t1",
+      "resume": "{{r4}} arrive enfin, s'assoit sur la cruche et l'écrase : tous en sortent en courant.",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "conteur",
+          "texte": "Arrive enfin {{r4}}, qui frappe :"
+        },
+        {
+          "id": "a3e2",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e3",
+          "type": "adresse_public",
+          "marionnetteId": "r4",
+          "texte": "Tapez avec moi : boum, boum !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e4",
+          "type": "didascalie",
+          "texte": "{{r4}} avance à gros pas lourds, en se balançant, et cogne deux fois contre le carton : toc, toc."
+        },
+        {
+          "id": "a3e5",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Qui, qui habite dans la petite maison ?",
+          "ton": "d'une très grosse voix, lentement"
+        },
+        {
+          "id": "a3e6",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Dites-les tous avec moi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e7",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Moi, {{r1}}, la mouche bourdonneuse, et le moustique qui pique, et la fureteuse du coin, et la bavarde de la mare, et le zigzagueur des champs, et la beauté des champs, et le happe-tout des buissons. Et toi, qui es-tu ?",
+          "ton": "lentement, un habitant après l'autre"
+        },
+        {
+          "id": "a3e8",
+          "type": "note_marionnettiste",
+          "texte": "Dites la liste sans vous presser : les enfants en reprennent ce qu'ils savent."
+        },
+        {
+          "id": "a3e9",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Moi, {{r4}}, l'écraseur de tout le monde !",
+          "ton": "très fort, en se redressant"
+        },
+        {
+          "id": "a3e10",
+          "type": "didascalie",
+          "texte": "{{r4}} grimpe sur la cruche et s'assoit dessus de tout son poids : aplatissez le carton, crac !"
+        },
+        {
+          "id": "a3e11",
+          "type": "didascalie",
+          "texte": "{{r1}} s'envole à toute vitesse en bourdonnant."
+        },
+        {
+          "id": "a3e12",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e13",
+          "type": "conteur",
+          "texte": "Et {{r4}} s'assit sur la cruche, et l'écrasa, et tous en sortirent en courant."
+        },
+        {
+          "id": "a3e14",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e15",
+          "type": "didascalie",
+          "texte": "{{r2}} surgit de derrière la cruche et file en courant."
+        },
+        {
+          "id": "a3e16",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e17",
+          "type": "note_marionnettiste",
+          "texte": "Pendant que vous changez de marionnette, faites détaler en coulisse les autres habitants : un « zzz », des petits pas pressés."
+        },
+        {
+          "id": "a3e18",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e19",
+          "type": "didascalie",
+          "texte": "{{r3}} surgit à son tour et s'enfuit par grands bonds."
+        },
+        {
+          "id": "a3e20",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e21",
+          "type": "didascalie",
+          "texte": "{{r4}}, seul sur la cruche écrasée, regarde à droite, puis à gauche."
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "ru-maison-de-la-mouche",
+    "synopsis": {
+      "accroche": "{{r1}} vit tranquille dans une cruche perdue ; chacun frappe et demande qui habite là, jusqu'à {{r4}}, qui s'assoit dessus et l'écrase.",
+      "resume": [
+        "Un paysan perd une grande cruche au bord du chemin. {{r1}}, la mouche bourdonneuse, s'y installe, tranquille.",
+        "Le moustique frappe : « Qui, qui habite dans la petite maison ? » {{r1}} le fait entrer. Puis {{r2}}, la fureteuse du coin, arrive à son tour et entre aussi.",
+        "{{r3}}, la bavarde de la mare, puis le lièvre, la renarde et le loup frappent et entrent à leur tour : à chaque visite, la liste des habitants s'allonge.",
+        "{{r4}} arrive enfin : « Moi, {{r4}}, l'écraseur de tout le monde ! » {{r4}} s'assoit sur la cruche, l'écrase, et tous en sortent en courant."
+      ]
+    },
+    "transposition": {
+      "texte": "Un paysan transportait des pots dans sa charrette, et il perdit une grande cruche. {{r1}} entra en volant dans la cruche, et se mit à y vivre, tranquille. Un jour elle y vit, deux jours elle y vit. Arrive un moustique qui frappe :\n\n— Qui, qui habite dans la petite maison ?\n\n— Moi, {{r1}}, la mouche bourdonneuse. Et toi, qui es-tu ?\n\n— Moi, le moustique qui pique.\n\n— Viens habiter avec moi.\n\nEt ils se mirent à vivre à deux.\n\nArrive en courant {{r2}}, qui frappe :\n\n— Qui, qui habite dans la petite maison ?\n\n— Moi, {{r1}}, la mouche bourdonneuse, et le moustique qui pique. Et toi, qui es-tu ?\n\n— Moi, {{r2}}, la fureteuse du coin.\n\n— Viens habiter avec nous.\n\nEt ils furent trois. Arrive en sautant {{r3}}, qui frappe :\n\n— Qui, qui habite dans la petite maison ?\n\n— Moi, {{r1}}, la mouche bourdonneuse, et le moustique qui pique, et la fureteuse du coin. Et toi, qui es-tu ?\n\n— Moi, {{r3}}, la bavarde de la mare.\n\n— Viens habiter avec nous.\n\nEt ils furent quatre.\n\nArrive un lièvre, qui frappe :\n\n— Qui, qui habite dans la petite maison ?\n\n— Moi, {{r1}}, la mouche bourdonneuse, et le moustique qui pique, et la fureteuse du coin, et la bavarde de la mare. Et toi, qui es-tu ?\n\n— Moi, le zigzagueur des champs.\n\n— Viens avec nous.\n\nEt ils furent cinq. Arrive encore une renarde, qui frappe :\n\n— Qui, qui habite dans la petite maison ?\n\n— Moi, {{r1}}, la mouche bourdonneuse, et le moustique qui pique, et la fureteuse du coin, et la bavarde de la mare, et le zigzagueur des champs. Et toi, qui es-tu ?\n\n— Moi, la beauté des champs.\n\n— Entre avec nous.\n\nEt ils furent six. Arrive un loup, qui frappe :\n\n— Qui, qui habite dans la petite maison ?\n\n— Moi, {{r1}}, la mouche bourdonneuse, et le moustique qui pique, et la fureteuse du coin, et la bavarde de la mare, et le zigzagueur des champs, et la beauté des champs. Et toi, qui es-tu ?\n\n— Moi, le happe-tout des buissons.\n\n— Entre avec nous.\n\nEt ils furent sept. Arrive enfin {{r4}}, qui frappe :\n\n— Qui, qui habite dans la petite maison ?\n\n— Moi, {{r1}}, la mouche bourdonneuse, et le moustique qui pique, et la fureteuse du coin, et la bavarde de la mare, et le zigzagueur des champs, et la beauté des champs, et le happe-tout des buissons. Et toi, qui es-tu ?\n\n— Moi, {{r4}}, l'écraseur de tout le monde !\n\nEt {{r4}} s'assit sur la cruche, et l'écrasa, et tous en sortirent en courant.",
+      "changements": [
+        "Le refrain « Qui habite dans ce palais, qui habite dans ce haut palais ? » devient « Qui, qui habite dans la petite maison ? », dit tel quel à chaque visite : plus simple à reprendre pour des enfants de trois ans.",
+        "La mouche, la souris, la grenouille et l'ours prennent le nom de leur peluche, et chacun le dit avant son surnom (« Moi, {{r2}}, la fureteuse du coin ») ; dans la liste des habitants, les autres restent nommés par leur surnom, comme dans le conte.",
+        "Le moustique, le lièvre, la renarde et le loup n'ont pas de marionnette : on entend leur voix en coulisse."
+      ]
+    }
+  },
+  "dureeEstimeeSecondes": 337,
+  "interactionsOrdonnees": [
+    "a1e18",
+    "a3e6",
+    "a1e16",
+    "a3e3",
+    "a2e11",
+    "a1e4"
+  ]
+}

@@ -1,0 +1,1003 @@
+{
+  "id": "ko-vieux-moustaches-et-lapin--1",
+  "conteId": "ko-vieux-moustaches-et-lapin",
+  "titre": "Vieilles Moustaches Blanches et Monsieur Lapin",
+  "pitch": "{{r2}}, le tigre le plus orgueilleux de la montagne, surprend {{r1}}, un petit lapin, sur la rivière gelée. Pour ne pas être mangé, {{r1}} lui promet un festin : il suffit que le tigre ferme les yeux et ne bouge pas.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "lapin",
+      "famille": "petit",
+      "traits": [
+        "rusé",
+        "courageux"
+      ],
+      "voix": "petite voix vive et polie, qui parle vite et ne tremble jamais",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "un petit lapin",
+            "apres": "une petite lapine"
+          },
+          {
+            "id": "pitch",
+            "avant": "être mangé",
+            "apres": "être mangée"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "le manger",
+            "apres": "la manger"
+          },
+          {
+            "id": "a2e2:texte",
+            "avant": "s'il écoutait",
+            "apres": "si elle écoutait"
+          },
+          {
+            "id": "a2e5:texte",
+            "avant": ", lui,",
+            "apres": ", elle,"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "au petit lapin",
+            "apres": "à la petite lapine"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "qu'il rentrait",
+            "apres": "qu'elle rentrait"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "chez lui",
+            "apres": "chez elle"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "fatigué,",
+            "apres": "fatiguée,"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "et affamé",
+            "apres": "et affamée"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "où il traversait",
+            "apres": "où elle traversait"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "il se retrouva",
+            "apres": "elle se retrouva"
+          },
+          {
+            "id": "a2e9:texte",
+            "avant": "vers lui,",
+            "apres": "vers elle,"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "Il ne trembla",
+            "apres": "Elle ne trembla"
+          },
+          {
+            "id": "a2e12:texte",
+            "avant": "au lapin",
+            "apres": "à la lapine"
+          },
+          {
+            "id": "a2e16:texte",
+            "avant": "si petit",
+            "apres": "si petite"
+          },
+          {
+            "id": "a2e21:texte",
+            "avant": "Le lapin",
+            "apres": "La lapine"
+          },
+          {
+            "id": "a2e21:texte",
+            "avant": "il ne montra",
+            "apres": "elle ne montra"
+          },
+          {
+            "id": "a2e21:texte",
+            "avant": "qu'il avait peur",
+            "apres": "qu'elle avait peur"
+          },
+          {
+            "id": "a3e8:texte",
+            "avant": "qu'il put",
+            "apres": "qu'elle put"
+          },
+          {
+            "id": "a3e11:texte",
+            "avant": "Ravi d'entendre",
+            "apres": "Ravie d'entendre"
+          },
+          {
+            "id": "a3e11:texte",
+            "avant": "il continua",
+            "apres": "elle continua"
+          },
+          {
+            "id": "a3e12:texte",
+            "avant": "il y mit",
+            "apres": "elle y mit"
+          },
+          {
+            "id": "a3e19:texte",
+            "avant": "il s'enfuit",
+            "apres": "elle s'enfuit"
+          },
+          {
+            "id": "a3e21:texte",
+            "avant": "Coquin !",
+            "apres": "Coquine !"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r2",
+      "espece": "tigre",
+      "famille": "predateur",
+      "traits": [
+        "orgueilleux",
+        "gourmand",
+        "paresseux"
+      ],
+      "voix": "grosse voix grave et lente, qui roule les « r » et gronde « Grrr » avant de parler",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": ", le tigre",
+            "apres": ", la tigresse"
+          },
+          {
+            "id": "pitch",
+            "avant": "le plus orgueilleux",
+            "apres": "la plus orgueilleuse"
+          },
+          {
+            "id": "pitch",
+            "avant": "que le tigre",
+            "apres": "que la tigresse"
+          },
+          {
+            "id": "a1:titre",
+            "avant": "Le tigre",
+            "apres": "La tigresse"
+          },
+          {
+            "id": "a1:titre",
+            "avant": "le plus orgueilleux",
+            "apres": "la plus orgueilleuse"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "le tigre",
+            "apres": "la tigresse"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "le plus orgueilleux",
+            "apres": "la plus orgueilleuse"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "Il est fier",
+            "apres": "Elle est fière"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "le serviteur",
+            "apres": "la servante"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "et il ne sait",
+            "apres": "et elle ne sait"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "le rouler",
+            "apres": "la rouler"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "d'un énorme tigre",
+            "apres": "d'une énorme tigresse"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "le tigre",
+            "apres": "la tigresse"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "le plus orgueilleux",
+            "apres": "la plus orgueilleuse"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "le voie",
+            "apres": "la voie"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "Il avait",
+            "apres": "Elle avait"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "il les",
+            "apres": "elle les"
+          },
+          {
+            "id": "a1e10:texte",
+            "avant": "fier d'être",
+            "apres": "fière d'être"
+          },
+          {
+            "id": "a1e10:texte",
+            "avant": "le serviteur",
+            "apres": "la servante"
+          },
+          {
+            "id": "a1e13:texte",
+            "avant": "le vieux",
+            "apres": "la vieille"
+          },
+          {
+            "id": "a1e13:texte",
+            "avant": "orgueilleux",
+            "apres": "orgueilleuse"
+          },
+          {
+            "id": "a1e13:texte",
+            "avant": "rusé.",
+            "apres": "rusée."
+          },
+          {
+            "id": "a1e14:texte",
+            "avant": "tout orgueilleux",
+            "apres": "tout orgueilleuse"
+          },
+          {
+            "id": "a1e14:texte",
+            "avant": "qu'il était",
+            "apres": "qu'elle était"
+          },
+          {
+            "id": "a1e14:texte",
+            "avant": "il allait",
+            "apres": "elle allait"
+          },
+          {
+            "id": "a1e14:texte",
+            "avant": "roulé par",
+            "apres": "roulée par"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "s'il",
+            "apres": "si elle"
+          },
+          {
+            "id": "a2e3:texte",
+            "avant": "au vieux",
+            "apres": "à la vieille"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "le vieux",
+            "apres": "la vieille"
+          },
+          {
+            "id": "a2e9:texte",
+            "avant": "reste tourné",
+            "apres": "reste tournée"
+          },
+          {
+            "id": "a2e12:texte",
+            "avant": "Le tigre",
+            "apres": "La tigresse"
+          },
+          {
+            "id": "a2e19:texte",
+            "avant": "le tigre",
+            "apres": "la tigresse"
+          },
+          {
+            "id": "a2e21:texte",
+            "avant": "de tigre",
+            "apres": "de tigresse"
+          },
+          {
+            "id": "a2e22:texte",
+            "avant": "du tigre",
+            "apres": "de la tigresse"
+          },
+          {
+            "id": "a2e22:texte",
+            "avant": "il avait",
+            "apres": "elle avait"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "autour de lui",
+            "apres": "autour d'elle"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "Réveillé",
+            "apres": "Réveillée"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "il rentre",
+            "apres": "elle rentre"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "chez lui",
+            "apres": "chez elle"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "roussi",
+            "apres": "roussie"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "boiteux",
+            "apres": "boiteuse"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "moquent de lui",
+            "apres": "moquent d'elle"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "Le vieux",
+            "apres": "La vieille"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "fatigué",
+            "apres": "fatiguée"
+          },
+          {
+            "id": "a3e2:texte",
+            "avant": "il décida",
+            "apres": "elle décida"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "il s'endormit",
+            "apres": "elle s'endormit"
+          },
+          {
+            "id": "a3e6:texte",
+            "avant": "qu'il se",
+            "apres": "qu'elle se"
+          },
+          {
+            "id": "a3e7:texte",
+            "avant": "avec lui",
+            "apres": "avec elle"
+          },
+          {
+            "id": "a3e8:texte",
+            "avant": "du vieux",
+            "apres": "de la vieille"
+          },
+          {
+            "id": "a3e8:texte",
+            "avant": "de lui",
+            "apres": "d'elle"
+          },
+          {
+            "id": "a3e16:texte",
+            "avant": "Le vieux",
+            "apres": "La vieille"
+          },
+          {
+            "id": "a3e16:texte",
+            "avant": "réveillé",
+            "apres": "réveillée"
+          },
+          {
+            "id": "a3e22:texte",
+            "avant": "de lui",
+            "apres": "d'elle"
+          },
+          {
+            "id": "a3e24:texte",
+            "avant": "qu'il boita",
+            "apres": "qu'elle boita"
+          },
+          {
+            "id": "a3e25:texte",
+            "avant": "il penche",
+            "apres": "elle penche"
+          },
+          {
+            "id": "a3e26:texte",
+            "avant": "il rentra",
+            "apres": "elle rentra"
+          },
+          {
+            "id": "a3e26:texte",
+            "avant": "chez lui",
+            "apres": "chez elle"
+          },
+          {
+            "id": "a3e26:texte",
+            "avant": "de lui",
+            "apres": "d'elle"
+          },
+          {
+            "id": "a3e29:texte",
+            "avant": "il dut",
+            "apres": "elle dut"
+          },
+          {
+            "id": "a3e29:texte",
+            "avant": "un serviteur",
+            "apres": "une servante"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 9,
+    "ageAuditoire": 4,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La montagne",
+      "description": "Posez deux coussins debout au fond de la table : ce sont les montagnes. Devant eux, une petite boîte retournée fait l'autel du col, où les gens déposent leurs offrandes. Si vous en avez une, étalez une nappe devant la table pour cacher vos bras.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "La rivière gelée",
+      "description": "Étalez un torchon blanc bien à plat au milieu de la table : c'est la rivière gelée. À droite, posez un coussin debout : c'est le rocher de la rive, tout près du terrier de {{r1}}. Gardez à gauche, au bord de la table, un torchon jaune roulé en boudin : c'est l'herbe sèche.",
+      "accessoires": [
+        "un torchon jaune roulé en boudin (l'herbe sèche)"
+      ],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Le tigre le plus orgueilleux",
+      "tableauId": "t1",
+      "resume": "{{r2}}, le tigre le plus orgueilleux des montagnes de Corée, se montre dans toute sa force. Il est fier d'être le serviteur du grand génie des montagnes, et il ne sait pas encore qu'un tout petit animal va le rouler.",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "{{r2}}, c'était le nom d'un énorme tigre fauve qui vivait dans les montagnes du Kang Won."
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e3",
+          "type": "didascalie",
+          "texte": "{{r2}} avance à grands pas lents jusqu'au milieu de la scène, la tête bien haute."
+        },
+        {
+          "id": "a1e4",
+          "type": "conteur",
+          "texte": "C'était le tigre le plus orgueilleux de toute la péninsule de Corée."
+        },
+        {
+          "id": "a1e5",
+          "type": "didascalie",
+          "texte": "{{r2}} se tourne d'un côté, puis de l'autre, pour que tout le monde le voie bien."
+        },
+        {
+          "id": "a1e6",
+          "type": "conteur",
+          "texte": "Il avait les yeux les plus ardents, la queue la plus longue, les griffes les plus acérées et les rayures les plus larges de tous les animaux de la montagne."
+        },
+        {
+          "id": "a1e7",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Grondez avec moi, très fort : Grrr !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e8",
+          "type": "didascalie",
+          "texte": "{{r2}} secoue la tête et gronde trois fois, à la voix : « Grrr ! Grrr ! Grrr ! »"
+        },
+        {
+          "id": "a1e9",
+          "type": "conteur",
+          "texte": "Quant aux veaux et aux cochons, il les considérait comme de simples amuse-gueule."
+        },
+        {
+          "id": "a1e10",
+          "type": "conteur",
+          "texte": "{{r2}} était particulièrement fier d'être le serviteur du grand génie des montagnes, que les hommes craignaient et en l'honneur de qui ils bâtissaient des autels."
+        },
+        {
+          "id": "a1e11",
+          "type": "conteur",
+          "texte": "Une de ses missions était de visiter chaque jour les autels des cols de montagne, pour voir si les gens y déposaient bien des offrandes."
+        },
+        {
+          "id": "a1e12",
+          "type": "didascalie",
+          "texte": "{{r2}} va jusqu'à la petite boîte de l'autel, penche la tête tout près comme pour regarder dedans, puis revient au milieu de la scène."
+        },
+        {
+          "id": "a1e13",
+          "type": "conteur",
+          "texte": "Or le vieux {{r2}} était à la fois orgueilleux et rusé."
+        },
+        {
+          "id": "a1e14",
+          "type": "conteur",
+          "texte": "Pourtant, tout orgueilleux qu'il était, il allait être roulé par une créature sans force ni dard, sans griffes ni sabots, comme nous allons le voir."
+        },
+        {
+          "id": "a1e15",
+          "type": "didascalie",
+          "texte": "{{r2}} s'éloigne à grands pas, la tête toujours bien haute."
+        },
+        {
+          "id": "a1e16",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Nez à nez sur la glace",
+      "tableauId": "t2",
+      "resume": "Un jour d'hiver, {{r1}}, qui a très faim, traverse la rivière gelée. {{r2}} bondit de derrière un rocher pour le manger. Sans trembler, {{r1}} lui promet un dîner royal, s'il se couche sur la glace, ferme les yeux et ne bouge plus.",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e2",
+          "type": "didascalie",
+          "texte": "{{r1}} entre à petits bonds par la gauche, s'arrête, et tourne la tête d'un côté, puis de l'autre, comme s'il écoutait au loin."
+        },
+        {
+          "id": "a2e3",
+          "type": "conteur",
+          "texte": "{{r1}}, qui avait son terrier dans une colline près du village, avait souvent entendu les cris des malheureux cochons et les ruades des ânes qui servaient de dîner au vieux {{r2}}."
+        },
+        {
+          "id": "a2e4",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e5",
+          "type": "didascalie",
+          "texte": "{{r2}} se glisse derrière le rocher et s'y cache : seul le haut de sa tête dépasse. {{r1}}, lui, regarde de l'autre côté."
+        },
+        {
+          "id": "a2e6",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Chut ! Ne dites rien au petit lapin !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e7",
+          "type": "didascalie",
+          "texte": "{{r1}} traverse la glace à tout petits pas, vers le rocher."
+        },
+        {
+          "id": "a2e8",
+          "type": "conteur",
+          "texte": "Mais un froid jour d'hiver, alors qu'il rentrait chez lui, fatigué, faible et affamé, n'ayant rien mangé depuis la veille, juste au moment où il traversait une rivière sur la glace, il se retrouva nez à nez avec le vieux {{r2}}."
+        },
+        {
+          "id": "a2e9",
+          "type": "didascalie",
+          "texte": "{{r2}} bondit d'un coup de derrière le rocher, juste devant {{r1}}, et reste tourné vers lui, sans bouger."
+        },
+        {
+          "id": "a2e10",
+          "type": "conteur",
+          "texte": "Pourtant, {{r1}} resta parfaitement calme. Il ne trembla pas du tout."
+        },
+        {
+          "id": "a2e11",
+          "type": "didascalie",
+          "texte": "{{r2}} avance la tête tout près de {{r1}}."
+        },
+        {
+          "id": "a2e12",
+          "type": "conteur",
+          "texte": "Le tigre, qui s'attendait à lui arracher la fourrure dans une minute ou deux, dit au lapin :"
+        },
+        {
+          "id": "a2e13",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "J'ai faim. Je vais te manger tout de suite.",
+          "ton": "d'une grosse voix, lentement"
+        },
+        {
+          "id": "a2e14",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oh, pourquoi vous embêter avec moi ?",
+          "ton": "poliment, sans trembler"
+        },
+        {
+          "id": "a2e15",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne d'un côté, puis de l'autre, comme pour se faire voir en entier."
+        },
+        {
+          "id": "a2e16",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je suis si petit et si maigre que je ferais à peine une bouchée pour Votre Majesté.",
+          "ton": "poliment, en flattant"
+        },
+        {
+          "id": "a2e17",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Écoutez-moi, et je vais vous procurer un dîner royal. Je vais monter dans la montagne et rabattre le gibier jusqu'à vos pattes.",
+          "ton": "avec entrain, comme un secret"
+        },
+        {
+          "id": "a2e18",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Seulement, vous devez faire exactement ce que je vous dis.",
+          "ton": "lentement, en détachant les mots"
+        },
+        {
+          "id": "a2e19",
+          "type": "conteur",
+          "texte": "À l'idée d'un bon dîner, le tigre sourit de plaisir."
+        },
+        {
+          "id": "a2e20",
+          "type": "didascalie",
+          "texte": "{{r2}} renverse la tête en arrière et bâille, très grand et très longtemps : « Aaaaaah ! »"
+        },
+        {
+          "id": "a2e21",
+          "type": "conteur",
+          "texte": "Le lapin n'avait jamais regardé au fond d'une gueule de tigre, mais il ne montra pas qu'il avait peur."
+        },
+        {
+          "id": "a2e22",
+          "type": "conteur",
+          "texte": "C'était seulement la façon du tigre de montrer son bonheur, quand il avait l'eau à la bouche et se pourléchait les babines à l'idée d'un grand festin."
+        },
+        {
+          "id": "a2e23",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je ferai exactement ce que tu dis.",
+          "ton": "d'une voix gourmande, toute douce"
+        },
+        {
+          "id": "a2e24",
+          "type": "didascalie",
+          "texte": "{{r1}} salue {{r2}} bien bas, d'un grand mouvement de tête."
+        },
+        {
+          "id": "a2e25",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Mon ambition est de servir le seigneur des montagnes.",
+          "ton": "très poliment"
+        },
+        {
+          "id": "a2e26",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Alors, couchez-vous ici sur la glace, fermez les yeux et ne bougez pas.",
+          "ton": "calmement, avec autorité"
+        },
+        {
+          "id": "a2e27",
+          "type": "didascalie",
+          "texte": "{{r2}} se couche de tout son long sur la glace, la tête posée à plat, et ne bouge plus."
+        },
+        {
+          "id": "a2e28",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Dites-le avec moi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e29",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Gardez les yeux bien fermés !",
+          "ton": "lentement et bien fort, en détachant les mots"
+        },
+        {
+          "id": "a2e30",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Sinon, le charme ne marchera pas. Je vais faire un cercle d'herbe sèche, puis je tournerai tout autour de vous en rabattant le gibier vers vous.",
+          "ton": "plus bas, comme un secret"
+        },
+        {
+          "id": "a2e31",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Si vous entendez du bruit, et même des craquements, n'ouvrez pas les yeux avant que je vous le dise. Ça prendra un peu de temps.",
+          "ton": "tout doucement, de plus en plus bas"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Le cercle d'herbe sèche",
+      "tableauId": "t2",
+      "resume": "{{r2}} s'endort et ronfle. {{r1}} entasse de l'herbe sèche tout autour de lui, y met le feu et se sauve. Réveillé par les craquements, {{r2}} doit sauter très haut ; il rentre chez lui roussi et boiteux, et les autres tigres se moquent de lui.",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "conteur",
+          "texte": "Le vieux {{r2}}, fatigué d'avoir parcouru la forêt et rôdé toute la journée autour des porcheries sans rien attraper, avait faim et sommeil."
+        },
+        {
+          "id": "a3e2",
+          "type": "conteur",
+          "texte": "Alors il décida, en attendant, de faire un bon somme."
+        },
+        {
+          "id": "a3e3",
+          "type": "conteur",
+          "texte": "Aussi vite qu'on souffle une chandelle, il s'endormit."
+        },
+        {
+          "id": "a3e4",
+          "type": "didascalie",
+          "texte": "{{r2}} laisse retomber sa tête d'un coup, et ne bouge plus."
+        },
+        {
+          "id": "a3e5",
+          "type": "didascalie",
+          "texte": "{{r2}} ronfle, à la voix : « Rrron… pfff… Rrron… pfff… »"
+        },
+        {
+          "id": "a3e6",
+          "type": "note_marionnettiste",
+          "texte": "Faites ronfler {{r2}} tout doucement, jusqu'à ce qu'il se réveille."
+        },
+        {
+          "id": "a3e7",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Chut ! Ronflez avec lui, tout doucement !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e8",
+          "type": "conteur",
+          "texte": "Alors {{r1}} s'affaira à arracher toute l'herbe sèche qu'il put trouver, et à l'entasser autour du vieux {{r2}}, tout près de lui."
+        },
+        {
+          "id": "a3e9",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Comptez avec moi : un, deux, trois !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e10",
+          "type": "didascalie",
+          "texte": "{{r1}} pousse de la tête l'herbe sèche tout contre {{r2}} : un coup d'un côté, un coup derrière, un coup de l'autre côté."
+        },
+        {
+          "id": "a3e11",
+          "type": "conteur",
+          "texte": "Ravi d'entendre la grosse brute ronfler, il continua jusqu'à avoir fait un épais anneau d'herbe sèche."
+        },
+        {
+          "id": "a3e12",
+          "type": "conteur",
+          "texte": "Puis il y mit le feu, attendit que les flammes montent haut, et détala pour voir le spectacle."
+        },
+        {
+          "id": "a3e13",
+          "type": "didascalie",
+          "texte": "{{r1}} file à toute vitesse jusqu'au bout de la scène, à gauche."
+        },
+        {
+          "id": "a3e14",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites avec moi le bruit du feu : cric ! crac ! crac !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e15",
+          "type": "didascalie",
+          "texte": "Faire à la voix le bruit du feu, de plus en plus fort : « Cric… crac… crac… Fffffff ! »"
+        },
+        {
+          "id": "a3e16",
+          "type": "conteur",
+          "texte": "Le vieux {{r2}}, réveillé par les craquements, bâilla et se frotta les yeux de ses pattes, en se demandant d'où venait ce bruit."
+        },
+        {
+          "id": "a3e17",
+          "type": "didascalie",
+          "texte": "{{r2}} relève la tête, et la tourne d'un côté, puis de l'autre."
+        },
+        {
+          "id": "a3e18",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Attendez ! Tenez votre promesse !",
+          "ton": "de loin, en criant bien fort"
+        },
+        {
+          "id": "a3e19",
+          "type": "conteur",
+          "texte": "Et il s'enfuit encore plus loin dans la colline."
+        },
+        {
+          "id": "a3e20",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e21",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Coquin !",
+          "ton": "en grondant très fort"
+        },
+        {
+          "id": "a3e22",
+          "type": "conteur",
+          "texte": "Tandis que les langues de flammes rouges montaient tout autour de lui."
+        },
+        {
+          "id": "a3e23",
+          "type": "didascalie",
+          "texte": "{{r2}} saute très haut, une fois, deux fois, et retombe hors du cercle d'herbe sèche."
+        },
+        {
+          "id": "a3e24",
+          "type": "conteur",
+          "texte": "Et malgré cela, une patte fut roussie, si bien qu'il boita, et sa fourrure fut si brûlée que tous ses beaux longs poils et sa belle allure disparurent."
+        },
+        {
+          "id": "a3e25",
+          "type": "didascalie",
+          "texte": "{{r2}} fait quelques pas en boitant : il penche d'un côté à chaque pas."
+        },
+        {
+          "id": "a3e26",
+          "type": "conteur",
+          "texte": "Quand il rentra chez lui, les autres tigres se moquèrent de lui."
+        },
+        {
+          "id": "a3e27",
+          "type": "note_marionnettiste",
+          "texte": "Voix des autres tigres, en coulisse : « Ha ! Ha ! Ha ! »"
+        },
+        {
+          "id": "a3e28",
+          "type": "didascalie",
+          "texte": "{{r2}} baisse la tête jusqu'au sol."
+        },
+        {
+          "id": "a3e29",
+          "type": "conteur",
+          "texte": "Désormais, il dut se contenter de la deuxième place, car le grand Esprit de la Montagne n'avait plus confiance en un serviteur aussi bête."
+        },
+        {
+          "id": "a3e30",
+          "type": "didascalie",
+          "texte": "{{r2}} s'en va lentement, en boitant."
+        },
+        {
+          "id": "a3e31",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e32",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e33",
+          "type": "didascalie",
+          "texte": "{{r1}} passe la tête au bord de la scène et salue les enfants d'un grand mouvement de tête."
+        },
+        {
+          "id": "a3e34",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Au revoir, les enfants !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e35",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "ko-vieux-moustaches-et-lapin",
+    "synopsis": {
+      "accroche": "{{r2}}, le tigre le plus orgueilleux de la montagne, veut manger {{r1}}, le petit lapin ; mais {{r1}} lui promet un festin, s'il ferme les yeux et ne bouge pas.",
+      "resume": [
+        "{{r2}} est le tigre le plus orgueilleux des montagnes de Corée, et il est fier d'être le serviteur du grand génie des montagnes.",
+        "Un froid jour d'hiver, {{r1}}, un petit lapin affamé, traverse la rivière gelée. {{r2}} bondit de derrière un rocher : « Je vais te manger tout de suite. »",
+        "{{r1}} ne tremble pas. Il promet à {{r2}} un dîner royal, s'il se couche sur la glace, ferme les yeux et ne bouge pas, même s'il entend des craquements.",
+        "{{r2}} s'endort et ronfle. {{r1}} entasse de l'herbe sèche tout autour de lui, y met le feu et se sauve : « Attendez ! Tenez votre promesse ! »",
+        "{{r2}} doit sauter très haut pour s'échapper des flammes. Il rentre chez lui roussi et boiteux, les autres tigres se moquent de lui, et le grand Esprit de la Montagne ne lui fait plus confiance."
+      ]
+    },
+    "transposition": {
+      "texte": "{{r2}}, c'était le nom d'un énorme tigre fauve qui vivait dans les montagnes du Kang Won. C'était le tigre le plus orgueilleux de toute la péninsule de Corée. Il avait les yeux les plus ardents, la queue la plus longue, les griffes les plus acérées et les rayures les plus larges de tous les animaux de la montagne. Il pouvait abattre une vache, se battre contre tous les chiens d'un village, et n'avait pas peur d'un chasseur, sauf s'il portait un fusil. Quant aux veaux et aux cochons, il les considérait comme de simples amuse-gueule.\n\n{{r2}} était particulièrement fier d'être le serviteur du grand génie des montagnes, que les hommes craignaient et en l'honneur de qui ils bâtissaient des autels. Une de ses missions était de visiter chaque jour les autels des cols de montagne, pour voir si les gens y déposaient bien des offrandes.\n\nOr le vieux {{r2}} était à la fois orgueilleux et rusé. Pendant des années, il avait mangé cochons, veaux, chiens, ânes et poules, en évitant tous les pièges et toutes les balles. Si bien qu'il commençait à croire qu'il pouvait se moquer de tous ses ennemis. Pourtant, tout orgueilleux qu'il était, il allait être roulé par une créature sans force ni dard, sans griffes ni sabots, comme nous allons le voir.\n\n{{r1}}, qui avait son terrier dans une colline près du village, avait souvent entendu les cris des malheureux cochons et les ruades des ânes qui servaient de dîner au vieux {{r2}}. Jusque-là, pourtant, grâce à sa grande prudence, il était resté loin du chemin du tyran rayé et de sa gueule.\n\nMais un froid jour d'hiver, alors qu'il rentrait chez lui, fatigué, faible et affamé, n'ayant rien mangé depuis la veille, juste au moment où il traversait une rivière sur la glace, il se retrouva nez à nez avec le vieux {{r2}}. De derrière un rocher de la rive, près du terrier de {{r1}}, le grand tigre bondit et essaya de le glacer de terreur en le fixant de ses grands yeux verts.\n\n{{r1}} ne savait que trop bien que les tigres aiment jouer avec leur proie avant de la manger, et il crut que sa dernière heure était venue. Pourtant, {{r1}} resta parfaitement calme. Il ne trembla pas du tout. Il s'attendait depuis longtemps à une telle rencontre, et était prêt pour le vieux {{r2}}, bien décidé à endormir sa méfiance.\n\nLe tigre, qui s'attendait à lui arracher la fourrure dans une minute ou deux, dit au lapin :\n\n— J'ai faim. Je vais te manger tout de suite.\n\n— Oh, pourquoi vous embêter avec moi ? dit {{r1}}. Je suis si petit et si maigre que je ferais à peine une bouchée pour Votre Majesté. Écoutez-moi, et je vais vous procurer un dîner royal. Je vais monter dans la montagne et rabattre le gibier jusqu'à vos pattes. Seulement, vous devez faire exactement ce que je vous dis.\n\nÀ l'idée d'un bon dîner, le tigre sourit de plaisir. La façon dont il bâilla, en montrant sa gueule rouge et profonde comme une caverne, ses énormes dents blanches, chacune grosse comme un clou, et sa longue langue recourbée pleine de pointes comme des épines, faillit faire perdre la tête à {{r1}}. Le lapin n'avait jamais regardé au fond d'une gueule de tigre, mais il ne montra pas qu'il avait peur. C'était seulement la façon du tigre de montrer son bonheur, quand il avait l'eau à la bouche et se pourléchait les babines à l'idée d'un grand festin.\n\n— Je ferai exactement ce que tu dis, dit le vieux {{r2}} à {{r1}}.\n\n— Mon ambition est de servir le seigneur des montagnes, dit {{r1}}. Alors, couchez-vous ici sur la glace, fermez les yeux et ne bougez pas. Et surtout, gardez les yeux bien fermés, sinon le charme ne marchera pas. Je vais faire un cercle d'herbe sèche, puis je tournerai tout autour de vous en rabattant le gibier vers vous. Si vous entendez du bruit, et même des craquements, n'ouvrez pas les yeux avant que je vous le dise. Ça prendra un peu de temps.\n\nLe vieux {{r2}}, fatigué d'avoir parcouru la forêt et rôdé toute la journée autour des porcheries sans rien attraper, avait faim et sommeil. Alors il décida, en attendant, de faire un bon somme. Aussi vite qu'on souffle une chandelle, il s'endormit.\n\nAlors {{r1}} s'affaira à arracher toute l'herbe sèche qu'il put trouver, et à l'entasser autour du vieux {{r2}}, tout près de lui. Ravi d'entendre la grosse brute ronfler, il continua jusqu'à avoir fait un épais anneau d'herbe sèche. Puis il y mit le feu, attendit que les flammes montent haut, et détala pour voir le spectacle.\n\nLe vieux {{r2}}, réveillé par les craquements, bâilla et se frotta les yeux de ses pattes, en se demandant d'où venait ce bruit.\n\n— Attendez ! cria {{r1}}. Tenez votre promesse !\n\nEt il s'enfuit encore plus loin dans la colline.\n\n— Coquin ! gronda le tigre, tandis que les langues de flammes rouges montaient tout autour de lui.\n\nIl dut sauter très haut pour s'échapper des flammes. Et malgré cela, une patte fut roussie, si bien qu'il boita, et sa fourrure fut si brûlée que tous ses beaux longs poils et sa belle allure disparurent. Quand il rentra chez lui, les autres tigres se moquèrent de lui. Désormais, il dut se contenter de la deuxième place, car le grand Esprit de la Montagne n'avait plus confiance en un serviteur aussi bête."
+    }
+  },
+  "dureeEstimeeSecondes": 553,
+  "interactionsOrdonnees": [
+    "a2e28",
+    "a3e7",
+    "a3e14",
+    "a2e6",
+    "a1e7",
+    "a3e9",
+    "a3e34"
+  ]
+}
