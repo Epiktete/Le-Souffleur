@@ -45,9 +45,37 @@ réseau : le fichier produit est versé, vérifié par le code, puis relu.
   didascalie, +8 s par adresse qui attend une réponse. Viser la cible donnée,
   sans couper la fin du conte pour y tenir.
 
+## Le plus de dialogue possible entre marionnettes (règle du 2026-09-28)
+
+C'est la règle qui prime sur les autres choix de mise en scène : **quitte à
+avoir beaucoup de marionnettes**, les personnages se parlent.
+
+- **Tout personnage qui a des répliques dans le conte devient une
+  marionnette**, jusqu'à 6 par spectacle — y compris ceux que la fiche marque
+  « figurant ». Un héros ne passe JAMAIS en coulisse.
+- **Tu peux créer un personnage-marionnette si ses répliques sont déjà
+  écrites dans le conte** : une réplique collective (« dirent les deux
+  aînés ») se partage entre deux marionnettes ; un groupe (« les chiens »)
+  s'incarne dans une marionnette (« un chien ») qui dit les répliques du
+  groupe.
+- **Le discours indirect devient direct** : « son père lui dit qu'il avait
+  un cœur de lièvre » → le père dit « Tu as un cœur de lièvre ! ». Sans rien
+  ajouter au sens.
+- Pas de dialogue inventé au-delà d'ajouts simples et parlés (« Bon… j'y
+  vais, j'y vais. ») ; un personnage SANS réplique dans le conte (la mère qui
+  fait le fromage) reste dans la narration.
+- La voix en coulisse est réservée aux bruits, aux foules, aux personnages
+  sans réplique, et à ceux qui dépassent la sixième marionnette.
+- Deux mains, deux marionnettes en scène : beaucoup de marionnettes veut dire
+  beaucoup d'entrées et de sorties. Organise la rotation pour que chaque
+  échange se joue entre les deux marionnettes présentes.
+- Exemple de référence : `banc/sorties/fable/no-concours-de-manger.json`
+  (Askeladden, 5 marionnettes, père et frères remis dans le dialogue).
+
 ## La troupe (les marionnettes d'origine)
 
-Inventer une peluche par rôle principal de la fiche :
+Inventer une peluche par personnage qui parle (voir la règle ci-dessus),
+dans l'ordre : les rôles principaux de la fiche, puis les autres :
 
 - **L'espèce de la peluche = l'espèce du rôle** (le texte la nomme : un rôle
   de lièvre se joue avec un lièvre). Le mot d'espèce apparaît dans la
@@ -60,8 +88,13 @@ Inventer une peluche par rôle principal de la fiche :
   garde-fou refuse tout nom qui resterait lisible dans le texte une fois les
   noms variabilisés. Vérifier soi-même : le nom, en entier et en mots, ne doit
   apparaître nulle part dans le texte écrit autrement que comme nom.
+- Chaque peluche porte aussi, explicitement, son `espece` (le mot simple :
+  « troll », « garçon », « poule ») et son `genre` (`"masculin"` ou
+  `"feminin"`) : ce sont eux qui disent dans quel sens vont les accords et
+  quelles mentions d'espèce suivront la peluche du parent.
 - 2 ou 3 `traits` par peluche, cohérents avec le rôle ; une `voix` par peluche
-  (« voix grave et traînante, dit "hmm" avant de parler »).
+  (« voix grave et traînante, dit "hmm" avant de parler »). Ni la voix ni les
+  tons ne nomment l'espèce d'un AUTRE personnage.
 - Dans le script, les personnages sont appelés PAR LEUR NOM, partout.
 
 ## Le fichier à produire
@@ -131,6 +164,37 @@ TOUTES les ids des éléments `adresse_public`, de la plus précieuse (celle
 qu'on garde en dernier) à la plus retranchable. Aucune de plus, aucune de
 moins.
 
+### `especes` — le texte suit l'espèce de la peluche
+
+Le parent joue avec SES peluches : si son troll est un dragon, le texte doit
+dire « un énorme dragon ». Pour chaque rôle, deux cas :
+
+- **`"imposee": true`** quand l'espèce est l'âme du conte (la poule qui
+  pond, le chat botté, la fée, les hérissons sosies, le tamia et ses
+  rayures). La distribution exigera alors la même espèce.
+- Sinon, **`"mentions"`** : chaque endroit du texte joué où l'espèce de CE
+  personnage est nommée, avec un gabarit à trous que le code remplira :
+  `{le}` `{Le}` `{un}` `{Un}` `{du}` `{au}` `{de}` (articles, élisions
+  comprises), `{espece}`, `{especes}` (pluriel), et `{masculin|féminin}` pour
+  un adjectif qui s'accorde. Exemples : « au petit lapin » →
+  `{au} {petit|petite} {espece}` ; « d'un énorme tigre » →
+  `d'{un} énorme {espece}` ; « les autres tigres » → `les autres {especes}`.
+- Ne liste PAS les mentions génériques qui ne désignent pas le personnage
+  (« comme un chien attrape une mouche »). Un rôle sans aucune mention
+  n'apparaît pas dans la liste.
+- Le mot d'espèce d'un rôle ne figure JAMAIS dans ses `accords` : il vit
+  dans ses `mentions` (le code rend l'espèce ET le genre).
+
+```json
+"especes": [
+  { "role": 1, "imposee": true },
+  { "role": 2, "mentions": [ { "id": "a1e13:texte", "avant": "un énorme troll", "gabarit": "{un} énorme {espece}" } ] }
+]
+```
+
+Le versement vérifie chaque gabarit : rendu avec l'espèce et le genre
+d'origine du rôle, il doit redonner l'extrait `avant` à l'identique.
+
 ## Avant de rendre : l'autocontrôle
 
 1. Le JSON est valide (le relire en entier).
@@ -141,3 +205,7 @@ moins.
 5. Aucun nom de peluche n'apparaît dans un `avant`/`apres`, ni comme mot
    ordinaire du texte.
 6. La fin du conte est jouée entière ; les répliques viennent du texte.
+7. Tout personnage qui parle dans le conte est une marionnette (jusqu'à 6) ;
+   aucune réplique d'un personnage principal n'est dite en coulisse.
+8. Chaque mention d'espèce, rendue avec l'espèce et le genre d'origine,
+   redonne son extrait exact.

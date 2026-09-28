@@ -5,6 +5,7 @@ import { readdirSync, readFileSync } from 'node:fs';
 import { join } from 'node:path';
 import { describe, expect, it } from 'vitest';
 import { lignesModele, rendreMention, type SpectacleModele } from '../src/services/banque';
+import { conteParId } from '../src/services/repertoire';
 import { dureeSpectacle } from '../src/services/duree';
 
 const DOSSIER = 'banque/spectacles';
@@ -30,6 +31,14 @@ describe.each(MODELES)('le fonds : $fichier', ({ fichier, modele: m }) => {
         }
       }
     }
+  });
+
+  it('joue chaque rôle principal de la fiche par une marionnette', () => {
+    // Un héros ne passe jamais en coulisse (2026-09-28, l'ancien Askeladden
+    // jouait le garçon à la voix, faute de seconde peluche).
+    const conte = conteParId(m.conteId);
+    expect(conte, `conte inconnu « ${m.conteId} »`).toBeTruthy();
+    expect(m.roles.length).toBeGreaterThanOrEqual(conte!.personnages);
   });
 
   it('ne garde aucune variable orpheline ni nom de rôle hors schéma', () => {

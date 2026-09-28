@@ -22,7 +22,8 @@ import { join, resolve } from 'node:path';
 import { test } from 'vitest';
 
 import type { Spectacle } from '../src/types';
-import { lignesModele, variabiliser, NomResiduel } from '../src/services/banque';
+import { lignesModele, rendreMention, variabiliser, NomResiduel } from '../src/services/banque';
+import { conteParId } from '../src/services/repertoire';
 import { dureeSpectacle } from '../src/services/duree';
 
 const DEMANDES = (process.env.BANC_FABLE ?? '').split(',').map((s) => s.trim()).filter(Boolean);
@@ -34,6 +35,16 @@ interface Enveloppe {
   spectacle: Spectacle;
   accords: { role: number; remplacements: { id: string; avant: string; apres: string }[] }[];
   interactions: string[];
+  /**
+   * L'espèce de chaque rôle (étape K, 2026-09-28) : soit imposée (l'âme du
+   * conte), soit ses mentions à mettre à l'espèce de la peluche du parent.
+   * Un rôle absent de la liste n'a aucune mention.
+   */
+  especes?: {
+    role: number;
+    imposee?: boolean;
+    mentions?: { id: string; avant: string; gabarit: string }[];
+  }[];
 }
 
 const FICHIERS = existsSync(SOURCE)
@@ -58,6 +69,7 @@ for (const fichier of FICHIERS) {
     spectacle.dureeEstimeeSecondes = dureeSpectacle(spectacle.actes);
 
     // Un versement par fichier source : relancer ne doit pas créer de doublon.
+    // Pour REMPLACER un modèle, on supprime d'abord son fichier du fonds.
     if (existsSync(join(FONDS, `${conteId}--1.json`))) {
       console.log(`  ${conteId} : déjà au fonds, rien à verser.`);
       return;
@@ -101,6 +113,40 @@ for (const fichier of FICHIERS) {
         vers: role.genre === 'masculin' ? 'feminin' : 'masculin',
         remplacements: bloc.remplacements,
       };
+    }
+
+    // L'espèce : chaque mention est retrouvée telle quelle, et son gabarit,
+    // rendu avec l'espèce et le genre d'origine, redonne l'extrait exact —
+    // le même invariant que tests/fonds.test.ts, vérifié AVANT d'écrire.
+    const sansAccents = (t: string) => t.normalize('NFD').replace(/[̀-ͯ]/g, '');
+    for (const bloc of enveloppe.especes ?? []) {
+      const role = modele.roles[bloc.role - 1];
+      if (!role) throw new Error(`Espèces : rôle ${bloc.role} inconnu.`);
+      if (bloc.imposee && bloc.mentions?.length) {
+        throw new Error(`Rôle ${role.cle} : une espèce est imposée OU suit la peluche, pas les deux.`);
+      }
+      if (bloc.imposee) role.especeImposee = true;
+      for (const mention of bloc.mentions ?? []) {
+        const ligne = lignes.get(mention.id);
+        if (!ligne) throw new Error(`Rôle ${role.cle} : ligne inconnue « ${mention.id} ».`);
+        if (!ligne.lire().includes(mention.avant)) {
+          throw new Error(`Rôle ${role.cle} : mention introuvable dans [${mention.id}] : « ${mention.avant} ».`);
+        }
+        const rendu = rendreMention(mention.gabarit, role.espece ?? '', role.genre ?? 'masculin');
+        if (sansAccents(rendu) !== sansAccents(mention.avant)) {
+          throw new Error(`Rôle ${role.cle} [${mention.id}] : le gabarit « ${mention.gabarit} » `
+            + `donne « ${rendu} », pas « ${mention.avant} ».`);
+        }
+      }
+      if (bloc.mentions?.length) role.especeMentions = bloc.mentions;
+    }
+
+    // Autant de marionnettes au moins que la fiche compte de rôles
+    // principaux : un héros ne passe jamais en coulisse (2026-09-28).
+    const conte = conteParId(conteId);
+    if (conte && modele.roles.length < conte.personnages) {
+      throw new Error(`${modele.roles.length} marionnette(s) pour ${conte.personnages} rôles principaux `
+        + 'dans la fiche : un personnage principal serait joué en coulisse.');
     }
 
     // Les interactions : exactement les adresses au public, toutes classées.
