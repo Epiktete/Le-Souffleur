@@ -10,7 +10,12 @@
   import { tba } from '../textes';
   import type { Marionnette } from '../types';
   import type { SignatureModele } from '../services/banque';
-  import { attributionPermise, type AttributionBanque } from '../services/appariement';
+  import {
+    attributionPermise,
+    genreMarionnette,
+    type AttributionBanque,
+    type Genre,
+  } from '../services/appariement';
 
   interface Props {
     signature: SignatureModele;
@@ -20,11 +25,14 @@
     graine: AttributionBanque[];
     surRetour: () => void;
     /**
-     * Prévenu à chaque retouche, avec la distribution courante et son état :
-     * le parent (Banque.svelte) y branche la création. Null tant qu'un
-     * interdit subsiste.
+     * Prévenu à chaque retouche, avec la distribution courante (null tant
+     * qu'un interdit subsiste) et les genres répondus à l'écran : le parent
+     * (Banque.svelte) y branche la création.
      */
-    surChangement?: (distribution: AttributionBanque[] | null) => void;
+    surChangement?: (
+      distribution: AttributionBanque[] | null,
+      genres: Partial<Record<string, Genre>>,
+    ) => void;
   }
   let { signature, troupe, graine, surRetour, surChangement }: Props = $props();
 
@@ -50,7 +58,29 @@
     ? null
     : signature.roles.map((r, k): AttributionBanque => ({ cle: r.cle, marionnetteId: attribution[k] })));
 
-  $effect(() => { surChangement?.(distribution); });
+  /**
+   * Quand rien ne dit le genre d'une marionnette, on demande plutôt que de
+   * deviner (CDC §7) : « il / elle » sur la boîte du rôle. La réponse suit la
+   * marionnette, pas le rôle : un échange de rôles la conserve.
+   */
+  const genresAsDemander = $derived(signature.roles.map((_r, k) => {
+    const m = marionnette(attribution[k]);
+    return m !== undefined && genreMarionnette(m) === null ? m : null;
+  }));
+  let genresChoisis = $state<Partial<Record<string, Genre>>>({});
+
+  /** Les genres répondus, portés sur la clé du rôle que chacun tient. */
+  const genresParRole = $derived.by(() => {
+    const genres: Partial<Record<string, Genre>> = {};
+    signature.roles.forEach((role, k) => {
+      const m = genresAsDemander[k];
+      const choisi = m ? genresChoisis[m.id] : undefined;
+      if (choisi) genres[role.cle] = choisi;
+    });
+    return genres;
+  });
+
+  $effect(() => { surChangement?.(distribution, genresParRole); });
 
   /** Retouche : choisir une marionnette déjà prise ailleurs échange les rôles. */
   function choisir(k: number, id: string) {
@@ -99,6 +129,21 @@
             {tba.distribution.interdit(marionnette(attribution[k])?.nom ?? '?', nomRole(role))}
           </p>
         {/if}
+
+        {#if genresAsDemander[k]}
+          {@const m = genresAsDemander[k]!}
+          <fieldset class="genre">
+            <legend>{tba.distribution.genre.question(m.nom)}</legend>
+            {#each (['masculin', 'feminin'] as const) as g (g)}
+              <button
+                type="button"
+                class:actif={genresChoisis[m.id] === g}
+                aria-pressed={genresChoisis[m.id] === g}
+                onclick={() => (genresChoisis = { ...genresChoisis, [m.id]: g })}
+              >{g === 'masculin' ? tba.distribution.genre.il : tba.distribution.genre.elle}</button>
+            {/each}
+          </fieldset>
+        {/if}
       </li>
     {/each}
   </ul>
@@ -130,6 +175,15 @@
   select { width: 100%; }
 
   .alerte { margin: 8px 0 0; font-size: 13px; }
+
+  .genre { border: none; margin: 8px 0 0; padding: 0; display: flex; align-items: center; gap: 6px; }
+  .genre legend { float: left; margin-right: 8px; font-size: 12px; color: var(--encre2); }
+  .genre button { min-width: 48px; font-size: 11px; }
+  .genre button.actif {
+    background: var(--encre);
+    color: var(--papier);
+    box-shadow: inset 0 3px 0 var(--accent);
+  }
 
   .visually-hidden {
     position: absolute;

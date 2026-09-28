@@ -24,6 +24,7 @@
     evaluerModeles,
     type AttributionBanque,
     type Ecart,
+    type Genre,
     type ModeleEvalue,
   } from '../services/appariement';
   import { lireModelesJoues } from '../services/historiqueBanque';
@@ -121,15 +122,19 @@
 
   /** La distribution courante de l'écran de retouche ; null si un interdit. */
   let distributionCourante = $state<AttributionBanque[] | null>(null);
+  /** Les « il / elle » répondus pour les marionnettes au genre muet. */
+  let genresCourants = $state<Partial<Record<string, Genre>>>({});
 
   function choisirFiche(e: ModeleEvalue) {
     choisi = { evalue: e, troupe: [...troupe] };
     distributionCourante = e.distribution;
+    genresCourants = {};
   }
 
   function fermerFiche() {
     choisi = null;
     distributionCourante = null;
+    genresCourants = {};
     banque.reinitialiser();
     joues = lireModelesJoues();
   }
@@ -141,6 +146,7 @@
       choisi.evalue.signature.conteId,
       distributionCourante,
       choisi.troupe,
+      genresCourants,
     );
   }
 
@@ -208,17 +214,38 @@
         troupe={choisi.troupe}
         graine={choisi.evalue.distribution}
         surRetour={fermerFiche}
-        surChangement={(d) => (distributionCourante = d)}
+        surChangement={(d, genres) => {
+          distributionCourante = d;
+          genresCourants = genres;
+        }}
       />
     {/if}
 
     {#if banque.phase === 'termine'}
       <section class="boite fin">
         <span class="eyebrow">{tg.fin.titre}</span>
+        {#if banque.avertissement}
+          <p class="aide" role="status">{banque.avertissement}</p>
+        {/if}
         {#if banque.rappelSauvegarde}
           <p class="aide" role="status">{tsv.rappel}</p>
         {/if}
         <button class="cta" onclick={ouvrirSpectacle}>{tg.fin.ouvrir}</button>
+      </section>
+    {:else if banque.phase === 'repli'}
+      <!-- La retouche d'accords a échoué : rien n'est enregistré, le parent
+           tranche entre les accords d'origine et renoncer (CDC §7). -->
+      <section class="boite erreur">
+        <span class="eyebrow">{tba.creation.repli.titre}</span>
+        <p role="alert">{tba.creation.repli.explication(banque.causeRepli)}</p>
+        <div class="boutons">
+          <button class="secondaire-bouton" onclick={() => banque.reinitialiser()}>
+            {tba.creation.repli.renoncer}
+          </button>
+          <button onclick={() => void banque.creerQuandMeme()}>
+            {tba.creation.repli.quandMeme}
+          </button>
+        </div>
       </section>
     {:else if banque.phase === 'erreur'}
       <section class="boite erreur">

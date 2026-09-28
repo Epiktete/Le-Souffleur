@@ -260,6 +260,12 @@ export const tba = {
       `${nomMarionnette} ne peut pas jouer ${roleEspece} : une petite bête douce ne porte ni la menace ni la taille du rôle.`,
     interditBloque: 'Corrigez la distribution : un rôle est mal attribué.',
     retour: 'Revenir aux spectacles',
+    /** Genre indétectable : on demande plutôt que de deviner (CDC §7). */
+    genre: {
+      question: (nom: string) => `Dans le texte, ${nom} se dira…`,
+      il: 'il',
+      elle: 'elle',
+    },
   },
   /** La création d'un spectacle depuis le fonds (CDC §7) : sans nouvelle écriture. */
   creation: {
@@ -267,6 +273,18 @@ export const tba = {
     enCours: 'Création…',
     introuvable: 'Ce spectacle du fonds est introuvable. Rechargez la page, puis réessayez.',
     echec: 'La création a échoué ; rien n’a été enregistré.',
+    /** La retouche d'accords (CDC §7, « La création »). */
+    reponseInattendue: 'La réponse du modèle n’a pas la forme attendue.',
+    remplacementIntrouvable: 'Une correction ne correspond pas au texte.',
+    sansCle: 'Sans clé IA, les accords n’ont pas été vérifiés : le texte garde ceux d’origine (« il » peut rester « elle », une espèce peut rester nommée).',
+    accordsOrigine: 'Le spectacle a été créé avec les accords d’origine.',
+    repli: {
+      titre: 'Les accords n’ont pas pu être vérifiés',
+      explication: (detail: string) =>
+        `La correction des accords a échoué (${detail}). Vous pouvez créer le spectacle tel quel — le texte garde les accords écrits pour d’autres marionnettes — ou renoncer.`,
+      quandMeme: 'Créer quand même',
+      renoncer: 'Renoncer',
+    },
   },
 } as const;
 

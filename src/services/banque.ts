@@ -22,6 +22,7 @@
 
 import INDEX_BRUT from '../../banque/index.json?raw';
 import { especeMarionnette, type Famille } from './choixContes';
+import { genreMarionnette } from './appariement';
 import { construireDossier } from './dossier';
 import { nouvelId } from './db';
 import type {
@@ -53,6 +54,13 @@ export interface RoleModele {
   traits: string[];
   /** La voix décidée pour CE spectacle, elle aussi variabilisée. */
   voix?: string;
+  /**
+   * Le genre grammatical de la marionnette d'origine : c'est avec lui que le
+   * texte est accordé. Il ne se lit plus une fois la marionnette partie, donc
+   * il s'écrit AU VERSEMENT. Absent ou null (vieux modèles) : la retouche
+   * d'accords se fait par prudence (CDC §7, « La création »).
+   */
+  genre?: 'masculin' | 'feminin' | null;
 }
 
 /** La signature d'un spectacle : de quoi l'apparier sans ouvrir son fichier. */
@@ -223,6 +231,7 @@ export function variabiliser(spectacle: Spectacle, id: string): SpectacleModele 
       famille: e?.famille ?? null,
       traits: [...m.traits],
       voix: m.voix,
+      genre: genreMarionnette(m),
     };
   });
 

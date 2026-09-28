@@ -179,6 +179,70 @@ export function evaluerModele(
   return { signature: s, ecarts: [], distribution: distribution as AttributionBanque[] };
 }
 
+/* ------------------------------------------------------------------ */
+/* Le genre grammatical                                                */
+/* ------------------------------------------------------------------ */
+
+/** Le genre grammatical d'un personnage, pour les accords du texte. */
+export type Genre = 'masculin' | 'feminin';
+
+/** Sans accents, sans casse, en mots : pour chercher, jamais pour écrire. */
+function motsDe(texte: string): string[] {
+  return texte
+    .normalize('NFD')
+    .replace(/[̀-ͯ]/g, '')
+    .toLowerCase()
+    .split(/[^a-z]+/)
+    .filter(Boolean);
+}
+
+/**
+ * Mots dont le genre est sûr, sous forme normalisée. La liste est courte et
+ * fermée à dessein : mieux vaut répondre « je ne sais pas » (l'écran de
+ * distribution demande alors « il ou elle ? ») que de deviner de travers.
+ */
+const MOTS_FEMININS = new Set([
+  'ourse', 'chatte', 'louve', 'renarde', 'lapine', 'lionne', 'chienne', 'anesse',
+  'souris', 'tortue', 'poule', 'chevre', 'vache', 'brebis', 'biche', 'jument',
+  'grenouille', 'abeille', 'coccinelle', 'araignee', 'fourmi', 'libellule',
+  'mouche', 'guepe', 'chouette', 'pie', 'cane', 'oie', 'hirondelle', 'mesange',
+  'girafe', 'baleine', 'sirene', 'licorne',
+  'fee', 'sorciere', 'princesse', 'reine', 'dame', 'femme', 'fille', 'fillette',
+  'poupee', 'mamie', 'mere', 'tante', 'soeur', 'bergere', 'danseuse', 'ballerine',
+]);
+
+const MOTS_MASCULINS = new Set([
+  'ours', 'chat', 'chaton', 'loup', 'renard', 'lapin', 'lion', 'chien', 'ane',
+  'cheval', 'coq', 'canard', 'cochon', 'mouton', 'bouc', 'taureau', 'tigre',
+  'elephant', 'singe', 'herisson', 'ecureuil', 'hibou', 'corbeau', 'aigle',
+  'pingouin', 'crapaud', 'escargot', 'serpent', 'poisson',
+  'dragon', 'ogre', 'geant', 'lutin', 'diable', 'diablotin', 'dieu', 'pantin',
+  'roi', 'prince', 'garcon', 'homme', 'monsieur', 'papi', 'pere', 'oncle',
+  'frere', 'soldat', 'chevalier', 'bucheron', 'pecheur', 'meunier', 'berger',
+  'magicien', 'sorcier',
+]);
+
+/**
+ * Le genre grammatical d'une marionnette, ou null quand rien ne le dit.
+ *
+ * Le nom l'emporte sur la description, et un mot au genre sûr l'emporte sur
+ * l'article : « Une grosse ourse » est féminin par « ourse » avant de l'être
+ * par « une ». En dernier recours, le premier article de la description
+ * tranche — les fiches commencent presque toutes par « Un … » ou « Une … ».
+ */
+export function genreMarionnette(m: Pick<Marionnette, 'nom' | 'description'>): Genre | null {
+  for (const texte of [m.nom, m.description]) {
+    for (const mot of motsDe(texte)) {
+      if (MOTS_FEMININS.has(mot)) return 'feminin';
+      if (MOTS_MASCULINS.has(mot)) return 'masculin';
+    }
+  }
+  const article = motsDe(m.description).find((mot) => mot === 'un' || mot === 'une');
+  if (article === 'un') return 'masculin';
+  if (article === 'une') return 'feminin';
+  return null;
+}
+
 /**
  * Cette marionnette peut-elle tenir ce rôle du fonds ? Le même juge que le
  * générateur (couples interdits, taille), pour la retouche manuelle de

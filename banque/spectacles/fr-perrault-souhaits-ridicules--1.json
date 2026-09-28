@@ -13,7 +13,8 @@
         "gourmand",
         "gentil"
       ],
-      "voix": "voix moyenne et bonhomme, un peu lente, dit « ma foi » quand il est content ou embarrassé"
+      "voix": "voix moyenne et bonhomme, un peu lente, dit « ma foi » quand il est content ou embarrassé",
+      "genre": "masculin"
     },
     {
       "cle": "r2",
@@ -24,7 +25,8 @@
         "grognon",
         "sage"
       ],
-      "voix": "voix aiguë qui parle très vite sans reprendre son souffle, commence ses colères par « Ah ça ! »"
+      "voix": "voix aiguë qui parle très vite sans reprendre son souffle, commence ses colères par « Ah ça ! »",
+      "genre": "feminin"
     },
     {
       "cle": "r3",
@@ -34,7 +36,8 @@
         "sage",
         "farceur"
       ],
-      "voix": "voix très grave et solennelle, qui roule les « r » et finit ses phrases par un petit rire « ho ho »"
+      "voix": "voix très grave et solennelle, qui roule les « r » et finit ses phrases par un petit rire « ho ho »",
+      "genre": "masculin"
     }
   ],
   "parametres": {

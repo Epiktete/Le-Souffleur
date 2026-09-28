@@ -12,7 +12,8 @@
         "gentil",
         "travailleur"
       ],
-      "voix": "voix douce, claire et un peu rapide, toujours polie : « bien volontiers », « pardon »"
+      "voix": "voix douce, claire et un peu rapide, toujours polie : « bien volontiers », « pardon »",
+      "genre": "feminin"
     },
     {
       "cle": "r2",
@@ -22,7 +23,8 @@
         "orgueilleux",
         "grognon"
       ],
-      "voix": "voix basse et traînante, souffle un « pfff ! » avant de parler"
+      "voix": "voix basse et traînante, souffle un « pfff ! » avant de parler",
+      "genre": "feminin"
     },
     {
       "cle": "r3",
@@ -32,7 +34,8 @@
         "sage",
         "rusé"
       ],
-      "voix": "en vieille : voix chevrotante et très lente ; en princesse : voix haute, calme, chaque mot bien détaché"
+      "voix": "en vieille : voix chevrotante et très lente ; en princesse : voix haute, calme, chaque mot bien détaché",
+      "genre": "feminin"
     }
   ],
   "parametres": {

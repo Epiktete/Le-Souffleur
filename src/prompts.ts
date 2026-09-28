@@ -1005,3 +1005,42 @@ Modifications à appliquer :
 ${problemes}`,
   };
 }
+
+/**
+ * La retouche d'accords du mode Banque (CDC §7, « La création »).
+ *
+ * Un spectacle du fonds a été écrit pour d'autres marionnettes : quand le
+ * genre grammatical ou l'espèce citée changent, les accords du texte joué
+ * doivent suivre. Le modèle rend une LISTE DE REMPLACEMENTS, jamais le texte
+ * entier : chaque « avant » est vérifié dans la ligne visée avant d'être
+ * appliqué, et un seul introuvable fait refuser toute la retouche.
+ */
+export function promptRetoucheAccords(
+  /** Les personnages qui changent, décrits en français. */
+  changements: string[],
+  /** Le texte joué, une ligne par chaîne, chacune avec son identifiant. */
+  lignes: { id: string; texte: string }[],
+) {
+  return {
+    system: `Tu es correcteur de français pour un théâtre de marionnettes.
+Un spectacle déjà écrit change de distribution : certains personnages changent
+de genre grammatical, parfois d'espèce. Ta seule mission : corriger les accords
+et les mots qui ne conviennent plus (articles, adjectifs, participes, pronoms,
+mots d'espèce), sans rien réécrire d'autre. Ne touche ni au style, ni à
+l'histoire, ni aux répliques qui restent justes.
+
+Tu réponds UNIQUEMENT par un objet JSON de cette forme, sans texte autour :
+{"remplacements": [{"id": "L3", "avant": "extrait exact de la ligne", "apres": "extrait corrigé"}]}
+
+Règles :
+- « avant » est recopié EXACTEMENT depuis la ligne visée (accents, majuscules,
+  ponctuation compris), le plus court possible mais sans ambiguïté ;
+- un remplacement par retouche : ne regroupe pas deux corrections éloignées ;
+- aucune ligne à corriger → {"remplacements": []}.`,
+    user: `Les personnages qui changent :
+${changements.map((c) => `- ${c}`).join('\n')}
+
+Le texte joué :
+${lignes.map((l) => `[${l.id}] ${l.texte}`).join('\n')}`,
+  };
+}

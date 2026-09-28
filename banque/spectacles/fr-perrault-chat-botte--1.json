@@ -13,7 +13,8 @@
         "bavard",
         "vantard"
       ],
-      "voix": "voix vive et rapide, un peu chantante, roule les « r » et dit « parole de chat ! » quand il se vante"
+      "voix": "voix vive et rapide, un peu chantante, roule les « r » et dit « parole de chat ! » quand il se vante",
+      "genre": "masculin"
     },
     {
       "cle": "r2",
@@ -23,7 +24,8 @@
         "naïf",
         "timide"
       ],
-      "voix": "voix douce et lente, hésitante, commence souvent par « euh… »"
+      "voix": "voix douce et lente, hésitante, commence souvent par « euh… »",
+      "genre": "masculin"
     },
     {
       "cle": "r3",
@@ -33,7 +35,8 @@
         "naïf",
         "gourmand"
       ],
-      "voix": "voix haute et un peu chevrotante, très solennelle, fait « mmm, délicieux ! » dès qu'on parle de manger"
+      "voix": "voix haute et un peu chevrotante, très solennelle, fait « mmm, délicieux ! » dès qu'on parle de manger",
+      "genre": "masculin"
     },
     {
       "cle": "r4",
@@ -44,7 +47,8 @@
         "orgueilleux",
         "méchant"
       ],
-      "voix": "voix très grave et tonitruante, parle fort et termine ses vantardises par un gros « ho ho ho ! »"
+      "voix": "voix très grave et tonitruante, parle fort et termine ses vantardises par un gros « ho ho ho ! »",
+      "genre": "masculin"
     }
   ],
   "parametres": {

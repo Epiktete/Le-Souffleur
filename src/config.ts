@@ -82,6 +82,16 @@ export const BANQUE = {
    * visées), et la durée réelle fait foi (CDC §14).
    */
   toleranceDuree: 0.2,
+  /**
+   * Le modèle de la retouche d'accords (CDC §7, « La création ») : un petit
+   * modèle économe, bon en français, utilisé quand le fournisseur est
+   * OpenRouter (identifiant vérifié au catalogue le 2026-09-28 : 0,15 $ le
+   * million de jetons en entrée, 0,60 $ en sortie). Chez un autre
+   * fournisseur, c'est le modèle configuré qui retouche.
+   */
+  modeleRetouche: 'mistralai/mistral-small-2603',
+  /** Budget de sortie de la retouche : une liste de remplacements, courte. */
+  budgetRetouche: 8000,
 } as const;
 
 /** Appels à l'IA (CDC §5). Repris de l'étape 0. */

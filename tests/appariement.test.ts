@@ -4,6 +4,7 @@ import {
   attributionPermise,
   conteDeSignature,
   evaluerModele,
+  genreMarionnette,
   type ReglagesFiltre,
 } from '../src/services/appariement';
 import type { SignatureModele } from '../src/services/banque';
@@ -145,6 +146,23 @@ describe('attributionPermise', () => {
     expect(attributionPermise(
       peluche('Grognard', 'Un loup en peluche grise.'), role,
     )).toBe(true);
+  });
+});
+
+describe('genreMarionnette', () => {
+  it('lit le genre dans le nom, puis la description, puis l’article', () => {
+    expect(genreMarionnette(peluche('Ourse Gourmande', 'Très douce.'))).toBe('feminin');
+    expect(genreMarionnette(peluche('Grognard', 'Un loup en peluche grise.'))).toBe('masculin');
+    // Ni le nom ni un mot sûr : le premier article de la description tranche.
+    expect(genreMarionnette(peluche('Zébulon', 'Une peluche rayée toute douce.'))).toBe('feminin');
+  });
+
+  it('le mot sûr l’emporte sur l’article', () => {
+    expect(genreMarionnette(peluche('Doudou', 'Un doudou en forme de souris grise.'))).toBe('feminin');
+  });
+
+  it('répond null quand rien ne le dit, plutôt que de deviner', () => {
+    expect(genreMarionnette({ nom: 'Zig', description: '' })).toBe(null);
   });
 });
 

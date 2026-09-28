@@ -12,7 +12,8 @@
         "curieux",
         "gentil"
       ],
-      "voix": "voix claire et vive, parle vite et avec entrain"
+      "voix": "voix claire et vive, parle vite et avec entrain",
+      "genre": "feminin"
     },
     {
       "cle": "r2",
@@ -22,7 +23,8 @@
         "méchant",
         "gourmand"
       ],
-      "voix": "voix grave et râpeuse, parle en grognant et se lèche les babines, « miam » ; il fait une petite voix aiguë et fausse quand il imite {{r1}} ou {{r3}}"
+      "voix": "voix grave et râpeuse, parle en grognant et se lèche les babines, « miam » ; il fait une petite voix aiguë et fausse quand il imite {{r1}} ou {{r3}}",
+      "genre": "masculin"
     },
     {
       "cle": "r3",
@@ -32,7 +34,8 @@
         "sage",
         "gentil"
       ],
-      "voix": "voix chevrotante et lente, un peu fatiguée, dit « mon petit » avec douceur"
+      "voix": "voix chevrotante et lente, un peu fatiguée, dit « mon petit » avec douceur",
+      "genre": "feminin"
     }
   ],
   "parametres": {
