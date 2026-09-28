@@ -18,10 +18,10 @@ export function scene(page: Page): Locator {
 }
 
 /** Crée une marionnette depuis la bibliothèque, et attend qu'elle apparaisse. */
-export async function creerMarionnette(page: Page, nom: string, trait = 'gentil') {
+export async function creerMarionnette(page: Page, nom: string, espece?: string) {
   await page.getByRole('button', { name: '+ Nouvelle marionnette' }).click();
   await page.getByLabel('Nom').fill(nom);
-  await page.getByRole('button', { name: trait, exact: true }).click();
+  if (espece) await page.getByLabel('Espèce').fill(espece);
   await page.getByRole('button', { name: 'Enregistrer' }).click();
   await expect(carte(page, nom)).toBeVisible();
 }

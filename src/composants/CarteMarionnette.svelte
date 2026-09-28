@@ -66,6 +66,13 @@
         <p>{m.description}</p>
       {/if}
 
+      {#if m.espece}
+        <p class="ligne">
+          <span class="mono etiquette">{tb.champEspece}</span>
+          <span class="badge">{m.espece}</span>
+        </p>
+      {/if}
+
       {#if m.traits.length > 0}
         <p class="ligne">
           <span class="mono etiquette">{tb.champTraits}</span>

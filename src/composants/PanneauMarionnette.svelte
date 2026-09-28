@@ -1,9 +1,10 @@
 <script lang="ts">
   // Formulaire de création et de modification, dans un panneau latéral (CDC §7).
-  // Nom obligatoire, description avec exemple, traits en puces cliquables,
-  // et traits de caractère.
+  // Nom obligatoire, description avec exemple, espèce en texte libre, genre.
+  // Les traits ne se saisissent plus (décision du 2026-09-28) : les anciennes
+  // marionnettes gardent les leurs, la description porte le caractère.
   import { BORNES } from '../config';
-  import { tb, TRAITS_PROPOSES } from '../textes';
+  import { tb } from '../textes';
   import { validerSaisie, type ErreursSaisie } from '../services/marionnettes';
   import type { Marionnette } from '../types';
 
@@ -26,11 +27,10 @@
   // svelte-ignore state_referenced_locally
   let description = $state(marionnette.description);
   // svelte-ignore state_referenced_locally
-  let traits = $state([...marionnette.traits]);
+  let espece = $state(marionnette.espece ?? '');
   // svelte-ignore state_referenced_locally
   let genre = $state<Marionnette['genre']>(marionnette.genre);
 
-  let traitLibre = $state('');
   let erreurs = $state<ErreursSaisie>({});
   /** Un échec d'enregistrement (stockage plein, navigation privée) se dit ici. */
   let erreurEnregistrement = $state<string | null>(null);
@@ -40,30 +40,13 @@
 
   let champNom = $state<HTMLInputElement>();
 
-  const saisie = $derived({ nom, description, traits });
-  const traitsPleins = $derived(traits.length >= BORNES.traitsMarionnette.max);
-  /** Traits saisis librement : ils ne figurent pas dans la liste proposée. */
-  const traitsLibres = $derived(
-    traits.filter((t) => !(TRAITS_PROPOSES as readonly string[]).includes(t)),
-  );
+  const saisie = $derived({ nom, description, espece });
 
   // Le focus part sur le nom : c'est le seul champ obligatoire.
   $effect(() => { champNom?.focus(); });
 
   // Une fois l'utilisateur averti, les messages se mettent à jour en direct.
   $effect(() => { if (tentative) erreurs = validerSaisie(saisie); });
-
-  function basculerTrait(trait: string) {
-    if (traits.includes(trait)) traits = traits.filter((t) => t !== trait);
-    else if (!traitsPleins) traits = [...traits, trait];
-  }
-
-  function ajouterTraitLibre() {
-    const propre = traitLibre.trim().toLowerCase();
-    if (!propre || traitsPleins || traits.includes(propre)) return;
-    traits = [...traits, propre];
-    traitLibre = '';
-  }
 
   async function envoyer(evenement: SubmitEvent) {
     evenement.preventDefault();
@@ -79,7 +62,7 @@
       ...marionnette,
       nom: nom.trim(),
       description: description.trim(),
-      traits,
+      espece: espece.trim() || undefined,
       genre,
     });
     enregistrement = false;
@@ -136,6 +119,21 @@
         {#if erreurs.description}<p class="erreur" role="alert">{erreurs.description}</p>{/if}
       </div>
 
+      <!-- Espèce en texte libre : le mot que les histoires emploieront
+           (CDC §7, décision du 2026-09-28). -->
+      <div class="champ">
+        <label for="m-espece" class="mono">{tb.champEspece}</label>
+        <input
+          id="m-espece"
+          bind:value={espece}
+          maxlength={BORNES.especeMarionnette.max}
+          aria-describedby="m-espece-aide"
+          aria-invalid={erreurs.espece ? 'true' : undefined}
+        />
+        <p id="m-espece-aide" class="aide">{tb.champEspeceAide}</p>
+        {#if erreurs.espece}<p class="erreur" role="alert">{erreurs.espece}</p>{/if}
+      </div>
+
       <!-- Genre grammatical : « il » ou « elle » dans les histoires (CDC §7,
            chantier « la banque »). Facultatif, et effaçable d'un reclic. -->
       <div class="champ">
@@ -152,57 +150,6 @@
             >{libelle}</button>
           {/each}
         </div>
-      </div>
-
-      <!-- Traits : puces cliquables, 6 au maximum -->
-      <div class="champ">
-        <span class="mono">{tb.champTraits}</span>
-        <p class="aide">{tb.champTraitsAide}</p>
-
-        <div class="puces">
-          {#each TRAITS_PROPOSES as trait (trait)}
-            {@const choisi = traits.includes(trait)}
-            <button
-              type="button"
-              class="puce"
-              class:choisi
-              aria-pressed={choisi}
-              disabled={!choisi && traitsPleins}
-              onclick={() => basculerTrait(trait)}
-            >{trait}</button>
-          {/each}
-
-          <!-- Traits ajoutés librement, affichés à la suite des puces. -->
-          {#each traitsLibres as trait (trait)}
-            <button
-              type="button"
-              class="puce choisi"
-              aria-pressed="true"
-              onclick={() => basculerTrait(trait)}
-            >{trait}</button>
-          {/each}
-        </div>
-
-        <div class="ajout">
-          <label class="invisible" for="m-trait-libre">{tb.champTraitLibre}</label>
-          <input
-            id="m-trait-libre"
-            bind:value={traitLibre}
-            placeholder={tb.champTraitLibre}
-            maxlength="24"
-            disabled={traitsPleins}
-            onkeydown={(e) => { if (e.key === 'Enter') { e.preventDefault(); ajouterTraitLibre(); } }}
-          />
-          <button
-            type="button"
-            class="secondaire-bouton"
-            disabled={traitsPleins}
-            onclick={ajouterTraitLibre}
-            aria-label={tb.champTraitLibre}
-          >+</button>
-        </div>
-        <p class="compteur mono">{tb.compteur(traits.length, BORNES.traitsMarionnette.max)}</p>
-        {#if erreurs.traits}<p class="erreur" role="alert">{erreurs.traits}</p>{/if}
       </div>
 
       {#if erreurEnregistrement}
@@ -256,16 +203,6 @@
     color: var(--encre);
   }
 
-  /* Étiquette réservée aux lecteurs d'écran. */
-  .invisible {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    clip-path: inset(50%);
-    white-space: nowrap;
-  }
-
   .puces { display: flex; flex-wrap: wrap; gap: 6px; }
   .puce {
     min-height: 32px;
@@ -284,10 +221,6 @@
     box-shadow: inset 3px 0 0 var(--accent), 2px 2px 0 var(--encre);
   }
   .puce.choisi:hover { background: var(--encre); }
-
-  .ajout { display: flex; gap: 6px; margin-top: 8px; }
-  .ajout input { flex: 1; }
-  .ajout button { flex: 0 0 var(--cible-tactile); }
 
   footer {
     display: flex;

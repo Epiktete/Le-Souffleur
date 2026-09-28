@@ -285,9 +285,11 @@ const MOTS_MASCULINS = new Set([
  * par « une ». En dernier recours, le premier article de la description
  * tranche — les fiches commencent presque toutes par « Un … » ou « Une … ».
  */
-export function genreMarionnette(m: Pick<Marionnette, 'nom' | 'description' | 'genre'>): Genre | null {
+export function genreMarionnette(
+  m: Pick<Marionnette, 'nom' | 'description' | 'genre' | 'espece'>,
+): Genre | null {
   if (m.genre) return m.genre;
-  for (const texte of [m.nom, m.description]) {
+  for (const texte of [m.espece ?? '', m.nom, m.description]) {
     for (const mot of motsDe(texte)) {
       if (MOTS_FEMININS.has(mot)) return 'feminin';
       if (MOTS_MASCULINS.has(mot)) return 'masculin';

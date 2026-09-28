@@ -24,11 +24,12 @@ export const schemaSaisieMarionnette = z.object({
     .string()
     .trim()
     .max(BORNES.descriptionMarionnette.max, tb.erreurs.descriptionTropLongue),
-  // Aucun trait exigé : une marionnette sans trait est distribuée sur sa
-  // seule espèce, ce que `meilleureDistribution` sait faire.
-  traits: z
-    .array(z.string().trim().min(1))
-    .max(BORNES.traitsMarionnette.max, tb.erreurs.traitsTropNombreux),
+  // L'espèce est facultative : à défaut, l'outil la devine du nom et de la
+  // description. Les traits ne se saisissent plus (décision du 2026-09-28).
+  espece: z
+    .string()
+    .trim()
+    .max(BORNES.especeMarionnette.max, tb.erreurs.especeTropLongue),
 });
 
 export type SaisieMarionnette = z.infer<typeof schemaSaisieMarionnette>;
@@ -65,6 +66,7 @@ export function marionnetteVierge(): Marionnette {
     nom: '',
     description: '',
     traits: [],
+    espece: undefined,
     creeLe: maintenant,
     modifieLe: maintenant,
   };
@@ -118,7 +120,7 @@ export function filtrerMarionnettes(liste: Marionnette[], recherche: string): Ma
   const terme = sansAccents(recherche);
   if (!terme) return liste;
   return liste.filter((m) =>
-    sansAccents(`${m.nom} ${m.description} ${m.traits.join(' ')}`).includes(terme),
+    sansAccents(`${m.nom} ${m.description} ${m.espece ?? ''} ${m.traits.join(' ')}`).includes(terme),
   );
 }
 

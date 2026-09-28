@@ -221,6 +221,12 @@ describe('genreMarionnette', () => {
       nom: 'Grand Ours', description: 'Un ours brun massif.', genre: 'feminin',
     })).toBe('feminin');
   });
+
+  it('l’espèce déclarée parle aussi pour le genre', () => {
+    expect(genreMarionnette({
+      nom: 'Caramel', description: 'Toute douce.', espece: 'ourse',
+    })).toBe('feminin');
+  });
 });
 
 describe('conteDeSignature', () => {

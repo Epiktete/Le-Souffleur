@@ -12,8 +12,19 @@ export interface Marionnette {
   nom: string;
   /** Apparence, espèce. 0 à 500 caractères. */
   description: string;
-  /** 1 à 6 traits, issus de la liste proposée ou libres. */
+  /**
+   * Traits de caractère. Depuis le 2026-09-28, le formulaire ne les propose
+   * plus (« ne sert pas à grand-chose ») : le champ reste pour les
+   * marionnettes existantes, et la description porte le caractère.
+   */
   traits: string[];
+  /**
+   * L'espèce, dite par le parent en texte libre (« lapin », « ourse »,
+   * « dragon ») — ajoutée le 2026-09-28. C'est elle que la Contothèque
+   * emploie dans les textes ; à défaut, l'outil la devine du nom et de la
+   * description.
+   */
+  espece?: string;
   /**
    * « Il » ou « elle » dans les histoires (ajouté le 2026-09-28, chantier
    * « la banque »). Facultatif : absent, l'outil essaie de le deviner du nom

@@ -68,6 +68,7 @@ export const BORNES = {
   mainsParMarionnettiste: 2,
   nomMarionnette: { min: 1, max: 40 },
   descriptionMarionnette: { max: 500 },
+  especeMarionnette: { max: 40 },
   /** Les traits sont facultatifs : ils affinent, ils ne sont pas un péage. */
   traitsMarionnette: { min: 0, max: 6 },
   ebauche: { max: 2000 },

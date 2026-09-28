@@ -34,8 +34,7 @@ test('crée une marionnette, qui survit au rechargement de la page', async ({ pa
 
   await page.getByLabel('Nom').fill('Doudou Lapin');
   await page.getByLabel('Description').fill('Petit lapin beige aux oreilles tombantes.');
-  await page.getByRole('button', { name: 'gentil', exact: true }).click();
-  await page.getByRole('button', { name: 'peureux', exact: true }).click();
+  await page.getByLabel('Espèce').fill('lapin');
   await page.getByRole('button', { name: 'Enregistrer' }).click();
 
   // La boîte apparaît dans la colonne de gauche.
@@ -44,11 +43,13 @@ test('crée une marionnette, qui survit au rechargement de la page', async ({ pa
   // Le cœur du critère d'acceptation : on recharge et elle est toujours là.
   await page.reload();
   await expect(carte(page, 'Doudou Lapin')).toBeVisible();
-  await expect(page.getByText('gentil')).toBeVisible();
+  // L'espèce déclarée se retrouve sur la fiche dépliée.
+  await carte(page, 'Doudou Lapin').click();
+  await expect(page.getByText('lapin', { exact: true })).toBeVisible();
 });
 
-test('accepte une marionnette sans aucun trait', async ({ page }) => {
-  // Les traits sont facultatifs : le nom est le seul champ obligatoire.
+test('accepte une marionnette sans espèce', async ({ page }) => {
+  // L'espèce est facultative : le nom est le seul champ obligatoire.
   await page.getByRole('button', { name: '+ Nouvelle marionnette' }).click();
   await page.getByLabel('Nom').fill('Peluche Muette');
   await page.getByLabel('Description').fill('Une peluche dont personne ne sait le caractère.');
@@ -61,7 +62,7 @@ test('accepte une marionnette sans aucun trait', async ({ page }) => {
 
 test('refuse d’enregistrer sans nom, avec un message en français', async ({ page }) => {
   await page.getByRole('button', { name: '+ Nouvelle marionnette' }).click();
-  await page.getByRole('button', { name: 'gentil', exact: true }).click();
+  await page.getByLabel('Espèce').fill('lapin');
   await page.getByRole('button', { name: 'Enregistrer' }).click();
 
   await expect(page.getByRole('alert')).toContainText('Donnez un nom à la marionnette.');
@@ -69,22 +70,17 @@ test('refuse d’enregistrer sans nom, avec un message en français', async ({ p
   await expect(page.getByRole('button', { name: 'Enregistrer' })).toBeVisible();
 });
 
-test('ne laisse pas choisir plus de six traits', async ({ page }) => {
+test('la fiche ne propose plus de traits : nom, description, espèce, genre', async ({ page }) => {
+  // Décision du 2026-09-28 : les traits ne se saisissent plus.
   await page.getByRole('button', { name: '+ Nouvelle marionnette' }).click();
-  await page.getByLabel('Nom').fill('Six Traits');
-
-  const six = ['gentil', 'méchant', 'coquin', 'rusé', 'peureux', 'courageux'];
-  for (const trait of six) {
-    await page.getByRole('button', { name: trait, exact: true }).click();
-  }
-  // Le septième est désactivé : la limite est appliquée avant la validation.
-  await expect(page.getByRole('button', { name: 'gourmand', exact: true })).toBeDisabled();
+  await expect(page.getByText('Traits de caractère')).toHaveCount(0);
+  await expect(page.getByLabel('Espèce')).toBeVisible();
+  await expect(page.getByText('Dans les histoires, on dit…')).toBeVisible();
 });
 
 test('modifie une marionnette existante', async ({ page }) => {
   await page.getByRole('button', { name: '+ Nouvelle marionnette' }).click();
   await page.getByLabel('Nom').fill('Renard');
-  await page.getByRole('button', { name: 'rusé', exact: true }).click();
   await page.getByRole('button', { name: 'Enregistrer' }).click();
 
   // La fiche se déplie après l'enregistrement : les actions sont accessibles.
@@ -100,7 +96,6 @@ test('modifie une marionnette existante', async ({ page }) => {
 test('duplique une marionnette en la nommant « (copie) »', async ({ page }) => {
   await page.getByRole('button', { name: '+ Nouvelle marionnette' }).click();
   await page.getByLabel('Nom').fill('Hibou');
-  await page.getByRole('button', { name: 'savant', exact: true }).click();
   await page.getByRole('button', { name: 'Enregistrer' }).click();
 
   await page.getByRole('button', { name: 'Dupliquer' }).click();
@@ -112,7 +107,6 @@ test('duplique une marionnette en la nommant « (copie) »', async ({ page }) =>
 test('supprime une marionnette, après confirmation', async ({ page }) => {
   await page.getByRole('button', { name: '+ Nouvelle marionnette' }).click();
   await page.getByLabel('Nom').fill('Ourse');
-  await page.getByRole('button', { name: 'gourmand', exact: true }).click();
   await page.getByRole('button', { name: 'Enregistrer' }).click();
 
   await page.getByRole('button', { name: 'Supprimer', exact: true }).click();
@@ -151,7 +145,6 @@ test('le champ de recherche n’apparaît qu’à partir de huit marionnettes', 
   for (let n = 1; n <= 8; n++) {
     await page.getByRole('button', { name: '+ Nouvelle marionnette' }).click();
     await page.getByLabel('Nom').fill(`Peluche ${n}`);
-    await page.getByRole('button', { name: 'gentil', exact: true }).click();
     await page.getByRole('button', { name: 'Enregistrer' }).click();
   }
 
@@ -174,8 +167,8 @@ test('toute la création est faisable au clavier seul', async ({ page }) => {
   await expect(page.getByLabel('Nom')).toBeFocused();
   await page.keyboard.type('Clavier');
 
-  await page.getByRole('button', { name: 'rêveur', exact: true }).focus();
-  await page.keyboard.press('Enter');
+  await page.getByLabel('Espèce').focus();
+  await page.keyboard.type('dragon');
 
   await page.getByRole('button', { name: 'Enregistrer' }).focus();
   await page.keyboard.press('Enter');

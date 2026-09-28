@@ -134,6 +134,8 @@ export const tb = {
   champDescription: 'Description',
   champDescriptionAide:
     'Apparence, espèce, taille. Ex. : « Petit lapin en peluche beige, oreilles tombantes, écharpe rouge. »',
+  champEspece: 'Espèce',
+  champEspeceAide: 'Facultatif. Ex. : « lapin », « ourse », « dragon ». C’est le mot que les histoires emploieront.',
   champGenre: 'Dans les histoires, on dit…',
   champGenreAide: 'Facultatif. « Il » ou « elle » pour parler de cette marionnette ; recliquez pour effacer.',
   genreIl: 'il',
@@ -148,6 +150,7 @@ export const tb = {
     nomTropLong: 'Le nom ne doit pas dépasser 40 caractères.',
     descriptionTropLongue: 'La description ne doit pas dépasser 500 caractères.',
     traitsTropNombreux: 'Six traits au maximum.',
+    especeTropLongue: 'L’espèce ne doit pas dépasser 40 caractères.',
     traitDejaPresent: 'Ce trait est déjà choisi.',
     enregistrementImpossible:
       'Impossible d’enregistrer. Le navigateur refuse peut-être de stocker des données.',
@@ -655,11 +658,11 @@ export const ttu = {
       intro: 'Chaque peluche de la maison devient une marionnette. Vous la créez une fois, et elle sert à tous vos spectacles.',
       faire: [
         'Dans la colonne **Marionnethèque**, à gauche, cliquez sur **+ Nouvelle marionnette**.',
-        'Donnez-lui un **nom**, et dites dans la **description** quel animal ou quel personnage c’est : « un lapin gris », « un petit dragon vert ».',
-        'Si vous voulez, choisissez jusqu’à **6 traits** de caractère : gourmand, peureux, rusé…',
+        'Donnez-lui un **nom**, une **description** (« un lapin gris à l’oreille recousue ») et son **espèce** : lapin, ourse, dragon…',
+        'Dites si, dans les histoires, on dira **il** ou **elle**.',
         'Puis **Enregistrer**.',
       ],
-      astuce: 'L’espèce et les traits décident des rôles qu’elle jouera : un lapin peureux trouvera le lièvre peureux de La Fontaine.',
+      astuce: 'L’espèce décide des rôles qu’elle jouera — et c’est ce mot-là que les histoires emploieront.',
     },
     {
       titre: 'Préparez le studio et générez',

@@ -274,8 +274,21 @@ function libelleDans(texte: string, mot: string): string {
  * reçoit une compatibilité moyenne avec tous les rôles, et c'est le modèle,
  * qui lit la description, qui juge.
  */
-export function especeMarionnette(m: Pick<Marionnette, 'nom' | 'description'>):
+export function especeMarionnette(m: Pick<Marionnette, 'nom' | 'description' | 'espece'>):
   { mot: string; famille: Famille; libelle: string } | null {
+  // L'espèce DÉCLARÉE par le parent l'emporte sur toute devinette
+  // (décision du 2026-09-28). Un mot connu du lexique donne sa famille ;
+  // un mot inconnu (« dragon des mers ») garde la détection d'en dessous
+  // pour la famille, mais c'est bien le mot déclaré qui fait l'identité.
+  if (m.espece?.trim()) {
+    const libelle = m.espece.trim();
+    for (const mot of mots(libelle)) {
+      const famille = FAMILLE_DU_MOT.get(mot);
+      if (famille !== undefined) return { mot, famille, libelle };
+    }
+    const devine = especeMarionnette({ nom: m.nom, description: m.description });
+    if (devine) return { ...devine, mot: mots(libelle)[0] ?? devine.mot, libelle };
+  }
   const jouets = ['poupee', 'pantin', 'robot', 'jouet'];
   // Dans une description, une bête l'emporte sur une personne, et une personne
   // sur une chose : « un lapin offert par papa » est un lapin, et « il a peur

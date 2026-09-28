@@ -16,7 +16,7 @@ import type { Marionnette } from '../src/types';
 const saisieCorrecte = {
   nom: 'Doudou Lapin',
   description: 'Petit lapin beige aux oreilles tombantes.',
-  traits: ['gentil', 'peureux'],
+  espece: 'lapin',
 };
 
 function marionnette(nom: string, extra: Partial<Marionnette> = {}): Marionnette {
@@ -56,18 +56,16 @@ describe('validerSaisie', () => {
     expect(validerSaisie({ ...saisieCorrecte, description: trop }).description).toBeDefined();
   });
 
-  it('accepte une marionnette sans aucun trait, en refuse plus de six', () => {
-    // Les traits sont facultatifs : ils affinent la distribution des rôles,
-    // ils ne sont pas un péage à l'entrée de la Marionnethèque.
-    expect(validerSaisie({ ...saisieCorrecte, traits: [] }).traits).toBeUndefined();
-    const sept = ['a', 'b', 'c', 'd', 'e', 'f', 'g'];
-    expect(validerSaisie({ ...saisieCorrecte, traits: sept }).traits).toBeDefined();
-    const six = sept.slice(0, 6);
-    expect(validerSaisie({ ...saisieCorrecte, traits: six }).traits).toBeUndefined();
+  it('accepte une espèce vide, en refuse une trop longue', () => {
+    // L'espèce est facultative : à défaut, l'outil la devine du nom et de
+    // la description.
+    expect(validerSaisie({ ...saisieCorrecte, espece: '' }).espece).toBeUndefined();
+    const trop = 'a'.repeat(BORNES.especeMarionnette.max + 1);
+    expect(validerSaisie({ ...saisieCorrecte, espece: trop }).espece).toBeDefined();
   });
 
   it('donne un seul message par champ, en français', () => {
-    const erreurs = validerSaisie({ nom: '', description: '', traits: [] });
+    const erreurs = validerSaisie({ nom: '', description: '', espece: '' });
     expect(erreurs.nom).toBe('Donnez un nom à la marionnette.');
     // Le nom reste le SEUL champ obligatoire.
     expect(Object.keys(erreurs)).toEqual(['nom']);

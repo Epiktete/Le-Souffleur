@@ -83,6 +83,8 @@ describe('les espèces', () => {
   it('reconnaît une marionnette à son nom, puis à sa description', () => {
     expect(especeMarionnette({ nom: 'Doudou Lapin', description: '' })?.mot).toBe('lapin');
     expect(especeMarionnette({ nom: 'Pompon', description: 'Une vieille ourse en peluche' })?.mot).toBe('ourse');
+    // L'espèce déclarée par le parent l'emporte sur le nom (2026-09-28).
+    expect(especeMarionnette({ nom: 'Doudou Lapin', description: '', espece: 'louve' })?.mot).toBe('louve');
     expect(especeMarionnette({ nom: 'Titi', description: 'Offert par papa, un petit renard roux' })?.famille)
       .toBe('predateur');
     expect(especeMarionnette({ nom: 'Titi', description: 'Il a peur du feu' })).toBeNull();
