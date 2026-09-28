@@ -13,7 +13,7 @@ import { noterRencontres } from '../services/historiqueContes';
 import { noterModeleJoue } from '../services/historiqueBanque';
 import { noterSpectacleCree } from '../services/sauvegarde';
 import { instancier, ErreurInstanciation } from '../services/instanciation';
-import type { AttributionBanque, Genre } from '../services/appariement';
+import type { AttributionBanque } from '../services/appariement';
 
 export type PhaseBanque = 'repos' | 'creation' | 'termine' | 'erreur';
 
@@ -35,16 +35,15 @@ function creerEtatBanque() {
 
     /**
      * Crée et enregistre un spectacle depuis un modèle du fonds.
-     * La distribution est dans l'ordre des rôles (r1, r2…) ; `genresChoisis`
-     * porte les « il / elle » répondus à l'écran de distribution ;
-     * `interactionPublic` est le réglage du studio.
+     * La distribution est dans l'ordre des rôles (r1, r2…) ;
+     * `interactionPublic` est le réglage du studio. Le genre d'une
+     * marionnette ne vient que de sa fiche (décision du 2026-09-28).
      */
     async creer(
       modeleId: string,
       conteId: string,
       distribution: AttributionBanque[],
       marionnetheque: Marionnette[],
-      genresChoisis: Partial<Record<string, Genre>> = {},
       interactionPublic?: NiveauInteraction,
     ) {
       if (phase === 'creation') return;
@@ -54,8 +53,12 @@ function creerEtatBanque() {
       spectacleId = null;
 
       try {
-        const r = await instancier(modeleId, distribution, marionnetheque, {
-          genresChoisis,
+        // Les marionnettes arrivent de la Marionnethèque : des proxys
+        // réactifs, qu'IndexedDB refuse de cloner (DataCloneError). On fige
+        // des copies brutes avant qu'elles n'entrent dans le spectacle —
+        // même précaution que la fin de génération du Studio.
+        const troupe = marionnetheque.map((m) => $state.snapshot(m) as Marionnette);
+        const r = await instancier(modeleId, distribution, troupe, {
           interactionPublic,
         });
         await enregistrerSpectacle(r.spectacle);

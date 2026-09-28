@@ -271,12 +271,6 @@ export const tba = {
       `${nomMarionnette} ne peut pas tenir ce rôle : le texte nomme l’espèce (« ${espece} »), il faut une marionnette de la même espèce.`,
     interditBloque: 'Corrigez la distribution : un rôle est mal attribué.',
     retour: 'Revenir aux spectacles',
-    /** Genre indétectable : on demande plutôt que de deviner (CDC §7). */
-    genre: {
-      question: (nom: string) => `Dans le texte, ${nom} se dira…`,
-      il: 'il',
-      elle: 'elle',
-    },
   },
   /** La création d'un spectacle depuis le fonds (CDC §7) : sans aucun appel IA. */
   creation: {

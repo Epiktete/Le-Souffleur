@@ -24,7 +24,6 @@
     evaluerModeles,
     type AttributionBanque,
     type Ecart,
-    type Genre,
     type ModeleEvalue,
   } from '../services/appariement';
   import { lireModelesJoues } from '../services/historiqueBanque';
@@ -123,19 +122,15 @@
 
   /** La distribution courante de l'écran de retouche ; null si un interdit. */
   let distributionCourante = $state<AttributionBanque[] | null>(null);
-  /** Les « il / elle » répondus pour les marionnettes au genre muet. */
-  let genresCourants = $state<Partial<Record<string, Genre>>>({});
 
   function choisirFiche(e: ModeleEvalue) {
     choisi = { evalue: e, troupe: [...troupe] };
     distributionCourante = e.distribution;
-    genresCourants = {};
   }
 
   function fermerFiche() {
     choisi = null;
     distributionCourante = null;
-    genresCourants = {};
     banque.reinitialiser();
     joues = lireModelesJoues();
   }
@@ -147,7 +142,6 @@
       choisi.evalue.signature.conteId,
       distributionCourante,
       choisi.troupe,
-      genresCourants,
       studio.valeurs.interactionPublic,
     );
   }
@@ -218,10 +212,7 @@
         troupe={choisi.troupe}
         graine={choisi.evalue.distribution}
         surRetour={fermerFiche}
-        surChangement={(d, genres) => {
-          distributionCourante = d;
-          genresCourants = genres;
-        }}
+        surChangement={(d) => (distributionCourante = d)}
       />
     {/if}
 
