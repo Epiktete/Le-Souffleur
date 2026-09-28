@@ -6,7 +6,7 @@ const fenetre = (page: import('@playwright/test').Page) =>
   page.getByRole('dialog', { name: /Créez vos marionnettes|Préparez le studio|Relisez, puis jouez/ });
 
 test.beforeEach(async ({ page }) => {
-  await page.goto('/');
+  await page.goto('/#/studio');
 });
 
 test('le bouton « Aide » ouvre le tuto sur sa première étape', async ({ page }) => {

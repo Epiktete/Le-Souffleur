@@ -18,7 +18,7 @@
     {#if detail}
       <p class="secondaire">Identifiant lu dans l’adresse : {detail}</p>
     {/if}
-    <a class="bouton secondaire-bouton" href="#/studio">{t.navigation.retourAccueil}</a>
+    <a class="bouton secondaire-bouton" href="#/banque">{t.navigation.retourAccueil}</a>
   </div>
 </main>
 

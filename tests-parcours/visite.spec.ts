@@ -21,7 +21,7 @@ async function pointeVers(page: Page, zone: string) {
 }
 
 test('à la première visite, les bulles montrent l’accueil dans l’ordre, un clic chacune', async ({ page }) => {
-  await page.goto('/');
+  await page.goto('/#/studio');
   const attendues: [string, string][] = [
     ['cle', 'clé IA'],
     ['marionnette', 'Créez une marionnette'],
@@ -44,7 +44,7 @@ test('à la première visite, les bulles montrent l’accueil dans l’ordre, un
 });
 
 test('le clic qui efface une bulle ne déclenche rien dessous', async ({ page }) => {
-  await page.goto('/');
+  await page.goto('/#/studio');
   await expect(bulle(page)).toContainText('clé IA');
   const bouton = await page.locator('[data-visite="marionnette"]').boundingBox();
   await page.mouse.click(bouton!.x + 10, bouton!.y + 10);
@@ -54,7 +54,7 @@ test('le clic qui efface une bulle ne déclenche rien dessous', async ({ page })
 });
 
 test('Échap termine la visite, le bouton « Aide » garde le tuto complet', async ({ page }) => {
-  await page.goto('/');
+  await page.goto('/#/studio');
   await expect(bulle(page)).toBeVisible();
   await page.keyboard.press('Escape');
   await expect(bulle(page)).toHaveCount(0);
@@ -71,7 +71,7 @@ test('le premier script puis la première lecture ont chacun leurs bulles', asyn
   await page.getByRole('button', { name: 'Enregistrer', exact: true }).click();
   await expect(page.getByText('Enregistré.')).toBeVisible();
 
-  await page.goto('/');
+  await page.goto('/#/studio');
   await expect(bulle(page)).toBeVisible();
   await page.keyboard.press('Escape');
   for (const nom of TROIS_MARIONNETTES) {

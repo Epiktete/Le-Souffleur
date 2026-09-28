@@ -4,7 +4,7 @@ import { expect, test } from '@playwright/test';
 import { carte, creerMarionnette, scene } from './aides';
 
 test.beforeEach(async ({ page }) => {
-  await page.goto('/');
+  await page.goto('/#/studio');
 });
 
 test('la liste des personnages est vide au départ et explique quoi faire', async ({ page }) => {

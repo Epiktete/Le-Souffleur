@@ -50,7 +50,7 @@
   {/if}
 
   <h1>
-    <a href="#/studio">
+    <a href="#/banque">
       <img class="titre" src={titreSouffleur} alt={t.entete.nom} />
     </a>
   </h1>

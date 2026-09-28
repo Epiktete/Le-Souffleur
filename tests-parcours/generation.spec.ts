@@ -18,7 +18,7 @@ async function preparerStudio(page: Page) {
   await page.getByRole('button', { name: 'Enregistrer', exact: true }).click();
   await expect(page.getByText('Enregistré.')).toBeVisible();
 
-  await page.goto('/');
+  await page.goto('/#/studio');
   for (const nom of TROIS_MARIONNETTES) {
     await creerMarionnette(page, nom);
     await page.getByRole('button', { name: `Ajouter ${nom} aux personnages` }).click();
@@ -40,7 +40,7 @@ async function preparerStudioSansScene(page: Page) {
   await page.getByRole('button', { name: 'Enregistrer', exact: true }).click();
   await expect(page.getByText('Enregistré.')).toBeVisible();
 
-  await page.goto('/');
+  await page.goto('/#/studio');
   for (const nom of TROIS_MARIONNETTES) await creerMarionnette(page, nom);
   // Aucune n'est envoyée sur la scène.
   await expect(scene(page)).toContainText('0 / 6');
@@ -487,9 +487,12 @@ test('après avoir lu et joué le spectacle, le studio est prêt pour une nouvel
   await expect(page).toHaveURL(/#\/spectacle\//);
   await page.getByRole('button', { name: 'Jouer' }).click();
   await expect(page).toHaveURL(/\/jouer$/);
-  // Quitter le mode spectacle ramène à l'accueil.
+  // Quitter le mode spectacle ramène à l'accueil — la Contothèque, depuis
+  // le 2026-09-28 —, et l'onglet Studio est à un clic.
   await page.getByRole('button', { name: 'Quitter' }).first().click();
-  await expect(page).toHaveURL(/#\/studio$/);
+  await expect(page).toHaveURL(/#\/banque$/);
+  await page.getByRole('navigation', { name: 'Mode de création' })
+    .getByRole('button', { name: 'Studio' }).click();
 
   // Le studio propose une nouvelle génération, avec les mêmes marionnettes.
   await expect(page.getByText('Votre spectacle est prêt')).toHaveCount(0);
@@ -574,7 +577,7 @@ test('sans aucune marionnette, le bouton dit d’en créer une', async ({ page }
   await page.getByLabel('Mémoriser la clé sur cet appareil').check();
   await page.getByRole('button', { name: 'Enregistrer', exact: true }).click();
   await expect(page.getByText('Enregistré.')).toBeVisible();
-  await page.goto('/');
+  await page.goto('/#/studio');
 
   await expect(page.getByText('Créez d’abord une marionnette')).toBeVisible();
   await expect(page.getByRole('button', { name: 'Générer le script' })).toBeDisabled();

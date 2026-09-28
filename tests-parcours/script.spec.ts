@@ -17,7 +17,7 @@ async function ouvrirUnScript(page: Page) {
   await page.getByRole('button', { name: 'Enregistrer', exact: true }).click();
   await expect(page.getByText('Enregistré.')).toBeVisible();
 
-  await page.goto('/');
+  await page.goto('/#/studio');
   for (const nom of TROIS_MARIONNETTES) {
     await creerMarionnette(page, nom);
     await page.getByRole('button', { name: `Ajouter ${nom} aux personnages` }).click();
@@ -253,7 +253,7 @@ test('ce qu’on tape dans un élément survit à une autre modification du scri
 
 test('la sauvegarde exporte un fichier, puis le réimporte avec un aperçu', async ({ page }) => {
   await ouvrirUnScript(page);
-  await page.goto('/');
+  await page.goto('/#/studio');
 
   await page.getByRole('button', { name: 'Sauvegarde', exact: true }).click();
   const panneau = page.getByRole('dialog', { name: 'Sauvegarde' });

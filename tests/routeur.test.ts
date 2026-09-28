@@ -3,14 +3,16 @@ import { describe, expect, it } from 'vitest';
 import { analyserFragment, fragmentDe, type Route } from '../src/services/routeur';
 
 describe('analyserFragment', () => {
-  it('renvoie l’accueil pour un fragment vide ou pour le studio', () => {
-    for (const f of ['', '#', '#/', '#/studio', '/studio', 'studio', '#/studio/']) {
-      expect(analyserFragment(f)).toEqual({ nom: 'accueil', mode: 'studio' });
+  it('sans fragment, l’accueil est la Contothèque (décision du 2026-09-28)', () => {
+    for (const f of ['', '#', '#/', '#/banque', '/banque', 'banque']) {
+      expect(analyserFragment(f)).toEqual({ nom: 'accueil', mode: 'banque' });
     }
   });
 
-  it('reconnaît le mode banque de l’accueil', () => {
-    expect(analyserFragment('#/banque')).toEqual({ nom: 'accueil', mode: 'banque' });
+  it('reconnaît le mode studio de l’accueil', () => {
+    for (const f of ['#/studio', '/studio', 'studio', '#/studio/']) {
+      expect(analyserFragment(f)).toEqual({ nom: 'accueil', mode: 'studio' });
+    }
   });
 
   it('reconnaît l’écran de script d’un spectacle', () => {

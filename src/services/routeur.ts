@@ -24,8 +24,9 @@ export type Route =
 export function analyserFragment(fragment: string): Route {
   // On accepte « #/studio », « /studio » ou « studio ».
   const chemin = fragment.replace(/^#/, '').replace(/^\/+/, '').replace(/\/+$/, '');
-  if (chemin === '' || chemin === 'studio') return { nom: 'accueil', mode: 'studio' };
-  if (chemin === 'banque') return { nom: 'accueil', mode: 'banque' };
+  // Sans fragment, l'accueil est la CONTOTHÈQUE (décision du 2026-09-28).
+  if (chemin === '' || chemin === 'banque') return { nom: 'accueil', mode: 'banque' };
+  if (chemin === 'studio') return { nom: 'accueil', mode: 'studio' };
   if (chemin === 'parametres') return { nom: 'parametres' };
 
   const morceaux = chemin.split('/');

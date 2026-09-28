@@ -6,7 +6,7 @@ import { expect, test } from '@playwright/test';
 import { carte } from './aides';
 
 test.beforeEach(async ({ page }) => {
-  await page.goto('/');
+  await page.goto('/#/studio');
 });
 
 test('aucun appel réseau vers l’extérieur au chargement', async ({ page }) => {

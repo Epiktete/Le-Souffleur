@@ -16,7 +16,7 @@ async function ouvrirLaLecture(page: Page) {
   await page.getByRole('button', { name: 'Enregistrer', exact: true }).click();
   await expect(page.getByText('Enregistré.')).toBeVisible();
 
-  await page.goto('/');
+  await page.goto('/#/studio');
   for (const nom of TROIS_MARIONNETTES) {
     await creerMarionnette(page, nom);
     await page.getByRole('button', { name: `Ajouter ${nom} aux personnages` }).click();

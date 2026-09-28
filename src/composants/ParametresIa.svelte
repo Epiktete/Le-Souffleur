@@ -74,7 +74,7 @@
 <main>
   <div class="entete">
     <h2>{ti.titre}</h2>
-    <a class="bouton secondaire-bouton" href="#/studio">{t.navigation.retourAccueil}</a>
+    <a class="bouton secondaire-bouton" href="#/banque">{t.navigation.retourAccueil}</a>
   </div>
 
   <!-- Fournisseur -->

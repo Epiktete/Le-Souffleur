@@ -32,16 +32,20 @@ function ficheChaperon(page: Page) {
     .getByRole('button', { name: /Le Petit Chaperon rouge/ });
 }
 
-test('la Contothèque est à gauche, le Studio à droite, et le bouton retour rebascule', async ({ page }) => {
+test('la Contothèque est le mode d’accueil, le Studio à droite, le retour rebascule', async ({ page }) => {
   const onglets = page.getByRole('navigation', { name: 'Mode de création' });
   await expect(onglets.getByRole('button').first()).toHaveText('Contothèque');
   await expect(onglets.getByRole('button').last()).toHaveText('Studio');
 
-  await ouvrirContotheque(page);
-  await expect(page).toHaveURL(/#\/banque$/);
+  // Sans fragment, on arrive sur la Contothèque (décision du 2026-09-28).
+  await expect(onglets.getByRole('button', { name: 'Contothèque' }))
+    .toHaveAttribute('aria-current', 'page');
+
+  await onglets.getByRole('button', { name: 'Studio' }).click();
+  await expect(page).toHaveURL(/#\/studio$/);
   await page.goBack();
-  // L'adresse de départ n'a pas de fragment : on vérifie le mode, pas l'URL.
-  await expect(onglets.getByRole('button', { name: 'Studio' })).toHaveAttribute('aria-current', 'page');
+  await expect(onglets.getByRole('button', { name: 'Contothèque' }))
+    .toHaveAttribute('aria-current', 'page');
 });
 
 test('les fiches s’affichent selon les filtres, et les écartés sont comptés', async ({ page }) => {
