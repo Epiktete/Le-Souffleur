@@ -134,6 +134,10 @@ export const tb = {
   champDescription: 'Description',
   champDescriptionAide:
     'Apparence, espèce, taille. Ex. : « Petit lapin en peluche beige, oreilles tombantes, écharpe rouge. »',
+  champGenre: 'Dans les histoires, on dit…',
+  champGenreAide: 'Facultatif. « Il » ou « elle » pour parler de cette marionnette ; recliquez pour effacer.',
+  genreIl: 'il',
+  genreElle: 'elle',
   champTraits: 'Traits de caractère',
   champTraitsAide: 'Facultatif, 6 au maximum. Cliquez pour choisir, ou ajoutez le vôtre.',
   champTraitLibre: 'Ajouter un trait',

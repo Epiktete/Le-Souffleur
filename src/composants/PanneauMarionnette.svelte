@@ -27,6 +27,8 @@
   let description = $state(marionnette.description);
   // svelte-ignore state_referenced_locally
   let traits = $state([...marionnette.traits]);
+  // svelte-ignore state_referenced_locally
+  let genre = $state<Marionnette['genre']>(marionnette.genre);
 
   let traitLibre = $state('');
   let erreurs = $state<ErreursSaisie>({});
@@ -78,6 +80,7 @@
       nom: nom.trim(),
       description: description.trim(),
       traits,
+      genre,
     });
     enregistrement = false;
     if (!ok) erreurEnregistrement = tb.erreurs.enregistrementImpossible;
@@ -131,6 +134,24 @@
           {tb.compteur(description.length, BORNES.descriptionMarionnette.max)}
         </p>
         {#if erreurs.description}<p class="erreur" role="alert">{erreurs.description}</p>{/if}
+      </div>
+
+      <!-- Genre grammatical : « il » ou « elle » dans les histoires (CDC §7,
+           chantier « la banque »). Facultatif, et effaçable d'un reclic. -->
+      <div class="champ">
+        <span class="mono">{tb.champGenre}</span>
+        <p class="aide">{tb.champGenreAide}</p>
+        <div class="puces">
+          {#each ([['masculin', tb.genreIl], ['feminin', tb.genreElle]] as const) as [valeur, libelle] (valeur)}
+            <button
+              type="button"
+              class="puce"
+              class:choisi={genre === valeur}
+              aria-pressed={genre === valeur}
+              onclick={() => (genre = genre === valeur ? undefined : valeur)}
+            >{libelle}</button>
+          {/each}
+        </div>
       </div>
 
       <!-- Traits : puces cliquables, 6 au maximum -->

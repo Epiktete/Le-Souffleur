@@ -14,6 +14,13 @@ export interface Marionnette {
   description: string;
   /** 1 à 6 traits, issus de la liste proposée ou libres. */
   traits: string[];
+  /**
+   * « Il » ou « elle » dans les histoires (ajouté le 2026-09-28, chantier
+   * « la banque »). Facultatif : absent, l'outil essaie de le deviner du nom
+   * et de la description, et demande à l'écran de distribution en dernier
+   * recours.
+   */
+  genre?: 'masculin' | 'feminin';
   creeLe: string;
   modifieLe: string;
 }

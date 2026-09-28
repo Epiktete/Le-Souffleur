@@ -229,12 +229,14 @@ const MOTS_MASCULINS = new Set([
 /**
  * Le genre grammatical d'une marionnette, ou null quand rien ne le dit.
  *
- * Le nom l'emporte sur la description, et un mot au genre sûr l'emporte sur
+ * Le genre DÉCLARÉ à la création l'emporte sur tout. À défaut, le nom
+ * l'emporte sur la description, et un mot au genre sûr l'emporte sur
  * l'article : « Une grosse ourse » est féminin par « ourse » avant de l'être
  * par « une ». En dernier recours, le premier article de la description
  * tranche — les fiches commencent presque toutes par « Un … » ou « Une … ».
  */
-export function genreMarionnette(m: Pick<Marionnette, 'nom' | 'description'>): Genre | null {
+export function genreMarionnette(m: Pick<Marionnette, 'nom' | 'description' | 'genre'>): Genre | null {
+  if (m.genre) return m.genre;
   for (const texte of [m.nom, m.description]) {
     for (const mot of motsDe(texte)) {
       if (MOTS_FEMININS.has(mot)) return 'feminin';

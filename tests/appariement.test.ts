@@ -174,6 +174,13 @@ describe('genreMarionnette', () => {
   it('répond null quand rien ne le dit, plutôt que de deviner', () => {
     expect(genreMarionnette({ nom: 'Zig', description: '' })).toBe(null);
   });
+
+  it('le genre déclaré à la création l’emporte sur tout', () => {
+    // Un ours en peluche dont la famille dit « elle » : la famille a raison.
+    expect(genreMarionnette({
+      nom: 'Grand Ours', description: 'Un ours brun massif.', genre: 'feminin',
+    })).toBe('feminin');
+  });
 });
 
 describe('conteDeSignature', () => {
