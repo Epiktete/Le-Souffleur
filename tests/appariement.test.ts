@@ -1,6 +1,11 @@
 // L'appariement du mode Banque : les filtres et le pseudo-conte (CDC §7).
 import { describe, expect, it } from 'vitest';
-import { evaluerModele, conteDeSignature, type ReglagesFiltre } from '../src/services/appariement';
+import {
+  attributionPermise,
+  conteDeSignature,
+  evaluerModele,
+  type ReglagesFiltre,
+} from '../src/services/appariement';
 import type { SignatureModele } from '../src/services/banque';
 import type { Marionnette } from '../src/types';
 
@@ -49,8 +54,12 @@ describe('evaluerModele', () => {
     const e = evaluerModele(signature(), TROUPE, REGLAGES, OPTIONS);
     expect(e.ecarts).toEqual([]);
     expect(e.distribution).not.toBeNull();
-    // La souris… pardon : chaque peluche sur le rôle qui lui ressemble.
-    expect(e.distribution!.map((a) => a.marionnetteNom)).toEqual(['Rosette', 'Grognard', 'Mamie Rose']);
+    // Chaque peluche sur le rôle qui lui ressemble, dans l'ordre r1, r2, r3.
+    expect(e.distribution).toEqual([
+      { cle: 'r1', marionnetteId: 'rosette' },
+      { cle: 'r2', marionnetteId: 'grognard' },
+      { cle: 'r3', marionnetteId: 'mamie-rose' },
+    ]);
   });
 
   it('écarte un spectacle trop long, la tolérance de 20 % comprise', () => {
@@ -124,6 +133,18 @@ describe('evaluerModele', () => {
     );
     expect(e.ecarts).toContain('age');
     expect(e.ecarts).toContain('duree');
+  });
+});
+
+describe('attributionPermise', () => {
+  it('refuse la bête douce sur le prédateur, accepte le loup', () => {
+    const role = { cle: 'r1', espece: 'loup', famille: 'predateur' as const, traits: ['méchant'] };
+    expect(attributionPermise(
+      peluche('Mémé Tortue', 'Une tortue verte à la carapace molle.'), role,
+    )).toBe(false);
+    expect(attributionPermise(
+      peluche('Grognard', 'Un loup en peluche grise.'), role,
+    )).toBe(true);
   });
 });
 

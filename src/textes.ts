@@ -248,6 +248,19 @@ export const tba = {
     relacherDuree: (min: number) => `Le plus court fait ${min} min : allongez la durée.`,
     relacherAge: (ans: number) => `Le premier se joue dès ${ans} ans : montez l’âge.`,
   },
+  /** L'écran de distribution : qui joue qui (CDC §7). */
+  distribution: {
+    titre: 'Qui joue qui ?',
+    aide: 'La distribution est proposée ; changez qui vous voulez. Choisir une marionnette déjà prise échange les deux rôles.',
+    role: (espece: string) => `Le rôle : ${espece}`,
+    voix: 'Voix',
+    choisir: (roleEspece: string) => `Marionnette pour le rôle « ${roleEspece} »`,
+    /** Un interdit bloque la création, et se dit (même règle que le générateur). */
+    interdit: (nomMarionnette: string, roleEspece: string) =>
+      `${nomMarionnette} ne peut pas jouer ${roleEspece} : une petite bête douce ne porte ni la menace ni la taille du rôle.`,
+    interditBloque: 'Corrigez la distribution : un rôle est mal attribué.',
+    retour: 'Revenir aux spectacles',
+  },
 } as const;
 
 /** Textes des paramètres IA et du test de connexion (CDC §5 et §10). */

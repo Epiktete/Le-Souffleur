@@ -10,11 +10,18 @@
   // rien n'est écarté en silence.
   import Scene from './Scene.svelte';
   import ReglagesStudio from './ReglagesStudio.svelte';
+  import DistributionBanque from './DistributionBanque.svelte';
   import { tba } from '../textes';
+  import type { Marionnette } from '../types';
   import { studio } from '../etat/studio.svelte';
   import { bibliotheque } from '../etat/bibliotheque.svelte';
   import { signatures, type SignatureModele } from '../services/banque';
-  import { evaluerModeles, type Ecart } from '../services/appariement';
+  import {
+    evaluerModeles,
+    type AttributionBanque,
+    type Ecart,
+    type ModeleEvalue,
+  } from '../services/appariement';
   import { lireModelesJoues } from '../services/historiqueBanque';
   import { conteParId, essenceDuConte } from '../services/repertoire';
   import { formaterDuree } from '../services/duree';
@@ -94,6 +101,26 @@
     return '';
   });
 
+  /**
+   * La fiche choisie, figée au clic : l'évaluation et la troupe du moment.
+   * Les réglages restent modifiables au-dessus, mais ils ne retirent pas
+   * l'écran sous les pieds du parent ; le retour rend la liste, à jour.
+   */
+  let choisi = $state<{ evalue: ModeleEvalue; troupe: Marionnette[] } | null>(null);
+
+  /** La distribution courante de l'écran de retouche ; null si un interdit. */
+  let distributionCourante = $state<AttributionBanque[] | null>(null);
+
+  function choisirFiche(e: ModeleEvalue) {
+    choisi = { evalue: e, troupe: [...troupe] };
+    distributionCourante = e.distribution;
+  }
+
+  function fermerFiche() {
+    choisi = null;
+    distributionCourante = null;
+  }
+
   /** Le synopsis d'une fiche : l'Essence du conte d'origine (CDC §7). */
   function essence(f: SignatureModele): string {
     const conte = conteParId(f.conteId);
@@ -117,7 +144,34 @@
 
   <ReglagesStudio />
 
-  {#if fiches.length === 0}
+  {#if choisi}
+    {@const f = choisi.evalue.signature}
+    <div class="boite fiche choisie">
+      <h3>{f.titre}</h3>
+      <p class="meta mono">
+        {formaterDuree(f.dureeEstimeeSecondes)}
+        · {tba.fiche.age(f.ageAuditoire)}
+        · {tba.fiche.personnages(f.roles.length)}
+        · {tba.fiche.marionnettistes(f.nbMarionnettistes)}
+      </p>
+      {#if essence(f)}
+        <p class="essence">{essence(f)}</p>
+      {/if}
+      {#if dApres(f)}
+        <p class="dapres">{dApres(f)}</p>
+      {/if}
+    </div>
+
+    {#if choisi.evalue.distribution}
+      <DistributionBanque
+        signature={f}
+        troupe={choisi.troupe}
+        graine={choisi.evalue.distribution}
+        surRetour={fermerFiche}
+        surChangement={(d) => (distributionCourante = d)}
+      />
+    {/if}
+  {:else if fiches.length === 0}
     <p class="aide" role="status">{tba.fondsVide}</p>
   {:else}
     <p class="aide" role="status">{tba.intro(fiches.length)}</p>
@@ -131,30 +185,33 @@
       <ul class="fiches">
         {#each jouables as e (e.signature.id)}
           {@const f = e.signature}
-          <li class="boite fiche">
-            <h3>{f.titre}</h3>
-            <p class="meta mono">
-              {formaterDuree(f.dureeEstimeeSecondes)}
-              · {tba.fiche.age(f.ageAuditoire)}
-              · {tba.fiche.personnages(f.roles.length)}
-              · {tba.fiche.marionnettistes(f.nbMarionnettistes)}
-            </p>
-            {#if essence(f)}
-              <p class="essence">{essence(f)}</p>
-            {/if}
-            <ul class="roles">
-              {#each f.roles as role (role.cle)}
-                <li>
-                  <span class="role-nom">{nomRole(role)}</span>
-                  {#if role.traits.length > 0}
-                    <span class="role-traits">— {role.traits.join(', ')}</span>
-                  {/if}
-                </li>
-              {/each}
-            </ul>
-            {#if dApres(f)}
-              <p class="dapres">{dApres(f)}</p>
-            {/if}
+          <li>
+            <!-- Toute la fiche est le bouton : un clic mène à la distribution. -->
+            <button type="button" class="boite fiche" onclick={() => choisirFiche(e)}>
+              <h3>{f.titre}</h3>
+              <p class="meta mono">
+                {formaterDuree(f.dureeEstimeeSecondes)}
+                · {tba.fiche.age(f.ageAuditoire)}
+                · {tba.fiche.personnages(f.roles.length)}
+                · {tba.fiche.marionnettistes(f.nbMarionnettistes)}
+              </p>
+              {#if essence(f)}
+                <p class="essence">{essence(f)}</p>
+              {/if}
+              <ul class="roles">
+                {#each f.roles as role (role.cle)}
+                  <li>
+                    <span class="role-nom">{nomRole(role)}</span>
+                    {#if role.traits.length > 0}
+                      <span class="role-traits">— {role.traits.join(', ')}</span>
+                    {/if}
+                  </li>
+                {/each}
+              </ul>
+              {#if dApres(f)}
+                <p class="dapres">{dApres(f)}</p>
+              {/if}
+            </button>
           </li>
         {/each}
       </ul>
@@ -184,6 +241,17 @@
 
   .fiche { padding: 12px 14px; }
   .fiche h3 { margin: 0 0 4px; font-size: 16px; }
+
+  /* La fiche-bouton garde l'allure d'une boîte, pas d'un bouton d'action. */
+  button.fiche {
+    display: block;
+    width: 100%;
+    text-align: left;
+    font: inherit;
+    letter-spacing: normal;
+    text-transform: none;
+    cursor: pointer;
+  }
 
   .meta { font-size: 11px; color: var(--encre2); margin: 0 0 8px; }
 

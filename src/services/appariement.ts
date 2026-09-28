@@ -14,8 +14,12 @@ import type { Marionnette } from '../types';
 import type { Conte, RoleConte } from './repertoire';
 import type { SignatureModele } from './banque';
 import {
+  compatibiliteEspece,
+  especeMarionnette,
+  familleRole,
+  INTERDIT,
   meilleureDistribution,
-  type Attribution,
+  tailleIncompatible,
   type Famille,
 } from './choixContes';
 
@@ -44,15 +48,22 @@ export type Ecart =
   /** Aucune distribution sans couple interdit n'existe. */
   | 'distribution';
 
+/** Qui tient un rôle du modèle : la clé du rôle, la marionnette dessus. */
+export interface AttributionBanque {
+  cle: string;
+  marionnetteId: string;
+}
+
 /** Une signature évaluée : jouable avec sa distribution, ou écartée et dite. */
 export interface ModeleEvalue {
   signature: SignatureModele;
   ecarts: Ecart[];
   /**
-   * La meilleure distribution, dans l'ordre des rôles (r1, r2…) : la graine
-   * de l'écran de distribution. Null quand le spectacle est écarté.
+   * La meilleure distribution, DANS L'ORDRE DES RÔLES (r1, r2…) — l'ordre
+   * qu'exige `peupler` — : la graine de l'écran de distribution. Null quand
+   * le spectacle est écarté.
    */
-  distribution: Attribution[] | null;
+  distribution: AttributionBanque[] | null;
 }
 
 /* ------------------------------------------------------------------ */
@@ -146,12 +157,41 @@ export function evaluerModele(
 
   if (ecarts.length > 0) return { signature: s, ecarts, distribution: null };
 
-  const distribution = meilleureDistribution(troupe, conteDeSignature(s), {
+  const conte = conteDeSignature(s);
+  const attributions = meilleureDistribution(troupe, conte, {
     facultatives: options.facultatives,
   });
-  if (!distribution) return { signature: s, ecarts: ['distribution'], distribution: null };
+  if (!attributions) return { signature: s, ecarts: ['distribution'], distribution: null };
 
-  return { signature: s, ecarts: [], distribution };
+  // De l'ordre des marionnettes à l'ordre des rôles. Les rôles du pseudo-conte
+  // sont comparés par référence : deux rôles de même espèce (les deux sœurs
+  // des Fées) restent distincts.
+  const distribution = conte.roles.map((role, k): AttributionBanque | null => {
+    const a = attributions.find((x) => x.role === role);
+    return a ? { cle: s.roles[k].cle, marionnetteId: a.marionnetteId } : null;
+  });
+  if (distribution.some((d) => d === null)) {
+    // Tous les rôles d'un modèle sont exigés : ne peut pas arriver, mais un
+    // rôle sans marionnette ferait planter `peupler` — on écarte proprement.
+    return { signature: s, ecarts: ['distribution'], distribution: null };
+  }
+
+  return { signature: s, ecarts: [], distribution: distribution as AttributionBanque[] };
+}
+
+/**
+ * Cette marionnette peut-elle tenir ce rôle du fonds ? Le même juge que le
+ * générateur (couples interdits, taille), pour la retouche manuelle de
+ * l'écran de distribution.
+ */
+export function attributionPermise(
+  marionnette: Pick<Marionnette, 'nom' | 'description'>,
+  role: RoleSignature,
+): boolean {
+  const espece = especeMarionnette(marionnette);
+  const roleConte = roleConteDe(role);
+  if (compatibiliteEspece(espece, familleRole(roleConte)) === INTERDIT) return false;
+  return !tailleIncompatible(espece, roleConte);
 }
 
 /** Évalue tout le fonds. L'ordre d'entrée est conservé. */
