@@ -1007,38 +1007,57 @@ ${problemes}`,
 }
 
 /**
- * La retouche d'accords du mode Banque (CDC §7, « La création »).
+ * L'annotation d'un modèle du fonds (chantier « la banque », décision du
+ * 2026-09-28 : le LLM travaille UNE FOIS, hors ligne, jamais à la création).
  *
- * Un spectacle du fonds a été écrit pour d'autres marionnettes : quand le
- * genre grammatical ou l'espèce citée changent, les accords du texte joué
- * doivent suivre. Le modèle rend une LISTE DE REMPLACEMENTS, jamais le texte
- * entier : chaque « avant » est vérifié dans la ligne visée avant d'être
- * appliqué, et un seul introuvable fait refuser toute la retouche.
+ * Utilisé par le banc (banc/annoter.banc.ts) seulement. Pour chaque rôle, le
+ * modèle rend la liste de remplacements qui bascule tout ce qui s'accorde
+ * avec ce personnage vers L'AUTRE genre grammatical ; et il classe les
+ * adresses au public de la plus précieuse à la plus retranchable. Le code
+ * vérifie chaque extrait avant d'écrire quoi que ce soit dans le fonds.
  */
-export function promptRetoucheAccords(
-  /** Les personnages qui changent, décrits en français. */
-  changements: string[],
+export function promptAnnotationModele(
+  /** Les rôles : clé, genre actuel s'il est connu, espèce. */
+  roles: { cle: string; genre: string | null; espece: string | null }[],
   /** Le texte joué, une ligne par chaîne, chacune avec son identifiant. */
   lignes: { id: string; texte: string }[],
+  /** Les identifiants des adresses au public, dans l'ordre du spectacle. */
+  interactions: string[],
 ) {
   return {
     system: `Tu es correcteur de français pour un théâtre de marionnettes.
-Un spectacle déjà écrit change de distribution : certains personnages changent
-de genre grammatical, parfois d'espèce. Ta seule mission : corriger les accords
-et les mots qui ne conviennent plus (articles, adjectifs, participes, pronoms,
-mots d'espèce), sans rien réécrire d'autre. Ne touche ni au style, ni à
-l'histoire, ni aux répliques qui restent justes.
+Un spectacle est écrit avec des variables {{r1}}, {{r2}}… à la place des noms
+des personnages : chaque famille y mettra les noms de ses propres peluches, et
+le personnage {{r1}} pourra donc devenir masculin ou féminin.
+
+Deux missions, et rien d'autre :
+
+1. ACCORDS. Pour chaque personnage, relève TOUT ce qui s'accorde avec lui dans
+le texte (articles, adjectifs, participes, pronoms « il/elle », mots genrés
+comme « ce coquin »/« cette coquine ») et donne les remplacements qui le font
+passer à L'AUTRE genre que son genre actuel. Si son genre actuel n'est pas
+donné, déduis-le du texte et indique-le.
+
+2. INTERACTIONS. Classe les adresses au public de la plus précieuse à la plus
+retranchable : celles qu'on garde en premier quand le parent réduit
+l'interaction. Chacune doit pouvoir être supprimée telle quelle sans casser la
+suite du texte ; classe en dernier celles qui se retirent le plus facilement.
 
 Tu réponds UNIQUEMENT par un objet JSON de cette forme, sans texte autour :
-{"remplacements": [{"id": "L3", "avant": "extrait exact de la ligne", "apres": "extrait corrigé"}]}
+{"accords": [{"cle": "r1", "genreActuel": "masculin", "remplacements": [{"id": "a1e2:texte", "avant": "extrait exact", "apres": "extrait corrigé"}]}],
+ "interactions": ["a2e5", "a1e9"]}
 
 Règles :
 - « avant » est recopié EXACTEMENT depuis la ligne visée (accents, majuscules,
-  ponctuation compris), le plus court possible mais sans ambiguïté ;
-- un remplacement par retouche : ne regroupe pas deux corrections éloignées ;
-- aucune ligne à corriger → {"remplacements": []}.`,
-    user: `Les personnages qui changent :
-${changements.map((c) => `- ${c}`).join('\n')}
+  ponctuation compris), le plus court possible mais sans ambiguïté dans cette
+  ligne ; « apres » ne change que ce qui doit changer ;
+- un remplacement par correction : ne regroupe pas deux corrections éloignées ;
+- n'invente aucun identifiant : ceux des lignes et des interactions sont donnés ;
+- un personnage sans rien à accorder → "remplacements": [].`,
+    user: `Les personnages :
+${roles.map((r) => `- ${r.cle}${r.espece ? ` (${r.espece})` : ''} : genre actuel ${r.genre ?? 'à déduire du texte'}`).join('\n')}
+
+Les adresses au public, dans l'ordre du spectacle : ${interactions.join(', ') || 'aucune'}
 
 Le texte joué :
 ${lignes.map((l) => `[${l.id}] ${l.texte}`).join('\n')}`,

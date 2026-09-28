@@ -14,7 +14,167 @@
         "gentil"
       ],
       "voix": "voix moyenne et bonhomme, un peu lente, dit « ma foi » quand il est content ou embarrassé",
-      "genre": "masculin"
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "au bûcheron",
+            "apres": "à la bûcheronne"
+          },
+          {
+            "id": "voix:r1",
+            "avant": "quand il est content ou embarrassé",
+            "apres": "quand elle est contente ou embarrassée"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "vie de bûcheron",
+            "apres": "vie de bûcheronne"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "un pauvre bûcheron nommé",
+            "apres": "une pauvre bûcheronne nommée"
+          },
+          {
+            "id": "a1e2:texte",
+            "avant": "il posa",
+            "apres": "elle posa"
+          },
+          {
+            "id": "a1e5:ton",
+            "avant": "fatigué",
+            "apres": "fatiguée"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "avait-il",
+            "apres": "avait-elle"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "devant lui",
+            "apres": "devant elle"
+          },
+          {
+            "id": "a1e12:texte",
+            "avant": "couché",
+            "apres": "couchée"
+          },
+          {
+            "id": "a1e17:texte",
+            "avant": "heureux",
+            "apres": "heureuse"
+          },
+          {
+            "id": "a1e17:ton",
+            "avant": "vers lui",
+            "apres": "vers elle"
+          },
+          {
+            "id": "a1e21:texte",
+            "avant": "tout joyeux",
+            "apres": "toute joyeuse"
+          },
+          {
+            "id": "a1e21:texte",
+            "avant": "chez lui",
+            "apres": "chez elle"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "il souhaite",
+            "apres": "elle souhaite"
+          },
+          {
+            "id": "a2e6:ton",
+            "avant": "très joyeux",
+            "apres": "très joyeuse"
+          },
+          {
+            "id": "a2e9:ton",
+            "avant": "content",
+            "apres": "contente"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "Le voilà assis",
+            "apres": "La voilà assise"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "il dit",
+            "apres": "elle dit"
+          },
+          {
+            "id": "a2e12:ton",
+            "avant": "gourmand",
+            "apres": "gourmande"
+          },
+          {
+            "id": "a2e13:texte",
+            "avant": "sans qu'il la regarde",
+            "apres": "sans qu'elle la regarde"
+          },
+          {
+            "id": "a2e15:texte",
+            "avant": "Il n'avait",
+            "apres": "Elle n'avait"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "ils mangent",
+            "apres": "elles mangent"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "de lui",
+            "apres": "d'elle"
+          },
+          {
+            "id": "a3e4:texte",
+            "avant": "Malheureux",
+            "apres": "Malheureuse"
+          },
+          {
+            "id": "a3e6:ton",
+            "avant": "tout penaud",
+            "apres": "toute penaude"
+          },
+          {
+            "id": "a3e26:texte",
+            "avant": "il pouvait",
+            "apres": "elle pouvait"
+          },
+          {
+            "id": "a3e30:texte",
+            "avant": "bien droit",
+            "apres": "bien droite"
+          },
+          {
+            "id": "a3e33:texte",
+            "avant": "l'un de l'autre",
+            "apres": "l'une de l'autre"
+          },
+          {
+            "id": "a3e34:texte",
+            "avant": "Ils ne furent ni rois",
+            "apres": "Elles ne furent ni reines"
+          },
+          {
+            "id": "a3e35:texte",
+            "avant": "qu'ils mangèrent",
+            "apres": "qu'elles mangèrent"
+          },
+          {
+            "id": "a3e35:texte",
+            "avant": "ce qu'il souhaitait",
+            "apres": "ce qu'elle souhaitait"
+          }
+        ]
+      }
     },
     {
       "cle": "r2",
@@ -26,7 +186,72 @@
         "sage"
       ],
       "voix": "voix aiguë qui parle très vite sans reprendre son souffle, commence ses colères par « Ah ça ! »",
-      "genre": "feminin"
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a2e3:texte",
+            "avant": "Ma femme",
+            "apres": "Mon mari"
+          },
+          {
+            "id": "a2e8:ton",
+            "avant": "sérieuse",
+            "apres": "sérieux"
+          },
+          {
+            "id": "a2e15:texte",
+            "avant": "vers elle",
+            "apres": "vers lui"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "d'elle une reine",
+            "apres": "de lui un roi"
+          },
+          {
+            "id": "a3e2:texte",
+            "avant": "elle se fâcha",
+            "apres": "il se fâcha"
+          },
+          {
+            "id": "a3e4:ton",
+            "avant": "fâchée",
+            "apres": "fâché"
+          },
+          {
+            "id": "a3e9:texte",
+            "avant": "Elle criait",
+            "apres": "Il criait"
+          },
+          {
+            "id": "a3e14:texte",
+            "avant": "si elle secoue",
+            "apres": "s'il secoue"
+          },
+          {
+            "id": "a3e26:texte",
+            "avant": "une reine",
+            "apres": "un roi"
+          },
+          {
+            "id": "a3e28:texte",
+            "avant": "être reine",
+            "apres": "être roi"
+          },
+          {
+            "id": "a3e28:texte",
+            "avant": "rester bûcheronne",
+            "apres": "rester bûcheron"
+          },
+          {
+            "id": "a3e31:texte",
+            "avant": "ma {{r2}}",
+            "apres": "mon {{r2}}"
+          }
+        ]
+      }
     },
     {
       "cle": "r3",
@@ -37,7 +262,27 @@
         "farceur"
       ],
       "voix": "voix très grave et solennelle, qui roule les « r » et finit ses phrases par un petit rire « ho ho »",
-      "genre": "masculin"
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e9:texte",
+            "avant": "lui-même",
+            "apres": "elle-même"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "bien droit",
+            "apres": "bien droite"
+          },
+          {
+            "id": "a1e17:ton",
+            "avant": "sérieux",
+            "apres": "sérieuse"
+          }
+        ]
+      }
     }
   ],
   "parametres": {
@@ -805,5 +1050,9 @@
       ]
     }
   },
-  "dureeEstimeeSecondes": 393
+  "dureeEstimeeSecondes": 393,
+  "interactionsOrdonnees": [
+    "a3e23",
+    "a2e17"
+  ]
 }

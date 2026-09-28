@@ -13,7 +13,152 @@
         "gentil"
       ],
       "voix": "voix claire et vive, parle vite et avec entrain",
-      "genre": "feminin"
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "mais elle raconte",
+            "apres": "mais il raconte"
+          },
+          {
+            "id": "pitch",
+            "avant": "avant elle.",
+            "apres": "avant lui."
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "une petite fille de village",
+            "apres": "un petit garçon de village"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "la plus éveillée qu’on ait jamais vue",
+            "apres": "le plus éveillé qu’on ait jamais vu"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "sur elle-même",
+            "apres": "sur lui-même"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "toute fière",
+            "apres": "tout fier"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "elle rencontra",
+            "apres": "il rencontra"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "de la manger",
+            "apres": "de le manger"
+          },
+          {
+            "id": "a1e12:texte",
+            "avant": "vers elle.",
+            "apres": "vers lui."
+          },
+          {
+            "id": "a1e14:texte",
+            "avant": "Bonjour, petite.",
+            "apres": "Bonjour, petit."
+          },
+          {
+            "id": "a1e15:texte",
+            "avant": "La pauvre enfant",
+            "apres": "Le pauvre enfant"
+          },
+          {
+            "id": "a1e16:ton",
+            "avant": "toute contente",
+            "apres": "tout content"
+          },
+          {
+            "id": "a1e24:texte",
+            "avant": "reste tournée",
+            "apres": "reste tourné"
+          },
+          {
+            "id": "a1e32:texte",
+            "avant": "recompte seule",
+            "apres": "recompte seul"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "votre fille",
+            "apres": "votre fils"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "bien vivantes",
+            "apres": "bien vivants"
+          },
+          {
+            "id": "a3e7:texte",
+            "avant": "votre fille",
+            "apres": "votre fils"
+          },
+          {
+            "id": "a3e13:texte",
+            "avant": "elle fut bien étonnée",
+            "apres": "il fut bien étonné"
+          },
+          {
+            "id": "a3e14:texte",
+            "avant": "avec elle",
+            "apres": "avec lui"
+          },
+          {
+            "id": "a3e15:ton",
+            "avant": "étonnée",
+            "apres": "étonné"
+          },
+          {
+            "id": "a3e16:texte",
+            "avant": "ma fille",
+            "apres": "mon garçon"
+          },
+          {
+            "id": "a3e17:ton",
+            "avant": "étonnée",
+            "apres": "étonné"
+          },
+          {
+            "id": "a3e22:ton",
+            "avant": "un peu inquiète",
+            "apres": "un peu inquiet"
+          },
+          {
+            "id": "a3e27:texte",
+            "avant": "et la mangea",
+            "apres": "et le mangea"
+          },
+          {
+            "id": "a3e37:texte",
+            "avant": "tout étourdies, mais bien vivantes",
+            "apres": "tout étourdis, mais bien vivants"
+          },
+          {
+            "id": "a3e44:ton",
+            "avant": "toute joyeuse",
+            "apres": "tout joyeux"
+          },
+          {
+            "id": "a3e45:texte",
+            "avant": "Ma {{r1}}",
+            "apres": "Mon {{r1}}"
+          },
+          {
+            "id": "a3e46:texte",
+            "avant": "l'une contre l'autre",
+            "apres": "l'un contre l'autre"
+          }
+        ]
+      }
     },
     {
       "cle": "r2",
@@ -24,7 +169,162 @@
         "gourmand"
       ],
       "voix": "voix grave et râpeuse, parle en grognant et se lèche les babines, « miam » ; il fait une petite voix aiguë et fausse quand il imite {{r1}} ou {{r3}}",
-      "genre": "masculin"
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "au loup {{r2}}",
+            "apres": "à la louve {{r2}}"
+          },
+          {
+            "id": "voix:r2",
+            "avant": "il fait",
+            "apres": "elle fait"
+          },
+          {
+            "id": "voix:r2",
+            "avant": "quand il imite",
+            "apres": "quand elle imite"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "et il lui propose",
+            "apres": "et elle lui propose"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "il prend",
+            "apres": "elle prend"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "compère",
+            "apres": "commère"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "il n’osa",
+            "apres": "elle n’osa"
+          },
+          {
+            "id": "a1e14:ton",
+            "avant": "doux et mielleux, trop gentil",
+            "apres": "douce et mielleuse, trop gentille"
+          },
+          {
+            "id": "a1e21:ton",
+            "avant": "gai,",
+            "apres": "gaie,"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "arrive le premier",
+            "apres": "arrive la première"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "Il mange",
+            "apres": "Elle mange"
+          },
+          {
+            "id": "a2e18:texte",
+            "avant": "Il se jeta",
+            "apres": "Elle se jeta"
+          },
+          {
+            "id": "a2e18:texte",
+            "avant": "qu'il n'avait mangé",
+            "apres": "qu'elle n'avait mangé"
+          },
+          {
+            "id": "a2e20:texte",
+            "avant": "il ferma",
+            "apres": "elle ferma"
+          },
+          {
+            "id": "a2e21:texte",
+            "avant": "reste couché",
+            "apres": "reste couchée"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "{{r2}} déguisé",
+            "apres": "{{r2}} déguisée"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "est couché",
+            "apres": "est couchée"
+          },
+          {
+            "id": "a3e5:ton",
+            "avant": "voix de loup",
+            "apres": "voix de louve"
+          },
+          {
+            "id": "a3e12:ton",
+            "avant": "tout doux",
+            "apres": "toute douce"
+          },
+          {
+            "id": "a3e16:ton",
+            "avant": "tout doux",
+            "apres": "toute douce"
+          },
+          {
+            "id": "a3e18:ton",
+            "avant": "tout doux",
+            "apres": "toute douce"
+          },
+          {
+            "id": "a3e21:ton",
+            "avant": "doux,",
+            "apres": "douce,"
+          },
+          {
+            "id": "a3e27:texte",
+            "avant": "ce méchant",
+            "apres": "cette méchante"
+          },
+          {
+            "id": "a3e30:texte",
+            "avant": "bien repu, il se recoucha",
+            "apres": "bien repue, elle se recoucha"
+          },
+          {
+            "id": "a3e36:texte",
+            "avant": "soulevé",
+            "apres": "soulevée"
+          },
+          {
+            "id": "a3e37:texte",
+            "avant": "Ils le prirent",
+            "apres": "Ils la prirent"
+          },
+          {
+            "id": "a3e37:texte",
+            "avant": "le secouèrent",
+            "apres": "la secouèrent"
+          },
+          {
+            "id": "a3e37:texte",
+            "avant": "qu'il recracha",
+            "apres": "qu'elle recracha"
+          },
+          {
+            "id": "a3e38:texte",
+            "avant": "on ne le revit",
+            "apres": "on ne la revit"
+          },
+          {
+            "id": "a3e39:texte",
+            "avant": "puis il file",
+            "apres": "puis elle file"
+          }
+        ]
+      }
     },
     {
       "cle": "r3",
@@ -35,7 +335,107 @@
         "gentil"
       ],
       "voix": "voix chevrotante et lente, un peu fatiguée, dit « mon petit » avec douceur",
-      "genre": "feminin"
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a1e1:texte",
+            "avant": "sa mère-grand",
+            "apres": "son père-grand"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "Cette bonne vieille",
+            "apres": "Ce bon vieux"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "qu’elle était malade",
+            "apres": "qu’il était malade"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "sa mère-grand",
+            "apres": "son père-grand"
+          },
+          {
+            "id": "a1e17:texte",
+            "avant": "Demeure-t-elle",
+            "apres": "Demeure-t-il"
+          },
+          {
+            "id": "a1e21:texte",
+            "avant": "aller la voir",
+            "apres": "aller le voir"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "la grand-mère",
+            "apres": "le grand-père"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "La bonne {{r3}}",
+            "apres": "Le bon {{r3}}"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "parce qu'elle",
+            "apres": "parce qu'il"
+          },
+          {
+            "id": "a2e18:texte",
+            "avant": "la bonne vieille",
+            "apres": "le bon vieux"
+          },
+          {
+            "id": "a2e18:texte",
+            "avant": "et la dévora",
+            "apres": "et le dévora"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "en grand-mère",
+            "apres": "en grand-père"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "bien changée",
+            "apres": "bien changé"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "bien vivantes",
+            "apres": "bien vivants"
+          },
+          {
+            "id": "a3e6:texte",
+            "avant": "enrhumée",
+            "apres": "enrhumé"
+          },
+          {
+            "id": "a3e12:ton",
+            "avant": "une grand-mère",
+            "apres": "un grand-père"
+          },
+          {
+            "id": "a3e13:texte",
+            "avant": "était faite",
+            "apres": "était fait"
+          },
+          {
+            "id": "a3e37:texte",
+            "avant": "tout étourdies, mais bien vivantes",
+            "apres": "tout étourdis, mais bien vivants"
+          },
+          {
+            "id": "a3e46:texte",
+            "avant": "l'une contre l'autre",
+            "apres": "l'un contre l'autre"
+          }
+        ]
+      }
     }
   ],
   "parametres": {
@@ -999,5 +1399,12 @@
       ]
     }
   },
-  "dureeEstimeeSecondes": 490
+  "dureeEstimeeSecondes": 490,
+  "interactionsOrdonnees": [
+    "a1e23",
+    "a2e12",
+    "a2e6",
+    "a3e32",
+    "a1e30"
+  ]
 }

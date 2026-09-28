@@ -12,7 +12,138 @@
         "peureux",
         "curieux"
       ],
-      "voix": "voix aiguë et pressée, qui répète le dernier mot entendu avec étonnement"
+      "voix": "voix aiguë et pressée, qui répète le dernier mot entendu avec étonnement",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a1e5:ton",
+            "avant": "joyeuse",
+            "apres": "joyeux"
+          },
+          {
+            "id": "a1e8:ton",
+            "avant": "décidée",
+            "apres": "décidé"
+          },
+          {
+            "id": "a1e12:ton",
+            "avant": "inquiète",
+            "apres": "inquiet"
+          },
+          {
+            "id": "a1e12:ton",
+            "avant": "curieuse",
+            "apres": "curieux"
+          },
+          {
+            "id": "a2e2:texte",
+            "avant": "toute seule",
+            "apres": "tout seul"
+          },
+          {
+            "id": "a2e3:ton",
+            "avant": "confiante",
+            "apres": "confiant"
+          },
+          {
+            "id": "a2e3:ton",
+            "avant": "gentille",
+            "apres": "gentil"
+          },
+          {
+            "id": "a2e7:ton",
+            "avant": "contente",
+            "apres": "content"
+          },
+          {
+            "id": "a2e7:ton",
+            "avant": "soulagée",
+            "apres": "soulagé"
+          },
+          {
+            "id": "a2e9:ton",
+            "avant": "curieuse",
+            "apres": "curieux"
+          },
+          {
+            "id": "a2e16:ton",
+            "avant": "songeuse",
+            "apres": "songeur"
+          },
+          {
+            "id": "a2e16:ton",
+            "avant": "confiante",
+            "apres": "confiant"
+          },
+          {
+            "id": "a2e20:ton",
+            "avant": "curieuse",
+            "apres": "curieux"
+          },
+          {
+            "id": "a2e24:ton",
+            "avant": "songeuse",
+            "apres": "songeur"
+          },
+          {
+            "id": "a2e24:ton",
+            "avant": "confiante",
+            "apres": "confiant"
+          },
+          {
+            "id": "a2e28:texte",
+            "avant": "songeuse",
+            "apres": "songeur"
+          },
+          {
+            "id": "a2e32:ton",
+            "avant": "curieuse",
+            "apres": "curieux"
+          },
+          {
+            "id": "a2e34:ton",
+            "avant": "effarée",
+            "apres": "effaré"
+          },
+          {
+            "id": "a3e2:ton",
+            "avant": "frileuse",
+            "apres": "frileux"
+          },
+          {
+            "id": "a3e2:ton",
+            "avant": "gourmande",
+            "apres": "gourmand"
+          },
+          {
+            "id": "a3e7:ton",
+            "avant": "stupéfaite",
+            "apres": "stupéfait"
+          },
+          {
+            "id": "a3e8:ton",
+            "avant": "elle comprend",
+            "apres": "il comprend"
+          },
+          {
+            "id": "a3e8:ton",
+            "avant": "indignée",
+            "apres": "indigné"
+          },
+          {
+            "id": "a3e12:ton",
+            "avant": "elle lâche",
+            "apres": "il lâche"
+          },
+          {
+            "id": "a3e12:ton",
+            "avant": "décidée",
+            "apres": "décidé"
+          }
+        ]
+      }
     },
     {
       "cle": "r2",
@@ -22,7 +153,173 @@
         "méchant",
         "gourmand"
       ],
-      "voix": "voix grave et un peu traînante, qui commence chaque mensonge par un « Euh... » hésitant"
+      "voix": "voix grave et un peu traînante, qui commence chaque mensonge par un « Euh... » hésitant",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e4:texte",
+            "avant": "un vrai ami",
+            "apres": "une vraie amie"
+          },
+          {
+            "id": "a1e4:ton",
+            "avant": "chaleureux",
+            "apres": "chaleureuse"
+          },
+          {
+            "id": "a1e7:ton",
+            "avant": "sérieux",
+            "apres": "sérieuse"
+          },
+          {
+            "id": "a1e11:ton",
+            "avant": "gourmand",
+            "apres": "gourmande"
+          },
+          {
+            "id": "a1e15:ton",
+            "avant": "convaincu",
+            "apres": "convaincue"
+          },
+          {
+            "id": "a1e15:ton",
+            "avant": "sûr de lui",
+            "apres": "sûre d'elle"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "gourmand",
+            "apres": "gourmande"
+          },
+          {
+            "id": "a2e2:texte",
+            "avant": "parrain",
+            "apres": "marraine"
+          },
+          {
+            "id": "a2e2:ton",
+            "avant": "mielleux",
+            "apres": "mielleuse"
+          },
+          {
+            "id": "a2e8:ton",
+            "avant": "évasif",
+            "apres": "évasive"
+          },
+          {
+            "id": "a2e10:ton",
+            "avant": "sec",
+            "apres": "sèche"
+          },
+          {
+            "id": "a2e10:ton",
+            "avant": "pressé",
+            "apres": "pressée"
+          },
+          {
+            "id": "a2e13:ton",
+            "avant": "vexé",
+            "apres": "vexée"
+          },
+          {
+            "id": "a2e15:texte",
+            "avant": "parrain",
+            "apres": "marraine"
+          },
+          {
+            "id": "a2e15:ton",
+            "avant": "gêné",
+            "apres": "gênée"
+          },
+          {
+            "id": "a2e21:ton",
+            "avant": "évasif",
+            "apres": "évasive"
+          },
+          {
+            "id": "a2e21:ton",
+            "avant": "pressé",
+            "apres": "pressée"
+          },
+          {
+            "id": "a2e23:texte",
+            "avant": "parrain",
+            "apres": "marraine"
+          },
+          {
+            "id": "a2e23:ton",
+            "avant": "gourmand",
+            "apres": "gourmande"
+          },
+          {
+            "id": "a2e23:ton",
+            "avant": "forcé",
+            "apres": "forcée"
+          },
+          {
+            "id": "a2e31:texte",
+            "avant": "revient-il",
+            "apres": "revient-elle"
+          },
+          {
+            "id": "a2e33:ton",
+            "avant": "gêné",
+            "apres": "gênée"
+          },
+          {
+            "id": "a2e33:ton",
+            "avant": "honteux",
+            "apres": "honteuse"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "confus",
+            "apres": "confuse"
+          },
+          {
+            "id": "a3e3:ton",
+            "avant": "gourmand",
+            "apres": "gourmande"
+          },
+          {
+            "id": "a3e3:ton",
+            "avant": "moqueur",
+            "apres": "moqueuse"
+          },
+          {
+            "id": "a3e8:texte",
+            "avant": "un bel ami",
+            "apres": "une belle amie"
+          },
+          {
+            "id": "a3e8:texte",
+            "avant": "parrain",
+            "apres": "marraine"
+          },
+          {
+            "id": "a3e14:ton",
+            "avant": "penaud",
+            "apres": "penaude"
+          },
+          {
+            "id": "a3e14:ton",
+            "avant": "tout petit",
+            "apres": "toute petite"
+          },
+          {
+            "id": "a3e16:ton",
+            "avant": "décidé",
+            "apres": "décidée"
+          },
+          {
+            "id": "a3e16:ton",
+            "avant": "honteux",
+            "apres": "honteuse"
+          }
+        ]
+      }
     }
   ],
   "parametres": {
@@ -719,5 +1016,15 @@
       ]
     }
   },
-  "dureeEstimeeSecondes": 435
+  "dureeEstimeeSecondes": 435,
+  "interactionsOrdonnees": [
+    "a3e11",
+    "a2e31",
+    "a2e26",
+    "a3e5",
+    "a2e11",
+    "a1e13",
+    "a1e9",
+    "a3e17"
+  ]
 }

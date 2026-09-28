@@ -11,8 +11,8 @@
   import type { Marionnette } from '../types';
   import type { SignatureModele } from '../services/banque';
   import {
-    attributionPermise,
     genreMarionnette,
+    problemeAttribution,
     type AttributionBanque,
     type Genre,
   } from '../services/appariement';
@@ -49,12 +49,12 @@
   }
 
   /** Les rôles mal attribués : la boîte se marque, la création se bloque. */
-  const interdits = $derived(signature.roles.map((role, k) => {
+  const problemes = $derived(signature.roles.map((role, k) => {
     const m = marionnette(attribution[k]);
-    return m ? !attributionPermise(m, role) : true;
+    return m ? problemeAttribution(m, role) : 'interdit';
   }));
 
-  const distribution = $derived(interdits.some(Boolean)
+  const distribution = $derived(problemes.some((p) => p !== null)
     ? null
     : signature.roles.map((r, k): AttributionBanque => ({ cle: r.cle, marionnetteId: attribution[k] })));
 
@@ -106,7 +106,7 @@
 
   <ul class="roles">
     {#each signature.roles as role, k (role.cle)}
-      <li class="boite role" class:interdit={interdits[k]}>
+      <li class="boite role" class:interdit={problemes[k] !== null}>
         <p class="role-nom">{tba.distribution.role(nomRole(role))}</p>
         {#if role.traits.length > 0}
           <p class="role-traits">{role.traits.join(', ')}</p>
@@ -124,9 +124,13 @@
           </select>
         </label>
 
-        {#if interdits[k]}
+        {#if problemes[k] === 'interdit'}
           <p class="alerte" role="alert">
             {tba.distribution.interdit(marionnette(attribution[k])?.nom ?? '?', nomRole(role))}
+          </p>
+        {:else if problemes[k] === 'espece'}
+          <p class="alerte" role="alert">
+            {tba.distribution.especeImposee(marionnette(attribution[k])?.nom ?? '?', role.espece ?? '?')}
           </p>
         {/if}
 

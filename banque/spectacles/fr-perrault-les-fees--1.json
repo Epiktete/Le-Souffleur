@@ -13,7 +13,157 @@
         "travailleur"
       ],
       "voix": "voix douce, claire et un peu rapide, toujours polie : « bien volontiers », « pardon »",
-      "genre": "feminin"
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "deux sœurs",
+            "apres": "deux enfants"
+          },
+          {
+            "id": "pitch",
+            "avant": "la gentille",
+            "apres": "le gentil"
+          },
+          {
+            "id": "voix:r1",
+            "avant": "toujours polie",
+            "apres": "toujours poli"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "deux filles",
+            "apres": "deux enfants"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "La cadette",
+            "apres": "Le cadet"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "Elle la faisait",
+            "apres": "Elle le faisait"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "cette pauvre enfant",
+            "apres": "ce pauvre enfant"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "qu’elle en rapportât",
+            "apres": "qu’il en rapportât"
+          },
+          {
+            "id": "a1e17:texte",
+            "avant": "reste penchée",
+            "apres": "reste penché"
+          },
+          {
+            "id": "a1e19:texte",
+            "avant": "si bonne",
+            "apres": "si bon"
+          },
+          {
+            "id": "a1e26:ton",
+            "avant": "joyeuse",
+            "apres": "joyeux"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "un peu penchée",
+            "apres": "un peu penché"
+          },
+          {
+            "id": "a2e4:ton",
+            "avant": "inquiète",
+            "apres": "inquiet"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "ma fille",
+            "apres": "mon fils"
+          },
+          {
+            "id": "a2e7:texte",
+            "avant": "sa fille",
+            "apres": "son fils"
+          },
+          {
+            "id": "a2e9:texte",
+            "avant": "m'a priée",
+            "apres": "m'a prié"
+          },
+          {
+            "id": "a2e9:ton",
+            "avant": "toute contente",
+            "apres": "tout content"
+          },
+          {
+            "id": "a2e13:texte",
+            "avant": "sa sœur",
+            "apres": "son frère"
+          },
+          {
+            "id": "a2e14:texte",
+            "avant": "votre sœur, quand elle parle",
+            "apres": "votre frère, quand il parle"
+          },
+          {
+            "id": "a3e7:texte",
+            "avant": "sa sœur",
+            "apres": "son frère"
+          },
+          {
+            "id": "a4e6:texte",
+            "avant": "sa sœur",
+            "apres": "son frère"
+          },
+          {
+            "id": "a4e6:texte",
+            "avant": "elle me le paiera",
+            "apres": "il me le paiera"
+          },
+          {
+            "id": "a4e9:texte",
+            "avant": "de la faire entrer",
+            "apres": "de le faire entrer"
+          },
+          {
+            "id": "a4e15:texte",
+            "avant": "la rencontra",
+            "apres": "le rencontra"
+          },
+          {
+            "id": "a4e16:texte",
+            "avant": "toute seule",
+            "apres": "tout seul"
+          },
+          {
+            "id": "a4e18:texte",
+            "avant": "m'a chassée",
+            "apres": "m'a chassé"
+          },
+          {
+            "id": "a4e20:texte",
+            "avant": "la pria",
+            "apres": "le pria"
+          },
+          {
+            "id": "a4e21:texte",
+            "avant": "Elle lui conta",
+            "apres": "Il lui conta"
+          },
+          {
+            "id": "a4e22:texte",
+            "avant": "comme si elle racontait",
+            "apres": "comme s'il racontait"
+          }
+        ]
+      }
     },
     {
       "cle": "r2",
@@ -24,7 +174,107 @@
         "grognon"
       ],
       "voix": "voix basse et traînante, souffle un « pfff ! » avant de parler",
-      "genre": "feminin"
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "deux sœurs",
+            "apres": "deux enfants"
+          },
+          {
+            "id": "pitch",
+            "avant": "la grognonne",
+            "apres": "le grognon"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "deux filles",
+            "apres": "deux enfants"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "l’aînée",
+            "apres": "l’aîné"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "qui la voyait",
+            "apres": "qui le voyait"
+          },
+          {
+            "id": "a1e2:texte",
+            "avant": "Elles étaient toutes deux",
+            "apres": "Ils étaient tous deux"
+          },
+          {
+            "id": "a1e2:texte",
+            "avant": "orgueilleuses",
+            "apres": "orgueilleux"
+          },
+          {
+            "id": "a1e2:texte",
+            "avant": "avec elles",
+            "apres": "avec eux"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "ma fille",
+            "apres": "mon fils"
+          },
+          {
+            "id": "a2e14:texte",
+            "avant": "bien contente",
+            "apres": "bien content"
+          },
+          {
+            "id": "a2e20:texte",
+            "avant": "comme si elle tapait",
+            "apres": "comme s'il tapait"
+          },
+          {
+            "id": "a3e9:texte",
+            "avant": "je suis venue",
+            "apres": "je suis venu"
+          },
+          {
+            "id": "a3e10:texte",
+            "avant": "si peu obligeante",
+            "apres": "si peu obligeant"
+          },
+          {
+            "id": "a4:resume",
+            "avant": "elle, finit toute seule",
+            "apres": "lui, finit tout seul"
+          },
+          {
+            "id": "a4e2:texte",
+            "avant": "ma fille",
+            "apres": "mon fils"
+          },
+          {
+            "id": "a4e27:texte",
+            "avant": "elle se fit",
+            "apres": "il se fit"
+          },
+          {
+            "id": "a4e27:texte",
+            "avant": "la chassa",
+            "apres": "le chassa"
+          },
+          {
+            "id": "a4e28:texte",
+            "avant": "toute seule",
+            "apres": "tout seul"
+          },
+          {
+            "id": "a4e31:texte",
+            "avant": "toute seule",
+            "apres": "tout seul"
+          }
+        ]
+      }
     },
     {
       "cle": "r3",
@@ -35,7 +285,172 @@
         "rusé"
       ],
       "voix": "en vieille : voix chevrotante et très lente ; en princesse : voix haute, calme, chaque mot bien détaché",
-      "genre": "feminin"
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "Une fée déguisée",
+            "apres": "Un enchanteur déguisé"
+          },
+          {
+            "id": "voix:r3",
+            "avant": "en vieille",
+            "apres": "en vieux"
+          },
+          {
+            "id": "voix:r3",
+            "avant": "en princesse",
+            "apres": "en prince"
+          },
+          {
+            "id": "t2:accessoire:1",
+            "avant": "de vieille",
+            "apres": "de vieux"
+          },
+          {
+            "id": "t2:accessoire:2",
+            "avant": "de princesse",
+            "apres": "de prince"
+          },
+          {
+            "id": "a1:titre",
+            "avant": "La pauvre vieille",
+            "apres": "Le pauvre vieux"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "une pauvre vieille",
+            "apres": "un pauvre vieux"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "la fée",
+            "apres": "l'enchanteur"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "la pauvre femme",
+            "apres": "le pauvre homme"
+          },
+          {
+            "id": "a1e13:texte",
+            "avant": "courbée",
+            "apres": "courbé"
+          },
+          {
+            "id": "a1e14:ton",
+            "avant": "voix de vieille",
+            "apres": "voix de vieux"
+          },
+          {
+            "id": "a1e16:texte",
+            "avant": "ma bonne mère",
+            "apres": "mon bon père"
+          },
+          {
+            "id": "a1e17:texte",
+            "avant": "vers elle pendant qu’elle",
+            "apres": "vers lui pendant qu’il"
+          },
+          {
+            "id": "a1e19:ton",
+            "avant": "voix de vieille",
+            "apres": "voix de vieux"
+          },
+          {
+            "id": "a1e19:ton",
+            "avant": "attendrie",
+            "apres": "attendri"
+          },
+          {
+            "id": "a1e20:texte",
+            "avant": "bien droite",
+            "apres": "bien droit"
+          },
+          {
+            "id": "a1e21:texte",
+            "avant": "une fée",
+            "apres": "un enchanteur"
+          },
+          {
+            "id": "a1e21:texte",
+            "avant": "d’une pauvre femme",
+            "apres": "d’un pauvre homme"
+          },
+          {
+            "id": "a1e23:ton",
+            "avant": "voix de fée",
+            "apres": "voix d’enchanteur"
+          },
+          {
+            "id": "a1e25:texte",
+            "avant": "est tournée",
+            "apres": "est tourné"
+          },
+          {
+            "id": "a1e26:texte",
+            "avant": "ma bonne mère",
+            "apres": "mon bon père"
+          },
+          {
+            "id": "a2e9:texte",
+            "avant": "une pauvre femme",
+            "apres": "un pauvre homme"
+          },
+          {
+            "id": "a2e9:texte",
+            "avant": "et elle m'a fait",
+            "apres": "et il m'a fait"
+          },
+          {
+            "id": "a2e14:texte",
+            "avant": "une pauvre femme",
+            "apres": "un pauvre homme"
+          },
+          {
+            "id": "a3:titre",
+            "avant": "La princesse",
+            "apres": "Le prince"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "déguisée cette fois en princesse",
+            "apres": "déguisé cette fois en prince"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "la rembarre",
+            "apres": "le rembarre"
+          },
+          {
+            "id": "a3e5:texte",
+            "avant": "bien droite",
+            "apres": "bien droit"
+          },
+          {
+            "id": "a3e6:ton",
+            "avant": "une grande dame",
+            "apres": "un grand seigneur"
+          },
+          {
+            "id": "a3e7:texte",
+            "avant": "la même fée",
+            "apres": "le même enchanteur"
+          },
+          {
+            "id": "a3e7:texte",
+            "avant": "d'une princesse",
+            "apres": "d'un prince"
+          },
+          {
+            "id": "a3e9:texte",
+            "avant": "à Madame",
+            "apres": "à Monsieur"
+          }
+        ]
+      }
     }
   ],
   "parametres": {
@@ -906,5 +1321,9 @@
       ]
     }
   },
-  "dureeEstimeeSecondes": 476
+  "dureeEstimeeSecondes": 476,
+  "interactionsOrdonnees": [
+    "a1e24",
+    "a3e11"
+  ]
 }

@@ -12,7 +12,113 @@
         "fort",
         "naïf"
       ],
-      "voix": "voix grave, forte et un peu lente, qui s'emballe vite dans le rire"
+      "voix": "voix grave, forte et un peu lente, qui s'emballe vite dans le rire",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "Un gros ours très fort",
+            "apres": "Une grosse ourse très forte"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "terrifié",
+            "apres": "terrifiée"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "avec lui",
+            "apres": "avec elle"
+          },
+          {
+            "id": "a1e10:ton",
+            "avant": "tremblant, suppliant",
+            "apres": "tremblante, suppliante"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "chez lui",
+            "apres": "chez elle"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "sûr de sa force",
+            "apres": "sûre de sa force"
+          },
+          {
+            "id": "a2e1:ton",
+            "avant": "content, invitant",
+            "apres": "contente, invitante"
+          },
+          {
+            "id": "a2e4:ton",
+            "avant": "inquiet",
+            "apres": "inquiète"
+          },
+          {
+            "id": "a2e4:ton",
+            "avant": "pressé",
+            "apres": "pressée"
+          },
+          {
+            "id": "a2e6:ton",
+            "avant": "content, gourmand",
+            "apres": "contente, gourmande"
+          },
+          {
+            "id": "a2e8:ton",
+            "avant": "sûr de gagner",
+            "apres": "sûre de gagner"
+          },
+          {
+            "id": "a3e6:texte",
+            "avant": "essoufflé",
+            "apres": "essoufflée"
+          },
+          {
+            "id": "a3e7:ton",
+            "avant": "essoufflé",
+            "apres": "essoufflée"
+          },
+          {
+            "id": "a3e9:ton",
+            "avant": "inquiet",
+            "apres": "inquiète"
+          },
+          {
+            "id": "a3e11:texte",
+            "avant": "prêt à",
+            "apres": "prête à"
+          },
+          {
+            "id": "a3e11:texte",
+            "avant": "qu'il y pense",
+            "apres": "qu'elle y pense"
+          },
+          {
+            "id": "a3e11:texte",
+            "avant": "il éclate",
+            "apres": "elle éclate"
+          },
+          {
+            "id": "a3e13:texte",
+            "avant": "tout content",
+            "apres": "toute contente"
+          },
+          {
+            "id": "a3e14:ton",
+            "avant": "joyeux",
+            "apres": "joyeuse"
+          },
+          {
+            "id": "a3e16:texte",
+            "avant": "tout content",
+            "apres": "toute contente"
+          }
+        ]
+      }
     }
   ],
   "parametres": {
@@ -449,5 +555,10 @@
       ]
     }
   },
-  "dureeEstimeeSecondes": 198
+  "dureeEstimeeSecondes": 198,
+  "interactionsOrdonnees": [
+    "a1e5",
+    "a3e12",
+    "a2e9"
+  ]
 }

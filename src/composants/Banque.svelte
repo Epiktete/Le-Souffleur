@@ -82,6 +82,7 @@
     ['age', tba.filtres.age],
     ['marionnettistes', tba.filtres.marionnettistes],
     ['nombre', tba.filtres.nombre],
+    ['espece', tba.filtres.espece],
     ['distribution', tba.filtres.distribution],
   ];
   const ligneEcartes = $derived.by(() => {
@@ -147,6 +148,7 @@
       distributionCourante,
       choisi.troupe,
       genresCourants,
+      studio.valeurs.interactionPublic,
     );
   }
 
@@ -207,6 +209,8 @@
         <p class="dapres">{dApres(f)}</p>
       {/if}
     </div>
+    <!-- L'interaction n'est plus une donnée de la fiche : le réglage du
+         studio en garde la fraction voulue à la création (CDC §7). -->
 
     {#if choisi.evalue.distribution}
       <DistributionBanque
@@ -224,28 +228,13 @@
     {#if banque.phase === 'termine'}
       <section class="boite fin">
         <span class="eyebrow">{tg.fin.titre}</span>
-        {#if banque.avertissement}
-          <p class="aide" role="status">{banque.avertissement}</p>
-        {/if}
+        {#each banque.avertissements as a (a)}
+          <p class="aide" role="status">{a}</p>
+        {/each}
         {#if banque.rappelSauvegarde}
           <p class="aide" role="status">{tsv.rappel}</p>
         {/if}
         <button class="cta" onclick={ouvrirSpectacle}>{tg.fin.ouvrir}</button>
-      </section>
-    {:else if banque.phase === 'repli'}
-      <!-- La retouche d'accords a échoué : rien n'est enregistré, le parent
-           tranche entre les accords d'origine et renoncer (CDC §7). -->
-      <section class="boite erreur">
-        <span class="eyebrow">{tba.creation.repli.titre}</span>
-        <p role="alert">{tba.creation.repli.explication(banque.causeRepli)}</p>
-        <div class="boutons">
-          <button class="secondaire-bouton" onclick={() => banque.reinitialiser()}>
-            {tba.creation.repli.renoncer}
-          </button>
-          <button onclick={() => void banque.creerQuandMeme()}>
-            {tba.creation.repli.quandMeme}
-          </button>
-        </div>
       </section>
     {:else if banque.phase === 'erreur'}
       <section class="boite erreur">

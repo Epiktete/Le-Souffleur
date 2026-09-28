@@ -14,7 +14,257 @@
         "vantard"
       ],
       "voix": "voix vive et rapide, un peu chantante, roule les « r » et dit « parole de chat ! » quand il se vante",
-      "genre": "masculin"
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "un chat",
+            "apres": "une chatte"
+          },
+          {
+            "id": "voix:r1",
+            "avant": "parole de chat",
+            "apres": "parole de chatte"
+          },
+          {
+            "id": "voix:r1",
+            "avant": "quand il se vante",
+            "apres": "quand elle se vante"
+          },
+          {
+            "id": "a1:titre",
+            "avant": "Un chat",
+            "apres": "Une chatte"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "son chat",
+            "apres": "sa chatte"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "son chat",
+            "apres": "sa chatte"
+          },
+          {
+            "id": "a1e2:texte",
+            "avant": "le chat",
+            "apres": "la chatte"
+          },
+          {
+            "id": "a1e7:texte",
+            "avant": "mon chat",
+            "apres": "ma chatte"
+          },
+          {
+            "id": "a1e9:ton",
+            "avant": "posé et sérieux",
+            "apres": "posée et sérieuse"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "quand il se pendait",
+            "apres": "quand elle se pendait"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "qu’il se cachait",
+            "apres": "qu’elle se cachait"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "faire le mort",
+            "apres": "faire la morte"
+          },
+          {
+            "id": "a1e13:texte",
+            "avant": "qu’il avait demandé",
+            "apres": "qu’elle avait demandé"
+          },
+          {
+            "id": "a1e13:texte",
+            "avant": "il enfila",
+            "apres": "elle enfila"
+          },
+          {
+            "id": "a1e13:texte",
+            "avant": "il en prit",
+            "apres": "elle en prit"
+          },
+          {
+            "id": "a1e16:texte",
+            "avant": "Il mit",
+            "apres": "Elle mit"
+          },
+          {
+            "id": "a1e16:texte",
+            "avant": "s’il eût été mort",
+            "apres": "si elle eût été morte"
+          },
+          {
+            "id": "a1e16:texte",
+            "avant": "il attendit",
+            "apres": "elle attendit"
+          },
+          {
+            "id": "a1e16:texte",
+            "avant": "qu’il y avait mis",
+            "apres": "qu’elle y avait mis"
+          },
+          {
+            "id": "a1e17:texte",
+            "avant": "fut-il couché",
+            "apres": "fut-elle couchée"
+          },
+          {
+            "id": "a1e17:texte",
+            "avant": "qu’il obtint",
+            "apres": "qu’elle obtint"
+          },
+          {
+            "id": "a1e17:texte",
+            "avant": "qu’il attendait",
+            "apres": "qu’elle attendait"
+          },
+          {
+            "id": "a1e17:texte",
+            "avant": "maître {{r1}}",
+            "apres": "maîtresse {{r1}}"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "il fait baigner",
+            "apres": "elle fait baigner"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "Tout glorieux",
+            "apres": "Toute glorieuse"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "il s'en alla",
+            "apres": "elle s'en alla"
+          },
+          {
+            "id": "a2e5:texte",
+            "avant": "m'a chargé",
+            "apres": "m'a chargée"
+          },
+          {
+            "id": "a2e5:ton",
+            "avant": "poli",
+            "apres": "polie"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "qu'il eut",
+            "apres": "qu'elle eut"
+          },
+          {
+            "id": "a2e12:texte",
+            "avant": "qu'il sut",
+            "apres": "qu'elle sut"
+          },
+          {
+            "id": "a2e12:texte",
+            "avant": "il dit",
+            "apres": "elle dit"
+          },
+          {
+            "id": "a2e13:ton",
+            "avant": "malin",
+            "apres": "maligne"
+          },
+          {
+            "id": "a2e15:texte",
+            "avant": "son chat",
+            "apres": "sa chatte"
+          },
+          {
+            "id": "a2e22:ton",
+            "avant": "affolé",
+            "apres": "affolée"
+          },
+          {
+            "id": "a2e30:ton",
+            "avant": "l'indigné",
+            "apres": "l'indignée"
+          },
+          {
+            "id": "a2e32:texte",
+            "avant": "Le coquin",
+            "apres": "La coquine"
+          },
+          {
+            "id": "a3e2:texte",
+            "avant": "ravi",
+            "apres": "ravie"
+          },
+          {
+            "id": "a3e2:texte",
+            "avant": "il leur dit",
+            "apres": "elle leur dit"
+          },
+          {
+            "id": "a3e21:texte",
+            "avant": "Maître {{r1}}",
+            "apres": "Maîtresse {{r1}}"
+          },
+          {
+            "id": "a3e30:texte",
+            "avant": "qu'il rencontrait",
+            "apres": "qu'elle rencontrait"
+          },
+          {
+            "id": "a4e2:texte",
+            "avant": "Maître {{r1}}",
+            "apres": "Maîtresse {{r1}}"
+          },
+          {
+            "id": "a4e4:ton",
+            "avant": "très poli",
+            "apres": "très polie"
+          },
+          {
+            "id": "a4e7:ton",
+            "avant": "doux et flatteur",
+            "apres": "douce et flatteuse"
+          },
+          {
+            "id": "a4e8:texte",
+            "avant": "le reçut",
+            "apres": "la reçut"
+          },
+          {
+            "id": "a4e8:texte",
+            "avant": "le fit reposer",
+            "apres": "la fit reposer"
+          },
+          {
+            "id": "a4e23:texte",
+            "avant": "qu’il se jeta",
+            "apres": "qu’elle se jeta"
+          },
+          {
+            "id": "a4e30:ton",
+            "avant": "fier",
+            "apres": "fière"
+          },
+          {
+            "id": "a4e47:texte",
+            "avant": "le fier",
+            "apres": "la fière"
+          },
+          {
+            "id": "a4e48:texte",
+            "avant": "grand seigneur",
+            "apres": "grande dame"
+          }
+        ]
+      }
     },
     {
       "cle": "r2",
@@ -25,7 +275,237 @@
         "timide"
       ],
       "voix": "voix douce et lente, hésitante, commence souvent par « euh… »",
-      "genre": "masculin"
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "son pauvre maître",
+            "apres": "sa pauvre maîtresse"
+          },
+          {
+            "id": "pitch",
+            "avant": "le grand marquis",
+            "apres": "la grande marquise"
+          },
+          {
+            "id": "a1e2:texte",
+            "avant": "le plus jeune",
+            "apres": "la plus jeune"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "mon maître",
+            "apres": "ma maîtresse"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "mal partagé",
+            "apres": "mal partagée"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "il lui avait",
+            "apres": "elle lui avait"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "qu’il ne désespéra",
+            "apres": "qu’elle ne désespéra"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "être secouru",
+            "apres": "être secourue"
+          },
+          {
+            "id": "a2:titre",
+            "avant": "le faux noyé",
+            "apres": "la fausse noyée"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "du « marquis de Carabas »",
+            "apres": "de la « marquise de Carabas »"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "qu'il se noie",
+            "apres": "qu'elle se noie"
+          },
+          {
+            "id": "a2e5:texte",
+            "avant": "monsieur le marquis",
+            "apres": "madame la marquise"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "son maître",
+            "apres": "sa maîtresse"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "ton maître",
+            "apres": "ta maîtresse"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "je le remercie",
+            "apres": "je la remercie"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "qu'il me fait",
+            "apres": "qu'elle me fait"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "son maître",
+            "apres": "sa maîtresse"
+          },
+          {
+            "id": "a2e12:texte",
+            "avant": "son maître",
+            "apres": "sa maîtresse"
+          },
+          {
+            "id": "a2e15:texte",
+            "avant": "Le marquis",
+            "apres": "La marquise"
+          },
+          {
+            "id": "a2e22:texte",
+            "avant": "monsieur le marquis",
+            "apres": "madame la marquise"
+          },
+          {
+            "id": "a2e27:texte",
+            "avant": "monsieur le marquis",
+            "apres": "madame la marquise"
+          },
+          {
+            "id": "a2e30:texte",
+            "avant": "mon maître",
+            "apres": "ma maîtresse"
+          },
+          {
+            "id": "a2e30:texte",
+            "avant": "quoiqu'il ait crié",
+            "apres": "quoiqu'elle ait crié"
+          },
+          {
+            "id": "a2e34:texte",
+            "avant": "monsieur le marquis",
+            "apres": "madame la marquise"
+          },
+          {
+            "id": "a2e35:texte",
+            "avant": "il était beau et bien fait",
+            "apres": "elle était belle et bien faite"
+          },
+          {
+            "id": "a2e35:texte",
+            "avant": "qu'il montât",
+            "apres": "qu'elle montât"
+          },
+          {
+            "id": "a2e35:texte",
+            "avant": "qu'il fût",
+            "apres": "qu'elle fût"
+          },
+          {
+            "id": "a3:titre",
+            "avant": "monsieur le marquis",
+            "apres": "madame la marquise"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "au marquis de Carabas",
+            "apres": "à la marquise de Carabas"
+          },
+          {
+            "id": "a3e4:texte",
+            "avant": "monsieur le marquis",
+            "apres": "madame la marquise"
+          },
+          {
+            "id": "a3e12:texte",
+            "avant": "monsieur le marquis",
+            "apres": "madame la marquise"
+          },
+          {
+            "id": "a3e22:texte",
+            "avant": "monsieur le marquis",
+            "apres": "madame la marquise"
+          },
+          {
+            "id": "a3e28:texte",
+            "avant": "monsieur le marquis",
+            "apres": "madame la marquise"
+          },
+          {
+            "id": "a3e30:texte",
+            "avant": "monsieur le marquis",
+            "apres": "madame la marquise"
+          },
+          {
+            "id": "a4:resume",
+            "avant": "château du marquis",
+            "apres": "château de la marquise"
+          },
+          {
+            "id": "a4:resume",
+            "avant": "son ami",
+            "apres": "son amie"
+          },
+          {
+            "id": "a4e30:texte",
+            "avant": "monsieur le marquis",
+            "apres": "madame la marquise"
+          },
+          {
+            "id": "a4e35:texte",
+            "avant": "s’il descendait",
+            "apres": "si elle descendait"
+          },
+          {
+            "id": "a4e37:texte",
+            "avant": "monsieur le marquis",
+            "apres": "madame la marquise"
+          },
+          {
+            "id": "a4e38:texte",
+            "avant": "Le marquis",
+            "apres": "La marquise"
+          },
+          {
+            "id": "a4e40:texte",
+            "avant": "monsieur le marquis",
+            "apres": "madame la marquise"
+          },
+          {
+            "id": "a4e40:texte",
+            "avant": "mon ami",
+            "apres": "mon amie"
+          },
+          {
+            "id": "a4e42:ton",
+            "avant": "tout ému",
+            "apres": "toute émue"
+          },
+          {
+            "id": "a4e43:texte",
+            "avant": "il devint l’ami",
+            "apres": "elle devint l’amie"
+          },
+          {
+            "id": "a4e43:texte",
+            "avant": "qui le trouvait",
+            "apres": "qui la trouvait"
+          }
+        ]
+      }
     },
     {
       "cle": "r3",
@@ -36,7 +516,137 @@
         "gourmand"
       ],
       "voix": "voix haute et un peu chevrotante, très solennelle, fait « mmm, délicieux ! » dès qu'on parle de manger",
-      "genre": "masculin"
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "t2:titre",
+            "avant": "du roi",
+            "apres": "de la reine"
+          },
+          {
+            "id": "a2:titre",
+            "avant": "du roi",
+            "apres": "de la reine"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "le roi habille",
+            "apres": "la reine habille"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "le roi",
+            "apres": "la reine"
+          },
+          {
+            "id": "a2e5:texte",
+            "avant": "sire",
+            "apres": "madame"
+          },
+          {
+            "id": "a2e8:ton",
+            "avant": "gourmand, tout content",
+            "apres": "gourmande, toute contente"
+          },
+          {
+            "id": "a2e20:texte",
+            "avant": "Le roi",
+            "apres": "La reine"
+          },
+          {
+            "id": "a2e30:texte",
+            "avant": "Sire",
+            "apres": "Madame"
+          },
+          {
+            "id": "a2e34:ton",
+            "avant": "pressé",
+            "apres": "pressée"
+          },
+          {
+            "id": "a3e4:texte",
+            "avant": "au roi",
+            "apres": "à la reine"
+          },
+          {
+            "id": "a3e11:ton",
+            "avant": "curieux",
+            "apres": "curieuse"
+          },
+          {
+            "id": "a3e15:ton",
+            "avant": "émerveillé",
+            "apres": "émerveillée"
+          },
+          {
+            "id": "a3e17:texte",
+            "avant": "sire",
+            "apres": "madame"
+          },
+          {
+            "id": "a3e26:texte",
+            "avant": "autour de lui",
+            "apres": "autour d'elle"
+          },
+          {
+            "id": "a3e27:ton",
+            "avant": "étonné",
+            "apres": "étonnée"
+          },
+          {
+            "id": "a3e30:texte",
+            "avant": "était étonné",
+            "apres": "était étonnée"
+          },
+          {
+            "id": "a4:resume",
+            "avant": "le roi",
+            "apres": "la reine"
+          },
+          {
+            "id": "a4e36:texte",
+            "avant": "autour de lui",
+            "apres": "autour d’elle"
+          },
+          {
+            "id": "a4e37:ton",
+            "avant": "ébloui",
+            "apres": "éblouie"
+          },
+          {
+            "id": "a4e38:texte",
+            "avant": "le premier",
+            "apres": "la première"
+          },
+          {
+            "id": "a4e39:texte",
+            "avant": "s’il buvait",
+            "apres": "si elle buvait"
+          },
+          {
+            "id": "a4e40:ton",
+            "avant": "joyeux",
+            "apres": "joyeuse"
+          },
+          {
+            "id": "a4e42:texte",
+            "avant": "sire",
+            "apres": "madame"
+          },
+          {
+            "id": "a4e43:texte",
+            "avant": "du roi",
+            "apres": "de la reine"
+          },
+          {
+            "id": "a4e45:texte",
+            "avant": "est parti",
+            "apres": "est partie"
+          }
+        ]
+      }
     },
     {
       "cle": "r4",
@@ -48,7 +658,72 @@
         "méchant"
       ],
       "voix": "voix très grave et tonitruante, parle fort et termine ses vantardises par un gros « ho ho ho ! »",
-      "genre": "masculin"
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "l'ogre",
+            "apres": "l'ogresse"
+          },
+          {
+            "id": "t3:titre",
+            "avant": "l'ogre",
+            "apres": "l'ogresse"
+          },
+          {
+            "id": "a4:resume",
+            "avant": "l'ogre",
+            "apres": "l'ogresse"
+          },
+          {
+            "id": "a4:resume",
+            "avant": "qu'il en est capable",
+            "apres": "qu'elle en est capable"
+          },
+          {
+            "id": "a4e2:texte",
+            "avant": "le maître était",
+            "apres": "la maîtresse était"
+          },
+          {
+            "id": "a4e2:texte",
+            "avant": "l’ogre",
+            "apres": "l’ogresse"
+          },
+          {
+            "id": "a4e2:texte",
+            "avant": "le plus riche qu’on ait jamais vu",
+            "apres": "la plus riche qu’on ait jamais vue"
+          },
+          {
+            "id": "a4e4:texte",
+            "avant": "au maître",
+            "apres": "à la maîtresse"
+          },
+          {
+            "id": "a4e8:texte",
+            "avant": "un ogre",
+            "apres": "une ogresse"
+          },
+          {
+            "id": "a4e15:texte",
+            "avant": "près de lui",
+            "apres": "près d’elle"
+          },
+          {
+            "id": "a4e18:ton",
+            "avant": "vexé",
+            "apres": "vexée"
+          },
+          {
+            "id": "a4e21:texte",
+            "avant": "il se changea",
+            "apres": "elle se changea"
+          }
+        ]
+      }
     }
   ],
   "parametres": {
@@ -1282,5 +1957,8 @@
       ]
     }
   },
-  "dureeEstimeeSecondes": 775
+  "dureeEstimeeSecondes": 775,
+  "interactionsOrdonnees": [
+    "a2e20"
+  ]
 }

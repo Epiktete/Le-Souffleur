@@ -12,7 +12,7 @@
 import { BANQUE } from '../config';
 import type { Marionnette } from '../types';
 import type { Conte, RoleConte } from './repertoire';
-import type { SignatureModele } from './banque';
+import type { RoleSignature, SignatureModele } from './banque';
 import {
   compatibiliteEspece,
   especeMarionnette,
@@ -22,9 +22,6 @@ import {
   tailleIncompatible,
   type Famille,
 } from './choixContes';
-
-/** Un rôle d'une signature du fonds, tel que l'index le donne. */
-type RoleSignature = SignatureModele['roles'][number];
 
 /** Les réglages du studio qui servent de filtres (CDC §7). */
 export interface ReglagesFiltre {
@@ -46,7 +43,12 @@ export type Ecart =
   /** Il a plus de rôles que de marionnettes disponibles. */
   | 'nombre'
   /** Aucune distribution sans couple interdit n'existe. */
-  | 'distribution';
+  | 'distribution'
+  /**
+   * Le texte nomme une espèce (« un loup ») qu'aucune distribution ne peut
+   * honorer : la création ne réécrit pas le texte, il faut la même espèce.
+   */
+  | 'espece';
 
 /** Qui tient un rôle du modèle : la clé du rôle, la marionnette dessus. */
 export interface AttributionBanque {
@@ -157,6 +159,12 @@ export function evaluerModele(
 
   if (ecarts.length > 0) return { signature: s, ecarts, distribution: null };
 
+  // Une espèce citée dans le texte exige une peluche de la même espèce (au
+  // genre près) : si la troupe n'en a pas, inutile de chercher une distribution.
+  const sansEspece = s.roles.some((r) =>
+    r.especeCitee && !troupe.some((m) => memeEspece(especeMarionnette(m)?.mot, r.espece)));
+  if (sansEspece) return { signature: s, ecarts: ['espece'], distribution: null };
+
   const conte = conteDeSignature(s);
   // Plus de marionnettes que de rôles : les marionnettes en trop restent au
   // placard, et le spectacle s'affiche quand même (décision du 2026-09-28).
@@ -179,8 +187,50 @@ export function evaluerModele(
     // rôle sans marionnette ferait planter `peupler` — on écarte proprement.
     return { signature: s, ecarts: ['distribution'], distribution: null };
   }
+  let retenue = distribution as AttributionBanque[];
 
-  return { signature: s, ecarts: [], distribution: distribution as AttributionBanque[] };
+  // Le calcul favorise déjà l'espèce exacte (elle vaut la meilleure note),
+  // mais il ne connaît pas l'exigence dure : on répare par un échange quand
+  // un rôle à espèce citée a reçu une autre peluche que celle qui convient.
+  retenue = reparerEspecesCitees(retenue, s, troupe) ?? retenue;
+  const mismatch = retenue.some((a, k) => {
+    const m = troupe.find((x) => x.id === a.marionnetteId);
+    return m !== undefined && problemeAttribution(m, s.roles[k]) !== null;
+  });
+  if (mismatch) return { signature: s, ecarts: ['espece'], distribution: null };
+
+  return { signature: s, ecarts: [], distribution: retenue };
+}
+
+/**
+ * Tente de rendre chaque rôle à espèce citée à une peluche de cette espèce,
+ * par échanges. Rend null si rien n'était à réparer.
+ */
+function reparerEspecesCitees(
+  distribution: AttributionBanque[],
+  s: SignatureModele,
+  troupe: Pick<Marionnette, 'id' | 'nom' | 'description' | 'traits'>[],
+): AttributionBanque[] | null {
+  const marionnette = (id: string) => troupe.find((m) => m.id === id);
+  let reparee: AttributionBanque[] | null = null;
+
+  s.roles.forEach((role, k) => {
+    const courante = (reparee ?? distribution)[k];
+    const m = marionnette(courante.marionnetteId);
+    if (!role.especeCitee || !m || memeEspece(especeMarionnette(m)?.mot, role.espece)) return;
+
+    const base = reparee ?? distribution.map((a) => ({ ...a }));
+    // La bonne peluche joue-t-elle un autre rôle ? On échange. Sinon, elle
+    // est au placard : on la fait entrer à la place de l'actuelle.
+    const bonne = troupe.find((x) => memeEspece(especeMarionnette(x)?.mot, role.espece));
+    if (!bonne) return;
+    const j = base.findIndex((a) => a.marionnetteId === bonne.id);
+    if (j >= 0) base[j] = { ...base[j], marionnetteId: courante.marionnetteId };
+    base[k] = { ...base[k], marionnetteId: bonne.id };
+    reparee = base;
+  });
+
+  return reparee;
 }
 
 /* ------------------------------------------------------------------ */
@@ -250,18 +300,38 @@ export function genreMarionnette(m: Pick<Marionnette, 'nom' | 'description' | 'g
 }
 
 /**
- * Cette marionnette peut-elle tenir ce rôle du fonds ? Le même juge que le
- * générateur (couples interdits, taille), pour la retouche manuelle de
- * l'écran de distribution.
+ * Les deux graphies d'une même espèce selon le genre : la bascule d'accords
+ * de la création sait écrire « la louve » sur un rôle de loup, ces couples
+ * passent donc la barrière de l'espèce citée.
  */
-export function attributionPermise(
+const JUMELLES: [string, string][] = [
+  ['loup', 'louve'], ['ours', 'ourse'], ['chat', 'chatte'], ['renard', 'renarde'],
+  ['lapin', 'lapine'], ['lion', 'lionne'], ['chien', 'chienne'], ['ane', 'anesse'],
+];
+
+/** Même espèce, au genre près. */
+export function memeEspece(a: string | null | undefined, b: string | null | undefined): boolean {
+  if (!a || !b) return false;
+  if (a === b) return true;
+  return JUMELLES.some(([m, f]) => (a === m && b === f) || (a === f && b === m));
+}
+
+/**
+ * Cette marionnette peut-elle tenir ce rôle du fonds ? Le même juge que le
+ * générateur (couples interdits, taille), plus l'exigence de l'espèce citée.
+ * Rend la raison du refus, pour que l'écran de distribution l'explique, ou
+ * null quand tout va bien.
+ */
+export function problemeAttribution(
   marionnette: Pick<Marionnette, 'nom' | 'description'>,
   role: RoleSignature,
-): boolean {
+): 'interdit' | 'espece' | null {
   const espece = especeMarionnette(marionnette);
   const roleConte = roleConteDe(role);
-  if (compatibiliteEspece(espece, familleRole(roleConte)) === INTERDIT) return false;
-  return !tailleIncompatible(espece, roleConte);
+  if (compatibiliteEspece(espece, familleRole(roleConte)) === INTERDIT) return 'interdit';
+  if (tailleIncompatible(espece, roleConte)) return 'interdit';
+  if (role.especeCitee && !memeEspece(espece?.mot, role.espece)) return 'espece';
+  return null;
 }
 
 /** Évalue tout le fonds. L'ordre d'entrée est conservé. */

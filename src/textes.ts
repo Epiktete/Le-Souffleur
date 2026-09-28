@@ -248,6 +248,10 @@ export const tba = {
       (n === 1 ? '1 demandant plus de marionnettes' : `${n} demandant plus de marionnettes`),
     distribution: (n: number) =>
       (n === 1 ? '1 injouable avec ces marionnettes' : `${n} injouables avec ces marionnettes`),
+    espece: (n: number) =>
+      (n === 1
+        ? '1 dont le texte nomme une espèce qui manque à vos marionnettes'
+        : `${n} dont le texte nomme une espèce qui manque à vos marionnettes`),
     /** Liste vide : on dit quel réglage relâcher (CDC §7). */
     aucun: 'Aucun spectacle du fonds ne passe les réglages actuels.',
     relacherDuree: (min: number) => `Le plus court fait ${min} min : allongez la durée.`,
@@ -263,6 +267,8 @@ export const tba = {
     /** Un interdit bloque la création, et se dit (même règle que le générateur). */
     interdit: (nomMarionnette: string, roleEspece: string) =>
       `${nomMarionnette} ne peut pas jouer ${roleEspece} : une petite bête douce ne porte ni la menace ni la taille du rôle.`,
+    especeImposee: (nomMarionnette: string, espece: string) =>
+      `${nomMarionnette} ne peut pas tenir ce rôle : le texte nomme l’espèce (« ${espece} »), il faut une marionnette de la même espèce.`,
     interditBloque: 'Corrigez la distribution : un rôle est mal attribué.',
     retour: 'Revenir aux spectacles',
     /** Genre indétectable : on demande plutôt que de deviner (CDC §7). */
@@ -272,24 +278,15 @@ export const tba = {
       elle: 'elle',
     },
   },
-  /** La création d'un spectacle depuis le fonds (CDC §7) : sans nouvelle écriture. */
+  /** La création d'un spectacle depuis le fonds (CDC §7) : sans aucun appel IA. */
   creation: {
     bouton: 'Créer le spectacle',
     enCours: 'Création…',
     introuvable: 'Ce spectacle du fonds est introuvable. Rechargez la page, puis réessayez.',
     echec: 'La création a échoué ; rien n’a été enregistré.',
-    /** La retouche d'accords (CDC §7, « La création »). */
-    reponseInattendue: 'La réponse du modèle n’a pas la forme attendue.',
-    remplacementIntrouvable: 'Une correction ne correspond pas au texte.',
-    sansCle: 'Sans clé IA, les accords n’ont pas été vérifiés : le texte garde ceux d’origine (« il » peut rester « elle », une espèce peut rester nommée).',
-    accordsOrigine: 'Le spectacle a été créé avec les accords d’origine.',
-    repli: {
-      titre: 'Les accords n’ont pas pu être vérifiés',
-      explication: (detail: string) =>
-        `La correction des accords a échoué (${detail}). Vous pouvez créer le spectacle tel quel — le texte garde les accords écrits pour d’autres marionnettes — ou renoncer.`,
-      quandMeme: 'Créer quand même',
-      renoncer: 'Renoncer',
-    },
+    /** Un rôle dont les accords n'ont pas pu suivre le genre de la peluche. */
+    accordsIndisponibles: (nom: string) =>
+      `Le texte n’a pas pu être accordé pour ${nom} : il garde les accords d’origine.`,
   },
 } as const;
 

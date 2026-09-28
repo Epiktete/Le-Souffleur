@@ -57,10 +57,29 @@ export interface RoleModele {
   /**
    * Le genre grammatical de la marionnette d'origine : c'est avec lui que le
    * texte est accordé. Il ne se lit plus une fois la marionnette partie, donc
-   * il s'écrit AU VERSEMENT. Absent ou null (vieux modèles) : la retouche
-   * d'accords se fait par prudence (CDC §7, « La création »).
+   * il s'écrit AU VERSEMENT (ou à l'annotation, pour les vieux modèles).
    */
   genre?: 'masculin' | 'feminin' | null;
+  /**
+   * La version de l'autre genre, calculée UNE FOIS POUR TOUTES à l'annotation
+   * (banc/annoter.banc.ts) et appliquée par le code à la création : chaque
+   * remplacement vise une ligne du texte joué (voir `lignesModele`), et
+   * l'extrait « avant » y est vérifié avant d'être appliqué.
+   */
+  accords?: {
+    vers: 'masculin' | 'feminin';
+    remplacements: { id: string; avant: string; apres: string }[];
+  };
+}
+
+/** Un rôle tel que l'index le connaît. */
+export interface RoleSignature extends Pick<RoleModele, 'cle' | 'espece' | 'famille' | 'traits'> {
+  /**
+   * Vrai quand le mot d'espèce apparaît dans le texte joué (« un loup ») :
+   * le rôle exige alors une peluche de la même espèce, puisque la création
+   * ne réécrit pas le texte (CDC §7).
+   */
+  especeCitee?: boolean;
 }
 
 /** La signature d'un spectacle : de quoi l'apparier sans ouvrir son fichier. */
@@ -73,7 +92,7 @@ export interface SignatureModele {
   nbMarionnettistes: 1 | 2;
   interactionPublic: ParametresGeneration['interactionPublic'];
   dureeEstimeeSecondes: number;
-  roles: Pick<RoleModele, 'cle' | 'espece' | 'famille' | 'traits'>[];
+  roles: RoleSignature[];
 }
 
 /** Un spectacle du fonds, sans aucun nom de marionnette. */
@@ -94,6 +113,13 @@ export interface SpectacleModele {
   actes: Acte[];
   bible: Bible;
   dureeEstimeeSecondes: number;
+  /**
+   * Les adresses au public, de la plus précieuse à la plus retranchable,
+   * classées UNE FOIS à l'annotation. À la création, le réglage d'interaction
+   * en garde une fraction : aucune (0), quelques (la moitié), beaucoup
+   * (toutes). Absent : rien n'est retranché.
+   */
+  interactionsOrdonnees?: string[];
 }
 
 /* ================================================================== */
@@ -391,8 +417,63 @@ function echapper(texte: string): string {
   return texte.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
+/**
+ * Une ligne du texte joué d'un modèle, adressable par un identifiant STABLE :
+ * c'est sur ces identifiants que les annotations (accords) sont écrites, et
+ * ils survivent tant que le fichier du modèle ne change pas — les tableaux,
+ * actes et éléments d'un modèle sont renumérotés au versement (t1, a1, a1e1…).
+ */
+export interface LigneModele {
+  id: string;
+  lire(): string;
+  ecrire(texte: string): void;
+}
+
+/**
+ * Le texte joué d'un modèle, ligne par ligne : le pitch, les voix des rôles,
+ * les tableaux, les actes. La bible n'y est pas : jamais jouée ni affichée.
+ */
+export function lignesModele(m: SpectacleModele): LigneModele[] {
+  const lignes: LigneModele[] = [];
+  const ajouter = (id: string, lire: () => string, ecrire: (t: string) => void) => {
+    if (lire().trim() !== '') lignes.push({ id, lire, ecrire });
+  };
+
+  ajouter('pitch', () => m.pitch, (t) => { m.pitch = t; });
+  for (const r of m.roles) {
+    if (r.voix !== undefined) ajouter(`voix:${r.cle}`, () => r.voix!, (t) => { r.voix = t; });
+  }
+  for (const tb of m.tableaux) {
+    ajouter(`${tb.id}:titre`, () => tb.titre, (t) => { tb.titre = t; });
+    ajouter(`${tb.id}:description`, () => tb.description, (t) => { tb.description = t; });
+    tb.accessoires.forEach((_a, i) => {
+      ajouter(`${tb.id}:accessoire:${i + 1}`, () => tb.accessoires[i], (t) => { tb.accessoires[i] = t; });
+    });
+  }
+  for (const a of m.actes) {
+    ajouter(`${a.id}:titre`, () => a.titre, (t) => { a.titre = t; });
+    ajouter(`${a.id}:resume`, () => a.resume, (t) => { a.resume = t; });
+    for (const e of a.elements) {
+      if ('texte' in e) ajouter(`${e.id}:texte`, () => e.texte, (t) => { e.texte = t; });
+      if ('ton' in e && e.ton !== undefined) ajouter(`${e.id}:ton`, () => e.ton!, (t) => { e.ton = t; });
+    }
+  }
+  return lignes;
+}
+
+/**
+ * Le mot d'espèce, en mot entier et au pluriel près, est-il dans le texte
+ * joué ? Reproduit à l'identique dans tools/indexer-banque.mjs — un test
+ * vérifie que l'index et `signatureDe` disent la même chose.
+ */
+function especeCiteeDans(texteJoue: string, espece: string): boolean {
+  const motif = new RegExp(`(?<![a-z])${echapper(normaliser(espece))}s?(?![a-z])`);
+  return motif.test(normaliser(texteJoue));
+}
+
 /** La signature d'un modèle, telle qu'elle entre dans l'index. */
 export function signatureDe(m: SpectacleModele): SignatureModele {
+  const texteJoue = lignesModele(m).map((l) => l.lire()).join('\n');
   return {
     id: m.id,
     conteId: m.conteId,
@@ -402,7 +483,13 @@ export function signatureDe(m: SpectacleModele): SignatureModele {
     nbMarionnettistes: m.parametres.nbMarionnettistes,
     interactionPublic: m.parametres.interactionPublic,
     dureeEstimeeSecondes: m.dureeEstimeeSecondes,
-    roles: m.roles.map(({ cle, espece, famille, traits }) => ({ cle, espece, famille, traits })),
+    roles: m.roles.map(({ cle, espece, famille, traits }) => ({
+      cle,
+      espece,
+      famille,
+      traits,
+      ...(espece !== null && especeCiteeDans(texteJoue, espece) ? { especeCitee: true } : {}),
+    })),
   };
 }
 

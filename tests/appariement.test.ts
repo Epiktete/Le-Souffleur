@@ -1,10 +1,10 @@
 // L'appariement du mode Banque : les filtres et le pseudo-conte (CDC §7).
 import { describe, expect, it } from 'vitest';
 import {
-  attributionPermise,
   conteDeSignature,
   evaluerModele,
   genreMarionnette,
+  problemeAttribution,
   type ReglagesFiltre,
 } from '../src/services/appariement';
 import type { SignatureModele } from '../src/services/banque';
@@ -147,15 +147,55 @@ describe('evaluerModele', () => {
   });
 });
 
-describe('attributionPermise', () => {
+describe('problemeAttribution', () => {
   it('refuse la bête douce sur le prédateur, accepte le loup', () => {
     const role = { cle: 'r1', espece: 'loup', famille: 'predateur' as const, traits: ['méchant'] };
-    expect(attributionPermise(
+    expect(problemeAttribution(
       peluche('Mémé Tortue', 'Une tortue verte à la carapace molle.'), role,
-    )).toBe(false);
-    expect(attributionPermise(
+    )).toBe('interdit');
+    expect(problemeAttribution(
       peluche('Grognard', 'Un loup en peluche grise.'), role,
-    )).toBe(true);
+    )).toBe(null);
+  });
+
+  it('exige la même espèce quand le texte la nomme — au genre près', () => {
+    const role = {
+      cle: 'r1', espece: 'loup', famille: 'predateur' as const, traits: [], especeCitee: true,
+    };
+    expect(problemeAttribution(
+      peluche('Rex', 'Un gros chien en peluche.'), role,
+    )).toBe('espece');
+    expect(problemeAttribution(
+      peluche('Grognard', 'Un loup en peluche grise.'), role,
+    )).toBe(null);
+    // La louve passe : la création sait écrire « la louve » sur ce rôle.
+    expect(problemeAttribution(
+      peluche('Louna', 'Une louve en peluche grise.'), role,
+    )).toBe(null);
+  });
+});
+
+describe('l’espèce citée dans le texte', () => {
+  it('écarte le spectacle quand la troupe n’a pas l’espèce nommée', () => {
+    const citee = signature({
+      roles: [
+        { cle: 'r1', espece: 'poupee', famille: 'enfant', traits: [] },
+        { cle: 'r2', espece: 'loup', famille: 'predateur', traits: [], especeCitee: true },
+        { cle: 'r3', espece: 'mamie', famille: 'vieux', traits: [] },
+      ],
+    });
+    const sansLoup = [
+      TROUPE[0],
+      peluche('Rex', 'Un gros chien en peluche.', ['méchant']),
+      TROUPE[2],
+    ];
+    const e = evaluerModele(citee, sansLoup, REGLAGES, OPTIONS);
+    expect(e.ecarts).toEqual(['espece']);
+
+    // Avec le loup, tout va bien, et c'est lui qui reçoit le rôle.
+    const ok = evaluerModele(citee, TROUPE, REGLAGES, OPTIONS);
+    expect(ok.ecarts).toEqual([]);
+    expect(ok.distribution![1]).toEqual({ cle: 'r2', marionnetteId: 'grognard' });
   });
 });
 
