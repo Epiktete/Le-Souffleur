@@ -213,7 +213,8 @@ export const ts = {
 export const tba = {
   onglets: {
     studio: 'Studio',
-    banque: 'Banque',
+    /** Le mot de l'interface pour le fonds, choisi par Nicolas le 2026-09-28. */
+    banque: 'Contothèque',
     /** Pour les lecteurs d'écran : ce que ces onglets font. */
     legende: 'Mode de création',
   },

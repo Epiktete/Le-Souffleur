@@ -76,12 +76,11 @@ export const BORNES = {
 /** Le mode Banque (CDC §7, « La colonne centrale a deux modes »). */
 export const BANQUE = {
   /**
-   * Le filtre de durée admet un spectacle un peu plus long que la cible :
-   * durée réelle ≤ cible × (1 + tolérance). Les spectacles écrits dépassent
-   * souvent leur propre cible (le lot Perrault : jusqu'à 13 min pour 8
-   * visées), et la durée réelle fait foi (CDC §14).
+   * Le filtre de durée : durée réelle ≤ cible × (1 + tolérance). Tranché le
+   * 2026-09-28 par Nicolas : « un temps inférieur ou égal », donc 0 — la
+   * constante reste là pour rouvrir la marge si l'usage le demande.
    */
-  toleranceDuree: 0.2,
+  toleranceDuree: 0,
   /**
    * Le modèle de la retouche d'accords (CDC §7, « La création ») : un petit
    * modèle économe, bon en français, utilisé quand le fournisseur est

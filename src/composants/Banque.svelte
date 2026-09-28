@@ -298,16 +298,9 @@
               {#if essence(f)}
                 <p class="essence">{essence(f)}</p>
               {/if}
-              <ul class="roles">
-                {#each f.roles as role (role.cle)}
-                  <li>
-                    <span class="role-nom">{nomRole(role)}</span>
-                    {#if role.traits.length > 0}
-                      <span class="role-traits">— {role.traits.join(', ')}</span>
-                    {/if}
-                  </li>
-                {/each}
-              </ul>
+              <!-- Les personnages, sans leurs traits : les attributs
+                   n'intéressent pas le parent à ce stade (2026-09-28). -->
+              <p class="roles">{f.roles.map(nomRole).join(' · ')}</p>
               {#if dApres(f)}
                 <p class="dapres">{dApres(f)}</p>
               {/if}
@@ -357,10 +350,7 @@
 
   .essence { font-size: 14px; margin: 0 0 8px; }
 
-  .roles { list-style: none; margin: 0; padding: 0; font-size: 13px; }
-  .roles li { margin: 2px 0; }
-  .role-nom { font-weight: 600; }
-  .role-traits { color: var(--encre2); }
+  .roles { margin: 0; font-size: 13px; font-weight: 600; }
 
   .dapres { font-size: 12px; font-style: italic; color: var(--encre2); margin: 8px 0 0; }
 

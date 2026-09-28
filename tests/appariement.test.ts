@@ -63,16 +63,26 @@ describe('evaluerModele', () => {
     ]);
   });
 
-  it('écarte un spectacle trop long, la tolérance de 20 % comprise', () => {
-    // 6 min de cible : 7 min 12 s passent encore, 7 min 13 s non.
+  it('écarte un spectacle plus long que la cible : « un temps inférieur ou égal »', () => {
     const juste = evaluerModele(
-      signature({ dureeEstimeeSecondes: 432 }), TROUPE, REGLAGES, OPTIONS,
+      signature({ dureeEstimeeSecondes: 360 }), TROUPE, REGLAGES, OPTIONS,
     );
     expect(juste.ecarts).toEqual([]);
     const trop = evaluerModele(
-      signature({ dureeEstimeeSecondes: 433 }), TROUPE, REGLAGES, OPTIONS,
+      signature({ dureeEstimeeSecondes: 361 }), TROUPE, REGLAGES, OPTIONS,
     );
     expect(trop.ecarts).toContain('duree');
+  });
+
+  it('scène garnie de plus de marionnettes que de rôles : le spectacle s’affiche quand même', () => {
+    const troupeLarge = [
+      ...TROUPE,
+      peluche('Pilou le Pingouin', 'Un pingouin noir et blanc.', ['curieux']),
+    ];
+    // facultatives: false = scène garnie ; la quatrième reste au placard.
+    const e = evaluerModele(signature(), troupeLarge, REGLAGES, { facultatives: false });
+    expect(e.ecarts).toEqual([]);
+    expect(e.distribution).toHaveLength(3);
   });
 
   it('écarte un spectacle pour plus grands que l’âge réglé', () => {

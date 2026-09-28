@@ -158,8 +158,12 @@ export function evaluerModele(
   if (ecarts.length > 0) return { signature: s, ecarts, distribution: null };
 
   const conte = conteDeSignature(s);
+  // Plus de marionnettes que de rôles : les marionnettes en trop restent au
+  // placard, et le spectacle s'affiche quand même (décision du 2026-09-28).
+  // Sans cela, une scène garnie de quatre peluches écartait tout spectacle à
+  // trois rôles : aucune distribution n'existait où chacune joue.
   const attributions = meilleureDistribution(troupe, conte, {
-    facultatives: options.facultatives,
+    facultatives: options.facultatives || troupe.length > s.roles.length,
   });
   if (!attributions) return { signature: s, ecarts: ['distribution'], distribution: null };
 

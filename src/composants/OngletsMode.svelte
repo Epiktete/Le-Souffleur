@@ -10,9 +10,10 @@
   }
   let { mode }: Props = $props();
 
+  // La Contothèque d'abord, à gauche : c'est l'ordre voulu par Nicolas.
   const onglets: [ModeAccueil, string][] = [
-    ['studio', tba.onglets.studio],
     ['banque', tba.onglets.banque],
+    ['studio', tba.onglets.studio],
   ];
 </script>
 
