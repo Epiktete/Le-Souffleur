@@ -193,3 +193,13 @@ export async function retouchesDuConte(id: string): Promise<FicheRetouches | nul
 export function reference(c: Conte): string {
   return `${c.titre} — ${c.culture}, ${c.source}`;
 }
+
+/**
+ * L'« Essence » d'une fiche : la phrase qui résume le conte, écrite pour cela.
+ * Elle sert de synopsis aux fiches de la banque (CDC §7), dont le pitch est
+ * souvent vidé au versement. Chaîne vide si la fiche n'en a pas.
+ */
+export function essenceDuConte(c: Conte): string {
+  const m = c.corps.match(/\*\*Essence\.\*\*\s*([\s\S]*?)(?:\n\s*\n|$)/);
+  return m ? m[1].replace(/\s+/g, ' ').trim() : '';
+}

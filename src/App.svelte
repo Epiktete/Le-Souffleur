@@ -57,7 +57,7 @@
   {/if}
 
   {#if route.nom === 'accueil'}
-    <Accueil {tiroir} surFermerTiroir={() => (tiroir = null)} />
+    <Accueil mode={route.mode} {tiroir} surFermerTiroir={() => (tiroir = null)} />
   {:else if route.nom === 'parametres'}
     <ParametresIa />
   {:else if route.nom === 'script' || route.nom === 'jouer'}

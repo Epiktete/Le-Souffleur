@@ -5,8 +5,12 @@ import { analyserFragment, fragmentDe, type Route } from '../src/services/routeu
 describe('analyserFragment', () => {
   it('renvoie l’accueil pour un fragment vide ou pour le studio', () => {
     for (const f of ['', '#', '#/', '#/studio', '/studio', 'studio', '#/studio/']) {
-      expect(analyserFragment(f)).toEqual({ nom: 'accueil' });
+      expect(analyserFragment(f)).toEqual({ nom: 'accueil', mode: 'studio' });
     }
+  });
+
+  it('reconnaît le mode banque de l’accueil', () => {
+    expect(analyserFragment('#/banque')).toEqual({ nom: 'accueil', mode: 'banque' });
   });
 
   it('reconnaît l’écran de script d’un spectacle', () => {
@@ -42,7 +46,8 @@ describe('analyserFragment', () => {
 describe('fragmentDe', () => {
   it('fait l’aller-retour avec analyserFragment', () => {
     const routes: Route[] = [
-      { nom: 'accueil' },
+      { nom: 'accueil', mode: 'studio' },
+      { nom: 'accueil', mode: 'banque' },
       { nom: 'parametres' },
       { nom: 'script', spectacleId: 'abc-123' },
       { nom: 'jouer', spectacleId: 'abc-123' },

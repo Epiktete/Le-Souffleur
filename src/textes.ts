@@ -209,6 +209,29 @@ export const ts = {
   },
 } as const;
 
+/** Textes du mode Banque (CDC §7, « La colonne centrale a deux modes »). */
+export const tba = {
+  onglets: {
+    studio: 'Studio',
+    banque: 'Banque',
+    /** Pour les lecteurs d'écran : ce que ces onglets font. */
+    legende: 'Mode de création',
+  },
+  /** Bandeau honnête : le fonds est petit, il grandira (CDC §7). */
+  intro: (n: number) =>
+    `${n} spectacle${n > 1 ? 's' : ''} déjà écrit${n > 1 ? 's' : ''}, prêt${n > 1 ? 's' : ''} à être joué${n > 1 ? 's' : ''} `
+    + 'par vos marionnettes, sans nouvelle écriture. Le fonds grandira ; le Studio, lui, écrit un spectacle sur mesure.',
+  fondsVide: 'Le fonds est vide pour l’instant. Le Studio, lui, écrit un spectacle sur mesure.',
+  fiche: {
+    age: (ans: number) => `dès ${ans} ans`,
+    personnages: (n: number) => (n === 1 ? '1 personnage' : `${n} personnages`),
+    marionnettistes: (n: number) => (n === 1 ? '1 marionnettiste' : `${n} marionnettistes`),
+    dApres: (source: string) => `D’après ${source}`,
+    /** Un rôle sans espèce reconnue reste présentable par ses traits. */
+    roleSansEspece: 'personnage',
+  },
+} as const;
+
 /** Textes des paramètres IA et du test de connexion (CDC §5 et §10). */
 export const ti = {
   titre: 'Paramètres IA',

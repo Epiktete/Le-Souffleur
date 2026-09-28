@@ -53,7 +53,7 @@
   }
 
   function quitter() {
-    naviguer({ nom: 'accueil' });
+    naviguer({ nom: 'accueil', mode: 'studio' });
   }
 
   function versLecture() {

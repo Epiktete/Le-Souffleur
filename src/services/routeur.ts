@@ -5,9 +5,16 @@
 // hébergeable sur GitHub Pages ou ouvrable en fichier unique, sans réécriture
 // d'URL côté serveur.
 
+/**
+ * Le mode de la colonne centrale de l'accueil (CDC §7, « La colonne centrale
+ * a deux modes ») : le Studio écrit un spectacle sur mesure, la Banque ressert
+ * un spectacle du fonds. Chacun a sa route, pour le bouton retour.
+ */
+export type ModeAccueil = 'studio' | 'banque';
+
 /** Les écrans de l'application. */
 export type Route =
-  | { nom: 'accueil' }
+  | { nom: 'accueil'; mode: ModeAccueil }
   | { nom: 'parametres' }
   | { nom: 'script'; spectacleId: string }
   | { nom: 'jouer'; spectacleId: string }
@@ -17,7 +24,8 @@ export type Route =
 export function analyserFragment(fragment: string): Route {
   // On accepte « #/studio », « /studio » ou « studio ».
   const chemin = fragment.replace(/^#/, '').replace(/^\/+/, '').replace(/\/+$/, '');
-  if (chemin === '' || chemin === 'studio') return { nom: 'accueil' };
+  if (chemin === '' || chemin === 'studio') return { nom: 'accueil', mode: 'studio' };
+  if (chemin === 'banque') return { nom: 'accueil', mode: 'banque' };
   if (chemin === 'parametres') return { nom: 'parametres' };
 
   const morceaux = chemin.split('/');
@@ -33,7 +41,7 @@ export function analyserFragment(fragment: string): Route {
 /** Construit le fragment correspondant à une route. */
 export function fragmentDe(route: Route): string {
   switch (route.nom) {
-    case 'accueil': return '#/studio';
+    case 'accueil': return route.mode === 'banque' ? '#/banque' : '#/studio';
     case 'parametres': return '#/parametres';
     case 'script': return `#/spectacle/${route.spectacleId}`;
     case 'jouer': return `#/spectacle/${route.spectacleId}/jouer`;

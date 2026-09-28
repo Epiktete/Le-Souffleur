@@ -9,18 +9,26 @@
   import Colonne from './Colonne.svelte';
   import Bibliotheque from './Bibliotheque.svelte';
   import Studio from './Studio.svelte';
+  import Banque from './Banque.svelte';
+  import OngletsMode from './OngletsMode.svelte';
   import ColonneSpectacles from './ColonneSpectacles.svelte';
-  import { t } from '../textes';
+  import { t, tba } from '../textes';
   import { largeur } from '../largeur.svelte';
+  import type { ModeAccueil } from '../services/routeur';
 
   type Panneau = 'bibliotheque' | 'spectacles';
 
   interface Props {
+    /** Le mode de la colonne centrale : Studio ou Banque (CDC §7). */
+    mode: ModeAccueil;
     /** Tiroir ouvert, piloté par l'en-tête. */
     tiroir: Panneau | null;
     surFermerTiroir: () => void;
   }
-  let { tiroir, surFermerTiroir }: Props = $props();
+  let { mode, tiroir, surFermerTiroir }: Props = $props();
+
+  /** Le libellé de la colonne centrale suit le mode. */
+  const libelleCentre = $derived(mode === 'banque' ? tba.onglets.banque : t.colonnes.studio);
 
   /** Onglet visible sous 700 px. */
   let ongletActif = $state<Panneau | 'studio'>('studio');
@@ -38,7 +46,10 @@
     {#if ongletActif === 'bibliotheque'}
       <Colonne libelle={t.colonnes.bibliotheque}><Bibliotheque /></Colonne>
     {:else if ongletActif === 'studio'}
-      <Colonne libelle={t.colonnes.studio}><Studio /></Colonne>
+      <Colonne libelle={libelleCentre}>
+        <OngletsMode {mode} />
+        {#if mode === 'banque'}<Banque />{:else}<Studio />{/if}
+      </Colonne>
     {:else}
       <Colonne libelle={t.colonnes.spectacles}><ColonneSpectacles /></Colonne>
     {/if}
@@ -62,7 +73,10 @@
     {/if}
 
     <div class="studio">
-      <Colonne libelle={t.colonnes.studio}><Studio /></Colonne>
+      <Colonne libelle={libelleCentre}>
+        <OngletsMode {mode} />
+        {#if mode === 'banque'}<Banque />{:else}<Studio />{/if}
+      </Colonne>
     </div>
 
     {#if !largeur.etroit}
