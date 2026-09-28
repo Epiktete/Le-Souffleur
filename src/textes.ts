@@ -230,6 +230,24 @@ export const tba = {
     /** Un rôle sans espèce reconnue reste présentable par ses traits. */
     roleSansEspece: 'personnage',
   },
+  /** Rien ne disparaît en silence : chaque écarté est compté et dit (CDC §7). */
+  filtres: {
+    ecartes: (n: number, raisons: string) =>
+      (n === 1 ? `1 spectacle écarté : ${raisons}.` : `${n} spectacles écartés : ${raisons}.`),
+    dejaJoue: (n: number) => (n === 1 ? '1 déjà joué' : `${n} déjà joués`),
+    duree: (n: number) => (n === 1 ? '1 trop long pour la durée choisie' : `${n} trop longs pour la durée choisie`),
+    age: (n: number) => (n === 1 ? '1 pour de plus grands' : `${n} pour de plus grands`),
+    marionnettistes: (n: number) =>
+      (n === 1 ? '1 demandant deux marionnettistes' : `${n} demandant deux marionnettistes`),
+    nombre: (n: number) =>
+      (n === 1 ? '1 demandant plus de marionnettes' : `${n} demandant plus de marionnettes`),
+    distribution: (n: number) =>
+      (n === 1 ? '1 injouable avec ces marionnettes' : `${n} injouables avec ces marionnettes`),
+    /** Liste vide : on dit quel réglage relâcher (CDC §7). */
+    aucun: 'Aucun spectacle du fonds ne passe les réglages actuels.',
+    relacherDuree: (min: number) => `Le plus court fait ${min} min : allongez la durée.`,
+    relacherAge: (ans: number) => `Le premier se joue dès ${ans} ans : montez l’âge.`,
+  },
 } as const;
 
 /** Textes des paramètres IA et du test de connexion (CDC §5 et §10). */

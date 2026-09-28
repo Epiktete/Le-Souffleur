@@ -73,6 +73,17 @@ export const BORNES = {
   ebauche: { max: 2000 },
 } as const;
 
+/** Le mode Banque (CDC §7, « La colonne centrale a deux modes »). */
+export const BANQUE = {
+  /**
+   * Le filtre de durée admet un spectacle un peu plus long que la cible :
+   * durée réelle ≤ cible × (1 + tolérance). Les spectacles écrits dépassent
+   * souvent leur propre cible (le lot Perrault : jusqu'à 13 min pour 8
+   * visées), et la durée réelle fait foi (CDC §14).
+   */
+  toleranceDuree: 0.2,
+} as const;
+
 /** Appels à l'IA (CDC §5). Repris de l'étape 0. */
 export const IA = {
   /**

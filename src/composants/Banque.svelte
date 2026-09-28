@@ -5,13 +5,17 @@
   //
   // La scène et les réglages sont LES MÊMES composants que le Studio : ils
   // lisent le même état, et ce que le parent y règle se retrouve d'un mode à
-  // l'autre. En mode Banque, ils serviront à filtrer les fiches (étape C du
-  // chantier « la banque ») ; pour l'instant, toutes les fiches sont montrées.
+  // l'autre. En mode Banque, ils FILTRENT les fiches : durée, âge,
+  // marionnettistes, troupe (scène garnie, sinon toute la Marionnethèque), et
+  // rien n'est écarté en silence.
   import Scene from './Scene.svelte';
   import ReglagesStudio from './ReglagesStudio.svelte';
   import { tba } from '../textes';
+  import { studio } from '../etat/studio.svelte';
   import { bibliotheque } from '../etat/bibliotheque.svelte';
   import { signatures, type SignatureModele } from '../services/banque';
+  import { evaluerModeles, type Ecart } from '../services/appariement';
+  import { lireModelesJoues } from '../services/historiqueBanque';
   import { conteParId, essenceDuConte } from '../services/repertoire';
   import { formaterDuree } from '../services/duree';
 
@@ -24,6 +28,71 @@
   const fiches = signatures().sort(
     (a, b) => a.ageAuditoire - b.ageAuditoire || a.dureeEstimeeSecondes - b.dureeEstimeeSecondes,
   );
+
+  /** La troupe : la scène garnie, sinon toute la Marionnethèque. */
+  const sceneGarnie = $derived(!studio.sceneVide);
+  const troupe = $derived(
+    sceneGarnie
+      ? studio.valeurs.marionnetteIds
+        .map((id) => bibliotheque.liste.find((m) => m.id === id))
+        .filter((m) => m !== undefined)
+      : bibliotheque.liste,
+  );
+
+  const evaluations = $derived(evaluerModeles(
+    fiches,
+    troupe,
+    {
+      dureeMinutes: studio.valeurs.dureeMinutes,
+      ageAuditoire: studio.valeurs.ageAuditoire,
+      nbMarionnettistes: studio.valeurs.nbMarionnettistes,
+    },
+    { facultatives: !sceneGarnie, dejaJoues: lireModelesJoues() },
+  ));
+
+  const jouables = $derived(evaluations.filter((e) => e.ecarts.length === 0));
+  const ecartes = $derived(evaluations.filter((e) => e.ecarts.length > 0));
+
+  /**
+   * La ligne qui compte les écartés : chaque raison au plus une fois par
+   * spectacle (la première, dans l'ordre où les filtres se lisent).
+   */
+  const RAISONS: [Ecart, (n: number) => string][] = [
+    ['dejaJoue', tba.filtres.dejaJoue],
+    ['duree', tba.filtres.duree],
+    ['age', tba.filtres.age],
+    ['marionnettistes', tba.filtres.marionnettistes],
+    ['nombre', tba.filtres.nombre],
+    ['distribution', tba.filtres.distribution],
+  ];
+  const ligneEcartes = $derived.by(() => {
+    if (ecartes.length === 0) return '';
+    const parRaison = new Map<Ecart, number>();
+    for (const e of ecartes) {
+      const premiere = RAISONS.find(([r]) => e.ecarts.includes(r));
+      if (premiere) parRaison.set(premiere[0], (parRaison.get(premiere[0]) ?? 0) + 1);
+    }
+    const raisons = RAISONS
+      .filter(([r]) => parRaison.has(r))
+      .map(([r, texte]) => texte(parRaison.get(r)!))
+      .join(', ');
+    return tba.filtres.ecartes(ecartes.length, raisons);
+  });
+
+  /** Liste vide : quel réglage relâcher en premier (CDC §7) ? */
+  const conseil = $derived.by(() => {
+    if (jouables.length > 0 || fiches.length === 0) return '';
+    const parDuree = ecartes.filter((e) => e.ecarts.includes('duree'));
+    if (parDuree.length > 0) {
+      const min = Math.min(...parDuree.map((e) => e.signature.dureeEstimeeSecondes));
+      return tba.filtres.relacherDuree(Math.ceil(min / 60));
+    }
+    const parAge = ecartes.filter((e) => e.ecarts.includes('age'));
+    if (parAge.length > 0) {
+      return tba.filtres.relacherAge(Math.min(...parAge.map((e) => e.signature.ageAuditoire)));
+    }
+    return '';
+  });
 
   /** Le synopsis d'une fiche : l'Essence du conte d'origine (CDC §7). */
   function essence(f: SignatureModele): string {
@@ -53,35 +122,47 @@
   {:else}
     <p class="aide" role="status">{tba.intro(fiches.length)}</p>
 
-    <ul class="fiches">
-      {#each fiches as f (f.id)}
-        <li class="boite fiche">
-          <h3>{f.titre}</h3>
-          <p class="meta mono">
-            {formaterDuree(f.dureeEstimeeSecondes)}
-            · {tba.fiche.age(f.ageAuditoire)}
-            · {tba.fiche.personnages(f.roles.length)}
-            · {tba.fiche.marionnettistes(f.nbMarionnettistes)}
-          </p>
-          {#if essence(f)}
-            <p class="essence">{essence(f)}</p>
-          {/if}
-          <ul class="roles">
-            {#each f.roles as role (role.cle)}
-              <li>
-                <span class="role-nom">{nomRole(role)}</span>
-                {#if role.traits.length > 0}
-                  <span class="role-traits">— {role.traits.join(', ')}</span>
-                {/if}
-              </li>
-            {/each}
-          </ul>
-          {#if dApres(f)}
-            <p class="dapres">{dApres(f)}</p>
-          {/if}
-        </li>
-      {/each}
-    </ul>
+    {#if jouables.length === 0}
+      <p class="aide vide" role="status">
+        {tba.filtres.aucun}
+        {#if conseil}{' '}{conseil}{/if}
+      </p>
+    {:else}
+      <ul class="fiches">
+        {#each jouables as e (e.signature.id)}
+          {@const f = e.signature}
+          <li class="boite fiche">
+            <h3>{f.titre}</h3>
+            <p class="meta mono">
+              {formaterDuree(f.dureeEstimeeSecondes)}
+              · {tba.fiche.age(f.ageAuditoire)}
+              · {tba.fiche.personnages(f.roles.length)}
+              · {tba.fiche.marionnettistes(f.nbMarionnettistes)}
+            </p>
+            {#if essence(f)}
+              <p class="essence">{essence(f)}</p>
+            {/if}
+            <ul class="roles">
+              {#each f.roles as role (role.cle)}
+                <li>
+                  <span class="role-nom">{nomRole(role)}</span>
+                  {#if role.traits.length > 0}
+                    <span class="role-traits">— {role.traits.join(', ')}</span>
+                  {/if}
+                </li>
+              {/each}
+            </ul>
+            {#if dApres(f)}
+              <p class="dapres">{dApres(f)}</p>
+            {/if}
+          </li>
+        {/each}
+      </ul>
+    {/if}
+
+    {#if ligneEcartes}
+      <p class="aide" role="status">{ligneEcartes}</p>
+    {/if}
   {/if}
 </div>
 
@@ -89,6 +170,8 @@
   .banque { display: flex; flex-direction: column; gap: 20px; padding-bottom: 8px; }
 
   .aide { font-size: 13px; color: var(--encre2); margin: 0; }
+  /* Le vide s'explique : un peu plus visible que la ligne de compte. */
+  .vide { border-left: 4px solid var(--accent); padding-left: 10px; color: var(--encre); }
 
   .fiches {
     list-style: none;
