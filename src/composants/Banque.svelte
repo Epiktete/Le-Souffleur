@@ -8,13 +8,17 @@
   // l'autre. En mode Banque, ils FILTRENT les fiches : durée, âge,
   // marionnettistes, troupe (scène garnie, sinon toute la Marionnethèque), et
   // rien n'est écarté en silence.
+  import { onDestroy } from 'svelte';
   import Scene from './Scene.svelte';
   import ReglagesStudio from './ReglagesStudio.svelte';
   import DistributionBanque from './DistributionBanque.svelte';
-  import { tba } from '../textes';
+  import { tba, tg, tsv } from '../textes';
   import type { Marionnette } from '../types';
   import { studio } from '../etat/studio.svelte';
   import { bibliotheque } from '../etat/bibliotheque.svelte';
+  import { banque } from '../etat/banque.svelte';
+  import { spectacles } from '../etat/spectacles.svelte';
+  import { naviguer } from '../services/routeur';
   import { signatures, type SignatureModele } from '../services/banque';
   import {
     evaluerModeles,
@@ -46,6 +50,13 @@
       : bibliotheque.liste,
   );
 
+  /**
+   * Les modèles déjà faits par cette famille. Le stockage local n'est pas
+   * réactif : on relit après chaque création, pour que le spectacle tout juste
+   * fait disparaisse de la liste.
+   */
+  let joues = $state(lireModelesJoues());
+
   const evaluations = $derived(evaluerModeles(
     fiches,
     troupe,
@@ -54,7 +65,7 @@
       ageAuditoire: studio.valeurs.ageAuditoire,
       nbMarionnettistes: studio.valeurs.nbMarionnettistes,
     },
-    { facultatives: !sceneGarnie, dejaJoues: lireModelesJoues() },
+    { facultatives: !sceneGarnie, dejaJoues: joues },
   ));
 
   const jouables = $derived(evaluations.filter((e) => e.ecarts.length === 0));
@@ -119,7 +130,36 @@
   function fermerFiche() {
     choisi = null;
     distributionCourante = null;
+    banque.reinitialiser();
+    joues = lireModelesJoues();
   }
+
+  function creer() {
+    if (!choisi || !distributionCourante) return;
+    void banque.creer(
+      choisi.evalue.signature.id,
+      choisi.evalue.signature.conteId,
+      distributionCourante,
+      choisi.troupe,
+    );
+  }
+
+  // Le spectacle créé doit apparaître aussitôt dans la colonne de droite.
+  $effect(() => {
+    if (banque.phase === 'termine') void spectacles.charger();
+  });
+
+  function ouvrirSpectacle() {
+    const id = banque.spectacleId;
+    fermerFiche();
+    if (id) naviguer({ nom: 'script', spectacleId: id });
+  }
+
+  // En quittant le mode après une création, on doit retrouver la Banque
+  // prête pour une nouvelle création (même règle que le Studio).
+  onDestroy(() => {
+    if (banque.phase === 'termine') banque.reinitialiser();
+  });
 
   /** Le synopsis d'une fiche : l'Essence du conte d'origine (CDC §7). */
   function essence(f: SignatureModele): string {
@@ -170,6 +210,39 @@
         surRetour={fermerFiche}
         surChangement={(d) => (distributionCourante = d)}
       />
+    {/if}
+
+    {#if banque.phase === 'termine'}
+      <section class="boite fin">
+        <span class="eyebrow">{tg.fin.titre}</span>
+        {#if banque.rappelSauvegarde}
+          <p class="aide" role="status">{tsv.rappel}</p>
+        {/if}
+        <button class="cta" onclick={ouvrirSpectacle}>{tg.fin.ouvrir}</button>
+      </section>
+    {:else if banque.phase === 'erreur'}
+      <section class="boite erreur">
+        <span class="eyebrow">{tg.erreur.titre}</span>
+        <p role="alert">{banque.erreur}</p>
+        <div class="boutons">
+          <button class="secondaire-bouton" onclick={() => banque.reinitialiser()}>
+            {tg.erreur.fermer}
+          </button>
+          <button onclick={creer}>{tg.erreur.reessayer}</button>
+        </div>
+      </section>
+    {:else}
+      <!-- Le CTA de ce mode : créer sans nouvelle écriture (CDC §7). -->
+      <button
+        class="cta creer"
+        disabled={!distributionCourante || banque.phase === 'creation'}
+        onclick={creer}
+      >
+        {banque.phase === 'creation' ? tba.creation.enCours : tba.creation.bouton}
+      </button>
+      {#if !distributionCourante}
+        <p class="aide" aria-live="polite">{tba.distribution.interditBloque}</p>
+      {/if}
     {/if}
   {:else if fiches.length === 0}
     <p class="aide" role="status">{tba.fondsVide}</p>
@@ -263,4 +336,20 @@
   .role-traits { color: var(--encre2); }
 
   .dapres { font-size: 12px; font-style: italic; color: var(--encre2); margin: 8px 0 0; }
+
+  .creer {
+    width: 100%;
+    min-height: 56px;
+    font-size: 14px;
+    letter-spacing: 0.14em;
+  }
+
+  .fin, .erreur { padding: 14px; }
+  .fin .eyebrow, .erreur .eyebrow { margin-bottom: 10px; }
+  .fin button { width: 100%; margin-top: 12px; }
+
+  /* Le rouge signale l'erreur, conformément au §11. */
+  .erreur p { border-left: 4px solid var(--accent); padding-left: 10px; font-size: 14px; }
+  .boutons { display: flex; gap: 8px; margin-top: 12px; }
+  .boutons button { flex: 1; }
 </style>

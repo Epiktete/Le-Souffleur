@@ -261,6 +261,13 @@ export const tba = {
     interditBloque: 'Corrigez la distribution : un rôle est mal attribué.',
     retour: 'Revenir aux spectacles',
   },
+  /** La création d'un spectacle depuis le fonds (CDC §7) : sans nouvelle écriture. */
+  creation: {
+    bouton: 'Créer le spectacle',
+    enCours: 'Création…',
+    introuvable: 'Ce spectacle du fonds est introuvable. Rechargez la page, puis réessayez.',
+    echec: 'La création a échoué ; rien n’a été enregistré.',
+  },
 } as const;
 
 /** Textes des paramètres IA et du test de connexion (CDC §5 et §10). */
