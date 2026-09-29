@@ -224,8 +224,8 @@ export const ts = {
 /** Textes du mode Banque (CDC §7, « La colonne centrale a deux modes »). */
 export const tba = {
   onglets: {
-    /** Provisoire : la colonne s'appelle « Studio », ce mode attend son nom (2026-09-29). */
-    studio: 'Sur mesure',
+    /** Le mode sur mesure, nommé « Atelier » par Nicolas le 2026-09-29 ; la colonne s'appelle « Studio ». */
+    studio: 'Atelier',
     /** Le mot de l'interface pour le fonds, choisi par Nicolas le 2026-09-28. */
     banque: 'Contothèque',
     /** Pour les lecteurs d'écran : ce que ces onglets font. */
@@ -234,8 +234,8 @@ export const tba = {
   /** Bandeau honnête : le fonds est petit, il grandira (CDC §7). */
   intro: (n: number) =>
     `${n} spectacle${n > 1 ? 's' : ''} déjà écrit${n > 1 ? 's' : ''}, prêt${n > 1 ? 's' : ''} à être joué${n > 1 ? 's' : ''} `
-    + 'par vos marionnettes, sans nouvelle écriture. Le fonds grandira ; l’onglet « Sur mesure », lui, écrit un spectacle pour vos marionnettes.',
-  fondsVide: 'Le fonds est vide pour l’instant. L’onglet « Sur mesure », lui, écrit un spectacle pour vos marionnettes.',
+    + 'par vos marionnettes, sans nouvelle écriture. Le fonds grandira ; l’Atelier, lui, écrit un spectacle pour vos marionnettes.',
+  fondsVide: 'Le fonds est vide pour l’instant. L’Atelier, lui, écrit un spectacle pour vos marionnettes.',
   fiche: {
     /** La minute suffit au parent : pas de secondes sur une fiche (2026-09-29). */
     minutes: (secondes: number) => `${Math.max(1, Math.round(secondes / 60))} min`,
