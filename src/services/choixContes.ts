@@ -148,15 +148,16 @@ const LEXIQUE: Record<Famille, string[]> = {
     'mouton', 'brebis', 'chevre', 'chevreau', 'bouc', 'marmotte', 'taupe', 'loir',
     'cochon', 'cochonnet', 'porcelet', 'koala', 'panda', 'raton', 'belette', 'blaireau',
     'rat', 'chaton', 'poussin', 'caneton', 'poney', 'zebre', 'lama', 'kangourou', 'loutre',
-    'tanuki', 'singe', 'babouin', 'macaque', 'suricate', 'chinchilla',
+    'tanuki', 'singe', 'guenon', 'babouin', 'macaque', 'suricate', 'chinchilla',
+    'castor', 'truie', 'tatou',
   ],
   predateur: [
     'loup', 'louve', 'renard', 'renarde', 'tigre', 'tigresse', 'lion', 'lionne', 'leopard', 'panthere',
     'jaguar', 'guepard', 'lynx', 'hyene', 'chacal', 'crocodile', 'alligator', 'serpent',
-    'requin', 'chat', 'chatte', 'fouine', 'coyote', 'puma',
+    'requin', 'chat', 'chatte', 'fouine', 'coyote', 'puma', 'lionceau', 'louveteau', 'renardeau',
   ],
   gros: [
-    'ours', 'ourse', 'ourson', 'elephant', 'hippopotame', 'rhinoceros', 'buffle', 'bison',
+    'ours', 'ourse', 'ourson', 'elephant', 'elephante', 'hippopotame', 'rhinoceros', 'buffle', 'bison',
     'taureau', 'boeuf', 'vache', 'veau', 'cheval', 'jument', 'ane', 'anesse', 'mulet',
     'girafe', 'chameau', 'dromadaire', 'gorille', 'orang', 'sanglier', 'elan', 'morse',
     'chien', 'chienne', 'chiot', 'dinosaure', 'mammouth', 'baleine',
@@ -166,6 +167,7 @@ const LEXIQUE: Record<Famille, string[]> = {
     'corbeau', 'corneille', 'moineau', 'merle', 'caille', 'perdrix', 'pigeon', 'colombe',
     'hibou', 'chouette', 'faucon', 'aigle', 'perroquet', 'pingouin', 'manchot', 'autruche',
     'cigogne', 'heron', 'rouge-gorge', 'mesange', 'pelican', 'flamant', 'toucan', 'paon',
+    'hirondelle', 'mouette', 'perruche', 'canari', 'dinde',
   ],
   bestiole: [
     'araignee', 'fourmi', 'abeille', 'mouche', 'moustique', 'frelon', 'guepe', 'cigale',
@@ -274,6 +276,12 @@ function libelleDans(texte: string, mot: string): string {
  * reçoit une compatibilité moyenne avec tous les rôles, et c'est le modèle,
  * qui lit la description, qui juge.
  */
+export function libelleEspece(m: Pick<Marionnette, 'nom' | 'description' | 'espece'>): string | null {
+  // Le mot déclaré fait foi pour le TEXTE, même inconnu du lexique
+  // (« hirondelle ») : le lexique ne sert qu'à deviner une famille.
+  return m.espece?.trim() || (especeMarionnette(m)?.libelle ?? null);
+}
+
 export function especeMarionnette(m: Pick<Marionnette, 'nom' | 'description' | 'espece'>):
   { mot: string; famille: Famille; libelle: string } | null {
   // L'espèce DÉCLARÉE par le parent l'emporte sur toute devinette

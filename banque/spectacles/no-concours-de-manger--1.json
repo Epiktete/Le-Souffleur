@@ -362,16 +362,14 @@
             "id": "a2e13:texte",
             "avant": "effrayé",
             "apres": "effrayée"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "un paysan",
+            "apres": "une paysanne"
           }
         ]
-      },
-      "especeMentions": [
-        {
-          "id": "a1e1:texte",
-          "avant": "un paysan",
-          "gabarit": "{un} {espece}"
-        }
-      ]
+      }
     }
   ],
   "parametres": {

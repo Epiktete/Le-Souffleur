@@ -197,20 +197,23 @@ const VOYELLE = /^[aeiouàâäéèêëiîïoôöuùûüyh]/i;
  *
  * On n'y touche qu'AU POINT DE SUBSTITUTION, jamais ailleurs dans le texte :
  * une réparation globale corrigerait des tournures du conte qu'on n'a pas à
- * toucher. Et on ne traite que « de » : « le/la » demanderait de connaître le
- * genre de la peluche, que rien ne nous dit.
+ * toucher. On traite « de », et « que » avec ses composés (jusque, lorsque,
+ * puisque) : « on m'a dit que Olive » ne se dit pas non plus (relevé au lot
+ * Guignol, 2026-09-29). Pas « le/la », qui demanderait le genre de la peluche.
  */
 function peuplerTexte(texte: string, noms: Map<string, string>): string {
-  // Le « de » doit être un MOT : sans la garde en tête, « regarde {{r1}} »
+  // Le mot à élider doit être un MOT : sans la garde en tête, « regarde {{r1}} »
   // devenait « regard’Ourse Gourmande ».
-  return texte.replace(/(?<![\p{L}\p{N}])([Dd])(['’]|e )(\{\{(r\d+)\}\})|\{\{(r\d+)\}\}/gu,
+  return texte.replace(
+    /(?<![\p{L}\p{N}])([Dd]|[Qq]u|[Jj]usqu|[Ll]orsqu|[Pp]uisqu)(['’]|e )(\{\{(r\d+)\}\})|\{\{(r\d+)\}\}/gu,
     (tout, d?: string, forme?: string, _avecDe?: string, cle1?: string, cle2?: string) => {
       const cle = cle1 ?? cle2;
       const nom = cle ? noms.get(cle) : undefined;
       if (nom === undefined) return tout;
       if (!d) return nom;
-      const elide = VOYELLE.test(nom);
-      return `${d}${elide ? '’' : 'e '}${nom}`;
+      if (!VOYELLE.test(nom)) return `${d}e ${nom}`;
+      // Une élision déjà juste garde son apostrophe, droite ou courbe.
+      return `${d}${forme === 'e ' ? '’' : forme}${nom}`;
     })
     // Les noms écrits en capitales dans le modèle (« {{R1}} ») le restent.
     .replace(/\{\{R(\d+)\}\}/g, (tout, n: string) => noms.get(`r${n}`)?.toUpperCase() ?? tout);
@@ -482,12 +485,37 @@ export function lignesModele(m: SpectacleModele): LigneModele[] {
 }
 
 /**
+ * Les espèces à h aspiré, qui refusent l'élision : « le hibou », pas
+ * « l'hibou ». La liste suit les peluches courantes ; « l'hirondelle »,
+ * « l'hippopotame » ont un h muet et n'y sont pas.
+ */
+const H_ASPIRE =
+  /^(h[ée]risson|hibou|hamster|h[ée]ron|homard|hy[èe]ne|harfang|hanneton|hareng|husky|hulotte|harpe|harpie|haricot|h[ée]ros)/i;
+
+function devantVoyelle(mot: string): boolean {
+  return /^[aeiouyàâäéèêëîïôöùûüh]/i.test(mot) && !H_ASPIRE.test(mot);
+}
+
+/**
+ * Les mots qui changent de forme devant une voyelle : « ma ourse » ne se dit
+ * pas plus que « ce ours ». Une paire `{mon|ma}` choisit le genre, cette
+ * table fait le reste, quelle que soit l'espèce qui suit.
+ */
+const FORME_DEVANT_VOYELLE: Record<string, string> = {
+  ma: 'mon', ta: 'ton', sa: 'son', Ma: 'Mon', Ta: 'Ton', Sa: 'Son',
+  ce: 'cet', Ce: 'Cet', beau: 'bel', Beau: 'Bel', vieux: 'vieil', Vieux: 'Vieil',
+  nouveau: 'nouvel', Nouveau: 'Nouvel',
+};
+
+/**
  * Rend un gabarit de mention d'espèce avec l'espèce et le genre de la
  * peluche. Les trous : `{le}` `{Le}` `{un}` `{Un}` `{du}` `{au}` `{de}`
  * (articles, avec élision devant voyelle), `{espece}` (le mot déclaré), et
- * toute paire `{masculin|féminin}` d'adjectif. Un test du fonds vérifie que
- * chaque gabarit, rendu avec l'espèce et le genre D'ORIGINE du rôle, redonne
- * exactement l'extrait « avant » : les annotations se prouvent elles-mêmes.
+ * toute paire `{masculin|féminin}` (« {mon|ma} », « {petit|petite} ») ; les
+ * formes d'avant voyelle (« mon ourse », « cet ours ») viennent d'elles-mêmes.
+ * Un test du fonds vérifie que chaque gabarit, rendu avec l'espèce et le
+ * genre D'ORIGINE du rôle, redonne exactement l'extrait « avant » : les
+ * annotations se prouvent elles-mêmes.
  */
 export function rendreMention(
   gabarit: string,
@@ -509,12 +537,11 @@ export function rendreMention(
       .replaceAll('{Un}', fem ? 'Une' : 'Un');
   });
 
-  const voyelle = /^[aeiouyàâäéèêëîïôöùûüh]/i;
   const morceaux: string[] = [];
   for (let i = 0; i < rendus.length; i++) {
     const jeton = rendus[i];
     const suivant = rendus[i + 1] ?? '';
-    const elide = voyelle.test(suivant);
+    const elide = devantVoyelle(suivant);
     const articles: Record<string, string> = {
       '{le}': elide ? 'l’' : fem ? 'la' : 'le',
       '{Le}': elide ? 'L’' : fem ? 'La' : 'Le',
@@ -524,7 +551,7 @@ export function rendreMention(
       '{au}': elide ? 'à l’' : fem ? 'à la' : 'au',
       '{de}': elide ? 'd’' : 'de',
     };
-    morceaux.push(articles[jeton] ?? jeton);
+    morceaux.push(articles[jeton] ?? (elide ? FORME_DEVANT_VOYELLE[jeton] : undefined) ?? jeton);
   }
   // Une forme élidée se colle au mot qui suit : « l’ » + « ourse ».
   return morceaux.reduce((texte, mot) =>

@@ -7,6 +7,8 @@ import { describe, expect, it } from 'vitest';
 import { lignesModele, rendreMention, type SpectacleModele } from '../src/services/banque';
 import { conteParId } from '../src/services/repertoire';
 import { dureeSpectacle } from '../src/services/duree';
+import { instancierModele } from '../src/services/instanciation';
+import type { Marionnette } from '../src/types';
 
 const DOSSIER = 'banque/spectacles';
 const MODELES = readdirSync(DOSSIER).filter((f) => f.endsWith('.json')).map((f) => ({
@@ -115,6 +117,32 @@ describe.each(MODELES)('le fonds : $fichier', ({ fichier, modele: m }) => {
         }
       }
     }
+  });
+
+  it('se crée sans avertissement avec des peluches d’un autre genre et d’une autre espèce', () => {
+    // Les annotations se prouvent une à une, mais elles doivent aussi tenir
+    // ENSEMBLE : une mention qui englobe l'extrait d'un accord (« , le tigre
+    // le plus » contre « le plus orgueilleux ») cassait la création.
+    // Des espèces à voyelle et à h aspiré éprouvent aussi les élisions.
+    const autres = { feminin: ['ourse', 'abeille', 'oie', 'hirondelle', 'autruche', 'éléphante'],
+      masculin: ['ours', 'écureuil', 'hibou', 'éléphant', 'hérisson', 'âne'] };
+    const noms = ['Olive', 'Anatole', 'Ernest', 'Isis', 'Ulysse', 'Émile'];
+    const copie = JSON.parse(JSON.stringify(m)) as SpectacleModele;
+    const troupe: Marionnette[] = copie.roles.map((r, i) => {
+      const genre = r.genre === 'feminin' ? 'masculin' : 'feminin';
+      return {
+        id: `p${i}`, nom: noms[i % noms.length], description: 'Une peluche.', traits: [],
+        espece: r.especeImposee && r.espece ? r.espece : autres[genre][i % 6], genre,
+        creeLe: '2026-01-01T00:00:00.000Z', modifieLe: '2026-01-01T00:00:00.000Z',
+      };
+    });
+    const { spectacle, avertissements } = instancierModele(
+      copie, copie.roles.map((r, i) => ({ cle: r.cle, marionnetteId: `p${i}` })), troupe);
+    expect(avertissements).toEqual([]);
+    const joue = JSON.stringify([spectacle.pitch, spectacle.tableaux, spectacle.actes]);
+    expect(joue, 'un trou de gabarit est resté').not.toMatch(/\{[\p{L}|]+\}/u);
+    expect(joue, 'ma/ta/sa devant voyelle').not.toMatch(
+      /(?<![\p{L}])[mtsMTS]a (?!h[ée]risson|hibou|harpe|hauteur|hache|haine|honte|hâte|hurl)[aeiouyéèêâîôûh]/u);
   });
 
   it('classe exactement ses adresses au public', () => {

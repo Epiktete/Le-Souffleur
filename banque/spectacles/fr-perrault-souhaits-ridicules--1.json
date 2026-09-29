@@ -157,26 +157,24 @@
             "id": "a3e35:texte",
             "avant": "ce qu'il souhaitait",
             "apres": "ce qu'elle souhaitait"
+          },
+          {
+            "id": "pitch",
+            "avant": "au bûcheron",
+            "apres": "à la bûcheronne"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "vie de bûcheron",
+            "apres": "vie de bûcheronne"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "un pauvre bûcheron nommé",
+            "apres": "une pauvre bûcheronne nommée"
           }
         ]
-      },
-      "especeMentions": [
-        {
-          "id": "pitch",
-          "avant": "au bûcheron",
-          "gabarit": "{au} {espece}"
-        },
-        {
-          "id": "a1:resume",
-          "avant": "vie de bûcheron",
-          "gabarit": "vie {de} {espece}"
-        },
-        {
-          "id": "a1e1:texte",
-          "avant": "un pauvre bûcheron nommé",
-          "gabarit": "{un} pauvre {espece} {nommé|nommée}"
-        }
-      ]
+      }
     },
     {
       "cle": "r2",

@@ -1,0 +1,1932 @@
+{
+  "id": "en-jack-haricot--1",
+  "conteId": "en-jack-haricot",
+  "titre": "Jack et le haricot magique",
+  "pitch": "{{r1}} échange la vache contre cinq haricots magiques, grimpe jusqu'au ciel et prend, trois fois de suite, un trésor à {{r2}}, un ogre : un sac d'or, une poule aux œufs d'or, puis une harpe qui chante.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "garcon",
+      "famille": "enfant",
+      "traits": [
+        "curieux",
+        "courageux",
+        "rusé"
+      ],
+      "voix": "voix claire et vive, qui s'emballe vite",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e1:texte",
+            "avant": "un fils unique appelé",
+            "apres": "une fille unique appelée"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "n'était pas allé bien loin",
+            "apres": "n'était pas allée bien loin"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "quand il rencontra",
+            "apres": "quand elle rencontra"
+          },
+          {
+            "id": "a1e17:texte",
+            "avant": "en le regardant",
+            "apres": "en la regardant"
+          },
+          {
+            "id": "a1e19:ton",
+            "avant": "vif comme",
+            "apres": "vive comme"
+          },
+          {
+            "id": "a1e21:texte",
+            "avant": "si malin",
+            "apres": "si maligne"
+          },
+          {
+            "id": "a1e34:ton",
+            "avant": "tout fier",
+            "apres": "toute fière"
+          },
+          {
+            "id": "a1e35:texte",
+            "avant": "assez sot, assez nigaud",
+            "apres": "assez sotte, assez nigaude"
+          },
+          {
+            "id": "a1e41:texte",
+            "avant": "bien désolé",
+            "apres": "bien désolée"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "le cache",
+            "apres": "la cache"
+          },
+          {
+            "id": "a2e5:texte",
+            "avant": "et il grimpa",
+            "apres": "et elle grimpa"
+          },
+          {
+            "id": "a2e7:texte",
+            "avant": "et il grimpa",
+            "apres": "et elle grimpa"
+          },
+          {
+            "id": "a2e7:texte",
+            "avant": "qu'il arrive enfin",
+            "apres": "qu'elle arrive enfin"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "Il marcha, et il marcha, et il marcha",
+            "apres": "Elle marcha, et elle marcha, et elle marcha"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "qu'il arrive à",
+            "apres": "qu'elle arrive à"
+          },
+          {
+            "id": "a2e13:texte",
+            "avant": "être grillé",
+            "apres": "être grillée"
+          },
+          {
+            "id": "a2e31:texte",
+            "avant": "prêt à filer",
+            "apres": "prête à filer"
+          },
+          {
+            "id": "a2e40:texte",
+            "avant": "il prit",
+            "apres": "elle prit"
+          },
+          {
+            "id": "a2e45:ton",
+            "avant": "tout fier",
+            "apres": "toute fière"
+          },
+          {
+            "id": "a3e7:texte",
+            "avant": "le gamin qui est déjà venu",
+            "apres": "la gamine qui est déjà venue"
+          },
+          {
+            "id": "a3e9:texte",
+            "avant": "le fit entrer",
+            "apres": "la fit entrer"
+          },
+          {
+            "id": "a3e11:texte",
+            "avant": "avait-il",
+            "apres": "avait-elle"
+          },
+          {
+            "id": "a3e41:texte",
+            "avant": "chez lui, il montra",
+            "apres": "chez elle, elle montra"
+          },
+          {
+            "id": "a3e44:texte",
+            "avant": "qu'il disait",
+            "apres": "qu'elle disait"
+          },
+          {
+            "id": "a4e1:texte",
+            "avant": "pas content",
+            "apres": "pas contente"
+          },
+          {
+            "id": "a4e1:texte",
+            "avant": "qu'il décide",
+            "apres": "qu'elle décide"
+          },
+          {
+            "id": "a4e4:texte",
+            "avant": "il savait",
+            "apres": "elle savait"
+          },
+          {
+            "id": "a4e16:texte",
+            "avant": "ce petit coquin",
+            "apres": "cette petite coquine"
+          },
+          {
+            "id": "a4e16:texte",
+            "avant": "il est sûrement",
+            "apres": "elle est sûrement"
+          },
+          {
+            "id": "a4e42:texte",
+            "avant": "le suit",
+            "apres": "la suit"
+          },
+          {
+            "id": "a4e70:texte",
+            "avant": "épousa une grande princesse",
+            "apres": "épousa un grand prince"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a1e18:texte",
+          "avant": "d'un garçon",
+          "gabarit": "d'{un} {espece}"
+        },
+        {
+          "id": "a1e33:texte",
+          "avant": "Bon garçon",
+          "gabarit": "{Bon|Bonne} {espece}"
+        },
+        {
+          "id": "a3e7:texte",
+          "avant": "mon garçon",
+          "gabarit": "{mon|ma} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r2",
+      "espece": "ogre",
+      "famille": "monstre",
+      "traits": [
+        "méchant",
+        "gourmand",
+        "grognon"
+      ],
+      "voix": "voix énorme et grondante, qui renifle bruyamment avant de parler",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2e12:texte",
+            "avant": "Mon mari",
+            "apres": "Ma femme"
+          },
+          {
+            "id": "a2e12:texte",
+            "avant": "qu'il aime",
+            "apres": "qu'elle aime"
+          },
+          {
+            "id": "a2e12:texte",
+            "avant": "il va bientôt",
+            "apres": "elle va bientôt"
+          },
+          {
+            "id": "a2e17:texte",
+            "avant": "mon mari",
+            "apres": "ma femme"
+          },
+          {
+            "id": "a2e22:texte",
+            "avant": "était grand, ça",
+            "apres": "était grande, ça"
+          },
+          {
+            "id": "a2e22:texte",
+            "avant": "Il les décrocha",
+            "apres": "Elle les décrocha"
+          },
+          {
+            "id": "a2e28:texte",
+            "avant": "mon chéri",
+            "apres": "ma chérie"
+          },
+          {
+            "id": "a2e32:texte",
+            "avant": "qu'il dorme",
+            "apres": "qu'elle dorme"
+          },
+          {
+            "id": "a2e32:texte",
+            "avant": "Il fait toujours",
+            "apres": "Elle fait toujours"
+          },
+          {
+            "id": "a2e36:texte",
+            "avant": "puis il alla",
+            "apres": "puis elle alla"
+          },
+          {
+            "id": "a3e7:texte",
+            "avant": "sinon mon mari",
+            "apres": "sinon ma femme"
+          },
+          {
+            "id": "a3e7:texte",
+            "avant": "jour-là, mon mari",
+            "apres": "jour-là, ma femme"
+          },
+          {
+            "id": "a3e19:texte",
+            "avant": "mon chéri",
+            "apres": "ma chérie"
+          },
+          {
+            "id": "a3e35:texte",
+            "avant": "mon chéri",
+            "apres": "ma chérie"
+          },
+          {
+            "id": "a4:titre",
+            "avant": "Maître ! Maître !",
+            "apres": "Maîtresse ! Maîtresse !"
+          },
+          {
+            "id": "a4:resume",
+            "avant": "son maître",
+            "apres": "sa maîtresse"
+          },
+          {
+            "id": "a4e16:texte",
+            "avant": "mon chéri",
+            "apres": "ma chérie"
+          },
+          {
+            "id": "a4e19:texte",
+            "avant": "tu es distrait",
+            "apres": "tu es distraite"
+          },
+          {
+            "id": "a4e20:texte",
+            "avant": "il marmonnait",
+            "apres": "elle marmonnait"
+          },
+          {
+            "id": "a4e23:texte",
+            "avant": "il ne pensa pas",
+            "apres": "elle ne pensa pas"
+          },
+          {
+            "id": "a4e37:texte",
+            "avant": "Maître ! Maître !",
+            "apres": "Maîtresse ! Maîtresse !"
+          },
+          {
+            "id": "a4e38:texte",
+            "avant": "Maître ! Maître !",
+            "apres": "Maîtresse ! Maîtresse !"
+          },
+          {
+            "id": "a4e48:texte",
+            "avant": "Maître ! Maître !",
+            "apres": "Maîtresse ! Maîtresse !"
+          },
+          {
+            "id": "a4e51:texte",
+            "avant": "on ne le voit plus",
+            "apres": "on ne la voit plus"
+          },
+          {
+            "id": "a4e63:texte",
+            "avant": "secoué",
+            "apres": "secouée"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "pitch",
+          "avant": "un ogre",
+          "gabarit": "{un} {espece}"
+        },
+        {
+          "id": "a2e12:texte",
+          "avant": "un ogre",
+          "gabarit": "{un} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r3",
+      "espece": "geante",
+      "famille": "monstre",
+      "traits": [
+        "gentil",
+        "curieux",
+        "bavard"
+      ],
+      "voix": "voix forte mais douce, qui baisse le ton pour chuchoter",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a2e8:texte",
+            "avant": "une grande, grande femme, très haute",
+            "apres": "un grand, grand homme, très haut"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "Bonjour, madame",
+            "apres": "Bonjour, monsieur"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "assez gentille",
+            "apres": "assez gentil"
+          },
+          {
+            "id": "a2e13:texte",
+            "avant": "plaît, madame",
+            "apres": "plaît, monsieur"
+          },
+          {
+            "id": "a2e13:texte",
+            "avant": "sincèrement, madame",
+            "apres": "sincèrement, monsieur"
+          },
+          {
+            "id": "a2e14:texte",
+            "avant": "si méchante",
+            "apres": "si méchant"
+          },
+          {
+            "id": "a2e17:ton",
+            "avant": "affolée",
+            "apres": "affolé"
+          },
+          {
+            "id": "a2e23:texte",
+            "avant": "Tiens, femme",
+            "apres": "Tiens, mari"
+          },
+          {
+            "id": "a3e6:texte",
+            "avant": "Bonjour, madame",
+            "apres": "Bonjour, monsieur"
+          },
+          {
+            "id": "a3e6:texte",
+            "avant": "assez bonne",
+            "apres": "assez bon"
+          },
+          {
+            "id": "a3e8:texte",
+            "avant": "curieux, madame",
+            "apres": "curieux, monsieur"
+          },
+          {
+            "id": "a3e9:texte",
+            "avant": "si curieuse qu'elle",
+            "apres": "si curieux qu'il"
+          },
+          {
+            "id": "a3e20:texte",
+            "avant": "Femme, apporte-moi",
+            "apres": "Mari, apporte-moi"
+          },
+          {
+            "id": "a3e33:texte",
+            "avant": "Femme, femme",
+            "apres": "Mari, mari"
+          },
+          {
+            "id": "a4e15:texte",
+            "avant": "Je le sens, femme",
+            "apres": "Je le sens, mari"
+          },
+          {
+            "id": "a4e19:texte",
+            "avant": "je suis étourdie",
+            "apres": "je suis étourdi"
+          },
+          {
+            "id": "a4e25:texte",
+            "avant": "Femme, femme",
+            "apres": "Mari, mari"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r4",
+      "espece": "femme",
+      "famille": "adulte",
+      "traits": [
+        "grognon",
+        "travailleur"
+      ],
+      "voix": "voix aiguë et pressée, qui monte très haut dans la colère",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a1:resume",
+            "avant": "furieuse",
+            "apres": "furieux"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "une pauvre veuve",
+            "apres": "un pauvre veuf"
+          },
+          {
+            "id": "a1e7:texte",
+            "avant": "Courage, maman",
+            "apres": "Courage, papa"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "D'accord, maman",
+            "apres": "D'accord, papa"
+          },
+          {
+            "id": "a1e32:texte",
+            "avant": "maman",
+            "apres": "papa"
+          },
+          {
+            "id": "a1e41:texte",
+            "avant": "pour sa mère",
+            "apres": "pour son père"
+          },
+          {
+            "id": "a2e3:texte",
+            "avant": "que sa mère avait jetés",
+            "apres": "que son père avait jetés"
+          },
+          {
+            "id": "a2e44:texte",
+            "avant": "à sa mère",
+            "apres": "à son père"
+          },
+          {
+            "id": "a2e45:texte",
+            "avant": "Alors, maman",
+            "apres": "Alors, papa"
+          },
+          {
+            "id": "a3e41:texte",
+            "avant": "à sa mère",
+            "apres": "à son père"
+          },
+          {
+            "id": "a4e54:texte",
+            "avant": "Maman ! Maman !",
+            "apres": "Papa ! Papa !"
+          },
+          {
+            "id": "a4e56:texte",
+            "avant": "elle resta figée",
+            "apres": "il resta figé"
+          },
+          {
+            "id": "a4e56:texte",
+            "avant": "car elle voyait",
+            "apres": "car il voyait"
+          },
+          {
+            "id": "a4e70:texte",
+            "avant": "à sa mère",
+            "apres": "à son père"
+          },
+          {
+            "id": "a4e70:texte",
+            "avant": "et sa mère devinrent",
+            "apres": "et son père devinrent"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r5",
+      "espece": "vieux",
+      "famille": "vieux",
+      "traits": [
+        "farceur",
+        "savant"
+      ],
+      "voix": "voix chevrotante et malicieuse, avec un petit rire au bout des phrases",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": []
+      },
+      "especeMentions": [
+        {
+          "id": "a1e11:texte",
+          "avant": "un drôle de petit vieux",
+          "gabarit": "{un} drôle de {petit|petite} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r6",
+      "espece": "harpe",
+      "famille": "objet",
+      "traits": [
+        "bavard",
+        "fidèle"
+      ],
+      "voix": "voix chantante et cristalline, qui devient perçante dans les cris",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a4e31:texte",
+            "avant": "Et elle continua",
+            "apres": "Et il continua"
+          },
+          {
+            "id": "a4e70:texte",
+            "avant": "de la montrer",
+            "apres": "de le montrer"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "pitch",
+          "avant": "une harpe",
+          "gabarit": "{un} {espece}"
+        },
+        {
+          "id": "a4e25:texte",
+          "avant": "ma harpe d'or",
+          "gabarit": "{mon|ma} {espece} d'or"
+        },
+        {
+          "id": "a4e70:texte",
+          "avant": "sa harpe d'or",
+          "gabarit": "{son|sa} {espece} d'or"
+        }
+      ]
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 16,
+    "ageAuditoire": 7,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La chaumière",
+      "description": "Posez un carton debout au bout gauche de la table : c'est la chaumière de {{r1}} et de {{r4}}, avec sa fenêtre en haut. Le reste de la table fait le chemin du marché. Une nappe tendue devant la table cache vos bras.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "La tige de haricot et la maison de {{r2}}",
+      "description": "Gardez la chaumière au bout gauche. Juste à côté, plantez debout un torchon vert bien roulé : c'est la tige de haricot, qui monte jusqu'au ciel. Au bout droit, couchez un grand carton : c'est le four de la maison de {{r2}}, et posez devant une grande casserole : c'est le chaudron. Chez {{r2}}, on est dans le ciel : jouez {{r2}} et {{r3}} bras bien levés.",
+      "accessoires": [
+        "une grande casserole (le chaudron)"
+      ],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Cinq haricots pour une vache",
+      "resume": "{{r4}} envoie {{r1}} vendre Blanche-Laitière ; en chemin, {{r5}} la lui échange contre cinq haricots magiques. {{r4}}, furieuse, les jette par la fenêtre.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Il était une fois une pauvre veuve, {{r4}}, qui avait un fils unique appelé {{r1}}, et une vache appelée Blanche-Laitière."
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e3",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e4",
+          "type": "conteur",
+          "texte": "Mais un matin, Blanche-Laitière ne donna pas de lait, et ils ne savaient plus quoi faire."
+        },
+        {
+          "id": "a1e5",
+          "type": "didascalie",
+          "texte": "{{r4}} va et vient devant la chaumière en secouant la tête."
+        },
+        {
+          "id": "a1e6",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Qu'allons-nous faire, qu'allons-nous faire ?",
+          "ton": "en se lamentant"
+        },
+        {
+          "id": "a1e7",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Courage, maman, je vais aller trouver du travail quelque part.",
+          "ton": "gentiment"
+        },
+        {
+          "id": "a1e8",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "On a déjà essayé, et personne n'a voulu de toi. Il faut vendre Blanche-Laitière, et avec l'argent, ouvrir une boutique, ou quelque chose.",
+          "ton": "en soupirant"
+        },
+        {
+          "id": "a1e9",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "D'accord, maman. C'est jour de marché aujourd'hui, je vais vite vendre Blanche-Laitière, et puis on verra ce qu'on peut faire.",
+          "ton": "avec entrain"
+        },
+        {
+          "id": "a1e10",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e11",
+          "type": "conteur",
+          "texte": "{{r1}} n'était pas allé bien loin quand il rencontra {{r5}}, un drôle de petit vieux, qui lui dit :"
+        },
+        {
+          "id": "a1e12",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e13",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Bonjour, {{r1}}.",
+          "ton": "d'un air malin"
+        },
+        {
+          "id": "a1e14",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Bonjour à vous.",
+          "ton": "poliment"
+        },
+        {
+          "id": "a1e15",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Eh bien, {{r1}}, où vas-tu comme ça ?",
+          "ton": "gaiement"
+        },
+        {
+          "id": "a1e16",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je vais au marché vendre notre vache.",
+          "ton": "fièrement"
+        },
+        {
+          "id": "a1e17",
+          "type": "didascalie",
+          "texte": "{{r5}} tourne autour de {{r1}} en le regardant de haut en bas."
+        },
+        {
+          "id": "a1e18",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Oh, tu as tout à fait l'air d'un garçon à vendre des vaches. Je me demande si tu sais combien de haricots font cinq.",
+          "ton": "d'un air malin"
+        },
+        {
+          "id": "a1e19",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Deux dans chaque main et un dans la bouche.",
+          "ton": "vif comme l'éclair"
+        },
+        {
+          "id": "a1e20",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Comptez-les avec moi : un, deux, trois, quatre, cinq !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e21",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Exactement. Et les voici, ces haricots-là. Puisque tu es si malin, je veux bien faire un échange avec toi : ta vache contre ces haricots.",
+          "ton": "d'une voix mielleuse"
+        },
+        {
+          "id": "a1e22",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Allons donc ! Ça vous arrangerait bien !",
+          "ton": "en riant"
+        },
+        {
+          "id": "a1e23",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Ah, tu ne sais pas ce que sont ces haricots. Si tu les plantes le soir, au matin ils ont poussé jusqu'au ciel.",
+          "ton": "tout bas, comme un secret"
+        },
+        {
+          "id": "a1e24",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Vraiment ? Pas possible !",
+          "ton": "d'une voix toute surprise"
+        },
+        {
+          "id": "a1e25",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Si, c'est comme ça. Et si ce n'est pas vrai, tu pourras reprendre ta vache.",
+          "ton": "tranquillement"
+        },
+        {
+          "id": "a1e26",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "D'accord !",
+          "ton": "sans hésiter"
+        },
+        {
+          "id": "a1e27",
+          "type": "conteur",
+          "texte": "{{r1}} lui donna le licou de Blanche-Laitière et empocha les haricots."
+        },
+        {
+          "id": "a1e28",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e29",
+          "type": "didascalie",
+          "texte": "{{r1}} revient jusqu'à la chaumière en sautillant."
+        },
+        {
+          "id": "a1e30",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e31",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Déjà de retour, {{r1}} ? Je vois que tu n'as plus Blanche-Laitière, alors tu l'as vendue. Combien en as-tu eu ?",
+          "ton": "avec curiosité"
+        },
+        {
+          "id": "a1e32",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tu ne devineras jamais, maman.",
+          "ton": "d'un air mystérieux"
+        },
+        {
+          "id": "a1e33",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Pas possible ! Bon garçon ! Cinq pièces, dix, quinze, non, ça ne peut pas être vingt !",
+          "ton": "de plus en plus fort"
+        },
+        {
+          "id": "a1e34",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je t'avais dit que tu ne devinerais pas. Que dis-tu de ces haricots ? Ils sont magiques : on les plante le soir, et…",
+          "ton": "tout fier"
+        },
+        {
+          "id": "a1e35",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Quoi ! Tu as été assez sot, assez nigaud, assez bête pour donner ma Blanche-Laitière, la meilleure laitière de la paroisse, pour une poignée de haricots de rien du tout ?",
+          "ton": "en criant"
+        },
+        {
+          "id": "a1e36",
+          "type": "didascalie",
+          "texte": "{{r4}} pousse {{r1}} de la tête, une fois, deux fois."
+        },
+        {
+          "id": "a1e37",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Tiens ! Et tiens ! Et quant à tes précieux haricots, voilà où ils vont : par la fenêtre !",
+          "ton": "très en colère"
+        },
+        {
+          "id": "a1e38",
+          "type": "didascalie",
+          "texte": "{{r4}} se tourne d'un coup vers la fenêtre et secoue la tête très fort."
+        },
+        {
+          "id": "a1e39",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Et maintenant, au lit. Pas une gorgée à boire, pas une bouchée à manger ce soir.",
+          "ton": "sèchement"
+        },
+        {
+          "id": "a1e40",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e41",
+          "type": "conteur",
+          "texte": "Alors {{r1}} monta dans sa petite chambre sous le toit, bien triste et bien désolé, autant pour sa mère que pour son souper perdu."
+        },
+        {
+          "id": "a1e42",
+          "type": "didascalie",
+          "texte": "{{r1}} se couche tout doucement derrière la chaumière."
+        },
+        {
+          "id": "a1e43",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e44",
+          "type": "note_marionnettiste",
+          "texte": "Entre les deux actes, plantez le torchon vert roulé bien droit à côté de la chaumière : c'est la tige de haricot, qui a poussé pendant la nuit."
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Fi, fa, fo, fum !",
+      "resume": "Une tige a poussé jusqu'au ciel. {{r1}} y grimpe ; {{r3}} le cache dans le four quand {{r2}} rentre en reniflant. {{r2}} s'endort sur son or : {{r1}} prend un sac d'or et redescend chez {{r4}}.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e2",
+          "type": "didascalie",
+          "texte": "{{r1}} surgit de derrière la chaumière et file jusqu'à la tige."
+        },
+        {
+          "id": "a2e3",
+          "type": "conteur",
+          "texte": "Les haricots que sa mère avait jetés par la fenêtre dans le jardin avaient poussé en une énorme tige de haricot, qui montait, montait, montait jusqu'au ciel."
+        },
+        {
+          "id": "a2e4",
+          "type": "conteur",
+          "texte": "{{r5}} avait donc dit vrai."
+        },
+        {
+          "id": "a2e5",
+          "type": "note_marionnettiste",
+          "texte": "Les enfants peuvent dire les « et il grimpa » avec vous, de plus en plus vite."
+        },
+        {
+          "id": "a2e6",
+          "type": "didascalie",
+          "texte": "{{r1}} grimpe le long de la tige, d'un petit bond à chaque « grimpa », jusqu'au bout de votre bras, puis marche jusqu'au bout droit de la table."
+        },
+        {
+          "id": "a2e7",
+          "type": "conteur",
+          "texte": "Alors {{r1}} grimpa, et il grimpa, et il grimpa, et il grimpa, et il grimpa, et il grimpa, jusqu'à ce qu'il arrive enfin au ciel."
+        },
+        {
+          "id": "a2e8",
+          "type": "conteur",
+          "texte": "Il marcha, et il marcha, et il marcha, jusqu'à ce qu'il arrive à une grande, grande maison, très haute ; et sur le seuil, il y avait {{r3}}, une grande, grande femme, très haute."
+        },
+        {
+          "id": "a2e9",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e10",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Bonjour, madame. Seriez-vous assez gentille pour me donner un petit déjeuner ?",
+          "ton": "bien poliment"
+        },
+        {
+          "id": "a2e11",
+          "type": "didascalie",
+          "texte": "{{r3}} se penche de très haut, tout près de {{r1}}."
+        },
+        {
+          "id": "a2e12",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "C'est un petit déjeuner que tu veux ? C'est toi qui vas en faire un, si tu ne pars pas d'ici ! Mon mari est un ogre, et il n'y a rien qu'il aime mieux que les petits garçons grillés sur une tartine. Tu ferais mieux de filer, il va bientôt rentrer.",
+          "ton": "d'une grosse voix"
+        },
+        {
+          "id": "a2e13",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oh, s'il vous plaît, madame, donnez-moi quelque chose à manger. Je n'ai rien mangé depuis hier matin, vraiment et sincèrement, madame. Autant être grillé que mourir de faim.",
+          "ton": "d'une petite voix suppliante"
+        },
+        {
+          "id": "a2e14",
+          "type": "conteur",
+          "texte": "Eh bien, {{r3}} n'était pas si méchante, après tout."
+        },
+        {
+          "id": "a2e15",
+          "type": "note_marionnettiste",
+          "texte": "Au « boum ! boum ! boum ! », frappez trois grands coups sur la table : {{r1}} et {{r3}} tremblent de tout leur corps."
+        },
+        {
+          "id": "a2e16",
+          "type": "conteur",
+          "texte": "Mais {{r1}} n'avait pas fini la moitié quand — boum ! boum ! boum ! — toute la maison se mit à trembler au bruit de quelqu'un qui arrivait."
+        },
+        {
+          "id": "a2e17",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Seigneur ! C'est mon mari. Qu'est-ce que je vais faire ? Vite, viens, saute là-dedans !",
+          "ton": "affolée"
+        },
+        {
+          "id": "a2e18",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Chut ! Je me cache dans le four. Surtout, ne dites rien !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e19",
+          "type": "didascalie",
+          "texte": "{{r1}} plonge derrière le carton du four et disparaît."
+        },
+        {
+          "id": "a2e20",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e21",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e22",
+          "type": "conteur",
+          "texte": "{{r2}} était grand, ça, on peut le dire. À sa ceinture pendaient trois veaux attachés par les pattes. Il les décrocha, les jeta sur la table et dit :"
+        },
+        {
+          "id": "a2e23",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Tiens, femme, fais-m'en griller deux pour le petit déjeuner.",
+          "ton": "d'une voix énorme"
+        },
+        {
+          "id": "a2e24",
+          "type": "didascalie",
+          "texte": "{{r2}} s'arrête net, lève le nez et renifle à droite, puis à gauche."
+        },
+        {
+          "id": "a2e25",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Ah ! Qu'est-ce que je sens là ?",
+          "ton": "en reniflant"
+        },
+        {
+          "id": "a2e26",
+          "type": "note_marionnettiste",
+          "texte": "Dites le refrain lentement, en frappant la table à « fi », à « fa », à « fo » et à « fum » : les enfants le retiendront pour la suite."
+        },
+        {
+          "id": "a2e27",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Fi, fa, fo, fum, je sens l'odeur d'un petit homme ! Qu'il soit vivant ou qu'il soit mort, je veux ses os pour faire mon pain d'or !",
+          "ton": "d'une voix terrible, en détachant chaque mot"
+        },
+        {
+          "id": "a2e28",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Mais non, mon chéri, tu rêves. Ou bien tu sens les restes du petit garçon que tu as tant aimé au dîner d'hier. Tiens, va te laver et te préparer, et quand tu reviendras, ton petit déjeuner sera prêt.",
+          "ton": "sans se troubler"
+        },
+        {
+          "id": "a2e29",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e30",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e31",
+          "type": "didascalie",
+          "texte": "{{r1}} sort la tête de derrière le four, prêt à filer."
+        },
+        {
+          "id": "a2e32",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Ne bouge pas ! Attends qu'il dorme. Il fait toujours un petit somme après le petit déjeuner.",
+          "ton": "tout bas"
+        },
+        {
+          "id": "a2e33",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e34",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e35",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e36",
+          "type": "conteur",
+          "texte": "Eh bien, {{r2}} prit son petit déjeuner, puis il alla à un grand coffre, en sortit deux sacs d'or, s'assit et se mit à compter."
+        },
+        {
+          "id": "a2e37",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Comptez mon or avec moi : un, deux, trois, quatre, cinq, six !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e38",
+          "type": "didascalie",
+          "texte": "{{r2}} penche la tête d'un côté, de l'autre, puis s'affale sur la table et ronfle : rrron… pchhh…"
+        },
+        {
+          "id": "a2e39",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e40",
+          "type": "conteur",
+          "texte": "Alors {{r1}} sortit du four sur la pointe des pieds, et en passant près de {{r2}}, il prit un des sacs d'or sous son bras, et fila jusqu'à la tige de haricot."
+        },
+        {
+          "id": "a2e41",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e42",
+          "type": "didascalie",
+          "texte": "{{r1}} descend le long de la tige par petits bonds, jusqu'en bas."
+        },
+        {
+          "id": "a2e43",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e44",
+          "type": "conteur",
+          "texte": "{{r1}} raconta tout à sa mère, lui montra l'or et dit :"
+        },
+        {
+          "id": "a2e45",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Alors, maman, n'avais-je pas raison pour les haricots ? Ils sont vraiment magiques, tu vois.",
+          "ton": "tout fier"
+        },
+        {
+          "id": "a2e46",
+          "type": "didascalie",
+          "texte": "{{r4}} et {{r1}} sautent de joie."
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "La poule aux œufs d'or",
+      "resume": "Deuxième montée : {{r3}} fait entrer {{r1}} par curiosité. {{r2}} renifle encore, puis fait pondre sa poule aux œufs d'or ; {{r1}} l'emporte, mais la poule réveille {{r2}}.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "conteur",
+          "texte": "Ils vécurent donc un certain temps grâce au sac d'or ; mais à la fin, il n'en resta plus rien, et {{r1}} décida de tenter encore sa chance en haut de la tige de haricot."
+        },
+        {
+          "id": "a3e2",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e3",
+          "type": "didascalie",
+          "texte": "{{r1}} grimpe le long de la tige par petits bonds, puis marche jusqu'au bout droit de la table."
+        },
+        {
+          "id": "a3e4",
+          "type": "conteur",
+          "texte": "Et là, bien sûr, {{r3}} était sur le seuil."
+        },
+        {
+          "id": "a3e5",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e6",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Bonjour, madame. Seriez-vous assez bonne pour me donner quelque chose à manger ?",
+          "ton": "sans se gêner"
+        },
+        {
+          "id": "a3e7",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Va-t'en, mon garçon, sinon mon mari va te manger au petit déjeuner. Mais n'es-tu pas le gamin qui est déjà venu une fois ? Figure-toi que ce jour-là, mon mari a perdu un de ses sacs d'or.",
+          "ton": "d'un air soupçonneux"
+        },
+        {
+          "id": "a3e8",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "C'est curieux, madame. Je pourrais peut-être vous en dire quelque chose, mais j'ai si faim que je ne peux pas parler avant d'avoir mangé.",
+          "ton": "l'air de rien"
+        },
+        {
+          "id": "a3e9",
+          "type": "conteur",
+          "texte": "{{r3}} était si curieuse qu'elle le fit entrer et lui donna à manger."
+        },
+        {
+          "id": "a3e10",
+          "type": "note_marionnettiste",
+          "texte": "Au « boum ! boum ! boum ! », frappez trois grands coups sur la table."
+        },
+        {
+          "id": "a3e11",
+          "type": "conteur",
+          "texte": "Mais à peine avait-il commencé à mâchonner, le plus lentement possible, que — boum ! boum ! boum ! — ils entendirent les pas de {{r2}}."
+        },
+        {
+          "id": "a3e12",
+          "type": "didascalie",
+          "texte": "{{r3}} pousse {{r1}} de la tête derrière le four."
+        },
+        {
+          "id": "a3e13",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e14",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e15",
+          "type": "conteur",
+          "texte": "Tout se passa comme la première fois."
+        },
+        {
+          "id": "a3e16",
+          "type": "didascalie",
+          "texte": "{{r2}} s'arrête net, lève le nez et renifle à droite, puis à gauche."
+        },
+        {
+          "id": "a3e17",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Dites-le avec moi, d'une grosse voix !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e18",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Fi, fa, fo, fum, je sens l'odeur d'un petit homme ! Qu'il soit vivant ou qu'il soit mort, je veux ses os pour faire mon pain d'or !",
+          "ton": "d'une voix terrible"
+        },
+        {
+          "id": "a3e19",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Mais non, mon chéri, tu rêves.",
+          "ton": "sans se troubler"
+        },
+        {
+          "id": "a3e20",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Femme, apporte-moi la poule aux œufs d'or.",
+          "ton": "la bouche pleine"
+        },
+        {
+          "id": "a3e21",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e22",
+          "type": "conteur",
+          "texte": "{{r3}} l'apporta, et {{r2}} dit :"
+        },
+        {
+          "id": "a3e23",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Ponds !",
+          "ton": "d'une grosse voix"
+        },
+        {
+          "id": "a3e24",
+          "type": "note_marionnettiste",
+          "texte": "Voix de la poule, en coulisse : « Cot, cot, codec ! »"
+        },
+        {
+          "id": "a3e25",
+          "type": "conteur",
+          "texte": "Et la poule pondit un œuf tout en or."
+        },
+        {
+          "id": "a3e26",
+          "type": "didascalie",
+          "texte": "{{r2}} s'affale sur la table et ronfle : rrron… pchhh…"
+        },
+        {
+          "id": "a3e27",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e28",
+          "type": "conteur",
+          "texte": "Alors {{r1}} sortit du four sur la pointe des pieds, attrapa la poule aux œufs d'or, et fila en un clin d'œil."
+        },
+        {
+          "id": "a3e29",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e30",
+          "type": "note_marionnettiste",
+          "texte": "Voix de la poule, en coulisse : « Cot, cot, cot, codec ! » — très fort."
+        },
+        {
+          "id": "a3e31",
+          "type": "conteur",
+          "texte": "Mais cette fois, la poule gloussa, ce qui réveilla {{r2}}."
+        },
+        {
+          "id": "a3e32",
+          "type": "didascalie",
+          "texte": "{{r2}} se redresse d'un bond et se tourne à droite, à gauche."
+        },
+        {
+          "id": "a3e33",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Femme, femme, qu'as-tu fait de ma poule aux œufs d'or ?",
+          "ton": "en hurlant"
+        },
+        {
+          "id": "a3e34",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e35",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Pourquoi, mon chéri ?",
+          "ton": "d'une voix innocente"
+        },
+        {
+          "id": "a3e36",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e37",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e38",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e39",
+          "type": "didascalie",
+          "texte": "{{r1}} dégringole le long de la tige, à toute vitesse, jusqu'en bas."
+        },
+        {
+          "id": "a3e40",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e41",
+          "type": "conteur",
+          "texte": "Et en arrivant chez lui, il montra à sa mère la merveilleuse poule, et lui dit :"
+        },
+        {
+          "id": "a3e42",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Dites-le avec moi, très fort : Ponds !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e43",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ponds !",
+          "ton": "très fort"
+        },
+        {
+          "id": "a3e44",
+          "type": "conteur",
+          "texte": "Et elle pondait un œuf d'or chaque fois qu'il disait « Ponds ! »."
+        },
+        {
+          "id": "a3e45",
+          "type": "didascalie",
+          "texte": "{{r4}} saute de joie à chaque « Ponds ! »."
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "numero": 4,
+      "titre": "Maître ! Maître !",
+      "resume": "Troisième montée : {{r1}} se cache dans le chaudron, puis emporte {{r6}}, qui appelle son maître. Poursuite dans la tige : {{r1}} la coupe, et {{r2}} tombe.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a4e1",
+          "type": "conteur",
+          "texte": "Mais {{r1}} n'était pas content, et il ne se passa pas longtemps avant qu'il décide de tenter encore une fois sa chance là-haut, en haut de la tige de haricot."
+        },
+        {
+          "id": "a4e2",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e3",
+          "type": "didascalie",
+          "texte": "{{r1}} grimpe le long de la tige par petits bonds, jusqu'en haut."
+        },
+        {
+          "id": "a4e4",
+          "type": "conteur",
+          "texte": "Mais cette fois, il savait qu'il ne fallait pas aller tout droit à la maison de {{r2}}."
+        },
+        {
+          "id": "a4e5",
+          "type": "conteur",
+          "texte": "Alors {{r1}} se glissa dans la maison et se cacha dans le grand chaudron."
+        },
+        {
+          "id": "a4e6",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Chut ! Cette fois, je me cache dans le chaudron. Ne dites rien à {{r2}} !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a4e7",
+          "type": "didascalie",
+          "texte": "{{r1}} se glisse derrière la casserole et disparaît."
+        },
+        {
+          "id": "a4e8",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e9",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e10",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e11",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Faites mes grands pas avec moi, en tapant sur vos genoux : boum ! boum ! boum !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e12",
+          "type": "didascalie",
+          "texte": "{{r2}} s'arrête net, lève le nez et renifle à droite, puis à gauche."
+        },
+        {
+          "id": "a4e13",
+          "type": "note_marionnettiste",
+          "texte": "Les enfants connaissent le refrain : laissez-les le dire avec {{r2}}, puis attendez qu'ils aient fini."
+        },
+        {
+          "id": "a4e14",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Fi, fa, fo, fum, je sens l'odeur d'un petit homme ! Qu'il soit vivant ou qu'il soit mort, je veux ses os pour faire mon pain d'or !",
+          "ton": "d'une voix terrible"
+        },
+        {
+          "id": "a4e15",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je le sens, femme, je le sens !",
+          "ton": "de plus en plus fort"
+        },
+        {
+          "id": "a4e16",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Vraiment, mon chéri ? Alors, si c'est ce petit coquin qui t'a volé ton or et la poule aux œufs d'or, il est sûrement dans le four.",
+          "ton": "en baissant la voix"
+        },
+        {
+          "id": "a4e17",
+          "type": "didascalie",
+          "texte": "{{r2}} et {{r3}} se précipitent ensemble vers le four et plongent la tête derrière."
+        },
+        {
+          "id": "a4e18",
+          "type": "conteur",
+          "texte": "Mais heureusement, {{r1}} n'y était pas, et {{r3}} dit :"
+        },
+        {
+          "id": "a4e19",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Te voilà encore avec tes « fi, fa, fo, fum » ! Ce que tu sens, c'est ton petit déjeuner que je viens de te préparer. Comme je suis étourdie, et comme tu es distrait, depuis toutes ces années !",
+          "ton": "en riant"
+        },
+        {
+          "id": "a4e20",
+          "type": "conteur",
+          "texte": "Alors {{r2}} s'assit pour manger ; mais de temps en temps il marmonnait :"
+        },
+        {
+          "id": "a4e21",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Pourtant, j'aurais juré…",
+          "ton": "en marmonnant"
+        },
+        {
+          "id": "a4e22",
+          "type": "didascalie",
+          "texte": "{{r2}} se lève et fouille de la tête partout : derrière le four, derrière la tige, mais jamais derrière la casserole."
+        },
+        {
+          "id": "a4e23",
+          "type": "conteur",
+          "texte": "Seulement, heureusement, il ne pensa pas au chaudron."
+        },
+        {
+          "id": "a4e24",
+          "type": "conteur",
+          "texte": "Après le petit déjeuner, {{r2}} cria :"
+        },
+        {
+          "id": "a4e25",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Femme, femme, apporte-moi ma harpe d'or.",
+          "ton": "d'une voix énorme"
+        },
+        {
+          "id": "a4e26",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e27",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e28",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Chante !",
+          "ton": "en bâillant"
+        },
+        {
+          "id": "a4e29",
+          "type": "note_marionnettiste",
+          "texte": "Fredonnez un air doux et lent, sans paroles, pendant que {{r6}} se balance de droite à gauche."
+        },
+        {
+          "id": "a4e30",
+          "type": "adresse_public",
+          "marionnetteId": "r6",
+          "texte": "Chantez avec moi, tout doucement : la, la, la !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e31",
+          "type": "conteur",
+          "texte": "Et elle continua à chanter jusqu'à ce que {{r2}} s'endorme et se mette à ronfler comme le tonnerre."
+        },
+        {
+          "id": "a4e32",
+          "type": "didascalie",
+          "texte": "{{r2}} s'affale derrière la table et disparaît ; on n'entend plus que ses ronflements : rrron… pchhh…"
+        },
+        {
+          "id": "a4e33",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e34",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e35",
+          "type": "didascalie",
+          "texte": "{{r1}} sort tout doucement de derrière la casserole, se colle tout contre {{r6}}, et les voilà qui filent ensemble vers le bord de la table."
+        },
+        {
+          "id": "a4e36",
+          "type": "conteur",
+          "texte": "Mais {{r6}} cria très fort :"
+        },
+        {
+          "id": "a4e37",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Maître ! Maître !",
+          "ton": "d'une voix perçante"
+        },
+        {
+          "id": "a4e38",
+          "type": "note_marionnettiste",
+          "texte": "Les enfants peuvent crier « Maître ! Maître ! » avec {{r6}}."
+        },
+        {
+          "id": "a4e39",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e40",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e41",
+          "type": "conteur",
+          "texte": "Et {{r2}} se réveilla juste à temps pour voir {{r1}} s'enfuir avec {{r6}}."
+        },
+        {
+          "id": "a4e42",
+          "type": "didascalie",
+          "texte": "{{r1}} file tout le long de la table jusqu'à la tige, et {{r2}} le suit à grands pas lourds."
+        },
+        {
+          "id": "a4e43",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e44",
+          "type": "didascalie",
+          "texte": "{{r2}} se penche au bord de la table, recule, se penche encore, recule."
+        },
+        {
+          "id": "a4e45",
+          "type": "conteur",
+          "texte": "Mais juste à ce moment, {{r6}} cria :"
+        },
+        {
+          "id": "a4e46",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e47",
+          "type": "didascalie",
+          "texte": "{{r6}} surgit tout en bas de la tige."
+        },
+        {
+          "id": "a4e48",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Maître ! Maître !",
+          "ton": "d'une voix perçante"
+        },
+        {
+          "id": "a4e49",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e50",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e51",
+          "type": "didascalie",
+          "texte": "{{r1}} descend la tige par petits bonds ; tout en haut, {{r2}} descend aussi, puis s'enfonce dans les nuages, et on ne le voit plus."
+        },
+        {
+          "id": "a4e52",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e53",
+          "type": "conteur",
+          "texte": "Alors {{r1}} cria :"
+        },
+        {
+          "id": "a4e54",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Maman ! Maman ! Apporte-moi une hache, apporte-moi une hache !",
+          "ton": "à pleins poumons"
+        },
+        {
+          "id": "a4e55",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e56",
+          "type": "conteur",
+          "texte": "Et {{r4}} sortit en courant, la hache à la main. Mais en arrivant à la tige de haricot, elle resta figée de peur, car elle voyait {{r2}} dont les jambes dépassaient déjà des nuages."
+        },
+        {
+          "id": "a4e57",
+          "type": "didascalie",
+          "texte": "{{r4}} tremble de tout son corps, la tête levée vers les nuages."
+        },
+        {
+          "id": "a4e58",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites avec moi les coups de hache : tchac ! tchac !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e59",
+          "type": "conteur",
+          "texte": "Mais {{r1}} sauta à terre, prit la hache et donna un coup dans la tige de haricot, qui fut coupée à moitié."
+        },
+        {
+          "id": "a4e60",
+          "type": "didascalie",
+          "texte": "{{r1}} donne un grand coup de tête dans la tige, et vous frappez la table : tchac !"
+        },
+        {
+          "id": "a4e61",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e62",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e63",
+          "type": "didascalie",
+          "texte": "{{r2}} surgit tout en haut et s'arrête, secoué d'un côté à l'autre avec la tige."
+        },
+        {
+          "id": "a4e64",
+          "type": "conteur",
+          "texte": "Alors {{r1}} donna un autre coup de hache, et la tige de haricot fut coupée en deux et commença à basculer."
+        },
+        {
+          "id": "a4e65",
+          "type": "didascalie",
+          "texte": "{{r1}} donne un second coup de tête dans la tige : tchac !"
+        },
+        {
+          "id": "a4e66",
+          "type": "conteur",
+          "texte": "Alors {{r2}} tomba et se cassa la tête, et la tige de haricot lui dégringola dessus."
+        },
+        {
+          "id": "a4e67",
+          "type": "didascalie",
+          "texte": "{{r2}} bascule et tombe à la renverse derrière la table ; frappez un grand coup : boum !"
+        },
+        {
+          "id": "a4e68",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e69",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e70",
+          "type": "conteur",
+          "texte": "Ensuite {{r1}} montra à sa mère sa harpe d'or, et à force de la montrer et de vendre les œufs d'or, {{r1}} et sa mère devinrent très riches. {{r1}} épousa une grande princesse, et ils vécurent heureux pour toujours."
+        },
+        {
+          "id": "a4e71",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r4}} sautent de joie, puis saluent les enfants."
+        },
+        {
+          "id": "a4e72",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Au revoir, les enfants !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e73",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e74",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "en-jack-haricot",
+    "synopsis": {
+      "accroche": "{{r1}} échange la vache contre cinq haricots ; la tige qui pousse jusqu'au ciel le mène chez {{r2}}, un ogre, à qui il prend trois trésors, jusqu'à {{r6}}, la harpe d'or qui crie « Maître ! Maître ! ».",
+      "resume": [
+        "{{r4}}, une pauvre veuve, envoie son fils {{r1}} vendre Blanche-Laitière, leur vache ; en chemin, {{r5}}, un drôle de petit vieux, la lui échange contre cinq haricots magiques.",
+        "{{r4}}, furieuse, jette les haricots par la fenêtre ; au matin, une tige de haricot monte jusqu'au ciel.",
+        "Là-haut, {{r3}}, la femme de {{r2}}, cache {{r1}} dans le four quand {{r2}} rentre en reniflant : « Fi, fa, fo, fum ! » ; {{r2}} s'endort sur son or, et {{r1}} emporte un sac d'or.",
+        "À la deuxième visite, {{r1}} emporte la poule aux œufs d'or ; à la troisième, caché dans le chaudron, il emporte {{r6}}, la harpe d'or, qui crie « Maître ! Maître ! ».",
+        "{{r2}} le poursuit dans la tige ; {{r1}} la coupe à coups de hache, {{r2}} tombe et se casse la tête, et {{r1}} et sa mère deviennent très riches."
+      ]
+    },
+    "transposition": {
+      "texte": "Il était une fois une pauvre veuve, {{r4}}, qui avait un fils unique appelé {{r1}}, et une vache appelée Blanche-Laitière. Et tout ce qu'ils avaient pour vivre, c'était le lait que la vache donnait chaque matin, qu'ils portaient au marché pour le vendre. Mais un matin, Blanche-Laitière ne donna pas de lait, et ils ne savaient plus quoi faire.\n\n— Qu'allons-nous faire, qu'allons-nous faire ? disait {{r4}} en se tordant les mains.\n\n— Courage, maman, je vais aller trouver du travail quelque part, dit {{r1}}.\n\n— On a déjà essayé, et personne n'a voulu de toi, dit sa mère. Il faut vendre Blanche-Laitière, et avec l'argent, ouvrir une boutique, ou quelque chose.\n\n— D'accord, maman, dit {{r1}}. C'est jour de marché aujourd'hui, je vais vite vendre Blanche-Laitière, et puis on verra ce qu'on peut faire.\n\n{{r1}} prit donc le licou de la vache et partit. Il n'était pas allé bien loin quand il rencontra {{r5}}, un drôle de petit vieux, qui lui dit :\n\n— Bonjour, {{r1}}.\n\n— Bonjour à vous, dit {{r1}}, en se demandant comment il connaissait son nom.\n\n— Eh bien, {{r1}}, où vas-tu comme ça ? dit {{r5}}.\n\n— Je vais au marché vendre notre vache.\n\n— Oh, tu as tout à fait l'air d'un garçon à vendre des vaches, dit {{r5}}. Je me demande si tu sais combien de haricots font cinq.\n\n— Deux dans chaque main et un dans la bouche, dit {{r1}}, vif comme l'éclair.\n\n— Exactement, dit {{r5}}. Et les voici, ces haricots-là, continua-t-il en sortant de sa poche des haricots d'une drôle d'allure. Puisque tu es si malin, je veux bien faire un échange avec toi : ta vache contre ces haricots.\n\n— Allons donc, dit {{r1}}. Ça vous arrangerait bien !\n\n— Ah, tu ne sais pas ce que sont ces haricots, dit {{r5}}. Si tu les plantes le soir, au matin ils ont poussé jusqu'au ciel.\n\n— Vraiment ? dit {{r1}}. Pas possible !\n\n— Si, c'est comme ça. Et si ce n'est pas vrai, tu pourras reprendre ta vache.\n\n— D'accord, dit {{r1}}.\n\n{{r1}} lui donna le licou de Blanche-Laitière et empocha les haricots.\n\n{{r1}} rentra à la maison, et comme il n'était pas allé bien loin, il ne faisait pas encore nuit quand il arriva à sa porte.\n\n— Déjà de retour, {{r1}} ? dit {{r4}}. Je vois que tu n'as plus Blanche-Laitière, alors tu l'as vendue. Combien en as-tu eu ?\n\n— Tu ne devineras jamais, maman, dit {{r1}}.\n\n— Pas possible ! Bon garçon ! Cinq pièces, dix, quinze, non, ça ne peut pas être vingt !\n\n— Je t'avais dit que tu ne devinerais pas. Que dis-tu de ces haricots ? Ils sont magiques : on les plante le soir, et…\n\n— Quoi ! dit {{r4}}. Tu as été assez sot, assez nigaud, assez bête pour donner ma Blanche-Laitière, la meilleure laitière de la paroisse, pour une poignée de haricots de rien du tout ? Tiens ! Et tiens ! Et quant à tes précieux haricots, voilà où ils vont : par la fenêtre ! Et maintenant, au lit. Pas une gorgée à boire, pas une bouchée à manger ce soir.\n\nAlors {{r1}} monta dans sa petite chambre sous le toit, bien triste et bien désolé, autant pour sa mère que pour son souper perdu. À la fin, il s'endormit.\n\nQuand {{r1}} se réveilla, la chambre avait un drôle d'air. Le soleil entrait dans une partie de la pièce, et pourtant tout le reste était sombre et dans l'ombre. Alors {{r1}} sauta du lit, s'habilla et alla à la fenêtre. Et qu'est-ce que vous croyez qu'il vit ? Eh bien, les haricots que sa mère avait jetés par la fenêtre dans le jardin avaient poussé en une énorme tige de haricot, qui montait, montait, montait jusqu'au ciel. {{r5}} avait donc dit vrai.\n\nLa tige de haricot poussait tout près de la fenêtre de {{r1}}. {{r1}} n'avait qu'à ouvrir et sauter sur la tige, qui montait comme une grande échelle. Alors {{r1}} grimpa, et il grimpa, et il grimpa, et il grimpa, et il grimpa, et il grimpa, jusqu'à ce qu'il arrive enfin au ciel. Et là-haut, il trouva une longue route large et droite comme une flèche. Il marcha, et il marcha, et il marcha, jusqu'à ce qu'il arrive à une grande, grande maison, très haute ; et sur le seuil, il y avait {{r3}}, une grande, grande femme, très haute.\n\n— Bonjour, madame, dit {{r1}} bien poliment. Seriez-vous assez gentille pour me donner un petit déjeuner ?\n\nCar il n'avait rien mangé la veille au soir, vous savez, et il avait une faim de loup.\n\n— C'est un petit déjeuner que tu veux ? dit {{r3}}. C'est toi qui vas en faire un, si tu ne pars pas d'ici ! Mon mari est un ogre, et il n'y a rien qu'il aime mieux que les petits garçons grillés sur une tartine. Tu ferais mieux de filer, il va bientôt rentrer.\n\n— Oh, s'il vous plaît, madame, donnez-moi quelque chose à manger. Je n'ai rien mangé depuis hier matin, vraiment et sincèrement, madame, dit {{r1}}. Autant être grillé que mourir de faim.\n\nEh bien, {{r3}} n'était pas si méchante, après tout. Elle fit entrer {{r1}} dans la cuisine et lui donna un morceau de pain, du fromage et une cruche de lait. Mais {{r1}} n'avait pas fini la moitié quand — boum ! boum ! boum ! — toute la maison se mit à trembler au bruit de quelqu'un qui arrivait.\n\n— Seigneur ! C'est mon mari, dit {{r3}}. Qu'est-ce que je vais faire ? Vite, viens, saute là-dedans !\n\nEt elle fourra {{r1}} dans le four juste au moment où {{r2}} entrait.\n\n{{r2}} était grand, ça, on peut le dire. À sa ceinture pendaient trois veaux attachés par les pattes. Il les décrocha, les jeta sur la table et dit :\n\n— Tiens, femme, fais-m'en griller deux pour le petit déjeuner. Ah ! Qu'est-ce que je sens là ?\n\n« Fi, fa, fo, fum,\nJe sens l'odeur d'un petit homme !\nQu'il soit vivant ou qu'il soit mort,\nJe veux ses os pour faire mon pain d'or ! »\n\n— Mais non, mon chéri, dit {{r3}}, tu rêves. Ou bien tu sens les restes du petit garçon que tu as tant aimé au dîner d'hier. Tiens, va te laver et te préparer, et quand tu reviendras, ton petit déjeuner sera prêt.\n\nAlors {{r2}} partit, et {{r1}} allait sauter hors du four pour s'enfuir quand {{r3}} lui dit de ne pas bouger.\n\n— Attends qu'il dorme, dit-elle. Il fait toujours un petit somme après le petit déjeuner.\n\nEh bien, {{r2}} prit son petit déjeuner, puis il alla à un grand coffre, en sortit deux sacs d'or, s'assit et se mit à compter, jusqu'à ce qu'enfin sa tête commence à dodeliner et qu'il se mette à ronfler si fort que toute la maison en tremblait.\n\nAlors {{r1}} sortit du four sur la pointe des pieds, et en passant près de {{r2}}, il prit un des sacs d'or sous son bras, et fila jusqu'à la tige de haricot. {{r1}} jeta le sac d'or en bas, qui tomba bien sûr dans le jardin de sa mère, puis il descendit, descendit, jusqu'à ce qu'il arrive enfin chez lui. {{r1}} raconta tout à sa mère, lui montra l'or et dit :\n\n— Alors, maman, n'avais-je pas raison pour les haricots ? Ils sont vraiment magiques, tu vois.\n\nIls vécurent donc un certain temps grâce au sac d'or ; mais à la fin, il n'en resta plus rien, et {{r1}} décida de tenter encore sa chance en haut de la tige de haricot. Alors un beau matin, il se leva de bonne heure, grimpa sur la tige, et il grimpa, et il grimpa, et il grimpa, jusqu'à ce qu'il retrouve la route et arrive à la grande, grande maison où il était déjà allé. Et là, bien sûr, {{r3}} était sur le seuil.\n\n— Bonjour, madame, dit {{r1}}, sans se gêner. Seriez-vous assez bonne pour me donner quelque chose à manger ?\n\n— Va-t'en, mon garçon, dit {{r3}}, sinon mon mari va te manger au petit déjeuner. Mais n'es-tu pas le gamin qui est déjà venu une fois ? Figure-toi que ce jour-là, mon mari a perdu un de ses sacs d'or.\n\n— C'est curieux, madame, dit {{r1}}. Je pourrais peut-être vous en dire quelque chose, mais j'ai si faim que je ne peux pas parler avant d'avoir mangé.\n\n{{r3}} était si curieuse qu'elle le fit entrer et lui donna à manger. Mais à peine avait-il commencé à mâchonner, le plus lentement possible, que — boum ! boum ! boum ! — ils entendirent les pas de {{r2}}. Et {{r3}} cacha {{r1}} dans le four.\n\nTout se passa comme la première fois. {{r2}} entra comme avant, dit « Fi, fa, fo, fum », et prit son petit déjeuner. Puis il dit :\n\n— Femme, apporte-moi la poule aux œufs d'or.\n\n{{r3}} l'apporta, et {{r2}} dit : « Ponds ! » et la poule pondit un œuf tout en or. Puis {{r2}} commença à dodeliner de la tête et à ronfler à faire trembler la maison.\n\nAlors {{r1}} sortit du four sur la pointe des pieds, attrapa la poule aux œufs d'or, et fila en un clin d'œil. Mais cette fois, la poule gloussa, ce qui réveilla {{r2}} ; et au moment où {{r1}} sortait de la maison, il entendit {{r2}} crier :\n\n— Femme, femme, qu'as-tu fait de ma poule aux œufs d'or ?\n\nEt {{r3}} répondit :\n\n— Pourquoi, mon chéri ?\n\nMais c'est tout ce que {{r1}} entendit, car il courut jusqu'à la tige de haricot et descendit à toute vitesse. Et en arrivant chez lui, il montra à sa mère la merveilleuse poule, et lui dit « Ponds ! » ; et elle pondait un œuf d'or chaque fois qu'il disait « Ponds ! ».\n\nMais {{r1}} n'était pas content, et il ne se passa pas longtemps avant qu'il décide de tenter encore une fois sa chance là-haut, en haut de la tige de haricot. Alors un beau matin, il se leva tôt, grimpa sur la tige, et il grimpa, et il grimpa, jusqu'en haut. Mais cette fois, il savait qu'il ne fallait pas aller tout droit à la maison de {{r2}}. En arrivant près de la maison, il attendit derrière un buisson jusqu'à ce qu'il voie {{r3}} sortir avec un seau pour chercher de l'eau. Alors {{r1}} se glissa dans la maison et se cacha dans le grand chaudron. Il n'y était pas depuis longtemps quand il entendit « boum ! boum ! boum ! » comme avant, et voilà {{r2}} et {{r3}} qui entrent.\n\n— Fi, fa, fo, fum, je sens l'odeur d'un petit homme ! cria {{r2}}. Je le sens, femme, je le sens !\n\n— Vraiment, mon chéri ? dit {{r3}}. Alors, si c'est ce petit coquin qui t'a volé ton or et la poule aux œufs d'or, il est sûrement dans le four.\n\nEt ils se précipitèrent tous les deux vers le four. Mais heureusement, {{r1}} n'y était pas, et {{r3}} dit :\n\n— Te voilà encore avec tes « fi, fa, fo, fum » ! Ce que tu sens, c'est ton petit déjeuner que je viens de te préparer. Comme je suis étourdie, et comme tu es distrait, depuis toutes ces années !\n\nAlors {{r2}} s'assit pour manger ; mais de temps en temps il marmonnait : « Pourtant, j'aurais juré… », et il se levait pour fouiller le garde-manger, les placards, tout ; seulement, heureusement, il ne pensa pas au chaudron.\n\nAprès le petit déjeuner, {{r2}} cria :\n\n— Femme, femme, apporte-moi ma harpe d'or.\n\n{{r3}} l'apporta et la posa sur la table devant lui. Alors il dit : « Chante ! », et {{r6}}, la harpe d'or, chanta merveilleusement. Et elle continua à chanter jusqu'à ce que {{r2}} s'endorme et se mette à ronfler comme le tonnerre.\n\nAlors {{r1}} souleva tout doucement le couvercle du chaudron, descendit sans bruit comme une souris et avança à quatre pattes jusqu'à la table. Il y grimpa, attrapa {{r6}} et se précipita avec vers la porte. Mais {{r6}} cria très fort :\n\n— Maître ! Maître !\n\nEt {{r2}} se réveilla juste à temps pour voir {{r1}} s'enfuir avec {{r6}}.\n\n{{r1}} courut aussi vite qu'il put, et {{r2}} se lança derrière lui, et il l'aurait vite attrapé si {{r1}} n'avait pas eu de l'avance, et s'il n'avait pas su esquiver et savoir où il allait. Quand {{r1}} arriva à la tige de haricot, {{r2}} n'était pas à plus de vingt pas derrière, quand soudain il vit {{r1}} disparaître ; et en arrivant au bout de la route, il vit {{r1}} en dessous, qui descendait de toutes ses forces. Eh bien, {{r2}} n'avait pas très envie de se fier à une échelle pareille, et il resta là à attendre, si bien que {{r1}} prit encore de l'avance. Mais juste à ce moment, {{r6}} cria : « Maître ! Maître ! », et {{r2}} se lança sur la tige de haricot, qui trembla sous son poids. {{r1}} descend, et {{r2}} descend derrière lui.\n\nPendant ce temps, {{r1}} était descendu, descendu, descendu, et il était presque à la maison. Alors {{r1}} cria :\n\n— Maman ! Maman ! Apporte-moi une hache, apporte-moi une hache !\n\nEt {{r4}} sortit en courant, la hache à la main. Mais en arrivant à la tige de haricot, elle resta figée de peur, car elle voyait {{r2}} dont les jambes dépassaient déjà des nuages.\n\nMais {{r1}} sauta à terre, prit la hache et donna un coup dans la tige de haricot, qui fut coupée à moitié. {{r2}} sentit la tige trembler et frémir, et il s'arrêta pour voir ce qui se passait. Alors {{r1}} donna un autre coup de hache, et la tige de haricot fut coupée en deux et commença à basculer. Alors {{r2}} tomba et se cassa la tête, et la tige de haricot lui dégringola dessus.\n\nEnsuite {{r1}} montra à sa mère sa harpe d'or, et à force de la montrer et de vendre les œufs d'or, {{r1}} et sa mère devinrent très riches. {{r1}} épousa une grande princesse, et ils vécurent heureux pour toujours.",
+      "changements": [
+        "Tous les personnages qui parlent dans le conte deviennent des marionnettes : {{r1}}, {{r2}}, {{r3}}, {{r4}}, {{r5}} (le drôle de petit vieux) et {{r6}}, la harpe d'or qui crie « Maître ! Maître ! » (règle du 2026-09-28 : le plus de dialogue possible). La poule aux œufs d'or ne parle pas : elle reste dans la narration, et ses gloussements passent par la voix en coulisse.",
+        "Le refrain de {{r2}} est dit en entier, tel quel, aux trois visites, alors que le conte l'abrège les deux dernières fois ; à la deuxième visite, {{r3}} reprend sa première réponse (« Mais non, mon chéri, tu rêves. »), puisque « tout se passa comme la première fois ». À la troisième, le refrain est suivi de « Je le sens, femme, je le sens ! », comme dans le conte.",
+        "Le discours indirect devient direct : {{r3}} « lui dit de ne pas bouger » devient « Ne bouge pas ! ».",
+        "Seule retouche universelle : « Cinq livres » devient « Cinq pièces ». Aucun adoucissement d'âge : {{r2}} tombe et se casse la tête, comme dans le conte.",
+        "Toutes les répliques du conte sont gardées. Pour approcher les seize minutes, la narration est resserrée : ce que la scène montre n'est pas redit (le réveil à la fenêtre, les cachettes, la harpe apportée et emportée, la descente de la tige), et quelques passages sont omis — la pauvreté de la famille, {{r1}} qui se demande comment {{r5}} connaît son nom, la faim de loup, le repas de pain et de fromage, la longue route du ciel, {{r3}} qui sort chercher de l'eau, le détail de la poursuite. La fin est jouée entière."
+      ]
+    }
+  },
+  "dureeEstimeeSecondes": 1138,
+  "interactionsOrdonnees": [
+    "a3e17",
+    "a4e58",
+    "a4e11",
+    "a2e18",
+    "a4e6",
+    "a4e30",
+    "a2e37",
+    "a3e42",
+    "a1e20",
+    "a4e72"
+  ]
+}

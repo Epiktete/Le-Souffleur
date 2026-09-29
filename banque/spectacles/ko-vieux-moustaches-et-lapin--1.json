@@ -416,8 +416,8 @@
       "especeMentions": [
         {
           "id": "pitch",
-          "avant": ", le tigre le plus",
-          "gabarit": ", {le} {espece} {le|la} plus"
+          "avant": ", le tigre",
+          "gabarit": ", {le} {espece}"
         },
         {
           "id": "pitch",

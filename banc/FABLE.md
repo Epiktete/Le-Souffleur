@@ -182,6 +182,14 @@ dire « un énorme dragon ». Pour chaque rôle, deux cas :
 - Ne liste PAS les mentions génériques qui ne désignent pas le personnage
   (« comme un chien attrape une mouche »). Un rôle sans aucune mention
   n'apparaît pas dans la liste.
+- **Un métier ou un titre n'est pas une espèce** (boucher, rémouleur,
+  cavalier, paysan, bûcheron, meunier, gendarme, propriétaire…) : il RESTE
+  dans le texte, et ne change qu'en genre, par les `accords` (« un boucher »
+  → « une bouchère »). La peluche du parent garde son espèce et prend le
+  métier : le texte dit « un boucher », la peluche montre un lapin. Seuls
+  suivent la peluche les vrais mots d'espèce : animaux, créatures (troll,
+  ogre, fée), et « garçon », « fille », « homme », « femme » quand ils
+  désignent le personnage.
 - Le mot d'espèce d'un rôle ne figure JAMAIS dans ses `accords` : il vit
   dans ses `mentions` (le code rend l'espèce ET le genre).
 

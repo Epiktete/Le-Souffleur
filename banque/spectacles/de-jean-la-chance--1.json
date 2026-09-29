@@ -1,0 +1,1347 @@
+{
+  "id": "de-jean-la-chance--1",
+  "conteId": "de-jean-la-chance",
+  "titre": "Jean la Chance",
+  "pitch": "{{r1}} échange sa pépite d’or contre un cheval, le cheval contre une vache, la vache contre un cochon… jusqu’à ne plus rien avoir, et à chaque échange il est plus heureux.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "garcon",
+      "famille": "enfant",
+      "traits": [
+        "naïf",
+        "gentil",
+        "rêveur"
+      ],
+      "voix": "voix claire et joyeuse, qui rit un peu à chaque phrase",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "il est plus heureux",
+            "apres": "elle est plus heureuse"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "Il l’échange",
+            "apres": "Elle l’échange"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "Alors il lui dit",
+            "apres": "Alors elle lui dit"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "m’as servi fidèlement",
+            "apres": "m’as servie fidèlement"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "Comme il marchait",
+            "apres": "Comme elle marchait"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "l’autre, il vit",
+            "apres": "l’autre, elle vit"
+          },
+          {
+            "id": "a1e21:texte",
+            "avant": "fou de joie",
+            "apres": "folle de joie"
+          },
+          {
+            "id": "a1e21:texte",
+            "avant": "d’être assis",
+            "apres": "d’être assise"
+          },
+          {
+            "id": "a1e25:texte",
+            "avant": "il se mit",
+            "apres": "elle se mit"
+          },
+          {
+            "id": "a1e28:texte",
+            "avant": "il était à terre",
+            "apres": "elle était à terre"
+          },
+          {
+            "id": "a1e33:texte",
+            "avant": "Mais il était",
+            "apres": "Mais elle était"
+          },
+          {
+            "id": "a1e40:texte",
+            "avant": "devant lui et",
+            "apres": "devant elle et"
+          },
+          {
+            "id": "a1e40:texte",
+            "avant": "qu’il avait faite",
+            "apres": "qu’elle avait faite"
+          },
+          {
+            "id": "a1e41:texte",
+            "avant": "devant lui",
+            "apres": "devant elle"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "le relève",
+            "apres": "la relève"
+          },
+          {
+            "id": "a2e2:texte",
+            "avant": "Il eut si chaud",
+            "apres": "Elle eut si chaud"
+          },
+          {
+            "id": "a2e5:texte",
+            "avant": "Il l’attacha",
+            "apres": "Elle l’attacha"
+          },
+          {
+            "id": "a2e5:texte",
+            "avant": "comme il n’avait",
+            "apres": "comme elle n’avait"
+          },
+          {
+            "id": "a2e5:texte",
+            "avant": "il mit en dessous",
+            "apres": "elle mit en dessous"
+          },
+          {
+            "id": "a2e5:texte",
+            "avant": "Mais il eut beau",
+            "apres": "Mais elle eut beau"
+          },
+          {
+            "id": "a2e7:texte",
+            "avant": "comme il s’y prenait",
+            "apres": "comme elle s’y prenait"
+          },
+          {
+            "id": "a2e7:texte",
+            "avant": "qu’il tomba",
+            "apres": "qu’elle tomba"
+          },
+          {
+            "id": "a2e7:texte",
+            "avant": "où il était",
+            "apres": "où elle était"
+          },
+          {
+            "id": "a2e22:texte",
+            "avant": "comme il le souhaitait",
+            "apres": "comme elle le souhaitait"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "effrayé",
+            "apres": "effrayée"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "plus heureux",
+            "apres": "plus heureuse"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "le rejoignit",
+            "apres": "la rejoignit"
+          },
+          {
+            "id": "a3e11:texte",
+            "avant": "Le brave",
+            "apres": "La brave"
+          },
+          {
+            "id": "a3e18:texte",
+            "avant": "le brave",
+            "apres": "la brave"
+          },
+          {
+            "id": "a3e18:texte",
+            "avant": "débarrassé",
+            "apres": "débarrassée"
+          },
+          {
+            "id": "a3e18:texte",
+            "avant": "chez lui",
+            "apres": "chez elle"
+          },
+          {
+            "id": "a4e2:texte",
+            "avant": "village, il vit",
+            "apres": "village, elle vit"
+          },
+          {
+            "id": "a4e10:texte",
+            "avant": "avec lui",
+            "apres": "avec elle"
+          },
+          {
+            "id": "a4e11:texte",
+            "avant": "avec lui",
+            "apres": "avec elle"
+          },
+          {
+            "id": "a4e23:texte",
+            "avant": "l’homme le plus heureux",
+            "apres": "la femme la plus heureuse"
+          },
+          {
+            "id": "a4e30:texte",
+            "avant": "être né coiffé",
+            "apres": "être née coiffée"
+          },
+          {
+            "id": "a4e33:texte",
+            "avant": "comme il était debout",
+            "apres": "comme elle était debout"
+          },
+          {
+            "id": "a4e33:texte",
+            "avant": "l’aube, il commença",
+            "apres": "l’aube, elle commença"
+          },
+          {
+            "id": "a4e33:texte",
+            "avant": "Il ne pouvait",
+            "apres": "Elle ne pouvait"
+          },
+          {
+            "id": "a4e35:texte",
+            "avant": "Il ne put",
+            "apres": "Elle ne put"
+          },
+          {
+            "id": "a4e35:texte",
+            "avant": "s’il n’avait",
+            "apres": "si elle n’avait"
+          },
+          {
+            "id": "a4e36:texte",
+            "avant": "Il arriva",
+            "apres": "Elle arriva"
+          },
+          {
+            "id": "a4e36:texte",
+            "avant": "Il voulait",
+            "apres": "Elle voulait"
+          },
+          {
+            "id": "a4e38:texte",
+            "avant": "il les posa",
+            "apres": "elle les posa"
+          },
+          {
+            "id": "a4e38:texte",
+            "avant": "à côté de lui",
+            "apres": "à côté d’elle"
+          },
+          {
+            "id": "a4e38:texte",
+            "avant": "Puis il s’assit",
+            "apres": "Puis elle s’assit"
+          },
+          {
+            "id": "a4e38:texte",
+            "avant": "mais il fit",
+            "apres": "mais elle fit"
+          },
+          {
+            "id": "a4e41:texte",
+            "avant": "profondeurs, il sauta",
+            "apres": "profondeurs, elle sauta"
+          },
+          {
+            "id": "a4e41:texte",
+            "avant": "l’avoir débarrassé",
+            "apres": "l’avoir débarrassée"
+          },
+          {
+            "id": "a4e41:texte",
+            "avant": "le gênaient",
+            "apres": "la gênaient"
+          },
+          {
+            "id": "a4e41:texte",
+            "avant": "sans qu’il ait",
+            "apres": "sans qu’elle ait"
+          },
+          {
+            "id": "a4e43:texte",
+            "avant": "Aussi heureux",
+            "apres": "Aussi heureuse"
+          },
+          {
+            "id": "a4e44:texte",
+            "avant": "fardeau, il repartit",
+            "apres": "fardeau, elle repartit"
+          },
+          {
+            "id": "a4e44:texte",
+            "avant": "qu’il soit",
+            "apres": "qu’elle soit"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r2",
+      "espece": "cavalier",
+      "famille": "adulte",
+      "traits": [
+        "rusé",
+        "vantard"
+      ],
+      "voix": "voix haute et pressée, un peu fière",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e8:texte",
+            "avant": "frais et joyeux",
+            "apres": "fraîche et joyeuse"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "un cavalier",
+            "apres": "une cavalière"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r3",
+      "espece": "paysan",
+      "famille": "adulte",
+      "traits": [
+        "rusé",
+        "tranquille"
+      ],
+      "voix": "voix lente et paisible, qui traîne sur les mots",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e29:texte",
+            "avant": "devant lui",
+            "apres": "devant elle"
+          },
+          {
+            "id": "a1e29:texte",
+            "avant": "un paysan",
+            "apres": "une paysanne"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r4",
+      "espece": "boucher",
+      "famille": "adulte",
+      "traits": [
+        "rusé",
+        "gourmand"
+      ],
+      "voix": "grosse voix ronde et gentille, qui fait « ho, ho » en riant",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2e9:texte",
+            "avant": "un boucher",
+            "apres": "une bouchère"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r5",
+      "espece": "garcon",
+      "famille": "enfant",
+      "traits": [
+        "menteur",
+        "rusé"
+      ],
+      "voix": "voix basse et rapide, qui chuchote presque",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": []
+      },
+      "especeMentions": [
+        {
+          "id": "a3e1:texte",
+          "avant": "un garçon",
+          "gabarit": "{un} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r6",
+      "espece": "remouleur",
+      "famille": "adulte",
+      "traits": [
+        "bavard",
+        "rusé"
+      ],
+      "voix": "voix chantante, qui fredonne « tra la la » entre deux phrases",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a4e4:texte",
+            "avant": "il chantait",
+            "apres": "elle chantait"
+          },
+          {
+            "id": "a4e7:texte",
+            "avant": "si gai",
+            "apres": "si gaie"
+          },
+          {
+            "id": "a4e27:texte",
+            "avant": "sur lui-même",
+            "apres": "sur elle-même"
+          },
+          {
+            "id": "a4e2:texte",
+            "avant": "un rémouleur",
+            "apres": "une rémouleuse"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 15,
+    "ageAuditoire": 5,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La route",
+      "description": "La table fait la route. Posez un carton debout au bout gauche : c’est la maison du maître. Au bout droit, couchez un coussin au bord de la table : c’est le fossé, derrière lequel on peut tomber.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "La lande",
+      "description": "Retirez le carton et le coussin du fossé. Posez un coussin debout au milieu de la table : c’est l’arbre mort, sur la lande. La table fait toujours la route.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t3",
+      "titre": "Le dernier village et le puits",
+      "description": "Retirez le coussin de l’arbre. Posez un carton debout au bout gauche de la table : c’est le dernier village. Au bout droit, posez un saladier vide : c’est le puits, dans les champs.",
+      "accessoires": [
+        "un saladier (le puits)"
+      ],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Hop, hop !",
+      "resume": "{{r1}} reçoit pour salaire une pépite d’or grosse comme sa tête. Il l’échange contre le cheval de {{r2}}, tombe dans le fossé, puis échange le cheval contre la vache de {{r3}}.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "{{r1}} avait servi son maître pendant sept ans. Alors il lui dit :"
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e3",
+          "type": "didascalie",
+          "texte": "{{r1}} s’avance devant la maison du maître et salue d’un petit coup de tête."
+        },
+        {
+          "id": "a1e4",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Maître, mon temps est fini. J’aimerais bien rentrer chez ma mère : donnez-moi mon salaire.",
+          "ton": "poliment, vers la maison"
+        },
+        {
+          "id": "a1e5",
+          "type": "note_marionnettiste",
+          "texte": "Voix du maître, en coulisse : « Tu m’as servi fidèlement et honnêtement. Tel service, tel salaire. » — une voix grave et lente, sans montrer de marionnette."
+        },
+        {
+          "id": "a1e6",
+          "type": "conteur",
+          "texte": "Et il lui donna un morceau d’or aussi gros que la tête de {{r1}}."
+        },
+        {
+          "id": "a1e7",
+          "type": "didascalie",
+          "texte": "{{r1}} avance sur la route en penchant d’un côté, comme sous un poids très lourd."
+        },
+        {
+          "id": "a1e8",
+          "type": "conteur",
+          "texte": "Comme il marchait ainsi, un pied devant l’autre, il vit un cavalier, {{r2}}, qui passait au trot, frais et joyeux, sur un cheval plein d’entrain."
+        },
+        {
+          "id": "a1e9",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e10",
+          "type": "didascalie",
+          "texte": "{{r2}} traverse la scène à petits bonds réguliers, comme au trot."
+        },
+        {
+          "id": "a1e11",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ah, quelle belle chose que d’aller à cheval !",
+          "ton": "tout haut, en regardant passer {{r2}}"
+        },
+        {
+          "id": "a1e12",
+          "type": "didascalie",
+          "texte": "{{r2}} s’arrête net et se tourne vers {{r1}}."
+        },
+        {
+          "id": "a1e13",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Eh, {{r1}}, pourquoi vas-tu donc à pied ?",
+          "ton": "en criant"
+        },
+        {
+          "id": "a1e14",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Il le faut bien. J’ai cette pépite à rapporter chez moi. C’est de l’or, mais je ne peux pas tenir la tête droite, et elle m’écrase l’épaule.",
+          "ton": "en soufflant"
+        },
+        {
+          "id": "a1e15",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Tu sais quoi ? Faisons un échange : je te donne mon cheval, et tu me donnes ta pépite.",
+          "ton": "vite, d’un air aimable"
+        },
+        {
+          "id": "a1e16",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "De tout cœur ! Mais je vous préviens, vous allez devoir vous la traîner.",
+          "ton": "gaiement"
+        },
+        {
+          "id": "a1e17",
+          "type": "conteur",
+          "texte": "{{r2}} descendit, prit l’or, aida {{r1}} à monter, lui mit les rênes bien en main et dit :"
+        },
+        {
+          "id": "a1e18",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Quand tu veux aller très vite, il faut claquer de la langue et crier « hop, hop ! ».",
+          "ton": "comme un secret"
+        },
+        {
+          "id": "a1e19",
+          "type": "didascalie",
+          "texte": "{{r2}} s’éloigne vers la droite à grands pas, sans se retourner."
+        },
+        {
+          "id": "a1e20",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e21",
+          "type": "conteur",
+          "texte": "{{r1}} était fou de joie d’être assis sur le cheval et d’avancer si librement."
+        },
+        {
+          "id": "a1e22",
+          "type": "didascalie",
+          "texte": "{{r1}} se balance d’avant en arrière, comme sur un cheval au pas."
+        },
+        {
+          "id": "a1e23",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Dites-le avec moi, tout fort !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e24",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Quelle chance j’ai !",
+          "ton": "en se balançant de joie"
+        },
+        {
+          "id": "a1e25",
+          "type": "conteur",
+          "texte": "Au bout d’un moment, il lui vint l’idée d’aller encore plus vite ; il se mit à claquer de la langue et à crier « hop, hop ! »."
+        },
+        {
+          "id": "a1e26",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Criez avec moi : hop, hop !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e27",
+          "type": "didascalie",
+          "texte": "{{r1}} saute de plus en plus vite, de plus en plus haut, puis bascule d’un coup derrière le coussin du fossé."
+        },
+        {
+          "id": "a1e28",
+          "type": "conteur",
+          "texte": "Le cheval partit au grand trot, et avant que {{r1}} ait compris ce qui lui arrivait, il était à terre, dans un fossé qui séparait les champs de la route."
+        },
+        {
+          "id": "a1e29",
+          "type": "conteur",
+          "texte": "Le cheval se serait sauvé si un paysan, {{r3}}, qui passait par là en poussant une vache devant lui ne l’avait pas arrêté."
+        },
+        {
+          "id": "a1e30",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e31",
+          "type": "didascalie",
+          "texte": "{{r3}} arrive tout doucement et s’arrête au bord du fossé."
+        },
+        {
+          "id": "a1e32",
+          "type": "didascalie",
+          "texte": "{{r1}} ressort de derrière le coussin, tout de travers, et se secoue."
+        },
+        {
+          "id": "a1e33",
+          "type": "conteur",
+          "texte": "{{r1}} rassembla ses membres et se remit sur ses jambes. Mais il était de mauvaise humeur, et dit à {{r3}} :"
+        },
+        {
+          "id": "a1e34",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "C’est une bien mauvaise plaisanterie, le cheval. Je ne remonterai plus jamais dessus. Que ne donnerais-je pas pour avoir une vache comme celle-là !",
+          "ton": "en ronchonnant, puis de plus en plus doucement"
+        },
+        {
+          "id": "a1e35",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Eh bien, si cela vous fait tant plaisir, je veux bien vous échanger la vache contre le cheval.",
+          "ton": "lentement, l’air de rien"
+        },
+        {
+          "id": "a1e36",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Avec mille joies !",
+          "ton": "en sautant sur place"
+        },
+        {
+          "id": "a1e37",
+          "type": "conteur",
+          "texte": "{{r3}} sauta sur le cheval et s’en alla au galop."
+        },
+        {
+          "id": "a1e38",
+          "type": "didascalie",
+          "texte": "{{r3}} file vers la droite à grands bonds."
+        },
+        {
+          "id": "a1e39",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e40",
+          "type": "conteur",
+          "texte": "{{r1}} poussait tranquillement sa vache devant lui et pensait à la bonne affaire qu’il avait faite."
+        },
+        {
+          "id": "a1e41",
+          "type": "didascalie",
+          "texte": "{{r1}} avance à tout petits pas, en poussant l’air devant lui du bout de la tête."
+        },
+        {
+          "id": "a1e42",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites avec moi la vache : meuh !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e43",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Et si j’ai soif, je trais ma vache et je bois du lait. Mon cœur, que demandes-tu de plus ?",
+          "ton": "en rêvant tout haut"
+        },
+        {
+          "id": "a1e44",
+          "type": "note_marionnettiste",
+          "texte": "Les enfants connaissent maintenant le refrain : laissez-les le dire avec {{r1}}."
+        },
+        {
+          "id": "a1e45",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Quelle chance j’ai !",
+          "ton": "tout fort"
+        },
+        {
+          "id": "a1e46",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Un coup de patte",
+      "resume": "Sur la lande, la vache ne donne pas une goutte de lait et envoie {{r1}} par terre. {{r4}} le relève et lui échange la vache contre son petit cochon.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e2",
+          "type": "conteur",
+          "texte": "La chaleur devenait écrasante à mesure que midi approchait, et {{r1}} se trouvait sur une lande qui durait bien encore une heure. Il eut si chaud que sa langue lui collait au palais."
+        },
+        {
+          "id": "a2e3",
+          "type": "didascalie",
+          "texte": "{{r1}} avance de plus en plus lentement, la tête basse, en soufflant fort."
+        },
+        {
+          "id": "a2e4",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Il y a un remède à cela. Je vais traire ma vache et me régaler de lait.",
+          "ton": "en se redressant d’un coup"
+        },
+        {
+          "id": "a2e5",
+          "type": "conteur",
+          "texte": "Il l’attacha à un arbre mort, et comme il n’avait pas de seau, il mit en dessous son bonnet de cuir. Mais il eut beau faire, il ne sortit pas une goutte de lait."
+        },
+        {
+          "id": "a2e6",
+          "type": "didascalie",
+          "texte": "{{r1}} se penche au pied de l’arbre, se relève, se penche encore, et encore."
+        },
+        {
+          "id": "a2e7",
+          "type": "conteur",
+          "texte": "Et comme il s’y prenait maladroitement, la bête impatiente finit par lui donner un tel coup de patte de derrière sur la tête qu’il tomba par terre, et resta un moment sans savoir où il était."
+        },
+        {
+          "id": "a2e8",
+          "type": "didascalie",
+          "texte": "Frappez un grand coup sur la table : boum ! {{r1}} bascule en arrière et ne bouge plus."
+        },
+        {
+          "id": "a2e9",
+          "type": "conteur",
+          "texte": "Heureusement, un boucher, {{r4}}, passait justement par là, avec un jeune cochon couché sur une brouette."
+        },
+        {
+          "id": "a2e10",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e11",
+          "type": "didascalie",
+          "texte": "{{r4}} arrive en se dandinant et s’arrête tout près de {{r1}}."
+        },
+        {
+          "id": "a2e12",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Qu’est-ce que c’est que ces manières ?",
+          "ton": "en s’écriant"
+        },
+        {
+          "id": "a2e13",
+          "type": "didascalie",
+          "texte": "{{r4}} pousse {{r1}} du bout de la tête, pour l’aider à se relever."
+        },
+        {
+          "id": "a2e14",
+          "type": "conteur",
+          "texte": "{{r4}} lui tendit sa gourde et dit :"
+        },
+        {
+          "id": "a2e15",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Tenez, buvez un coup et remettez-vous. Cette vache ne veut pas donner de lait : c’est une vieille bête, tout juste bonne à tirer une charrette ou à aller chez le boucher.",
+          "ton": "d’une grosse voix gentille"
+        },
+        {
+          "id": "a2e16",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tiens, tiens. Qui l’aurait cru ! Mais je n’aime pas beaucoup la viande de vache, elle n’est pas assez tendre pour moi. Ah, si on avait un jeune cochon comme celui-là ! Ça a un autre goût, et en plus, il y a les saucisses.",
+          "ton": "en hochant la tête"
+        },
+        {
+          "id": "a2e17",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Écoutez, {{r1}}, pour vous faire plaisir, je veux bien échanger : je vous laisse le cochon pour la vache.",
+          "ton": "gentiment"
+        },
+        {
+          "id": "a2e18",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Que Dieu vous récompense de votre amitié !",
+          "ton": "en sautant de joie"
+        },
+        {
+          "id": "a2e19",
+          "type": "conteur",
+          "texte": "{{r1}} lui donna la vache, fit détacher le petit cochon de la brouette, et prit en main la corde à laquelle il était attaché."
+        },
+        {
+          "id": "a2e20",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e21",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites avec moi mon petit cochon : groin, groin !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e22",
+          "type": "conteur",
+          "texte": "{{r1}} continua son chemin en pensant que tout lui arrivait comme il le souhaitait : s’il lui arrivait un ennui, tout de suite il était réparé."
+        },
+        {
+          "id": "a2e23",
+          "type": "note_marionnettiste",
+          "texte": "Laissez les enfants dire le refrain avec {{r1}}."
+        },
+        {
+          "id": "a2e24",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Quelle chance j’ai !",
+          "ton": "tout fort"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Une belle oie blanche",
+      "resume": "{{r5}} fait croire à {{r1}} que son cochon a été volé chez le maire. {{r1}}, effrayé, le lui laisse contre son oie, et s’en trouve encore plus heureux.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "conteur",
+          "texte": "Ensuite, un garçon, {{r5}}, le rejoignit, qui portait sous le bras une belle oie blanche."
+        },
+        {
+          "id": "a3e2",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e3",
+          "type": "didascalie",
+          "texte": "{{r5}} arrive à petits pas pressés et marche à côté de {{r1}}."
+        },
+        {
+          "id": "a3e4",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Bonjour !",
+          "ton": "d’un air aimable"
+        },
+        {
+          "id": "a3e5",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Bonjour !",
+          "ton": "gaiement"
+        },
+        {
+          "id": "a3e6",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Je porte cette oie à un repas de baptême. Soupesez-la, voyez comme elle est lourde. Celui qui mordra dans le rôti devra s’essuyer la graisse des deux côtés de la bouche.",
+          "ton": "l’air important"
+        },
+        {
+          "id": "a3e7",
+          "type": "didascalie",
+          "texte": "{{r1}} se penche vers {{r5}}, puis se redresse lentement, comme sous un poids."
+        },
+        {
+          "id": "a3e8",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oui, elle a son poids. Mais mon cochon n’est pas mal non plus.",
+          "ton": "en hochant la tête"
+        },
+        {
+          "id": "a3e9",
+          "type": "didascalie",
+          "texte": "{{r5}} tourne la tête à droite, à gauche, encore à droite, puis hoche la tête, longtemps."
+        },
+        {
+          "id": "a3e10",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Écoutez, votre cochon, ce n’est peut-être pas très net. Dans le village que je viens de traverser, on vient justement d’en voler un dans l’étable du maire. J’ai bien peur, bien peur, que ce soit lui que vous tenez là.",
+          "ton": "tout bas, en regardant partout"
+        },
+        {
+          "id": "a3e11",
+          "type": "conteur",
+          "texte": "Le brave {{r1}} prit peur."
+        },
+        {
+          "id": "a3e12",
+          "type": "didascalie",
+          "texte": "{{r1}} tremble de tout son corps."
+        },
+        {
+          "id": "a3e13",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ah, mon Dieu, tirez-moi d’affaire, vous connaissez mieux le coin que moi. Prenez mon cochon et laissez-moi votre oie.",
+          "ton": "en tremblant"
+        },
+        {
+          "id": "a3e14",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Je prends un risque, mais je ne veux pas être la cause de votre malheur.",
+          "ton": "d’un air grave"
+        },
+        {
+          "id": "a3e15",
+          "type": "conteur",
+          "texte": "{{r5}} prit donc la corde et emmena vite le cochon par un chemin de traverse."
+        },
+        {
+          "id": "a3e16",
+          "type": "didascalie",
+          "texte": "{{r5}} file à toute vitesse vers la droite."
+        },
+        {
+          "id": "a3e17",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e18",
+          "type": "conteur",
+          "texte": "Et le brave {{r1}}, débarrassé de ses soucis, continua vers chez lui avec l’oie sous le bras."
+        },
+        {
+          "id": "a3e19",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Quand j’y pense bien, j’ai encore gagné à l’échange : d’abord le bon rôti, ensuite toute la graisse qui va couler, ça fera des tartines pour trois mois, et enfin les belles plumes blanches, je les ferai mettre dans mon oreiller, et je m’endormirai dessus sans qu’on ait besoin de me bercer. Comme ma mère va être contente !",
+          "ton": "en hochant la tête à chaque idée"
+        },
+        {
+          "id": "a3e20",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Tous ensemble, avec moi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e21",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Quelle chance j’ai !",
+          "ton": "tout fort"
+        },
+        {
+          "id": "a3e22",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "numero": 4,
+      "titre": "Et l’or ?",
+      "resume": "{{r6}} échange une vieille pierre à aiguiser contre l’oie. Au puits, les pierres tombent au fond, et {{r1}}, libre de tout, rentre chez sa mère en sautillant.",
+      "tableauId": "t3",
+      "elements": [
+        {
+          "id": "a4e1",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e2",
+          "type": "conteur",
+          "texte": "Quand {{r1}} eut traversé le dernier village, il vit un rémouleur, {{r6}}, avec sa charrette."
+        },
+        {
+          "id": "a4e3",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e4",
+          "type": "conteur",
+          "texte": "Sa meule ronronnait, et il chantait :"
+        },
+        {
+          "id": "a4e5",
+          "type": "didascalie",
+          "texte": "{{r6}} tourne en rond sur place, en se balançant."
+        },
+        {
+          "id": "a4e6",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "J’aiguise les ciseaux et je tourne vite, et je tourne ma veste selon le vent !",
+          "ton": "en chantant, de tout son cœur"
+        },
+        {
+          "id": "a4e7",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Vous devez bien gagner votre vie, pour être si gai en aiguisant.",
+          "ton": "avec admiration"
+        },
+        {
+          "id": "a4e8",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Oui, c’est un métier en or. Un bon rémouleur, c’est un homme qui trouve de l’argent chaque fois qu’il met la main dans sa poche. Mais où avez-vous acheté cette belle oie ?",
+          "ton": "en fredonnant"
+        },
+        {
+          "id": "a4e9",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je ne l’ai pas achetée, je l’ai échangée contre mon cochon.",
+          "ton": "fièrement"
+        },
+        {
+          "id": "a4e10",
+          "type": "adresse_public",
+          "marionnetteId": "r6",
+          "texte": "Répondez avec lui, vous aussi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e11",
+          "type": "note_marionnettiste",
+          "texte": "Avant chaque réponse de {{r1}}, laissez un petit temps : les enfants s’en souviennent et la disent avec lui."
+        },
+        {
+          "id": "a4e12",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Et le cochon ?"
+        },
+        {
+          "id": "a4e13",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je l’ai eu contre une vache."
+        },
+        {
+          "id": "a4e14",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Et la vache ?"
+        },
+        {
+          "id": "a4e15",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je l’ai eue contre un cheval."
+        },
+        {
+          "id": "a4e16",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Et le cheval ?"
+        },
+        {
+          "id": "a4e17",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Pour lui, j’ai donné une pépite d’or grosse comme ma tête."
+        },
+        {
+          "id": "a4e18",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Et l’or ?",
+          "ton": "d’un air étonné"
+        },
+        {
+          "id": "a4e19",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Eh bien, c’était mon salaire pour sept ans de service.",
+          "ton": "tout simplement"
+        },
+        {
+          "id": "a4e20",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Vous avez toujours su vous débrouiller. Si maintenant vous arriviez à entendre l’argent sauter dans votre poche chaque fois que vous vous levez, vous auriez fait fortune.",
+          "ton": "en se balançant"
+        },
+        {
+          "id": "a4e21",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Comment faire ?"
+        },
+        {
+          "id": "a4e22",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Il faut devenir rémouleur, comme moi. Pour cela, il ne faut presque rien, juste une pierre à aiguiser : le reste vient tout seul. J’en ai une ici, un peu abîmée c’est vrai, mais en échange vous ne me donnerez rien d’autre que votre oie. Ça vous va ?",
+          "ton": "d’une voix toute douce"
+        },
+        {
+          "id": "a4e23",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Comment pouvez-vous encore le demander ? Je vais devenir l’homme le plus heureux de la terre.",
+          "ton": "en sautant de joie"
+        },
+        {
+          "id": "a4e24",
+          "type": "conteur",
+          "texte": "{{r1}} lui tendit l’oie et reçut la pierre à aiguiser."
+        },
+        {
+          "id": "a4e25",
+          "type": "didascalie",
+          "texte": "{{r6}} se penche vers le sol, puis se redresse et se tourne vers {{r1}}."
+        },
+        {
+          "id": "a4e26",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Et voilà, je vous donne en plus cette bonne pierre, sur laquelle on peut bien taper pour redresser vos vieux clous. Prenez-la, et gardez-la bien.",
+          "ton": "d’un air généreux"
+        },
+        {
+          "id": "a4e27",
+          "type": "didascalie",
+          "texte": "{{r6}} repart en tournant sur lui-même."
+        },
+        {
+          "id": "a4e28",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e29",
+          "type": "conteur",
+          "texte": "{{r1}} chargea les pierres et continua son chemin le cœur content. Ses yeux brillaient de joie."
+        },
+        {
+          "id": "a4e30",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je dois être né coiffé ! Tout ce que je souhaite m’arrive, comme à un enfant né un dimanche.",
+          "ton": "en criant de joie"
+        },
+        {
+          "id": "a4e31",
+          "type": "note_marionnettiste",
+          "texte": "Laissez les enfants dire le refrain avec {{r1}}."
+        },
+        {
+          "id": "a4e32",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Quelle chance j’ai !",
+          "ton": "tout fort"
+        },
+        {
+          "id": "a4e33",
+          "type": "conteur",
+          "texte": "Mais comme il était debout depuis l’aube, il commença à se fatiguer. Il ne pouvait plus avancer qu’avec peine et devait s’arrêter à chaque instant ; et les pierres lui pesaient terriblement."
+        },
+        {
+          "id": "a4e34",
+          "type": "didascalie",
+          "texte": "{{r1}} avance tout doucement, s’arrête, repart, s’arrête encore, la tête de plus en plus basse."
+        },
+        {
+          "id": "a4e35",
+          "type": "conteur",
+          "texte": "Il ne put s’empêcher de penser combien ce serait bien s’il n’avait pas à les porter en ce moment."
+        },
+        {
+          "id": "a4e36",
+          "type": "conteur",
+          "texte": "Il arriva comme un escargot près d’un puits dans les champs. Il voulait s’y reposer et se rafraîchir en buvant un peu d’eau."
+        },
+        {
+          "id": "a4e37",
+          "type": "didascalie",
+          "texte": "{{r1}} arrive tout lentement jusqu’au saladier et se pose sur le bord."
+        },
+        {
+          "id": "a4e38",
+          "type": "conteur",
+          "texte": "Pour ne pas abîmer les pierres en s’asseyant, il les posa avec précaution à côté de lui, sur le bord du puits. Puis il s’assit et voulut se pencher pour boire ; mais il fit un faux mouvement, les heurta un tout petit peu, et les deux pierres tombèrent — plouf — au fond."
+        },
+        {
+          "id": "a4e39",
+          "type": "didascalie",
+          "texte": "{{r1}} se penche au-dessus du saladier, fait un petit bond de côté, puis regarde au fond."
+        },
+        {
+          "id": "a4e40",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites avec moi le bruit des pierres : plouf ! plouf !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e41",
+          "type": "conteur",
+          "texte": "Quand {{r1}} les eut vues disparaître dans les profondeurs, il sauta de joie, puis s’agenouilla et remercia Dieu, les larmes aux yeux, de lui avoir encore fait cette grâce, et de l’avoir débarrassé de ces lourdes pierres, qui seules le gênaient encore, d’une si bonne manière, et sans qu’il ait rien à se reprocher."
+        },
+        {
+          "id": "a4e42",
+          "type": "didascalie",
+          "texte": "{{r1}} saute de joie, puis se penche tout bas vers le saladier, longtemps, sans bouger."
+        },
+        {
+          "id": "a4e43",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Aussi heureux que moi, il n’y a personne sous le soleil !",
+          "ton": "en criant de joie"
+        },
+        {
+          "id": "a4e44",
+          "type": "conteur",
+          "texte": "Et le cœur léger, libre de tout fardeau, il repartit en sautillant, jusqu’à ce qu’il soit à la maison, chez sa mère."
+        },
+        {
+          "id": "a4e45",
+          "type": "didascalie",
+          "texte": "{{r1}} s’en va en sautillant jusqu’au bout de la table, puis se retourne vers les enfants."
+        },
+        {
+          "id": "a4e46",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Au revoir, les enfants !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e47",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "de-jean-la-chance",
+    "synopsis": {
+      "accroche": "{{r1}} rentre chez sa mère avec son salaire, une pépite d’or grosse comme sa tête ; de rencontre en rencontre, il l’échange contre de moins en moins, et il est de plus en plus heureux.",
+      "resume": [
+        "Après sept ans de service, {{r1}} reçoit de son maître une pépite d’or grosse comme sa tête, et prend la route pour rentrer chez sa mère.",
+        "L’or est trop lourd : il l’échange contre le cheval de {{r2}}, qui le jette dans le fossé ; puis le cheval contre la vache de {{r3}}.",
+        "Sur la lande, la vache ne donne pas une goutte de lait et lui donne un coup de patte : {{r4}}, le boucher, lui échange la vache contre un petit cochon.",
+        "{{r5}} lui fait peur : ce cochon aurait été volé chez le maire ! {{r1}} le lui laisse, soulagé, contre une belle oie blanche.",
+        "{{r6}}, le rémouleur, lui fait dire toute la chaîne des échanges, puis lui prend l’oie contre une vieille pierre à aiguiser. Les pierres tombent au fond d’un puits, et {{r1}}, libre de tout, rentre chez sa mère en sautillant : personne n’est plus heureux que lui."
+      ]
+    },
+    "transposition": {
+      "texte": "{{r1}} avait servi son maître pendant sept ans. Alors il lui dit :\n\n— Maître, mon temps est fini. J’aimerais bien rentrer chez ma mère : donnez-moi mon salaire.\n\nLe maître répondit :\n\n— Tu m’as servi fidèlement et honnêtement. Tel service, tel salaire.\n\nEt il lui donna un morceau d’or aussi gros que la tête de {{r1}}. {{r1}} tira son mouchoir de sa poche, y enveloppa la pépite, la mit sur son épaule et prit le chemin de la maison.\n\nComme il marchait ainsi, un pied devant l’autre, il vit un cavalier, {{r2}}, qui passait au trot, frais et joyeux, sur un cheval plein d’entrain.\n\n— Ah, dit {{r1}} tout haut, quelle belle chose que d’aller à cheval ! On est assis comme sur une chaise, on ne se cogne à aucun caillou, on use pas ses chaussures, et on avance sans savoir comment.\n\n{{r2}}, qui l’avait entendu, s’arrêta et cria :\n\n— Eh, {{r1}}, pourquoi vas-tu donc à pied ?\n\n— Il le faut bien, répondit-il. J’ai cette pépite à rapporter chez moi. C’est de l’or, mais je ne peux pas tenir la tête droite, et elle m’écrase l’épaule.\n\n— Tu sais quoi ? dit {{r2}}. Faisons un échange : je te donne mon cheval, et tu me donnes ta pépite.\n\n— De tout cœur, dit {{r1}}. Mais je vous préviens, vous allez devoir vous la traîner.\n\n{{r2}} descendit, prit l’or, aida {{r1}} à monter, lui mit les rênes bien en main et dit :\n\n— Quand tu veux aller très vite, il faut claquer de la langue et crier « hop, hop ! ».\n\n{{r1}} était fou de joie d’être assis sur le cheval et d’avancer si librement. Au bout d’un moment, il lui vint l’idée d’aller encore plus vite ; il se mit à claquer de la langue et à crier « hop, hop ! ». Le cheval partit au grand trot, et avant que {{r1}} ait compris ce qui lui arrivait, il était à terre, dans un fossé qui séparait les champs de la route. Le cheval se serait sauvé si un paysan, {{r3}}, qui passait par là en poussant une vache devant lui ne l’avait pas arrêté.\n\n{{r1}} rassembla ses membres et se remit sur ses jambes. Mais il était de mauvaise humeur, et dit à {{r3}} :\n\n— C’est une bien mauvaise plaisanterie, le cheval, surtout quand on tombe sur une rosse comme celle-ci, qui rue et vous jette par terre à vous en rompre le cou. Je ne remonterai plus jamais dessus. Parlez-moi de votre vache : on peut marcher tranquillement derrière elle, et en plus, on a son lait, son beurre et son fromage tous les jours, c’est sûr. Que ne donnerais-je pas pour avoir une vache comme celle-là !\n\n— Eh bien, dit {{r3}}, si cela vous fait tant plaisir, je veux bien vous échanger la vache contre le cheval.\n\n{{r1}} accepta avec mille joies. {{r3}} sauta sur le cheval et s’en alla au galop.\n\n{{r1}} poussait tranquillement sa vache devant lui et pensait à la bonne affaire qu’il avait faite.\n\n— Pourvu que j’aie un morceau de pain, et ça ne me manquera pas, je pourrai manger du beurre et du fromage avec, aussi souvent qu’il me plaira. Et si j’ai soif, je trais ma vache et je bois du lait. Mon cœur, que demandes-tu de plus ?\n\nQuand {{r1}} arriva à une auberge, il s’arrêta, et dans sa grande joie, mangea d’un coup tout ce qu’il avait emporté, son déjeuner et son dîner, et se fit servir un demi-verre avec ses derniers sous. Puis il reprit la route avec sa vache, toujours vers le village de sa mère.\n\nLa chaleur devenait écrasante à mesure que midi approchait, et {{r1}} se trouvait sur une lande qui durait bien encore une heure. Il eut si chaud que sa langue lui collait au palais.\n\n« Il y a un remède à cela, pensa {{r1}}. Je vais traire ma vache et me régaler de lait. »\n\nIl l’attacha à un arbre mort, et comme il n’avait pas de seau, il mit en dessous son bonnet de cuir. Mais il eut beau faire, il ne sortit pas une goutte de lait. Et comme il s’y prenait maladroitement, la bête impatiente finit par lui donner un tel coup de patte de derrière sur la tête qu’il tomba par terre, et resta un moment sans savoir où il était.\n\nHeureusement, un boucher, {{r4}}, passait justement par là, avec un jeune cochon couché sur une brouette.\n\n— Qu’est-ce que c’est que ces manières ? s’écria-t-il en aidant le brave {{r1}} à se relever.\n\n{{r1}} raconta ce qui s’était passé. {{r4}} lui tendit sa gourde et dit :\n\n— Tenez, buvez un coup et remettez-vous. Cette vache ne veut pas donner de lait : c’est une vieille bête, tout juste bonne à tirer une charrette ou à aller chez le boucher.\n\n— Tiens, tiens, dit {{r1}} en se passant la main dans les cheveux. Qui l’aurait cru ! Bien sûr, c’est bien d’avoir une bête comme ça à la maison, que de viande ! Mais je n’aime pas beaucoup la viande de vache, elle n’est pas assez tendre pour moi. Ah, si on avait un jeune cochon comme celui-là ! Ça a un autre goût, et en plus, il y a les saucisses.\n\n— Écoutez, {{r1}}, dit alors {{r4}}, pour vous faire plaisir, je veux bien échanger : je vous laisse le cochon pour la vache.\n\n— Que Dieu vous récompense de votre amitié, dit {{r1}}.\n\nIl lui donna la vache, fit détacher le petit cochon de la brouette, et prit en main la corde à laquelle il était attaché.\n\n{{r1}} continua son chemin en pensant que tout lui arrivait comme il le souhaitait : s’il lui arrivait un ennui, tout de suite il était réparé.\n\nEnsuite, un garçon, {{r5}}, le rejoignit, qui portait sous le bras une belle oie blanche. Ils se souhaitèrent le bonjour, et {{r1}} commença à raconter sa chance, et comme il avait toujours fait de bons échanges. {{r5}} lui raconta qu’il portait l’oie à un repas de baptême.\n\n— Soupesez-la, continua-t-il en l’attrapant par les ailes, voyez comme elle est lourde. Il faut dire qu’on l’a gavée pendant huit semaines. Celui qui mordra dans le rôti devra s’essuyer la graisse des deux côtés de la bouche.\n\n— Oui, dit {{r1}} en la soupesant d’une main, elle a son poids. Mais mon cochon n’est pas mal non plus.\n\nPendant ce temps, {{r5}} regardait de tous les côtés d’un air inquiet, et hochait la tête.\n\n— Écoutez, commença-t-il, votre cochon, ce n’est peut-être pas très net. Dans le village que je viens de traverser, on vient justement d’en voler un dans l’étable du maire. J’ai bien peur, bien peur, que ce soit lui que vous tenez là. Ils ont envoyé des gens à sa recherche, et ce serait une vilaine affaire s’ils vous attrapaient avec le cochon : le moins qui pourrait vous arriver, c’est d’être mis au cachot.\n\nLe brave {{r1}} prit peur.\n\n— Ah, mon Dieu, dit-il, tirez-moi d’affaire, vous connaissez mieux le coin que moi. Prenez mon cochon et laissez-moi votre oie.\n\n— Je prends un risque, répondit {{r5}}, mais je ne veux pas être la cause de votre malheur.\n\nIl prit donc la corde et emmena vite le cochon par un chemin de traverse. Et le brave {{r1}}, débarrassé de ses soucis, continua vers chez lui avec l’oie sous le bras.\n\n— Quand j’y pense bien, se disait-il, j’ai encore gagné à l’échange : d’abord le bon rôti, ensuite toute la graisse qui va couler, ça fera des tartines pour trois mois, et enfin les belles plumes blanches, je les ferai mettre dans mon oreiller, et je m’endormirai dessus sans qu’on ait besoin de me bercer. Comme ma mère va être contente !\n\nQuand {{r1}} eut traversé le dernier village, il vit un rémouleur, {{r6}}, avec sa charrette. Sa meule ronronnait, et il chantait :\n\n« J’aiguise les ciseaux et je tourne vite,\nEt je tourne ma veste selon le vent. »\n\n{{r1}} s’arrêta pour le regarder. Enfin, il lui adressa la parole :\n\n— Vous devez bien gagner votre vie, pour être si gai en aiguisant.\n\n— Oui, répondit {{r6}}, c’est un métier en or. Un bon rémouleur, c’est un homme qui trouve de l’argent chaque fois qu’il met la main dans sa poche. Mais où avez-vous acheté cette belle oie ?\n\n— Je ne l’ai pas achetée, je l’ai échangée contre mon cochon.\n\n— Et le cochon ?\n\n— Je l’ai eu contre une vache.\n\n— Et la vache ?\n\n— Je l’ai eue contre un cheval.\n\n— Et le cheval ?\n\n— Pour lui, j’ai donné une pépite d’or grosse comme ma tête.\n\n— Et l’or ?\n\n— Eh bien, c’était mon salaire pour sept ans de service.\n\n— Vous avez toujours su vous débrouiller, dit {{r6}}. Si maintenant vous arriviez à entendre l’argent sauter dans votre poche chaque fois que vous vous levez, vous auriez fait fortune.\n\n— Comment faire ? demanda {{r1}}.\n\n— Il faut devenir rémouleur, comme moi. Pour cela, il ne faut presque rien, juste une pierre à aiguiser : le reste vient tout seul. J’en ai une ici, un peu abîmée c’est vrai, mais en échange vous ne me donnerez rien d’autre que votre oie. Ça vous va ?\n\n— Comment pouvez-vous encore le demander ? répondit {{r1}}. Je vais devenir l’homme le plus heureux de la terre. Si j’ai de l’argent chaque fois que je mets la main dans ma poche, pourquoi me ferais-je encore du souci ?\n\nIl lui tendit l’oie et reçut la pierre à aiguiser.\n\n— Et voilà, dit {{r6}} en ramassant une grosse pierre ordinaire qui traînait à côté de lui, je vous donne en plus cette bonne pierre, sur laquelle on peut bien taper pour redresser vos vieux clous. Prenez-la, et gardez-la bien.\n\n{{r1}} chargea les pierres et continua son chemin le cœur content. Ses yeux brillaient de joie.\n\n— Je dois être né coiffé ! s’écria-t-il. Tout ce que je souhaite m’arrive, comme à un enfant né un dimanche.\n\nMais comme il était debout depuis l’aube, il commença à se fatiguer ; la faim le tourmentait aussi, puisqu’il avait mangé toutes ses provisions d’un coup dans sa joie d’avoir eu la vache. Il ne pouvait plus avancer qu’avec peine et devait s’arrêter à chaque instant ; et les pierres lui pesaient terriblement. Il ne put s’empêcher de penser combien ce serait bien s’il n’avait pas à les porter en ce moment.\n\nIl arriva comme un escargot près d’un puits dans les champs. Il voulait s’y reposer et se rafraîchir en buvant un peu d’eau. Pour ne pas abîmer les pierres en s’asseyant, il les posa avec précaution à côté de lui, sur le bord du puits. Puis il s’assit et voulut se pencher pour boire ; mais il fit un faux mouvement, les heurta un tout petit peu, et les deux pierres tombèrent — plouf — au fond.\n\nQuand {{r1}} les eut vues disparaître dans les profondeurs, il sauta de joie, puis s’agenouilla et remercia Dieu, les larmes aux yeux, de lui avoir encore fait cette grâce, et de l’avoir débarrassé de ces lourdes pierres, qui seules le gênaient encore, d’une si bonne manière, et sans qu’il ait rien à se reprocher.\n\n— Aussi heureux que moi, s’écria-t-il, il n’y a personne sous le soleil !\n\nEt le cœur léger, libre de tout fardeau, il repartit en sautillant, jusqu’à ce qu’il soit à la maison, chez sa mère.",
+      "changements": [
+        "Les cinq personnes que {{r1}} rencontre et qui lui parlent sont des marionnettes : {{r2}} (le cavalier), {{r3}} (le paysan), {{r4}} (le boucher), {{r5}} (le garçon à l’oie) et {{r6}} (le rémouleur). {{r1}} reste sur la main gauche, les rencontres défilent sur la main droite. Le maître, qui n’a qu’une réplique au début, dépasserait la sixième marionnette : sa voix vient de la coulisse.",
+        "Le discours indirect devient direct : {{r1}} « accepta avec mille joies » (« Avec mille joies ! »), {{r5}} et lui « se souhaitèrent le bonjour » (« Bonjour ! »), {{r5}} « lui raconta qu’il portait l’oie à un repas de baptême » (« Je porte cette oie à un repas de baptême. »), et la pensée « Il y a un remède à cela » est dite tout haut.",
+        "Un refrain simple est ajouté : après chaque échange, {{r1}} dit « Quelle chance j’ai ! », que les enfants reprennent avec lui. Il porte le bonheur que le conte donne à {{r1}} à chaque échange.",
+        "Pour approcher la durée sans toucher au dénouement (les pierres dans le puits, la joie, le retour chez la mère) : l’arrêt à l’auberge est coupé, avec la faim qui en vient plus tard ; les longues répliques perdent quelques phrases (les avantages du cheval, puis de la vache, le beurre et le fromage, « que de viande ! », l’oie gavée, la menace du cachot, l’argent dans la poche) ; quelques phrases de narration sont coupées ou montrées par le jeu (le mouchoir où {{r1}} enveloppe la pépite, « {{r1}} raconta ce qui s’était passé », {{r5}} qui regarde de tous les côtés, {{r1}} qui raconte sa chance, qui s’arrête pour regarder {{r6}}).",
+        "Les bêtes (le cheval, la vache, le cochon, l’oie) n’ont ni réplique ni marionnette : elles existent par la parole, et par les bruits que font les enfants."
+      ]
+    }
+  },
+  "dureeEstimeeSecondes": 1036,
+  "interactionsOrdonnees": [
+    "a4e10",
+    "a1e26",
+    "a1e23",
+    "a4e40",
+    "a3e20",
+    "a1e42",
+    "a2e21",
+    "a4e46"
+  ]
+}

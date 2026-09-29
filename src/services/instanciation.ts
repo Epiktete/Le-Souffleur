@@ -26,7 +26,7 @@ import {
   type SpectacleModele,
 } from './banque';
 import { dureeSpectacle } from './duree';
-import { especeMarionnette } from './choixContes';
+import { libelleEspece } from './choixContes';
 import { genreMarionnette, type AttributionBanque, type Genre } from './appariement';
 
 /** Erreur d'instanciation, déjà traduite pour l'utilisateur. */
@@ -175,7 +175,7 @@ export function instancierModele(
   modele.roles.forEach((role, k) => {
     const m = troupe[k];
     if (!role.especeMentions?.length || !role.espece) return;
-    const cible = especeMarionnette(m)?.libelle ?? null;
+    const cible = libelleEspece(m);
     if (cible === null) {
       avertissements.push(tba.creation.especeInconnue(m.nom, role.espece));
       return;

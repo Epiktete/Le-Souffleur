@@ -1,0 +1,1901 @@
+{
+  "id": "ru-morozko--1",
+  "conteId": "ru-morozko",
+  "titre": "Morozko",
+  "pitch": "Laissée seule sous le grand pin, {{r1}} répond toujours gentiment à {{r2}}, le Gel, et revient couverte de cadeaux. {{r5}} et {{r6}}, les filles de {{r3}}, lui répondent mal, et {{r2}} les laisse geler.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "fille",
+      "famille": "enfant",
+      "traits": [
+        "gentil",
+        "travailleur",
+        "courageux"
+      ],
+      "voix": "voix douce et claire, qui ne se plaint jamais",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "Laissée seule",
+            "apres": "Laissé seul"
+          },
+          {
+            "id": "pitch",
+            "avant": "couverte de cadeaux",
+            "apres": "couvert de cadeaux"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "la gronde",
+            "apres": "le gronde"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "de la marier",
+            "apres": "de le marier"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "la conduire",
+            "apres": "le conduire"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "Quelle paresseuse, quelle souillon",
+            "apres": "Quel paresseux, quel souillon"
+          },
+          {
+            "id": "a1e35:texte",
+            "avant": "ma colombe",
+            "apres": "mon pigeon"
+          },
+          {
+            "id": "a1e35:texte",
+            "avant": "assez vue",
+            "apres": "assez vu"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "la couvre",
+            "apres": "le couvre"
+          },
+          {
+            "id": "a2e7:texte",
+            "avant": "est assise",
+            "apres": "est assis"
+          },
+          {
+            "id": "a2e7:texte",
+            "avant": "l'a saisie",
+            "apres": "l'a saisi"
+          },
+          {
+            "id": "a2e9:texte",
+            "avant": "elle entend",
+            "apres": "il entend"
+          },
+          {
+            "id": "a2e20:texte",
+            "avant": "ma belle",
+            "apres": "mon beau"
+          },
+          {
+            "id": "a2e21:texte",
+            "avant": "mais elle dit",
+            "apres": "mais il dit"
+          },
+          {
+            "id": "a2e25:texte",
+            "avant": "ma belle",
+            "apres": "mon beau"
+          },
+          {
+            "id": "a2e25:texte",
+            "avant": "ma mignonne",
+            "apres": "mon mignon"
+          },
+          {
+            "id": "a2e26:texte",
+            "avant": "toute raide",
+            "apres": "tout raide"
+          },
+          {
+            "id": "a2e28:texte",
+            "avant": "pitié d'elle",
+            "apres": "pitié de lui"
+          },
+          {
+            "id": "a2e28:texte",
+            "avant": "la réchauffa",
+            "apres": "le réchauffa"
+          },
+          {
+            "id": "a2e40:texte",
+            "avant": "la trouva vivante",
+            "apres": "le trouva vivant"
+          },
+          {
+            "id": "a2e44:texte",
+            "avant": "Arrivée",
+            "apres": "Arrivé"
+          },
+          {
+            "id": "a2e46:texte",
+            "avant": "la mauvaise",
+            "apres": "le mauvais"
+          },
+          {
+            "id": "a4:resume",
+            "avant": "vit heureuse",
+            "apres": "vit heureux"
+          },
+          {
+            "id": "a4e24:texte",
+            "avant": "vit heureuse",
+            "apres": "vit heureux"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a2:titre",
+          "avant": "jeune fille",
+          "gabarit": "jeune {espece}"
+        },
+        {
+          "id": "a2:resume",
+          "avant": "jeune fille",
+          "gabarit": "jeune {espece}"
+        },
+        {
+          "id": "a2e15:texte",
+          "avant": "jeune fille",
+          "gabarit": "jeune {espece}"
+        },
+        {
+          "id": "a2e20:texte",
+          "avant": "jeune fille",
+          "gabarit": "jeune {espece}"
+        },
+        {
+          "id": "a2e25:texte",
+          "avant": "jeune fille",
+          "gabarit": "jeune {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r2",
+      "espece": "genie",
+      "famille": "feerique",
+      "traits": [
+        "sage",
+        "farceur",
+        "généreux"
+      ],
+      "voix": "voix lente et profonde, comme un vent d'hiver ; des « crac ! » et des « clac ! » à chaque saut",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e35:texte",
+            "avant": "chez son fiancé",
+            "apres": "chez sa fiancée"
+          },
+          {
+            "id": "a1e37:texte",
+            "avant": "Son fiancé est beau",
+            "apres": "Sa fiancée est belle"
+          },
+          {
+            "id": "a1e37:texte",
+            "avant": "tout ce qu'il possède",
+            "apres": "tout ce qu'elle possède"
+          },
+          {
+            "id": "a1e37:texte",
+            "avant": "lui-même est un vrai héros",
+            "apres": "elle-même est une vraie héroïne"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "ton fiancé",
+            "apres": "ta fiancée"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "reçois-le",
+            "apres": "reçois-la"
+          },
+          {
+            "id": "a2e16:texte",
+            "avant": "petit père Gel",
+            "apres": "petite mère Gel"
+          },
+          {
+            "id": "a2e22:texte",
+            "avant": "petit Gel !",
+            "apres": "petite Gel !"
+          },
+          {
+            "id": "a2e22:texte",
+            "avant": "petit père !",
+            "apres": "petite mère !"
+          },
+          {
+            "id": "a2e27:texte",
+            "avant": "mon cher petit Gel",
+            "apres": "ma chère petite Gel"
+          },
+          {
+            "id": "a2e28:texte",
+            "avant": ": il l'enveloppa",
+            "apres": ": elle l'enveloppa"
+          },
+          {
+            "id": "a2e36:texte",
+            "avant": "les jeunes mariés",
+            "apres": "les jeunes mariées"
+          },
+          {
+            "id": "a2e50:texte",
+            "avant": "ce fiancé",
+            "apres": "cette fiancée"
+          },
+          {
+            "id": "a2e50:texte",
+            "avant": ": il leur fera",
+            "apres": ": elle leur fera"
+          },
+          {
+            "id": "a3:titre",
+            "avant": "il va",
+            "apres": "elle va"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "et il les laisse",
+            "apres": "et elle les laisse"
+          },
+          {
+            "id": "a3e8:texte",
+            "avant": "le fiancé",
+            "apres": "la fiancée"
+          },
+          {
+            "id": "a3e10:texte",
+            "avant": "qu'un,",
+            "apres": "qu'une,"
+          },
+          {
+            "id": "a3e10:texte",
+            "avant": "il va prendre",
+            "apres": "elle va prendre"
+          },
+          {
+            "id": "a3e18:texte",
+            "avant": "il prendra",
+            "apres": "elle prendra"
+          },
+          {
+            "id": "a3e19:texte",
+            "avant": "qu'il fabrique",
+            "apres": "qu'elle fabrique"
+          },
+          {
+            "id": "a3e19:texte",
+            "avant": "Pourquoi il ne vient",
+            "apres": "Pourquoi elle ne vient"
+          },
+          {
+            "id": "a3e23:texte",
+            "avant": "le voilà",
+            "apres": "la voilà"
+          },
+          {
+            "id": "a3e26:texte",
+            "avant": "enfin il fut",
+            "apres": "enfin elle fut"
+          },
+          {
+            "id": "a3e32:texte",
+            "avant": "notre fiancé",
+            "apres": "notre fiancée"
+          },
+          {
+            "id": "a3e32:texte",
+            "avant": "et lui, le maudit, il a disparu",
+            "apres": "et elle, la maudite, elle a disparu"
+          },
+          {
+            "id": "a3e44:texte",
+            "avant": "maudit !",
+            "apres": "maudite !"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r3",
+      "espece": "femme",
+      "famille": "adulte",
+      "traits": [
+        "méchant",
+        "avare",
+        "jaloux"
+      ],
+      "voix": "voix aigre et pointue, qui grogne tout le temps",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a1:resume",
+            "avant": "elle décide",
+            "apres": "il décide"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "jamais contente",
+            "apres": "jamais content"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "jalouse",
+            "apres": "jaloux"
+          },
+          {
+            "id": "a2e44:texte",
+            "avant": "sa belle-mère",
+            "apres": "son beau-père"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "et une vieille.",
+            "apres": "et un vieux."
+          },
+          {
+            "id": "a4e17:texte",
+            "avant": "vieille mégère",
+            "apres": "vieux ronchon"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r4",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "gentil",
+        "peureux"
+      ],
+      "voix": "voix fatiguée et chevrotante, qui parle peu et tout bas",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e18:texte",
+            "avant": "derrière lui",
+            "apres": "derrière elle"
+          },
+          {
+            "id": "a2e40:texte",
+            "avant": ", il ",
+            "apres": ", elle "
+          },
+          {
+            "id": "a4e7:texte",
+            "avant": "Il arrive",
+            "apres": "Elle arrive"
+          },
+          {
+            "id": "a4e7:texte",
+            "avant": "Il les mit",
+            "apres": "Elle les mit"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "une fois un vieux",
+            "apres": "une fois une vieille"
+          },
+          {
+            "id": "a1e15:texte",
+            "avant": "le vieux",
+            "apres": "la vieille"
+          },
+          {
+            "id": "a1e19:texte",
+            "avant": "le vieux",
+            "apres": "la vieille"
+          },
+          {
+            "id": "a1e35:texte",
+            "avant": "Le vieux,",
+            "apres": "La vieille,"
+          },
+          {
+            "id": "a1e35:texte",
+            "avant": "vieux grigou",
+            "apres": "vieille grigou"
+          },
+          {
+            "id": "a2e36:texte",
+            "avant": "vieux grigou",
+            "apres": "vieille grigou"
+          },
+          {
+            "id": "a4e4:texte",
+            "avant": "le vieux ;",
+            "apres": "la vieille ;"
+          },
+          {
+            "id": "a4e4:texte",
+            "avant": "vieux grigou",
+            "apres": "vieille grigou"
+          },
+          {
+            "id": "a4e15:texte",
+            "avant": "vieux chien",
+            "apres": "vieille bique"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r5",
+      "espece": "fille",
+      "famille": "enfant",
+      "traits": [
+        "vantard",
+        "orgueilleux"
+      ],
+      "voix": "voix haute et pincée, qui se moque de tout",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "les filles de",
+            "apres": "les enfants de"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "ses filles",
+            "apres": "ses enfants"
+          },
+          {
+            "id": "a2e50:texte",
+            "avant": "mes filles",
+            "apres": "mes enfants"
+          },
+          {
+            "id": "a3:titre",
+            "avant": "Laquelle",
+            "apres": "Lequel"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "si elles ont",
+            "apres": "s'ils ont"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "elles lui répondent",
+            "apres": "ils lui répondent"
+          },
+          {
+            "id": "a3e4:texte",
+            "avant": "sont assises",
+            "apres": "sont assis"
+          },
+          {
+            "id": "a3e5:texte",
+            "avant": "toutes les deux",
+            "apres": "tous les deux"
+          },
+          {
+            "id": "a3e10:texte",
+            "avant": "laquelle",
+            "apres": "lequel"
+          },
+          {
+            "id": "a3e18:texte",
+            "avant": "laquelle",
+            "apres": "lequel"
+          },
+          {
+            "id": "a3e18:texte",
+            "avant": "la première",
+            "apres": "le premier"
+          },
+          {
+            "id": "a3e31:texte",
+            "avant": "jeunes filles",
+            "apres": "jeunes gens"
+          },
+          {
+            "id": "a3e31:texte",
+            "avant": "mes belles",
+            "apres": "mes beaux"
+          },
+          {
+            "id": "a3e31:texte",
+            "avant": "mes colombes",
+            "apres": "mes pigeons"
+          },
+          {
+            "id": "a3e32:texte",
+            "avant": "Nous sommes gelées",
+            "apres": "Nous sommes gelés"
+          },
+          {
+            "id": "a3e39:texte",
+            "avant": "jeunes filles",
+            "apres": "jeunes gens"
+          },
+          {
+            "id": "a3e39:texte",
+            "avant": "mes belles",
+            "apres": "mes beaux"
+          },
+          {
+            "id": "a3e43:texte",
+            "avant": "jeunes filles",
+            "apres": "jeunes gens"
+          },
+          {
+            "id": "a3e47:texte",
+            "avant": "toutes raides",
+            "apres": "tout raides"
+          },
+          {
+            "id": "a4:resume",
+            "avant": "gelées",
+            "apres": "gelés"
+          },
+          {
+            "id": "a4e4:texte",
+            "avant": "Les filles ont dû",
+            "apres": "Les enfants ont dû"
+          },
+          {
+            "id": "a4e7:texte",
+            "avant": "chercher ses filles",
+            "apres": "chercher ses enfants"
+          },
+          {
+            "id": "a4e7:texte",
+            "avant": "les trouve gelées",
+            "apres": "les trouve gelés"
+          },
+          {
+            "id": "a4e12:texte",
+            "avant": "ses filles sans vie",
+            "apres": "ses enfants sans vie"
+          },
+          {
+            "id": "a4e15:texte",
+            "avant": "mes filles, mes enfants chéries",
+            "apres": "mes petits, mes enfants chéris"
+          },
+          {
+            "id": "a4e17:texte",
+            "avant": "des têtues",
+            "apres": "des têtus"
+          },
+          {
+            "id": "a3e14:texte",
+            "avant": "la maligne",
+            "apres": "le malin"
+          },
+          {
+            "id": "a3e18:texte",
+            "avant": "la vantarde",
+            "apres": "le vantard"
+          },
+          {
+            "id": "a3e20:texte",
+            "avant": "toute bleue",
+            "apres": "tout bleu"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r6",
+      "espece": "fille",
+      "famille": "enfant",
+      "traits": [
+        "paresseux",
+        "grognon"
+      ],
+      "voix": "voix traînante et pleurnicharde, qui répond du tac au tac",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "les filles de",
+            "apres": "les enfants de"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "ses filles",
+            "apres": "ses enfants"
+          },
+          {
+            "id": "a2e50:texte",
+            "avant": "mes filles",
+            "apres": "mes enfants"
+          },
+          {
+            "id": "a3:titre",
+            "avant": "Laquelle",
+            "apres": "Lequel"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "si elles ont",
+            "apres": "s'ils ont"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "elles lui répondent",
+            "apres": "ils lui répondent"
+          },
+          {
+            "id": "a3e4:texte",
+            "avant": "sont assises",
+            "apres": "sont assis"
+          },
+          {
+            "id": "a3e5:texte",
+            "avant": "toutes les deux",
+            "apres": "tous les deux"
+          },
+          {
+            "id": "a3e10:texte",
+            "avant": "laquelle",
+            "apres": "lequel"
+          },
+          {
+            "id": "a3e18:texte",
+            "avant": "laquelle",
+            "apres": "lequel"
+          },
+          {
+            "id": "a3e18:texte",
+            "avant": "la première",
+            "apres": "le premier"
+          },
+          {
+            "id": "a3e31:texte",
+            "avant": "jeunes filles",
+            "apres": "jeunes gens"
+          },
+          {
+            "id": "a3e31:texte",
+            "avant": "mes belles",
+            "apres": "mes beaux"
+          },
+          {
+            "id": "a3e31:texte",
+            "avant": "mes colombes",
+            "apres": "mes pigeons"
+          },
+          {
+            "id": "a3e32:texte",
+            "avant": "Nous sommes gelées",
+            "apres": "Nous sommes gelés"
+          },
+          {
+            "id": "a3e39:texte",
+            "avant": "jeunes filles",
+            "apres": "jeunes gens"
+          },
+          {
+            "id": "a3e39:texte",
+            "avant": "mes belles",
+            "apres": "mes beaux"
+          },
+          {
+            "id": "a3e43:texte",
+            "avant": "jeunes filles",
+            "apres": "jeunes gens"
+          },
+          {
+            "id": "a3e47:texte",
+            "avant": "toutes raides",
+            "apres": "tout raides"
+          },
+          {
+            "id": "a4:resume",
+            "avant": "gelées",
+            "apres": "gelés"
+          },
+          {
+            "id": "a4e4:texte",
+            "avant": "Les filles ont dû",
+            "apres": "Les enfants ont dû"
+          },
+          {
+            "id": "a4e7:texte",
+            "avant": "chercher ses filles",
+            "apres": "chercher ses enfants"
+          },
+          {
+            "id": "a4e7:texte",
+            "avant": "les trouve gelées",
+            "apres": "les trouve gelés"
+          },
+          {
+            "id": "a4e12:texte",
+            "avant": "ses filles sans vie",
+            "apres": "ses enfants sans vie"
+          },
+          {
+            "id": "a4e15:texte",
+            "avant": "mes filles, mes enfants chéries",
+            "apres": "mes petits, mes enfants chéris"
+          },
+          {
+            "id": "a4e17:texte",
+            "avant": "des têtues",
+            "apres": "des têtus"
+          },
+          {
+            "id": "a3e11:texte",
+            "avant": "grande sotte",
+            "apres": "grand sot"
+          },
+          {
+            "id": "a3e24:texte",
+            "avant": "la mauvaise",
+            "apres": "le mauvais"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 13,
+    "ageAuditoire": 5,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La maison et la forêt",
+      "description": "Au bout gauche de la table, posez un carton debout : c'est la maison, avec son poêle. Au bout droit, un grand coussin debout fait le grand pin, et deux petits coussins devant lui font les sapins. Étalez une serviette blanche au pied du pin : c'est la neige. Entre les deux, la table fait le chemin du traîneau.",
+      "accessoires": [
+        "une boîte à chaussures (le coffre)"
+      ],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Tu pars en visite !",
+      "resume": "{{r3}} fait tout faire à {{r1}} et la gronde sans cesse. Un jour, elle décide de la marier à {{r2}}, le Gel : {{r4}} devra la conduire jusqu'au grand pin de la forêt.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Il était une fois un vieux et une vieille."
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e3",
+          "type": "didascalie",
+          "texte": "{{r1}} va et vient d'un bout à l'autre de la maison, sans jamais s'arrêter."
+        },
+        {
+          "id": "a1e4",
+          "type": "conteur",
+          "texte": "{{r1}} abreuvait et nourrissait les bêtes, portait le bois et l'eau dans la maison, chauffait le poêle, balayait la maison et rangeait tout avant même le jour."
+        },
+        {
+          "id": "a1e5",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Aidez-moi à balayer : frotte, frotte, frotte !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e6",
+          "type": "didascalie",
+          "texte": "{{r1}} frotte la table de droite à gauche, en se penchant bien bas."
+        },
+        {
+          "id": "a1e7",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e8",
+          "type": "conteur",
+          "texte": "Mais {{r3}} n'était jamais contente, et grognait contre {{r1}} :"
+        },
+        {
+          "id": "a1e9",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Quelle paresseuse, quelle souillon ! Le balai n'est pas à sa place, et ceci n'est pas comme il faut, et c'est sale dans la maison.",
+          "ton": "d'une voix aigre, en grognant"
+        },
+        {
+          "id": "a1e10",
+          "type": "didascalie",
+          "texte": "{{r1}} baisse la tête et se met à trembler."
+        },
+        {
+          "id": "a1e11",
+          "type": "conteur",
+          "texte": "{{r1}} se taisait et pleurait."
+        },
+        {
+          "id": "a1e12",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e13",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e14",
+          "type": "conteur",
+          "texte": "Un jour, {{r3}} dit à {{r4}} :"
+        },
+        {
+          "id": "a1e15",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Eh bien, le vieux, nous allons marier {{r1}}.",
+          "ton": "d'un air décidé"
+        },
+        {
+          "id": "a1e16",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "D'accord.",
+          "ton": "tout bas, sans discuter"
+        },
+        {
+          "id": "a1e17",
+          "type": "didascalie",
+          "texte": "{{r4}} grimpe tout en haut du carton, sur le poêle, et s'y couche sans bouger."
+        },
+        {
+          "id": "a1e18",
+          "type": "conteur",
+          "texte": "Et {{r3}} ajouta derrière lui :"
+        },
+        {
+          "id": "a1e19",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Demain, le vieux, lève-toi tôt, attelle la jument au traîneau, et emmène {{r1}}.",
+          "ton": "très fort, vers le poêle"
+        },
+        {
+          "id": "a1e20",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e21",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e22",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Et toi, {{r1}}, range tes affaires dans ton coffre et mets ta chemise blanche : demain, tu pars en visite !",
+          "ton": "d'une voix trop sucrée"
+        },
+        {
+          "id": "a1e23",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e24",
+          "type": "didascalie",
+          "texte": "{{r1}} saute de joie, trois fois, et tourne sur place, la tête bien haute."
+        },
+        {
+          "id": "a1e25",
+          "type": "conteur",
+          "texte": "Or c'était l'hiver, et dehors, il gelait à pierre fendre."
+        },
+        {
+          "id": "a1e26",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e27",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e28",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e29",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Voilà, tout est prêt !",
+          "ton": "d'une voix fatiguée"
+        },
+        {
+          "id": "a1e30",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Mettez-vous à table et mangez !",
+          "ton": "sèchement"
+        },
+        {
+          "id": "a1e31",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e32",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e33",
+          "type": "note_marionnettiste",
+          "texte": "{{r4}} est à table, dans la coulisse : pour lui parler, {{r3}} se tourne de ce côté-là."
+        },
+        {
+          "id": "a1e34",
+          "type": "conteur",
+          "texte": "{{r3}} servit dans un plat un reste de vieille soupe aux choux, et dit :"
+        },
+        {
+          "id": "a1e35",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Allez, ma colombe, mange et va-t'en, je t'ai assez vue ! Le vieux, emmène {{r1}} chez son fiancé. Et fais attention, vieux grigou : prends la route tout droit, puis tourne à droite, vers la forêt de pins — tu sais, jusqu'au grand pin qui est sur la butte ; et là, donne {{r1}} en mariage à {{r2}}.",
+          "ton": "d'une voix aigre, en se tournant vers la coulisse pour parler à {{r4}}"
+        },
+        {
+          "id": "a1e36",
+          "type": "didascalie",
+          "texte": "{{r1}} se cache la tête et se balance en gémissant : hou, hou."
+        },
+        {
+          "id": "a1e37",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Qu'as-tu à pleurnicher ? Son fiancé est beau et riche ! Regarde tout ce qu'il possède : tous les sapins, les pins et les bouleaux sont couverts de duvet blanc. Une vie à faire envie, et lui-même est un vrai héros !",
+          "ton": "en se moquant"
+        },
+        {
+          "id": "a1e38",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e39",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e40",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Mets un manteau de fourrure.",
+          "ton": "tout bas"
+        },
+        {
+          "id": "a1e41",
+          "type": "didascalie",
+          "texte": "{{r4}} et {{r1}} partent ensemble le long de la table, vers la forêt."
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "As-tu chaud, jeune fille ?",
+      "resume": "{{r4}} laisse {{r1}} sous le grand pin. Trois fois, {{r2}} demande : « As-tu chaud, jeune fille ? » Trois fois, {{r1}} répond gentiment, et {{r2}} la couvre de fourrures et de cadeaux. {{r3}}, jalouse, veut y envoyer ses filles.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "didascalie",
+          "texte": "{{r4}} et {{r1}} arrivent au pied du grand pin."
+        },
+        {
+          "id": "a2e2",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Descends.",
+          "ton": "tout bas"
+        },
+        {
+          "id": "a2e3",
+          "type": "didascalie",
+          "texte": "{{r4}} pousse la boîte du bout du nez jusque sous le grand pin."
+        },
+        {
+          "id": "a2e4",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Assieds-toi, attends ton fiancé, et fais attention : reçois-le gentiment.",
+          "ton": "d'une voix qui tremble"
+        },
+        {
+          "id": "a2e5",
+          "type": "didascalie",
+          "texte": "{{r4}} fait demi-tour et repart vers la maison, la tête basse."
+        },
+        {
+          "id": "a2e6",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e7",
+          "type": "conteur",
+          "texte": "{{r1}} est assise et grelotte ; le froid l'a saisie."
+        },
+        {
+          "id": "a2e8",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Brrr ! Tremblez avec moi : brrr, brrr !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e9",
+          "type": "conteur",
+          "texte": "Tout à coup, elle entend : pas très loin, {{r2}} fait craquer un sapin, saute de sapin en sapin et fait claquer les branches."
+        },
+        {
+          "id": "a2e10",
+          "type": "note_marionnettiste",
+          "texte": "À chaque saut de {{r2}}, faites « crac ! » à la voix et frappez un petit coup sec sur la table : « clac ! »."
+        },
+        {
+          "id": "a2e11",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e12",
+          "type": "didascalie",
+          "texte": "{{r2}} saute d'un petit coussin à l'autre, de plus en plus près : crac ! clac !"
+        },
+        {
+          "id": "a2e13",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Faites avec moi le bruit du Gel : crac ! clac !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e14",
+          "type": "didascalie",
+          "texte": "{{r2}} bondit tout en haut du grand pin, juste au-dessus de {{r1}}."
+        },
+        {
+          "id": "a2e15",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "As-tu chaud, jeune fille ?",
+          "ton": "d'en haut, d'une voix lente et glacée"
+        },
+        {
+          "id": "a2e16",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oui, j'ai chaud, petit père Gel !",
+          "ton": "poliment, en tremblant"
+        },
+        {
+          "id": "a2e17",
+          "type": "conteur",
+          "texte": "{{r2}} descendit plus bas, craqua et claqua plus fort. Le Gel demanda à {{r1}} :"
+        },
+        {
+          "id": "a2e18",
+          "type": "didascalie",
+          "texte": "{{r2}} descend jusqu'au milieu du pin : crac ! clac !"
+        },
+        {
+          "id": "a2e19",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Dites-le avec moi, tout doucement !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e20",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "As-tu chaud, jeune fille ? As-tu chaud, ma belle ?",
+          "ton": "plus près, plus doucement"
+        },
+        {
+          "id": "a2e21",
+          "type": "conteur",
+          "texte": "{{r1}} respire à peine, mais elle dit encore :"
+        },
+        {
+          "id": "a2e22",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "J'ai chaud, petit Gel ! J'ai chaud, petit père !",
+          "ton": "tout bas, la voix qui tremble"
+        },
+        {
+          "id": "a2e23",
+          "type": "conteur",
+          "texte": "Le Gel craqua encore plus fort, claqua plus fort, et dit à {{r1}} :"
+        },
+        {
+          "id": "a2e24",
+          "type": "didascalie",
+          "texte": "{{r2}} descend tout près de {{r1}} : crac ! clac !"
+        },
+        {
+          "id": "a2e25",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "As-tu chaud, jeune fille ? As-tu chaud, ma belle ? As-tu chaud, ma mignonne ?",
+          "ton": "tout près, très doucement"
+        },
+        {
+          "id": "a2e26",
+          "type": "conteur",
+          "texte": "{{r1}} était toute raide, et dit d'une voix à peine audible :"
+        },
+        {
+          "id": "a2e27",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oh, j'ai chaud, mon cher petit Gel !",
+          "ton": "d'une toute petite voix"
+        },
+        {
+          "id": "a2e28",
+          "type": "conteur",
+          "texte": "Alors {{r2}} eut pitié d'elle : il l'enveloppa de fourrures et la réchauffa sous des couvertures."
+        },
+        {
+          "id": "a2e29",
+          "type": "didascalie",
+          "texte": "{{r2}} se blottit tout contre {{r1}}, qui arrête de trembler."
+        },
+        {
+          "id": "a2e30",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e31",
+          "type": "didascalie",
+          "texte": "{{r1}} se couche derrière le grand pin, bien au chaud."
+        },
+        {
+          "id": "a2e32",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e33",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e34",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e35",
+          "type": "conteur",
+          "texte": "Le lendemain matin, {{r3}} dit à {{r4}} :"
+        },
+        {
+          "id": "a2e36",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Va, vieux grigou, va réveiller les jeunes mariés !",
+          "ton": "en ricanant"
+        },
+        {
+          "id": "a2e37",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e38",
+          "type": "didascalie",
+          "texte": "{{r4}} file le long de la table jusqu'au grand pin."
+        },
+        {
+          "id": "a2e39",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e40",
+          "type": "conteur",
+          "texte": "En arrivant près de {{r1}}, il la trouva vivante, avec un beau manteau de fourrure, un voile précieux, et un coffre plein de riches cadeaux."
+        },
+        {
+          "id": "a2e41",
+          "type": "didascalie",
+          "texte": "{{r4}} et {{r1}} reviennent ensemble jusqu'à la maison."
+        },
+        {
+          "id": "a2e42",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e43",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e44",
+          "type": "conteur",
+          "texte": "Arrivée à la maison, {{r1}} se jeta aux pieds de sa belle-mère."
+        },
+        {
+          "id": "a2e45",
+          "type": "didascalie",
+          "texte": "{{r1}} se couche tout bas devant {{r3}}, qui recule d'un bond."
+        },
+        {
+          "id": "a2e46",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Hé, la mauvaise, tu ne me tromperas pas !",
+          "ton": "d'une voix aigre, en tournant autour de {{r1}}"
+        },
+        {
+          "id": "a2e47",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e48",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e49",
+          "type": "conteur",
+          "texte": "Peu après, {{r3}} dit à {{r4}} :"
+        },
+        {
+          "id": "a2e50",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Emmène donc aussi mes filles chez ce fiancé : il leur fera des cadeaux encore plus beaux !",
+          "ton": "d'une voix gourmande"
+        },
+        {
+          "id": "a2e51",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e52",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Laquelle il va prendre ?",
+      "resume": "{{r5}} et {{r6}} attendent sous le grand pin en se disputant. Quand {{r2}} leur demande si elles ont chaud, elles lui répondent mal, et il les laisse geler.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "conteur",
+          "texte": "{{r4}}, par le même chemin, laissa {{r5}} et {{r6}} sous le pin."
+        },
+        {
+          "id": "a3e2",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e3",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e4",
+          "type": "conteur",
+          "texte": "{{r5}} et {{r6}} sont assises et ricanent :"
+        },
+        {
+          "id": "a3e5",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Qu'est-ce que c'est que cette idée de notre mère, de nous marier toutes les deux d'un coup ?",
+          "ton": "en ricanant"
+        },
+        {
+          "id": "a3e6",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Comme s'il n'y avait pas de garçons dans notre village ! Qui sait quel diable va arriver !",
+          "ton": "en ricanant plus fort"
+        },
+        {
+          "id": "a3e7",
+          "type": "adresse_public",
+          "marionnetteId": "r5",
+          "texte": "Ricanez avec moi : hi, hi, hi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e8",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Dis donc, {{r5}}, le gel me mord la peau. Si le fiancé ne vient pas, on va geler sur place.",
+          "ton": "en pleurnichant"
+        },
+        {
+          "id": "a3e9",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Arrête de raconter des bêtises, {{r6}} ! Les fiancés viennent tôt ; il n'est même pas encore l'heure du déjeuner.",
+          "ton": "d'un ton pincé"
+        },
+        {
+          "id": "a3e10",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Et dis, {{r5}}, s'il n'en vient qu'un, laquelle il va prendre ?",
+          "ton": "en se rapprochant"
+        },
+        {
+          "id": "a3e11",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Pas toi, grande sotte !",
+          "ton": "sèchement"
+        },
+        {
+          "id": "a3e12",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Ah oui, toi, peut-être ?",
+          "ton": "d'un ton vexé"
+        },
+        {
+          "id": "a3e13",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Bien sûr, moi.",
+          "ton": "en levant le nez"
+        },
+        {
+          "id": "a3e14",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Toi ! Arrête de mentir et de faire la maligne !",
+          "ton": "très fort"
+        },
+        {
+          "id": "a3e15",
+          "type": "conteur",
+          "texte": "{{r2}} leur glaça les mains ; {{r5}} et {{r6}} mirent les mains sous leurs manteaux, et recommencèrent de plus belle."
+        },
+        {
+          "id": "a3e16",
+          "type": "didascalie",
+          "texte": "{{r5}} et {{r6}} se tassent, frissonnent, puis se tournent nez contre nez."
+        },
+        {
+          "id": "a3e17",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Toi, tête endormie, face de trognon ! Tu ne sais pas filer, et trier, n'en parlons pas !",
+          "ton": "en criant"
+        },
+        {
+          "id": "a3e18",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Et toi, la vantarde ! Qu'est-ce que tu sais faire ? Aller aux veillées et te lécher les babines ! On verra bien laquelle il prendra la première !",
+          "ton": "en criant encore plus fort"
+        },
+        {
+          "id": "a3e19",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Mais qu'est-ce qu'il fabrique ? Pourquoi il ne vient pas ?",
+          "ton": "en grelottant"
+        },
+        {
+          "id": "a3e20",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Regarde, tu es toute bleue !",
+          "ton": "en grelottant"
+        },
+        {
+          "id": "a3e21",
+          "type": "conteur",
+          "texte": "Au loin, {{r2}} commença à craquer, à sauter de sapin en sapin et à faire claquer les branches."
+        },
+        {
+          "id": "a3e22",
+          "type": "note_marionnettiste",
+          "texte": "Faites « crac ! » à la voix et de petits coups secs sur la table, de loin, puis de plus en plus près. Si les enfants les font avec vous, laissez-les."
+        },
+        {
+          "id": "a3e23",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Écoute, {{r5}}, le voilà, et avec des clochettes !",
+          "ton": "en sautillant"
+        },
+        {
+          "id": "a3e24",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Va-t'en, la mauvaise ! Je n'entends rien, le gel me dévore.",
+          "ton": "en grognant"
+        },
+        {
+          "id": "a3e25",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Et tu voudrais encore te marier !",
+          "ton": "en se moquant"
+        },
+        {
+          "id": "a3e26",
+          "type": "conteur",
+          "texte": "{{r2}} se rapprochait, se rapprochait ; enfin il fut sur le pin, au-dessus de {{r5}} et {{r6}}."
+        },
+        {
+          "id": "a3e27",
+          "type": "didascalie",
+          "texte": "{{r6}} se blottit derrière le grand pin."
+        },
+        {
+          "id": "a3e28",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e29",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e30",
+          "type": "didascalie",
+          "texte": "{{r2}} bondit tout en haut du grand pin, au-dessus de {{r5}}."
+        },
+        {
+          "id": "a3e31",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Avez-vous chaud, jeunes filles ? Avez-vous chaud, mes belles ? Avez-vous chaud, mes colombes ?",
+          "ton": "d'en haut, d'une voix lente et glacée"
+        },
+        {
+          "id": "a3e32",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Oh, {{r2}}, il fait un froid terrible ! Nous sommes gelées, nous attendons notre fiancé, et lui, le maudit, il a disparu.",
+          "ton": "en pleurnichant"
+        },
+        {
+          "id": "a3e33",
+          "type": "conteur",
+          "texte": "{{r2}} descendit plus bas, craqua plus fort et claqua plus souvent."
+        },
+        {
+          "id": "a3e34",
+          "type": "didascalie",
+          "texte": "{{r5}} se cache la tête derrière le grand pin."
+        },
+        {
+          "id": "a3e35",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e36",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e37",
+          "type": "didascalie",
+          "texte": "{{r2}} descend jusqu'au milieu du pin, tout près de {{r6}} : crac ! clac !"
+        },
+        {
+          "id": "a3e38",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Dites-le avec moi, encore une fois !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e39",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Avez-vous chaud, jeunes filles ? Avez-vous chaud, mes belles ?",
+          "ton": "plus près, plus doucement"
+        },
+        {
+          "id": "a3e40",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Va au diable ! Tu es aveugle ? Tu vois bien qu'on a les mains et les pieds gelés !",
+          "ton": "en criant"
+        },
+        {
+          "id": "a3e41",
+          "type": "conteur",
+          "texte": "{{r2}} descendit encore plus bas, frappa très fort, et dit :"
+        },
+        {
+          "id": "a3e42",
+          "type": "didascalie",
+          "texte": "{{r2}} descend tout près de {{r6}}. Frappez un grand coup sur la table : boum !"
+        },
+        {
+          "id": "a3e43",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Avez-vous chaud, jeunes filles ?",
+          "ton": "tout près, très lentement"
+        },
+        {
+          "id": "a3e44",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Va-t'en au fond du lac, disparais, maudit !",
+          "ton": "en hurlant"
+        },
+        {
+          "id": "a3e45",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e46",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e47",
+          "type": "conteur",
+          "texte": "Et {{r5}} et {{r6}} furent toutes raides de froid."
+        },
+        {
+          "id": "a3e48",
+          "type": "didascalie",
+          "texte": "{{r5}} et {{r6}} tremblent, tremblent, puis tombent à la renverse sur la table et ne bougent plus."
+        },
+        {
+          "id": "a3e49",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e50",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "numero": 4,
+      "titre": "Et les enfants ?",
+      "resume": "Au matin, {{r4}} rapporte {{r5}} et {{r6}} gelées dans le traîneau. {{r3}} éclate comme un orage, puis se réconcilie avec {{r1}}, qui se marie et vit heureuse.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a4e1",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e2",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e3",
+          "type": "conteur",
+          "texte": "Le lendemain matin, {{r3}} dit à {{r4}} :"
+        },
+        {
+          "id": "a4e4",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Attelle donc le petit traîneau, le vieux ; mets-y une brassée de foin et prends une couverture de fourrure. Les filles ont dû avoir un peu froid, il gèle terriblement dehors ! Et dépêche-toi, vieux grigou !",
+          "ton": "en sautillant d'impatience"
+        },
+        {
+          "id": "a4e5",
+          "type": "didascalie",
+          "texte": "{{r4}} file le long de la table, vers le grand pin."
+        },
+        {
+          "id": "a4e6",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e7",
+          "type": "conteur",
+          "texte": "Il arrive pour chercher ses filles, et les trouve gelées, sans vie. Il les mit dans le traîneau, les couvrit de la couverture et d'une natte."
+        },
+        {
+          "id": "a4e8",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e9",
+          "type": "didascalie",
+          "texte": "{{r4}} revient tout doucement, la tête basse."
+        },
+        {
+          "id": "a4e10",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Et les enfants ?",
+          "ton": "vite, en sautillant"
+        },
+        {
+          "id": "a4e11",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Dans le traîneau.",
+          "ton": "tout bas"
+        },
+        {
+          "id": "a4e12",
+          "type": "conteur",
+          "texte": "{{r3}} souleva la natte, retira la couverture, et trouva ses filles sans vie."
+        },
+        {
+          "id": "a4e13",
+          "type": "didascalie",
+          "texte": "{{r3}} se penche derrière {{r4}}, puis se redresse d'un coup et tremble de tout son corps."
+        },
+        {
+          "id": "a4e14",
+          "type": "conteur",
+          "texte": "Alors {{r3}} éclata comme un orage et gronda {{r4}} :"
+        },
+        {
+          "id": "a4e15",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Qu'as-tu fait, vieux chien ? Tu as perdu mes filles, mes enfants chéries, mes graines adorées, mes baies vermeilles ! Je vais te frapper avec la fourche, je vais t'assommer avec le tisonnier !",
+          "ton": "en hurlant"
+        },
+        {
+          "id": "a4e16",
+          "type": "didascalie",
+          "texte": "{{r3}} saute sur place, de plus en plus fort, et {{r4}} recule."
+        },
+        {
+          "id": "a4e17",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Assez, vieille mégère ! Tu t'es laissé tenter par la richesse, et tes enfants sont des têtues ! En quoi suis-je coupable ? C'est toi qui l'as voulu.",
+          "ton": "en se redressant, d'une voix ferme"
+        },
+        {
+          "id": "a4e18",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e19",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e20",
+          "type": "conteur",
+          "texte": "{{r3}} se fâcha, gronda, puis finit par se réconcilier avec {{r1}}, et ils se mirent à vivre en paix, heureux, sans plus parler du mal."
+        },
+        {
+          "id": "a4e21",
+          "type": "didascalie",
+          "texte": "{{r3}} s'approche tout doucement de {{r1}} et lui donne un petit coup de tête tendre."
+        },
+        {
+          "id": "a4e22",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e23",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e24",
+          "type": "conteur",
+          "texte": "Un voisin demanda {{r1}} en mariage, on fit la noce, et {{r1}} vit heureuse."
+        },
+        {
+          "id": "a4e25",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r4}} dansent d'un bout à l'autre de la table."
+        },
+        {
+          "id": "a4e26",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Tapez dans vos mains pour la noce !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e27",
+          "type": "conteur",
+          "texte": "{{r4}} faisait peur à ses petits-enfants avec {{r2}}, et ne les laissait pas faire les têtus."
+        },
+        {
+          "id": "a4e28",
+          "type": "adresse_public",
+          "marionnetteId": "r4",
+          "texte": "Ne faites pas les têtus, sinon j'appelle {{r2}} : crac ! clac !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a4e29",
+          "type": "conteur",
+          "texte": "J'étais à la noce, j'ai bu de l'hydromel et de la bière, ça m'a coulé sur la moustache, mais rien n'est entré dans ma bouche."
+        },
+        {
+          "id": "a4e30",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r4}} saluent les enfants."
+        },
+        {
+          "id": "a4e31",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Au revoir, les enfants !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e32",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e33",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "ru-morozko",
+    "synopsis": {
+      "accroche": "Laissée seule dans la forêt glacée, {{r1}} répond toujours gentiment à {{r2}}, le Gel, qui la couvre de cadeaux ; {{r5}} et {{r6}}, les filles de {{r3}}, l'insultent, et il les laisse geler.",
+      "resume": [
+        "{{r3}} fait tout faire à {{r1}}, la fille de {{r4}}, pendant que ses propres filles, {{r5}} et {{r6}}, paressent.",
+        "Un jour, elle décide de « marier » {{r1}} à {{r2}}, le Gel : {{r4}} doit la laisser seule sous le grand pin de la forêt.",
+        "Trois fois, {{r2}} demande : « As-tu chaud, jeune fille ? » Trois fois, {{r1}}, glacée, répond gentiment : « Oui, j'ai chaud, petit père Gel ! » {{r2}} la couvre de fourrures et de cadeaux.",
+        "Jalouse, {{r3}} envoie ses filles sous le pin. Elles se disputent en attendant, puis répondent à {{r2}} par des insultes, et il les laisse geler.",
+        "{{r4}} rapporte les deux sœurs sans vie ; {{r3}} éclate comme un orage, puis se réconcilie avec {{r1}}, qui se marie et vit heureuse."
+      ]
+    },
+    "transposition": {
+      "texte": "Il était une fois un vieux et une vieille. {{r4}} et {{r3}} avaient trois filles. L'aînée, {{r3}} ne l'aimait pas (c'était la fille de son mari, pas la sienne) : elle la grondait souvent, la réveillait tôt et lui faisait faire tout le travail. {{r1}} abreuvait et nourrissait les bêtes, portait le bois et l'eau dans la maison, chauffait le poêle, balayait la maison et rangeait tout avant même le jour. Mais {{r3}} n'était jamais contente, et grognait contre {{r1}} :\n\n— Quelle paresseuse, quelle souillon ! Le balai n'est pas à sa place, et ceci n'est pas comme il faut, et c'est sale dans la maison.\n\n{{r1}} se taisait et pleurait. Elle essayait de toutes les façons de plaire à sa belle-mère et de rendre service à ses filles ; mais les sœurs, à l'exemple de leur mère, la brimaient en tout, se disputaient avec elle et la faisaient pleurer : c'est ce qui leur plaisait ! Elles, {{r5}} et {{r6}}, se levaient tard, se lavaient avec l'eau qu'on leur avait préparée, s'essuyaient avec une serviette propre, et ne se mettaient au travail qu'après le déjeuner.\n\nNos jeunes filles grandirent, grandirent, et devinrent en âge de se marier. Un conte se raconte vite, mais les choses se font lentement. {{r4}} avait pitié de {{r1}} ; il l'aimait parce qu'elle était obéissante et travailleuse, qu'elle ne s'entêtait jamais, qu'elle faisait ce qu'on lui demandait sans jamais répliquer. Mais {{r4}} ne savait pas comment l'aider : il était faible, {{r3}} était une grognonne, et ses filles étaient paresseuses et têtues.\n\nUn jour, {{r3}} dit à {{r4}} :\n\n— Eh bien, le vieux, nous allons marier {{r1}}.\n\n— D'accord, dit {{r4}}, et il alla se coucher sur le poêle.\n\nEt {{r3}} ajouta derrière lui :\n\n— Demain, le vieux, lève-toi tôt, attelle la jument au traîneau, et emmène {{r1}}. Et toi, {{r1}}, range tes affaires dans ton coffre et mets ta chemise blanche : demain, tu pars en visite !\n\nLa bonne {{r1}} fut si contente d'un tel bonheur, qu'on l'emmène en visite, qu'elle dormit bien toute la nuit. Au matin, elle se leva tôt, se lava, fit sa prière, rangea tout en ordre, s'habilla, et elle était belle comme une fiancée ! Or c'était l'hiver, et dehors, il gelait à pierre fendre.\n\nLe lendemain, avant même l'aube, {{r4}} attela la jument au traîneau et l'amena devant le perron. Il revint dans la maison, s'assit sur le banc et dit :\n\n— Voilà, tout est prêt !\n\n— Mettez-vous à table et mangez ! dit {{r3}}.\n\n{{r4}} se mit à table avec {{r1}}, et leur coupa du pain à tous les deux. {{r3}} servit dans un plat un reste de vieille soupe aux choux, et dit :\n\n— Allez, ma colombe, mange et va-t'en, je t'ai assez vue ! Le vieux, emmène {{r1}} chez son fiancé. Et fais attention, vieux grigou : prends la route tout droit, puis tourne à droite, vers la forêt de pins — tu sais, jusqu'au grand pin qui est sur la butte ; et là, donne {{r1}} en mariage à {{r2}}.\n\n{{r4}} ouvrit de grands yeux, ouvrit la bouche et s'arrêta de manger, et {{r1}} se mit à gémir.\n\n— Qu'as-tu à pleurnicher ? Son fiancé est beau et riche ! Regarde tout ce qu'il possède : tous les sapins, les pins et les bouleaux sont couverts de duvet blanc. Une vie à faire envie, et lui-même est un vrai héros !\n\n{{r4}} rangea les affaires sans rien dire, dit à {{r1}} de mettre un manteau de fourrure, et prit la route. Mit-il longtemps, arriva-t-il vite ? Je n'en sais rien : un conte se raconte vite, mais les choses se font lentement. Enfin il arriva à la forêt de pins, quitta la route et s'avança tout droit dans la neige dure. Quand il fut bien au fond de la forêt, il s'arrêta, dit à {{r1}} de descendre, posa le coffre sous un pin immense et dit :\n\n— Assieds-toi, attends ton fiancé, et fais attention : reçois-le gentiment.\n\nPuis il fit faire demi-tour au cheval — et rentra à la maison.\n\n{{r1}} est assise et grelotte ; le froid l'a saisie. Elle voulait pleurer, mais elle n'en avait pas la force : seules ses dents claquaient. Tout à coup, elle entend : pas très loin, {{r2}} fait craquer un sapin, saute de sapin en sapin et fait claquer ses doigts. Le voilà sur le pin même sous lequel est assise {{r1}}, et d'en haut, il lui dit :\n\n— As-tu chaud, jeune fille ?\n\n— Oui, j'ai chaud, petit père Gel !\n\n{{r2}} descendit plus bas, craqua et claqua plus fort. Le Gel demanda à {{r1}} :\n\n— As-tu chaud, jeune fille ? As-tu chaud, ma belle ?\n\n{{r1}} respire à peine, mais elle dit encore :\n\n— J'ai chaud, petit Gel ! J'ai chaud, petit père !\n\nLe Gel craqua encore plus fort, claqua plus fort, et dit à {{r1}} :\n\n— As-tu chaud, jeune fille ? As-tu chaud, ma belle ? As-tu chaud, ma mignonne ?\n\n{{r1}} était toute raide, et dit d'une voix à peine audible :\n\n— Oh, j'ai chaud, mon cher petit Gel !\n\nAlors {{r2}} eut pitié d'elle : il l'enveloppa de fourrures et la réchauffa sous des couvertures.\n\nLe lendemain matin, {{r3}} dit à {{r4}} :\n\n— Va, vieux grigou, va réveiller les jeunes mariés !\n\n{{r4}} attela le cheval et partit. En arrivant près de {{r1}}, il la trouva vivante, avec un beau manteau de fourrure, un voile précieux, et un coffre plein de riches cadeaux. Sans rien dire, {{r4}} chargea tout sur la charrette, s'assit avec {{r1}} et rentra à la maison. Arrivée à la maison, {{r1}} se jeta aux pieds de sa belle-mère. {{r3}} fut stupéfaite de voir {{r1}} vivante, avec un manteau neuf et un coffre de linge.\n\n— Hé, la mauvaise, tu ne me tromperas pas !\n\nPeu après, {{r3}} dit à {{r4}} :\n\n— Emmène donc aussi mes filles chez ce fiancé : il leur fera des cadeaux encore plus beaux !\n\nLes choses se font lentement, un conte se raconte vite. Au petit matin, {{r3}} donna à manger à ses filles, les habilla comme pour un mariage et les envoya en route. {{r4}}, par le même chemin, laissa {{r5}} et {{r6}} sous le pin.\n\n{{r5}} et {{r6}} sont assises et ricanent :\n\n— Qu'est-ce que c'est que cette idée de notre mère, de nous marier toutes les deux d'un coup ? Comme s'il n'y avait pas de garçons dans notre village ! Qui sait quel diable va arriver !\n\n{{r5}} et {{r6}} avaient des manteaux de fourrure, mais le froid commença à les piquer.\n\n— Dis donc, {{r5}}, le gel me mord la peau. Si le fiancé ne vient pas, on va geler sur place.\n\n— Arrête de raconter des bêtises, {{r6}} ! Les fiancés viennent tôt ; il n'est même pas encore l'heure du déjeuner.\n\n— Et dis, {{r5}}, s'il n'en vient qu'un, laquelle il va prendre ?\n\n— Pas toi, grande sotte !\n\n— Ah oui, toi, peut-être ?\n\n— Bien sûr, moi.\n\n— Toi ! Arrête de mentir et de faire la maligne !\n\n{{r2}} leur glaça les mains ; {{r5}} et {{r6}} mirent les mains sous leurs manteaux, et recommencèrent de plus belle.\n\n— Toi, tête endormie, face de trognon ! Tu ne sais pas filer, et trier, n'en parlons pas !\n\n— Et toi, la vantarde ! Qu'est-ce que tu sais faire ? Aller aux veillées et te lécher les babines ! On verra bien laquelle il prendra la première !\n\nAinsi {{r5}} et {{r6}} se disputaient, et elles eurent vraiment froid. Tout à coup, elles dirent d'une seule voix :\n\n— Mais qu'est-ce qu'il fabrique ? Pourquoi il ne vient pas ? Regarde, tu es toute bleue !\n\nAu loin, {{r2}} commença à craquer, à sauter de sapin en sapin et à claquer des doigts. {{r5}} et {{r6}} crurent entendre quelqu'un arriver.\n\n— Écoute, {{r5}}, le voilà, et avec des clochettes !\n\n— Va-t'en, la mauvaise ! Je n'entends rien, le gel me dévore.\n\n— Et tu voudrais encore te marier !\n\nEt elles se mirent à souffler sur leurs doigts. {{r2}} se rapprochait, se rapprochait ; enfin il fut sur le pin, au-dessus de {{r5}} et {{r6}}. Il leur dit :\n\n— Avez-vous chaud, jeunes filles ? Avez-vous chaud, mes belles ? Avez-vous chaud, mes colombes ?\n\n— Oh, {{r2}}, il fait un froid terrible ! Nous sommes gelées, nous attendons notre fiancé, et lui, le maudit, il a disparu.\n\n{{r2}} descendit plus bas, craqua plus fort et claqua plus souvent.\n\n— Avez-vous chaud, jeunes filles ? Avez-vous chaud, mes belles ?\n\n— Va au diable ! Tu es aveugle ? Tu vois bien qu'on a les mains et les pieds gelés !\n\n{{r2}} descendit encore plus bas, frappa très fort, et dit :\n\n— Avez-vous chaud, jeunes filles ?\n\n— Va-t'en au fond du lac, disparais, maudit !\n\nEt {{r5}} et {{r6}} furent toutes raides de froid.\n\nLe lendemain matin, {{r3}} dit à {{r4}} :\n\n— Attelle donc le petit traîneau, le vieux ; mets-y une brassée de foin et prends une couverture de fourrure. Les filles ont dû avoir un peu froid, il gèle terriblement dehors ! Et dépêche-toi, vieux grigou !\n\n{{r4}} n'eut même pas le temps de manger un morceau qu'il était déjà dehors et sur la route. Il arrive pour chercher ses filles, et les trouve gelées, sans vie. Il les mit dans le traîneau, les couvrit de la couverture et d'une natte. {{r3}}, voyant {{r4}} de loin, courut à sa rencontre et lui demanda :\n\n— Et les enfants ?\n\n— Dans le traîneau.\n\n{{r3}} souleva la natte, retira la couverture, et trouva ses filles sans vie.\n\nAlors {{r3}} éclata comme un orage et gronda {{r4}} :\n\n— Qu'as-tu fait, vieux chien ? Tu as perdu mes filles, mes enfants chéries, mes graines adorées, mes baies vermeilles ! Je vais te frapper avec la fourche, je vais t'assommer avec le tisonnier !\n\n— Assez, vieille mégère ! Tu t'es laissé tenter par la richesse, et tes enfants sont des têtues ! En quoi suis-je coupable ? C'est toi qui l'as voulu.\n\n{{r3}} se fâcha, gronda, puis finit par se réconcilier avec {{r1}}, et ils se mirent à vivre en paix, heureux, sans plus parler du mal. Un voisin demanda {{r1}} en mariage, on fit la noce, et {{r1}} vit heureuse. {{r4}} faisait peur à ses petits-enfants avec {{r2}}, et ne les laissait pas faire les têtus. J'étais à la noce, j'ai bu de l'hydromel et de la bière, ça m'a coulé sur la moustache, mais rien n'est entré dans ma bouche.",
+      "changements": [
+        "Les six personnages qui parlent deviennent des marionnettes (règle du 2026-09-28) : {{r1}}, {{r2}}, {{r3}}, {{r4}}, {{r5}} et {{r6}}. Les répliques que les deux sœurs disent « d'une seule voix » sont partagées entre elles, et les ordres du vieux au style indirect (« dit à sa fille de mettre un manteau », « de descendre ») deviennent des répliques directes.",
+        "Aucune retouche universelle : la fiche de retouches n'adoucit que pour 4 ans et moins. Les deux sœurs meurent de froid, comme dans le conte, et la formule de fin est dite entière.",
+        "Faute de troisième main, {{r4}} reste à table dans la coulisse pendant que {{r3}} donne ses ordres : elle se tourne vers lui pour lui parler. Pendant les trois questions de {{r2}} aux sœurs, l'une se cache derrière le pin pendant que l'autre répond.",
+        "Toutes les répliques du conte sont jouées. Ce que la scène montre (la joie de {{r1}}, le voyage, le retour à la maison, la stupeur de la vieille) est joué sans être dit ; pour tenir la durée, d'autres phrases de narration restent au seul texte : les trois filles et « la fille de son mari », les brimades et la paresse des sœurs, la pitié du vieux, la nuit et la toilette de {{r1}}, « Mit-il longtemps… », le froid qui pique les sœurs.",
+        "« Le Gel », « le vieux » et « la vieille » sont des titres, pas des espèces : ils restent dans le texte quelle que soit la peluche, et ne changent qu'en genre."
+      ]
+    }
+  },
+  "dureeEstimeeSecondes": 839,
+  "interactionsOrdonnees": [
+    "a2e19",
+    "a3e38",
+    "a2e13",
+    "a2e8",
+    "a4e31",
+    "a3e7",
+    "a1e5",
+    "a4e28",
+    "a4e26"
+  ]
+}

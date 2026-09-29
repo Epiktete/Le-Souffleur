@@ -10,7 +10,7 @@
   import { tba } from '../textes';
   import type { Marionnette } from '../types';
   import { rendreMention, type SignatureModele } from '../services/banque';
-  import { especeMarionnette } from '../services/choixContes';
+  import { libelleEspece } from '../services/choixContes';
   import {
     genreMarionnette,
     problemeAttribution,
@@ -80,7 +80,7 @@
     const role = signature.roles[k];
     const m = marionnette(attribution[k]);
     if (!role.especeMobile || !role.espece || !m) return null;
-    const cible = especeMarionnette(m)?.libelle?.trim().toLowerCase() ?? null;
+    const cible = libelleEspece(m)?.toLowerCase() ?? null;
     if (!cible || cible === role.espece.toLowerCase()) return null;
     const genre = genreMarionnette(m) ?? 'masculin';
     return rendreMention('{le} {espece}', cible, genre);

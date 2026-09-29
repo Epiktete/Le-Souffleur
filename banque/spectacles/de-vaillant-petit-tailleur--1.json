@@ -1,0 +1,1893 @@
+{
+  "id": "de-vaillant-petit-tailleur--1",
+  "conteId": "de-vaillant-petit-tailleur",
+  "titre": "Le Vaillant Petit Tailleur",
+  "pitch": "{{r1}}, un petit tailleur, écrase sept mouches d'un coup et le brode sur sa ceinture ; tout le monde croit qu'il s'agit de sept hommes, et {{r1}} se joue du géant {{r2}}, des géants de la forêt et du roi {{r3}}.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "vantard",
+        "rusé",
+        "courageux"
+      ],
+      "voix": "voix aiguë et vive, qui parle vite et se vante à tout propos",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "un petit tailleur",
+            "apres": "une petite tailleuse"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "Il écrase",
+            "apres": "Elle écrase"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "un petit tailleur, était assis",
+            "apres": "une petite tailleuse, était assise"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "Il était de bonne humeur",
+            "apres": "Elle était de bonne humeur"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "est assis au bord",
+            "apres": "est assise au bord"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "comme s'il tirait",
+            "apres": "comme si elle tirait"
+          },
+          {
+            "id": "a1e7:ton",
+            "avant": "tout joyeux, penché",
+            "apres": "toute joyeuse, penchée"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "ce qu'il demandait",
+            "apres": "ce qu'elle demandait"
+          },
+          {
+            "id": "a1e15:ton",
+            "avant": "gourmand, penché",
+            "apres": "gourmande, penchée"
+          },
+          {
+            "id": "a1e18:ton",
+            "avant": "tout surpris",
+            "apres": "toute surprise"
+          },
+          {
+            "id": "a1e20:ton",
+            "avant": "très fâché",
+            "apres": "très fâchée"
+          },
+          {
+            "id": "a1e25:texte",
+            "avant": "devant lui",
+            "apres": "devant elle"
+          },
+          {
+            "id": "a1e26:texte",
+            "avant": "un gaillard pareil",
+            "apres": "une gaillarde pareille"
+          },
+          {
+            "id": "a1e26:ton",
+            "avant": "tout fier",
+            "apres": "toute fière"
+          },
+          {
+            "id": "a1e31:ton",
+            "avant": "de plus en plus fier",
+            "apres": "de plus en plus fière"
+          },
+          {
+            "id": "a1e32:texte",
+            "avant": "il chercha",
+            "apres": "elle chercha"
+          },
+          {
+            "id": "a1e32:texte",
+            "avant": "mais il ne trouva",
+            "apres": "mais elle ne trouva"
+          },
+          {
+            "id": "a1e32:texte",
+            "avant": "qu'il mit",
+            "apres": "qu'elle mit"
+          },
+          {
+            "id": "a1e32:texte",
+            "avant": "il remarqua",
+            "apres": "elle remarqua"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "il échappe",
+            "apres": "elle échappe"
+          },
+          {
+            "id": "a2e3:texte",
+            "avant": "quand il atteignit",
+            "apres": "quand elle atteignit"
+          },
+          {
+            "id": "a2e3:texte",
+            "avant": "il y trouva",
+            "apres": "elle y trouva"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "Pauvre type",
+            "apres": "Pauvre fille"
+          },
+          {
+            "id": "a2e8:ton",
+            "avant": "piqué au vif",
+            "apres": "piquée au vif"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "le petit bonhomme",
+            "apres": "la petite bonne femme"
+          },
+          {
+            "id": "a2e12:texte",
+            "avant": "le mettre à l'épreuve",
+            "apres": "la mettre à l'épreuve"
+          },
+          {
+            "id": "a2e31:texte",
+            "avant": "assez fort,",
+            "apres": "assez forte,"
+          },
+          {
+            "id": "a2e38:texte",
+            "avant": "un gaillard si vaillant",
+            "apres": "une gaillarde si vaillante"
+          },
+          {
+            "id": "a2e41:texte",
+            "avant": "il ne s'y coucha pas",
+            "apres": "elle ne s'y coucha pas"
+          },
+          {
+            "id": "a2e47:texte",
+            "avant": "celui-ci arriva, tout joyeux et plein",
+            "apres": "celle-ci arriva, toute joyeuse et pleine"
+          },
+          {
+            "id": "a2e49:texte",
+            "avant": "qu'il ne",
+            "apres": "qu'elle ne"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "Caché dans",
+            "apres": "Cachée dans"
+          },
+          {
+            "id": "a3e2:texte",
+            "avant": "il arriva dans la cour",
+            "apres": "elle arriva dans la cour"
+          },
+          {
+            "id": "a3e2:texte",
+            "avant": "comme il se sentait fatigué",
+            "apres": "comme elle se sentait fatiguée"
+          },
+          {
+            "id": "a3e2:texte",
+            "avant": "il se coucha",
+            "apres": "elle se coucha"
+          },
+          {
+            "id": "a3e5:texte",
+            "avant": "qu'il était couché",
+            "apres": "qu'elle était couchée"
+          },
+          {
+            "id": "a3e8:texte",
+            "avant": "dès qu'il se réveillera",
+            "apres": "dès qu'elle se réveillera"
+          },
+          {
+            "id": "a3e14:texte",
+            "avant": "jamais vu",
+            "apres": "jamais vue"
+          },
+          {
+            "id": "a3e15:texte",
+            "avant": "pas le renvoyer",
+            "apres": "pas la renvoyer"
+          },
+          {
+            "id": "a3e20:texte",
+            "avant": "Celui qui",
+            "apres": "Celle qui"
+          },
+          {
+            "id": "a3e24:texte",
+            "avant": "le suivirent",
+            "apres": "la suivirent"
+          },
+          {
+            "id": "a3e26:texte",
+            "avant": "tout seul",
+            "apres": "toute seule"
+          },
+          {
+            "id": "a3e36:texte",
+            "avant": "reste caché",
+            "apres": "reste cachée"
+          },
+          {
+            "id": "a3e36:texte",
+            "avant": "on ne le voit pas",
+            "apres": "on ne la voit pas"
+          },
+          {
+            "id": "a3e56:texte",
+            "avant": "pas blessé",
+            "apres": "pas blessée"
+          },
+          {
+            "id": "a4:resume",
+            "avant": "qu'il n'est qu'un tailleur",
+            "apres": "qu'elle n'est qu'une tailleuse"
+          },
+          {
+            "id": "a4e3:ton",
+            "avant": "tout fier",
+            "apres": "toute fière"
+          },
+          {
+            "id": "a4e8:texte",
+            "avant": "Il n'eut pas",
+            "apres": "Elle n'eut pas"
+          },
+          {
+            "id": "a4e13:ton",
+            "avant": "tout content",
+            "apres": "toute contente"
+          },
+          {
+            "id": "a4e19:texte",
+            "avant": "sur lui",
+            "apres": "sur elle"
+          },
+          {
+            "id": "a4e19:texte",
+            "avant": "pour le jeter",
+            "apres": "pour la jeter"
+          },
+          {
+            "id": "a4e21:texte",
+            "avant": "le héros agile",
+            "apres": "l'héroïne agile"
+          },
+          {
+            "id": "a4e26:texte",
+            "avant": "un héros de guerre mais un petit tailleur",
+            "apres": "une héroïne de guerre mais une petite tailleuse"
+          },
+          {
+            "id": "a4e32:texte",
+            "avant": "le jeune monsieur était né",
+            "apres": "la jeune dame était née"
+          },
+          {
+            "id": "a4e27:texte",
+            "avant": "d'un tailleur on fit un roi",
+            "apres": "d'une tailleuse on fit une reine"
+          },
+          {
+            "id": "a4e29:texte",
+            "avant": "son mari",
+            "apres": "son épouse"
+          },
+          {
+            "id": "a4e36:texte",
+            "avant": "mon mari",
+            "apres": "mon épouse"
+          },
+          {
+            "id": "a4e36:texte",
+            "avant": "qu'un tailleur",
+            "apres": "qu'une tailleuse"
+          },
+          {
+            "id": "a4e37:texte",
+            "avant": "quand il sera endormi",
+            "apres": "quand elle sera endormie"
+          },
+          {
+            "id": "a4e37:texte",
+            "avant": "et le porteront",
+            "apres": "et la porteront"
+          },
+          {
+            "id": "a4e39:texte",
+            "avant": "le jeune seigneur",
+            "apres": "la jeune dame"
+          },
+          {
+            "id": "a4e43:texte",
+            "avant": "qu'il dormait",
+            "apres": "qu'elle dormait"
+          },
+          {
+            "id": "a4e48:texte",
+            "avant": "s'en prendre à lui",
+            "apres": "s'en prendre à elle"
+          },
+          {
+            "id": "a4e50:texte",
+            "avant": "resta roi",
+            "apres": "resta reine"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a2e8:texte",
+          "avant": "quel homme",
+          "gabarit": "{quel|quelle} {espece}"
+        },
+        {
+          "id": "a3e7:texte",
+          "avant": "un homme important et utile",
+          "gabarit": "{un} {espece} {important|importante} et utile"
+        },
+        {
+          "id": "a3e13:texte",
+          "avant": "d'un homme",
+          "gabarit": "d'{un} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r2",
+      "espece": "geant",
+      "famille": "monstre",
+      "traits": [
+        "fort",
+        "naïf",
+        "orgueilleux"
+      ],
+      "voix": "très grosse voix, lente et grondante, qui fait trembler la table",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2e2:texte",
+            "avant": "est assis entre",
+            "apres": "est assise entre"
+          },
+          {
+            "id": "a2e12:texte",
+            "avant": "Mais il voulut",
+            "apres": "Mais elle voulut"
+          },
+          {
+            "id": "a2e12:texte",
+            "avant": "Il prit une pierre",
+            "apres": "Elle prit une pierre"
+          },
+          {
+            "id": "a2e29:ton",
+            "avant": "vexé",
+            "apres": "vexée"
+          },
+          {
+            "id": "a2e34:texte",
+            "avant": "tout courbé",
+            "apres": "toute courbée"
+          },
+          {
+            "id": "a2e35:ton",
+            "avant": "tout essoufflé",
+            "apres": "toute essoufflée"
+          },
+          {
+            "id": "a2e37:texte",
+            "avant": "un si grand gaillard",
+            "apres": "une si grande gaillarde"
+          },
+          {
+            "id": "a2e44:texte",
+            "avant": "il se leva",
+            "apres": "elle se leva"
+          },
+          {
+            "id": "a2e44:texte",
+            "avant": "il croyait",
+            "apres": "elle croyait"
+          },
+          {
+            "id": "a2e49:texte",
+            "avant": "assomme tous",
+            "apres": "assomme toutes"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "pitch",
+          "avant": "du géant",
+          "gabarit": "{du} {espece}"
+        },
+        {
+          "id": "a2:titre",
+          "avant": "Le géant",
+          "gabarit": "{Le} {espece}"
+        },
+        {
+          "id": "a2:resume",
+          "avant": "les géants",
+          "gabarit": "les {especes}"
+        },
+        {
+          "id": "a2e3:texte",
+          "avant": "un énorme géant assis",
+          "gabarit": "{un} énorme {espece} {assis|assise}"
+        },
+        {
+          "id": "a2e47:texte",
+          "avant": "les géants partirent",
+          "gabarit": "les {especes} partirent"
+        },
+        {
+          "id": "a2e49:texte",
+          "avant": "Les géants eurent peur",
+          "gabarit": "Les {especes} eurent peur"
+        }
+      ]
+    },
+    {
+      "cle": "r3",
+      "espece": "roi",
+      "famille": "noble",
+      "traits": [
+        "peureux",
+        "avare",
+        "rusé"
+      ],
+      "voix": "voix nasillarde et hésitante, qui soupire souvent",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "du roi",
+            "apres": "de la reine"
+          },
+          {
+            "id": "a3e7:texte",
+            "avant": "le roi,",
+            "apres": "la reine,"
+          },
+          {
+            "id": "a3e8:ton",
+            "avant": "tout content",
+            "apres": "toute contente"
+          },
+          {
+            "id": "a3e15:texte",
+            "avant": "car il craignait",
+            "apres": "car elle craignait"
+          },
+          {
+            "id": "a3e15:texte",
+            "avant": "ne le tue, lui",
+            "apres": "ne la tue, elle"
+          },
+          {
+            "id": "a4e35:texte",
+            "avant": "à son père",
+            "apres": "à sa mère"
+          },
+          {
+            "id": "a4e26:texte",
+            "avant": "S'il avait su",
+            "apres": "Si elle avait su"
+          },
+          {
+            "id": "a4e26:texte",
+            "avant": "devant lui, il en aurait",
+            "apres": "devant elle, elle en aurait"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r4",
+      "espece": "paysanne",
+      "famille": "adulte",
+      "traits": [
+        "grognon",
+        "bavard"
+      ],
+      "voix": "voix criarde de marché, qui ronchonne",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a1e4:texte",
+            "avant": "Une paysanne",
+            "apres": "Un paysan"
+          },
+          {
+            "id": "a1e7:texte",
+            "avant": "ma bonne dame",
+            "apres": "mon brave monsieur"
+          },
+          {
+            "id": "a1e10:texte",
+            "avant": "ma bonne dame",
+            "apres": "mon brave monsieur"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "s'en alla fâchée",
+            "apres": "s'en alla fâché"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r5",
+      "espece": "geant",
+      "famille": "monstre",
+      "traits": [
+        "grognon",
+        "fort"
+      ],
+      "voix": "voix grave et endormie, qui grogne entre les mots",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a3e38:ton",
+            "avant": "tout fâché",
+            "apres": "toute fâchée"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "pitch",
+          "avant": "des géants",
+          "gabarit": "des {especes}"
+        },
+        {
+          "id": "a3:titre",
+          "avant": "Les deux géants",
+          "gabarit": "Les deux {especes}"
+        },
+        {
+          "id": "a3e19:texte",
+          "avant": "vivent deux géants",
+          "gabarit": "vivent deux {especes}"
+        },
+        {
+          "id": "a3e19:texte",
+          "avant": "ces deux géants",
+          "gabarit": "ces deux {especes}"
+        },
+        {
+          "id": "a3e20:texte",
+          "avant": "les géants",
+          "gabarit": "les {especes}"
+        },
+        {
+          "id": "a3e26:texte",
+          "avant": "des géants",
+          "gabarit": "des {especes}"
+        },
+        {
+          "id": "a4e5:texte",
+          "avant": "deux géants",
+          "gabarit": "deux {especes}"
+        },
+        {
+          "id": "a4e47:texte",
+          "avant": "deux géants",
+          "gabarit": "deux {especes}"
+        }
+      ]
+    },
+    {
+      "cle": "r6",
+      "espece": "geant",
+      "famille": "monstre",
+      "traits": [
+        "grognon",
+        "maladroit"
+      ],
+      "voix": "voix rauque et bougonne, qui bâille en parlant",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": []
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 18,
+    "ageAuditoire": 5,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "L'atelier de {{r1}}",
+      "description": "Le bout gauche de la table est l'atelier de {{r1}}, sa table de travail près de la fenêtre ; le bout droit, c'est la rue, d'où arrive {{r4}}. Gardez à portée de main un biscuit ou une tranche de pain : ce sera la tartine.",
+      "accessoires": [
+        "un biscuit ou une tranche de pain (la tartine)"
+      ],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "La montagne et la caverne",
+      "description": "À droite, deux coussins empilés font la montagne. Au milieu, un grand coussin couché fait le chêne abattu, puis le grand lit. À gauche, un carton retourné fait la caverne.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t3",
+      "titre": "Le palais et la forêt",
+      "description": "Au bout gauche de la table, un carton debout fait le palais de {{r3}}. Au bout droit, deux coussins debout font les arbres de la forêt. Tout près des coussins, une petite boîte en carton ouverte par le haut fait la chapelle.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Sept d'un coup !",
+      "resume": "{{r1}} achète de la confiture à {{r4}}, qui repart en ronchonnant. Il écrase sept mouches d'un coup, le brode sur sa ceinture et part dans le monde, avec un vieux fromage et un oiseau dans sa poche.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Un matin d'été, {{r1}}, un petit tailleur, était assis sur sa table près de la fenêtre. Il était de bonne humeur et cousait de toutes ses forces."
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e3",
+          "type": "didascalie",
+          "texte": "{{r1}} est assis au bord de la table et hoche vite la tête, de haut en bas, comme s'il tirait l'aiguille."
+        },
+        {
+          "id": "a1e4",
+          "type": "conteur",
+          "texte": "Une paysanne, {{r4}}, descendit la rue en criant :"
+        },
+        {
+          "id": "a1e5",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e6",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Bonne confiture à vendre ! Bonne confiture à vendre !",
+          "ton": "à pleine voix, comme au marché"
+        },
+        {
+          "id": "a1e7",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Par ici, ma bonne dame, ici vous vendrez votre marchandise !",
+          "ton": "tout joyeux, penché au bord de la table"
+        },
+        {
+          "id": "a1e8",
+          "type": "didascalie",
+          "texte": "{{r4}} monte jusqu'à {{r1}} en trois gros bonds, en soufflant : pfff… pfff… pfff…"
+        },
+        {
+          "id": "a1e9",
+          "type": "didascalie",
+          "texte": "{{r1}} penche le nez vers la table, à droite, à gauche, et renifle longuement."
+        },
+        {
+          "id": "a1e10",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "La confiture m'a l'air bonne. Pesez-m'en donc quatre onces, ma bonne dame.",
+          "ton": "d'un air important"
+        },
+        {
+          "id": "a1e11",
+          "type": "conteur",
+          "texte": "{{r4}}, qui avait espéré faire une bonne vente, lui donna ce qu'il demandait, mais s'en alla fâchée et en ronchonnant."
+        },
+        {
+          "id": "a1e12",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Tout ce chemin pour quatre onces ! Hmpf !",
+          "ton": "en ronchonnant"
+        },
+        {
+          "id": "a1e13",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e14",
+          "type": "note_marionnettiste",
+          "texte": "Posez la tartine sur la table, juste à côté de {{r1}}."
+        },
+        {
+          "id": "a1e15",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ça ne sera pas amer, mais je vais d'abord finir ce gilet avant de mordre dedans.",
+          "ton": "gourmand, penché sur la tartine"
+        },
+        {
+          "id": "a1e16",
+          "type": "conteur",
+          "texte": "Pendant ce temps, l'odeur de la confiture sucrée monta jusqu'au mur, où se tenaient des mouches en grand nombre. Elles furent attirées et vinrent se poser en foule sur la tartine."
+        },
+        {
+          "id": "a1e17",
+          "type": "note_marionnettiste",
+          "texte": "Faites les mouches à la voix : bzzz… bzzz… de plus en plus fort."
+        },
+        {
+          "id": "a1e18",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Eh, qui vous a invitées ?",
+          "ton": "tout surpris"
+        },
+        {
+          "id": "a1e19",
+          "type": "didascalie",
+          "texte": "{{r1}} secoue la tête de tous les côtés au-dessus de la tartine, pour chasser les mouches."
+        },
+        {
+          "id": "a1e20",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Attendez, vous allez voir !",
+          "ton": "très fâché"
+        },
+        {
+          "id": "a1e21",
+          "type": "didascalie",
+          "texte": "{{r1}} saute en l'air et retombe de tout son poids à côté de la tartine, pendant que vous frappez un grand coup sur la table : paf !"
+        },
+        {
+          "id": "a1e22",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Comptez-les avec moi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e23",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Une, deux, trois, quatre, cinq, six, sept !",
+          "ton": "lentement, un hochement de tête par mouche"
+        },
+        {
+          "id": "a1e24",
+          "type": "note_marionnettiste",
+          "texte": "Faites compter les enfants avec {{r1}}, un hochement de tête par mouche, jusqu'à sept."
+        },
+        {
+          "id": "a1e25",
+          "type": "conteur",
+          "texte": "Il n'y en avait pas moins de sept, étendues devant lui, les pattes en l'air."
+        },
+        {
+          "id": "a1e26",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tu es donc un gaillard pareil ? Toute la ville doit l'apprendre !",
+          "ton": "tout fier"
+        },
+        {
+          "id": "a1e27",
+          "type": "conteur",
+          "texte": "Et en toute hâte, {{r1}} se tailla une ceinture, la cousit et y broda en grandes lettres : « Sept d'un coup ! »"
+        },
+        {
+          "id": "a1e28",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Dites-le avec moi : Sept d'un coup !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e29",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Sept d'un coup !",
+          "ton": "très fort, en détachant les mots"
+        },
+        {
+          "id": "a1e30",
+          "type": "note_marionnettiste",
+          "texte": "Faites reprendre « Sept d'un coup ! » en chœur par les enfants : c'est le refrain du spectacle, il reviendra plusieurs fois."
+        },
+        {
+          "id": "a1e31",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Et puis quoi, la ville ? Le monde entier doit l'apprendre !",
+          "ton": "de plus en plus fier"
+        },
+        {
+          "id": "a1e32",
+          "type": "conteur",
+          "texte": "Avant de s'en aller, il chercha dans la maison s'il n'y avait rien à emporter ; mais il ne trouva qu'un vieux fromage, qu'il mit dans sa poche. Devant la porte de la ville, il remarqua un oiseau qui s'était pris dans un buisson : il alla rejoindre le fromage dans sa poche."
+        },
+        {
+          "id": "a1e33",
+          "type": "didascalie",
+          "texte": "{{r1}} s'en va en sautillant vers le bout de la table."
+        },
+        {
+          "id": "a1e34",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Le géant de la montagne",
+      "resume": "{{r2}} met {{r1}} à l'épreuve : {{r1}} presse son fromage comme une pierre, lance son oiseau qui ne retombe jamais et se fait porter sur l'arbre. Dans la caverne, il échappe à la barre de fer, et les géants s'enfuient.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e2",
+          "type": "didascalie",
+          "texte": "{{r2}} est assis entre les coussins de la montagne et tourne lentement la tête, à droite, puis à gauche."
+        },
+        {
+          "id": "a2e3",
+          "type": "conteur",
+          "texte": "Le chemin mena {{r1}} sur une montagne, et quand il atteignit le plus haut sommet, il y trouva un énorme géant assis, {{r2}}, qui regardait tranquillement le paysage."
+        },
+        {
+          "id": "a2e4",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e5",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Bonjour, camarade ! As-tu envie de venir avec moi ?",
+          "ton": "gaiement"
+        },
+        {
+          "id": "a2e6",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Minable ! Pauvre type !",
+          "ton": "d'une très grosse voix, sans même se lever"
+        },
+        {
+          "id": "a2e7",
+          "type": "didascalie",
+          "texte": "{{r1}} se plante tout droit devant {{r2}} et bombe le ventre, pour montrer sa ceinture."
+        },
+        {
+          "id": "a2e8",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tiens donc ! Lis donc, tu verras quel homme je suis.",
+          "ton": "piqué au vif"
+        },
+        {
+          "id": "a2e9",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Lisez avec moi, les enfants !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e10",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Sept d'un coup !",
+          "ton": "en lisant très lentement, mot par mot"
+        },
+        {
+          "id": "a2e11",
+          "type": "conteur",
+          "texte": "{{r2}} crut que c'étaient des hommes que {{r1}} avait abattus, et se mit à avoir un peu de respect pour le petit bonhomme."
+        },
+        {
+          "id": "a2e12",
+          "type": "conteur",
+          "texte": "Mais il voulut d'abord le mettre à l'épreuve. Il prit une pierre dans sa main et la serra si fort que l'eau en coula goutte à goutte."
+        },
+        {
+          "id": "a2e13",
+          "type": "didascalie",
+          "texte": "{{r2}} plonge derrière un coussin, puis se redresse en tremblant de tout son corps, comme pour serrer très fort."
+        },
+        {
+          "id": "a2e14",
+          "type": "note_marionnettiste",
+          "texte": "Faites l'eau qui coule, à la voix : ploc… ploc… ploc…"
+        },
+        {
+          "id": "a2e15",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Fais-en autant, si tu as de la force.",
+          "ton": "fièrement"
+        },
+        {
+          "id": "a2e16",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ce n'est que ça ? C'est un jeu d'enfant pour quelqu'un comme moi.",
+          "ton": "sans se troubler"
+        },
+        {
+          "id": "a2e17",
+          "type": "conteur",
+          "texte": "{{r1}} mit la main dans sa poche, sortit le fromage mou et le serra si fort que le jus en coula."
+        },
+        {
+          "id": "a2e18",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Chut ! C'est mon vieux fromage, pas une pierre ! Ne le dites pas à {{r2}} !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e19",
+          "type": "didascalie",
+          "texte": "{{r1}} plonge derrière la table, puis se redresse d'un coup, tout près de {{r2}}, en tremblant de tout son corps."
+        },
+        {
+          "id": "a2e20",
+          "type": "note_marionnettiste",
+          "texte": "Faites le jus qui gicle, à la voix : pschitt !"
+        },
+        {
+          "id": "a2e21",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Alors, c'était un peu mieux, non ?",
+          "ton": "l'air de rien"
+        },
+        {
+          "id": "a2e22",
+          "type": "didascalie",
+          "texte": "{{r2}} se penche derrière un coussin, puis se redresse d'un grand coup vers le ciel, comme pour lancer une pierre très, très haut."
+        },
+        {
+          "id": "a2e23",
+          "type": "didascalie",
+          "texte": "{{r2}} et {{r1}} lèvent la tête tout en haut, et restent longtemps ainsi."
+        },
+        {
+          "id": "a2e24",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Eh bien, petit canard, fais-en autant.",
+          "ton": "en ricanant"
+        },
+        {
+          "id": "a2e25",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Bien lancé, mais la pierre a bien dû retomber par terre. Moi, je vais t'en lancer une qui ne reviendra jamais."
+        },
+        {
+          "id": "a2e26",
+          "type": "conteur",
+          "texte": "{{r1}} mit la main dans sa poche, prit l'oiseau et le lança en l'air. L'oiseau, tout heureux d'être libre, monta, s'envola et ne revint pas."
+        },
+        {
+          "id": "a2e27",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites avec vos bras l'oiseau qui s'envole : frrrt !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e28",
+          "type": "didascalie",
+          "texte": "{{r2}} lève la tête vers le ciel, et attend, attend."
+        },
+        {
+          "id": "a2e29",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Lancer, tu sais. Mais voyons maintenant si tu es capable de porter quelque chose de sérieux.",
+          "ton": "vexé"
+        },
+        {
+          "id": "a2e30",
+          "type": "didascalie",
+          "texte": "{{r2}} et {{r1}} s'approchent du grand coussin couché : c'est un énorme chêne abattu."
+        },
+        {
+          "id": "a2e31",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Si tu es assez fort, aide-moi à sortir cet arbre de la forêt."
+        },
+        {
+          "id": "a2e32",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Volontiers. Prends seulement le tronc sur ton épaule ; moi, je soulèverai les branches et les rameaux, c'est bien le plus lourd."
+        },
+        {
+          "id": "a2e33",
+          "type": "conteur",
+          "texte": "{{r2}} mit le tronc sur son épaule, mais {{r1}} s'assit sur une branche. Et {{r2}}, qui ne pouvait pas se retourner, dut porter tout l'arbre, et {{r1}} par-dessus le marché."
+        },
+        {
+          "id": "a2e34",
+          "type": "didascalie",
+          "texte": "{{r2}} avance lentement, tout courbé, en poussant le grand coussin ; {{r1}} saute sur son dos et se laisse porter."
+        },
+        {
+          "id": "a2e35",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Écoute, il faut que je laisse tomber l'arbre.",
+          "ton": "tout essoufflé"
+        },
+        {
+          "id": "a2e36",
+          "type": "didascalie",
+          "texte": "{{r1}} saute à terre et se colle contre le grand coussin, comme pour le porter à bout de bras."
+        },
+        {
+          "id": "a2e37",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tu es un si grand gaillard, et tu n'es même pas capable de porter un arbre !",
+          "ton": "en se moquant"
+        },
+        {
+          "id": "a2e38",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Si tu es un gaillard si vaillant, viens dans notre caverne et passe la nuit chez nous."
+        },
+        {
+          "id": "a2e39",
+          "type": "didascalie",
+          "texte": "{{r2}} et {{r1}} traversent la table jusqu'au carton retourné : c'est la caverne. {{r2}} montre d'un coup de tête le grand coussin couché : c'est le lit."
+        },
+        {
+          "id": "a2e40",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Couche-toi là, et dors.",
+          "ton": "d'une grosse voix douce"
+        },
+        {
+          "id": "a2e41",
+          "type": "conteur",
+          "texte": "Mais le lit était trop grand pour {{r1}} : il ne s'y coucha pas, et alla se blottir dans un coin."
+        },
+        {
+          "id": "a2e42",
+          "type": "didascalie",
+          "texte": "{{r1}} se glisse derrière le carton et disparaît."
+        },
+        {
+          "id": "a2e43",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e44",
+          "type": "conteur",
+          "texte": "À minuit, quand {{r2}} pensa que {{r1}} dormait profondément, il se leva, prit une grosse barre de fer, et d'un seul coup cassa le lit en deux : il croyait en avoir fini avec cette sauterelle."
+        },
+        {
+          "id": "a2e45",
+          "type": "didascalie",
+          "texte": "{{r2}} se dresse très haut au-dessus du coussin, puis s'abat dessus de tout son poids, pendant que vous frappez un grand coup sur la table : boum !"
+        },
+        {
+          "id": "a2e46",
+          "type": "didascalie",
+          "texte": "{{r2}} s'éloigne à grands pas lourds jusqu'aux coussins de la montagne."
+        },
+        {
+          "id": "a2e47",
+          "type": "conteur",
+          "texte": "De bon matin, les géants partirent dans la forêt, en ayant complètement oublié {{r1}}. Et voilà que celui-ci arriva, tout joyeux et plein d'audace."
+        },
+        {
+          "id": "a2e48",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e49",
+          "type": "conteur",
+          "texte": "Les géants eurent peur, craignirent qu'il ne les assomme tous, et s'enfuirent en toute hâte."
+        },
+        {
+          "id": "a2e50",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Au secours !",
+          "ton": "en tremblant de tout son corps"
+        },
+        {
+          "id": "a2e51",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e52",
+          "type": "didascalie",
+          "texte": "{{r1}} s'en va en sautillant vers le bout de la table."
+        },
+        {
+          "id": "a2e53",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Les deux géants de la forêt",
+      "resume": "{{r3}}, qui a peur de {{r1}}, l'envoie contre {{r5}} et {{r6}} en lui promettant sa fille et la moitié du royaume. Caché dans l'arbre, {{r1}} leur jette des pierres, et ils se battent entre eux jusqu'à tomber.",
+      "tableauId": "t3",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e2",
+          "type": "conteur",
+          "texte": "Après avoir marché longtemps, il arriva dans la cour d'un palais royal, et comme il se sentait fatigué, il se coucha dans l'herbe et s'endormit."
+        },
+        {
+          "id": "a3e3",
+          "type": "didascalie",
+          "texte": "{{r1}} s'allonge au pied du carton-palais et ne bouge plus."
+        },
+        {
+          "id": "a3e4",
+          "type": "note_marionnettiste",
+          "texte": "Les enfants connaissent le refrain : laissez-les dire « Sept d'un coup » avec vous."
+        },
+        {
+          "id": "a3e5",
+          "type": "conteur",
+          "texte": "Pendant qu'il était couché là, des gens vinrent, l'examinèrent de tous les côtés et lurent sur sa ceinture : « Sept d'un coup »."
+        },
+        {
+          "id": "a3e6",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e7",
+          "type": "conteur",
+          "texte": "Ils allèrent l'annoncer à {{r3}}, le roi, en disant que si la guerre éclatait, ce serait un homme important et utile, qu'il ne fallait laisser partir à aucun prix."
+        },
+        {
+          "id": "a3e8",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Qu'on aille lui offrir d'entrer à mon service, dès qu'il se réveillera !",
+          "ton": "tout content"
+        },
+        {
+          "id": "a3e9",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e10",
+          "type": "didascalie",
+          "texte": "{{r1}} se réveille, s'étire, hoche la tête vers la coulisse, puis s'en va vers le palais."
+        },
+        {
+          "id": "a3e11",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e12",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e13",
+          "type": "note_marionnettiste",
+          "texte": "Voix des soldats, en coulisse : « Nous ne sommes pas faits pour vivre à côté d'un homme qui en abat sept d'un coup. »"
+        },
+        {
+          "id": "a3e14",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Ah ! Je voudrais ne l'avoir jamais vu !",
+          "ton": "en soupirant"
+        },
+        {
+          "id": "a3e15",
+          "type": "conteur",
+          "texte": "Mais {{r3}} n'osait pas le renvoyer, car il craignait que {{r1}} ne le tue, lui et tout son peuple, pour s'asseoir sur le trône."
+        },
+        {
+          "id": "a3e16",
+          "type": "didascalie",
+          "texte": "{{r3}} fait les cent pas devant le palais, s'arrête, puis sursaute d'un coup."
+        },
+        {
+          "id": "a3e17",
+          "type": "adresse_public",
+          "marionnetteId": "r3",
+          "texte": "Chut ! J'ai trouvé une idée !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e18",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e19",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Dans une forêt de mon pays vivent deux géants qui font beaucoup de mal. Si tu viens à bout de ces deux géants, je te donnerai ma fille en mariage et la moitié du royaume ; et cent cavaliers t'accompagneront.",
+          "ton": "d'une voix mielleuse"
+        },
+        {
+          "id": "a3e20",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oh oui, les géants, je vais les dompter, et je n'ai pas besoin des cent cavaliers. Celui qui en abat sept d'un coup n'a pas à avoir peur de deux.",
+          "ton": "très fort"
+        },
+        {
+          "id": "a3e21",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Dites-le avec moi : Sept d'un coup !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e22",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Sept d'un coup !",
+          "ton": "en détachant les mots"
+        },
+        {
+          "id": "a3e23",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e24",
+          "type": "conteur",
+          "texte": "{{r1}} partit, et les cent cavaliers le suivirent."
+        },
+        {
+          "id": "a3e25",
+          "type": "didascalie",
+          "texte": "{{r1}} trotte jusqu'aux coussins de la forêt, puis se retourne vers la coulisse."
+        },
+        {
+          "id": "a3e26",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Restez ici, je viendrai bien à bout des géants tout seul.",
+          "ton": "d'un ton de chef"
+        },
+        {
+          "id": "a3e27",
+          "type": "didascalie",
+          "texte": "{{r1}} s'enfonce entre les coussins en tournant la tête à droite, puis à gauche, et disparaît derrière."
+        },
+        {
+          "id": "a3e28",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e29",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e30",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e31",
+          "type": "didascalie",
+          "texte": "{{r5}} et {{r6}} sont couchés côte à côte au pied des coussins, et se soulèvent doucement à chaque ronflement."
+        },
+        {
+          "id": "a3e32",
+          "type": "conteur",
+          "texte": "Au bout d'un moment, {{r1}} aperçut {{r5}} et {{r6}} : ils étaient couchés sous un arbre, dormaient, et ronflaient si fort que les branches montaient et descendaient."
+        },
+        {
+          "id": "a3e33",
+          "type": "adresse_public",
+          "marionnetteId": "r6",
+          "texte": "Ronflez avec nous, très fort !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e34",
+          "type": "note_marionnettiste",
+          "texte": "Ronflez à la voix avec les enfants, de plus en plus fort : rrron… pfff… rrron… pfff…"
+        },
+        {
+          "id": "a3e35",
+          "type": "conteur",
+          "texte": "{{r1}}, sans perdre de temps, remplit ses deux poches de pierres et grimpa dans l'arbre."
+        },
+        {
+          "id": "a3e36",
+          "type": "note_marionnettiste",
+          "texte": "{{r1}} reste caché en haut de l'arbre : on ne le voit pas. À chaque pierre, frappez un petit coup sur la table, tout près de {{r5}} : toc !"
+        },
+        {
+          "id": "a3e37",
+          "type": "didascalie",
+          "texte": "Toc, toc, toc… {{r5}} bouge un peu, puis se redresse d'un coup et pousse {{r6}}."
+        },
+        {
+          "id": "a3e38",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Pourquoi me tapes-tu ?",
+          "ton": "d'une voix pâteuse, tout fâché"
+        },
+        {
+          "id": "a3e39",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Tu rêves, je ne te tape pas.",
+          "ton": "sans même se retourner"
+        },
+        {
+          "id": "a3e40",
+          "type": "conteur",
+          "texte": "Ils se recouchèrent pour dormir. Alors {{r1}} lança une pierre sur {{r6}}."
+        },
+        {
+          "id": "a3e41",
+          "type": "didascalie",
+          "texte": "Toc ! {{r6}} se redresse d'un bond."
+        },
+        {
+          "id": "a3e42",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Qu'est-ce que ça veut dire ? Pourquoi me jettes-tu des pierres ?",
+          "ton": "en criant"
+        },
+        {
+          "id": "a3e43",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Je ne te jette rien.",
+          "ton": "en grognant"
+        },
+        {
+          "id": "a3e44",
+          "type": "didascalie",
+          "texte": "{{r5}} et {{r6}} se tournent le dos et se recouchent en grognant."
+        },
+        {
+          "id": "a3e45",
+          "type": "didascalie",
+          "texte": "Frappez un grand coup sur la table : boum ! {{r5}} se redresse d'un bond."
+        },
+        {
+          "id": "a3e46",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "C'en est trop !",
+          "ton": "en hurlant"
+        },
+        {
+          "id": "a3e47",
+          "type": "didascalie",
+          "texte": "{{r5}} pousse {{r6}} contre un coussin, si fort que le coussin tremble."
+        },
+        {
+          "id": "a3e48",
+          "type": "conteur",
+          "texte": "{{r6}} lui rendit la monnaie de sa pièce, et ils entrèrent dans une telle fureur qu'ils arrachèrent des arbres et se battirent à coups de troncs, si longtemps qu'à la fin ils tombèrent tous les deux par terre en même temps, et ne se relevèrent pas."
+        },
+        {
+          "id": "a3e49",
+          "type": "didascalie",
+          "texte": "{{r5}} et {{r6}} se cognent de plus en plus fort, puis tombent ensemble derrière la table, et ne remontent plus."
+        },
+        {
+          "id": "a3e50",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e51",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e52",
+          "type": "conteur",
+          "texte": "Alors {{r1}} sauta à terre."
+        },
+        {
+          "id": "a3e53",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e54",
+          "type": "didascalie",
+          "texte": "{{r1}} saute de derrière les coussins, puis trotte vers la coulisse, où attendent les cavaliers."
+        },
+        {
+          "id": "a3e55",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Le travail est fait, j'en ai fini avec tous les deux.",
+          "ton": "en se vantant"
+        },
+        {
+          "id": "a3e56",
+          "type": "note_marionnettiste",
+          "texte": "Voix des cavaliers, en coulisse : « Vous n'êtes pas blessé ? »"
+        },
+        {
+          "id": "a3e57",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Pas du tout, ils ne m'ont pas touché un cheveu."
+        },
+        {
+          "id": "a3e58",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "numero": 4,
+      "titre": "La licorne, le sanglier et la noce",
+      "resume": "{{r1}} attrape la licorne, puis enferme le sanglier dans une chapelle, et {{r3}} doit lui donner sa fille. Quand elle découvre qu'il n'est qu'un tailleur, {{r1}} fait fuir les serviteurs en criant tous ses exploits.",
+      "tableauId": "t3",
+      "elements": [
+        {
+          "id": "a4e1",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e3",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je viens chercher la récompense promise !",
+          "ton": "tout fier"
+        },
+        {
+          "id": "a4e4",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Avant d'avoir ma fille, tu dois encore accomplir un exploit. Dans la forêt court une licorne qui fait beaucoup de dégâts : tu dois d'abord l'attraper.",
+          "ton": "d'un air rusé"
+        },
+        {
+          "id": "a4e5",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "J'ai encore moins peur d'une licorne que de deux géants. Sept d'un coup, c'est mon affaire."
+        },
+        {
+          "id": "a4e6",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e7",
+          "type": "didascalie",
+          "texte": "{{r1}} trotte jusqu'aux coussins de la forêt."
+        },
+        {
+          "id": "a4e8",
+          "type": "conteur",
+          "texte": "Il n'eut pas à chercher longtemps : la licorne arriva bientôt, et bondit droit sur {{r1}}, comme pour l'embrocher sans plus de façons."
+        },
+        {
+          "id": "a4e9",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites avec moi le galop de la licorne sur vos genoux : tagada, tagada !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e10",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Doucement, doucement, ça ne va pas si vite.",
+          "ton": "sans bouger d'un poil"
+        },
+        {
+          "id": "a4e11",
+          "type": "didascalie",
+          "texte": "{{r1}} attend sans bouger, puis saute d'un bond derrière un coussin, pendant que vous frappez un grand coup sur la table : boum !"
+        },
+        {
+          "id": "a4e12",
+          "type": "conteur",
+          "texte": "La licorne fonça de toutes ses forces contre l'arbre et y enfonça sa corne si profondément qu'elle n'eut pas la force de la retirer. Elle était prise."
+        },
+        {
+          "id": "a4e13",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Maintenant, je tiens l'oiseau.",
+          "ton": "en ressortant, tout content"
+        },
+        {
+          "id": "a4e14",
+          "type": "didascalie",
+          "texte": "{{r1}} donne trois petits coups de tête contre le coussin, puis revient vers le palais en bombant le ventre."
+        },
+        {
+          "id": "a4e15",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e16",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Avant le mariage, tu dois encore m'attraper un sanglier qui fait de grands dégâts dans la forêt. Les chasseurs t'aideront.",
+          "ton": "très vite"
+        },
+        {
+          "id": "a4e17",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Volontiers, c'est un jeu d'enfant."
+        },
+        {
+          "id": "a4e18",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e19",
+          "type": "conteur",
+          "texte": "Quand le sanglier aperçut {{r1}}, il courut sur lui l'écume à la bouche en aiguisant ses défenses, pour le jeter à terre."
+        },
+        {
+          "id": "a4e20",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites avec moi le sanglier en colère : groumf ! groumf !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e21",
+          "type": "conteur",
+          "texte": "Mais le héros agile sauta dans une chapelle qui se trouvait tout près, et ressortit aussitôt d'un bond par la fenêtre du haut."
+        },
+        {
+          "id": "a4e22",
+          "type": "didascalie",
+          "texte": "{{r1}} plonge dans la boîte-chapelle, ressort aussitôt d'un bond par le haut, en fait le tour en courant et la referme d'un coup de tête : vous frappez sur la table, bam !"
+        },
+        {
+          "id": "a4e23",
+          "type": "conteur",
+          "texte": "La bête furieuse était prise : elle était bien trop lourde et maladroite pour sauter par la fenêtre."
+        },
+        {
+          "id": "a4e24",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e25",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Bon… Voici ma fille, et la moitié du royaume.",
+          "ton": "à contrecœur, en soupirant"
+        },
+        {
+          "id": "a4e26",
+          "type": "conteur",
+          "texte": "S'il avait su que ce n'était pas un héros de guerre mais un petit tailleur qui était devant lui, il en aurait eu le cœur encore plus gros."
+        },
+        {
+          "id": "a4e27",
+          "type": "conteur",
+          "texte": "La noce fut donc célébrée avec beaucoup de faste et peu de joie, et d'un tailleur on fit un roi."
+        },
+        {
+          "id": "a4e28",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e29",
+          "type": "conteur",
+          "texte": "Quelque temps après, la jeune reine entendit la nuit son mari parler en rêve :"
+        },
+        {
+          "id": "a4e30",
+          "type": "didascalie",
+          "texte": "{{r1}} se couche sur la table et ne bouge plus."
+        },
+        {
+          "id": "a4e31",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Garçon, fais-moi ce gilet et raccommode-moi ce pantalon, ou je te tape sur les oreilles avec l'aune !",
+          "ton": "en dormant, d'une voix de rêve"
+        },
+        {
+          "id": "a4e32",
+          "type": "conteur",
+          "texte": "Alors elle comprit dans quelle ruelle le jeune monsieur était né."
+        },
+        {
+          "id": "a4e33",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e34",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e35",
+          "type": "conteur",
+          "texte": "Le lendemain matin, elle se plaignit à son père :"
+        },
+        {
+          "id": "a4e36",
+          "type": "note_marionnettiste",
+          "texte": "Voix de la jeune reine, en coulisse : « Délivre-moi de mon mari : ce n'est rien d'autre qu'un tailleur ! »"
+        },
+        {
+          "id": "a4e37",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "La nuit prochaine, laisse ta chambre ouverte. Mes serviteurs attendront dehors, et quand il sera endormi, ils entreront, l'attacheront et le porteront sur un bateau qui l'emmènera au bout du monde.",
+          "ton": "tout bas, vers la coulisse"
+        },
+        {
+          "id": "a4e38",
+          "type": "adresse_public",
+          "marionnetteId": "r3",
+          "texte": "Chut ! Ne le dites pas à {{r1}} !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a4e39",
+          "type": "conteur",
+          "texte": "La femme fut d'accord. Mais l'écuyer de {{r3}}, qui avait tout entendu, aimait bien le jeune seigneur, et alla lui raconter tout le complot."
+        },
+        {
+          "id": "a4e40",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e41",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e42",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je vais mettre bon ordre à ça.",
+          "ton": "tranquillement"
+        },
+        {
+          "id": "a4e43",
+          "type": "conteur",
+          "texte": "Le soir, {{r1}} se coucha à l'heure habituelle avec sa femme. Quand elle crut qu'il dormait, elle se leva, ouvrit la porte et se recoucha."
+        },
+        {
+          "id": "a4e44",
+          "type": "didascalie",
+          "texte": "{{r1}} se couche sur la table, la tête vers la porte, et ne bouge plus."
+        },
+        {
+          "id": "a4e45",
+          "type": "conteur",
+          "texte": "{{r1}}, qui faisait seulement semblant de dormir, se mit à crier d'une voix claire :"
+        },
+        {
+          "id": "a4e46",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Aidez-moi, criez avec moi : Sept d'un coup !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e47",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Garçon, fais-moi ce gilet et raccommode-moi ce pantalon, ou je te tape sur les oreilles avec l'aune ! J'en ai abattu sept d'un coup, j'ai vaincu deux géants, j'ai ramené une licorne et attrapé un sanglier : et je devrais avoir peur de ceux qui attendent devant ma chambre ?",
+          "ton": "en se redressant d'un coup, très fort"
+        },
+        {
+          "id": "a4e48",
+          "type": "conteur",
+          "texte": "Quand ceux-ci entendirent {{r1}} parler ainsi, une grande peur les saisit. Ils s'enfuirent comme si l'armée des fantômes était à leurs trousses, et plus personne n'osa jamais s'en prendre à lui."
+        },
+        {
+          "id": "a4e49",
+          "type": "note_marionnettiste",
+          "texte": "Voix des serviteurs, en coulisse : « Au secours ! »"
+        },
+        {
+          "id": "a4e50",
+          "type": "conteur",
+          "texte": "Et ainsi {{r1}} fut et resta roi toute sa vie."
+        },
+        {
+          "id": "a4e51",
+          "type": "didascalie",
+          "texte": "{{r1}} saute de joie, puis salue les enfants."
+        },
+        {
+          "id": "a4e52",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Au revoir, les enfants !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e53",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "de-vaillant-petit-tailleur",
+    "synopsis": {
+      "accroche": "{{r1}}, un petit tailleur, écrase sept mouches d'un coup et le brode sur sa ceinture : tout le monde croit qu'il a abattu sept hommes, et il gagne chaque épreuve de force par la ruse.",
+      "resume": [
+        "{{r1}} achète de la confiture à {{r4}}, une paysanne, qui repart en ronchonnant. Il écrase sept mouches d'un coup, brode « Sept d'un coup ! » sur sa ceinture et part dans le monde, un vieux fromage et un oiseau dans sa poche.",
+        "Sur la montagne, {{r2}}, un énorme géant, le met à l'épreuve : {{r1}} presse son fromage comme une pierre, lance son oiseau qui ne retombe jamais, et se fait porter sur l'arbre qu'il prétend porter.",
+        "Dans la caverne, {{r1}} se cache au lieu de dormir dans le grand lit : {{r2}} casse le lit d'un coup de barre de fer, et quand {{r1}} revient le matin, les géants s'enfuient.",
+        "Au palais, le roi {{r3}} a peur de lui et l'envoie contre deux géants de la forêt, {{r5}} et {{r6}}, en lui promettant sa fille. Caché dans l'arbre, {{r1}} leur jette des pierres, et ils se battent entre eux jusqu'à tomber.",
+        "{{r1}} attrape la licorne, enferme le sanglier dans une chapelle, et épouse la princesse. Elle découvre qu'il n'est qu'un tailleur ; mais {{r1}}, qui fait semblant de dormir, crie tous ses exploits, et les serviteurs du roi s'enfuient. Il reste roi toute sa vie."
+      ]
+    },
+    "transposition": {
+      "texte": "Un matin d'été, {{r1}}, un petit tailleur, était assis sur sa table près de la fenêtre. Il était de bonne humeur et cousait de toutes ses forces. Une paysanne, {{r4}}, descendit la rue en criant :\n\n— Bonne confiture à vendre ! Bonne confiture à vendre !\n\nCela sonna agréablement aux oreilles de {{r1}}. Il passa sa tête fine par la fenêtre et cria :\n\n— Par ici, ma bonne dame, ici vous vendrez votre marchandise !\n\n{{r4}} monta les trois étages avec son lourd panier jusque chez {{r1}} et dut déballer tous ses pots devant lui. {{r1}} les examina tous, les souleva, mit son nez dessus, et dit enfin :\n\n— La confiture m'a l'air bonne. Pesez-m'en donc quatre onces, ma bonne dame ; et si ça fait un quart de livre, ce n'est pas grave.\n\n{{r4}}, qui avait espéré faire une bonne vente, lui donna ce qu'il demandait, mais s'en alla fâchée et en ronchonnant.\n\n— Que Dieu bénisse cette confiture, s'écria {{r1}}, et qu'elle me donne force et vigueur !\n\n{{r1}} sortit le pain de l'armoire, se coupa une tranche sur toute la largeur de la miche et étala la confiture dessus.\n\n— Ça ne sera pas amer, dit-il, mais je vais d'abord finir ce gilet avant de mordre dedans.\n\nIl posa la tartine à côté de lui, continua à coudre, et de joie, faisait des points de plus en plus grands. Pendant ce temps, l'odeur de la confiture sucrée monta jusqu'au mur, où se tenaient des mouches en grand nombre. Elles furent attirées et vinrent se poser en foule sur la tartine.\n\n— Eh, qui vous a invitées ? dit {{r1}}, et il chassa les invités.\n\nMais les mouches, qui ne comprenaient pas la langue de {{r1}}, ne se laissèrent pas renvoyer et revinrent de plus en plus nombreuses. Alors, comme on dit, la moutarde monta au nez de {{r1}}. Il attrapa un chiffon et — « Attendez, vous allez voir ! » — tapa dessus sans pitié. Quand il retira le chiffon et compta, il n'y en avait pas moins de sept, étendues devant lui, les pattes en l'air.\n\n— Tu es donc un gaillard pareil ? dit-il, et il dut admirer lui-même sa bravoure. Toute la ville doit l'apprendre !\n\nEt en toute hâte, {{r1}} se tailla une ceinture, la cousit et y broda en grandes lettres : « Sept d'un coup ! »\n\n— Et puis quoi, la ville ? continua-t-il. Le monde entier doit l'apprendre !\n\nEt son cœur frétillait de joie comme une queue d'agneau.\n\n{{r1}} attacha la ceinture autour de sa taille et voulut partir dans le monde, car il trouvait que son atelier était trop petit pour sa bravoure. Avant de s'en aller, il chercha dans la maison s'il n'y avait rien à emporter ; mais il ne trouva qu'un vieux fromage, qu'il mit dans sa poche. Devant la porte de la ville, il remarqua un oiseau qui s'était pris dans un buisson : il alla rejoindre le fromage dans sa poche. Puis il prit bravement la route, et comme il était léger et agile, il ne sentait aucune fatigue.\n\nLe chemin mena {{r1}} sur une montagne, et quand il atteignit le plus haut sommet, il y trouva un énorme géant assis, {{r2}}, qui regardait tranquillement le paysage. {{r1}} s'approcha de lui sans peur, lui adressa la parole et dit :\n\n— Bonjour, camarade ! Alors, tu es assis là à regarder le vaste monde ? Justement, j'y vais, et je veux tenter ma chance. As-tu envie de venir avec moi ?\n\n{{r2}} regarda {{r1}} avec mépris et dit :\n\n— Minable ! Pauvre type !\n\n— Tiens donc ! répondit {{r1}}.\n\nIl déboutonna sa veste et montra sa ceinture à {{r2}}.\n\n— Lis donc, tu verras quel homme je suis.\n\n{{r2}} lut « Sept d'un coup ». Il crut que c'étaient des hommes que {{r1}} avait abattus, et se mit à avoir un peu de respect pour le petit bonhomme. Mais il voulut d'abord le mettre à l'épreuve. Il prit une pierre dans sa main et la serra si fort que l'eau en coula goutte à goutte.\n\n— Fais-en autant, dit {{r2}}, si tu as de la force.\n\n— Ce n'est que ça ? dit {{r1}}. C'est un jeu d'enfant pour quelqu'un comme moi.\n\nIl mit la main dans sa poche, sortit le fromage mou et le serra si fort que le jus en coula.\n\n— Alors, dit-il, c'était un peu mieux, non ?\n\n{{r2}} ne savait que dire et n'en revenait pas. Alors il ramassa une pierre et la lança si haut qu'on ne la voyait presque plus.\n\n— Eh bien, petit canard, fais-en autant.\n\n— Bien lancé, dit {{r1}}, mais la pierre a bien dû retomber par terre. Moi, je vais t'en lancer une qui ne reviendra jamais.\n\nIl mit la main dans sa poche, prit l'oiseau et le lança en l'air. L'oiseau, tout heureux d'être libre, monta, s'envola et ne revint pas.\n\n— Qu'est-ce que tu penses de ce petit tour-là, camarade ? demanda {{r1}}.\n\n— Lancer, tu sais, dit {{r2}}. Mais voyons maintenant si tu es capable de porter quelque chose de sérieux.\n\n{{r2}} conduisit {{r1}} devant un énorme chêne abattu qui gisait par terre et dit :\n\n— Si tu es assez fort, aide-moi à sortir cet arbre de la forêt.\n\n— Volontiers, répondit {{r1}}. Prends seulement le tronc sur ton épaule ; moi, je soulèverai les branches et les rameaux, c'est bien le plus lourd.\n\n{{r2}} mit le tronc sur son épaule, mais {{r1}} s'assit sur une branche. Et {{r2}}, qui ne pouvait pas se retourner, dut porter tout l'arbre, et {{r1}} par-dessus le marché. Derrière, {{r1}} était tout joyeux et sifflait la chanson « Trois tailleurs sortaient à cheval par la porte », comme si porter un arbre était un jeu d'enfant.\n\n{{r2}}, après avoir traîné le lourd fardeau un bout de chemin, n'en put plus et cria :\n\n— Écoute, il faut que je laisse tomber l'arbre.\n\n{{r1}} sauta lestement à terre, prit l'arbre à deux bras comme s'il l'avait porté, et dit à {{r2}} :\n\n— Tu es un si grand gaillard, et tu n'es même pas capable de porter un arbre !\n\nIls continuèrent ensemble, et en passant devant un cerisier, {{r2}} attrapa la cime de l'arbre, où pendaient les fruits les plus mûrs, la courba, la mit dans la main de {{r1}} et lui dit de manger. Mais {{r1}} était bien trop faible pour retenir l'arbre, et quand {{r2}} lâcha, l'arbre se redressa et {{r1}} fut projeté en l'air avec lui. Quand {{r1}} fut retombé sans dommage, {{r2}} dit :\n\n— Qu'est-ce que c'est ? Tu n'as pas la force de retenir cette petite branche ?\n\n— Ce n'est pas la force qui me manque, répondit {{r1}}. Tu crois que c'est quelque chose, pour quelqu'un qui en a abattu sept d'un coup ? J'ai sauté par-dessus l'arbre, parce que les chasseurs tirent là en bas dans les buissons. Saute, toi aussi, si tu en es capable.\n\n{{r2}} essaya, mais ne put passer par-dessus l'arbre : il resta accroché dans les branches. Si bien que, là encore, {{r1}} eut le dessus.\n\n{{r2}} dit :\n\n— Si tu es un gaillard si vaillant, viens dans notre caverne et passe la nuit chez nous.\n\n{{r1}} accepta et le suivit. Quand ils arrivèrent dans la caverne, d'autres géants étaient assis près du feu, et chacun tenait un mouton rôti à la main et en mangeait. {{r1}} regarda autour de lui et pensa : « C'est quand même bien plus spacieux ici que dans mon atelier. » {{r2}} lui montra un lit et lui dit de s'y coucher et de dormir. Mais le lit était trop grand pour {{r1}} : il ne s'y coucha pas, et alla se blottir dans un coin.\n\nÀ minuit, quand {{r2}} pensa que {{r1}} dormait profondément, il se leva, prit une grosse barre de fer, et d'un seul coup cassa le lit en deux : il croyait en avoir fini avec cette sauterelle. De bon matin, les géants partirent dans la forêt, en ayant complètement oublié {{r1}}. Et voilà que celui-ci arriva, tout joyeux et plein d'audace. Les géants eurent peur, craignirent qu'il ne les assomme tous, et s'enfuirent en toute hâte.\n\n{{r1}} continua sa route, toujours en suivant son nez pointu. Après avoir marché longtemps, il arriva dans la cour d'un palais royal, et comme il se sentait fatigué, il se coucha dans l'herbe et s'endormit. Pendant qu'il était couché là, des gens vinrent, l'examinèrent de tous les côtés et lurent sur sa ceinture : « Sept d'un coup ».\n\n— Ah, dirent-ils, que vient faire ce grand guerrier ici, en pleine paix ? Ce doit être un puissant seigneur.\n\nIls allèrent l'annoncer à {{r3}}, le roi, en disant que si la guerre éclatait, ce serait un homme important et utile, qu'il ne fallait laisser partir à aucun prix. Le conseil plut à {{r3}}, et il envoya un de ses courtisans auprès de {{r1}}, pour lui offrir d'entrer à son service quand il se réveillerait. L'envoyé resta près du dormeur, attendit qu'il s'étire et ouvre les yeux, et lui fit sa proposition.\n\n— C'est justement pour ça que je suis venu, répondit {{r1}}. Je suis prêt à entrer au service du roi.\n\nIl fut donc reçu avec honneur et on lui donna un logement à part.\n\nMais les soldats de {{r3}} n'aimaient pas {{r1}} et auraient voulu qu'il soit à mille lieues de là.\n\n— Qu'est-ce qui va se passer, se disaient-ils, si nous nous disputons avec lui et qu'il frappe ? À chaque coup, il en tombera sept. Aucun de nous n'y résistera.\n\nIls prirent donc une décision, allèrent tous ensemble trouver {{r3}} et demandèrent à partir.\n\n— Nous ne sommes pas faits, dirent-ils, pour vivre à côté d'un homme qui en abat sept d'un coup.\n\n{{r3}} fut triste de perdre tous ses fidèles serviteurs à cause d'un seul. Il aurait voulu ne l'avoir jamais vu, et s'en serait bien débarrassé. Mais {{r3}} n'osait pas le renvoyer, car il craignait que {{r1}} ne le tue, lui et tout son peuple, pour s'asseoir sur le trône. Il réfléchit longtemps, et enfin, il trouva une idée. Il fit dire à {{r1}} que, puisqu'il était un si grand héros, il voulait lui faire une offre. Dans une forêt de son pays vivaient deux géants, {{r5}} et {{r6}}, qui faisaient beaucoup de mal en volant, en pillant et en incendiant ; personne n'osait s'en approcher sans risquer sa vie. Si {{r1}} venait à bout de ces deux géants, {{r3}} lui donnerait sa fille unique en mariage et la moitié du royaume en dot ; et cent cavaliers l'accompagneraient pour l'aider.\n\n« Voilà qui est fait pour un homme comme toi, pensa {{r1}}. Une belle princesse et la moitié d'un royaume, on ne vous en offre pas tous les jours. »\n\n— Oh oui, répondit-il, les géants, je vais les dompter, et je n'ai pas besoin des cent cavaliers. Celui qui en abat sept d'un coup n'a pas à avoir peur de deux.\n\n{{r1}} partit, et les cent cavaliers le suivirent. Quand il arriva à l'orée de la forêt, il dit à ses compagnons :\n\n— Restez ici, je viendrai bien à bout des géants tout seul.\n\nPuis il s'élança dans la forêt en regardant à droite et à gauche. Au bout d'un moment, {{r1}} aperçut {{r5}} et {{r6}} : ils étaient couchés sous un arbre, dormaient, et ronflaient si fort que les branches montaient et descendaient. {{r1}}, sans perdre de temps, remplit ses deux poches de pierres et grimpa dans l'arbre. Arrivé à mi-hauteur, il glissa le long d'une branche jusqu'à se trouver juste au-dessus des dormeurs, et laissa tomber une pierre après l'autre sur la poitrine de {{r5}}.\n\n{{r5}} ne sentit rien pendant longtemps, mais finalement il se réveilla, poussa {{r6}} et dit :\n\n— Pourquoi me tapes-tu ?\n\n— Tu rêves, dit {{r6}}, je ne te tape pas.\n\nIls se recouchèrent pour dormir. Alors {{r1}} lança une pierre sur {{r6}}.\n\n— Qu'est-ce que ça veut dire ? cria {{r6}}. Pourquoi me jettes-tu des pierres ?\n\n— Je ne te jette rien, répondit {{r5}} en grognant.\n\nIls se disputèrent un moment, mais comme ils étaient fatigués, ils laissèrent tomber, et leurs yeux se refermèrent. {{r1}} recommença son jeu, choisit la plus grosse pierre et la lança de toutes ses forces sur la poitrine de {{r5}}.\n\n— C'en est trop ! hurla {{r5}}.\n\nIl bondit comme un fou et poussa {{r6}} contre l'arbre, si fort que l'arbre en trembla. {{r6}} lui rendit la monnaie de sa pièce, et ils entrèrent dans une telle fureur qu'ils arrachèrent des arbres et se battirent à coups de troncs, si longtemps qu'à la fin ils tombèrent tous les deux par terre en même temps, et ne se relevèrent pas.\n\nAlors {{r1}} sauta à terre.\n\n— Heureusement, dit-il, qu'ils n'ont pas arraché l'arbre sur lequel j'étais assis, sinon j'aurais dû sauter sur un autre comme un écureuil. Mais nous autres, nous sommes agiles !\n\nPuis il sortit rejoindre les cavaliers et dit :\n\n— Le travail est fait, j'en ai fini avec tous les deux. Mais ça a été dur : dans leur détresse, ils ont arraché des arbres pour se défendre. Mais tout cela ne sert à rien quand arrive quelqu'un comme moi, qui en abat sept d'un coup.\n\n— Vous n'êtes pas blessé ? demandèrent les cavaliers.\n\n— Pas du tout, répondit {{r1}}, ils ne m'ont pas touché un cheveu.\n\nLes cavaliers ne voulurent pas le croire et entrèrent dans la forêt : ils trouvèrent {{r5}} et {{r6}} étendus par terre, et tout autour, les arbres arrachés.\n\n{{r1}} réclama à {{r3}} la récompense promise. Mais {{r3}} regrettait sa promesse, et réfléchit de nouveau à la façon de se débarrasser du héros.\n\n— Avant d'avoir ma fille et la moitié du royaume, lui dit-il, tu dois encore accomplir un exploit. Dans la forêt court une licorne qui fait beaucoup de dégâts : tu dois d'abord l'attraper.\n\n— J'ai encore moins peur d'une licorne que de deux géants. Sept d'un coup, c'est mon affaire.\n\nIl prit une corde et une hache, partit dans la forêt, et dit encore à ceux qui l'accompagnaient d'attendre dehors. Il n'eut pas à chercher longtemps : la licorne arriva bientôt, et bondit droit sur {{r1}}, comme pour l'embrocher sans plus de façons.\n\n— Doucement, doucement, dit-il, ça ne va pas si vite.\n\nIl resta immobile et attendit que la bête soit tout près ; puis il sauta lestement derrière un arbre. La licorne fonça de toutes ses forces contre l'arbre et y enfonça sa corne si profondément qu'elle n'eut pas la force de la retirer. Elle était prise.\n\n— Maintenant, je tiens l'oiseau, dit {{r1}}.\n\nIl sortit de derrière l'arbre, passa d'abord la corde au cou de la licorne, puis dégagea la corne de l'arbre à coups de hache, et quand tout fut en ordre, il emmena la bête et l'apporta à {{r3}}.\n\n{{r3}} ne voulait toujours pas lui accorder la récompense promise, et posa une troisième condition. Avant le mariage, {{r1}} devait lui attraper un sanglier qui faisait de grands dégâts dans la forêt ; les chasseurs l'aideraient.\n\n— Volontiers, dit {{r1}}, c'est un jeu d'enfant.\n\nIl n'emmena pas les chasseurs dans la forêt, et ils en furent bien contents, car le sanglier les avait déjà reçus plusieurs fois de telle manière qu'ils n'avaient aucune envie de le poursuivre. Quand le sanglier aperçut {{r1}}, il courut sur lui l'écume à la bouche en aiguisant ses défenses, pour le jeter à terre. Mais le héros agile sauta dans une chapelle qui se trouvait tout près, et ressortit aussitôt d'un bond par la fenêtre du haut. Le sanglier avait couru derrière lui ; mais {{r1}} fit le tour par-dehors et claqua la porte derrière lui. La bête furieuse était prise : elle était bien trop lourde et maladroite pour sauter par la fenêtre.\n\n{{r1}} appela les chasseurs, qui durent voir le prisonnier de leurs propres yeux. Et le héros se rendit chez {{r3}}, qui, qu'il le veuille ou non, dut tenir sa promesse et lui donner sa fille et la moitié du royaume. S'il avait su que ce n'était pas un héros de guerre mais un petit tailleur qui était devant lui, il en aurait eu le cœur encore plus gros. La noce fut donc célébrée avec beaucoup de faste et peu de joie, et d'un tailleur on fit un roi.\n\nQuelque temps après, la jeune reine entendit la nuit son mari parler en rêve :\n\n— Garçon, fais-moi ce gilet et raccommode-moi ce pantalon, ou je te tape sur les oreilles avec l'aune !\n\nAlors elle comprit dans quelle ruelle le jeune monsieur était né. Le lendemain matin, elle se plaignit à son père et lui demanda de la délivrer de cet homme, qui n'était rien d'autre qu'un tailleur. {{r3}} la consola et dit :\n\n— La nuit prochaine, laisse ta chambre ouverte. Mes serviteurs attendront dehors, et quand il sera endormi, ils entreront, l'attacheront et le porteront sur un bateau qui l'emmènera au bout du monde.\n\nLa femme fut d'accord. Mais l'écuyer de {{r3}}, qui avait tout entendu, aimait bien le jeune seigneur, et alla lui raconter tout le complot.\n\n— Je vais mettre bon ordre à ça, dit {{r1}}.\n\nLe soir, {{r1}} se coucha à l'heure habituelle avec sa femme. Quand elle crut qu'il dormait, elle se leva, ouvrit la porte et se recoucha. {{r1}}, qui faisait seulement semblant de dormir, se mit à crier d'une voix claire :\n\n— Garçon, fais-moi ce gilet et raccommode-moi ce pantalon, ou je te tape sur les oreilles avec l'aune ! J'en ai abattu sept d'un coup, j'ai vaincu deux géants, j'ai ramené une licorne et attrapé un sanglier : et je devrais avoir peur de ceux qui attendent devant ma chambre ?\n\nQuand ceux-ci entendirent {{r1}} parler ainsi, une grande peur les saisit. Ils s'enfuirent comme si l'armée des fantômes était à leurs trousses, et plus personne n'osa jamais s'en prendre à lui. Et ainsi {{r1}} fut et resta roi toute sa vie.",
+      "changements": [
+        "Tous les personnages qui parlent deviennent des marionnettes, jusqu'à six (règle du 2026-09-28 : le plus de dialogue possible entre marionnettes) : le petit tailleur, le géant de la montagne, le roi, la paysanne qui vend la confiture, et les deux géants de la forêt, joués par deux marionnettes qui se disputent pour de vrai.",
+        "La princesse, les gens du palais, les soldats, les cavaliers et les serviteurs n'ont pas de marionnette : on entend leur voix en coulisse. La licorne et le sanglier n'en ont pas non plus : ils restent du récit et des bruits (galop, grognements, coups sur la table).",
+        "Le discours indirect devient direct, sans rien ajouter au sens : le géant qui dit de manger ou de se coucher, le roi qui fait offrir à {{r1}} d'entrer à son service, qui le voudrait jamais vu, qui lui fait son offre (dite par lui-même au lieu d'un messager), qui pose la troisième condition et qui donne sa fille, {{r1}} qui réclame sa récompense, la princesse qui demande à son père de la délivrer.",
+        "Deux répliques simples sont ajoutées : la paysanne qui ronchonne (« Tout ce chemin pour quatre onces ! Hmpf ! ») et le géant qui s'enfuit (« Au secours ! »), ainsi que le cri des serviteurs en coulisse. {{r1}} compte les mouches à voix haute avec les enfants.",
+        "Pour tenir la durée (le conte entier dit à voix haute prendrait une demi-heure), le récit est resserré : le cerisier, la pensée de {{r1}} dans la caverne, sa réponse à l'envoyé du roi, la première plainte des soldats, son soulagement après la bagarre, la capture de la licorne à la corde et à la hache, les chasseurs qui restent dehors et quelques phrases de liaison sont laissés au texte. Chaque épisode gardé est joué, et la fin du conte (la noce, le rêve, le complot, les serviteurs qui s'enfuient) est jouée entière.",
+        "« tailleur », « roi » et « paysanne » sont un métier ou un titre, pas une espèce : ils restent dans le texte et ne changent qu'en genre. Les géants, et « homme » quand il désigne {{r1}}, prennent l'espèce de la peluche du parent.",
+        "Seule retouche universelle de la fiche : « demandèrent leur congé » devient « demandèrent à partir ». La mort des deux géants de la forêt est gardée telle quelle (l'adoucissement de la fiche ne vaut que jusqu'à 4 ans)."
+      ]
+    }
+  },
+  "dureeEstimeeSecondes": 1201,
+  "interactionsOrdonnees": [
+    "a1e28",
+    "a1e22",
+    "a2e9",
+    "a2e18",
+    "a4e46",
+    "a3e21",
+    "a2e27",
+    "a4e9",
+    "a3e33",
+    "a4e20",
+    "a4e38",
+    "a3e17",
+    "a4e52"
+  ]
+}

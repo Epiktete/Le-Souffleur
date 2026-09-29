@@ -13,6 +13,7 @@ import {
   cleRole,
   NomResiduel,
   peupler,
+  rendreMention,
   signatureDe,
   signatures,
   variabiliser,
@@ -228,6 +229,34 @@ describe('peupler : le spectacle redevient jouable', () => {
     };
     expect(peupler(avecDe, [{ ...autres[0], nom: 'Aglaé' }, { ...autres[1], nom: 'Gros Loup' }]).pitch)
       .toBe('le panier d’Aglaé et la maison de Gros Loup');
+  });
+
+  it('rend les gabarits d’espèce avec les formes d’avant voyelle', () => {
+    // « {mon|ma} {espece} d'or » avec une ourse donnait « ma ourse d'or » (lot Jack).
+    expect(rendreMention('{mon|ma} {espece} d’or', 'ourse', 'feminin')).toBe('mon ourse d’or');
+    expect(rendreMention('{mon|ma} {espece} d’or', 'lapine', 'feminin')).toBe('ma lapine d’or');
+    expect(rendreMention('{Ce|Cette} {espece}', 'ours', 'masculin')).toBe('Cet ours');
+    expect(rendreMention('{un} {beau|belle} {espece}', 'éléphant', 'masculin')).toBe('un bel éléphant');
+    // Le h aspiré des peluches courantes refuse l'élision ; le h muet la garde.
+    expect(rendreMention('{le} {espece}', 'hibou', 'masculin')).toBe('le hibou');
+    expect(rendreMention('{du} {espece}', 'hérisson', 'masculin')).toBe('du hérisson');
+    expect(rendreMention('{le} {espece}', 'hirondelle', 'feminin')).toBe('l’hirondelle');
+    expect(rendreMention('{mon|ma} {espece} d’or', 'harpe', 'feminin')).toBe('ma harpe d’or');
+  });
+
+  it('répare aussi l’élision de « que » et de ses composés', () => {
+    // « On m'a dit que {{r1}} » donnait « que Olive » (lot Guignol).
+    const m = variabiliser(spectacleFactice(), 'en-essai--1');
+    const avecQue: SpectacleModele = {
+      ...m,
+      pitch: `On dit que ${variable('r1')} rit, lorsque ${variable('r2')} arrive, jusqu’à ${variable('r1')}.`,
+    };
+    expect(peupler(avecQue, [{ ...autres[0], nom: 'Olive' }, { ...autres[1], nom: 'Ernest' }]).pitch)
+      .toBe('On dit qu’Olive rit, lorsqu’Ernest arrive, jusqu’à Olive.');
+    // Et dans l'autre sens, devant une consonne.
+    const elide: SpectacleModele = { ...m, pitch: `Je crois qu’${variable('r1')} dort.` };
+    expect(peupler(elide, [{ ...autres[0], nom: 'Tonin' }, autres[1]]).pitch)
+      .toBe('Je crois que Tonin dort.');
   });
 
   it('ne prend pas la fin d’un mot pour un « de » à élider', () => {

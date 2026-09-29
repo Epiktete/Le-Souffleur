@@ -4,6 +4,11 @@
 
 import { NOM_OUTIL } from './config';
 
+/** « de Tonin », « d’Isis » : les noms de peluches viennent des parents. */
+function deNom(nom: string): string {
+  return /^[aeiouyàâäéèêëîïôöùûüh]/i.test(nom) ? `d’${nom}` : `de ${nom}`;
+}
+
 export const t = {
   /** En-tête (CDC §7). */
   entete: {
@@ -288,9 +293,9 @@ export const tba = {
       `Le texte n’a pas pu être accordé pour ${nom} : il garde les accords d’origine.`,
     /** L'espèce de la peluche est introuvable : le texte garde le mot d'origine. */
     especeInconnue: (nom: string, espece: string) =>
-      `L’espèce de ${nom} n’est pas renseignée : le texte garde « ${espece} ». Précisez-la sur sa fiche.`,
+      `L’espèce ${deNom(nom)} n’est pas renseignée : le texte garde « ${espece} ». Précisez-la sur sa fiche.`,
     especeIndisponible: (nom: string) =>
-      `Le texte n’a pas pu être mis à l’espèce de ${nom} : il garde l’espèce d’origine.`,
+      `Le texte n’a pas pu être mis à l’espèce ${deNom(nom)} : il garde l’espèce d’origine.`,
   },
 } as const;
 
