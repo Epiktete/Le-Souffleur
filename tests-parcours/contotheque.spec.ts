@@ -28,20 +28,20 @@ async function troupeDuChaperon(page: Page) {
  * spectacle créé, dans la colonne de droite, qui porte le même titre.
  */
 function ficheChaperon(page: Page) {
-  return page.getByRole('region', { name: 'Contothèque' })
+  return page.getByRole('region', { name: 'Studio' })
     .getByRole('button', { name: /Le Petit Chaperon rouge/ });
 }
 
-test('la Contothèque est le mode d’accueil, le Studio à droite, le retour rebascule', async ({ page }) => {
+test('la Contothèque est le mode d’accueil, le Sur mesure à droite, le retour rebascule', async ({ page }) => {
   const onglets = page.getByRole('navigation', { name: 'Mode de création' });
   await expect(onglets.getByRole('button').first()).toHaveText('Contothèque');
-  await expect(onglets.getByRole('button').last()).toHaveText('Studio');
+  await expect(onglets.getByRole('button').last()).toHaveText('Sur mesure');
 
   // Sans fragment, on arrive sur la Contothèque (décision du 2026-09-28).
   await expect(onglets.getByRole('button', { name: 'Contothèque' }))
     .toHaveAttribute('aria-current', 'page');
 
-  await onglets.getByRole('button', { name: 'Studio' }).click();
+  await onglets.getByRole('button', { name: 'Sur mesure' }).click();
   await expect(page).toHaveURL(/#\/studio$/);
   await page.goBack();
   await expect(onglets.getByRole('button', { name: 'Contothèque' }))

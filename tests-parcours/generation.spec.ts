@@ -492,7 +492,7 @@ test('après avoir lu et joué le spectacle, le studio est prêt pour une nouvel
   await page.getByRole('button', { name: 'Quitter' }).first().click();
   await expect(page).toHaveURL(/#\/banque$/);
   await page.getByRole('navigation', { name: 'Mode de création' })
-    .getByRole('button', { name: 'Studio' }).click();
+    .getByRole('button', { name: 'Sur mesure' }).click();
 
   // Le studio propose une nouvelle génération, avec les mêmes marionnettes.
   await expect(page.getByText('Votre spectacle est prêt')).toHaveCount(0);

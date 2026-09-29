@@ -12,7 +12,7 @@
   import Banque from './Banque.svelte';
   import OngletsMode from './OngletsMode.svelte';
   import ColonneSpectacles from './ColonneSpectacles.svelte';
-  import { t, tba } from '../textes';
+  import { t } from '../textes';
   import { largeur } from '../largeur.svelte';
   import type { ModeAccueil } from '../services/routeur';
 
@@ -27,8 +27,8 @@
   }
   let { mode, tiroir, surFermerTiroir }: Props = $props();
 
-  /** Le libellé de la colonne centrale suit le mode. */
-  const libelleCentre = $derived(mode === 'banque' ? tba.onglets.banque : t.colonnes.studio);
+  /** La colonne centrale s'appelle « Studio » dans les deux modes (2026-09-29). */
+  const libelleCentre = t.colonnes.studio;
 
   /** Onglet visible sous 700 px. */
   let ongletActif = $state<Panneau | 'studio'>('studio');

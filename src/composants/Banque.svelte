@@ -28,7 +28,6 @@
   } from '../services/appariement';
   import { lireModelesJoues } from '../services/historiqueBanque';
   import { conteParId, essenceDuConte } from '../services/repertoire';
-  import { formaterDuree } from '../services/duree';
 
   // Même besoin que le Studio : la Marionnethèque doit être chargée même
   // quand sa colonne est un tiroir fermé (sous 1 024 px).
@@ -181,6 +180,30 @@
   }
 </script>
 
+<!-- Une fiche : l'œuvre d'origine d'abord, les détails pratiques en bas
+     (demande de Nicolas, 2026-09-29). -->
+{#snippet contenuFiche(f: SignatureModele, avecRoles: boolean)}
+  <h3>{f.titre}</h3>
+  {#if dApres(f)}
+    <p class="dapres">{dApres(f)}</p>
+  {/if}
+  {#if essence(f)}
+    <p class="essence">{essence(f)}</p>
+  {/if}
+  {#if avecRoles}
+    <!-- Les personnages, sans leurs traits : les attributs
+         n'intéressent pas le parent à ce stade (2026-09-28). -->
+    <p class="roles">{f.roles.map(nomRole).join(' · ')}</p>
+  {/if}
+  <p class="meta mono">
+    {tba.fiche.minutes(f.dureeEstimeeSecondes)}
+    · {tba.fiche.age(f.ageAuditoire)}
+    · {tba.fiche.personnages(f.roles.length)}
+    <!-- Tout le fonds se joue seul (2026-09-29) : on ne le dit que s'il faut être deux. -->
+    {#if f.nbMarionnettistes > 1}· {tba.fiche.marionnettistes(f.nbMarionnettistes)}{/if}
+  </p>
+{/snippet}
+
 <div class="banque">
   <Scene />
 
@@ -188,21 +211,7 @@
 
   {#if choisi}
     {@const f = choisi.evalue.signature}
-    <div class="boite fiche choisie">
-      <h3>{f.titre}</h3>
-      <p class="meta mono">
-        {formaterDuree(f.dureeEstimeeSecondes)}
-        · {tba.fiche.age(f.ageAuditoire)}
-        · {tba.fiche.personnages(f.roles.length)}
-        · {tba.fiche.marionnettistes(f.nbMarionnettistes)}
-      </p>
-      {#if essence(f)}
-        <p class="essence">{essence(f)}</p>
-      {/if}
-      {#if dApres(f)}
-        <p class="dapres">{dApres(f)}</p>
-      {/if}
-    </div>
+    <div class="boite fiche choisie">{@render contenuFiche(f, false)}</div>
     <!-- L'interaction n'est plus une donnée de la fiche : le réglage du
          studio en garde la fraction voulue à la création (CDC §7). -->
 
@@ -268,22 +277,7 @@
           <li>
             <!-- Toute la fiche est le bouton : un clic mène à la distribution. -->
             <button type="button" class="boite fiche" onclick={() => choisirFiche(e)}>
-              <h3>{f.titre}</h3>
-              <p class="meta mono">
-                {formaterDuree(f.dureeEstimeeSecondes)}
-                · {tba.fiche.age(f.ageAuditoire)}
-                · {tba.fiche.personnages(f.roles.length)}
-                · {tba.fiche.marionnettistes(f.nbMarionnettistes)}
-              </p>
-              {#if essence(f)}
-                <p class="essence">{essence(f)}</p>
-              {/if}
-              <!-- Les personnages, sans leurs traits : les attributs
-                   n'intéressent pas le parent à ce stade (2026-09-28). -->
-              <p class="roles">{f.roles.map(nomRole).join(' · ')}</p>
-              {#if dApres(f)}
-                <p class="dapres">{dApres(f)}</p>
-              {/if}
+              {@render contenuFiche(f, true)}
             </button>
           </li>
         {/each}
@@ -326,13 +320,13 @@
     cursor: pointer;
   }
 
-  .meta { font-size: 11px; color: var(--encre2); margin: 0 0 8px; }
+  .meta { font-size: 11px; color: var(--encre2); margin: 10px 0 0; }
 
   .essence { font-size: 14px; margin: 0 0 8px; }
 
   .roles { margin: 0; font-size: 13px; font-weight: 600; }
 
-  .dapres { font-size: 12px; font-style: italic; color: var(--encre2); margin: 8px 0 0; }
+  .dapres { font-size: 12px; font-style: italic; color: var(--encre2); margin: 0 0 8px; }
 
   .creer {
     width: 100%;
