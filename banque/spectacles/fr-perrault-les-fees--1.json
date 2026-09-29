@@ -6,8 +6,8 @@
   "roles": [
     {
       "cle": "r1",
-      "espece": "poupee",
-      "famille": "adulte",
+      "espece": "fille",
+      "famille": "enfant",
       "traits": [
         "gentil",
         "travailleur"
@@ -38,37 +38,37 @@
             "apres": "deux enfants"
           },
           {
-            "id": "a1e3:texte",
+            "id": "a1e5:texte",
             "avant": "La cadette",
             "apres": "Le cadet"
           },
           {
-            "id": "a1e5:texte",
-            "avant": "Elle la faisait",
-            "apres": "Elle le faisait"
+            "id": "a1e7:texte",
+            "avant": "la faisait",
+            "apres": "le faisait"
           },
           {
-            "id": "a1e9:texte",
+            "id": "a1e11:texte",
             "avant": "cette pauvre enfant",
             "apres": "ce pauvre enfant"
           },
           {
-            "id": "a1e9:texte",
+            "id": "a1e11:texte",
             "avant": "qu’elle en rapportât",
             "apres": "qu’il en rapportât"
           },
           {
-            "id": "a1e17:texte",
+            "id": "a1e22:texte",
             "avant": "reste penchée",
             "apres": "reste penché"
           },
           {
-            "id": "a1e19:texte",
+            "id": "a1e24:texte",
             "avant": "si bonne",
             "apres": "si bon"
           },
           {
-            "id": "a1e26:ton",
+            "id": "a1e31:ton",
             "avant": "joyeuse",
             "apres": "joyeux"
           },
@@ -78,97 +78,92 @@
             "apres": "un peu penché"
           },
           {
-            "id": "a2e4:ton",
+            "id": "a2e7:ton",
             "avant": "inquiète",
             "apres": "inquiet"
           },
           {
-            "id": "a2e6:texte",
+            "id": "a2e12:texte",
             "avant": "ma fille",
             "apres": "mon fils"
           },
           {
-            "id": "a2e7:texte",
+            "id": "a2e13:texte",
             "avant": "sa fille",
             "apres": "son fils"
           },
           {
-            "id": "a2e9:texte",
-            "avant": "m'a priée",
-            "apres": "m'a prié"
+            "id": "a2e15:texte",
+            "avant": "m’a priée",
+            "apres": "m’a prié"
           },
           {
-            "id": "a2e9:ton",
+            "id": "a2e15:ton",
             "avant": "toute contente",
             "apres": "tout content"
           },
           {
-            "id": "a2e13:texte",
-            "avant": "sa sœur",
-            "apres": "son frère"
-          },
-          {
-            "id": "a2e14:texte",
+            "id": "a2e24:texte",
             "avant": "votre sœur, quand elle parle",
             "apres": "votre frère, quand il parle"
           },
           {
-            "id": "a3e7:texte",
+            "id": "a3e8:texte",
             "avant": "sa sœur",
             "apres": "son frère"
           },
           {
-            "id": "a4e6:texte",
+            "id": "a4e11:texte",
             "avant": "sa sœur",
             "apres": "son frère"
           },
           {
-            "id": "a4e6:texte",
+            "id": "a4e11:texte",
             "avant": "elle me le paiera",
             "apres": "il me le paiera"
           },
           {
-            "id": "a4e9:texte",
+            "id": "a4e14:texte",
             "avant": "de la faire entrer",
             "apres": "de le faire entrer"
           },
           {
-            "id": "a4e15:texte",
+            "id": "a4e22:texte",
             "avant": "la rencontra",
             "apres": "le rencontra"
           },
           {
-            "id": "a4e16:texte",
+            "id": "a4e23:texte",
             "avant": "toute seule",
             "apres": "tout seul"
           },
           {
-            "id": "a4e18:texte",
-            "avant": "m'a chassée",
-            "apres": "m'a chassé"
+            "id": "a4e25:texte",
+            "avant": "m’a chassée",
+            "apres": "m’a chassé"
           },
           {
-            "id": "a4e20:texte",
+            "id": "a4e27:texte",
             "avant": "la pria",
             "apres": "le pria"
           },
           {
-            "id": "a4e21:texte",
+            "id": "a4e28:texte",
             "avant": "Elle lui conta",
             "apres": "Il lui conta"
           },
           {
-            "id": "a4e22:texte",
+            "id": "a4e29:texte",
             "avant": "comme si elle racontait",
-            "apres": "comme s'il racontait"
+            "apres": "comme s’il racontait"
           }
         ]
       }
     },
     {
       "cle": "r2",
-      "espece": "poupee",
-      "famille": "adulte",
+      "espece": "fille",
+      "famille": "enfant",
       "traits": [
         "orgueilleux",
         "grognon"
@@ -204,74 +199,89 @@
             "apres": "qui le voyait"
           },
           {
-            "id": "a1e2:texte",
+            "id": "a1e4:texte",
             "avant": "Elles étaient toutes deux",
             "apres": "Ils étaient tous deux"
           },
           {
-            "id": "a1e2:texte",
+            "id": "a1e4:texte",
             "avant": "orgueilleuses",
             "apres": "orgueilleux"
           },
           {
-            "id": "a1e2:texte",
+            "id": "a1e4:texte",
             "avant": "avec elles",
             "apres": "avec eux"
           },
           {
-            "id": "a2e11:texte",
+            "id": "a2e17:texte",
             "avant": "ma fille",
             "apres": "mon fils"
           },
           {
-            "id": "a2e14:texte",
+            "id": "a2e24:texte",
             "avant": "bien contente",
             "apres": "bien content"
           },
           {
-            "id": "a2e20:texte",
+            "id": "a2e28:texte",
             "avant": "comme si elle tapait",
-            "apres": "comme s'il tapait"
+            "apres": "comme s’il tapait"
           },
           {
-            "id": "a3e9:texte",
+            "id": "a3e11:texte",
             "avant": "je suis venue",
             "apres": "je suis venu"
           },
           {
-            "id": "a3e10:texte",
+            "id": "a3e12:texte",
             "avant": "si peu obligeante",
             "apres": "si peu obligeant"
           },
           {
             "id": "a4:resume",
-            "avant": "elle, finit toute seule",
-            "apres": "lui, finit tout seul"
+            "avant": "chassée",
+            "apres": "chassé"
           },
           {
-            "id": "a4e2:texte",
+            "id": "a4:resume",
+            "avant": "mourir seule",
+            "apres": "mourir seul"
+          },
+          {
+            "id": "a4e6:texte",
             "avant": "ma fille",
             "apres": "mon fils"
           },
           {
-            "id": "a4e27:texte",
+            "id": "a4e34:texte",
             "avant": "elle se fit",
             "apres": "il se fit"
           },
           {
-            "id": "a4e27:texte",
+            "id": "a4e34:texte",
             "avant": "la chassa",
             "apres": "le chassa"
           },
           {
-            "id": "a4e28:texte",
+            "id": "a4e35:texte",
             "avant": "toute seule",
             "apres": "tout seul"
           },
           {
-            "id": "a4e31:texte",
+            "id": "a4e38:texte",
             "avant": "toute seule",
             "apres": "tout seul"
+          },
+          {
+            "id": "a4e40:texte",
+            "avant": "la malheureuse",
+            "apres": "le malheureux"
+          },
+          {
+            "id": "a4e40:texte",
+            "avant": "voulût la recevoir",
+            "apres": "voulût le recevoir"
           }
         ]
       }
@@ -327,85 +337,80 @@
           {
             "id": "a1:resume",
             "avant": "la fée",
-            "apres": "l'enchanteur"
+            "apres": "l’enchanteur"
           },
           {
-            "id": "a1e11:texte",
+            "id": "a1e16:texte",
             "avant": "la pauvre femme",
             "apres": "le pauvre homme"
           },
           {
-            "id": "a1e13:texte",
+            "id": "a1e18:texte",
             "avant": "courbée",
             "apres": "courbé"
           },
           {
-            "id": "a1e14:ton",
+            "id": "a1e19:ton",
             "avant": "voix de vieille",
             "apres": "voix de vieux"
           },
           {
-            "id": "a1e16:texte",
+            "id": "a1e21:texte",
             "avant": "ma bonne mère",
             "apres": "mon bon père"
           },
           {
-            "id": "a1e17:texte",
+            "id": "a1e22:texte",
             "avant": "vers elle pendant qu’elle",
             "apres": "vers lui pendant qu’il"
           },
           {
-            "id": "a1e19:ton",
-            "avant": "voix de vieille",
-            "apres": "voix de vieux"
+            "id": "a1e24:ton",
+            "avant": "voix de vieille, tout attendrie",
+            "apres": "voix de vieux, tout attendri"
           },
           {
-            "id": "a1e19:ton",
-            "avant": "attendrie",
-            "apres": "attendri"
-          },
-          {
-            "id": "a1e20:texte",
+            "id": "a1e25:texte",
             "avant": "bien droite",
             "apres": "bien droit"
           },
           {
-            "id": "a1e21:texte",
+            "id": "a1e26:texte",
             "avant": "une fée",
             "apres": "un enchanteur"
           },
           {
-            "id": "a1e21:texte",
+            "id": "a1e26:texte",
             "avant": "d’une pauvre femme",
             "apres": "d’un pauvre homme"
           },
           {
-            "id": "a1e23:ton",
+            "id": "a1e28:ton",
             "avant": "voix de fée",
             "apres": "voix d’enchanteur"
           },
           {
-            "id": "a1e25:texte",
+            "id": "a1e30:texte",
             "avant": "est tournée",
             "apres": "est tourné"
           },
           {
-            "id": "a1e26:texte",
+            "id": "a1e31:texte",
             "avant": "ma bonne mère",
             "apres": "mon bon père"
           },
           {
-            "id": "a2e9:texte",
+            "id": "a2e15:texte",
             "avant": "une pauvre femme",
             "apres": "un pauvre homme"
           },
           {
-            "id": "a2e9:texte",
-            "avant": "et elle m'a fait",
-            "apres": "et il m'a fait"
+            "id": "a2e15:texte",
+            "avant": "et elle m’a fait",
+            "apres": "et il m’a fait"
           },
           {
-            "id": "a2e14:texte",
+            "id": "a2e24:texte",
             "avant": "une pauvre femme",
             "apres": "un pauvre homme"
           },
@@ -425,54 +430,164 @@
             "apres": "le rembarre"
           },
           {
-            "id": "a3e5:texte",
+            "id": "a3e6:texte",
             "avant": "bien droite",
             "apres": "bien droit"
           },
           {
-            "id": "a3e6:ton",
+            "id": "a3e7:ton",
             "avant": "une grande dame",
             "apres": "un grand seigneur"
           },
           {
-            "id": "a3e7:texte",
+            "id": "a3e8:texte",
             "avant": "la même fée",
             "apres": "le même enchanteur"
           },
           {
-            "id": "a3e7:texte",
-            "avant": "d'une princesse",
-            "apres": "d'un prince"
+            "id": "a3e8:texte",
+            "avant": "d’une princesse",
+            "apres": "d’un prince"
           },
           {
-            "id": "a3e9:texte",
+            "id": "a3e11:texte",
             "avant": "à Madame",
             "apres": "à Monsieur"
           }
         ]
       },
       "especeImposee": true
+    },
+    {
+      "cle": "r4",
+      "espece": "femme",
+      "famille": "adulte",
+      "traits": [
+        "méchant",
+        "orgueilleux"
+      ],
+      "voix": "voix sèche et criarde, qui se fait toute sucrée devant les diamants",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a1:resume",
+            "avant": "la mère",
+            "apres": "le père"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "une veuve",
+            "apres": "un veuf"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "voyait la mère",
+            "apres": "voyait le père"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "Elles étaient toutes deux",
+            "apres": "Ils étaient tous deux"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "orgueilleuses",
+            "apres": "orgueilleux"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "avec elles",
+            "apres": "avec eux"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "son père",
+            "apres": "sa mère"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "cette mère était folle",
+            "apres": "ce père était fou"
+          },
+          {
+            "id": "a1e7:texte",
+            "avant": "Elle ",
+            "apres": "Il "
+          },
+          {
+            "id": "a2:resume",
+            "avant": "éblouie",
+            "apres": "ébloui"
+          },
+          {
+            "id": "a2e7:texte",
+            "avant": "ma mère",
+            "apres": "mon père"
+          },
+          {
+            "id": "a2e10:ton",
+            "avant": "étonnée",
+            "apres": "étonné"
+          },
+          {
+            "id": "a2e13:texte",
+            "avant": "qu’elle l’appela",
+            "apres": "qu’il l’appela"
+          },
+          {
+            "id": "a4:resume",
+            "avant": "sa propre mère",
+            "apres": "son propre père"
+          },
+          {
+            "id": "a4e6:ton",
+            "avant": "toute joyeuse",
+            "apres": "tout joyeux"
+          },
+          {
+            "id": "a4e8:texte",
+            "avant": "ma mère",
+            "apres": "mon père"
+          },
+          {
+            "id": "a4e25:texte",
+            "avant": "ma mère",
+            "apres": "mon père"
+          },
+          {
+            "id": "a4e34:texte",
+            "avant": "sa propre mère",
+            "apres": "son propre père"
+          },
+          {
+            "id": "a4e34:texte",
+            "avant": "de chez elle",
+            "apres": "de chez lui"
+          }
+        ]
+      }
     }
   ],
   "parametres": {
-    "dureeMinutes": 5,
+    "dureeMinutes": 9,
     "ageAuditoire": 7,
     "nbMarionnettistes": 1,
-    "interactionPublic": "quelques",
-    "ebauche": "les Fées : la sœur polie et la sœur malpolie à la fontaine"
+    "interactionPublic": "beaucoup"
   },
   "tableaux": [
     {
       "id": "t1",
       "titre": "La maison",
-      "description": "À gauche de la table, posez un carton debout : c'est le mur de la maison. Devant, mettez un petit coussin : c'est le coin de la cuisine où {{r1}} travaille. Vous vous tenez derrière la table, caché par un drap tendu si vous en avez un.",
+      "description": "À gauche de la table, posez un carton debout : c’est le mur de la maison. Devant, mettez un petit coussin : c’est le coin de la cuisine où {{r1}} travaille. Vous vous tenez derrière la table, caché par un drap tendu si vous en avez un.",
       "accessoires": [],
       "promptImage": ""
     },
     {
       "id": "t2",
       "titre": "La fontaine au bord du bois",
-      "description": "À droite de la table, posez un torchon bleu roulé en rond : c'est la fontaine. Derrière, mettez un coussin vert ou une plante : c'est le bois d'où sort {{r3}}. Gardez le mouchoir et le bracelet à portée de main, derrière le décor.",
+      "description": "À droite de la table, posez un torchon bleu roulé en rond : c’est la fontaine. Derrière, mettez un coussin vert ou une plante : c’est le bois d’où sort {{r3}}. Gardez le mouchoir et le bracelet à portée de main, derrière le décor.",
       "accessoires": [
         "un mouchoir (le châle de vieille de {{r3}})",
         "un bracelet (la couronne de princesse de {{r3}})"
@@ -485,167 +600,198 @@
       "id": "a1",
       "numero": 1,
       "titre": "La pauvre vieille",
+      "resume": "{{r4}}, la mère, adore {{r2}} et fait tout faire à {{r1}}. À la fontaine, {{r1}} donne gentiment à boire à une pauvre vieille : c’est {{r3}} la fée, qui lui fait un don.",
       "tableauId": "t2",
-      "resume": "Vous racontez en quelques phrases la mère qui adore {{r2}} et fait tout faire à {{r1}}. À la fontaine, {{r1}} donne gentiment à boire à une pauvre vieille : c'est {{r3}} la fée, qui lui fait un don.",
       "elements": [
         {
           "id": "a1e1",
           "type": "conteur",
-          "texte": "Il était une fois une veuve qui avait deux filles : l’aînée, {{r2}}, lui ressemblait si fort d’humeur et de visage, que, qui la voyait, voyait la mère."
+          "texte": "Il était une fois une veuve, {{r4}}, qui avait deux filles : l’aînée, {{r2}}, lui ressemblait si fort d’humeur et de visage, que, qui la voyait, voyait la mère."
         },
         {
           "id": "a1e2",
-          "type": "conteur",
-          "texte": "Elles étaient toutes deux si désagréables et si orgueilleuses, qu’on ne pouvait vivre avec elles."
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
         },
         {
           "id": "a1e3",
-          "type": "conteur",
-          "texte": "La cadette, {{r1}}, était le vrai portrait de son père pour la douceur et la gentillesse."
+          "type": "didascalie",
+          "texte": "{{r4}} sort de la maison et regarde à gauche, à droite, le nez en l’air."
         },
         {
           "id": "a1e4",
           "type": "conteur",
-          "texte": "Comme on aime naturellement son semblable, cette mère était folle de {{r2}} et, en même temps, avait une aversion effroyable pour {{r1}}."
+          "texte": "Elles étaient toutes deux si désagréables et si orgueilleuses, qu’on ne pouvait vivre avec elles."
         },
         {
           "id": "a1e5",
           "type": "conteur",
-          "texte": "Elle la faisait manger à la cuisine et travailler sans cesse."
+          "texte": "La cadette, {{r1}}, était le vrai portrait de son père pour la douceur et la gentillesse."
         },
         {
           "id": "a1e6",
-          "type": "note_marionnettiste",
-          "texte": "Voix de la Mère, en coulisse : \"{{r1}} !\""
+          "type": "conteur",
+          "texte": "Comme on aime naturellement son semblable, cette mère était folle de {{r2}} et, en même temps, avait une aversion effroyable pour {{r1}}."
         },
         {
           "id": "a1e7",
+          "type": "conteur",
+          "texte": "Elle la faisait manger à la cuisine et travailler sans cesse."
+        },
+        {
+          "id": "a1e8",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "{{r1}} !",
+          "ton": "sèchement, très fort, vers la cuisine"
+        },
+        {
+          "id": "a1e9",
           "type": "entree",
           "marionnetteId": "r1",
           "mainMarionnettiste": "M1G"
         },
         {
-          "id": "a1e8",
+          "id": "a1e10",
           "type": "replique",
           "marionnetteId": "r1",
           "texte": "J’arrive !",
           "ton": "doucement, vite"
         },
         {
-          "id": "a1e9",
+          "id": "a1e11",
           "type": "conteur",
           "texte": "Il fallait, entre autres choses, que cette pauvre enfant allât, deux fois le jour, puiser de l’eau à une grande demi-lieue du logis, et qu’elle en rapportât plein une grande cruche."
         },
         {
-          "id": "a1e10",
+          "id": "a1e12",
+          "type": "didascalie",
+          "texte": "{{r4}} montre la fontaine d’un grand coup de tête, puis rentre dans la maison."
+        },
+        {
+          "id": "a1e13",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e14",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Marchez avec moi jusqu’à la fontaine : un, deux ! un, deux !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e15",
           "type": "didascalie",
           "texte": "{{r1}} trottine jusqu’à la fontaine, puis se penche dessus comme pour remplir sa cruche."
         },
         {
-          "id": "a1e11",
+          "id": "a1e16",
           "type": "note_marionnettiste",
           "texte": "Avant d’enfiler {{r3}}, posez-lui le mouchoir sur la tête : c’est la pauvre femme de village."
         },
         {
-          "id": "a1e12",
+          "id": "a1e17",
           "type": "entree",
           "marionnetteId": "r3",
           "mainMarionnettiste": "M1D"
         },
         {
-          "id": "a1e13",
+          "id": "a1e18",
           "type": "didascalie",
           "texte": "{{r3}} avance tout doucement, courbée en avant, en tremblotant un peu, et s’arrête près de {{r1}}."
         },
         {
-          "id": "a1e14",
+          "id": "a1e19",
           "type": "replique",
           "marionnetteId": "r3",
           "texte": "Je vous prie, donnez-moi à boire.",
           "ton": "voix de vieille, lente et fatiguée"
         },
         {
-          "id": "a1e15",
+          "id": "a1e20",
           "type": "didascalie",
           "texte": "{{r1}} se redresse et se tourne vers {{r3}}."
         },
         {
-          "id": "a1e16",
+          "id": "a1e21",
           "type": "replique",
           "marionnetteId": "r1",
           "texte": "Bien volontiers, ma bonne mère.",
           "ton": "doucement, avec un grand sourire"
         },
         {
-          "id": "a1e17",
+          "id": "a1e22",
           "type": "didascalie",
           "texte": "{{r1}} se penche vers la fontaine pour rincer la cruche, puis pour puiser l’eau, puis s’approche tout près de {{r3}} et reste penchée vers elle pendant qu’elle boit."
         },
         {
-          "id": "a1e18",
+          "id": "a1e23",
           "type": "note_marionnettiste",
           "texte": "Faites à la voix quelques petites gorgées : « glou… glou… glou ». Puis {{r1}} recule d’un pas."
         },
         {
-          "id": "a1e19",
+          "id": "a1e24",
           "type": "replique",
           "marionnetteId": "r3",
           "texte": "Vous êtes si bonne et si aimable, que je ne puis m’empêcher de vous faire un don.",
           "ton": "voix de vieille, tout attendrie"
         },
         {
-          "id": "a1e20",
+          "id": "a1e25",
           "type": "didascalie",
           "texte": "{{r3}} se redresse d’un coup, bien droite, les ailes en avant."
         },
         {
-          "id": "a1e21",
+          "id": "a1e26",
           "type": "conteur",
           "texte": "Car c’était {{r3}}, une fée qui avait pris la forme d’une pauvre femme de village, pour voir jusqu’où irait la gentillesse de {{r1}}."
         },
         {
-          "id": "a1e22",
+          "id": "a1e27",
           "type": "didascalie",
-          "texte": "{{r3}} touche la tête de {{r1}} du bout de sa baguette."
+          "texte": "{{r3}} touche doucement la tête de {{r1}} du bout du nez."
         },
         {
-          "id": "a1e23",
+          "id": "a1e28",
           "type": "replique",
           "marionnetteId": "r3",
           "texte": "Je vous donne pour don qu’à chaque parole que vous direz, il vous sortira de la bouche ou une fleur, ou une pierre précieuse.",
           "ton": "claire et douce, sa vraie voix de fée"
         },
         {
-          "id": "a1e24",
+          "id": "a1e29",
           "type": "adresse_public",
           "marionnetteId": "r3",
           "texte": "Chaque fois que {{r1}} parle, une fleur ou une perle tombe de sa bouche : faites « ting ! » avec moi.",
           "attenteReponse": false
         },
         {
-          "id": "a1e25",
+          "id": "a1e30",
           "type": "note_marionnettiste",
           "texte": "{{r3}} est tournée vers les enfants, {{r1}} ne bouge pas. Faites un « ting ! » clair pour leur montrer, puis enchaînez avec la réplique de {{r1}}."
         },
         {
-          "id": "a1e26",
+          "id": "a1e31",
           "type": "replique",
           "marionnetteId": "r1",
           "texte": "Au revoir, ma bonne mère !",
           "ton": "joyeuse, en faisant un petit signe de la tête"
         },
         {
-          "id": "a1e27",
+          "id": "a1e32",
           "type": "note_marionnettiste",
           "texte": "Juste après, faites « ting ! » avec les enfants. S’ils n’osent pas, faites-le seul et bien fort : ils suivront la fois d’après."
         },
         {
-          "id": "a1e28",
+          "id": "a1e33",
           "type": "didascalie",
           "texte": "{{r3}} se retourne et s’éloigne vers le bois."
         },
         {
-          "id": "a1e29",
+          "id": "a1e34",
           "type": "sortie",
           "marionnetteId": "r3",
           "mainMarionnettiste": "M1D"
@@ -656,116 +802,184 @@
       "id": "a2",
       "numero": 2,
       "titre": "Des perles à la maison",
+      "resume": "{{r1}} rentre et s’excuse d’être en retard, et des perles tombent à chaque mot. {{r4}}, éblouie, envoie {{r2}} à la fontaine, et {{r2}} y va en grognant.",
       "tableauId": "t1",
-      "resume": "{{r1}} rentre et s'excuse d'être en retard, et des perles tombent à chaque mot. La mère, éblouie, envoie {{r2}} à la fontaine, et {{r2}} y va en grognant.",
       "elements": [
         {
           "id": "a2e1",
           "type": "didascalie",
-          "texte": "{{r1}} quitte la fontaine et traverse lentement la scène jusqu'à la maison, un peu penchée comme sous une lourde cruche."
+          "texte": "{{r1}} quitte la fontaine et traverse lentement la scène jusqu’à la maison, un peu penchée comme sous une lourde cruche."
         },
         {
           "id": "a2e2",
           "type": "note_marionnettiste",
-          "texte": "Voix de la Mère, en coulisse : \"Vous revenez si tard de la fontaine !\""
+          "texte": "Pendant ce temps, votre main droite passe de {{r3}} à {{r4}}."
         },
         {
           "id": "a2e3",
-          "type": "didascalie",
-          "texte": "{{r1}} sursaute, puis s'incline bien bas vers la coulisse."
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
         },
         {
           "id": "a2e4",
-          "type": "replique",
-          "marionnetteId": "r1",
-          "texte": "Je vous demande pardon, ma mère, d'avoir tardé si longtemps.",
-          "ton": "doucement, un peu inquiète"
+          "type": "didascalie",
+          "texte": "{{r4}} sort de la maison et se plante devant {{r1}}."
         },
         {
           "id": "a2e5",
-          "type": "note_marionnettiste",
-          "texte": "Faites « ting ! ting ! ting ! » d'une petite voix claire, et invitez les enfants à le faire avec vous. Dorénavant, un « ting ! » suit chaque parole de {{r1}}."
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Vous revenez si tard de la fontaine !",
+          "ton": "en grondant"
         },
         {
           "id": "a2e6",
-          "type": "note_marionnettiste",
-          "texte": "Voix de la Mère, en coulisse : \"Que vois-je là ! Je crois qu'il lui sort de la bouche des perles et des diamants. D'où vient cela, ma fille ?\""
+          "type": "didascalie",
+          "texte": "{{r1}} sursaute, puis s’incline bien bas devant {{r4}}."
         },
         {
           "id": "a2e7",
-          "type": "conteur",
-          "texte": "Ce fut là la première fois qu'elle l'appela sa fille."
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je vous demande pardon, ma mère, d’avoir tardé si longtemps.",
+          "ton": "doucement, un peu inquiète"
         },
         {
           "id": "a2e8",
-          "type": "didascalie",
-          "texte": "{{r1}} se tourne vers la coulisse et hoche la tête en parlant."
+          "type": "note_marionnettiste",
+          "texte": "Faites « ting ! ting ! ting ! » d’une petite voix claire, et invitez les enfants à le faire avec vous. Dorénavant, un « ting ! » suit chaque parole de {{r1}}."
         },
         {
           "id": "a2e9",
-          "type": "replique",
-          "marionnetteId": "r1",
-          "texte": "À la fontaine, une pauvre femme m'a priée de lui donner à boire, et elle m'a fait un don.",
-          "ton": "simplement, toute contente"
+          "type": "didascalie",
+          "texte": "{{r4}} recule d’un bond, puis revient tout près de {{r1}}."
         },
         {
           "id": "a2e10",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Que vois-je là ! Je crois qu’il lui sort de la bouche des perles et des diamants.",
+          "ton": "tout étonnée"
+        },
+        {
+          "id": "a2e11",
+          "type": "adresse_public",
+          "marionnetteId": "r4",
+          "texte": "Comptez avec moi : deux roses, deux perles et deux gros diamants !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e12",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "D’où vient cela, ma fille ?",
+          "ton": "d’une voix toute douce"
+        },
+        {
+          "id": "a2e13",
+          "type": "conteur",
+          "texte": "Ce fut là la première fois qu’elle l’appela sa fille."
+        },
+        {
+          "id": "a2e14",
+          "type": "didascalie",
+          "texte": "{{r1}} hoche la tête vers {{r4}} en parlant."
+        },
+        {
+          "id": "a2e15",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "À la fontaine, une pauvre femme m’a priée de lui donner à boire, et elle m’a fait un don.",
+          "ton": "simplement, toute contente"
+        },
+        {
+          "id": "a2e16",
           "type": "note_marionnettiste",
           "texte": "Faites « ting ! » avec les enfants après la phrase de {{r1}}."
         },
         {
-          "id": "a2e11",
-          "type": "note_marionnettiste",
-          "texte": "Voix de la Mère, en coulisse : \"Vraiment, il faut que j'y envoie ma fille.\""
+          "id": "a2e17",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Vraiment, il faut que j’y envoie ma fille.",
+          "ton": "avec gourmandise"
         },
         {
-          "id": "a2e12",
+          "id": "a2e18",
+          "type": "didascalie",
+          "texte": "{{r1}} baisse la tête et repart vers la cuisine."
+        },
+        {
+          "id": "a2e19",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e20",
+          "type": "note_marionnettiste",
+          "texte": "Enfilez {{r2}} sur votre main gauche pendant que {{r4}} l’appelle."
+        },
+        {
+          "id": "a2e21",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "{{r2}} !",
+          "ton": "très fort, vers la maison"
+        },
+        {
+          "id": "a2e22",
           "type": "entree",
           "marionnetteId": "r2",
-          "mainMarionnettiste": "M1D"
+          "mainMarionnettiste": "M1G"
         },
         {
-          "id": "a2e13",
+          "id": "a2e23",
           "type": "didascalie",
-          "texte": "{{r2}} arrive d'un pas raide à côté de sa sœur."
+          "texte": "{{r2}} arrive d’un pas raide à côté de {{r4}}."
         },
         {
-          "id": "a2e14",
-          "type": "note_marionnettiste",
-          "texte": "Voix de la Mère, en coulisse : \"Tenez, {{r2}}, voyez ce qui sort de la bouche de votre sœur, quand elle parle ; ne seriez-vous pas bien contente d'avoir le même don ? Vous n'avez qu'à aller puiser de l'eau à la fontaine, et, quand une pauvre femme vous demandera à boire, lui en donner bien gentiment.\""
+          "id": "a2e24",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Tenez, {{r2}}, voyez ce qui sort de la bouche de votre sœur, quand elle parle ; ne seriez-vous pas bien contente d’avoir le même don ? Vous n’avez qu’à aller puiser de l’eau à la fontaine, et, quand une pauvre femme vous demandera à boire, lui en donner bien gentiment.",
+          "ton": "d’une voix toute sucrée"
         },
         {
-          "id": "a2e15",
+          "id": "a2e25",
           "type": "didascalie",
-          "texte": "{{r2}} tourne le dos à {{r1}} et secoue la tête."
+          "texte": "{{r2}} tourne le dos à {{r4}} et secoue la tête."
         },
         {
-          "id": "a2e16",
+          "id": "a2e26",
           "type": "replique",
           "marionnetteId": "r2",
           "texte": "Il ne manquerait plus que ça : moi, aller à la fontaine !",
           "ton": "fort, en grognant"
         },
         {
-          "id": "a2e17",
-          "type": "didascalie",
-          "texte": "{{r1}} baisse la tête et repart vers la cuisine."
+          "id": "a2e27",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Je veux que vous y alliez, et tout de suite.",
+          "ton": "très fort, d’une voix qui claque"
         },
         {
-          "id": "a2e18",
+          "id": "a2e28",
+          "type": "didascalie",
+          "texte": "{{r2}} saute deux fois sur place, d’un coup sec, comme si elle tapait du pied, et reste là."
+        },
+        {
+          "id": "a2e29",
+          "type": "didascalie",
+          "texte": "{{r4}} rentre dans la maison."
+        },
+        {
+          "id": "a2e30",
           "type": "sortie",
-          "marionnetteId": "r1",
-          "mainMarionnettiste": "M1G"
-        },
-        {
-          "id": "a2e19",
-          "type": "note_marionnettiste",
-          "texte": "Voix de la Mère, en coulisse : \"Je veux que vous y alliez, et tout de suite.\""
-        },
-        {
-          "id": "a2e20",
-          "type": "didascalie",
-          "texte": "{{r2}} saute deux fois sur place, d'un coup sec, comme si elle tapait du pied, et reste là."
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
         }
       ]
     },
@@ -773,83 +987,97 @@
       "id": "a3",
       "numero": 3,
       "titre": "La princesse à la fontaine",
-      "tableauId": "t2",
       "resume": "{{r2}} arrive à la fontaine en grognant. {{r3}}, déguisée cette fois en princesse, lui demande à boire. {{r2}} la rembarre, et {{r3}} lui fait un tout autre don.",
+      "tableauId": "t2",
       "elements": [
         {
           "id": "a3e1",
           "type": "didascalie",
-          "texte": "{{r2}} traverse la table jusqu'à la fontaine en grondant et en secouant la tête à chaque pas."
+          "texte": "{{r2}} traverse la table jusqu’à la fontaine en grondant et en secouant la tête à chaque pas."
         },
         {
           "id": "a3e2",
-          "type": "note_marionnettiste",
-          "texte": "Pendant ce temps, votre main libre ôte le mouchoir de {{r3}}, lui pose le bracelet sur la tête en guise de couronne, puis l'enfile."
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Ronchonnez avec moi : grrr ! grrr ! grrr !",
+          "attenteReponse": true
         },
         {
           "id": "a3e3",
-          "type": "conteur",
-          "texte": "{{r2}} prit le plus beau flacon d'argent qui fût dans le logis."
+          "type": "note_marionnettiste",
+          "texte": "Pendant ce temps, votre main libre ôte le mouchoir de {{r3}}, lui pose le bracelet sur la tête en guise de couronne, puis l’enfile."
         },
         {
           "id": "a3e4",
-          "type": "entree",
-          "marionnetteId": "r3",
-          "mainMarionnettiste": "M1G"
+          "type": "conteur",
+          "texte": "{{r2}} prit le plus beau flacon d’argent qui fût dans le logis."
         },
         {
           "id": "a3e5",
-          "type": "didascalie",
-          "texte": "{{r3}} sort du bois, bien droite, et s'arrête près de {{r2}}."
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
         },
         {
           "id": "a3e6",
+          "type": "didascalie",
+          "texte": "{{r3}} sort du bois, bien droite, et s’arrête près de {{r2}}."
+        },
+        {
+          "id": "a3e7",
           "type": "replique",
           "marionnetteId": "r3",
           "texte": "Voulez-vous me donner à boire ?",
           "ton": "doucement, comme une grande dame"
         },
         {
-          "id": "a3e7",
+          "id": "a3e8",
           "type": "conteur",
-          "texte": "C'était {{r3}}, la même fée qui avait apparu à sa sœur, mais qui avait pris l'air et les habits d'une princesse, pour voir jusqu'où irait la méchanceté de {{r2}}."
+          "texte": "C’était {{r3}}, la même fée qui avait apparu à sa sœur, mais qui avait pris l’air et les habits d’une princesse, pour voir jusqu’où irait la méchanceté de {{r2}}."
         },
         {
-          "id": "a3e8",
+          "id": "a3e9",
+          "type": "adresse_public",
+          "marionnetteId": "r3",
+          "texte": "Chut ! Ne lui dites pas qui je suis !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e10",
           "type": "didascalie",
           "texte": "{{r2}} tourne le dos à {{r3}}."
         },
         {
-          "id": "a3e9",
+          "id": "a3e11",
           "type": "replique",
           "marionnetteId": "r2",
-          "texte": "Est-ce que je suis venue ici pour vous donner à boire ! Justement j'ai apporté un flacon d'argent tout exprès pour donner à boire à Madame ? Non mais voyez-vous ça : buvez à même la fontaine si vous voulez.",
-          "ton": "sèchement, en grognant, le nez en l'air"
+          "texte": "Est-ce que je suis venue ici pour vous donner à boire ! Justement j’ai apporté un flacon d’argent tout exprès pour donner à boire à Madame ? Non mais voyez-vous ça : buvez à même la fontaine si vous voulez.",
+          "ton": "sèchement, en grognant, le nez en l’air"
         },
         {
-          "id": "a3e10",
+          "id": "a3e12",
           "type": "replique",
           "marionnetteId": "r3",
-          "texte": "Vous n'êtes guère aimable. Eh bien ! puisque vous êtes si peu obligeante, je vous donne pour don qu'à chaque parole que vous direz, il vous sortira de la bouche ou un serpent, ou un crapaud.",
-          "ton": "calme, sans se mettre en colère, d'une voix posée"
+          "texte": "Vous n’êtes guère aimable. Eh bien ! puisque vous êtes si peu obligeante, je vous donne pour don qu’à chaque parole que vous direz, il vous sortira de la bouche ou un serpent, ou un crapaud.",
+          "ton": "calme, sans se mettre en colère, d’une voix posée"
         },
         {
-          "id": "a3e11",
+          "id": "a3e13",
           "type": "adresse_public",
           "marionnetteId": "r3",
           "texte": "Maintenant, à chaque mot de {{r2}}, un crapaud saute de sa bouche : faites « ploc ! » avec moi.",
           "attenteReponse": true
         },
         {
-          "id": "a3e12",
+          "id": "a3e14",
           "type": "note_marionnettiste",
           "texte": "Faites « ploc ! » avec les enfants une ou deux fois. {{r2}} ne réagit pas."
         },
         {
-          "id": "a3e13",
+          "id": "a3e15",
           "type": "sortie",
           "marionnetteId": "r3",
-          "mainMarionnettiste": "M1G"
+          "mainMarionnettiste": "M1D"
         }
       ]
     },
@@ -857,8 +1085,8 @@
       "id": "a4",
       "numero": 4,
       "titre": "Ploc à la maison, bonheur au loin",
+      "resume": "{{r2}} rentre, et des crapauds sautent dès son premier mot. {{r4}} accuse {{r1}}, qui s’enfuit dans le bois, où le fils du roi l’emmène au palais pour l’épouser. {{r2}}, chassée par sa propre mère, va mourir seule au coin d’un bois.",
       "tableauId": "t1",
-      "resume": "{{r2}} rentre, et des crapauds sautent dès son premier mot. La mère accuse {{r1}}, qui s'enfuit dans le bois, où le fils du roi l'emmène au palais pour l'épouser. {{r2}}, elle, finit toute seule.",
       "elements": [
         {
           "id": "a4e1",
@@ -868,463 +1096,254 @@
         {
           "id": "a4e2",
           "type": "note_marionnettiste",
-          "texte": "Voix de la Mère, en coulisse : \"Eh bien ! ma fille !\""
+          "texte": "Pendant ce temps, votre main droite passe de {{r3}} à {{r4}}."
         },
         {
           "id": "a4e3",
-          "type": "didascalie",
-          "texte": "{{r2}} se tourne d'un bloc vers la coulisse."
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
         },
         {
           "id": "a4e4",
+          "type": "didascalie",
+          "texte": "{{r4}} sort de la maison en sautillant d’impatience."
+        },
+        {
+          "id": "a4e5",
+          "type": "adresse_public",
+          "marionnetteId": "r4",
+          "texte": "Vous allez voir : des perles et des diamants !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a4e6",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Eh bien ! ma fille !",
+          "ton": "toute joyeuse"
+        },
+        {
+          "id": "a4e7",
+          "type": "didascalie",
+          "texte": "{{r2}} se tourne d’un bloc vers {{r4}}."
+        },
+        {
+          "id": "a4e8",
           "type": "replique",
           "marionnetteId": "r2",
           "texte": "Eh bien ! ma mère !",
           "ton": "fort, grognon"
         },
         {
-          "id": "a4e5",
+          "id": "a4e9",
           "type": "note_marionnettiste",
           "texte": "Faites faire aux enfants quatre « ploc ! », un à un, pendant que {{r2}} sursaute à chaque ploc."
         },
         {
-          "id": "a4e6",
-          "type": "note_marionnettiste",
-          "texte": "Voix de la Mère, en coulisse : \"Ô ciel, que vois-je là ? C'est sa sœur qui en est cause : elle me le paiera.\""
-        },
-        {
-          "id": "a4e7",
+          "id": "a4e10",
           "type": "didascalie",
-          "texte": "{{r2}} tape du pied, tourne le dos et s'en va en boudant."
+          "texte": "{{r4}} recule d’un bond et tremble de tout son corps."
         },
         {
-          "id": "a4e8",
+          "id": "a4e11",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Ô ciel, que vois-je là ? C’est sa sœur qui en est cause : elle me le paiera.",
+          "ton": "en criant"
+        },
+        {
+          "id": "a4e12",
+          "type": "didascalie",
+          "texte": "{{r2}} tape du pied, tourne le dos et s’en va en boudant."
+        },
+        {
+          "id": "a4e13",
           "type": "sortie",
           "marionnetteId": "r2",
-          "mainMarionnettiste": "M1D"
+          "mainMarionnettiste": "M1G"
         },
         {
-          "id": "a4e9",
+          "id": "a4e14",
           "type": "note_marionnettiste",
-          "texte": "Prenez le temps d'enfiler {{r1}} sur votre main gauche, restée libre. Laissez un petit silence avant de la faire entrer."
+          "texte": "Prenez le temps d’enfiler {{r1}} sur votre main gauche, restée libre. Laissez un petit silence avant de la faire entrer."
         },
         {
-          "id": "a4e10",
+          "id": "a4e15",
           "type": "entree",
           "marionnetteId": "r1",
           "mainMarionnettiste": "M1G"
         },
         {
-          "id": "a4e11",
+          "id": "a4e16",
           "type": "didascalie",
           "texte": "{{r1}} entre du côté de la maison, près du coussin de la cuisine."
         },
         {
-          "id": "a4e12",
+          "id": "a4e17",
           "type": "conteur",
-          "texte": "La mère courut pour battre {{r1}}."
+          "texte": "{{r4}} courut pour battre {{r1}}."
         },
         {
-          "id": "a4e13",
+          "id": "a4e18",
           "type": "didascalie",
-          "texte": "Frappez sur la table, de plus en plus vite, comme des pas qui arrivent. {{r1}} tremble de tout son corps."
+          "texte": "{{r4}} fonce vers {{r1}} en frappant la table à chaque pas, de plus en plus vite. {{r1}} tremble de tout son corps."
         },
         {
-          "id": "a4e14",
+          "id": "a4e19",
           "type": "didascalie",
-          "texte": "{{r1}} s'enfuit en courant de l'autre côté de la table, près de la fontaine, au bord du bois, et s'y cache, la tête baissée."
+          "texte": "{{r1}} recule jusqu’au bord de la table et se cache derrière le coussin de la cuisine, en tremblant."
         },
         {
-          "id": "a4e15",
+          "id": "a4e20",
+          "type": "didascalie",
+          "texte": "{{r4}} s’arrête, souffle très fort, et rentre dans la maison. Alors {{r1}} sort de sa cachette et s’enfuit en courant jusqu’à l’autre bout de la table, au bord du bois, la tête baissée."
+        },
+        {
+          "id": "a4e21",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e22",
           "type": "conteur",
           "texte": "Le fils du roi, qui revenait de la chasse, la rencontra."
         },
         {
-          "id": "a4e16",
-          "type": "note_marionnettiste",
-          "texte": "Voix du Fils du roi, en coulisse : \"Que faites-vous là toute seule ? Qu'avez-vous à pleurer ?\""
-        },
-        {
-          "id": "a4e17",
-          "type": "didascalie",
-          "texte": "{{r1}} relève la tête et se tourne vers la coulisse."
-        },
-        {
-          "id": "a4e18",
-          "type": "replique",
-          "marionnetteId": "r1",
-          "texte": "Hélas ! Monsieur, c'est ma mère qui m'a chassée du logis.",
-          "ton": "doucement, triste"
-        },
-        {
-          "id": "a4e19",
-          "type": "note_marionnettiste",
-          "texte": "Faites avec les enfants une pluie de « ting ! » clairs, cinq ou six, pour les perles et les diamants."
-        },
-        {
-          "id": "a4e20",
-          "type": "conteur",
-          "texte": "Le fils du roi, qui vit sortir de la bouche de {{r1}} cinq ou six perles et autant de diamants, la pria de lui dire d'où cela lui venait."
-        },
-        {
-          "id": "a4e21",
-          "type": "conteur",
-          "texte": "Elle lui conta toute son aventure."
-        },
-        {
-          "id": "a4e22",
-          "type": "didascalie",
-          "texte": "{{r1}} hoche la tête longtemps vers la coulisse, comme si elle racontait, pendant que vous faites de petits « ting ! »."
-        },
-        {
           "id": "a4e23",
-          "type": "conteur",
-          "texte": "Le fils du roi considérant qu'un tel don valait mieux que tout ce qu'on pouvait donner en mariage à une autre, l'emmena au palais du roi son père, où il l'épousa."
+          "type": "note_marionnettiste",
+          "texte": "Voix du Fils du roi, en coulisse : « Que faites-vous là toute seule ? Qu’avez-vous à pleurer ? »"
         },
         {
           "id": "a4e24",
           "type": "didascalie",
-          "texte": "{{r1}} sautille de joie vers la coulisse et s'en va."
+          "texte": "{{r1}} relève la tête et se tourne vers la coulisse."
         },
         {
           "id": "a4e25",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Hélas ! Monsieur, c’est ma mère qui m’a chassée du logis.",
+          "ton": "doucement, triste"
+        },
+        {
+          "id": "a4e26",
+          "type": "note_marionnettiste",
+          "texte": "Faites avec les enfants une pluie de « ting ! » clairs, cinq ou six, pour les perles et les diamants."
+        },
+        {
+          "id": "a4e27",
+          "type": "conteur",
+          "texte": "Le fils du roi, qui vit sortir de la bouche de {{r1}} cinq ou six perles et autant de diamants, la pria de lui dire d’où cela lui venait."
+        },
+        {
+          "id": "a4e28",
+          "type": "conteur",
+          "texte": "Elle lui conta toute son aventure."
+        },
+        {
+          "id": "a4e29",
+          "type": "didascalie",
+          "texte": "{{r1}} hoche la tête longtemps vers la coulisse, comme si elle racontait, pendant que vous faites de petits « ting ! »."
+        },
+        {
+          "id": "a4e30",
+          "type": "conteur",
+          "texte": "Le fils du roi considérant qu’un tel don valait mieux que tout ce qu’on pouvait donner en mariage à une autre, l’emmena au palais du roi son père, où il l’épousa."
+        },
+        {
+          "id": "a4e31",
+          "type": "didascalie",
+          "texte": "{{r1}} sautille de joie vers la coulisse et s’en va."
+        },
+        {
+          "id": "a4e32",
           "type": "sortie",
           "marionnetteId": "r1",
           "mainMarionnettiste": "M1G"
         },
         {
-          "id": "a4e26",
+          "id": "a4e33",
           "type": "entree",
           "marionnetteId": "r2",
           "mainMarionnettiste": "M1D"
         },
         {
-          "id": "a4e27",
+          "id": "a4e34",
           "type": "conteur",
           "texte": "Pour {{r2}}, elle se fit tant haïr, que sa propre mère la chassa de chez elle."
         },
         {
-          "id": "a4e28",
+          "id": "a4e35",
           "type": "didascalie",
-          "texte": "{{r2}} court d'un bout à l'autre de la scène. Frappez un coup sur la table à gauche, puis à droite, comme à des portes : rien ne bouge. {{r2}} s'arrête, toute seule."
+          "texte": "{{r2}} court d’un bout à l’autre de la scène. Frappez un coup sur la table à gauche, puis à droite, comme à des portes : rien ne bouge. {{r2}} s’arrête, toute seule."
         },
         {
-          "id": "a4e29",
+          "id": "a4e36",
           "type": "replique",
           "marionnetteId": "r2",
           "texte": "Ouvrez-moi !",
           "ton": "fort, grognon"
         },
         {
-          "id": "a4e30",
+          "id": "a4e37",
           "type": "note_marionnettiste",
           "texte": "Tournez-vous vers les enfants et dites-leur : « Le plus gros ploc du monde, tous ensemble ! » Faites avec eux un énorme « PLOC ! » et {{r2}} fait un grand bond en arrière."
         },
         {
-          "id": "a4e31",
+          "id": "a4e38",
           "type": "didascalie",
-          "texte": "{{r2}} baisse la tête et s'en va lentement vers le bois, toute seule."
+          "texte": "{{r2}} baisse la tête et s’en va lentement vers le bois, toute seule."
         },
         {
-          "id": "a4e32",
+          "id": "a4e39",
           "type": "sortie",
           "marionnetteId": "r2",
           "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e40",
+          "type": "conteur",
+          "texte": "Et la malheureuse, après avoir bien couru sans trouver personne qui voulût la recevoir, alla mourir au coin d’un bois."
         }
       ]
     }
   ],
   "bible": {
+    "conteId": "fr-perrault-les-fees",
     "synopsis": {
-      "conte": "fr-perrault-les-fees",
-      "titre": "Les Fées",
       "accroche": "Une fée déguisée demande à boire à deux sœurs à la fontaine : la sœur polie en est récompensée, la sœur malpolie en est punie.",
       "resume": [
-        "{{r1}} et {{r2}} sont deux sœurs. Leur mère adore {{r2}}, l'orgueilleuse, et fait tout faire à {{r1}}, qui va chaque jour chercher l'eau à la fontaine.",
-        "À la fontaine, {{r3}}, déguisée en pauvre vieille, demande à boire, et {{r1}} lui donne gentiment de l'eau. {{r3}} est une fée : désormais, à chaque mot de {{r1}}, une fleur ou une perle lui sort de la bouche. On l'entend faire « ting ! ».",
-        "La mère, éblouie, envoie {{r2}} à la fontaine pour qu'elle reçoive le même don. {{r2}} y va en grognant.",
-        "Cette fois, {{r3}} est déguisée en princesse et demande à boire. {{r2}} lui répond grossièrement : désormais, à chaque mot de {{r2}}, un serpent ou un crapaud lui sort de la bouche. On l'entend faire « ploc ! ».",
-        "{{r1}} part au loin et trouve le bonheur. {{r2}} ne peut plus dire un mot sans qu'un crapaud saute de sa bouche, et elle reste seule."
-      ],
-      "distribution": [
-        {
-          "marionnette": "{{r1}}",
-          "role": "la Cadette",
-          "note": "Gentille et travailleuse, avec son tablier et son sourire cousu : c'est la sœur polie."
-        },
-        {
-          "marionnette": "{{r2}}",
-          "role": "l'Aînée",
-          "note": "Orgueilleuse et grognonne, avec ses sourcils froncés : c'est la sœur malpolie. Comme {{r1}}, c'est une poupée de chiffon, et les deux font de vraies sœurs."
-        },
-        {
-          "marionnette": "{{r3}}",
-          "role": "la Fée",
-          "note": "Sage et rusée, et c'est déjà une fée : elle met ses sœurs à l'épreuve sous deux déguisements."
-        }
-      ],
-      "changements": [
-        "La mère n'a pas de marionnette : on n'entend que sa voix, que vous faites depuis derrière le décor.",
-        "La scène du début, à la maison, tient en quelques phrases pour que le spectacle dure 5 minutes, et les deux visites à la fontaine sont jouées en entier.",
-        "Entre les deux visites, {{r3}} sort et revient : elle porte d'abord un châle de vieille, puis une petite couronne de princesse."
-      ],
-      "id": "fr-perrault-les-fees",
-      "reference": "Les Fées — France, Charles Perrault, Histoires ou contes du temps passé, 1697",
-      "annonces": []
-    },
-    "conteId": "fr-perrault-les-fees",
-    "adaptation": {
-      "titre": "Ting et ploc à la fontaine",
-      "pitch": "Une fée déguisée demande à boire à deux sœurs : la gentille {{r1}} en reçoit des perles qui tintent à chaque mot, la grognonne {{r2}} des crapauds qui font ploc.",
-      "changements": [
-        "Le début à la maison tient en quelques phrases que vous dites en conteur, et les deux visites à la fontaine sont jouées en entier, comme promis.",
-        "La mère n'a pas de marionnette : vous faites sa voix depuis derrière le décor, sèche et criarde, et on ne la voit jamais.",
-        "Le fils du roi n'a pas de marionnette non plus : on entend sa voix en coulisse pour une seule question, puis vous racontez le mariage en conteur.",
-        "{{r3}} change de déguisement en coulisse : elle sort, vous posez sur elle un mouchoir en guise de châle de vieille, puis plus tard un bracelet en guise de couronne de princesse, et elle revient.",
-        "La cruche de {{r1}} et le flacon d'argent de {{r2}} n'existent que par les paroles : les poupées se penchent vers la fontaine, et ce qu'elles disent suffit.",
-        "Les fleurs, les perles, les serpents et les crapauds ne se voient pas : ils s'entendent, par un « ting ! » clair pour {{r1}} et un « ploc ! » pour {{r2}}.",
-        "À la fin, {{r2}} ne meurt pas au coin d'un bois : comme dans votre résumé, personne ne veut d'elle, et elle reste toute seule avec ses crapauds."
-      ],
-      "tableaux": [
-        {
-          "id": "t1",
-          "titre": "La maison",
-          "description": "À gauche de la table, posez un carton debout : c'est le mur de la maison. Devant, mettez un petit coussin : c'est le coin de la cuisine où {{r1}} travaille. Vous vous tenez derrière la table, caché par un drap tendu si vous en avez un.",
-          "accessoires": [],
-          "promptImage": ""
-        },
-        {
-          "id": "t2",
-          "titre": "La fontaine au bord du bois",
-          "description": "À droite de la table, posez un torchon bleu roulé en rond : c'est la fontaine. Derrière, mettez un coussin vert ou une plante : c'est le bois d'où sort {{r3}}. Gardez le mouchoir et le bracelet à portée de main, derrière le décor.",
-          "accessoires": [
-            "un mouchoir (le châle de vieille de {{r3}})",
-            "un bracelet (la couronne de princesse de {{r3}})"
-          ],
-          "promptImage": ""
-        }
-      ],
-      "actes": [
-        {
-          "numero": 1,
-          "titre": "La pauvre vieille",
-          "tableauId": "t2",
-          "resume": "Vous racontez en quelques phrases la mère qui adore {{r2}} et fait tout faire à {{r1}}. À la fontaine, {{r1}} donne gentiment à boire à une pauvre vieille : c'est {{r3}} la fée, qui lui fait un don.",
-          "passage": "De « Il était une fois une veuve » à « …ou une pierre précieuse. »",
-          "temps": [
-            "En conteur, vous présentez les deux sœurs et la mère qui préfère {{r2}}. La voix de la mère crie depuis la coulisse que {{r1}} doit aller chercher l'eau.",
-            "{{r1}} entre, trottine jusqu'à la fontaine et se penche dessus comme pour remplir sa cruche.",
-            "{{r3}} entre avec son mouchoir de vieille, toute courbée, et demande à boire. {{r1}} répond « Bien volontiers, ma bonne mère », se penche vers la fontaine, puis s'approche tout près de {{r3}} pour la faire boire.",
-            "{{r3}} se redresse, dit qu'elle est une fée et fait son don, puis s'en va dans le bois. Au premier mot suivant de {{r1}}, on entend « ting ! »."
-          ],
-          "mouvements": [
-            {
-              "type": "entree",
-              "marionnette": "{{r1}}",
-              "main": "M1D"
-            },
-            {
-              "type": "entree",
-              "marionnette": "{{r3}}",
-              "main": "M1G"
-            },
-            {
-              "type": "sortie",
-              "marionnette": "{{r3}}",
-              "main": "M1G"
-            }
-          ],
-          "momentsPublic": [
-            "Juste après le don, vous dites aux enfants : « Chaque fois que {{r1}} parle, une fleur ou une perle tombe de sa bouche : faites “ting !” avec moi. » Ensuite, vous le faites ensemble à chaque réplique de {{r1}}."
-          ],
-          "budgetMots": 130
-        },
-        {
-          "numero": 2,
-          "titre": "Des perles à la maison",
-          "tableauId": "t1",
-          "resume": "{{r1}} rentre et s'excuse d'être en retard, et des perles tombent à chaque mot. La mère, éblouie, envoie {{r2}} à la fontaine, et {{r2}} y va en grognant.",
-          "passage": "De « Lorsque {{r1}} arriva au logis » à « …et tout de suite. »",
-          "temps": [
-            "{{r1}}, restée en scène, marche de la fontaine jusqu'à la maison. La voix de la mère la gronde d'être en retard. {{r1}} demande pardon, et les enfants font « ting ! ».",
-            "La mère s'étonne des perles et des diamants. {{r1}} raconte son aventure en quelques mots, avec des « ting ! » à chaque phrase.",
-            "{{r2}} entre, sourcils froncés. La mère lui dit d'aller à la fontaine et d'être gentille avec la pauvre femme. {{r2}} répond : « Moi, aller à la fontaine ! »",
-            "{{r1}} retourne dans sa cuisine et sort. La mère insiste : « Je veux que vous y alliez, et tout de suite. » {{r2}} tape du pied et reste en scène."
-          ],
-          "mouvements": [
-            {
-              "type": "entree",
-              "marionnette": "{{r2}}",
-              "main": "M1G"
-            },
-            {
-              "type": "sortie",
-              "marionnette": "{{r1}}",
-              "main": "M1D"
-            }
-          ],
-          "momentsPublic": [],
-          "budgetMots": 120
-        },
-        {
-          "numero": 3,
-          "titre": "La princesse à la fontaine",
-          "tableauId": "t2",
-          "resume": "{{r2}} arrive à la fontaine en grognant. {{r3}}, déguisée cette fois en princesse, lui demande à boire. {{r2}} la rembarre, et {{r3}} lui fait un tout autre don.",
-          "passage": "De « {{r2}} y alla, mais toujours en grondant » à « …ou un serpent, ou un crapaud. »",
-          "temps": [
-            "{{r2}} traverse la table jusqu'à la fontaine en ronchonnant sur son beau flacon d'argent. Pendant qu'elle grogne, votre main libre ôte le mouchoir de {{r3}} et lui pose le bracelet sur la tête.",
-            "{{r3}} entre avec sa couronne, droite et majestueuse, et demande à boire. Les enfants savent déjà ce qui va se passer.",
-            "{{r2}} se détourne d'elle et lui répond grossièrement : « Buvez à même la fontaine si vous voulez ! »",
-            "{{r3}}, sans se fâcher, lui fait son don, puis s'en va dans le bois. {{r2}} reste seule devant la fontaine."
-          ],
-          "mouvements": [
-            {
-              "type": "entree",
-              "marionnette": "{{r3}}",
-              "main": "M1D"
-            },
-            {
-              "type": "sortie",
-              "marionnette": "{{r3}}",
-              "main": "M1D"
-            }
-          ],
-          "momentsPublic": [
-            "Après le don de {{r2}}, vous dites aux enfants : « Maintenant, à chaque mot de {{r2}}, un crapaud saute de sa bouche : faites “ploc !” avec moi. »"
-          ],
-          "budgetMots": 110
-        },
-        {
-          "numero": 4,
-          "titre": "Ploc à la maison, bonheur au loin",
-          "tableauId": "t1",
-          "resume": "{{r2}} rentre, et des crapauds sautent dès son premier mot. La mère accuse {{r1}}, qui s'enfuit dans le bois, où le fils du roi l'emmène au palais pour l'épouser. {{r2}}, elle, finit toute seule.",
-          "passage": "De « Dès que sa mère l'aperçut » à « …alla mourir au coin d'un bois. »",
-          "temps": [
-            "{{r2}} revient à la maison. La voix de la mère crie : « Eh bien ! ma fille ! » {{r2}} répond : « Eh bien ! ma mère ! », et les enfants font « ploc ! ». La mère s'écrie que c'est la faute de {{r1}}, et {{r2}} sort en boudant.",
-            "{{r1}} entre. La voix de la mère menace de la battre. {{r1}} tremble, puis s'enfuit de l'autre côté de la table, près de la fontaine, au bord du bois.",
-            "La voix du fils du roi, en coulisse, lui demande pourquoi elle pleure. {{r1}} répond : « Hélas ! Monsieur, c'est ma mère qui m'a chassée du logis », avec des « ting ! ». En conteur, vous racontez qu'il l'emmène au palais et l'épouse. {{r1}} sort, toute contente.",
-            "{{r2}} revient seule. En conteur, vous dites que sa propre mère l'a chassée et que personne ne veut d'elle. {{r2}} essaie de parler, un dernier gros « ploc ! » l'en empêche, et elle sort toute seule."
-          ],
-          "mouvements": [
-            {
-              "type": "sortie",
-              "marionnette": "{{r2}}",
-              "main": "M1G"
-            },
-            {
-              "type": "entree",
-              "marionnette": "{{r1}}",
-              "main": "M1D"
-            },
-            {
-              "type": "sortie",
-              "marionnette": "{{r1}}",
-              "main": "M1D"
-            },
-            {
-              "type": "entree",
-              "marionnette": "{{r2}}",
-              "main": "M1G"
-            },
-            {
-              "type": "sortie",
-              "marionnette": "{{r2}}",
-              "main": "M1G"
-            }
-          ],
-          "momentsPublic": [
-            "Au tout dernier mot de {{r2}}, vous demandez aux enfants : « Le plus gros ploc du monde, tous ensemble ! »"
-          ],
-          "budgetMots": 150
-        }
-      ],
-      "voix": [
-        {
-          "marionnette": "{{r1}}",
-          "voix": "voix douce, claire et un peu rapide, toujours polie : « bien volontiers », « pardon »"
-        },
-        {
-          "marionnette": "{{r2}}",
-          "voix": "voix basse et traînante, souffle un « pfff ! » avant de parler"
-        },
-        {
-          "marionnette": "{{r3}}",
-          "voix": "en vieille : voix chevrotante et très lente ; en princesse : voix haute, calme, chaque mot bien détaché"
-        }
+        "{{r1}} et {{r2}} sont deux sœurs. Leur mère, {{r4}}, adore {{r2}}, l’orgueilleuse, et fait tout faire à {{r1}}, qui va chaque jour chercher l’eau à la fontaine.",
+        "À la fontaine, {{r3}}, déguisée en pauvre vieille, demande à boire, et {{r1}} lui donne gentiment de l’eau. {{r3}} est une fée : désormais, à chaque mot de {{r1}}, une fleur ou une perle lui sort de la bouche. On l’entend faire « ting ! ».",
+        "{{r4}}, éblouie, envoie {{r2}} à la fontaine pour qu’elle reçoive le même don. {{r2}} y va en grognant.",
+        "Cette fois, {{r3}} est déguisée en princesse et demande à boire. {{r2}} lui répond grossièrement : désormais, à chaque mot de {{r2}}, un serpent ou un crapaud lui sort de la bouche. On l’entend faire « ploc ! ».",
+        "{{r4}} veut battre {{r1}}, qui s’enfuit dans la forêt ; le fils du roi l’y rencontre, l’emmène au palais et l’épouse. {{r2}} se fait tant haïr que sa propre mère la chasse, et elle va mourir seule au coin d’un bois."
       ]
     },
     "transposition": {
-      "texte": "Il était une fois une veuve qui avait deux filles : l’aînée, {{r2}}, lui ressemblait si fort d’humeur et de visage, que, qui la voyait, voyait la mère. Elles étaient toutes deux si désagréables et si orgueilleuses, qu’on ne pouvait vivre avec elles. La cadette, {{r1}}, était le vrai portrait de son père pour la douceur et la gentillesse. Comme on aime naturellement son semblable, cette mère était folle de {{r2}} et, en même temps, avait une aversion effroyable pour {{r1}}. Elle la faisait manger à la cuisine et travailler sans cesse.\n\nIl fallait, entre autres choses, que cette pauvre enfant allât, deux fois le jour, puiser de l’eau à une grande demi-lieue du logis, et qu’elle en rapportât plein une grande cruche. Un jour qu’elle était à cette fontaine, il vint à elle une pauvre femme qui la pria de lui donner à boire.\n\n« Bien volontiers, ma bonne mère, » lui dit {{r1}} ; et, rinçant aussitôt sa cruche, elle puisa de l’eau au plus bel endroit de la fontaine et la lui présenta, soutenant toujours la cruche, afin qu’elle bût plus aisément. La bonne femme, ayant bu, lui dit : « Vous êtes si bonne et si aimable, que je ne puis m’empêcher de vous faire un don ; car c’était {{r3}}, une fée qui avait pris la forme d’une pauvre femme de village, pour voir jusqu’où irait la gentillesse de {{r1}}. Je vous donne pour don, poursuivit {{r3}}, qu’à chaque parole que vous direz, il vous sortira de la bouche ou une fleur, ou une pierre précieuse. »\n\nLorsque {{r1}} arriva au logis, sa mère la gronda de revenir si tard de la fontaine. — « Je vous demande pardon, ma mère, dit cette pauvre fille, d’avoir tardé si longtemps ; » — et, en disant ces mots, il lui sortit de la bouche deux roses, deux perles et deux gros diamants. — « Que vois-je là ! dit sa mère tout étonnée ; je crois qu’il lui sort de la bouche des perles et des diamants. D’où vient cela, ma fille ? » (Ce fut là la première fois qu’elle l’appela sa fille). — La pauvre enfant lui raconta naïvement tout ce qui lui était arrivé, non sans jeter une infinité de diamants. — « Vraiment, dit la mère, il faut que j’y envoie ma fille. Tenez, {{r2}}, voyez ce qui sort de la bouche de votre sœur, quand elle parle ; ne seriez-vous pas bien contente d’avoir le même don ? Vous n’avez qu’à aller puiser de l’eau à la fontaine, et, quand une pauvre femme vous demandera à boire, lui en donner bien gentiment. — Il ne manquerait plus que ça, répondit la brutale : moi, aller à la fontaine ! — Je veux que vous y alliez, reprit la mère, et tout de suite. »\n\n{{r2}} y alla, mais toujours en grondant. Elle prit le plus beau flacon d’argent qui fût dans le logis. Elle ne fut pas plus tôt arrivée à la fontaine, qu’elle vit sortir du bois une dame magnifiquement vêtue, qui vint lui demander à boire. C’était {{r3}}, la même fée qui avait apparu à sa sœur, mais qui avait pris l’air et les habits d’une princesse, pour voir jusqu’où irait la méchanceté de {{r2}}. — Est-ce que je suis venue ici, lui dit cette brutale orgueilleuse, pour vous donner à boire ! Justement j’ai apporté un flacon d’argent tout exprès pour donner à boire à Madame ? Non mais voyez-vous ça : buvez à même la fontaine si vous voulez.  — Vous n’êtes guère aimable, reprit {{r3}}, sans se mettre en colère. Eh bien ! puisque vous êtes si peu obligeante, je vous donne pour don qu’à chaque parole que vous direz, il vous sortira de la bouche ou un serpent, ou un crapaud. »\n\nDès que sa mère l’aperçut, elle lui cria : Eh bien ! ma fille ! — Eh bien ! ma mère ! lui répondit la brutale, en jetant deux vipères et deux crapauds. — Ô ciel, s’écria la mère, que vois-je là ? C’est sa sœur qui en est cause : elle me le paiera ; et aussitôt elle courut pour battre {{r1}}. La pauvre enfant s’enfuit et alla se sauver dans la forêt voisine.\n\nLe fils du roi, qui revenait de la chasse, la rencontra et, la voyant si triste, lui demanda ce qu’elle faisait là toute seule et ce qu’elle avait à pleurer ! — « Hélas ! Monsieur, c’est ma mère qui m’a chassée du logis. » — Le fils du roi, qui vit sortir de la bouche de {{r1}} cinq ou six perles et autant de diamants, la pria de lui dire d’où cela lui venait. Elle lui conta toute son aventure. Le fils du roi considérant qu’un tel don valait mieux que tout ce qu’on pouvait donner en mariage à une autre, l’emmena au palais du roi son père, où il l’épousa.\n\nPour {{r2}}, elle se fit tant haïr, que sa propre mère la chassa de chez elle ; et la malheureuse, après avoir bien couru sans trouver personne qui voulût la recevoir, alla mourir au coin d’un bois.",
+      "texte": "Il était une fois une veuve, {{r4}}, qui avait deux filles : l’aînée, {{r2}}, lui ressemblait si fort d’humeur et de visage, que, qui la voyait, voyait la mère. Elles étaient toutes deux si désagréables et si orgueilleuses, qu’on ne pouvait vivre avec elles. La cadette, {{r1}}, était le vrai portrait de son père pour la douceur et la gentillesse. Comme on aime naturellement son semblable, cette mère était folle de {{r2}} et, en même temps, avait une aversion effroyable pour {{r1}}. Elle la faisait manger à la cuisine et travailler sans cesse.\n\nIl fallait, entre autres choses, que cette pauvre enfant allât, deux fois le jour, puiser de l’eau à une grande demi-lieue du logis, et qu’elle en rapportât plein une grande cruche. Un jour qu’elle était à cette fontaine, il vint à elle une pauvre femme qui la pria de lui donner à boire.\n\n« Bien volontiers, ma bonne mère, » lui dit {{r1}} ; et, rinçant aussitôt sa cruche, elle puisa de l’eau au plus bel endroit de la fontaine et la lui présenta, soutenant toujours la cruche, afin qu’elle bût plus aisément. La bonne femme, ayant bu, lui dit : « Vous êtes si bonne et si aimable, que je ne puis m’empêcher de vous faire un don ; car c’était {{r3}}, une fée qui avait pris la forme d’une pauvre femme de village, pour voir jusqu’où irait la gentillesse de {{r1}}. Je vous donne pour don, poursuivit {{r3}}, qu’à chaque parole que vous direz, il vous sortira de la bouche ou une fleur, ou une pierre précieuse. »\n\nLorsque {{r1}} arriva au logis, sa mère la gronda de revenir si tard de la fontaine. — « Je vous demande pardon, ma mère, dit cette pauvre fille, d’avoir tardé si longtemps ; » — et, en disant ces mots, il lui sortit de la bouche deux roses, deux perles et deux gros diamants. — « Que vois-je là ! dit sa mère tout étonnée ; je crois qu’il lui sort de la bouche des perles et des diamants. D’où vient cela, ma fille ? » (Ce fut là la première fois qu’elle l’appela sa fille). — La pauvre enfant lui raconta naïvement tout ce qui lui était arrivé, non sans jeter une infinité de diamants. — « Vraiment, dit la mère, il faut que j’y envoie ma fille. Tenez, {{r2}}, voyez ce qui sort de la bouche de votre sœur, quand elle parle ; ne seriez-vous pas bien contente d’avoir le même don ? Vous n’avez qu’à aller puiser de l’eau à la fontaine, et, quand une pauvre femme vous demandera à boire, lui en donner bien gentiment. — Il ne manquerait plus que ça, répondit la brutale : moi, aller à la fontaine ! — Je veux que vous y alliez, reprit la mère, et tout de suite. »\n\n{{r2}} y alla, mais toujours en grondant. Elle prit le plus beau flacon d’argent qui fût dans le logis. Elle ne fut pas plus tôt arrivée à la fontaine, qu’elle vit sortir du bois une dame magnifiquement vêtue, qui vint lui demander à boire. C’était {{r3}}, la même fée qui avait apparu à sa sœur, mais qui avait pris l’air et les habits d’une princesse, pour voir jusqu’où irait la méchanceté de {{r2}}. — Est-ce que je suis venue ici, lui dit cette brutale orgueilleuse, pour vous donner à boire ! Justement j’ai apporté un flacon d’argent tout exprès pour donner à boire à Madame ? Non mais voyez-vous ça : buvez à même la fontaine si vous voulez. — Vous n’êtes guère aimable, reprit {{r3}}, sans se mettre en colère. Eh bien ! puisque vous êtes si peu obligeante, je vous donne pour don qu’à chaque parole que vous direz, il vous sortira de la bouche ou un serpent, ou un crapaud. »\n\nDès que sa mère l’aperçut, elle lui cria : Eh bien ! ma fille ! — Eh bien ! ma mère ! lui répondit la brutale, en jetant deux vipères et deux crapauds. — Ô ciel, s’écria la mère, que vois-je là ? C’est sa sœur qui en est cause : elle me le paiera ; et aussitôt elle courut pour battre {{r1}}. La pauvre enfant s’enfuit et alla se sauver dans la forêt voisine.\n\nLe fils du roi, qui revenait de la chasse, la rencontra et, la voyant si triste, lui demanda ce qu’elle faisait là toute seule et ce qu’elle avait à pleurer ! — « Hélas ! Monsieur, c’est ma mère qui m’a chassée du logis. » — Le fils du roi, qui vit sortir de la bouche de {{r1}} cinq ou six perles et autant de diamants, la pria de lui dire d’où cela lui venait. Elle lui conta toute son aventure. Le fils du roi considérant qu’un tel don valait mieux que tout ce qu’on pouvait donner en mariage à une autre, l’emmena au palais du roi son père, où il l’épousa.\n\nPour {{r2}}, elle se fit tant haïr, que sa propre mère la chassa de chez elle ; et la malheureuse, après avoir bien couru sans trouver personne qui voulût la recevoir, alla mourir au coin d’un bois.",
       "changements": [
-        "La mère, sans marionnette mais gardée par le synopsis comme voix depuis la coulisse, reste telle quelle dans le texte.",
-        "Le fils du roi, sans marionnette et que le synopsis ne supprime ni ne fond avec un autre personnage, reste tel quel comme figurant du récit.",
-        "Le nom « Fanchon », que la mère donne à l’aînée, devient « {{r2}} »."
-      ]
-    },
-    "retouches": {
-      "age": 7,
-      "profil": [],
-      "annonces": []
-    },
-    "relecture": {
-      "remarques": [
-        {
-          "acte": 4,
-          "element": 1,
-          "gravite": "important",
-          "remarque": "À la fin de l’acte 3, {{r2}} est restée immobile devant la fontaine. À l’acte 4, la Mère lui parle aussitôt, comme si elle était déjà à la maison. Le retour manque, alors que le conte le donne : « Dès que sa mère l’aperçut ».",
-          "modification": "Avant l’élément 1, ajouter une action : « {{r2}} quitte la fontaine et traverse la table jusqu’à la maison, en grondant et en secouant la tête. » La Voix de la Mère (« Eh bien ! ma fille ! ») vient ensuite, quand {{r2}} arrive devant le carton de la maison."
-        },
-        {
-          "acte": 4,
-          "element": 9,
-          "gravite": "important",
-          "remarque": "La Mère n’a pas de marionnette et {{r2}} vient juste de sortir. Dans « Et aussitôt elle courut pour battre {{r1}} », un enfant comprendra que c’est {{r2}} qui court battre sa sœur.",
-          "modification": "Remplacer par : « Et aussitôt la mère courut pour battre {{r1}}. »"
-        },
-        {
-          "acte": 4,
-          "element": 28,
-          "gravite": "important",
-          "remarque": "La fin de {{r2}} est adoucie par rapport au texte de référence. Le conte, déjà mis à la mesure des 7 ans, dit : « après avoir bien couru sans trouver personne qui voulût la recevoir, alla mourir au coin d’un bois ». Le script la fait seulement partir, tête basse : la punition de l’aînée n’est pas jouée comme le conte la donne.",
-          "modification": "Garder l’action 28 en précisant qu’elle va vers le bois : « {{r2}} baisse la tête et s’en va lentement vers le bois, toute seule. » Après la sortie de {{r2}} (élément 29), ajouter une dernière phrase du conteur : « Et la malheureuse, après avoir bien couru sans trouver personne qui voulût la recevoir, alla mourir au coin d’un bois. »"
-        },
-        {
-          "acte": 4,
-          "element": 18,
-          "gravite": "mineur",
-          "remarque": "{{r1}} mime le récit de son aventure (élément 18) avant que le conteur dise « Elle lui conta toute son aventure » (élément 19). L’action précède la phrase qui l’annonce.",
-          "modification": "Inverser les éléments 18 et 19 : le conteur dit d’abord « Elle lui conta toute son aventure. », puis {{r1}} hoche la tête vers la coulisse pendant les petits « ting ! »."
-        },
-        {
-          "acte": 4,
-          "element": 8,
-          "gravite": "mineur",
-          "remarque": "L’entrée de {{r1}} ne dit pas où elle apparaît. Or elle doit être à la maison pour que la Mère coure la battre et qu’elle s’enfuie vers le bois.",
-          "modification": "Préciser l’entrée : « {{r1}} entre du côté de la maison, près du coussin de la cuisine. »"
-        },
-        {
-          "acte": 1,
-          "element": 20,
-          "gravite": "mineur",
-          "remarque": "La phrase du conteur commence par « c’était », en minuscule, comme une suite de phrase coupée. Le conte l’introduit par « car ».",
-          "modification": "Écrire : « Car c’était {{r3}}, une fée qui avait pris la forme d’une pauvre femme de village, pour voir jusqu’où irait la gentillesse de {{r1}}. »"
-        },
-        {
-          "acte": 1,
-          "element": 12,
-          "gravite": "mineur",
-          "remarque": "{{r3}} entre avec le mouchoir sur la tête, mais rien n’indique au parent de le lui mettre. De plus, l’élément 12 décrit un état et non un geste.",
-          "modification": "Avant l’entrée de {{r3}} (élément 11), ajouter une note : « Avant d’enfiler {{r3}}, posez-lui le mouchoir sur la tête : c’est la pauvre femme de village. » L’élément 12 devient : « {{r3}} avance tout doucement, courbée en avant, en tremblotant un peu, et s’arrête près de {{r1}}. »"
-        }
+        "La mère, qui parle huit fois dans le conte, devient une marionnette, {{r4}} (règle du 2026-09-29 : au-delà de quelques répliques, un personnage s’incarne). Toutes ses répliques sont dites en scène ; le reproche de retard, au style indirect dans le conte, devient direct (« Vous revenez si tard de la fontaine ! »). Deux appels courts servent de raccords : « {{r1}} ! » et « {{r2}} ! ».",
+        "Deux mains, deux marionnettes : {{r4}} rentre à la maison avant chaque visite de {{r3}}, et {{r1}} retourne à la cuisine avant que {{r2}} n’arrive. Quand {{r4}} dit à {{r2}} « voyez ce qui sort de la bouche de votre sœur », {{r1}} vient donc de sortir.",
+        "{{r4}} court pour battre {{r1}} : on la voit foncer sur elle, et {{r1}} s’enfuit vers le bois.",
+        "Le fils du roi n’a qu’une réplique : il reste une voix en coulisse.",
+        "{{r3}} change de déguisement en coulisse : un mouchoir en guise de châle de vieille, puis un bracelet en guise de couronne de princesse.",
+        "La fin est jouée entière : {{r2}}, chassée par sa propre mère, va mourir au coin d’un bois, comme dans le conte (la fiche de retouches n’adoucit cette fin que jusqu’à 4 ans).",
+        "Seules les retouches de langue valables à tout âge sont appliquées (« Bien volontiers » pour « Oui dà », « gentillesse » pour « honnêteté »…) ; le nom « Fanchon » devient celui de la peluche de l’aînée.",
+        "« La mère », « la veuve », « la cadette » et « l’aînée » sont des liens de famille, pas des espèces : ils restent dans le texte quelle que soit la peluche, et ne changent qu’en genre."
       ]
     }
   },
-  "dureeEstimeeSecondes": 476,
+  "dureeEstimeeSecondes": 564,
   "interactionsOrdonnees": [
-    "a1e24",
-    "a3e11"
+    "a1e29",
+    "a3e13",
+    "a4e5",
+    "a2e11",
+    "a3e9",
+    "a3e2",
+    "a1e14"
   ]
 }

@@ -64,8 +64,14 @@ avoir beaucoup de marionnettes**, les personnages se parlent.
 - Pas de dialogue inventé au-delà d'ajouts simples et parlés (« Bon… j'y
   vais, j'y vais. ») ; un personnage SANS réplique dans le conte (la mère qui
   fait le fromage) reste dans la narration.
+- **Le seuil (règle du 2026-09-29)** : « s'il y a plus que quelques
+  répliques, ça vaut toujours le coup de l'incarner ». Dès 3 répliques, un
+  personnage est TOUJOURS une marionnette ; avec une ou deux, il peut rester
+  une voix en coulisse si la place manque ou si la scène n'y gagne rien.
+  Quand la sixième place manque, incarne d'abord ceux qui parlent le plus.
 - La voix en coulisse est réservée aux bruits, aux foules, aux personnages
-  sans réplique, et à ceux qui dépassent la sixième marionnette.
+  sans réplique ou d'une ou deux répliques, et à ceux qui dépassent la
+  sixième marionnette.
 - Deux mains, deux marionnettes en scène : beaucoup de marionnettes veut dire
   beaucoup d'entrées et de sorties. Organise la rotation pour que chaque
   échange se joue entre les deux marionnettes présentes.
@@ -213,7 +219,8 @@ d'origine du rôle, il doit redonner l'extrait `avant` à l'identique.
 5. Aucun nom de peluche n'apparaît dans un `avant`/`apres`, ni comme mot
    ordinaire du texte.
 6. La fin du conte est jouée entière ; les répliques viennent du texte.
-7. Tout personnage qui parle dans le conte est une marionnette (jusqu'à 6) ;
-   aucune réplique d'un personnage principal n'est dite en coulisse.
+7. Tout personnage qui a 3 répliques ou plus est une marionnette (jusqu'à 6,
+   les plus bavards d'abord) ; aucune réplique d'un personnage principal
+   n'est dite en coulisse.
 8. Chaque mention d'espèce, rendue avec l'espèce et le genre d'origine,
    redonne son extrait exact.
