@@ -1,0 +1,871 @@
+{
+  "id": "de-musiciens-de-breme--1",
+  "conteId": "de-musiciens-de-breme",
+  "titre": "Les Musiciens de Brême",
+  "pitch": "{{r1}} forme une compagnie avec {{r2}}, {{r3}} et {{r4}} et prend la route de Brême ; leur musique chasse des brigands et leur fait trouver une maison.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "ane",
+      "famille": "gros",
+      "traits": [
+        "courageux",
+        "gentil",
+        "sage"
+      ],
+      "voix": "voix lente et chaude, qui brait avec vigueur",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e1:texte",
+            "avant": "il devenait de moins en moins bon",
+            "apres": "elle devenait de moins en moins bonne"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "le nourrir",
+            "apres": "la nourrir"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "pour lui : il se sauva",
+            "apres": "pour elle : elle se sauva"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "pensait-il, il pourrait bien devenir musicien",
+            "apres": "pensait-elle, elle pourrait bien devenir musicienne"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "Il avait marché",
+            "apres": "Elle avait marché"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "il trouva",
+            "apres": "elle trouva"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "devenir musicien",
+            "apres": "devenir musicienne"
+          },
+          {
+            "id": "a2e15:texte",
+            "avant": "le plus grand",
+            "apres": "la plus grande"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r2",
+      "espece": "chien",
+      "famille": "gros",
+      "traits": [
+        "peureux",
+        "gourmand"
+      ],
+      "voix": "voix soufflée et pressée, qui finit par un aboiement",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e6:texte",
+            "avant": "couché, qui haletait",
+            "apres": "couchée, qui haletait"
+          },
+          {
+            "id": "a1e10:texte",
+            "avant": "je suis vieux",
+            "apres": "je suis vieille"
+          },
+          {
+            "id": "a3e12:texte",
+            "avant": "couché là",
+            "apres": "couchée là"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r3",
+      "espece": "chat",
+      "famille": "predateur",
+      "traits": [
+        "grognon",
+        "paresseux"
+      ],
+      "voix": "voix grave et traînante, avec un long miaulement",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e16:texte",
+            "avant": "assis au bord",
+            "apres": "assise au bord"
+          },
+          {
+            "id": "a1e19:texte",
+            "avant": "vieux lisseur",
+            "apres": "vieille lisseuse"
+          },
+          {
+            "id": "a1e20:texte",
+            "avant": "je deviens vieux",
+            "apres": "je deviens vieille"
+          },
+          {
+            "id": "a1e20:texte",
+            "avant": "Je me suis sauvé",
+            "apres": "Je me suis sauvée"
+          },
+          {
+            "id": "a1e21:texte",
+            "avant": "devenir musicien",
+            "apres": "devenir musicienne"
+          },
+          {
+            "id": "a3e9:texte",
+            "avant": "il lui sauta",
+            "apres": "elle lui sauta"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r4",
+      "espece": "coq",
+      "famille": "oiseau",
+      "traits": [
+        "bavard",
+        "vantard"
+      ],
+      "voix": "voix haute et claire, qui finit sur un cocorico",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e26:texte",
+            "avant": "était perché",
+            "apres": "était perchée"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "là où il était le plus en sécurité",
+            "apres": "là où elle était le plus en sécurité"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "il regarda",
+            "apres": "elle regarda"
+          },
+          {
+            "id": "a3e23:texte",
+            "avant": "réveillé par le bruit et tout ragaillardi, il cria",
+            "apres": "réveillée par le bruit et toute ragaillardie, elle cria"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r5",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "peureux",
+        "gourmand"
+      ],
+      "voix": "voix basse et tremblante, puis très rapide quand il raconte",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a3e12:texte",
+            "avant": "le mordit",
+            "apres": "la mordit"
+          },
+          {
+            "id": "a3e15:texte",
+            "avant": "le faire fuir",
+            "apres": "la faire fuir"
+          },
+          {
+            "id": "a3e18:texte",
+            "avant": "il traversa",
+            "apres": "elle traversa"
+          },
+          {
+            "id": "a3e28:texte",
+            "avant": "ce coquin",
+            "apres": "cette coquine"
+          },
+          {
+            "id": "a3e28:texte",
+            "avant": "m’a frappé",
+            "apres": "m’a frappée"
+          },
+          {
+            "id": "a3e28:texte",
+            "avant": "je me suis sauvé",
+            "apres": "je me suis sauvée"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 15,
+    "ageAuditoire": 3,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La route et la ferme",
+      "description": "Posez un coussin à chaque bout de la table pour marquer la route. Un carton debout au bout droit figure la ferme et son portail. Gardez le milieu libre pour les rencontres.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "La forêt et la maison",
+      "description": "Un coussin debout à gauche figure l’arbre de la forêt. Le carton à droite figure la maison avec sa fenêtre et sa porte. Le bord de la table devant le carton devient la cour ; le dessous de la table cache les sorties.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "En route pour Brême",
+      "resume": "{{r1}} quitte son maître et invite {{r2}}, {{r3}} puis {{r4}} à faire de la musique à Brême.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Un homme avait {{r1}} qui, pendant de longues années, avait porté sans se plaindre les sacs au moulin. Mais ses forces arrivaient à leur fin, et il devenait de moins en moins bon au travail. Alors son maître pensa à ne plus le nourrir."
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e3",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne lentement vers les enfants."
+        },
+        {
+          "id": "a1e4",
+          "type": "conteur",
+          "texte": "{{r1}} sentit que le vent tournait mal pour lui : il se sauva et prit la route de Brême. Là-bas, pensait-il, il pourrait bien devenir musicien de la ville."
+        },
+        {
+          "id": "a1e5",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites le bruit de mes pas sur la route : toc, toc, toc !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e6",
+          "type": "conteur",
+          "texte": "Il avait marché un moment quand il trouva sur le chemin {{r2}} couché, qui haletait comme quelqu’un qui a trop couru."
+        },
+        {
+          "id": "a1e7",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e8",
+          "type": "didascalie",
+          "texte": "{{r1}} se penche vers {{r2}}."
+        },
+        {
+          "id": "a1e9",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Eh bien, pourquoi halètes-tu comme ça, {{r2}} ?"
+        },
+        {
+          "id": "a1e10",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Ah, parce que je suis vieux, que je deviens chaque jour plus faible et que je ne peux plus suivre à la chasse, mon maître a voulu se débarrasser de moi. Alors j’ai pris la fuite. Mais maintenant, comment vais-je gagner mon pain ?"
+        },
+        {
+          "id": "a1e11",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tu sais quoi ? Je vais à Brême, pour y devenir musicien de la ville. Viens avec moi, et fais-toi engager dans la musique toi aussi. Le luth sera pour moi, et les timbales pour toi."
+        },
+        {
+          "id": "a1e12",
+          "type": "conteur",
+          "texte": "{{r2}} fut d’accord, et la compagnie continua sa route."
+        },
+        {
+          "id": "a1e13",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Faites un aboiement avec moi : ouaf, ouaf !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e14",
+          "type": "didascalie",
+          "texte": "Les deux peluches se tournent vers le bout de la route."
+        },
+        {
+          "id": "a1e15",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e16",
+          "type": "conteur",
+          "texte": "Il ne se passa pas longtemps avant que la compagnie ne trouve {{r3}} assis au bord du chemin, qui faisait une tête comme trois jours de pluie."
+        },
+        {
+          "id": "a1e17",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e18",
+          "type": "didascalie",
+          "texte": "{{r3}} s’incline vers la table."
+        },
+        {
+          "id": "a1e19",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Eh bien, qu’est-ce qui ne va pas, vieux lisseur de moustaches ?"
+        },
+        {
+          "id": "a1e20",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Comment être de bonne humeur quand on en veut à sa peau ? Parce que je deviens vieux, que mes dents s’émoussent et que j’aime mieux ronronner derrière le poêle que courir après les souris, ma maîtresse a voulu se débarrasser de moi. Je me suis sauvé, mais maintenant, bon conseil est cher : où aller ?"
+        },
+        {
+          "id": "a1e21",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Viens avec nous à Brême. Tu t’y connais en musique de nuit : tu peux devenir musicien de la ville."
+        },
+        {
+          "id": "a1e22",
+          "type": "conteur",
+          "texte": "{{r3}} trouva l’idée bonne et rejoignit la compagnie."
+        },
+        {
+          "id": "a1e23",
+          "type": "adresse_public",
+          "marionnetteId": "r3",
+          "texte": "Miaulez avec moi, tout doucement : miaou !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e24",
+          "type": "didascalie",
+          "texte": "{{r3}} se tourne vers le bout de la route."
+        },
+        {
+          "id": "a1e25",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e26",
+          "type": "conteur",
+          "texte": "Ensuite, la petite compagnie passa devant une ferme. Sur le portail était perché {{r4}}, qui criait de toutes ses forces."
+        },
+        {
+          "id": "a1e27",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e28",
+          "type": "didascalie",
+          "texte": "{{r4}} se balance vivement au-dessus du carton."
+        },
+        {
+          "id": "a1e29",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tu cries à nous percer les os. Qu’est-ce qui t’arrive ?"
+        },
+        {
+          "id": "a1e30",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "J’annonce le beau temps, parce que c’est le jour où l’on met le linge à sécher. Mais demain dimanche, il vient des invités, et la fermière n’a pas de pitié : elle a dit à la cuisinière qu’elle voulait me mettre demain dans la soupe. Alors je crie à pleine gorge, tant que je peux encore."
+        },
+        {
+          "id": "a1e31",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Allons donc, crête-rouge, viens plutôt avec nous. Nous allons à Brême. Tu trouveras partout quelque chose de mieux que la marmite. Tu as une belle voix, et si nous faisons de la musique ensemble, ça aura de l’allure !"
+        },
+        {
+          "id": "a1e32",
+          "type": "adresse_public",
+          "marionnetteId": "r4",
+          "texte": "Chantez avec moi : cocorico !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e33",
+          "type": "conteur",
+          "texte": "{{r4}} accepta la proposition, et toute la compagnie partit ensemble."
+        },
+        {
+          "id": "a1e34",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r4}} se tournent vers le bout de la route."
+        },
+        {
+          "id": "a1e35",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e36",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Le concert à la fenêtre",
+      "resume": "Dans la forêt, la compagnie voit une maison pleine de brigands. Son concert fait fuir les occupants ; le repas et le repos attendent dans la maison.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "Mais la compagnie ne put pas atteindre la ville de Brême en un jour, et le soir, la troupe arriva dans une forêt pour y passer la nuit. {{r1}} et {{r2}} se couchèrent sous un grand arbre ; {{r3}} et {{r4}} s’installèrent dans les branches, et {{r4}} vola même tout en haut, là où il était le plus en sécurité."
+        },
+        {
+          "id": "a2e2",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e3",
+          "type": "didascalie",
+          "texte": "{{r4}} se balance doucement."
+        },
+        {
+          "id": "a2e4",
+          "type": "conteur",
+          "texte": "Avant de s’endormir, il regarda encore une fois dans les quatre directions, et il lui sembla voir au loin briller une petite lueur."
+        },
+        {
+          "id": "a2e5",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Il doit y avoir une maison pas très loin, puisqu’on voit une lumière !"
+        },
+        {
+          "id": "a2e6",
+          "type": "adresse_public",
+          "marionnetteId": "r4",
+          "texte": "Cherchez avec moi la petite lumière, là-bas !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e7",
+          "type": "didascalie",
+          "texte": "{{r4}} s’incline vers le pied du coussin."
+        },
+        {
+          "id": "a2e8",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e9",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e10",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Alors il faut nous mettre en route et y aller, car ici, l’auberge est mauvaise."
+        },
+        {
+          "id": "a2e11",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e12",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Quelques os avec un peu de viande autour me feraient du bien, à moi aussi."
+        },
+        {
+          "id": "a2e13",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e14",
+          "type": "conteur",
+          "texte": "La compagnie se mit donc en route vers l’endroit où brillait la lumière. Bientôt elle brilla plus fort, et elle devint de plus en plus grande, jusqu’à l’arrivée devant une maison de brigands tout éclairée."
+        },
+        {
+          "id": "a2e15",
+          "type": "conteur",
+          "texte": "{{r1}}, qui était le plus grand, s’approcha de la fenêtre et regarda à l’intérieur."
+        },
+        {
+          "id": "a2e16",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e17",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Que vois-tu, {{r1}} ?"
+        },
+        {
+          "id": "a2e18",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ce que je vois ? Une table mise, avec de bonnes choses à manger et à boire, et des brigands assis autour qui se régalent."
+        },
+        {
+          "id": "a2e19",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Ce serait bien pour nous."
+        },
+        {
+          "id": "a2e20",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oui, oui, ah ! si nous étions là-dedans !"
+        },
+        {
+          "id": "a2e21",
+          "type": "didascalie",
+          "texte": "{{r4}} se tourne vers les enfants."
+        },
+        {
+          "id": "a2e22",
+          "type": "adresse_public",
+          "marionnetteId": "r4",
+          "texte": "Écoutez bien notre musique : faites cocorico avec moi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e23",
+          "type": "conteur",
+          "texte": "Alors la compagnie tint conseil pour savoir comment chasser les brigands, et un moyen fut enfin trouvé. {{r1}} devait se dresser avec ses pattes de devant sur le rebord de la fenêtre, {{r2}} sauter sur le dos de {{r1}}, {{r3}} grimper sur {{r2}}, et enfin {{r4}} s’envoler et se poser sur la tête de {{r3}}."
+        },
+        {
+          "id": "a2e24",
+          "type": "note_marionnettiste",
+          "texte": "La pile des quatre se raconte à la voix. Gardez {{r1}} et {{r4}} côte à côte ; ne superposez pas les peluches. Les quatre cris du concert se font à la voix."
+        },
+        {
+          "id": "a2e25",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Tous ensemble, faites le plus grand bruit possible : hi-han, ouaf, miaou, cocorico !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e26",
+          "type": "conteur",
+          "texte": "Quand ce fut fait, à un signal, la compagnie commença sa musique : {{r1}} brailla, {{r2}} aboya, {{r3}} miaula et {{r4}} chanta. Puis toute la troupe se précipita par la fenêtre dans la salle, à faire trembler les vitres. Les brigands, à cet horrible vacarme, sautèrent en l’air : ils crurent qu’un fantôme entrait, et s’enfuirent dans la forêt, morts de peur."
+        },
+        {
+          "id": "a2e27",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r4}} se tournent vers les enfants."
+        },
+        {
+          "id": "a2e28",
+          "type": "conteur",
+          "texte": "Alors la compagnie s’assit à table, se contenta de ce qui restait, et mangea comme si la faim devait durer quatre semaines."
+        },
+        {
+          "id": "a2e29",
+          "type": "conteur",
+          "texte": "Quand le repas fut fini, la compagnie éteignit la lumière. Chaque membre de la troupe se chercha un endroit pour dormir selon sa nature et ses habitudes. {{r1}} se coucha sur le fumier, {{r2}} derrière la porte, {{r3}} sur le foyer près de la cendre chaude, et {{r4}} se percha sur la poutre du toit. Et comme le long chemin avait épuisé la compagnie, le sommeil vint bientôt."
+        },
+        {
+          "id": "a2e30",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r4}} s’inclinent lentement."
+        },
+        {
+          "id": "a2e31",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e32",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Le retour de {{r5}}",
+      "resume": "{{r5}} revient dans le noir. La compagnie lui fait peur encore une fois et garde sa nouvelle maison.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "conteur",
+          "texte": "Quand minuit fut passé et que les brigands virent de loin qu’il n’y avait plus de lumière dans la maison et que tout semblait calme, le chef dit :"
+        },
+        {
+          "id": "a3e2",
+          "type": "note_marionnettiste",
+          "texte": "Voix du chef, en coulisse : « Nous n’aurions pas dû nous laisser effrayer comme ça. »"
+        },
+        {
+          "id": "a3e3",
+          "type": "conteur",
+          "texte": "Et il envoya {{r5}} inspecter la maison. {{r5}} trouva tout silencieux et alla dans la cuisine pour allumer une chandelle. Dans le noir, {{r5}} prit les yeux brillants et flamboyants de {{r3}} pour des braises et s’en approcha."
+        },
+        {
+          "id": "a3e4",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e5",
+          "type": "didascalie",
+          "texte": "{{r5}} se tourne lentement vers les enfants."
+        },
+        {
+          "id": "a3e6",
+          "type": "adresse_public",
+          "marionnetteId": "r5",
+          "texte": "Écoutez comme la maison est silencieuse : chut !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e7",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e8",
+          "type": "didascalie",
+          "texte": "{{r3}} se balance devant le carton. {{r5}} s’arrête net."
+        },
+        {
+          "id": "a3e9",
+          "type": "conteur",
+          "texte": "Mais {{r3}} ne comprenait pas la plaisanterie : il lui sauta au visage, cracha et griffa. {{r5}} eut une peur terrible et voulut sortir par la porte de derrière."
+        },
+        {
+          "id": "a3e10",
+          "type": "didascalie",
+          "texte": "{{r5}} tremble derrière la porte."
+        },
+        {
+          "id": "a3e11",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e12",
+          "type": "conteur",
+          "texte": "Mais {{r2}}, qui était couché là, bondit et le mordit à la jambe."
+        },
+        {
+          "id": "a3e13",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e14",
+          "type": "didascalie",
+          "texte": "{{r2}} se tourne vers les enfants. {{r5}} tremble."
+        },
+        {
+          "id": "a3e15",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Faites un grand ouaf pour le faire fuir !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e16",
+          "type": "didascalie",
+          "texte": "{{r5}} s’arrête au bord du carton."
+        },
+        {
+          "id": "a3e17",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e18",
+          "type": "conteur",
+          "texte": "Et quand il traversa la cour en passant devant le tas de fumier, {{r1}} lui donna encore un bon coup de sabot."
+        },
+        {
+          "id": "a3e19",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e20",
+          "type": "didascalie",
+          "texte": "{{r1}} se balance derrière le coussin. {{r5}} s’arrête net."
+        },
+        {
+          "id": "a3e21",
+          "type": "didascalie",
+          "texte": "{{r5}} tremble un instant."
+        },
+        {
+          "id": "a3e22",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e23",
+          "type": "conteur",
+          "texte": "Quant à {{r4}}, réveillé par le bruit et tout ragaillardi, il cria du haut de sa poutre :"
+        },
+        {
+          "id": "a3e24",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e25",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Cocorico !"
+        },
+        {
+          "id": "a3e26",
+          "type": "didascalie",
+          "texte": "{{r4}} se tourne vers {{r5}}. {{r5}} tremble encore."
+        },
+        {
+          "id": "a3e27",
+          "type": "conteur",
+          "texte": "Alors {{r5}} courut à toutes jambes retrouver son chef et dit :"
+        },
+        {
+          "id": "a3e28",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Ah ! Dans cette maison il y a une horrible sorcière qui m’a soufflé dessus et m’a griffé le visage. Et devant la porte, il y a un homme qui m’a piqué la jambe. Et dans la cour, il y a un monstre noir qui m’a frappé. Et tout en haut sur le toit, il y a le juge qui criait : « Amenez-moi ce coquin ! » Alors je me suis sauvé."
+        },
+        {
+          "id": "a3e29",
+          "type": "didascalie",
+          "texte": "{{r5}} s’éloigne en tremblant."
+        },
+        {
+          "id": "a3e30",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e31",
+          "type": "conteur",
+          "texte": "Dès lors, les brigands n’osèrent plus revenir dans la maison. Mais la compagnie de Brême s’y trouva si bien qu’elle ne voulut plus en sortir. Et celui qui a raconté cette histoire en dernier, il en a encore la bouche toute chaude."
+        },
+        {
+          "id": "a3e32",
+          "type": "didascalie",
+          "texte": "{{r4}} hoche la tête, puis disparaît doucement derrière la maison."
+        },
+        {
+          "id": "a3e33",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "de-musiciens-de-breme",
+    "synopsis": {
+      "accroche": "Quatre animaux sans place trouvent une maison grâce à leur vacarme.",
+      "resume": [
+        "{{r1}} réunit {{r2}}, {{r3}} et {{r4}} pour aller faire de la musique à Brême.",
+        "Leur concert fait fuir des brigands ; un éclaireur revient, s’effraie des quatre animaux et renonce à la maison."
+      ]
+    },
+    "transposition": {
+      "texte": "Un homme avait {{r1}} qui, pendant de longues années, avait porté sans se plaindre les sacs au moulin. Mais ses forces arrivaient à leur fin, et il devenait de moins en moins bon au travail. Alors son maître pensa à ne plus le nourrir. {{r1}} sentit que le vent tournait mal pour lui : il se sauva et prit la route de Brême. Là-bas, pensait-il, il pourrait bien devenir musicien de la ville.\n\nIl avait marché un moment quand il trouva sur le chemin {{r2}} couché, qui haletait comme quelqu'un qui a trop couru.\n\n— Eh bien, pourquoi halètes-tu comme ça, {{r2}} ? demanda {{r1}}.\n\n— Ah, dit {{r2}}, parce que je suis vieux, que je deviens chaque jour plus faible et que je ne peux plus suivre à la chasse, mon maître a voulu se débarrasser de moi. Alors j'ai pris la fuite. Mais maintenant, comment vais-je gagner mon pain ?\n\n— Tu sais quoi ? dit {{r1}}. Je vais à Brême, pour y devenir musicien de la ville. Viens avec moi, et fais-toi engager dans la musique toi aussi. Le luth sera pour moi, et les timbales pour toi.\n\n{{r2}} fut d'accord, et la compagnie continua sa route.\n\nIl ne se passa pas longtemps avant que la compagnie ne trouve {{r3}} assis au bord du chemin, qui faisait une tête comme trois jours de pluie.\n\n— Eh bien, qu'est-ce qui ne va pas, vieux lisseur de moustaches ? dit {{r1}}.\n\n— Comment être de bonne humeur quand on en veut à sa peau ? répondit {{r3}}. Parce que je deviens vieux, que mes dents s'émoussent et que j'aime mieux ronronner derrière le poêle que courir après les souris, ma maîtresse a voulu se débarrasser de moi. Je me suis sauvé, mais maintenant, bon conseil est cher : où aller ?\n\n— Viens avec nous à Brême. Tu t'y connais en musique de nuit : tu peux devenir musicien de la ville.\n\n{{r3}} trouva l'idée bonne et rejoignit la compagnie.\n\nEnsuite, la petite compagnie passa devant une ferme. Sur le portail était perché {{r4}}, qui criait de toutes ses forces.\n\n— Tu cries à nous percer les os, dit {{r1}}. Qu'est-ce qui t'arrive ?\n\n— J'annonce le beau temps, dit {{r4}}, parce que c'est le jour où l'on met le linge à sécher. Mais demain dimanche, il vient des invités, et la fermière n'a pas de pitié : elle a dit à la cuisinière qu'elle voulait me mettre demain dans la soupe. Alors je crie à pleine gorge, tant que je peux encore.\n\n— Allons donc, crête-rouge, dit {{r1}}, viens plutôt avec nous. Nous allons à Brême. Tu trouveras partout quelque chose de mieux que la marmite. Tu as une belle voix, et si nous faisons de la musique ensemble, ça aura de l'allure !\n\n{{r4}} accepta la proposition, et toute la compagnie partit ensemble.\n\nMais la compagnie ne put pas atteindre la ville de Brême en un jour, et le soir, la troupe arriva dans une forêt pour y passer la nuit. {{r1}} et {{r2}} se couchèrent sous un grand arbre ; {{r3}} et {{r4}} s'installèrent dans les branches, et {{r4}} vola même tout en haut, là où il était le plus en sécurité. Avant de s'endormir, il regarda encore une fois dans les quatre directions, et il lui sembla voir au loin briller une petite lueur. Il cria à ses compagnons qu'il devait y avoir une maison pas très loin, puisqu'on voyait une lumière.\n\n— Alors il faut nous mettre en route et y aller, dit {{r1}}, car ici, l'auberge est mauvaise.\n\n{{r2}} pensa que quelques os avec un peu de viande autour lui feraient du bien, à lui aussi. La compagnie se mit donc en route vers l'endroit où brillait la lumière. Bientôt elle brilla plus fort, et elle devint de plus en plus grande, jusqu'à l'arrivée devant une maison de brigands tout éclairée.\n\n{{r1}}, qui était le plus grand, s'approcha de la fenêtre et regarda à l'intérieur.\n\n— Que vois-tu, {{r1}} ? demanda {{r4}}.\n\n— Ce que je vois ? répondit {{r1}}. Une table mise, avec de bonnes choses à manger et à boire, et des brigands assis autour qui se régalent.\n\n— Ce serait bien pour nous, dit {{r4}}.\n\n— Oui, oui, ah ! si nous étions là-dedans ! dit {{r1}}.\n\nAlors la compagnie tint conseil pour savoir comment chasser les brigands, et un moyen fut enfin trouvé. {{r1}} devait se dresser avec ses pattes de devant sur le rebord de la fenêtre, {{r2}} sauter sur le dos de {{r1}}, {{r3}} grimper sur {{r2}}, et enfin {{r4}} s'envoler et se poser sur la tête de {{r3}}. Quand ce fut fait, à un signal, la compagnie commença sa musique : {{r1}} brailla, {{r2}} aboya, {{r3}} miaula et {{r4}} chanta. Puis toute la troupe se précipita par la fenêtre dans la salle, à faire trembler les vitres. Les brigands, à cet horrible vacarme, sautèrent en l'air : ils crurent qu'un fantôme entrait, et s'enfuirent dans la forêt, morts de peur.\n\nAlors la compagnie s'assit à table, se contenta de ce qui restait, et mangea comme si la faim devait durer quatre semaines.\n\nQuand le repas fut fini, la compagnie éteignit la lumière. Chaque membre de la troupe se chercha un endroit pour dormir selon sa nature et ses habitudes. {{r1}} se coucha sur le fumier, {{r2}} derrière la porte, {{r3}} sur le foyer près de la cendre chaude, et {{r4}} se percha sur la poutre du toit. Et comme le long chemin avait épuisé la compagnie, le sommeil vint bientôt.\n\nQuand minuit fut passé et que les brigands virent de loin qu'il n'y avait plus de lumière dans la maison et que tout semblait calme, le chef dit :\n\n— Nous n'aurions pas dû nous laisser effrayer comme ça.\n\nEt il envoya {{r5}} inspecter la maison. {{r5}} trouva tout silencieux et alla dans la cuisine pour allumer une chandelle. Dans le noir, {{r5}} prit les yeux brillants et flamboyants de {{r3}} pour des braises et s'en approcha. Mais {{r3}} ne comprenait pas la plaisanterie : il lui sauta au visage, cracha et griffa. {{r5}} eut une peur terrible et voulut sortir par la porte de derrière ; mais {{r2}}, qui était couché là, bondit et le mordit à la jambe. Et quand il traversa la cour en passant devant le tas de fumier, {{r1}} lui donna encore un bon coup de sabot. Quant à {{r4}}, réveillé par le bruit et tout ragaillardi, il cria du haut de sa poutre : « Cocorico ! »\n\nAlors {{r5}} courut à toutes jambes retrouver son chef et dit :\n\n— Ah ! Dans cette maison il y a une horrible sorcière qui m'a soufflé dessus et m'a griffé le visage. Et devant la porte, il y a un homme qui m'a piqué la jambe. Et dans la cour, il y a un monstre noir qui m'a frappé. Et tout en haut sur le toit, il y a le juge qui criait : « Amenez-moi ce coquin ! » Alors je me suis sauvé.\n\nDès lors, les brigands n'osèrent plus revenir dans la maison. Mais la compagnie de Brême s'y trouva si bien qu'elle ne voulut plus en sortir. Et celui qui a raconté cette histoire en dernier, il en a encore la bouche toute chaude.\n"
+    }
+  },
+  "dureeEstimeeSecondes": 861,
+  "interactionsOrdonnees": [
+    "a2e25",
+    "a1e32",
+    "a1e23",
+    "a1e13",
+    "a3e6",
+    "a3e15",
+    "a2e6",
+    "a1e5",
+    "a2e22"
+  ]
+}

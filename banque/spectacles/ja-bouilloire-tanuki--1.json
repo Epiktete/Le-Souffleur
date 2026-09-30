@@ -1,0 +1,1334 @@
+{
+  "id": "ja-bouilloire-tanuki--1",
+  "conteId": "ja-bouilloire-tanuki",
+  "titre": "La Bouilloire du tanuki",
+  "pitch": "{{r1}}, tanuki changé en bouilloire, surprend {{r2}} puis se lie à {{r3}}. Son spectacle remplit la baraque, avant un repos mérité au temple.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "tanuki",
+      "famille": "petit",
+      "traits": [
+        "farceur",
+        "gentil",
+        "gourmand"
+      ],
+      "voix": "voix ronde et souple ; dit « kan » quand il se cache",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "changé en bouilloire",
+            "apres": "changée en bouilloire"
+          },
+          {
+            "id": "voix:r1",
+            "avant": "il se cache",
+            "apres": "elle se cache"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "était posé en décoration",
+            "apres": "était posée en décoration"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "tout rond et immobile",
+            "apres": "toute ronde et immobile"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "posé dans sa chambre",
+            "apres": "posée dans sa chambre"
+          },
+          {
+            "id": "a1e15:texte",
+            "avant": "posé sur un coussin",
+            "apres": "posée sur un coussin"
+          },
+          {
+            "id": "a1e15:texte",
+            "avant": "tout seul à remuer",
+            "apres": "toute seule à remuer"
+          },
+          {
+            "id": "a1e15:texte",
+            "avant": "il se mit à se promener",
+            "apres": "elle se mit à se promener"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "il se mit à se promener",
+            "apres": "elle se mit à se promener"
+          },
+          {
+            "id": "a2e19:texte",
+            "avant": "était redevenu",
+            "apres": "était redevenue"
+          },
+          {
+            "id": "a2e19:texte",
+            "avant": "posé sagement",
+            "apres": "posée sagement"
+          },
+          {
+            "id": "a3e8:texte",
+            "avant": "assis sagement",
+            "apres": "assise sagement"
+          },
+          {
+            "id": "a3e13:texte",
+            "avant": "je me suis changé",
+            "apres": "je me suis changée"
+          },
+          {
+            "id": "a3e13:texte",
+            "avant": "m’ont trouvé",
+            "apres": "m’ont trouvée"
+          },
+          {
+            "id": "a3e13:texte",
+            "avant": "j’ai été vendu",
+            "apres": "j’ai été vendue"
+          },
+          {
+            "id": "a3e13:texte",
+            "avant": "exposé devant",
+            "apres": "exposée devant"
+          },
+          {
+            "id": "a3e13:texte",
+            "avant": "m’a acheté",
+            "apres": "m’a achetée"
+          },
+          {
+            "id": "a3e13:texte",
+            "avant": "m’a mis sur le feu",
+            "apres": "m’a mise sur le feu"
+          },
+          {
+            "id": "a3e13:texte",
+            "avant": "m’a surpris",
+            "apres": "m’a surprise"
+          },
+          {
+            "id": "a4e15:texte",
+            "avant": "pour le voir",
+            "apres": "pour la voir"
+          },
+          {
+            "id": "a4e18:texte",
+            "avant": "le laisser se reposer",
+            "apres": "la laisser se reposer"
+          },
+          {
+            "id": "a4e19:texte",
+            "avant": "tu seras précieusement gardé",
+            "apres": "tu seras précieusement gardée"
+          },
+          {
+            "id": "a4e19:texte",
+            "avant": "posé sur un coussin",
+            "apres": "posée sur un coussin"
+          },
+          {
+            "id": "a4e20:texte",
+            "avant": "je suis fatigué",
+            "apres": "je suis fatiguée"
+          },
+          {
+            "id": "a4e29:texte",
+            "avant": "fatigué et endormi",
+            "apres": "fatiguée et endormie"
+          },
+          {
+            "id": "a4e29:texte",
+            "avant": "il devint",
+            "apres": "elle devint"
+          },
+          {
+            "id": "a2e9:texte",
+            "avant": "lui-même",
+            "apres": "elle-même"
+          },
+          {
+            "id": "a4e10:texte",
+            "avant": "lui-même",
+            "apres": "elle-même"
+          },
+          {
+            "id": "a3e11:ton",
+            "avant": "rassurant",
+            "apres": "rassurante"
+          },
+          {
+            "id": "a3e18:ton",
+            "avant": "joyeux",
+            "apres": "joyeuse"
+          },
+          {
+            "id": "a4e20:ton",
+            "avant": "fatigué",
+            "apres": "fatiguée"
+          },
+          {
+            "id": "a1e29:texte",
+            "avant": "Il marchait",
+            "apres": "Elle marchait"
+          },
+          {
+            "id": "a3e13:texte",
+            "avant": "je suis un",
+            "apres": "je suis une"
+          },
+          {
+            "id": "a3e13:texte",
+            "avant": "qui s’est changé",
+            "apres": "qui s’est changée"
+          },
+          {
+            "id": "a3e13:texte",
+            "avant": "m’ont poursuivi",
+            "apres": "m’ont poursuivie"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "qu’il est un",
+            "apres": "qu’elle est une"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "le tanuki",
+            "apres": "la tanuki"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r2",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "vantard",
+        "peureux",
+        "grognon"
+      ],
+      "voix": "voix profonde et solennelle, qui saute dans les aigus quand il a peur",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e1:texte",
+            "avant": "le bonze",
+            "apres": "la bonzesse"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "il collectionnait",
+            "apres": "elle collectionnait"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "tout droit et tout fier",
+            "apres": "toute droite et toute fière"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "Il l’acheta",
+            "apres": "Elle l’acheta"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "il s’endormit",
+            "apres": "elle s’endormit"
+          },
+          {
+            "id": "a2e7:texte",
+            "avant": "il se rassura",
+            "apres": "elle se rassura"
+          },
+          {
+            "id": "a4e25:ton",
+            "avant": "content",
+            "apres": "contente"
+          },
+          {
+            "id": "voix:r2",
+            "avant": "il a peur",
+            "apres": "elle a peur"
+          },
+          {
+            "id": "a1e28:ton",
+            "avant": "fâché",
+            "apres": "fâchée"
+          },
+          {
+            "id": "a2e4:ton",
+            "avant": "décidé",
+            "apres": "décidée"
+          },
+          {
+            "id": "a2e11:ton",
+            "avant": "effrayé",
+            "apres": "effrayée"
+          },
+          {
+            "id": "a2e24:ton",
+            "avant": "inquiet",
+            "apres": "inquiète"
+          },
+          {
+            "id": "a2e27:ton",
+            "avant": "soulagé",
+            "apres": "soulagée"
+          },
+          {
+            "id": "a1e32:texte",
+            "avant": "m’avez réveillé",
+            "apres": "m’avez réveillée"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "du bonze",
+            "apres": "de la bonzesse"
+          },
+          {
+            "id": "a1e18:texte",
+            "avant": "Maître, maître",
+            "apres": "Maîtresse, maîtresse"
+          },
+          {
+            "id": "a1e19:texte",
+            "avant": "le maître",
+            "apres": "la maîtresse"
+          },
+          {
+            "id": "a1e19:texte",
+            "avant": "Maître, maître",
+            "apres": "Maîtresse, maîtresse"
+          },
+          {
+            "id": "a1e26:texte",
+            "avant": "Mais maître",
+            "apres": "Mais maîtresse"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r3",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "gentil",
+        "généreux",
+        "curieux"
+      ],
+      "voix": "voix chaleureuse et sonore, qui appelle les passants",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2e26:texte",
+            "avant": "Chiffonnier ! Chiffonnier !",
+            "apres": "Chiffonnière ! Chiffonnière !"
+          },
+          {
+            "id": "a2e27:texte",
+            "avant": "le chiffonnier",
+            "apres": "la chiffonnière"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "rentré chez lui",
+            "apres": "rentrée chez elle"
+          },
+          {
+            "id": "a3e3:ton",
+            "avant": "content",
+            "apres": "contente"
+          },
+          {
+            "id": "a3e7:texte",
+            "avant": "Pardon, monsieur le chiffonnier, monsieur le chiffonnier !",
+            "apres": "Pardon, madame la chiffonnière, madame la chiffonnière !"
+          },
+          {
+            "id": "a3e8:texte",
+            "avant": "Il se réveilla",
+            "apres": "Elle se réveilla"
+          },
+          {
+            "id": "a3e11:texte",
+            "avant": "Monsieur le chiffonnier",
+            "apres": "Madame la chiffonnière"
+          },
+          {
+            "id": "a3e11:texte",
+            "avant": "effrayé",
+            "apres": "effrayée"
+          },
+          {
+            "id": "a3e12:texte",
+            "avant": "être effrayé ?",
+            "apres": "être effrayée ?"
+          },
+          {
+            "id": "a3e18:texte",
+            "avant": "d’être chiffonnier, et devenez montreur",
+            "apres": "d’être chiffonnière, et devenez montreuse"
+          },
+          {
+            "id": "a3e19:texte",
+            "avant": "tout emballé",
+            "apres": "toute emballée"
+          },
+          {
+            "id": "a3e19:texte",
+            "avant": "il arrêta d’être chiffonnier",
+            "apres": "elle arrêta d’être chiffonnière"
+          },
+          {
+            "id": "a4e1:texte",
+            "avant": "à lui tout seul le directeur, le portier et le bonimenteur",
+            "apres": "à elle toute seule la directrice, la portière et la bonimenteuse"
+          },
+          {
+            "id": "a4e1:texte",
+            "avant": "Il s’assit",
+            "apres": "Elle s’assit"
+          },
+          {
+            "id": "a4e19:texte",
+            "avant": "je suis devenu très riche",
+            "apres": "je suis devenue très riche"
+          },
+          {
+            "id": "a2e31:ton",
+            "avant": "admiratif",
+            "apres": "admirative"
+          },
+          {
+            "id": "a3e10:ton",
+            "avant": "surpris",
+            "apres": "surprise"
+          },
+          {
+            "id": "a3e15:ton",
+            "avant": "curieux",
+            "apres": "curieuse"
+          },
+          {
+            "id": "a3e17:ton",
+            "avant": "intrigué",
+            "apres": "intriguée"
+          },
+          {
+            "id": "a2e32:texte",
+            "avant": "Il acheta",
+            "apres": "Elle acheta"
+          },
+          {
+            "id": "a2e32:texte",
+            "avant": "avec lui",
+            "apres": "avec elle"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a3e13:texte",
+          "avant": "un homme bon et gentil",
+          "gabarit": "{un} {espece} {bon|bonne} et {gentil|gentille}"
+        }
+      ]
+    },
+    {
+      "cle": "r4",
+      "espece": "enfant",
+      "famille": "enfant",
+      "traits": [
+        "curieux",
+        "bavard"
+      ],
+      "voix": "voix vive et aiguë, qui s’emballe quand il voit {{r1}} bouger",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e17:ton",
+            "avant": "stupéfait",
+            "apres": "stupéfaite"
+          },
+          {
+            "id": "a1e30:texte",
+            "avant": "étonné",
+            "apres": "étonnée"
+          },
+          {
+            "id": "a1e33:texte",
+            "avant": "Grondé",
+            "apres": "Grondée"
+          },
+          {
+            "id": "a1e33:texte",
+            "avant": "tout penaud",
+            "apres": "toute penaude"
+          },
+          {
+            "id": "voix:r4",
+            "avant": "il voit",
+            "apres": "elle voit"
+          },
+          {
+            "id": "a1e26:ton",
+            "avant": "insistant",
+            "apres": "insistante"
+          },
+          {
+            "id": "a1e12:texte",
+            "avant": "le petit novice",
+            "apres": "la petite novice"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "ne le croit pas",
+            "apres": "ne la croit pas"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 18,
+    "ageAuditoire": 7,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "Le temple Morin-ji",
+      "description": "Posez un coussin au milieu de la table : {{r1}} s’y repose. Un carton debout sur le côté marque la cloison que {{r4}} longe. Le reste de la table devient le foyer par le récit seul. Les transformations sont racontées ; la même peluche représente les deux formes. Les sons « kan » viennent du conteur lorsque {{r1}} est hors scène.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "La maison de {{r3}}",
+      "description": "Couchez un coussin au bord de la table pour l’oreiller de {{r3}}. Posez un autre coussin à côté : {{r1}} y apparaît. Un drap devant la table cache les changements de peluches.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t3",
+      "titre": "La baraque et le temple",
+      "description": "Tendez un drap derrière la table pour évoquer le rideau de la baraque. Le bord libre de la table représente la corde, sans vraie corde à installer. Le coussin posé de côté devient le repos au temple à la fin.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Une bouilloire qui marche",
+      "resume": "Au temple, {{r4}} voit {{r1}} marcher pendant le sommeil du bonze. {{r2}} ne le croit pas.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Il y avait autrefois, à Tatebayashi, dans la province de Kōzuke, un temple appelé Morin-ji. {{r2}}, le bonze de ce temple, aimait beaucoup la cérémonie du thé : il collectionnait toutes sortes d’ustensiles étranges, et s’amusait chaque jour à les regarder."
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e3",
+          "type": "didascalie",
+          "texte": "{{r2}} se promène devant le coussin du temple, tout droit et tout fier."
+        },
+        {
+          "id": "a1e4",
+          "type": "conteur",
+          "texte": "Un jour, en revenant d’une course en ville, {{r2}} vit chez un marchand d’antiquités une bouilloire à thé d’une forme qui lui plut. Il l’acheta aussitôt. Bientôt {{r1}} était posé en décoration dans sa chambre, et {{r2}} montrait fièrement la bouilloire à tous ses visiteurs :"
+        },
+        {
+          "id": "a1e5",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e6",
+          "type": "didascalie",
+          "texte": "{{r1}} se tient tout rond et immobile sur le coussin."
+        },
+        {
+          "id": "a1e7",
+          "type": "replique",
+          "texte": "Alors, n’est-ce pas une belle bouilloire ?",
+          "marionnetteId": "r2",
+          "ton": "avec fierté"
+        },
+        {
+          "id": "a1e8",
+          "type": "adresse_public",
+          "texte": "Faites avec moi le son de cette bouilloire : kan, kan !",
+          "marionnetteId": "r2",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e9",
+          "type": "conteur",
+          "texte": "Un soir, {{r2}}, comme d’habitude, sommeillait à côté de {{r1}} posé dans sa chambre. Et bientôt, il s’endormit profondément."
+        },
+        {
+          "id": "a1e10",
+          "type": "didascalie",
+          "texte": "{{r2}} baisse la tête et disparaît derrière le coussin."
+        },
+        {
+          "id": "a1e11",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e12",
+          "type": "conteur",
+          "texte": "La chambre de {{r2}} était si silencieuse que {{r4}}, le petit novice, se demandant ce qui se passait, regarda doucement par une fente de la cloison de papier."
+        },
+        {
+          "id": "a1e13",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e14",
+          "type": "didascalie",
+          "texte": "{{r4}} apparaît sur le côté et se penche vers {{r1}}."
+        },
+        {
+          "id": "a1e15",
+          "type": "conteur",
+          "texte": "Alors {{r1}}, posé sur un coussin près de {{r2}}, se mit tout seul à remuer. « Tiens ? » pensa {{r4}} ; et voilà qu’une tête sortit de {{r1}}, puis une grosse queue, puis quatre pattes, et bientôt il se mit à se promener lourdement dans la chambre."
+        },
+        {
+          "id": "a1e16",
+          "type": "didascalie",
+          "texte": "{{r4}} se penche de côté, puis de l’autre, pour mieux voir {{r1}}."
+        },
+        {
+          "id": "a1e17",
+          "type": "replique",
+          "texte": "Oh là là ! La bouilloire s’est transformée !",
+          "marionnetteId": "r4",
+          "ton": "stupéfait"
+        },
+        {
+          "id": "a1e18",
+          "type": "replique",
+          "texte": "Maître, maître ! La bouilloire marche !",
+          "marionnetteId": "r4",
+          "ton": "en criant"
+        },
+        {
+          "id": "a1e19",
+          "type": "adresse_public",
+          "texte": "Appelez le maître avec moi : « Maître, maître ! »",
+          "marionnetteId": "r4",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e20",
+          "type": "didascalie",
+          "texte": "{{r1}} se baisse sur le coussin et reste immobile."
+        },
+        {
+          "id": "a1e21",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e22",
+          "type": "conteur",
+          "texte": "Au bruit, {{r2}} se réveilla :"
+        },
+        {
+          "id": "a1e23",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e24",
+          "type": "didascalie",
+          "texte": "{{r2}} surgit derrière le coussin et se tourne vers {{r4}}."
+        },
+        {
+          "id": "a1e25",
+          "type": "replique",
+          "texte": "Silence ! Qu’est-ce que c’est que ce vacarme ?",
+          "marionnetteId": "r2",
+          "ton": "en grognant"
+        },
+        {
+          "id": "a1e26",
+          "type": "replique",
+          "texte": "Mais maître, regardez ! Voyez, la bouilloire marche !",
+          "marionnetteId": "r4",
+          "ton": "insistant"
+        },
+        {
+          "id": "a1e27",
+          "type": "conteur",
+          "texte": "Comme {{r4}} le disait, {{r2}} regarda là où {{r4}} regardait : {{r1}} n’avait plus ni tête, ni pattes, ni queue. C’était redevenu la bouilloire d’avant, posée sagement sur le coussin, l’air de rien. {{r2}} se fâcha :"
+        },
+        {
+          "id": "a1e28",
+          "type": "replique",
+          "texte": "Qu’est-ce que c’est ! Il y a des limites aux bêtises !",
+          "marionnetteId": "r2",
+          "ton": "fâché"
+        },
+        {
+          "id": "a1e29",
+          "type": "replique",
+          "texte": "C’est quand même bizarre… Il marchait, c’est sûr.",
+          "marionnetteId": "r4",
+          "ton": "tout bas"
+        },
+        {
+          "id": "a1e30",
+          "type": "conteur",
+          "texte": "En disant cela, {{r4}} s’approcha, étonné, et écouta la bouilloire. {{r1}} fit : « Kan ! »"
+        },
+        {
+          "id": "a1e31",
+          "type": "note_marionnettiste",
+          "texte": "Le « Kan ! » est fait à la voix, sans frapper ni toucher de peluche."
+        },
+        {
+          "id": "a1e32",
+          "type": "replique",
+          "texte": "Vous voyez ? C’est une bouilloire ordinaire. Avec vos sornettes, vous m’avez réveillé alors que je dormais si bien.",
+          "marionnetteId": "r2",
+          "ton": "sévère"
+        },
+        {
+          "id": "a1e33",
+          "type": "conteur",
+          "texte": "Grondé sévèrement par {{r2}}, {{r4}} se retira tout penaud, en ronchonnant."
+        },
+        {
+          "id": "a1e34",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e35",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Ça brûle !",
+      "resume": "{{r2}} essaie la bouilloire, découvre le tanuki et vend {{r1}} à {{r3}}.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "Le lendemain, {{r2}} dit :"
+        },
+        {
+          "id": "a2e2",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e3",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e4",
+          "type": "replique",
+          "texte": "C’est bien bête d’avoir acheté une bouilloire et de ne faire que la regarder. Aujourd’hui, je vais l’essayer.",
+          "marionnetteId": "r2",
+          "ton": "décidé"
+        },
+        {
+          "id": "a2e5",
+          "type": "conteur",
+          "texte": "Alors, bien que ce soit une petite bouilloire, {{r1}} avala d’un coup — glou ! — un plein seau d’eau."
+        },
+        {
+          "id": "a2e6",
+          "type": "adresse_public",
+          "texte": "Faites avec moi le grand glou du seau : glou !",
+          "marionnetteId": "r1",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e7",
+          "type": "conteur",
+          "texte": "{{r2}} trouva cela un peu « bizarre » ; mais comme il n’y avait rien d’autre d’étrange, il se rassura. Au bout d’un moment, le foyer chauffa sous le derrière de {{r1}}, et {{r1}} cria tout à coup :"
+        },
+        {
+          "id": "a2e8",
+          "type": "replique",
+          "texte": "Ça brûle !",
+          "marionnetteId": "r1",
+          "ton": "très fort"
+        },
+        {
+          "id": "a2e9",
+          "type": "didascalie",
+          "texte": "{{r1}} bondit loin du foyer, tremble, puis tourne sur lui-même."
+        },
+        {
+          "id": "a2e10",
+          "type": "conteur",
+          "texte": "Et avant qu’on ait eu le temps de dire « Oh ! », une tête de tanuki sortit, quatre pattes sortirent, une grosse queue poussa, et il se mit à se promener tranquillement dans la pièce."
+        },
+        {
+          "id": "a2e11",
+          "type": "replique",
+          "texte": "Waaah ! Au secours, au secours ! La bouilloire s’est transformée ! Venez vite !",
+          "marionnetteId": "r2",
+          "ton": "effrayé"
+        },
+        {
+          "id": "a2e12",
+          "type": "adresse_public",
+          "texte": "Criez avec moi : « Venez vite ! »",
+          "marionnetteId": "r2",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e13",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e14",
+          "type": "conteur",
+          "texte": "{{r4}} accourut en criant :"
+        },
+        {
+          "id": "a2e15",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e16",
+          "type": "replique",
+          "texte": "On arrive !",
+          "marionnetteId": "r4",
+          "ton": "en courant"
+        },
+        {
+          "id": "a2e17",
+          "type": "didascalie",
+          "texte": "{{r4}} se penche à gauche puis à droite pour examiner {{r1}}."
+        },
+        {
+          "id": "a2e18",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e19",
+          "type": "conteur",
+          "texte": "Mais à ce moment, {{r1}} était redevenu une bouilloire, posé sagement sur son coussin. On entendait encore : « Kan, kan ! »"
+        },
+        {
+          "id": "a2e20",
+          "type": "adresse_public",
+          "texte": "Redites avec moi ce petit bruit : kan, kan !",
+          "marionnetteId": "r4",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e21",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e22",
+          "type": "conteur",
+          "texte": "{{r2}}, l’air encore tout effrayé, réfléchissait :"
+        },
+        {
+          "id": "a2e23",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e24",
+          "type": "replique",
+          "texte": "Moi qui pensais avoir trouvé une belle bouilloire, je me suis mis un drôle de fardeau sur le dos. Qu’est-ce que je vais en faire ?",
+          "marionnetteId": "r2",
+          "ton": "inquiet"
+        },
+        {
+          "id": "a2e25",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e26",
+          "type": "replique",
+          "texte": "Chiffonnier ! Chiffonnier !",
+          "marionnetteId": "r3",
+          "ton": "devant la porte"
+        },
+        {
+          "id": "a2e27",
+          "type": "replique",
+          "texte": "Ah, le chiffonnier tombe bien. Je vais lui vendre cette bouilloire.",
+          "marionnetteId": "r2",
+          "ton": "soulagé"
+        },
+        {
+          "id": "a2e28",
+          "type": "didascalie",
+          "texte": "{{r2}} se tourne vers {{r3}} et incline la tête vers le coussin."
+        },
+        {
+          "id": "a2e29",
+          "type": "didascalie",
+          "texte": "{{r3}} s’approche du coussin."
+        },
+        {
+          "id": "a2e30",
+          "type": "conteur",
+          "texte": "{{r3}} contempla {{r1}} de tous les côtés, puis dit :"
+        },
+        {
+          "id": "a2e31",
+          "type": "replique",
+          "texte": "C’est un très bel objet.",
+          "marionnetteId": "r3",
+          "ton": "admiratif"
+        },
+        {
+          "id": "a2e32",
+          "type": "conteur",
+          "texte": "Il acheta {{r1}}, qui partit avec lui."
+        },
+        {
+          "id": "a2e33",
+          "type": "didascalie",
+          "texte": "{{r2}} s’écarte. {{r3}} se tourne vers la route."
+        },
+        {
+          "id": "a2e34",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e35",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Le marché avec {{r3}}",
+      "resume": "Chez {{r3}}, {{r1}} révèle qu’il est un tanuki et propose les acrobaties qui leur feront gagner leur vie.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "conteur",
+          "texte": "{{r3}} qui avait acheté {{r1}}, rentré chez lui, souriait encore :"
+        },
+        {
+          "id": "a3e2",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e3",
+          "type": "replique",
+          "texte": "Voilà une trouvaille comme on n’en a pas fait depuis longtemps. Il faut que je trouve un riche amateur, pour vendre cette bouilloire un bon prix.",
+          "marionnetteId": "r3",
+          "ton": "content"
+        },
+        {
+          "id": "a3e4",
+          "type": "conteur",
+          "texte": "En se disant cela, {{r3}} s’endormit profondément, tandis que {{r1}} se trouvait près de son oreiller. Passé minuit, quelque part, une voix appela :"
+        },
+        {
+          "id": "a3e5",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e6",
+          "type": "didascalie",
+          "texte": "{{r1}} apparaît près du coussin et se tourne vers {{r3}}."
+        },
+        {
+          "id": "a3e7",
+          "type": "replique",
+          "texte": "Pardon, monsieur le chiffonnier, monsieur le chiffonnier !",
+          "marionnetteId": "r1",
+          "ton": "doucement"
+        },
+        {
+          "id": "a3e8",
+          "type": "conteur",
+          "texte": "Il se réveilla en sursaut : près de son oreiller, {{r1}} de tout à l’heure était assis sagement, avec une tête toute poilue et une grosse queue. {{r3}} bondit."
+        },
+        {
+          "id": "a3e9",
+          "type": "didascalie",
+          "texte": "{{r3}} se tourne vers {{r1}}."
+        },
+        {
+          "id": "a3e10",
+          "type": "replique",
+          "texte": "Oh là là ! La bouilloire s’est transformée !",
+          "marionnetteId": "r3",
+          "ton": "surpris"
+        },
+        {
+          "id": "a3e11",
+          "type": "replique",
+          "texte": "Monsieur le chiffonnier, ne soyez pas si effrayé.",
+          "marionnetteId": "r1",
+          "ton": "rassurant"
+        },
+        {
+          "id": "a3e12",
+          "type": "replique",
+          "texte": "Comment ne pas être effrayé ? Une bouilloire à qui il pousse des poils et qui se met à marcher, n’importe qui serait effrayé ! Qu’est-ce que tu es, au juste ?",
+          "marionnetteId": "r3",
+          "ton": "en reculant"
+        },
+        {
+          "id": "a3e13",
+          "type": "replique",
+          "texte": "Je suis {{r1}}, et en vérité, je suis un tanuki qui s’est changé en bouilloire. Un jour que je jouais dans un pré, cinq ou six hommes m’ont poursuivi ; pour leur échapper, je me suis changé en bouilloire et j’ai roulé dans l’herbe. Mais les hommes m’ont trouvé et ont dit : « Une bouilloire, une bouilloire, une bonne affaire ! Vendons-la quelque part, et achetons de quoi faire un bon repas. » Alors j’ai été vendu à un marchand d’antiquités, exposé devant sa boutique, et bien à l’étroit. Et en plus, on ne m’a rien donné à manger, si bien que j’allais mourir de faim quand {{r2}} du temple m’a acheté. Au temple, on m’a enfin donné un seau d’eau, je l’ai bu d’un trait et je respirais enfin, quand on m’a mis sur le feu, le derrière dans les flammes : ça, vraiment, ça m’a surpris. Plus jamais un endroit pareil ! Vous avez l’air d’un homme bon et gentil : s’il vous plaît, gardez-moi quelque temps chez vous et nourrissez-moi. Je vous le revaudrai, c’est sûr.",
+          "marionnetteId": "r1",
+          "ton": "en racontant"
+        },
+        {
+          "id": "a3e14",
+          "type": "adresse_public",
+          "texte": "Dites avec moi ce que j’ai crié près du feu : « Ça brûle ! »",
+          "marionnetteId": "r1",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e15",
+          "type": "replique",
+          "texte": "Oui, oui, te garder, ce n’est rien du tout. Mais comment comptes-tu me remercier ?",
+          "marionnetteId": "r3",
+          "ton": "curieux"
+        },
+        {
+          "id": "a3e16",
+          "type": "replique",
+          "texte": "Eh bien, en faisant des tours amusants dans un spectacle, je vous ferai gagner beaucoup d’argent.",
+          "marionnetteId": "r1",
+          "ton": "avec entrain"
+        },
+        {
+          "id": "a3e17",
+          "type": "replique",
+          "texte": "Hmm, des tours, lesquels ?",
+          "marionnetteId": "r3",
+          "ton": "intrigué"
+        },
+        {
+          "id": "a3e18",
+          "type": "replique",
+          "texte": "Pour commencer, des acrobaties sur la corde raide, et la danse joyeuse de {{r1}}. Arrêtez d’être chiffonnier, et devenez montreur de spectacle. Dès demain, vous gagnerez beaucoup d’argent.",
+          "marionnetteId": "r1",
+          "ton": "joyeux"
+        },
+        {
+          "id": "a3e19",
+          "type": "conteur",
+          "texte": "À ces mots, {{r3}} fut tout emballé. Et, comme le lui conseillait {{r1}}, il arrêta d’être chiffonnier."
+        },
+        {
+          "id": "a3e20",
+          "type": "didascalie",
+          "texte": "{{r3}} se redresse, puis {{r1}} bondit de joie."
+        },
+        {
+          "id": "a3e21",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e22",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "numero": 4,
+      "titre": "La danse et la retraite",
+      "resume": "Le spectacle de corde attire les foules. {{r3}} s’arrête, rapporte {{r1}} au temple et donne à {{r2}} la moitié de l’argent.",
+      "tableauId": "t3",
+      "elements": [
+        {
+          "id": "a4e1",
+          "type": "conteur",
+          "texte": "Le lendemain, dès l’aube, le spectacle était prêt. Dans le quartier animé de la ville, une baraque portait une grande enseigne peinte montrant {{r1}} sur la corde et dans sa danse joyeuse. {{r3}} fit à lui tout seul le directeur, le portier et le bonimenteur. Il s’assit à l’entrée et cria à pleine voix :"
+        },
+        {
+          "id": "a4e2",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e3",
+          "type": "replique",
+          "texte": "Approchez, approchez ! La célèbre bouilloire {{r1}}, à qui il a poussé des poils et des pattes ! Acrobaties sur la corde raide, danse joyeuse, tours extraordinaires ! C’est le spectacle dont tout le monde parle !",
+          "marionnetteId": "r3",
+          "ton": "fort"
+        },
+        {
+          "id": "a4e4",
+          "type": "adresse_public",
+          "texte": "Approchez en tapant des pieds avec moi : plam, plam !",
+          "marionnetteId": "r3",
+          "attenteReponse": false
+        },
+        {
+          "id": "a4e5",
+          "type": "conteur",
+          "texte": "Les passants, attirés par l’enseigne étrange et le boniment amusant, se pressèrent en foule dans la baraque, qui fut aussitôt pleine."
+        },
+        {
+          "id": "a4e6",
+          "type": "conteur",
+          "texte": "Bientôt, les claquettes de bois résonnèrent, le rideau se leva."
+        },
+        {
+          "id": "a4e7",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e8",
+          "type": "didascalie",
+          "texte": "{{r1}} salue et avance jusqu’au bord libre de la table, comme sur une corde."
+        },
+        {
+          "id": "a4e9",
+          "type": "adresse_public",
+          "texte": "Faites le grand « Oh ! » des spectateurs avec moi !",
+          "marionnetteId": "r1",
+          "attenteReponse": false
+        },
+        {
+          "id": "a4e10",
+          "type": "didascalie",
+          "texte": "{{r1}} avance en oscillant à gauche, à droite, puis tourne sur lui-même et salue."
+        },
+        {
+          "id": "a4e11",
+          "type": "conteur",
+          "texte": "Les spectateurs, émerveillés, l’acclamèrent à faire éclater la baraque."
+        },
+        {
+          "id": "a4e12",
+          "type": "adresse_public",
+          "texte": "Applaudissez comme les spectateurs !",
+          "marionnetteId": "r3",
+          "attenteReponse": false
+        },
+        {
+          "id": "a4e13",
+          "type": "conteur",
+          "texte": "Dès lors, chaque fois que {{r1}} faisait un tour extraordinaire, les spectateurs, ravis, se disaient :"
+        },
+        {
+          "id": "a4e14",
+          "type": "note_marionnettiste",
+          "texte": "Voix des spectateurs, en coulisse : « C’est le spectacle le plus amusant que j’aie vu de ma vie ! »"
+        },
+        {
+          "id": "a4e15",
+          "type": "conteur",
+          "texte": "Et ils repartaient en foule. La renommée de {{r1}} se répandit partout : non seulement les voisins, mais des gens de provinces lointaines venaient exprès à pied pour le voir, et c’était plein à craquer jour et nuit, si bien qu’en peu de temps, {{r3}} devint très riche."
+        },
+        {
+          "id": "a4e16",
+          "type": "adresse_public",
+          "texte": "Refaites avec moi mes trois petits pas de danse : un, deux, trois !",
+          "marionnetteId": "r1",
+          "attenteReponse": false
+        },
+        {
+          "id": "a4e17",
+          "type": "conteur",
+          "texte": "Un jour, {{r3}} se dit :"
+        },
+        {
+          "id": "a4e18",
+          "type": "replique",
+          "texte": "Gagner de l’argent comme ça grâce à {{r1}}, ça n’aura jamais de fin : il est temps de le laisser se reposer.",
+          "marionnetteId": "r3",
+          "ton": "en réfléchissant"
+        },
+        {
+          "id": "a4e19",
+          "type": "replique",
+          "texte": "Je t’ai fait travailler tant et plus, et grâce à toi je suis devenu très riche. On dit que la cupidité des hommes n’a pas de limite, mais c’est mal d’être trop avide. À partir d’aujourd’hui, j’arrête le spectacle, et je te rends au temple Morin-ji. Mais cette fois, je demanderai à {{r2}} de ne pas te mettre sur le feu comme une bouilloire ordinaire : tu seras précieusement gardé comme un trésor du temple, posé sur un coussin de brocart, et tu vivras en retraite bien tranquille. Qu’en dis-tu ?",
+          "marionnetteId": "r3",
+          "ton": "avec douceur"
+        },
+        {
+          "id": "a4e20",
+          "type": "replique",
+          "texte": "Oui, c’est vrai que je suis fatigué. Je vais me reposer un peu.",
+          "marionnetteId": "r1",
+          "ton": "fatigué"
+        },
+        {
+          "id": "a4e21",
+          "type": "conteur",
+          "texte": "Alors {{r3}} revint au temple Morin-ji avec {{r1}} et offrit à {{r2}} la moitié de l’argent gagné grâce au spectacle."
+        },
+        {
+          "id": "a4e22",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e23",
+          "type": "didascalie",
+          "texte": "{{r3}} attend devant le coussin du temple."
+        },
+        {
+          "id": "a4e24",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e25",
+          "type": "replique",
+          "texte": "Oh, oh, voilà une belle action !",
+          "marionnetteId": "r2",
+          "ton": "content"
+        },
+        {
+          "id": "a4e26",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e27",
+          "type": "didascalie",
+          "texte": "{{r2}} se tourne vers le coussin du temple."
+        },
+        {
+          "id": "a4e28",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e29",
+          "type": "conteur",
+          "texte": "Et {{r2}} accueillit {{r1}}. {{r1}}, sans doute fatigué et endormi, ne se mit plus jamais à danser avec des pattes : il devint le trésor du temple, et y serait encore aujourd’hui."
+        },
+        {
+          "id": "a4e30",
+          "type": "didascalie",
+          "texte": "{{r2}} s’incline vers {{r1}}, qui reste immobile sur le coussin."
+        },
+        {
+          "id": "a4e31",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e32",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "ja-bouilloire-tanuki",
+    "synopsis": {
+      "accroche": "Une bouilloire cache un tanuki qui a faim et rêve d’une maison tranquille.",
+      "resume": [
+        "Au temple, {{r4}} surprend {{r1}} en train de marcher, puis {{r2}} entend crier près du foyer.",
+        "Vendu à {{r3}}, {{r1}} révèle son histoire et propose un spectacle de corde.",
+        "{{r3}} devient riche, puis rend {{r1}} au temple avec la moitié de l’argent du spectacle."
+      ]
+    },
+    "transposition": {
+      "texte": "# La Bouilloire du tanuki\n\n*Japon — légende du temple Morin-ji, dans la version de Kusuyama Masao (1884-1950), « Bunbuku chagama ». Traduit du japonais pour le Souffleur. Le tanuki est une sorte de chien viverrin, qui dans les contes japonais sait se transformer.*\n\n## I\n\nIl y avait autrefois, à Tatebayashi, dans la province de Kōzuke, un temple appelé Morin-ji. {{r2}}, le bonze de ce temple, aimait beaucoup la cérémonie du thé : il collectionnait toutes sortes d’ustensiles étranges, et s’amusait chaque jour à les regarder.\n\nUn jour, en revenant d’une course en ville, {{r2}} vit chez un marchand d’antiquités une bouilloire à thé d’une forme qui lui plut. Il l’acheta aussitôt. Bientôt {{r1}} était posé en décoration dans sa chambre, et {{r2}} montrait fièrement la bouilloire à tous ses visiteurs :\n\n— Alors, n’est-ce pas une belle bouilloire ?\n\nUn soir, {{r2}}, comme d’habitude, sommeillait à côté de {{r1}} posé dans sa chambre. Et bientôt, il s’endormit profondément.\n\nLa chambre de {{r2}} était si silencieuse que {{r4}}, le petit novice, se demandant ce qui se passait, regarda doucement par une fente de la cloison de papier. Alors {{r1}}, posé sur un coussin près de {{r2}}, se mit tout seul à remuer. « Tiens ? » pensa {{r4}} ; et voilà qu’une tête sortit de {{r1}}, puis une grosse queue, puis quatre pattes, et bientôt il se mit à se promener lourdement dans la chambre.\n\n{{r4}}, stupéfait, se précipita dans la chambre :\n\n— Oh là là ! La bouilloire s’est transformée !\n\n— Maître, maître ! {{r1}} marche !\n\nEt il se mit à crier d’une voix aiguë. Au bruit, {{r2}} se réveilla :\n\n— Silence ! Qu’est-ce que c’est que ce vacarme ?\n\nEt il le gronda.\n\n— Mais maître, regardez ! Voyez, {{r1}} marche !\n\nComme {{r4}} le disait, {{r2}} regarda là où {{r4}} regardait : {{r1}} n’avait plus ni tête, ni pattes, ni queue. C’était redevenu la bouilloire d’avant, posée sagement sur le coussin, l’air de rien. {{r2}} se fâcha :\n\n— Qu’est-ce que c’est ! Il y a des limites aux bêtises !\n\n— C’est quand même bizarre… Il marchait, c’est sûr.\n\nEn disant cela, {{r4}} s’approcha, étonné, et écouta la bouilloire. {{r1}} fit : « Kan ! »\n\n— Vous voyez ? C’est une bouilloire ordinaire. Avec vos sornettes, vous m’avez réveillé alors que je dormais si bien.\n\nGrondé sévèrement par {{r2}}, {{r4}} se retira tout penaud, en ronchonnant.\n\nLe lendemain, {{r2}} dit :\n\n— C’est bien bête d’avoir acheté une bouilloire et de ne faire que la regarder. Aujourd’hui, je vais l’essayer.\n\nAlors, bien que ce soit une petite bouilloire, {{r1}} avala d’un coup — glou ! — un plein seau d’eau.\n\n{{r2}} trouva cela un peu « bizarre » ; mais comme il n’y avait rien d’autre d’étrange, il se rassura. Au bout d’un moment, le foyer chauffa sous le derrière de {{r1}}, et {{r1}} cria tout à coup : « Ça brûle ! » et bondit loin du foyer. Et avant qu’on ait eu le temps de dire « Oh ! », une tête de tanuki sortit, quatre pattes sortirent, une grosse queue poussa, et il se mit à se promener tranquillement dans la pièce. {{r2}} fit un bond en criant : « Waaah ! »\n\n— Au secours, au secours ! La bouilloire s’est transformée ! Venez vite !\n\n{{r2}} appela à grands cris ; {{r4}} accourut en criant : « On arrive ! ». Mais à ce moment, {{r1}} était redevenu une bouilloire, posé sagement sur son coussin. On entendait encore : « Kan, kan ! »\n\n{{r2}}, l’air encore tout effrayé, réfléchissait :\n\n— Moi qui pensais avoir trouvé une belle bouilloire, je me suis mis un drôle de fardeau sur le dos. Qu’est-ce que je vais en faire ?\n\nQuand, devant la porte, une voix cria :\n\n— Chiffonnier ! Chiffonnier !\n\n— Ah, {{r3}} tombe bien. Je vais lui vendre cette bouilloire.\n\nEt {{r2}} fit appeler {{r3}}. {{r3}} contempla {{r1}} de tous les côtés, puis dit :\n\n— C’est un très bel objet.\n\nIl acheta {{r1}}, qui partit avec lui.\n\n## II\n\n{{r3}} qui avait acheté {{r1}}, rentré chez lui, souriait encore :\n\n— Voilà une trouvaille comme on n’en a pas fait depuis longtemps. Il faut que je trouve un riche amateur, pour vendre cette bouilloire un bon prix.\n\nEn se disant cela, {{r3}} s’endormit profondément, tandis que {{r1}} se trouvait près de son oreiller. Passé minuit, quelque part, une voix appela :\n\n— Pardon, monsieur {{r3}}, monsieur {{r3}} !\n\nIl se réveilla en sursaut : près de son oreiller, {{r1}} de tout à l’heure était assis sagement, avec une tête toute poilue et une grosse queue. {{r3}} bondit.\n\n— Oh là là ! La bouilloire s’est transformée !\n\n— Monsieur {{r3}}, ne soyez pas si effrayé.\n\n— Comment ne pas être effrayé ? Une bouilloire à qui il pousse des poils et qui se met à marcher, n’importe qui serait effrayé ! Qu’est-ce que tu es, au juste ?\n\n— Je suis {{r1}}, et en vérité, je suis un tanuki qui s’est changé en bouilloire. Un jour que je jouais dans un pré, cinq ou six hommes m’ont poursuivi ; pour leur échapper, je me suis changé en bouilloire et j’ai roulé dans l’herbe. Mais les hommes m’ont trouvé et ont dit : « Une bouilloire, une bouilloire, une bonne affaire ! Vendons-la quelque part, et achetons de quoi faire un bon repas. » Alors j’ai été vendu à un marchand d’antiquités, exposé devant sa boutique, et bien à l’étroit. Et en plus, on ne m’a rien donné à manger, si bien que j’allais mourir de faim quand {{r2}} du temple m’a acheté. Au temple, on m’a enfin donné un seau d’eau, je l’ai bu d’un trait et je respirais enfin, quand on m’a mis sur le feu, le derrière dans les flammes : ça, vraiment, ça m’a surpris. Plus jamais un endroit pareil ! Vous avez l’air d’un homme bon et gentil : s’il vous plaît, gardez-moi quelque temps chez vous et nourrissez-moi. Je vous le revaudrai, c’est sûr.\n\n— Oui, oui, te garder, ce n’est rien du tout. Mais comment comptes-tu me remercier ?\n\n— Eh bien, en faisant des tours amusants dans un spectacle, je vous ferai gagner beaucoup d’argent.\n\n— Hmm, des tours, lesquels ?\n\n— Pour commencer, des acrobaties sur la corde raide, et la danse joyeuse de {{r1}}. Arrêtez d’être chiffonnier, et devenez montreur de spectacle. Dès demain, vous gagnerez beaucoup d’argent.\n\nÀ ces mots, {{r3}} fut tout emballé. Et, comme le lui conseillait {{r1}}, il arrêta d’être chiffonnier.\n\nLe lendemain, dès l’aube, le spectacle était prêt. Dans le quartier animé de la ville, une baraque portait une grande enseigne peinte montrant {{r1}} sur la corde et dans sa danse joyeuse. {{r3}} fit à lui tout seul le directeur, le portier et le bonimenteur. Il s’assit à l’entrée et cria à pleine voix :\n\n— Approchez, approchez ! La célèbre bouilloire {{r1}}, à qui il a poussé des poils et des pattes ! Acrobaties sur la corde raide, danse joyeuse, tours extraordinaires ! C’est le spectacle dont tout le monde parle !\n\nLes passants, attirés par l’enseigne étrange et le boniment amusant, se pressèrent en foule dans la baraque, qui fut aussitôt pleine.\n\nBientôt, les claquettes de bois résonnèrent, le rideau se leva. {{r1}} sortit tranquillement des coulisses pour saluer. On vit alors une chose inimaginable : un monstre, une grosse bouilloire à qui il avait poussé des pattes. Tous les spectateurs firent « Oh ! » en ouvrant de grands yeux.\n\nEt comme si ce n’était pas assez étrange, ce monstre de bouilloire avança sur la corde en balançant la tête et la queue. Et, balançant adroitement son corps lourd, il réussit tout un numéro de corde raide. Les spectateurs, émerveillés, l’acclamèrent à faire éclater la baraque.\n\nDès lors, chaque fois que {{r1}} faisait un tour extraordinaire, les spectateurs, ravis, se disaient :\n\n— C’est le spectacle le plus amusant que j’aie vu de ma vie !\n\nEt ils repartaient en foule. La renommée de {{r1}} se répandit partout : non seulement les voisins, mais des gens de provinces lointaines venaient exprès à pied pour le voir, et c’était plein à craquer jour et nuit, si bien qu’en peu de temps, {{r3}} devint très riche.\n\nUn jour, {{r3}} se dit : « Gagner de l’argent comme ça grâce à {{r1}}, ça n’aura jamais de fin : il est temps de le laisser se reposer. » Il appela {{r1}} et lui dit :\n\n— Je t’ai fait travailler tant et plus, et grâce à toi je suis devenu très riche. On dit que la cupidité des hommes n’a pas de limite, mais c’est mal d’être trop avide. À partir d’aujourd’hui, j’arrête le spectacle, et je te rends au temple Morin-ji. Mais cette fois, je demanderai à {{r2}} de ne pas te mettre sur le feu comme une bouilloire ordinaire : tu seras précieusement gardé comme un trésor du temple, posé sur un coussin de brocart, et tu vivras en retraite bien tranquille. Qu’en dis-tu ?\n\n{{r1}} répondit :\n\n— Oui, c’est vrai que je suis fatigué. Je vais me reposer un peu.\n\nAlors {{r3}} revint au temple Morin-ji avec {{r1}} et offrit à {{r2}} la moitié de l’argent gagné grâce au spectacle. {{r2}} dit :\n\n— Oh, oh, voilà une belle action !\n\nEt {{r2}} accueillit {{r1}}. {{r1}}, sans doute fatigué et endormi, ne se mit plus jamais à danser avec des pattes : il devint le trésor du temple, et y serait encore aujourd’hui.\n"
+    }
+  },
+  "dureeEstimeeSecondes": 902,
+  "interactionsOrdonnees": [
+    "a4e9",
+    "a2e12",
+    "a1e19",
+    "a4e12",
+    "a2e6",
+    "a4e16",
+    "a1e8",
+    "a2e20",
+    "a4e4",
+    "a3e14"
+  ]
+}
