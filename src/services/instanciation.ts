@@ -13,8 +13,8 @@
 //   3. LES NOMS. `peupler` (services/banque.ts) remplace les variables par
 //      les noms des marionnettes, élisions comprises.
 //
-// L'espèce citée dans le texte ne se retouche pas : elle est une barrière
-// d'appariement (services/appariement.ts) — il faut la même espèce.
+// Les mentions d'espèce suivent le mot ET le genre de la peluche, même
+// quand seul le genre change. Seules les espèces imposées font barrière.
 
 import type { Marionnette, NiveauInteraction, Spectacle } from '../types';
 import { tba } from '../textes';
@@ -182,8 +182,11 @@ export function instancierModele(
     }
     const plat = (t: string) =>
       t.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim();
-    if (plat(cible) === plat(role.espece)) return;
-    const genre = genreMarionnette(m) ?? role.genre ?? 'masculin';
+    const genre = genreMarionnette(m) ?? options.genresChoisis?.[role.cle]
+      ?? role.genre ?? 'masculin';
+    // Les gabarits portent aussi les articles et adjectifs : le même mot
+    // d'espèce ne dispense de les rendre que si le genre reste identique.
+    if (plat(cible) === plat(role.espece) && genre === role.genre) return;
     if (!mettreALEspece(modele, role.cle, cible.trim().toLowerCase(), genre)) {
       avertissements.push(tba.creation.especeIndisponible(m.nom));
     }

@@ -413,13 +413,13 @@
       "especeMentions": [
         {
           "id": "a1e1:texte",
-          "avant": "le roi dragon",
-          "gabarit": "le roi {espece}"
+          "avant": "dragon",
+          "gabarit": "{espece}"
         },
         {
           "id": "a2e11:texte",
-          "avant": "du roi dragon",
-          "gabarit": "du roi {espece}"
+          "avant": "dragon",
+          "gabarit": "{espece}"
         },
         {
           "id": "a2e14:texte",

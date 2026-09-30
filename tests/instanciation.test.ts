@@ -146,6 +146,37 @@ describe('instancierModele — l’espèce suit la peluche', () => {
     expect(r.spectacle.pitch).toBe('Le loup Grognard rôde.');
   });
 
+  it('même espèce, autre genre déclaré : articles, adjectifs et pronoms suivent', () => {
+    const m = modele();
+    m.pitch = 'Un petit loup {{r1}} rôde.';
+    m.roles[0].especeMentions = [{
+      id: 'pitch', avant: 'Un petit loup', gabarit: '{Un} {petit|petite} {espece}',
+    }];
+    const r = instancierModele(m, distribution, [
+      { ...peluche('x', 'Louna', '', 'feminin'), espece: 'loup' },
+    ]);
+    expect(r.avertissements).toEqual([]);
+    expect(r.spectacle.pitch).toBe('Une petite loup Louna rôde.');
+    expect(TEXTE(r)).toContain('Elle est gourmande, Louna');
+  });
+
+  it('emploie aussi le genre choisi pour les mentions, avec priorité au genre déclaré', () => {
+    for (const espece of ['floub', 'flib']) {
+      for (const declare of [undefined, 'masculin'] as const) {
+        const m = modele();
+        m.roles[0].espece = 'floub';
+        m.pitch = 'Le floub {{r1}} rôde.';
+        m.roles[0].especeMentions = [{ id: 'pitch', avant: 'Le floub', gabarit: '{Le} {espece}' }];
+        const r = instancierModele(m, distribution, [
+          { ...peluche('x', 'Zig', '', declare), espece },
+        ], { genresChoisis: { r1: 'feminin' } });
+        expect(r.avertissements).toEqual([]);
+        expect(r.spectacle.pitch).toBe(`${declare ? 'Le' : 'La'} ${espece} Zig rôde.`);
+        expect(TEXTE(r)).toContain(declare ? 'Il est gourmand' : 'Elle est gourmande');
+      }
+    }
+  });
+
   it('espèce introuvable : le texte garde le mot d’origine, et on le dit', () => {
     const r = instancierModele(modele(), distribution, [
       peluche('x', 'Zig', ''),

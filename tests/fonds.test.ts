@@ -151,4 +151,32 @@ describe.each(MODELES)('le fonds : $fichier', ({ fichier, modele: m }) => {
     const classees = [...(m.interactionsOrdonnees ?? [])].sort();
     expect(classees).toEqual(adresses);
   });
+
+  it('accorde les mentions à espèce inchangée, pour chaque combinaison de genres', () => {
+    const sansAccents = (s: string) => s.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+    // Tester chaque rôle seul puis toutes les combinaisons attrape aussi les
+    // annotations qui se chevauchent entre rôles. Au plus 64 cas par conte.
+    for (let masque = 0; masque < 2 ** m.roles.length; masque++) {
+      const copie = structuredClone(m);
+      const troupe: Marionnette[] = m.roles.map((r, i) => ({
+        id: `p${i}`, nom: `Zélio${i}`, description: '', traits: [],
+        ...(r.espece ? { espece: r.espece } : {}),
+        genre: masque & (1 << i)
+          ? r.genre === 'feminin' ? 'masculin' : 'feminin'
+          : r.genre!,
+        creeLe: '2026-01-01T00:00:00.000Z', modifieLe: '2026-01-01T00:00:00.000Z',
+      }));
+      const { avertissements } = instancierModele(
+        copie, copie.roles.map((r, i) => ({ cle: r.cle, marionnetteId: `p${i}` })), troupe);
+      expect(avertissements, `genres ${masque}`).toEqual([]);
+      const lignes = new Map(lignesModele(copie).map(l => [l.id, l.lire()]));
+      for (const [i, role] of m.roles.entries()) {
+        for (const mention of role.especeMentions ?? []) {
+          const attendu = rendreMention(mention.gabarit, role.espece!, troupe[i].genre!);
+          expect(sansAccents(lignes.get(mention.id)!), `${role.cle} ${mention.id}, genres ${masque}`)
+            .toContain(sansAccents(attendu));
+        }
+      }
+    }
+  });
 });
