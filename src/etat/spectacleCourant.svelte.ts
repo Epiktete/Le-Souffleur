@@ -94,16 +94,16 @@ function creerSpectacleCourant() {
     },
 
     /**
-     * Couleur attribuée à une marionnette en mode lecture, de 1 à 5 (CDC §9).
+     * Couleur attribuée à une marionnette en mode lecture, de 1 à 6 (CDC §9).
      *
      * En représentation, le marionnettiste doit voir d'un coup d'œil que la
-     * réplique change de bouche. Le prompteur a cinq teintes : au-delà de
-     * cinq marionnettes, les couleurs se répètent. Ce n'est pas gênant, car
-     * la couleur ne fait que doubler le nom, qui reste écrit en toutes lettres.
+     * réplique change de bouche. Les six places de la distribution ont
+     * chacune leur teinte ; le conteur garde un repère neutre distinct.
+     * La couleur double le nom, qui reste écrit en toutes lettres.
      */
-    couleurDe(id: Id): 1 | 2 | 3 | 4 | 5 {
+    couleurDe(id: Id): 1 | 2 | 3 | 4 | 5 | 6 {
       const rang = spectacle?.distribution.findIndex((m) => m.id === id) ?? -1;
-      return (rang < 0 ? 0 : rang % 5) + 1 as 1 | 2 | 3 | 4 | 5;
+      return (rang < 0 ? 0 : rang % 6) + 1 as 1 | 2 | 3 | 4 | 5 | 6;
     },
 
     /**

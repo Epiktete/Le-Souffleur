@@ -449,4 +449,78 @@ test('à droite d’une réplique, seulement la façon de la dire', async ({ pag
   expect(r!.tonRect.left).toBeGreaterThan(r!.dit.right - 1);
   expect(r!.tonRect.top).toBeLessThan(r!.nom.bottom + 8);
   expect(r!.autres).toBe(0);
+
+  // Sans ton, aucune colonne vide ne doit réduire la largeur du texte.
+  const sansTon = await page.locator('.mesure .rangee').evaluateAll((rangees) =>
+    rangees.filter((r) => !r.querySelector('.ton')).map((r) => ({
+      largeur: r.getBoundingClientRect().width,
+      fil: r.querySelector('.fil')!.getBoundingClientRect().width,
+    })));
+  expect(sansTon.length).toBeGreaterThan(0);
+  for (const r of sansTon) expect(Math.abs(r.largeur - r.fil)).toBeLessThan(2);
+
+  await page.setViewportSize({ width: 640, height: 800 });
+  const mobile = await page.locator('.mesure .rangee').evaluateAll((rangees) =>
+    rangees.filter((r) => r.querySelector('.ton')).map((r) => ({
+      ton: r.querySelector('.ton')!.getBoundingClientRect().bottom,
+      texte: r.querySelector('.fil')!.getBoundingClientRect().top,
+    })));
+  for (const r of mobile) expect(r.ton).toBeLessThanOrEqual(r.texte);
+});
+
+test('six personnages et le conteur ont sept couleurs distinctes sur les deux fonds', async ({ page }, testInfo) => {
+  await page.goto('/');
+  for (const nom of ['Alba', 'Basile', 'Céleste', 'Dorian', 'Éloïse', 'Félix']) {
+    await creerMarionnette(page, nom, 'homme');
+  }
+  await page.getByLabel('Durée').fill('20');
+  await page.getByLabel('Âge').fill('9');
+  await page.getByRole('region', { name: 'Studio' })
+    .getByRole('button', { name: /Les Habits neufs de l.empereur/ }).click();
+  await page.getByRole('button', { name: 'Créer le spectacle' }).click();
+  await page.getByRole('button', { name: 'Ouvrir le script' }).click();
+  await page.getByRole('button', { name: 'Jouer', exact: true }).click();
+  await expect(page.locator('.decor')).toBeVisible();
+  await page.keyboard.press('Space');
+  await expect(page.locator('.decor')).toBeHidden();
+
+  // Montrer aussi une réplique colorée sur les captures, pas seulement
+  // le premier paragraphe du conteur.
+  for (let i = 0; i < 10 && !(await page.locator('.page .bulle.c1').count()); i++) {
+    await page.waitForTimeout(320);
+    await page.keyboard.press('Space');
+  }
+  await expect(page.locator('.page .bulle.c1').first()).toBeVisible();
+
+  for (const fond of ['sombre', 'clair']) {
+    if (fond === 'clair') {
+      await page.getByRole('button', { name: 'Menu', exact: true }).click();
+      await page.getByRole('button', { name: 'Inverser les couleurs' }).click();
+      await page.getByRole('button', { name: 'Fermer', exact: true }).click();
+    }
+    const couleurs = await page.locator('.mesure').evaluate((zone) => {
+      const luminance = (rgb: string) => {
+        const c = rgb.match(/[\d.]+/g)!.slice(0, 3).map(Number)
+          .map((v) => v / 255).map((v) => v <= 0.04045 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4);
+        return c[0] * 0.2126 + c[1] * 0.7152 + c[2] * 0.0722;
+      };
+      const fond = luminance(getComputedStyle(document.querySelector('.lecture')!).backgroundColor);
+      return ['c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'conteur'].map((classe) => {
+        const bulle = zone.querySelector(`.bulle.${classe}`)!;
+        const couleur = getComputedStyle(bulle).borderLeftColor;
+        const nom = getComputedStyle(bulle.querySelector('.nom')!).color;
+        const l = luminance(couleur);
+        const mouvement = zone.querySelector(`.mouvement.${classe}`);
+        return { couleur, nom, mouvement: mouvement ? getComputedStyle(mouvement).color : couleur,
+          contraste: (Math.max(l, fond) + 0.05) / (Math.min(l, fond) + 0.05) };
+      });
+    });
+    expect(new Set(couleurs.map((c) => c.couleur)).size).toBe(7);
+    for (const couleur of couleurs) {
+      expect(couleur.nom).toBe(couleur.couleur);
+      expect(couleur.mouvement).toBe(couleur.couleur);
+      expect(couleur.contraste).toBeGreaterThanOrEqual(4.5);
+    }
+    await page.screenshot({ path: testInfo.outputPath(`lecture-${fond}.png`) });
+  }
 });

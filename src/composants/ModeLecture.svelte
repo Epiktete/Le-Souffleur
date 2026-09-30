@@ -300,7 +300,7 @@
   }
 
   /**
-   * Classe de couleur d’un personnage, de c1 à c5 (CDC §9).
+   * Classe de couleur d’un personnage, de c1 à c6 (CDC §9).
    *
    * Le marionnettiste doit voir que la réplique change de bouche sans avoir à
    * lire le nom. La couleur ne remplace jamais le nom : elle le double.
@@ -429,8 +429,9 @@
       <!-- Une voix en coulisse SE DIT : elle a la taille d'une réplique, et
            le trait pointillé dit qu'aucune peluche ne la porte. -->
       {@const v = rangee.coulisse}
-      <div class="bulle coulisse">
+      <div class="bulle coulisse" class:conteur={v.conteur}>
         <p class="nom mono">
+          <span class="pastille" aria-hidden="true"></span>
           {#if v.conteur}{tl.conteur}{:else}{v.qui} <span class="en-coulisse">{tl.enCoulisse}</span>{/if}
           {#if rangee.suite}<span class="suite">{tl.suite}</span>{/if}
         </p>
@@ -442,11 +443,11 @@
     {/if}
   </div>
 
-  <div class="jeu">
-    {#if rangee.dialogue?.type === 'replique' && rangee.dialogue.ton && !rangee.suite}
+  {#if rangee.dialogue?.type === 'replique' && rangee.dialogue.ton && !rangee.suite}
+    <div class="jeu">
       <p class="ton">{rangee.dialogue.ton}</p>
-    {/if}
-  </div>
+    </div>
+  {/if}
 {/snippet}
 
 {#snippet elementScene(e: ElementScript)}
@@ -502,9 +503,13 @@
     background: var(--encre);
     color: var(--papier);
     /* Teintes des personnages, claires sur le fond sombre (voir plus bas). */
-    --lecture-bleu: #5B9BE6;
-    --lecture-vert: #4FB477;
-    --lecture-bronze: #D9A63A;
+    --lecture-bleu: #7EA7D8;
+    --lecture-ocre: #D9B56D;
+    --lecture-sauge: #92B88A;
+    --lecture-terre: #E58C75;
+    --lecture-mauve: #B7A0D8;
+    --lecture-turquoise: #69BEB7;
+    --lecture-conteur: var(--papier);
     overflow: hidden;
     cursor: pointer;
     user-select: none;
@@ -513,9 +518,13 @@
     background: var(--papier);
     color: var(--encre);
     /* Les mêmes teintes, assombries pour rester lisibles sur le papier. */
-    --lecture-bleu: #2F6DB5;
-    --lecture-vert: #2C7A4B;
-    --lecture-bronze: #8A6414;
+    --lecture-bleu: #365F8C;
+    --lecture-ocre: #775719;
+    --lecture-sauge: #42653C;
+    --lecture-terre: #A04735;
+    --lecture-mauve: #70518E;
+    --lecture-turquoise: #236C66;
+    --lecture-conteur: var(--encre);
   }
 
   /* Bref retour visuel à chaque appui reçu : le parent doit savoir que la
@@ -557,37 +566,36 @@
 
   .rangee {
     display: grid;
-    /* Le fil occupe les trois quarts : c'est ce qu'on suit en jouant. */
-    grid-template-columns: 3fr 1fr;
+    grid-template-columns: minmax(0, 1fr);
     gap: 24px;
     align-items: start;
     margin-bottom: 18px;
   }
+  /* On réserve la marge seulement quand une indication de voix l'utilise.
+     Cette règle s'applique aussi à la mesure invisible de la pagination. */
+  .rangee:has(.jeu) { grid-template-columns: minmax(0, 3fr) minmax(0, 1fr); }
   /* Une indication scénique reste près de ce qu'elle enchaîne. */
   .rangee.indication { margin-bottom: 10px; }
   .fil p { margin: 0; color: inherit; }
   .acte { font-size: 12px; opacity: 0.7; margin-bottom: 6px; }
 
   /* --- Une couleur par marionnette (CDC §9) ---------------------
-     Cinq teintes bien distinctes : papier, bleu, bronze, vert, rouge. Le
-     gris de la charte, trop proche du papier, n'en fait plus partie. Le
-     bleu, le vert et le bronze n'existent qu'ici, en deux versions : claire
-     sur fond sombre, sombre sur fond papier. Au-delà de cinq marionnettes
-     les teintes se répètent — sans perte, puisque le nom reste écrit.
-
-     Une barre et une pastille portent la couleur ; sur fond sombre, le nom
-     la prend aussi (toutes les teintes y dépassent 4,5:1). Sur papier, le
-     rouge tomberait sous ce seuil : le nom y reste à l'encre. */
+     Six teintes sourdes, réservées au jeu, et le conteur en papier/encre.
+     Barre, pastille et nom partagent la teinte. Chaque variante conserve
+     un contraste supérieur à 4,5:1 sur son fond, sombre ou papier. */
   .bulle {
     --perso: currentColor;
     border-left: 5px solid var(--perso);
     padding-left: 12px;
   }
-  .c2 { --perso: var(--lecture-bleu); }
-  .c3 { --perso: var(--lecture-bronze); }
-  .c4 { --perso: var(--lecture-vert); }
-  .c5 { --perso: var(--accent); }
-  .lecture:not(.inverse) .bulle .nom { color: var(--perso); opacity: 1; }
+  .c1 { --perso: var(--lecture-bleu); }
+  .c2 { --perso: var(--lecture-ocre); }
+  .c3 { --perso: var(--lecture-sauge); }
+  .c4 { --perso: var(--lecture-terre); }
+  .c5 { --perso: var(--lecture-mauve); }
+  .c6 { --perso: var(--lecture-turquoise); }
+  .bulle.conteur { --perso: var(--lecture-conteur); }
+  .bulle .nom { color: var(--perso); opacity: 1; }
   /* Une adresse au public se distingue par le trait, jamais par la seule
      couleur : celle-ci appartient déjà au personnage. */
   .bulle.public { border-left-style: double; border-left-width: 7px; }
@@ -647,7 +655,7 @@
     letter-spacing: 0.08em;
     padding-left: 17px;
   }
-  .lecture:not(.inverse) .mouvement { color: var(--perso); }
+  .fil .mouvement { color: var(--perso); }
 
   /* --- À droite : comment dire la réplique d'en face ------------ */
   .ton {
@@ -659,8 +667,7 @@
     color: inherit;
   }
   @media (max-width: 700px) {
-    .rangee { grid-template-columns: 1fr; gap: 2px; }
-    .jeu:empty { display: none; }
+    .rangee, .rangee:has(.jeu) { grid-template-columns: minmax(0, 1fr); gap: 2px; }
     /* Sur une seule colonne, le ton passe AU-DESSUS : on doit savoir comment
        dire la réplique avant de la lire, pas après. */
     .jeu { order: -1; }
