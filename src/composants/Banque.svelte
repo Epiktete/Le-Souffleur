@@ -263,8 +263,6 @@
   {:else if fiches.length === 0}
     <p class="aide" role="status">{tba.fondsVide}</p>
   {:else}
-    <p class="aide" role="status">{tba.intro(fiches.length)}</p>
-
     {#if jouables.length === 0}
       <p class="aide vide" role="status">
         {tba.filtres.aucun}
