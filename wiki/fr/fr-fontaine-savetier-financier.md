@@ -1,0 +1,101 @@
+# Le Savetier et le Financier
+
+*France — Jean de La Fontaine, Fables, édition Bernardin-Béchet, 1874. Texte original en français.*
+
+Un savetier chantait du matin jusqu’au soir :
+
+C’était merveille de le voir,
+
+Merveille de l’ouïr ; il faisait des passages :
+
+Plus content qu’aucun des sept sages.
+
+Son voisin, au contraire, étant tout cousu d’or,
+
+Chantait peu, dormait moins encor :
+
+C’était un homme de finance.
+
+Si sur le point du jour parfois il sommeillait,
+
+Le savetier alors en chantant l’éveillait ;
+
+Et le financier se plaignait
+
+Que les soins de la Providence
+
+N’eussent pas au marché fait vendre le dormir,
+
+Comme le manger et le boire.
+
+En son hôtel il fait venir
+
+Le chanteur, et lui dit : Or çà, sire Grégoire,
+
+Que gagnez-vous par an ? Par an ! ma foi, monsieur
+
+Dit avec un ton de rieur
+
+Le gaillard savetier, ce n’est point ma manière
+
+De compter de la sorte ; et je n’entasse guère
+
+Un jour sur l’autre : il suffit qu’à la fin
+
+J’attrape le bout de l’année ;
+
+Chaque jour amène son pain. —
+
+Eh bien ! que gagnez-vous, dites-moi, par journée ?
+
+Tantôt plus, tantôt moins : le mal est que toujours
+
+(Et sans cela nos gains seraient assez honnêtes),
+
+Le mal est que dans l’an s’entremêlent des jours
+
+Qu’il faut chômer ; on nous ruine en fêtes :
+
+L’une fait tort à l’autre ; et monsieur le curé
+
+De quelque nouveau saint charge toujours son prône.
+
+Le financier, riant de sa naïveté,
+
+Lui dit : Je vous veux mettre aujourd’hui sur le trône.
+
+Prenez ces cent écus ; gardez-les avec soin,
+
+Pour vous en servir au besoin.
+
+Le savetier crut voir tout l’argent que la terre
+
+Avait depuis plus de cent ans,
+
+Produit pour l’usage des gens.
+
+Il retourne chez lui : dans sa cave il enserre
+
+L’argent, et sa joie à la fois.
+
+Plus de chant : il perdit la voix
+
+Du moment qu’il gagna ce qui cause nos peines.
+
+Le sommeil quitta son logis :
+
+Il eut pour hôtes les soucis,
+
+Les soupçons, les alarmes vaines.
+
+Tout le jour il avait l’œil au guet ; et la nuit,
+
+Si quelque chat faisait du bruit,
+
+Le chat prenait l’argent. À la fin le pauvre homme
+
+S’en courut chez celui qu’il ne réveillait plus :
+
+Rendez-moi, lui dit-il, mes chansons et mon somme ;
+
+Et reprenez vos cent écus.

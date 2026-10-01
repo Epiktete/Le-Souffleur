@@ -1,0 +1,49 @@
+{
+  "id": "fr-moliere-medecin-volant",
+  "langue": [
+    {
+      "avant": "querir",
+      "apres": "chercher",
+      "nature": "mot-disparu",
+      "partout": true
+    },
+    {
+      "avant": "l’égrotante",
+      "apres": "la malade",
+      "nature": "mot-disparu"
+    },
+    {
+      "avant": "un parti sortable pour elle",
+      "apres": "un parti qui lui convient",
+      "nature": "mot-disparu"
+    },
+    {
+      "avant": "Je ne prendrai pas la droite avec vous",
+      "apres": "Je ne passerai pas avant vous",
+      "nature": "mot-disparu"
+    },
+    {
+      "avant": "qui fût de notre intelligence",
+      "apres": "qui fût dans notre secret",
+      "nature": "faux-ami"
+    }
+  ],
+  "moments": [
+    {
+      "id": "chatiment",
+      "type": "cruaute",
+      "niveaux": [
+        {
+          "jusqua": 10,
+          "annonce": "Sganarelle redoute des coups de bâton, sans évoquer de marque au fer.",
+          "retouches": [
+            {
+              "avant": "ou que par quelque ordonnance plus forte que toutes celles des médecins, on ne m’applique tout au moins un cautère royal sur les épaules",
+              "apres": "ou que quelque ordonnance plus forte que toutes celles des médecins ne me fasse chasser à coups de bâton"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

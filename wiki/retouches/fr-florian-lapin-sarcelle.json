@@ -1,0 +1,51 @@
+{
+  "id": "fr-florian-lapin-sarcelle",
+  "langue": [
+    {
+      "avant": "un batelet",
+      "apres": "une barque",
+      "nature": "mot-rare",
+      "jusqua": 6
+    },
+    {
+      "avant": "le léger esquif",
+      "apres": "la légère barque",
+      "nature": "mot-rare",
+      "jusqua": 6
+    },
+    {
+      "avant": "Cette nef",
+      "apres": "Cette barque",
+      "nature": "mot-rare",
+      "jusqua": 6
+    }
+  ],
+  "moments": [
+    {
+      "id": "chasse",
+      "type": "cruaute",
+      "niveaux": [
+        {
+          "jusqua": 8,
+          "annonce": "Les lapins fuient la chasse ; le seigneur poursuit ses recherches le lendemain.",
+          "retouches": [
+            {
+              "avant": "Tout lapin qui paraît trouve un affreux trépas : Les rivages du Styx sont bordés de leurs mânes ; Dans le funeste jour de Cannes, On mit moins de Romains à bas. La nuit vient ; tant de sang n’a point éteint la rage Du seigneur, qui remet au lendemain matin La fin de l’horrible carnage.",
+              "apres": "Les lapins pourchassés se cachent dans les bois.\nLa nuit vient ; le seigneur, toujours plein de colère,\nRemet au lendemain la suite de la chasse."
+            }
+          ]
+        },
+        {
+          "jusqua": 10,
+          "annonce": "La mort des autres lapins est dite sans détail sanglant.",
+          "retouches": [
+            {
+              "avant": "Tout lapin qui paraît trouve un affreux trépas : Les rivages du Styx sont bordés de leurs mânes ; Dans le funeste jour de Cannes, On mit moins de Romains à bas. La nuit vient ; tant de sang n’a point éteint la rage Du seigneur, qui remet au lendemain matin La fin de l’horrible carnage.",
+              "apres": "Des lapins sont tués au cours de cette chasse.\nLa nuit vient ; le seigneur, toujours plein de colère,\nRemet au lendemain la suite de la chasse."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

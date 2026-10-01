@@ -139,6 +139,274 @@ const gutenberg = (id, titre, titreOriginal, culture, continent, collecteur, dro
 });
 
 export const CONTES = [
+  // Enrichissement des fables et du théâtre — octobre 2026.
+  {
+    "id": "fr-fontaine-cochet-chat-souriceau",
+    "titre": "Le Cochet, le Chat et le Souriceau",
+    "culture": "France",
+    "continent": "Europe",
+    "langue": "fr",
+    "genre": "fable",
+    "collecteur": "Jean de La Fontaine, Fables, édition Bernardin-Béchet, 1874",
+    "droits": "La Fontaine (1621-1695) : domaine public",
+    "source": {
+      "type": "ws",
+      "wiki": "fr",
+      "page": "Fables de La Fontaine (éd. 1874)/Le Cochet, le Chat et le Souriceau"
+    },
+    "extrait": [
+      "Un souriceau tout jeune, et qui n’avait rien vu,",
+      "De juger des gens sur la mine."
+    ]
+  },
+  {
+    "id": "fr-fontaine-conseil-rats",
+    "titre": "Conseil tenu par les Rats",
+    "culture": "France",
+    "continent": "Europe",
+    "langue": "fr",
+    "genre": "fable",
+    "collecteur": "Jean de La Fontaine, Fables, édition Bernardin-Béchet, 1874",
+    "droits": "La Fontaine (1621-1695) : domaine public",
+    "source": {
+      "type": "ws",
+      "wiki": "fr",
+      "page": "Fables de La Fontaine (éd. 1874)/Conseil tenu par les Rats"
+    },
+    "extrait": [
+      "Un chat, nommé Rodilardus,",
+      "L’on ne rencontre plus personne."
+    ]
+  },
+  {
+    "id": "fr-fontaine-savetier-financier",
+    "titre": "Le Savetier et le Financier",
+    "culture": "France",
+    "continent": "Europe",
+    "langue": "fr",
+    "genre": "fable",
+    "collecteur": "Jean de La Fontaine, Fables, édition Bernardin-Béchet, 1874",
+    "droits": "La Fontaine (1621-1695) : domaine public",
+    "source": {
+      "type": "ws",
+      "wiki": "fr",
+      "page": "Fables de La Fontaine (éd. 1874)/Le Savetier et le Financier"
+    },
+    "extrait": [
+      "Un savetier chantait du matin jusqu’au soir :",
+      "Et reprenez vos cent écus."
+    ]
+  },
+  {
+    "id": "fr-fontaine-bucheron-mercure",
+    "titre": "Le Bûcheron et Mercure",
+    "culture": "France",
+    "continent": "Europe",
+    "langue": "fr",
+    "genre": "fable",
+    "collecteur": "Jean de La Fontaine, Fables, édition Bernardin-Béchet, 1874",
+    "droits": "La Fontaine (1621-1695) : domaine public",
+    "source": {
+      "type": "ws",
+      "wiki": "fr",
+      "page": "Fables de La Fontaine (éd. 1874)/Le Bûcheron et Mercure"
+    },
+    "extrait": [
+      "À M. L. C. D. B.",
+      "Que sert cela ? Jupiter n’est pas dupe."
+    ]
+  },
+  {
+    "id": "fr-fontaine-depositaire-infidele",
+    "titre": "Le Dépositaire infidèle",
+    "culture": "France",
+    "continent": "Europe",
+    "langue": "fr",
+    "genre": "fable",
+    "collecteur": "Jean de La Fontaine, Fables, édition Bernardin-Béchet, 1874",
+    "droits": "La Fontaine (1621-1695) : domaine public",
+    "source": {
+      "type": "ws",
+      "wiki": "fr",
+      "page": "Fables de La Fontaine (éd. 1874)/Le Dépositaire infidèle"
+    },
+    "extrait": [
+      "Grâce aux filles de mémoire,",
+      "Enchérir est plus court, sans s’échauffer la bile."
+    ]
+  },
+  {
+    "id": "fr-fontaine-alouette-et-petits",
+    "titre": "L’Alouette et ses petits, avec le Maître d’un champ",
+    "culture": "France",
+    "continent": "Europe",
+    "langue": "fr",
+    "genre": "fable",
+    "collecteur": "Jean de La Fontaine, Fables, édition Bernardin-Béchet, 1874",
+    "droits": "La Fontaine (1621-1695) : domaine public",
+    "source": {
+      "type": "ws",
+      "wiki": "fr",
+      "page": "Fables de La Fontaine (éd. 1874)/L’Alouette et ses petits, avec le Maître d’un champ"
+    },
+    "extrait": [
+      "Ne t’attends qu’à toi seul ; c’est un commun proverbe.",
+      "Délogèrent tous sans trompette."
+    ]
+  },
+  {
+    "id": "fr-florian-chat-miroir",
+    "titre": "Le Chat et le Miroir",
+    "culture": "France",
+    "continent": "Europe",
+    "langue": "fr",
+    "genre": "fable",
+    "collecteur": "Jean-Pierre Claris de Florian, Fables, édition Delloye, 1838",
+    "droits": "Florian (1755-1794) : domaine public",
+    "source": {
+      "type": "ws",
+      "wiki": "fr",
+      "page": "Fables de Florian (1838)/1/Le Chat et le Miroir"
+    },
+    "extrait": [
+      "Philosophes hardis, qui passez votre vie",
+      "Ne nous est jamais nécessaire."
+    ]
+  },
+  {
+    "id": "fr-florian-aveugle-paralytique",
+    "titre": "L’Aveugle et le Paralytique",
+    "culture": "France",
+    "continent": "Europe",
+    "langue": "fr",
+    "genre": "fable",
+    "collecteur": "Jean-Pierre Claris de Florian, Fables, édition Delloye, 1838",
+    "droits": "Florian (1755-1794) : domaine public",
+    "source": {
+      "type": "ws",
+      "wiki": "fr",
+      "page": "Fables de Florian (1838)/1/L’Aveugle et le Paralytique"
+    },
+    "extrait": [
+      "Aidons-nous mutuellement,",
+      "Je marcherai pour vous, vous y verrez pour moi."
+    ]
+  },
+  {
+    "id": "fr-florian-vieux-arbre-jardinier",
+    "titre": "Le Vieux Arbre et le Jardinier",
+    "culture": "France",
+    "continent": "Europe",
+    "langue": "fr",
+    "genre": "fable",
+    "collecteur": "Jean-Pierre Claris de Florian, Fables, édition Delloye, 1838",
+    "droits": "Florian (1755-1794) : domaine public",
+    "source": {
+      "type": "ws",
+      "wiki": "fr",
+      "page": "Fables de Florian (1838)/2/Le Vieux Arbre et le Jardinier"
+    },
+    "extrait": [
+      "Un jardinier, dans son jardin,",
+      "Quand l’intérêt vous en répond."
+    ]
+  },
+  {
+    "id": "fr-florian-guenon-singe-noix",
+    "titre": "La Guenon, le Singe et la Noix",
+    "culture": "France",
+    "continent": "Europe",
+    "langue": "fr",
+    "genre": "fable",
+    "collecteur": "Jean-Pierre Claris de Florian, Fables, édition Delloye, 1838",
+    "droits": "Florian (1755-1794) : domaine public",
+    "source": {
+      "type": "ws",
+      "wiki": "fr",
+      "page": "Fables de Florian (1838)/4/La Guenon, le Singe et la Noix"
+    },
+    "extrait": [
+      "Une jeune guenon cueillit",
+      "Sans un peu de travail on n’a point de plaisir."
+    ]
+  },
+  {
+    "id": "fr-florian-lapin-sarcelle",
+    "titre": "Le Lapin et la Sarcelle",
+    "culture": "France",
+    "continent": "Europe",
+    "langue": "fr",
+    "genre": "fable",
+    "collecteur": "Jean-Pierre Claris de Florian, Fables, édition Delloye, 1838",
+    "droits": "Florian (1755-1794) : domaine public",
+    "source": {
+      "type": "ws",
+      "wiki": "fr",
+      "page": "Fables de Florian (1838)/4/Le Lapin et la Sarcelle"
+    },
+    "extrait": [
+      "Unis dès leurs jeunes ans",
+      "Qu’ils se la devaient tous les deux."
+    ]
+  },
+  {
+    "id": "fr-florian-boeuf-cheval-ane",
+    "titre": "Le Bœuf, le Cheval et l’Âne",
+    "culture": "France",
+    "continent": "Europe",
+    "langue": "fr",
+    "genre": "fable",
+    "collecteur": "Jean-Pierre Claris de Florian, Fables, édition Delloye, 1838",
+    "droits": "Florian (1755-1794) : domaine public",
+    "source": {
+      "type": "ws",
+      "wiki": "fr",
+      "page": "Fables de Florian (1838)/1/Le Bœuf, le Cheval et l’Âne"
+    },
+    "extrait": [
+      "Un bœuf, un baudet, un cheval,",
+      "N’est-ce pas le code ordinaire ?"
+    ]
+  },
+  {
+    "id": "guignol-le-demenagement",
+    "titre": "Le Déménagement de Guignol",
+    "culture": "Lyon (France)",
+    "continent": "Europe",
+    "langue": "fr",
+    "genre": "pièce de marionnettes",
+    "collecteur": "Laurent Mourguet, Le Déménagement de Guignol, arrangé par Louis Josserand, Elardin, 1876",
+    "droits": "Laurent Mourguet (1769-1844), version de Louis Josserand publiée en 1876 : domaine public selon le catalogue Puppetplays (https://puppetplays.eu/oeuvres/12351/le-d%C3%A9m%C3%A9nagement-de-guignol)",
+    "source": {
+      "type": "ws",
+      "wiki": "fr",
+      "page": "Le Déménagement de Guignol"
+    },
+    "extrait": [
+      "SCÈNE COMIQUE EN UN ACTE",
+      "Et vidons de grand flacons"
+    ]
+  },
+  {
+    "id": "fr-moliere-medecin-volant",
+    "titre": "Le Médecin volant",
+    "culture": "France",
+    "continent": "Europe",
+    "langue": "fr",
+    "genre": "comédie",
+    "collecteur": "Molière, Le Médecin volant, texte établi par Charles Louandre, Charpentier, 1910",
+    "droits": "Molière (1622-1673), Charles Louandre (1812-1882) : domaine public",
+    "source": {
+      "type": "ws",
+      "wiki": "fr",
+      "page": "Le Médecin volant/Édition Louandre, 1910"
+    },
+    "extrait": [
+      "PERSONNAGES",
+      "Allons tous faire noces, et boire à la santé de toute la compagnie."
+    ]
+  },
+
   /* ------------------------------------------------------------------ */
   /* Théâtre de marionnettes                                             */
   /* ------------------------------------------------------------------ */

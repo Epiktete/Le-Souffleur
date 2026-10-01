@@ -1,0 +1,18 @@
+{
+  "id": "fr-florian-boeuf-cheval-ane",
+  "langue": [
+    {
+      "avant": "la préséance",
+      "apres": "la première place",
+      "nature": "mot-rare",
+      "jusqua": 6
+    },
+    {
+      "avant": "maquignon bas-normand",
+      "apres": "marchand de chevaux normand",
+      "nature": "mot-rare",
+      "jusqua": 6
+    }
+  ],
+  "moments": []
+}

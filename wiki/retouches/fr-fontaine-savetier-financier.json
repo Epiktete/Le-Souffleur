@@ -1,0 +1,23 @@
+{
+  "id": "fr-fontaine-savetier-financier",
+  "langue": [
+    {
+      "avant": "En son hôtel",
+      "apres": "En sa demeure",
+      "nature": "faux-ami"
+    },
+    {
+      "avant": "son prône",
+      "apres": "son sermon",
+      "nature": "mot-rare",
+      "jusqua": 6
+    },
+    {
+      "avant": "Or çà",
+      "apres": "Voyons",
+      "nature": "connecteur",
+      "jusqua": 8
+    }
+  ],
+  "moments": []
+}

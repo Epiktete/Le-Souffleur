@@ -1,0 +1,32 @@
+{
+  "id": "fr-fontaine-depositaire-infidele",
+  "langue": [
+    {
+      "avant": "On pourrait aucunement",
+      "apres": "On pourrait quelque peu",
+      "nature": "faux-ami"
+    },
+    {
+      "avant": "Le trafiquant admire Un tel prodige",
+      "apres": "Le trafiquant s’étonne d’un tel prodige",
+      "nature": "faux-ami"
+    },
+    {
+      "avant": "sur la brune",
+      "apres": "à la tombée du jour",
+      "nature": "mot-disparu"
+    },
+    {
+      "avant": "sa géniture",
+      "apres": "son enfant",
+      "nature": "mot-rare",
+      "jusqua": 6
+    },
+    {
+      "avant": "pour cuir vos choux",
+      "apres": "pour cuire vos choux",
+      "nature": "mot-disparu"
+    }
+  ],
+  "moments": []
+}

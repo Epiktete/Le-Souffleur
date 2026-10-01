@@ -5,6 +5,26 @@ venus de toutes les cultures. Le générateur ne part plus de rien : il part
 d'une histoire qui a fait ses preuves depuis des siècles, et l'adapte aux
 marionnettes de la famille.
 
+## Enrichissement du 1er octobre 2026
+
+Le répertoire contient **160 textes originaux**, dont **41 fables**, **14 pièces
+de marionnettes** (13 Guignol et Punch et Judy) et **une comédie de Molière**.
+Les quatorze ajouts de ce lot sont des sources pour l’Atelier ; les spectacles
+déjà adaptés de `banque/` forment un fonds distinct.
+
+| Auteur ou tradition | Textes ajoutés |
+| --- | --- |
+| La Fontaine | Le Cochet, le Chat et le Souriceau ; Conseil tenu par les Rats ; Le Savetier et le Financier ; Le Bûcheron et Mercure ; Le Dépositaire infidèle ; L’Alouette et ses petits, avec le Maître d’un champ |
+| Florian | Le Chat et le Miroir ; L’Aveugle et le Paralytique ; Le Vieux Arbre et le Jardinier ; La Guenon, le Singe et la Noix ; Le Lapin et la Sarcelle ; Le Bœuf, le Cheval et l’Âne |
+| Guignol | Le Déménagement de Guignol, version de Louis Josserand publiée en 1876 |
+| Molière | Le Médecin volant, édition Louandre de 1910 |
+
+Chaque texte possède son original intégral, sa fiche et ses retouches par âge.
+Les sources françaises sont conservées dans leur langue d’édition, avec leurs
+prologues et leurs fins. Les retouches s’appliquent séparément à la génération.
+L’import conserve les lettrines illustrées et élimine les vers invisibles qui
+ne servent qu’à aligner la poésie sur Wikisource.
+
 ## Le principe
 
 1. Le parent choisit ses marionnettes. Chacune a une **espèce** (lapin,

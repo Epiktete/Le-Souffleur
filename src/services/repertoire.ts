@@ -5,7 +5,7 @@
 // (voir wiki/README.md) ; l'application en lit deux :
 //
 //   - wiki/fiches/ : les fiches synthétiques, CHARGÉES AVEC L'APPLICATION. Elles
-//     sont petites (163 fiches, une centaine de kilo-octets) et servent à
+//     sont petites (160 fiches, quelques centaines de kilo-octets) et servent à
 //     choisir : on ne peut pas trier ce qu'on n'a pas sous la main.
 //   - wiki/fr/ : les textes français intégraux, CHARGÉS À LA DEMANDE. Ils pèsent
 //     un mégaoctet et demi ; seul celui du conte retenu est utile, et seulement

@@ -1,0 +1,54 @@
+{
+  "id": "fr-fontaine-conseil-rats",
+  "langue": [
+    {
+      "avant": "tint chapitre",
+      "apres": "tint conseil",
+      "nature": "mot-disparu"
+    },
+    {
+      "avant": "Opina",
+      "apres": "Proposa",
+      "nature": "mot-rare",
+      "jusqua": 6
+    },
+    {
+      "avant": "Je n’y vas point",
+      "apres": "Je n’y vais pas",
+      "nature": "tournure"
+    },
+    {
+      "avant": "J’ai maints chapitres vus",
+      "apres": "J’ai maints conseils vus",
+      "nature": "mot-disparu"
+    },
+    {
+      "avant": "Chapitres, non de rats, mais chapitres de moines,",
+      "apres": "Conseils, non de rats, mais conseils de moines,",
+      "nature": "mot-disparu"
+    },
+    {
+      "avant": "Voire chapitres de chanoines.",
+      "apres": "Voire conseils de chanoines.",
+      "nature": "mot-disparu"
+    }
+  ],
+  "moments": [
+    {
+      "id": "rats-poursuivis",
+      "type": "mort-gentil",
+      "niveaux": [
+        {
+          "jusqua": 8,
+          "annonce": "Les rats se cachent après les poursuites de Rodilardus.",
+          "retouches": [
+            {
+              "avant": "Un chat, nommé Rodilardus, Faisait de rats telle déconfiture Que l’on n’en voyait presque plus ; Tant il en avait mis dedans la sépulture.",
+              "apres": "Un chat, nommé Rodilardus,\nPourchassait les rats sans repos ;\nOn ne les voyait presque plus :\nTous se cachaient au fond des trous."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

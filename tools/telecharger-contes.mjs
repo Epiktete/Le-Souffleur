@@ -13,6 +13,7 @@
 
 import { mkdir, writeFile, access } from 'node:fs/promises';
 import { CONTES } from './sources-contes.mjs';
+import { nettoyerTypographie, recollerLettrines } from './nettoyer-typographie.mjs';
 
 const DOSSIER = 'wiki/raw';
 const UA = 'LeSouffleur/0.2 (projet personnel ; corpus de contes du domaine public)';
@@ -38,7 +39,7 @@ async function recuperer(url, { binaire = false } = {}) {
 
 /** HTML de Wikisource ou d'Aozora vers du texte brut lisible. */
 function versTexte(html) {
-  return html
+  return recollerLettrines(nettoyerTypographie(html)
     .replace(/<style[\s\S]*?<\/style>/gi, '')
     .replace(/<script[\s\S]*?<\/script>/gi, '')
     .replace(/<sup[\s\S]*?<\/sup>/gi, '')
@@ -60,7 +61,7 @@ function versTexte(html) {
     .replace(/﻿/g, '')
     .split('\n').map((l) => l.trim()).join('\n')
     .replace(/\n{3,}/g, '\n\n')
-    .trim();
+    .trim());
 }
 
 async function depuisWikisource({ wiki, page }) {

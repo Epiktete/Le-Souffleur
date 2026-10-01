@@ -1,0 +1,29 @@
+{
+  "id": "fr-fontaine-cochet-chat-souriceau",
+  "langue": [
+    {
+      "avant": "bénin",
+      "apres": "paisible",
+      "nature": "mot-rare",
+      "jusqua": 6
+    },
+    {
+      "avant": "Marqueté",
+      "apres": "Tacheté",
+      "nature": "mot-rare",
+      "jusqua": 6
+    },
+    {
+      "avant": "ce doucet",
+      "apres": "ce faux gentil",
+      "nature": "mot-rare",
+      "jusqua": 6
+    },
+    {
+      "avant": "Je l’allais aborder",
+      "apres": "J’allais l’aborder",
+      "nature": "tournure"
+    }
+  ],
+  "moments": []
+}
