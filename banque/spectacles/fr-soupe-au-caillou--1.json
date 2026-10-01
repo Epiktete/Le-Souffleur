@@ -1,0 +1,496 @@
+{
+  "id": "fr-soupe-au-caillou--1",
+  "conteId": "fr-soupe-au-caillou",
+  "titre": "La Soupe au caillou",
+  "pitch": "{{r1}} arrive dans un village où chaque porte refuse la soupe. Son caillou dans une marmite donne à {{r2}}, {{r3}} et tout le village l’idée d’un festin.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "ruse",
+        "bonté",
+        "bavardage"
+      ],
+      "voix": "voix chaude et malicieuse",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e2:texte",
+            "avant": "un voyageur",
+            "apres": "une voyageuse"
+          },
+          {
+            "id": "a1e2:texte",
+            "avant": "Il frappa",
+            "apres": "Elle frappa"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "un voyageur",
+            "apres": "une voyageuse"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "Il frappa",
+            "apres": "Elle frappa"
+          },
+          {
+            "id": "a4e7:texte",
+            "avant": "Et il s’en alla",
+            "apres": "Et elle s’en alla"
+          },
+          {
+            "id": "a4e7:texte",
+            "avant": "Derrière lui",
+            "apres": "Derrière elle"
+          },
+          {
+            "id": "a1e7:texte",
+            "avant": "Devant lui",
+            "apres": "Devant elle"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r2",
+      "espece": "femme",
+      "famille": "adulte",
+      "traits": [
+        "curiosité",
+        "fierté",
+        "générosité"
+      ],
+      "voix": "voix claire et interrogative",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a2e14:texte",
+            "avant": "Elle courut",
+            "apres": "Il courut"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a2e1:texte",
+          "avant": "Une femme âgée",
+          "gabarit": "{Un} {espece} {âgé|âgée}"
+        }
+      ]
+    },
+    {
+      "cle": "r3",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "curiosité",
+        "gourmandise"
+      ],
+      "voix": "voix grave et douce",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2e16:texte",
+            "avant": "Un voisin",
+            "apres": "Une voisine"
+          },
+          {
+            "id": "a2e16:texte",
+            "avant": "attiré par le feu",
+            "apres": "attirée par le feu"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 6,
+    "ageAuditoire": 4,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "Les portes et la place",
+      "description": "Trois traits de porte sont dessinés sur un carton, avec une dizaine indiquée au bout du chemin. Au centre, un dessin fixe de marmite pleine d’eau avec un caillou gris ; le feu est aussi dessiné. Le même panneau reste en place pendant la soirée.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "La fenêtre et le chou",
+      "description": "Un coussin figure la fenêtre de {{r2}}. Le chou apparaît seulement dans le récit ; une petite image de chou peut déjà être dessinée près de la marmite. Le parent ne déplace pas le carton.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t3",
+      "titre": "Les légumes et la table",
+      "description": "Autour de la marmite fixe, un carton montre carottes, pommes de terre, oignon, sel, bols, cuillères, bancs, pain et chandelle. La famille n’a rien à ajouter en jouant ; la voix raconte l’arrivée de chaque chose et les chansons.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t4",
+      "titre": "Le matin et la route",
+      "description": "Le carton garde la marmite et le caillou dessinés ; la route mène vers le prochain village. Le caillou rincé et revenu dans la poche est raconté, sans retrait ni manipulation du dessin.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Les portes fermées",
+      "resume": "{{r1}} ne reçoit rien, puis une marmite et un caillou apparaissent sur la place.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e2",
+          "type": "conteur",
+          "texte": "Un soir d’hiver, un voyageur, {{r1}}, arriva dans un village, le ventre vide et le sac plus vide encore. Il frappa à la première porte :"
+        },
+        {
+          "id": "a1e3",
+          "type": "replique",
+          "texte": "Bonsoir ! Auriez-vous un peu de soupe pour un voyageur ?",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a1e4",
+          "type": "note_marionnettiste",
+          "texte": "Voix de l’habitant, en coulisse : « Nous n’avons rien. Rien du tout. »"
+        },
+        {
+          "id": "a1e5",
+          "type": "conteur",
+          "texte": "Il frappa à la deuxième porte, à la troisième, à la dixième. Partout la même réponse : rien, rien, rien du tout. Dans ce village-là, chaque personne cachait son bien et fermait sa porte."
+        },
+        {
+          "id": "a1e6",
+          "type": "adresse_public",
+          "texte": "Répétez la réponse des portes : rien du tout !",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e7",
+          "type": "conteur",
+          "texte": "Alors {{r1}} s’assit sur la place. Devant lui, sa grande marmite, sortie de son sac, fut bientôt pleine d’eau de la fontaine, avec un feu dessous. Un caillou gris, bien rond et bien lisse, jusqu’alors dans sa poche, tomba dans l’eau : plouf !"
+        },
+        {
+          "id": "a1e8",
+          "type": "adresse_public",
+          "texte": "Faites entendre le caillou : plouf !",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Le chou de {{r2}}",
+      "resume": "{{r2}} découvre la soupe au caillou et trouve un petit chou.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "Une femme âgée, {{r2}}, qui regardait par sa fenêtre, finit par sortir :"
+        },
+        {
+          "id": "a2e2",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e3",
+          "type": "replique",
+          "texte": "Que faites-vous donc là ?",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a2e4",
+          "type": "replique",
+          "texte": "Vous voyez bien : une soupe au caillou.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a2e5",
+          "type": "replique",
+          "texte": "Une soupe au caillou !",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a2e6",
+          "type": "adresse_public",
+          "texte": "Reprenez avec moi : une soupe au caillou !",
+          "marionnetteId": "r2",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e7",
+          "type": "replique",
+          "texte": "La meilleure soupe du monde. Ce caillou m’a déjà fait cent soupes, et il n’est même pas usé. Asseyez-vous, je vous en donnerai une assiette.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a2e8",
+          "type": "conteur",
+          "texte": "{{r2}} s’assit. L’eau fut remuée, le parfum monta ; {{r1}} le huma et goûta la soupe :"
+        },
+        {
+          "id": "a2e9",
+          "type": "replique",
+          "texte": "Ah, elle est bonne… Elle serait parfaite avec un petit chou. Mais où trouver un chou, dans un village où il n’y a rien ?",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a2e10",
+          "type": "adresse_public",
+          "texte": "Dites avec moi : un petit chou !",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e11",
+          "type": "replique",
+          "texte": "Un chou… Il m’en reste peut-être un, tout petit.",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a2e12",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e13",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a2e14",
+          "type": "conteur",
+          "texte": "Elle courut le chercher, et le chou plongea dans la marmite."
+        },
+        {
+          "id": "a2e15",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e16",
+          "type": "conteur",
+          "texte": "Un voisin, {{r3}}, s’approcha, attiré par le feu :"
+        },
+        {
+          "id": "a2e17",
+          "type": "replique",
+          "texte": "Qu’est-ce qui sent si bon ?",
+          "marionnetteId": "r3"
+        },
+        {
+          "id": "a2e18",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e19",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a2e20",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e21",
+          "type": "replique",
+          "texte": "Une soupe au caillou. La meilleure soupe du monde !",
+          "marionnetteId": "r2",
+          "ton": "avec fierté"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Les légumes et le festin",
+      "resume": "{{r3}} trouve des carottes ; le village ajoute pommes de terre, oignon, sel et partage un festin.",
+      "tableauId": "t3",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e2",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a3e3",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e4",
+          "type": "replique",
+          "texte": "Elle serait encore meilleure avec deux ou trois carottes… Mais où trouver des carottes, dans un village où il n’y a rien ?",
+          "marionnetteId": "r1",
+          "ton": "après avoir goûté"
+        },
+        {
+          "id": "a3e5",
+          "type": "adresse_public",
+          "texte": "Répétez : deux ou trois carottes !",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e6",
+          "type": "replique",
+          "texte": "Il m’en reste peut-être quelques-unes.",
+          "marionnetteId": "r3"
+        },
+        {
+          "id": "a3e7",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e8",
+          "type": "conteur",
+          "texte": "Et les carottes plongèrent dans la marmite. Alors, une personne après l’autre, les gens du village sortirent de leurs maisons. Le forgeron trouva des pommes de terre, la meunière un oignon, les enfants une poignée de sel, et chaque personne jurait qu’il ne lui restait rien — juste ça. La marmite fumait, la soupe embaumait toute la place."
+        },
+        {
+          "id": "a3e9",
+          "type": "replique",
+          "texte": "Elle est prête ! À table !",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a3e10",
+          "type": "adresse_public",
+          "texte": "Reprenez l’appel : à table !",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e11",
+          "type": "conteur",
+          "texte": "Des bols et des cuillères furent bientôt là, un banc, puis deux, puis du pain, puis une chandelle. Et tout le village mangea, ce soir-là, la meilleure soupe du monde — une vraie soupe de fête, épaisse et dorée, autour du même feu. On chanta même des chansons."
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "numero": 4,
+      "titre": "Le prochain village",
+      "resume": "Au matin, {{r1}} garde son caillou, et le village comprend comment il a trouvé le festin.",
+      "tableauId": "t4",
+      "elements": [
+        {
+          "id": "a4e1",
+          "type": "conteur",
+          "texte": "Au matin, le caillou de {{r1}} était rincé et de retour dans sa poche ; son sac était bouclé. {{r2}} lui dit :"
+        },
+        {
+          "id": "a4e2",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e3",
+          "type": "replique",
+          "texte": "Vous ne nous laissez pas le caillou ?",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a4e4",
+          "type": "replique",
+          "texte": "Impossible. Il me le faut pour le prochain village où il n’y a rien.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a4e5",
+          "type": "adresse_public",
+          "texte": "Le village disait qu’il n’avait rien. Vous souvenez-vous d’un aliment pour la soupe ?",
+          "marionnetteId": "r2",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e6",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e7",
+          "type": "conteur",
+          "texte": "Et il s’en alla sur la route, son caillou dans la poche. Derrière lui, sur la place, on se regardait : ensemble, dans un village où il n’y avait rien, on avait trouvé de quoi faire un festin.\n"
+        },
+        {
+          "id": "a4e8",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "fr-soupe-au-caillou",
+    "synopsis": {
+      "accroche": "Toutes les portes disent qu’il n’y a rien, puis une marmite rassemble le village.",
+      "resume": [
+        "{{r1}} ne reçoit rien aux portes et prépare une soupe au caillou sur la place.",
+        "{{r2}} découvre la soupe et y ajoute son petit chou.",
+        "{{r3}} apporte des carottes ; le village trouve pommes de terre, oignon et sel, puis fête le repas.",
+        "Au matin, {{r1}} garde son caillou pour un autre village et les habitants comprennent leur festin."
+      ]
+    },
+    "transposition": {
+      "texte": "Un soir d’hiver, un voyageur, {{r1}}, arriva dans un village, le ventre vide et le sac plus vide encore. Il frappa à la première porte :\n\n— Bonsoir ! Auriez-vous un peu de soupe pour un voyageur ?\n\n— Nous n’avons rien, dit-on derrière la porte. Rien du tout.\n\nIl frappa à la deuxième porte, à la troisième, à la dixième. Partout la même réponse : rien, rien, rien du tout. Dans ce village-là, chaque personne cachait son bien et fermait sa porte.\n\nAlors {{r1}} s’assit sur la place. Devant lui, sa grande marmite, sortie de son sac, fut bientôt pleine d’eau de la fontaine, avec un feu dessous. Un caillou gris, bien rond et bien lisse, jusqu’alors dans sa poche, tomba dans l’eau : plouf !\n\nUne femme âgée, {{r2}}, qui regardait par sa fenêtre, finit par sortir :\n\n— Que faites-vous donc là ?\n\n— Vous voyez bien : une soupe au caillou.\n\n— Une soupe au caillou !\n\n— La meilleure soupe du monde. Ce caillou m’a déjà fait cent soupes, et il n’est même pas usé. Asseyez-vous, je vous en donnerai une assiette.\n\n{{r2}} s’assit. L’eau fut remuée, le parfum monta ; {{r1}} le huma et goûta la soupe :\n\n— Ah, elle est bonne… Elle serait parfaite avec un petit chou. Mais où trouver un chou, dans un village où il n’y a rien ?\n\n— Un chou… dit {{r2}}. Il m’en reste peut-être un, tout petit.\n\nElle courut le chercher, et le chou plongea dans la marmite. Un voisin, {{r3}}, s’approcha, attiré par le feu :\n\n— Qu’est-ce qui sent si bon ?\n\n— Une soupe au caillou, dit {{r2}}, très fière. La meilleure soupe du monde !\n\n— Elle serait encore meilleure, dit {{r1}} en goûtant, avec deux ou trois carottes… Mais où trouver des carottes, dans un village où il n’y a rien ?\n\n— Il m’en reste peut-être quelques-unes, dit {{r3}}.\n\nEt les carottes plongèrent dans la marmite. Alors, une personne après l’autre, les gens du village sortirent de leurs maisons. Le forgeron trouva des pommes de terre, la meunière un oignon, les enfants une poignée de sel, et chaque personne jurait qu’il ne lui restait rien — juste ça. La marmite fumait, la soupe embaumait toute la place.\n\n— Elle est prête ! dit {{r1}}. À table !\n\nDes bols et des cuillères furent bientôt là, un banc, puis deux, puis du pain, puis une chandelle. Et tout le village mangea, ce soir-là, la meilleure soupe du monde — une vraie soupe de fête, épaisse et dorée, autour du même feu. On chanta même des chansons.\n\nAu matin, le caillou de {{r1}} était rincé et de retour dans sa poche ; son sac était bouclé. {{r2}} lui dit :\n\n— Vous ne nous laissez pas le caillou ?\n\n— Impossible, dit {{r1}}. Il me le faut pour le prochain village où il n’y a rien.\n\nEt il s’en alla sur la route, son caillou dans la poche. Derrière lui, sur la place, on se regardait : ensemble, dans un village où il n’y avait rien, on avait trouvé de quoi faire un festin.\n"
+    }
+  },
+  "dureeEstimeeSecondes": 372,
+  "interactionsOrdonnees": [
+    "a1e8",
+    "a2e6",
+    "a1e6",
+    "a2e10",
+    "a3e5",
+    "a3e10",
+    "a4e5"
+  ]
+}

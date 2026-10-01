@@ -1,0 +1,595 @@
+{
+  "id": "en-jacques-le-paresseux--1",
+  "conteId": "en-jacques-le-paresseux",
+  "titre": "Jacques le Paresseux",
+  "pitch": "{{r1}} applique toujours le conseil de {{r2}} un jour trop tard ; l’âne sur ses épaules fait rire une jeune fille et change leur vie.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "garcon",
+      "famille": "enfant",
+      "traits": [
+        "naïveté",
+        "paresse",
+        "bonne volonté"
+      ],
+      "voix": "voix claire et tranquille",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e3:texte",
+            "avant": "si paresseux",
+            "apres": "si paresseuse"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "qu'il ne faisait",
+            "apres": "qu'elle ne faisait"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "le Paresseux",
+            "apres": "la Paresseuse"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "Il sortit",
+            "apres": "Elle sortit"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "Petit sot",
+            "apres": "Petite sotte"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "Quand il arriva",
+            "apres": "Quand elle arriva"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "Grand nigaud",
+            "apres": "Grande nigaude"
+          },
+          {
+            "id": "a2e13:texte",
+            "avant": "le Paresseux",
+            "apres": "la Paresseuse"
+          },
+          {
+            "id": "a2e13:texte",
+            "avant": "le minet le griffa",
+            "apres": "le minet la griffa"
+          },
+          {
+            "id": "a2e13:texte",
+            "avant": "Quand il rentra",
+            "apres": "Quand elle rentra"
+          },
+          {
+            "id": "a2e16:texte",
+            "avant": "Espèce de nigaud",
+            "apres": "Espèce de nigaude"
+          },
+          {
+            "id": "a3e2:texte",
+            "avant": "qui le récompensa",
+            "apres": "qui la récompensa"
+          },
+          {
+            "id": "a3e4:texte",
+            "avant": "Grand benêt",
+            "apres": "Grande benête"
+          },
+          {
+            "id": "a3e7:texte",
+            "avant": "le Paresseux",
+            "apres": "la Paresseuse"
+          },
+          {
+            "id": "a4e4:texte",
+            "avant": "le Paresseux",
+            "apres": "la Paresseuse"
+          },
+          {
+            "id": "a4e4:texte",
+            "avant": "un riche monsieur",
+            "apres": "une riche dame"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a1e3:texte",
+          "avant": "un garçon",
+          "gabarit": "{un} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r2",
+      "espece": "femme",
+      "famille": "adulte",
+      "traits": [
+        "travail",
+        "impatience",
+        "affection"
+      ],
+      "voix": "voix vive et ferme",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a1e3:texte",
+            "avant": "Sa mère",
+            "apres": "Son père"
+          },
+          {
+            "id": "a2e13:texte",
+            "avant": "sa mère lui dit",
+            "apres": "son père lui dit"
+          },
+          {
+            "id": "a3e2:texte",
+            "avant": "sa mère perdit",
+            "apres": "son père perdit"
+          },
+          {
+            "id": "a3e2:texte",
+            "avant": "elle dut se contenter",
+            "apres": "il dut se contenter"
+          },
+          {
+            "id": "a4e4:texte",
+            "avant": "la mère de",
+            "apres": "le père de"
+          },
+          {
+            "id": "a4e4:texte",
+            "avant": "très heureuse",
+            "apres": "très heureux"
+          },
+          {
+            "id": "a4:resume",
+            "avant": "la mère de",
+            "apres": "le père de"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "avec sa mère",
+            "apres": "avec son père"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "elle lui dit",
+            "apres": "il lui dit"
+          },
+          {
+            "id": "t1:description",
+            "avant": "de la mère",
+            "apres": "du père"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a1e3:texte",
+          "avant": "la femme âgée",
+          "gabarit": "{le} {espece} {âgé|âgée}"
+        }
+      ]
+    },
+    {
+      "cle": "r3",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "travail",
+        "générosité"
+      ],
+      "voix": "voix grave et posée",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2e4:texte",
+            "avant": "un fermier",
+            "apres": "une fermière"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 8,
+    "ageAuditoire": 7,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La maison, le ruisseau et la route",
+      "description": "Un carton fixe montre la chaumière, un trait bleu pour le ruisseau et la route. Un coussin marque la place de la mère. Le sou et la cruche sont seulement racontés ; la poche est cousue sur la veste de {{r1}}.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "Le fromage et le chat",
+      "description": "Le même carton montre le fromage sur un dessin de tête, puis le chat contre la poitrine d’une silhouette de {{r1}}. Les deux images restent fixes. {{r1}} se déplace d’un bloc à côté du carton ; rien ne passe d’une peluche à l’autre.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t3",
+      "titre": "La boue et l’âne",
+      "description": "Sur un carton fixe, la viande est dessinée dans la boue et la silhouette de l’âne, les pattes en l’air, se trouve au-dessus du chemin. {{r1}} peut avancer sous la silhouette, sans la déplacer ni la tenir.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t4",
+      "titre": "La fenêtre et la grande maison",
+      "description": "Un carton fixe représente la fenêtre de la jeune fille et, au loin, la grande maison. La jeune fille, son père et leur joie sont racontés ; aucune peluche supplémentaire n’est nécessaire.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Le sou et le lait",
+      "resume": "{{r1}} perd son sou, puis renverse le lait dans sa poche en suivant le premier conseil.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e3",
+          "type": "conteur",
+          "texte": "Il était une fois un garçon qui s'appelait {{r1}} et qui vivait avec sa mère sur une lande. La maisonnée était très pauvre ; la femme âgée, {{r2}}, gagnait sa vie en filant la laine, mais {{r1}} était si paresseux qu'il ne faisait rien d'autre que se chauffer au soleil quand il faisait chaud, et s'asseoir au coin du feu en hiver. Alors on l'appelait {{r1}} le Paresseux. Sa mère n'arrivait pas à lui faire faire quoi que ce soit, et à la fin, un lundi, elle lui dit :"
+        },
+        {
+          "id": "a1e4",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Si tu ne te mets pas à travailler pour gagner ta bouillie, je te mettrai dehors pour que tu gagnes ta vie comme tu pourras."
+        },
+        {
+          "id": "a1e5",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e6",
+          "type": "conteur",
+          "texte": "Cela réveilla {{r1}}. Il sortit et se fit engager pour le lendemain chez un fermier voisin, pour un sou. Mais {{r1}}, qui n'avait jamais eu d'argent de sa vie, perdit le sou en traversant un ruisseau."
+        },
+        {
+          "id": "a1e7",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e8",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Petit sot, tu aurais dû le mettre dans ta poche."
+        },
+        {
+          "id": "a1e9",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Répétez le conseil : dans ta poche !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e10",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je le ferai la prochaine fois."
+        },
+        {
+          "id": "a1e11",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Reprenez avec moi : Je le ferai la prochaine fois !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e12",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e13",
+          "type": "conteur",
+          "texte": "Le mercredi, {{r1}} ressortit et se fit engager chez un vacher, qui lui donna une cruche de lait pour sa journée. La cruche se retrouva dans la grande poche de la veste de {{r1}}, et tout le lait se renversa bien avant le retour à la maison."
+        },
+        {
+          "id": "a1e14",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e15",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Mon Dieu ! Tu aurais dû la porter sur ta tête."
+        },
+        {
+          "id": "a1e16",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Reprenez : sur ta tête !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e17",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je le ferai la prochaine fois."
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Le fromage et le chat",
+      "resume": "{{r1}} reçoit le fromage puis le chat ; chaque nouveau conseil arrive trop tard.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e2",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a2e3",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e4",
+          "type": "conteur",
+          "texte": "Alors le jeudi, {{r1}} se fit de nouveau engager chez un fermier, {{r3}}, qui lui dit :"
+        },
+        {
+          "id": "a2e5",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Je te donnerai un fromage à la crème pour ton travail."
+        },
+        {
+          "id": "a2e6",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e7",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a2e8",
+          "type": "conteur",
+          "texte": "Le soir, le fromage resta sur la tête de {{r1}} tout le chemin du retour. Quand il arriva, le fromage était tout gâté : une partie était perdue, et le reste collé dans ses cheveux."
+        },
+        {
+          "id": "a2e9",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e10",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Grand nigaud, tu aurais dû le garder bien soigneusement contre toi."
+        },
+        {
+          "id": "a2e11",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je le ferai la prochaine fois."
+        },
+        {
+          "id": "a2e12",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e13",
+          "type": "conteur",
+          "texte": "Le vendredi, {{r1}} le Paresseux ressortit et se fit engager chez un boulanger, qui ne voulut lui donner pour son travail qu'un gros matou. Le chat resta contre la poitrine de {{r1}} pendant le trajet ; mais au bout d’un moment, le minet le griffa tant que {{r1}} dut le laisser s’enfuir. Quand il rentra, sa mère lui dit :"
+        },
+        {
+          "id": "a2e14",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites entendre le chat : miaou !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e15",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e16",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Espèce de nigaud, tu aurais dû l’attacher avec une ficelle et le traîner derrière toi."
+        },
+        {
+          "id": "a2e17",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Répétez avec moi : une ficelle !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e18",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je le ferai la prochaine fois."
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "La viande et l’âne",
+      "resume": "{{r1}} traîne la viande dans la boue, puis rentre avec un âne sur les épaules.",
+      "tableauId": "t3",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e2",
+          "type": "conteur",
+          "texte": "Alors le samedi, {{r1}} se fit engager chez un boucher, qui le récompensa par un beau cadeau : une épaule de mouton. La viande se retrouva attachée à une ficelle et traîna derrière {{r1}} dans la boue, si bien qu'en arrivant à la maison, la viande était complètement gâtée. Cette fois, sa mère perdit patience, car le lendemain était dimanche, et elle dut se contenter de chou pour son dîner."
+        },
+        {
+          "id": "a3e3",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e4",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Grand benêt, tu aurais dû la porter sur ton épaule."
+        },
+        {
+          "id": "a3e5",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je le ferai la prochaine fois."
+        },
+        {
+          "id": "a3e6",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e7",
+          "type": "conteur",
+          "texte": "Le lundi suivant, {{r1}} le Paresseux sortit encore une fois et se fit engager chez un éleveur, qui lui donna un âne pour sa peine. Après beaucoup d'efforts, l'âne se trouva sur les épaules de {{r1}}, qui commença à rentrer lentement avec son prix."
+        },
+        {
+          "id": "a3e8",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites le cri de l’âne : hi-han !",
+          "attenteReponse": true
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "numero": 4,
+      "titre": "Le rire et le bonheur",
+      "resume": "Le rire de la jeune fille lui rend parole et ouïe, puis le mariage réunit aussi la mère de {{r1}}.",
+      "tableauId": "t4",
+      "elements": [
+        {
+          "id": "a4e1",
+          "type": "conteur",
+          "texte": "Or, il se trouvait que sur son chemin vivait un homme riche avec sa fille unique, une belle jeune fille, mais sourde et muette. Elle n'avait jamais ri de sa vie, et les médecins disaient qu'elle ne parlerait pas tant que quelqu'un ne l'aurait pas fait rire. La jeune fille était justement à sa fenêtre quand {{r1}} passa avec l'âne sur les épaules, les pattes en l'air. Le spectacle était si comique et si bizarre qu'elle éclata d'un grand rire, et retrouva aussitôt la parole et l'ouïe."
+        },
+        {
+          "id": "a4e2",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Riez un instant avec la jeune fille !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e3",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e4",
+          "type": "conteur",
+          "texte": "Son père fut fou de joie et tint sa promesse en la mariant à {{r1}} le Paresseux, qui devint ainsi un riche monsieur. Le couple vécut dans une grande maison, et {{r2}}, la mère de {{r1}}, vécut avec le couple, très heureuse, jusqu'à la fin de ses jours."
+        },
+        {
+          "id": "a4e5",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e6",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "en-jacques-le-paresseux",
+    "synopsis": {
+      "accroche": "Chaque conseil arrive un jour trop tard.",
+      "resume": [
+        "{{r1}} perd son sou et renverse le lait en suivant le conseil de sa mère.",
+        "Le fromage se gâte sur sa tête, puis le chat le griffe sur le chemin.",
+        "La viande traîne dans la boue et, le lundi suivant, l’âne arrive sur ses épaules.",
+        "Une jeune fille éclate de rire, retrouve parole et ouïe ; le mariage et la grande maison rendent aussi {{r2}} heureuse."
+      ]
+    },
+    "transposition": {
+      "texte": "Il était une fois un garçon qui s'appelait {{r1}} et qui vivait avec sa mère sur une lande. La maisonnée était très pauvre ; la femme âgée, {{r2}}, gagnait sa vie en filant la laine, mais {{r1}} était si paresseux qu'il ne faisait rien d'autre que se chauffer au soleil quand il faisait chaud, et s'asseoir au coin du feu en hiver. Alors on l'appelait {{r1}} le Paresseux. Sa mère n'arrivait pas à lui faire faire quoi que ce soit, et à la fin, un lundi, elle lui dit :\n\n— Si tu ne te mets pas à travailler pour gagner ta bouillie, je te mettrai dehors pour que tu gagnes ta vie comme tu pourras.\n\nCela réveilla {{r1}}. Il sortit et se fit engager pour le lendemain chez un fermier voisin, pour un sou. Mais {{r1}}, qui n'avait jamais eu d'argent de sa vie, perdit le sou en traversant un ruisseau.\n\n— Petit sot, dit sa mère, tu aurais dû le mettre dans ta poche.\n\n— Je le ferai la prochaine fois, répondit {{r1}}.\n\nLe mercredi, {{r1}} ressortit et se fit engager chez un vacher, qui lui donna une cruche de lait pour sa journée. La cruche se retrouva dans la grande poche de la veste de {{r1}}, et tout le lait se renversa bien avant le retour à la maison.\n\n— Mon Dieu ! dit la vieille. Tu aurais dû la porter sur ta tête.\n\n— Je le ferai la prochaine fois, dit {{r1}}.\n\nAlors le jeudi, {{r1}} se fit de nouveau engager chez un fermier, {{r3}}, qui lui dit :\n\n— Je te donnerai un fromage à la crème pour ton travail.\n\nLe soir, le fromage resta sur la tête de {{r1}} tout le chemin du retour. Quand il arriva, le fromage était tout gâté : une partie était perdue, et le reste collé dans ses cheveux.\n\n— Grand nigaud, dit sa mère, tu aurais dû le garder bien soigneusement contre toi.\n\n— Je le ferai la prochaine fois, répondit {{r1}}.\n\nLe vendredi, {{r1}} le Paresseux ressortit et se fit engager chez un boulanger, qui ne voulut lui donner pour son travail qu'un gros matou. Le chat resta contre la poitrine de {{r1}} pendant le trajet ; mais au bout d’un moment, le minet le griffa tant que {{r1}} dut le laisser s’enfuir. Quand il rentra, sa mère lui dit :\n\n— Espèce de nigaud, tu aurais dû l'attacher avec une ficelle et le traîner derrière toi.\n\n— Je le ferai la prochaine fois, dit {{r1}}.\n\nAlors le samedi, {{r1}} se fit engager chez un boucher, qui le récompensa par un beau cadeau : une épaule de mouton. La viande se retrouva attachée à une ficelle et traîna derrière {{r1}} dans la boue, si bien qu'en arrivant à la maison, la viande était complètement gâtée. Cette fois, sa mère perdit patience, car le lendemain était dimanche, et elle dut se contenter de chou pour son dîner.\n\n— Grand benêt, lui dit-elle, tu aurais dû la porter sur ton épaule.\n\n— Je le ferai la prochaine fois, répondit {{r1}}.\n\nLe lundi suivant, {{r1}} le Paresseux sortit encore une fois et se fit engager chez un éleveur, qui lui donna un âne pour sa peine. Après beaucoup d'efforts, l'âne se trouva sur les épaules de {{r1}}, qui commença à rentrer lentement avec son prix.\n\nOr, il se trouvait que sur son chemin vivait un homme riche avec sa fille unique, une belle jeune fille, mais sourde et muette. Elle n'avait jamais ri de sa vie, et les médecins disaient qu'elle ne parlerait pas tant que quelqu'un ne l'aurait pas fait rire. La jeune fille était justement à sa fenêtre quand {{r1}} passa avec l'âne sur les épaules, les pattes en l'air. Le spectacle était si comique et si bizarre qu'elle éclata d'un grand rire, et retrouva aussitôt la parole et l'ouïe. Son père fut fou de joie et tint sa promesse en la mariant à {{r1}} le Paresseux, qui devint ainsi un riche monsieur. Le couple vécut dans une grande maison, et {{r2}}, la mère de {{r1}}, vécut avec le couple, très heureuse, jusqu'à la fin de ses jours.\n"
+    }
+  },
+  "dureeEstimeeSecondes": 476,
+  "interactionsOrdonnees": [
+    "a1e11",
+    "a3e8",
+    "a1e9",
+    "a1e16",
+    "a4e2",
+    "a2e14",
+    "a2e17"
+  ]
+}

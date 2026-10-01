@@ -1,0 +1,499 @@
+{
+  "id": "no-trois-boucs--1",
+  "conteId": "no-trois-boucs",
+  "titre": "Les Trois Boucs Bruse",
+  "pitch": "{{r1}}, {{r2}} et {{r3}} traversent un pont gardé par {{r4}}. {{r1}} annonce {{r2}}, puis {{r2}} annonce {{r3}}, qui arrive enfin.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "bouc",
+      "famille": "petit",
+      "traits": [
+        "timide",
+        "rusé"
+      ],
+      "voix": "voix toute petite et rapide",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e3:texte",
+            "avant": "le plus petit",
+            "apres": "la plus petite"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "le plus petit",
+            "apres": "la plus petite"
+          },
+          {
+            "id": "a1e10:texte",
+            "avant": "je suis si petit",
+            "apres": "je suis si petite"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r2",
+      "espece": "bouc",
+      "famille": "petit",
+      "traits": [
+        "rusé",
+        "vif"
+      ],
+      "voix": "voix moyenne et assurée",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e10:texte",
+            "avant": "celui du milieu",
+            "apres": "celle du milieu"
+          },
+          {
+            "id": "a1e10:texte",
+            "avant": "il est bien plus gros",
+            "apres": "elle est bien plus grosse"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "plus gros",
+            "apres": "plus grosse"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "celui du milieu",
+            "apres": "celle du milieu"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "celui du milieu",
+            "apres": "celle du milieu"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "le suivant",
+            "apres": "la suivante"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r3",
+      "espece": "bouc",
+      "famille": "petit",
+      "traits": [
+        "fort",
+        "courageux"
+      ],
+      "voix": "grosse voix lente et sonore",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2e8:texte",
+            "avant": "le plus grand",
+            "apres": "la plus grande"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "il est bien, bien plus gros",
+            "apres": "elle est bien, bien plus grosse"
+          },
+          {
+            "id": "a2e9:texte",
+            "avant": "plus gros",
+            "apres": "plus grosse"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "le plus grand",
+            "apres": "la plus grande"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "Il était si lourd",
+            "apres": "Elle était si lourde"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "sous lui",
+            "apres": "sous elle"
+          },
+          {
+            "id": "a3e6:texte",
+            "avant": "le plus grand",
+            "apres": "la plus grande"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r4",
+      "espece": "troll",
+      "famille": "monstre",
+      "traits": [
+        "méchant",
+        "gourmand",
+        "naïf"
+      ],
+      "voix": "voix grave qui gronde sous le pont",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e1:texte",
+            "avant": "grand et affreux",
+            "apres": "grande et affreuse"
+          },
+          {
+            "id": "a1e7:ton",
+            "avant": "grondant",
+            "apres": "grondante"
+          },
+          {
+            "id": "a2e5:ton",
+            "avant": "grondant",
+            "apres": "grondante"
+          },
+          {
+            "id": "a3e11:texte",
+            "avant": "fut piétiné",
+            "apres": "fut piétinée"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "le précipite",
+            "apres": "la précipite"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 6,
+    "ageAuditoire": 3,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "Le pont de la cascade",
+      "description": "Posez un long carton sur deux coussins : il forme le pont. Un drap bleu immobile en dessous indique la cascade. {{r4}} se tient sous un côté ; chaque membre du trio apparaît de l’autre côté et traverse sans déplacer le carton.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Le petit passage",
+      "resume": "{{r1}} traverse le pont et persuade {{r4}} d’attendre le suivant.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Il était une fois une fratrie : {{r1}}, {{r2}} et {{r3}}. Le trio voulait monter à l’alpage pour s’engraisser. Sur le chemin, il y avait un pont au-dessus d’une cascade, que le trio devait traverser. Et sous ce pont habitait {{r4}}, grand et affreux, avec des yeux comme des assiettes en étain et un nez aussi long qu’un manche de râteau."
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e3",
+          "type": "conteur",
+          "texte": "D’abord arriva {{r1}}, le plus petit, qui devait traverser le pont."
+        },
+        {
+          "id": "a1e4",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e5",
+          "type": "conteur",
+          "texte": "Trip trap, trip trap, fit le pont."
+        },
+        {
+          "id": "a1e6",
+          "type": "adresse_public",
+          "texte": "Faites avec moi les pas du pont : « Trip trap, trip trap ! »",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e7",
+          "type": "replique",
+          "texte": "Qui est-ce qui trottine sur mon pont ?",
+          "marionnetteId": "r4",
+          "ton": "grondant"
+        },
+        {
+          "id": "a1e8",
+          "type": "replique",
+          "texte": "Oh, c’est {{r1}}, le plus petit. Je vais à l’alpage pour m’engraisser.",
+          "marionnetteId": "r1",
+          "ton": "toute petite voix"
+        },
+        {
+          "id": "a1e9",
+          "type": "replique",
+          "texte": "Maintenant je viens te prendre !",
+          "marionnetteId": "r4"
+        },
+        {
+          "id": "a1e10",
+          "type": "replique",
+          "texte": "Oh non, ne me prends pas, je suis si petit, moi ! Attends seulement un peu, et {{r2}}, celui du milieu, va arriver : il est bien plus gros.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a1e11",
+          "type": "adresse_public",
+          "texte": "Dites avec moi ce que {{r4}} doit attendre : « plus gros ! »",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e12",
+          "type": "replique",
+          "texte": "Bon, d’accord.",
+          "marionnetteId": "r4"
+        },
+        {
+          "id": "a1e13",
+          "type": "didascalie",
+          "texte": "{{r1}} glisse d’un seul bloc jusqu’au bout du pont."
+        },
+        {
+          "id": "a1e14",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Un pas plus lourd",
+      "resume": "{{r2}} traverse à son tour et renvoie {{r4}} vers {{r3}}.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "Au bout d’un petit moment arriva {{r2}}, celui du milieu, qui devait traverser le pont."
+        },
+        {
+          "id": "a2e2",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e3",
+          "type": "conteur",
+          "texte": "Trip trap, trip trap, trip trap, fit le pont."
+        },
+        {
+          "id": "a2e4",
+          "type": "adresse_public",
+          "texte": "Faites trois pas avec moi : « Trip trap, trip trap, trip trap ! »",
+          "marionnetteId": "r2",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e5",
+          "type": "replique",
+          "texte": "Qui est-ce qui trottine sur mon pont ?",
+          "marionnetteId": "r4",
+          "ton": "grondant"
+        },
+        {
+          "id": "a2e6",
+          "type": "replique",
+          "texte": "Oh, c’est {{r2}}, celui du milieu, qui va à l’alpage pour s’engraisser.",
+          "marionnetteId": "r2",
+          "ton": "voix plus forte"
+        },
+        {
+          "id": "a2e7",
+          "type": "replique",
+          "texte": "Maintenant je viens te prendre.",
+          "marionnetteId": "r4"
+        },
+        {
+          "id": "a2e8",
+          "type": "replique",
+          "texte": "Oh non, ne me prends pas. Attends un peu, et {{r3}}, le plus grand, va arriver : il est bien, bien plus gros.",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a2e9",
+          "type": "adresse_public",
+          "texte": "Répétez avec moi : « bien, bien plus gros ! »",
+          "marionnetteId": "r2",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e10",
+          "type": "replique",
+          "texte": "Bon, d’accord alors !",
+          "marionnetteId": "r4"
+        },
+        {
+          "id": "a2e11",
+          "type": "didascalie",
+          "texte": "{{r2}} glisse d’un seul bloc jusqu’au bout du pont."
+        },
+        {
+          "id": "a2e12",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Le grand passage",
+      "resume": "{{r3}} affronte {{r4}}, le précipite dans la cascade et rejoint la fratrie à l’alpage.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "conteur",
+          "texte": "Et tout à coup, voilà {{r3}}, le plus grand."
+        },
+        {
+          "id": "a3e2",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e3",
+          "type": "conteur",
+          "texte": "Trip trap, trip trap, trip trap, fit le pont. Il était si lourd que le pont craquait et grinçait sous lui."
+        },
+        {
+          "id": "a3e4",
+          "type": "adresse_public",
+          "texte": "Faites trembler le pont avec votre voix : « Trip trap ! »",
+          "marionnetteId": "r3",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e5",
+          "type": "replique",
+          "texte": "Qui est-ce qui piétine sur mon pont ?",
+          "marionnetteId": "r4",
+          "ton": "plus fort"
+        },
+        {
+          "id": "a3e6",
+          "type": "replique",
+          "texte": "C’est {{r3}}, le plus grand.",
+          "marionnetteId": "r3",
+          "ton": "grosse voix"
+        },
+        {
+          "id": "a3e7",
+          "type": "replique",
+          "texte": "Maintenant je viens te prendre !",
+          "marionnetteId": "r4"
+        },
+        {
+          "id": "a3e8",
+          "type": "replique",
+          "texte": "Eh bien, viens donc !\nJ’ai deux lances sur la tête,\nJe vais te piquer comme une fourchette !\nJ’ai deux grosses pierres pour sabots,\nJe vais te réduire en petits morceaux !",
+          "marionnetteId": "r3",
+          "ton": "avec force et lenteur"
+        },
+        {
+          "id": "a3e9",
+          "type": "adresse_public",
+          "texte": "Reprenez le défi avec moi : « Eh bien, viens donc ! »",
+          "marionnetteId": "r3",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e10",
+          "type": "didascalie",
+          "texte": "{{r3}} bondit d’un seul bloc vers {{r4}}."
+        },
+        {
+          "id": "a3e11",
+          "type": "conteur",
+          "texte": "{{r4}} reçut de grands coups de cornes, fut piétiné et bascula au bas de la cascade après un coup de tête."
+        },
+        {
+          "id": "a3e12",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e13",
+          "type": "didascalie",
+          "texte": "{{r3}} traverse le pont d’un seul bloc."
+        },
+        {
+          "id": "a3e14",
+          "type": "conteur",
+          "texte": "Puis {{r3}} monta à l’alpage. Là, la fratrie devint si grasse, si grasse, qu’elle avait presque du mal à rentrer à la maison. Et si cette graisse n’est pas partie, la fratrie est encore si grasse."
+        },
+        {
+          "id": "a3e15",
+          "type": "conteur",
+          "texte": "Et snip, snap, snout, mon conte est fini tout."
+        },
+        {
+          "id": "a3e16",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "no-trois-boucs",
+    "synopsis": {
+      "accroche": "Une fratrie doit traverser le pont de {{r4}} pour monter à l’alpage.",
+      "resume": [
+        "{{r1}} traverse en annonçant la venue de {{r2}}.",
+        "{{r2}} traverse à son tour et annonce la venue de {{r3}}.",
+        "{{r3}} affronte {{r4}}, l’envoie dans la cascade et retrouve la fratrie devenue grasse."
+      ]
+    },
+    "transposition": {
+      "texte": "Il était une fois une fratrie : {{r1}}, {{r2}} et {{r3}}. Le trio voulait monter à l’alpage pour s’engraisser. Sur le chemin, il y avait un pont au-dessus d’une cascade, que le trio devait traverser. Et sous ce pont habitait {{r4}}, grand et affreux, avec des yeux comme des assiettes en étain et un nez aussi long qu’un manche de râteau.\n\nD’abord arriva {{r1}}, le plus petit, qui devait traverser le pont.\n\nTrip trap, trip trap, fit le pont.\n\n— Qui est-ce qui trottine sur mon pont ? cria {{r4}}.\n\n— Oh, c’est {{r1}}, le plus petit. Je vais à l’alpage pour m’engraisser, dit {{r1}}, qui avait une toute petite voix.\n\n— Maintenant je viens te prendre ! dit {{r4}}.\n\n— Oh non, ne me prends pas, je suis si petit, moi ! Attends seulement un peu, et {{r2}}, celui du milieu, va arriver : il est bien plus gros.\n\n— Bon, d’accord, dit {{r4}}.\n\nAu bout d’un petit moment arriva {{r2}}, celui du milieu, qui devait traverser le pont.\n\nTrip trap, trip trap, trip trap, fit le pont.\n\n— Qui est-ce qui trottine sur mon pont ? cria {{r4}}.\n\n— Oh, c’est {{r2}}, celui du milieu, qui va à l’alpage pour s’engraisser, dit {{r2}}, qui n’avait pas une petite voix, lui.\n\n— Maintenant je viens te prendre, dit {{r4}}.\n\n— Oh non, ne me prends pas. Attends un peu, et {{r3}}, le plus grand, va arriver : il est bien, bien plus gros.\n\n— Bon, d’accord alors ! dit {{r4}}.\n\nEt tout à coup, voilà {{r3}}, le plus grand.\n\nTrip trap, trip trap, trip trap, fit le pont. Il était si lourd que le pont craquait et grinçait sous lui.\n\n— Qui est-ce qui piétine sur mon pont ? cria {{r4}}.\n\n— C’est {{r3}}, le plus grand, dit {{r3}}, qui avait une grosse voix.\n\n— Maintenant je viens te prendre ! cria {{r4}}.\n\n— Eh bien, viens donc !\nJ’ai deux lances sur la tête,\nJe vais te piquer comme une fourchette !\nJ’ai deux grosses pierres pour sabots,\nJe vais te réduire en petits morceaux !\n\ndit {{r3}}.\n\n{{r3}} fonça sur {{r4}}. {{r4}} reçut de grands coups de cornes, fut piétiné et bascula au bas de la cascade après un coup de tête. Puis {{r3}} monta à l’alpage. Là, la fratrie devint si grasse, si grasse, qu’elle avait presque du mal à rentrer à la maison. Et si cette graisse n’est pas partie, la fratrie est encore si grasse.\n\nEt snip, snap, snout, mon conte est fini tout.\n"
+    }
+  },
+  "dureeEstimeeSecondes": 303,
+  "interactionsOrdonnees": [
+    "a1e6",
+    "a2e4",
+    "a3e4",
+    "a1e11",
+    "a2e9",
+    "a3e9"
+  ]
+}

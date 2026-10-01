@@ -1,0 +1,566 @@
+{
+  "id": "wabanaki-glooskap-et-bebe--1",
+  "conteId": "wabanaki-glooskap-et-bebe",
+  "titre": "Glooskap et le Bébé",
+  "pitch": "{{r1}} croit avoir vaincu tous ses adversaires. {{r2}} savoure son sucre d’érable et reste immobile devant les trois appels et toutes les magies.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "fort",
+        "vantard",
+        "gentil"
+      ],
+      "voix": "voix ample, d’abord douce, puis voix de chef, puis tonnerre",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2:resume",
+            "avant": "comme un chef",
+            "apres": "comme une cheffe"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "un grand héros",
+            "apres": "une grande héroïne"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "et il avait vaincu",
+            "apres": "et elle avait vaincu"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "Il avait vaincu",
+            "apres": "Elle avait vaincu"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "il se trouva très content de lui",
+            "apres": "elle se trouva très contente d’elle"
+          },
+          {
+            "id": "a2e5:texte",
+            "avant": "se sentit sûr de lui",
+            "apres": "se sentit sûre d’elle"
+          },
+          {
+            "id": "a2e11:ton",
+            "avant": "voix de chef",
+            "apres": "voix de cheffe"
+          },
+          {
+            "id": "a2e13:texte",
+            "avant": "il tonna",
+            "apres": "elle tonna"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "qu’il savait",
+            "apres": "qu’elle savait"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "Il chanta",
+            "apres": "Elle chanta"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "Il fit",
+            "apres": "Elle fit"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "le regarda faire",
+            "apres": "la regarda faire"
+          },
+          {
+            "id": "a3e4:texte",
+            "avant": "Il appela",
+            "apres": "Elle appela"
+          },
+          {
+            "id": "a3e7:texte",
+            "avant": "Il était assis par terre, épuisé",
+            "apres": "Elle était assise par terre, épuisée"
+          },
+          {
+            "id": "a3e9:texte",
+            "avant": "un grand héros mais pas un sot",
+            "apres": "une grande héroïne mais pas une sotte"
+          },
+          {
+            "id": "a3e12:texte",
+            "avant": "Et il s’en alla, vaincu",
+            "apres": "Et elle s’en alla, vaincue"
+          },
+          {
+            "id": "a3e14:texte",
+            "avant": "n’avait jamais vaincu.",
+            "apres": "n’avait jamais vaincue."
+          },
+          {
+            "id": "voix:r1",
+            "avant": "voix de chef",
+            "apres": "voix de cheffe"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r2",
+      "espece": "garcon",
+      "famille": "enfant",
+      "traits": [
+        "calme",
+        "têtu",
+        "gentil"
+      ],
+      "voix": "petite voix « goo, goo », puis pleurs très sonores",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1:resume",
+            "avant": "que personne n’a vaincu",
+            "apres": "que personne n’a vaincue"
+          },
+          {
+            "id": "a1e10:texte",
+            "avant": "Il s’appelle",
+            "apres": "Elle s’appelle"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "Il était assis",
+            "apres": "Elle était assise"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "près de lui",
+            "apres": "près d’elle"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "et il le savourait",
+            "apres": "et elle le savourait"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "tout seul",
+            "apres": "toute seule"
+          },
+          {
+            "id": "a2e5:texte",
+            "avant": "était tout petit",
+            "apres": "était toute petite"
+          },
+          {
+            "id": "a2e7:texte",
+            "avant": "Petit",
+            "apres": "Petite"
+          },
+          {
+            "id": "a2e9:texte",
+            "avant": "sembla amusé",
+            "apres": "sembla amusée"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "Petit",
+            "apres": "Petite"
+          },
+          {
+            "id": "a2e14:texte",
+            "avant": "PETIT",
+            "apres": "PETITE"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "sembla amusé",
+            "apres": "sembla amusée"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "très intéressé",
+            "apres": "très intéressée"
+          },
+          {
+            "id": "a3e7:texte",
+            "avant": "toujours paisible et gentil",
+            "apres": "toujours paisible et gentille"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r3",
+      "espece": "femme",
+      "famille": "adulte",
+      "traits": [
+        "sage",
+        "rieuse"
+      ],
+      "voix": "voix chaleureuse, un rire court avant le défi",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": []
+      },
+      "especeMentions": [
+        {
+          "id": "a1e4:texte",
+          "avant": "une femme du village",
+          "gabarit": "{un} {espece} du village"
+        },
+        {
+          "id": "a1e7:texte",
+          "avant": "La femme",
+          "gabarit": "{Le} {espece}"
+        }
+      ]
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 5,
+    "ageAuditoire": 3,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "Le village",
+      "description": "Deux coussins posés de part et d’autre de la table indiquent le village. {{r1}} et {{r3}} peuvent se faire face sans autre décor. Le serpent et les géants n’apparaissent que dans le récit.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "La maison du bébé",
+      "description": "Un coussin bas indique la place de {{r2}} au milieu de la maison. Un petit carton fixe à côté figure le sucre d’érable ; aucune peluche ne le prend ni ne le déplace. {{r1}} a la place libre pour reculer, se tourner et s’asseoir en se penchant de tout son corps.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Le dernier défi",
+      "resume": "{{r1}} se vante de ses victoires contre les géants, les sorciers, les esprits et le serpent. {{r3}} lui parle de {{r2}}, que personne n’a vaincu.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "{{r1}} était un grand héros, et il avait vaincu tout ce qu’on peut vaincre. Il avait vaincu les géants des montagnes, et les sorciers des bois, et les esprits de la nuit, et même le grand serpent des eaux."
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e3",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Dites avec moi qui j’ai vaincu : « Géants ! Sorciers ! Esprits ! Serpent ! »",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e4",
+          "type": "conteur",
+          "texte": "Un jour, n’ayant plus rien à vaincre, il se trouva très content de lui, et le dit à une femme du village, {{r3}} :"
+        },
+        {
+          "id": "a1e5",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e6",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "J’ai vaincu tous les géants et tous les sorciers, les esprits et les serpents. Il ne reste rien au monde qui puisse me résister."
+        },
+        {
+          "id": "a1e7",
+          "type": "conteur",
+          "texte": "La femme, {{r3}}, se mit à rire :"
+        },
+        {
+          "id": "a1e8",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Vraiment, {{r1}} ? Il reste pourtant quelqu’un. Quelqu’un que personne n’a jamais réussi à vaincre, et que personne ne vaincra jamais."
+        },
+        {
+          "id": "a1e9",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Et qui donc ?"
+        },
+        {
+          "id": "a1e10",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Il s’appelle {{r2}}. Si j’étais toi, je ne m’y frotterais pas."
+        },
+        {
+          "id": "a1e11",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e12",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Trois voix, aucun pas",
+      "resume": "{{r2}} savoure son sucre d’érable. {{r1}} l’appelle aimablement, comme un chef, puis avec sa voix de tonnerre ; {{r2}} reste immobile et ses pleurs couvrent le tonnerre.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "{{r2}}, c’était le bébé. Il était assis par terre au milieu de la maison ; son morceau de sucre d’érable restait près de lui, et il le savourait tranquillement, en chantonnant tout seul :"
+        },
+        {
+          "id": "a2e2",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e3",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Goo, goo.",
+          "ton": "tout doucement"
+        },
+        {
+          "id": "a2e4",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Dites avec moi : « Goo, goo ! »",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e5",
+          "type": "conteur",
+          "texte": "{{r1}} regarda le bébé. {{r2}} était tout petit, et {{r1}} avait vaincu des géants. {{r1}} se sentit sûr de lui et dit, de sa voix la plus aimable :"
+        },
+        {
+          "id": "a2e6",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e7",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Petit, viens à moi !",
+          "ton": "voix aimable"
+        },
+        {
+          "id": "a2e8",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Répétez mon appel : « Viens à moi ! »",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e9",
+          "type": "conteur",
+          "texte": "{{r2}} regarda {{r1}}, sembla amusé — et resta immobile. Son sucre d’érable lui plaisait toujours."
+        },
+        {
+          "id": "a2e10",
+          "type": "didascalie",
+          "texte": "{{r1}} recule d’un pas."
+        },
+        {
+          "id": "a2e11",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Petit, viens ici !",
+          "ton": "voix de chef"
+        },
+        {
+          "id": "a2e12",
+          "type": "conteur",
+          "texte": "Le bébé continua de savourer son sucre."
+        },
+        {
+          "id": "a2e13",
+          "type": "conteur",
+          "texte": "Alors {{r1}} fit venir sa voix terrible, celle qui faisait trembler les sorciers, et il tonna si fort que les oiseaux s’envolèrent des arbres :"
+        },
+        {
+          "id": "a2e14",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "PETIT ! VIENS ICI TOUT DE SUITE !",
+          "ton": "voix de tonnerre"
+        },
+        {
+          "id": "a2e15",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Ouin ! Ouin ! Ouin !",
+          "ton": "pleurs très longs et plus forts que le tonnerre"
+        },
+        {
+          "id": "a2e16",
+          "type": "conteur",
+          "texte": "Le tonnerre de {{r1}} ne s’entendait même plus. Mais {{r2}} resta immobile."
+        },
+        {
+          "id": "a2e17",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Faites « Ouin ! » avec moi !",
+          "attenteReponse": false
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "La victoire de {{r2}}",
+      "resume": "Chants des pierres, gestes des rivières et grandes magies échouent. {{r1}} reconnaît en riant la victoire du bébé et repart ; la clausule wabanaki rappelle son souvenir.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "conteur",
+          "texte": "Alors {{r1}} essaya tout ce qu’il savait. Il chanta les chants qui font danser les pierres : {{r2}} écouta, sembla amusé — et savoura son sucre."
+        },
+        {
+          "id": "a3e2",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Répétez ces mots avec moi : « Chants, gestes, magies ! »",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e3",
+          "type": "conteur",
+          "texte": "Il fit de tout son corps les gestes qui commandent aux rivières : {{r2}} le regarda faire, très intéressé — et savoura son sucre."
+        },
+        {
+          "id": "a3e4",
+          "type": "conteur",
+          "texte": "Il appela les grandes magies, celles des géants et des sorciers vaincus :"
+        },
+        {
+          "id": "a3e5",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Aaah !",
+          "ton": "bâillement à la voix, corps entier immobile"
+        },
+        {
+          "id": "a3e6",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Bâillez avec moi : « Aaah ! »",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e7",
+          "type": "conteur",
+          "texte": "À la fin, {{r1}} n’avait plus de voix, plus de chants, plus de magies. Il était assis par terre, épuisé, devant le bébé qui savourait toujours son sucre. Et, toujours paisible et gentil, {{r2}} regarda {{r1}} et dit :"
+        },
+        {
+          "id": "a3e8",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Goo, goo.",
+          "ton": "paisible"
+        },
+        {
+          "id": "a3e9",
+          "type": "conteur",
+          "texte": "Alors {{r1}}, qui était un grand héros mais pas un sot, éclata de rire :"
+        },
+        {
+          "id": "a3e10",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tu as gagné, {{r2}}. Les géants, je les ai vaincus, mais toi, tu fais ce que tu veux, quand tu veux — et rien d’autre.",
+          "ton": "en riant"
+        },
+        {
+          "id": "a3e11",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Dites avec moi : « Tu as gagné ! »",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e12",
+          "type": "conteur",
+          "texte": "Et il s’en alla, vaincu pour la première fois de sa vie."
+        },
+        {
+          "id": "a3e13",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e14",
+          "type": "conteur",
+          "texte": "C’est pour cela, disent les Wabanaki, que lorsqu’un bébé dit « goo, goo » avec joie, il faut le regarder avec respect : il se souvient du jour où il a vaincu {{r1}}, que rien d’autre au monde n’avait jamais vaincu."
+        },
+        {
+          "id": "a3e15",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "wabanaki-glooskap-et-bebe",
+    "synopsis": {
+      "accroche": "Le grand héros se heurte à un bébé qui ne bouge pas.",
+      "resume": [
+        "{{r1}} raconte ses victoires ; {{r3}} lui révèle que {{r2}} résiste à tous.",
+        "Les trois voix de {{r1}} échouent ; les pleurs de {{r2}} couvrent le tonnerre.",
+        "Les chants, les gestes et les grandes magies échouent. {{r1}} rit de sa défaite et la mémoire de la victoire du bébé demeure."
+      ]
+    },
+    "transposition": {
+      "texte": "{{r1}} était un grand héros, et il avait vaincu tout ce qu’on peut vaincre. Il avait vaincu les géants des montagnes, et les sorciers des bois, et les esprits de la nuit, et même le grand serpent des eaux. Un jour, n’ayant plus rien à vaincre, il se trouva très content de lui, et le dit à une femme du village, {{r3}} :\n\n— J’ai vaincu tous les géants et tous les sorciers, les esprits et les serpents. Il ne reste rien au monde qui puisse me résister.\n\nLa femme, {{r3}}, se mit à rire :\n\n— Vraiment, {{r1}} ? Il reste pourtant quelqu’un. Quelqu’un que personne n’a jamais réussi à vaincre, et que personne ne vaincra jamais.\n\n— Et qui donc ?\n\n— Il s’appelle {{r2}}. Si j’étais toi, je ne m’y frotterais pas.\n\n{{r2}}, c’était le bébé. Il était assis par terre au milieu de la maison ; son morceau de sucre d’érable restait près de lui, et il le savourait tranquillement, en chantonnant tout seul : « goo, goo. »\n\n{{r1}} regarda le bébé. {{r2}} était tout petit, et {{r1}} avait vaincu des géants. {{r1}} se sentit sûr de lui et dit, de sa voix la plus aimable :\n\n— Petit, viens à moi !\n\n{{r2}} regarda {{r1}}, sembla amusé — et resta immobile. Son sucre d’érable lui plaisait toujours.\n\n— Petit, viens ici ! dit {{r1}} plus fort, de sa voix de chef que tout le monde écoutait.\n\nLe bébé continua de savourer son sucre.\n\nAlors {{r1}} fit venir sa voix terrible, celle qui faisait trembler les sorciers, et il tonna si fort que les oiseaux s’envolèrent des arbres :\n\n— PETIT ! VIENS ICI TOUT DE SUITE !\n\nLe bébé pleura si fort, si haut et si longtemps. Le tonnerre de {{r1}} ne s’entendait même plus. Mais {{r2}} resta immobile.\n\nAlors {{r1}} essaya tout ce qu’il savait. Il chanta les chants qui font danser les pierres : {{r2}} écouta, sembla amusé — et savoura son sucre. Il fit de tout son corps les gestes qui commandent aux rivières : {{r2}} le regarda faire, très intéressé — et savoura son sucre. Il appela les grandes magies, celles des géants et des sorciers vaincus : un bâillement de {{r2}} se fit entendre.\n\nÀ la fin, {{r1}} n’avait plus de voix, plus de chants, plus de magies. Il était assis par terre, épuisé, devant le bébé qui savourait toujours son sucre. Et, toujours paisible et gentil, {{r2}} regarda {{r1}} et dit :\n\n— Goo, goo.\n\nAlors {{r1}}, qui était un grand héros mais pas un sot, éclata de rire :\n\n— Tu as gagné, {{r2}}. Les géants, je les ai vaincus, mais toi, tu fais ce que tu veux, quand tu veux — et rien d’autre.\n\nEt il s’en alla, vaincu pour la première fois de sa vie.\n\nC’est pour cela, disent les Wabanaki, que lorsqu’un bébé dit « goo, goo » avec joie, il faut le regarder avec respect : il se souvient du jour où il a vaincu {{r1}}, que rien d’autre au monde n’avait jamais vaincu."
+    }
+  },
+  "dureeEstimeeSecondes": 298,
+  "interactionsOrdonnees": [
+    "a2e4",
+    "a2e17",
+    "a3e11",
+    "a1e3",
+    "a3e6",
+    "a2e8",
+    "a3e2"
+  ]
+}

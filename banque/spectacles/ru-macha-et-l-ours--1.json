@@ -1,0 +1,640 @@
+{
+  "id": "ru-macha-et-l-ours--1",
+  "conteId": "ru-macha-et-l-ours",
+  "titre": "Macha et l’Ours",
+  "pitch": "{{r1}} se perd dans la forêt et arrive chez {{r2}}. Cachée sous un plat de pirojkis dans le panier, elle lui fait croire qu’elle le surveille depuis un chêne et rentre chez ses grands-parents.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "fille",
+      "famille": "enfant",
+      "traits": [
+        "vive",
+        "maligne",
+        "courageuse"
+      ],
+      "voix": "voix claire et énergique, devient forte depuis la cachette",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "Cachée sous",
+            "apres": "Caché sous"
+          },
+          {
+            "id": "pitch",
+            "avant": "elle lui fait croire",
+            "apres": "il lui fait croire"
+          },
+          {
+            "id": "pitch",
+            "avant": "qu’elle",
+            "apres": "qu’il"
+          },
+          {
+            "id": "a1:titre",
+            "avant": "Perdue",
+            "apres": "Perdu"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "la garder",
+            "apres": "le garder"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "elle cherche",
+            "apres": "il cherche"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "Elle l’arrête",
+            "apres": "Il l’arrête"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "nommée",
+            "apres": "nommé"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "qu’elle s’éloigna",
+            "apres": "qu’il s’éloigna"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "Quand elle se redressa",
+            "apres": "Quand il se redressa"
+          },
+          {
+            "id": "a1e7:texte",
+            "avant": "Elle marcha",
+            "apres": "Il marcha"
+          },
+          {
+            "id": "a1e7:texte",
+            "avant": "Elle frappa",
+            "apres": "Il frappa"
+          },
+          {
+            "id": "a1e7:texte",
+            "avant": "Elle entra",
+            "apres": "Il entra"
+          },
+          {
+            "id": "a1e10:texte",
+            "avant": "Elle allumait",
+            "apres": "Il allumait"
+          },
+          {
+            "id": "a1e13:texte",
+            "avant": "elle trouva",
+            "apres": "il trouva"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "Elle cuisit",
+            "apres": "Il cuisit"
+          },
+          {
+            "id": "a2e16:texte",
+            "avant": "Comme elle a",
+            "apres": "Comme il a"
+          },
+          {
+            "id": "a2e16:texte",
+            "avant": "Elle voit tout",
+            "apres": "Il voit tout"
+          },
+          {
+            "id": "a2e22:texte",
+            "avant": "Elle est haut perchée",
+            "apres": "Il est haut perché"
+          },
+          {
+            "id": "a2e22:texte",
+            "avant": "elle voit loin",
+            "apres": "il voit loin"
+          },
+          {
+            "id": "a2e30:texte",
+            "avant": "bien vivante",
+            "apres": "bien vivant"
+          },
+          {
+            "id": "a2e32:texte",
+            "avant": "ils la serrèrent",
+            "apres": "ils le serrèrent"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "vinrent la chercher",
+            "apres": "vinrent le chercher"
+          },
+          {
+            "id": "t2:description",
+            "avant": "sans la voir",
+            "apres": "sans le voir"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a1e1:texte",
+          "avant": "une petite fille",
+          "gabarit": "{un} {petit|petite} {espece}"
+        },
+        {
+          "id": "a1e9:texte",
+          "avant": "Une petite fille",
+          "gabarit": "{Un} {petit|petite} {espece}"
+        },
+        {
+          "id": "a2e22:texte",
+          "avant": "Quelle petite fille étonnante",
+          "gabarit": "{Quel|Quelle} {petit|petite} {espece} {étonnant|étonnante}"
+        },
+        {
+          "id": "a2e36:texte",
+          "avant": "la petite fille",
+          "gabarit": "{le} {petit|petite} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r2",
+      "espece": "ours",
+      "famille": "gros",
+      "traits": [
+        "gourmand",
+        "naïf",
+        "grognon"
+      ],
+      "voix": "voix grave et lente, surprise par chaque appel",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "le surveille",
+            "apres": "la surveille"
+          },
+          {
+            "id": "a1e9:ton",
+            "avant": "tout content",
+            "apres": "toute contente"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "il partit",
+            "apres": "elle partit"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "Il marcha, il marcha",
+            "apres": "Elle marcha, elle marcha"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "Il commença",
+            "apres": "Elle commença"
+          },
+          {
+            "id": "a2e16:ton",
+            "avant": "admiratif",
+            "apres": "admirative"
+          },
+          {
+            "id": "a2e17:texte",
+            "avant": "Il marcha, il marcha",
+            "apres": "Elle marcha, elle marcha"
+          },
+          {
+            "id": "a2e22:ton",
+            "avant": "admiratif",
+            "apres": "admirative"
+          },
+          {
+            "id": "a2e23:texte",
+            "avant": "Il arriva",
+            "apres": "Elle arriva"
+          },
+          {
+            "id": "a2e27:texte",
+            "avant": "il s'enfuit",
+            "apres": "elle s'enfuit"
+          },
+          {
+            "id": "a2e36:texte",
+            "avant": "quand il pense",
+            "apres": "quand elle pense"
+          },
+          {
+            "id": "a1e7:texte",
+            "avant": "le maître de la maison",
+            "apres": "la maîtresse de la maison"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a1e7:texte",
+          "avant": "un ours",
+          "gabarit": "{un} {espece}"
+        }
+      ]
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 6,
+    "ageAuditoire": 3,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La forêt et la petite isba",
+      "description": "Deux coussins figurent les arbres. Un carton au fond marque la petite isba. Les champignons, la porte et la bouillie existent par les mots, sans objet dans les peluches.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "Le panier, le chemin et le village",
+      "description": "Un carton bas, ouvert vers les enfants, reste fixé sur la table et figure le panier. {{r1}} descend derrière son bord : les enfants voient sa peluche, {{r2}} se tient de l’autre côté sans la voir. Un coussin indique le chêne, un autre la maison des grands-parents. Le plat de pirojkis reste imaginaire ; les chiens et les coups à la porte sont faits à la voix.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Perdue dans la forêt",
+      "resume": "{{r1}} perd ses amies parmi les champignons et entre dans l’isba de {{r2}}. {{r2}} veut la garder pour cuisiner ; elle cherche comment rentrer.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Il était une fois une petite fille nommée {{r1}}, qui vivait chez son grand-père et sa grand-mère, au bord de la grande forêt. Un matin, ses amies vinrent la chercher :"
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e3",
+          "type": "note_marionnettiste",
+          "texte": "Voix des amies, en coulisse : « {{r1}}, viens avec nous cueillir des champignons ! »"
+        },
+        {
+          "id": "a1e4",
+          "type": "conteur",
+          "texte": "Le groupe entra dans la forêt. {{r1}} cherchait si bien, champignon après champignon, buisson après buisson, qu’elle s’éloigna sans s’en apercevoir. Quand elle se redressa, ses amies avaient disparu."
+        },
+        {
+          "id": "a1e5",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ohé ! Ohé !"
+        },
+        {
+          "id": "a1e6",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Appelez mes amies avec moi : « Ohé ! Ohé ! »",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e7",
+          "type": "conteur",
+          "texte": "Personne ne répondit. Elle marcha longtemps, longtemps, et arriva devant une petite isba. Elle frappa à la porte : personne. Elle entra. Et le soir, le maître de la maison rentra : c'était un ours, {{r2}}."
+        },
+        {
+          "id": "a1e8",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e9",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Ah ! Une petite fille ! Tu ne repartiras pas. Tu vivras ici : tu allumeras mon poêle, tu cuiras ma bouillie, et tu me la serviras.",
+          "ton": "tout content"
+        },
+        {
+          "id": "a1e10",
+          "type": "conteur",
+          "texte": "{{r1}} resta. Elle allumait le poêle, cuisait la bouillie, servait {{r2}} — et pensait, jour et nuit :"
+        },
+        {
+          "id": "a1e11",
+          "type": "didascalie",
+          "texte": "{{r2}} se détourne de {{r1}}."
+        },
+        {
+          "id": "a1e12",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Comment rentrer à la maison ?",
+          "ton": "à voix basse"
+        },
+        {
+          "id": "a1e13",
+          "type": "conteur",
+          "texte": "Et un jour, elle trouva."
+        },
+        {
+          "id": "a1e14",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "{{r2}}, laisse-moi aller au village, juste une journée. Je veux porter des pirojkis à mon grand-père et à ma grand-mère."
+        },
+        {
+          "id": "a1e15",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Dites avec moi où je veux aller : « Au village ! »",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e16",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Non. Tu te perdrais dans la forêt. Donne-moi tes pirojkis, je les porterai moi-même."
+        },
+        {
+          "id": "a1e17",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e18",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "La voix dans le panier",
+      "resume": "{{r1}} se cache sous les pirojkis dans le panier porté par {{r2}}. Elle l’arrête deux fois. Au village, les chiens chassent {{r2}} et {{r1}} retrouve ses grands-parents ; {{r2}} reste perplexe.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "C'était tout ce que {{r1}} voulait. Elle cuisit des pirojkis. Un grand panier fut prêt, et {{r1}} dit à {{r2}} :"
+        },
+        {
+          "id": "a2e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e3",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e4",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je vais mettre les pirojkis dans ce panier. Porte-le, mais surtout : n’ouvre pas le panier en route, et ne mange pas les pirojkis. Je monterai sur le grand chêne, et je te surveillerai de là-haut !"
+        },
+        {
+          "id": "a2e5",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Regardez là-haut : le grand chêne !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e6",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Bien, bien. Donne le panier."
+        },
+        {
+          "id": "a2e7",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Sors sur le seuil, et regarde s’il ne pleut pas !"
+        },
+        {
+          "id": "a2e8",
+          "type": "didascalie",
+          "texte": "{{r2}} se tourne vers le seuil, loin du carton-panier."
+        },
+        {
+          "id": "a2e9",
+          "type": "didascalie",
+          "texte": "{{r1}} descend derrière le bord du carton-panier ; sa peluche reste visible des enfants."
+        },
+        {
+          "id": "a2e10",
+          "type": "conteur",
+          "texte": "Pendant que {{r2}} était sur le seuil, {{r1}} se glissa dans le panier, sous le plat de pirojkis déjà en place. {{r2}} revint, vit le panier prêt ; le panier se retrouva sur son dos et il partit."
+        },
+        {
+          "id": "a2e11",
+          "type": "conteur",
+          "texte": "Il marcha, il marcha, entre les sapins, entre les bouleaux. Il commença à fatiguer, et dit :"
+        },
+        {
+          "id": "a2e12",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je vais m’asseoir sur cette souche, et manger un petit pirojki !"
+        },
+        {
+          "id": "a2e13",
+          "type": "conteur",
+          "texte": "Et du fond du panier, {{r1}} cria :"
+        },
+        {
+          "id": "a2e14",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je te vois ! Je te vois ! Ne t’assieds pas sur la souche ! Ne mange pas mon pirojki !",
+          "ton": "fort depuis le panier"
+        },
+        {
+          "id": "a2e15",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Répétez avec moi : « Je te vois ! Je te vois ! »",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e16",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Comme elle a de bons yeux. Elle voit tout, de là-haut !",
+          "ton": "admiratif"
+        },
+        {
+          "id": "a2e17",
+          "type": "conteur",
+          "texte": "Le panier voyagea de nouveau sur le dos de {{r2}}. Il marcha, il marcha, puis s'arrêta encore :"
+        },
+        {
+          "id": "a2e18",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je vais juste m’asseoir un instant, et manger un petit pirojki…"
+        },
+        {
+          "id": "a2e19",
+          "type": "conteur",
+          "texte": "Et {{r1}}, du fond du panier :"
+        },
+        {
+          "id": "a2e20",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je te vois ! Je te vois ! Ne t’assieds pas sur la souche ! Ne mange pas mon pirojki !",
+          "ton": "fort depuis le panier"
+        },
+        {
+          "id": "a2e21",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Encore une fois, dites : « Je te vois ! Je te vois ! »",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e22",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Quelle petite fille étonnante. Elle est haut perchée, et elle voit loin !",
+          "ton": "admiratif"
+        },
+        {
+          "id": "a2e23",
+          "type": "conteur",
+          "texte": "Il arriva enfin au village, trouva la maison, et frappa à la porte à grands coups :"
+        },
+        {
+          "id": "a2e24",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Toc ! Toc ! Ouvrez ! J’apporte des pirojkis de la part de {{r1}} !"
+        },
+        {
+          "id": "a2e25",
+          "type": "conteur",
+          "texte": "Mais les chiens du village sentirent {{r2}} et accoururent de toutes les cours."
+        },
+        {
+          "id": "a2e26",
+          "type": "note_marionnettiste",
+          "texte": "Voix des chiens, en coulisse : « Ouaf ! Ouaf ! »"
+        },
+        {
+          "id": "a2e27",
+          "type": "conteur",
+          "texte": "{{r2}} eut si peur que le panier resta devant la maison, et il s'enfuit dans la forêt sans se retourner."
+        },
+        {
+          "id": "a2e28",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e29",
+          "type": "conteur",
+          "texte": "Le grand-père et la grand-mère sortirent, et virent le panier. Le panier fut ouvert."
+        },
+        {
+          "id": "a2e30",
+          "type": "conteur",
+          "texte": "Dedans, sous le plat de pirojkis, il y avait {{r1}}, bien vivante !"
+        },
+        {
+          "id": "a2e31",
+          "type": "didascalie",
+          "texte": "{{r1}} se redresse au-dessus du bord du carton-panier."
+        },
+        {
+          "id": "a2e32",
+          "type": "conteur",
+          "texte": "Ils l'embrassèrent, et ils la serrèrent, et de joie ils ne savaient plus quoi dire."
+        },
+        {
+          "id": "a2e33",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Appelez avec moi : « Grand-père ! Grand-mère ! »",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e34",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e35",
+          "type": "didascalie",
+          "texte": "{{r2}} s’arrête au bord de la scène et incline tout son corps d’un côté."
+        },
+        {
+          "id": "a2e36",
+          "type": "conteur",
+          "texte": "Et {{r2}}, depuis ce jour-là, quand il pense à la petite fille qui voyait tout, n'y comprend toujours rien."
+        },
+        {
+          "id": "a2e37",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e38",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "ru-macha-et-l-ours",
+    "synopsis": {
+      "accroche": "{{r1}} voyage à l’insu de {{r2}}, cachée dans le panier de pirojkis.",
+      "resume": [
+        "{{r1}} s’éloigne de ses amies dans la forêt et arrive chez {{r2}}, qui la retient.",
+        "{{r1}} prépare des pirojkis, trompe {{r2}} avec un grand chêne et se cache dans le panier.",
+        "Deux fois, {{r2}} s’arrête pour manger ; deux fois, la voix de {{r1}} crie « Je te vois ! ».",
+        "Les chiens chassent {{r2}} au village ; {{r1}} retrouve ses grands-parents et {{r2}} reste perplexe."
+      ]
+    },
+    "transposition": {
+      "texte": "Il était une fois une petite fille nommée {{r1}}, qui vivait chez son grand-père et sa grand-mère, au bord de la grande forêt. Un matin, ses amies vinrent la chercher :\n\n— {{r1}}, viens avec nous cueillir des champignons !\n\nLe groupe entra dans la forêt. {{r1}} cherchait si bien, champignon après champignon, buisson après buisson, qu’elle s’éloigna sans s’en apercevoir. Quand elle se redressa, ses amies avaient disparu.\n\n— Ohé ! Ohé ! appela {{r1}}.\n\nPersonne ne répondit. Elle marcha longtemps, longtemps, et arriva devant une petite isba. Elle frappa à la porte : personne. Elle entra. Et le soir, le maître de la maison rentra : c'était un ours, {{r2}}.\n\n— Ah ! dit {{r2}}, tout content. Une petite fille ! Tu ne repartiras pas. Tu vivras ici : tu allumeras mon poêle, tu cuiras ma bouillie, et tu me la serviras.\n\n{{r1}} resta. Elle allumait le poêle, cuisait la bouillie, servait {{r2}} — et pensait, jour et nuit : « Comment rentrer à la maison ? » Et un jour, elle trouva.\n\n— {{r2}}, dit-elle, laisse-moi aller au village, juste une journée. Je veux porter des pirojkis à mon grand-père et à ma grand-mère.\n\n— Non, dit {{r2}}. Tu te perdrais dans la forêt. Donne-moi tes pirojkis, je les porterai moi-même.\n\nC'était tout ce que {{r1}} voulait. Elle cuisit des pirojkis. Un grand panier fut prêt, et {{r1}} dit à {{r2}} :\n\n— Je vais mettre les pirojkis dans ce panier. Porte-le, mais surtout : n’ouvre pas le panier en route, et ne mange pas les pirojkis. Je monterai sur le grand chêne, et je te surveillerai de là-haut !\n\n— Bien, bien, dit {{r2}}. Donne le panier.\n\n{{r1}} dit encore :\n\n— Sors sur le seuil, et regarde s’il ne pleut pas !\n\nPendant que {{r2}} était sur le seuil, {{r1}} se glissa dans le panier, sous le plat de pirojkis déjà en place. {{r2}} revint, vit le panier prêt ; le panier se retrouva sur son dos et il partit.\n\nIl marcha, il marcha, entre les sapins, entre les bouleaux. Il commença à fatiguer, et dit :\n\n— Je vais m’asseoir sur cette souche, et manger un petit pirojki !\n\nEt du fond du panier, {{r1}} cria :\n\n— Je te vois ! Je te vois ! Ne t’assieds pas sur la souche ! Ne mange pas mon pirojki !\n\n— Comme elle a de bons yeux, dit {{r2}}. Elle voit tout, de là-haut !\n\nLe panier voyagea de nouveau sur le dos de {{r2}}. Il marcha, il marcha, puis s'arrêta encore :\n\n— Je vais juste m’asseoir un instant, et manger un petit pirojki…\n\nEt {{r1}}, du fond du panier :\n\n— Je te vois ! Je te vois ! Ne t’assieds pas sur la souche ! Ne mange pas mon pirojki !\n\n— Quelle petite fille étonnante, dit {{r2}}. Elle est haut perchée, et elle voit loin !\n\nIl arriva enfin au village, trouva la maison, et frappa à la porte à grands coups :\n\n— Toc ! Toc ! Ouvrez ! J’apporte des pirojkis de la part de {{r1}} !\n\nMais les chiens du village sentirent {{r2}} et accoururent de toutes les cours. Ils aboyaient. {{r2}} eut si peur que le panier resta devant la maison, et il s'enfuit dans la forêt sans se retourner.\n\nLe grand-père et la grand-mère sortirent, et virent le panier. Le panier fut ouvert. Dedans, sous le plat de pirojkis, il y avait {{r1}}, bien vivante ! Ils l'embrassèrent, et ils la serrèrent, et de joie ils ne savaient plus quoi dire.\n\nEt {{r2}}, depuis ce jour-là, quand il pense à la petite fille qui voyait tout, n'y comprend toujours rien."
+    }
+  },
+  "dureeEstimeeSecondes": 374,
+  "interactionsOrdonnees": [
+    "a2e15",
+    "a2e21",
+    "a1e6",
+    "a2e5",
+    "a2e33",
+    "a1e15"
+  ]
+}

@@ -1,0 +1,1810 @@
+{
+  "id": "de-hansel-et-gretel--1",
+  "conteId": "de-hansel-et-gretel",
+  "titre": "Hansel et Gretel",
+  "pitch": "La fratrie subit deux abandons dans la forêt. Les cailloux indiquent une fois le retour ; les miettes disparaissent, puis la maison de {{r3}} la retient jusqu’à sa libération.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "fille",
+      "famille": "enfant",
+      "traits": [
+        "courage",
+        "ruse",
+        "bonté"
+      ],
+      "voix": "voix claire et ferme",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a1e20:texte",
+            "avant": "ma petite sœur",
+            "apres": "mon petit frère"
+          },
+          {
+            "id": "a1e62:texte",
+            "avant": "la consola",
+            "apres": "le consola"
+          },
+          {
+            "id": "a1e68:texte",
+            "avant": "sa petite sœur",
+            "apres": "son petit frère"
+          },
+          {
+            "id": "a2e14:texte",
+            "avant": "sa petite sœur",
+            "apres": "son petit frère"
+          },
+          {
+            "id": "a2e39:texte",
+            "avant": "sa petite sœur",
+            "apres": "son petit frère"
+          },
+          {
+            "id": "a3e30:texte",
+            "avant": "paresseuse",
+            "apres": "paresseux"
+          },
+          {
+            "id": "a3e31:texte",
+            "avant": "elle dut faire",
+            "apres": "il dut faire"
+          },
+          {
+            "id": "a3e45:texte",
+            "avant": "la pauvre petite sœur",
+            "apres": "le pauvre petit frère"
+          },
+          {
+            "id": "a3e50:texte",
+            "avant": "la manger elle aussi",
+            "apres": "le manger lui aussi"
+          },
+          {
+            "id": "a3e53:texte",
+            "avant": "Petite sotte",
+            "apres": "Petit sot"
+          },
+          {
+            "id": "a4e15:texte",
+            "avant": "elle appela",
+            "apres": "il appela"
+          },
+          {
+            "id": "a3e45:texte",
+            "avant": "elle dut aller",
+            "apres": "il dut aller"
+          },
+          {
+            "id": "a3e48:texte",
+            "avant": "la pauvre ",
+            "apres": "le pauvre "
+          },
+          {
+            "id": "a4e19:texte",
+            "avant": "ma petite sœur",
+            "apres": "mon petit frère"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a1e1:texte",
+          "avant": "la petite fille",
+          "gabarit": "{le} {petit|petite} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r2",
+      "espece": "garcon",
+      "famille": "enfant",
+      "traits": [
+        "ruse",
+        "courage"
+      ],
+      "voix": "voix douce et réfléchie",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e19:texte",
+            "avant": "il se leva",
+            "apres": "elle se leva"
+          },
+          {
+            "id": "a1e19:texte",
+            "avant": "Puis il rentra",
+            "apres": "Puis elle rentra"
+          },
+          {
+            "id": "a1e22:texte",
+            "avant": "Et il se recoucha",
+            "apres": "Et elle se recoucha"
+          },
+          {
+            "id": "a1e35:texte",
+            "avant": "il recommença",
+            "apres": "elle recommença"
+          },
+          {
+            "id": "a1e42:texte",
+            "avant": "Idiot,",
+            "apres": "Idiote,"
+          },
+          {
+            "id": "a1e43:texte",
+            "avant": "il avait laissé",
+            "apres": "elle avait laissé"
+          },
+          {
+            "id": "a2e14:texte",
+            "avant": "il consola",
+            "apres": "elle consola"
+          },
+          {
+            "id": "a2e20:texte",
+            "avant": "il s'arrêta",
+            "apres": "elle s'arrêta"
+          },
+          {
+            "id": "a2e29:texte",
+            "avant": "Idiot,",
+            "apres": "Idiote,"
+          },
+          {
+            "id": "a3e26:texte",
+            "avant": "il eut beau crier",
+            "apres": "elle eut beau crier"
+          },
+          {
+            "id": "a3e30:texte",
+            "avant": "ton frère",
+            "apres": "ta sœur"
+          },
+          {
+            "id": "a3e30:texte",
+            "avant": "Il est dehors",
+            "apres": "Elle est dehors"
+          },
+          {
+            "id": "a3e30:texte",
+            "avant": "il doit engraisser",
+            "apres": "elle doit engraisser"
+          },
+          {
+            "id": "a3e30:texte",
+            "avant": "il sera gras",
+            "apres": "elle sera grasse"
+          },
+          {
+            "id": "a3e30:texte",
+            "avant": "je le mangerai",
+            "apres": "je la mangerai"
+          },
+          {
+            "id": "a3e35:texte",
+            "avant": "le pauvre ",
+            "apres": "la pauvre "
+          },
+          {
+            "id": "a3e36:texte",
+            "avant": "bientôt gras",
+            "apres": "bientôt grasse"
+          },
+          {
+            "id": "a3e38:texte",
+            "avant": "qu'il ne veuille",
+            "apres": "qu'elle ne veuille"
+          },
+          {
+            "id": "a3e44:texte",
+            "avant": "gras ou maigre",
+            "apres": "grasse ou maigre"
+          },
+          {
+            "id": "a3e44:texte",
+            "avant": "je le fais cuire",
+            "apres": "je la fais cuire"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a1e1:texte",
+          "avant": "le petit garçon",
+          "gabarit": "{le} {petit|petite} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r3",
+      "espece": "sorciere",
+      "famille": "monstre",
+      "traits": [
+        "ruse",
+        "cruauté",
+        "gourmandise"
+      ],
+      "voix": "voix mielleuse puis rauque",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a3e21:texte",
+            "avant": "d'être gentille",
+            "apres": "d'être gentil"
+          },
+          {
+            "id": "a3e21:texte",
+            "avant": "elle n'avait construit",
+            "apres": "il n'avait construit"
+          },
+          {
+            "id": "a3e21:texte",
+            "avant": "elle avait un flair",
+            "apres": "il avait un flair"
+          },
+          {
+            "id": "a3e21:texte",
+            "avant": "près de chez elle",
+            "apres": "près de chez lui"
+          },
+          {
+            "id": "a3e21:texte",
+            "avant": "elle avait ri",
+            "apres": "il avait ri"
+          },
+          {
+            "id": "a3e23:texte",
+            "avant": "elle était déjà debout",
+            "apres": "il était déjà debout"
+          },
+          {
+            "id": "a3e23:texte",
+            "avant": "elle les vit",
+            "apres": "il les vit"
+          },
+          {
+            "id": "a3e23:texte",
+            "avant": "elle murmura",
+            "apres": "il murmura"
+          },
+          {
+            "id": "a3e26:texte",
+            "avant": "elle poussa",
+            "apres": "il poussa"
+          },
+          {
+            "id": "a3e26:texte",
+            "avant": "Puis elle alla",
+            "apres": "Puis il alla"
+          },
+          {
+            "id": "a3e38:texte",
+            "avant": "elle croyait",
+            "apres": "il croyait"
+          },
+          {
+            "id": "a3e40:texte",
+            "avant": "l'impatience la prit",
+            "apres": "l'impatience le prit"
+          },
+          {
+            "id": "a3e40:texte",
+            "avant": "elle ne voulut",
+            "apres": "il ne voulut"
+          },
+          {
+            "id": "a3e48:texte",
+            "avant": "Elle poussa",
+            "apres": "Il poussa"
+          },
+          {
+            "id": "a3e50:texte",
+            "avant": "elle voulait",
+            "apres": "il voulait"
+          },
+          {
+            "id": "a3e50:texte",
+            "avant": "ce qu'elle avait",
+            "apres": "ce qu'il avait"
+          },
+          {
+            "id": "a3e18:texte",
+            "avant": "Elle fit entrer",
+            "apres": "Il fit entrer"
+          },
+          {
+            "id": "a3e54:texte",
+            "avant": "elle s'approcha",
+            "apres": "il s'approcha"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a3e21:texte",
+          "avant": "une méchante sorcière",
+          "gabarit": "{un} {méchant|méchante} {espece}"
+        },
+        {
+          "id": "a4e5:texte",
+          "avant": "La vieille sorcière",
+          "gabarit": "{Le} {vieux|vieille} {espece}"
+        },
+        {
+          "id": "a3e31:texte",
+          "avant": "la méchante sorcière",
+          "gabarit": "{le} {méchant|méchante} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r4",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "inquiétude",
+        "tendresse",
+        "faiblesse"
+      ],
+      "voix": "voix grave et hésitante",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e1:texte",
+            "avant": "un pauvre bûcheron",
+            "apres": "une pauvre bûcheronne"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "Il n'avait",
+            "apres": "Elle n'avait"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "il ne put",
+            "apres": "elle ne put"
+          },
+          {
+            "id": "a1e2:texte",
+            "avant": "couché dans son lit",
+            "apres": "couchée dans son lit"
+          },
+          {
+            "id": "a1e2:texte",
+            "avant": "il se faisait",
+            "apres": "elle se faisait"
+          },
+          {
+            "id": "a1e2:texte",
+            "avant": "Il soupira",
+            "apres": "Elle soupira"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "mon homme",
+            "apres": "ma femme"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "pauvre fou",
+            "apres": "pauvre folle"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "qu'il accepte",
+            "apres": "qu'elle accepte"
+          },
+          {
+            "id": "a1e16:texte",
+            "avant": "au père",
+            "apres": "à la mère"
+          },
+          {
+            "id": "a1e35:texte",
+            "avant": "Le père dit",
+            "apres": "La mère dit"
+          },
+          {
+            "id": "a1e37:texte",
+            "avant": "père,",
+            "apres": "mère,"
+          },
+          {
+            "id": "a1e44:texte",
+            "avant": "le père dit",
+            "apres": "la mère dit"
+          },
+          {
+            "id": "a1e59:texte",
+            "avant": "son père était",
+            "apres": "sa mère était"
+          },
+          {
+            "id": "a1e73:texte",
+            "avant": "le père fut content",
+            "apres": "la mère fut contente"
+          },
+          {
+            "id": "a1e73:texte",
+            "avant": "il avait eu",
+            "apres": "elle avait eu"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "au père",
+            "apres": "à la mère"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "ce qu'il disait",
+            "apres": "ce qu'elle disait"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "le grondait",
+            "apres": "la grondait"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "puisqu'il avait cédé",
+            "apres": "puisqu'elle avait cédé"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "il dut céder",
+            "apres": "elle dut céder"
+          },
+          {
+            "id": "a2e45:texte",
+            "avant": "son père",
+            "apres": "sa mère"
+          },
+          {
+            "id": "a4e24:texte",
+            "avant": "son père",
+            "apres": "sa mère"
+          },
+          {
+            "id": "a4e24:texte",
+            "avant": "qu'il avait laissé",
+            "apres": "qu'elle avait laissé"
+          },
+          {
+            "id": "a1e68:texte",
+            "avant": "son père",
+            "apres": "sa mère"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r5",
+      "espece": "femme",
+      "famille": "adulte",
+      "traits": [
+        "dureté",
+        "calcul",
+        "insistance"
+      ],
+      "voix": "voix sèche et pressée",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a1e1:texte",
+            "avant": "sa femme",
+            "apres": "son mari"
+          },
+          {
+            "id": "a1e2:texte",
+            "avant": "à sa femme",
+            "apres": "à son mari"
+          },
+          {
+            "id": "a1e7:texte",
+            "avant": "femme,",
+            "apres": "homme,"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "elle ne lui laissa",
+            "apres": "il ne lui laissa"
+          },
+          {
+            "id": "a1e16:texte",
+            "avant": "la belle-mère",
+            "apres": "le beau-père"
+          },
+          {
+            "id": "a1e68:texte",
+            "avant": "elle dit",
+            "apres": "il dit"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "la mère dire",
+            "apres": "le père dire"
+          },
+          {
+            "id": "a2e34:texte",
+            "avant": "la mère dit",
+            "apres": "le père dit"
+          },
+          {
+            "id": "a4e24:texte",
+            "avant": "elle était morte",
+            "apres": "il était mort"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 28,
+    "ageAuditoire": 7,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La maison et le chemin des cailloux",
+      "description": "Un carton fixe montre la maison au bord de la forêt, une zone pour le feu et un chemin de points blancs. Les cailloux et le pain restent dans le récit ; aucun objet ne passe d’une peluche à une autre. Deux coussins délimitent les arbres.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "Le chemin des miettes",
+      "description": "Le même carton présente une autre rangée de petits points dessinés pour les miettes et un oiseau blanc fixé en haut. La forêt s’étend jusqu’à la maison de pain représentée sur un second panneau déjà en place.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t3",
+      "titre": "La maison, la cage et le four",
+      "description": "Le panneau de la maison de pain montre une grille pour l’étable et un four dessiné. Un petit os blanc est dessiné et fixé devant la grille : {{r2}} avance tout son corps derrière ce point quand {{r3}} demande ses doigts. La porte et le verrou du four restent dessinés.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t4",
+      "titre": "L’eau et le retour",
+      "description": "Un carton fixe montre l’étendue d’eau, un canard blanc et la maison familiale au loin. Le passage sur le canard et les trésors se racontent sans déplacer les dessins ni manipuler de pierres.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "La première forêt et les cailloux",
+      "resume": "La première décision de {{r5}} conduit la fratrie dans la forêt, mais les cailloux la ramènent.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "À l'orée d'une grande forêt habitait un pauvre bûcheron avec sa femme et ses deux enfants : le petit garçon s'appelait {{r2}} et la petite fille {{r1}}. Il n'avait pas grand-chose à se mettre sous la dent, et un jour, quand une grande disette arriva dans le pays, il ne put même plus gagner le pain de chaque jour."
+        },
+        {
+          "id": "a1e2",
+          "type": "conteur",
+          "texte": "Un soir, couché dans son lit, il se faisait du souci et se retournait sans cesse. Il soupira et dit à sa femme :"
+        },
+        {
+          "id": "a1e3",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e4",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e5",
+          "type": "replique",
+          "texte": "Qu'allons-nous devenir ? Comment nourrir nos pauvres enfants, alors que nous n'avons plus rien pour nous-mêmes ?",
+          "marionnetteId": "r4"
+        },
+        {
+          "id": "a1e6",
+          "type": "replique",
+          "texte": "Tu sais quoi, mon homme ? Demain, de très bonne heure, nous conduirons les enfants dans la forêt, là où elle est la plus épaisse. Nous leur ferons un feu, chaque enfant aura un petit morceau de pain, puis nous irons à notre travail et nous laisserons la fratrie sans compagnie. Elle ne retrouvera pas le chemin de la maison, et cela nous en débarrassera.",
+          "marionnetteId": "r5"
+        },
+        {
+          "id": "a1e7",
+          "type": "replique",
+          "texte": "Non, femme, je ne ferai pas ça. Comment aurais-je le cœur de laisser mes enfants sans personne dans la forêt ? Les bêtes sauvages viendraient bientôt les dévorer.",
+          "marionnetteId": "r4"
+        },
+        {
+          "id": "a1e8",
+          "type": "replique",
+          "texte": "Oh, pauvre fou, alors nous mourrons de faim, nous quatre.",
+          "marionnetteId": "r5"
+        },
+        {
+          "id": "a1e9",
+          "type": "conteur",
+          "texte": "Et elle ne lui laissa pas de repos jusqu'à ce qu'il accepte."
+        },
+        {
+          "id": "a1e10",
+          "type": "replique",
+          "texte": "Mais j'ai quand même pitié de ces pauvres enfants.",
+          "marionnetteId": "r4"
+        },
+        {
+          "id": "a1e11",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e12",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e13",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a1e14",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e15",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e16",
+          "type": "conteur",
+          "texte": "La fratrie n'avait pas pu s'endormir tant elle avait faim, et elle avait entendu ce que la belle-mère avait dit au père. {{r1}} pleura à chaudes larmes et dit à {{r2}} :"
+        },
+        {
+          "id": "a1e17",
+          "type": "replique",
+          "texte": "Maintenant, c'est fini pour nous.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a1e18",
+          "type": "replique",
+          "texte": "Chut, {{r1}}, ne te tourmente pas, je trouverai bien un moyen.",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a1e19",
+          "type": "conteur",
+          "texte": "Quand les parents dormirent, il se leva dans sa petite veste cousue, ouvrit la porte du bas et se glissa dehors. La lune brillait très fort, et les cailloux blancs qui étaient devant la maison scintillaient comme des pièces d'argent. {{r2}} se baissa ; la poche de sa veste se remplit de cailloux autant qu'elle pouvait en contenir. Puis il rentra et dit à {{r1}} :"
+        },
+        {
+          "id": "a1e20",
+          "type": "replique",
+          "texte": "Rassure-toi, ma petite sœur, et dors tranquille.",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a1e21",
+          "type": "adresse_public",
+          "texte": "Répétez doucement : « dors tranquille » !",
+          "marionnetteId": "r2",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e22",
+          "type": "conteur",
+          "texte": "Et il se recoucha."
+        },
+        {
+          "id": "a1e23",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e24",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a1e25",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e26",
+          "type": "conteur",
+          "texte": "Au lever du jour, avant même que le soleil ne soit levé, {{r5}} vint réveiller les deux enfants :"
+        },
+        {
+          "id": "a1e27",
+          "type": "replique",
+          "texte": "Debout, bande paresseuse, nous allons dans la forêt chercher du bois.",
+          "marionnetteId": "r5"
+        },
+        {
+          "id": "a1e28",
+          "type": "conteur",
+          "texte": "Puis chaque enfant reçut un petit morceau de pain, et {{r5}} dit :"
+        },
+        {
+          "id": "a1e29",
+          "type": "replique",
+          "texte": "Voilà pour midi, mais ne le mangez pas avant, vous n'aurez rien d'autre.",
+          "marionnetteId": "r5"
+        },
+        {
+          "id": "a1e30",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e31",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e32",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a1e33",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e34",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e35",
+          "type": "conteur",
+          "texte": "Le pain de {{r1}} resta sous son tablier, puisque {{r2}} avait les cailloux dans sa poche. Puis la famille partit ensemble vers la forêt. Après un moment de marche, {{r2}} s'arrêta et se retourna pour regarder la maison, et il recommença encore et encore. Le père dit :"
+        },
+        {
+          "id": "a1e36",
+          "type": "replique",
+          "texte": "{{r2}}, qu'est-ce que tu regardes et pourquoi traînes-tu ? Fais attention et avance.",
+          "marionnetteId": "r4"
+        },
+        {
+          "id": "a1e37",
+          "type": "replique",
+          "texte": "Ah, père, je regarde mon petit chat blanc, il est assis sur le toit et veut me dire au revoir.",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a1e38",
+          "type": "conteur",
+          "texte": "{{r5}} dit :"
+        },
+        {
+          "id": "a1e39",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e40",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a1e41",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e42",
+          "type": "replique",
+          "texte": "Idiot, ce n'est pas ton chat, c'est le soleil du matin qui brille sur la cheminée.",
+          "marionnetteId": "r5"
+        },
+        {
+          "id": "a1e43",
+          "type": "conteur",
+          "texte": "Mais {{r2}} n'avait pas regardé le chat : à chaque fois, il avait laissé tomber sur le chemin un des cailloux brillants de sa poche."
+        },
+        {
+          "id": "a1e44",
+          "type": "conteur",
+          "texte": "Quand la famille fut arrivée au milieu de la forêt, le père dit :"
+        },
+        {
+          "id": "a1e45",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e46",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a1e47",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e48",
+          "type": "replique",
+          "texte": "Maintenant, les enfants, ramassez du bois, je vais faire un feu pour que vous n'ayez pas froid.",
+          "marionnetteId": "r4"
+        },
+        {
+          "id": "a1e49",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e50",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e51",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a1e52",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e53",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e54",
+          "type": "conteur",
+          "texte": "Les brindilles formèrent un petit tas haut comme une montagne près de {{r2}} et {{r1}}. On alluma le feu, et quand la flamme fut bien haute, {{r5}} dit :"
+        },
+        {
+          "id": "a1e55",
+          "type": "replique",
+          "texte": "Maintenant, couchez-vous près du feu, les enfants, et reposez-vous. Nous allons dans la forêt couper du bois. Quand nous aurons fini, nous reviendrons vous chercher.",
+          "marionnetteId": "r5"
+        },
+        {
+          "id": "a1e56",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e57",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a1e58",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e59",
+          "type": "conteur",
+          "texte": "La fratrie resta près du feu, et quand midi arriva, chaque enfant mangea son petit morceau de pain. Comme la fratrie entendait les coups de la hache, elle croyait que son père était tout près. Mais ce n'était pas la hache : c'était une branche attachée par {{r4}} à un arbre mort, et que le vent balançait de-ci de-là. Comme la fratrie était restée longtemps près du feu, la fatigue la gagna, et elle s'endormit profondément."
+        },
+        {
+          "id": "a1e60",
+          "type": "conteur",
+          "texte": "Quand enfin la fratrie se réveilla, il faisait déjà nuit noire. {{r1}} se mit à pleurer :"
+        },
+        {
+          "id": "a1e61",
+          "type": "replique",
+          "texte": "Comment allons-nous sortir de la forêt, maintenant ?",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a1e62",
+          "type": "conteur",
+          "texte": "Mais {{r2}} la consola :"
+        },
+        {
+          "id": "a1e63",
+          "type": "replique",
+          "texte": "Attends un petit peu, que la lune se lève, et nous trouverons bien le chemin.",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a1e64",
+          "type": "adresse_public",
+          "texte": "Appelez la lune avec moi : « lune, lève-toi ! »",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e65",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e66",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a1e67",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e68",
+          "type": "conteur",
+          "texte": "Et quand la pleine lune fut montée, {{r2}} avança avec sa petite sœur et suivit les cailloux, qui brillaient comme des pièces neuves et leur montraient le chemin. La fratrie marcha toute la nuit et arriva au point du jour à la maison de son père. On frappa à la porte, et quand {{r5}} ouvrit et vit que c'étaient {{r2}} et {{r1}}, elle dit :"
+        },
+        {
+          "id": "a1e69",
+          "type": "replique",
+          "texte": "Bande de canailles, pourquoi avez-vous dormi si longtemps dans la forêt ? Nous avons cru que vous ne vouliez plus revenir.",
+          "marionnetteId": "r5"
+        },
+        {
+          "id": "a1e70",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e71",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a1e72",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e73",
+          "type": "conteur",
+          "texte": "Mais le père fut content, car il avait eu le cœur gros d'avoir laissé la fratrie seule."
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "La seconde forêt et les miettes",
+      "resume": "La seconde décision de {{r5}} mène la fratrie plus loin ; les oiseaux mangent les miettes.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e2",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a2e3",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e4",
+          "type": "conteur",
+          "texte": "Peu de temps après, la misère revint dans tous les coins, et les enfants entendirent la mère dire la nuit au père, dans son lit :"
+        },
+        {
+          "id": "a2e5",
+          "type": "replique",
+          "texte": "Tout est de nouveau mangé. Il nous reste une demi-miche de pain, et après, la chanson est finie. Il faut que les enfants partent. Nous allons les conduire plus loin dans la forêt, pour que la fratrie ne retrouve pas le chemin. Sinon, il n'y a pas de salut pour nous.",
+          "marionnetteId": "r5"
+        },
+        {
+          "id": "a2e6",
+          "type": "conteur",
+          "texte": "Le cœur de {{r4}} était lourd."
+        },
+        {
+          "id": "a2e7",
+          "type": "replique",
+          "texte": "Il vaudrait mieux partager la dernière bouchée avec nos enfants.",
+          "marionnetteId": "r4"
+        },
+        {
+          "id": "a2e8",
+          "type": "conteur",
+          "texte": "Mais {{r5}} n'écoutait rien de ce qu'il disait, le grondait et lui faisait des reproches. Qui a dit A doit dire B, et puisqu'il avait cédé la première fois, il dut céder la deuxième."
+        },
+        {
+          "id": "a2e9",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e10",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e11",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a2e12",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e13",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e14",
+          "type": "conteur",
+          "texte": "Mais la fratrie était encore éveillée et avait entendu la conversation. Quand les parents dormirent, {{r2}} se leva de nouveau et voulut sortir ramasser des cailloux comme la dernière fois ; mais {{r5}} avait fermé la porte à clé, et {{r2}} ne put pas sortir. Pourtant, il consola sa petite sœur :"
+        },
+        {
+          "id": "a2e15",
+          "type": "replique",
+          "texte": "Ne pleure pas, {{r1}}, et dors tranquille, nous trouverons bien de l'aide.",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a2e16",
+          "type": "adresse_public",
+          "texte": "Répétez : « nous trouverons bien de l’aide ! »",
+          "marionnetteId": "r2",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e17",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e18",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a2e19",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e20",
+          "type": "conteur",
+          "texte": "Tôt le matin, {{r5}} vint tirer les enfants du lit. Chaque enfant reçut son morceau de pain, mais il était encore plus petit que la dernière fois. Sur le chemin de la forêt, le pain de {{r2}} s'émietta dans sa poche ; il s'arrêta souvent et des miettes tombèrent par terre."
+        },
+        {
+          "id": "a2e21",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e22",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a2e23",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e24",
+          "type": "replique",
+          "texte": "{{r2}}, qu'est-ce que tu as à t'arrêter et à te retourner ? Avance.",
+          "marionnetteId": "r4"
+        },
+        {
+          "id": "a2e25",
+          "type": "replique",
+          "texte": "Je regarde ma petite colombe, elle est sur le toit et veut me dire au revoir.",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a2e26",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e27",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a2e28",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e29",
+          "type": "replique",
+          "texte": "Idiot, ce n'est pas ta colombe, c'est le soleil du matin qui brille sur la cheminée.",
+          "marionnetteId": "r5"
+        },
+        {
+          "id": "a2e30",
+          "type": "conteur",
+          "texte": "Mais les miettes de {{r2}} tombèrent petit à petit sur le chemin."
+        },
+        {
+          "id": "a2e31",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e32",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a2e33",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e34",
+          "type": "conteur",
+          "texte": "{{r5}} conduisit les enfants encore plus loin dans la forêt, là où la fratrie n'était jamais allée de sa vie. On refit un grand feu, et la mère dit :"
+        },
+        {
+          "id": "a2e35",
+          "type": "replique",
+          "texte": "Restez bien là, les enfants, et si vous avez sommeil, vous pouvez dormir un peu. Nous allons dans la forêt couper du bois, et ce soir, quand nous aurons fini, nous viendrons vous chercher.",
+          "marionnetteId": "r5"
+        },
+        {
+          "id": "a2e36",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e37",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a2e38",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e39",
+          "type": "conteur",
+          "texte": "Quand il fut midi, le pain de {{r1}} fut partagé avec {{r2}}, qui avait semé le sien sur le chemin. Puis la fratrie s'endormit, et le soir passa, mais personne ne vint chercher les pauvres enfants. Elle ne se réveilla qu'en pleine nuit, et {{r2}} consola sa petite sœur :"
+        },
+        {
+          "id": "a2e40",
+          "type": "replique",
+          "texte": "Attends, {{r1}}, que la lune se lève : alors nous verrons les miettes de pain que j'ai semées, elles nous montreront le chemin de la maison.",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a2e41",
+          "type": "adresse_public",
+          "texte": "Chuchotez avec moi : « miettes de pain » !",
+          "marionnetteId": "r2",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e42",
+          "type": "conteur",
+          "texte": "Quand la lune se leva, la fratrie se mit en route, mais elle ne trouva plus une seule miette : les milliers d'oiseaux qui volent dans la forêt et dans les champs les avaient toutes picorées. {{r2}} dit à {{r1}} :"
+        },
+        {
+          "id": "a2e43",
+          "type": "replique",
+          "texte": "Nous trouverons bien le chemin.",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a2e44",
+          "type": "conteur",
+          "texte": "Mais la fratrie ne le trouva pas. Elle marcha toute la nuit, et encore un jour du matin au soir, mais elle ne sortit pas de la forêt. Elle avait si faim, car elle n'avait mangé que les quelques baies qui poussaient par terre. La fatigue rendit leurs jambes incapables de les porter ; la fratrie se coucha sous un arbre et s'endormit."
+        },
+        {
+          "id": "a2e45",
+          "type": "conteur",
+          "texte": "C'était maintenant le troisième matin depuis que la fratrie avait quitté la maison de son père. Elle se remit à marcher, mais s'enfonçait toujours plus loin dans la forêt, et si on ne venait pas bientôt à son secours, elle allait mourir d'épuisement."
+        },
+        {
+          "id": "a2e46",
+          "type": "conteur",
+          "texte": "À midi, la fratrie vit un joli petit oiseau blanc comme neige posé sur une branche, qui chantait si bien qu'elle s'arrêta pour l'écouter. Quand il eut fini, il déploya ses ailes et vola devant la fratrie, et la fratrie le suivit jusqu'à une petite maison, sur le toit de laquelle il se posa. Et quand la fratrie s'approcha tout près, elle vit que la maisonnette était construite en pain et couverte de gâteau, et que les fenêtres étaient en sucre transparent."
+        },
+        {
+          "id": "a2e47",
+          "type": "adresse_public",
+          "texte": "Faites entendre le chant du petit oiseau : cui-cui !",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e48",
+          "type": "replique",
+          "texte": "Allons-y, et faisons un bon repas. Moi je vais manger un morceau du toit ; toi, {{r1}}, tu peux manger la fenêtre, c'est sucré.",
+          "marionnetteId": "r2"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "La maison de pain et le four",
+      "resume": "{{r3}} enferme {{r2}} ; {{r1}} découvre le piège du four et le retourne contre {{r3}}.",
+      "tableauId": "t3",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "conteur",
+          "texte": "Un petit bout du toit céda sous {{r2}}, qui y goûta, et {{r1}} se mit contre les carreaux et les grignota. Alors une petite voix fine cria de l'intérieur :"
+        },
+        {
+          "id": "a3e2",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e3",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a3e4",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e5",
+          "type": "replique",
+          "texte": "Grignoti, grignotons,\nQui grignote ma maison ?",
+          "marionnetteId": "r3"
+        },
+        {
+          "id": "a3e6",
+          "type": "adresse_public",
+          "texte": "Reprenez le début du refrain : « Grignoti, grignotons ! »",
+          "marionnetteId": "r3",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e7",
+          "type": "conteur",
+          "texte": "Les enfants répondirent :"
+        },
+        {
+          "id": "a3e8",
+          "type": "replique",
+          "texte": "C'est le vent, c'est le vent,\nLe vent du ciel, l'enfant !",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a3e9",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e10",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a3e11",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e12",
+          "type": "conteur",
+          "texte": "La fratrie continua à manger sans se laisser troubler. {{r2}}, qui trouvait le toit très bon, en détacha un grand morceau en y poussant tout son corps, et {{r1}} fit tomber un carreau tout rond, s'assit et se régala."
+        },
+        {
+          "id": "a3e13",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e14",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a3e15",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e16",
+          "type": "conteur",
+          "texte": "Alors, tout à coup, la porte s'ouvrit, et une personne vieille comme les pierres, appuyée sur une béquille fixée au décor, sortit à petits pas. La fratrie eut si peur que les morceaux de pain et de sucre tombèrent au sol. Mais {{r3}} hocha la tête et dit :"
+        },
+        {
+          "id": "a3e17",
+          "type": "replique",
+          "texte": "Eh, mes enfants, qui vous a fait venir jusqu'ici ? Entrez donc et restez avec moi, il ne vous arrivera aucun mal.",
+          "marionnetteId": "r3"
+        },
+        {
+          "id": "a3e18",
+          "type": "conteur",
+          "texte": "Elle fit entrer la fratrie dans sa maisonnette. On leur servit un bon repas : du lait et des crêpes au sucre, des pommes et des noix. Ensuite, deux jolis petits lits furent faits avec des draps blancs, et {{r2}} et {{r1}} s'y couchèrent en croyant être au paradis."
+        },
+        {
+          "id": "a3e19",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e20",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a3e21",
+          "type": "conteur",
+          "texte": "Mais {{r3}} n'avait fait que semblant d'être gentille. C'était une méchante sorcière qui guettait les enfants, et elle n'avait construit la maison de pain que pour les attirer. {{r3}} avait les yeux rouges et ne voyait pas loin, mais elle avait un flair très fin, comme les bêtes, et sentait quand des humains approchaient. Quand la fratrie était arrivée près de chez elle, elle avait ri méchamment et dit d'un ton moqueur :"
+        },
+        {
+          "id": "a3e22",
+          "type": "replique",
+          "texte": "Ces deux-là, je les tiens, personne ne m'échappera.",
+          "marionnetteId": "r3",
+          "ton": "à voix basse"
+        },
+        {
+          "id": "a3e23",
+          "type": "conteur",
+          "texte": "Tôt le matin, avant le réveil des enfants, elle était déjà debout. Et quand elle les vit dormir ensemble si gentiment, avec leurs bonnes joues rouges, elle murmura :"
+        },
+        {
+          "id": "a3e24",
+          "type": "replique",
+          "texte": "Ça va faire un bon morceau.",
+          "marionnetteId": "r3",
+          "ton": "à voix basse"
+        },
+        {
+          "id": "a3e25",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e26",
+          "type": "conteur",
+          "texte": "Alors elle poussa {{r2}} jusque dans une petite étable et l'y enferma derrière une porte grillagée ; il eut beau crier, cela ne servit à rien. Puis elle alla voir {{r1}}, l’éveilla et cria :"
+        },
+        {
+          "id": "a3e27",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e28",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a3e29",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e30",
+          "type": "replique",
+          "texte": "Debout, paresseuse ! Va chercher de l'eau et fais cuire quelque chose de bon pour ton frère. Il est dehors dans l'étable et il doit engraisser. Quand il sera gras, je le mangerai.",
+          "marionnetteId": "r3"
+        },
+        {
+          "id": "a3e31",
+          "type": "conteur",
+          "texte": "{{r1}} se mit à pleurer amèrement, mais rien n'y fit : elle dut faire ce que voulait la méchante sorcière."
+        },
+        {
+          "id": "a3e32",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e33",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a3e34",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e35",
+          "type": "conteur",
+          "texte": "Alors on fit cuire pour le pauvre {{r2}} la meilleure nourriture, mais {{r1}} ne reçut que des carapaces d'écrevisses. Chaque matin, {{r3}} se glissait jusqu'à la petite étable et criait :"
+        },
+        {
+          "id": "a3e36",
+          "type": "replique",
+          "texte": "{{r2}}, tends tes doigts, que je sente si tu seras bientôt gras.",
+          "marionnetteId": "r3"
+        },
+        {
+          "id": "a3e37",
+          "type": "didascalie",
+          "texte": "{{r2}} se décale d’un bloc derrière le petit os fixe devant la grille."
+        },
+        {
+          "id": "a3e38",
+          "type": "conteur",
+          "texte": "{{r3}}, qui avait de mauvais yeux, ne pouvait pas le voir : elle croyait que c'étaient les doigts de {{r2}}, et s'étonnait qu'il ne veuille pas engraisser du tout."
+        },
+        {
+          "id": "a3e39",
+          "type": "adresse_public",
+          "texte": "Dites tout bas : « c’est un os ! »",
+          "marionnetteId": "r2",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e40",
+          "type": "conteur",
+          "texte": "Quand quatre semaines furent passées et que {{r2}} restait toujours maigre, l'impatience la prit, et elle ne voulut plus attendre."
+        },
+        {
+          "id": "a3e41",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e42",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a3e43",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e44",
+          "type": "replique",
+          "texte": "Allons, {{r1}}, dépêche-toi d'aller chercher de l'eau. Que {{r2}} soit gras ou maigre, demain, je le fais cuire.",
+          "marionnetteId": "r3"
+        },
+        {
+          "id": "a3e45",
+          "type": "conteur",
+          "texte": "Ah, comme la pauvre petite sœur se lamenta quand elle dut aller chercher l'eau, et comme ses larmes coulaient sur ses joues !"
+        },
+        {
+          "id": "a3e46",
+          "type": "conteur",
+          "texte": "Tôt le matin, {{r1}} dut sortir ; un chaudron plein d'eau fut prêt et le feu fut allumé."
+        },
+        {
+          "id": "a3e47",
+          "type": "replique",
+          "texte": "D'abord, nous allons faire le pain. J'ai déjà chauffé le four et pétri la pâte.",
+          "marionnetteId": "r3"
+        },
+        {
+          "id": "a3e48",
+          "type": "conteur",
+          "texte": "Elle poussa la pauvre {{r1}} dehors, jusqu'au four d'où sortaient déjà les flammes."
+        },
+        {
+          "id": "a3e49",
+          "type": "replique",
+          "texte": "Glisse-toi dedans, et regarde s'il est assez chaud pour qu'on puisse enfourner le pain.",
+          "marionnetteId": "r3"
+        },
+        {
+          "id": "a3e50",
+          "type": "conteur",
+          "texte": "Et quand {{r1}} serait dedans, elle voulait fermer le four, pour que {{r1}} y cuise, et la manger elle aussi. Mais {{r1}} devina ce qu'elle avait en tête et dit :"
+        },
+        {
+          "id": "a3e51",
+          "type": "replique",
+          "texte": "Je ne sais pas comment faire. Comment est-ce que j'entre là-dedans ?",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a3e52",
+          "type": "adresse_public",
+          "texte": "Dites avec moi : « je ne sais pas comment faire » !",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e53",
+          "type": "replique",
+          "texte": "Petite sotte, l'ouverture est bien assez grande, regarde, je pourrais y entrer moi-même.",
+          "marionnetteId": "r3"
+        },
+        {
+          "id": "a3e54",
+          "type": "conteur",
+          "texte": "Et elle s'approcha en clopinant et passa la tête dans le four."
+        },
+        {
+          "id": "a3e55",
+          "type": "didascalie",
+          "texte": "{{r1}} pousse {{r3}} avec tout son corps ; {{r3}} bascule derrière le panneau du four."
+        },
+        {
+          "id": "a3e56",
+          "type": "conteur",
+          "texte": "La porte de fer se referma et le verrou se mit en place. Hou ! {{r3}} se mit à hurler horriblement. Mais {{r1}} se sauva."
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "numero": 4,
+      "titre": "La liberté et le retour",
+      "resume": "La fratrie repart avec les trésors, traverse grâce au canard et retrouve {{r4}}.",
+      "tableauId": "t4",
+      "elements": [
+        {
+          "id": "a4e1",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e2",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a4e3",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e4",
+          "type": "conteur",
+          "texte": "{{r1}} courut tout droit vers {{r2}}, ouvrit sa petite étable et cria :"
+        },
+        {
+          "id": "a4e5",
+          "type": "replique",
+          "texte": "{{r2}}, nous sommes libres ! La vieille sorcière n'est plus !",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a4e6",
+          "type": "conteur",
+          "texte": "Alors {{r2}} bondit dehors comme un oiseau de sa cage quand on lui ouvre la porte. Quelle joie pour la fratrie ! {{r2}} et {{r1}} se serrèrent, sautèrent partout et s'embrassèrent. Comme elle n'avait plus rien à craindre, elle entra dans la maison de {{r3}}. Dans tous les coins, il y avait des coffres remplis de perles et de pierres précieuses."
+        },
+        {
+          "id": "a4e7",
+          "type": "replique",
+          "texte": "C'est encore mieux que des cailloux.",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a4e8",
+          "type": "conteur",
+          "texte": "Et ses poches se remplirent autant qu'elles pouvaient en contenir. Et {{r1}} dit :"
+        },
+        {
+          "id": "a4e9",
+          "type": "replique",
+          "texte": "Moi aussi, je veux rapporter quelque chose à la maison.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a4e10",
+          "type": "conteur",
+          "texte": "Et son petit tablier se remplit."
+        },
+        {
+          "id": "a4e11",
+          "type": "replique",
+          "texte": "Mais maintenant, partons, pour sortir de cette forêt ensorcelée.",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a4e12",
+          "type": "conteur",
+          "texte": "Après quelques heures de marche, la fratrie arriva devant une grande étendue d'eau."
+        },
+        {
+          "id": "a4e13",
+          "type": "replique",
+          "texte": "Nous ne pouvons pas traverser, je ne vois ni passerelle ni pont.",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a4e14",
+          "type": "replique",
+          "texte": "Et il n'y a pas de bateau non plus. Mais là-bas nage un canard blanc : si je lui demande, il nous aidera à traverser.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a4e15",
+          "type": "conteur",
+          "texte": "Alors elle appela :"
+        },
+        {
+          "id": "a4e16",
+          "type": "replique",
+          "texte": "Petit canard, petit canard,\nVoici {{r1}} et {{r2}}.\nNi passerelle ni pont,\nPrends-nous sur ton dos blanc.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a4e17",
+          "type": "adresse_public",
+          "texte": "Reprenez l’appel : « Petit canard, petit canard ! »",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e18",
+          "type": "conteur",
+          "texte": "Le petit canard s'approcha, et {{r2}} s'assit sur son dos."
+        },
+        {
+          "id": "a4e19",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Viens t’asseoir avec moi, ma petite sœur."
+        },
+        {
+          "id": "a4e20",
+          "type": "replique",
+          "texte": "Non, ce sera trop lourd pour le petit canard : il doit nous faire passer séparément.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a4e21",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e22",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a4e23",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e24",
+          "type": "conteur",
+          "texte": "C'est ce que fit la bonne petite bête. Et quand la fratrie fut heureusement de l'autre côté et eut marché un moment, la forêt lui sembla de plus en plus familière, et enfin elle aperçut de loin la maison de son père. Alors la fratrie se mit à courir, se précipita dans la pièce et se jeta au cou de {{r4}}. {{r4}} n'avait pas eu une heure de bonheur depuis qu'il avait laissé les enfants dans la forêt ; quant à {{r5}}, elle était morte. Au mouvement de {{r1}}, son tablier laissa tomber les perles et les pierres précieuses dans toute la pièce ; les poches de {{r2}} se vidèrent aussi de leur trésor. Alors tous les soucis furent finis, et la famille vécut ensemble dans la joie."
+        },
+        {
+          "id": "a4e25",
+          "type": "conteur",
+          "texte": "Mon conte est fini, voilà une souris qui court : celui qui l'attrape pourra s'en faire un grand, grand bonnet de fourrure.\n"
+        },
+        {
+          "id": "a4e26",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e27",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e28",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "de-hansel-et-gretel",
+    "synopsis": {
+      "accroche": "Des cailloux ramènent la fratrie ; des miettes la mènent plus loin dans la forêt.",
+      "resume": [
+        "{{r5}} convainc {{r4}} de laisser les enfants dans la forêt ; {{r2}} les ramène par les cailloux.",
+        "La seconde fois, les oiseaux mangent les miettes et la fratrie arrive à la maison de pain de {{r3}}.",
+        "{{r3}} enferme {{r2}} ; {{r1}} retourne le piège du four et la fratrie repart avec les trésors.",
+        "Un canard aide la fratrie à traverser ; {{r4}} la retrouve, {{r5}} est morte et le conte finit sur la souris."
+      ]
+    },
+    "transposition": {
+      "texte": "À l'orée d'une grande forêt habitait un pauvre bûcheron avec sa femme et ses deux enfants : le petit garçon s'appelait {{r2}} et la petite fille {{r1}}. Il n'avait pas grand-chose à se mettre sous la dent, et un jour, quand une grande disette arriva dans le pays, il ne put même plus gagner le pain de chaque jour.\n\nUn soir, couché dans son lit, il se faisait du souci et se retournait sans cesse. Il soupira et dit à sa femme :\n\n— Qu'allons-nous devenir ? Comment nourrir nos pauvres enfants, alors que nous n'avons plus rien pour nous-mêmes ?\n\n— Tu sais quoi, mon homme ? répondit {{r5}}. Demain, de très bonne heure, nous conduirons les enfants dans la forêt, là où elle est la plus épaisse. Nous leur ferons un feu, chaque enfant aura un petit morceau de pain, puis nous irons à notre travail et nous laisserons la fratrie sans compagnie. Elle ne retrouvera pas le chemin de la maison, et cela nous en débarrassera.\n\n— Non, femme, dit {{r4}}, je ne ferai pas ça. Comment aurais-je le cœur de laisser mes enfants sans personne dans la forêt ? Les bêtes sauvages viendraient bientôt les dévorer.\n\n— Oh, pauvre fou, dit-elle, alors nous mourrons de faim, nous quatre.\n\nEt elle ne lui laissa pas de repos jusqu'à ce qu'il accepte.\n\n— Mais j'ai quand même pitié de ces pauvres enfants, dit {{r4}}.\n\nLa fratrie n'avait pas pu s'endormir tant elle avait faim, et elle avait entendu ce que la belle-mère avait dit au père. {{r1}} pleura à chaudes larmes et dit à {{r2}} :\n\n— Maintenant, c'est fini pour nous.\n\n— Chut, {{r1}}, dit {{r2}}, ne te tourmente pas, je trouverai bien un moyen.\n\nQuand les parents dormirent, il se leva dans sa petite veste cousue, ouvrit la porte du bas et se glissa dehors. La lune brillait très fort, et les cailloux blancs qui étaient devant la maison scintillaient comme des pièces d'argent. {{r2}} se baissa ; la poche de sa veste se remplit de cailloux autant qu'elle pouvait en contenir. Puis il rentra et dit à {{r1}} :\n\n— Rassure-toi, ma petite sœur, et dors tranquille.\n\nEt il se recoucha.\n\nAu lever du jour, avant même que le soleil ne soit levé, {{r5}} vint réveiller les deux enfants :\n\n— Debout, bande paresseuse, nous allons dans la forêt chercher du bois.\n\nPuis chaque enfant reçut un petit morceau de pain, et {{r5}} dit :\n\n— Voilà pour midi, mais ne le mangez pas avant, vous n'aurez rien d'autre.\n\nLe pain de {{r1}} resta sous son tablier, puisque {{r2}} avait les cailloux dans sa poche. Puis la famille partit ensemble vers la forêt. Après un moment de marche, {{r2}} s'arrêta et se retourna pour regarder la maison, et il recommença encore et encore. Le père dit :\n\n— {{r2}}, qu'est-ce que tu regardes et pourquoi traînes-tu ? Fais attention et avance.\n\n— Ah, père, dit {{r2}}, je regarde mon petit chat blanc, il est assis sur le toit et veut me dire au revoir.\n\n{{r5}} dit :\n\n— Idiot, ce n'est pas ton chat, c'est le soleil du matin qui brille sur la cheminée.\n\nMais {{r2}} n'avait pas regardé le chat : à chaque fois, il avait laissé tomber sur le chemin un des cailloux brillants de sa poche.\n\nQuand la famille fut arrivée au milieu de la forêt, le père dit :\n\n— Maintenant, les enfants, ramassez du bois, je vais faire un feu pour que vous n'ayez pas froid.\n\nLes brindilles formèrent un petit tas haut comme une montagne près de {{r2}} et {{r1}}. On alluma le feu, et quand la flamme fut bien haute, {{r5}} dit :\n\n— Maintenant, couchez-vous près du feu, les enfants, et reposez-vous. Nous allons dans la forêt couper du bois. Quand nous aurons fini, nous reviendrons vous chercher.\n\nLa fratrie resta près du feu, et quand midi arriva, chaque enfant mangea son petit morceau de pain. Comme la fratrie entendait les coups de la hache, elle croyait que son père était tout près. Mais ce n'était pas la hache : c'était une branche attachée par {{r4}} à un arbre mort, et que le vent balançait de-ci de-là. Comme la fratrie était restée longtemps près du feu, la fatigue la gagna, et elle s'endormit profondément.\n\nQuand enfin la fratrie se réveilla, il faisait déjà nuit noire. {{r1}} se mit à pleurer :\n\n— Comment allons-nous sortir de la forêt, maintenant ?\n\nMais {{r2}} la consola :\n\n— Attends un petit peu, que la lune se lève, et nous trouverons bien le chemin.\n\nEt quand la pleine lune fut montée, {{r2}} avança avec sa petite sœur et suivit les cailloux, qui brillaient comme des pièces neuves et leur montraient le chemin. La fratrie marcha toute la nuit et arriva au point du jour à la maison de son père. On frappa à la porte, et quand {{r5}} ouvrit et vit que c'étaient {{r2}} et {{r1}}, elle dit :\n\n— Bande de canailles, pourquoi avez-vous dormi si longtemps dans la forêt ? Nous avons cru que vous ne vouliez plus revenir.\n\nMais le père fut content, car il avait eu le cœur gros d'avoir laissé la fratrie seule.\n\nPeu de temps après, la misère revint dans tous les coins, et les enfants entendirent la mère dire la nuit au père, dans son lit :\n\n— Tout est de nouveau mangé. Il nous reste une demi-miche de pain, et après, la chanson est finie. Il faut que les enfants partent. Nous allons les conduire plus loin dans la forêt, pour que la fratrie ne retrouve pas le chemin. Sinon, il n'y a pas de salut pour nous.\n\nLe cœur de {{r4}} était lourd, et il pensait : « Il vaudrait mieux partager la dernière bouchée avec tes enfants. » Mais {{r5}} n'écoutait rien de ce qu'il disait, le grondait et lui faisait des reproches. Qui a dit A doit dire B, et puisqu'il avait cédé la première fois, il dut céder la deuxième.\n\nMais la fratrie était encore éveillée et avait entendu la conversation. Quand les parents dormirent, {{r2}} se leva de nouveau et voulut sortir ramasser des cailloux comme la dernière fois ; mais {{r5}} avait fermé la porte à clé, et {{r2}} ne put pas sortir. Pourtant, il consola sa petite sœur :\n\n— Ne pleure pas, {{r1}}, et dors tranquille, nous trouverons bien de l'aide.\n\nTôt le matin, {{r5}} vint tirer les enfants du lit. Chaque enfant reçut son morceau de pain, mais il était encore plus petit que la dernière fois. Sur le chemin de la forêt, le pain de {{r2}} s'émietta dans sa poche ; il s'arrêta souvent et des miettes tombèrent par terre.\n\n— {{r2}}, qu'est-ce que tu as à t'arrêter et à te retourner ? dit le père. Avance.\n\n— Je regarde ma petite colombe, elle est sur le toit et veut me dire au revoir, répondit {{r2}}.\n\n— Idiot, dit {{r5}}, ce n'est pas ta colombe, c'est le soleil du matin qui brille sur la cheminée.\n\nMais les miettes de {{r2}} tombèrent petit à petit sur le chemin.\n\n{{r5}} conduisit les enfants encore plus loin dans la forêt, là où la fratrie n'était jamais allée de sa vie. On refit un grand feu, et la mère dit :\n\n— Restez bien là, les enfants, et si vous avez sommeil, vous pouvez dormir un peu. Nous allons dans la forêt couper du bois, et ce soir, quand nous aurons fini, nous viendrons vous chercher.\n\nQuand il fut midi, le pain de {{r1}} fut partagé avec {{r2}}, qui avait semé le sien sur le chemin. Puis la fratrie s'endormit, et le soir passa, mais personne ne vint chercher les pauvres enfants. Elle ne se réveilla qu'en pleine nuit, et {{r2}} consola sa petite sœur :\n\n— Attends, {{r1}}, que la lune se lève : alors nous verrons les miettes de pain que j'ai semées, elles nous montreront le chemin de la maison.\n\nQuand la lune se leva, la fratrie se mit en route, mais elle ne trouva plus une seule miette : les milliers d'oiseaux qui volent dans la forêt et dans les champs les avaient toutes picorées. {{r2}} dit à {{r1}} :\n\n— Nous trouverons bien le chemin.\n\nMais la fratrie ne le trouva pas. Elle marcha toute la nuit, et encore un jour du matin au soir, mais elle ne sortit pas de la forêt. Elle avait si faim, car elle n'avait mangé que les quelques baies qui poussaient par terre. La fatigue rendit leurs jambes incapables de les porter ; la fratrie se coucha sous un arbre et s'endormit.\n\nC'était maintenant le troisième matin depuis que la fratrie avait quitté la maison de son père. Elle se remit à marcher, mais s'enfonçait toujours plus loin dans la forêt, et si on ne venait pas bientôt à son secours, elle allait mourir d'épuisement.\n\nÀ midi, la fratrie vit un joli petit oiseau blanc comme neige posé sur une branche, qui chantait si bien qu'elle s'arrêta pour l'écouter. Quand il eut fini, il déploya ses ailes et vola devant la fratrie, et la fratrie le suivit jusqu'à une petite maison, sur le toit de laquelle il se posa. Et quand la fratrie s'approcha tout près, elle vit que la maisonnette était construite en pain et couverte de gâteau, et que les fenêtres étaient en sucre transparent.\n\n— Allons-y, dit {{r2}}, et faisons un bon repas. Moi je vais manger un morceau du toit ; toi, {{r1}}, tu peux manger la fenêtre, c'est sucré.\n\nUn petit bout du toit céda sous {{r2}}, qui y goûta, et {{r1}} se mit contre les carreaux et les grignota. Alors une petite voix fine cria de l'intérieur :\n\n« Grignoti, grignotons,\nQui grignote ma maison ? »\n\nLes enfants répondirent :\n\n« C'est le vent, c'est le vent,\nLe vent du ciel, l'enfant ! »\n\nLa fratrie continua à manger sans se laisser troubler. {{r2}}, qui trouvait le toit très bon, en détacha un grand morceau en y poussant tout son corps, et {{r1}} fit tomber un carreau tout rond, s'assit et se régala.\n\nAlors, tout à coup, la porte s'ouvrit, et une personne vieille comme les pierres, appuyée sur une béquille fixée au décor, sortit à petits pas. La fratrie eut si peur que les morceaux de pain et de sucre tombèrent au sol. Mais {{r3}} hocha la tête et dit :\n\n— Eh, mes enfants, qui vous a fait venir jusqu'ici ? Entrez donc et restez avec moi, il ne vous arrivera aucun mal.\n\nElle fit entrer la fratrie dans sa maisonnette. On leur servit un bon repas : du lait et des crêpes au sucre, des pommes et des noix. Ensuite, deux jolis petits lits furent faits avec des draps blancs, et {{r2}} et {{r1}} s'y couchèrent en croyant être au paradis.\n\nMais {{r3}} n'avait fait que semblant d'être gentille. C'était une méchante sorcière qui guettait les enfants, et elle n'avait construit la maison de pain que pour les attirer. {{r3}} avait les yeux rouges et ne voyait pas loin, mais elle avait un flair très fin, comme les bêtes, et sentait quand des humains approchaient. Quand la fratrie était arrivée près de chez elle, elle avait ri méchamment et dit d'un ton moqueur : « Ces deux-là, je les tiens, personne ne m'échappera. »\n\nTôt le matin, avant le réveil des enfants, elle était déjà debout. Et quand elle les vit dormir ensemble si gentiment, avec leurs bonnes joues rouges, elle murmura : « Ça va faire un bon morceau. »\n\nAlors elle poussa {{r2}} jusque dans une petite étable et l'y enferma derrière une porte grillagée ; il eut beau crier, cela ne servit à rien. Puis elle alla voir {{r1}}, l’éveilla et cria :\n\n— Debout, paresseuse ! Va chercher de l'eau et fais cuire quelque chose de bon pour ton frère. Il est dehors dans l'étable et il doit engraisser. Quand il sera gras, je le mangerai.\n\n{{r1}} se mit à pleurer amèrement, mais rien n'y fit : elle dut faire ce que voulait la méchante sorcière.\n\nAlors on fit cuire pour le pauvre {{r2}} la meilleure nourriture, mais {{r1}} ne reçut que des carapaces d'écrevisses. Chaque matin, {{r3}} se glissait jusqu'à la petite étable et criait :\n\n— {{r2}}, tends tes doigts, que je sente si tu seras bientôt gras.\n\nMais {{r2}} se plaçait derrière un petit os fixé à la grille. {{r3}}, qui avait de mauvais yeux, ne pouvait pas le voir : elle croyait que c'étaient les doigts de {{r2}}, et s'étonnait qu'il ne veuille pas engraisser du tout.\n\nQuand quatre semaines furent passées et que {{r2}} restait toujours maigre, l'impatience la prit, et elle ne voulut plus attendre.\n\n— Allons, {{r1}}, cria-t-elle à la fillette, dépêche-toi d'aller chercher de l'eau. Que {{r2}} soit gras ou maigre, demain, je le fais cuire.\n\nAh, comme la pauvre petite sœur se lamenta quand elle dut aller chercher l'eau, et comme ses larmes coulaient sur ses joues !\n\nTôt le matin, {{r1}} dut sortir ; un chaudron plein d'eau fut prêt et le feu fut allumé.\n\n— D'abord, nous allons faire le pain, dit {{r3}}. J'ai déjà chauffé le four et pétri la pâte.\n\nElle poussa la pauvre {{r1}} dehors, jusqu'au four d'où sortaient déjà les flammes.\n\n— Glisse-toi dedans, dit {{r3}}, et regarde s'il est assez chaud pour qu'on puisse enfourner le pain.\n\nEt quand {{r1}} serait dedans, elle voulait fermer le four, pour que {{r1}} y cuise, et la manger elle aussi. Mais {{r1}} devina ce qu'elle avait en tête et dit :\n\n— Je ne sais pas comment faire. Comment est-ce que j'entre là-dedans ?\n\n— Petite sotte, dit {{r3}}, l'ouverture est bien assez grande, regarde, je pourrais y entrer moi-même.\n\nEt elle s'approcha en clopinant et passa la tête dans le four. Alors {{r1}} lui donna une grande poussée, si bien qu'elle bascula tout au fond. La porte de fer se referma et le verrou se mit en place. Hou ! {{r3}} se mit à hurler horriblement. Mais {{r1}} se sauva.\n\n{{r1}} courut tout droit vers {{r2}}, ouvrit sa petite étable et cria :\n\n— {{r2}}, nous sommes libres ! La vieille sorcière n'est plus !\n\nAlors {{r2}} bondit dehors comme un oiseau de sa cage quand on lui ouvre la porte. Quelle joie pour la fratrie ! {{r2}} et {{r1}} se serrèrent, sautèrent partout et s'embrassèrent. Comme elle n'avait plus rien à craindre, elle entra dans la maison de {{r3}}. Dans tous les coins, il y avait des coffres remplis de perles et de pierres précieuses.\n\n— C'est encore mieux que des cailloux, dit {{r2}}.\n\nEt ses poches se remplirent autant qu'elles pouvaient en contenir. Et {{r1}} dit :\n\n— Moi aussi, je veux rapporter quelque chose à la maison.\n\nEt son petit tablier se remplit.\n\n— Mais maintenant, partons, dit {{r2}}, pour sortir de cette forêt ensorcelée.\n\nAprès quelques heures de marche, la fratrie arriva devant une grande étendue d'eau.\n\n— Nous ne pouvons pas traverser, dit {{r2}}, je ne vois ni passerelle ni pont.\n\n— Et il n'y a pas de bateau non plus, répondit {{r1}}. Mais là-bas nage un canard blanc : si je lui demande, il nous aidera à traverser.\n\nAlors elle appela :\n\n« Petit canard, petit canard,\nVoici {{r1}} et {{r2}}.\nNi passerelle ni pont,\nPrends-nous sur ton dos blanc. »\n\nLe petit canard s'approcha, et {{r2}} s'assit sur son dos. {{r2}} demanda à sa petite sœur de s'asseoir avec lui.\n\n— Non, répondit {{r1}}, ce sera trop lourd pour le petit canard : il doit nous faire passer séparément.\n\nC'est ce que fit la bonne petite bête. Et quand la fratrie fut heureusement de l'autre côté et eut marché un moment, la forêt lui sembla de plus en plus familière, et enfin elle aperçut de loin la maison de son père. Alors la fratrie se mit à courir, se précipita dans la pièce et se jeta au cou de {{r4}}. {{r4}} n'avait pas eu une heure de bonheur depuis qu'il avait laissé les enfants dans la forêt ; quant à {{r5}}, elle était morte. Au mouvement de {{r1}}, son tablier laissa tomber les perles et les pierres précieuses dans toute la pièce ; les poches de {{r2}} se vidèrent aussi de leur trésor. Alors tous les soucis furent finis, et la famille vécut ensemble dans la joie.\n\nMon conte est fini, voilà une souris qui court : celui qui l'attrape pourra s'en faire un grand, grand bonnet de fourrure.\n"
+    }
+  },
+  "dureeEstimeeSecondes": 1724,
+  "interactionsOrdonnees": [
+    "a3e6",
+    "a3e39",
+    "a2e41",
+    "a4e17",
+    "a1e64",
+    "a2e47",
+    "a3e52",
+    "a1e21",
+    "a2e16"
+  ]
+}
