@@ -1,0 +1,1060 @@
+{
+  "id": "ru-hiver-des-betes--1",
+  "conteId": "ru-hiver-des-betes",
+  "titre": "L’Hiver des bêtes",
+  "pitch": "{{r1}} bâtit seul une cabane pour l’hiver. La bande réclame son abri, puis repousse {{r4}}, le loup et l’ours.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "taureau",
+      "famille": "gros",
+      "traits": [
+        "travail",
+        "prudence",
+        "entêtement"
+      ],
+      "voix": "voix grave et posée",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e1:texte",
+            "avant": "il rencontre",
+            "apres": "elle rencontre"
+          },
+          {
+            "id": "a2e28:texte",
+            "avant": "qu’il va",
+            "apres": "qu’elle va"
+          },
+          {
+            "id": "a2e28:texte",
+            "avant": "tout seul",
+            "apres": "toute seule"
+          },
+          {
+            "id": "a3e4:texte",
+            "avant": "frère",
+            "apres": "sœur"
+          },
+          {
+            "id": "a3e15:texte",
+            "avant": "frère",
+            "apres": "sœur"
+          },
+          {
+            "id": "a3e23:texte",
+            "avant": "frère",
+            "apres": "sœur"
+          },
+          {
+            "id": "pitch",
+            "avant": "bâtit seul",
+            "apres": "bâtit seule"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "avec lui",
+            "apres": "avec elle"
+          },
+          {
+            "id": "a3e31:texte",
+            "avant": "Il laissa",
+            "apres": "Elle laissa"
+          },
+          {
+            "id": "a3e31:texte",
+            "avant": "chez lui",
+            "apres": "chez elle"
+          },
+          {
+            "id": "a2e32:texte",
+            "avant": "il y vit",
+            "apres": "elle y vit"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r2",
+      "espece": "belier",
+      "famille": "petit",
+      "traits": [
+        "vanité",
+        "paresse",
+        "force"
+      ],
+      "voix": "voix ronde et assurée",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a3e9:texte",
+            "avant": "le laisser entrer",
+            "apres": "la laisser entrer"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r3",
+      "espece": "coq",
+      "famille": "oiseau",
+      "traits": [
+        "vanité",
+        "bavardage"
+      ],
+      "voix": "voix haute et chantante",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a4e5:texte",
+            "avant": "du petit",
+            "apres": "de la petite"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r4",
+      "espece": "renard",
+      "famille": "predateur",
+      "traits": [
+        "ruse",
+        "gourmandise"
+      ],
+      "voix": "voix souple et pressée",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a4e9:texte",
+            "avant": "commère",
+            "apres": "compère"
+          },
+          {
+            "id": "a4e12:texte",
+            "avant": "la première",
+            "apres": "le premier"
+          },
+          {
+            "id": "a4e15:texte",
+            "avant": "la vit",
+            "apres": "le vit"
+          },
+          {
+            "id": "a4e26:texte",
+            "avant": "qu’elle fait",
+            "apres": "qu’il fait"
+          },
+          {
+            "id": "a4e5:texte",
+            "avant": "elle eut envie",
+            "apres": "il eut envie"
+          },
+          {
+            "id": "a4e7:texte",
+            "avant": "Elle alla trouver",
+            "apres": "Il alla trouver"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r5",
+      "espece": "cochon",
+      "famille": "petit",
+      "traits": [
+        "vanité",
+        "paresse"
+      ],
+      "voix": "voix basse et râleuse",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a3e18:texte",
+            "avant": "le laissa entrer",
+            "apres": "la laissa entrer"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r6",
+      "espece": "oie",
+      "famille": "oiseau",
+      "traits": [
+        "vanité",
+        "bavardage"
+      ],
+      "voix": "voix claire et rapide",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": []
+      },
+      "especeImposee": true
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 11,
+    "ageAuditoire": 3,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La route dans la forêt",
+      "description": "Un carton fixe représente une route et quelques arbres. {{r1}} reste à gauche ; les autres peluches arrivent une à une par la droite. Aucun décor ne se détache.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "La cabane d’hiver",
+      "description": "Un carton fixe montre la petite cabane, ses poutres et son toit. Les menaces contre la construction restent dans les paroles et la narration ; personne ne saisit le carton.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t3",
+      "titre": "La porte de la cabane",
+      "description": "La même cabane fixe sert aux trois assauts. {{r4}} reste visible pour les coups de {{r1}} puis de {{r2}}, qui se remplacent à gauche. Après la sortie de {{r4}}, {{r1}} revient à droite face à {{r2}} ; les attaques du loup et de l’ours sont racontées, avec leurs courtes voix hors champ.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Quatre rencontres sur la route",
+      "resume": "{{r1}} invite {{r2}}, {{r5}}, {{r6}} et {{r3}} à chercher l’été avec lui.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "{{r1}} marchait dans la forêt ; il rencontre {{r2}}."
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e3",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e4",
+          "type": "replique",
+          "texte": "Où vas-tu, {{r2}} ?",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a1e5",
+          "type": "replique",
+          "texte": "Je fuis l’hiver, je cherche l’été.",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a1e6",
+          "type": "replique",
+          "texte": "Viens avec moi !",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a1e7",
+          "type": "adresse_public",
+          "texte": "Répétez avec moi : « Je fuis l’hiver, je cherche l’été ! »",
+          "marionnetteId": "r2",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e8",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e9",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a1e10",
+          "type": "conteur",
+          "texte": "Le duo part ensemble ; il rencontre {{r5}}."
+        },
+        {
+          "id": "a1e11",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e12",
+          "type": "replique",
+          "texte": "Où vas-tu, {{r5}} ?",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a1e13",
+          "type": "replique",
+          "texte": "Je fuis l’hiver, je cherche l’été.",
+          "marionnetteId": "r5"
+        },
+        {
+          "id": "a1e14",
+          "type": "replique",
+          "texte": "Viens avec nous !",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a1e15",
+          "type": "adresse_public",
+          "texte": "Reprenez le refrain avec moi : « Je fuis l’hiver, je cherche l’été ! »",
+          "marionnetteId": "r5",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e16",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e17",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a1e18",
+          "type": "conteur",
+          "texte": "La bande continue à trois ; elle rencontre {{r6}}."
+        },
+        {
+          "id": "a1e19",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e20",
+          "type": "replique",
+          "texte": "Où vas-tu, {{r6}} ?",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a1e21",
+          "type": "replique",
+          "texte": "Je fuis l’hiver, je cherche l’été.",
+          "marionnetteId": "r6"
+        },
+        {
+          "id": "a1e22",
+          "type": "replique",
+          "texte": "Eh bien, suis-nous !",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a1e23",
+          "type": "adresse_public",
+          "texte": "Encore une fois, dites : « Je fuis l’hiver, je cherche l’été ! »",
+          "marionnetteId": "r6",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e24",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e25",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a1e26",
+          "type": "conteur",
+          "texte": "Et {{r6}} suivit la bande. Le groupe marche, et voilà qu’il rencontre {{r3}}."
+        },
+        {
+          "id": "a1e27",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e28",
+          "type": "replique",
+          "texte": "Où vas-tu, {{r3}} ?",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a1e29",
+          "type": "replique",
+          "texte": "Je fuis l’hiver, je cherche l’été.",
+          "marionnetteId": "r3"
+        },
+        {
+          "id": "a1e30",
+          "type": "replique",
+          "texte": "Suis-nous !",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a1e31",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e32",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Choisir son abri",
+      "resume": "{{r1}} propose une cabane ; chaque bête pense pouvoir traverser l’hiver sans elle.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "La bande marche sur la route et discute :"
+        },
+        {
+          "id": "a2e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e3",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e4",
+          "type": "replique",
+          "texte": "Alors, la compagnie, mes camarades ? La saison froide arrive : où trouver de la chaleur ?",
+          "marionnetteId": "r3"
+        },
+        {
+          "id": "a2e5",
+          "type": "conteur",
+          "texte": "{{r1}} dit :"
+        },
+        {
+          "id": "a2e6",
+          "type": "replique",
+          "texte": "Eh bien, construisons une cabane, sinon nous allons vraiment geler cet hiver.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a2e7",
+          "type": "adresse_public",
+          "texte": "Répétez la proposition : « construisons une cabane ! »",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e8",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e9",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a2e10",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e11",
+          "type": "conteur",
+          "texte": "{{r2}} dit :"
+        },
+        {
+          "id": "a2e12",
+          "type": "replique",
+          "texte": "Moi, j’ai un manteau bien chaud — regardez-moi cette laine ! Je passerai l’hiver comme ça.",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a2e13",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e14",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a2e15",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e16",
+          "type": "conteur",
+          "texte": "{{r5}} dit :"
+        },
+        {
+          "id": "a2e17",
+          "type": "replique",
+          "texte": "Moi, les gelées, je m’en moque, je n’en ai pas peur : je m’enfouirai dans la terre, et je passerai l’hiver sans cabane.",
+          "marionnetteId": "r5"
+        },
+        {
+          "id": "a2e18",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e19",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a2e20",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e21",
+          "type": "conteur",
+          "texte": "{{r6}} dit :"
+        },
+        {
+          "id": "a2e22",
+          "type": "replique",
+          "texte": "Et moi, je me mettrai au milieu d’un sapin, j’étendrai une aile en dessous et je me couvrirai de l’autre : aucun froid ne m’attrapera. Je passerai l’hiver comme ça.",
+          "marionnetteId": "r6"
+        },
+        {
+          "id": "a2e23",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e24",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a2e25",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e26",
+          "type": "conteur",
+          "texte": "{{r3}} dit :"
+        },
+        {
+          "id": "a2e27",
+          "type": "replique",
+          "texte": "Et moi pareil !",
+          "marionnetteId": "r3"
+        },
+        {
+          "id": "a2e28",
+          "type": "conteur",
+          "texte": "{{r1}} voit que ça va mal, qu’il va devoir se débrouiller tout seul."
+        },
+        {
+          "id": "a2e29",
+          "type": "replique",
+          "texte": "Eh bien, faites comme vous voulez, moi je vais construire une cabane.",
+          "marionnetteId": "r1",
+          "ton": "pour soi"
+        },
+        {
+          "id": "a2e30",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e31",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e32",
+          "type": "conteur",
+          "texte": "{{r1}} se construisit une petite cabane, et il y vit."
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Les demandes du froid",
+      "resume": "{{r2}}, {{r5}}, {{r6}} et {{r3}} réclament l’abri et menacent de l’abîmer.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "conteur",
+          "texte": "Voilà que vint l’hiver froid, et les gelées commencèrent à mordre. {{r2}}, il n’y a rien à faire, vient chez {{r1}} :"
+        },
+        {
+          "id": "a3e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e3",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e4",
+          "type": "replique",
+          "texte": "Laisse-moi entrer me réchauffer, frère.",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a3e5",
+          "type": "replique",
+          "texte": "Non, {{r2}}, tu as un manteau chaud, tu passeras l’hiver comme ça. Je ne te laisse pas entrer !",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a3e6",
+          "type": "replique",
+          "texte": "Si tu ne me laisses pas entrer, je vais prendre mon élan et faire sauter une poutre de ta cabane : tu auras encore plus froid.",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a3e7",
+          "type": "adresse_public",
+          "texte": "Répétez ma demande : « Laisse-moi entrer me réchauffer ! »",
+          "marionnetteId": "r2",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e8",
+          "type": "conteur",
+          "texte": "{{r1}} réfléchit, réfléchit :"
+        },
+        {
+          "id": "a3e9",
+          "type": "replique",
+          "texte": "Je ferais mieux de le laisser entrer, sinon c’est moi qui vais geler.",
+          "marionnetteId": "r1",
+          "ton": "pour soi"
+        },
+        {
+          "id": "a3e10",
+          "type": "conteur",
+          "texte": "Et {{r1}} laissa entrer {{r2}}."
+        },
+        {
+          "id": "a3e11",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e12",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a3e13",
+          "type": "conteur",
+          "texte": "Puis {{r5}} eut froid, et vint chez {{r1}} :"
+        },
+        {
+          "id": "a3e14",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e15",
+          "type": "replique",
+          "texte": "Laisse-moi entrer me réchauffer, frère.",
+          "marionnetteId": "r5"
+        },
+        {
+          "id": "a3e16",
+          "type": "replique",
+          "texte": "Non, je ne te laisse pas entrer : tu t’enfouiras dans la terre, et tu passeras l’hiver comme ça !",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a3e17",
+          "type": "replique",
+          "texte": "Si tu ne me laisses pas entrer, je vais creuser sous tous tes poteaux avec mon groin, et faire tomber ta cabane.",
+          "marionnetteId": "r5"
+        },
+        {
+          "id": "a3e18",
+          "type": "conteur",
+          "texte": "Il n’y a rien à faire, il faut laisser entrer aussi {{r5}}. {{r1}} le laissa entrer."
+        },
+        {
+          "id": "a3e19",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e20",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a3e21",
+          "type": "conteur",
+          "texte": "Puis {{r6}} et {{r3}} vinrent chez {{r1}} :"
+        },
+        {
+          "id": "a3e22",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e23",
+          "type": "replique",
+          "texte": "Laisse-nous entrer nous réchauffer, frère.",
+          "marionnetteId": "r6"
+        },
+        {
+          "id": "a3e24",
+          "type": "replique",
+          "texte": "Non, je ne vous laisse pas entrer. Vous avez deux ailes : une pour vous coucher dessus, l’autre pour vous couvrir. Vous passerez l’hiver comme ça !",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a3e25",
+          "type": "replique",
+          "texte": "Si tu ne me laisses pas entrer, je vais arracher toute la mousse entre les poutres de tes murs : tu auras encore plus froid.",
+          "marionnetteId": "r6"
+        },
+        {
+          "id": "a3e26",
+          "type": "adresse_public",
+          "texte": "Faites avec moi le bruit du vent froid : houuu !",
+          "marionnetteId": "r6",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e27",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e28",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a3e29",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e30",
+          "type": "replique",
+          "texte": "Tu ne me laisses pas entrer ? Alors je vais m’envoler là-haut et gratter toute la terre de ton toit : tu auras encore plus froid.",
+          "marionnetteId": "r3"
+        },
+        {
+          "id": "a3e31",
+          "type": "conteur",
+          "texte": "Que pouvait faire {{r1}} ? Il laissa entrer chez lui {{r6}} et {{r3}}."
+        },
+        {
+          "id": "a3e32",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e33",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "numero": 4,
+      "titre": "Les trois assauts",
+      "resume": "{{r4}} mène le loup et l’ours à la cabane ; {{r1}} et {{r2}} les repoussent tour à tour.",
+      "tableauId": "t3",
+      "elements": [
+        {
+          "id": "a4e1",
+          "type": "conteur",
+          "texte": "La bande vit ensemble dans la petite cabane."
+        },
+        {
+          "id": "a4e2",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e3",
+          "type": "didascalie",
+          "texte": "{{r3}} se balance doucement et chante une courte mélodie sans paroles."
+        },
+        {
+          "id": "a4e4",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e5",
+          "type": "conteur",
+          "texte": "{{r4}} entendit {{r3}} chanter ses chansons, et elle eut envie de se régaler du petit {{r3}}. Mais comment l’attraper ? {{r4}} eut recours à la ruse."
+        },
+        {
+          "id": "a4e6",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e7",
+          "type": "conteur",
+          "texte": "Elle alla trouver l’ours et le loup, et leur dit :"
+        },
+        {
+          "id": "a4e8",
+          "type": "replique",
+          "texte": "Eh bien, mes chers compères, j’ai trouvé à manger pour tout le monde : pour toi, l’ours, {{r1}} ; pour toi, le loup, {{r2}} ; et pour moi, {{r3}}.",
+          "marionnetteId": "r4"
+        },
+        {
+          "id": "a4e9",
+          "type": "note_marionnettiste",
+          "texte": "Voix de l’ours et du loup, en coulisse : « Très bien, commère, nous n’oublierons jamais ce service ! Allons-y, et mangeons ! »"
+        },
+        {
+          "id": "a4e10",
+          "type": "adresse_public",
+          "texte": "Avançons vers la cabane : faites le bruit des pas, boum, boum !",
+          "marionnetteId": "r4",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e11",
+          "type": "conteur",
+          "texte": "{{r4}} mena l’ours et le loup à la petite cabane."
+        },
+        {
+          "id": "a4e12",
+          "type": "replique",
+          "texte": "Compère, laisse-moi entrer : j’entre la première, je vais manger {{r3}}.",
+          "marionnetteId": "r4"
+        },
+        {
+          "id": "a4e13",
+          "type": "conteur",
+          "texte": "La porte s’ouvrit, et {{r4}} sauta dans la cabane."
+        },
+        {
+          "id": "a4e14",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e15",
+          "type": "conteur",
+          "texte": "{{r1}} la vit."
+        },
+        {
+          "id": "a4e16",
+          "type": "didascalie",
+          "texte": "{{r1}} avance d’un bloc et plaque {{r4}} contre le fond fixe avec ses cornes."
+        },
+        {
+          "id": "a4e17",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e18",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a4e19",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e20",
+          "type": "didascalie",
+          "texte": "{{r2}} cogne les flancs de {{r4}} par de petits mouvements de tout son corps."
+        },
+        {
+          "id": "a4e21",
+          "type": "conteur",
+          "texte": "{{r4}} n’en menait pas large."
+        },
+        {
+          "id": "a4e22",
+          "type": "adresse_public",
+          "texte": "Faites entendre le premier assaut : boum !",
+          "marionnetteId": "r2",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e23",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e24",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a4e25",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e26",
+          "type": "note_marionnettiste",
+          "texte": "Voix du loup, en coulisse : « Qu’est-ce qu’elle fait, à ne pas en finir avec {{r3}} ? Laisse-moi entrer, frère Michel ! J’y vais. »"
+        },
+        {
+          "id": "a4e27",
+          "type": "note_marionnettiste",
+          "texte": "Voix de l’ours, en coulisse : « Eh bien, vas-y. »"
+        },
+        {
+          "id": "a4e28",
+          "type": "conteur",
+          "texte": "La porte s’ouvrit, et le loup sauta dans la cabane. {{r1}} le plaqua lui aussi contre le mur avec ses cornes, et {{r2}} se mit à lui cogner les flancs, et {{r1}} et {{r2}} le reçurent si bien que le loup en eut le souffle coupé."
+        },
+        {
+          "id": "a4e29",
+          "type": "adresse_public",
+          "texte": "Faites entendre le deuxième assaut : boum !",
+          "marionnetteId": "r2",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e30",
+          "type": "conteur",
+          "texte": "L’ours attendit, attendit :"
+        },
+        {
+          "id": "a4e31",
+          "type": "note_marionnettiste",
+          "texte": "Voix de l’ours, en coulisse : « Qu’est-ce qu’il fait, à ne pas en finir avec {{r2}} ! Laisse-moi y aller. »"
+        },
+        {
+          "id": "a4e32",
+          "type": "adresse_public",
+          "texte": "Faites entendre le troisième assaut : boum !",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e33",
+          "type": "conteur",
+          "texte": "Il entra dans la cabane, et {{r1}} et {{r2}} le reçurent de la même façon. Il eut bien du mal à s’échapper, et s’enfuit sans se retourner."
+        },
+        {
+          "id": "a4e34",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e35",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "ru-hiver-des-betes",
+    "synopsis": {
+      "accroche": "Une cabane bâtie par une seule bête finit par accueillir toute la bande.",
+      "resume": [
+        "{{r1}} invite quatre bêtes qui fuient l’hiver et cherchent l’été.",
+        "La cabane est bâtie par {{r1}} ; chaque bête revient et menace de l’abîmer pour entrer.",
+        "{{r4}} attire l’ours et le loup ; le trio est repoussé, et l’ours s’enfuit sans se retourner."
+      ]
+    },
+    "transposition": {
+      "texte": "{{r1}} marchait dans la forêt ; il rencontre {{r2}}.\n\n— Où vas-tu, {{r2}} ?\n\n— Je fuis l’hiver, je cherche l’été.\n\n— Viens avec moi !\n\nLe duo part ensemble ; il rencontre {{r5}}.\n\n— Où vas-tu, {{r5}} ?\n\n— Je fuis l’hiver, je cherche l’été.\n\n— Viens avec nous !\n\nLa bande continue à trois ; elle rencontre {{r6}}.\n\n— Où vas-tu, {{r6}} ?\n\n— Je fuis l’hiver, je cherche l’été.\n\n— Eh bien, suis-nous !\n\nEt {{r6}} suivit la bande. Le groupe marche, et voilà qu’il rencontre {{r3}}.\n\n— Où vas-tu, {{r3}} ?\n\n— Je fuis l’hiver, je cherche l’été.\n\n— Suis-nous !\n\nLa bande marche sur la route et discute :\n\n— Alors, la compagnie, mes camarades ? La saison froide arrive : où trouver de la chaleur ?\n\n{{r1}} dit :\n\n— Eh bien, construisons une cabane, sinon nous allons vraiment geler cet hiver.\n\n{{r2}} dit :\n\n— Moi, j’ai un manteau bien chaud — regardez-moi cette laine ! Je passerai l’hiver comme ça.\n\n{{r5}} dit :\n\n— Moi, les gelées, je m’en moque, je n’en ai pas peur : je m’enfouirai dans la terre, et je passerai l’hiver sans cabane.\n\n{{r6}} dit :\n\n— Et moi, je me mettrai au milieu d’un sapin, j’étendrai une aile en dessous et je me couvrirai de l’autre : aucun froid ne m’attrapera. Je passerai l’hiver comme ça.\n\n{{r3}} dit :\n\n— Et moi pareil !\n\n{{r1}} voit que ça va mal, qu’il va devoir se débrouiller tout seul.\n\n— Eh bien, faites comme vous voulez, moi je vais construire une cabane.\n\n{{r1}} se construisit une petite cabane, et il y vit.\n\nVoilà que vint l’hiver froid, et les gelées commencèrent à mordre. {{r2}}, il n’y a rien à faire, vient chez {{r1}} :\n\n— Laisse-moi entrer me réchauffer, frère.\n\n— Non, {{r2}}, tu as un manteau chaud, tu passeras l’hiver comme ça. Je ne te laisse pas entrer !\n\n— Si tu ne me laisses pas entrer, je vais prendre mon élan et faire sauter une poutre de ta cabane : tu auras encore plus froid.\n\n{{r1}} réfléchit, réfléchit :\n\n— Je ferais mieux de le laisser entrer, sinon c’est moi qui vais geler.\n\nEt {{r1}} laissa entrer {{r2}}.\n\nPuis {{r5}} eut froid, et vint chez {{r1}} :\n\n— Laisse-moi entrer me réchauffer, frère.\n\n— Non, je ne te laisse pas entrer : tu t’enfouiras dans la terre, et tu passeras l’hiver comme ça !\n\n— Si tu ne me laisses pas entrer, je vais creuser sous tous tes poteaux avec mon groin, et faire tomber ta cabane.\n\nIl n’y a rien à faire, il faut laisser entrer aussi {{r5}}. {{r1}} le laissa entrer.\n\nPuis {{r6}} et {{r3}} vinrent chez {{r1}} :\n\n— Laisse-nous entrer nous réchauffer, frère.\n\n— Non, je ne vous laisse pas entrer. Vous avez deux ailes : une pour vous coucher dessus, l’autre pour vous couvrir. Vous passerez l’hiver comme ça !\n\n— Si tu ne me laisses pas entrer, je vais arracher toute la mousse entre les poutres de tes murs : tu auras encore plus froid.\n\n— Tu ne me laisses pas entrer ? Alors je vais m’envoler là-haut et gratter toute la terre de ton toit : tu auras encore plus froid.\n\nQue pouvait faire {{r1}} ? Il laissa entrer chez lui {{r6}} et {{r3}}.\n\nLa bande vit ensemble dans la petite cabane. {{r3}}, une fois bien réchauffé, se mit à chanter des chansons. {{r4}} entendit {{r3}} chanter ses chansons, et elle eut envie de se régaler du petit {{r3}}. Mais comment l’attraper ? {{r4}} eut recours à la ruse. Elle alla trouver l’ours et le loup, et leur dit :\n\n— Eh bien, mes chers compères, j’ai trouvé à manger pour tout le monde : pour toi, l’ours, {{r1}} ; pour toi, le loup, {{r2}} ; et pour moi, {{r3}}.\n\n— Très bien, commère, nous n’oublierons jamais ce service ! Allons-y, et mangeons !\n\n{{r4}} mena l’ours et le loup à la petite cabane.\n\n— Compère, laisse-moi entrer : j’entre la première, je vais manger {{r3}}.\n\nLa porte s’ouvrit, et {{r4}} sauta dans la cabane.\n\n{{r1}} la vit. Aussitôt, {{r1}} la plaqua contre le mur avec ses cornes, et {{r2}} se mit à lui cogner les flancs. {{r4}} n’en menait pas large.\n\n— Qu’est-ce qu’elle fait, à ne pas en finir avec {{r3}} ? Laisse-moi entrer, frère Michel ! J’y vais.\n\n— Eh bien, vas-y.\n\nLa porte s’ouvrit, et le loup sauta dans la cabane. {{r1}} le plaqua lui aussi contre le mur avec ses cornes, et {{r2}} se mit à lui cogner les flancs, et {{r1}} et {{r2}} le reçurent si bien que le loup en eut le souffle coupé.\n\nL’ours attendit, attendit :\n\n— Qu’est-ce qu’il fait, à ne pas en finir avec {{r2}} ! Laisse-moi y aller.\n\nIl entra dans la cabane, et {{r1}} et {{r2}} le reçurent de la même façon. Il eut bien du mal à s’échapper, et s’enfuit sans se retourner."
+    }
+  },
+  "dureeEstimeeSecondes": 599,
+  "interactionsOrdonnees": [
+    "a1e7",
+    "a3e7",
+    "a2e7",
+    "a4e22",
+    "a4e32",
+    "a4e29",
+    "a3e26",
+    "a4e10",
+    "a1e15",
+    "a1e23"
+  ]
+}

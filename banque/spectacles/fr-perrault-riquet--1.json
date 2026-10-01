@@ -1,0 +1,1301 @@
+{
+  "id": "fr-perrault-riquet--1",
+  "conteId": "fr-perrault-riquet",
+  "titre": "Riquet à la houppe",
+  "pitch": "{{r1}} donne de l’esprit à {{r2}} contre une promesse de mariage. Un an plus tard, {{r2}} hésite, puis découvre qu’un autre don peut changer {{r1}} à ses yeux.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "savant",
+        "bavard",
+        "gentil"
+      ],
+      "voix": "voix calme et vive, qui pèse chaque proposition",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e1:texte",
+            "avant": "un fils",
+            "apres": "une fille"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "si laid",
+            "apres": "si laide"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "si mal fait",
+            "apres": "si mal faite"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "s’il avait",
+            "apres": "si elle avait"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "Il ne manquera",
+            "apres": "Elle ne manquera"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "qu’il aura",
+            "apres": "qu’elle aura"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "Il pourra",
+            "apres": "Elle pourra"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "qu’il en aura",
+            "apres": "qu’elle en aura"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "qu’il épousera",
+            "apres": "qu’elle épousera"
+          },
+          {
+            "id": "a1e7:texte",
+            "avant": "qu’il dit mille",
+            "apres": "qu’elle dit mille"
+          },
+          {
+            "id": "a1e7:texte",
+            "avant": "qu’il avait dans",
+            "apres": "qu’elle avait dans"
+          },
+          {
+            "id": "a1e7:texte",
+            "avant": "qu’il avait une petite houppe",
+            "apres": "qu’elle avait une petite houppe"
+          },
+          {
+            "id": "a1e7:texte",
+            "avant": "le nomma",
+            "apres": "la nomma"
+          },
+          {
+            "id": "a1e7:texte",
+            "avant": "cet enfant",
+            "apres": "cette enfant"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "du petit",
+            "apres": "de la petite"
+          },
+          {
+            "id": "a2e2:texte",
+            "avant": "fort laid",
+            "apres": "fort laide"
+          },
+          {
+            "id": "a2e2:texte",
+            "avant": "mais vêtu très magnifiquement",
+            "apres": "mais vêtue très magnifiquement"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "le jeune prince",
+            "apres": "la jeune princesse"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "Il l’aborde",
+            "apres": "Elle l’aborde"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "il lui dit",
+            "apres": "elle lui dit"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "monsieur",
+            "apres": "madame"
+          },
+          {
+            "id": "a2e19:texte",
+            "avant": "qu’il ne s’en était réservé",
+            "apres": "qu’elle ne s’en était réservé"
+          },
+          {
+            "id": "a2e19:texte",
+            "avant": "pour lui-même",
+            "apres": "pour elle-même"
+          },
+          {
+            "id": "a3e13:texte",
+            "avant": "le prince",
+            "apres": "la princesse"
+          },
+          {
+            "id": "a3e15:texte",
+            "avant": "d’épouser le prince",
+            "apres": "d’épouser la princesse"
+          },
+          {
+            "id": "a3e15:texte",
+            "avant": "que le prince lui",
+            "apres": "que la princesse lui"
+          },
+          {
+            "id": "a4e2:texte",
+            "avant": "élégant, magnifique",
+            "apres": "élégante, magnifique"
+          },
+          {
+            "id": "a4e2:texte",
+            "avant": "comme un prince",
+            "apres": "comme une princesse"
+          },
+          {
+            "id": "a4e4:texte",
+            "avant": "venu tenir",
+            "apres": "venue tenir"
+          },
+          {
+            "id": "a4e4:texte",
+            "avant": "le plus heureux",
+            "apres": "la plus heureuse"
+          },
+          {
+            "id": "a4e14:texte",
+            "avant": "être heureux",
+            "apres": "être heureuse"
+          },
+          {
+            "id": "a4e14:texte",
+            "avant": "le plus aimable",
+            "apres": "la plus aimable"
+          },
+          {
+            "id": "a4e16:texte",
+            "avant": "rendre beau celui",
+            "apres": "rendre belle celle"
+          },
+          {
+            "id": "a4e18:texte",
+            "avant": "le prince du monde",
+            "apres": "la princesse du monde"
+          },
+          {
+            "id": "a4e18:texte",
+            "avant": "le plus beau",
+            "apres": "la plus belle"
+          },
+          {
+            "id": "a4e18:texte",
+            "avant": "le plus aimable",
+            "apres": "la plus aimable"
+          },
+          {
+            "id": "a4e20:texte",
+            "avant": "le mieux fait",
+            "apres": "la mieux faite"
+          },
+          {
+            "id": "a4e20:texte",
+            "avant": "le plus aimable",
+            "apres": "la plus aimable"
+          },
+          {
+            "id": "a4e20:texte",
+            "avant": "jamais vu",
+            "apres": "jamais vue"
+          },
+          {
+            "id": "a4e21:texte",
+            "avant": "vu boîter",
+            "apres": "vue boîter"
+          },
+          {
+            "id": "a4e22:texte",
+            "avant": "qu’il en obtînt",
+            "apres": "qu’elle en obtînt"
+          },
+          {
+            "id": "a4e22:texte",
+            "avant": "un prince très spirituel",
+            "apres": "une princesse très spirituelle"
+          },
+          {
+            "id": "a4e22:texte",
+            "avant": "le reçut avec plaisir",
+            "apres": "la reçut avec plaisir"
+          },
+          {
+            "id": "a4e22:texte",
+            "avant": "son gendre",
+            "apres": "sa belle-fille"
+          },
+          {
+            "id": "a4e22:texte",
+            "avant": "qu’il en avait donnés",
+            "apres": "qu’elle en avait donnés"
+          },
+          {
+            "id": "a1e7:texte",
+            "avant": "un si vilain marmot",
+            "apres": "une si vilaine enfant"
+          },
+          {
+            "id": "a4e7:texte",
+            "avant": "celui à qui",
+            "apres": "celle à qui"
+          },
+          {
+            "id": "a4e7:texte",
+            "avant": "qu’il entendra",
+            "apres": "qu’elle entendra"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a2e2:texte",
+          "avant": "un petit homme",
+          "gabarit": "{un} {petit|petite} {espece}"
+        },
+        {
+          "id": "a4e7:texte",
+          "avant": "l’homme du monde",
+          "gabarit": "{le} {espece} du monde"
+        },
+        {
+          "id": "a4e20:texte",
+          "avant": "l’homme du monde",
+          "gabarit": "{le} {espece} du monde"
+        }
+      ]
+    },
+    {
+      "cle": "r2",
+      "espece": "femme",
+      "famille": "adulte",
+      "traits": [
+        "rêveur",
+        "timide",
+        "franc"
+      ],
+      "voix": "voix douce, hésitante puis très nette",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a1e9:texte",
+            "avant": "qu’elle serait aussi stupide",
+            "apres": "qu’il serait aussi stupide"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "qu’elle était belle",
+            "apres": "qu’il était beau"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "plus belle que le jour",
+            "apres": "plus beau que le jour"
+          },
+          {
+            "id": "a1e20:texte",
+            "avant": "si maladroite",
+            "apres": "si maladroit"
+          },
+          {
+            "id": "a1e21:texte",
+            "avant": "pour la voir",
+            "apres": "pour le voir"
+          },
+          {
+            "id": "a1e21:texte",
+            "avant": "au près d’elle",
+            "apres": "au près de lui"
+          },
+          {
+            "id": "a1e24:texte",
+            "avant": "cette pauvre princesse",
+            "apres": "ce pauvre prince"
+          },
+          {
+            "id": "a2e2:texte",
+            "avant": "qu’elle s’était retirée",
+            "apres": "qu’il s’était retiré"
+          },
+          {
+            "id": "a2e2:texte",
+            "avant": "elle vit venir",
+            "apres": "il vit venir"
+          },
+          {
+            "id": "a2e2:texte",
+            "avant": "venir à elle",
+            "apres": "venir à lui"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "pour la voir",
+            "apres": "pour le voir"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "qu’elle était fort mélancolique",
+            "apres": "qu’il était fort mélancolique"
+          },
+          {
+            "id": "a2e5:texte",
+            "avant": "madame",
+            "apres": "monsieur"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "aussi laide que vous",
+            "apres": "aussi laid que vous"
+          },
+          {
+            "id": "a2e9:texte",
+            "avant": "madame",
+            "apres": "monsieur"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "madame",
+            "apres": "monsieur"
+          },
+          {
+            "id": "a2e14:texte",
+            "avant": "toute étonnée",
+            "apres": "tout étonné"
+          },
+          {
+            "id": "a2e17:texte",
+            "avant": "qu’elle s’imagina",
+            "apres": "qu’il s’imagina"
+          },
+          {
+            "id": "a2e17:texte",
+            "avant": "qu’elle accepta",
+            "apres": "qu’il accepta"
+          },
+          {
+            "id": "a2e19:texte",
+            "avant": "qu’elle n’était auparavant",
+            "apres": "qu’il n’était auparavant"
+          },
+          {
+            "id": "a2e19:texte",
+            "avant": "elle se trouva",
+            "apres": "il se trouva"
+          },
+          {
+            "id": "a2e19:texte",
+            "avant": "Elle commença",
+            "apres": "Il commença"
+          },
+          {
+            "id": "a2e19:texte",
+            "avant": "où elle brilla",
+            "apres": "où il brilla"
+          },
+          {
+            "id": "a2e20:texte",
+            "avant": "vers elle",
+            "apres": "vers lui"
+          },
+          {
+            "id": "a3e2:texte",
+            "avant": "Quand elle fut retournée",
+            "apres": "Quand il fut retourné"
+          },
+          {
+            "id": "a3e2:texte",
+            "avant": "l’avait entendue dire",
+            "apres": "l’avait entendu dire"
+          },
+          {
+            "id": "a3e2:texte",
+            "avant": "auprès d’elle",
+            "apres": "auprès de lui"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "la demandèrent en mariage",
+            "apres": "le demandèrent en mariage"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "mais elle n’en trouvait",
+            "apres": "mais il n’en trouvait"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "elle les écoutait",
+            "apres": "il les écoutait"
+          },
+          {
+            "id": "a3e4:texte",
+            "avant": "Elle alla",
+            "apres": "Il alla"
+          },
+          {
+            "id": "a3e4:texte",
+            "avant": "où elle avait trouvé",
+            "apres": "où il avait trouvé"
+          },
+          {
+            "id": "a3e4:texte",
+            "avant": "qu’elle avait à faire",
+            "apres": "qu’il avait à faire"
+          },
+          {
+            "id": "a3e4:texte",
+            "avant": "qu’elle se promenait",
+            "apres": "qu’il se promenait"
+          },
+          {
+            "id": "a3e4:texte",
+            "avant": "elle entendit un bruit",
+            "apres": "il entendit un bruit"
+          },
+          {
+            "id": "a3e4:texte",
+            "avant": "elle entendit que l’on disait",
+            "apres": "il entendit que l’on disait"
+          },
+          {
+            "id": "a3e10:texte",
+            "avant": "elle vit sous ses pieds",
+            "apres": "il vit sous ses pieds"
+          },
+          {
+            "id": "a3e13:texte",
+            "avant": "madame",
+            "apres": "monsieur"
+          },
+          {
+            "id": "a3e15:texte",
+            "avant": "encore plus surprise",
+            "apres": "encore plus surpris"
+          },
+          {
+            "id": "a3e15:texte",
+            "avant": "qu’elle ne l’avait été",
+            "apres": "qu’il ne l’avait été"
+          },
+          {
+            "id": "a3e15:texte",
+            "avant": "qu’elle avait promis",
+            "apres": "qu’il avait promis"
+          },
+          {
+            "id": "a3e15:texte",
+            "avant": "qu’elle ne s’en souvenait pas",
+            "apres": "qu’il ne s’en souvenait pas"
+          },
+          {
+            "id": "a3e15:texte",
+            "avant": "quand elle fit",
+            "apres": "quand il fit"
+          },
+          {
+            "id": "a3e15:texte",
+            "avant": "elle était une bête",
+            "apres": "il était une bête"
+          },
+          {
+            "id": "a3e15:texte",
+            "avant": "elle avait oublié",
+            "apres": "il avait oublié"
+          },
+          {
+            "id": "a4e2:texte",
+            "avant": "Elle n’eut",
+            "apres": "Il n’eut"
+          },
+          {
+            "id": "a4e2:texte",
+            "avant": "à elle",
+            "apres": "à lui"
+          },
+          {
+            "id": "a4e4:texte",
+            "avant": "madame",
+            "apres": "monsieur"
+          },
+          {
+            "id": "a4e6:texte",
+            "avant": "madame",
+            "apres": "monsieur"
+          },
+          {
+            "id": "a4e7:texte",
+            "avant": "bien embarrassée",
+            "apres": "bien embarrassé"
+          },
+          {
+            "id": "a4e7:texte",
+            "avant": "Une princesse n’a",
+            "apres": "Un prince n’a"
+          },
+          {
+            "id": "a4e7:texte",
+            "avant": "je suis sûre",
+            "apres": "je suis sûr"
+          },
+          {
+            "id": "a4e12:texte",
+            "avant": "Êtes-vous mécontente",
+            "apres": "Êtes-vous mécontent"
+          },
+          {
+            "id": "a4e11:texte",
+            "avant": "madame",
+            "apres": "monsieur"
+          },
+          {
+            "id": "a4e20:texte",
+            "avant": "qu’elle eût",
+            "apres": "qu’il eût"
+          },
+          {
+            "id": "a4e21:texte",
+            "avant": "elle l’avait",
+            "apres": "il l’avait"
+          },
+          {
+            "id": "a4e21:texte",
+            "avant": "elle ne lui trouva",
+            "apres": "il ne lui trouva"
+          },
+          {
+            "id": "a4e21:texte",
+            "avant": "qui la charmait",
+            "apres": "qui le charmait"
+          },
+          {
+            "id": "a4e22:texte",
+            "avant": "sa fille avait beaucoup",
+            "apres": "son fils avait beaucoup"
+          },
+          {
+            "id": "a4e21:texte",
+            "avant": "pour elle",
+            "apres": "pour lui"
+          },
+          {
+            "id": "a2e13:texte",
+            "avant": "pouvoir, madame,",
+            "apres": "pouvoir, monsieur,"
+          },
+          {
+            "id": "a2e13:texte",
+            "avant": "êtes, madame,",
+            "apres": "êtes, monsieur,"
+          },
+          {
+            "id": "a4e16:texte",
+            "avant": "madame",
+            "apres": "monsieur"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r3",
+      "espece": "fee",
+      "famille": "feerique",
+      "traits": [
+        "sage",
+        "généreux"
+      ],
+      "voix": "voix tranquille et ferme, avec de longues pauses",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a1e9:texte",
+            "avant": "elle lui déclara",
+            "apres": "il lui déclara"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r4",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "travailleur",
+        "pressé"
+      ],
+      "voix": "voix sonore, qui rythme les appels de la cuisine",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a3e11:texte",
+            "avant": "vers lui",
+            "apres": "vers elle"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r5",
+      "espece": "femme",
+      "famille": "adulte",
+      "traits": [
+        "inquiet",
+        "aimant"
+      ],
+      "voix": "voix grave et lente, qui s’adoucit pour ses enfants",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a1e9:texte",
+            "avant": "reine d’un royaume",
+            "apres": "roi d’un royaume"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "mais elle eut",
+            "apres": "mais il eut"
+          },
+          {
+            "id": "a1e12:texte",
+            "avant": "madame",
+            "apres": "monsieur"
+          },
+          {
+            "id": "a1e14:texte",
+            "avant": "madame",
+            "apres": "monsieur"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 22,
+    "ageAuditoire": 7,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "Les deux palais",
+      "description": "Un coussin à gauche marque le palais de la première reine ; un coussin à droite marque celui de {{r5}}. Un tissu uni posé au fond suffit pour les deux royaumes. Les vêtements des personnages sont cousus avant la séance et ne changent jamais.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "Le bois",
+      "description": "Deux coussins dressés figurent les arbres. Le milieu de la table est l’allée où {{r1}} et {{r2}} se rencontrent et se retrouvent un an plus tard. Aucun objet n’est nécessaire pour montrer leur promesse ni la métamorphose.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t3",
+      "titre": "La cuisine sous la terre",
+      "description": "Un carton posé au fond marque la terre ; la cuisine est dans l’espace vide sous la table. {{r4}} apparaît d’abord très bas, puis au bord de la table pour répondre à {{r2}}. Les marmites et le bois restent hors de scène ; les appels et de petits mouvements de la peluche suffisent.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Deux dons à la naissance",
+      "resume": "{{r1}} reçoit le don de partager son esprit ; {{r2}} reçoit le don de rendre beau le personnage aimé.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Il était une fois une reine qui avait un fils si laid et si mal fait, qu’on douta longtemps s’il avait forme humaine."
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e3",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e4",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Il ne manquera pas d’être aimable, parce qu’il aura beaucoup d’esprit. Il pourra, en vertu du don que je viens de lui faire, donner autant d’esprit qu’il en aura à la personne qu’il épousera."
+        },
+        {
+          "id": "a1e5",
+          "type": "adresse_public",
+          "marionnetteId": "r3",
+          "texte": "Soufflez avec moi : « Beaucoup d’esprit ! »",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e6",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e7",
+          "type": "conteur",
+          "texte": "Tout cela consola un peu la pauvre reine, qui était bien affligée d’avoir pour enfant un si vilain marmot. Il est vrai que cet enfant ne commença pas plus tôt à parler, qu’il dit mille jolies choses, et qu’il avait dans toutes ses actions je ne sais quoi de si spirituel, qu’on en était charmé. J’oubliais de dire qu’il avait une petite houppe de cheveux sur la tête, ce qui fit qu’on le nomma {{r1}}, car {{r1}} était le nom de la famille."
+        },
+        {
+          "id": "a1e8",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e9",
+          "type": "conteur",
+          "texte": "{{r5}}, reine d’un royaume voisin, avait deux enfants. {{r2}} était plus belle que le jour. {{r3}} qui avait assisté à la naissance du petit {{r1}}, voulut modérer la joie de {{r5}} ; elle lui déclara que {{r2}} n’aurait point d’esprit, et qu’elle serait aussi stupide qu’elle était belle. Cela chagrina beaucoup {{r5}} ; mais elle eut un bien plus grand chagrin ; car la cadette se trouva extrêmement laide."
+        },
+        {
+          "id": "a1e10",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e11",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e12",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Ne vous affligez point tant, madame, votre fille sera récompensée d’ailleurs, et elle aura tant d’esprit, qu’on ne s’apercevra presque pas qu’il lui manque de la beauté."
+        },
+        {
+          "id": "a1e13",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Dieu le veuille ; mais n’y aurait-il pas moyen de faire avoir un peu d’esprit à {{r2}} ?"
+        },
+        {
+          "id": "a1e14",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Je ne puis rien pour {{r2}}, madame, du côté de l’esprit ; mais je puis tout, du côté de la beauté ; et, comme il n’y a rien que je ne veuille faire pour votre satisfaction, je vais lui donner pour don de pouvoir rendre beau ou belle la personne qui lui plaira."
+        },
+        {
+          "id": "a1e15",
+          "type": "adresse_public",
+          "marionnetteId": "r3",
+          "texte": "Répétez les deux dons : l’esprit, la beauté !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e16",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e17",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e18",
+          "type": "didascalie",
+          "texte": "Laissez une courte pause pour changer de peluche."
+        },
+        {
+          "id": "a1e19",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e20",
+          "type": "conteur",
+          "texte": "À mesure que les deux enfants grandissaient, leurs perfections grandissaient aussi, et on ne parlait partout que de la beauté de {{r2}} et de l’esprit de la cadette. Il est vrai que leurs défauts augmentèrent beaucoup avec l’âge. La cadette enlaidissait à vue d’œil, et {{r2}} devenait plus stupide de jour en jour. Ou {{r2}} ne répondait rien à ce qu’on lui demandait, ou {{r2}} disait une sottise. {{r2}} était avec cela si maladroite, qu’une porcelaine sur quatre se cassait près de {{r2}} et que la moitié de l’eau d’un verre se répandait sur ses habits."
+        },
+        {
+          "id": "a1e21",
+          "type": "conteur",
+          "texte": "Quoique la beauté soit un grand avantage, cependant la cadette l’emportait presque toujours sur {{r2}}, dans toutes les compagnies. D’abord on allait du côté de {{r2}}, pour la voir et pour l’admirer ; mais bientôt après on allait à celle qui avait le plus d’esprit, pour lui entendre dire mille choses agréables ; et on était étonné qu’en moins d’un quart d’heure {{r2}} n’avait plus personne au près d’elle, et que tout le monde s’était rangé autour de la cadette. {{r2}}, quoique fort stupide, le remarqua bien ; et {{r2}} eût donné sans regret toute sa beauté pour avoir la moitié de l’esprit de la cadette."
+        },
+        {
+          "id": "a1e22",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e23",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "{{r2}}, tu manques tant d’esprit !"
+        },
+        {
+          "id": "a1e24",
+          "type": "conteur",
+          "texte": "Cela faillit faire mourir de chagrin cette pauvre princesse."
+        },
+        {
+          "id": "a1e25",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e26",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "La promesse dans le bois",
+      "resume": "{{r1}} offre de l’esprit à {{r2}} contre une promesse de mariage un an plus tard.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e2",
+          "type": "conteur",
+          "texte": "Un jour qu’elle s’était retirée dans un bois pour y plaindre son malheur, elle vit venir à elle un petit homme fort laid et fort désagréable, mais vêtu très magnifiquement."
+        },
+        {
+          "id": "a2e3",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e4",
+          "type": "conteur",
+          "texte": "C’était le jeune prince {{r1}}, qui avait quitté le royaume de son père, pour la voir et lui parler. Il l’aborde, avec tout le respect et toute la politesse imaginable. Ayant remarqué, après lui avoir fait les compliments ordinaires, qu’elle était fort mélancolique, il lui dit :"
+        },
+        {
+          "id": "a2e5",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je ne comprends point, madame, comment une personne peut être aussi triste que vous le paraissez ; car, quoique je puisse me vanter d’avoir vu une infinité de personnes, je puis dire que je n’en ai jamais vu dont la distinction approche de la vôtre."
+        },
+        {
+          "id": "a2e6",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Cela vous plaît à dire, monsieur."
+        },
+        {
+          "id": "a2e7",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "La beauté est un grand avantage, et, quand on le possède, je ne vois pas qu’il y ait rien qui puisse nous affliger beaucoup."
+        },
+        {
+          "id": "a2e8",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "J’aimerais mieux être aussi laide que vous, et avoir de l’esprit, que d’avoir de la beauté comme j’en ai, et être bête autant que je le suis."
+        },
+        {
+          "id": "a2e9",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Il n’y a rien, madame, qui marque davantage qu’on a de l’esprit, que de croire n’en pas avoir, et il est de nature de ce bien-là que, plus on en a, plus on croit en manquer."
+        },
+        {
+          "id": "a2e10",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je ne sais pas cela ; mais je sais que je suis fort bête, et c’est de là que vient le chagrin qui me tue."
+        },
+        {
+          "id": "a2e11",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Si ce n’est que cela, madame, qui vous afflige, je puis aisément mettre fin à votre douleur."
+        },
+        {
+          "id": "a2e12",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Et comment ferez-vous ?"
+        },
+        {
+          "id": "a2e13",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "J’ai le pouvoir, madame, de donner de l’esprit autant qu’on en saurait avoir à la personne que je dois épouser ; et comme vous êtes, madame, cette personne, il ne tiendra qu’à vous d’avoir autant d’esprit qu’on en peut avoir, pourvu que vous vouliez bien m’épouser."
+        },
+        {
+          "id": "a2e14",
+          "type": "conteur",
+          "texte": "{{r2}} demeura toute étonnée, et ne répondit rien."
+        },
+        {
+          "id": "a2e15",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je vois que cette proposition vous fait de la peine, et je ne m’en étonne pas ; mais je vous donne un an tout entier pour vous y résoudre."
+        },
+        {
+          "id": "a2e16",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Un an tout entier : dites avec moi « un an » !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e17",
+          "type": "conteur",
+          "texte": "{{r2}} avait si peu d’esprit, et en même temps une si grande envie d’en avoir, qu’elle s’imagina que la fin de cette année ne viendrait jamais ; de sorte qu’elle accepta la proposition qui lui était faite."
+        },
+        {
+          "id": "a2e18",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je vous épouserai dans un an, jour pour jour."
+        },
+        {
+          "id": "a2e19",
+          "type": "conteur",
+          "texte": "Aussitôt après cette promesse, {{r2}} se sentit tout autre qu’elle n’était auparavant : elle se trouva une facilité incroyable à dire tout ce qui lui plaisait, et à le dire d’une manière fine, aisée et naturelle. Elle commença, dès ce moment, une conversation soutenue avec {{r1}}, où elle brilla d’une telle force, que {{r1}} crut lui avoir donné plus d’esprit qu’il ne s’en était réservé pour lui-même."
+        },
+        {
+          "id": "a2e20",
+          "type": "didascalie",
+          "texte": "{{r2}} se redresse ; {{r1}} se tourne vers elle et l’écoute."
+        },
+        {
+          "id": "a2e21",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e22",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "L’année écoulée",
+      "resume": "{{r2}} gagne de l’esprit, oublie sa promesse, puis découvre la cuisine des noces sous la terre.",
+      "tableauId": "t3",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e2",
+          "type": "conteur",
+          "texte": "Quand elle fut retournée au palais, toute la cour ne savait que penser d’un changement si subit et si extraordinaire ; car autant on l’avait entendue dire de sottises auparavant, autant on l’entendait dire des choses bien sensées et infiniment spirituelles. Toute la cour en eut une joie qui ne se peut imaginer ; il n’y eut que la cadette qui n’en fut pas bien aise, parce que, n’ayant plus sur {{r2}} l’avantage de l’esprit, elle ne brillait plus du tout auprès d’elle. Le roi suivait ses avis, et allait même quelquefois tenir le conseil dans son appartement."
+        },
+        {
+          "id": "a3e3",
+          "type": "conteur",
+          "texte": "Le bruit de ce changement s’étant répandu, tous les jeunes princes des royaumes voisins la demandèrent en mariage ; mais elle n’en trouvait point qui eût assez d’esprit, et elle les écoutait tous, sans s’engager envers aucun d’eux."
+        },
+        {
+          "id": "a3e4",
+          "type": "conteur",
+          "texte": "Elle alla par hasard se promener dans le même bois où elle avait trouvé {{r1}}, pour rêver plus commodément à ce qu’elle avait à faire. Dans le temps qu’elle se promenait, rêvant profondément, elle entendit un bruit sourd sous ses pieds, comme de plusieurs personnes qui vont et viennent et qui agissent. Ayant prêté l’oreille plus attentivement, elle entendit que l’on disait :"
+        },
+        {
+          "id": "a3e5",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Écoutez sous la table : faites un petit « boum, boum » avec votre voix.",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e6",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e7",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Apporte-moi cette marmite !"
+        },
+        {
+          "id": "a3e8",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Donne-moi cette chaudière !"
+        },
+        {
+          "id": "a3e9",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Mets du bois dans ce feu !"
+        },
+        {
+          "id": "a3e10",
+          "type": "conteur",
+          "texte": "La terre s’ouvrit dans le même temps, et elle vit sous ses pieds comme une grande cuisine pleine de cuisiniers, de marmitons et de toutes sortes de serviteurs nécessaires pour faire un festin magnifique. Il en sortit une bande de vingt ou trente rôtisseurs, qui allèrent se camper dans une allée du bois, autour d’une table fort longue, et qui, la queue de renard sur l’oreille, se mirent à travailler en cadence, au son d’une chanson harmonieuse."
+        },
+        {
+          "id": "a3e11",
+          "type": "didascalie",
+          "texte": "{{r4}} paraît au bord de la table ; {{r2}} se tourne vers lui."
+        },
+        {
+          "id": "a3e12",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Pour qui travaillez-vous ?"
+        },
+        {
+          "id": "a3e13",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "C’est, madame, pour le prince {{r1}}, dont les noces se feront demain."
+        },
+        {
+          "id": "a3e14",
+          "type": "adresse_public",
+          "marionnetteId": "r4",
+          "texte": "Demain ! Redites doucement ce mot : « demain ».",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e15",
+          "type": "conteur",
+          "texte": "{{r2}}, encore plus surprise qu’elle ne l’avait été, et se souvenant tout à coup qu’elle avait promis, un an plus tôt jour pour jour, d’épouser le prince {{r1}}, faillit tomber de son haut. Ce qui faisait qu’elle ne s’en souvenait pas, c’est que, quand elle fit cette promesse, elle était une bête, et qu’en prenant le nouvel esprit que le prince lui avait donné, elle avait oublié toutes ses sottises."
+        },
+        {
+          "id": "a3e16",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e17",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "numero": 4,
+      "titre": "La parole et le regard",
+      "resume": "{{r1}} réclame la promesse. {{r2}} lui dit sa crainte, puis découvre le don de la beauté et change de regard.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a4e1",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e2",
+          "type": "conteur",
+          "texte": "Elle n’eut pas fait trente pas, en continuant sa promenade, que {{r1}} se présenta à elle, élégant, magnifique, et comme un prince qui va se marier."
+        },
+        {
+          "id": "a4e3",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e4",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Vous me voyez, madame, venu tenir ma parole, et je ne doute point que vous ne veniez ici pour exécuter la vôtre, et me rendre, en m’épousant, le plus heureux qui soit."
+        },
+        {
+          "id": "a4e5",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je vous avouerai franchement que je n’ai pas encore pris ma résolution là-dessus, et que je ne crois pas pouvoir jamais la prendre telle que vous la souhaitez."
+        },
+        {
+          "id": "a4e6",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Vous m’étonnez, madame."
+        },
+        {
+          "id": "a4e7",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je le crois, et assurément, si j’avais affaire à un brutal, à un homme sans esprit, je me trouverais bien embarrassée. Une princesse n’a que sa parole, me dirait-il, et il faut que vous m’épousiez, puisque vous me l’avez promis ; mais, comme celui à qui je parle est l’homme du monde qui a le plus d’esprit, je suis sûre qu’il entendra raison."
+        },
+        {
+          "id": "a4e8",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Laissez retomber ce mot avec moi : « promesse ».",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e9",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Vous savez que, quand je n’étais qu’une bête, je ne pouvais néanmoins me résoudre à vous épouser ; comment voulez-vous qu’ayant l’esprit que vous m’avez donné, qui me rend encore plus difficile que je n’étais, je prenne aujourd’hui une résolution que je n’ai pu prendre dans ce temps-là ? Si vous pensiez tout de bon à m’épouser, vous avez eu grand tort de m’ôter ma bêtise, et de me faire voir plus clair que je ne voyais."
+        },
+        {
+          "id": "a4e10",
+          "type": "didascalie",
+          "texte": "{{r1}} recule d’un pas, puis revient face à {{r2}}."
+        },
+        {
+          "id": "a4e11",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Si un homme sans esprit serait bien reçu, comme vous venez de le dire, à vous reprocher votre manque de parole, pourquoi voulez-vous, madame, que je n’en use pas de même, dans une chose où il y va de tout le bonheur de ma vie ? Est-il raisonnable que les personnes qui ont de l’esprit soient d’une pire condition que celles qui n’en ont pas ? Le pouvez-vous prétendre, vous qui en avez tant, et qui avez tant souhaité d’en avoir ?"
+        },
+        {
+          "id": "a4e12",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Mais venons au fait, s’il vous plaît. À part ma laideur, y a-t-il quelque chose en moi qui vous déplaise ? Êtes-vous mécontente de ma naissance, de mon esprit, de mon humeur et de mes manières ?"
+        },
+        {
+          "id": "a4e13",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Nullement ; j’aime en vous tout ce que vous venez de me dire."
+        },
+        {
+          "id": "a4e14",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Si cela est ainsi, je vais être heureux, puisque vous pouvez me rendre le plus aimable qui soit."
+        },
+        {
+          "id": "a4e15",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Comment cela se peut-il faire ?"
+        },
+        {
+          "id": "a4e16",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Cela se fera si vous souhaitez que cela soit ; et afin, madame, que vous n’en doutiez pas, sachez que {{r3}} qui, au jour de ma naissance, me fit le don de pouvoir rendre spirituelle la personne qu’il me plairait, vous a aussi fait le don de pouvoir rendre beau celui à qui vous voudrez bien faire cette faveur."
+        },
+        {
+          "id": "a4e17",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Deux dons se répondent : dites « esprit », puis « beauté ».",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e18",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Si la chose est ainsi, je souhaite de tout mon cœur que vous deveniez le prince du monde le plus beau et le plus aimable ; et je vous en fais le don, autant qu’il est en moi."
+        },
+        {
+          "id": "a4e19",
+          "type": "didascalie",
+          "texte": "{{r2}} se tourne lentement vers {{r1}}. {{r1}} reste exactement la même peluche."
+        },
+        {
+          "id": "a4e20",
+          "type": "conteur",
+          "texte": "{{r2}} n’eut pas plus tôt prononcé ces paroles, que {{r1}} parut, à ses yeux, l’homme du monde le mieux fait et le plus aimable qu’elle eût jamais vu."
+        },
+        {
+          "id": "a4e21",
+          "type": "conteur",
+          "texte": "Quelques-uns assurent que ce ne furent point les charmes de {{r3}} qui opérèrent cette métamorphose. Ils disent que {{r2}}, ayant fait réflexion sur la persévérance de {{r1}}, sur sa discrétion et sur toutes les bonnes qualités de son âme et de son esprit, ne vit plus la difformité de son corps ni la laideur de son visage ; que sa bosse ne lui sembla plus que le bon air d’un homme qui fait le gros dos ; et qu’au lieu que jusqu’alors elle l’avait vu boîter effroyablement, elle ne lui trouva plus qu’un certain air penché qui la charmait. Ils disent encore que ses yeux, qui étaient louches, ne lui en parurent que plus brillants ; et qu’enfin son gros nez rouge eut pour elle quelque chose de martial et d’héroïque."
+        },
+        {
+          "id": "a4e22",
+          "type": "conteur",
+          "texte": "Quoi qu’il en soit, {{r2}} lui promit sur-le-champ de l’épouser, pourvu qu’il en obtînt le consentement du roi son père. Le roi, ayant su que sa fille avait beaucoup d’estime pour {{r1}}, qu’il connaissait d’ailleurs pour un prince très spirituel et très sage, le reçut avec plaisir pour son gendre. Dès le lendemain, les noces furent faites, ainsi que {{r1}} l’avait prévu, et selon les ordres qu’il en avait donnés longtemps auparavant."
+        },
+        {
+          "id": "a4e23",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e24",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "fr-perrault-riquet",
+    "synopsis": {
+      "accroche": "Une promesse faite dans le bois revient un an plus tard, à la veille des noces.",
+      "resume": [
+        "Deux dons unissent {{r1}} et {{r2}}.",
+        "{{r2}} devient brillante et oublie sa promesse.",
+        "La cuisine souterraine rappelle l’échéance.",
+        "Leur dernière conversation révèle le don de beauté et transforme le regard de {{r2}}."
+      ]
+    },
+    "transposition": {
+      "texte": "Il était une fois une reine qui avait un fils si laid et si mal fait, qu’on douta longtemps s’il avait forme humaine. {{r3}}, qui se trouva à son baptême, assura qu’il ne manquerait pas d’être aimable, parce qu’il aurait beaucoup d’esprit : elle ajouta même qu’il pourrait, en vertu du don qu’elle venait de lui faire, donner autant d’esprit qu’il en aurait à la personne qu’il épouserait.\n\nTout cela consola un peu la pauvre reine, qui était bien affligée d’avoir pour enfant un si vilain marmot. Il est vrai que cet enfant ne commença pas plus tôt à parler, qu’il dit mille jolies choses, et qu’il avait dans toutes ses actions je ne sais quoi de si spirituel, qu’on en était charmé. J’oubliais de dire qu’il avait une petite houppe de cheveux sur la tête, ce qui fit qu’on le nomma {{r1}}, car {{r1}} était le nom de la famille.\n\n{{r5}}, reine d’un royaume voisin, avait deux enfants. {{r2}} était plus belle que le jour. {{r3}} qui avait assisté à la naissance du petit {{r1}}, voulut modérer la joie de {{r5}} ; elle lui déclara que {{r2}} n’aurait point d’esprit, et qu’elle serait aussi stupide qu’elle était belle. Cela chagrina beaucoup {{r5}} ; mais elle eut un bien plus grand chagrin ; car la cadette se trouva extrêmement laide. « Ne vous affligez point tant, madame, lui dit {{r3}}, votre fille sera récompensée d’ailleurs, et elle aura tant d’esprit, qu’on ne s’apercevra presque pas qu’il lui manque de la beauté. — Dieu le veuille, répondit {{r5}} ; mais n’y aurait-il pas moyen de faire avoir un peu d’esprit à {{r2}} ? — Je ne puis rien pour elle, madame, du côté de l’esprit, lui dit {{r3}} ; mais je puis tout, du côté de la beauté ; et, comme il n’y a rien que je ne veuille faire pour votre satisfaction, je vais lui donner pour don de pouvoir rendre beau ou belle la personne qui lui plaira. »\n\nÀ mesure que les deux enfants grandissaient, leurs perfections grandissaient aussi, et on ne parlait partout que de la beauté de {{r2}} et de l’esprit de la cadette. Il est vrai que leurs défauts augmentèrent beaucoup avec l’âge. La cadette enlaidissait à vue d’œil, et {{r2}} devenait plus stupide de jour en jour. Ou {{r2}} ne répondait rien à ce qu’on lui demandait, ou {{r2}} disait une sottise. {{r2}} était avec cela si maladroite, qu’une porcelaine sur quatre se cassait près de {{r2}} et que la moitié de l’eau d’un verre se répandait sur ses habits.\n\nQuoique la beauté soit un grand avantage, cependant la cadette l’emportait presque toujours sur {{r2}}, dans toutes les compagnies. D’abord on allait du côté de {{r2}}, pour la voir et pour l’admirer ; mais bientôt après on allait à celle qui avait le plus d’esprit, pour lui entendre dire mille choses agréables ; et on était étonné qu’en moins d’un quart d’heure {{r2}} n’avait plus personne au près d’elle, et que tout le monde s’était rangé autour de la cadette. {{r2}}, quoique fort stupide, le remarqua bien ; et {{r2}} eût donné sans regret toute sa beauté pour avoir la moitié de l’esprit de la cadette. {{r5}}, toute sage qu’elle était, ne pût s’empêcher de lui reprocher plusieurs fois sa bêtise. Cela faillit faire mourir de chagrin cette pauvre princesse.\n\nUn jour qu’elle s’était retirée dans un bois pour y plaindre son malheur, elle vit venir à elle un petit homme fort laid et fort désagréable, mais vêtu très magnifiquement. C’était le jeune prince {{r1}}, qui avait quitté le royaume de son père, pour la voir et lui parler. Il l’aborde, avec tout le respect et toute la politesse imaginable. Ayant remarqué, après lui avoir fait les compliments ordinaires, qu’elle était fort mélancolique, il lui dit : « Je ne comprends point, madame, comment une personne peut être aussi triste que vous le paraissez ; car, quoique je puisse me vanter d’avoir vu une infinité de personnes, je puis dire que je n’en ai jamais vu dont la distinction approche de la vôtre.\n\n— Cela vous plaît à dire, monsieur, lui répondit {{r2}}, sans en dire plus. — La beauté, reprit {{r1}}, est un grand avantage, et, quand on le possède, je ne vois pas qu’il y ait rien qui puisse nous affliger beaucoup. — J’aimerais mieux, dit {{r2}}, être aussi laide que vous, et avoir de l’esprit, que d’avoir de la beauté comme j’en ai, et être bête autant que je le suis. — Il n’y a rien, madame, qui marque davantage qu’on a de l’esprit, que de croire n’en pas avoir, et il est de nature de ce bien-là que, plus on en a, plus on croit en manquer. — Je ne sais pas cela, dit {{r2}} ; mais je sais que je suis fort bête, et c’est de là que vient le chagrin qui me tue. — Si ce n’est que cela, madame, qui vous afflige, je puis aisément mettre fin à votre douleur. — Et comment ferez-vous ? dit {{r2}}. — J’ai le pouvoir, madame, dit {{r1}}, de donner de l’esprit autant qu’on en saurait avoir à la personne que je dois épouser ; et comme vous êtes, madame, cette personne, il ne tiendra qu’à vous d’avoir autant d’esprit qu’on en peut avoir, pourvu que vous vouliez bien m’épouser. »\n\n{{r2}} demeura toute étonnée, et ne répondit rien. « Je vois, reprit {{r1}}, que cette proposition vous fait de la peine, et je ne m’en étonne pas ; mais je vous donne un an tout entier pour vous y résoudre. » {{r2}} avait si peu d’esprit, et en même temps une si grande envie d’en avoir, qu’elle s’imagina que la fin de cette année ne viendrait jamais ; de sorte qu’elle accepta la proposition qui lui était faite. {{r2}} promit à {{r1}} qu’elle l’épouserait dans un an, jour pour jour. Aussitôt après cette promesse, {{r2}} se sentit tout autre qu’elle n’était auparavant : elle se trouva une facilité incroyable à dire tout ce qui lui plaisait, et à le dire d’une manière fine, aisée et naturelle. Elle commença, dès ce moment, une conversation soutenue avec {{r1}}, où elle brilla d’une telle force, que {{r1}} crut lui avoir donné plus d’esprit qu’il ne s’en était réservé pour lui-même.\n\nQuand elle fut retournée au palais, toute la cour ne savait que penser d’un changement si subit et si extraordinaire ; car autant on l’avait entendue dire de sottises auparavant, autant on l’entendait dire des choses bien sensées et infiniment spirituelles. Toute la cour en eut une joie qui ne se peut imaginer ; il n’y eut que la cadette qui n’en fut pas bien aise, parce que, n’ayant plus sur {{r2}} l’avantage de l’esprit, elle ne brillait plus du tout auprès d’elle. Le roi suivait ses avis, et allait même quelquefois tenir le conseil dans son appartement.\n\nLe bruit de ce changement s’étant répandu, tous les jeunes princes des royaumes voisins la demandèrent en mariage ; mais elle n’en trouvait point qui eût assez d’esprit, et elle les écoutait tous, sans s’engager envers aucun d’eux.\n\nElle alla par hasard se promener dans le même bois où elle avait trouvé {{r1}}, pour rêver plus commodément à ce qu’elle avait à faire. Dans le temps qu’elle se promenait, rêvant profondément, elle entendit un bruit sourd sous ses pieds, comme de plusieurs personnes qui vont et viennent et qui agissent. Ayant prêté l’oreille plus attentivement, elle entendit que l’on disait : «Apporte-moi cette marmite ; » l’autre : « Donne-moi cette chaudière ; » l’autre : « Mets du bois dans ce feu. » La terre s’ouvrit dans le même temps, et elle vit sous ses pieds comme une grande cuisine pleine de cuisiniers, de marmitons et de toutes sortes de serviteurs nécessaires pour faire un festin magnifique. Il en sortit une bande de vingt ou trente rôtisseurs, qui allèrent se camper dans une allée du bois, autour d’une table fort longue, et qui, la queue de renard sur l’oreille, se mirent à travailler en cadence, au son d’une chanson harmonieuse.\n\n{{r2}}, étonnée de ce spectacle, leur demanda pour qui ils travaillaient. « C’est, madame, lui répondit {{r4}}, chef de la bande, pour le prince {{r1}}, dont les noces se feront demain. » {{r2}}, encore plus surprise qu’elle ne l’avait été, et se souvenant tout à coup qu’elle avait promis, un an plus tôt jour pour jour, d’épouser le prince {{r1}}, faillit tomber de son haut. Ce qui faisait qu’elle ne s’en souvenait pas, c’est que, quand elle fit cette promesse, elle était une bête, et qu’en prenant le nouvel esprit que le prince lui avait donné, elle avait oublié toutes ses sottises.\n\nElle n’eut pas fait trente pas, en continuant sa promenade, que {{r1}} se présenta à elle, élégant, magnifique, et comme un prince qui va se marier. « Vous me voyez, dit-il, madame, venu tenir ma parole, et je ne doute point que vous ne veniez ici pour exécuter la vôtre, et me rendre, en m’épousant, le plus heureux qui soit, — Je vous avouerai franchement, répondit {{r2}}, que je n’ai pas encore pris ma résolution là-dessus, et que je ne crois pas pouvoir jamais la prendre telle que vous la souhaitez. — Vous m’étonnez, madame, lui dit {{r1}}. — Je le crois, dit {{r2}}, et assurément, si j’avais affaire à un brutal, à un homme sans esprit, je me trouverais bien embarrassée. Une princesse n’a que sa parole, me dirait-il, et il faut que vous m’épousiez, puisque vous me l’avez promis ; mais, comme celui à qui je parle est l’homme du monde qui a le plus d’esprit, je suis sûre qu’il entendra raison. Vous savez que, quand je n’étais qu’une bête, je ne pouvais néanmoins me résoudre à vous épouser ; comment voulez-vous qu’ayant l’esprit que vous m’avez donné, qui me rend encore plus difficile que je n’étais, je prenne aujourd’hui une résolution que je n’ai pu prendre dans ce temps-là ? Si vous pensiez tout de bon à m’épouser, vous avez eu grand tort de m’ôter ma bêtise, et de me faire voir plus clair que je ne voyais.\n\n— Si un homme sans esprit, répondit {{r1}}, serait bien reçu, comme vous venez de le dire, à vous reprocher votre manque de parole, pourquoi voulez-vous, madame, que je n’en use pas de même, dans une chose où il y va de tout le bonheur de ma vie ? Est-il raisonnable que les personnes qui ont de l’esprit soient d’une pire condition que celles qui n’en ont pas ? Le pouvez-vous prétendre, vous qui en avez tant, et qui avez tant souhaité d’en avoir ? Mais venons au fait, s’il vous plaît. À part ma laideur, y a-t-il quelque chose en moi qui vous déplaise ? Êtes-vous mécontente de ma naissance, de mon esprit, de mon humeur et de mes manières ? — Nullement, répondit {{r2}} ; j’aime en vous tout ce que vous venez de me dire. — Si cela est ainsi, reprit {{r1}}, je vais être heureux, puisque vous pouvez me rendre le plus aimable qui soit. — Comment cela se peut-il faire ? lui dit {{r2}}. — Cela se fera, répondit {{r1}}, si vous souhaitez que cela soit ; et afin, madame, que vous n’en doutiez pas, sachez que {{r3}} qui, au jour de ma naissance, me fit le don de pouvoir rendre spirituelle la personne qu’il me plairait, vous a aussi fait le don de pouvoir rendre beau celui à qui vous voudrez bien faire cette faveur.\n\n— Si la chose est ainsi, dit {{r2}}, je souhaite de tout mon cœur que vous deveniez le prince du monde le plus beau et le plus aimable ; et je vous en fais le don, autant qu’il est en moi. »\n\n{{r2}} n’eut pas plus tôt prononcé ces paroles, que {{r1}} parut, à ses yeux, l’homme du monde le mieux fait et le plus aimable qu’elle eût jamais vu.\n\nQuelques-uns assurent que ce ne furent point les charmes de {{r3}} qui opérèrent cette métamorphose. Ils disent que {{r2}}, ayant fait réflexion sur la persévérance de {{r1}}, sur sa discrétion et sur toutes les bonnes qualités de son âme et de son esprit, ne vit plus la difformité de son corps ni la laideur de son visage ; que sa bosse ne lui sembla plus que le bon air d’un homme qui fait le gros dos ; et qu’au lieu que jusqu’alors elle l’avait vu boîter effroyablement, elle ne lui trouva plus qu’un certain air penché qui la charmait. Ils disent encore que ses yeux, qui étaient louches, ne lui en parurent que plus brillants ; et qu’enfin son gros nez rouge eut pour elle quelque chose de martial et d’héroïque.\n\nQuoi qu’il en soit, {{r2}} lui promit sur-le-champ de l’épouser, pourvu qu’il en obtînt le consentement du roi son père. Le roi, ayant su que sa fille avait beaucoup d’estime pour {{r1}}, qu’il connaissait d’ailleurs pour un prince très spirituel et très sage, le reçut avec plaisir pour son gendre. Dès le lendemain, les noces furent faites, ainsi que {{r1}} l’avait prévu, et selon les ordres qu’il en avait donnés longtemps auparavant."
+    }
+  },
+  "dureeEstimeeSecondes": 1321,
+  "interactionsOrdonnees": [
+    "a2e16",
+    "a4e8",
+    "a1e15",
+    "a4e17",
+    "a3e14",
+    "a3e5",
+    "a1e5"
+  ]
+}

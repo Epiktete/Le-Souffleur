@@ -1,0 +1,2125 @@
+{
+  "id": "ja-momotaro--1",
+  "conteId": "ja-momotaro",
+  "titre": "Momotarō, le garçon né d’une pêche",
+  "pitch": "{{r1}} naît d’une pêche et part vers l’île aux Ogres. {{r2}}, {{r3}} et {{r4}} l’aident à vaincre le chef des ogres et à rapporter les trésors chez {{r5}} et {{r6}}.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "garcon",
+      "famille": "enfant",
+      "traits": [
+        "courageux",
+        "fort",
+        "gentil"
+      ],
+      "voix": "voix claire et vive, très sûre d’elle au château",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e34:texte",
+            "avant": "avoir un enfant",
+            "apres": "avoir une enfant"
+          },
+          {
+            "id": "a1e34:texte",
+            "avant": "nous l’ont envoyé",
+            "apres": "nous l’ont envoyée"
+          },
+          {
+            "id": "a1e38:texte",
+            "avant": "quel enfant plein",
+            "apres": "quelle enfant pleine"
+          },
+          {
+            "id": "a1e45:texte",
+            "avant": "un enfant né",
+            "apres": "une enfant née"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "bien plus grand",
+            "apres": "bien plus grande"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "le battre",
+            "apres": "la battre"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "il avait très bon",
+            "apres": "elle avait très bon"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "il était plein",
+            "apres": "elle était pleine"
+          },
+          {
+            "id": "a2e2:texte",
+            "avant": "aussi fort que",
+            "apres": "aussi forte que"
+          },
+          {
+            "id": "a2e2:texte",
+            "avant": "Il eut envie",
+            "apres": "Elle eut envie"
+          },
+          {
+            "id": "a2e5:texte",
+            "avant": "il eut tellement",
+            "apres": "elle eut tellement"
+          },
+          {
+            "id": "a2e5:texte",
+            "avant": "qu’il ne tenait",
+            "apres": "qu’elle ne tenait"
+          },
+          {
+            "id": "a2e5:texte",
+            "avant": "il se présenta",
+            "apres": "elle se présenta"
+          },
+          {
+            "id": "a2e9:ton",
+            "avant": "respectueux",
+            "apres": "respectueuse"
+          },
+          {
+            "id": "a2e20:texte",
+            "avant": "était prêt",
+            "apres": "était prête"
+          },
+          {
+            "id": "a2e32:ton",
+            "avant": "sûr de lui",
+            "apres": "sûre d’elle"
+          },
+          {
+            "id": "a2e34:texte",
+            "avant": "Et il partit",
+            "apres": "Et elle partit"
+          },
+          {
+            "id": "a2e34:texte",
+            "avant": "derrière lui",
+            "apres": "derrière elle"
+          },
+          {
+            "id": "a2e34:texte",
+            "avant": "le regarder s’éloigner",
+            "apres": "la regarder s’éloigner"
+          },
+          {
+            "id": "a2e76:texte",
+            "avant": "plein d’ardeur",
+            "apres": "pleine d’ardeur"
+          },
+          {
+            "id": "a3e20:ton",
+            "avant": "joyeux",
+            "apres": "joyeuse"
+          },
+          {
+            "id": "a3e35:texte",
+            "avant": "suivi de",
+            "apres": "suivie de"
+          },
+          {
+            "id": "a3e39:texte",
+            "avant": "Le ",
+            "apres": "La "
+          },
+          {
+            "id": "a4e52:texte",
+            "avant": "le meilleur du Japon",
+            "apres": "la meilleure du Japon"
+          },
+          {
+            "id": "a4e56:texte",
+            "avant": "pas blessé",
+            "apres": "pas blessée"
+          },
+          {
+            "id": "a4e61:ton",
+            "avant": "joyeux",
+            "apres": "joyeuse"
+          },
+          {
+            "id": "a2e39:texte",
+            "avant": "Monsieur ",
+            "apres": "Madame "
+          },
+          {
+            "id": "a2e39:texte",
+            "avant": "monsieur ",
+            "apres": "madame "
+          },
+          {
+            "id": "a2e53:texte",
+            "avant": "Monsieur ",
+            "apres": "Madame "
+          },
+          {
+            "id": "a2e53:texte",
+            "avant": "monsieur ",
+            "apres": "madame "
+          },
+          {
+            "id": "a2e67:texte",
+            "avant": "Monsieur ",
+            "apres": "Madame "
+          },
+          {
+            "id": "a2e67:texte",
+            "avant": "monsieur ",
+            "apres": "madame "
+          },
+          {
+            "id": "a2e48:texte",
+            "avant": "seul",
+            "apres": "seule"
+          },
+          {
+            "id": "a2e62:texte",
+            "avant": "seul",
+            "apres": "seule"
+          },
+          {
+            "id": "a3e39:texte",
+            "avant": "est venu",
+            "apres": "est venue"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a1e45:texte",
+          "avant": "le garçon de la pêche",
+          "gabarit": "{le} {espece} de la pêche"
+        }
+      ]
+    },
+    {
+      "cle": "r2",
+      "espece": "chien",
+      "famille": "gros",
+      "traits": [
+        "courageux",
+        "gourmand"
+      ],
+      "voix": "voix grave et bondissante ; son « ouah » part très vite",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2e39:ton",
+            "avant": "poli",
+            "apres": "polie"
+          },
+          {
+            "id": "a3e4:texte",
+            "avant": "le rameur",
+            "apres": "la rameuse"
+          },
+          {
+            "id": "a3e4:ton",
+            "avant": "décidé",
+            "apres": "décidée"
+          },
+          {
+            "id": "a4e62:ton",
+            "avant": "joyeux",
+            "apres": "joyeuse"
+          },
+          {
+            "id": "a3e23:ton",
+            "avant": "joyeux",
+            "apres": "joyeuse"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a2e35:texte",
+          "avant": "un chien",
+          "gabarit": "{un} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r3",
+      "espece": "singe",
+      "famille": "petit",
+      "traits": [
+        "rusé",
+        "farceur"
+      ],
+      "voix": "voix rapide et aiguë ; son « kia » rebondit",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2e53:ton",
+            "avant": "poli",
+            "apres": "polie"
+          },
+          {
+            "id": "a3e8:ton",
+            "avant": "décidé",
+            "apres": "décidée"
+          },
+          {
+            "id": "a3e27:ton",
+            "avant": "joyeux",
+            "apres": "joyeuse"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a2e49:texte",
+          "avant": "un singe",
+          "gabarit": "{un} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r4",
+      "espece": "faisan",
+      "famille": "oiseau",
+      "traits": [
+        "courageux",
+        "bavard"
+      ],
+      "voix": "voix claire et perçante ; son « kèn » porte au loin",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2e67:ton",
+            "avant": "poli",
+            "apres": "polie"
+          },
+          {
+            "id": "a3e12:ton",
+            "avant": "décidé",
+            "apres": "décidée"
+          },
+          {
+            "id": "a3e19:texte",
+            "avant": "était parti",
+            "apres": "était partie"
+          },
+          {
+            "id": "a3e32:texte",
+            "avant": "s’était posé",
+            "apres": "s’était posée"
+          },
+          {
+            "id": "a4e72:ton",
+            "avant": "joyeux",
+            "apres": "joyeuse"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a2e63:texte",
+          "avant": "un faisan",
+          "gabarit": "{un} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r5",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "gentil",
+        "attentionné"
+      ],
+      "voix": "voix posée et chaleureuse, qui éclate de joie au retour",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e1:texte",
+            "avant": ", un vieux nommé",
+            "apres": ", une vieille nommée"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "mon vieux",
+            "apres": "ma vieille"
+          },
+          {
+            "id": "a1e13:texte",
+            "avant": "mon vieux",
+            "apres": "ma vieille"
+          },
+          {
+            "id": "a1e18:texte",
+            "avant": "rentré",
+            "apres": "rentrée"
+          },
+          {
+            "id": "a1e18:ton",
+            "avant": "joyeux",
+            "apres": "joyeuse"
+          },
+          {
+            "id": "a1e19:texte",
+            "avant": "mon vieux",
+            "apres": "ma vieille"
+          },
+          {
+            "id": "a1e23:ton",
+            "avant": "étonné",
+            "apres": "étonnée"
+          },
+          {
+            "id": "a1e25:ton",
+            "avant": "étonné",
+            "apres": "étonnée"
+          },
+          {
+            "id": "a1e26:texte",
+            "avant": "devant lui",
+            "apres": "devant elle"
+          },
+          {
+            "id": "a2e10:ton",
+            "avant": "surpris",
+            "apres": "surprise"
+          },
+          {
+            "id": "a2e12:ton",
+            "avant": "fier",
+            "apres": "fière"
+          },
+          {
+            "id": "a2e26:ton",
+            "avant": "encourageant",
+            "apres": "encourageante"
+          },
+          {
+            "id": "a4e40:ton",
+            "avant": "inquiet",
+            "apres": "inquiète"
+          },
+          {
+            "id": "a4e52:ton",
+            "avant": "fier",
+            "apres": "fière"
+          },
+          {
+            "id": "a2e24:texte",
+            "avant": "père !",
+            "apres": "mère !"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r6",
+      "espece": "femme",
+      "famille": "adulte",
+      "traits": [
+        "gentil",
+        "attentionné"
+      ],
+      "voix": "voix chaleureuse, qui accélère quand la pêche arrive",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a1e1:texte",
+            "avant": "et une vieille nommée",
+            "apres": "et un vieux nommé"
+          },
+          {
+            "id": "a1e6:ton",
+            "avant": "émerveillée",
+            "apres": "émerveillé"
+          },
+          {
+            "id": "a1e13:ton",
+            "avant": "joyeuse",
+            "apres": "joyeux"
+          },
+          {
+            "id": "a1e18:texte",
+            "avant": "Ma vieille",
+            "apres": "Mon vieux"
+          },
+          {
+            "id": "a1e19:ton",
+            "avant": "joyeuse",
+            "apres": "joyeux"
+          },
+          {
+            "id": "a1e22:ton",
+            "avant": "fière",
+            "apres": "fier"
+          },
+          {
+            "id": "a1e24:ton",
+            "avant": "fière",
+            "apres": "fier"
+          },
+          {
+            "id": "a1e34:ton",
+            "avant": "émue",
+            "apres": "ému"
+          },
+          {
+            "id": "a1e38:ton",
+            "avant": "surprise",
+            "apres": "surpris"
+          },
+          {
+            "id": "a2e16:ton",
+            "avant": "attentionnée",
+            "apres": "attentionné"
+          },
+          {
+            "id": "a2e31:ton",
+            "avant": "douce",
+            "apres": "doux"
+          },
+          {
+            "id": "a4e56:ton",
+            "avant": "soulagée",
+            "apres": "soulagé"
+          },
+          {
+            "id": "a1e7:texte",
+            "avant": "elle se pencha",
+            "apres": "il se pencha"
+          },
+          {
+            "id": "a1e14:texte",
+            "avant": "avec elle",
+            "apres": "avec lui"
+          },
+          {
+            "id": "a1e33:ton",
+            "avant": "surprise",
+            "apres": "surpris"
+          },
+          {
+            "id": "a2e30:texte",
+            "avant": "Mère,",
+            "apres": "Père,"
+          },
+          {
+            "id": "a4e44:ton",
+            "avant": "inquiète",
+            "apres": "inquiet"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 22,
+    "ageAuditoire": 3,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La rivière et la maison",
+      "description": "Posez un carton plié comme une pêche sur un côté de la table avant le spectacle. Un drap bleu devant la table figure la rivière ; le même bord de table devient la maison. {{r1}} peut surgir de derrière le carton. Linge, bassine et bain restent dans le récit.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "La route des trois rencontres",
+      "description": "Deux coussins debout figurent d’abord la montagne, puis les arbres. L’espace libre de la table devient la plaine. Aucun aliment ne circule : les boulettes existent dans les paroles. Le manteau, le sabre et le sac sont seulement racontés ; ne rien enfiler ni attacher pendant le jeu.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t3",
+      "titre": "Le bateau et la porte",
+      "description": "Un drap bleu figure la mer. Un carton plié, léger et entrouvert forme la porte du château : une peluche peut le pousser de tout son corps. Les peluches glissent pour la traversée et les voix font le bruit de la porte.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t4",
+      "titre": "Le château et le retour",
+      "description": "Gardez le carton de la porte, puis repoussez-le au fond entre deux actes. Le chef des ogres reste une voix rare face à {{r1}}. La charrette et les trésors restent dans le récit ; les peluches avancent en cadence. La maison reparaît du côté de {{r6}}.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "La pêche de la rivière",
+      "resume": "{{r6}} trouve une pêche dans la rivière. Un bébé en sort et devient {{r1}}.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Il était une fois, il y a bien longtemps, quelque part, un vieux nommé {{r5}} et une vieille nommée {{r6}}. Chaque jour, {{r5}} allait dans la montagne couper des broussailles, et {{r6}} allait à la rivière laver le linge."
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e3",
+          "type": "conteur",
+          "texte": "Un jour, alors que {{r6}} lavait son linge avec ardeur au bord de la rivière, une grosse pêche descendit le courant, depuis l’amont :"
+        },
+        {
+          "id": "a1e4",
+          "type": "conteur",
+          "texte": "Donbura-kokko, sukkokko.\nDonbura-kokko, sukkokko."
+        },
+        {
+          "id": "a1e5",
+          "type": "adresse_public",
+          "texte": "Chantez avec moi : « Donbura-kokko, sukkokko ! »",
+          "marionnetteId": "r6",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e6",
+          "type": "replique",
+          "texte": "Oh, oh, quelle magnifique pêche ! Je vais la rapporter à la maison, en cadeau pour mon vieux.",
+          "marionnetteId": "r6",
+          "ton": "émerveillée"
+        },
+        {
+          "id": "a1e7",
+          "type": "conteur",
+          "texte": "Ainsi parlait {{r6}}, et elle se pencha vers la pêche ; mais la pêche était trop loin. Alors {{r6}} chanta :"
+        },
+        {
+          "id": "a1e8",
+          "type": "replique",
+          "texte": "L’eau de là-bas est salée,\nL’eau d’ici est sucrée ;\nFuis l’eau salée,\nViens vers l’eau sucrée !",
+          "marionnetteId": "r6",
+          "ton": "en chantant"
+        },
+        {
+          "id": "a1e9",
+          "type": "adresse_public",
+          "texte": "Dites avec moi : « Viens vers l’eau sucrée ! »",
+          "marionnetteId": "r6",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e10",
+          "type": "conteur",
+          "texte": "Alors la pêche, de nouveau :"
+        },
+        {
+          "id": "a1e11",
+          "type": "conteur",
+          "texte": "Donbura-kokko, sukkokko.\nDonbura-kokko, sukkokko."
+        },
+        {
+          "id": "a1e12",
+          "type": "conteur",
+          "texte": "descendit le courant jusque devant {{r6}}. {{r6}}, tout sourire, dit :"
+        },
+        {
+          "id": "a1e13",
+          "type": "replique",
+          "texte": "Vite, partageons-la et mangeons-la, mon vieux et moi.",
+          "marionnetteId": "r6",
+          "ton": "joyeuse"
+        },
+        {
+          "id": "a1e14",
+          "type": "conteur",
+          "texte": "La pêche se retrouva dans la bassine avec le linge. {{r6}} regagna la maison à grand-peine, ahan, ahan, et la pêche arriva avec elle."
+        },
+        {
+          "id": "a1e15",
+          "type": "didascalie",
+          "texte": "{{r6}} se redresse et regarde vers la montagne."
+        },
+        {
+          "id": "a1e16",
+          "type": "conteur",
+          "texte": "Le soir, enfin, {{r5}} rentra de la montagne avec ses broussailles sur le dos."
+        },
+        {
+          "id": "a1e17",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e18",
+          "type": "replique",
+          "texte": "Ma vieille, me voilà rentré.",
+          "marionnetteId": "r5",
+          "ton": "joyeux"
+        },
+        {
+          "id": "a1e19",
+          "type": "replique",
+          "texte": "Oh, mon vieux, bon retour. Je t’attendais. Vite, entre donc. J’ai quelque chose de bon pour toi.",
+          "marionnetteId": "r6",
+          "ton": "joyeuse"
+        },
+        {
+          "id": "a1e20",
+          "type": "replique",
+          "texte": "Voilà qui est bien aimable. Qu’est-ce que c’est, cette bonne chose ?",
+          "marionnetteId": "r5"
+        },
+        {
+          "id": "a1e21",
+          "type": "conteur",
+          "texte": "Tout en parlant, {{r5}} entra, les sandales de paille restées devant la porte. Pendant ce temps, la pêche réapparut, venue du placard, comme si elle était très lourde. {{r6}} dit :"
+        },
+        {
+          "id": "a1e22",
+          "type": "replique",
+          "texte": "Tiens, regarde un peu cette pêche.",
+          "marionnetteId": "r6",
+          "ton": "fière"
+        },
+        {
+          "id": "a1e23",
+          "type": "replique",
+          "texte": "Oh, oh, ça alors ! Où as-tu acheté une si belle pêche ?",
+          "marionnetteId": "r5",
+          "ton": "étonné"
+        },
+        {
+          "id": "a1e24",
+          "type": "replique",
+          "texte": "Mais non, je ne l’ai pas achetée : elle vient de la rivière, où je l’ai trouvée aujourd’hui.",
+          "marionnetteId": "r6",
+          "ton": "fière"
+        },
+        {
+          "id": "a1e25",
+          "type": "replique",
+          "texte": "Hein, quoi, trouvée à la rivière ? Voilà qui est vraiment extraordinaire.",
+          "marionnetteId": "r5",
+          "ton": "étonné"
+        },
+        {
+          "id": "a1e26",
+          "type": "conteur",
+          "texte": "Et tandis que {{r5}}, la pêche posée devant lui, la regardait sous tous les angles, tout à coup, la pêche s’ouvrit en deux — pon ! —"
+        },
+        {
+          "id": "a1e27",
+          "type": "adresse_public",
+          "texte": "Faites avec moi le bruit de la pêche : « pon ! »",
+          "marionnetteId": "r6",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e28",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e29",
+          "type": "note_marionnettiste",
+          "texte": "Laisser une respiration pour faire apparaître le bébé sur la main gauche ; {{r6}} reste à droite."
+        },
+        {
+          "id": "a1e30",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e31",
+          "type": "didascalie",
+          "texte": "{{r1}} surgit de derrière le carton de la pêche, puis bondit une fois."
+        },
+        {
+          "id": "a1e32",
+          "type": "replique",
+          "texte": "Ouin, ouin !",
+          "marionnetteId": "r1",
+          "ton": "avec force"
+        },
+        {
+          "id": "a1e33",
+          "type": "replique",
+          "texte": "Oh, oh, ça alors !",
+          "marionnetteId": "r6",
+          "ton": "surprise"
+        },
+        {
+          "id": "a1e34",
+          "type": "replique",
+          "texte": "Ça alors ! Comme nous disions toujours que nous voudrions tant avoir un enfant, ce sont sûrement les dieux qui nous l’ont envoyé.",
+          "marionnetteId": "r6",
+          "ton": "émue"
+        },
+        {
+          "id": "a1e35",
+          "type": "conteur",
+          "texte": "Alors l’eau du bain fut vite chaude, les langes furent prêts, et dans un grand remue-ménage le bébé reçut son premier bain."
+        },
+        {
+          "id": "a1e36",
+          "type": "didascalie",
+          "texte": "{{r1}} se redresse brusquement devant {{r6}}."
+        },
+        {
+          "id": "a1e37",
+          "type": "replique",
+          "texte": "Hmm !",
+          "marionnetteId": "r1",
+          "ton": "avec force"
+        },
+        {
+          "id": "a1e38",
+          "type": "replique",
+          "texte": "Oh, oh, quel enfant plein de force !",
+          "marionnetteId": "r6",
+          "ton": "surprise"
+        },
+        {
+          "id": "a1e39",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e40",
+          "type": "note_marionnettiste",
+          "texte": "Laisser une respiration pour changer de peluche sur cette main."
+        },
+        {
+          "id": "a1e41",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e42",
+          "type": "didascalie",
+          "texte": "{{r5}} et {{r6}} se tournent face à face."
+        },
+        {
+          "id": "a1e43",
+          "type": "replique",
+          "texte": "Ha ha !",
+          "marionnetteId": "r5",
+          "ton": "en riant"
+        },
+        {
+          "id": "a1e44",
+          "type": "replique",
+          "texte": "Ha ha !",
+          "marionnetteId": "r6",
+          "ton": "en riant"
+        },
+        {
+          "id": "a1e45",
+          "type": "conteur",
+          "texte": "Et comme c’était un enfant né d’une pêche, le couple lui donna le nom de {{r1}}, « le garçon de la pêche »."
+        },
+        {
+          "id": "a1e46",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e47",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Le départ et les trois rencontres",
+      "resume": "{{r1}} part vers l’île aux Ogres. {{r2}}, {{r3}} et {{r4}} rejoignent le voyage contre une boulette de millet.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "{{r5}} et {{r6}} élevèrent {{r1}} avec tout leur amour. En grandissant, {{r1}} devint bien plus grand que les enfants ordinaires, et d’une force extraordinaire : à la lutte, il n’y avait personne dans tous les villages des environs qui puisse le battre. Et pourtant il avait très bon caractère, et il était plein d’attentions pour {{r5}} et {{r6}}."
+        },
+        {
+          "id": "a2e2",
+          "type": "conteur",
+          "texte": "{{r1}} eut quinze ans. À cette époque, il n’y avait plus personne dans tout le pays d’aussi fort que {{r1}}. Il eut envie de partir quelque part, dans un pays étranger, pour mettre sa force à l’épreuve."
+        },
+        {
+          "id": "a2e3",
+          "type": "conteur",
+          "texte": "Justement, il y avait en ce temps-là un homme qui revenait de voyage à travers les îles de pays lointains, et qui, après avoir raconté toutes sortes d’histoires rares et étranges, dit :"
+        },
+        {
+          "id": "a2e4",
+          "type": "note_marionnettiste",
+          "texte": "Voix du voyageur, en coulisse : « En ramant des années et des années, tout au bout de la mer, très très loin, il y a un endroit qu’on appelle l’île aux Ogres. Des ogres méchants vivent dans un terrible château de fer, et gardent de précieux trésors qu’ils ont volés dans tous les pays. »"
+        },
+        {
+          "id": "a2e5",
+          "type": "conteur",
+          "texte": "Quand {{r1}} entendit cette histoire, il eut tellement envie d’aller dans cette île aux Ogres qu’il ne tenait plus en place. Alors, de retour à la maison, il se présenta aussitôt devant {{r5}} et dit :"
+        },
+        {
+          "id": "a2e6",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e7",
+          "type": "note_marionnettiste",
+          "texte": "À partir de cet acte, {{r1}} garde la main gauche. {{r5}} et {{r6}} se relaient à droite, comme les trois membres du trio."
+        },
+        {
+          "id": "a2e8",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e9",
+          "type": "replique",
+          "texte": "S’il vous plaît, laissez-moi partir pour quelque temps.",
+          "marionnetteId": "r1",
+          "ton": "respectueux"
+        },
+        {
+          "id": "a2e10",
+          "type": "replique",
+          "texte": "Où veux-tu aller ?",
+          "marionnetteId": "r5",
+          "ton": "surpris"
+        },
+        {
+          "id": "a2e11",
+          "type": "replique",
+          "texte": "Je pense aller sur l’île aux Ogres, pour mettre les ogres à la raison.",
+          "marionnetteId": "r1",
+          "ton": "ferme"
+        },
+        {
+          "id": "a2e12",
+          "type": "replique",
+          "texte": "Oh, voilà qui est courageux. Eh bien, va.",
+          "marionnetteId": "r5",
+          "ton": "fier"
+        },
+        {
+          "id": "a2e13",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e14",
+          "type": "note_marionnettiste",
+          "texte": "Laisser une respiration pour changer de peluche sur cette main."
+        },
+        {
+          "id": "a2e15",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e16",
+          "type": "replique",
+          "texte": "Oh, si tu vas si loin, tu vas avoir bien faim. Bon, bon, je vais te préparer ton casse-croûte.",
+          "marionnetteId": "r6",
+          "ton": "attentionnée"
+        },
+        {
+          "id": "a2e17",
+          "type": "conteur",
+          "texte": "Alors {{r5}} et {{r6}} firent résonner le grand mortier dans la cour pour préparer les boulettes de millet du casse-croûte :"
+        },
+        {
+          "id": "a2e18",
+          "type": "conteur",
+          "texte": "Pentara-kokko, pentara-kokko !\nPentara-kokko, pentara-kokko !"
+        },
+        {
+          "id": "a2e19",
+          "type": "adresse_public",
+          "texte": "Faites avec moi le bruit des boulettes : « pentara-kokko ! »",
+          "marionnetteId": "r6",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e20",
+          "type": "conteur",
+          "texte": "Quand les boulettes de millet furent prêtes et appétissantes, {{r1}} aussi était prêt. Un manteau de guerrier comme en portent les samouraïs couvrait son dos ; un sabre et le sac de boulettes étaient à sa ceinture. Un éventail de commandement orné d’une pêche attendait près de la porte."
+        },
+        {
+          "id": "a2e21",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e22",
+          "type": "note_marionnettiste",
+          "texte": "Laisser une respiration pour changer de peluche sur cette main."
+        },
+        {
+          "id": "a2e23",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e24",
+          "type": "replique",
+          "texte": "Eh bien, père !",
+          "marionnetteId": "r1",
+          "ton": "avec entrain"
+        },
+        {
+          "id": "a2e25",
+          "type": "didascalie",
+          "texte": "{{r1}} s’incline bien bas devant {{r5}}."
+        },
+        {
+          "id": "a2e26",
+          "type": "replique",
+          "texte": "Eh bien, va, et reviens après avoir bien mis les ogres à la raison.",
+          "marionnetteId": "r5",
+          "ton": "encourageant"
+        },
+        {
+          "id": "a2e27",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e28",
+          "type": "note_marionnettiste",
+          "texte": "Laisser une respiration pour changer de peluche sur cette main."
+        },
+        {
+          "id": "a2e29",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e30",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Mère, je m’en vais.",
+          "ton": "avec entrain"
+        },
+        {
+          "id": "a2e31",
+          "type": "replique",
+          "texte": "Fais attention, ne te blesse pas.",
+          "marionnetteId": "r6",
+          "ton": "douce"
+        },
+        {
+          "id": "a2e32",
+          "type": "replique",
+          "texte": "Ne vous inquiétez pas, j’ai les meilleures boulettes du Japon. Au revoir !",
+          "marionnetteId": "r1",
+          "ton": "sûr de lui"
+        },
+        {
+          "id": "a2e33",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e34",
+          "type": "conteur",
+          "texte": "Et il partit en laissant derrière lui sa voix pleine d’entrain. {{r5}} et {{r6}} restèrent devant la porte à le regarder s’éloigner, longtemps, longtemps."
+        },
+        {
+          "id": "a2e35",
+          "type": "conteur",
+          "texte": "{{r1}} marcha, marcha, et arriva en haut d’une grande montagne. Alors, du milieu des herbes, un chien arriva en courant."
+        },
+        {
+          "id": "a2e36",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e37",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Ouah, ouah !",
+          "ton": "avec entrain"
+        },
+        {
+          "id": "a2e38",
+          "type": "didascalie",
+          "texte": "{{r2}} s’incline devant {{r1}}."
+        },
+        {
+          "id": "a2e39",
+          "type": "replique",
+          "texte": "Monsieur {{r1}}, monsieur {{r1}}, où allez-vous donc ?",
+          "marionnetteId": "r2",
+          "ton": "poli"
+        },
+        {
+          "id": "a2e40",
+          "type": "replique",
+          "texte": "Je vais sur l’île aux Ogres, mettre les ogres à la raison.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a2e41",
+          "type": "replique",
+          "texte": "Qu’est-ce que vous portez à la ceinture ?",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a2e42",
+          "type": "replique",
+          "texte": "Les meilleures boulettes de millet du Japon.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a2e43",
+          "type": "replique",
+          "texte": "Donnez-m’en une, et je vous accompagne.",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a2e44",
+          "type": "replique",
+          "texte": "Bon, bon, je t’en donne, suis-moi.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a2e45",
+          "type": "adresse_public",
+          "texte": "Faites avec moi : « Ouah, ouah ! »",
+          "marionnetteId": "r2",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e46",
+          "type": "conteur",
+          "texte": "{{r2}} reçut une boulette et suivit {{r1}}."
+        },
+        {
+          "id": "a2e47",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e48",
+          "type": "note_marionnettiste",
+          "texte": "Laisser deux pas de {{r1}} seul avant la rencontre suivante."
+        },
+        {
+          "id": "a2e49",
+          "type": "conteur",
+          "texte": "Le duo descendit la montagne, et au bout d’un moment, entra dans une forêt. Alors, du haut d’un arbre, un singe descendit en courant."
+        },
+        {
+          "id": "a2e50",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e51",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Kia ! kia !",
+          "ton": "avec entrain"
+        },
+        {
+          "id": "a2e52",
+          "type": "didascalie",
+          "texte": "{{r3}} se balance une fois, puis s’incline."
+        },
+        {
+          "id": "a2e53",
+          "type": "replique",
+          "texte": "Monsieur {{r1}}, monsieur {{r1}}, où allez-vous donc ?",
+          "marionnetteId": "r3",
+          "ton": "poli"
+        },
+        {
+          "id": "a2e54",
+          "type": "replique",
+          "texte": "Je vais sur l’île aux Ogres, mettre les ogres à la raison.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a2e55",
+          "type": "replique",
+          "texte": "Qu’est-ce que vous portez à la ceinture ?",
+          "marionnetteId": "r3"
+        },
+        {
+          "id": "a2e56",
+          "type": "replique",
+          "texte": "Les meilleures boulettes de millet du Japon.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a2e57",
+          "type": "replique",
+          "texte": "Donnez-m’en une, et je vous accompagne.",
+          "marionnetteId": "r3"
+        },
+        {
+          "id": "a2e58",
+          "type": "replique",
+          "texte": "Bon, bon, je t’en donne, suis-moi.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a2e59",
+          "type": "adresse_public",
+          "texte": "Faites avec moi : « Kia, kia ! »",
+          "marionnetteId": "r3",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e60",
+          "type": "conteur",
+          "texte": "{{r3}} aussi reçut une boulette et les suivit."
+        },
+        {
+          "id": "a2e61",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e62",
+          "type": "note_marionnettiste",
+          "texte": "Laisser deux pas de {{r1}} seul avant la troisième rencontre."
+        },
+        {
+          "id": "a2e63",
+          "type": "conteur",
+          "texte": "Le trio descendit la montagne, traversa la forêt, et arriva cette fois dans une grande plaine. Alors, dans le ciel, un faisan arriva en volant."
+        },
+        {
+          "id": "a2e64",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e65",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Kèn ! kèn !",
+          "ton": "avec entrain"
+        },
+        {
+          "id": "a2e66",
+          "type": "didascalie",
+          "texte": "{{r4}} hoche la tête et s’incline."
+        },
+        {
+          "id": "a2e67",
+          "type": "replique",
+          "texte": "Monsieur {{r1}}, monsieur {{r1}}, où allez-vous donc ?",
+          "marionnetteId": "r4",
+          "ton": "poli"
+        },
+        {
+          "id": "a2e68",
+          "type": "replique",
+          "texte": "Je vais sur l’île aux Ogres, mettre les ogres à la raison.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a2e69",
+          "type": "replique",
+          "texte": "Qu’est-ce que vous portez à la ceinture ?",
+          "marionnetteId": "r4"
+        },
+        {
+          "id": "a2e70",
+          "type": "replique",
+          "texte": "Les meilleures boulettes de millet du Japon.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a2e71",
+          "type": "replique",
+          "texte": "Donnez-m’en une, et je vous accompagne.",
+          "marionnetteId": "r4"
+        },
+        {
+          "id": "a2e72",
+          "type": "replique",
+          "texte": "Bon, bon, je t’en donne, suis-moi.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a2e73",
+          "type": "adresse_public",
+          "texte": "Faites avec moi : « Kèn, kèn ! »",
+          "marionnetteId": "r4",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e74",
+          "type": "conteur",
+          "texte": "{{r4}} aussi reçut une boulette et suivit {{r1}}."
+        },
+        {
+          "id": "a2e75",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e76",
+          "type": "conteur",
+          "texte": "{{r2}}, {{r3}} et {{r4}} : voilà un bon trio. {{r1}}, plein d’ardeur, continua d’avancer, et bientôt tout le groupe arriva au bord d’une grande mer."
+        },
+        {
+          "id": "a2e77",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "La traversée et le château",
+      "resume": "Le trio met ses talents au service du bateau et ouvre la porte du château.",
+      "tableauId": "t3",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "conteur",
+          "texte": "Là, fort à propos, un bateau était amarré. {{r1}} et son trio montèrent aussitôt dedans."
+        },
+        {
+          "id": "a3e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e3",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e4",
+          "type": "replique",
+          "texte": "Moi, je serai le rameur.",
+          "marionnetteId": "r2",
+          "ton": "décidé"
+        },
+        {
+          "id": "a3e5",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e6",
+          "type": "note_marionnettiste",
+          "texte": "Laisser une respiration pour changer de peluche sur cette main."
+        },
+        {
+          "id": "a3e7",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e8",
+          "type": "replique",
+          "texte": "Moi, je guiderai le bateau.",
+          "marionnetteId": "r3",
+          "ton": "décidé"
+        },
+        {
+          "id": "a3e9",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e10",
+          "type": "note_marionnettiste",
+          "texte": "Laisser une respiration pour changer de peluche sur cette main."
+        },
+        {
+          "id": "a3e11",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e12",
+          "type": "replique",
+          "texte": "Moi, je ferai la vigie.",
+          "marionnetteId": "r4",
+          "ton": "décidé"
+        },
+        {
+          "id": "a3e13",
+          "type": "conteur",
+          "texte": "Il faisait un temps magnifique, et sur la mer toute bleue, il n’y avait pas une vague. Rapide comme l’éclair, ou comme une flèche, le bateau filait à une vitesse à donner le vertige."
+        },
+        {
+          "id": "a3e14",
+          "type": "adresse_public",
+          "texte": "Faites avec moi le bruit du bateau rapide : « ffff ! »",
+          "marionnetteId": "r4",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e15",
+          "type": "conteur",
+          "texte": "Au bout d’à peine une heure, {{r4}}, qui regardait au loin depuis la proue, s’écria :"
+        },
+        {
+          "id": "a3e16",
+          "type": "replique",
+          "texte": "Là, là, une île !",
+          "marionnetteId": "r4",
+          "ton": "très fort"
+        },
+        {
+          "id": "a3e17",
+          "type": "conteur",
+          "texte": "{{r4}} battit bruyamment des ailes, s’envola, et partit tout droit en fendant le vent."
+        },
+        {
+          "id": "a3e18",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e19",
+          "type": "conteur",
+          "texte": "{{r1}} regarda aussitôt là où {{r4}} était parti : en effet, tout au bout de la mer, on voyait vaguement quelque chose de sombre, comme un nuage. À mesure que le bateau avançait, ce qui ressemblait à un nuage prit de plus en plus nettement la forme d’une île."
+        },
+        {
+          "id": "a3e20",
+          "type": "replique",
+          "texte": "Ah, je la vois, je la vois, l’île aux Ogres !",
+          "marionnetteId": "r1",
+          "ton": "joyeux"
+        },
+        {
+          "id": "a3e21",
+          "type": "note_marionnettiste",
+          "texte": "Laisser une respiration pour changer de peluche sur cette main."
+        },
+        {
+          "id": "a3e22",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e23",
+          "type": "replique",
+          "texte": "Hourra, hourra !",
+          "marionnetteId": "r2",
+          "ton": "joyeux"
+        },
+        {
+          "id": "a3e24",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e25",
+          "type": "note_marionnettiste",
+          "texte": "Laisser une respiration pour changer de peluche sur cette main."
+        },
+        {
+          "id": "a3e26",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e27",
+          "type": "replique",
+          "texte": "Hourra, hourra !",
+          "marionnetteId": "r3",
+          "ton": "joyeux"
+        },
+        {
+          "id": "a3e28",
+          "type": "adresse_public",
+          "texte": "Criez avec nous : « Hourra, hourra ! »",
+          "marionnetteId": "r1",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e29",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e30",
+          "type": "note_marionnettiste",
+          "texte": "Laisser une respiration pour changer de peluche sur cette main."
+        },
+        {
+          "id": "a3e31",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e32",
+          "type": "conteur",
+          "texte": "L’île aux Ogres se rapprochait à vue d’œil. On voyait déjà le château des ogres, tout en rochers durs. On voyait devant la terrible porte de fer les soldats ogres qui montaient la garde. Et sur le toit le plus haut du château, {{r4}} s’était posé et regardait vers le bateau."
+        },
+        {
+          "id": "a3e33",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e34",
+          "type": "conteur",
+          "texte": "Ainsi, cette île aux Ogres où il faut ramer des années et des années, le groupe y était arrivé le temps de fermer les yeux."
+        },
+        {
+          "id": "a3e35",
+          "type": "conteur",
+          "texte": "{{r1}}, suivi de {{r2}} et de {{r3}}, sauta lestement du bateau sur la terre ferme."
+        },
+        {
+          "id": "a3e36",
+          "type": "conteur",
+          "texte": "Les soldats ogres qui montaient la garde, en voyant ce groupe étrange, furent tout surpris, s’enfuirent précipitamment derrière la porte et fermèrent bien fort la porte de fer."
+        },
+        {
+          "id": "a3e37",
+          "type": "note_marionnettiste",
+          "texte": "Laisser une respiration pour changer de peluche sur cette main."
+        },
+        {
+          "id": "a3e38",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e39",
+          "type": "replique",
+          "texte": "Le {{r1}} du Japon est venu vous punir ! Ouvrez, ouvrez !",
+          "marionnetteId": "r2",
+          "ton": "fort"
+        },
+        {
+          "id": "a3e40",
+          "type": "didascalie",
+          "texte": "{{r2}} frappe deux fois le carton de la porte avec tout son corps."
+        },
+        {
+          "id": "a3e41",
+          "type": "adresse_public",
+          "texte": "Frappez avec votre voix : « boum, boum ! »",
+          "marionnetteId": "r2",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e42",
+          "type": "conteur",
+          "texte": "Les ogres, en entendant sa voix, se mirent à trembler, et tinrent la porte de l’intérieur encore plus fort."
+        },
+        {
+          "id": "a3e43",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e44",
+          "type": "note_marionnettiste",
+          "texte": "Laisser une respiration pour changer de peluche sur cette main."
+        },
+        {
+          "id": "a3e45",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e46",
+          "type": "conteur",
+          "texte": "Alors {{r4}} descendit du toit en piqué et se mit à picorer les yeux des ogres qui tenaient la porte, si bien que les ogres, n’y tenant plus, s’enfuirent."
+        },
+        {
+          "id": "a3e47",
+          "type": "didascalie",
+          "texte": "{{r4}} s’écarte en bondissant et tourne la tête vers la porte."
+        },
+        {
+          "id": "a3e48",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e49",
+          "type": "note_marionnettiste",
+          "texte": "Laisser une respiration pour changer de peluche sur cette main."
+        },
+        {
+          "id": "a3e50",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e51",
+          "type": "didascalie",
+          "texte": "{{r3}} monte le long du carton, passe derrière et pousse la porte de tout son corps."
+        },
+        {
+          "id": "a3e52",
+          "type": "adresse_public",
+          "texte": "Faites avec moi le cri de la porte qui s’ouvre : « haa ! »",
+          "marionnetteId": "r3",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e53",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e54",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "numero": 4,
+      "titre": "La victoire et le retour",
+      "resume": "Le chef des ogres rend les trésors. {{r1}} et son trio rentrent chez {{r6}} et {{r5}}.",
+      "tableauId": "t4",
+      "elements": [
+        {
+          "id": "a4e1",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e2",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e3",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r2}} bondissent vers le château."
+        },
+        {
+          "id": "a4e4",
+          "type": "replique",
+          "texte": "Waaah !",
+          "marionnetteId": "r1",
+          "ton": "fort"
+        },
+        {
+          "id": "a4e5",
+          "type": "adresse_public",
+          "texte": "Faites avec moi le grand cri du château : « Waaah ! »",
+          "marionnetteId": "r1",
+          "attenteReponse": false
+        },
+        {
+          "id": "a4e6",
+          "type": "conteur",
+          "texte": "Le chef des ogres, lui aussi, suivi de nombreux ogres, s’avança en criant :"
+        },
+        {
+          "id": "a4e7",
+          "type": "note_marionnettiste",
+          "texte": "Voix du chef des ogres, en coulisse : « Ô ! ô ! »"
+        },
+        {
+          "id": "a4e8",
+          "type": "conteur",
+          "texte": "De grosses barres de fer gisaient autour du groupe."
+        },
+        {
+          "id": "a4e9",
+          "type": "conteur",
+          "texte": "Mais ces ogres n’étaient grands que de corps, et n’avaient aucun courage. Déjà bien picorés par {{r4}}, les voilà qui se font mordre les tibias par {{r2}}, et qui s’enfuient en criant « aïe, aïe ! » ;"
+        },
+        {
+          "id": "a4e10",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e11",
+          "type": "note_marionnettiste",
+          "texte": "Laisser une respiration pour changer de peluche sur cette main."
+        },
+        {
+          "id": "a4e12",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e13",
+          "type": "conteur",
+          "texte": "qui se font griffer la figure par {{r3}}, et qui se mettent à pleurer à chaudes larmes, et abandonnent tout, même leurs barres de fer, et se rendent."
+        },
+        {
+          "id": "a4e14",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e15",
+          "type": "conteur",
+          "texte": "Le chef des ogres, qui avait tenu bon jusqu’au bout, fut finalement plaqué au sol par {{r1}}. {{r1}} se plaça au-dessus du gros ogre et dit, en appuyant de toutes ses forces :"
+        },
+        {
+          "id": "a4e16",
+          "type": "replique",
+          "texte": "Alors, tu ne te rends toujours pas ?",
+          "marionnetteId": "r1",
+          "ton": "ferme"
+        },
+        {
+          "id": "a4e17",
+          "type": "conteur",
+          "texte": "Le chef des ogres, pressé par la force immense de {{r1}}, n’en pouvait plus, et, en versant de grosses larmes, dit :"
+        },
+        {
+          "id": "a4e18",
+          "type": "note_marionnettiste",
+          "texte": "Voix du chef des ogres, en coulisse : « Je me rends, je me rends. Laissez-moi la vie sauve, je vous en prie. En échange, je vous donnerai tous les trésors. »"
+        },
+        {
+          "id": "a4e19",
+          "type": "conteur",
+          "texte": "Et ainsi, il fut pardonné."
+        },
+        {
+          "id": "a4e20",
+          "type": "conteur",
+          "texte": "Comme promis, les trésors du chef des ogres sortirent du château : le manteau qui rend invisible, le chapeau qui rend invisible, le petit maillet magique qui exauce les vœux, la perle qui accorde tout ce qu’on désire, et aussi du corail, de l’écaille, du lapis-lazuli, les trésors les plus précieux du monde, qui formèrent une montagne sur une charrette."
+        },
+        {
+          "id": "a4e21",
+          "type": "conteur",
+          "texte": "Tous les trésors furent chargés et {{r1}} remonta dans le bateau avec son trio. Au retour, le bateau fila encore plus vite qu’à l’aller, et le groupe arriva bientôt au Japon."
+        },
+        {
+          "id": "a4e22",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e23",
+          "type": "conteur",
+          "texte": "Quand le bateau accosta, la charrette pleine de trésors avançait derrière {{r2}}."
+        },
+        {
+          "id": "a4e24",
+          "type": "replique",
+          "texte": "Enyarasa !",
+          "marionnetteId": "r2",
+          "ton": "avec effort"
+        },
+        {
+          "id": "a4e25",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e26",
+          "type": "note_marionnettiste",
+          "texte": "Laisser une respiration pour changer de peluche sur cette main."
+        },
+        {
+          "id": "a4e27",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e28",
+          "type": "conteur",
+          "texte": "{{r4}} avança près de la charrette,"
+        },
+        {
+          "id": "a4e29",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e30",
+          "type": "note_marionnettiste",
+          "texte": "Laisser une respiration pour changer de peluche sur cette main."
+        },
+        {
+          "id": "a4e31",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e32",
+          "type": "conteur",
+          "texte": "et {{r3}} poussa derrière, de tout son corps."
+        },
+        {
+          "id": "a4e33",
+          "type": "replique",
+          "texte": "Enyarasa !",
+          "marionnetteId": "r3",
+          "ton": "avec effort"
+        },
+        {
+          "id": "a4e34",
+          "type": "adresse_public",
+          "texte": "Reprenez avec nous le cri du retour : « Enyarasa ! »",
+          "marionnetteId": "r1",
+          "attenteReponse": false
+        },
+        {
+          "id": "a4e35",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e36",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e37",
+          "type": "conteur",
+          "texte": "À la maison, {{r5}} et {{r6}} disaient tour à tour :"
+        },
+        {
+          "id": "a4e38",
+          "type": "note_marionnettiste",
+          "texte": "Laisser une respiration pour changer de peluche sur cette main."
+        },
+        {
+          "id": "a4e39",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e40",
+          "type": "replique",
+          "texte": "{{r1}} devrait bientôt rentrer…",
+          "marionnetteId": "r5",
+          "ton": "inquiet"
+        },
+        {
+          "id": "a4e41",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e42",
+          "type": "note_marionnettiste",
+          "texte": "Laisser une respiration pour changer de peluche sur cette main."
+        },
+        {
+          "id": "a4e43",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e44",
+          "type": "replique",
+          "texte": "{{r1}} devrait bientôt rentrer…",
+          "marionnetteId": "r6",
+          "ton": "inquiète"
+        },
+        {
+          "id": "a4e45",
+          "type": "conteur",
+          "texte": "Et le couple attendait en tendant le cou."
+        },
+        {
+          "id": "a4e46",
+          "type": "conteur",
+          "texte": "Et voilà que {{r1}} rentra, faisant tirer le butin par son trio, avec un air très fier ; {{r5}} et {{r6}} en perdirent la tête de bonheur."
+        },
+        {
+          "id": "a4e47",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e48",
+          "type": "didascalie",
+          "texte": "{{r6}} incline la tête et {{r1}} s’incline en retour."
+        },
+        {
+          "id": "a4e49",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e50",
+          "type": "note_marionnettiste",
+          "texte": "Laisser une respiration pour changer de peluche sur cette main."
+        },
+        {
+          "id": "a4e51",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e52",
+          "type": "replique",
+          "texte": "Bravo, bravo, tu es vraiment le meilleur du Japon !",
+          "marionnetteId": "r5",
+          "ton": "fier"
+        },
+        {
+          "id": "a4e53",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e54",
+          "type": "note_marionnettiste",
+          "texte": "Laisser une respiration pour changer de peluche sur cette main."
+        },
+        {
+          "id": "a4e55",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e56",
+          "type": "replique",
+          "texte": "Oh, oh, pourvu que tu ne sois pas blessé, c’est le principal !",
+          "marionnetteId": "r6",
+          "ton": "soulagée"
+        },
+        {
+          "id": "a4e57",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e58",
+          "type": "note_marionnettiste",
+          "texte": "Laisser une respiration pour changer de peluche sur cette main."
+        },
+        {
+          "id": "a4e59",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e60",
+          "type": "conteur",
+          "texte": "{{r1}} se tourna alors vers le trio et dit :"
+        },
+        {
+          "id": "a4e61",
+          "type": "replique",
+          "texte": "Alors, c’était amusant, de mettre les ogres à la raison ?",
+          "marionnetteId": "r1",
+          "ton": "joyeux"
+        },
+        {
+          "id": "a4e62",
+          "type": "replique",
+          "texte": "Ouah, ouah !",
+          "marionnetteId": "r2",
+          "ton": "joyeux"
+        },
+        {
+          "id": "a4e63",
+          "type": "didascalie",
+          "texte": "{{r2}} se redresse."
+        },
+        {
+          "id": "a4e64",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e65",
+          "type": "note_marionnettiste",
+          "texte": "Laisser une respiration pour changer de peluche sur cette main."
+        },
+        {
+          "id": "a4e66",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e67",
+          "type": "replique",
+          "texte": "Kia, kia !",
+          "marionnetteId": "r3",
+          "ton": "en riant"
+        },
+        {
+          "id": "a4e68",
+          "type": "didascalie",
+          "texte": "{{r3}} se secoue de rire."
+        },
+        {
+          "id": "a4e69",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e70",
+          "type": "note_marionnettiste",
+          "texte": "Laisser une respiration pour changer de peluche sur cette main."
+        },
+        {
+          "id": "a4e71",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e72",
+          "type": "replique",
+          "texte": "Kèn, kèn !",
+          "marionnetteId": "r4",
+          "ton": "joyeux"
+        },
+        {
+          "id": "a4e73",
+          "type": "didascalie",
+          "texte": "{{r4}} fait une cabriole dans les airs."
+        },
+        {
+          "id": "a4e74",
+          "type": "conteur",
+          "texte": "Le ciel était tout bleu, et dans le jardin, les cerisiers étaient en pleine floraison."
+        },
+        {
+          "id": "a4e75",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e76",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "ja-momotaro",
+    "synopsis": {
+      "accroche": "Un bébé sort d’une pêche et grandit chez {{r6}} et {{r5}}.",
+      "resume": [
+        "{{r1}} part vers l’île aux Ogres avec les boulettes de millet.",
+        "{{r2}}, {{r3}} et {{r4}} se joignent à lui et chacun aide à ouvrir le château.",
+        "Le chef des ogres rend les trésors ; le groupe rentre auprès de {{r6}} et de {{r5}}."
+      ]
+    },
+    "transposition": {
+      "texte": "\nIl était une fois, il y a bien longtemps, quelque part, un vieux nommé {{r5}} et une vieille nommée {{r6}}. Chaque jour, {{r5}} allait dans la montagne couper des broussailles, et {{r6}} allait à la rivière laver le linge. Un jour, alors que {{r6}} lavait son linge avec ardeur au bord de la rivière, une grosse pêche descendit le courant, depuis l’amont : « Donbura-kokko, sukkokko.\nDonbura-kokko, sukkokko. » — Oh, oh, quelle magnifique pêche ! Je vais la rapporter à la maison, en cadeau pour mon vieux. Ainsi parlait {{r6}}, et elle se pencha vers la pêche ; mais la pêche était trop loin. Alors {{r6}} chanta : « L’eau de là-bas est salée,\nL’eau d’ici est sucrée ;\nFuis l’eau salée,\nViens vers l’eau sucrée ! » Alors la pêche, de nouveau : « Donbura-kokko, sukkokko.\nDonbura-kokko, sukkokko. » descendit le courant jusque devant {{r6}}. {{r6}}, tout sourire, dit : — Vite, partageons-la et mangeons-la, mon vieux et moi. La pêche se retrouva dans la bassine avec le linge. {{r6}} regagna la maison à grand-peine, ahan, ahan, et la pêche arriva avec elle. Le soir, enfin, {{r5}} rentra de la montagne avec ses broussailles sur le dos. — Ma vieille, me voilà rentré. — Oh, mon vieux, bon retour. Je t’attendais. Vite, entre donc. J’ai quelque chose de bon pour toi. — Voilà qui est bien aimable. Qu’est-ce que c’est, cette bonne chose ? Tout en parlant, {{r5}} entra, les sandales de paille restées devant la porte. Pendant ce temps, la pêche réapparut, venue du placard, comme si elle était très lourde. {{r6}} dit : — Tiens, regarde un peu cette pêche. — Oh, oh, ça alors ! Où as-tu acheté une si belle pêche ? — Mais non, je ne l’ai pas achetée : elle vient de la rivière, où je l’ai trouvée aujourd’hui. — Hein, quoi, trouvée à la rivière ? Voilà qui est vraiment extraordinaire. Et tandis que {{r5}}, la pêche posée devant lui, la regardait sous tous les angles, tout à coup, la pêche s’ouvrit en deux — pon ! — et en poussant un vaillant premier cri, « Ouin, ouin ! », un adorable bébé en jaillit, plein de vie. — Oh, oh, ça alors ! {{r5}} et {{r6}} s’écrièrent ensemble, avec surprise. — Ça alors ! Comme nous disions toujours que nous voudrions tant avoir un enfant, ce sont sûrement les dieux qui nous l’ont envoyé. {{r5}} et {{r6}} dirent cela avec joie. Alors l’eau du bain fut vite chaude, les langes furent prêts, et dans un grand remue-ménage le bébé reçut son premier bain. Alors, tout à coup, en disant « Hmm ! », le bébé se redressa d’un coup. — Oh, oh, quel enfant plein de force ! {{r5}} et {{r6}} se regardèrent en disant cela, et rirent de bon cœur : « Ha ha ! ha ha ! » Et comme c’était un enfant né d’une pêche, le couple lui donna le nom de {{r1}}, « le garçon de la pêche ». \n{{r5}} et {{r6}} élevèrent {{r1}} avec tout leur amour. En grandissant, {{r1}} devint bien plus grand que les enfants ordinaires, et d’une force extraordinaire : à la lutte, il n’y avait personne dans tous les villages des environs qui puisse le battre. Et pourtant il avait très bon caractère, et il était plein d’attentions pour {{r5}} et {{r6}}. {{r1}} eut quinze ans. À cette époque, il n’y avait plus personne dans tout le pays d’aussi fort que {{r1}}. Il eut envie de partir quelque part, dans un pays étranger, pour mettre sa force à l’épreuve. Justement, il y avait en ce temps-là un homme qui revenait de voyage à travers les îles de pays lointains, et qui, après avoir raconté toutes sortes d’histoires rares et étranges, dit : — En ramant des années et des années, tout au bout de la mer, très très loin, il y a un endroit qu’on appelle l’île aux Ogres. Des ogres méchants vivent dans un terrible château de fer, et gardent de précieux trésors qu’ils ont volés dans tous les pays. Quand {{r1}} entendit cette histoire, il eut tellement envie d’aller dans cette île aux Ogres qu’il ne tenait plus en place. Alors, de retour à la maison, il se présenta aussitôt devant {{r5}} et dit : — S’il vous plaît, laissez-moi partir pour quelque temps. {{r5}}, surpris, demanda : — Où veux-tu aller ? — Je pense aller sur l’île aux Ogres, pour mettre les ogres à la raison, répondit {{r1}}. — Oh, voilà qui est courageux. Eh bien, va, dit {{r5}}. — Oh, si tu vas si loin, tu vas avoir bien faim. Bon, bon, je vais te préparer ton casse-croûte, dit {{r6}}. Alors {{r5}} et {{r6}} firent résonner le grand mortier dans la cour pour préparer les boulettes de millet du casse-croûte : « Pentara-kokko, pentara-kokko !\nPentara-kokko, pentara-kokko ! » Quand les boulettes de millet furent prêtes et appétissantes, {{r1}} aussi était prêt. Un manteau de guerrier comme en portent les samouraïs couvrait son dos ; un sabre et le sac de boulettes étaient à sa ceinture. Un éventail de commandement orné d’une pêche attendait près de la porte. — Eh bien, père ! Et il salua bien bas. — Eh bien, va, et reviens après avoir bien mis les ogres à la raison, dit {{r5}}. — Mère, je m’en vais. — Fais attention, ne te blesse pas, dit {{r6}}. — Ne vous inquiétez pas, j’ai les meilleures boulettes du Japon, dit {{r1}}. Au revoir ! Et il partit en laissant derrière lui sa voix pleine d’entrain. {{r5}} et {{r6}} restèrent devant la porte à le regarder s’éloigner, longtemps, longtemps. \n{{r1}} marcha, marcha, et arriva en haut d’une grande montagne. Alors, du milieu des herbes, un chien arriva en courant. — Ouah, ouah ! {{r1}} se retourna, et {{r2}} salua poliment : — Monsieur {{r1}}, monsieur {{r1}}, où allez-vous donc ? — Je vais sur l’île aux Ogres, mettre les ogres à la raison. — Qu’est-ce que vous portez à la ceinture ? — Les meilleures boulettes de millet du Japon. — Donnez-m’en une, et je vous accompagne. — Bon, bon, je t’en donne, suis-moi. {{r2}} reçut une boulette et suivit {{r1}}. Le duo descendit la montagne, et au bout d’un moment, entra dans une forêt. Alors, du haut d’un arbre, un singe descendit en courant. — Kia ! kia ! {{r1}} se retourna, et {{r3}} salua poliment : — Monsieur {{r1}}, monsieur {{r1}}, où allez-vous donc ? — Je vais sur l’île aux Ogres, mettre les ogres à la raison. — Qu’est-ce que vous portez à la ceinture ? — Les meilleures boulettes de millet du Japon. — Donnez-m’en une, et je vous accompagne. — Bon, bon, je t’en donne, suis-moi. {{r3}} aussi reçut une boulette et les suivit. Le trio descendit la montagne, traversa la forêt, et arriva cette fois dans une grande plaine. Alors, dans le ciel, un faisan arriva en volant. — Kèn ! kèn ! {{r1}} se retourna, et {{r4}} salua poliment : — Monsieur {{r1}}, monsieur {{r1}}, où allez-vous donc ? — Je vais sur l’île aux Ogres, mettre les ogres à la raison. — Qu’est-ce que vous portez à la ceinture ? — Les meilleures boulettes de millet du Japon. — Donnez-m’en une, et je vous accompagne. — Bon, bon, je t’en donne, suis-moi. {{r4}} aussi reçut une boulette et suivit {{r1}}. {{r2}}, {{r3}} et {{r4}} : voilà un bon trio. {{r1}}, plein d’ardeur, continua d’avancer, et bientôt tout le groupe arriva au bord d’une grande mer. Là, fort à propos, un bateau était amarré. {{r1}} et son trio montèrent aussitôt dedans. — Moi, je serai le rameur, dit {{r2}}, et il se mit à faire avancer le bateau. — Moi, je guiderai le bateau, dit {{r3}}, et il se plaça à l’arrière. — Moi, je ferai la vigie, dit {{r4}}, et il se posa à la proue. Il faisait un temps magnifique, et sur la mer toute bleue, il n’y avait pas une vague. Rapide comme l’éclair, ou comme une flèche, le bateau filait à une vitesse à donner le vertige. Au bout d’à peine une heure, {{r4}}, qui regardait au loin depuis la proue, s’écria : « Là, là, une île ! » {{r4}} battit bruyamment des ailes, s’envola, et partit tout droit en fendant le vent. {{r1}} regarda aussitôt là où {{r4}} était parti : en effet, tout au bout de la mer, on voyait vaguement quelque chose de sombre, comme un nuage. À mesure que le bateau avançait, ce qui ressemblait à un nuage prit de plus en plus nettement la forme d’une île. — Ah, je la vois, je la vois, l’île aux Ogres ! Quand {{r1}} dit cela, {{r2}} et {{r3}} crièrent ensemble : « Hourra, hourra ! » L’île aux Ogres se rapprochait à vue d’œil. On voyait déjà le château des ogres, tout en rochers durs. On voyait devant la terrible porte de fer les soldats ogres qui montaient la garde. Et sur le toit le plus haut du château, {{r4}} s’était posé et regardait vers le bateau. Ainsi, cette île aux Ogres où il faut ramer des années et des années, le groupe y était arrivé le temps de fermer les yeux. \n{{r1}}, suivi de {{r2}} et de {{r3}}, sauta lestement du bateau sur la terre ferme. Les soldats ogres qui montaient la garde, en voyant ce groupe étrange, furent tout surpris, s’enfuirent précipitamment derrière la porte et fermèrent bien fort la porte de fer. Alors {{r2}} se planta devant la porte et, en criant : « Le {{r1}} du Japon est venu vous punir ! Ouvrez, ouvrez ! », frappa la porte, boum, boum. Les ogres, en entendant sa voix, se mirent à trembler, et tinrent la porte de l’intérieur encore plus fort. Alors {{r4}} descendit du toit en piqué et se mit à picorer les yeux des ogres qui tenaient la porte, si bien que les ogres, n’y tenant plus, s’enfuirent. Pendant ce temps, {{r3}} escalada lestement la haute muraille de rochers et, de l’intérieur, ouvrit sans peine la porte en la poussant de tout son corps. Avec un grand cri de guerre, « Waaah ! », {{r1}} et son trio s’élancèrent vaillamment dans le château. Le chef des ogres, lui aussi, suivi de nombreux ogres, s’avança en criant « Ô ! ô ! ». De grosses barres de fer gisaient autour du groupe. Mais ces ogres n’étaient grands que de corps, et n’avaient aucun courage. Déjà bien picorés par {{r4}}, les voilà qui se font mordre les tibias par {{r2}}, et qui s’enfuient en criant « aïe, aïe ! » ; qui se font griffer la figure par {{r3}}, et qui se mettent à pleurer à chaudes larmes, et abandonnent tout, même leurs barres de fer, et se rendent. Le chef des ogres, qui avait tenu bon jusqu’au bout, fut finalement plaqué au sol par {{r1}}. {{r1}} se plaça au-dessus du gros ogre et dit, en appuyant de toutes ses forces : — Alors, tu ne te rends toujours pas ? Le chef des ogres, pressé par la force immense de {{r1}}, n’en pouvait plus, et, en versant de grosses larmes, dit : — Je me rends, je me rends. Laissez-moi la vie sauve, je vous en prie. En échange, je vous donnerai tous les trésors. Et ainsi, il fut pardonné. Comme promis, les trésors du chef des ogres sortirent du château : le manteau qui rend invisible, le chapeau qui rend invisible, le petit maillet magique qui exauce les vœux, la perle qui accorde tout ce qu’on désire, et aussi du corail, de l’écaille, du lapis-lazuli, les trésors les plus précieux du monde, qui formèrent une montagne sur une charrette. Tous les trésors furent chargés et {{r1}} remonta dans le bateau avec son trio. Au retour, le bateau fila encore plus vite qu’à l’aller, et le groupe arriva bientôt au Japon. Quand le bateau accosta, la charrette pleine de trésors avançait derrière {{r2}}. {{r4}} avança près de la charrette, et {{r3}} poussa derrière, de tout son corps. « Enyarasa, enyarasa ! » Le trio avançait en poussant des cris d’effort, comme si c’était très lourd. À la maison, {{r5}} et {{r6}} disaient tour à tour : — {{r1}} devrait bientôt rentrer… Et le couple attendait en tendant le cou. Et voilà que {{r1}} rentra, faisant tirer le butin par son trio, avec un air très fier ; {{r5}} et {{r6}} en perdirent la tête de bonheur. — Bravo, bravo, tu es vraiment le meilleur du Japon ! dit {{r5}}. — Oh, oh, pourvu que tu ne sois pas blessé, c’est le principal ! dit {{r6}}. {{r1}} se tourna alors vers le trio et dit : — Alors, c’était amusant, de mettre les ogres à la raison ? {{r2}} aboya joyeusement, « Ouah, ouah ! », en se dressant sur ses pattes de derrière. {{r3}} rit, « Kia, kia ! », en secouant tout son corps. {{r4}} cria, « Kèn, kèn ! », en faisant des cabrioles dans les airs. Le ciel était tout bleu, et dans le jardin, les cerisiers étaient en pleine floraison.\n"
+    }
+  },
+  "dureeEstimeeSecondes": 1178,
+  "interactionsOrdonnees": [
+    "a2e45",
+    "a2e59",
+    "a2e73",
+    "a1e5",
+    "a1e9",
+    "a4e34",
+    "a1e27",
+    "a2e19",
+    "a3e41",
+    "a3e28",
+    "a4e5",
+    "a3e14",
+    "a3e52"
+  ]
+}

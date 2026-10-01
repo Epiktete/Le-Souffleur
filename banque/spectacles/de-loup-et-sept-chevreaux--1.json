@@ -1,0 +1,1073 @@
+{
+  "id": "de-loup-et-sept-chevreaux--1",
+  "conteId": "de-loup-et-sept-chevreaux",
+  "titre": "Le Loup et les sept chevreaux",
+  "pitch": "{{r1}} trompe la fratrie et avale six chevreaux ; {{r3}}, caché dans l’horloge, aide {{r2}} à les délivrer.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "loup",
+      "famille": "predateur",
+      "traits": [
+        "rusé",
+        "gourmand",
+        "menaçant"
+      ],
+      "voix": "voix grave et rauque, puis douce après la craie",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e4:texte",
+            "avant": "s'il entre",
+            "apres": "si elle entre"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "il vous mangera",
+            "apres": "elle vous mangera"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "Le méchant",
+            "apres": "La méchante"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "vous le reconnaîtrez",
+            "apres": "vous la reconnaîtrez"
+          },
+          {
+            "id": "a1e18:texte",
+            "avant": "Il le mangea",
+            "apres": "Elle le mangea"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "il courut chez",
+            "apres": "elle courut chez"
+          },
+          {
+            "id": "a2e11:ton",
+            "avant": "menaçant",
+            "apres": "menaçante"
+          },
+          {
+            "id": "a2e25:texte",
+            "avant": "celui qui entra",
+            "apres": "celle qui entra"
+          },
+          {
+            "id": "a2e31:texte",
+            "avant": "il en avala six",
+            "apres": "elle en avala six"
+          },
+          {
+            "id": "a2e31:texte",
+            "avant": "fut rassasié",
+            "apres": "fut rassasiée"
+          },
+          {
+            "id": "a2e31:texte",
+            "avant": "il s'en alla",
+            "apres": "elle s'en alla"
+          },
+          {
+            "id": "a3e7:texte",
+            "avant": "est venu",
+            "apres": "est venue"
+          },
+          {
+            "id": "a3e14:texte",
+            "avant": "était couché",
+            "apres": "était couchée"
+          },
+          {
+            "id": "a3e14:texte",
+            "avant": "le regarda",
+            "apres": "la regarda"
+          },
+          {
+            "id": "a3e15:texte",
+            "avant": "dont il a fait",
+            "apres": "dont elle a fait"
+          },
+          {
+            "id": "a4e2:texte",
+            "avant": "il se leva",
+            "apres": "elle se leva"
+          },
+          {
+            "id": "a4e2:texte",
+            "avant": "il voulut",
+            "apres": "elle voulut"
+          },
+          {
+            "id": "a4e2:texte",
+            "avant": "il se mit",
+            "apres": "elle se mit"
+          },
+          {
+            "id": "a4e5:texte",
+            "avant": "il se noya",
+            "apres": "elle se noya"
+          },
+          {
+            "id": "a4e12:texte",
+            "avant": "est mort",
+            "apres": "est morte"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a1e4:texte",
+          "avant": "du loup",
+          "gabarit": "{du} {espece}"
+        },
+        {
+          "id": "a1e15:texte",
+          "avant": "le loup",
+          "gabarit": "{le} {espece}"
+        },
+        {
+          "id": "a1e24:texte",
+          "avant": "le loup",
+          "gabarit": "{le} {espece}"
+        },
+        {
+          "id": "a4e11:texte",
+          "avant": "Le loup est mort ! Le loup est mort !",
+          "gabarit": "{Le} {espece} est {mort|morte} ! {Le} {espece} est {mort|morte} !"
+        },
+        {
+          "id": "a4e12:texte",
+          "avant": "Le loup",
+          "gabarit": "{Le} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r2",
+      "espece": "chevre",
+      "famille": "petit",
+      "traits": [
+        "attentive",
+        "courageuse",
+        "tenace"
+      ],
+      "voix": "voix douce et ferme, parfois tremblante de chagrin",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a1e1:texte",
+            "avant": "elle les aimait",
+            "apres": "il les aimait"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "une mère aime",
+            "apres": "un père aime"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "elle voulut",
+            "apres": "il voulut"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "Elle appela",
+            "apres": "Il appela"
+          },
+          {
+            "id": "a1e7:texte",
+            "avant": "Chère maman",
+            "apres": "Cher papa"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "rassurée",
+            "apres": "rassuré"
+          },
+          {
+            "id": "a1e14:texte",
+            "avant": "votre maman",
+            "apres": "votre papa"
+          },
+          {
+            "id": "a1e14:texte",
+            "avant": "elle a apporté",
+            "apres": "il a apporté"
+          },
+          {
+            "id": "a1e15:texte",
+            "avant": "notre maman",
+            "apres": "notre papa"
+          },
+          {
+            "id": "a1e15:texte",
+            "avant": "Elle a une voix",
+            "apres": "Il a une voix"
+          },
+          {
+            "id": "a1e22:texte",
+            "avant": "votre maman",
+            "apres": "votre papa"
+          },
+          {
+            "id": "a1e22:texte",
+            "avant": "elle a apporté",
+            "apres": "il a apporté"
+          },
+          {
+            "id": "a1e24:texte",
+            "avant": "Notre maman",
+            "apres": "Notre papa"
+          },
+          {
+            "id": "a2e20:texte",
+            "avant": "votre chère petite maman",
+            "apres": "votre cher petit papa"
+          },
+          {
+            "id": "a2e20:texte",
+            "avant": "est rentrée",
+            "apres": "est rentré"
+          },
+          {
+            "id": "a2e20:texte",
+            "avant": "elle a rapporté",
+            "apres": "il a rapporté"
+          },
+          {
+            "id": "a2e21:texte",
+            "avant": "notre chère petite maman",
+            "apres": "notre cher petit papa"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "qu'elle vit",
+            "apres": "qu'il vit"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "Elle chercha",
+            "apres": "Il chercha"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "Elle les appela",
+            "apres": "Il les appela"
+          },
+          {
+            "id": "a3e4:texte",
+            "avant": "elle arriva",
+            "apres": "il arriva"
+          },
+          {
+            "id": "a3e5:texte",
+            "avant": "Chère maman",
+            "apres": "Cher papa"
+          },
+          {
+            "id": "a3e8:texte",
+            "avant": "elle a pleuré",
+            "apres": "il a pleuré"
+          },
+          {
+            "id": "a3e10:texte",
+            "avant": "avec elle",
+            "apres": "avec lui"
+          },
+          {
+            "id": "a3e14:texte",
+            "avant": "Quand elle arriva",
+            "apres": "Quand il arriva"
+          },
+          {
+            "id": "a3e14:texte",
+            "avant": "Elle ",
+            "apres": "Il "
+          },
+          {
+            "id": "a3e20:texte",
+            "avant": "sa chère maman",
+            "apres": "son cher papa"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "la vieille",
+            "apres": "le vieux"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r3",
+      "espece": "chevreau",
+      "famille": "petit",
+      "traits": [
+        "prudent",
+        "vif",
+        "lucide"
+      ],
+      "voix": "voix claire et légère, presque cachée dans l’horloge",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2e31:texte",
+            "avant": "Seul ",
+            "apres": "Seule "
+          },
+          {
+            "id": "a2e31:texte",
+            "avant": "resta caché",
+            "apres": "resta cachée"
+          },
+          {
+            "id": "pitch",
+            "avant": "caché dans l’horloge",
+            "apres": "cachée dans l’horloge"
+          },
+          {
+            "id": "a3e9:texte",
+            "avant": "un dans l’horloge",
+            "apres": "une dans l’horloge"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r4",
+      "espece": "chevreau",
+      "famille": "petit",
+      "traits": [
+        "uni",
+        "vigilant",
+        "joyeux"
+      ],
+      "voix": "voix multiple suggérée par un rythme un peu chantant",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2e24:ton",
+            "avant": "trompé",
+            "apres": "trompée"
+          },
+          {
+            "id": "a4e11:ton",
+            "avant": "joyeux",
+            "apres": "joyeuse"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r5",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "prudent",
+        "craintif"
+      ],
+      "voix": "voix basse et hésitante",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2e4:texte",
+            "avant": "le meunier",
+            "apres": "la meunière"
+          },
+          {
+            "id": "a2e10:ton",
+            "avant": "hésitant",
+            "apres": "hésitante"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 13,
+    "ageAuditoire": 7,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La maison et la porte",
+      "description": "Un carton vertical figure la porte de la maison. Sept traits dessinés dessus rappellent les sept enfants ; un autre carton porte les silhouettes des sept cachettes, dont la grande horloge. Un coussin vert sur le côté figure l'arbre du pré lors du sauvetage.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "La boutique et le moulin",
+      "description": "Un coussin désigne le chemin entre boulangerie et moulin ; le carton de la porte reste au fond pour la troisième visite. Une bande blanche dessinée sur un carton fixe figure la farine ; aucun costume ni aucune patte ne change pendant le jeu.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t3",
+      "titre": "Le pré et le puits",
+      "description": "Un coussin vert désigne l’arbre sous lequel dort {{r1}}. Un cercle bleu dessiné sur un carton au fond suffit pour le puits. Le ventre ouvert, les ciseaux, l’aiguille, le fil, les pierres et la couture existent seulement dans le récit : gardez les mêmes peluches et aucun objet dans les mains.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "La voix et la patte",
+      "resume": "{{r2}} prévient la fratrie ; {{r1}} échoue deux fois à entrer.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Il était une fois la vieille {{r2}}, qui avait sept enfants, et elle les aimait comme une mère aime ses enfants. Un jour, elle voulut aller dans la forêt chercher à manger. Elle appela ses sept enfants et leur dit :"
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e3",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e4",
+          "type": "replique",
+          "texte": "Mes enfants, je vais dans la forêt. Méfiez-vous du loup : s'il entre, il vous mangera sans exception, avec la peau et les poils. Le méchant se déguise souvent, mais vous le reconnaîtrez tout de suite à sa grosse voix et à ses pattes noires.",
+          "marionnetteId": "r2",
+          "ton": "ferme"
+        },
+        {
+          "id": "a1e5",
+          "type": "adresse_public",
+          "texte": "Retenez les deux indices : la grosse voix, les pattes noires !",
+          "marionnetteId": "r4",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e6",
+          "type": "conteur",
+          "texte": "La fratrie répondit :"
+        },
+        {
+          "id": "a1e7",
+          "type": "replique",
+          "texte": "Chère maman, nous ferons bien attention, vous pouvez partir tranquille.",
+          "marionnetteId": "r4"
+        },
+        {
+          "id": "a1e8",
+          "type": "conteur",
+          "texte": "{{r2}} bêla et s'en alla, rassurée."
+        },
+        {
+          "id": "a1e9",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e10",
+          "type": "conteur",
+          "texte": "Peu de temps après, quelqu'un se présenta à la porte."
+        },
+        {
+          "id": "a1e11",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a1e12",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e13",
+          "type": "didascalie",
+          "texte": "{{r1}} frappe un coup sourd sur la table."
+        },
+        {
+          "id": "a1e14",
+          "type": "replique",
+          "texte": "Ouvrez, mes enfants, votre maman est là et elle a apporté quelque chose pour chaque enfant.",
+          "marionnetteId": "r1",
+          "ton": "grosse voix"
+        },
+        {
+          "id": "a1e15",
+          "type": "replique",
+          "texte": "Nous n'ouvrons pas, tu n'es pas notre maman ! Elle a une voix douce et jolie, mais ta voix est rauque : tu es le loup !",
+          "marionnetteId": "r4"
+        },
+        {
+          "id": "a1e16",
+          "type": "adresse_public",
+          "texte": "Criez avec moi le premier indice : « Grosse voix ! »",
+          "marionnetteId": "r4",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e17",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e18",
+          "type": "conteur",
+          "texte": "Alors {{r1}} alla chez un marchand et acheta un gros morceau de craie. Il le mangea, et cela rendit sa voix toute douce."
+        },
+        {
+          "id": "a1e19",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a1e20",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e21",
+          "type": "didascalie",
+          "texte": "{{r1}} frappe une fois sur la table, plus doucement."
+        },
+        {
+          "id": "a1e22",
+          "type": "replique",
+          "texte": "Ouvrez, mes enfants, votre maman est là et elle a apporté quelque chose pour chaque enfant.",
+          "marionnetteId": "r1",
+          "ton": "voix douce"
+        },
+        {
+          "id": "a1e23",
+          "type": "conteur",
+          "texte": "Mais {{r1}} avait posé sa patte noire sur le rebord de la fenêtre. La fratrie la vit et cria :"
+        },
+        {
+          "id": "a1e24",
+          "type": "replique",
+          "texte": "Nous n'ouvrons pas ! Notre maman n'a pas une patte noire comme toi : tu es le loup !",
+          "marionnetteId": "r4"
+        },
+        {
+          "id": "a1e25",
+          "type": "adresse_public",
+          "texte": "Criez le second indice : « Patte noire ! »",
+          "marionnetteId": "r4",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e26",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e27",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "La troisième visite",
+      "resume": "La farine blanchit la patte de {{r1}} ; la fratrie ouvre et {{r1}} avale six enfants.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "Alors {{r1}} courut chez un boulanger et dit :"
+        },
+        {
+          "id": "a2e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e3",
+          "type": "replique",
+          "texte": "Je me suis cogné la patte, mets-moi de la pâte dessus.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a2e4",
+          "type": "conteur",
+          "texte": "Et une fois sa patte enduite de pâte chez le boulanger, il courut chez {{r5}}, le meunier, et dit :"
+        },
+        {
+          "id": "a2e5",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a2e6",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e7",
+          "type": "replique",
+          "texte": "Saupoudre ma patte de farine blanche.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a2e8",
+          "type": "conteur",
+          "texte": "{{r5}} pensa :"
+        },
+        {
+          "id": "a2e9",
+          "type": "replique",
+          "texte": "{{r1}} veut tromper quelqu'un.",
+          "marionnetteId": "r5",
+          "ton": "pour soi"
+        },
+        {
+          "id": "a2e10",
+          "type": "replique",
+          "texte": "Non.",
+          "marionnetteId": "r5",
+          "ton": "hésitant"
+        },
+        {
+          "id": "a2e11",
+          "type": "replique",
+          "texte": "Si tu ne le fais pas, je te mange.",
+          "marionnetteId": "r1",
+          "ton": "menaçant"
+        },
+        {
+          "id": "a2e12",
+          "type": "conteur",
+          "texte": "Alors {{r5}} eut peur, et la patte fut blanchie de farine. Eh oui, les gens sont ainsi."
+        },
+        {
+          "id": "a2e13",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e14",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e15",
+          "type": "conteur",
+          "texte": "{{r1}} revint une troisième fois à la porte."
+        },
+        {
+          "id": "a2e16",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a2e17",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e18",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e19",
+          "type": "didascalie",
+          "texte": "{{r1}} frappe une dernière fois sur la table."
+        },
+        {
+          "id": "a2e20",
+          "type": "replique",
+          "texte": "Ouvrez-moi, les enfants, votre chère petite maman est rentrée et elle a rapporté de la forêt quelque chose pour chaque enfant.",
+          "marionnetteId": "r1",
+          "ton": "voix douce"
+        },
+        {
+          "id": "a2e21",
+          "type": "replique",
+          "texte": "Montre-nous d'abord ta patte, que nous sachions si tu es notre chère petite maman.",
+          "marionnetteId": "r4"
+        },
+        {
+          "id": "a2e22",
+          "type": "conteur",
+          "texte": "{{r1}} posa sa patte sur le rebord de la fenêtre."
+        },
+        {
+          "id": "a2e23",
+          "type": "adresse_public",
+          "texte": "Répétez cette nouvelle couleur : « blanche » !",
+          "marionnetteId": "r4",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e24",
+          "type": "replique",
+          "texte": "Elle est blanche. Nous ouvrons.",
+          "marionnetteId": "r4",
+          "ton": "trompé"
+        },
+        {
+          "id": "a2e25",
+          "type": "conteur",
+          "texte": "Mais celui qui entra, c'était {{r1}} !"
+        },
+        {
+          "id": "a2e26",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e27",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a2e28",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e29",
+          "type": "conteur",
+          "texte": "La fratrie prit peur et se précipita vers six cachettes : sous la table, dans le lit, dans le poêle, dans la cuisine, dans l'armoire et sous la bassine."
+        },
+        {
+          "id": "a2e30",
+          "type": "didascalie",
+          "texte": "{{r3}} s’abaisse derrière le carton de la grande horloge."
+        },
+        {
+          "id": "a2e31",
+          "type": "conteur",
+          "texte": "Mais {{r1}} les trouva dans six cachettes et ne fit pas de manières : il en avala six, à la suite. Seul {{r3}} resta caché dans la caisse de l'horloge : {{r1}} ne trouva pas sa cachette. Quand {{r1}} fut rassasié, il s'en alla, se coucha dehors sous un arbre dans le pré vert et s'endormit."
+        },
+        {
+          "id": "a2e32",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "La caisse de l’horloge",
+      "resume": "{{r2}} retrouve {{r3}}, pleure les six autres puis les délivre du ventre de {{r1}}.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a3e2",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e3",
+          "type": "conteur",
+          "texte": "Peu après, {{r2}} revint de la forêt. Ah ! qu'est-ce qu'elle vit ! La porte grande ouverte ; la table, les chaises et les bancs renversés ; la bassine en morceaux ; la couverture et les oreillers arrachés du lit. Elle chercha ses enfants, mais ne les trouva nulle part. Elle les appela par leur nom, à tour de rôle, mais personne ne répondit."
+        },
+        {
+          "id": "a3e4",
+          "type": "conteur",
+          "texte": "Enfin, quand elle arriva à {{r3}}, une petite voix cria :"
+        },
+        {
+          "id": "a3e5",
+          "type": "replique",
+          "texte": "Chère maman, je suis dans la caisse de l'horloge !",
+          "marionnetteId": "r3",
+          "ton": "depuis la cachette"
+        },
+        {
+          "id": "a3e6",
+          "type": "didascalie",
+          "texte": "{{r3}} remonte d’un seul mouvement derrière le carton."
+        },
+        {
+          "id": "a3e7",
+          "type": "replique",
+          "texte": "{{r1}} est venu et a mangé les six autres enfants.",
+          "marionnetteId": "r3",
+          "ton": "triste"
+        },
+        {
+          "id": "a3e8",
+          "type": "conteur",
+          "texte": "Vous pensez comme elle a pleuré ses pauvres enfants !"
+        },
+        {
+          "id": "a3e9",
+          "type": "adresse_public",
+          "texte": "Comptez doucement les enfants : un dans l’horloge, six à retrouver.",
+          "marionnetteId": "r2",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e10",
+          "type": "conteur",
+          "texte": "Enfin, dans son chagrin, {{r2}} sortit, et {{r3}} courut avec elle."
+        },
+        {
+          "id": "a3e11",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e12",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a3e13",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e14",
+          "type": "conteur",
+          "texte": "Quand elle arriva dans le pré, {{r1}} était couché sous l'arbre et ronflait si fort que les branches en tremblaient. Elle le regarda de tous les côtés et vit que quelque chose bougeait et gigotait dans son gros ventre plein."
+        },
+        {
+          "id": "a3e15",
+          "type": "replique",
+          "texte": "Mon Dieu, se pourrait-il que mes pauvres enfants, dont il a fait son dîner, soient encore en vie ?",
+          "marionnetteId": "r2",
+          "ton": "pour soi"
+        },
+        {
+          "id": "a3e16",
+          "type": "conteur",
+          "texte": "{{r3}} dut retourner à la maison : il fallait des ciseaux, une aiguille et du fil. Alors, sous les soins d’{{r2}}, le ventre du monstre s’ouvrit, et à peine une entaille apparut-elle qu'un chevreau passait déjà la tête dehors. L’entaille s’élargit, et les six sautèrent dehors à la suite, en vie et sans une égratignure, car le monstre, dans sa gloutonnerie, avait tout avalé sans mâcher. Quelle joie !"
+        },
+        {
+          "id": "a3e17",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e18",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a3e19",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e20",
+          "type": "conteur",
+          "texte": "La fratrie embrassa sa chère maman et sauta comme un tailleur le jour de ses noces."
+        },
+        {
+          "id": "a3e21",
+          "type": "adresse_public",
+          "texte": "Comptez avec moi les six enfants qui reviennent : un, deux, trois, quatre, cinq, six !",
+          "marionnetteId": "r4",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e22",
+          "type": "conteur",
+          "texte": "Mais {{r2}} dit :"
+        },
+        {
+          "id": "a3e23",
+          "type": "replique",
+          "texte": "Maintenant, allez chercher de grosses pierres : nous allons en remplir le ventre de cette méchante bête pendant qu'elle dort.",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a3e24",
+          "type": "conteur",
+          "texte": "La fratrie poussa des pierres en toute hâte, et le ventre de {{r1}} en fut rempli autant que possible. Puis le ventre fut recousu si vite que {{r1}} ne s'aperçut de rien et ne bougea même pas."
+        },
+        {
+          "id": "a3e25",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e26",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "numero": 4,
+      "titre": "Les pierres et le puits",
+      "resume": "{{r1}} chante, les pierres l’entraînent au fond du puits et la fratrie danse avec {{r2}}.",
+      "tableauId": "t3",
+      "elements": [
+        {
+          "id": "a4e1",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e2",
+          "type": "conteur",
+          "texte": "Quand {{r1}} eut enfin fini de dormir, il se leva, et comme les pierres dans son ventre lui donnaient très soif, il voulut aller boire au puits. Mais quand il se mit à marcher et à se balancer de droite à gauche, les pierres s'entrechoquèrent dans son ventre et firent du bruit."
+        },
+        {
+          "id": "a4e3",
+          "type": "adresse_public",
+          "texte": "Écoutez le bruit dans mon ventre : « gronde, gronde » !",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e4",
+          "type": "replique",
+          "texte": "Qu'est-ce qui roule et qui gronde\nDans mon ventre tout rond ?\nJe croyais avoir six chevreaux,\nCe ne sont que des cailloux !",
+          "marionnetteId": "r1",
+          "ton": "en chantant"
+        },
+        {
+          "id": "a4e5",
+          "type": "conteur",
+          "texte": "Et quand {{r1}} arriva au puits et se pencha au-dessus de l'eau pour boire, les lourdes pierres l'entraînèrent au fond, et il se noya."
+        },
+        {
+          "id": "a4e6",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e7",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a4e8",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e9",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e10",
+          "type": "conteur",
+          "texte": "Quand la fratrie vit cela, elle accourut en criant :"
+        },
+        {
+          "id": "a4e11",
+          "type": "replique",
+          "texte": "Le loup est mort ! Le loup est mort !",
+          "marionnetteId": "r4",
+          "ton": "joyeux"
+        },
+        {
+          "id": "a4e12",
+          "type": "adresse_public",
+          "texte": "Reprenez le cri de victoire : « Le loup est mort ! »",
+          "marionnetteId": "r4",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e13",
+          "type": "didascalie",
+          "texte": "{{r2}} et {{r4}} sautillent ensemble autour du puits dessiné."
+        },
+        {
+          "id": "a4e14",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e15",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "de-loup-et-sept-chevreaux",
+    "synopsis": {
+      "accroche": "La voix peut changer ; la patte aussi.",
+      "resume": [
+        "{{r2}} laisse ses sept petits à la maison ; {{r1}} essaie trois fois d’entrer.",
+        "Six chevreaux sont avalés, {{r3}} seul reste dans l’horloge.",
+        "{{r2}} sauve les six, remplit le ventre de pierres ; {{r1}} meurt au puits et la fratrie danse."
+      ]
+    },
+    "transposition": {
+      "texte": "Il était une fois la vieille {{r2}}, qui avait sept enfants, et elle les aimait comme une mère aime ses enfants. Un jour, elle voulut aller dans la forêt chercher à manger. Elle appela ses sept enfants et leur dit :\n\n— Mes enfants, je vais dans la forêt. Méfiez-vous du loup : s'il entre, il vous mangera sans exception, avec la peau et les poils. Le méchant se déguise souvent, mais vous le reconnaîtrez tout de suite à sa grosse voix et à ses pattes noires.\n\nLa fratrie répondit :\n\n— Chère maman, nous ferons bien attention, vous pouvez partir tranquille.\n\n{{r2}} bêla et s'en alla, rassurée.\n\nPeu de temps après, quelqu'un se présenta à la porte. Il frappa et cria :\n\n— Ouvrez, mes enfants, votre maman est là et elle a apporté quelque chose pour chaque enfant.\n\nMais la fratrie reconnut {{r1}} à sa grosse voix.\n\n— Nous n'ouvrons pas, tu n'es pas notre maman ! Elle a une voix douce et jolie, mais ta voix est rauque : tu es le loup !\n\nAlors {{r1}} alla chez un marchand et acheta un gros morceau de craie. Il le mangea, et cela rendit sa voix toute douce. Puis il revint, frappa à la porte et cria :\n\n— Ouvrez, mes enfants, votre maman est là et elle a apporté quelque chose pour chaque enfant.\n\nMais {{r1}} avait posé sa patte noire sur le rebord de la fenêtre. La fratrie la vit et cria :\n\n— Nous n'ouvrons pas ! Notre maman n'a pas une patte noire comme toi : tu es le loup !\n\nAlors {{r1}} courut chez un boulanger et dit :\n\n— Je me suis cogné la patte, mets-moi de la pâte dessus.\n\nEt une fois sa patte enduite de pâte chez le boulanger, il courut chez {{r5}}, le meunier, et dit :\n\n— Saupoudre ma patte de farine blanche.\n\n{{r5}} pensa : « {{r1}} veut tromper quelqu'un », et refusa. Mais {{r1}} dit : « Si tu ne le fais pas, je te mange. » Alors {{r5}} eut peur, et la patte fut blanchie de farine. Eh oui, les gens sont ainsi.\n\n{{r1}} revint une troisième fois à la porte. Il frappa et dit :\n\n— Ouvrez-moi, les enfants, votre chère petite maman est rentrée et elle a rapporté de la forêt quelque chose pour chaque enfant.\n\nLa fratrie cria :\n\n— Montre-nous d'abord ta patte, que nous sachions si tu es notre chère petite maman.\n\n{{r1}} posa sa patte sur le rebord de la fenêtre. Quand la fratrie vit qu'elle était blanche, elle crut que tout ce qu'il disait était vrai, et la porte s’ouvrit. Mais celui qui entra, c'était {{r1}} !\n\nLa fratrie prit peur et se précipita vers six cachettes : sous la table, dans le lit, dans le poêle, dans la cuisine, dans l'armoire et sous la bassine. {{r3}} se glissa dans la caisse de la grande horloge. Mais {{r1}} les trouva dans six cachettes et ne fit pas de manières : il en avala six, à la suite. Seul {{r3}} resta caché dans la caisse de l'horloge : {{r1}} ne trouva pas sa cachette. Quand {{r1}} fut rassasié, il s'en alla, se coucha dehors sous un arbre dans le pré vert et s'endormit.\n\nPeu après, {{r2}} revint de la forêt. Ah ! qu'est-ce qu'elle vit ! La porte grande ouverte ; la table, les chaises et les bancs renversés ; la bassine en morceaux ; la couverture et les oreillers arrachés du lit. Elle chercha ses enfants, mais ne les trouva nulle part. Elle les appela par leur nom, à tour de rôle, mais personne ne répondit. Enfin, quand elle arriva à {{r3}}, une petite voix cria :\n\n— Chère maman, je suis dans la caisse de l'horloge !\n\n{{r3}} sortit de là, et il raconta à {{r2}} que {{r1}} était venu et avait mangé les six autres enfants. Vous pensez comme elle a pleuré ses pauvres enfants !\n\nEnfin, dans son chagrin, {{r2}} sortit, et {{r3}} courut avec elle. Quand elle arriva dans le pré, {{r1}} était couché sous l'arbre et ronflait si fort que les branches en tremblaient. Elle le regarda de tous les côtés et vit que quelque chose bougeait et gigotait dans son gros ventre plein.\n\n— Mon Dieu, pensa-t-elle, se pourrait-il que mes pauvres enfants, dont il a fait son dîner, soient encore en vie ?\n\n{{r3}} dut retourner à la maison : il fallait des ciseaux, une aiguille et du fil. Alors, sous les soins d’{{r2}}, le ventre du monstre s’ouvrit, et à peine une entaille apparut-elle qu'un chevreau passait déjà la tête dehors. L’entaille s’élargit, et les six sautèrent dehors à la suite, en vie et sans une égratignure, car le monstre, dans sa gloutonnerie, avait tout avalé sans mâcher. Quelle joie ! La fratrie embrassa sa chère maman et sauta comme un tailleur le jour de ses noces.\n\nMais {{r2}} dit :\n\n— Maintenant, allez chercher de grosses pierres : nous allons en remplir le ventre de cette méchante bête pendant qu'elle dort.\n\nLa fratrie poussa des pierres en toute hâte, et le ventre de {{r1}} en fut rempli autant que possible. Puis le ventre fut recousu si vite que {{r1}} ne s'aperçut de rien et ne bougea même pas.\n\nQuand {{r1}} eut enfin fini de dormir, il se leva, et comme les pierres dans son ventre lui donnaient très soif, il voulut aller boire au puits. Mais quand il se mit à marcher et à se balancer de droite à gauche, les pierres s'entrechoquèrent dans son ventre et firent du bruit. Alors il cria :\n\n« Qu'est-ce qui roule et qui gronde\nDans mon ventre tout rond ?\nJe croyais avoir six chevreaux,\nCe ne sont que des cailloux ! »\n\nEt quand {{r1}} arriva au puits et se pencha au-dessus de l'eau pour boire, les lourdes pierres l'entraînèrent au fond, et il se noya. Quand la fratrie vit cela, elle accourut en criant : « Le loup est mort ! Le loup est mort ! » et dansa de joie avec {{r2}} autour du puits."
+    }
+  },
+  "dureeEstimeeSecondes": 667,
+  "interactionsOrdonnees": [
+    "a1e16",
+    "a1e25",
+    "a2e23",
+    "a3e9",
+    "a3e21",
+    "a4e12",
+    "a4e3",
+    "a1e5"
+  ]
+}

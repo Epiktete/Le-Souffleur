@@ -1,0 +1,628 @@
+{
+  "id": "en-vieille-et-cochon--1",
+  "conteId": "en-vieille-et-cochon",
+  "titre": "La Vieille et son cochon",
+  "pitch": "{{r1}} ne peut rentrer avec son petit cochon. Une longue chaîne de refus s’inverse quand {{r2}} reçoit du lait de {{r3}}.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "femme",
+      "famille": "adulte",
+      "traits": [
+        "tenace",
+        "patiente",
+        "bavarde"
+      ],
+      "voix": "voix vive et rythmée, qui reprend chaque maillon de la chaîne",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a1e1:texte",
+            "avant": "elle trouva",
+            "apres": "il trouva"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "elle arriva",
+            "apres": "il arriva"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "Elle alla",
+            "apres": "Il alla"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "Elle alla",
+            "apres": "Il alla"
+          },
+          {
+            "id": "a1e13:texte",
+            "avant": "Elle alla",
+            "apres": "Il alla"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "Elle alla",
+            "apres": "Il alla"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "Elle alla",
+            "apres": "Il alla"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "Elle alla",
+            "apres": "Il alla"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "Elle alla",
+            "apres": "Il alla"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "Elle alla",
+            "apres": "Il alla"
+          },
+          {
+            "id": "a3e5:texte",
+            "avant": "Elle alla",
+            "apres": "Il alla"
+          },
+          {
+            "id": "a3e23:texte",
+            "avant": "chez elle",
+            "apres": "chez lui"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "elle rencontra",
+            "apres": "il rencontra"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "Alors elle",
+            "apres": "Alors il"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "elle rencontra",
+            "apres": "il rencontra"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "Alors elle",
+            "apres": "Alors il"
+          },
+          {
+            "id": "a1e13:texte",
+            "avant": "elle rencontra",
+            "apres": "il rencontra"
+          },
+          {
+            "id": "a1e13:texte",
+            "avant": "Alors elle",
+            "apres": "Alors il"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "elle rencontra",
+            "apres": "il rencontra"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "Alors elle",
+            "apres": "Alors il"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "elle rencontra",
+            "apres": "il rencontra"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "Alors elle",
+            "apres": "Alors il"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "elle rencontra",
+            "apres": "il rencontra"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "Alors elle",
+            "apres": "Alors il"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "elle rencontra",
+            "apres": "il rencontra"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "Alors elle",
+            "apres": "Alors il"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "elle rencontra",
+            "apres": "il rencontra"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "Alors elle",
+            "apres": "Alors il"
+          },
+          {
+            "id": "a3e5:texte",
+            "avant": "elle rencontra",
+            "apres": "il rencontra"
+          },
+          {
+            "id": "a3e5:texte",
+            "avant": "Alors elle",
+            "apres": "Alors il"
+          },
+          {
+            "id": "t2:description",
+            "avant": "lorsqu'elle l'appelle",
+            "apres": "lorsqu'il l'appelle"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a1e1:texte",
+          "avant": "une vieille femme",
+          "gabarit": "{un} {vieux|vieille} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r2",
+      "espece": "chat",
+      "famille": "predateur",
+      "traits": [
+        "gourmand",
+        "futé",
+        "serviable"
+      ],
+      "voix": "voix ronronnante et nette",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a3e22:texte",
+            "avant": "devant lui",
+            "apres": "devant elle"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r3",
+      "espece": "vache",
+      "famille": "gros",
+      "traits": [
+        "calme",
+        "franche",
+        "affamée"
+      ],
+      "voix": "voix grave et douce, avec une pause avant le lait",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a3e18:texte",
+            "avant": "elle donna le lait",
+            "apres": "il donna le lait"
+          }
+        ]
+      },
+      "especeImposee": true
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 12,
+    "ageAuditoire": 3,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "Le marché et la barrière",
+      "description": "Un carton immobile dessine le marché à gauche et la barrière à droite. Un petit cochon est dessiné près de la barrière ; il reste muet tout le spectacle. Un coussin indique le chemin sur lequel {{r1}} se déplace.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "La chaîne du chemin",
+      "description": "Une grande feuille fixée au fond montre, dans l'ordre, chien, bâton, feu, eau, bœuf, boucher, corde et rat. {{r1}} se tourne simplement vers chaque dessin lorsqu'elle l'appelle. Aucun objet dessiné n'est détaché ni tenu.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t3",
+      "titre": "Le foin, le lait et le retour",
+      "description": "À côté de la chaîne déjà dessinée, deux cercles sur le carton représentent la meule de foin et la soucoupe de lait. Les marionnettes n'y touchent pas ; la voix du conteur fait voyager le foin puis le lait. La barrière reste visible pour le dernier saut raconté.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "La barrière et les premiers refus",
+      "resume": "{{r1}} achète un petit cochon ; chien, bâton et feu ne veulent pas l’aider.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "{{r1}}, une vieille femme, faisait le ménage dans sa maison, et elle trouva une petite pièce tordue."
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e3",
+          "type": "replique",
+          "texte": "Que vais-je faire de cette petite pièce ? Je vais aller au marché, et acheter un petit cochon.",
+          "marionnetteId": "r1",
+          "ton": "pour soi"
+        },
+        {
+          "id": "a1e4",
+          "type": "conteur",
+          "texte": "En rentrant, elle arriva à une barrière : mais le petit cochon ne voulut pas passer la barrière."
+        },
+        {
+          "id": "a1e5",
+          "type": "adresse_public",
+          "texte": "Répétez avec moi : « pas ce soir ! »",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e6",
+          "type": "conteur",
+          "texte": "Elle alla un peu plus loin, et elle rencontra un chien. Alors elle lui dit :"
+        },
+        {
+          "id": "a1e7",
+          "type": "replique",
+          "texte": "Chien ! chien ! mords le cochon ; le petit cochon ne veut pas passer la barrière, et je ne rentrerai pas ce soir.",
+          "marionnetteId": "r1",
+          "ton": "en reprenant la chaîne"
+        },
+        {
+          "id": "a1e8",
+          "type": "conteur",
+          "texte": "Mais le chien ne voulut pas."
+        },
+        {
+          "id": "a1e9",
+          "type": "conteur",
+          "texte": "Elle alla un peu plus loin, et elle rencontra un bâton. Alors elle dit :"
+        },
+        {
+          "id": "a1e10",
+          "type": "replique",
+          "texte": "Bâton ! bâton ! tape le chien ; le chien ne veut pas mordre le cochon ; le petit cochon ne veut pas passer la barrière, et je ne rentrerai pas ce soir.",
+          "marionnetteId": "r1",
+          "ton": "en reprenant la chaîne"
+        },
+        {
+          "id": "a1e11",
+          "type": "conteur",
+          "texte": "Mais le bâton ne voulut pas."
+        },
+        {
+          "id": "a1e12",
+          "type": "adresse_public",
+          "texte": "Dites le bout qui revient : « le petit cochon ne veut pas passer la barrière ».",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e13",
+          "type": "conteur",
+          "texte": "Elle alla un peu plus loin, et elle rencontra un feu. Alors elle dit :"
+        },
+        {
+          "id": "a1e14",
+          "type": "replique",
+          "texte": "Feu ! feu ! brûle le bâton ; le bâton ne veut pas taper le chien ; le chien ne veut pas mordre le cochon ; le petit cochon ne veut pas passer la barrière, et je ne rentrerai pas ce soir.",
+          "marionnetteId": "r1",
+          "ton": "en reprenant la chaîne"
+        },
+        {
+          "id": "a1e15",
+          "type": "conteur",
+          "texte": "Mais le feu ne voulut pas."
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "La chaîne s’allonge",
+      "resume": "{{r1}} appelle l’eau, le bœuf, le boucher et la corde ; chacun refuse.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "Elle alla un peu plus loin, et elle rencontra de l'eau. Alors elle dit :"
+        },
+        {
+          "id": "a2e2",
+          "type": "replique",
+          "texte": "Eau ! eau ! éteins le feu ; le feu ne veut pas brûler le bâton ; le bâton ne veut pas taper le chien ; le chien ne veut pas mordre le cochon ; le petit cochon ne veut pas passer la barrière, et je ne rentrerai pas ce soir.",
+          "marionnetteId": "r1",
+          "ton": "en reprenant la chaîne"
+        },
+        {
+          "id": "a2e3",
+          "type": "conteur",
+          "texte": "Mais l'eau ne voulut pas."
+        },
+        {
+          "id": "a2e4",
+          "type": "conteur",
+          "texte": "Elle alla un peu plus loin, et elle rencontra un bœuf. Alors elle dit :"
+        },
+        {
+          "id": "a2e5",
+          "type": "replique",
+          "texte": "Bœuf ! bœuf ! bois l'eau ; l'eau ne veut pas éteindre le feu ; le feu ne veut pas brûler le bâton ; le bâton ne veut pas taper le chien ; le chien ne veut pas mordre le cochon ; le petit cochon ne veut pas passer la barrière, et je ne rentrerai pas ce soir.",
+          "marionnetteId": "r1",
+          "ton": "en reprenant la chaîne"
+        },
+        {
+          "id": "a2e6",
+          "type": "conteur",
+          "texte": "Mais le bœuf ne voulut pas."
+        },
+        {
+          "id": "a2e7",
+          "type": "adresse_public",
+          "texte": "Répétez trois mots du chemin : « eau, feu, bâton ».",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e8",
+          "type": "conteur",
+          "texte": "Elle alla un peu plus loin, et elle rencontra un boucher. Alors elle dit :"
+        },
+        {
+          "id": "a2e9",
+          "type": "replique",
+          "texte": "Boucher ! boucher ! attrape le bœuf ; le bœuf ne veut pas boire l'eau ; l'eau ne veut pas éteindre le feu ; le feu ne veut pas brûler le bâton ; le bâton ne veut pas taper le chien ; le chien ne veut pas mordre le cochon ; le petit cochon ne veut pas passer la barrière, et je ne rentrerai pas ce soir.",
+          "marionnetteId": "r1",
+          "ton": "en reprenant la chaîne"
+        },
+        {
+          "id": "a2e10",
+          "type": "conteur",
+          "texte": "Mais le boucher ne voulut pas."
+        },
+        {
+          "id": "a2e11",
+          "type": "conteur",
+          "texte": "Elle alla un peu plus loin, et elle rencontra une corde. Alors elle dit :"
+        },
+        {
+          "id": "a2e12",
+          "type": "replique",
+          "texte": "Corde ! corde ! attache le boucher ; le boucher ne veut pas attraper le bœuf ; le bœuf ne veut pas boire l'eau ; l'eau ne veut pas éteindre le feu ; le feu ne veut pas brûler le bâton ; le bâton ne veut pas taper le chien ; le chien ne veut pas mordre le cochon ; le petit cochon ne veut pas passer la barrière, et je ne rentrerai pas ce soir.",
+          "marionnetteId": "r1",
+          "ton": "en reprenant la chaîne"
+        },
+        {
+          "id": "a2e13",
+          "type": "conteur",
+          "texte": "Mais la corde ne voulut pas."
+        },
+        {
+          "id": "a2e14",
+          "type": "adresse_public",
+          "texte": "Dites encore : « je ne rentrerai pas ce soir ».",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Le foin, le lait et le retour",
+      "resume": "Le rat refuse ; {{r2}} demande du lait, {{r3}} demande du foin, puis toute la chaîne repart en sens inverse.",
+      "tableauId": "t3",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "conteur",
+          "texte": "Elle alla un peu plus loin, et elle rencontra un rat. Alors elle dit :"
+        },
+        {
+          "id": "a3e2",
+          "type": "replique",
+          "texte": "Rat ! rat ! ronge la corde ; la corde ne veut pas attacher le boucher ; le boucher ne veut pas attraper le bœuf ; le bœuf ne veut pas boire l'eau ; l'eau ne veut pas éteindre le feu ; le feu ne veut pas brûler le bâton ; le bâton ne veut pas taper le chien ; le chien ne veut pas mordre le cochon ; le petit cochon ne veut pas passer la barrière, et je ne rentrerai pas ce soir.",
+          "marionnetteId": "r1",
+          "ton": "en reprenant la chaîne"
+        },
+        {
+          "id": "a3e3",
+          "type": "conteur",
+          "texte": "Mais le rat ne voulut pas."
+        },
+        {
+          "id": "a3e4",
+          "type": "adresse_public",
+          "texte": "Reprenez le bout du refrain : « le petit cochon ne veut pas passer la barrière ».",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e5",
+          "type": "conteur",
+          "texte": "Elle alla un peu plus loin, et elle rencontra {{r2}}. Alors elle dit :"
+        },
+        {
+          "id": "a3e6",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e7",
+          "type": "replique",
+          "texte": "{{r2}} ! {{r2}} ! attrape le rat ; le rat ne veut pas ronger la corde ; la corde ne veut pas attacher le boucher ; le boucher ne veut pas attraper le bœuf ; le bœuf ne veut pas boire l'eau ; l'eau ne veut pas éteindre le feu ; le feu ne veut pas brûler le bâton ; le bâton ne veut pas taper le chien ; le chien ne veut pas mordre le cochon ; le petit cochon ne veut pas passer la barrière, et je ne rentrerai pas ce soir.",
+          "marionnetteId": "r1",
+          "ton": "en reprenant la chaîne"
+        },
+        {
+          "id": "a3e8",
+          "type": "conteur",
+          "texte": "Mais {{r2}} lui dit :"
+        },
+        {
+          "id": "a3e9",
+          "type": "replique",
+          "texte": "Si tu vas me chercher une soucoupe de lait chez {{r3}} là-bas, j'attraperai le rat.",
+          "marionnetteId": "r2",
+          "ton": "tranquille"
+        },
+        {
+          "id": "a3e10",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e11",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a3e12",
+          "type": "conteur",
+          "texte": "Alors {{r1}} alla voir {{r3}}."
+        },
+        {
+          "id": "a3e13",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e14",
+          "type": "conteur",
+          "texte": "Mais {{r3}} lui dit :"
+        },
+        {
+          "id": "a3e15",
+          "type": "replique",
+          "texte": "Si tu vas me chercher une poignée de foin à cette meule là-bas, je te donnerai le lait.",
+          "marionnetteId": "r3",
+          "ton": "calme"
+        },
+        {
+          "id": "a3e16",
+          "type": "adresse_public",
+          "texte": "Répétez les deux mots : « foin, lait ».",
+          "marionnetteId": "r3",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e17",
+          "type": "conteur",
+          "texte": "Alors {{r1}} alla à la meule de foin, et bientôt du foin était devant {{r3}}."
+        },
+        {
+          "id": "a3e18",
+          "type": "conteur",
+          "texte": "Dès que {{r3}} eut mangé le foin, elle donna le lait à {{r1}}."
+        },
+        {
+          "id": "a3e19",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e20",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a3e21",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e22",
+          "type": "conteur",
+          "texte": "{{r1}} retourna vers {{r2}}. La soucoupe de lait était devant lui."
+        },
+        {
+          "id": "a3e23",
+          "type": "conteur",
+          "texte": "Dès que {{r2}} eut lapé le lait, {{r2}} commença à attraper le rat ; le rat commença à ronger la corde ; la corde commença à attacher le boucher ; le boucher commença à attraper le bœuf ; le bœuf commença à boire l'eau ; l'eau commença à éteindre le feu ; le feu commença à brûler le bâton ; le bâton commença à taper le chien ; le chien commença à mordre le cochon ; le petit cochon, effrayé, sauta par-dessus la barrière ; et ainsi {{r1}} rentra chez elle ce soir-là."
+        },
+        {
+          "id": "a3e24",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e25",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "en-vieille-et-cochon",
+    "synopsis": {
+      "accroche": "Un petit cochon ne veut pas passer la barrière.",
+      "resume": [
+        "{{r1}} achète le cochon et demande de l’aide le long du chemin.",
+        "Après une longue chaîne de refus, {{r2}} demande du lait, {{r3}} du foin.",
+        "Le lait arrive au chat ; tous les maillons repartent et {{r1}} rentre."
+      ]
+    },
+    "transposition": {
+      "texte": "{{r1}}, une vieille femme, faisait le ménage dans sa maison, et elle trouva une petite pièce tordue.\n\n— Que vais-je faire de cette petite pièce ? dit-elle. Je vais aller au marché, et acheter un petit cochon.\n\nEn rentrant, elle arriva à une barrière : mais le petit cochon ne voulut pas passer la barrière.\n\nElle alla un peu plus loin, et elle rencontra un chien. Alors elle lui dit :\n\n— Chien ! chien ! mords le cochon ; le petit cochon ne veut pas passer la barrière, et je ne rentrerai pas ce soir.\n\nMais le chien ne voulut pas.\n\nElle alla un peu plus loin, et elle rencontra un bâton. Alors elle dit :\n\n— Bâton ! bâton ! tape le chien ; le chien ne veut pas mordre le cochon ; le petit cochon ne veut pas passer la barrière, et je ne rentrerai pas ce soir.\n\nMais le bâton ne voulut pas.\n\nElle alla un peu plus loin, et elle rencontra un feu. Alors elle dit :\n\n— Feu ! feu ! brûle le bâton ; le bâton ne veut pas taper le chien ; le chien ne veut pas mordre le cochon ; le petit cochon ne veut pas passer la barrière, et je ne rentrerai pas ce soir.\n\nMais le feu ne voulut pas.\n\nElle alla un peu plus loin, et elle rencontra de l'eau. Alors elle dit :\n\n— Eau ! eau ! éteins le feu ; le feu ne veut pas brûler le bâton ; le bâton ne veut pas taper le chien ; le chien ne veut pas mordre le cochon ; le petit cochon ne veut pas passer la barrière, et je ne rentrerai pas ce soir.\n\nMais l'eau ne voulut pas.\n\nElle alla un peu plus loin, et elle rencontra un bœuf. Alors elle dit :\n\n— Bœuf ! bœuf ! bois l'eau ; l'eau ne veut pas éteindre le feu ; le feu ne veut pas brûler le bâton ; le bâton ne veut pas taper le chien ; le chien ne veut pas mordre le cochon ; le petit cochon ne veut pas passer la barrière, et je ne rentrerai pas ce soir.\n\nMais le bœuf ne voulut pas.\n\nElle alla un peu plus loin, et elle rencontra un boucher. Alors elle dit :\n\n— Boucher ! boucher ! attrape le bœuf ; le bœuf ne veut pas boire l'eau ; l'eau ne veut pas éteindre le feu ; le feu ne veut pas brûler le bâton ; le bâton ne veut pas taper le chien ; le chien ne veut pas mordre le cochon ; le petit cochon ne veut pas passer la barrière, et je ne rentrerai pas ce soir.\n\nMais le boucher ne voulut pas.\n\nElle alla un peu plus loin, et elle rencontra une corde. Alors elle dit :\n\n— Corde ! corde ! attache le boucher ; le boucher ne veut pas attraper le bœuf ; le bœuf ne veut pas boire l'eau ; l'eau ne veut pas éteindre le feu ; le feu ne veut pas brûler le bâton ; le bâton ne veut pas taper le chien ; le chien ne veut pas mordre le cochon ; le petit cochon ne veut pas passer la barrière, et je ne rentrerai pas ce soir.\n\nMais la corde ne voulut pas.\n\nElle alla un peu plus loin, et elle rencontra un rat. Alors elle dit :\n\n— Rat ! rat ! ronge la corde ; la corde ne veut pas attacher le boucher ; le boucher ne veut pas attraper le bœuf ; le bœuf ne veut pas boire l'eau ; l'eau ne veut pas éteindre le feu ; le feu ne veut pas brûler le bâton ; le bâton ne veut pas taper le chien ; le chien ne veut pas mordre le cochon ; le petit cochon ne veut pas passer la barrière, et je ne rentrerai pas ce soir.\n\nMais le rat ne voulut pas.\n\nElle alla un peu plus loin, et elle rencontra {{r2}}. Alors elle dit :\n\n— {{r2}} ! {{r2}} ! attrape le rat ; le rat ne veut pas ronger la corde ; la corde ne veut pas attacher le boucher ; le boucher ne veut pas attraper le bœuf ; le bœuf ne veut pas boire l'eau ; l'eau ne veut pas éteindre le feu ; le feu ne veut pas brûler le bâton ; le bâton ne veut pas taper le chien ; le chien ne veut pas mordre le cochon ; le petit cochon ne veut pas passer la barrière, et je ne rentrerai pas ce soir.\n\nMais {{r2}} lui dit :\n\n— Si tu vas me chercher une soucoupe de lait chez {{r3}} là-bas, j'attraperai le rat.\n\nAlors {{r1}} alla voir {{r3}}.\n\nMais {{r3}} lui dit :\n\n— Si tu vas me chercher une poignée de foin à cette meule là-bas, je te donnerai le lait.\n\nAlors {{r1}} alla à la meule de foin, et bientôt du foin était devant {{r3}}.\n\nDès que {{r3}} eut mangé le foin, elle donna le lait à {{r1}}. {{r1}} retourna vers {{r2}}. La soucoupe de lait était devant lui.\n\nDès que {{r2}} eut lapé le lait, {{r2}} commença à attraper le rat ; le rat commença à ronger la corde ; la corde commença à attacher le boucher ; le boucher commença à attraper le bœuf ; le bœuf commença à boire l'eau ; l'eau commença à éteindre le feu ; le feu commença à brûler le bâton ; le bâton commença à taper le chien ; le chien commença à mordre le cochon ; le petit cochon, effrayé, sauta par-dessus la barrière ; et ainsi {{r1}} rentra chez elle ce soir-là."
+    }
+  },
+  "dureeEstimeeSecondes": 602,
+  "interactionsOrdonnees": [
+    "a1e12",
+    "a2e14",
+    "a3e4",
+    "a3e16",
+    "a2e7",
+    "a1e5"
+  ]
+}
