@@ -5,7 +5,7 @@
   // Les curseurs suivent la charte §11 : piste encre de 4 px, poignée carrée,
   // valeur affichée en mono.
   import { BORNES } from '../config';
-  import { ts } from '../textes';
+  import { t, ts } from '../textes';
   import { studio } from '../etat/studio.svelte';
   import type { NiveauInteraction } from '../types';
 
@@ -56,9 +56,7 @@
   </div>
 
   <!--
-    Marionnettistes et interaction partagent une ligne : ce sont deux choix
-    courts, et les mettre côte à côte raccourcit la colonne du studio.
-    Ils repassent l'un sous l'autre quand la largeur ne suffit plus.
+    Les réglages courts partagent une ligne, puis se replient si nécessaire.
   -->
   <div class="paire">
     <!-- Marionnettistes : 1 ou 2, donc 2 ou 4 mains -->
@@ -89,6 +87,14 @@
           >{libelle}</button>
         {/each}
       </div>
+    </div>
+    <div class="reglage originalite">
+      <label for="r-style" class="mono">{ts.reglages.styleRecit}</label>
+      <div class="reperes" id="r-style-reperes">
+        <span>{ts.reglages.accessible}</span><span>{ts.reglages.original}</span>
+      </div>
+      <input id="r-style" type="range" min="0" max="100" value="50" disabled aria-describedby="r-style-reperes r-style-bientot" />
+      <span class="mention-bientot" id="r-style-bientot">{t.bientot.badge}</span>
     </div>
   </div>
 </div>
@@ -145,15 +151,32 @@
     border-radius: 0;
   }
 
-  /* Deux réglages courts sur une même ligne, qui se replient si besoin. */
+  /* Trois réglages courts sur une même ligne, qui se replient si besoin. */
   .paire {
-    display: grid;
-    grid-template-columns: auto 1fr;
+    display: flex;
+    flex-wrap: wrap;
     gap: 16px 24px;
     align-items: start;
   }
+
+  .originalite {
+    flex: 1 1 180px;
+    min-width: 0;
+    padding: 10px 12px;
+    color: #575757;
+    background: repeating-linear-gradient(135deg, transparent 0 7px, rgb(107 107 107 / 0.12) 7px 9px), #e8e8e8;
+    border: var(--bordure) solid var(--gris);
+  }
+  .reperes { display: flex; justify-content: space-between; gap: 12px; font-size: 12px; }
+  .originalite input { display: block; width: 100%; cursor: not-allowed; }
+  .originalite input::-webkit-slider-runnable-track { background: var(--gris); }
+  .originalite input::-moz-range-track { background: var(--gris); }
+  .originalite input::-webkit-slider-thumb { background: #d0d0d0; border-color: var(--gris); }
+  .originalite input::-moz-range-thumb { background: #d0d0d0; border-color: var(--gris); }
+  .originalite .mention-bientot { margin: 0; text-align: center; }
   @media (max-width: 560px) {
-    .paire { grid-template-columns: 1fr; }
+    .paire { flex-direction: column; }
+    .originalite { flex-basis: auto; align-self: stretch; }
   }
 
   /* Groupes de choix : le retenu passe en encre et porte la barre accent. */

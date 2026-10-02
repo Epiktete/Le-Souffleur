@@ -199,6 +199,9 @@ export const ts = {
     interactionAucune: 'Aucune',
     interactionQuelques: 'Quelques',
     interactionBeaucoup: 'Beaucoup',
+    styleRecit: 'Style du récit',
+    accessible: 'Accessible',
+    original: 'Original',
   },
 
   /**
