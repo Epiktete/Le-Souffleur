@@ -7,7 +7,8 @@
   // gras pour qu'on les repère à l'écran, puis donne une seule astuce. On
   // avance avec « Suivant », on revient avec « Précédent », on saute
   // directement à une étape par ses numéros, et Échap ferme.
-  import { ttu } from '../textes';
+  import { t, ttu } from '../textes';
+  import { ATELIER_DISPONIBLE } from '../config';
   import { tutoriel } from '../etat/tutoriel.svelte';
   import { naviguer } from '../services/routeur';
 
@@ -95,7 +96,7 @@
           {/each}
         </ol>
 
-        {#if tutoriel.etape === ttu.cle.etape}
+        {#if tutoriel.etape === ttu.cle.etape && ATELIER_DISPONIBLE}
           <!-- La clé IA : ce qui bloque la première génération, mis à part. -->
           <div class="cle">
             <h3>{ttu.cle.titre}</h3>
@@ -110,6 +111,8 @@
               {ttu.ouvrirParametres}
             </button>
           </div>
+        {:else if tutoriel.etape === ttu.cle.etape}
+          <p>{t.bientot.message} {t.bientot.badge}.</p>
         {/if}
 
         {#if derniere}

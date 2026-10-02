@@ -32,18 +32,24 @@ function ficheChaperon(page: Page) {
     .getByRole('button', { name: /Le Petit Chaperon rouge/ });
 }
 
-test('la Contothèque est le mode d’accueil, l’Atelier à droite, le retour rebascule', async ({ page }) => {
+test('la Contothèque reste disponible pendant la pause de l’Atelier et des paramètres IA', async ({ page }) => {
   const onglets = page.getByRole('navigation', { name: 'Mode de création' });
   await expect(onglets.getByRole('button').first()).toHaveText('Contothèque');
-  await expect(onglets.getByRole('button').last()).toHaveText('Atelier');
+  await expect(onglets.getByRole('button').last()).toContainText('Atelier');
+  await expect(onglets.getByRole('button').last()).toContainText('Bientôt disponible');
+  await expect(onglets.getByRole('button').last()).toBeDisabled();
+  await expect(page.getByRole('button', { name: /Paramètres IA/ })).toBeDisabled();
 
   // Sans fragment, on arrive sur la Contothèque (décision du 2026-09-28).
   await expect(onglets.getByRole('button', { name: 'Contothèque' }))
     .toHaveAttribute('aria-current', 'page');
 
-  await onglets.getByRole('button', { name: 'Atelier' }).click();
-  await expect(page).toHaveURL(/#\/studio$/);
-  await page.goBack();
+  for (const route of ['studio', 'parametres']) {
+    await page.goto(`/#/${route}`);
+    await expect(page.getByRole('heading', { name: /Bientôt disponible/ })).toBeVisible();
+    await expect(page.locator('input[type="password"]')).toHaveCount(0);
+    await page.getByRole('link', { name: 'Découvrir la Contothèque' }).click();
+  }
   await expect(onglets.getByRole('button', { name: 'Contothèque' }))
     .toHaveAttribute('aria-current', 'page');
 });
@@ -73,7 +79,7 @@ test('la recherche combine type et origine, et son effacement conserve les régl
   await ficheChaperon(page).click();
   await page.getByRole('button', { name: 'Revenir aux spectacles' }).click();
   await expect(page.getByLabel('Titre ou auteur', { exact: true })).toHaveValue('CHAPERON');
-  await page.getByRole('navigation', { name: 'Mode de création' }).getByRole('button', { name: 'Atelier' }).click();
+  await page.goto('/#/studio');
   await ouvrirContotheque(page);
   await expect(page.getByLabel('Titre ou auteur', { exact: true })).toHaveValue('CHAPERON');
   await page.getByLabel('Type de récit', { exact: true }).selectOption('fable');

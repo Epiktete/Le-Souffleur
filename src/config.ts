@@ -6,6 +6,9 @@ import type { NomEtape } from './services/pipeline';
 /** Nom de l'outil, affiché dans l'en-tête et le titre de la page. */
 export const NOM_OUTIL = 'Le Souffleur';
 
+/** Pause temporaire de l'Atelier et de ses paramètres IA. */
+export const ATELIER_DISPONIBLE = false;
+
 /** Version du schéma des données stockées. À incrémenter lors d'une migration. */
 export const VERSION_SCHEMA = 1;
 

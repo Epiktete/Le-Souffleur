@@ -3,6 +3,7 @@
   // indicateur d'état de la clé, menu de sauvegarde, lien d'aide.
   // Sur écran étroit, il porte aussi les deux boutons d'ouverture des tiroirs.
   import { t } from '../textes';
+  import { ATELIER_DISPONIBLE } from '../config';
   import { naviguer } from '../services/routeur';
   import { largeur } from '../largeur.svelte';
   // Le bandeau du haut : le souffleur dans son trou, vu de la salle.
@@ -56,9 +57,9 @@
   </h1>
 
   <nav>
-    <button class="secondaire-bouton" data-visite="cle" onclick={() => naviguer({ nom: 'parametres' })}>
+    <button class="secondaire-bouton" class:fonction-en-pause={!ATELIER_DISPONIBLE} disabled={!ATELIER_DISPONIBLE} data-visite="cle" onclick={() => naviguer({ nom: 'parametres' })}>
       {t.entete.parametresIa}
-      <span class="badge">{etatCle}</span>
+      {#if ATELIER_DISPONIBLE}<span class="badge">{etatCle}</span>{:else}<span class="mention-bientot">{t.bientot.badge}</span>{/if}
     </button>
     <button class="secondaire-bouton" onclick={() => (sauvegardeOuverte = true)}>{t.entete.sauvegarde}</button>
     <button class="secondaire-bouton" onclick={() => tutoriel.ouvrir(0)}>{t.entete.aide}</button>
@@ -152,7 +153,7 @@
     font-size: 11px;
     box-shadow: 2px 2px 0 var(--encre);
   }
-  header :global(button:hover) {
+  header :global(button:hover:not(:disabled)) {
     box-shadow: 2px 2px 0 var(--encre);
     transform: none;
     text-decoration: underline;
@@ -162,6 +163,7 @@
   @media (max-width: 700px) {
     nav :global(button:not(:first-child)) { display: none; }
     .titre { height: 22px; }
+    .avec-bandeau .titre { height: 30px; }
     /* Sur un écran étroit, la place va au studio, pas à la décoration ;
        le bandeau se réduit à ce qu'il faut pour porter la barre. */
     .bandeau { height: 64px; }

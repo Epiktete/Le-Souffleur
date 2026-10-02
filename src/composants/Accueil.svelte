@@ -9,10 +9,12 @@
   import Colonne from './Colonne.svelte';
   import Bibliotheque from './Bibliotheque.svelte';
   import Studio from './Studio.svelte';
+  import BientotDisponible from './BientotDisponible.svelte';
+  import { ATELIER_DISPONIBLE } from '../config';
   import Banque from './Banque.svelte';
   import OngletsMode from './OngletsMode.svelte';
   import ColonneSpectacles from './ColonneSpectacles.svelte';
-  import { t } from '../textes';
+  import { t, tba } from '../textes';
   import { largeur } from '../largeur.svelte';
   import type { ModeAccueil } from '../services/routeur';
 
@@ -48,7 +50,7 @@
     {:else if ongletActif === 'studio'}
       <Colonne libelle={libelleCentre}>
         <OngletsMode {mode} />
-        {#if mode === 'banque'}<Banque />{:else}<Studio />{/if}
+        {#if mode === 'banque'}<Banque />{:else if ATELIER_DISPONIBLE}<Studio />{:else}<BientotDisponible titre={tba.onglets.studio} />{/if}
       </Colonne>
     {:else}
       <Colonne libelle={t.colonnes.spectacles}><ColonneSpectacles /></Colonne>
@@ -75,7 +77,7 @@
     <div class="studio">
       <Colonne libelle={libelleCentre}>
         <OngletsMode {mode} />
-        {#if mode === 'banque'}<Banque />{:else}<Studio />{/if}
+        {#if mode === 'banque'}<Banque />{:else if ATELIER_DISPONIBLE}<Studio />{:else}<BientotDisponible titre={tba.onglets.studio} />{/if}
       </Colonne>
     </div>
 

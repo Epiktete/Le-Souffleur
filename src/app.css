@@ -219,6 +219,24 @@ button:disabled {
   transform: none;
 }
 
+button.fonction-en-pause:disabled {
+  flex-direction: column;
+  gap: 0;
+  background: repeating-linear-gradient(135deg, transparent 0 7px, rgb(107 107 107 / 0.12) 7px 9px), #e8e8e8;
+  color: #575757;
+  box-shadow: none;
+  text-decoration: none;
+}
+.mention-bientot {
+  display: block;
+  margin-top: 3px;
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 0;
+  text-transform: none;
+  line-height: 1.2;
+}
+
 /* --- Marqueur « vous êtes ici » (CDC §11) -----------------------
    Une barre accent de 4 px signale l'élément courant ou retenu. C'est le seul
    emploi de l'accent en dehors des deux CTA et des erreurs : il marque, il ne

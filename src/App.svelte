@@ -5,6 +5,8 @@
   import Accueil from './composants/Accueil.svelte';
   import EcranIntrouvable from './composants/EcranIntrouvable.svelte';
   import ParametresIa from './composants/ParametresIa.svelte';
+  import BientotDisponible from './composants/BientotDisponible.svelte';
+  import { ATELIER_DISPONIBLE } from './config';
   import EcranSpectacle from './composants/EcranSpectacle.svelte';
   import Tutoriel from './composants/Tutoriel.svelte';
   import VisiteGuidee from './composants/VisiteGuidee.svelte';
@@ -59,7 +61,7 @@
   {#if route.nom === 'accueil'}
     <Accueil mode={route.mode} {tiroir} surFermerTiroir={() => (tiroir = null)} />
   {:else if route.nom === 'parametres'}
-    <ParametresIa />
+    {#if ATELIER_DISPONIBLE}<ParametresIa />{:else}<BientotDisponible titre={t.entete.parametresIa} />{/if}
   {:else if route.nom === 'script' || route.nom === 'jouer'}
     <EcranSpectacle spectacleId={route.spectacleId} mode={route.nom} />
   {:else}

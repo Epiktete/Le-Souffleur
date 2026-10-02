@@ -10,6 +10,11 @@ function deNom(nom: string): string {
 }
 
 export const t = {
+  bientot: {
+    badge: 'Bientôt disponible',
+    message: 'L’Atelier fait une pause, le temps de vous préparer la suite.',
+    retour: 'Découvrir la Contothèque',
+  },
   /** En-tête (CDC §7). */
   entete: {
     nom: NOM_OUTIL,
