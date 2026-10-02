@@ -23,6 +23,6 @@ describe('recherche dans la Contothèque', () => {
       .toEqual(['fr-florian-chat-miroir']);
     expect(chercher('florian miroir', 'conte', 'France')).toEqual([]);
     expect(chercher('florian miroir', 'fable', 'Japon')).toEqual([]);
-    expect(chercher('Onofrio', 'theatre', 'Lyon (France)').length).toBeGreaterThan(0);
+    expect(chercher('Onofrio', 'theatre', 'France').length).toBeGreaterThan(0);
   });
 });
