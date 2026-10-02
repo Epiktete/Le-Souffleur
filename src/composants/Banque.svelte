@@ -28,6 +28,8 @@
   } from '../services/appariement';
   import { lireModelesJoues } from '../services/historiqueBanque';
   import { conteParId, essenceDuConte } from '../services/repertoire';
+  import { construireCatalogue, rechercherCatalogue } from '../services/rechercheBanque';
+  import { rechercheBanque as criteres } from '../etat/rechercheBanque.svelte';
 
   // Même besoin que le Studio : la Marionnethèque doit être chargée même
   // quand sa colonne est un tiroir fermé (sous 1 024 px).
@@ -38,6 +40,20 @@
   const fiches = signatures().sort(
     (a, b) => a.ageAuditoire - b.ageAuditoire || a.dureeEstimeeSecondes - b.dureeEstimeeSecondes,
   );
+  const catalogue = construireCatalogue(fiches);
+  const parId = new Map(catalogue.map(e => [e.signature.id, e]));
+  const origines = [...new Set(catalogue.map(e => e.origine).filter(Boolean))]
+    .sort((a, b) => a.localeCompare(b, 'fr'));
+  const types = (['conte', 'fable', 'theatre', 'autre'] as const)
+    .filter(type => catalogue.some(e => e.type === type));
+  const rechercheActive = $derived(Boolean(criteres.texte || criteres.type || criteres.origine));
+  const selection = $derived(rechercherCatalogue(catalogue, criteres));
+
+  function effacerRecherche() {
+    criteres.texte = '';
+    criteres.type = '';
+    criteres.origine = '';
+  }
 
   /** La troupe : la scène garnie, sinon toute la Marionnethèque. */
   const sceneGarnie = $derived(!studio.sceneVide);
@@ -57,7 +73,7 @@
   let joues = $state(lireModelesJoues());
 
   const evaluations = $derived(evaluerModeles(
-    fiches,
+    selection.map(e => e.signature),
     troupe,
     {
       dureeMinutes: studio.valeurs.dureeMinutes,
@@ -184,6 +200,10 @@
      (demande de Nicolas, 2026-09-29). -->
 {#snippet contenuFiche(f: SignatureModele, avecRoles: boolean)}
   <h3>{f.titre}</h3>
+  {@const entree = parId.get(f.id)}
+  {#if entree}
+    <p class="origine">{tba.recherche.types[entree.type]}{#if entree.origine}{' · '}{entree.origine}{/if}</p>
+  {/if}
   {#if dApres(f)}
     <p class="dapres">{dApres(f)}</p>
   {/if}
@@ -263,7 +283,36 @@
   {:else if fiches.length === 0}
     <p class="aide" role="status">{tba.fondsVide}</p>
   {:else}
-    {#if jouables.length === 0}
+    <section class="recherche boite" aria-label={tba.recherche.titre}>
+      <h3 class="eyebrow-secondaire">{tba.recherche.titre}</h3>
+      <label class="champ-texte">
+        <span>{tba.recherche.texte}</span>
+        <input type="search" bind:value={criteres.texte} placeholder={tba.recherche.exemple} />
+      </label>
+      <div class="criteres">
+        <div class="champ">
+          <label for="banque-type">{tba.recherche.type}</label>
+          <select id="banque-type" bind:value={criteres.type}>
+            <option value="">{tba.recherche.tousTypes}</option>
+            {#each types as choix}<option value={choix}>{tba.recherche.types[choix]}</option>{/each}
+          </select>
+        </div>
+        <div class="champ">
+          <label for="banque-origine">{tba.recherche.origine}</label>
+          <select id="banque-origine" bind:value={criteres.origine}>
+            <option value="">{tba.recherche.toutesOrigines}</option>
+            {#each origines as choix}<option value={choix}>{choix}</option>{/each}
+          </select>
+        </div>
+      </div>
+      <div class="resultats">
+        <p class="aide" role="status">{tba.recherche.resultats(jouables.length, selection.length, fiches.length)}</p>
+        <button class="secondaire-bouton" disabled={!rechercheActive} onclick={effacerRecherche}>{tba.recherche.effacer}</button>
+      </div>
+    </section>
+    {#if selection.length === 0}
+      <p class="aide vide" role="status">{tba.recherche.aucun}</p>
+    {:else if jouables.length === 0}
       <p class="aide vide" role="status">
         {tba.filtres.aucun}
         {#if conseil}{' '}{conseil}{/if}
@@ -290,6 +339,14 @@
 
 <style>
   .banque { display: flex; flex-direction: column; gap: 20px; padding-bottom: 8px; }
+  .recherche { padding: 14px; display: flex; flex-direction: column; gap: 12px; }
+  .recherche label, .recherche .champ { display: flex; flex-direction: column; gap: 5px; min-width: 0; font-size: 13px; }
+  .recherche input, .recherche select { width: 100%; min-width: 0; min-height: 44px; }
+  .criteres { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .resultats { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; justify-content: space-between; }
+  .resultats button { font-size: 11px; }
+  .origine { font-size: 12px; font-weight: 700; margin: 0 0 6px; }
+  @media (max-width: 540px) { .criteres { grid-template-columns: 1fr; } }
 
   .aide { font-size: 13px; color: var(--encre2); margin: 0; }
   /* Le vide s'explique : un peu plus visible que la ligne de compte. */

@@ -63,6 +63,46 @@ test('les fiches s’affichent selon les filtres, et les écartés sont comptés
   await expect(ficheChaperon(page)).toContainText('poupee · loup · mamie');
 });
 
+test('la recherche combine type et origine, et son effacement conserve les réglages de jeu', async ({ page }) => {
+  await troupeDuChaperon(page);
+  await page.getByLabel('Durée', { exact: true }).fill('10');
+  await page.getByLabel('Type de récit', { exact: true }).selectOption('conte');
+  await page.getByLabel('Origine', { exact: true }).selectOption('France');
+  await page.getByLabel('Titre ou auteur', { exact: true }).fill('CHAPERON');
+  await expect(ficheChaperon(page)).toBeVisible();
+  await ficheChaperon(page).click();
+  await page.getByRole('button', { name: 'Revenir aux spectacles' }).click();
+  await expect(page.getByLabel('Titre ou auteur', { exact: true })).toHaveValue('CHAPERON');
+  await page.getByRole('navigation', { name: 'Mode de création' }).getByRole('button', { name: 'Atelier' }).click();
+  await ouvrirContotheque(page);
+  await expect(page.getByLabel('Titre ou auteur', { exact: true })).toHaveValue('CHAPERON');
+  await page.getByLabel('Type de récit', { exact: true }).selectOption('fable');
+  await expect(ficheChaperon(page)).toHaveCount(0);
+  await expect(page.getByText('Aucun spectacle ne correspond à cette recherche.', { exact: false })).toBeVisible();
+  await page.getByRole('button', { name: 'Effacer la recherche' }).click();
+  await expect(page.getByLabel('Titre ou auteur', { exact: true })).toHaveValue('');
+  await expect(page.getByLabel('Type de récit', { exact: true })).toHaveValue('');
+  await expect(page.getByLabel('Origine', { exact: true })).toHaveValue('');
+  await expect(page.getByLabel('Durée', { exact: true })).toHaveValue('10');
+  await expect(ficheChaperon(page)).toBeVisible();
+});
+
+test('un résultat de recherche reste soumis aux contraintes de jeu, même sur mobile', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.getByLabel('Type de récit', { exact: true }).selectOption('fable');
+  await page.getByLabel('Origine', { exact: true }).selectOption('France');
+  await page.getByLabel('Titre ou auteur', { exact: true }).fill('FLORIAN miroir');
+  await expect(page.getByText('Aucun spectacle du fonds ne passe les réglages actuels.', { exact: false })).toBeVisible();
+  await expect(page.getByText(/1 sur \d+ dans la recherche/)).toBeVisible();
+  await expect(page.getByText(/spectacles? écartés?/)).toBeVisible();
+  await expect(page.getByText('Aucun spectacle ne correspond à cette recherche.', { exact: false })).toHaveCount(0);
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth)).toBe(true);
+  await page.setViewportSize({ width: 1280, height: 900 });
+  await expect(page.getByLabel('Titre ou auteur', { exact: true })).toHaveValue('FLORIAN miroir');
+  await expect(page.getByLabel('Type de récit', { exact: true })).toHaveValue('fable');
+  await expect(page.getByLabel('Origine', { exact: true })).toHaveValue('France');
+});
+
 test('critère d’acceptation : une louve joue le loup, création sans clé, accords au féminin', async ({ page }) => {
   await troupeDuChaperon(page);
   await ouvrirContotheque(page);

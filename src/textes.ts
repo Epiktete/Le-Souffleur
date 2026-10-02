@@ -232,6 +232,20 @@ export const tba = {
     legende: 'Mode de création',
   },
   fondsVide: 'Le fonds est vide pour l’instant. L’Atelier, lui, écrit un spectacle pour vos marionnettes.',
+  recherche: {
+    titre: 'Trouver un spectacle',
+    texte: 'Titre ou auteur',
+    exemple: 'Un titre, La Fontaine, Florian…',
+    type: 'Type de récit',
+    tousTypes: 'Tous les types',
+    types: { conte: 'Conte', fable: 'Fable', theatre: 'Théâtre / Guignol', autre: 'Autre récit' },
+    origine: 'Origine',
+    toutesOrigines: 'Toutes les origines',
+    effacer: 'Effacer la recherche',
+    aucun: 'Aucun spectacle ne correspond à cette recherche. Changez un critère ou effacez la recherche.',
+    resultats: (visibles: number, retenus: number, total: number) =>
+      `${visibles} spectacle${visibles === 1 ? '' : 's'} affiché${visibles === 1 ? '' : 's'} · ${retenus} sur ${total} dans la recherche.`,
+  },
   fiche: {
     /** La minute suffit au parent : pas de secondes sur une fiche (2026-09-29). */
     minutes: (secondes: number) => `${Math.max(1, Math.round(secondes / 60))} min`,
