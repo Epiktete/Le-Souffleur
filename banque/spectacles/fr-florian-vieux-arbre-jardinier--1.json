@@ -1,0 +1,482 @@
+{
+  "id": "fr-florian-vieux-arbre-jardinier--1",
+  "conteId": "fr-florian-vieux-arbre-jardinier",
+  "titre": "Le Vieux Arbre et le Jardinier",
+  "pitch": "{{r1}} veut abattre {{r2}}, son vieux poirier. Ni le souvenir des fruits ni le chant des rossignols ne l'arrêtent ; le miel à vendre, si.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "avare",
+        "têtu"
+      ],
+      "voix": "voix rude qui devient douce quand il est question de miel",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e3:texte",
+            "avant": "Un jardinier",
+            "apres": "Une jardinière"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "Le jardinier ingrat",
+            "apres": "La jardinière ingrate"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "Le voilà",
+            "apres": "La voilà"
+          },
+          {
+            "id": "a1e10:texte",
+            "avant": "le jardinier",
+            "apres": "la jardinière"
+          },
+          {
+            "id": "a2e7:texte",
+            "avant": "Le jardinier",
+            "apres": "La jardinière"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "Il frappe",
+            "apres": "Elle frappe"
+          },
+          {
+            "id": "a3e7:texte",
+            "avant": "jardinier",
+            "apres": "jardinière"
+          },
+          {
+            "id": "a3e8:texte",
+            "avant": "m’a nourri",
+            "apres": "m’a nourrie"
+          },
+          {
+            "id": "a3e13:texte",
+            "avant": "il s’en va",
+            "apres": "elle s’en va"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "le jardinier",
+            "apres": "la jardinière"
+          },
+          {
+            "id": "a3e13:texte",
+            "avant": "sûr de sa récompense",
+            "apres": "sûre de sa récompense"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a3e5:texte",
+          "avant": "homme inhumain",
+          "gabarit": "{espece} {inhumain|inhumaine}"
+        }
+      ]
+    },
+    {
+      "cle": "r2",
+      "espece": null,
+      "famille": null,
+      "traits": [
+        "sage",
+        "généreux"
+      ],
+      "voix": "voix lente, basse et fatiguée",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e3:texte",
+            "avant": "il avait vieilli",
+            "apres": "elle avait vieilli"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "un mourant",
+            "apres": "une mourante"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "ton bienfaiteur",
+            "apres": "ta bienfaitrice"
+          },
+          {
+            "id": "a2e5:texte",
+            "avant": "Épargne-le",
+            "apres": "Épargne-la"
+          },
+          {
+            "id": "a2e5:texte",
+            "avant": "que lui",
+            "apres": "qu’elle"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "Épargne-le",
+            "apres": "Épargne-la"
+          },
+          {
+            "id": "a3e15:texte",
+            "avant": "seul",
+            "apres": "seule"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r3",
+      "espece": "rossignol",
+      "famille": "oiseau",
+      "traits": [
+        "vif",
+        "chanteur"
+      ],
+      "voix": "voix claire et rapide comme un petit chant",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": []
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r4",
+      "espece": "abeille",
+      "famille": "bestiole",
+      "traits": [
+        "travailleuse",
+        "rusée"
+      ],
+      "voix": "voix fine, pressée et précise",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": []
+      },
+      "especeImposee": true
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 4,
+    "ageAuditoire": 6,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "Le jardin",
+      "description": "La table figure le jardin. Gardez son milieu libre pour le poirier ; la cognée et les fruits restent hors scène. Aucun décor n'est nécessaire.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "La place du poirier",
+      "description": "Conservez la même table. Quand {{r2}} sort, sa place au milieu continue de figurer le tronc pendant que {{r3}} parle pour les cent rossignols.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t3",
+      "titre": "Le tronc et l'essaim",
+      "description": "Conservez la même table nue. {{r4}} parle pour l’essaim, qui compte d’autres abeilles ; le miel et les rayons restent hors scène.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Le vieux poirier",
+      "resume": "{{r1}} veut abattre {{r2}}. Le poirier rappelle les fruits donnés autrefois, mais le jardinier réclame du bois.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e3",
+          "type": "conteur",
+          "texte": "Un jardinier, dans son jardin,\nAvait un vieux arbre stérile ;\nC’était un grand poirier qui jadis fut fertile ;\nMais il avait vieilli, tel est notre destin.\nLe jardinier ingrat veut l’abattre un matin ;\nLe voilà qui prend sa cognée.\nAu premier coup l’arbre lui dit :"
+        },
+        {
+          "id": "a1e4",
+          "type": "didascalie",
+          "texte": "{{r1}} s'incline vers {{r2}}. Le marionnettiste fait « toc » à la voix : la cognée reste hors scène."
+        },
+        {
+          "id": "a1e5",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "À votre tour : toc !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e6",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Respecte mon grand âge, et souviens-toi du fruit\nQue je t’ai donné chaque année."
+        },
+        {
+          "id": "a1e7",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Répétez : « chaque année » !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e8",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "La mort va me saisir, je n’ai plus qu’un instant ;\nN’assassine pas un mourant\nQui fut ton bienfaiteur."
+        },
+        {
+          "id": "a1e9",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je te coupe avec peine,"
+        },
+        {
+          "id": "a1e10",
+          "type": "conteur",
+          "texte": "Répond le jardinier ;"
+        },
+        {
+          "id": "a1e11",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "mais j’ai besoin de bois."
+        },
+        {
+          "id": "a1e12",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Le chant des rossignols",
+      "resume": "{{r3}} parle pour les cent rossignols abrités par le poirier. {{r1}} les chasse et frappe encore.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "Alors, gazouillant à la fois,\nDe rossignols une centaine\nS’écrie :"
+        },
+        {
+          "id": "a2e2",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e3",
+          "type": "didascalie",
+          "texte": "{{r3}} arrive en sautillant au-dessus de la place laissée au poirier."
+        },
+        {
+          "id": "a2e4",
+          "type": "adresse_public",
+          "marionnetteId": "r3",
+          "texte": "Faites « cui-cui » avec moi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e5",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Épargne-le, nous n’avons plus que lui ;\nLorsque ta femme vient s’asseoir sous son ombrage,\nNous la réjouissons par notre doux ramage ;\nElle est seule souvent, nous charmons son ennui."
+        },
+        {
+          "id": "a2e6",
+          "type": "adresse_public",
+          "marionnetteId": "r3",
+          "texte": "Répétez « Épargne-le ! »",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e7",
+          "type": "conteur",
+          "texte": "Le jardinier les chasse et rit de leur requête ;"
+        },
+        {
+          "id": "a2e8",
+          "type": "didascalie",
+          "texte": "{{r1}} avance vers {{r3}} ; {{r3}} recule aussitôt."
+        },
+        {
+          "id": "a2e9",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e10",
+          "type": "conteur",
+          "texte": "Il frappe un second coup."
+        },
+        {
+          "id": "a2e11",
+          "type": "didascalie",
+          "texte": "{{r1}} s'incline vers la place du poirier. Le marionnettiste fait « toc » à la voix, sans tenir d'outil."
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Le miel à vendre",
+      "resume": "{{r4}} parle pour l'essaim. Le miel à vendre décide {{r1}} à laisser {{r2}} vivre ; la morale dévoile son intérêt.",
+      "tableauId": "t3",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e2",
+          "type": "conteur",
+          "texte": "D’abeilles un essaim\nSort aussitôt du tronc, en lui disant :"
+        },
+        {
+          "id": "a3e3",
+          "type": "didascalie",
+          "texte": "{{r4}} fait un petit tour sur la place du poirier, puis se tourne vers {{r1}}."
+        },
+        {
+          "id": "a3e4",
+          "type": "adresse_public",
+          "marionnetteId": "r4",
+          "texte": "Faites un petit bzzz !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e5",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Arrête,\nÉcoute-nous, homme inhumain ;\nSi tu nous laisses cet asile,\nChaque jour nous te donnerons\nUn miel délicieux dont tu peux à la ville\nPorter et vendre les rayons ;\nCela te touche-t-il ?"
+        },
+        {
+          "id": "a3e6",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "J’en pleure de tendresse,"
+        },
+        {
+          "id": "a3e7",
+          "type": "conteur",
+          "texte": "Répond l’avare jardinier ;"
+        },
+        {
+          "id": "a3e8",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Eh ! que ne dois-je pas à ce pauvre poirier\nQui m’a nourri dans sa jeunesse ?\nMa femme quelquefois vient entendre ces oiseaux ;\nC’en est assez pour moi ; qu’ils chantent en repos.\nEt vous qui daignerez augmenter mon aisance,\nJe veux pour vous de fleurs semer tout ce canton."
+        },
+        {
+          "id": "a3e9",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Chuchotez : « du miel à vendre » !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e10",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e11",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne vers les enfants et marque une pause."
+        },
+        {
+          "id": "a3e12",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e13",
+          "type": "conteur",
+          "texte": "Cela dit, il s’en va, sûr de sa récompense,"
+        },
+        {
+          "id": "a3e14",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e15",
+          "type": "didascalie",
+          "texte": "{{r2}} reste seul et se balance doucement."
+        },
+        {
+          "id": "a3e16",
+          "type": "conteur",
+          "texte": "Et laisse vivre le vieux tronc.\nComptez sur la reconnaissance\nQuand l’intérêt vous en répond."
+        },
+        {
+          "id": "a3e17",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "fr-florian-vieux-arbre-jardinier",
+    "synopsis": {
+      "accroche": "Un vieux poirier n'est sauvé que par le profit promis.",
+      "resume": [
+        "{{r1}} veut abattre {{r2}}, vieux poirier devenu stérile ; le souvenir des fruits donnés ne suffit pas à le retenir.",
+        "{{r3}} plaide pour les cent rossignols et rappelle leur chant pour la femme de {{r1}} ; {{r1}} les chasse.",
+        "{{r4}} promet, au nom de l'essaim, du miel que {{r1}} pourra vendre ; il change aussitôt d'avis et laisse vivre {{r2}}.",
+        "La morale dit que la reconnaissance apparaît quand l'intérêt y répond."
+      ]
+    },
+    "transposition": {
+      "texte": "# Le Vieux Arbre et le Jardinier\n\n*France — Jean-Pierre Claris de Florian, Fables, édition Delloye, 1838. Texte original en français.*\n\n{{r1}} est le jardinier ; {{r2}} est le vieux poirier. {{r3}} parle pour les rossignols, {{r4}} pour l’essaim d’abeilles.\n\nUn jardinier, dans son jardin,\n\nAvait un vieux arbre stérile ;\n\nC’était un grand poirier qui jadis fut fertile ;\n\nMais il avait vieilli, tel est notre destin.\n\nLe jardinier ingrat veut l’abattre un matin ;\n\nLe voilà qui prend sa cognée.\n\nAu premier coup l’arbre lui dit :\n\nRespecte mon grand âge, et souviens-toi du fruit\n\nQue je t’ai donné chaque année.\n\nLa mort va me saisir, je n’ai plus qu’un instant ;\n\nN’assassine pas un mourant\n\nQui fut ton bienfaiteur. Je te coupe avec peine,\n\nRépond le jardinier ; mais j’ai besoin de bois.\n\nAlors, gazouillant à la fois,\n\nDe rossignols une centaine\n\nS’écrie : Épargne-le, nous n’avons plus que lui ;\n\nLorsque ta femme vient s’asseoir sous son ombrage,\n\nNous la réjouissons par notre doux ramage ;\n\nElle est seule souvent, nous charmons son ennui.\n\nLe jardinier les chasse et rit de leur requête ;\n\nIl frappe un second coup. D’abeilles un essaim\n\nSort aussitôt du tronc, en lui disant : Arrête,\n\nÉcoute-nous, homme inhumain ;\n\nSi tu nous laisses cet asile,\n\nChaque jour nous te donnerons\n\nUn miel délicieux dont tu peux à la ville\n\nPorter et vendre les rayons ;\n\nCela te touche-t-il ? J’en pleure de tendresse,\n\nRépond l’avare jardinier ;\n\nEh ! que ne dois-je pas à ce pauvre poirier\n\nQui m’a nourri dans sa jeunesse ?\n\nMa femme quelquefois vient entendre ces oiseaux ;\n\nC’en est assez pour moi ; qu’ils chantent en repos.\n\nEt vous qui daignerez augmenter mon aisance,\n\nJe veux pour vous de fleurs semer tout ce canton.\n\nCela dit, il s’en va, sûr de sa récompense,\n\nEt laisse vivre le vieux tronc.\n\nComptez sur la reconnaissance\n\nQuand l’intérêt vous en répond."
+    }
+  },
+  "dureeEstimeeSecondes": 224,
+  "interactionsOrdonnees": [
+    "a1e5",
+    "a1e7",
+    "a2e4",
+    "a2e6",
+    "a3e4",
+    "a3e9"
+  ]
+}

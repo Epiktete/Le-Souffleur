@@ -1,0 +1,259 @@
+{
+  "id": "fr-florian-guenon-singe-noix--1",
+  "conteId": "fr-florian-guenon-singe-noix",
+  "titre": "La Guenon, le Singe et la Noix",
+  "pitch": "{{r1}} goûte une noix dans sa coque verte et la rejette. {{r2}} l’ouvre, la mange et lui révèle le bon goût caché sous la coque.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "guenon",
+      "famille": "petit",
+      "traits": [
+        "curieuse",
+        "gourmande",
+        "impatiente"
+      ],
+      "voix": "voix vive qui se ralentit à la première bouchée",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a1e2:texte",
+            "avant": "Elle y porte",
+            "apres": "Il y porte"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "Dit-elle",
+            "apres": "Dit-il"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "Elle jette",
+            "apres": "Il jette"
+          },
+          {
+            "id": "a2e5:texte",
+            "avant": "ma mie",
+            "apres": "mon ami"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a1e2:texte",
+          "avant": "Une jeune guenon",
+          "gabarit": "{Un} jeune {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r2",
+      "espece": "singe",
+      "famille": "petit",
+      "traits": [
+        "sage",
+        "patient"
+      ],
+      "voix": "voix posée et chaleureuse",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": []
+      },
+      "especeMentions": [
+        {
+          "id": "a2e2:texte",
+          "avant": "Un singe",
+          "gabarit": "{Un} {espece}"
+        }
+      ]
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 2,
+    "ageAuditoire": 7,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "Au pied du noyer",
+      "description": "La table nue figure le pied d'un noyer. La noix n'est pas montrée : le conteur la décrit.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "La même place",
+      "description": "Gardez la table nue. Les cailloux et la noix sont racontés, sans accessoires à manipuler.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "La coque verte",
+      "resume": "{{r1}} tente de manger une noix entière et la rejette, malgré les paroles de sa mère.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e2",
+          "type": "conteur",
+          "texte": "Une jeune guenon, {{r1}}, cueillit\nUne noix dans sa coque verte ;\nElle y porte la dent, fait la grimace…"
+        },
+        {
+          "id": "a1e3",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne vers les enfants puis recule d'un pas."
+        },
+        {
+          "id": "a1e4",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites avec moi : « Beurk ! »",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e5",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ah ! certes,"
+        },
+        {
+          "id": "a1e6",
+          "type": "conteur",
+          "texte": "Dit-elle,"
+        },
+        {
+          "id": "a1e7",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "ma mère mentit\nQuand elle m’assura que les noix étaient bonnes.\nPuis, croyez aux discours de ces vieilles personnes\nQui trompent la jeunesse ! Au diable soit le fruit !"
+        },
+        {
+          "id": "a1e8",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Soufflez avec moi : « Pfff ! »",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e9",
+          "type": "conteur",
+          "texte": "Elle jette la noix."
+        },
+        {
+          "id": "a1e10",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faisons ensemble : ploc !",
+          "attenteReponse": false
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Le goût de la noix",
+      "resume": "{{r2}} ouvre la noix entre deux cailloux, la mange et explique à {{r1}} le rôle du travail.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e2",
+          "type": "conteur",
+          "texte": "Un singe, {{r2}}, la ramasse,\nVite entre deux cailloux la casse,\nL’épluche, la mange et lui dit :"
+        },
+        {
+          "id": "a2e3",
+          "type": "didascalie",
+          "texte": "{{r2}} se tourne vers {{r1}}, puis vers les enfants."
+        },
+        {
+          "id": "a2e4",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Frappez doucement sur vos genoux : toc, toc !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e5",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Votre mère eut raison, ma mie,\nLes noix ont fort bon goût, mais il faut les ouvrir."
+        },
+        {
+          "id": "a2e6",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Répétez avec moi : « Il faut les ouvrir ! »",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e7",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Souvenez-vous que, dans la vie,\nSans un peu de travail on n’a point de plaisir."
+        },
+        {
+          "id": "a2e8",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Un petit salut pour finir !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e9",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e10",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "fr-florian-guenon-singe-noix",
+    "synopsis": {
+      "accroche": "Une coque amère cache une noix délicieuse.",
+      "resume": [
+        "{{r1}} goûte une noix encore enfermée dans sa coque verte et accuse sa mère de l'avoir trompée.",
+        "Elle jette la noix, que {{r2}} récupère et casse entre deux cailloux.",
+        "{{r2}} mange la noix et lui dit qu'un peu de travail permet d'en découvrir le plaisir."
+      ]
+    },
+    "transposition": {
+      "texte": "# La Guenon, le Singe et la Noix\n\n*France — Jean-Pierre Claris de Florian, Fables, édition Delloye, 1838. Texte original en français.*\n\nUne jeune guenon, {{r1}}, cueillit\n\nUne noix dans sa coque verte ;\n\nElle y porte la dent, fait la grimace…\n\nAh ! certes,\n\nDit-elle, ma mère mentit\n\nQuand elle m’assura que les noix étaient bonnes.\n\nPuis, croyez aux discours de ces vieilles personnes\n\nQui trompent la jeunesse ! Au diable soit le fruit !\n\nElle jette la noix. Un singe, {{r2}}, la ramasse,\n\nVite entre deux cailloux la casse,\n\nL’épluche, la mange et lui dit :\n\nVotre mère eut raison, ma mie,\n\nLes noix ont fort bon goût, mais il faut les ouvrir.\n\nSouvenez-vous que, dans la vie,\n\nSans un peu de travail on n’a point de plaisir."
+    }
+  },
+  "dureeEstimeeSecondes": 118,
+  "interactionsOrdonnees": [
+    "a2e6",
+    "a2e4",
+    "a1e4",
+    "a1e8",
+    "a1e10",
+    "a2e8"
+  ]
+}

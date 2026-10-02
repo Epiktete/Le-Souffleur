@@ -1,0 +1,1654 @@
+{
+  "id": "guignol-le-demenagement--1",
+  "conteId": "guignol-le-demenagement",
+  "titre": "Le Déménagement de Guignol",
+  "pitch": "{{r3}} réclame cinq loyers impayés à {{r1}}. Après mille détours, {{r1}} et {{r2}} déménagent en cachette et partent dîner.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "gone",
+      "famille": "adulte",
+      "traits": [
+        "rusé",
+        "farceur",
+        "bavard"
+      ],
+      "voix": "voix vive, gouailleuse et rapide, qui allonge les mots lyonnais",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e3:texte",
+            "avant": "un locataire",
+            "apres": "une locataire"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "monsieur",
+            "apres": "madame"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "qu’il me doit",
+            "apres": "qu’elle me doit"
+          },
+          {
+            "id": "a1e12:texte",
+            "avant": "qu’il est très-bien",
+            "apres": "qu’elle est très-bien"
+          },
+          {
+            "id": "a1e16:texte",
+            "avant": "maître",
+            "apres": "maîtresse"
+          },
+          {
+            "id": "a1e21:texte",
+            "avant": "mon cher M.",
+            "apres": "ma chère Mme"
+          },
+          {
+            "id": "a1e23:texte",
+            "avant": "décidé à me payer",
+            "apres": "décidée à me payer"
+          },
+          {
+            "id": "a1e28:texte",
+            "avant": "Monsieur",
+            "apres": "Madame"
+          },
+          {
+            "id": "a2e36:texte",
+            "avant": "un gueu",
+            "apres": "une gueuse"
+          },
+          {
+            "id": "a2e36:texte",
+            "avant": "un scélérat",
+            "apres": "une scélérate"
+          },
+          {
+            "id": "a4e22:texte",
+            "avant": "Gredin",
+            "apres": "Gredine"
+          },
+          {
+            "id": "a4e32:texte",
+            "avant": "cousin",
+            "apres": "cousine"
+          },
+          {
+            "id": "a4e42:texte",
+            "avant": "meilleur enfant",
+            "apres": "meilleure enfant"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "M.",
+            "apres": "Mme"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "Comme il pourrait",
+            "apres": "Comme elle pourrait"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "il reste",
+            "apres": "elle reste"
+          },
+          {
+            "id": "a1e12:texte",
+            "avant": "Monsieur",
+            "apres": "Madame"
+          },
+          {
+            "id": "a1e29:texte",
+            "avant": "entendu",
+            "apres": "entendue"
+          },
+          {
+            "id": "a2e29:texte",
+            "avant": "bien élevé",
+            "apres": "bien élevée"
+          },
+          {
+            "id": "a3e24:texte",
+            "avant": "s’il parlait",
+            "apres": "si elle parlait"
+          },
+          {
+            "id": "a4e32:texte",
+            "avant": "il a ben",
+            "apres": "elle a ben"
+          },
+          {
+            "id": "a4e32:texte",
+            "avant": "il les lave",
+            "apres": "elle les lave"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a3e9:texte",
+          "avant": "un petit gone",
+          "gabarit": "{un} {petit|petite} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r2",
+      "espece": "humain",
+      "famille": "adulte",
+      "traits": [
+        "farceur",
+        "gourmand",
+        "vantard"
+      ],
+      "voix": "voix grave et ronde, toujours prête à rire",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2e19:texte",
+            "avant": "le père",
+            "apres": "la mère"
+          },
+          {
+            "id": "a2e36:texte",
+            "avant": "votre cousin",
+            "apres": "votre cousine"
+          },
+          {
+            "id": "a2e36:texte",
+            "avant": "cet ivrogne",
+            "apres": "cette ivrogne"
+          },
+          {
+            "id": "a2e36:texte",
+            "avant": "ce mange tout",
+            "apres": "cette mange tout"
+          },
+          {
+            "id": "a2e36:texte",
+            "avant": "ce moins que rien",
+            "apres": "cette moins que rien"
+          },
+          {
+            "id": "a3e51:texte",
+            "avant": "tout seul",
+            "apres": "toute seule"
+          },
+          {
+            "id": "a4e23:texte",
+            "avant": "vieux",
+            "apres": "vieille"
+          },
+          {
+            "id": "a4e47:texte",
+            "avant": "bon, mon ami,",
+            "apres": "bon, mon amie,"
+          },
+          {
+            "id": "a4e47:texte",
+            "avant": "bon, mon ami tenons",
+            "apres": "bon, mon amie tenons"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "retenu",
+            "apres": "retenue"
+          },
+          {
+            "id": "a3e28:texte",
+            "avant": "habitué",
+            "apres": "habituée"
+          },
+          {
+            "id": "a4e24:texte",
+            "avant": "cabossé",
+            "apres": "cabossée"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r3",
+      "espece": "gone",
+      "famille": "adulte",
+      "traits": [
+        "avare",
+        "grognon"
+      ],
+      "voix": "voix sèche et pressée, plus aiguë quand il imite le facteur et la concierge",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e3:texte",
+            "avant": "malheureux",
+            "apres": "malheureuse"
+          },
+          {
+            "id": "a1e25:texte",
+            "avant": "p’pa",
+            "apres": "m’man"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "Pipa",
+            "apres": "Mima"
+          },
+          {
+            "id": "a2e30:texte",
+            "avant": "ton propriétaire",
+            "apres": "ta propriétaire"
+          },
+          {
+            "id": "a2e33:texte",
+            "avant": "ton propriétaire",
+            "apres": "ta propriétaire"
+          },
+          {
+            "id": "a2e35:texte",
+            "avant": "mon vieux",
+            "apres": "ma vieille"
+          },
+          {
+            "id": "a3e10:texte",
+            "avant": "ce vieux t’avare",
+            "apres": "cette vieille avare"
+          },
+          {
+            "id": "a3e4:texte",
+            "avant": "mon propriéteau",
+            "apres": "ma propriétaire"
+          },
+          {
+            "id": "a4e41:texte",
+            "avant": "au propriéteau",
+            "apres": "à la propriétaire"
+          },
+          {
+            "id": "voix:r3",
+            "avant": "quand il imite",
+            "apres": "quand elle imite"
+          },
+          {
+            "id": "a1e20:texte",
+            "avant": "l’aviez vu",
+            "apres": "l’aviez vue"
+          },
+          {
+            "id": "a2e27:texte",
+            "avant": "m’n’ami",
+            "apres": "m’n’amie"
+          },
+          {
+            "id": "a2e29:texte",
+            "avant": "Messieu",
+            "apres": "Madame"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "le cabossais",
+            "apres": "la cabossais"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "voulait-il",
+            "apres": "voulait-elle"
+          },
+          {
+            "id": "a3e9:texte",
+            "avant": "y vient",
+            "apres": "elle vient"
+          },
+          {
+            "id": "a3e9:texte",
+            "avant": "y fait",
+            "apres": "elle fait"
+          },
+          {
+            "id": "a3e9:texte",
+            "avant": "qu’il a affaire",
+            "apres": "qu’elle a affaire"
+          },
+          {
+            "id": "a3e4:texte",
+            "avant": "y voulait",
+            "apres": "elle voulait"
+          },
+          {
+            "id": "a3e6:texte",
+            "avant": "à ce qui dit",
+            "apres": "à ce qu’elle dit"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a3e1:texte",
+          "avant": "ce gone",
+          "gabarit": "{ce|cette} {espece}"
+        },
+        {
+          "id": "a3e3:texte",
+          "avant": "ce gone",
+          "gabarit": "{ce|cette} {espece}"
+        }
+      ]
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 25,
+    "ageAuditoire": 9,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "Devant la maison de {{r1}}",
+      "description": "Posez un carton debout à un bout de la table pour figurer la porte. L’espace devant lui est la rue ; la maison est de l’autre côté. Les peluches peuvent se baisser derrière le carton.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "Le trajet du déménagement",
+      "description": "Gardez le carton à sa place. Les deux bouts de la table figurent la maison de {{r1}} et la sous-pente de {{r2}}. Les meubles et ustensiles évoqués restent hors scène ; les peluches font seulement leurs allers et retours.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "La lettre et la concierge",
+      "resume": "{{r3}} réclame cinq termes de loyer. {{r1}} résiste à deux fausses voix, puis sort et détourne la conversation.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e2",
+          "type": "didascalie",
+          "texte": "{{r3}} longe le carton qui figure la maison et s’arrête devant la porte."
+        },
+        {
+          "id": "a1e3",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Voilà bien ma maison, elle est bien à moi, j’en paie les impositions et j’ai un locataire qui ne paie pas son loyer, on a beau dire mais on est bien malheureux d’être propriétaire. Cet état de choses ne peut durer plus longtemps, et si monsieur {{r1}} ne me paye pas aujourd’hui même les cinq termes qu’il me doit je fais vendre ses meubles sur la place publique, je vais lui faire voir que quand je me montre on voit du vilain. Comme il pourrait reconnaître ma voix et ne pas me répondre, tâchons de déguiser ma voix. M. {{r1}}."
+        },
+        {
+          "id": "a1e4",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e5",
+          "type": "didascalie",
+          "texte": "{{r3}} fait « toc toc » de la voix. {{r1}} apparaît de l’autre côté du carton : il reste sur scène, sans voir {{r3}}."
+        },
+        {
+          "id": "a1e6",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Qui que frappe."
+        },
+        {
+          "id": "a1e7",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "C’est le facteur pour une lettre très-pressée."
+        },
+        {
+          "id": "a1e8",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Garde-la, je sais pas lire."
+        },
+        {
+          "id": "a1e9",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Elle est chargée, c’est de l’argent."
+        },
+        {
+          "id": "a1e10",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Personne ne me doit, je t’en fais cadeau."
+        },
+        {
+          "id": "a1e11",
+          "type": "didascalie",
+          "texte": "{{r3}} recule, change de voix et revient vers la porte."
+        },
+        {
+          "id": "a1e12",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Çà ne prend pas. Oh ! j’ai un moyen, je sais qu’il est très-bien avec la concierge, je vais changer mes batteries : Monsieur {{r1}}."
+        },
+        {
+          "id": "a1e13",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Quoi ce qui gnia encore."
+        },
+        {
+          "id": "a1e14",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "C’est moi la concierge, Mme Pétard, j’ai fait cuire un lapin, je voudrais que vous veniez goûter la sauce."
+        },
+        {
+          "id": "a1e15",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "On dégringole la miman."
+        },
+        {
+          "id": "a1e16",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Ma ruse a réussi, à nous deux, maître {{r1}}."
+        },
+        {
+          "id": "a1e17",
+          "type": "didascalie",
+          "texte": "{{r3}} se baisse derrière le carton ; {{r1}} vient devant la porte."
+        },
+        {
+          "id": "a1e18",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Vlà. Tiens parsonne, c’est z’une farce qu’on m’a fait. Oh ! la vilaine farce."
+        },
+        {
+          "id": "a1e19",
+          "type": "didascalie",
+          "texte": "{{r3}} se redresse d’un coup ; {{r1}} sursaute."
+        },
+        {
+          "id": "a1e20",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Vous l’aviez vu se cacher ? Dites « ah ! » avec moi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e21",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Bonjour mon cher M. {{r1}} : vous savez sans doute le motif qui m’amène."
+        },
+        {
+          "id": "a1e22",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "C’te bêtise, c’est pas un motif, c’est vos guibolles, a moins que vous ne soyez fait trainer par un fiacre."
+        },
+        {
+          "id": "a1e23",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Non ça coûte trop cher : Je viens pour savoir s’y vous êtes décidé à me payer les cinq termes que vous me devez."
+        },
+        {
+          "id": "a1e24",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne brièvement vers les enfants pour son aparté, puis fait face à {{r3}}."
+        },
+        {
+          "id": "a1e25",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je te vois venir pauvre vieille grollasse. Savez-vous p’pa {{r3}} que vous vous portez ben bien ?"
+        },
+        {
+          "id": "a1e26",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "La santé est bonne, mais les rentrées ne se font pas !… Cinq termes à 50 fr. font 250 fr."
+        },
+        {
+          "id": "a1e27",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Et vot’mami, comment donc qui va."
+        },
+        {
+          "id": "a1e28",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Très-bien, Monsieur {{r1}}. Nous disons donc que cela fait 250 fr."
+        },
+        {
+          "id": "a1e29",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne de nouveau vers les enfants, sans être entendu de {{r3}}."
+        },
+        {
+          "id": "a1e30",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je te vois venir. Et votre demoiselle, ah ! la belle canante, sa santé est bonne."
+        },
+        {
+          "id": "a1e31",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Elle va très-bien, mais….."
+        },
+        {
+          "id": "a1e32",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tant mieux. Et votre chienne qui s’était cassé la guibolle, est-elle rhabillée."
+        },
+        {
+          "id": "a1e33",
+          "type": "didascalie",
+          "texte": "{{r3}} baisse la tête un instant en parlant de sa chienne."
+        },
+        {
+          "id": "a1e34",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Elle est morte… mes 200…"
+        },
+        {
+          "id": "a1e35",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tant mieux ! tant mieux ! en bajaflant de votre chienne, et v’tre femme comment qu’et s’porte."
+        },
+        {
+          "id": "a1e36",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Et !  ! ma chienne, ma femme… toute ma famille se porte très-bien, il n’y a que ma location qui est malade, je viens pour les 250 francs…"
+        },
+        {
+          "id": "a1e37",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Les 250 francs"
+        },
+        {
+          "id": "a1e38",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Et oui…"
+        },
+        {
+          "id": "a1e39",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Fallait le dire tout de gau."
+        },
+        {
+          "id": "a1e40",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Je vous le dis depuis deux heures."
+        },
+        {
+          "id": "a1e41",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Y fallait pas vous déranger pour ça ! vous me les donnerez quand vous pourrez !"
+        },
+        {
+          "id": "a1e42",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Quand je pourrai… mais ce n’est pas moi qui vous doit, c’est vous qui me devez."
+        },
+        {
+          "id": "a1e43",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Moi que je vous dois, mais vous êtes malade ; et quoi donc ?"
+        },
+        {
+          "id": "a1e44",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Ma location !  !  !"
+        },
+        {
+          "id": "a1e45",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Quel localition ?"
+        },
+        {
+          "id": "a1e46",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Voilà cinq termes que vous habitez un appartement dans ma maison."
+        },
+        {
+          "id": "a1e47",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Cinq termes, comme le temps passe… et combien donc que je vous dois ?"
+        },
+        {
+          "id": "a1e48",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Cinq termes à 50 francs font 250 francs."
+        },
+        {
+          "id": "a1e49",
+          "type": "adresse_public",
+          "marionnetteId": "r3",
+          "texte": "Cinq fois cinquante, ça fait combien ?",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e50",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "250 francs ; mais je ne vous ai donc jamais rien donné ?"
+        },
+        {
+          "id": "a1e51",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Jamais rien."
+        },
+        {
+          "id": "a1e52",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Et ben alors, vaut pas la peine que je commence."
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Un inventaire qui s’évapore",
+      "resume": "{{r3}} cherche des meubles à saisir ; {{r1}} explique où ils sont passés. {{r2}} entend les insultes et chasse {{r3}}.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "C’est comme cela, je vais vous montrer que j’ai du caractère, je vais commencer par faire vendre votre mobilier en gros sur la place publique."
+        },
+        {
+          "id": "a2e2",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Vendre mes meubles en gros, il y a longtemps qu’sont vendus en détail."
+        },
+        {
+          "id": "a2e3",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Ta ! ta ! ta ! ta ! fadaise que tout cela, je sais que vous avez un très-joli mobilier."
+        },
+        {
+          "id": "a2e4",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Pipa {{r3}}, quand zun lacataire ne veut pas payasse de loyer y faut pas qu’il ai de morbilier."
+        },
+        {
+          "id": "a2e5",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Je connais votre lit à bateau."
+        },
+        {
+          "id": "a2e6",
+          "type": "didascalie",
+          "texte": "{{r1}} avance en tanguant, comme le lit à bateau de son histoire."
+        },
+        {
+          "id": "a2e7",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Mon lit n’a bateau. J’ai voulu aller à la foire de Beaucaire avec, en remontant y s’est engravé à Vernaison près des moulins."
+        },
+        {
+          "id": "a2e8",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Plus de lit ?"
+        },
+        {
+          "id": "a2e9",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Plus de lit ?"
+        },
+        {
+          "id": "a2e10",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Vous aussi, vous avez entendu : plus de lit ! Répétez « plus de lit » !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e11",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Et votre commode ?"
+        },
+        {
+          "id": "a2e12",
+          "type": "didascalie",
+          "texte": "Les deux peluches s’écartent pour évoquer la largeur de la commode, puis reviennent face à face."
+        },
+        {
+          "id": "a2e13",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ma commode était z’incommode, elle avait huit pieds de large, je m’suis dit en la faisant couper en deux, ce sera ben plus commode, ça m’en fera deux, je la porte chez un m’nuisier rue du Bœuf six mois après je vais pour la charcher, la maison et l’m’nuisier tout avait dem’nagé."
+        },
+        {
+          "id": "a2e14",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Pristi ! La maison aussi."
+        },
+        {
+          "id": "a2e15",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tenez, c’est comme notre pauvre vieille rue Borchaning, y a la belle Cordière que la mouché."
+        },
+        {
+          "id": "a2e16",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Elle a changé de nom."
+        },
+        {
+          "id": "a2e17",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Et c’te pauvé place Guernouille, y a c’te gourmande de Quatre-Chapeaux qui l’a avalé."
+        },
+        {
+          "id": "a2e18",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Tout ça ne me regarde pas : et votre table à bascule ?"
+        },
+        {
+          "id": "a2e19",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ma table a bascule y a le père {{r2}} l’année dernière pour la Niel que lui eu mis une sempotte dessus, çà la éclappé."
+        },
+        {
+          "id": "a2e20",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Plus de table… Je me rattraperai sur votre beau miroir antique."
+        },
+        {
+          "id": "a2e21",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Pas de veine ; y a fait si chaud cette année, que je l’ai vendu pour, boire à la glace."
+        },
+        {
+          "id": "a2e22",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Mais il ne vous reste donc rien."
+        },
+        {
+          "id": "a2e23",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Rien, même moins que rien."
+        },
+        {
+          "id": "a2e24",
+          "type": "adresse_public",
+          "marionnetteId": "r3",
+          "texte": "Il ne reste vraiment rien ? Dites « rien » !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e25",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Eh bien, ne fusse que la paillasse de votre lit, elle sera vendue."
+        },
+        {
+          "id": "a2e26",
+          "type": "didascalie",
+          "texte": "{{r1}} se gratte contre le bord du carton, en évoquant la paillasse pleine de puces."
+        },
+        {
+          "id": "a2e27",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Eh ben ! celui qui l’achètera pourra se gratter, y a plus de puces que de paille dedans, m’n’ami tout buge."
+        },
+        {
+          "id": "a2e28",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "C’est ce que nous verrons, je vais toujours… commencer par vous envoyer un bon commandement"
+        },
+        {
+          "id": "a2e29",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Pardon Messieu ma m’man ma bien élevé et je les sais : y en a un que dit « Ton p’pa et ta m’man t’honoreras afin que t’oye ésistance de longuemeut. »"
+        },
+        {
+          "id": "a2e30",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Oui ! mais, il y en a un autre qui dit : A ton propriétaire, tu donneras de l’argent, ou ton mobilier sera vendu immédiatement."
+        },
+        {
+          "id": "a2e31",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "En v’là un qui n’est pas sur le catéchiste… mais il y a la réponse, sauf votre respect."
+        },
+        {
+          "id": "a2e32",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Voyons la réponse."
+        },
+        {
+          "id": "a2e33",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "« {{r1}} te boiras 365 jours de l’an et à ton propriétaire, tu ne donneras pas pus d’argent qu’on en donne aujourd’hui en passant sur le pont Morand en se lantibardanant. »"
+        },
+        {
+          "id": "a2e34",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Je vois que je n’aurai jamais rien de vous, et bien arrangeons-nous, videz les lieux et je vous tiens quitte."
+        },
+        {
+          "id": "a2e35",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oh ! que non c’n’est m’n’état, allez à Venissieux, mon vieux."
+        },
+        {
+          "id": "a2e36",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Ah ! c’est comme ça, je vous les ferez vider par force, vous n’êtes qu’un gueu, un scélérat. C’est votre cousin {{r2}} qui vous donne ces conseils, cet ivrogne, ce mange tout, ce moins que rien."
+        },
+        {
+          "id": "a2e37",
+          "type": "didascalie",
+          "texte": "{{r1}} se baisse derrière le carton."
+        },
+        {
+          "id": "a2e38",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e39",
+          "type": "didascalie",
+          "texte": "{{r3}} avance vers le carton en grondant."
+        },
+        {
+          "id": "a2e40",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e41",
+          "type": "didascalie",
+          "texte": "{{r2}} surgit de la coulisse, heurte {{r3}} d’un bond. {{r3}} recule en criant."
+        },
+        {
+          "id": "a2e42",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e43",
+          "type": "didascalie",
+          "texte": "{{r2}} se balance devant le carton, puis se tourne vers la maison."
+        },
+        {
+          "id": "a2e44",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "La literie en voyage",
+      "resume": "{{r2}} et {{r1}} décident de partir et font plusieurs allers et retours pour le lit, les paillasses, le matelas et la huche.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Entendais-tu ce gone qui attaquait ma réputance, si je ne m’étais pas retenu, je le cabossais."
+        },
+        {
+          "id": "a3e2",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "T’as ben fait de te retiendre."
+        },
+        {
+          "id": "a3e3",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Qu’est-ce que c’est que ce gone, et que te voulait-il ?"
+        },
+        {
+          "id": "a3e4",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "C’est mon propriéteau, y voulait que je lui lâche de médailles."
+        },
+        {
+          "id": "a3e5",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Te lui dois donc ?"
+        },
+        {
+          "id": "a3e6",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Cinq termes à ce qui dit."
+        },
+        {
+          "id": "a3e7",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Cinq termes et combien lui as-tu donné ?"
+        },
+        {
+          "id": "a3e8",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Jamais rien."
+        },
+        {
+          "id": "a3e9",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Jamais rien, et y vient te demander d’argent, y fait ben voir qu’il a affaire à un petit gone qui n’a pas fait ses étuves, heureusement que je suis là et que je connais le code, tu sauras ma vieille que tous les cinq c’est périmé, et si nous cherchions la chicane, je ne sais pas si nous n’aurions pas le droit d’emporter la maison."
+        },
+        {
+          "id": "a3e10",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Laissons-lui sa maison à ce vieux t’avare… {{r2}}, mes meubles appellent’t’zépaules, faisons un déménagement."
+        },
+        {
+          "id": "a3e11",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "{{r1}}, t’as raison, fesons t’un trou à la lune, en avant, ma pauvre vieille, marchassassons."
+        },
+        {
+          "id": "a3e12",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Et après nous avalerons…"
+        },
+        {
+          "id": "a3e13",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Un bon gorgeon."
+        },
+        {
+          "id": "a3e14",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Comme de bonnes gens"
+        },
+        {
+          "id": "a3e15",
+          "type": "didascalie",
+          "texte": "Les deux peluches traversent la scène côte à côte et disparaissent du côté de la maison."
+        },
+        {
+          "id": "a3e16",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e17",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e18",
+          "type": "didascalie",
+          "texte": "Laissez passer un court silence avant le premier trajet."
+        },
+        {
+          "id": "a3e19",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e20",
+          "type": "conteur",
+          "texte": "{{r2}} revient avec un lit."
+        },
+        {
+          "id": "a3e21",
+          "type": "didascalie",
+          "texte": "{{r2}} traverse lentement la scène comme sous le poids d’un lit invisible."
+        },
+        {
+          "id": "a3e22",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Il est tout dématé."
+        },
+        {
+          "id": "a3e23",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e24",
+          "type": "didascalie",
+          "texte": "{{r1}} reste près du carton, comme s’il parlait depuis la maison."
+        },
+        {
+          "id": "a3e25",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "{{r2}} serre ta cravate."
+        },
+        {
+          "id": "a3e26",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Porquoi donc !"
+        },
+        {
+          "id": "a3e27",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Pour que les puces ne t’entrent pas dans le cou."
+        },
+        {
+          "id": "a3e28",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "J’y suis t’habitué, elles vont faire une reconnaissance avec les miennes"
+        },
+        {
+          "id": "a3e29",
+          "type": "didascalie",
+          "texte": "{{r2}} termine sa traversée et disparaît de l’autre côté."
+        },
+        {
+          "id": "a3e30",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e31",
+          "type": "didascalie",
+          "texte": "{{r1}} traverse à son tour comme sous le poids d’une paillasse invisible."
+        },
+        {
+          "id": "a3e32",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "V’la ma paillasse, c’est là-dessus que je me raffine comme un fromage d’chèvre."
+        },
+        {
+          "id": "a3e33",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e34",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Ta ben une jaulie fletille !"
+        },
+        {
+          "id": "a3e35",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Va donc vite au lieu te lantibarder"
+        },
+        {
+          "id": "a3e36",
+          "type": "didascalie",
+          "texte": "{{r2}} se penche puis se redresse, comme pour repartir avec la petite paillasse évoquée."
+        },
+        {
+          "id": "a3e37",
+          "type": "didascalie",
+          "texte": "{{r1}} termine son trajet et revient près du carton."
+        },
+        {
+          "id": "a3e38",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "En v’là une que n’est pas rien si bien garnie."
+        },
+        {
+          "id": "a3e39",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Fait attention, {{r2}}."
+        },
+        {
+          "id": "a3e40",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "T’as de gouttières, ta paillasse est z’humide."
+        },
+        {
+          "id": "a3e41",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "C’est la paillasse de mon Besson, y coule toujours la lessive dans ce mois"
+        },
+        {
+          "id": "a3e42",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Fais sécher sa paillasse"
+        },
+        {
+          "id": "a3e43",
+          "type": "didascalie",
+          "texte": "{{r2}} disparaît avec sa paillasse imaginaire."
+        },
+        {
+          "id": "a3e44",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e45",
+          "type": "didascalie",
+          "texte": "{{r1}} repart lentement, comme sous le poids d’un matelas invisible."
+        },
+        {
+          "id": "a3e46",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Quand on a de l’ustuque on a toujours de bons urstensiles de couchaison, l’été je fréquente les tondeurs de cabots, je mouche le poil, j’en fais un matelas, les puces que sont dedans, remplacent le sommier z’élastoque"
+        },
+        {
+          "id": "a3e47",
+          "type": "didascalie",
+          "texte": "{{r1}} s’arrête au milieu du chemin, puis fait trois pas de plus en tanguant."
+        },
+        {
+          "id": "a3e48",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e49",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Dépèche-toi donc, mollasse"
+        },
+        {
+          "id": "a3e50",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Attend moi {{r2}}"
+        },
+        {
+          "id": "a3e51",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Viens donc vite {{r1}}, jamais je pourrai emporter ce mât de cocagne tout seul"
+        },
+        {
+          "id": "a3e52",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Attends-moi, je vas te donner un coup de main, charge toi bien {{r2}}."
+        },
+        {
+          "id": "a3e53",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je me charge ben tant bien que je peux."
+        },
+        {
+          "id": "a3e54",
+          "type": "conteur",
+          "texte": "{{r1}} et {{r2}} reviennent avec une huche à pain immense."
+        },
+        {
+          "id": "a3e55",
+          "type": "didascalie",
+          "texte": "Les deux peluches avancent au même pas, comme si elles soutenaient une grande huche hors scène."
+        },
+        {
+          "id": "a3e56",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Aidez-nous à compter nos pas : un, deux, trois !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e57",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Va plan {{r2}}, va plan ! Je voudrais que tous les boulangers soyent pendus… on n’leur z’y doit pas plutôt quelques centaines de livres de pain qui vous refusent le crédit."
+        },
+        {
+          "id": "a3e58",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Elle s’porte ben bien."
+        },
+        {
+          "id": "a3e59",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ah ! ouessche… Je ne lui demandais qu’une allonge et je fornissais la cherniêre, il a refusé, aussi je lui ai sorti ma pratique."
+        },
+        {
+          "id": "a3e60",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Et t’as bien fait !"
+        },
+        {
+          "id": "a3e61",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r2}} achèvent leur trajet et disparaissent."
+        },
+        {
+          "id": "a3e62",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e63",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "numero": 4,
+      "titre": "Les derniers meubles et le dîner",
+      "resume": "Les ustensiles et le linge sont énumérés pendant les derniers trajets. {{r2}} laisse portes et fenêtres ; les deux personnages vont dîner en chantant.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a4e1",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e2",
+          "type": "conteur",
+          "texte": "{{r1}} revient avec une seringue."
+        },
+        {
+          "id": "a4e3",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je crois que le démagasinage s’avance. J’emporte la pipe de ma colombe"
+        },
+        {
+          "id": "a4e4",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e5",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Que diable est-ce ça"
+        },
+        {
+          "id": "a4e6",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Te n’vois pas."
+        },
+        {
+          "id": "a4e7",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "C’est pas un corp de chasse. Ah ! je vois ce que c’est… c’est une nouvelle machine avec laquelle on fait ce nouveau beurre à la mécaniquance à Voirpeur."
+        },
+        {
+          "id": "a4e8",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "T’y es pas c’est z’une pièce d’artillerie."
+        },
+        {
+          "id": "a4e9",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Une pièce d’artillerie, j’aimerais mieux une pièce, de vin !… mais ta pièce n’a pas de roues."
+        },
+        {
+          "id": "a4e10",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Gnia pas de besoin de roues, c’est z’une pièce de siège, telle que te la vois elle a fonctionné à ce matin elle a battue en brèche, elle a envoyé un boulet dans la lunette Saint-Laurent."
+        },
+        {
+          "id": "a4e11",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "C’est comme le siège d’Alanvers. Et l’amorce ?"
+        },
+        {
+          "id": "a4e12",
+          "type": "didascalie",
+          "texte": "{{r1}} désigne de la tête la coulisse où se trouve la seringue ; {{r2}} penche la tête vers elle, puis recule."
+        },
+        {
+          "id": "a4e13",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tiens renifle une miette"
+        },
+        {
+          "id": "a4e14",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Pouah ! ça ne sent pas la poudre, ça a une odeur de farine de lin"
+        },
+        {
+          "id": "a4e15",
+          "type": "didascalie",
+          "texte": "{{r2}} traverse pour une nouvelle course et revient près de {{r1}}."
+        },
+        {
+          "id": "a4e16",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Prends garde à ma vaisselle."
+        },
+        {
+          "id": "a4e17",
+          "type": "conteur",
+          "texte": "{{r2}} revient avec une énorme soupière."
+        },
+        {
+          "id": "a4e18",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "C’est pour faire de matefains, j’aime mieux çà qu’une poile, ils sont plus épais"
+        },
+        {
+          "id": "a4e19",
+          "type": "didascalie",
+          "texte": "{{r2}} fait un large détour autour du carton pour figurer la soupière sans la montrer."
+        },
+        {
+          "id": "a4e20",
+          "type": "didascalie",
+          "texte": "{{r1}} fait quelques pas en évoquant la poêle restée hors scène. {{r2}} incline la tête vers la coulisse."
+        },
+        {
+          "id": "a4e21",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Que c’te cuisine nous coûte donc cher, Madelon m’a fait de bugnes la semaine passée, et elle a laissée brûler le fond de la poêle, gnia plus moyen de la faire ressemeler"
+        },
+        {
+          "id": "a4e22",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Gredin, je ressemblais à un goujon dans la poêle de la mère Radis."
+        },
+        {
+          "id": "a4e23",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je ruminais que je ne voulais pas prendre des actions sur les fonds de poche, ça se désempille trop vite, mais va donc vieux {{r2}}."
+        },
+        {
+          "id": "a4e24",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "C’te ganache m’a cabossé"
+        },
+        {
+          "id": "a4e25",
+          "type": "didascalie",
+          "texte": "{{r2}} tourne autour du carton comme pour déplacer un panier invisible."
+        },
+        {
+          "id": "a4e26",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "{{r2}}, n’abime pas mon linge"
+        },
+        {
+          "id": "a4e27",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "C’est donc là dedans que te le met"
+        },
+        {
+          "id": "a4e28",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Et oui pauv’e vieille"
+        },
+        {
+          "id": "a4e29",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Pour le linge s’y en avait, y en aurait, mais pour tout linge y a une tête d’ail"
+        },
+        {
+          "id": "a4e30",
+          "type": "conteur",
+          "texte": "{{r1}} revient avec un pot de chambre."
+        },
+        {
+          "id": "a4e31",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "V’la le premier meuble d’un ménage. C’est l’indispensable de tous les pays.. et dire que c’est sur ses bords chéris que ma Madelon vient faire ses réchéfissions philosophoques"
+        },
+        {
+          "id": "a4e32",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Prends garde à ta porcelaine cousin il a ben de grandes tasses de café, il les lave pas souvent, j’ai aperçu du marc au fond"
+        },
+        {
+          "id": "a4e33",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r2}} font chacun un dernier trajet lent d’un bout à l’autre de la table."
+        },
+        {
+          "id": "a4e34",
+          "type": "didascalie",
+          "texte": "Les deux peluches parcourent encore une fois la scène en sens opposés ; les objets du déménagement restent hors scène."
+        },
+        {
+          "id": "a4e35",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Comptez notre dernier aller et retour : un, deux, trois !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e36",
+          "type": "didascalie",
+          "texte": "{{r2}} fait « toc toc » de la voix derrière le carton ; {{r1}} se retourne."
+        },
+        {
+          "id": "a4e37",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "V’là un déménagement de fait. Qué que c’est que çà ? Que fais-tu donc {{r2}} ?"
+        },
+        {
+          "id": "a4e38",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je démolis."
+        },
+        {
+          "id": "a4e39",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Quoi que te démolis !"
+        },
+        {
+          "id": "a4e40",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Ne m’as-tu pas dis que tu payais les portes et les fenêtres, pisque te les paye, c’est z’à toi et je les démentibules."
+        },
+        {
+          "id": "a4e41",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je devais les payer, mais j’ai rien payé du tout pas seulement un brin de la location, y faut les laisser au propriéteau."
+        },
+        {
+          "id": "a4e42",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "T ’es meilleur enfant que moi, quand j’ai loué qué que chose, que j-ai payé ou non, y faut que je l’emporte, je ne lui aurais laissé que ses fenêtres pour pleurer."
+        },
+        {
+          "id": "a4e43",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Allons {{r2}} v’là qui est fait, nous avons tout remisé sus ta souspente, mes puces vont me débarasser des tiennes en les avalant, elles sont en train de lutter, j’ai 20 francs de caché dans mes bas, nous allons les avaler ça te va-t-y pauv’e vieille."
+        },
+        {
+          "id": "a4e44",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Si ça me va pauv’e vieille, mais mon nez en rougit de joye."
+        },
+        {
+          "id": "a4e45",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Eh ben nous allons nous flanquer une bonne bosse et allons-y."
+        },
+        {
+          "id": "a4e46",
+          "type": "didascalie",
+          "texte": "{{r1}} chante vers {{r2}}, qui accompagne l’air en fredonnant sans paroles. Les enfants écoutent : le dernier vers parle de boire du vin."
+        },
+        {
+          "id": "a4e47",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tenons bon, mon ami, tenons bon\nAllons vite diner en ville\nTenons bon, mon ami tenons bon\nEt vidons de grand flacons",
+          "ton": "chanté vers {{r2}}"
+        },
+        {
+          "id": "a4e48",
+          "type": "didascalie",
+          "texte": "Les deux peluches partent du même côté, vers le dîner."
+        },
+        {
+          "id": "a4e49",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e50",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "guignol-le-demenagement",
+    "synopsis": {
+      "accroche": "Cinq loyers impayés et un propriétaire qui ne lâche rien.",
+      "resume": [
+        "{{r3}} se fait passer pour le facteur puis la concierge afin de faire sortir {{r1}}.",
+        "{{r1}} détourne ses questions et lui raconte la disparition de ses meubles.",
+        "{{r2}} chasse le propriétaire, puis les deux amis déménagent par une suite de trajets et de plaisanteries.",
+        "Ils laissent portes et fenêtres en place, révèlent leurs vingt francs cachés et vont dîner en chantant."
+      ]
+    },
+    "transposition": {
+      "texte": "# Le Déménagement de {{r1}}\n\n*Lyon (France) — Laurent Mourguet, Le Déménagement de {{r1}}, arrangé par Louis Josserand, Elardin, 1876. Texte original en français.*\n\nSCÈNE COMIQUE EN UN ACTE\n\nPERSONNAGES\n\n{{r1}}. — {{r2}}. — {{r3}}. — Cadet.\n\nScène I\n\n{{r3}}, seul. — Voilà bien ma maison, elle est bien à moi, j’en paie les impositions et j’ai un locataire qui ne paie pas son loyer, on a beau dire mais on est bien malheureux d’être propriétaire. Cet état de choses ne peut durer plus longtemps, et si monsieur {{r1}} ne me paye pas aujourd’hui même les cinq termes qu’il me doit je fais vendre ses meubles sur la place publique, je vais lui faire voir que quand je me montre on voit du vilain (Il s’approche de la porte et s’arrête). Comme il pourrait reconnaître ma voix et ne pas me répondre, tâchons de déguiser ma voix (Il fait « toc toc » de la voix) M. {{r1}}.\n\n{{r1}}, en dedans. — Qui que frappe.\n\n{{r3}}. — C’est le facteur pour une lettre très-pressée.\n\n{{r1}}, en dedans. — Garde-la, je sais pas lire.\n\n{{r3}}. — Elle est chargée, c’est de l’argent.\n\n{{r1}}, en dedans. — Personne ne me doit, je t’en fais cadeau.\n\n{{r3}}. — Çà ne prend pas. Oh ! j’ai un moyen, je sais qu’il est très-bien avec la concierge, je vais changer mes batteries : à {{r1}}, il change de voix. Monsieur {{r1}}.\n\n{{r1}}, en dedans. — Quoi ce qui gnia encore.\n\n{{r3}}. — C’est moi la concierge, Mme Pétard, j’ai fait cuire un lapin, je voudrais que vous veniez goûter la sauce.\n\n{{r1}}, en dedans. — On dégringole la miman.\n\n{{r3}}. — Ma ruse a réussi, à nous deux, maître {{r1}}.\n\n{{r1}}, entrant. Vlà, {{r3}} se baisse derrière le carton. Tiens parsonne, c’est z’une farce qu’on m’a fait, {{r3}} se redresse, {{r1}} à part. Oh ! la vilaine farce.\n\n{{r3}}. — Bonjour mon cher M. {{r1}} : vous savez sans doute le motif qui m’amène.\n\n{{r1}}. — C’te bêtise, c’est pas un motif, c’est vos guibolles, a moins que vous ne soyez fait trainer par un fiacre.\n\n{{r3}}. — Non ça coûte trop cher : Je viens pour savoir s’y vous êtes décidé à me payer les cinq termes que vous me devez.\n\n{{r1}}, à part. — Je te vois venir pauvre vieille grollasse (haut) Savez-vous p’pa {{r3}} que vous vous portez ben bien ?\n\n{{r3}}. — La santé est bonne, mais les rentrées ne se font pas !… Cinq termes à 50 fr. font 250 fr.\n\n{{r1}}— Et vot’mami, comment donc qui va.\n\n{{r3}}. — Très-bien, Monsieur {{r1}}. Nous disons donc que cela fait 250 fr.\n\n{{r1}}, à part. — Je te vois venir (haut) Et votre demoiselle, ah ! la belle canante, sa santé est bonne.\n\n{{r3}}. — Elle va très-bien, mais…..\n\n{{r1}}. — Tant mieux. Et votre chienne qui s’était cassé la guibolle, est-elle rhabillée.\n\n{{r3}}. — Elle est morte… mes 200…\n\n{{r1}}. — Tant mieux ! tant mieux ! en bajaflant de votre chienne, et v’tre femme comment qu’et s’porte.\n\n{{r3}}. — Et !  ! ma chienne, ma femme… toute ma famille se porte très-bien, il n’y a que ma location qui est malade, je viens pour les 250 francs…\n\n{{r1}}, étonné. — Les 250 francs\n\n{{r3}}. — Et oui…\n\n{{r1}}. — Fallait le dire tout de gau.\n\n{{r3}}. — Je vous le dis depuis deux heures.\n\n{{r1}}. — Y fallait pas vous déranger pour ça ! vous me les donnerez quand vous pourrez !\n\n{{r3}}. — Quand je pourrai… mais ce n’est pas moi qui vous doit, c’est vous qui me devez.\n\n{{r1}}. — Moi que je vous dois, mais vous êtes malade ; et quoi donc ?\n\n{{r3}}. — Ma location !  !  !\n\n{{r1}}. — Quel localition ?\n\n{{r3}}. — Voilà cinq termes que vous habitez un appartement dans ma maison.\n\n{{r1}}. — Cinq termes, comme le temps passe… et combien donc que je vous dois ?\n\n{{r3}}. — Cinq termes à 50 francs font 250 francs.\n\n{{r1}}. — 250 francs ; mais je ne vous ai donc jamais rien donné ?\n\n{{r3}}. — Jamais rien.\n\n{{r1}}. — Et ben alors, vaut pas la peine que je commence.\n\n{{r3}}. — C’est comme cela, je vais vous montrer que j’ai du caractère, je vais commencer par faire vendre votre mobilier en gros sur la place publique.\n\n{{r1}}. — Vendre mes meubles en gros, il y a longtemps qu’sont vendus en détail.\n\n{{r3}}. — Ta ! ta ! ta ! ta ! fadaise que tout cela, je sais que vous avez un très-joli mobilier.\n\n{{r1}}. — Pipa {{r3}}, quand zun lacataire ne veut pas payasse de loyer y faut pas qu’il ai de morbilier.\n\n{{r3}}. — Je connais votre lit à bateau.\n\n{{r1}}. — Mon lit n’a bateau. J’ai voulu aller à la foire de Beaucaire avec, en remontant y s’est engravé à Vernaison près des moulins.\n\n{{r3}}. — Plus de lit ?\n\n{{r1}}. — Plus de lit ?\n\n{{r3}}. — Et votre commode ?\n\n{{r1}}. — Ma commode était z’incommode, elle avait huit pieds de large, je m’suis dit en la faisant couper en deux, ce sera ben plus commode, ça m’en fera deux, je la porte chez un m’nuisier rue du Bœuf six mois après je vais pour la charcher, la maison et l’m’nuisier tout avait dem’nagé.\n\n{{r3}}. — Pristi ! La maison aussi.\n\n{{r1}}. — Tenez, c’est comme notre pauvre vieille rue Borchaning, y a la belle Cordière que la mouché.\n\n{{r3}}. — Elle a changé de nom.\n\n{{r1}}. — Et c’te pauvé place Guernouille, y a c’te gourmande de Quatre-Chapeaux qui l’a avalé.\n\n{{r3}}. — Tout ça ne me regarde pas : et votre table à bascule ?\n\n{{r1}}. — Ma table a bascule y a le père {{r2}} l’année dernière pour la Niel que lui eu mis une sempotte dessus, çà la éclappé.\n\n{{r3}}. — Plus de table… Je me rattraperai sur votre beau miroir antique.\n\n{{r1}}. — Pas de veine ; y a fait si chaud cette année, que je l’ai vendu pour, boire à la glace.\n\n{{r3}}. — Mais il ne vous reste donc rien.\n\n{{r1}}. — Rien, même moins que rien.\n\n{{r3}}. — Eh bien, ne fusse que la paillasse de votre lit, elle sera vendue.\n\n{{r1}}. — Eh ben ! celui qui l’achètera pourra se gratter, y a plus de puces que de paille dedans, m’n’ami tout buge.\n\n{{r3}}. — C’est ce que nous verrons, je vais toujours… commencer par vous envoyer un bon commandement\n\n{{r1}}. — Pardon Messieu ma m’man ma bien élevé et je les sais : y en a un que dit « Ton p’pa et ta m’man t’honoreras afin que t’oye ésistance de longuemeut. »\n\n{{r3}}. — Oui ! mais, il y en a un autre qui dit : A ton propriétaire, tu donneras de l’argent, ou ton mobilier sera vendu immédiatement.\n\n{{r1}}. — En v’là un qui n’est pas sur le catéchiste… mais il y a la réponse, sauf votre respect.\n\n{{r3}}. — Voyons la réponse.\n\n{{r1}}. — « {{r1}} te boiras 365 jours de l’an et à ton propriétaire, tu ne donneras pas pus d’argent qu’on en donne aujourd’hui en passant sur le pont Morand en se lantibardanant. »\n\n{{r3}}. — Je vois que je n’aurai jamais rien de vous, et bien arrangeons-nous, videz les lieux et je vous tiens quitte.\n\n{{r1}}. — Oh ! que non c’n’est m’n’état, allez à Venissieux, mon vieux.\n\n{{r3}}. — Ah ! c’est comme ça, je vous les ferez vider par force, vous n’êtes qu’un gueu, un scélérat ({{r2}} écoute). C’est votre cousin {{r2}} qui vous donne ces conseils, cet ivrogne, ce mange tout, ce moins que rien. ({{r1}} se baisse derrière le carton ; {{r2}} surgit, heurte {{r3}} et le chasse ; {{r3}} se sauve en criant).  Scène II\n\n{{r1}} — {{r2}}\n\n{{r2}}. — Entendais-tu ce gone qui attaquait ma réputance, si je ne m’étais pas retenu, je le cabossais.\n\n{{r1}}. — T’as ben fait de te retiendre.\n\n{{r2}}. — Qu’est-ce que c’est que ce gone, et que te voulait-il ?\n\n{{r1}}. — C’est mon propriéteau, y voulait que je lui lâche de médailles.\n\n{{r2}}. — Te lui dois donc ?\n\n{{r1}}. — Cinq termes à ce qui dit.\n\n{{r2}}. — Cinq termes et combien lui as-tu donné ?\n\n{{r1}}. — Jamais rien.\n\n{{r2}}. — Jamais rien, et y vient te demander d’argent, y fait ben voir qu’il a affaire à un petit gone qui n’a pas fait ses étuves, heureusement que je suis là et que je connais le code, tu sauras ma vieille que tous les cinq c’est périmé, et si nous cherchions la chicane, je ne sais pas si nous n’aurions pas le droit d’emporter la maison.\n\n{{r1}}. — Laissons-lui sa maison à ce vieux t’avare… {{r2}}, mes meubles appellent’t’zépaules, faisons un déménagement.\n\n{{r2}}. — {{r1}}, t’as raison, fesons t’un trou à la lune, en avant, ma pauvre vieille, marchassassons.\n\n{{r1}}. — Et après nous avalerons…\n\n{{r2}}. — Un bon gorgeon.\n\n{{r1}}. — Comme de bonnes gens, ils entrent chez {{r1}}.\n\n{{r2}} revient avec un lit. — Il est tout dématé.\n\n{{r1}}, en dedans. — {{r2}} serre ta cravate.\n\n{{r2}}. — Porquoi donc !\n\n{{r1}}, en dedans. — Pour que les puces ne t’entrent pas dans le cou.\n\n{{r2}}. — J’y suis t’habitué, elles vont faire une reconnaissance avec les miennes ; il sort du côté opposé.\n\n{{r1}}, en figurant la paillasse hors scène. — V’la ma paillasse, c’est là-dessus que je me raffine comme un fromage d’chèvre.\n\n{{r2}}. — Ta ben une jaulie fletille ! il entre dans la maison.\n\n{{r1}}. — Va donc vite au lieu te lantibarder, il sort.\n\n{{r2}}, en figurant le poids d’une petite paillasse hors scène. — En v’là une que n’est pas rien si bien garnie.\n\n{{r1}}, en scène. — Fait attention, {{r2}}.\n\n{{r2}}. — T’as de gouttières, ta paillasse est z’humide.\n\n{{r1}}. — C’est la paillasse de mon Besson, y coule toujours la lessive dans ce mois, il rentre.\n\n{{r2}}. — Fais sécher sa paillasse, il sort.\n\n{{r1}}, en figurant le poids d’un matelas hors scène. — Quand on a de l’ustuque on a toujours de bons urstensiles de couchaison, l’été je fréquente les tondeurs de cabots, je mouche le poil, j’en fais un matelas, les puces que sont dedans, remplacent le sommier z’élastoque, il repart en figurant le matelas.\n\n{{r2}}, revient. — Dépèche-toi donc, mollasse, il rentre.\n\n{{r1}}. — Attend moi {{r2}}, il rentre.\n\n{{r2}}, en dedans. — Viens donc vite {{r1}}, jamais je pourrai emporter ce mât de cocagne tout seul\n\n{{r1}}, revient Attends-moi, je vas te donner un coup de main, il rentre en dedans, charge toi bien {{r2}}.\n\n{{r2}}, en dedans. Je me charge ben tant bien que je peux. {{r1}} et {{r2}} reviennent avec une huche à pain immense.\n\n{{r1}}. — Va plan {{r2}}, va plan ! Je voudrais que tous les boulangers soyent pendus… on n’leur z’y doit pas plutôt quelques centaines de livres de pain qui vous refusent le crédit.\n\n{{r2}}. — Elle s’porte ben bien.\n\n{{r1}}. — Ah ! ouessche… Je ne lui demandais qu’une allonge et je fornissais la cherniêre, il a refusé, aussi je lui ai sorti ma pratique.\n\n{{r2}}. — Et t’as bien fait ! ils sortent.\n\n{{r1}}, revient. — Je crois que le démagasinage s’avance {{r1}} revient avec une seringue. J’emporte la pipe de ma colombe, la seringue reste hors scène.\n\n{{r2}}, revient et regarde vers la coulisse où est l’objet. — Que diable est-ce ça\n\n{{r1}}. — Te n’vois pas.\n\n{{r2}}. — C’est pas un corp de chasse. Ah ! je vois ce que c’est… c’est une nouvelle machine avec laquelle on fait ce nouveau beurre à la mécaniquance à Voirpeur.\n\n{{r1}}. — T’y es pas c’est z’une pièce d’artillerie.\n\n{{r2}}. — Une pièce d’artillerie, j’aimerais mieux une pièce, de vin !… mais ta pièce n’a pas de roues.\n\n{{r1}}. — Gnia pas de besoin de roues, c’est z’une pièce de siège, telle que te la vois elle a fonctionné à ce matin elle a battue en brèche, elle a envoyé un boulet dans la lunette Saint-Laurent.\n\n{{r2}}. — C’est comme le siège d’Alanvers. Et l’amorce ?\n\n{{r1}}, il désigne de la tête la seringue hors scène. — Tiens renifle une miette, il se sauve.\n\n{{r2}}. — Pouah ! ça ne sent pas la poudre, ça a une odeur de farine de lin, il sort.\n\n{{r1}}, {{r1}} revient. — Prends garde à ma vaisselle.\n\n{{r2}} revient avec une énorme soupière. — C’est pour faire de matefains, j’aime mieux çà qu’une poile, ils sont plus épais, il sort…\n\n{{r1}},  en évoquant une poêle sans fond restée hors scène. — Que c’te cuisine nous coûte donc cher, Madelon m’a fait de bugnes la semaine passée, et elle a laissée brûler le fond de la poêle, gnia plus moyen de la faire ressemeler, {{r2}} entre et penche la tête vers la coulisse où est la poêle.\n\n{{r2}}. — Gredin, je ressemblais à un goujon dans la poêle de la mère Radis.\n\n{{r1}}. — Je ruminais que je ne voulais pas prendre des actions sur les fonds de poche, ça se désempille trop vite, mais va donc vieux {{r2}}.\n\n{{r2}}. — C’te ganache m’a cabossé, il rentre.\n\n{{r1}}. — {{r2}}, n’abime pas mon linge, il a l’air de le sigroler.\n\n{{r2}}. — C’est donc là dedans que te le met, le panier reste hors scène.\n\n{{r1}}. — Et oui pauv’e vieille, il rentre\n\n{{r2}}, regardant vers la coulisse où est le panier. — Pour le linge s’y en avait, y en aurait, mais pour tout linge y a une tête d’ail, il sort.\n\n{{r1}} revient avec un pot de chambre. — V’la le premier meuble d’un ménage. C’est l’indispensable de tous les pays.. il le laisse hors scène, et dire que c’est sur ses bords chéris que ma Madelon vient faire ses réchéfissions philosophoques, il sort.\n\n{{r2}}, entrant. — Prends garde à ta porcelaine cousin il a ben de grandes tasses de café, il les lave pas souvent, j’ai aperçu du marc au fond, il entre.\n\n{{r1}}, revient. — V’là un déménagement de fait on entend frapper, Qué que c’est que çà, du côté où {{r2}} est entré, Que fais-tu donc {{r2}} ?\n\n{{r2}}, en dedans. — Je démolis.\n\n{{r1}}. — Quoi que te démolis !\n\n{{r2}}, en dedans. — Ne m’as-tu pas dis que tu payais les portes et les fenêtres, pisque te les paye, c’est z’à toi et je les démentibules.\n\n{{r1}}. — Je devais les payer, mais j’ai rien payé du tout pas seulement un brin de la location, y faut les laisser au propriéteau.\n\n{{r2}}, en scène. — T ’es meilleur enfant que moi, quand j’ai loué qué que chose, que j-ai payé ou non, y faut que je l’emporte, je ne lui aurais laissé que ses fenêtres pour pleurer.\n\n{{r1}}. — Allons {{r2}} v’là qui est fait, nous avons tout remisé sus ta souspente, mes puces vont me débarasser des tiennes en les avalant, elles sont en train de lutter, j’ai 20 francs de caché dans mes bas, nous allons les avaler ça te va-t-y pauv’e vieille.\n\n{{r2}}. — Si ça me va pauv’e vieille, mais mon nez en rougit de joye.\n\n{{r1}}. — Eh ben nous allons nous flanquer une bonne bosse et allons-y.\n\nENSEMBLE\n\nTenons bon, mon ami, tenons bon\n\nAllons vite diner en ville\n\nTenons bon, mon ami tenons bon\n\nEt vidons de grand flacons",
+      "changements": [
+        "Noms des trois rôles remplacés ; patois conservé hors retouches universelles.",
+        "Deux expressions collectives reformulées sans accord dépendant de deux rôles : « si nous cherchions la chicane » et « Comme de bonnes gens ».",
+        "Actions sur les meubles jouées par des déplacements ; cinq indications d’objets deviennent des phrases du conteur."
+      ]
+    }
+  },
+  "dureeEstimeeSecondes": 1355,
+  "interactionsOrdonnees": [
+    "a1e20",
+    "a1e49",
+    "a2e10",
+    "a2e24",
+    "a3e56",
+    "a4e35"
+  ]
+}

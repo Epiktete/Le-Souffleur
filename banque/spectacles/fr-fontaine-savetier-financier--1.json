@@ -1,0 +1,594 @@
+{
+  "id": "fr-fontaine-savetier-financier--1",
+  "conteId": "fr-fontaine-savetier-financier",
+  "titre": "Le Savetier et le Financier",
+  "pitch": "{{r1}}, un savetier qui chante du matin au soir, reçoit cent écus d'{{r2}}, le financier. Son argent lui vole ses chansons et son sommeil ; il le rend.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "travailleur",
+        "joyeux",
+        "bavard"
+      ],
+      "voix": "voix claire et chantante, avec un rythme léger",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "un savetier",
+            "apres": "une savetière"
+          },
+          {
+            "id": "pitch",
+            "avant": "il le rend",
+            "apres": "elle le rend"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "ce qu'il gagne",
+            "apres": "ce qu'elle gagne"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "Un savetier",
+            "apres": "Une savetière"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "de le voir",
+            "apres": "de la voir"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "il faisait",
+            "apres": "elle faisait"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "Plus content",
+            "apres": "Plus contente"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "Le savetier",
+            "apres": "La savetière"
+          },
+          {
+            "id": "a1e13:texte",
+            "avant": "Le chanteur",
+            "apres": "La chanteuse"
+          },
+          {
+            "id": "a1e14:texte",
+            "avant": "sire",
+            "apres": "dame"
+          },
+          {
+            "id": "a1e17:texte",
+            "avant": "Le gaillard savetier",
+            "apres": "La gaillarde savetière"
+          },
+          {
+            "id": "a2e7:texte",
+            "avant": "Le savetier",
+            "apres": "La savetière"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "Il retourne chez lui",
+            "apres": "Elle retourne chez elle"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "il enserre",
+            "apres": "elle enserre"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "il perdit",
+            "apres": "elle perdit"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "qu’il gagna",
+            "apres": "qu’elle gagna"
+          },
+          {
+            "id": "a2e13:texte",
+            "avant": "Il eut",
+            "apres": "Elle eut"
+          },
+          {
+            "id": "a2e16:texte",
+            "avant": "il avait",
+            "apres": "elle avait"
+          },
+          {
+            "id": "a2e18:texte",
+            "avant": "qu’il ne réveillait",
+            "apres": "qu’elle ne réveillait"
+          },
+          {
+            "id": "a2e22:texte",
+            "avant": "dit-il",
+            "apres": "dit-elle"
+          },
+          {
+            "id": "a1e15:ton",
+            "avant": "un ton de rieur",
+            "apres": "un ton de rieuse"
+          },
+          {
+            "id": "a1e16:texte",
+            "avant": "un ton de rieur",
+            "apres": "un ton de rieuse"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "autour de lui",
+            "apres": "autour d’elle"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a2e16:texte",
+          "avant": "le pauvre homme",
+          "gabarit": "{le} pauvre {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r2",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "riche",
+        "soucieux",
+        "généreux"
+      ],
+      "voix": "voix grave et lente, un peu somnolente au début",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "le financier",
+            "apres": "la financière"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "Son voisin financier",
+            "apres": "Sa voisine financière"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "Son voisin",
+            "apres": "Sa voisine"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "tout cousu",
+            "apres": "toute cousue"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "il sommeillait",
+            "apres": "elle sommeillait"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "le financier",
+            "apres": "la financière"
+          },
+          {
+            "id": "a1e15:texte",
+            "avant": "monsieur",
+            "apres": "madame"
+          },
+          {
+            "id": "a2e3:texte",
+            "avant": "Le financier",
+            "apres": "La financière"
+          },
+          {
+            "id": "a2e18:texte",
+            "avant": "chez celui",
+            "apres": "chez celle"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "penché",
+            "apres": "penchée"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "endormi",
+            "apres": "endormie"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "vers lui",
+            "apres": "vers elle"
+          },
+          {
+            "id": "a1e12:texte",
+            "avant": "il fait venir",
+            "apres": "elle fait venir"
+          },
+          {
+            "id": "a2e20:texte",
+            "avant": "devant lui",
+            "apres": "devant elle"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a1e6:texte",
+          "avant": "un homme",
+          "gabarit": "{un} {espece}"
+        }
+      ]
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 5,
+    "ageAuditoire": 9,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "L'atelier et la demeure",
+      "description": "Posez un coussin à gauche pour l'atelier de {{r1}} et un autre à droite pour la demeure d'{{r2}}. Une table suffit aussi.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "La cave et la demeure",
+      "description": "Le coussin de gauche figure la cave où {{r1}} cache l'argent. Le coussin de droite garde la place d'{{r2}}.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Les chansons de {{r1}}",
+      "resume": "{{r1}} chante en travaillant. Son voisin financier, {{r2}}, dort mal et lui demande ce qu'il gagne.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e2",
+          "type": "didascalie",
+          "texte": "{{r1}} se balance doucement de côté, comme au rythme d'une chanson."
+        },
+        {
+          "id": "a1e3",
+          "type": "conteur",
+          "texte": "Un savetier chantait du matin jusqu’au soir :\nC’était merveille de le voir,\nMerveille de l’ouïr ; il faisait des passages :\nPlus content qu’aucun des sept sages."
+        },
+        {
+          "id": "a1e4",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Fredonnez un petit air avec moi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e5",
+          "type": "note_marionnettiste",
+          "texte": "{{r1}} fredonne quelques notes sans paroles, puis reprend son mouvement."
+        },
+        {
+          "id": "a1e6",
+          "type": "conteur",
+          "texte": "Son voisin, au contraire, étant tout cousu d’or,\nChantait peu, dormait moins encor :\nC’était un homme de finance."
+        },
+        {
+          "id": "a1e7",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e8",
+          "type": "didascalie",
+          "texte": "{{r2}} reste penché sur un côté, comme endormi ; {{r1}} se tourne vers lui."
+        },
+        {
+          "id": "a1e9",
+          "type": "conteur",
+          "texte": "Si sur le point du jour parfois il sommeillait,\nLe savetier alors en chantant l’éveillait ;\nEt le financier se plaignait\nQue les soins de la Providence\nN’eussent pas au marché fait vendre le dormir,\nComme le manger et le boire."
+        },
+        {
+          "id": "a1e10",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Faites semblant de dormir avec moi !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e11",
+          "type": "didascalie",
+          "texte": "{{r2}} se redresse brusquement et fait face à {{r1}}."
+        },
+        {
+          "id": "a1e12",
+          "type": "conteur",
+          "texte": "En sa demeure il fait venir"
+        },
+        {
+          "id": "a1e13",
+          "type": "conteur",
+          "texte": "Le chanteur, et lui dit :"
+        },
+        {
+          "id": "a1e14",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Or çà, sire {{r1}},\nQue gagnez-vous par an ?",
+          "ton": "en l'interrogeant"
+        },
+        {
+          "id": "a1e15",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Par an ! ma foi, monsieur",
+          "ton": "d'un ton de rieur"
+        },
+        {
+          "id": "a1e16",
+          "type": "conteur",
+          "texte": "Dit avec un ton de rieur"
+        },
+        {
+          "id": "a1e17",
+          "type": "conteur",
+          "texte": "Le gaillard savetier,"
+        },
+        {
+          "id": "a1e18",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "ce n’est point ma manière\nDe compter de la sorte ; et je n’entasse guère\nUn jour sur l’autre : il suffit qu’à la fin\nJ’attrape le bout de l’année ;\nChaque jour amène son pain. —",
+          "ton": "avec entrain"
+        },
+        {
+          "id": "a1e19",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Dites avec moi : chaque jour amène son pain !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e20",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Eh bien ! que gagnez-vous, dites-moi, par journée ?",
+          "ton": "avec insistance"
+        },
+        {
+          "id": "a1e21",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tantôt plus, tantôt moins : le mal est que toujours\n(Et sans cela nos gains seraient assez honnêtes),\nLe mal est que dans l’an s’entremêlent des jours\nQu’il faut chômer ; on nous ruine en fêtes :\nL’une fait tort à l’autre ; et monsieur le curé\nDe quelque nouveau saint charge toujours son prône.",
+          "ton": "en comptant les jours de la tête"
+        },
+        {
+          "id": "a1e22",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e23",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Les cent écus",
+      "resume": "{{r2}} offre cent écus à {{r1}}. {{r1}} cache l'argent, perd ses chansons et son sommeil, puis rend les écus.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e3",
+          "type": "conteur",
+          "texte": "Le financier, riant de sa naïveté,"
+        },
+        {
+          "id": "a2e4",
+          "type": "conteur",
+          "texte": "Lui dit :"
+        },
+        {
+          "id": "a2e5",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je vous veux mettre aujourd’hui sur le trône.\nPrenez ces cent écus ; gardez-les avec soin,\nPour vous en servir au besoin.",
+          "ton": "en présentant le cadeau de la tête"
+        },
+        {
+          "id": "a2e6",
+          "type": "didascalie",
+          "texte": "{{r1}} se redresse d'un coup, puis se tourne vers le fond de la scène."
+        },
+        {
+          "id": "a2e7",
+          "type": "conteur",
+          "texte": "Le savetier crut voir tout l’argent que la terre\nAvait depuis plus de cent ans,\nProduit pour l’usage des gens."
+        },
+        {
+          "id": "a2e8",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Comptez avec moi les cent écus : un, deux, trois !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e9",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e10",
+          "type": "didascalie",
+          "texte": "{{r1}} se penche vers le bord de la table, puis recule en regardant autour de lui."
+        },
+        {
+          "id": "a2e11",
+          "type": "conteur",
+          "texte": "Il retourne chez lui : dans sa cave il enserre\nL’argent, et sa joie à la fois.\nPlus de chant : il perdit la voix\nDu moment qu’il gagna ce qui cause nos peines."
+        },
+        {
+          "id": "a2e12",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Chut ! Écoutez avec moi le silence.",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e13",
+          "type": "conteur",
+          "texte": "Le sommeil quitta son logis :\nIl eut pour hôtes les soucis,\nLes soupçons, les alarmes vaines."
+        },
+        {
+          "id": "a2e14",
+          "type": "didascalie",
+          "texte": "{{r1}} regarde à droite, à gauche, puis tremble de tout son corps."
+        },
+        {
+          "id": "a2e15",
+          "type": "note_marionnettiste",
+          "texte": "En coulisse, faites un petit miaulement pendant « Si quelque chat faisait du bruit »."
+        },
+        {
+          "id": "a2e16",
+          "type": "conteur",
+          "texte": "Tout le jour il avait l’œil au guet ; et la nuit,\nSi quelque chat faisait du bruit,\nLe chat prenait l’argent. À la fin le pauvre homme"
+        },
+        {
+          "id": "a2e17",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites un petit miaou avec moi !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e18",
+          "type": "conteur",
+          "texte": "S’en courut chez celui qu’il ne réveillait plus :"
+        },
+        {
+          "id": "a2e19",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e20",
+          "type": "didascalie",
+          "texte": "{{r1}} revient près d'{{r2}} et se tient immobile devant lui."
+        },
+        {
+          "id": "a2e21",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Rendez-moi,",
+          "ton": "avec empressement"
+        },
+        {
+          "id": "a2e22",
+          "type": "conteur",
+          "texte": "lui dit-il,"
+        },
+        {
+          "id": "a2e23",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "mes chansons et mon somme ;\nEt reprenez vos cent écus.",
+          "ton": "fermement"
+        },
+        {
+          "id": "a2e24",
+          "type": "didascalie",
+          "texte": "{{r1}} se redresse, puis se balance doucement comme au début."
+        },
+        {
+          "id": "a2e25",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e26",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "fr-fontaine-savetier-financier",
+    "synopsis": {
+      "accroche": "Un savetier heureux accepte cent écus et perd son repos.",
+      "resume": [
+        "{{r1}} chante du matin au soir et réveille parfois son voisin {{r2}}, le financier.",
+        "{{r2}} l'interroge sur ses gains, puis lui donne cent écus.",
+        "{{r1}} enferme l'argent dans sa cave, ne chante plus et s'alarme au moindre bruit.",
+        "Il rend les écus à {{r2}} et réclame ses chansons et son sommeil."
+      ]
+    },
+    "transposition": {
+      "texte": "Un savetier chantait du matin jusqu’au soir :\nC’était merveille de le voir,\nMerveille de l’ouïr ; il faisait des passages :\nPlus content qu’aucun des sept sages.\nSon voisin, au contraire, étant tout cousu d’or,\nChantait peu, dormait moins encor :\nC’était un homme de finance.\nSi sur le point du jour parfois il sommeillait,\nLe savetier alors en chantant l’éveillait ;\nEt le financier se plaignait\nQue les soins de la Providence\nN’eussent pas au marché fait vendre le dormir,\nComme le manger et le boire.\nEn sa demeure il fait venir\nLe chanteur, et lui dit : Or çà, sire {{r1}},\nQue gagnez-vous par an ? Par an ! ma foi, monsieur\nDit avec un ton de rieur\nLe gaillard savetier, ce n’est point ma manière\nDe compter de la sorte ; et je n’entasse guère\nUn jour sur l’autre : il suffit qu’à la fin\nJ’attrape le bout de l’année ;\nChaque jour amène son pain. —\nEh bien ! que gagnez-vous, dites-moi, par journée ?\nTantôt plus, tantôt moins : le mal est que toujours\n(Et sans cela nos gains seraient assez honnêtes),\nLe mal est que dans l’an s’entremêlent des jours\nQu’il faut chômer ; on nous ruine en fêtes :\nL’une fait tort à l’autre ; et monsieur le curé\nDe quelque nouveau saint charge toujours son prône.\nLe financier, riant de sa naïveté,\nLui dit : Je vous veux mettre aujourd’hui sur le trône.\nPrenez ces cent écus ; gardez-les avec soin,\nPour vous en servir au besoin.\nLe savetier crut voir tout l’argent que la terre\nAvait depuis plus de cent ans,\nProduit pour l’usage des gens.\nIl retourne chez lui : dans sa cave il enserre\nL’argent, et sa joie à la fois.\nPlus de chant : il perdit la voix\nDu moment qu’il gagna ce qui cause nos peines.\nLe sommeil quitta son logis :\nIl eut pour hôtes les soucis,\nLes soupçons, les alarmes vaines.\nTout le jour il avait l’œil au guet ; et la nuit,\nSi quelque chat faisait du bruit,\nLe chat prenait l’argent. À la fin le pauvre homme\nS’en courut chez celui qu’il ne réveillait plus :\nRendez-moi, lui dit-il, mes chansons et mon somme ;\nEt reprenez vos cent écus.",
+      "changements": [
+        "Grégoire devient {{r1}} ; le financier est nommé {{r2}} dans les indications de scène.",
+        "« En son hôtel » devient « En sa demeure », conformément à la retouche universelle."
+      ]
+    }
+  },
+  "dureeEstimeeSecondes": 284,
+  "interactionsOrdonnees": [
+    "a1e4",
+    "a1e10",
+    "a1e19",
+    "a2e8",
+    "a2e12",
+    "a2e17"
+  ]
+}

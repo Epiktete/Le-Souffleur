@@ -1,0 +1,2212 @@
+{
+  "id": "guignol-le-duel--1",
+  "conteId": "guignol-le-duel",
+  "titre": "Le Duel",
+  "pitch": "{{r2}} paie {{r1}} pour affronter {{r3}} à sa place. Après des combats et des coups reçus par erreur, l’honneur est satisfait et les trois personnages partent déjeuner.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "rusé",
+        "farceur",
+        "courageux"
+      ],
+      "voix": "voix lyonnaise vive et enjouée, accélère quand il négocie",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a3:resume",
+            "avant": "est mort ; il se relève",
+            "apres": "est morte ; elle se relève"
+          },
+          {
+            "id": "a3e49:texte",
+            "avant": "comme s’il était mort",
+            "apres": "comme si elle était morte"
+          },
+          {
+            "id": "a4e5:texte",
+            "avant": "qu’il prend pour",
+            "apres": "qu’elle prend pour"
+          },
+          {
+            "id": "a1e2:texte",
+            "avant": "un pauvre diable",
+            "apres": "une pauvre diablesse"
+          },
+          {
+            "id": "a1e2:texte",
+            "avant": "voisin",
+            "apres": "voisine"
+          },
+          {
+            "id": "a1e2:texte",
+            "avant": "il sera peut-être",
+            "apres": "elle sera peut-être"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "Il y est",
+            "apres": "Elle y est"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "Monsieur",
+            "apres": "Madame"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "Monsieur",
+            "apres": "Madame"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "ne soyez pas venu",
+            "apres": "ne soyez pas venue"
+          },
+          {
+            "id": "a1e32:texte",
+            "avant": "votre second",
+            "apres": "votre seconde"
+          },
+          {
+            "id": "a1e33:texte",
+            "avant": "mon second",
+            "apres": "ma seconde"
+          },
+          {
+            "id": "a1e33:texte",
+            "avant": "mon premier",
+            "apres": "ma première"
+          },
+          {
+            "id": "a1e34:texte",
+            "avant": "votre second",
+            "apres": "votre seconde"
+          },
+          {
+            "id": "a2e3:texte",
+            "avant": "Bavard sempiternel",
+            "apres": "Bavarde sempiternelle"
+          },
+          {
+            "id": "a2e14:texte",
+            "avant": "mauvais plaisant",
+            "apres": "mauvaise plaisante"
+          },
+          {
+            "id": "a2e29:texte",
+            "avant": "Mon ami",
+            "apres": "Mon amie"
+          },
+          {
+            "id": "a2e39:texte",
+            "avant": "m’avez arrêté",
+            "apres": "m’avez arrêtée"
+          },
+          {
+            "id": "a2e40:texte",
+            "avant": "vous ai toujours aimé",
+            "apres": "vous ai toujours aimée"
+          },
+          {
+            "id": "a2e47:texte",
+            "avant": "bien exigeant",
+            "apres": "bien exigeante"
+          },
+          {
+            "id": "a3e5:texte",
+            "avant": "Mossieu",
+            "apres": "Madame"
+          },
+          {
+            "id": "a3e19:texte",
+            "avant": "mon cher",
+            "apres": "ma chère"
+          },
+          {
+            "id": "a3e36:texte",
+            "avant": "Mossieu",
+            "apres": "Madame"
+          },
+          {
+            "id": "a3e51:texte",
+            "avant": "il a son compte",
+            "apres": "elle a son compte"
+          },
+          {
+            "id": "a3e51:texte",
+            "avant": "il m’a insulté",
+            "apres": "elle m’a insulté"
+          },
+          {
+            "id": "a3e51:texte",
+            "avant": "pour lui",
+            "apres": "pour elle"
+          },
+          {
+            "id": "a3e57:texte",
+            "avant": "qu’on le réclame",
+            "apres": "qu’on la réclame"
+          },
+          {
+            "id": "a3e59:texte",
+            "avant": "ce malheureux",
+            "apres": "cette malheureuse"
+          },
+          {
+            "id": "a3e59:texte",
+            "avant": "aura été emporté",
+            "apres": "aura été emportée"
+          },
+          {
+            "id": "a3e66:texte",
+            "avant": "ce pékin",
+            "apres": "cette péquine"
+          },
+          {
+            "id": "a3e66:texte",
+            "avant": "Le drôle",
+            "apres": "La drôlesse"
+          },
+          {
+            "id": "a3e66:texte",
+            "avant": "le chercher",
+            "apres": "la chercher"
+          },
+          {
+            "id": "a4e3:texte",
+            "avant": "a-t-il rencontré",
+            "apres": "a-t-elle rencontré"
+          },
+          {
+            "id": "a4e11:texte",
+            "avant": "scélérat",
+            "apres": "scélérate"
+          },
+          {
+            "id": "a4e21:texte",
+            "avant": "vous n’êtes pas mort",
+            "apres": "vous n’êtes pas morte"
+          },
+          {
+            "id": "a4e25:texte",
+            "avant": "Mossieu",
+            "apres": "Madame"
+          },
+          {
+            "id": "a4e25:texte",
+            "avant": "être mort",
+            "apres": "être morte"
+          },
+          {
+            "id": "a4e39:texte",
+            "avant": "je me suis battu",
+            "apres": "je me suis battue"
+          },
+          {
+            "id": "voix:r1",
+            "avant": "il négocie",
+            "apres": "elle négocie"
+          },
+          {
+            "id": "a1e2:texte",
+            "avant": "s’il est chez lui",
+            "apres": "si elle est chez elle"
+          },
+          {
+            "id": "a1e47:texte",
+            "avant": "Je suis sûr",
+            "apres": "Je suis sûre"
+          },
+          {
+            "id": "a3e51:texte",
+            "avant": "le quatrième",
+            "apres": "la quatrième"
+          },
+          {
+            "id": "a3e53:texte",
+            "avant": "seul sur",
+            "apres": "seule sur"
+          },
+          {
+            "id": "a3e54:texte",
+            "avant": "Pas si cornichon",
+            "apres": "Pas si cornichonne"
+          },
+          {
+            "id": "a3e61:texte",
+            "avant": "puis il frappe",
+            "apres": "puis elle frappe"
+          },
+          {
+            "id": "a3e66:texte",
+            "avant": "se serait joué",
+            "apres": "se serait jouée"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a1e2:texte",
+          "avant": "un homme",
+          "gabarit": "{un} {espece}"
+        },
+        {
+          "id": "a1e11:texte",
+          "avant": "l’homme",
+          "gabarit": "{le} {espece}"
+        },
+        {
+          "id": "a3e57:texte",
+          "avant": "un homme mort",
+          "gabarit": "{un} {espece} {mort|morte}"
+        }
+      ]
+    },
+    {
+      "cle": "r2",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "peureux",
+        "avare",
+        "bavard"
+      ],
+      "voix": "voix grave mais tremblante, parle très vite quand il raconte Wagram",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e17:texte",
+            "avant": "Il est bien en générosité",
+            "apres": "Elle est bien en générosité"
+          },
+          {
+            "id": "a1e17:texte",
+            "avant": "le vieux grigou",
+            "apres": "la vieille grigoute"
+          },
+          {
+            "id": "a1e12:texte",
+            "avant": "M’sieu",
+            "apres": "Madame"
+          },
+          {
+            "id": "a1e37:texte",
+            "avant": "Je suis père de famille",
+            "apres": "Je suis mère de famille"
+          },
+          {
+            "id": "a1e37:texte",
+            "avant": "je sois tué",
+            "apres": "je sois tuée"
+          },
+          {
+            "id": "a1e47:texte",
+            "avant": "qu’il ne finira",
+            "apres": "qu’elle ne finira"
+          },
+          {
+            "id": "a2e7:texte",
+            "avant": "j’ai été sergent",
+            "apres": "j’ai été sergente"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "Un ancien tanneur",
+            "apres": "Une ancienne tanneuse"
+          },
+          {
+            "id": "a2e14:texte",
+            "avant": "mauvais pékin",
+            "apres": "mauvaise péquine"
+          },
+          {
+            "id": "a2e19:texte",
+            "avant": "une fois lancé",
+            "apres": "une fois lancée"
+          },
+          {
+            "id": "a2e19:texte",
+            "avant": "Mossieu",
+            "apres": "Madame"
+          },
+          {
+            "id": "a2e19:texte",
+            "avant": "moi-même étonné",
+            "apres": "moi-même étonnée"
+          },
+          {
+            "id": "a2e23:texte",
+            "avant": "je suis aussi raffiné",
+            "apres": "je suis aussi raffinée"
+          },
+          {
+            "id": "a2e26:texte",
+            "avant": "papa",
+            "apres": "maman"
+          },
+          {
+            "id": "a2e48:texte",
+            "avant": "Mon pauvre vieux",
+            "apres": "Ma pauvre vieille"
+          },
+          {
+            "id": "a2e52:texte",
+            "avant": "papa",
+            "apres": "maman"
+          },
+          {
+            "id": "a2e54:texte",
+            "avant": "qu’il me paie",
+            "apres": "qu’elle me paie"
+          },
+          {
+            "id": "a2e54:texte",
+            "avant": "le vieux ladre",
+            "apres": "la vieille ladre"
+          },
+          {
+            "id": "a2e57:texte",
+            "avant": "papa",
+            "apres": "maman"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "ce pékin",
+            "apres": "cette péquine"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "il avait l’autre jour",
+            "apres": "elle avait l’autre jour"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "il a accepté mon défi",
+            "apres": "elle a accepté mon défi"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "le tuer",
+            "apres": "la tuer"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "il se souviendra",
+            "apres": "elle se souviendra"
+          },
+          {
+            "id": "a3e54:texte",
+            "avant": "du père",
+            "apres": "de la mère"
+          },
+          {
+            "id": "a3e7:texte",
+            "avant": "Mossieu",
+            "apres": "Madame"
+          },
+          {
+            "id": "a3e9:texte",
+            "avant": "Mossieu",
+            "apres": "Madame"
+          },
+          {
+            "id": "a4e12:texte",
+            "avant": "je suis mort",
+            "apres": "je suis morte"
+          },
+          {
+            "id": "a4e13:texte",
+            "avant": "Mossieu",
+            "apres": "Madame"
+          },
+          {
+            "id": "a4e14:texte",
+            "avant": "je suis perdu",
+            "apres": "je suis perdue"
+          },
+          {
+            "id": "a4e18:texte",
+            "avant": "papa",
+            "apres": "maman"
+          },
+          {
+            "id": "a4e32:texte",
+            "avant": "au père",
+            "apres": "à la mère"
+          },
+          {
+            "id": "a4e33:texte",
+            "avant": "Mossieu",
+            "apres": "Madame"
+          },
+          {
+            "id": "a4e34:texte",
+            "avant": "Il en a",
+            "apres": "Elle en a"
+          },
+          {
+            "id": "a4e34:texte",
+            "avant": "le pauvre vieux",
+            "apres": "la pauvre vieille"
+          },
+          {
+            "id": "a4e34:texte",
+            "avant": "Il a reçu",
+            "apres": "Elle a reçu"
+          },
+          {
+            "id": "a4e45:texte",
+            "avant": "papa",
+            "apres": "maman"
+          },
+          {
+            "id": "voix:r2",
+            "avant": "il raconte",
+            "apres": "elle raconte"
+          },
+          {
+            "id": "a4e3:texte",
+            "avant": "J’étais allé",
+            "apres": "J’étais allée"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a3e3:texte",
+          "avant": "mon homme",
+          "gabarit": "{mon|ma} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r3",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "vantard",
+        "orgueilleux",
+        "têtu"
+      ],
+      "voix": "voix sonore et martiale, qui gronde devant un affront",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a4e10:texte",
+            "avant": "qu’il prend pour",
+            "apres": "qu’elle prend pour"
+          },
+          {
+            "id": "a1e2:texte",
+            "avant": "un ancien traîneur de sabre",
+            "apres": "une ancienne traîneuse de sabre"
+          },
+          {
+            "id": "a1e2:texte",
+            "avant": "ce spadassin",
+            "apres": "cette spadassine"
+          },
+          {
+            "id": "a2e7:texte",
+            "avant": "un ancien militaire",
+            "apres": "une ancienne militaire"
+          },
+          {
+            "id": "a2e7:texte",
+            "avant": "un ancien hussard",
+            "apres": "une ancienne hussarde"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "papa",
+            "apres": "maman"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "Il me dit alors",
+            "apres": "Elle me dit alors"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "Il se trompait",
+            "apres": "Elle se trompait"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "s’écrie-t-il",
+            "apres": "s’écrie-t-elle"
+          },
+          {
+            "id": "a2e12:texte",
+            "avant": "Il s’emporte",
+            "apres": "Elle s’emporte"
+          },
+          {
+            "id": "a2e13:texte",
+            "avant": "Il s’emporte tout seul",
+            "apres": "Elle s’emporte toute seule"
+          },
+          {
+            "id": "a2e14:texte",
+            "avant": "pour un hâbleur",
+            "apres": "pour une hâbleuse"
+          },
+          {
+            "id": "a2e14:texte",
+            "avant": "dit-il",
+            "apres": "dit-elle"
+          },
+          {
+            "id": "a2e14:texte",
+            "avant": "Il se fâche",
+            "apres": "Elle se fâche"
+          },
+          {
+            "id": "a2e14:texte",
+            "avant": "Il m’appelle",
+            "apres": "Elle m’appelle"
+          },
+          {
+            "id": "a2e17:texte",
+            "avant": "vieil entêté",
+            "apres": "vieille entêtée"
+          },
+          {
+            "id": "a2e17:texte",
+            "avant": "Il me donne",
+            "apres": "Elle me donne"
+          },
+          {
+            "id": "a2e19:texte",
+            "avant": "Il m’a dit",
+            "apres": "Elle m’a dit"
+          },
+          {
+            "id": "a2e21:texte",
+            "avant": "il m’a dit",
+            "apres": "elle m’a dit"
+          },
+          {
+            "id": "a2e22:texte",
+            "avant": "il n’aurait",
+            "apres": "elle n’aurait"
+          },
+          {
+            "id": "a2e23:texte",
+            "avant": "Il est devenu furieux",
+            "apres": "Elle est devenue furieuse"
+          },
+          {
+            "id": "a2e23:texte",
+            "avant": "un vieux militaire",
+            "apres": "une vieille militaire"
+          },
+          {
+            "id": "a2e35:texte",
+            "avant": "ce vieux ours blanc",
+            "apres": "cette vieille ourse blanche"
+          },
+          {
+            "id": "a3e16:texte",
+            "avant": "papa",
+            "apres": "maman"
+          },
+          {
+            "id": "a3e19:texte",
+            "avant": "pour un jobard",
+            "apres": "pour une jobarde"
+          },
+          {
+            "id": "a3e20:texte",
+            "avant": "mon vieux",
+            "apres": "ma vieille"
+          },
+          {
+            "id": "a3e24:texte",
+            "avant": "vieux farceur",
+            "apres": "vieille farceuse"
+          },
+          {
+            "id": "a3e51:texte",
+            "avant": "m’a insulté",
+            "apres": "m’a insultée"
+          },
+          {
+            "id": "a3e54:texte",
+            "avant": "grand bête",
+            "apres": "grande bête"
+          },
+          {
+            "id": "a3e54:texte",
+            "avant": "il croyait",
+            "apres": "elle croyait"
+          },
+          {
+            "id": "a3e54:texte",
+            "avant": "Qu’il essaye",
+            "apres": "Qu’elle essaye"
+          },
+          {
+            "id": "a3e63:texte",
+            "avant": "pauvre vieux",
+            "apres": "pauvre vieille"
+          },
+          {
+            "id": "a3e63:texte",
+            "avant": "t’es fort",
+            "apres": "t’es forte"
+          },
+          {
+            "id": "a3e63:texte",
+            "avant": "Je le porterai",
+            "apres": "Je la porterai"
+          },
+          {
+            "id": "a4e3:texte",
+            "avant": "ce vieux ferrailleur",
+            "apres": "cette vieille ferrailleuse"
+          },
+          {
+            "id": "a4e6:texte",
+            "avant": "te n’es pas mort",
+            "apres": "te n’es pas morte"
+          },
+          {
+            "id": "a4e6:texte",
+            "avant": "vieux féroce",
+            "apres": "vieille féroce"
+          },
+          {
+            "id": "a4e11:texte",
+            "avant": "je ne suis pas fort",
+            "apres": "je ne suis pas forte"
+          },
+          {
+            "id": "a4e26:texte",
+            "avant": "papa",
+            "apres": "maman"
+          },
+          {
+            "id": "a4e30:texte",
+            "avant": "papa",
+            "apres": "maman"
+          },
+          {
+            "id": "a4e41:texte",
+            "avant": "Mossieu",
+            "apres": "Madame"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "je le comprenais",
+            "apres": "je la comprenais"
+          },
+          {
+            "id": "a2e20:texte",
+            "avant": "pas touché",
+            "apres": "pas touchée"
+          },
+          {
+            "id": "a2e21:texte",
+            "avant": "l’avais touché",
+            "apres": "l’avais touchée"
+          },
+          {
+            "id": "a2e23:texte",
+            "avant": "que lui sur",
+            "apres": "qu’elle sur"
+          },
+          {
+            "id": "a3e6:texte",
+            "avant": "Un ancien troupier",
+            "apres": "Une ancienne troupière"
+          },
+          {
+            "id": "a3e30:texte",
+            "avant": "m’avez frappé",
+            "apres": "m’avez frappée"
+          },
+          {
+            "id": "a3e50:texte",
+            "avant": "il m’a crevé",
+            "apres": "elle m’a crevé"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a3e6:texte",
+          "avant": "mon homme",
+          "gabarit": "{mon|ma} {espece}"
+        },
+        {
+          "id": "a3e50:texte",
+          "avant": "l’homme",
+          "gabarit": "{le} {espece}"
+        }
+      ]
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 29,
+    "ageAuditoire": 9,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La place et la fenêtre",
+      "description": "Posez un carton debout à gauche de la table pour figurer la maison de {{r1}}. La fenêtre est l’espace au-dessus du carton. Le reste de la table représente la place publique de Lyon.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "La même place à midi",
+      "description": "Gardez le carton à gauche. Un coussin au fond peut figurer le coin où {{r1}} tombe et se relève. Les armes, les billets et le repas restent hors scène.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Le rendez-vous de midi",
+      "resume": "{{r2}} redoute son duel. Il appelle {{r1}} et cherche à lui confier une affaire secrète.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e2",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Il est bientôt neuf heures & j’ai un rendez-vous d’honneur à midi !… Il faut que je me batte… à mon âge !… & avec un ancien traîneur de sabre encore !… Décidément je ne puis pas aller sur le terrain… J’ai une fille ; j’ai gagné ma fortune en travaillant, je ne puis pas la jouer sur un coup d’épée… D’autre part, si je ne me bats pas, ce spadassin viendra faire ici un esclandre. Il m’est bien venu une idée… J’ai là pour voisin un pauvre diable qui n’a ni sou ni maille ; il sera peut-être bien aise de gagner quelque argent… si je lui proposais de prendre ma place ?… C’est un homme sans famille & sans position… Il ne doit pas lui coûter beaucoup d’exposer sa vie, & je m’en tirerai peut-être à bon compte… C’est cela ! L’heure approche… Voyons s’il est chez lui."
+        },
+        {
+          "id": "a1e3",
+          "type": "didascalie",
+          "texte": "{{r2}} fait « toc toc » de la voix vers la fenêtre figurée au-dessus du carton."
+        },
+        {
+          "id": "a1e4",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e5",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Qui est-ce qui cogne ?"
+        },
+        {
+          "id": "a1e6",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Il y est ! quel bonheur ! Bonjour, Monsieur {{r1}} ; je voudrais bien vous parler.",
+          "ton": "d’abord en aparté, puis vers {{r1}}"
+        },
+        {
+          "id": "a1e7",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Hé bien ! parlez, ne vous gênez pas ; j’ai le temps. J’attends mon agent de change, mais il n’est pas encore venu."
+        },
+        {
+          "id": "a1e8",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Ce que j’ai à vous dire est tout à fait secret. Voulez-vous me faire le plaisir de descendre ?"
+        },
+        {
+          "id": "a1e9",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Vous voulez que je dégringole ? Me v’là ! Rien que le temps de couvrir ma pièce."
+        },
+        {
+          "id": "a1e10",
+          "type": "didascalie",
+          "texte": "{{r1}} descend de sa fenêtre imaginaire et vient près de {{r2}}."
+        },
+        {
+          "id": "a1e11",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Voilà l’homme qu’il me faut ! Vraiment, Monsieur {{r1}}, depuis le temps que nous habitons porte à porte, je ne comprends pas que vous ne soyez pas venu me voir.",
+          "ton": "d’abord en aparté, puis vers {{r1}}"
+        },
+        {
+          "id": "a1e12",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ma foi ! M’sieu, j’ai pas osé ; la distance est trop grande."
+        },
+        {
+          "id": "a1e13",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Pas du tout ; il n’y a que la rue à traverser."
+        },
+        {
+          "id": "a1e14",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "C’est vrai, mais y a la distance des picaillons."
+        },
+        {
+          "id": "a1e15",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Oh ! cela ne fait rien entre personnes du voisinage ; vous pouviez bien venir me faire payer une bouteille de vin."
+        },
+        {
+          "id": "a1e16",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne brièvement vers les enfants pour son aparté."
+        },
+        {
+          "id": "a1e17",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Il est bien en générosité, aujourd’hui, le vieux grigou ! Si c’est pour ça, tant que vous voudrez… de suite, si ça vous va.",
+          "ton": "d’abord en aparté, puis vers {{r2}}"
+        },
+        {
+          "id": "a1e18",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Tout à l’heure !… C’est maintenant un service que je voudrais vous demander."
+        },
+        {
+          "id": "a1e19",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Un service ? une cuillère & une fourchette ?.. Je vais vous chercher ça tout de suite."
+        },
+        {
+          "id": "a1e20",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Non, non ; il ne manque pas de cuillères & de fourchettes chez moi."
+        },
+        {
+          "id": "a1e21",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oh ! on les donne quelquefois à retamer."
+        },
+        {
+          "id": "a1e22",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "L’argenterie ne se rétame pas."
+        },
+        {
+          "id": "a1e23",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Si, si ; on la retame… au Mont-de-Piété."
+        },
+        {
+          "id": "a1e24",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Il ne s’agit pas de cela… c’est autre chose & quelque chose de pressé que j’ai à vous communiquer. Écoutez-moi, je commence de suite."
+        },
+        {
+          "id": "a1e25",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Nous en avons pour un moment. Allons, je vous écoute.",
+          "ton": "d’abord en aparté, puis vers {{r2}}"
+        },
+        {
+          "id": "a1e26",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Voici de quoi il s’agit… J’ai aujourd’hui même une affaire de duel."
+        },
+        {
+          "id": "a1e27",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Des duelles de tonneau ?"
+        },
+        {
+          "id": "a1e28",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites « pan ! » avec moi pour le pistolet !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e29",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Non, un duel au sabre, à l’épée ou au pistolet."
+        },
+        {
+          "id": "a1e30",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je comprends… avec le machin qui coupe, avec c’li qui pique ou avec c’li-là qui pette."
+        },
+        {
+          "id": "a1e31",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je vous avoue que ça m’embarrasse un peu."
+        },
+        {
+          "id": "a1e32",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ça m’embarrasserait ben aussi… Mais je vous vois venir… vous voulez que je soye votre second."
+        },
+        {
+          "id": "a1e33",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Non ; je vous estime plus que cela… Pas mon second… mon premier."
+        },
+        {
+          "id": "a1e34",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "J’aimerais assez être votre second… parce que je sais qu’après un duel y a toujours un morceau à fricoter pour les seconds."
+        },
+        {
+          "id": "a1e35",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Vous voulez rire ; mais vous devez comprendre que dans ma position je ne peux pas aller me battre."
+        },
+        {
+          "id": "a1e36",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Quand on a des sous comme vous, c’est dur d’exposer sa peau."
+        },
+        {
+          "id": "a1e37",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je suis père de famille, j’ai une fille charmante qui fait mon bonheur, & si le destin voulait que je sois tué, elle en mourrait de chagrin."
+        },
+        {
+          "id": "a1e38",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r2}} s’arrêtent un instant ; {{r2}} pense à sa fille."
+        },
+        {
+          "id": "a1e39",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "C’est vrai, votre demoiselle est charmante…"
+        },
+        {
+          "id": "a1e40",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Elle est fort belle…"
+        },
+        {
+          "id": "a1e41",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Mais il ne s’agit pas de cela aujourd’hui… j’ai besoin de votre appui."
+        },
+        {
+          "id": "a1e42",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Faut vous appuyer ?… par dernier ?"
+        },
+        {
+          "id": "a1e43",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Non, non."
+        },
+        {
+          "id": "a1e44",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Alors, c’est par devant ?"
+        },
+        {
+          "id": "a1e45",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Vous m’interrompez toujours. Laissez-moi donc vous expliquer mon affaire."
+        },
+        {
+          "id": "a1e46",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne vers les enfants, puis revient face à {{r2}}."
+        },
+        {
+          "id": "a1e47",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Allons, continuez. Je suis sûr qu’il ne finira pas avant dîner.",
+          "ton": "vers {{r2}}, puis en aparté"
+        },
+        {
+          "id": "a1e48",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Répétez avec moi : « une affaire de duel » !",
+          "attenteReponse": true
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "La bataille et le prix",
+      "resume": "{{r2}} raconte la querelle de Wagram, demande à {{r1}} de se battre à sa place et accepte son prix de quinze mille francs.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "L’autre jour…"
+        },
+        {
+          "id": "a2e2",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Qu’il faisait nuit."
+        },
+        {
+          "id": "a2e3",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Bavard sempiternel, laissez-moi donc parler."
+        },
+        {
+          "id": "a2e4",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Allons, je clos mon bec."
+        },
+        {
+          "id": "a2e5",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "L’autre jour… j’étais sur un des bancs de la place Impériale… Vous savez que j’y vais de temps en temps prendre le frais… je cause avec des amis…"
+        },
+        {
+          "id": "a2e6",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Et puis ça ne coûte rien, je sais… L’hiver, vous allez à la police correptionnelle… qui est un moyen de se chauffer à bon marché."
+        },
+        {
+          "id": "a2e7",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Ce jour-là j’étais avec un ancien militaire, un ancien hussard… qui me racontait la bataille de Wagram… avec sa canne… sur le sable… Vous savez que j’ai été sergent dans la garde nationale…"
+        },
+        {
+          "id": "a2e8",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je crois bien, c’était votre état… Un ancien tanneur !… Hé ben ! c’est comme moi, j’aime les vieux militaires : j’ai eu un oncle capitaine, qui s’était retiré avec trente-sept ans de services & cinquante-six blessures ; il avait reçu vingt-quatre coups de sabre sur la figure, & il avait le ventre cousu."
+        },
+        {
+          "id": "a2e9",
+          "type": "didascalie",
+          "texte": "{{r2}} raconte la bataille de Wagram très vite, sans jouer les soldats ni montrer de canne."
+        },
+        {
+          "id": "a2e10",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Nous en étions au moment le plus intéressant de la bataille… celui où les soixante bouches à feu de la Garde arrivent en faisant trembler la terre. Il me dit alors : Les hussards s’élancent… Il se trompait… Je lui dis : Mais papa {{r3}}, ce n’est pas les hussards qui s’élancent, c’est les cuirassiers… vous me l’avez dit hier. Comment ! les cuirassiers, s’écrie-t-il ; mais puisqu’il s’agissait de reprendre les hauteurs de Baumersdorf & de Neusiedel, comment les cuirassiers, qui étaient à l’aile droite, auraient-ils pu passer le Russbach & se porter sur le centre des Autrichiens ? Me comprenez-vous ? — Certainement, que je le comprenais."
+        },
+        {
+          "id": "a2e11",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Et ben ! vous avez une fière comprenette."
+        },
+        {
+          "id": "a2e12",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Oui, lui réponds-je ; mais qu’est-ce que ça fait pour les cuirassiers ?… — Il s’emporte alors."
+        },
+        {
+          "id": "a2e13",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Il s’emporte tout seul !"
+        },
+        {
+          "id": "a2e14",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Taisez-vous donc, mauvais plaisant !… Il se fâche… Vous me prenez pour un hâbleur, dit-il. Vous y étiez, peut-être, à la bataille de Wagram ? & moi je n’y étais pas ?… Prétendez-vous m’apprendre mon métier, mauvais pékin ? — À ce mot de pékin, la moutarde me monte au nez ; je lui riposte un peu vertement… Il m’appelle « ganache ! »"
+        },
+        {
+          "id": "a2e15",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne vers les enfants sans que {{r2}} réagisse."
+        },
+        {
+          "id": "a2e16",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Pas si bête !"
+        },
+        {
+          "id": "a2e17",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je l’appelle « vieil entêté ! » Il me donne un soufflet…"
+        },
+        {
+          "id": "a2e18",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Que vous avez gardé… pour l’hiver ?"
+        },
+        {
+          "id": "a2e19",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Non, non ; je le lui ai rendu… J’ai été moi-même étonné de ma vivacité. Mais, que voulez-vous ? une fois lancé… Il m’a dit : Mossieu, vous m’avez manqué."
+        },
+        {
+          "id": "a2e20",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Vous ne l’aviez donc pas touché ?"
+        },
+        {
+          "id": "a2e21",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Si bien ; mais c’est précisément parce que je l’avais touché qu’il m’a dit : Vous m’avez manqué."
+        },
+        {
+          "id": "a2e22",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Il fallait recommencer & il n’aurait pas pu parler comme ça."
+        },
+        {
+          "id": "a2e23",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Il est devenu furieux & me dit que de telles insultes voulaient être lavées dans le sang ; qu’un vieux militaire ne terminait pas autrement ses querelles. Je lui réponds que je suis aussi raffiné que lui sur le point d’honneur… J’accepte le rendez-vous, & c’est aujourd’hui à midi que nous devons nous battre."
+        },
+        {
+          "id": "a2e24",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Eh bien ! que voulez-vous de moi ?"
+        },
+        {
+          "id": "a2e25",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Que vous preniez ma place."
+        },
+        {
+          "id": "a2e26",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Que je prenne votre place !.. Vous voulez rire, papa. Je tiens bien autant à ma peau que vous."
+        },
+        {
+          "id": "a2e27",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Ah ! ça ne risque rien."
+        },
+        {
+          "id": "a2e28",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Eh ben ! si ça ne risque rien, pourquoi y allez-vous pas ? Si vous croyez que je vais me faire percer la bedaine pour vos beaux yeux !"
+        },
+        {
+          "id": "a2e29",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Mon ami, je sais bien que ce n’est pas ici une question de sentiment & qu’il vous faut du positif. J’entends vous payer généreusement."
+        },
+        {
+          "id": "a2e30",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Combien donnerez-vous donc ?"
+        },
+        {
+          "id": "a2e31",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je vous donnerai cent cinquante francs."
+        },
+        {
+          "id": "a2e32",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Cent cinquante francs ! Comptez jusqu’à trois avec moi avant de répondre : un, deux, trois !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e33",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Allons donc, vieille lanterne !"
+        },
+        {
+          "id": "a2e34",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Comment ! vous m’appelez vieille lanterne ; qu’entendez-vous par là ?"
+        },
+        {
+          "id": "a2e35",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "J’entends que vous voulez vous ficher du monde… Cent cinquante francs pour aller m’aligner à votre place avec ce vieux ours blanc !"
+        },
+        {
+          "id": "a2e36",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Voyons ; combien voulez-vous donc ?"
+        },
+        {
+          "id": "a2e37",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ma foi, attendez !… c’est un calcul à faire… À trois ans, ma mère me disait : Te m’as déjà coûté plus de mille francs, & c’est à peine si te les vaux… Si je valais à peu près mille francs dans ce temps-là, je dois bien valoir à présent pour le sûr… cinq, six, sept, huit, neuf, dix mille."
+        },
+        {
+          "id": "a2e38",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Assez, assez, diable ! comme vous y allez ! c’est comme à la criée."
+        },
+        {
+          "id": "a2e39",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Vous m’avez arrêté trop tôt… Je veux, sans surfaire, douze mille francs."
+        },
+        {
+          "id": "a2e40",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "C’est cher… Mais, voyez-vous, je veux faire votre bonheur ; je vous ai toujours aimé… je vous donnerai ce que vous me demandez."
+        },
+        {
+          "id": "a2e41",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne une fois de plus vers les enfants pour son aparté."
+        },
+        {
+          "id": "a2e42",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Il paraît que j’ai pas assez demandé. Voyons, maintenant ; comment entendez-vous me payer ? Je veux des gros sous ou des billets de banque : lequel aimez-vous mieux ?",
+          "ton": "d’abord en aparté, puis vers {{r2}}"
+        },
+        {
+          "id": "a2e43",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Comme vous voudrez. Pourquoi me dites-vous ça ?"
+        },
+        {
+          "id": "a2e44",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Parce que si vous avez l’intention de me payer en gros sous, c’est à condition que vous me les porterez à la Croix-Rousse… sans prendre le chemin de fer."
+        },
+        {
+          "id": "a2e45",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Dans ce cas, je préfère vous payer en billets."
+        },
+        {
+          "id": "a2e46",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Si c’est en billets, je veux quinze mille francs."
+        },
+        {
+          "id": "a2e47",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Vous êtes bien exigeant !… qu’est-ce que cela signifie ? Tout à l’heure c’était convenu à douze mille."
+        },
+        {
+          "id": "a2e48",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Mon pauvre vieux, c’est mon dernier mot. Choisissez : douze mille francs en gros sous rendus à la Croix-Rousse, sans chemin de fer… ou quinze mille francs en billets… Pas de milieu… c’est à prendre ou à laisser."
+        },
+        {
+          "id": "a2e49",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Allons ! je vous donnerai quinze mille francs en billets, c’est entendu. Je vous paierai aussitôt après le combat."
+        },
+        {
+          "id": "a2e50",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Non, non, d’argent tout de suite ;… ou sinon pas de chapotement."
+        },
+        {
+          "id": "a2e51",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Allons, venez chercher votre argent tout de suite à la maison."
+        },
+        {
+          "id": "a2e52",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Vous paierez ben aussi une bouteille, papa… pour me donner de courage ?"
+        },
+        {
+          "id": "a2e53",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Certainement."
+        },
+        {
+          "id": "a2e54",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "C’est la première qu’il me paie, le vieux ladre… Allons, pour quinze mille francs je me ferais ben tuer tous les jours.",
+          "ton": "en aparté"
+        },
+        {
+          "id": "a2e55",
+          "type": "didascalie",
+          "texte": "Les deux peluches traversent la scène vers la maison de {{r2}}."
+        },
+        {
+          "id": "a2e56",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Attendez-moi un instant chez moi ; je descends à la cave."
+        },
+        {
+          "id": "a2e57",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Et surtout apportez du bon, papa… du vieux ! Le Brindas me fait mal ; il me gargouille dans l’estomac."
+        },
+        {
+          "id": "a2e58",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e59",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Deux duels et une mort feinte",
+      "resume": "{{r3}} rencontre {{r1}}. Le premier duel laisse croire que {{r1}} est mort ; il se relève, puis {{r3}} revient avec le gendarme.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "didascalie",
+          "texte": "Marquez une courte pause avant l’arrivée sur la place."
+        },
+        {
+          "id": "a3e2",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e3",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Enfin, je crois que je parviendrai à trouver le logis de mon homme… Ce doit être par ici… Ah ! ah ! ce pékin me fait rire… Quelle boule il avait l’autre jour quand il a accepté mon défi !… Je ne veux pas le tuer, mais j’entends lui donner une leçon dont il se souviendra… Ah ! voici fort heureusement quelqu’un qui va me renseigner."
+        },
+        {
+          "id": "a3e4",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e5",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Pardonnez-moi, Mossieu…"
+        },
+        {
+          "id": "a3e6",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Un ancien troupier ! ça doit être mon homme ! Vous avez donc fait de sottises que vous demandez pardon ?",
+          "ton": "d’abord en aparté, puis vers {{r3}}"
+        },
+        {
+          "id": "a3e7",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Pourriez-vous m’indiquer la demeure de Mossieu {{r2}} ?"
+        },
+        {
+          "id": "a3e8",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je veux pas te le dire ; te m’ennuies, toi !"
+        },
+        {
+          "id": "a3e9",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Qu’est-ce que cela ! vous ne répondez pas à ma question… L’adresse de Mossieu {{r2}} ?"
+        },
+        {
+          "id": "a3e10",
+          "type": "didascalie",
+          "texte": "{{r1}} se place devant {{r3}}, qui s’arrête net."
+        },
+        {
+          "id": "a3e11",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "On ne passe pas."
+        },
+        {
+          "id": "a3e12",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Comment ! on ne passe pas ?"
+        },
+        {
+          "id": "a3e13",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "On ne passe pas ! on-ne-pas-se-pas !"
+        },
+        {
+          "id": "a3e14",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Dites avec moi : « On ne passe pas ! »",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e15",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Vraiment ! c’est inconcevable !"
+        },
+        {
+          "id": "a3e16",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ah ! cette trombine ! ce pif ! Mettez donc votre nez de côté, papa ; il m’empêche de voir le Cheval de bronze."
+        },
+        {
+          "id": "a3e17",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Je ne souffrirai pas qu’on m’insulte de la sorte."
+        },
+        {
+          "id": "a3e18",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ne bute pas, ne bute pas… Reculez-vous donc un peu, vous m’envoyez des postillons, fermez votre portail."
+        },
+        {
+          "id": "a3e19",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Vous me prenez, je crois, pour un jobard, mon cher. La main me démange, & j’ai envie de vous apprendre à qui vous avez affaire."
+        },
+        {
+          "id": "a3e20",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tant pis, mon vieux ; votre nez m’offusque, il ressemble à un éteignoir pour cierge."
+        },
+        {
+          "id": "a3e21",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Ah ! si je n’avais pas déjà une affaire ce matin !… Encore une fois voulez-vous me laisser passer ?"
+        },
+        {
+          "id": "a3e22",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je vous ai déjà dit qu’on ne passe pas."
+        },
+        {
+          "id": "a3e23",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Et pourquoi cela ?"
+        },
+        {
+          "id": "a3e24",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Parce qu’on ne passe pas, vieux farceur !"
+        },
+        {
+          "id": "a3e25",
+          "type": "didascalie",
+          "texte": "Les deux peluches se font face, bien espacées."
+        },
+        {
+          "id": "a3e26",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Ah ! c’est trop fort, je n’y tiens plus. Tenez."
+        },
+        {
+          "id": "a3e27",
+          "type": "conteur",
+          "texte": "{{r3}} donne un soufflet à {{r1}}."
+        },
+        {
+          "id": "a3e28",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tenez, vous aussi. Vous croyez avoir affaire à une bugne."
+        },
+        {
+          "id": "a3e29",
+          "type": "conteur",
+          "texte": "{{r1}} donne un coup de tête à {{r3}}."
+        },
+        {
+          "id": "a3e30",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Je m’importe peu qui vous êtes. Vous m’avez frappé ; de pareils affronts veulent du sang. Il faut nous battre sur-le-champ. Au sabre, à l’épée, au pistolet ?… Quelle est votre arme ?"
+        },
+        {
+          "id": "a3e31",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tout ce que vous voudrez. À l’épée, à coup de groles, au tournebroche, à coup de torchon, à tout."
+        },
+        {
+          "id": "a3e32",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "À l’épée."
+        },
+        {
+          "id": "a3e33",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "T’aimes la salade : allons chercher de fourchettes."
+        },
+        {
+          "id": "a3e34",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Oui, allons chercher des armes ; mais tout de suite, parce que j’ai encore une affaire à vider ce matin."
+        },
+        {
+          "id": "a3e35",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Allons-y."
+        },
+        {
+          "id": "a3e36",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Mossieu."
+        },
+        {
+          "id": "a3e37",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Allons, passe donc, patet."
+        },
+        {
+          "id": "a3e38",
+          "type": "didascalie",
+          "texte": "Les armes restent hors scène pendant que les peluches vont les chercher."
+        },
+        {
+          "id": "a3e39",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e40",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e41",
+          "type": "didascalie",
+          "texte": "Laissez passer un instant avant le retour des deux adversaires."
+        },
+        {
+          "id": "a3e42",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e43",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e44",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "En garde !"
+        },
+        {
+          "id": "a3e45",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r3}} avancent et reculent à tour de rôle, sans se toucher."
+        },
+        {
+          "id": "a3e46",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Voyons que j’empoigne bien ma lardoire. J’y suis. Tiens donc ! tiens donc !"
+        },
+        {
+          "id": "a3e47",
+          "type": "note_marionnettiste",
+          "texte": "Le parent imite le cliquetis des épées."
+        },
+        {
+          "id": "a3e48",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Comment ! comment ! que faites-vous donc ? vous reculez, je crois."
+        },
+        {
+          "id": "a3e49",
+          "type": "didascalie",
+          "texte": "{{r1}} tombe derrière le carton et reste immobile, comme s’il était mort."
+        },
+        {
+          "id": "a3e50",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ah ! l’homme, il m’a crevé le bedon !"
+        },
+        {
+          "id": "a3e51",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Allons, il a son compte ; c’est le quatrième de cette année… j’ai la main malheureuse… C’est ennuyeux tout de même de se battre comme ça, sans témoin… Mais il m’a insulté ; tant pis pour lui !… Pour prévenir les soupçons, allons nous-même chercher la garde."
+        },
+        {
+          "id": "a3e52",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e53",
+          "type": "didascalie",
+          "texte": "{{r1}} se relève d’un bond, seul sur la place."
+        },
+        {
+          "id": "a3e54",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ah ! grand bête ! il croyait donc que je me laisserais mettre en perce. Pas si cornichon ! Je m’en vais maintenant prendre mon épée à moi, l’épée de {{r1}} !… Qu’il essaye de revenir & je me charge de lui régler le compte du père {{r2}} avec le mien !"
+        },
+        {
+          "id": "a3e55",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e56",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e57",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Venez, venez, cavalier : c’est ici tout près que j’ai vu un homme mort. Il nous faudra l’emporter à la Morgue, jusqu’à ce qu’on le réclame… Il n’y a plus personne !… Ne voyez-vous donc rien, cavalier ?"
+        },
+        {
+          "id": "a3e58",
+          "type": "note_marionnettiste",
+          "texte": "Voix du Gendarme, en coulisse : « Du tout, je ne vois rien. »"
+        },
+        {
+          "id": "a3e59",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Probablement que ce malheureux aura été emporté par une patrouille : nous sommes venus trop tard."
+        },
+        {
+          "id": "a3e60",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e61",
+          "type": "conteur",
+          "texte": "{{r1}} donne un coup de bâton au gendarme qui s’enfuit ; puis il frappe {{r3}}."
+        },
+        {
+          "id": "a3e62",
+          "type": "didascalie",
+          "texte": "{{r3}} se baisse et s’effondre. {{r1}} reste debout ; aucun bâton ne paraît sur scène."
+        },
+        {
+          "id": "a3e63",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Eh ben ! cette fois, pauvre vieux, t’en as assez… Que dis-tu de cette pontiselle ? Faut convenir que si t’es fort à l’épée, te n’entends rien au bâton… Mais qu’en faire à présent ?… Je vais boire un coup chez le père Chibroc & je reviens tout de suite… Je le porterai en Saône."
+        },
+        {
+          "id": "a3e64",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e65",
+          "type": "didascalie",
+          "texte": "{{r3}} se relève lentement."
+        },
+        {
+          "id": "a3e66",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Ah ! sapristi, je crois qu’il m’est tombé une cheminée sur la tête… Cependant il m’a semblé que c’étaient des coups de bâton… Est-ce que ce pékin se serait joué de moi ?… Le drôle a dit, je crois, que je n’entends rien au bâton : je lui montrerai mon savoir… & même si je dois le chercher jusqu’au fond des enfers !…"
+        },
+        {
+          "id": "a3e67",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "numero": 4,
+      "titre": "L’honneur est satisfait",
+      "resume": "{{r1}} et {{r3}} prennent tour à tour {{r2}} pour leur adversaire ; les trois personnages se réconcilient et vont déjeuner aux frais de {{r1}}.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a4e1",
+          "type": "didascalie",
+          "texte": "Marquez une courte pause avant le retour sur la place."
+        },
+        {
+          "id": "a4e2",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e3",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je suis dans une inquiétude mortelle. {{r1}} a-t-il rencontré ce vieux ferrailleur ? J’étais allé jusqu’aux portes de Trion pour ne pas me trouver dans le premier moment entre l’enclume & le marteau ; mais je ne puis pas rester dans cette incertitude… Que leur est-il arrivé ?"
+        },
+        {
+          "id": "a4e4",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e5",
+          "type": "didascalie",
+          "texte": "{{r1}} surgit et heurte {{r2}}, qu’il prend pour {{r3}}."
+        },
+        {
+          "id": "a4e6",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ah ! vieux féroce, te n’es pas mort !… Tiens ! tiens !"
+        },
+        {
+          "id": "a4e7",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e8",
+          "type": "didascalie",
+          "texte": "{{r2}} tremble et se tourne de l’autre côté."
+        },
+        {
+          "id": "a4e9",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e10",
+          "type": "didascalie",
+          "texte": "{{r3}} surgit à son tour et heurte {{r2}}, qu’il prend pour {{r1}}."
+        },
+        {
+          "id": "a4e11",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Ah ! scélérat, je t’apprendrai si je ne suis pas fort au bâton ; tiens ! tiens ! tiens !"
+        },
+        {
+          "id": "a4e12",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Au secours ! au secours ! je suis mort."
+        },
+        {
+          "id": "a4e13",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Comment ! c’est vous, Mossieu {{r2}} ? Pardon, je me trompe."
+        },
+        {
+          "id": "a4e14",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "{{r3}} !… je suis perdu."
+        },
+        {
+          "id": "a4e15",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e16",
+          "type": "didascalie",
+          "texte": "{{r2}} pivote lentement sur place."
+        },
+        {
+          "id": "a4e17",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e18",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Comment ! c’est vous, papa {{r2}} ? Pardon, je me trompe."
+        },
+        {
+          "id": "a4e19",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Voilà comme vous tenez vos engagements ?"
+        },
+        {
+          "id": "a4e20",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je les ai ben tenus, vos engagements, puisque je me suis fait tuer tout à l’heure."
+        },
+        {
+          "id": "a4e21",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Oui, vous vous êtes fait tuer, & vous n’êtes pas mort !"
+        },
+        {
+          "id": "a4e22",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e23",
+          "type": "didascalie",
+          "texte": "{{r1}} recule vers le centre de la place."
+        },
+        {
+          "id": "a4e24",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e25",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Comment ! comment ! En effet, Mossieu, vous devriez être mort : vous l’étiez tout à l’heure."
+        },
+        {
+          "id": "a4e26",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Et vous aussi, papa !"
+        },
+        {
+          "id": "a4e27",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Tout cela me paraît louche."
+        },
+        {
+          "id": "a4e28",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Voyons ! ça serait trop long à vous expliquer. Mais il me semble que tout peut s’arranger. L’honneur est satisfait."
+        },
+        {
+          "id": "a4e29",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Vous plaisantez, morbleu !"
+        },
+        {
+          "id": "a4e30",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Fâchez pas, papa !… Moi, vous m’avez passé votre latte au travers du corps : que voulez-vous de plus ? L’honneur est satisfait."
+        },
+        {
+          "id": "a4e31",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Mais ces coups de bâton que j’ai reçus ; ils sont postérieurs."
+        },
+        {
+          "id": "a4e32",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Vous venez de les repasser au père {{r2}}. L’honneur est satisfait."
+        },
+        {
+          "id": "a4e33",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Mais ma querelle avec Mossieu {{r2}} ?"
+        },
+        {
+          "id": "a4e34",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Il en a ben assez reçu, le pauvre vieux ! Il a reçu des deux mains, de la mienne & de la vôtre. L’honneur est satisfait."
+        },
+        {
+          "id": "a4e35",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e36",
+          "type": "didascalie",
+          "texte": "{{r1}} se balance en regardant autour de soi."
+        },
+        {
+          "id": "a4e37",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e38",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Hé ben ! & moi ?"
+        },
+        {
+          "id": "a4e39",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Hé ben ! je me suis battu pour vous. N’est-ce pas ce qui était convenu ?"
+        },
+        {
+          "id": "a4e40",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Et mes coups de bâton ! étaient-ils convenus ?"
+        },
+        {
+          "id": "a4e41",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Que voulez-vous ? C’est par-dessus le marché ; ils n’étaient pas pour vous. C’était un solde de règlement entre Mossieu & moi : c’est vous qui avez reçu le solde. L’honneur est satisfait !"
+        },
+        {
+          "id": "a4e42",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Répétez avec nous : « L’honneur est satisfait ! »",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e43",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oui, oui, l’honneur est satisfait !",
+          "ton": "en chœur avec {{r2}}"
+        },
+        {
+          "id": "a4e44",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "C’est égal, je regrette mon argent."
+        },
+        {
+          "id": "a4e45",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Nom d’un rat, je l’ai bien gagné. Puis, il ne sera pas tout perdu pour vous, papa. Pour mettre le bouquet à notre réconciliation, faut aller déjeuner ensemble, & c’est moi qui paie !… un fricot chenu !"
+        },
+        {
+          "id": "a4e46",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Accepté !… nous trinquerons en braves."
+        },
+        {
+          "id": "a4e47",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e48",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne vers le chemin du déjeuner."
+        },
+        {
+          "id": "a4e49",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e50",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Accepté!… Et le verre en main je vous conterai la bataille de Wagram."
+        },
+        {
+          "id": "a4e51",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne vers les enfants et chante son adresse finale. {{r3}} écoute."
+        },
+        {
+          "id": "a4e52",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "L’honneur est satisfait !\nMais notre joie s’en irait,\nSi vous ne disiez ici\nQue vous êtes satisfaits aussi.\nLa itou, la la itou…",
+          "ton": "chanté vers les enfants"
+        },
+        {
+          "id": "a4e53",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Dites-le avec nous : « satisfaits aussi ! »",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e54",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r3}} partent déjeuner ; {{r2}} les rejoint hors scène."
+        },
+        {
+          "id": "a4e55",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e56",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "guignol-le-duel",
+    "synopsis": {
+      "accroche": "{{r2}} doit se battre à midi et cherche quelqu’un pour le remplacer.",
+      "resume": [
+        "{{r2}} achète le courage de {{r1}} après un long marchandage.",
+        "{{r1}} provoque {{r3}}, fait le mort pendant leur duel et se relève après son départ.",
+        "Lors du retour, chacun frappe {{r2}} en le prenant pour l’autre adversaire.",
+        "L’honneur est satisfait et les trois vont déjeuner aux frais de {{r1}}."
+      ]
+    },
+    "transposition": {
+      "texte": "# Le Duel\n\n*Lyon (France) — J.-B. Onofrio, Théâtre lyonnais de Guignol, 1865-1870. Texte original en français.*\n\nLE DUEL\n\npièce en un acte\n\nPERSONNAGES\n\nLe père {{r2}}, rentier,\n\n{{r1}}, canut,\n\n{{r3}}, ancien militaire,\n\nUN GENDARME.\n\nLE DUEL\n\nPIÈCE EN UN ACTE\n\nUne Place publique, à Lyon.\n\nScène PREMIÈRE.\n\n{{r2}}, seul.\n\nIL est bientôt neuf heures & j’ai un rendez-vous d’honneur à midi !… Il faut que je me batte… à mon âge !… & avec un ancien traîneur de sabre encore !… Il me semble que la matinée n’a duré qu’une minute aujourd’hui… J’ai la fièvre… & dire qu’il y a des gens qui se font tuer tous les huit jours !… je ne comprends pas comment ils peuvent vivre… Décidément je ne puis pas aller sur le terrain… J’ai une fille ; j’ai gagné ma fortune en travaillant, je ne puis pas la jouer sur un coup d’épée… D’autre part, si je ne me bats pas, ce spadassin viendra faire ici un esclandre, & les commères du Gourguillon m’accableront de leurs moqueries… Il m’est bien venu une idée… J’ai là pour voisin un pauvre diable qui n’a ni sou ni maille ; il sera peut-être bien aise de gagner quelque argent… si je lui proposais de prendre ma place ?… C’est un homme sans famille & sans position… Il ne doit pas lui coûter beaucoup d’exposer sa vie, & je m’en tirerai peut-être à bon compte… C’est cela ! L’heure approche… Voyons s’il est chez lui. (Il frappe.)\n\nScène II.\n\n{{r2}}, {{r1}}.\n\n{{r1}} à sa fenêtre.\n\nQui est-ce qui cogne ?\n\n{{r2}}.\n\n(À part) Il y est ! quel bonheur ! (Haut.) Bonjour, Monsieur {{r1}} ; je voudrais bien vous parler.\n\n{{r1}}.\n\nHé bien ! parlez, ne vous gênez pas ; j’ai le temps. J’attends mon agent de change, mais il n’est pas encore venu.\n\n{{r2}}.\n\nCe que j’ai à vous dire est tout à fait secret. Voulez-vous me faire le plaisir de descendre ?\n\n{{r1}}.\n\nVous voulez que je dégringole ? Me v’là ! Rien que le temps de couvrir ma pièce.\n\n{{r2}}.\n\n(À part.) Voilà l’homme qu’il me faut ! (À {{r1}}, qui est descendu.) Vraiment, Monsieur {{r1}}, depuis le temps que nous habitons porte à porte, je ne comprends pas que vous ne soyez pas venu me voir.\n\n{{r1}}.\n\nMa foi ! M’sieu, j’ai pas osé ; la distance est trop grande.\n\n{{r2}}.\n\nPas du tout ; il n’y a que la rue à traverser.\n\n{{r1}}.\n\nC’est vrai, mais y a la distance des picaillons.\n\n{{r2}}.\n\nOh ! cela ne fait rien entre personnes du voisinage ; vous pouviez bien venir me faire payer une bouteille de vin.\n\n{{r1}}.\n\n(À part.) Il est bien en générosité, aujourd’hui, le vieux grigou ! (Haut.) Si c’est pour ça, tant que vous voudrez… de suite, si ça vous va.\n\n{{r2}}.\n\nTout à l’heure !… C’est maintenant un service que je voudrais vous demander.\n\n{{r1}}.\n\nUn service ? une cuillère & une fourchette ?.. Je vais vous chercher ça tout de suite.\n\n{{r2}}.\n\nNon, non ; il ne manque pas de cuillères & de fourchettes chez moi.\n\n{{r1}}.\n\nOh ! on les donne quelquefois à retamer.\n\n{{r2}}.\n\nL’argenterie ne se rétame pas.\n\n{{r1}}.\n\nSi, si ; on la retame… au Mont-de-Piété.\n\n{{r2}}.\n\nIl ne s’agit pas de cela… c’est autre chose & quelque chose de pressé que j’ai à vous communiquer. Écoutez-moi, je commence de suite.\n\n{{r1}}.\n\n(À part.) Nous en avons pour un moment. (Haut.) Allons, je vous écoute.\n\n{{r2}}.\n\nVoici de quoi il s’agit… J’ai aujourd’hui même une affaire de duel.\n\n{{r1}}.\n\nDes duelles de tonneau ?\n\n{{r2}}.\n\nNon, un duel au sabre, à l’épée ou au pistolet.\n\n{{r1}}.\n\nJe comprends… avec le machin qui coupe, avec c’li qui pique ou avec c’li-là qui pette.\n\n{{r2}}.\n\nJe vous avoue que ça m’embarrasse un peu.\n\n{{r1}}.\n\nÇa m’embarrasserait ben aussi… Mais je vous vois venir… vous voulez que je soye votre second.\n\n{{r2}}.\n\nNon ; je vous estime plus que cela… Pas mon second… mon premier.\n\n{{r1}}.\n\nJ’aimerais assez être votre second… parce que je sais qu’après un duel y a toujours un morceau à fricoter pour les seconds.\n\n{{r2}}.\n\nVous voulez rire ; mais vous devez comprendre que dans ma position je ne peux pas aller me battre.\n\n{{r1}}.\n\nQuand on a des sous comme vous, c’est dur d’exposer sa peau.\n\n{{r2}}.\n\nJe suis père de famille, j’ai une fille charmante qui fait mon bonheur, & si le destin voulait que je sois tué, elle en mourrait de chagrin.\n\n{{r1}}.\n\nC’est vrai, votre demoiselle est charmante…\n\n{{r2}}.\n\nElle est fort belle…\n\n{{r2}}.\n\nMais il ne s’agit pas de cela aujourd’hui… j’ai besoin de votre appui.\n\n{{r1}}.\n\nFaut vous appuyer ?… par dernier ?\n\n{{r2}}.\n\nNon, non.\n\n{{r1}}.\n\nAlors, c’est par devant ?\n\n{{r2}}.\n\nVous m’interrompez toujours. Laissez-moi donc vous expliquer mon affaire.\n\n{{r1}}.\n\nAllons, continuez. (À part.) Je suis sûr qu’il ne finira pas avant dîner.\n\n{{r2}}.\n\nL’autre jour…\n\n{{r1}}.\n\nQu’il faisait nuit.\n\n{{r2}}.\n\nBavard sempiternel, laissez-moi donc parler.\n\n{{r1}}.\n\nAllons, je clos mon bec.\n\n{{r2}}.\n\nL’autre jour… j’étais sur un des bancs de la place Impériale… Vous savez que j’y vais de temps en temps prendre le frais… je cause avec des amis… Il y en a qui lisent le journal, qui me racontent ce qu’il y a de nouveau… c’est fort agréable, l’été…\n\n{{r1}}.\n\nEt puis ça ne coûte rien, je sais… L’hiver, vous allez à la police correptionnelle… qui est un moyen de se chauffer à bon marché.\n\n{{r2}}.\n\nCe jour-là j’étais avec un ancien militaire, un ancien hussard… qui me racontait la bataille de Wagram… avec sa canne… sur le sable… je la sais par cœur, sa bataille de Wagram… il me l’a déjà racontée au moins quarante fois. Hé bien, ça me fait toujours plaisir… Vous savez que j’ai été sergent dans la garde nationale… & que j’ai toujours aimé les vieilles culottes de peau…\n\n{{r1}}.\n\nJe crois bien, c’était votre état… Un ancien tanneur !… Hé ben ! c’est comme moi, j’aime les vieux militaires : j’ai eu un oncle capitaine, qui s’était retiré avec trente-sept ans de services & cinquante-six blessures ; il avait reçu vingt-quatre coups de sabre sur la figure, & il avait le ventre cousu.\n\n{{r2}}.\n\nNous en étions au moment le plus intéressant de la bataille… (Avec emphase.) celui où les soixante bouches à feu de la Garde arrivent en faisant trembler la terre, suivies de quarante autres. — Il me dit alors : Les hussards s’élancent… Il se trompait… Je lui dis : Mais papa {{r3}}, ce n’est pas les hussards qui s’élancent, c’est les cuirassiers… vous me l’avez dit hier. — Comment ! les cuirassiers, s’écrie-t-il ; mais (très-vite) puisqu’il s’agissait de reprendre les hauteurs de Baumersdorf & de Neusiedel, comment les cuirassiers, qui étaient à l’aile droite, auraient-ils pu passer le Russbach & se porter sur le centre des Autrichiens qui s’étaient placés sur ces hauteurs, pour nous disputer la victoire ? Me comprenez-vous ? — Certainement, que je le comprenais.\n\n{{r1}}.\n\nEt ben ! vous avez une fière comprenette.\n\n{{r2}}, toujours très-vite.\n\nOui, lui réponds-je ; mais qu’est-ce que ça fait pour les cuirassiers ?… puisque le centre étant au milieu, il importe peu que l’aile droite ou l’aile gauche… — Il s’emporte alors.\n\n{{r1}}.\n\nIl s’emporte tout seul !\n\n{{r2}}.\n\nTaisez-vous donc, mauvais plaisant !… Il se fâche… Vous me prenez pour un hâbleur, dit-il. Vous y étiez, peut-être, à la bataille de Wagram ? & moi je n’y étais pas ?… Prétendez-vous m’apprendre mon métier, mauvais pékin ? — À ce mot de pékin, la moutarde me monte au nez ; je lui riposte un peu vertement… Il m’appelle « ganache ! »\n\n{{r1}}, à part.\n\nPas si bête !\n\n{{r2}}.\n\nJe l’appelle « vieil entêté ! » Il me donne un soufflet…\n\n{{r1}}.\n\nQue vous avez gardé… pour l’hiver ?\n\n{{r2}}.\n\nNon, non ; je le lui ai rendu… J’ai été moi-même étonné de ma vivacité. Mais, que voulez-vous ? une fois lancé… Il m’a dit : Mossieu, vous m’avez manqué.\n\n{{r1}}.\n\nVous ne l’aviez donc pas touché ?\n\n{{r2}}.\n\nSi bien ; mais c’est précisément parce que je l’avais touché qu’il m’a dit : Vous m’avez manqué.\n\n{{r1}}.\n\nIl fallait recommencer & il n’aurait pas pu parler comme ça.\n\n{{r2}}.\n\nIl devint furieux & me dit que de telles insultes voulaient être lavées dans le sang ; qu’un vieux militaire ne terminait pas autrement ses querelles. Je lui réponds que je suis aussi raffiné que lui sur le point d’honneur… J’accepte le rendez-vous, & c’est aujourd’hui à midi que nous devons nous battre.\n\n{{r1}}.\n\nEh bien ! que voulez-vous de moi ?\n\n{{r2}}.\n\nQue vous preniez ma place.\n\n{{r1}}.\n\nQue je prenne votre place !.. Vous voulez rire, papa. Je tiens bien autant à ma peau que vous.\n\n{{r2}}.\n\nAh ! ça ne risque rien.\n\n{{r1}}.\n\nEh ben ! si ça ne risque rien, pourquoi y allez-vous pas ? Si vous croyez que je vais me faire percer la bedaine pour vos beaux yeux !\n\n{{r2}}.\n\nMon ami, je sais bien que ce n’est pas ici une question de sentiment & qu’il vous faut du positif. J’entends vous payer généreusement.\n\n{{r1}}.\n\nCombien donnerez-vous donc ?\n\n{{r2}}.\n\nJe vous donnerai cent cinquante francs.\n\n{{r1}}.\n\nAllons donc, vieille lanterne !\n\n{{r2}}.\n\nComment ! vous m’appelez vieille lanterne ; qu’entendez-vous par là ?\n\n{{r1}}.\n\nJ’entends que vous voulez vous ficher du monde… Cent cinquante francs pour aller m’aligner à votre place avec ce vieux ours blanc !\n\n{{r2}}.\n\nVoyons ; combien voulez-vous donc ?\n\n{{r1}}.\n\nMa foi, attendez !… c’est un calcul à faire… À trois ans, ma mère me disait : Te m’as déjà coûté plus de mille francs, & c’est à peine si te les vaux… Si je valais à peu près mille francs dans ce temps-là, je dois bien valoir à présent pour le sûr… cinq, six, sept, huit, neuf, dix mille.\n\n{{r2}}.\n\nAssez, assez, diable ! comme vous y allez ! c’est comme à la criée.\n\n{{r1}}.\n\nVous m’avez arrêté trop tôt… Je veux, sans surfaire, douze mille francs.\n\n{{r2}}.\n\nC’est cher… Mais, voyez-vous, je veux faire votre bonheur ; je vous ai toujours aimé… je vous donnerai ce que vous me demandez.\n\n{{r1}}.\n\n(À part.) Il paraît que j’ai pas assez demandé. (Haut.) Voyons, maintenant ; comment entendez-vous me payer ? Je veux des gros sous ou des billets de banque : lequel aimez-vous mieux ?\n\n{{r2}}.\n\nComme vous voudrez. Pourquoi me dites-vous ça ?\n\n{{r1}}.\n\nParce que si vous avez l’intention de me payer en gros sous, c’est à condition que vous me les porterez à la Croix-Rousse… sans prendre le chemin de fer.\n\n{{r2}}.\n\nDans ce cas, je préfère vous payer en billets.\n\n{{r1}}.\n\nSi c’est en billets, je veux quinze mille francs.\n\n{{r2}}.\n\nVous êtes bien exigeant !… qu’est-ce que cela signifie ? Tout à l’heure c’était convenu à douze mille.\n\n{{r1}}.\n\nMon pauvre vieux, c’est mon dernier mot. Choisissez : douze mille francs en gros sous rendus à la Croix-Rousse, sans chemin de fer… ou quinze mille francs en billets… Pas de milieu… c’est à prendre ou à laisser.\n\n{{r2}}.\n\nAllons ! je vous donnerai quinze mille francs en billets, c’est entendu. Je vous paierai aussitôt après le combat.\n\n{{r1}}.\n\nNon, non, d’argent tout de suite ;… ou sinon pas de chapotement.\n\n{{r2}}.\n\nAllons, venez chercher votre argent tout de suite à la maison.\n\n{{r1}}.\n\nVous paierez ben aussi une bouteille, papa… pour me donner de courage ?\n\n{{r2}}.\n\nCertainement.\n\n{{r1}}, à part.\n\nC’est la première qu’il me paie, le vieux ladre… Allons, pour quinze mille francs je me ferais ben tuer tous les jours. (Ils sortent.)\n\n{{r2}}, dans la coulisse.\n\nAttendez-moi un instant chez moi ; je descends à la cave.\n\n{{r1}}, de même.\n\nEt surtout apportez du bon, papa… du vieux ! Le Brindas me fait mal ; il me gargouille dans l’estomac.\n\nScène III\n\n{{r3}}, seul.\n\nEnfin, je crois que je parviendrai à trouver le logis de mon homme… Ce doit être par ici… c’est bien la place qu’il m’a indiquée. Pourvu qu’il ne m’ait pas donné une fausse adresse !… Ah ! ah ! ce pékin me fait rire… Quelle boule il avait l’autre jour quand il a accepté mon défi !… Ah ! pauvre vieux, si tu savais à qui tu as affaire, tu serais déjà mort de frayeur… Je ne veux pas le tuer, mais j’entends lui donner une leçon dont il se souviendra… Voyons, informons-nous de sa demeure au boulanger du coin… Ah ! voici fort heureusement quelqu’un qui va me renseigner.\n\nScène IV\n\n{{r3}}, {{r1}}.\n\n{{r3}}.\n\nPardonnez-moi, Mossieu…\n\n{{r1}}.\n\n(À part.) Un ancien troupier ! ça doit être mon homme ! (Haut.) Vous avez donc fait de sottises que vous demandez pardon ?\n\n{{r3}}.\n\nPourriez-vous m’indiquer la demeure de Mossieu {{r2}} ?\n\n{{r1}}.\n\nJe veux pas te le dire ; te m’ennuies, toi !\n\n{{r3}}.\n\nQu’est-ce que cela ! vous ne répondez pas à ma question… L’adresse de Mossieu {{r2}} ?\n\n{{r1}}, se mettant devant lui.\n\nOn ne passe pas.\n\n{{r3}}.\n\nComment ! on ne passe pas ?\n\n{{r1}}.\n\nOn ne passe pas ! on-ne-pas-se-pas !\n\n{{r3}}.\n\nVraiment ! c’est inconcevable !\n\n{{r1}}.\n\nAh ! cette trombine ! ce pif ! Mettez donc votre nez de côté, papa ; il m’empêche de voir le Cheval de bronze.\n\n{{r3}}, le menaçant.\n\nJe ne souffrirai pas qu’on m’insulte de la sorte.\n\n{{r1}}.\n\nNe bute pas, ne bute pas… Reculez-vous donc un peu, vous m’envoyez des postillons, fermez votre portail.\n\n{{r3}}.\n\nVous me prenez, je crois, pour un jobard, mon cher. La main me démange, & j’ai envie de vous apprendre à qui vous avez affaire.\n\n{{r1}}.\n\nTant pis, mon vieux ; votre nez m’offusque, il ressemble à un éteignoir pour cierge.\n\n{{r3}}.\n\nAh ! si je n’avais pas déjà une affaire ce matin !… Encore une fois voulez-vous me laisser passer ?\n\n{{r1}}.\n\nJe vous ai déjà dit qu’on ne passe pas.\n\n{{r3}}.\n\nEt pourquoi cela ?\n\n{{r1}}.\n\nParce qu’on ne passe pas, vieux farceur !\n\n{{r3}}.\n\nAh ! c’est trop fort, je n’y tiens plus. Tenez. {{r3}} donne un soufflet à {{r1}}.\n\n{{r1}} donne un coup de tête à {{r3}}.\n\nTenez, vous aussi. Vous croyez avoir affaire à une bugne.\n\n{{r3}}.\n\nJe m’importe peu qui vous êtes. Vous m’avez frappé ; de pareils affronts veulent du sang. Il faut nous battre sur-le-champ. Au sabre, à l’épée, au pistolet ?… Quelle est votre arme ?\n\n{{r1}}.\n\nTout ce que vous voudrez. À l’épée, à coup de groles, au tournebroche, à coup de torchon, à tout.\n\n{{r3}}.\n\nÀ l’épée.\n\n{{r1}}.\n\nT’aimes la salade : allons chercher de fourchettes.\n\n{{r3}}.\n\nOui, allons chercher des armes ; mais tout de suite, parce que j’ai encore une affaire à vider ce matin.\n\n{{r1}}.\n\nAllons-y. (Ils vont pour sortir.)\n\n{{r3}}.\n\nMossieu. (Ils se font des politesses.)\n\n{{r1}}.\n\nAllons, passe donc, patet. (Ils sortent et rentrent aussitôt ; les épées restent hors scène.)\n\n{{r3}}.\n\nEn garde !\n\n{{r1}}.\n\nVoyons que j’empoigne bien ma lardoire. J’y suis. (Ils se battent.) Tiens donc ! tiens donc !\n\n{{r3}}, après un instant.\n\nComment ! comment ! que faites-vous donc ? vous reculez, je crois.\n\n{{r1}}, tombant.\n\nAh ! l’homme, il m’a crevé le bedon !\n\n{{r3}}.\n\nAllons, il a son compte ; c’est le quatrième de cette année… j’ai la main malheureuse… (Il essuie son épée.) C’est ennuyeux tout de même de se battre comme ça, sans témoin… Mais il m’a insulté ; tant pis pour lui !… Pour prévenir les soupçons, allons nous-même chercher la garde.\n\nScène V\n\n{{r1}}, seul, se relevant.\n\nAh ! grand bête ! il croyait donc que je me laisserais mettre en perce. Pas si cornichon ! Je m’en vais maintenant prendre mon épée à moi, l’épée de {{r1}} !… Qu’il essaye de revenir & je me charge de lui régler le compte du père {{r2}} avec le mien ! (Il sort.)\n\nScène VI\n\n{{r3}}, un GENDARME, puis {{r1}}.\n\n{{r3}}.\n\nVenez, venez, cavalier : c’est ici tout près que j’ai vu un homme mort. Il nous faudra l’emporter à la Morgue, jusqu’à ce qu’on le réclame… Il n’y a plus personne !… Ne voyez-vous donc rien, cavalier ?\n\nLE GENDARME.\n\nDu tout, je ne vois rien.\n\n{{r3}}.\n\nProbablement que ce malheureux aura été emporté par une patrouille : nous sommes venus trop tard. {{r1}} donne un coup de bâton au gendarme qui s’enfuit ; puis il frappe {{r3}}. {{r3}} tombe.\n\n{{r1}}, le roulant avec le bâton.\n\nEh ben ! cette fois, pauvre vieux, t’en as assez… Que dis-tu de cette pontiselle ? Faut convenir que si t’es fort à l’épée, te n’entends rien au bâton… Mais qu’en faire à présent ?… Je vais boire un coup chez le père Chibroc & je reviens tout de suite… Je le porterai en Saône. (Il sort.)\n\nScène VII.\n\n{{r3}}, seul, se relevant.\n\nAh ! sapristi, je crois qu’il m’est tombé une cheminée sur la tête… Cependant il m’a semblé que c’étaient des coups de bâton… Est-ce que ce pékin se serait joué de moi ?… Ça ne peut pas se passer comme ça… j’aurais cette affaire-là sur le cœur jusqu’au dernier de mes jours… Le drôle a dit, je crois, que je n’entends rien au bâton : je lui montrerai mon savoir… & même si je dois le chercher jusqu’au fond des enfers !… (Il sort.)\n\nScène VIII.\n\n{{r2}}, seul, arrivant.\n\nJe suis dans une inquiétude mortelle. {{r1}} a-t-il rencontré ce vieux ferrailleur ? J’étais allé jusqu’aux portes de Trion pour ne pas me trouver dans le premier moment entre l’enclume & le marteau ; mais je ne puis pas rester dans cette incertitude… Que leur est-il arrivé ?\n\nScène IX.\n\n{{r2}}, {{r1}}, puis {{r3}}.\n\n{{r1}}, entrant & frappant sur {{r2}} qu’il prend pour {{r3}}.\n\nAh ! vieux féroce, te n’es pas mort !… Tiens ! tiens !\n\n{{r3}} entrant & frappant avec un bâton sur {{r2}} qu’il prend pour {{r1}}.\n\nAh ! scélérat, je t’apprendrai si je ne suis pas fort au bâton ; tiens ! tiens ! tiens !\n\n{{r2}}.\n\nAu secours ! au secours ! je suis mort.\n\n{{r3}}.\n\nComment ! c’est vous, Mossieu {{r2}} ? Pardon, je me trompe.\n\n{{r2}}.\n\n{{r3}} !… je suis perdu.\n\n{{r1}}.\n\nComment ! c’est vous, papa {{r2}} ? Pardon, je me trompe.\n\n{{r2}} à {{r1}}.\n\nVoilà comme vous tenez vos engagements ?\n\n{{r1}}.\n\nJe les ai ben tenus, vos engagements, puisque je me suis fait tuer tout à l’heure.\n\n{{r2}}.\n\nOui, vous vous êtes fait tuer, & vous n’êtes pas mort !\n\n{{r3}}.\n\nComment ! comment ! En effet, Mossieu, vous devriez être mort : vous l’étiez tout à l’heure.\n\n{{r1}}.\n\nEt vous aussi, papa !\n\n{{r3}}.\n\nTout cela me paraît louche.\n\n{{r1}}.\n\nVoyons ! ça serait trop long à vous expliquer. Mais il me semble que tout peut s’arranger. L’honneur est satisfait.\n\n{{r3}}.\n\nVous plaisantez, morbleu !\n\n{{r1}}.\n\nFâchez pas, papa !… Moi, vous m’avez passé votre latte au travers du corps : que voulez-vous de plus ? L’honneur est satisfait.\n\n{{r3}}.\n\nMais ces coups de bâton que j’ai reçus ; ils sont postérieurs.\n\n{{r1}}.\n\nVous venez de les repasser au père {{r2}}. L’honneur est satisfait.\n\n{{r3}}.\n\nMais ma querelle avec Mossieu {{r2}} ?\n\n{{r1}}.\n\nIl en a ben assez reçu, le pauvre vieux ! Il a reçu des deux mains, de la mienne & de la vôtre. L’honneur est satisfait.\n\n{{r2}}.\n\nHé ben ! & moi ?\n\n{{r1}}.\n\nHé ben ! je me suis battu pour vous. N’est-ce pas ce qui était convenu ?\n\n{{r2}}.\n\nEt mes coups de bâton ! étaient-ils convenus ?\n\n{{r1}}.\n\nQue voulez-vous ? C’est par-dessus le marché ; ils n’étaient pas pour vous. C’était un solde de règlement entre Mossieu & moi : c’est vous qui avez reçu le solde. L’honneur est satisfait !\n\nTOUS.\n\nOui, oui, l’honneur est satisfait !\n\n{{r2}}.\n\nC’est égal, je regrette mon argent.\n\n{{r1}}.\n\nNom d’un rat, je l’ai bien gagné. Puis, il ne sera pas tout perdu pour vous, papa. Pour mettre le bouquet à notre réconciliation, faut aller déjeuner tous ensemble, & c’est moi qui paie !… un fricot chenu !\n\n{{r2}}.\n\nAccepté !… nous trinquerons en braves.\n\n{{r3}}.\n\nAccepté!… Et le verre en main je vous conterai la bataille de Wagram.\n\n{{r1}}, au public.\n\nair de La la itou.\n\nL’honneur est satisfait !\n\nMais notre joie s’en irait,\n\nSi vous ne disiez ici\n\nQue vous êtes satisfaits aussi.\n\nLa itou, la la itou…\n\n(Chœur)\n\nfin du duel.",
+      "changements": [
+        "Retouches universelles appliquées ; blessures de l’oncle conservées.",
+        "Au jeu seulement, quelques détails secondaires sont resserrés dans le monologue initial, le récit de Wagram, l’arrivée du soldat et sa reprise après les coups. La transposition conserve ces passages entiers.",
+        "« Entre voisins », « Que sont-ils devenus ? » et le vers collectif sur la gaieté sont reformulés sans accord conjoint.",
+        "Le mot dialectal « gone » devient « homme » pour que toutes les mentions de ce rôle suivent la même espèce."
+      ]
+    }
+  },
+  "dureeEstimeeSecondes": 1715,
+  "interactionsOrdonnees": [
+    "a1e28",
+    "a1e48",
+    "a2e32",
+    "a3e14",
+    "a4e42",
+    "a4e53"
+  ]
+}

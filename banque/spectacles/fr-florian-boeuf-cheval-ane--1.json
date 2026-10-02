@@ -1,0 +1,633 @@
+{
+  "id": "fr-florian-boeuf-cheval-ane--1",
+  "conteId": "fr-florian-boeuf-cheval-ane",
+  "titre": "Le Bœuf, le Cheval et l’Âne",
+  "pitch": "{{r1}}, {{r2}} et {{r3}} demandent à trois juges qui aura la préséance. {{r4}}, {{r5}} et {{r6}} donnent leur avis : chaque juge favorise l’animal utile à son métier ; aucun avis ne l’emporte.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": null,
+      "famille": null,
+      "traits": [
+        "travailleur",
+        "fort",
+        "modeste"
+      ],
+      "voix": "voix grave et douce, qui parle lentement",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2e3:texte",
+            "avant": "est chargé",
+            "apres": "est chargée"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "le rapporteur",
+            "apres": "la rapporteuse"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r2",
+      "espece": "cheval",
+      "famille": "gros",
+      "traits": [
+        "fier",
+        "vif",
+        "coléreux"
+      ],
+      "voix": "voix sonore et rapide, qui devient tendue à la fin",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e4:texte",
+            "avant": "vers lui",
+            "apres": "vers elle"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r3",
+      "espece": "ane",
+      "famille": "gros",
+      "traits": [
+        "utile",
+        "travailleur",
+        "fier"
+      ],
+      "voix": "voix nasale et décidée, avec un petit arrêt avant de parler",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2e18:texte",
+            "avant": "le premier",
+            "apres": "la première"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r4",
+      "espece": "humain",
+      "famille": "adulte",
+      "traits": [
+        "rusé",
+        "assuré"
+      ],
+      "voix": "voix forte et vive, toujours sûre de son avis",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2:resume",
+            "avant": "maquignon",
+            "apres": "maquignonne"
+          },
+          {
+            "id": "a2e9:texte",
+            "avant": "Un de ces trois juges",
+            "apres": "Une de ces trois juges"
+          },
+          {
+            "id": "a2e9:texte",
+            "avant": "maquignon bas-normand",
+            "apres": "maquignonne bas-normande"
+          },
+          {
+            "id": "a2e11:ton",
+            "avant": "sûr de lui",
+            "apres": "sûre d'elle"
+          },
+          {
+            "id": "a2e16:texte",
+            "avant": "mon cher confrère",
+            "apres": "ma chère consœur"
+          },
+          {
+            "id": "a3e19:texte",
+            "avant": "le Normand",
+            "apres": "la Normande"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r5",
+      "espece": "humain",
+      "famille": "adulte",
+      "traits": [
+        "têtu",
+        "sûr de lui"
+      ],
+      "voix": "voix ronde et posée, qui coupe la parole sans crier",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2:resume",
+            "avant": "meunier",
+            "apres": "meunière"
+          },
+          {
+            "id": "a2e17:texte",
+            "avant": "le second jugeur",
+            "apres": "la seconde jugeuse"
+          },
+          {
+            "id": "a2e17:texte",
+            "avant": "un gros meunier",
+            "apres": "une grosse meunière"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r6",
+      "espece": "humain",
+      "famille": "adulte",
+      "traits": [
+        "têtu",
+        "sérieux"
+      ],
+      "voix": "voix basse et ferme, avec des mots bien détachés",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a3:resume",
+            "avant": "laboureur",
+            "apres": "laboureuse"
+          },
+          {
+            "id": "a3e5:texte",
+            "avant": "le troisième",
+            "apres": "la troisième"
+          },
+          {
+            "id": "a3e6:texte",
+            "avant": "Fermier",
+            "apres": "Fermière"
+          },
+          {
+            "id": "a3e6:texte",
+            "avant": "laboureur",
+            "apres": "laboureuse"
+          },
+          {
+            "id": "a3e2:texte",
+            "avant": "le dernier juge",
+            "apres": "la dernière juge"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 3,
+    "ageAuditoire": 7,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "Le chemin",
+      "description": "Posez deux coussins espacés sur la table pour dessiner un chemin entre eux. Les animaux puis les juges y passent à tour de rôle ; les autres restent hors de vue jusqu'à leur entrée. Le spectacle peut se jouer sur une table vide.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Qui aura la préséance ?",
+      "resume": "{{r1}}, {{r2}} et {{r3}} se disputent la préséance. Chaque animal vante son utilité ; {{r2}} propose trois juges pour arbitres.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "{{r1}}, {{r3}} et {{r2}},\nSe disputaient la préséance.\n{{r3}} ! direz-vous, tant d’orgueil lui sied mal.\nÀ qui l’orgueil sied-il ? et qui de nous ne pense\nValoir ceux que le rang, les talents, la naissance,\nÉlèvent au-dessus de nous ?"
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e3",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e4",
+          "type": "didascalie",
+          "texte": "{{r1}} avance d'un pas devant {{r2}}, puis se tourne vers lui."
+        },
+        {
+          "id": "a1e5",
+          "type": "conteur",
+          "texte": "{{r1}}, d’un ton modeste et doux,"
+        },
+        {
+          "id": "a1e6",
+          "type": "conteur",
+          "texte": "Alléguait :"
+        },
+        {
+          "id": "a1e7",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "J’ai rendu de nombreux services,\nPar ma force, ma docilité ;",
+          "ton": "d’un ton modeste et doux"
+        },
+        {
+          "id": "a1e8",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Marchez lentement avec moi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e9",
+          "type": "conteur",
+          "texte": "{{r2}} :"
+        },
+        {
+          "id": "a1e10",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Ma valeur, mes nobles exercices ;",
+          "ton": "avec fierté"
+        },
+        {
+          "id": "a1e11",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e12",
+          "type": "didascalie",
+          "texte": "{{r2}} s'écarte pour laisser une place sur le chemin."
+        },
+        {
+          "id": "a1e13",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e14",
+          "type": "conteur",
+          "texte": "Et {{r3}} :"
+        },
+        {
+          "id": "a1e15",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Mon utilité.",
+          "ton": "en se redressant"
+        },
+        {
+          "id": "a1e16",
+          "type": "adresse_public",
+          "marionnetteId": "r3",
+          "texte": "Faites un pas à votre tour !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e17",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Prenons,",
+          "ton": "en proposant un arbitrage"
+        },
+        {
+          "id": "a1e18",
+          "type": "conteur",
+          "texte": "dit {{r2}},"
+        },
+        {
+          "id": "a1e19",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "les juges pour arbitres.\nEn voici venir trois, exposons-leur nos titres.\nSi deux sont d’un avis, le procès est jugé.",
+          "ton": "en montrant le chemin de la tête"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Les deux premiers avis",
+      "resume": "{{r1}} expose leur dispute. {{r4}}, maquignon, choisit {{r2}} ; {{r5}}, meunier, choisit {{r3}}.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e2",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e3",
+          "type": "conteur",
+          "texte": "Les trois juges sont là ; {{r1}} est chargé"
+        },
+        {
+          "id": "a2e4",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e5",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e6",
+          "type": "conteur",
+          "texte": "D’être le rapporteur ;"
+        },
+        {
+          "id": "a2e7",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "voici notre affaire :\nNous nous disputons la préséance ; donnez votre jugement.",
+          "ton": "en s'adressant aux juges"
+        },
+        {
+          "id": "a2e8",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Écoutez maintenant les trois avis !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e9",
+          "type": "conteur",
+          "texte": "Un de ces trois juges, maquignon bas-normand,"
+        },
+        {
+          "id": "a2e10",
+          "type": "conteur",
+          "texte": "Crie aussitôt :"
+        },
+        {
+          "id": "a2e11",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "La chose est claire,\n{{r2}} a gagné.",
+          "ton": "très sûr de lui"
+        },
+        {
+          "id": "a2e12",
+          "type": "adresse_public",
+          "marionnetteId": "r4",
+          "texte": "Comptez une voix pour {{r2}} !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e13",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e14",
+          "type": "didascalie",
+          "texte": "{{r4}} se tourne vers la place que {{r1}} vient de quitter."
+        },
+        {
+          "id": "a2e15",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e16",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Non pas, mon cher confrère,",
+          "ton": "en interrompant {{r4}}"
+        },
+        {
+          "id": "a2e17",
+          "type": "conteur",
+          "texte": "Dit le second jugeur : c’était un gros meunier ;"
+        },
+        {
+          "id": "a2e18",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "{{r3}} doit marcher le premier :\nTout autre avis serait d’une injustice extrême.",
+          "ton": "avec assurance"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Trois avis et aucun accord",
+      "resume": "{{r6}}, laboureur, vote pour {{r1}}. {{r2}} reproche aux juges leur intérêt ; {{r4}} répond que c'est la règle ordinaire.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e2",
+          "type": "didascalie",
+          "texte": "{{r5}} se pousse de côté pour laisser avancer le dernier juge."
+        },
+        {
+          "id": "a3e3",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e4",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Oh ! que nenni,",
+          "ton": "sans hésiter"
+        },
+        {
+          "id": "a3e5",
+          "type": "conteur",
+          "texte": "dit le troisième,"
+        },
+        {
+          "id": "a3e6",
+          "type": "conteur",
+          "texte": "Fermier de sa paroisse et riche laboureur,"
+        },
+        {
+          "id": "a3e7",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "À {{r1}} appartient cet honneur.",
+          "ton": "d'une voix ferme"
+        },
+        {
+          "id": "a3e8",
+          "type": "adresse_public",
+          "marionnetteId": "r6",
+          "texte": "Comptez une voix pour {{r1}} !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e9",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e10",
+          "type": "didascalie",
+          "texte": "{{r6}} recule ; {{r2}} peut s'avancer sur le chemin."
+        },
+        {
+          "id": "a3e11",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e12",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Quoi !",
+          "ton": "en sursautant"
+        },
+        {
+          "id": "a3e13",
+          "type": "conteur",
+          "texte": "reprend {{r2}}, écumant de colère,"
+        },
+        {
+          "id": "a3e14",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Votre avis n’est dicté que par votre intérêt ?",
+          "ton": "en colère"
+        },
+        {
+          "id": "a3e15",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e16",
+          "type": "didascalie",
+          "texte": "{{r2}} se tourne vers la place laissée par {{r6}}."
+        },
+        {
+          "id": "a3e17",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e18",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Eh ! mais,",
+          "ton": "avec aplomb"
+        },
+        {
+          "id": "a3e19",
+          "type": "conteur",
+          "texte": "dit le Normand,"
+        },
+        {
+          "id": "a3e20",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "par quoi donc, s’il vous plaît !\nN’est-ce pas le code ordinaire ?",
+          "ton": "sans se troubler"
+        },
+        {
+          "id": "a3e21",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Comptez les avis avec moi : un, deux, trois !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e22",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e23",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "fr-florian-boeuf-cheval-ane",
+    "synopsis": {
+      "accroche": "Trois animaux et trois juges : chaque métier donne sa propre réponse.",
+      "resume": [
+        "{{r1}} le bœuf, {{r2}} le cheval et {{r3}} l'âne se disputent la préséance ; ils présentent chacun leur mérite.",
+        "{{r2}} propose trois juges pour les départager à la majorité.",
+        "{{r4}}, maquignon, vote pour le cheval ; {{r5}}, meunier, pour l'âne ; {{r6}}, laboureur, pour le bœuf.",
+        "{{r2}} accuse les juges de parler selon leur intérêt ; {{r4}} lui répond que c'est le code ordinaire. Aucun gagnant n'est désigné."
+      ]
+    },
+    "transposition": {
+      "texte": "{{r1}}, {{r3}} et {{r2}},\nSe disputaient la préséance.\n{{r3}} ! direz-vous, tant d’orgueil lui sied mal.\nÀ qui l’orgueil sied-il ? et qui de nous ne pense\nValoir ceux que le rang, les talents, la naissance,\nÉlèvent au-dessus de nous ?\n{{r1}}, d’un ton modeste et doux,\nAlléguait : J’ai rendu de nombreux services,\nPar ma force, ma docilité ;\n{{r2}} : Ma valeur, mes nobles exercices ;\nEt {{r3}} : Mon utilité.\nPrenons, dit {{r2}}, les juges pour arbitres.\nEn voici venir trois, exposons-leur nos titres.\nSi deux sont d’un avis, le procès est jugé.\nLes trois juges sont là ; {{r1}} est chargé\nD’être le rapporteur ; voici notre affaire :\nNous nous disputons la préséance ; donnez votre jugement.\nUn de ces trois juges, maquignon bas-normand,\nCrie aussitôt : La chose est claire,\n{{r2}} a gagné. Non pas, mon cher confrère,\nDit le second jugeur : c’était un gros meunier ;\n{{r3}} doit marcher le premier :\nTout autre avis serait d’une injustice extrême.\nOh ! que nenni, dit le troisième,\nFermier de sa paroisse et riche laboureur,\nÀ {{r1}} appartient cet honneur.\nQuoi ! reprend {{r2}}, écumant de colère,\nVotre avis n’est dicté que par votre intérêt ?\nEh ! mais, dit le Normand, par quoi donc, s’il vous plaît !\nN’est-ce pas le code ordinaire ?",
+      "changements": [
+        "Les mérites indirectement rapportés du bœuf, du coursier et de l'âne deviennent leurs brèves paroles directes, sur les mêmes vers.",
+        "Le bœuf expose directement leur dispute aux juges et demande leur jugement ; aucune retouche d'âge n'est appliquée.",
+        "Les trois animaux gardent leurs espèces imposées et sont désignés par leurs noms ; les trois arbitres sont collectivement appelés juges, indépendamment de leur genre et de leur espèce."
+      ]
+    }
+  },
+  "dureeEstimeeSecondes": 182,
+  "interactionsOrdonnees": [
+    "a1e8",
+    "a1e16",
+    "a2e8",
+    "a2e12",
+    "a3e8",
+    "a3e21"
+  ]
+}
