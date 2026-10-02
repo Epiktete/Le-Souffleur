@@ -89,11 +89,11 @@
       </div>
     </div>
     <div class="reglage originalite">
-      <label for="r-style" class="mono">{ts.reglages.styleRecit}</label>
+      <label for="r-style" class="mono">{ts.reglages.niveauLitteraire}</label>
+      <input id="r-style" type="range" min="0" max="100" value="50" disabled aria-describedby="r-style-reperes r-style-bientot" />
       <div class="reperes" id="r-style-reperes">
         <span>{ts.reglages.accessible}</span><span>{ts.reglages.original}</span>
       </div>
-      <input id="r-style" type="range" min="0" max="100" value="50" disabled aria-describedby="r-style-reperes r-style-bientot" />
       <span class="mention-bientot" id="r-style-bientot">{t.bientot.badge}</span>
     </div>
   </div>
@@ -160,15 +160,21 @@
   }
 
   .originalite {
-    flex: 1 1 180px;
+    flex: 0 1 240px;
     min-width: 0;
-    padding: 10px 12px;
+    width: 240px;
+    max-width: 100%;
     color: #575757;
-    background: repeating-linear-gradient(135deg, transparent 0 7px, rgb(107 107 107 / 0.12) 7px 9px), #e8e8e8;
-    border: var(--bordure) solid var(--gris);
   }
-  .reperes { display: flex; justify-content: space-between; gap: 12px; font-size: 12px; }
-  .originalite input { display: block; width: 100%; cursor: not-allowed; }
+  .reperes { display: flex; justify-content: space-between; gap: 12px; font-size: 11px; }
+  .originalite input {
+    display: block;
+    width: 100%;
+    min-height: 28px;
+    margin: 0 0 2px;
+    cursor: not-allowed;
+    background: repeating-linear-gradient(135deg, transparent 0 7px, rgb(107 107 107 / 0.1) 7px 9px);
+  }
   .originalite input::-webkit-slider-runnable-track { background: var(--gris); }
   .originalite input::-moz-range-track { background: var(--gris); }
   .originalite input::-webkit-slider-thumb { background: #d0d0d0; border-color: var(--gris); }

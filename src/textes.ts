@@ -199,7 +199,7 @@ export const ts = {
     interactionAucune: 'Aucune',
     interactionQuelques: 'Quelques',
     interactionBeaucoup: 'Beaucoup',
-    styleRecit: 'Style du récit',
+    niveauLitteraire: 'Niveau littéraire',
     accessible: 'Accessible',
     original: 'Original',
   },
