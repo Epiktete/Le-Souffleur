@@ -1,0 +1,55 @@
+{"synopsis": [
+  {"conte": "fr-perrault-chaperon-rouge",
+   "accroche": "Rosette part porter une galette à Mamie Rose, mais Loup Gris arrive avant elle et prend sa place dans le lit.",
+   "resume": [
+     "Rosette part porter une galette et un petit pot de beurre à Mamie Rose, qui est malade ; en chemin, elle raconte tout à Loup Gris, qui lui propose une course chacun de son côté.",
+     "Loup Gris arrive le premier chez Mamie Rose, se fait ouvrir la porte et prend sa place dans le lit.",
+     "Rosette arrive à son tour et s'étonne : « Mamie Rose, comme vous avez de grandes dents ! »",
+     "Juste avant que Loup Gris ne l'attrape, Mamie Rose, cachée dans l'armoire, surgit avec Rosette pour le chasser, et il s'enfuit pour de bon dans la forêt."
+   ],
+   "distribution": [
+     {"marionnette": "Rosette", "role": "le Petit Chaperon rouge", "note": "Curieuse et gentille : exactement les traits du rôle."},
+     {"marionnette": "Loup Gris", "role": "le Loup", "note": "Méchant et gourmand, déjà loup dans le conte : rien à changer."},
+     {"marionnette": "Mamie Rose", "role": "la Mère-grand", "note": "Sage et douce, une grand-mère toute trouvée pour ce rôle."}
+   ],
+   "changements": [
+     "La fin est changée : plus de dévoration, Mamie Rose cachée dans l'armoire ressort avec Rosette pour chasser Loup Gris, qui s'enfuit sans esprit de retour.",
+     "La Mère qui envoie Rosette au début reste une voix en coulisse : elle n'a pas de marionnette dédiée."
+   ]},
+  {"conte": "afr-djaha-et-sa-femme",
+   "accroche": "Loup Gris cache son trésor dans un vieux sac, mais Mamie Rose, trop généreuse, le donne sans le savoir à une inconnue.",
+   "resume": [
+     "Loup Gris cache ses pièces d'or dans un vieux sac, sur la terrasse de sa maison.",
+     "Mamie Rose, toujours généreuse, donne le vieux sac à Rosette, une voyageuse de passage qui n'a rien.",
+     "Loup Gris découvre que son trésor a disparu et se met à crier dans la rue : « Qui veut échanger un vieux sac contre un sac tout neuf ! »",
+     "Rosette accourt échanger son sac contre le neuf, et rend sans le savoir à Loup Gris tout son trésor."
+   ],
+   "distribution": [
+     {"marionnette": "Loup Gris", "role": "Djah’a", "note": "Rusé et malin, il porte bien la ruse du personnage, même si ce n'est pas un loup à l'origine."},
+     {"marionnette": "Mamie Rose", "role": "sa femme", "note": "Sa générosité sans calcul va bien à la douceur de Mamie Rose."},
+     {"marionnette": "Rosette", "role": "le Pèlerin", "note": "Curieuse, elle est la voyageuse parfaite pour recevoir le sac puis le rendre sans le savoir."}
+   ],
+   "changements": [
+     "La fin plus triste du conte d'origine est retirée : ici, Loup Gris et Mamie Rose finissent par en rire ensemble, complices.",
+     "Le trésor devient des pièces qui tintent dans un sac, plus simple à montrer et à entendre qu'une vieille outre.",
+     "La Voisine, sans marionnette, disparaît de l'histoire."
+   ]},
+  {"conte": "ru-renard-lievre-coq",
+   "accroche": "Chassée de chez elle par Loup Gris installé de force, Mamie Rose retrouve sa maison grâce au courage de Rosette.",
+   "resume": [
+     "Au printemps, la maison de Loup Gris fond ; il s'invite chez Mamie Rose et la met à la porte.",
+     "De grands animaux du voisinage essaient bien de le faire partir, mais Loup Gris menace si fort qu'ils s'enfuient tous.",
+     "Rosette arrive à son tour, un grand balai sur l'épaule, et chante trois fois sa menace en s'approchant.",
+     "Cette fois, c'est Loup Gris qui prend peur et s'enfuit pour de bon ; Mamie Rose retrouve sa maison et y vit désormais avec Rosette."
+   ],
+   "distribution": [
+     {"marionnette": "Rosette", "role": "le Coq", "note": "Petite mais décidée, elle est la seule à ne pas reculer devant Loup Gris — exactement ce que demande le rôle."},
+     {"marionnette": "Loup Gris", "role": "la Renarde", "note": "Méchant et sûr de lui, il est déjà l'intrus qui s'installe de force chez les autres."},
+     {"marionnette": "Mamie Rose", "role": "le petit Lièvre", "note": "Gentille, chassée sans se fâcher, elle correspond bien au personnage."}
+   ],
+   "changements": [
+     "Les grands animaux qui reculent devant Loup Gris (chiens, ours, taureau) sont regroupés en une seule scène racontée, pour ne mobiliser que les trois marionnettes du parent.",
+     "L'objet menaçant devient un grand balai plutôt qu'une faux, plus doux à montrer aux enfants.",
+     "Loup Gris s'enfuit sans être blessé : sa fuite reste un beau départ précipité, pas une punition."
+   ]}
+]}

@@ -1,0 +1,30 @@
+{
+  "id": "ja-moineau-langue-coupee",
+  "langue": [],
+  "moments": [
+    {
+      "id": "langue-coupee",
+      "type": "cruaute",
+      "niveaux": [
+        {
+          "jusqua": 6,
+          "annonce": "La vieille ne coupe pas la langue du moineau : elle le gronde et le chasse. Le refrain devient « Moineau, moineau, où est ta maison ? ».",
+          "retouches": [
+            {"avant": "Elle attrapa le pauvre petit moineau, lui ouvrit le bec de force et dit", "apres": "Elle attrapa le pauvre petit moineau et dit"},
+            {"avant": "C'est cette langue qui a fait cette bêtise ?", "apres": "C'est toi qui as fait cette bêtise ?"},
+            {"avant": "Et, avec ses ciseaux, clac, elle lui coupa le bout de la langue.", "apres": "Et elle le gronda très fort."},
+            {"avant": "Le moineau s'envola en criant d'une voix triste : « Aïe, aïe ! »", "apres": "Le moineau s'envola en criant d'une voix triste."},
+            {"avant": "alors je lui ai coupé la langue et je l'ai chassé", "apres": "alors je l'ai chassé"},
+            {"avant": "où était parti le moineau à la langue coupée", "apres": "où était parti le moineau"},
+            {"avant": "il appelait : « Moineau à la langue coupée,", "apres": "il appelait :\n\n« Moineau, moineau,"},
+            {"avant": "Alors, du bosquet, une voix répondit : « Moineau à la langue coupée,", "apres": "Alors, du bosquet, une voix répondit :\n\n« Moineau, moineau,"},
+            {"avant": "et le moineau à la langue coupée ouvrait la porte", "apres": "et le moineau ouvrait la porte"},
+            {"avant": "en appelant : « Moineau à la langue coupée,", "apres": "en appelant :\n\n« Moineau, moineau,"},
+            {"avant": "bambous. Du bosquet, une voix répondit : « Moineau à la langue coupée,", "apres": "bambous. Du bosquet, une voix répondit :\n\n« Moineau, moineau,"},
+            {"avant": "Le moineau à la langue coupée ouvrit la porte", "apres": "Le moineau ouvrit la porte"}
+          ]
+        }
+      ]
+    }
+  ]
+}

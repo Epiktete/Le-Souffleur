@@ -1,0 +1,15 @@
+{
+  "termine": true,
+  "etapes": 9,
+  "conte": "fr-perrault-chaperon-rouge",
+  "titre": "Le Petit Chaperon rouge",
+  "dureeEstimeeSecondes": 390,
+  "dureeCibleSecondes": 300,
+  "problemesRestants": [
+    {
+      "gravite": "important",
+      "duree": true,
+      "message": "Le spectacle est trop long : 7 min au lieu de 5 min visées."
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "de-chat-et-souris-associes",
+  "langue": [],
+  "moments": [
+    {
+      "id": "la-souris-avalee",
+      "type": "mort-gentil",
+      "niveaux": [
+        {
+          "jusqua": 6,
+          "annonce": "La Souris échappe de justesse au Chat : elle file dans un trou du mur et ne revient jamais chez lui.",
+          "retouches": [
+            {"avant": "à peine l'eut-elle dit que le chat bondit sur elle, l'attrapa et l'avala.", "apres": "à peine l'eut-elle dit que le chat bondit sur elle ; mais la souris fut plus prompte : elle fila dans un trou du mur, et ne revint jamais chez le chat."}
+          ]
+        }
+      ]
+    }
+  ]
+}

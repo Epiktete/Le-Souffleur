@@ -1,0 +1,1327 @@
+{
+  "id": "de-roi-grenouille--1",
+  "conteId": "de-roi-grenouille",
+  "titre": "Le Roi grenouille",
+  "pitch": "{{r1}} promet sa compagnie à {{r2}} pour retrouver sa balle d’or. {{r3}} lui rappelle sa parole ; après la délivrance, {{r4}} accompagne leur voyage.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "fille",
+      "famille": "enfant",
+      "traits": [
+        "orgueilleux",
+        "peureux",
+        "coquin"
+      ],
+      "voix": "voix claire et pressée, qui ralentit quand elle a peur",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "voix:r1",
+            "avant": "elle a peur",
+            "apres": "il a peur"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "la plus jeune était si belle",
+            "apres": "le plus jeune était si beau"
+          },
+          {
+            "id": "a1e2:texte",
+            "avant": "elle s’ennuyait",
+            "apres": "il s’ennuyait"
+          },
+          {
+            "id": "a1e2:texte",
+            "avant": "elle jouait",
+            "apres": "il jouait"
+          },
+          {
+            "id": "a1e2:texte",
+            "avant": "près d’elle",
+            "apres": "près de lui"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "près d’elle",
+            "apres": "près de lui"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "elle se mit à pleurer",
+            "apres": "il se mit à pleurer"
+          },
+          {
+            "id": "a1e12:texte",
+            "avant": "princesse",
+            "apres": "prince"
+          },
+          {
+            "id": "a1e22:texte",
+            "avant": "fut folle",
+            "apres": "fut fou"
+          },
+          {
+            "id": "a1e22:texte",
+            "avant": "elle retrouva",
+            "apres": "il retrouva"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "qu’elle s’était mise",
+            "apres": "qu’il s’était mis"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "qu’elle mangeait",
+            "apres": "qu’il mangeait"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "Princesse, la plus jeune",
+            "apres": "Prince, le plus jeune"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "Elle courut",
+            "apres": "Il courut"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "elle ouvrit",
+            "apres": "il ouvrit"
+          },
+          {
+            "id": "a2e14:texte",
+            "avant": "elle referma",
+            "apres": "il referma"
+          },
+          {
+            "id": "a2e14:texte",
+            "avant": "elle avait très peur",
+            "apres": "il avait très peur"
+          },
+          {
+            "id": "a2e20:texte",
+            "avant": "j’étais assise",
+            "apres": "j’étais assis"
+          },
+          {
+            "id": "a2e25:texte",
+            "avant": "Princesse, la plus jeune, ouvre-moi ! Ne sais-tu plus ce qu’hier tu m’as promis près de l’eau fraîche du puits ? Princesse, la plus jeune, ouvre-moi !",
+            "apres": "Prince, le plus jeune, ouvre-moi ! Ne sais-tu plus ce qu’hier tu m’as promis près de l’eau fraîche du puits ? Prince, le plus jeune, ouvre-moi !"
+          },
+          {
+            "id": "a2e33:texte",
+            "avant": "Elle alla",
+            "apres": "Il alla"
+          },
+          {
+            "id": "a2e36:texte",
+            "avant": "la suivit pas à pas",
+            "apres": "le suivit pas à pas"
+          },
+          {
+            "id": "a2e48:texte",
+            "avant": "qu’elle le faisait",
+            "apres": "qu’il le faisait"
+          },
+          {
+            "id": "a2e51:texte",
+            "avant": "Elle avait peur",
+            "apres": "Il avait peur"
+          },
+          {
+            "id": "a2e51:texte",
+            "avant": "qu’elle n’osait",
+            "apres": "qu’il n’osait"
+          },
+          {
+            "id": "a2e55:texte",
+            "avant": "t’a aidée",
+            "apres": "t’a aidé"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "elle fut couchée",
+            "apres": "il fut couché"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "les filles étaient toutes belles",
+            "apres": "les enfants étaient tous beaux"
+          },
+          {
+            "id": "a1e2:texte",
+            "avant": "la fille",
+            "apres": "le fils"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r2",
+      "espece": "grenouille",
+      "famille": "eau",
+      "traits": [
+        "têtu",
+        "gentil",
+        "bavard"
+      ],
+      "voix": "voix ronde et insistante, qui articule le refrain",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e13:texte",
+            "avant": "vieux barboteur",
+            "apres": "vieille barboteuse"
+          },
+          {
+            "id": "a1e16:texte",
+            "avant": "ton compagnon",
+            "apres": "ta compagne"
+          },
+          {
+            "id": "a1e18:texte",
+            "avant": "qu’il raconte",
+            "apres": "qu’elle raconte"
+          },
+          {
+            "id": "a1e18:texte",
+            "avant": "Il reste",
+            "apres": "Elle reste"
+          },
+          {
+            "id": "a1e18:texte",
+            "avant": "il ne peut",
+            "apres": "elle ne peut"
+          },
+          {
+            "id": "a1e18:texte",
+            "avant": "le compagnon",
+            "apres": "la compagne"
+          },
+          {
+            "id": "a1e20:texte",
+            "avant": "il plongea",
+            "apres": "elle plongea"
+          },
+          {
+            "id": "a1e25:texte",
+            "avant": "qu’il pouvait",
+            "apres": "qu’elle pouvait"
+          },
+          {
+            "id": "a2e20:texte",
+            "avant": "il l’exigeait",
+            "apres": "elle l’exigeait"
+          },
+          {
+            "id": "a2e20:texte",
+            "avant": "qu’il serait mon compagnon",
+            "apres": "qu’elle serait ma compagne"
+          },
+          {
+            "id": "a2e20:texte",
+            "avant": "qu’il pourrait",
+            "apres": "qu’elle pourrait"
+          },
+          {
+            "id": "a2e20:texte",
+            "avant": "il est dehors",
+            "apres": "elle est dehors"
+          },
+          {
+            "id": "a2e45:texte",
+            "avant": "il voulut",
+            "apres": "elle voulut"
+          },
+          {
+            "id": "a2e45:texte",
+            "avant": "il y fut, il dit",
+            "apres": "elle y fut, elle dit"
+          },
+          {
+            "id": "a2e50:texte",
+            "avant": "je suis fatigué",
+            "apres": "je suis fatiguée"
+          },
+          {
+            "id": "a2e51:texte",
+            "avant": "froid",
+            "apres": "froide"
+          },
+          {
+            "id": "a2e55:texte",
+            "avant": "Celui qui",
+            "apres": "Celle qui"
+          },
+          {
+            "id": "a2e55:texte",
+            "avant": "le mépriser",
+            "apres": "la mépriser"
+          },
+          {
+            "id": "a2e57:texte",
+            "avant": "le laissa",
+            "apres": "la laissa"
+          },
+          {
+            "id": "a3e5:texte",
+            "avant": "Je suis fatigué",
+            "apres": "Je suis fatiguée"
+          },
+          {
+            "id": "a3e12:texte",
+            "avant": "il retomba",
+            "apres": "elle retomba"
+          },
+          {
+            "id": "a3e12:texte",
+            "avant": "un fils de roi",
+            "apres": "une fille de roi"
+          },
+          {
+            "id": "a3e16:texte",
+            "avant": "il devint son cher compagnon et son époux",
+            "apres": "elle devint sa chère compagne et son épouse"
+          },
+          {
+            "id": "a3e17:texte",
+            "avant": "ensorcelé",
+            "apres": "ensorcelée"
+          },
+          {
+            "id": "a3e21:texte",
+            "avant": "du jeune roi",
+            "apres": "de la jeune reine"
+          },
+          {
+            "id": "a3e21:texte",
+            "avant": "son maître",
+            "apres": "sa maîtresse"
+          },
+          {
+            "id": "a3e21:texte",
+            "avant": "avait été changé",
+            "apres": "avait été changée"
+          },
+          {
+            "id": "a3e24:texte",
+            "avant": "le jeune roi",
+            "apres": "la jeune reine"
+          },
+          {
+            "id": "a3e24:texte",
+            "avant": "le ramener",
+            "apres": "la ramener"
+          },
+          {
+            "id": "a3e26:texte",
+            "avant": "le fils du roi",
+            "apres": "la fille du roi"
+          },
+          {
+            "id": "a3e26:texte",
+            "avant": "derrière lui",
+            "apres": "derrière elle"
+          },
+          {
+            "id": "a3e26:texte",
+            "avant": "Il se retourna",
+            "apres": "Elle se retourna"
+          },
+          {
+            "id": "a3e28:texte",
+            "avant": "monsieur",
+            "apres": "madame"
+          },
+          {
+            "id": "a3e36:texte",
+            "avant": "son maître",
+            "apres": "sa maîtresse"
+          },
+          {
+            "id": "a3e36:texte",
+            "avant": "délivré et heureux",
+            "apres": "délivrée et heureuse"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "un fils de roi",
+            "apres": "une fille de roi"
+          },
+          {
+            "id": "a1e16:texte",
+            "avant": "ton camarade",
+            "apres": "ta camarade"
+          },
+          {
+            "id": "a1e18:texte",
+            "avant": "ce sot",
+            "apres": "cette sotte"
+          },
+          {
+            "id": "a2e41:texte",
+            "avant": "Fais-le monter",
+            "apres": "Fais-la monter"
+          },
+          {
+            "id": "a2e50:ton",
+            "avant": "fatigué",
+            "apres": "fatiguée"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "est jeté",
+            "apres": "est jetée"
+          },
+          {
+            "id": "a3e27:ton",
+            "avant": "inquiet",
+            "apres": "inquiète"
+          },
+          {
+            "id": "a3e32:texte",
+            "avant": "monsieur",
+            "apres": "madame"
+          },
+          {
+            "id": "a3e31:ton",
+            "avant": "inquiet",
+            "apres": "inquiète"
+          },
+          {
+            "id": "a3e35:texte",
+            "avant": "monsieur",
+            "apres": "madame"
+          },
+          {
+            "id": "a3e34:ton",
+            "avant": "inquiet",
+            "apres": "inquiète"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r3",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "sage",
+        "grognon"
+      ],
+      "voix": "voix grave et posée, qui parle sans se presser",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e1:texte",
+            "avant": "un roi",
+            "apres": "une reine"
+          },
+          {
+            "id": "a1e2:texte",
+            "avant": "château du roi",
+            "apres": "château de la reine"
+          },
+          {
+            "id": "a1e2:texte",
+            "avant": "du roi allait",
+            "apres": "de la reine allait"
+          },
+          {
+            "id": "a2e20:texte",
+            "avant": "cher père",
+            "apres": "chère mère"
+          },
+          {
+            "id": "a3e5:texte",
+            "avant": "ton père",
+            "apres": "ta mère"
+          },
+          {
+            "id": "a3e16:texte",
+            "avant": "du père",
+            "apres": "de la mère"
+          },
+          {
+            "id": "a2e17:ton",
+            "avant": "inquiet",
+            "apres": "inquiète"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r4",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "gentil",
+        "fidèle"
+      ],
+      "voix": "voix douce et grave, d’abord tremblante puis joyeuse",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a3e21:texte",
+            "avant": "le serviteur",
+            "apres": "la servante"
+          },
+          {
+            "id": "a3e21:texte",
+            "avant": "c’était le fidèle",
+            "apres": "c’était la fidèle"
+          },
+          {
+            "id": "a3e21:texte",
+            "avant": "Le fidèle",
+            "apres": "La fidèle"
+          },
+          {
+            "id": "a3e21:texte",
+            "avant": "qu’il s’était",
+            "apres": "qu’elle s’était"
+          },
+          {
+            "id": "a3e24:texte",
+            "avant": "Le fidèle",
+            "apres": "La fidèle"
+          },
+          {
+            "id": "a3e24:texte",
+            "avant": "plein de joie",
+            "apres": "pleine de joie"
+          },
+          {
+            "id": "a3e36:texte",
+            "avant": "du fidèle",
+            "apres": "de la fidèle"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 16,
+    "ageAuditoire": 4,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "Le puits dans la forêt",
+      "description": "Posez un coussin au bout de la table pour le bord du puits. Deux autres coussins dressés derrière représentent les arbres. Un drap sur la table cache les changements de peluche.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "La porte et la table du château",
+      "description": "Placez un carton debout sur un côté de la table pour la porte. L’autre côté devient la table du château. L’escalier et les repas existent par la voix et les mouvements des peluches.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t3",
+      "titre": "La chambre puis la route",
+      "description": "Couchez un coussin pour le lit et dressez un carton à côté pour le mur. Le bord libre de la table devient ensuite la route, sans déplacement du décor.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "La balle au fond du puits",
+      "resume": "{{r1}} perd sa balle en or. {{r2}} la rapporte contre une promesse que {{r1}} oublie aussitôt.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Dans les temps anciens, quand les souhaits servaient encore à quelque chose, vivait un roi dont les filles étaient toutes belles. Mais la plus jeune était si belle que le soleil lui-même, qui pourtant en a vu tant, s’émerveillait chaque fois qu’il lui brillait sur le visage."
+        },
+        {
+          "id": "a1e2",
+          "type": "conteur",
+          "texte": "Près du château du roi s’étendait une grande forêt sombre, et dans la forêt, sous un vieux tilleul, il y avait un puits. Quand il faisait bien chaud, la fille du roi allait dans la forêt et s’asseyait au bord du puits bien frais. Et quand elle s’ennuyait, elle jouait avec une balle en or : la balle montait en l’air et retombait tout près d’elle. C’était son jeu préféré."
+        },
+        {
+          "id": "a1e3",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e4",
+          "type": "didascalie",
+          "texte": "{{r1}} bondit trois fois au bord du puits, la tête tournée vers le haut."
+        },
+        {
+          "id": "a1e5",
+          "type": "adresse_public",
+          "texte": "Comptez les bonds de ma balle : un, deux, trois !",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e6",
+          "type": "conteur",
+          "texte": "Or il arriva qu’un jour la balle en or de {{r1}} ne retomba pas près d’elle, mais tomba sur le sol et roula droit dans l’eau. {{r1}} la suivit des yeux, mais la balle disparut, et le puits était profond, si profond qu’on n’en voyait pas le fond."
+        },
+        {
+          "id": "a1e7",
+          "type": "didascalie",
+          "texte": "{{r1}} se penche au-dessus du puits, puis recule et tremble."
+        },
+        {
+          "id": "a1e8",
+          "type": "conteur",
+          "texte": "Alors elle se mit à pleurer, pleura de plus en plus fort, et ne pouvait plus se consoler."
+        },
+        {
+          "id": "a1e9",
+          "type": "adresse_public",
+          "texte": "Faites avec moi le bruit de la balle qui tombe : plouf !",
+          "marionnetteId": "r1",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e10",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e11",
+          "type": "didascalie",
+          "texte": "{{r2}} surgit lentement du bord du puits et se tourne vers {{r1}}."
+        },
+        {
+          "id": "a1e12",
+          "type": "replique",
+          "texte": "Qu’as-tu donc, princesse ? Tu cries à faire pitié à une pierre.",
+          "marionnetteId": "r2",
+          "ton": "avec curiosité"
+        },
+        {
+          "id": "a1e13",
+          "type": "replique",
+          "texte": "Ah, c’est toi, vieux barboteur. Je pleure ma balle en or qui est tombée dans le puits.",
+          "marionnetteId": "r1",
+          "ton": "en pleurant"
+        },
+        {
+          "id": "a1e14",
+          "type": "replique",
+          "texte": "Calme-toi et ne pleure pas. Je peux t’aider. Mais que me donneras-tu si je te rapporte ton jouet ?",
+          "marionnetteId": "r2",
+          "ton": "calmement"
+        },
+        {
+          "id": "a1e15",
+          "type": "replique",
+          "texte": "Ce que tu voudras, chère grenouille. Mes robes, mes perles et mes pierres précieuses, et même la couronne d’or que je porte.",
+          "marionnetteId": "r1",
+          "ton": "avec empressement"
+        },
+        {
+          "id": "a1e16",
+          "type": "replique",
+          "texte": "Tes robes, tes perles et tes pierres précieuses, et ta couronne d’or, je n’en veux pas. Mais si tu veux bien m’aimer, et que je sois ton compagnon et ton camarade de jeu, que je m’assoie à ta petite table à côté de toi, que je mange dans ta petite assiette d’or, que je boive dans ton petit gobelet, que je dorme dans ton petit lit : si tu me promets cela, je descendrai et je te rapporterai ta balle en or.",
+          "marionnetteId": "r2",
+          "ton": "en détachant chaque demande"
+        },
+        {
+          "id": "a1e17",
+          "type": "replique",
+          "texte": "Oh oui, je te promets tout ce que tu veux, pourvu que tu me rapportes ma balle.",
+          "marionnetteId": "r1",
+          "ton": "très vite"
+        },
+        {
+          "id": "a1e18",
+          "type": "replique",
+          "texte": "Qu’est-ce qu’il raconte, ce sot {{r2}} ? Il reste dans l’eau avec ses semblables à coasser, il ne peut pas être le compagnon d’un être humain.",
+          "marionnetteId": "r1",
+          "ton": "à voix basse, pour soi"
+        },
+        {
+          "id": "a1e19",
+          "type": "adresse_public",
+          "texte": "Coassez avec moi : coâ, coâ !",
+          "marionnetteId": "r2",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e20",
+          "type": "conteur",
+          "texte": "Quand {{r2}} eut obtenu la promesse, il plongea la tête, s’enfonça, et au bout d’un petit moment remonta en nageant, avec la balle, qui roula sur l’herbe."
+        },
+        {
+          "id": "a1e21",
+          "type": "didascalie",
+          "texte": "{{r2}} se tourne vers {{r1}}. {{r1}} se tourne vers le château."
+        },
+        {
+          "id": "a1e22",
+          "type": "conteur",
+          "texte": "{{r1}} fut folle de joie en revoyant son beau jouet ; elle retrouva sa balle et partit en courant."
+        },
+        {
+          "id": "a1e23",
+          "type": "replique",
+          "texte": "Attends, attends ! Emmène-moi, je ne peux pas courir aussi vite que toi !",
+          "marionnetteId": "r2",
+          "ton": "en appelant"
+        },
+        {
+          "id": "a1e24",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e25",
+          "type": "conteur",
+          "texte": "Mais à quoi lui servit de crier son « coâ, coâ » aussi fort qu’il pouvait ? {{r1}} ne l’écouta pas, se dépêcha de rentrer, et eut bientôt oublié la pauvre grenouille, qui dut redescendre dans son puits."
+        },
+        {
+          "id": "a1e26",
+          "type": "didascalie",
+          "texte": "{{r2}} baisse lentement la tête."
+        },
+        {
+          "id": "a1e27",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "La promesse à la porte",
+      "resume": "{{r2}} vient au château. {{r3}} rappelle à {{r1}} sa promesse : la grenouille mange à table puis réclame le petit lit.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "Le lendemain, alors qu’elle s’était mise à table avec {{r3}} et toute la cour, et qu’elle mangeait dans sa petite assiette d’or, voilà que — plitch, platch, plitch, platch — quelque chose monta l’escalier de marbre en rampant."
+        },
+        {
+          "id": "a2e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e3",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e4",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r3}} se tournent vers la porte."
+        },
+        {
+          "id": "a2e5",
+          "type": "adresse_public",
+          "texte": "Faites avec moi les pas dans l’escalier : plitch, platch !",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e6",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e7",
+          "type": "conteur",
+          "texte": "Arrivé en haut, cela frappa à la porte et cria :"
+        },
+        {
+          "id": "a2e8",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e9",
+          "type": "didascalie",
+          "texte": "{{r2}} se balance devant la porte. {{r1}} se tourne vers {{r2}}."
+        },
+        {
+          "id": "a2e10",
+          "type": "replique",
+          "texte": "Princesse, la plus jeune, ouvre-moi !",
+          "marionnetteId": "r2",
+          "ton": "derrière la porte"
+        },
+        {
+          "id": "a2e11",
+          "type": "conteur",
+          "texte": "Elle courut voir qui était dehors. Mais quand elle ouvrit, {{r2}} était là, devant la porte."
+        },
+        {
+          "id": "a2e12",
+          "type": "didascalie",
+          "texte": "{{r1}} recule brusquement ; {{r2}} redescend derrière la porte."
+        },
+        {
+          "id": "a2e13",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e14",
+          "type": "conteur",
+          "texte": "Alors elle referma la porte en vitesse, se rassit à table, et elle avait très peur."
+        },
+        {
+          "id": "a2e15",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e16",
+          "type": "didascalie",
+          "texte": "{{r3}} se tourne vers {{r1}}, qui tremble."
+        },
+        {
+          "id": "a2e17",
+          "type": "replique",
+          "texte": "Mon enfant, de quoi as-tu peur ? Y a-t-il un géant devant la porte qui veut t’emporter ?",
+          "marionnetteId": "r3",
+          "ton": "inquiet"
+        },
+        {
+          "id": "a2e18",
+          "type": "replique",
+          "texte": "Oh non, ce n’est pas un géant, c’est une vilaine grenouille.",
+          "marionnetteId": "r1",
+          "ton": "en tremblant"
+        },
+        {
+          "id": "a2e19",
+          "type": "replique",
+          "texte": "Que te veut cette grenouille ?",
+          "marionnetteId": "r3",
+          "ton": "avec gravité"
+        },
+        {
+          "id": "a2e20",
+          "type": "replique",
+          "texte": "Ah, cher père, hier, quand j’étais assise dans la forêt près du puits et que je jouais, ma balle en or est tombée dans l’eau. Et parce que je pleurais tant, {{r2}} me l’a rapportée. Et comme il l’exigeait absolument, je lui ai promis qu’il serait mon compagnon. Mais je ne pensais jamais qu’il pourrait sortir de son eau. Maintenant il est dehors et veut entrer chez moi.",
+          "marionnetteId": "r1",
+          "ton": "en expliquant"
+        },
+        {
+          "id": "a2e21",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e22",
+          "type": "conteur",
+          "texte": "À ce moment, on frappa une deuxième fois, et une voix cria :"
+        },
+        {
+          "id": "a2e23",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e24",
+          "type": "didascalie",
+          "texte": "{{r2}} se balance devant la porte."
+        },
+        {
+          "id": "a2e25",
+          "type": "replique",
+          "texte": "Princesse, la plus jeune, ouvre-moi ! Ne sais-tu plus ce qu’hier tu m’as promis près de l’eau fraîche du puits ? Princesse, la plus jeune, ouvre-moi !",
+          "marionnetteId": "r2",
+          "ton": "comme un refrain"
+        },
+        {
+          "id": "a2e26",
+          "type": "adresse_public",
+          "texte": "Dites avec moi ce qu’on entend à la porte : « Ouvre-moi ! »",
+          "marionnetteId": "r1",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e27",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e28",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne vers la table."
+        },
+        {
+          "id": "a2e29",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e30",
+          "type": "replique",
+          "texte": "Ce que tu as promis, tu dois le tenir. Va lui ouvrir.",
+          "marionnetteId": "r3",
+          "ton": "fermement"
+        },
+        {
+          "id": "a2e31",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e32",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne vers la porte."
+        },
+        {
+          "id": "a2e33",
+          "type": "conteur",
+          "texte": "Elle alla ouvrir la porte."
+        },
+        {
+          "id": "a2e34",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e35",
+          "type": "didascalie",
+          "texte": "{{r2}} s’incline vers {{r1}}."
+        },
+        {
+          "id": "a2e36",
+          "type": "conteur",
+          "texte": "{{r2}} entra en sautillant, la suivit pas à pas jusqu’à sa chaise, s’arrêta là et cria :"
+        },
+        {
+          "id": "a2e37",
+          "type": "replique",
+          "texte": "Fais-moi monter jusqu’à toi.",
+          "marionnetteId": "r2",
+          "ton": "en insistant"
+        },
+        {
+          "id": "a2e38",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e39",
+          "type": "didascalie",
+          "texte": "{{r1}} recule lentement devant la chaise."
+        },
+        {
+          "id": "a2e40",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e41",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Fais-le monter jusqu’à toi.",
+          "ton": "fermement"
+        },
+        {
+          "id": "a2e42",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e43",
+          "type": "didascalie",
+          "texte": "{{r1}} se penche vers la chaise."
+        },
+        {
+          "id": "a2e44",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e45",
+          "type": "conteur",
+          "texte": "Une fois {{r2}} sur la chaise, il voulut monter sur la table, et quand il y fut, il dit :"
+        },
+        {
+          "id": "a2e46",
+          "type": "replique",
+          "texte": "Maintenant, approche ta petite assiette d’or, pour que nous mangions ensemble.",
+          "marionnetteId": "r2",
+          "ton": "avec joie"
+        },
+        {
+          "id": "a2e47",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne vers les enfants."
+        },
+        {
+          "id": "a2e48",
+          "type": "conteur",
+          "texte": "{{r1}} le fit, mais on voyait bien qu’elle le faisait à contrecœur. {{r2}} se régala, mais à {{r1}}, chaque bouchée restait en travers de la gorge."
+        },
+        {
+          "id": "a2e49",
+          "type": "adresse_public",
+          "texte": "Faites avec moi trois petits bruits de repas : miam, miam, miam !",
+          "marionnetteId": "r2",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e50",
+          "type": "replique",
+          "texte": "J’ai bien mangé et je suis fatigué. Maintenant, fais-moi monter dans ta petite chambre et prépare ton petit lit de soie : nous allons nous coucher.",
+          "marionnetteId": "r2",
+          "ton": "fatigué"
+        },
+        {
+          "id": "a2e51",
+          "type": "conteur",
+          "texte": "{{r1}} se mit à pleurer. Elle avait peur de {{r2}} froid qu’elle n’osait pas toucher, et qui devait maintenant dormir dans son beau petit lit tout propre."
+        },
+        {
+          "id": "a2e52",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e53",
+          "type": "didascalie",
+          "texte": "{{r1}} reste près de la porte, immobile."
+        },
+        {
+          "id": "a2e54",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e55",
+          "type": "replique",
+          "texte": "Celui qui t’a aidée quand tu étais dans le besoin, tu ne dois pas le mépriser ensuite.",
+          "marionnetteId": "r3",
+          "ton": "en se fâchant"
+        },
+        {
+          "id": "a2e56",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e57",
+          "type": "conteur",
+          "texte": "Alors {{r1}} fit monter {{r2}} jusqu’à sa chambre et le laissa dans un coin."
+        },
+        {
+          "id": "a2e58",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Les cercles du cœur",
+      "resume": "Au pied du lit, {{r2}} est jeté contre le mur et redevient un fils de roi. Le lendemain, {{r4}} les emmène et ses trois cercles de fer se brisent de joie.",
+      "tableauId": "t3",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "conteur",
+          "texte": "Mais quand elle fut couchée, {{r2}} arriva en rampant et dit :"
+        },
+        {
+          "id": "a3e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e3",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e4",
+          "type": "didascalie",
+          "texte": "{{r1}} s’incline près du lit. {{r2}} se tourne vers {{r1}}."
+        },
+        {
+          "id": "a3e5",
+          "type": "replique",
+          "texte": "Je suis fatigué, je veux dormir aussi bien que toi. Fais-moi monter, sinon je le dis à ton père.",
+          "marionnetteId": "r2",
+          "ton": "en réclamant"
+        },
+        {
+          "id": "a3e6",
+          "type": "adresse_public",
+          "texte": "Faites avec moi les petits pas vers le lit : plitch, platch !",
+          "marionnetteId": "r2",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e7",
+          "type": "conteur",
+          "texte": "Alors {{r1}} se mit dans une colère noire."
+        },
+        {
+          "id": "a3e8",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne brusquement vers {{r2}}. {{r2}} bondit de toutes ses forces contre le mur et disparaît derrière lui."
+        },
+        {
+          "id": "a3e9",
+          "type": "replique",
+          "texte": "Maintenant, tu vas me laisser tranquille, vilaine grenouille !",
+          "marionnetteId": "r1",
+          "ton": "en colère"
+        },
+        {
+          "id": "a3e10",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e11",
+          "type": "note_marionnettiste",
+          "texte": "Le bond de {{r2}} contre le mur représente le lancer de {{r1}}, sans saisie de la peluche."
+        },
+        {
+          "id": "a3e12",
+          "type": "conteur",
+          "texte": "Mais quand il retomba, ce n’était plus une grenouille : c’était un fils de roi aux beaux yeux pleins de gentillesse."
+        },
+        {
+          "id": "a3e13",
+          "type": "note_marionnettiste",
+          "texte": "{{r2}} revient dans le même rôle de parole après la métamorphose racontée ; aucune transformation de peluche pendant la scène."
+        },
+        {
+          "id": "a3e14",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e15",
+          "type": "didascalie",
+          "texte": "{{r2}} s’incline lentement vers {{r1}}."
+        },
+        {
+          "id": "a3e16",
+          "type": "conteur",
+          "texte": "Selon la volonté du père, il devint son cher compagnon et son époux."
+        },
+        {
+          "id": "a3e17",
+          "type": "replique",
+          "texte": "Une méchante sorcière m’avait ensorcelé. Personne d’autre que toi ne pouvait me délivrer du puits. Demain, nous partirons ensemble dans mon royaume.",
+          "marionnetteId": "r2",
+          "ton": "avec douceur"
+        },
+        {
+          "id": "a3e18",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e19",
+          "type": "didascalie",
+          "texte": "{{r2}} se tourne vers le bout de la table."
+        },
+        {
+          "id": "a3e20",
+          "type": "conteur",
+          "texte": "Le lendemain matin, quand le soleil les réveilla, arriva une voiture attelée de huit chevaux blancs, qui avaient des plumes d’autruche blanches sur la tête et des harnais de chaînes d’or."
+        },
+        {
+          "id": "a3e21",
+          "type": "conteur",
+          "texte": "Et à l’arrière se tenait le serviteur du jeune roi : c’était le fidèle {{r4}}. Le fidèle {{r4}} avait eu tant de chagrin quand son maître avait été changé en grenouille qu’il s’était fait mettre trois cercles de fer autour du cœur, pour qu’il n’éclate pas de peine et de tristesse."
+        },
+        {
+          "id": "a3e22",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e23",
+          "type": "didascalie",
+          "texte": "{{r4}} arrive derrière {{r2}}, la tête baissée, puis se redresse."
+        },
+        {
+          "id": "a3e24",
+          "type": "conteur",
+          "texte": "La voiture venait chercher le jeune roi pour le ramener dans son royaume. Le fidèle {{r4}} les y fit monter ensemble, reprit sa place derrière, plein de joie de cette délivrance."
+        },
+        {
+          "id": "a3e25",
+          "type": "adresse_public",
+          "texte": "Comptez avec moi les trois cercles : un, deux, trois !",
+          "marionnetteId": "r4",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e26",
+          "type": "conteur",
+          "texte": "Après un bout de chemin, le fils du roi entendit derrière lui un craquement, comme si quelque chose s’était cassé. Il se retourna et cria :"
+        },
+        {
+          "id": "a3e27",
+          "type": "replique",
+          "texte": "{{r4}}, la voiture se brise !",
+          "marionnetteId": "r2",
+          "ton": "inquiet"
+        },
+        {
+          "id": "a3e28",
+          "type": "replique",
+          "texte": "Non, monsieur, ce n’est pas la voiture, c’est un cercle de mon cœur, qui était là dans la douleur quand vous étiez dans le puits, quand vous étiez grenouille.",
+          "marionnetteId": "r4",
+          "ton": "avec joie"
+        },
+        {
+          "id": "a3e29",
+          "type": "adresse_public",
+          "texte": "Faites vous aussi un craquement : crac !",
+          "marionnetteId": "r4",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e30",
+          "type": "didascalie",
+          "texte": "À la voix : « crac ! » {{r2}} se tourne vers {{r4}}."
+        },
+        {
+          "id": "a3e31",
+          "type": "replique",
+          "texte": "{{r4}}, la voiture se brise !",
+          "marionnetteId": "r2",
+          "ton": "inquiet"
+        },
+        {
+          "id": "a3e32",
+          "type": "replique",
+          "texte": "Non, monsieur, ce n’est pas la voiture, c’est un cercle de mon cœur, qui était là dans la douleur quand vous étiez dans le puits, quand vous étiez grenouille.",
+          "marionnetteId": "r4",
+          "ton": "avec joie"
+        },
+        {
+          "id": "a3e33",
+          "type": "didascalie",
+          "texte": "À la voix : « crac ! » {{r2}} se tourne vers {{r4}}."
+        },
+        {
+          "id": "a3e34",
+          "type": "replique",
+          "texte": "{{r4}}, la voiture se brise !",
+          "marionnetteId": "r2",
+          "ton": "inquiet"
+        },
+        {
+          "id": "a3e35",
+          "type": "replique",
+          "texte": "Non, monsieur, ce n’est pas la voiture, c’est un cercle de mon cœur, qui était là dans la douleur quand vous étiez dans le puits, quand vous étiez grenouille.",
+          "marionnetteId": "r4",
+          "ton": "avec joie"
+        },
+        {
+          "id": "a3e36",
+          "type": "conteur",
+          "texte": "Mais ce n’étaient que les cercles qui sautaient du cœur du fidèle {{r4}}, parce que son maître était délivré et heureux."
+        },
+        {
+          "id": "a3e37",
+          "type": "didascalie",
+          "texte": "{{r4}} et {{r2}} s’inclinent vers les enfants."
+        },
+        {
+          "id": "a3e38",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e39",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "de-roi-grenouille",
+    "synopsis": {
+      "accroche": "Une balle perdue fait naître une promesse que la princesse voudrait oublier.",
+      "resume": [
+        "{{r2}} rapporte la balle de {{r1}} au prix d’une promesse de compagnie.",
+        "Au château, {{r3}} exige que {{r1}} tienne parole.",
+        "{{r2}} redevient un fils de roi ; {{r4}} les ramène chez lui et ses trois cercles de fer se brisent de joie."
+      ]
+    },
+    "transposition": {
+      "texte": "Dans les temps anciens, quand les souhaits servaient encore à quelque chose, vivait un roi dont les filles étaient toutes belles. Mais la plus jeune était si belle que le soleil lui-même, qui pourtant en a vu tant, s’émerveillait chaque fois qu’il lui brillait sur le visage.\n\nPrès du château du roi s’étendait une grande forêt sombre, et dans la forêt, sous un vieux tilleul, il y avait un puits. Quand il faisait bien chaud, la fille du roi allait dans la forêt et s’asseyait au bord du puits bien frais. Et quand elle s’ennuyait, elle jouait avec une balle en or : la balle montait en l’air et retombait tout près d’elle. C’était son jeu préféré.\n\nOr il arriva qu’un jour la balle en or de {{r1}} ne retomba pas près d’elle, mais tomba sur le sol et roula droit dans l’eau. {{r1}} la suivit des yeux, mais la balle disparut, et le puits était profond, si profond qu’on n’en voyait pas le fond. Alors elle se mit à pleurer, pleura de plus en plus fort, et ne pouvait plus se consoler. Et tandis qu’elle se lamentait ainsi, quelqu’un lui cria :\n\n— Qu’as-tu donc, princesse ? Tu cries à faire pitié à une pierre.\n\nElle regarda d’où venait la voix, et aperçut une grenouille qui sortait de l’eau sa grosse vilaine tête.\n\n— Ah, c’est toi, vieux barboteur, dit-elle. Je pleure ma balle en or qui est tombée dans le puits.\n\n— Calme-toi et ne pleure pas, répondit {{r2}}. Je peux t’aider. Mais que me donneras-tu si je te rapporte ton jouet ?\n\n— Ce que tu voudras, chère grenouille, dit-elle. Mes robes, mes perles et mes pierres précieuses, et même la couronne d’or que je porte.\n\n{{r2}} répondit :\n\n— Tes robes, tes perles et tes pierres précieuses, et ta couronne d’or, je n’en veux pas. Mais si tu veux bien m’aimer, et que je sois ton compagnon et ton camarade de jeu, que je m’assoie à ta petite table à côté de toi, que je mange dans ta petite assiette d’or, que je boive dans ton petit gobelet, que je dorme dans ton petit lit : si tu me promets cela, je descendrai et je te rapporterai ta balle en or.\n\n— Oh oui, dit-elle, je te promets tout ce que tu veux, pourvu que tu me rapportes ma balle.\n\nMais elle pensait : « Qu’est-ce qu’il raconte, ce sot {{r2}} ? Il reste dans l’eau avec ses semblables à coasser, il ne peut pas être le compagnon d’un être humain. »\n\nQuand {{r2}} eut obtenu la promesse, il plongea la tête, s’enfonça, et au bout d’un petit moment remonta en nageant, avec la balle, qui roula sur l’herbe. {{r1}} fut folle de joie en revoyant son beau jouet ; elle retrouva sa balle et partit en courant.\n\n— Attends, attends ! cria {{r2}}. Emmène-moi, je ne peux pas courir aussi vite que toi !\n\nMais à quoi lui servit de crier son « coâ, coâ » aussi fort qu’il pouvait ? {{r1}} ne l’écouta pas, se dépêcha de rentrer, et eut bientôt oublié la pauvre grenouille, qui dut redescendre dans son puits.\n\nLe lendemain, alors qu’elle s’était mise à table avec {{r3}} et toute la cour, et qu’elle mangeait dans sa petite assiette d’or, voilà que — plitch, platch, plitch, platch — quelque chose monta l’escalier de marbre en rampant. Arrivé en haut, cela frappa à la porte et cria :\n\n— Princesse, la plus jeune, ouvre-moi !\n\nElle courut voir qui était dehors. Mais quand elle ouvrit, {{r2}} était là, devant la porte. Alors elle referma la porte en vitesse, se rassit à table, et elle avait très peur. {{r3}} vit bien que son cœur battait très fort et dit :\n\n— Mon enfant, de quoi as-tu peur ? Y a-t-il un géant devant la porte qui veut t’emporter ?\n\n— Oh non, répondit-elle, ce n’est pas un géant, c’est une vilaine grenouille.\n\n— Que te veut {{r2}} ?\n\n— Ah, cher père, hier, quand j’étais assise dans la forêt près du puits et que je jouais, ma balle en or est tombée dans l’eau. Et parce que je pleurais tant, {{r2}} me l’a rapportée. Et comme il l’exigeait absolument, je lui ai promis qu’il serait mon compagnon. Mais je ne pensais jamais qu’il pourrait sortir de son eau. Maintenant il est dehors et veut entrer chez moi.\n\nÀ ce moment, on frappa une deuxième fois, et une voix cria :\n\n« Princesse, la plus jeune,\nOuvre-moi !\nNe sais-tu plus ce qu’hier\nTu m’as promis\nPrès de l’eau fraîche du puits ?\nPrincesse, la plus jeune,\nOuvre-moi ! »\n\nAlors {{r3}} dit :\n\n— Ce que tu as promis, tu dois le tenir. Va lui ouvrir.\n\nElle alla ouvrir la porte. {{r2}} entra en sautillant, la suivit pas à pas jusqu’à sa chaise, s’arrêta là et cria :\n\n— Fais-moi monter jusqu’à toi.\n\nElle hésita, jusqu’à ce que {{r3}} le lui ordonne. Une fois {{r2}} sur la chaise, il voulut monter sur la table, et quand il y fut, il dit :\n\n— Maintenant, approche ta petite assiette d’or, pour que nous mangions ensemble.\n\n{{r1}} le fit, mais on voyait bien qu’elle le faisait à contrecœur. {{r2}} se régala, mais à {{r1}}, chaque bouchée restait en travers de la gorge. Enfin, {{r2}} dit :\n\n— J’ai bien mangé et je suis fatigué. Maintenant, fais-moi monter dans ta petite chambre et prépare ton petit lit de soie : nous allons nous coucher.\n\n{{r1}} se mit à pleurer. Elle avait peur de {{r2}} froid qu’elle n’osait pas toucher, et qui devait maintenant dormir dans son beau petit lit tout propre. Mais {{r3}} se fâcha et dit :\n\n— Celui qui t’a aidée quand tu étais dans le besoin, tu ne dois pas le mépriser ensuite.\n\nAlors {{r1}} fit monter {{r2}} jusqu’à sa chambre et le laissa dans un coin. Mais quand elle fut couchée, {{r2}} arriva en rampant et dit :\n\n— Je suis fatigué, je veux dormir aussi bien que toi. Fais-moi monter, sinon je le dis à ton père.\n\nAlors {{r1}} se mit dans une colère noire. {{r1}} le lança de toutes ses forces contre le mur :\n\n— Maintenant, tu vas me laisser tranquille, vilaine grenouille !\n\nMais quand il retomba, ce n’était plus une grenouille : c’était un fils de roi aux beaux yeux pleins de gentillesse. Selon la volonté du père, il devint son cher compagnon et son époux. Il lui raconta qu’une méchante sorcière l’avait ensorcelé, et que personne d’autre qu’elle ne pouvait le délivrer du puits ; et que le lendemain, ils partiraient ensemble dans son royaume.\n\nLe lendemain matin, quand le soleil les réveilla, arriva une voiture attelée de huit chevaux blancs, qui avaient des plumes d’autruche blanches sur la tête et des harnais de chaînes d’or. Et à l’arrière se tenait le serviteur du jeune roi : c’était le fidèle {{r4}}. Le fidèle {{r4}} avait eu tant de chagrin quand son maître avait été changé en grenouille qu’il s’était fait mettre trois cercles de fer autour du cœur, pour qu’il n’éclate pas de peine et de tristesse. La voiture venait chercher le jeune roi pour le ramener dans son royaume. Le fidèle {{r4}} les y fit monter ensemble, reprit sa place derrière, plein de joie de cette délivrance.\n\nAprès un bout de chemin, le fils du roi entendit derrière lui un craquement, comme si quelque chose s’était cassé. Il se retourna et cria :\n\n« {{r4}}, la voiture se brise !\n— Non, monsieur, ce n’est pas la voiture,\nC’est un cercle de mon cœur,\nQui était là dans la douleur\nQuand vous étiez dans le puits,\nQuand vous étiez grenouille. »\n\nEncore une fois, et encore une fois, cela craqua sur le chemin, et le fils du roi croyait toujours que la voiture se brisait. Mais ce n’étaient que les cercles qui sautaient du cœur du fidèle {{r4}}, parce que son maître était délivré et heureux.\n"
+    }
+  },
+  "dureeEstimeeSecondes": 882,
+  "interactionsOrdonnees": [
+    "a2e26",
+    "a1e19",
+    "a3e29",
+    "a2e5",
+    "a1e9",
+    "a3e25",
+    "a2e49",
+    "a1e5",
+    "a3e6"
+  ]
+}

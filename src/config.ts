@@ -1,0 +1,183 @@
+// Constantes réglables du Souffleur (CDC §13 : tout ce qui se calibre vit ici).
+// Un non-développeur peut modifier ces valeurs sans toucher au reste du code.
+
+import type { NomEtape } from './services/pipeline';
+
+/** Nom de l'outil, affiché dans l'en-tête et le titre de la page. */
+export const NOM_OUTIL = 'Le Souffleur';
+
+/** Pause temporaire de l'Atelier et de ses paramètres IA. */
+export const ATELIER_DISPONIBLE = false;
+
+/** Version du schéma des données stockées. À incrémenter lors d'une migration. */
+export const VERSION_SCHEMA = 1;
+
+/**
+ * Calcul de la durée estimée d'un spectacle (CDC §6).
+ * Ces trois valeurs sont des hypothèses à calibrer en chronométrant
+ * deux spectacles réels.
+ */
+export const DUREE = {
+  /** Mots prononcés par minute par le marionnettiste. */
+  motsParMinute: 100,
+  /** Secondes ajoutées pour chaque didascalie (action scénique). */
+  secondesParDidascalie: 3,
+  /** Secondes ajoutées pour chaque adresse au public qui attend une réponse. */
+  secondesParAttenteReponse: 8,
+  /** Écart toléré entre la durée visée du SPECTACLE et sa durée estimée. */
+  toleranceActe: 0.2,
+  /**
+   * Écart toléré pour UN acte, plus large : les actes sont inégaux par nature,
+   * et une correction demandée pour dix secondes coûte un appel entier.
+   */
+  toleranceParActe: 0.35,
+  /**
+   * Part des mots prévus par le découpage en dessous de laquelle un acte est
+   * donné au directeur éditorial pour qu'il le complète avec le conte.
+   * Tranché le 2026-09-27 par Nicolas.
+   */
+  seuilActeCourt: 0.8,
+} as const;
+
+/**
+ * La parole vient du conte (CDC §6, contrôle 9). Valeurs provisoires, à
+ * calibrer au relais du chantier « le conteur » (CDC §14).
+ */
+export const PAROLE = {
+  /**
+   * Part des mots dits absents du texte de référence au-delà de laquelle on
+   * avertit. Calibré au relais du 2026-09-27 : de 0 à 8 % sur dix spectacles.
+   */
+  seuilInvente: 0.1,
+  /** Une phrase du conteur plus courte n'est pas vérifiée (« Et voilà. »). */
+  motsMinPhrase: 4,
+} as const;
+
+/** Bornes des réglages du studio (CDC §4). */
+export const BORNES = {
+  // Trente minutes : les pièces de Guignol du répertoire font jusqu'à 6 800
+  // mots, soit plus d'une heure lues telles quelles. À trente minutes on les
+  // coupe sans les mutiler.
+  dureeMinutes: { min: 2, max: 30, defaut: 5 },
+  ageAuditoire: { min: 3, max: 10, defaut: 5 },
+  /**
+   * Jusqu'à cet âge, le script s'ouvre sur une note de jeu (CDC §6) : chez les
+   * petits, la peur passe par ce qu'on voit et entend plus que par ce qu'on
+   * raconte, et savoir d'avance que ça finit bien les rassure.
+   */
+  ageNoteDeJeu: 6,
+  marionnettesParSpectacle: { min: 1, max: 6 },
+  /** Chaque marionnettiste a deux mains, donc deux marionnettes au plus. */
+  mainsParMarionnettiste: 2,
+  nomMarionnette: { min: 1, max: 40 },
+  descriptionMarionnette: { max: 500 },
+  especeMarionnette: { max: 40 },
+  /** Les traits sont facultatifs : ils affinent, ils ne sont pas un péage. */
+  traitsMarionnette: { min: 0, max: 6 },
+  ebauche: { max: 2000 },
+} as const;
+
+/** Le mode Banque (CDC §7, « La colonne centrale a deux modes »). */
+export const BANQUE = {
+  /**
+   * Le filtre de durée : durée réelle ≤ cible × (1 + tolérance). Tranché le
+   * 2026-09-28 par Nicolas : « un temps inférieur ou égal », donc 0 — la
+   * constante reste là pour rouvrir la marge si l'usage le demande.
+   */
+  toleranceDuree: 0,
+} as const;
+
+/** Appels à l'IA (CDC §5). Repris de l'étape 0. */
+export const IA = {
+  /**
+   * Délai maximal par appel, en millisecondes.
+   *
+   * Large : la transposition récrit un conte entier, et un modèle à
+   * raisonnement décompte sa réflexion du même temps. Un délai trop court
+   * arrête une génération qui travaillait encore.
+   */
+  delaiMs: 240_000,
+  /**
+   * La revue finale lit TROIS textes — le conte d'origine, sa transposition et
+   * le script — avant de répondre. Au banc (Sonnet 5, 25 septembre), elle a
+   * dépassé 240 s deux fois sur trois : le spectacle partait alors sans
+   * relecture, sans que rien ne le dise. Elle a son propre délai, plus long.
+   */
+  delaiRelectureMs: 480_000,
+  /**
+   * Les deux délais ci-dessus valent pour un spectacle de 10 minutes au plus.
+   * Au-delà, ils grandissent avec lui : à 30 minutes, le conte, le texte
+   * transposé, chaque acte et le script relu sont trois fois plus longs, et
+   * la génération s'arrêtait sur « le modèle met trop de temps ».
+   * 20 minutes : délais doublés ; 30 minutes : triplés.
+   */
+  dureeReferenceDelaiMinutes: 10,
+  /**
+   * Même règle pour la longueur du conte, qui est lu (et récrit en entier à
+   * la transposition) : au-delà de 4 000 mots, les délais grandissent aussi.
+   */
+  motsConteReferenceDelai: 4000,
+  /** Nombre maximal de relances quand le modèle renvoie un JSON invalide. */
+  relancesJsonMax: 1,
+  /** Nombre maximal de séries de nouvelles propositions d'histoires (CDC §6, étape 4). */
+  relancesPistesMax: 3,
+} as const;
+
+/**
+ * Les étapes affichées, réparties entre les deux phases (CDC §7).
+ *
+ * Un test vérifie que ces deux listes couvrent exactement NOMS_ETAPES : c'est
+ * ce qui garantit qu'aucune étape ajoutée au pipeline ne passera à la trappe.
+ */
+
+/**
+ * Durée typique de chaque étape de génération, en secondes (CDC §7).
+ *
+ * Elles ne servent QU'À la barre de progression, et uniquement à montrer que
+ * l'application n'est pas figée. Une génération dure une à deux minutes sans
+ * rien afficher entre deux étapes : le parent croit que ça a planté.
+ *
+ * Ce sont des ordres de grandeur, pas des mesures : la barre d'une étape en
+ * cours avance vers ces durées sans jamais atteindre sa fin, et c'est le
+ * passage à l'étape suivante qui la termine. Elle ne ment donc jamais en
+ * annonçant « terminé » sur une étape qui tourne encore.
+ */
+export const ETAPES_PROPOSITIONS: NomEtape[] = ['propositions'];
+
+export const ETAPES_ECRITURE: NomEtape[] = [
+  'transposition',
+  'construction',
+  'ecriture',
+  'controles',
+  'relecture',
+  'corrections',
+  'assemblage',
+];
+
+export const DUREES_ETAPES: Record<NomEtape, number> = {
+  propositions: 60,
+  transposition: 60,
+  construction: 50,
+  ecriture: 60,
+  controles: 1,
+  relecture: 25,
+  corrections: 30,
+  assemblage: 1,
+} as const;
+
+/** Mode spectacle (CDC §9). */
+export const PROMPTEUR = {
+  taillePxDefaut: 40,
+  taillePxMin: 28,
+  taillePxMax: 72,
+  /** Appuis ignorés en dessous de ce délai, pour absorber le rebond des pédales. */
+  antiRebondMs: 300,
+} as const;
+
+/** Largeurs de rupture du layout, en pixels (CDC §7). */
+export const RUPTURES = {
+  /** Sous cette largeur, les colonnes latérales deviennent des tiroirs. */
+  tiroirs: 1024,
+  /** Sous cette largeur, navigation par onglets en bas d'écran. */
+  onglets: 700,
+} as const;

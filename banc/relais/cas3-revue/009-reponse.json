@@ -1,0 +1,7 @@
+{"elements": [
+  {"type": "entree", "marionnette": "Mémé Tortue", "main": "M1G"},
+  {"type": "entree", "marionnette": "Pilou le Pingouin", "main": "M1D"},
+  {"type": "replique", "marionnette": "Pilou le Pingouin", "texte": "C'est toi, ma vieille, qui le sauras le mieux ! Il y a justement la foire à la ville. Vas-y à cheval, fais-toi donner de l'argent pour le cheval, ou fais un bon échange. Ce que tu fais est toujours bien fait. Va à la foire !", "ton": "confiant, encourageant"},
+  {"type": "conteur", "texte": "Et il lui noua son foulard, car ça, il savait mieux le faire qu'elle ; il fit un double nœud, ça avait fière allure ; puis il lui épousseta son chapeau du plat de la main, il l'embrassa sur sa bouche bien chaude, et elle partit sur le cheval qu'il fallait vendre ou échanger. Oui, Mémé Tortue, elle s'y connaissait."},
+  {"type": "sortie", "marionnette": "Pilou le Pingouin", "main": "M1D"},
+  {"type": "sortie", "marionnette": "Mémé Tortue", "main": "M1G"}]}

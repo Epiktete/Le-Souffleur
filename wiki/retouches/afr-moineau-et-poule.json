@@ -1,0 +1,9 @@
+{
+  "id": "afr-moineau-et-poule",
+  "langue": [
+    {"avant": "Parce que je ne suis pas telle", "apres": "Parce que je ne suis pas comme ça", "nature": "tournure"},
+    {"avant": "je n’ai que faire de toi", "apres": "je n’ai pas besoin de toi", "nature": "tournure"},
+    {"avant": "Lorsque l’aurore arriva", "apres": "Lorsque le jour se leva", "nature": "mot-rare", "jusqua": 4}
+  ],
+  "moments": []
+}

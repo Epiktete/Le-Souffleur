@@ -1,0 +1,11 @@
+{
+  "id": "fr-fontaine-renard-cigogne",
+  "langue": [
+    {"avant": "Avait un brouet clair ; il vivait chichement.", "apres": "Avait une soupe claire ; il vivait pauvrement.", "nature": "mot-disparu"},
+    {"avant": "Ce brouet fut par lui servi sur une assiette", "apres": "Cette soupe fut par lui servie sur une assiette", "nature": "mot-disparu"},
+    {"avant": "Et le drôle eut lapé le tout en un moment", "apres": "Et le coquin eut lapé le tout en un moment", "nature": "faux-ami"},
+    {"avant": "Loua très-fort sa politesse", "apres": "Vanta très fort sa politesse", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "Il lui fallut à jeun retourner au logis", "apres": "Il lui fallut le ventre vide retourner au logis", "nature": "mot-rare", "jusqua": 6}
+  ],
+  "moments": []
+}

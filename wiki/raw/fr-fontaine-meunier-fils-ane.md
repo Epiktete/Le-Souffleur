@@ -1,0 +1,196 @@
+---
+id: "fr-fontaine-meunier-fils-ane"
+titre: "Le Meunier, son Fils, et l’Âne"
+titre_original: "Le Meunier, son Fils, et l’Âne"
+culture: "France"
+continent: "Europe"
+langue: "fr"
+genre: "fable"
+collecteur: "Jean de La Fontaine, Fables, 1668-1694"
+droits: "La Fontaine (1621-1695) : domaine public"
+source: "https://fr.wikisource.org/wiki/Fables_de_La_Fontaine_(%C3%A9d._1874)%2FLe_Meunier%2C_son_Fils%2C_et_l%E2%80%99%C3%82ne"
+---
+
+Pour les autres éditions de ce texte, voir Le Meunier, son fils et l'Âne.
+
+Livre III
+
+Fables, Bernardin-Béchet, Libraire-Éditeur, 1874 (p. 91-94).
+
+Les Membres et l’Estomac  ►
+
+LIVRE TROISIÈME
+
+I
+
+LE MEUNIER, SON FILS ET L’ÂNE
+
+À M. DE MAUCROIX
+
+L’invention des arts étant un droit d’aînesse,
+
+Nous devons l’apologue à l’ancienne Grèce :
+
+Mais ce champ ne se peut tellement moissonner
+
+Que les derniers venus n’y trouvent à glaner.
+
+La feinte est un pays plein de terres désertes ;
+
+Tous les jours nos auteurs y font des découvertes.
+
+Je t’en veux dire un trait assez bien inventé :
+
+Autrefois à Racan Malherbe l’a conté.
+
+Ces deux rivaux d’Horace, héritiers de sa lyre,
+
+Disciples d’Apollon, nos maîtres, pour mieux dire,
+
+Se rencontrant un jour tout seuls et sans témoins
+
+(Comme ils se confiaient leurs pensers et leurs soins),
+
+Racan commence ainsi : Dites-moi, je vous prie,
+
+Vous qui devez savoir les choses de la vie,
+
+Qui par tous ses degrés avez déjà passé,
+
+Et que rien ne doit fuir en cet âge avancé,
+
+À quoi me résoudrai-je ? Il est temps que j’y pense.
+
+Vous connaissez mon bien, mon talent, ma naissance :
+
+Dois-je dans la province établir mon séjour,
+
+Prendre emploi dans l’armée, ou bien charge à la cour ?
+
+Tout au monde est mêlé d’amertume et de charmes :
+
+La guerre a ses douceurs, l’hymen a ses alarmes.
+
+Si je suivais mon goût, je saurais où buter ;
+
+Mais j’ai les miens, la cour, le peuple à contenter.
+
+Malherbe là-dessus : Contenter tout le monde !
+
+Écoutez ce récit avant que je réponde.
+
+J’ai lu dans quelque endroit qu’un meunier et son fils,
+
+L’un vieillard, l’autre enfant, non pas des plus petits,
+
+Mais garçon de quinze ans, si j’ai bonne mémoire,
+
+Allaient vendre leur âne, un certain jour de foire.
+
+Afin qu’il fût plus frais et de meilleur débit,
+
+On lui lia les pieds, on vous le suspendit ;
+
+Puis cet homme et son fils le portent comme un lustre.
+
+Pauvres gens ! idiots ! couple ignorant et rustre !
+
+Le premier qui les vit de rire s’éclata :
+
+Quelle farce, dit-il, vont jouer ces gens-là ?
+
+Le plus âne des trois n’est pas celui qu’on pense.
+
+Le meunier, à ces mots, connaît son ignorance ;
+
+Il met sur pieds sa bête, et la fait détaler.
+
+L’âne, qui goûtait fort l’autre façon d’aller,
+
+Se plaint en son patois. Le meunier n’en a cure,
+
+Il fait monter son fils, il suit : et, d’aventure,
+
+Passent trois bons marchands. Cet objet leur déplut.
+
+Le plus vieux au garçon s’écria tant qu’il put :
+
+Oh là ! oh ! descendez, que l’on ne vous le dise,
+
+Jeune homme, qui menez laquais à barbe grise !
+
+C’était à vous de suivre, au vieillard de monter.
+
+Messieurs, dit le meunier, il vous faut contenter.
+
+L’enfant met pied à terre, et puis le vieillard monte ;
+
+Quand trois filles passant, l’une dit : C’est grand’honte
+
+Qu’il faille voir ainsi clocher ce jeune fils,
+
+Tandis que ce nigaud, comme un évêque assis,
+
+Fait le veau sur son âne, et pense être bien sage.
+
+Il n’est, dit le meunier, plus de veaux à mon âge :
+
+Passez votre chemin, la fille, et m’en croyez.
+
+Après maints quolibets coup sur coup renvoyés,
+
+L’homme crut avoir tort, et mit son fils en croupe.
+
+Au bout de trente pas, une troisième troupe
+
+Trouve encore à gloser. L’un dit : Ces gens sont fous !
+
+Le baudet n’en peut plus ; il mourra sous leurs coups.
+
+Eh quoi ! charger ainsi cette pauvre bourrique !
+
+N’ont-ils point de pitié de leur vieux domestique ?
+
+Sans doute qu’à la foire ils vont vendre sa peau.
+
+Parbleu ! dit le meunier, est bien fou du cerveau
+
+Qui prétend contenter tout le monde et son père.
+
+Essayons toutefois si par quelque manière
+
+Nous en viendrons à bout. Ils descendent tous deux.
+
+L’âne se prélassant marche seul devant eux.
+
+Un quidam les rencontre et dit : Est-ce la mode
+
+Que baudet aille à l’aise, et meunier s’incommode ?
+
+Qui de l’âne ou du maître est fait pour se lasser ?
+
+Je conseille à ces gens de le faire enchâsser.
+
+Ils usent leurs souliers, et conservent leur âne !
+
+Nicolas, au rebours : car, quand il va voir Jeanne,
+
+Il monte sur sa bête ; et la chanson le dit.
+
+Beau trio de baudets ! le meunier repartit :
+
+Je suis âne, il est vrai, j’en conviens, je l’avoue ;
+
+Mais que dorénavant on me blâme, on me loue,
+
+Qu’on dise quelque chose ou qu’on ne dise rien,
+
+J’en veux faire à ma tête. Il le fit, et fit bien.
+
+Quant à vous, suivez Mars, ou l’Amour, ou le prince ;
+
+Allez, venez, courez ; demeurez en province ;
+
+Prenez femme, abbaye, emploi, gouvernement :
+
+Les gens en parleront, n’en doutez nullement.

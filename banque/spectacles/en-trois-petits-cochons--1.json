@@ -1,0 +1,1018 @@
+{
+  "id": "en-trois-petits-cochons--1",
+  "conteId": "en-trois-petits-cochons",
+  "titre": "Les Trois Petits Cochons",
+  "pitch": "{{r2}} et {{r3}} perdent leurs maisons de paille et d’ajoncs devant {{r4}}. {{r1}}, leur frère, bâtit en briques et déjoue trois rendez-vous avant de vaincre le loup.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "cochon",
+      "famille": "petit",
+      "traits": [
+        "rusé",
+        "travailleur",
+        "courageux"
+      ],
+      "voix": "voix vive et posée, accélère quand il file avant le rendez-vous",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "leur frère",
+            "apres": "leur sœur"
+          },
+          {
+            "id": "a2e17:texte",
+            "avant": "je serai prêt",
+            "apres": "je serai prête"
+          },
+          {
+            "id": "a2e16:texte",
+            "avant": "tu es prêt",
+            "apres": "tu es prête"
+          },
+          {
+            "id": "a2e25:texte",
+            "avant": "tu es prêt",
+            "apres": "tu es prête"
+          },
+          {
+            "id": "a2e23:texte",
+            "avant": "avance seul",
+            "apres": "avance seule"
+          },
+          {
+            "id": "a2e27:texte",
+            "avant": "Prêt !",
+            "apres": "Prête !"
+          },
+          {
+            "id": "a2e27:texte",
+            "avant": "J'y suis allé",
+            "apres": "J'y suis allée"
+          },
+          {
+            "id": "a2e27:texte",
+            "avant": "je suis revenu",
+            "apres": "je suis revenue"
+          },
+          {
+            "id": "a2e36:texte",
+            "avant": "il partit",
+            "apres": "elle partit"
+          },
+          {
+            "id": "a2e36:texte",
+            "avant": "il en descendait",
+            "apres": "elle en descendait"
+          },
+          {
+            "id": "a2e36:texte",
+            "avant": "il vit arriver",
+            "apres": "elle vit arriver"
+          },
+          {
+            "id": "a3e13:texte",
+            "avant": "il vit arriver",
+            "apres": "elle vit arriver"
+          },
+          {
+            "id": "a3e13:texte",
+            "avant": "Il ne savait",
+            "apres": "Elle ne savait"
+          },
+          {
+            "id": "a3e18:texte",
+            "avant": "J'étais allé",
+            "apres": "J'étais allée"
+          },
+          {
+            "id": "a3e18:texte",
+            "avant": "je suis entré",
+            "apres": "je suis entrée"
+          },
+          {
+            "id": "a3e24:texte",
+            "avant": "vécut heureux",
+            "apres": "vécut heureuse"
+          },
+          {
+            "id": "voix:r1",
+            "avant": "il file",
+            "apres": "elle file"
+          },
+          {
+            "id": "a2e41:texte",
+            "avant": "chez lui",
+            "apres": "chez elle"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a2e3:texte",
+          "avant": "le troisième petit cochon",
+          "gabarit": "{le} troisième {petit|petite} {espece}"
+        },
+        {
+          "id": "a2e8:texte",
+          "avant": "Petit cochon, petit cochon",
+          "gabarit": "{Petit|Petite} {espece}, {petit|petite} {espece}"
+        },
+        {
+          "id": "a2e14:texte",
+          "avant": "Petit cochon",
+          "gabarit": "{Petit|Petite} {espece}"
+        },
+        {
+          "id": "a2e25:texte",
+          "avant": "Petit cochon",
+          "gabarit": "{Petit|Petite} {espece}"
+        },
+        {
+          "id": "a2e30:texte",
+          "avant": "Petit cochon",
+          "gabarit": "{Petit|Petite} {espece}"
+        },
+        {
+          "id": "a2e39:texte",
+          "avant": "Petit cochon",
+          "gabarit": "{Petit|Petite} {espece}"
+        },
+        {
+          "id": "a3e4:texte",
+          "avant": "au petit cochon",
+          "gabarit": "{au} {petit|petite} {espece}"
+        },
+        {
+          "id": "a3e7:texte",
+          "avant": "Petit cochon",
+          "gabarit": "{Petit|Petite} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r2",
+      "espece": "cochon",
+      "famille": "petit",
+      "traits": [
+        "naïf",
+        "pressé"
+      ],
+      "voix": "voix claire et pressée, reprend le refrain sans hésiter",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e3:texte",
+            "avant": "le premier enfant",
+            "apres": "la première enfant"
+          },
+          {
+            "id": "a1e19:texte",
+            "avant": "vient d’être mangé",
+            "apres": "vient d’être mangée"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a1e6:texte",
+          "avant": "le petit cochon",
+          "gabarit": "{le} {petit|petite} {espece}"
+        },
+        {
+          "id": "a1e8:texte",
+          "avant": "Petit cochon, petit cochon",
+          "gabarit": "{Petit|Petite} {espece}, {petit|petite} {espece}"
+        },
+        {
+          "id": "a1e10:texte",
+          "avant": "le cochon",
+          "gabarit": "{le} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r3",
+      "espece": "cochon",
+      "famille": "petit",
+      "traits": [
+        "naïf",
+        "bavard"
+      ],
+      "voix": "voix ronde et tranquille, puis rapide devant {{r4}}",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e35:texte",
+            "avant": "vient d’être mangé",
+            "apres": "vient d’être mangée"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a1e21:texte",
+          "avant": "le deuxième petit cochon",
+          "gabarit": "{le} deuxième {petit|petite} {espece}"
+        },
+        {
+          "id": "a1e26:texte",
+          "avant": "Petit cochon, petit cochon",
+          "gabarit": "{Petit|Petite} {espece}, {petit|petite} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r4",
+      "espece": "loup",
+      "famille": "predateur",
+      "traits": [
+        "méchant",
+        "gourmand",
+        "rusé"
+      ],
+      "voix": "voix grave qui souffle longuement sur les mots « je vais souffler »",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2e12:texte",
+            "avant": "Quand il vit que, malgré tous ses souffles, il ne pouvait pas la faire tomber, il dit",
+            "apres": "Quand elle vit que, malgré tous ses souffles, elle ne pouvait pas la faire tomber, elle dit"
+          },
+          {
+            "id": "a2e22:texte",
+            "avant": "(il arriva vers six heures)",
+            "apres": "(elle arriva vers six heures)"
+          },
+          {
+            "id": "a2e36:texte",
+            "avant": "il dit",
+            "apres": "elle dit"
+          },
+          {
+            "id": "a3e8:texte",
+            "avant": "seras-tu prêt",
+            "apres": "seras-tu prête"
+          },
+          {
+            "id": "a3e13:texte",
+            "avant": "qu'il rentra",
+            "apres": "qu'elle rentra"
+          },
+          {
+            "id": "a3e13:texte",
+            "avant": "chez lui",
+            "apres": "chez elle"
+          },
+          {
+            "id": "a3e18:texte",
+            "avant": "je t'ai vu",
+            "apres": "je t'ai vue"
+          },
+          {
+            "id": "a3e24:texte",
+            "avant": "ce qu'il préparait",
+            "apres": "ce qu'elle préparait"
+          },
+          {
+            "id": "a3e24:texte",
+            "avant": "le mangea",
+            "apres": "la mangea"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "avant lui",
+            "apres": "avant elle"
+          },
+          {
+            "id": "a1e17:texte",
+            "avant": "il mangea",
+            "apres": "elle mangea"
+          },
+          {
+            "id": "a1e33:texte",
+            "avant": "il mangea",
+            "apres": "elle mangea"
+          },
+          {
+            "id": "a2e12:texte",
+            "avant": "Mais il ne put",
+            "apres": "Mais elle ne put"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "pitch",
+          "avant": "le loup",
+          "gabarit": "{le} {espece}"
+        },
+        {
+          "id": "a1e6:texte",
+          "avant": "un loup",
+          "gabarit": "{un} {espece}"
+        },
+        {
+          "id": "a1e13:texte",
+          "avant": "le loup",
+          "gabarit": "{le} {espece}"
+        },
+        {
+          "id": "a2e6:texte",
+          "avant": "Le loup",
+          "gabarit": "{Le} {espece}"
+        },
+        {
+          "id": "a2e36:texte",
+          "avant": "du loup",
+          "gabarit": "{du} {espece}"
+        },
+        {
+          "id": "a3e13:texte",
+          "avant": "au loup",
+          "gabarit": "{au} {espece}"
+        }
+      ]
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 13,
+    "ageAuditoire": 9,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La paille et les ajoncs",
+      "description": "Posez un torchon clair derrière la table pour la première maison. Un coussin vert posé plus loin indique la seconde. Les maisons s’envolent par le souffle du parent et les paroles du conteur.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "La maison de briques et les sorties",
+      "description": "Un carton solide posé derrière la table représente la maison de briques. Un coussin à gauche suffit pour suggérer le champ et le pommier quand {{r1}} sort. Les navets et les pommes existent par les paroles, sans objets à manipuler.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t3",
+      "titre": "La foire et la cheminée",
+      "description": "Gardez le carton de la maison. Un coin libre de la table figure la colline ; la baratte est évoquée par le récit, sans accessoire. Sous la table se trouve la cheminée et la marmite imaginaires où {{r4}} disparaît.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Deux maisons envolées",
+      "tableauId": "t1",
+      "resume": "{{r2}} bâtit en paille ; {{r3}} bâtit en ajoncs. {{r4}} souffle sur les deux maisons et mange les deux enfants.",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Il était une fois une vieille mère qui avait trois enfants, et comme elle n'avait pas assez pour les nourrir, elle les envoya chercher fortune."
+        },
+        {
+          "id": "a1e2",
+          "type": "note_marionnettiste",
+          "texte": "La mère reste dans la narration. Sortez {{r2}} pour sa première réplique."
+        },
+        {
+          "id": "a1e3",
+          "type": "conteur",
+          "texte": "{{r2}}, le premier enfant qui partit, rencontra un homme avec une botte de paille, et lui dit :"
+        },
+        {
+          "id": "a1e4",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e5",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "S'il vous plaît, monsieur, donnez-moi cette paille pour me construire une maison."
+        },
+        {
+          "id": "a1e6",
+          "type": "conteur",
+          "texte": "L'homme la lui donna, et le petit cochon {{r2}} se construisit une maison de paille. Bientôt arriva un loup, {{r4}}, qui frappa à la porte et dit :"
+        },
+        {
+          "id": "a1e7",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e8",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Petit cochon, petit cochon, laisse-moi entrer."
+        },
+        {
+          "id": "a1e9",
+          "type": "didascalie",
+          "texte": "{{r4}} s’approche de {{r2}} et s’arrête près de la maison."
+        },
+        {
+          "id": "a1e10",
+          "type": "conteur",
+          "texte": "À quoi le cochon répondit :"
+        },
+        {
+          "id": "a1e11",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Non, non, par les poils de mon petit menton !"
+        },
+        {
+          "id": "a1e12",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Dites mon refrain avec moi : non, non, par les poils de mon petit menton !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e13",
+          "type": "conteur",
+          "texte": "Alors le loup répondit :"
+        },
+        {
+          "id": "a1e14",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Alors je vais souffler, et je vais souffler, et ta maison va s'envoler !"
+        },
+        {
+          "id": "a1e15",
+          "type": "adresse_public",
+          "marionnetteId": "r4",
+          "texte": "Soufflez avec moi : ouh, ouh !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e16",
+          "type": "didascalie",
+          "texte": "{{r4}} se penche vers la maison. Faites deux longs souffles à la voix : « ffff ! »"
+        },
+        {
+          "id": "a1e17",
+          "type": "conteur",
+          "texte": "Et la maison s'envola, et il mangea {{r2}}."
+        },
+        {
+          "id": "a1e18",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e19",
+          "type": "note_marionnettiste",
+          "texte": "{{r2}} vient d’être mangé. Rangez sa peluche avant la maison suivante."
+        },
+        {
+          "id": "a1e20",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e21",
+          "type": "conteur",
+          "texte": "{{r3}}, le deuxième petit cochon, rencontra un homme avec un fagot d'ajoncs, et dit :"
+        },
+        {
+          "id": "a1e22",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e23",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "S'il vous plaît, monsieur, donnez-moi ces ajoncs pour me construire une maison."
+        },
+        {
+          "id": "a1e24",
+          "type": "conteur",
+          "texte": "L'homme les lui donna, et {{r3}} se construisit sa maison. Alors arriva {{r4}}, qui dit :"
+        },
+        {
+          "id": "a1e25",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e26",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Petit cochon, petit cochon, laisse-moi entrer."
+        },
+        {
+          "id": "a1e27",
+          "type": "didascalie",
+          "texte": "{{r4}} s’approche de {{r3}} et s’arrête près de la maison."
+        },
+        {
+          "id": "a1e28",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Non, non, par les poils de mon petit menton !"
+        },
+        {
+          "id": "a1e29",
+          "type": "adresse_public",
+          "marionnetteId": "r3",
+          "texte": "Encore une fois : non, non, par les poils de mon petit menton !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e30",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Alors je vais souffler, et je vais souffler, et ta maison va s'envoler !"
+        },
+        {
+          "id": "a1e31",
+          "type": "adresse_public",
+          "marionnetteId": "r4",
+          "texte": "Soufflez encore avec moi : ouh, ouh, ouh !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e32",
+          "type": "didascalie",
+          "texte": "{{r4}} se penche vers la maison. Faites trois longs souffles à la voix : « ffff ! »"
+        },
+        {
+          "id": "a1e33",
+          "type": "conteur",
+          "texte": "Et à la fin la maison s'envola, et il mangea {{r3}}."
+        },
+        {
+          "id": "a1e34",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e35",
+          "type": "note_marionnettiste",
+          "texte": "{{r3}} vient d’être mangé. Rangez sa peluche avant la maison suivante."
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Une maison qui tient",
+      "tableauId": "t2",
+      "resume": "{{r1}} bâtit en briques. {{r4}} ne peut pas abattre la maison et tente les navets puis les pommes ; {{r1}} arrive avant lui.",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e2",
+          "type": "note_marionnettiste",
+          "texte": "Laissez une respiration avant la suite."
+        },
+        {
+          "id": "a2e3",
+          "type": "conteur",
+          "texte": "{{r1}}, le troisième petit cochon, rencontra un homme avec un chargement de briques, et dit :"
+        },
+        {
+          "id": "a2e4",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e5",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "S'il vous plaît, monsieur, donnez-moi ces briques pour me construire une maison."
+        },
+        {
+          "id": "a2e6",
+          "type": "conteur",
+          "texte": "L'homme lui donna les briques, et {{r1}} construisit sa maison avec. Le loup {{r4}} vint, comme chez les deux autres enfants, et dit :"
+        },
+        {
+          "id": "a2e7",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e8",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Petit cochon, petit cochon, laisse-moi entrer."
+        },
+        {
+          "id": "a2e9",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Non, non, par les poils de mon petit menton !"
+        },
+        {
+          "id": "a2e10",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Alors je vais souffler, et je vais souffler, et ta maison va s'envoler !"
+        },
+        {
+          "id": "a2e11",
+          "type": "didascalie",
+          "texte": "{{r4}} se penche vers la maison. Faites cinq longs souffles à la voix : « ffff ! »"
+        },
+        {
+          "id": "a2e12",
+          "type": "conteur",
+          "texte": "Mais il ne put pas faire tomber la maison. Quand il vit que, malgré tous ses souffles, il ne pouvait pas la faire tomber, il dit :"
+        },
+        {
+          "id": "a2e13",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Vous pouvez dire le refrain avec moi : non, non, par les poils de mon petit menton !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e14",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Petit cochon, je sais où il y a un beau champ de navets."
+        },
+        {
+          "id": "a2e15",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Où ça ?"
+        },
+        {
+          "id": "a2e16",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Oh, dans le grand champ de monsieur Smith. Si tu es prêt demain matin, je passerai te chercher, et nous irons ensemble en prendre pour le dîner."
+        },
+        {
+          "id": "a2e17",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Très bien, je serai prêt. À quelle heure veux-tu y aller ?"
+        },
+        {
+          "id": "a2e18",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Oh, à six heures."
+        },
+        {
+          "id": "a2e19",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Comptez les heures avec moi : cinq, puis six !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e20",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e21",
+          "type": "note_marionnettiste",
+          "texte": "Laissez une courte respiration avant le rendez-vous suivant."
+        },
+        {
+          "id": "a2e22",
+          "type": "conteur",
+          "texte": "Eh bien, {{r1}} se leva à cinq heures, et alla chercher les navets avant que {{r4}} n'arrive (il arriva vers six heures), et {{r4}} dit :"
+        },
+        {
+          "id": "a2e23",
+          "type": "didascalie",
+          "texte": "{{r1}} avance seul au bord du carton et hoche la tête."
+        },
+        {
+          "id": "a2e24",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e25",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Petit cochon, tu es prêt ?"
+        },
+        {
+          "id": "a2e26",
+          "type": "conteur",
+          "texte": "{{r1}} répondit :"
+        },
+        {
+          "id": "a2e27",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Prêt ! J'y suis allé, je suis revenu, et j'ai une bonne marmite pleine pour le dîner."
+        },
+        {
+          "id": "a2e28",
+          "type": "conteur",
+          "texte": "{{r4}} fut très en colère."
+        },
+        {
+          "id": "a2e29",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "ton": "à voix basse, pour soi",
+          "texte": "Je finirai bien par avoir {{r1}} d'une façon ou d'une autre."
+        },
+        {
+          "id": "a2e30",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Petit cochon, je sais où il y a un beau pommier."
+        },
+        {
+          "id": "a2e31",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Où ça ?"
+        },
+        {
+          "id": "a2e32",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Là-bas, au Jardin-Joyeux. Et si tu ne me joues pas de tour, je passerai te prendre demain à cinq heures pour aller chercher des pommes."
+        },
+        {
+          "id": "a2e33",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Répétez avec moi : quatre heures, avant cinq heures !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e34",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e35",
+          "type": "note_marionnettiste",
+          "texte": "Laissez une courte respiration avant le rendez-vous suivant."
+        },
+        {
+          "id": "a2e36",
+          "type": "conteur",
+          "texte": "Eh bien, {{r1}} se dépêcha le lendemain matin : il partit à quatre heures chercher les pommes, en espérant être de retour avant l'arrivée du loup. Mais c'était plus loin, et il fallut grimper dans l'arbre, si bien qu'au moment où il en descendait, il vit arriver {{r4}} — ce qui, vous pouvez l'imaginer, lui fit très peur. Quand {{r4}} arriva, il dit :"
+        },
+        {
+          "id": "a2e37",
+          "type": "didascalie",
+          "texte": "{{r1}} avance vers le côté du pommier puis recule vite."
+        },
+        {
+          "id": "a2e38",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e39",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Petit cochon ! Quoi, tu es là avant moi ? Elles sont bonnes, ces pommes ?"
+        },
+        {
+          "id": "a2e40",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oui, très. Je vais t'en faire rouler une."
+        },
+        {
+          "id": "a2e41",
+          "type": "conteur",
+          "texte": "Et la pomme roula si loin que, pendant que {{r4}} allait la chercher, {{r1}} sauta de l'arbre et courut chez lui."
+        },
+        {
+          "id": "a2e42",
+          "type": "didascalie",
+          "texte": "{{r1}} se redresse derrière le carton."
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "La baratte et la cheminée",
+      "tableauId": "t3",
+      "resume": "{{r1}} devance encore {{r4}} à la foire. Une baratte effraie {{r4}}, qui descend finalement par la cheminée et finit dans la marmite.",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e2",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e3",
+          "type": "note_marionnettiste",
+          "texte": "Laissez une respiration avant la suite."
+        },
+        {
+          "id": "a3e4",
+          "type": "conteur",
+          "texte": "Le lendemain, {{r4}} revint et dit au petit cochon :"
+        },
+        {
+          "id": "a3e5",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e6",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e7",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Petit cochon, il y a une foire à Shanklin cet après-midi, tu veux venir ?"
+        },
+        {
+          "id": "a3e8",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oh oui, je viendrai. À quelle heure seras-tu prêt ?"
+        },
+        {
+          "id": "a3e9",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "À trois heures."
+        },
+        {
+          "id": "a3e10",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Pour la foire, dites avec moi : trois heures !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e11",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e12",
+          "type": "note_marionnettiste",
+          "texte": "Laissez une courte respiration avant le rendez-vous suivant."
+        },
+        {
+          "id": "a3e13",
+          "type": "conteur",
+          "texte": "Alors {{r1}} partit en avance, comme d'habitude, arriva à la foire, et acheta une baratte à beurre. Sur le chemin du retour, il vit arriver {{r4}}. Il ne savait plus quoi faire. Alors {{r1}} se cacha dans la baratte. Elle bascula et dévala la colline avec {{r1}} dedans ; ce qui fit si peur au loup qu'il rentra chez lui sans aller à la foire."
+        },
+        {
+          "id": "a3e14",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne vers les enfants."
+        },
+        {
+          "id": "a3e15",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e16",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "J'ai eu peur d'une grosse chose ronde qui a dévalé la colline à côté de moi."
+        },
+        {
+          "id": "a3e17",
+          "type": "conteur",
+          "texte": "Alors {{r1}} dit :"
+        },
+        {
+          "id": "a3e18",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ha ! C'est donc moi qui t'ai fait peur. J'étais allé à la foire, j'avais acheté une baratte, et quand je t'ai vu, je suis entré dedans et j'ai roulé jusqu'en bas de la colline."
+        },
+        {
+          "id": "a3e19",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites le bruit de la baratte qui roule : brrr !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e20",
+          "type": "conteur",
+          "texte": "Alors {{r4}} fut vraiment très en colère."
+        },
+        {
+          "id": "a3e21",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Je vais te manger ! Je descendrai par la cheminée pour t'attraper !"
+        },
+        {
+          "id": "a3e22",
+          "type": "didascalie",
+          "texte": "{{r4}} s’approche du bord du carton et se penche."
+        },
+        {
+          "id": "a3e23",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e24",
+          "type": "conteur",
+          "texte": "Quand {{r1}} vit ce qu'il préparait, la marmite pleine d'eau était dans la cheminée et un grand feu brûlait. Et juste au moment où {{r4}} descendait, le couvercle était ôté, et {{r4}} tomba dedans. Le couvercle retomba aussitôt. {{r1}} fit bouillir {{r4}} et le mangea au dîner, et vécut heureux pour toujours."
+        },
+        {
+          "id": "a3e25",
+          "type": "didascalie",
+          "texte": "{{r1}} s’incline doucement vers les enfants."
+        },
+        {
+          "id": "a3e26",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "en-trois-petits-cochons",
+    "synopsis": {
+      "accroche": "Une maison de briques résiste au souffle, mais le loup n’abandonne pas.",
+      "resume": [
+        "{{r2}} et {{r3}} sont mangés après la chute de leurs maisons.",
+        "{{r1}} résiste dans sa maison de briques et arrive avant le loup aux navets, aux pommes et à la foire.",
+        "Le loup descend par la cheminée ; {{r1}} le fait bouillir et le mange."
+      ]
+    },
+    "transposition": {
+      "texte": "Il était une fois une vieille mère qui avait trois enfants, et comme elle n'avait pas assez pour les nourrir, elle les envoya chercher fortune.\n\n{{r2}}, le premier enfant qui partit, rencontra un homme avec une botte de paille, et lui dit :\n\n— S'il vous plaît, monsieur, donnez-moi cette paille pour me construire une maison.\n\nL'homme la lui donna, et le petit cochon {{r2}} se construisit une maison de paille. Bientôt arriva un loup, {{r4}}, qui frappa à la porte et dit :\n\n— Petit cochon, petit cochon, laisse-moi entrer.\n\nÀ quoi le cochon répondit :\n\n— Non, non, par les poils de mon petit menton !\n\nAlors le loup répondit :\n\n— Alors je vais souffler, et je vais souffler, et ta maison va s'envoler !\n\nEt il souffla, et il souffla, et la maison s'envola, et il mangea {{r2}}.\n\n{{r3}}, le deuxième petit cochon, rencontra un homme avec un fagot d'ajoncs, et dit :\n\n— S'il vous plaît, monsieur, donnez-moi ces ajoncs pour me construire une maison.\n\nL'homme les lui donna, et {{r3}} se construisit sa maison. Alors arriva {{r4}}, qui dit :\n\n— Petit cochon, petit cochon, laisse-moi entrer.\n\n— Non, non, par les poils de mon petit menton !\n\n— Alors je vais souffler, et je vais souffler, et ta maison va s'envoler !\n\nEt il souffla, et il souffla, et il souffla encore, et à la fin la maison s'envola, et il mangea {{r3}}.\n\n{{r1}}, le troisième petit cochon, rencontra un homme avec un chargement de briques, et dit :\n\n— S'il vous plaît, monsieur, donnez-moi ces briques pour me construire une maison.\n\nL'homme lui donna les briques, et {{r1}} construisit sa maison avec. Le loup {{r4}} vint, comme chez les deux autres enfants, et dit :\n\n— Petit cochon, petit cochon, laisse-moi entrer.\n\n— Non, non, par les poils de mon petit menton !\n\n— Alors je vais souffler, et je vais souffler, et ta maison va s'envoler !\n\nEh bien, il souffla, et il souffla, et il souffla, et il souffla encore et encore ; mais il ne put pas faire tomber la maison. Quand il vit que, malgré tous ses souffles, il ne pouvait pas la faire tomber, il dit :\n\n— Petit cochon, je sais où il y a un beau champ de navets.\n\n— Où ça ? dit {{r1}}.\n\n— Oh, dans le grand champ de monsieur Smith. Si tu es prêt demain matin, je passerai te chercher, et nous irons ensemble en prendre pour le dîner.\n\n— Très bien, dit {{r1}}, je serai prêt. À quelle heure veux-tu y aller ?\n\n— Oh, à six heures.\n\nEh bien, {{r1}} se leva à cinq heures, et alla chercher les navets avant que {{r4}} n'arrive (il arriva vers six heures), et {{r4}} dit :\n\n— Petit cochon, tu es prêt ?\n\n{{r1}} répondit :\n\n— Prêt ! J'y suis allé, je suis revenu, et j'ai une bonne marmite pleine pour le dîner.\n\n{{r4}} fut très en colère, mais il pensa qu'il finirait bien par avoir {{r1}} d'une façon ou d'une autre. Alors il dit :\n\n— Petit cochon, je sais où il y a un beau pommier.\n\n— Où ça ? dit {{r1}}.\n\n— Là-bas, au Jardin-Joyeux, répondit {{r4}}. Et si tu ne me joues pas de tour, je passerai te prendre demain à cinq heures pour aller chercher des pommes.\n\nEh bien, {{r1}} se dépêcha le lendemain matin : il partit à quatre heures chercher les pommes, en espérant être de retour avant l'arrivée du loup. Mais c'était plus loin, et il fallut grimper dans l'arbre, si bien qu'au moment où il en descendait, il vit arriver {{r4}} — ce qui, vous pouvez l'imaginer, lui fit très peur. Quand {{r4}} arriva, il dit :\n\n— Petit cochon ! Quoi, tu es là avant moi ? Elles sont bonnes, ces pommes ?\n\n— Oui, très, dit {{r1}}. Je vais t'en faire rouler une.\n\nEt la pomme roula si loin que, pendant que {{r4}} allait la chercher, {{r1}} sauta de l'arbre et courut chez lui.\n\nLe lendemain, {{r4}} revint et dit au petit cochon :\n\n— Petit cochon, il y a une foire à Shanklin cet après-midi, tu veux venir ?\n\n— Oh oui, dit {{r1}}, je viendrai. À quelle heure seras-tu prêt ?\n\n— À trois heures, dit {{r4}}.\n\nAlors {{r1}} partit en avance, comme d'habitude, arriva à la foire, et acheta une baratte à beurre. Sur le chemin du retour, il vit arriver {{r4}}. Il ne savait plus quoi faire. Alors {{r1}} se cacha dans la baratte. Elle bascula et dévala la colline avec {{r1}} dedans ; ce qui fit si peur au loup qu'il rentra chez lui sans aller à la foire. Il alla chez {{r1}} et lui raconta comme il avait eu peur d'une grosse chose ronde qui avait dévalé la colline à côté de lui. Alors {{r1}} dit :\n\n— Ha ! C'est donc moi qui t'ai fait peur. J'étais allé à la foire, j'avais acheté une baratte, et quand je t'ai vu, je suis entré dedans et j'ai roulé jusqu'en bas de la colline.\n\nAlors {{r4}} fut vraiment très en colère. Il déclara qu'il allait manger {{r1}}, et qu'il descendrait par la cheminée pour l'attraper. Quand {{r1}} vit ce qu'il préparait, la marmite pleine d'eau était dans la cheminée et un grand feu brûlait. Et juste au moment où {{r4}} descendait, le couvercle était ôté, et {{r4}} tomba dedans. Le couvercle retomba aussitôt. {{r1}} fit bouillir {{r4}} et le mangea au dîner, et vécut heureux pour toujours."
+    }
+  },
+  "dureeEstimeeSecondes": 625,
+  "interactionsOrdonnees": [
+    "a2e13",
+    "a1e12",
+    "a1e29",
+    "a1e15",
+    "a1e31",
+    "a3e19",
+    "a2e19",
+    "a2e33",
+    "a3e10"
+  ]
+}

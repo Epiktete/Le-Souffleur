@@ -1,0 +1,1337 @@
+{
+  "id": "de-tracassin--1",
+  "conteId": "de-tracassin",
+  "titre": "Tracassin",
+  "pitch": "Le meunier {{r4}} vante le talent de {{r1}} au roi {{r3}} ; le lutin {{r2}} file la paille en or et réclame un prix terrible. Le messager {{r5}} découvre son nom secret.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "fille",
+      "famille": "enfant",
+      "traits": [
+        "courageux",
+        "peureux"
+      ],
+      "voix": "voix claire, d’abord tremblante, puis décidée",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a1e7:texte",
+            "avant": "amène-la",
+            "apres": "amène-le"
+          },
+          {
+            "id": "a1e7:texte",
+            "avant": "je la mettrai",
+            "apres": "je le mettrai"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "est enfermée",
+            "apres": "est enfermé"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "pour elle",
+            "apres": "pour lui"
+          },
+          {
+            "id": "a1e15:texte",
+            "avant": "elle resta seule",
+            "apres": "il resta seul"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "la conduisit",
+            "apres": "le conduisit"
+          },
+          {
+            "id": "a1e17:texte",
+            "avant": "Elle n'avait",
+            "apres": "Il n'avait"
+          },
+          {
+            "id": "a1e17:texte",
+            "avant": "elle se mit à pleurer",
+            "apres": "il se mit à pleurer"
+          },
+          {
+            "id": "a1e20:texte",
+            "avant": "mademoiselle la meunière",
+            "apres": "monsieur le meunier"
+          },
+          {
+            "id": "a2e17:texte",
+            "avant": "mon épouse",
+            "apres": "mon époux"
+          },
+          {
+            "id": "a2e21:texte",
+            "avant": "fut seule",
+            "apres": "fut seul"
+          },
+          {
+            "id": "a2e25:texte",
+            "avant": "tu seras reine",
+            "apres": "tu seras roi"
+          },
+          {
+            "id": "a2e30:texte",
+            "avant": "devint reine",
+            "apres": "devint roi"
+          },
+          {
+            "id": "a3e2:texte",
+            "avant": "elle mit au monde",
+            "apres": "il eut"
+          },
+          {
+            "id": "a3e2:texte",
+            "avant": "elle ne pensait",
+            "apres": "il ne pensait"
+          },
+          {
+            "id": "a3e6:texte",
+            "avant": "La reine",
+            "apres": "Le roi"
+          },
+          {
+            "id": "a3e10:texte",
+            "avant": "la reine",
+            "apres": "le roi"
+          },
+          {
+            "id": "a3e14:texte",
+            "avant": "la reine",
+            "apres": "le roi"
+          },
+          {
+            "id": "a3e14:texte",
+            "avant": "qu'elle avait",
+            "apres": "qu'il avait"
+          },
+          {
+            "id": "a3e14:texte",
+            "avant": "elle envoya",
+            "apres": "il envoya"
+          },
+          {
+            "id": "a3e10:texte",
+            "avant": "pitié d'elle",
+            "apres": "pitié de lui"
+          },
+          {
+            "id": "a3e20:texte",
+            "avant": "elle fit demander",
+            "apres": "il fit demander"
+          },
+          {
+            "id": "a3e20:texte",
+            "avant": "elle proposa",
+            "apres": "il proposa"
+          },
+          {
+            "id": "a4e8:texte",
+            "avant": "de la reine",
+            "apres": "du roi"
+          },
+          {
+            "id": "a4e10:texte",
+            "avant": "la reine",
+            "apres": "le roi"
+          },
+          {
+            "id": "a4e10:texte",
+            "avant": "fut contente",
+            "apres": "fut content"
+          },
+          {
+            "id": "a4e13:texte",
+            "avant": "madame la reine",
+            "apres": "monsieur le roi"
+          },
+          {
+            "id": "a4e14:texte",
+            "avant": "Elle demanda",
+            "apres": "Il demanda"
+          },
+          {
+            "id": "t3:titre",
+            "avant": "de la reine",
+            "apres": "du roi"
+          },
+          {
+            "id": "t3:description",
+            "avant": "de la reine",
+            "apres": "du roi"
+          },
+          {
+            "id": "t4:description",
+            "avant": "de la reine",
+            "apres": "du roi"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "Devenue reine",
+            "apres": "Devenu roi"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "Elle tente",
+            "apres": "Il tente"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "une très belle fille",
+            "apres": "un très beau fils"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "une fille",
+            "apres": "un fils"
+          },
+          {
+            "id": "a1e7:texte",
+            "avant": "ta fille",
+            "apres": "ton fils"
+          },
+          {
+            "id": "a1e17:texte",
+            "avant": "la pauvre fille",
+            "apres": "le pauvre fils"
+          },
+          {
+            "id": "a2e2:texte",
+            "avant": "la fille",
+            "apres": "le fils"
+          },
+          {
+            "id": "a2e13:texte",
+            "avant": "la fille",
+            "apres": "le fils"
+          },
+          {
+            "id": "a2e19:texte",
+            "avant": "une fille",
+            "apres": "un fils"
+          },
+          {
+            "id": "a2e30:texte",
+            "avant": "la belle fille",
+            "apres": "le beau fils"
+          },
+          {
+            "id": "a2e28:texte",
+            "avant": "elle ne voyait",
+            "apres": "il ne voyait"
+          },
+          {
+            "id": "a2e28:texte",
+            "avant": "elle promit",
+            "apres": "il promit"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r2",
+      "espece": "lutin",
+      "famille": "feerique",
+      "traits": [
+        "rusé",
+        "farceur",
+        "méchant"
+      ],
+      "voix": "voix aiguë et rapide ; chante sa comptine en sautillant",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2e13:texte",
+            "avant": "il avait filé",
+            "apres": "elle avait filé"
+          },
+          {
+            "id": "a3e2:texte",
+            "avant": "il entra",
+            "apres": "elle entra"
+          },
+          {
+            "id": "a3e23:texte",
+            "avant": "il répondait",
+            "apres": "elle répondait"
+          },
+          {
+            "id": "a4e7:texte",
+            "avant": "Il sautillait",
+            "apres": "Elle sautillait"
+          },
+          {
+            "id": "a4e26:texte",
+            "avant": "il frappa",
+            "apres": "elle frappa"
+          },
+          {
+            "id": "a4e26:texte",
+            "avant": "qu'il s'y enfonça",
+            "apres": "qu'elle s'y enfonça"
+          },
+          {
+            "id": "a4e26:texte",
+            "avant": "il se déchira lui-même",
+            "apres": "elle se déchira elle-même"
+          },
+          {
+            "id": "a4:resume",
+            "avant": "lui-même",
+            "apres": "elle-même"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "pitch",
+          "avant": "le lutin",
+          "gabarit": "{le} {espece}"
+        },
+        {
+          "id": "a1:resume",
+          "avant": "le lutin",
+          "gabarit": "{le} {espece}"
+        },
+        {
+          "id": "a1e17:texte",
+          "avant": "un petit lutin",
+          "gabarit": "{un} {petit|petite} {espece}"
+        },
+        {
+          "id": "a2e21:texte",
+          "avant": "le petit lutin",
+          "gabarit": "{le} {petit|petite} {espece}"
+        },
+        {
+          "id": "a2e30:texte",
+          "avant": "le petit lutin",
+          "gabarit": "{le} {petit|petite} {espece}"
+        },
+        {
+          "id": "a3e2:texte",
+          "avant": "au petit lutin",
+          "gabarit": "{au} {petit|petite} {espece}"
+        },
+        {
+          "id": "a3e10:texte",
+          "avant": "le petit lutin",
+          "gabarit": "{le} {petit|petite} {espece}"
+        },
+        {
+          "id": "a3e14:texte",
+          "avant": "le petit lutin",
+          "gabarit": "{le} {petit|petite} {espece}"
+        },
+        {
+          "id": "a3e20:texte",
+          "avant": "au petit lutin",
+          "gabarit": "{au} {petit|petite} {espece}"
+        },
+        {
+          "id": "a4e7:texte",
+          "avant": "un petit lutin",
+          "gabarit": "{un} {petit|petite} {espece}"
+        },
+        {
+          "id": "a4e10:texte",
+          "avant": "le petit lutin",
+          "gabarit": "{le} {petit|petite} {espece}"
+        },
+        {
+          "id": "a1e24:texte",
+          "avant": "au petit lutin",
+          "gabarit": "{au} {petit|petite} {espece}"
+        },
+        {
+          "id": "a2e13:texte",
+          "avant": "au petit lutin",
+          "gabarit": "{au} {petit|petite} {espece}"
+        },
+        {
+          "id": "a2e8:texte",
+          "avant": "le petit lutin",
+          "gabarit": "{le} {petit|petite} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r3",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "avare",
+        "orgueilleux"
+      ],
+      "voix": "voix grave, sèche, de plus en plus pressée",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "au roi",
+            "apres": "à la reine"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "le roi",
+            "apres": "la reine"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "Le roi",
+            "apres": "La reine"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "le roi",
+            "apres": "la reine"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "Le roi",
+            "apres": "La reine"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "il ",
+            "apres": "elle "
+          },
+          {
+            "id": "a2e2:texte",
+            "avant": "le roi",
+            "apres": "la reine"
+          },
+          {
+            "id": "a2e2:texte",
+            "avant": "il vit l'or",
+            "apres": "elle vit l'or"
+          },
+          {
+            "id": "a2e2:texte",
+            "avant": "il fut étonné et ravi",
+            "apres": "elle fut étonnée et ravie"
+          },
+          {
+            "id": "a2e2:texte",
+            "avant": "Il fit conduire",
+            "apres": "Elle fit conduire"
+          },
+          {
+            "id": "a2e13:texte",
+            "avant": "Le roi",
+            "apres": "La reine"
+          },
+          {
+            "id": "a2e13:texte",
+            "avant": "fut enchanté",
+            "apres": "fut enchantée"
+          },
+          {
+            "id": "a2e13:texte",
+            "avant": "il n'avait",
+            "apres": "elle n'avait"
+          },
+          {
+            "id": "a2e13:texte",
+            "avant": "Il fit conduire",
+            "apres": "Elle fit conduire"
+          },
+          {
+            "id": "a2e30:texte",
+            "avant": "le roi",
+            "apres": "la reine"
+          },
+          {
+            "id": "a2e30:texte",
+            "avant": "il l'avait souhaité",
+            "apres": "elle l'avait souhaité"
+          },
+          {
+            "id": "a2e30:texte",
+            "avant": "il l'épousa",
+            "apres": "elle l'épousa"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r4",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "vantard",
+        "bavard"
+      ],
+      "voix": "voix sonore, qui enfle quand il se vante",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "Le meunier",
+            "apres": "La meunière"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "Le meunier",
+            "apres": "La meunière"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "un meunier",
+            "apres": "une meunière"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "qu'il eut à parler",
+            "apres": "qu'elle eut à parler"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "il lui dit",
+            "apres": "elle lui dit"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "au meunier",
+            "apres": "à la meunière"
+          },
+          {
+            "id": "a1e17:texte",
+            "avant": "du meunier",
+            "apres": "de la meunière"
+          },
+          {
+            "id": "a2e2:texte",
+            "avant": "du meunier",
+            "apres": "de la meunière"
+          },
+          {
+            "id": "a2e13:texte",
+            "avant": "du meunier",
+            "apres": "de la meunière"
+          },
+          {
+            "id": "a2e19:texte",
+            "avant": "de meunier",
+            "apres": "de meunière"
+          },
+          {
+            "id": "a2e30:texte",
+            "avant": "du meunier",
+            "apres": "de la meunière"
+          },
+          {
+            "id": "voix:r4",
+            "avant": "il se vante",
+            "apres": "elle se vante"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r5",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "curieux",
+        "observateur"
+      ],
+      "voix": "voix claire, qui prend son temps pour raconter",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "Le messager",
+            "apres": "La messagère"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "le messager",
+            "apres": "la messagère"
+          },
+          {
+            "id": "a4e2:texte",
+            "avant": "le messager",
+            "apres": "la messagère"
+          },
+          {
+            "id": "t4:description",
+            "avant": "le messager",
+            "apres": "la messagère"
+          },
+          {
+            "id": "a3e14:texte",
+            "avant": "un messager",
+            "apres": "une messagère"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 13,
+    "ageAuditoire": 7,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La vantardise et le château",
+      "description": "Un carton posé derrière la table représente le château. Un torchon brun étalé devant figure la paille. Le parent peut jouer sans décor : les mots du conte suffisent.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "Les trois chambres de paille",
+      "description": "Gardez le torchon brun à la même place. Deux coussins posés de part et d’autre encadrent les chambres ; leur grandeur change dans le récit. Le rouet et les bijoux existent par les paroles.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t3",
+      "titre": "La chambre de la reine",
+      "description": "Retirez le torchon avant de jouer et posez un coussin clair derrière la table. Il représente la chambre de la reine. L’enfant reste invisible, évoqué seulement par les paroles.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t4",
+      "titre": "Le nom trouvé",
+      "description": "Le même coussin clair sert à la chambre de la reine. Un coin libre de la table représente la montagne que décrit le messager. Le feu et le chant existent par sa voix.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Une vantardise qui enferme {{r1}}",
+      "tableauId": "t1",
+      "resume": "Le meunier {{r4}} se vante devant le roi {{r3}}. {{r1}} est enfermée avec la paille ; le lutin {{r2}} file pour elle contre son collier.",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Il était une fois un meunier {{r4}} qui était pauvre, mais qui avait une très belle fille. Or il arriva qu'il eut à parler avec le roi {{r3}}, et pour se donner de l'importance, il lui dit :"
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e3",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e4",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "J'ai une fille qui sait filer la paille et en faire de l'or."
+        },
+        {
+          "id": "a1e5",
+          "type": "conteur",
+          "texte": "Le roi {{r3}} dit au meunier {{r4}} :"
+        },
+        {
+          "id": "a1e6",
+          "type": "didascalie",
+          "texte": "{{r4}} se redresse ; {{r3}} se tourne vers {{r4}}."
+        },
+        {
+          "id": "a1e7",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Voilà un talent qui me plaît beaucoup. Si ta fille est aussi habile que tu le dis, amène-la demain à mon château, je la mettrai à l'épreuve."
+        },
+        {
+          "id": "a1e8",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e9",
+          "type": "note_marionnettiste",
+          "texte": "Laissez une courte respiration pour changer de peluche."
+        },
+        {
+          "id": "a1e10",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e11",
+          "type": "conteur",
+          "texte": "Quand on lui amena {{r1}} {{r1}}, il la conduisit dans une chambre pleine de paille, où se trouvaient un rouet et un dévidoir, et dit :"
+        },
+        {
+          "id": "a1e12",
+          "type": "didascalie",
+          "texte": "{{r3}} se penche vers {{r1}}."
+        },
+        {
+          "id": "a1e13",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Maintenant, mets-toi au travail. Si d'ici demain matin tu n'as pas filé toute cette paille en or, tu mourras."
+        },
+        {
+          "id": "a1e14",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e15",
+          "type": "conteur",
+          "texte": "Puis la chambre fut fermée à clé, et elle resta seule."
+        },
+        {
+          "id": "a1e16",
+          "type": "didascalie",
+          "texte": "{{r1}} tremble."
+        },
+        {
+          "id": "a1e17",
+          "type": "conteur",
+          "texte": "{{r1}}, la pauvre fille du meunier {{r4}}, était là et ne savait plus que faire pour sauver sa vie. Elle n'avait aucune idée de la façon dont on file la paille en or, et sa peur devint si grande qu'à la fin elle se mit à pleurer. Alors, tout à coup, la porte s'ouvrit, et un petit lutin entra."
+        },
+        {
+          "id": "a1e18",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e19",
+          "type": "didascalie",
+          "texte": "{{r2}} se penche vers {{r1}}."
+        },
+        {
+          "id": "a1e20",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Bonsoir, mademoiselle la meunière, pourquoi pleurez-vous si fort ?"
+        },
+        {
+          "id": "a1e21",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Hélas, je dois filer de la paille en or, et je ne sais pas faire ça."
+        },
+        {
+          "id": "a1e22",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Que me donneras-tu si je le fais pour toi ?"
+        },
+        {
+          "id": "a1e23",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Mon collier."
+        },
+        {
+          "id": "a1e24",
+          "type": "conteur",
+          "texte": "Le collier fut au petit lutin, qui s'assit devant le rouet, et vrr, vrr, vrr, trois tours de roue, la bobine était pleine. Puis vint une autre bobine, et vrr, vrr, vrr, trois tours de roue, la deuxième était pleine aussi. Et ainsi de suite jusqu'au matin : toute la paille était filée, et toutes les bobines étaient pleines d'or."
+        },
+        {
+          "id": "a1e25",
+          "type": "didascalie",
+          "texte": "{{r2}} se balance doucement de gauche à droite."
+        },
+        {
+          "id": "a1e26",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Faites ronronner le rouet avec moi : vrr, vrr, vrr !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e27",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e28",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "De la bague à la promesse",
+      "tableauId": "t2",
+      "resume": "Le roi {{r3}} réclame encore de l’or. {{r2}} reçoit une bague, puis la promesse du premier enfant de {{r1}}.",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "note_marionnettiste",
+          "texte": "Laissez une courte respiration pour changer de peluche."
+        },
+        {
+          "id": "a2e2",
+          "type": "conteur",
+          "texte": "Au lever du soleil, le roi {{r3}} arriva déjà. Quand il vit l'or, il fut étonné et ravi, mais son cœur n'en devint que plus avide. Il fit conduire {{r1}}, la fille du meunier {{r4}}, dans une autre chambre pleine de paille, beaucoup plus grande."
+        },
+        {
+          "id": "a2e3",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e4",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e5",
+          "type": "didascalie",
+          "texte": "{{r3}} se tourne vers {{r1}}."
+        },
+        {
+          "id": "a2e6",
+          "type": "replique",
+          "texte": "Tu dois filer toute cette paille en or en une nuit, si tu tiens à la vie.",
+          "marionnetteId": "r3"
+        },
+        {
+          "id": "a2e7",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e8",
+          "type": "conteur",
+          "texte": "{{r1}} ne savait que faire et pleurait ; alors la porte s'ouvrit de nouveau, le petit lutin apparut."
+        },
+        {
+          "id": "a2e9",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e10",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Que me donneras-tu si je te file cette paille en or ?"
+        },
+        {
+          "id": "a2e11",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ma bague."
+        },
+        {
+          "id": "a2e12",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites encore ronronner le rouet : vrr, vrr, vrr !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e13",
+          "type": "conteur",
+          "texte": "La bague fut au petit lutin, qui se remit à faire ronronner le rouet, et au matin, il avait filé toute la paille en or brillant. Le roi {{r3}} fut enchanté au-delà de toute mesure, mais il n'avait toujours pas assez d'or. Il fit conduire {{r1}}, la fille du meunier {{r4}}, dans une chambre de paille plus grande encore, et dit :"
+        },
+        {
+          "id": "a2e14",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e15",
+          "type": "note_marionnettiste",
+          "texte": "Laissez une courte respiration pour changer de peluche."
+        },
+        {
+          "id": "a2e16",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e17",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Celle-ci, tu dois la filer cette nuit encore ; mais si tu y arrives, tu deviendras mon épouse."
+        },
+        {
+          "id": "a2e18",
+          "type": "didascalie",
+          "texte": "{{r3}} se tourne vers les enfants."
+        },
+        {
+          "id": "a2e19",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Même si ce n'est qu'une fille de meunier, je ne trouverai pas de personne plus riche au monde."
+        },
+        {
+          "id": "a2e20",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e21",
+          "type": "conteur",
+          "texte": "Quand {{r1}} {{r1}} fut seule, le petit lutin revint pour la troisième fois et dit :"
+        },
+        {
+          "id": "a2e22",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e23",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Que me donneras-tu si je te file encore la paille cette fois-ci ?"
+        },
+        {
+          "id": "a2e24",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je n'ai plus rien à donner."
+        },
+        {
+          "id": "a2e25",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Alors promets-moi, quand tu seras reine, ton premier enfant."
+        },
+        {
+          "id": "a2e26",
+          "type": "didascalie",
+          "texte": "{{r1}} recule ; {{r2}} avance d’un petit bond."
+        },
+        {
+          "id": "a2e27",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Qui sait comment tout cela tournera ?"
+        },
+        {
+          "id": "a2e28",
+          "type": "conteur",
+          "texte": "Et comme dans sa détresse elle ne voyait pas d'autre issue, elle promit :"
+        },
+        {
+          "id": "a2e29",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je te promets mon premier enfant."
+        },
+        {
+          "id": "a2e30",
+          "type": "conteur",
+          "texte": "En échange, le petit lutin fila encore une fois la paille en or. Et quand, au matin, le roi {{r3}} trouva tout comme il l'avait souhaité, il l'épousa, et {{r1}}, la belle fille du meunier {{r4}}, devint reine."
+        },
+        {
+          "id": "a2e31",
+          "type": "didascalie",
+          "texte": "{{r2}} s’incline vers la table."
+        },
+        {
+          "id": "a2e32",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e33",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Trois jours pour un nom",
+      "tableauId": "t3",
+      "resume": "Devenue reine, {{r1}} voit revenir {{r2}}. Elle tente de trouver son nom et envoie le messager {{r5}} chercher.",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "note_marionnettiste",
+          "texte": "Laissez une courte respiration pour changer de peluche."
+        },
+        {
+          "id": "a3e2",
+          "type": "conteur",
+          "texte": "Un an plus tard, elle mit au monde un bel enfant, et elle ne pensait plus du tout au petit lutin. Mais soudain il entra dans sa chambre et dit :"
+        },
+        {
+          "id": "a3e3",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e4",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e5",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Maintenant, donne-moi ce que tu m'as promis."
+        },
+        {
+          "id": "a3e6",
+          "type": "conteur",
+          "texte": "La reine {{r1}} eut très peur."
+        },
+        {
+          "id": "a3e7",
+          "type": "didascalie",
+          "texte": "{{r1}} recule d’un petit bond."
+        },
+        {
+          "id": "a3e8",
+          "type": "replique",
+          "texte": "Je t'offre toutes les richesses du royaume si tu veux bien me laisser l'enfant.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a3e9",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Non, quelque chose de vivant m'est plus cher que tous les trésors du monde."
+        },
+        {
+          "id": "a3e10",
+          "type": "conteur",
+          "texte": "Alors la reine {{r1}} se mit à gémir et à pleurer si fort que le petit lutin eut pitié d'elle."
+        },
+        {
+          "id": "a3e11",
+          "type": "didascalie",
+          "texte": "{{r2}} s’incline lentement vers {{r1}}."
+        },
+        {
+          "id": "a3e12",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je te laisse trois jours. Si d'ici là tu connais mon nom, tu garderas ton enfant."
+        },
+        {
+          "id": "a3e13",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e14",
+          "type": "conteur",
+          "texte": "Alors la reine {{r1}} passa toute la nuit à se rappeler tous les noms qu'elle avait jamais entendus, et elle envoya un messager {{r5}} par tout le pays pour s'informer au loin de tous les autres noms qui existaient. Quand le petit lutin revint le lendemain :"
+        },
+        {
+          "id": "a3e15",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e16",
+          "type": "replique",
+          "texte": "Gaspard ? Melchior ? Balthazar ?",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a3e17",
+          "type": "didascalie",
+          "texte": "{{r2}} recule d’un bond."
+        },
+        {
+          "id": "a3e18",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Ce n'est pas mon nom."
+        },
+        {
+          "id": "a3e19",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Gaspard, Melchior, Balthazar ! Vous voulez les redire avec moi ?",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e20",
+          "type": "conteur",
+          "texte": "Le deuxième jour, elle fit demander dans le voisinage comment s'appelaient les gens, et elle proposa au petit lutin les noms les plus rares et les plus bizarres :"
+        },
+        {
+          "id": "a3e21",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tu t'appelles peut-être Côtelette-de-bœuf ? Ou Mollet-de-mouton ? Ou Jambe-de-lacet ?"
+        },
+        {
+          "id": "a3e22",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Côtelette-de-bœuf ? Mollet-de-mouton ? Dites ces noms avec moi !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e23",
+          "type": "conteur",
+          "texte": "Mais il répondait toujours :"
+        },
+        {
+          "id": "a3e24",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Ce n'est pas mon nom."
+        },
+        {
+          "id": "a3e25",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e26",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "numero": 4,
+      "titre": "Le secret chanté",
+      "tableauId": "t4",
+      "resume": "{{r5}} rapporte la chanson entendue dans la forêt. {{r1}} devine le nom de {{r2}}, qui se déchire lui-même en deux.",
+      "elements": [
+        {
+          "id": "a4e1",
+          "type": "note_marionnettiste",
+          "texte": "Laissez une courte respiration pour changer de peluche."
+        },
+        {
+          "id": "a4e2",
+          "type": "conteur",
+          "texte": "Le troisième jour, le messager {{r5}} revint et raconta :"
+        },
+        {
+          "id": "a4e3",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e4",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e5",
+          "type": "didascalie",
+          "texte": "{{r5}} s’incline vers {{r1}}."
+        },
+        {
+          "id": "a4e6",
+          "type": "adresse_public",
+          "marionnetteId": "r5",
+          "texte": "Faites silence avec moi : chut !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a4e7",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Je n'ai pas pu trouver un seul nom nouveau. Mais comme j'arrivais près d'une haute montagne, au coin de la forêt, là où le renard et le lièvre se souhaitent bonne nuit, j'ai vu une petite maison. Devant la maison brûlait un feu, et autour du feu sautait un petit lutin tout à fait ridicule. Il sautillait sur une jambe et criait :"
+        },
+        {
+          "id": "a4e8",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "« Aujourd'hui je cuis, demain je brasse,\nAprès-demain j'emporte l'enfant de la reine {{r1}} ;\nAh ! qu'il est bon que personne ne sache\nQue je m'appelle {{r2}} ! »"
+        },
+        {
+          "id": "a4e9",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e10",
+          "type": "conteur",
+          "texte": "Vous pouvez imaginer comme la reine {{r1}} fut contente d'entendre ce nom ! Et quand, peu après, le petit lutin {{r2}} entra et demanda :"
+        },
+        {
+          "id": "a4e11",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e12",
+          "type": "didascalie",
+          "texte": "{{r2}} sautille sur place, puis s’immobilise."
+        },
+        {
+          "id": "a4e13",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Eh bien, madame la reine {{r1}}, comment est-ce que je m'appelle ?"
+        },
+        {
+          "id": "a4e14",
+          "type": "conteur",
+          "texte": "Elle demanda d'abord :"
+        },
+        {
+          "id": "a4e15",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "T'appelles-tu Conrad ?"
+        },
+        {
+          "id": "a4e16",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Conrad ? Vous l’avez entendu aussi ?",
+          "attenteReponse": false
+        },
+        {
+          "id": "a4e17",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Non."
+        },
+        {
+          "id": "a4e18",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "T'appelles-tu Henri ?"
+        },
+        {
+          "id": "a4e19",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Non."
+        },
+        {
+          "id": "a4e20",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne vers les enfants, puis vers {{r2}}."
+        },
+        {
+          "id": "a4e21",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Est-ce que par hasard tu t'appellerais {{r2}} ?"
+        },
+        {
+          "id": "a4e22",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Redites ce nom avec moi : {{r2}} !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a4e23",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "C'est le diable qui te l'a dit ! C'est le diable qui te l'a dit !"
+        },
+        {
+          "id": "a4e24",
+          "type": "didascalie",
+          "texte": "{{r2}} tremble de colère."
+        },
+        {
+          "id": "a4e25",
+          "type": "note_marionnettiste",
+          "texte": "Le déchirement se raconte sans manipulation de la peluche."
+        },
+        {
+          "id": "a4e26",
+          "type": "conteur",
+          "texte": "Et de colère, il frappa si fort la terre de son pied droit qu'il s'y enfonça jusqu'à la taille. Puis, dans sa rage, il se déchira lui-même en deux."
+        },
+        {
+          "id": "a4e27",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e28",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "de-tracassin",
+    "synopsis": {
+      "accroche": "Un nom chanté trop fort peut sauver un enfant.",
+      "resume": [
+        "{{r4}} vante {{r1}} au roi {{r3}}, qui exige de la paille filée en or.",
+        "{{r2}} aide {{r1}} trois fois et obtient la promesse de son premier enfant.",
+        "{{r5}} entend le nom de {{r2}} ; {{r1}} le prononce et le lutin disparaît dans sa colère."
+      ]
+    },
+    "transposition": {
+      "texte": "Il était une fois un meunier {{r4}} qui était pauvre, mais qui avait une très belle fille. Or il arriva qu'il eut à parler avec le roi {{r3}}, et pour se donner de l'importance, il lui dit :\n\n— J'ai une fille qui sait filer la paille et en faire de l'or.\n\nLe roi {{r3}} dit au meunier {{r4}} :\n\n— Voilà un talent qui me plaît beaucoup. Si ta fille est aussi habile que tu le dis, amène-la demain à mon château, je la mettrai à l'épreuve.\n\nQuand on lui amena {{r1}} {{r1}}, il la conduisit dans une chambre pleine de paille, où se trouvaient un rouet et un dévidoir, et dit :\n\n— Maintenant, mets-toi au travail. Si d'ici demain matin tu n'as pas filé toute cette paille en or, tu mourras.\n\nPuis la chambre fut fermée à clé, et elle resta seule.\n\n{{r1}}, la pauvre fille du meunier {{r4}}, était là et ne savait plus que faire pour sauver sa vie. Elle n'avait aucune idée de la façon dont on file la paille en or, et sa peur devint si grande qu'à la fin elle se mit à pleurer. Alors, tout à coup, la porte s'ouvrit, et un petit lutin entra.\n\n— Bonsoir, mademoiselle la meunière, pourquoi pleurez-vous si fort ?\n\n— Hélas, répondit {{r1}} {{r1}}, je dois filer de la paille en or, et je ne sais pas faire ça.\n\n— Que me donneras-tu si je le fais pour toi ? dit le petit lutin.\n\n— Mon collier, dit {{r1}} {{r1}}.\n\nLe collier fut au petit lutin, qui s'assit devant le rouet, et vrr, vrr, vrr, trois tours de roue, la bobine était pleine. Puis vint une autre bobine, et vrr, vrr, vrr, trois tours de roue, la deuxième était pleine aussi. Et ainsi de suite jusqu'au matin : toute la paille était filée, et toutes les bobines étaient pleines d'or.\n\nAu lever du soleil, le roi {{r3}} arriva déjà. Quand il vit l'or, il fut étonné et ravi, mais son cœur n'en devint que plus avide. Il fit conduire {{r1}}, la fille du meunier {{r4}}, dans une autre chambre pleine de paille, beaucoup plus grande, et lui ordonna de la filer aussi en une nuit, si elle tenait à la vie. La jeune fille {{r1}} ne savait que faire et pleurait ; alors la porte s'ouvrit de nouveau, le petit lutin apparut et dit :\n\n— Que me donneras-tu si je te file cette paille en or ?\n\n— Ma bague, répondit {{r1}} {{r1}}.\n\nLa bague fut au petit lutin, qui se remit à faire ronronner le rouet, et au matin, il avait filé toute la paille en or brillant. Le roi {{r3}} fut enchanté au-delà de toute mesure, mais il n'avait toujours pas assez d'or. Il fit conduire {{r1}}, la fille du meunier {{r4}}, dans une chambre de paille plus grande encore, et dit :\n\n— Celle-ci, tu dois la filer cette nuit encore ; mais si tu y arrives, tu deviendras mon épouse.\n\n« Même si ce n'est qu'une fille de meunier, pensait-il, je ne trouverai pas de personne plus riche au monde. »\n\nQuand {{r1}} {{r1}} fut seule, le petit lutin revint pour la troisième fois et dit :\n\n— Que me donneras-tu si je te file encore la paille cette fois-ci ?\n\n— Je n'ai plus rien à donner, répondit {{r1}} {{r1}}.\n\n— Alors promets-moi, quand tu seras reine, ton premier enfant.\n\n« Qui sait comment tout cela tournera », pensa {{r1}}, la fille du meunier {{r4}}. Et comme dans sa détresse elle ne voyait pas d'autre issue, elle promit au petit lutin ce qu'il demandait. En échange, le petit lutin fila encore une fois la paille en or. Et quand, au matin, le roi {{r3}} trouva tout comme il l'avait souhaité, il l'épousa, et {{r1}}, la belle fille du meunier {{r4}}, devint reine.\n\nUn an plus tard, elle mit au monde un bel enfant, et elle ne pensait plus du tout au petit lutin. Mais soudain il entra dans sa chambre et dit :\n\n— Maintenant, donne-moi ce que tu m'as promis.\n\nLa reine {{r1}} eut très peur et offrit au petit lutin toutes les richesses du royaume s'il voulait bien lui laisser l'enfant. Mais le petit lutin dit :\n\n— Non, quelque chose de vivant m'est plus cher que tous les trésors du monde.\n\nAlors la reine {{r1}} se mit à gémir et à pleurer si fort que le petit lutin eut pitié d'elle.\n\n— Je te laisse trois jours, dit-il. Si d'ici là tu connais mon nom, tu garderas ton enfant.\n\nAlors la reine {{r1}} passa toute la nuit à se rappeler tous les noms qu'elle avait jamais entendus, et elle envoya un messager {{r5}} par tout le pays pour s'informer au loin de tous les autres noms qui existaient. Quand le petit lutin revint le lendemain, elle commença par Gaspard, Melchior, Balthazar, et dit à la suite tous les noms qu'elle connaissait ; mais à chacun, il disait :\n\n— Ce n'est pas mon nom.\n\nLe deuxième jour, elle fit demander dans le voisinage comment s'appelaient les gens, et elle proposa au petit lutin les noms les plus rares et les plus bizarres :\n\n— Tu t'appelles peut-être Côtelette-de-bœuf ? Ou Mollet-de-mouton ? Ou Jambe-de-lacet ?\n\nMais il répondait toujours :\n\n— Ce n'est pas mon nom.\n\nLe troisième jour, le messager {{r5}} revint et raconta :\n\n— Je n'ai pas pu trouver un seul nom nouveau. Mais comme j'arrivais près d'une haute montagne, au coin de la forêt, là où le renard et le lièvre se souhaitent bonne nuit, j'ai vu une petite maison. Devant la maison brûlait un feu, et autour du feu sautait un petit lutin tout à fait ridicule. Il sautillait sur une jambe et criait :\n\n« Aujourd'hui je cuis, demain je brasse,\nAprès-demain j'emporte l'enfant de la reine {{r1}} ;\nAh ! qu'il est bon que personne ne sache\nQue je m'appelle {{r2}} ! »\n\nVous pouvez imaginer comme la reine {{r1}} fut contente d'entendre ce nom ! Et quand, peu après, le petit lutin {{r2}} entra et demanda :\n\n— Eh bien, madame la reine {{r1}}, comment est-ce que je m'appelle ?\n\nElle demanda d'abord :\n\n— T'appelles-tu Conrad ?\n\n— Non.\n\n— T'appelles-tu Henri ?\n\n— Non.\n\n— Est-ce que par hasard tu t'appellerais {{r2}} ?\n\n— C'est le diable qui te l'a dit ! C'est le diable qui te l'a dit ! hurla le petit lutin {{r2}}.\n\nEt de colère, il frappa si fort la terre de son pied droit qu'il s'y enfonça jusqu'à la taille. Puis, dans sa rage, il se déchira lui-même en deux."
+    }
+  },
+  "dureeEstimeeSecondes": 666,
+  "interactionsOrdonnees": [
+    "a1e26",
+    "a3e22",
+    "a4e22",
+    "a3e19",
+    "a4e6",
+    "a2e12",
+    "a4e16"
+  ]
+}

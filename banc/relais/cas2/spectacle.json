@@ -1,0 +1,863 @@
+{
+  "id": "1b5b5bb7-27f4-48d2-9bee-a99829bd82d2",
+  "titre": "Chat et souris associés",
+  "pitch": "Petite Souris et Gros Loup cachent un pot de miel pour l’hiver, mais Gros Loup le vide en cachette, jusqu’à ce que la ruse éclate devant tout le monde.",
+  "parametres": {
+    "dureeMinutes": 5,
+    "ageAuditoire": 4,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup",
+    "marionnetteIds": [
+      "petite-souris",
+      "gros-loup"
+    ],
+    "modele": "relais-local"
+  },
+  "distribution": [
+    {
+      "id": "petite-souris",
+      "nom": "Petite Souris",
+      "description": "Une souris grise minuscule, en feutrine.",
+      "traits": [
+        "peureux",
+        "curieux"
+      ],
+      "creeLe": "2026-09-25T08:40:06.768Z",
+      "modifieLe": "2026-09-25T08:40:06.768Z",
+      "voix": "voix aiguë et pressée, qui répète le dernier mot entendu avec étonnement"
+    },
+    {
+      "id": "gros-loup",
+      "nom": "Gros Loup",
+      "description": "Un loup gris au museau râpé, assez grand.",
+      "traits": [
+        "méchant",
+        "gourmand"
+      ],
+      "creeLe": "2026-09-25T08:40:06.768Z",
+      "modifieLe": "2026-09-25T08:40:06.768Z",
+      "voix": "voix grave et un peu traînante, qui commence chaque mensonge par un « Euh... » hésitant"
+    }
+  ],
+  "tableaux": [
+    {
+      "id": "1467d07c-efb1-496f-93ba-06bf7ec53afe",
+      "titre": "La maison",
+      "description": "Tends un drap ou une couverture marron derrière toi pour marquer l’intérieur de la maison. Tu peux poser un coussin devant toi pour figurer le sol de la pièce. Rien d’autre n’est nécessaire pour ce tableau.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "896bf7b9-fb85-40a7-91ae-adb38cb1552f",
+      "titre": "Le chêne",
+      "description": "Installe un grand carton ou un drap vert-brun pour figurer le tronc du chêne, avec un creux bien visible (un trou découpé ou un pli du tissu). Pose au pied du tronc un petit pot vide, à moitié caché, que tu ne toucheras plus avant la fin.",
+      "accessoires": [
+        "Un petit pot vide (pot à miel ou à confiture), posé au pied de l’arbre, jamais touché par les marionnettes"
+      ],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "aa16930d-bb56-4d69-8ca4-5dbdad22779d",
+      "numero": 1,
+      "titre": "Le pot caché",
+      "tableauId": "1467d07c-efb1-496f-93ba-06bf7ec53afe",
+      "resume": "Petite Souris et Gros Loup décident de vivre ensemble et achètent un pot de miel pour passer l’hiver au chaud. Ils choisissent de le cacher dans le creux du grand chêne.",
+      "elements": [
+        {
+          "id": "ace2c333-ba76-487f-bc89-f2650881f1ca",
+          "type": "entree",
+          "marionnetteId": "petite-souris",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "788cf5e2-850b-49cc-9959-a99af6778fd7",
+          "type": "entree",
+          "marionnetteId": "gros-loup",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "0d865577-5628-477a-a582-0ee261f89ab5",
+          "type": "didascalie",
+          "texte": "Gros Loup s'approche de Petite Souris."
+        },
+        {
+          "id": "f004ed4d-9e9b-4aca-b2d2-9c7f18aa2212",
+          "type": "replique",
+          "marionnetteId": "gros-loup",
+          "texte": "Petite Souris, je t'aime beaucoup, comme un vrai ami. Habite avec moi !",
+          "ton": "chaleureux"
+        },
+        {
+          "id": "c1984f2a-0b76-4840-86bc-cf23deb8f26d",
+          "type": "replique",
+          "marionnetteId": "petite-souris",
+          "texte": "D'accord, Gros Loup, j'habiterai avec toi !",
+          "ton": "joyeuse"
+        },
+        {
+          "id": "5d7a65fd-40d3-40aa-be80-e1c4e612ccb4",
+          "type": "didascalie",
+          "texte": "Petite Souris hoche la tête."
+        },
+        {
+          "id": "d272c337-c8ee-417c-acbf-ea8e4a213eb4",
+          "type": "replique",
+          "marionnetteId": "gros-loup",
+          "texte": "Mais il faut penser à l'hiver, sinon nous aurons faim. Toi, Petite Souris, tu ne peux pas t'aventurer partout, et tu finirais par tomber dans un piège.",
+          "ton": "sérieux, un peu grave"
+        },
+        {
+          "id": "f8fa90db-07d3-4692-bde2-c87334951e00",
+          "type": "replique",
+          "marionnetteId": "petite-souris",
+          "texte": "Allons acheter un pot, pour ne pas avoir faim cet hiver !",
+          "ton": "décidée"
+        },
+        {
+          "id": "09192eb0-42f8-42f6-98a4-4c0cf3529663",
+          "type": "adresse_public",
+          "marionnetteId": "petite-souris",
+          "texte": "Qu'est-ce qu'on va mettre dedans, à votre avis ?",
+          "attenteReponse": true
+        },
+        {
+          "id": "f13bd631-9ee5-4c3c-80b1-7a8fff2e7cd9",
+          "type": "didascalie",
+          "texte": "Gros Loup se frotte le ventre."
+        },
+        {
+          "id": "4b97cfb4-8c3d-416f-9647-5358affb2e7d",
+          "type": "replique",
+          "marionnetteId": "gros-loup",
+          "texte": "Un pot de miel !",
+          "ton": "gourmand"
+        },
+        {
+          "id": "87c2fd85-b23f-48f0-8186-2e1d0d154f70",
+          "type": "replique",
+          "marionnetteId": "petite-souris",
+          "texte": "Mais où allons-nous le cacher ?",
+          "ton": "inquiète, curieuse"
+        },
+        {
+          "id": "3b93731e-a055-47f7-888d-b63889db79fe",
+          "type": "adresse_public",
+          "marionnetteId": "gros-loup",
+          "texte": "À votre avis, où faut-il cacher le pot pour que personne ne le trouve ?",
+          "attenteReponse": true
+        },
+        {
+          "id": "e6c6921c-fe96-47a5-a0e2-227ac076f68b",
+          "type": "didascalie",
+          "texte": "Gros Loup penche la tête, immobile un instant."
+        },
+        {
+          "id": "cbbda964-a897-4a9f-999f-3fc4792b99ef",
+          "type": "replique",
+          "marionnetteId": "gros-loup",
+          "texte": "Je ne connais pas d'endroit plus sûr que le creux du grand chêne : là, personne n'ose rien prendre. Nous le mettrons tout au fond, et nous n'y toucherons pas avant d'en avoir besoin.",
+          "ton": "convaincu, sûr de lui"
+        }
+      ]
+    },
+    {
+      "id": "018aff40-27e6-4938-acfc-998447aef499",
+      "numero": 2,
+      "titre": "Les faux baptêmes",
+      "tableauId": "1467d07c-efb1-496f-93ba-06bf7ec53afe",
+      "resume": "Gros Loup s’invente des prétextes pour s’éclipser et grignoter le miel en cachette, donnant chaque fois un drôle de nom au « bébé » de son faux baptême. Petite Souris s’étonne sans comprendre, et l’hiver approche.",
+      "elements": [
+        {
+          "id": "e12db3f6-98b9-41d1-ab1b-246ed6bec083",
+          "type": "didascalie",
+          "texte": "Gros Loup renifle l'air, gourmand."
+        },
+        {
+          "id": "fa14be22-d667-4d4c-a5dd-c0aca226c3ad",
+          "type": "replique",
+          "marionnetteId": "gros-loup",
+          "texte": "Petite Souris, j'oubliais de te dire : ma cousine m'a demandé d'être parrain. Elle a mis au monde un petit garçon, et je dois le porter au baptême. Laisse-moi sortir, et garde la maison toute seule.",
+          "ton": "mielleux, l'air innocent"
+        },
+        {
+          "id": "9edc8aca-8569-4fff-a314-104d127bc12d",
+          "type": "replique",
+          "marionnetteId": "petite-souris",
+          "texte": "Oui, oui, va, et pense à moi si tu manges quelque chose de bon !",
+          "ton": "confiante, gentille"
+        },
+        {
+          "id": "44f90e57-389f-4045-b246-664998dd46bd",
+          "type": "sortie",
+          "marionnetteId": "gros-loup",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "08086c77-ca4c-4496-904b-adfc1293fdbb",
+          "type": "didascalie",
+          "texte": "Petite Souris s'affaire, en attendant."
+        },
+        {
+          "id": "8a35b78b-5a2a-4fa5-95b3-ec3344a24e2b",
+          "type": "entree",
+          "marionnetteId": "gros-loup",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "e8b431e4-03c0-4ef5-8bb8-05402d0bdbe6",
+          "type": "replique",
+          "marionnetteId": "petite-souris",
+          "texte": "Ah, te voilà ! Tu as sûrement passé une joyeuse journée.",
+          "ton": "contente, soulagée"
+        },
+        {
+          "id": "d2bbe33e-ff6a-4695-88c6-bd049827fd73",
+          "type": "replique",
+          "marionnetteId": "gros-loup",
+          "texte": "Ça s'est bien passé.",
+          "ton": "évasif"
+        },
+        {
+          "id": "51f7e6eb-6a56-4106-8904-1a71816d751c",
+          "type": "replique",
+          "marionnetteId": "petite-souris",
+          "texte": "Et quel nom a-t-on donné à l'enfant ?",
+          "ton": "curieuse"
+        },
+        {
+          "id": "09e341be-0ae1-43a1-9e63-3b3d4b4cb906",
+          "type": "replique",
+          "marionnetteId": "gros-loup",
+          "texte": "Entamé.",
+          "ton": "sec, pressé de changer de sujet"
+        },
+        {
+          "id": "3086e713-725b-473d-85de-aaf3cc136205",
+          "type": "adresse_public",
+          "marionnetteId": "petite-souris",
+          "texte": "Entamé… ça veut dire quoi, à votre avis ?",
+          "attenteReponse": true
+        },
+        {
+          "id": "77aae0a3-edc7-4e40-868d-f786373f35d0",
+          "type": "replique",
+          "marionnetteId": "petite-souris",
+          "texte": "Mais c'est un nom bien étrange et bien bizarre ! C'est l'habitude, dans ta famille ?",
+          "ton": "perplexe"
+        },
+        {
+          "id": "f5b31d4f-f646-4fe2-ae3a-f55bd1758c53",
+          "type": "replique",
+          "marionnetteId": "gros-loup",
+          "texte": "Et alors ? Ce n'est pas pire que Voleur-de-miettes, comme s'appellent tes filleuls !",
+          "ton": "vexé, sur la défensive"
+        },
+        {
+          "id": "2aacd1e8-8c32-4b68-83c5-0e9d64ba4e44",
+          "type": "didascalie",
+          "texte": "Gros Loup renifle de nouveau."
+        },
+        {
+          "id": "d90a9685-aa46-4c9d-b98f-0ed2506419c3",
+          "type": "replique",
+          "marionnetteId": "gros-loup",
+          "texte": "Il faut que tu me rendes encore service : on m'a demandé une deuxième fois d'être parrain, et comme l'enfant a un anneau blanc autour du cou, je ne peux pas refuser. Tu me laisses sortir, n'est-ce pas ?",
+          "ton": "un peu gêné"
+        },
+        {
+          "id": "2e7cb397-bd15-46c8-b521-0d8687c13234",
+          "type": "replique",
+          "marionnetteId": "petite-souris",
+          "texte": "Entamé… c'est un nom bien curieux. Mais vas-y.",
+          "ton": "songeuse, mais confiante"
+        },
+        {
+          "id": "381f0f56-6a91-43f3-9e0e-ad2ecd89f399",
+          "type": "sortie",
+          "marionnetteId": "gros-loup",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a932309b-5f64-4dec-8909-47e1389ba189",
+          "type": "didascalie",
+          "texte": "Petite Souris fait le ménage, en attendant."
+        },
+        {
+          "id": "a42e423b-9f07-4ce1-ac86-f77275c5b9f1",
+          "type": "entree",
+          "marionnetteId": "gros-loup",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "3f15be22-f041-46b2-a4d3-45914a52e51e",
+          "type": "replique",
+          "marionnetteId": "petite-souris",
+          "texte": "Et comment a-t-on baptisé cet enfant-là ?",
+          "ton": "curieuse"
+        },
+        {
+          "id": "fab52d05-b361-4d7a-9edf-bcd4a0f8282c",
+          "type": "replique",
+          "marionnetteId": "gros-loup",
+          "texte": "À-moitié.",
+          "ton": "évasif, pressé de changer de sujet"
+        },
+        {
+          "id": "bde36fdd-e1d2-49df-bf4c-63e5611ff521",
+          "type": "replique",
+          "marionnetteId": "petite-souris",
+          "texte": "À-moitié ! Qu'est-ce que tu me racontes ! Je n'ai jamais entendu ce nom de ma vie. Je parie qu'il n'est pas dans le calendrier.",
+          "ton": "perplexe"
+        },
+        {
+          "id": "8721bcea-a6e4-431f-99e5-72be6b2dc714",
+          "type": "replique",
+          "marionnetteId": "gros-loup",
+          "texte": "Jamais deux sans trois : on me demande encore d'être parrain. Le petit a les pattes toutes blanches, et pas un seul poil blanc ailleurs sur le corps : cela n'arrive qu'une fois tous les trois ou quatre ans. Tu me laisses sortir, n'est-ce pas ?",
+          "ton": "gourmand, un peu forcé"
+        },
+        {
+          "id": "51738984-060a-44d4-9b19-a349b4cb243b",
+          "type": "replique",
+          "marionnetteId": "petite-souris",
+          "texte": "Entamé ! À-moitié ! Ce sont des noms si curieux, ils me donnent à réfléchir. Mais vas-y.",
+          "ton": "songeuse, mais confiante"
+        },
+        {
+          "id": "1e6c93ab-9a08-400c-8880-6a13dad2a348",
+          "type": "sortie",
+          "marionnetteId": "gros-loup",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "1c2facd7-a552-4aed-9a23-4839df480f3d",
+          "type": "adresse_public",
+          "marionnetteId": "petite-souris",
+          "texte": "Vous, vous y croyez, à ces baptêmes ?",
+          "attenteReponse": true
+        },
+        {
+          "id": "60e05b52-7db9-4a07-9ec7-beb7c62e443b",
+          "type": "didascalie",
+          "texte": "Petite Souris regarde le public, attend."
+        },
+        {
+          "id": "8ebedd87-f484-47f8-9be6-8c3014f0fc16",
+          "type": "didascalie",
+          "texte": "Petite Souris penche la tête, songeuse, en attendant."
+        },
+        {
+          "id": "ee84e130-2495-41a9-9d80-4817687fb471",
+          "type": "entree",
+          "marionnetteId": "gros-loup",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "538d5115-dd69-4a7b-b676-ba89197b95eb",
+          "type": "didascalie",
+          "texte": "Gros Loup se dandine en entrant, le pas lourd."
+        },
+        {
+          "id": "492465c9-d462-41b3-8fc6-7307f561b7dd",
+          "type": "adresse_public",
+          "marionnetteId": "petite-souris",
+          "texte": "À votre avis, pourquoi Gros Loup revient-il toujours le ventre plein ?",
+          "attenteReponse": true
+        },
+        {
+          "id": "74358668-c114-4863-82ad-304c0add7900",
+          "type": "replique",
+          "marionnetteId": "petite-souris",
+          "texte": "Et comment a-t-on baptisé cet enfant-là ?",
+          "ton": "curieuse"
+        },
+        {
+          "id": "5ed0cfc0-8815-4c36-8be6-38b0ec8f4193",
+          "type": "replique",
+          "marionnetteId": "gros-loup",
+          "texte": "Il ne te plaira sans doute pas non plus… Il s'appelle Tout-fini.",
+          "ton": "gêné, presque honteux"
+        },
+        {
+          "id": "660e76cd-0658-4929-8770-56300455e11d",
+          "type": "replique",
+          "marionnetteId": "petite-souris",
+          "texte": "Tout-fini ! C'est le plus inquiétant de tous les noms. Tout-fini ! Qu'est-ce que cela peut bien vouloir dire ?",
+          "ton": "effarée"
+        },
+        {
+          "id": "0afd3abf-8d42-4279-a60f-877ef7f5e013",
+          "type": "didascalie",
+          "texte": "Petite Souris secoue la tête, se roule en boule et s'endort."
+        }
+      ]
+    },
+    {
+      "id": "d8df205d-4875-40be-ac7c-8e7c4303a35c",
+      "numero": 3,
+      "titre": "Tout-Fini !",
+      "tableauId": "896bf7b9-fb85-40a7-91ae-adb38cb1552f",
+      "resume": "L’hiver venu, Petite Souris et Gros Loup vont ensemble chercher le pot promis : il est vide. Petite Souris comprend d’un coup et le dit devant tout le monde ; Gros Loup, confus, part réparer sa faute.",
+      "elements": [
+        {
+          "id": "7da7d3bb-94cc-46d6-8846-099f239abbcd",
+          "type": "didascalie",
+          "texte": "Petite Souris tremble, puis se réveille en sursaut."
+        },
+        {
+          "id": "039c0993-817a-46c8-9386-a70270a79120",
+          "type": "replique",
+          "marionnetteId": "petite-souris",
+          "texte": "Brr ! L'hiver est arrivé. Viens, Gros Loup, allons chercher notre pot de miel que nous avons mis de côté, il va nous régaler.",
+          "ton": "frileuse, gourmande"
+        },
+        {
+          "id": "de101c8d-387a-4eb1-bd44-6e69a0c3d15d",
+          "type": "replique",
+          "marionnetteId": "gros-loup",
+          "texte": "Oh oui, il te régalera autant que si tu tirais ta fine langue par la fenêtre.",
+          "ton": "gourmand, un peu moqueur"
+        },
+        {
+          "id": "47f05aa7-0e58-4061-beef-aaf7ba490643",
+          "type": "didascalie",
+          "texte": "Petite Souris et Gros Loup traversent la scène ensemble et s'approchent du grand chêne."
+        },
+        {
+          "id": "e42603f7-ef5b-451b-bf10-8fdf0db26848",
+          "type": "adresse_public",
+          "marionnetteId": "petite-souris",
+          "texte": "À votre avis, qu'est-ce qu'on va trouver dans le pot ?",
+          "attenteReponse": true
+        },
+        {
+          "id": "7fea3438-8388-408b-ad90-b76a02c36dfb",
+          "type": "didascalie",
+          "texte": "Petite Souris et Gros Loup se penchent vers le creux du grand chêne."
+        },
+        {
+          "id": "7483b7a2-6da2-4733-a058-f1110a9e025c",
+          "type": "replique",
+          "marionnetteId": "petite-souris",
+          "texte": "Le pot est vide !",
+          "ton": "stupéfaite"
+        },
+        {
+          "id": "bb99bbd7-7bec-4ca4-8817-d0cbb6d95af8",
+          "type": "replique",
+          "marionnetteId": "petite-souris",
+          "texte": "Ah, je comprends maintenant ce qui s'est passé, maintenant tout s'éclaire ! Tu es vraiment un bel ami ! Tu as tout mangé, quand tu étais parrain : d'abord entamé, et puis…",
+          "ton": "elle comprend soudain, indignée"
+        },
+        {
+          "id": "09473086-091d-49d5-8235-451045704ee6",
+          "type": "replique",
+          "marionnetteId": "gros-loup",
+          "texte": "Tais-toi ! Encore un mot, et je te mange.",
+          "ton": "fort, l'air menaçant"
+        },
+        {
+          "id": "b51cbeda-1ebb-4f5f-8ff9-185216e4325e",
+          "type": "didascalie",
+          "texte": "Petite Souris recule d'un pas, puis se tourne vers le public."
+        },
+        {
+          "id": "b1a8b66b-e90a-4b04-afb9-3d348e7f8ff5",
+          "type": "adresse_public",
+          "marionnetteId": "petite-souris",
+          "texte": "Vous le savez, vous, ce nom-là ? Dites-le avec moi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "bd474eb1-37ba-4fd4-a65a-9ca8bb54a354",
+          "type": "replique",
+          "marionnetteId": "petite-souris",
+          "texte": "Tout-fini !",
+          "ton": "elle lâche le mot, décidée"
+        },
+        {
+          "id": "f8b6ea68-9f99-4108-8779-45655271cfc4",
+          "type": "didascalie",
+          "texte": "Gros Loup recule d'un coup, puis reste immobile, la tête penchée vers le sol."
+        },
+        {
+          "id": "13cc685e-d678-41c4-a68d-dcd7936b7551",
+          "type": "replique",
+          "marionnetteId": "gros-loup",
+          "texte": "C'est vrai. J'ai tout mangé.",
+          "ton": "penaud, tout petit"
+        },
+        {
+          "id": "156709e6-6b01-4023-bc16-cf159acce759",
+          "type": "didascalie",
+          "texte": "Gros Loup baisse la tête."
+        },
+        {
+          "id": "f1b393cd-1de8-4bce-9521-a84c2252b1e8",
+          "type": "replique",
+          "marionnetteId": "gros-loup",
+          "texte": "Je vais te chercher un nouveau pot de miel, tout de suite, je te le promets.",
+          "ton": "décidé, un peu honteux"
+        },
+        {
+          "id": "f8696380-7725-47ab-b4d7-b8f0fd25c56c",
+          "type": "adresse_public",
+          "marionnetteId": "petite-souris",
+          "texte": "Et voilà, c'est comme ça que va le monde !",
+          "attenteReponse": false
+        },
+        {
+          "id": "169e5e9d-5e70-40fc-9a75-e281c553e2e8",
+          "type": "sortie",
+          "marionnetteId": "gros-loup",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    }
+  ],
+  "dureeEstimeeSecondes": 435,
+  "statut": "complet",
+  "bible": {
+    "dossier": {
+      "marionnettes": [
+        {
+          "nom": "Petite Souris",
+          "description": "Une souris grise minuscule, en feutrine.",
+          "traits": [
+            "peureux",
+            "curieux"
+          ]
+        },
+        {
+          "nom": "Gros Loup",
+          "description": "Un loup gris au museau râpé, assez grand.",
+          "traits": [
+            "méchant",
+            "gourmand"
+          ]
+        }
+      ],
+      "dureeMinutes": 5,
+      "ageAuditoire": 4,
+      "nbMarionnettistes": 1,
+      "interactionPublic": "beaucoup",
+      "budgetMotsTotal": 500
+    },
+    "contesPresentes": [
+      "de-chat-et-souris-associes",
+      "us-remus-tar-baby",
+      "us-remus-lapin-trop-malin",
+      "afr-belette-et-hyene",
+      "ko-vieux-moustaches-et-lapin",
+      "no-concours-de-manger",
+      "afr-moineau-et-poule",
+      "afr-lion-et-souris"
+    ],
+    "jouables": 40,
+    "synopsisProposes": [
+      {
+        "conte": "de-chat-et-souris-associes",
+        "titre": "Chat et souris associés",
+        "accroche": "Un pot de miel caché pour l'hiver, et Gros Loup qui le vide en cachette, un peu chaque jour.",
+        "resume": [
+          "Petite Souris et Gros Loup décident de vivre ensemble et cachent un pot de miel pour passer l'hiver.",
+          "Gros Loup s'éclipse en disant qu'on l'invite à un baptême, et revient avoir goûté le pot en cachette : il dit que le bébé s'appelle « Entamé ».",
+          "Il recommence une seconde fois : cette fois le bébé s'appelle « Tout-Fini », et le pot est maintenant vide.",
+          "Quand vient l'hiver, ils vont chercher leur pot ensemble et le trouvent vide.",
+          "Petite Souris comprend tout et dit devant tout le monde : « Tout-Fini ! » Gros Loup, confus, promet de lui trouver un nouveau pot."
+        ],
+        "distribution": [
+          {
+            "marionnette": "Petite Souris",
+            "role": "la Souris",
+            "note": "Sa curiosité naturelle porte toute l'enquête : c'est elle qui comprend la ruse en premier."
+          },
+          {
+            "marionnette": "Gros Loup",
+            "role": "le Chat",
+            "note": "Son appétit gourmand est exactement ce qui le pousse à vider le pot en cachette."
+          }
+        ],
+        "changements": [
+          "Le pot de graisse devient un pot de miel, plus parlant pour un enfant ; l'église et le grenier disparaissent du texte.",
+          "Un des trois faux baptêmes est supprimé pour tenir dans le temps du spectacle : il n'en reste que deux, jusqu'à « Tout-Fini ».",
+          "La fin est adoucie : personne n'est mangé ; Gros Loup, confondu devant le public, part chercher un nouveau pot pour se faire pardonner."
+        ],
+        "id": "de-chat-et-souris-associes",
+        "reference": "Chat et souris associés — Allemagne, Jacob et Wilhelm Grimm, Contes de l'enfance et du foyer, 1857 (n° 2)"
+      },
+      {
+        "conte": "us-remus-lapin-trop-malin",
+        "titre": "Frère Lapin et le buisson de ronces",
+        "accroche": "Coincée, Petite Souris supplie qu'on ne la jette surtout pas dans les ronces.",
+        "resume": [
+          "Gros Loup tient Petite Souris coincée et savoure déjà sa victoire.",
+          "Petite Souris le supplie : « Fais-moi tout ce que tu veux, mais ne me jette pas dans les ronces ! »",
+          "Gros Loup cherche comment la punir — la chatouiller ? lui tirer les moustaches ? la priver de dessert ? — et chaque fois elle répond : « D'accord, mais pas les ronces ! »",
+          "Pour être sûr de lui faire le pire, Gros Loup la jette dans les ronces.",
+          "Libre, Petite Souris lui crie de loin : « Merci ! Je suis née dans les ronces ! »"
+        ],
+        "distribution": [
+          {
+            "marionnette": "Petite Souris",
+            "role": "Frère Lapin",
+            "note": "Son air peureux rend sa fausse supplique très drôle, alors qu'elle mène le jeu du début à la fin."
+          },
+          {
+            "marionnette": "Gros Loup",
+            "role": "Frère Renard",
+            "note": "Sa méchanceté et son envie de bien faire mal le poussent tout droit dans le piège."
+          }
+        ],
+        "changements": [
+          "Les menaces cruelles (rôtir, noyer, écorcher) deviennent des punitions de salon : chatouilles, moustaches tirées, dessert supprimé.",
+          "Le refrain « mais pas les ronces ! » est repris par le public, invité à le crier avec Petite Souris."
+        ],
+        "id": "us-remus-lapin-trop-malin",
+        "reference": "Frère Lapin et le buisson de ronces — Afro-américain (sud des États-Unis), Joel Chandler Harris, Uncle Remus: His Songs and His Sayings, 1880"
+      },
+      {
+        "conte": "afr-lion-et-souris",
+        "titre": "Le Lion et la Souris",
+        "accroche": "Un gros loup rit d'une promesse de souris — jusqu'au jour où elle seule peut le sauver.",
+        "resume": [
+          "Gros Loup attrape Petite Souris, qui l'a réveillé en jouant trop près de lui.",
+          "Elle promet : « Relâche-moi, un jour je te sauverai. » Gros Loup rit de l'idée, mais la laisse partir.",
+          "Plus tard, Gros Loup se fait prendre dans un filet et se retrouve coincé, sans pouvoir bouger.",
+          "La nuit venue, Petite Souris revient et grignote le filet qui le retient.",
+          "Gros Loup repart libre avec elle, tout étonné qu'une si petite amie ait tenu sa promesse."
+        ],
+        "distribution": [
+          {
+            "marionnette": "Petite Souris",
+            "role": "la Souris",
+            "note": "Son côté peureux se change en courage quand elle revient seule, la nuit, pour sauver son ami."
+          },
+          {
+            "marionnette": "Gros Loup",
+            "role": "le Lion",
+            "note": "Sa force et son air sûr de lui collent bien au personnage qui se moque d'abord de la petite souris."
+          }
+        ],
+        "changements": [
+          "Le chasseur reste hors scène, on l'entend seulement, pour ne garder que les deux marionnettes en jeu.",
+          "Les liens qui attachaient le personnage deviennent un filet que Petite Souris grignote, plus simple à montrer avec des marionnettes."
+        ],
+        "id": "afr-lion-et-souris",
+        "reference": "Le Lion et la Souris — Égypte ancienne, René Basset, Contes populaires d’Afrique, 1903"
+      }
+    ],
+    "synopsis": {
+      "conte": "de-chat-et-souris-associes",
+      "titre": "Chat et souris associés",
+      "accroche": "Un pot de miel caché pour l'hiver, et Gros Loup qui le vide en cachette, un peu chaque jour.",
+      "resume": [
+        "Petite Souris et Gros Loup décident de vivre ensemble et cachent un pot de miel pour passer l'hiver.",
+        "Gros Loup s'éclipse en disant qu'on l'invite à un baptême, et revient avoir goûté le pot en cachette : il dit que le bébé s'appelle « Entamé ».",
+        "Il recommence une seconde fois : cette fois le bébé s'appelle « Tout-Fini », et le pot est maintenant vide.",
+        "Quand vient l'hiver, ils vont chercher leur pot ensemble et le trouvent vide.",
+        "Petite Souris comprend tout et dit devant tout le monde : « Tout-Fini ! » Gros Loup, confus, promet de lui trouver un nouveau pot."
+      ],
+      "distribution": [
+        {
+          "marionnette": "Petite Souris",
+          "role": "la Souris",
+          "note": "Sa curiosité naturelle porte toute l'enquête : c'est elle qui comprend la ruse en premier."
+        },
+        {
+          "marionnette": "Gros Loup",
+          "role": "le Chat",
+          "note": "Son appétit gourmand est exactement ce qui le pousse à vider le pot en cachette."
+        }
+      ],
+      "changements": [
+        "Le pot de graisse devient un pot de miel, plus parlant pour un enfant ; l'église et le grenier disparaissent du texte.",
+        "Un des trois faux baptêmes est supprimé pour tenir dans le temps du spectacle : il n'en reste que deux, jusqu'à « Tout-Fini ».",
+        "La fin est adoucie : personne n'est mangé ; Gros Loup, confondu devant le public, part chercher un nouveau pot pour se faire pardonner."
+      ],
+      "id": "de-chat-et-souris-associes",
+      "reference": "Chat et souris associés — Allemagne, Jacob et Wilhelm Grimm, Contes de l'enfance et du foyer, 1857 (n° 2)"
+    },
+    "conteId": "de-chat-et-souris-associes",
+    "adaptation": {
+      "titre": "Le pot de miel de Petite Souris et Gros Loup",
+      "pitch": "Petite Souris et Gros Loup cachent un pot de miel pour l’hiver, mais Gros Loup le vide en cachette, jusqu’à ce que la ruse éclate devant tout le monde.",
+      "changements": [
+        "Le deuxième faux baptême (« À-moitié ») est supprimé en entier pour tenir dans les 5 minutes : Gros Loup ne s’éclipse que deux fois, et la seconde fois il vide le pot d’un coup, si bien que le filleul s’appelle directement « Tout-Fini ».",
+        "Les moments où Gros Loup goûte le miel en cachette ne sont pas montrés : il sort simplement de scène puis revient annoncer le nom du filleul, car une peluche n’a pas de doigts pour ouvrir un pot.",
+        "Le neveu du faux baptême n’est jamais une marionnette : c’est un personnage inventé par Gros Loup dans ses mensonges, on ne le voit donc jamais en scène."
+      ],
+      "tableaux": [
+        {
+          "id": "t1",
+          "titre": "La maison",
+          "description": "Tends un drap ou une couverture marron derrière toi pour marquer l’intérieur de la maison. Tu peux poser un coussin devant toi pour figurer le sol de la pièce. Rien d’autre n’est nécessaire pour ce tableau.",
+          "accessoires": [],
+          "promptImage": ""
+        },
+        {
+          "id": "t2",
+          "titre": "Le chêne",
+          "description": "Installe un grand carton ou un drap vert-brun pour figurer le tronc du chêne, avec un creux bien visible (un trou découpé ou un pli du tissu). Pose au pied du tronc un petit pot vide, à moitié caché, que tu ne toucheras plus avant la fin.",
+          "accessoires": [
+            "Un petit pot vide (pot à miel ou à confiture), posé au pied de l’arbre, jamais touché par les marionnettes"
+          ],
+          "promptImage": ""
+        }
+      ],
+      "actes": [
+        {
+          "numero": 1,
+          "titre": "Le pot caché",
+          "tableauId": "t1",
+          "resume": "Petite Souris et Gros Loup décident de vivre ensemble et achètent un pot de miel pour passer l’hiver au chaud. Ils choisissent de le cacher dans le creux du grand chêne.",
+          "passage": "De « Gros Loup avait fait la connaissance de Petite Souris… » à « …nous n’y toucherons pas avant d’en avoir besoin. »",
+          "temps": [
+            "Petite Souris et Gros Loup décident de vivre ensemble.",
+            "Ils achètent un pot de miel pour l’hiver.",
+            "Ils choisissent une cachette : le creux du grand chêne."
+          ],
+          "mouvements": [
+            {
+              "type": "entree",
+              "marionnette": "Petite Souris",
+              "main": "M1G"
+            },
+            {
+              "type": "entree",
+              "marionnette": "Gros Loup",
+              "main": "M1D"
+            }
+          ],
+          "momentsPublic": [
+            "On demande aux enfants : « À votre avis, où faut-il cacher le pot pour que personne ne le trouve ? »",
+            "On fait deviner aux enfants ce qu’il y a dans le pot avant de le dire."
+          ],
+          "budgetMots": 140
+        },
+        {
+          "numero": 2,
+          "titre": "Les faux baptêmes",
+          "tableauId": "t1",
+          "resume": "Gros Loup s’invente des prétextes pour s’éclipser et grignoter le miel en cachette, donnant chaque fois un drôle de nom au « bébé » de son faux baptême. Petite Souris s’étonne sans comprendre, et l’hiver approche.",
+          "passage": "De « Le petit pot fut donc mis à l’abri. » à « …Elle secoua la tête, se roula en boule et s’endormit. »",
+          "temps": [
+            "Gros Loup invente un premier baptême pour s’éclipser et goûter le miel : le filleul s’appelle « Entamé ».",
+            "Il recommence, vide le reste du pot d’un coup : le filleul s’appelle « Tout-Fini ».",
+            "Petite Souris s’étonne de ces noms étranges et s’endort, sans comprendre."
+          ],
+          "mouvements": [
+            {
+              "type": "sortie",
+              "marionnette": "Gros Loup",
+              "main": "M1G"
+            },
+            {
+              "type": "entree",
+              "marionnette": "Gros Loup",
+              "main": "M1D"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "Gros Loup",
+              "main": "M1G"
+            },
+            {
+              "type": "entree",
+              "marionnette": "Gros Loup",
+              "main": "M1D"
+            }
+          ],
+          "momentsPublic": [
+            "On demande aux enfants : « Entamé, ça veut dire quoi, à votre avis ? »",
+            "On fait deviner aux enfants pourquoi Gros Loup revient toujours le ventre plein.",
+            "On demande : « Vous, vous y croyez, à ces baptêmes ? »"
+          ],
+          "budgetMots": 160
+        },
+        {
+          "numero": 3,
+          "titre": "Tout-Fini !",
+          "tableauId": "t2",
+          "resume": "L’hiver venu, Petite Souris et Gros Loup vont ensemble chercher le pot promis : il est vide. Petite Souris comprend d’un coup et le dit devant tout le monde ; Gros Loup, confus, part réparer sa faute.",
+          "passage": "De « À partir de ce jour, plus personne ne demanda à Gros Loup d’être parrain. » à « …Tu vois, c’est ainsi que va le monde. »",
+          "temps": [
+            "L’hiver arrive ; ils vont ensemble chercher leur pot de miel.",
+            "Le pot est vide : Petite Souris comprend et dit « Tout-Fini ! » devant tout le monde.",
+            "Gros Loup, confus, promet de trouver un nouveau pot de miel."
+          ],
+          "mouvements": [
+            {
+              "type": "sortie",
+              "marionnette": "Gros Loup",
+              "main": "M1G"
+            }
+          ],
+          "momentsPublic": [
+            "On demande aux enfants, avant d’ouvrir : « À votre avis, qu’est-ce qu’on va trouver dans le pot ? »",
+            "On laisse les enfants deviner et crier le nom avant que Petite Souris ne le dise.",
+            "On demande aux enfants comment Gros Loup pourrait se faire pardonner."
+          ],
+          "budgetMots": 220
+        }
+      ],
+      "voix": [
+        {
+          "marionnette": "Gros Loup",
+          "voix": "voix grave et un peu traînante, qui commence chaque mensonge par un « Euh... » hésitant"
+        },
+        {
+          "marionnette": "Petite Souris",
+          "voix": "voix aiguë et pressée, qui répète le dernier mot entendu avec étonnement"
+        }
+      ]
+    },
+    "transposition": {
+      "texte": "Gros Loup avait fait la connaissance de Petite Souris, et il lui avait tant parlé du grand amour et de la grande amitié qu’il avait pour elle que Petite Souris accepta enfin d’habiter avec lui dans la même maison et de tenir ménage ensemble.\n\n— Mais il faut penser à l’hiver, sinon nous aurons faim, dit Gros Loup. Toi, Petite Souris, tu ne peux pas t’aventurer partout, et tu finirais par tomber dans un piège.\n\nIls suivirent donc ce bon conseil et achetèrent un petit pot de miel. Mais ils ne savaient pas où le mettre. Enfin, après avoir longuement réfléchi, Gros Loup dit :\n\n— Je ne connais pas d’endroit plus sûr que le creux du grand chêne : là, personne n’ose rien prendre. Nous le mettrons tout au fond, et nous n’y toucherons pas avant d’en avoir besoin.\n\nLe petit pot fut donc mis à l’abri. Mais il ne se passa pas longtemps avant que Gros Loup en ait envie, et il dit à Petite Souris :\n\n— Petite Souris, j’oubliais de te dire : ma cousine m’a demandé d’être parrain. Elle a mis au monde un petit garçon, blanc avec des taches brunes, et je dois le porter au baptême. Laisse-moi sortir aujourd’hui, et garde la maison toute seule.\n\n— Oui, oui, répondit Petite Souris, va, et si tu manges quelque chose de bon, pense à moi : une petite goutte du bon vin de la fête, j’en boirais volontiers.\n\nMais tout cela n’était pas vrai. Gros Loup n’avait pas de cousine et n’était parrain de personne. Il alla tout droit au creux du grand chêne, se glissa jusqu’au pot de miel, se mit à lécher, et lécha toute la couche du dessus. Puis il fit une promenade dans la forêt, regarda le paysage, s’étendit au soleil, et se pourlécha les moustaches chaque fois qu’il repensait au petit pot. Il ne rentra qu’au soir.\n\n— Ah, te voilà, dit Petite Souris. Tu as sûrement passé une joyeuse journée.\n\n— Ça s’est bien passé, répondit Gros Loup.\n\n— Et quel nom a-t-on donné à l’enfant ? demanda Petite Souris.\n\n— Entamé, dit Gros Loup, très sèchement.\n\n— Entamé ! s’écria Petite Souris. Mais c’est un nom bien étrange et bien bizarre. C’est l’habitude, dans ta famille ?\n\n— Et alors ? dit Gros Loup. Ce n’est pas pire que Voleur-de-miettes, comme s’appellent tes filleuls.\n\nPeu après, Gros Loup eut de nouveau une envie. Il dit à Petite Souris :\n\n— Il faut que tu me rendes encore service et que tu t’occupes seule de la maison. On m’a demandé une deuxième fois d’être parrain, et comme l’enfant a un anneau blanc autour du cou, je ne peux pas refuser.\n\nLa bonne Petite Souris accepta. Gros Loup se glissa à travers la forêt jusqu’au grand chêne et mangea la moitié du pot de miel.\n\n— Rien n’a meilleur goût, dit-il, que ce qu’on mange soi-même.\n\nEt il fut très content de sa journée. Quand il rentra, Petite Souris demanda :\n\n— Et comment a-t-on baptisé cet enfant-là ?\n\n— À-moitié, répondit Gros Loup.\n\n— À-moitié ! Qu’est-ce que tu me racontes ! Je n’ai jamais entendu ce nom de ma vie. Je parie qu’il n’est pas dans le calendrier.\n\nBientôt Gros Loup eut de nouveau l’eau à la bouche en pensant à la friandise.\n\n— Jamais deux sans trois, dit-il à Petite Souris. On me demande encore d’être parrain. L’enfant est tout noir, avec seulement les pattes blanches, pas un seul poil blanc ailleurs sur le corps : cela n’arrive qu’une fois tous les trois ou quatre ans. Tu me laisses sortir, n’est-ce pas ?\n\n— Entamé ! À-moitié ! répondit Petite Souris. Ce sont des noms si curieux, ils me donnent à réfléchir.\n\n— Tu restes à la maison dans ta robe gris foncé, avec ta longue natte, dit Gros Loup, et tu te fais des idées. Voilà ce qui arrive quand on ne sort pas de la journée.\n\nPendant l’absence de Gros Loup, Petite Souris fit le ménage et rangea la maison. Mais Gros Loup, gourmand, vida complètement le pot de miel.\n\n— Quand tout est mangé, on est tranquille, se dit-il.\n\nEt il ne rentra que la nuit, repu et tout rond. Petite Souris lui demanda aussitôt le nom qu’on avait donné au troisième enfant.\n\n— Il ne te plaira sans doute pas non plus, dit Gros Loup. Il s’appelle Tout-fini.\n\n— Tout-fini ! s’écria Petite Souris. C’est le plus inquiétant de tous les noms. Je ne l’ai jamais vu écrit nulle part. Tout-fini ! Qu’est-ce que cela peut bien vouloir dire ?\n\nElle secoua la tête, se roula en boule et s’endormit.\n\nÀ partir de ce jour, plus personne ne demanda à Gros Loup d’être parrain. Mais quand l’hiver arriva et qu’on ne trouva plus rien dehors, Petite Souris se souvint de leur réserve et dit :\n\n— Viens, Gros Loup, allons chercher notre pot de miel que nous avons mis de côté, il va nous régaler.\n\n— Oh oui, répondit Gros Loup, il te régalera autant que si tu tirais ta fine langue par la fenêtre.\n\nIls se mirent en route, et quand ils arrivèrent, le pot de miel était bien à sa place, mais il était vide.\n\n— Ah, dit Petite Souris, je comprends maintenant ce qui s’est passé, maintenant tout s’éclaire ! Tu es vraiment un bel ami ! Tu as tout mangé, quand tu étais parrain : d’abord entamé, puis à moitié, puis…\n\n— Tais-toi ! cria Gros Loup. Encore un mot, et je te mange.\n\n« Tout-fini » était déjà sur la langue de la pauvre Petite Souris ; à peine l’eut-elle dit que Gros Loup resta bouche bée, confus devant tout le monde. Il n’y avait plus rien à cacher : c’était bien lui, le gourmand. Alors, penaud, il promit de lui trouver un nouveau pot de miel avant la nuit. Tu vois, c’est ainsi que va le monde.",
+      "changements": [
+        "Le pot de graisse devient un pot de miel, comme annoncé au parent.",
+        "La cachette n’est plus l’église mais le creux d’un grand chêne, l’église disparaissant du texte.",
+        "La promenade sur les toits de la ville devient une promenade dans la forêt, car un loup ne grimpe pas sur les toits.",
+        "Le trajet derrière les remparts jusqu’à l’église devient un trajet à travers la forêt jusqu’au grand chêne, par cohérence avec la nouvelle cachette.",
+        "« une belle amie » devient « un bel ami », accord au masculin pour Gros Loup.",
+        "La fin est adoucie : personne n’est mangé ; confus devant tout le monde d’avoir tout mangé, Gros Loup part réparer sa faute en promettant à Petite Souris un nouveau pot de miel."
+      ]
+    },
+    "relecture": {
+      "remarques": [
+        {
+          "acte": 3,
+          "element": 13,
+          "gravite": "bloquant",
+          "remarque": "La didascalie « Gros Loup reste bouche bée, immobile, confus devant tout le monde » demande une expression de bouche ouverte (bouche bée) et un état (« confus ») qu'une peluche enfilée sur la main, sans visage manipulable, ne peut pas montrer physiquement.",
+          "modification": "Remplacer par une action jouable à la main : « [action] Gros Loup recule d'un coup, puis reste immobile, la tête penchée vers le sol. » Laisser la réplique suivante (« C'est vrai. J'ai tout mangé. », penaud) porter seule l'idée de confusion."
+        },
+        {
+          "acte": 2,
+          "element": 15,
+          "gravite": "important",
+          "remarque": "Le conte fait trois faux baptêmes (Entamé, À-moitié, Tout-fini) ; le script n'en joue que deux. L'élément 15 annonce pourtant une « deuxième fois » de parrain, mais au retour (élément 24) c'est directement le nom « Tout-fini » — celui du troisième baptême du conte — qui est révélé, sans qu'un troisième aller-retour ni le nom « À-moitié » n'aient existé. La numérotation ne correspond plus à ce qui est raconté, et un pan entier de la répétition comique du conte disparaît sans que ce soit nécessaire à la compréhension.",
+          "modification": "Faire correspondre l'élément 15 à un deuxième baptême qui aboutit au nom « À-moitié » (garder ou simplifier le détail de l'anneau blanc du conte). Ajouter ensuite un troisième cycle sortie/retour de Gros Loup (« Jamais deux sans trois… ») qui aboutit au nom « Tout-fini », repris du conte, avant l'endormissement de Petite Souris."
+        },
+        {
+          "acte": 2,
+          "element": 18,
+          "gravite": "important",
+          "remarque": "L'aparté « Vous, vous y croyez, à ces baptêmes ? » est une question directe au public, mais contrairement à tous les autres apartés du script, elle ne porte pas l'indication « attend une réponse » ni de temps de pause prévu avant la suite.",
+          "modification": "Ajouter « (attend une réponse) » à cette réplique, et insérer avant l'élément 19 une courte action du type « [action] Petite Souris regarde le public, attend. » pour laisser le temps de répondre, comme pour les autres adresses au public."
+        },
+        {
+          "acte": 3,
+          "element": 17,
+          "gravite": "mineur",
+          "remarque": "« Je vous promets, je ne recommencerai plus ! » (élément 17) répète presque mot pour mot la promesse déjà faite à l'élément 16 (« je te le promets »), sans rien apporter de nouveau à la scène.",
+          "modification": "Supprimer l'élément 17, ou fusionner les deux en une seule réplique adressée à la fois à Petite Souris et au public, par exemple : « Je vais te chercher un nouveau pot de miel tout de suite, promis — et à vous aussi, je ne recommencerai plus ! »"
+        }
+      ]
+    }
+  },
+  "creeLe": "2026-09-25T08:40:06.846Z",
+  "modifieLe": "2026-09-25T08:40:06.846Z"
+}

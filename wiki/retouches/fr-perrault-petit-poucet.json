@@ -1,0 +1,126 @@
+{
+  "id": "fr-perrault-petit-poucet",
+  "langue": [
+    {"avant": "tandis qu’ils s’amuseront à fagoter", "apres": "pendant qu’ils s’amuseront à fagoter", "nature": "connecteur", "jusqua": 8},
+    {"avant": "ouït tout ce qu’ils dirent", "apres": "entendit tout ce qu’ils dirent", "nature": "mot-disparu"},
+    {"avant": "sous l’escabelle de son père", "apres": "sous le tabouret de son père", "nature": "mot-disparu"},
+    {"avant": "ne découvrit rien de tout ce qu’il savait", "apres": "ne dit rien de tout ce qu’il savait", "nature": "faux-ami"},
+    {"avant": "s’éloignèrent d’eux insensiblement", "apres": "s’éloignèrent d’eux peu à peu", "nature": "faux-ami"},
+    {"avant": "Ne craignez point", "apres": "N’ayez pas peur", "nature": "parler", "jusqua": 4},
+    {"avant": "Ils feraient bonne chère de ce qui nous reste là", "apres": "Ils se régaleraient de ce qui nous reste là", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "c’est toi qui les a voulu perdre", "apres": "c’est toi qui as voulu les perdre", "nature": "tournure"},
+    {"avant": "un peu rousseau", "apres": "un peu roux", "nature": "mot-disparu"},
+    {"avant": "ils gagnèrent un faux-fuyant", "apres": "ils prirent un sentier détourné", "nature": "faux-ami"},
+    {"avant": "Ils heurtèrent à la porte", "apres": "Ils frappèrent à la porte", "nature": "mot-disparu"},
+    {"avant": "bonne femme", "apres": "brave femme", "nature": "faux-ami", "partout": true},
+    {"avant": "nous retirer chez vous", "apres": "nous garder chez vous", "nature": "faux-ami"},
+    {"avant": "entendirent heurter trois ou quatre grands coups", "apres": "entendirent frapper trois ou quatre grands coups", "nature": "mot-disparu"},
+    {"avant": "ce veau que je viens d’habiller", "apres": "ce veau que je viens de préparer", "nature": "faux-ami"},
+    {"avant": "quelque chose que je n’entends pas", "apres": "quelque chose que je ne comprends pas", "nature": "faux-ami"},
+    {"avant": "Je ne sais à quoi il tient que je ne te mange aussi : bien t’en prend d’être une vieille bête", "apres": "Je ne sais pas ce qui me retient de te manger aussi : tu as de la chance d’être une vieille bête", "nature": "tournure"},
+    {"avant": "pour traiter trois ogres de mes amis", "apres": "pour régaler trois ogres de mes amis", "nature": "faux-ami"},
+    {"avant": "qui doivent me venir voir", "apres": "qui doivent venir me voir", "nature": "tournure"},
+    {"avant": "ils en seront plus mortifiés", "apres": "ils en seront plus tendres", "nature": "faux-ami"},
+    {"avant": "l’obligea de s’aller coucher", "apres": "l’obligea à aller se coucher", "nature": "tournure"},
+    {"avant": "mit coucher les sept petits garçons", "apres": "fit coucher les sept petits garçons", "nature": "tournure"},
+    {"avant": "elle s’alla coucher elle-même", "apres": "elle alla se coucher elle-même", "nature": "tournure"},
+    {"avant": "sans balancer", "apres": "sans hésiter", "nature": "faux-ami"},
+    {"avant": "de les aller vêtir", "apres": "d’aller les vêtir", "nature": "tournure"},
+    {"avant": "pour lui aider", "apres": "pour l’aider", "nature": "tournure"},
+    {"avant": "et tout à l’heure", "apres": "et tout de suite", "nature": "faux-ami"},
+    {"avant": "une potée d’eau", "apres": "un pot d’eau", "nature": "faux-ami"},
+    {"avant": "de s’appetisser", "apres": "de rapetisser", "nature": "mot-disparu"},
+    {"avant": "Dans le moment qu’ils lui tenaient", "apres": "Au moment où ils lui tenaient", "nature": "tournure"},
+    {"avant": "m’a prié de vous venir avertir", "apres": "m’a prié de venir vous avertir", "nature": "tournure"},
+    {"avant": "tout ce qu’il a de vaillant", "apres": "tout ce qu’il a de précieux", "nature": "faux-ami"},
+    {"avant": "que je prisse ses bottes", "apres": "que je prenne ses bottes", "nature": "tournure"},
+    {"avant": "pour faire diligence", "apres": "pour aller plus vite", "nature": "mot-disparu"},
+    {"avant": "un affronteur", "apres": "un menteur", "nature": "mot-disparu"},
+    {"avant": "ne laissait pas d’être fort bon mari", "apres": "était tout de même un fort bon mari", "nature": "tournure"},
+    {"avant": "il n’avait pas fait conscience de lui prendre", "apres": "il n’avait pas eu de scrupule à lui prendre", "nature": "mot-disparu"},
+    {"avant": "des offices de nouvelle création", "apres": "des emplois de nouvelle création", "nature": "faux-ami"},
+    {"avant": "fit parfaitement bien sa cour", "apres": "se fit parfaitement bien voir du roi", "nature": "faux-ami"},
+    {"avant": "Cependant", "apres": "Mais", "nature": "connecteur", "jusqua": 8, "partout": true},
+    {"avant": "le plus fin et le plus avisé", "apres": "le plus malin et le plus avisé", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "leur envoya dix écus", "apres": "leur envoya dix écus d’argent", "nature": "mot-rare", "jusqua": 4},
+    {"avant": "mais, quoiqu’il se fût levé de grand matin pour aller ramasser de petits cailloux, il ne put en venir à bout", "apres": "il se leva de grand matin pour aller ramasser de petits cailloux, mais il ne put en venir à bout", "nature": "connecteur", "jusqua": 8},
+    {"avant": "Le Petit Poucet, qui avait remarqué que les filles de l’Ogre avaient des couronnes d’or sur la tête, et qui craignait qu’il ne prît à l’Ogre quelque remords de ne les avoir pas égorgés dès le soir même, se leva", "apres": "Le Petit Poucet avait remarqué que les filles de l’Ogre avaient des couronnes d’or sur la tête, et il craignait qu’il ne prît à l’Ogre quelque remords de ne les avoir pas égorgés dès le soir même. Le Petit Poucet se leva", "nature": "relative", "jusqua": 6},
+    {"avant": "il alla tout doucement les mettre sur la tête des sept filles de l’Ogre, après leur avoir ôté leurs couronnes d’or, qu’il mit sur la tête de ses frères et sur la sienne", "apres": "il alla tout doucement ôter aux sept filles de l’Ogre leurs couronnes d’or, et leur mettre les bonnets sur la tête ; il mit les couronnes sur la tête de ses frères et sur la sienne", "nature": "ordre", "jusqua": 6},
+    {"avant": "La chose réussit comme il l’avait pensé", "apres": "La chose réussit comme le Petit Poucet l’avait pensé", "nature": "pronom", "jusqua": 6},
+    {"avant": "parce qu’il ne s’en servait que pour courir après les petits enfants", "apres": "parce que l’Ogre ne s’en servait que pour courir après les petits enfants", "nature": "pronom", "jusqua": 6}
+  ],
+  "moments": [
+    {
+      "id": "enfants-perdus",
+      "type": "abandon",
+      "niveaux": [
+        {
+          "jusqua": 4,
+          "annonce": "Le bûcheron et la bûcheronne n’abandonnent pas leurs enfants : les sept garçons se perdent deux fois dans la forêt en ramassant du bois.",
+          "retouches": [
+            {"avant": "ces pauvres gens résolurent de se défaire de leurs enfants", "apres": "ces pauvres gens ne savaient plus comment nourrir leurs enfants"},
+            {"avant": "je ne saurais les voir mourir de faim devant mes yeux, et je suis résolu de les mener perdre demain au bois, ce qui sera bien aisé, car, tandis qu’ils s’amuseront à fagoter, nous n’avons qu’à nous enfuir sans qu’ils nous voient. — Ah ! s’écria la bûcheronne, pourrais-tu toi-même mener perdre tes enfants !", "apres": "je ne peux pas les voir mourir de faim devant mes yeux. Demain, nous les mènerons avec nous au plus épais du bois, pour faire des fagots à vendre. — Ah ! s’écria la bûcheronne, ils vont s’y perdre !"},
+            {"avant": "Le père et la mère, les voyant occupés à travailler, s’éloignèrent d’eux insensiblement, et puis s’enfuirent tout à coup par un petit sentier détourné.", "apres": "Les enfants, tout occupés à travailler, s’éloignèrent peu à peu de leur père et de leur mère, et tout à coup, ils ne les virent plus."},
+            {"avant": "mon père et ma mère nous ont laissés ici", "apres": "nous avons perdu notre père et notre mère"},
+            {"avant": "le bûcheron et la bûcheronne arrivèrent chez eux", "apres": "le bûcheron et la bûcheronne arrivèrent chez eux, après avoir longtemps cherché leurs enfants dans le bois"},
+            {"avant": "c’est toi qui les a voulu perdre ; j’avais bien dit que nous nous en repentirions", "apres": "c’est toi qui as voulu les mener si loin ; j’avais bien dit qu’ils s’y perdraient"},
+            {"avant": "Tu es bien inhumain d’avoir perdu ainsi tes enfants !", "apres": "Tu aurais dû mieux veiller sur tes enfants !"},
+            {"avant": "elle redit plus de vingt fois qu’ils s’en repentiraient", "apres": "elle redit plus de vingt fois qu’il n’aurait pas dû les mener si loin"},
+            {"avant": "et résolurent de les perdre encore ; et, pour ne pas manquer leur coup, de les mener bien plus loin que la première fois", "apres": "et résolurent de retourner tous au bois, bien plus loin que la première fois"},
+            {"avant": "et, dès qu’ils y furent, ils gagnèrent un faux-fuyant, et les laissèrent là", "apres": "et, dès qu’ils y furent, les enfants s’écartèrent pour ramasser du bois, et perdirent de vue leur père et leur mère"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "le-vin-de-l-ogre",
+      "type": "alcool",
+      "niveaux": [
+        {
+          "jusqua": 4,
+          "annonce": "Le vin donne sommeil à l’Ogre : il n’est pas ivre.",
+          "retouches": [
+            {"avant": "ce qui lui donna un peu dans la tête, et l’obligea de s’aller coucher", "apres": "ce qui lui donna sommeil, et l’obligea à aller se coucher"},
+            {"avant": "je vois bien que je bus trop hier soir", "apres": "je vois bien que je dors encore à moitié"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "les-filles-de-l-ogre",
+      "type": "cruaute",
+      "niveaux": [
+        {
+          "jusqua": 6,
+          "annonce": "L’Ogre, trompé dans le noir, ne tue pas ses filles : il les ficelle dans leurs draps pour les faire cuire, et sa femme les retrouve au matin, bien vivantes.",
+          "retouches": [
+            {"avant": "car elles mordaient déjà les petits enfants pour en sucer le sang", "apres": "car elles mordaient déjà les petits enfants"},
+            {"avant": "il coupa, sans balancer, la gorge à ses sept filles", "apres": "il enroula ses sept filles dans leurs draps, et les ficela bien serré, pour les faire cuire au matin"},
+            {"avant": "ses sept filles égorgées et nageant dans leur sang", "apres": "ses sept filles ficelées dans leurs draps"},
+            {"avant": "qui pleurait auprès de ses filles égorgées", "apres": "qui détachait ses filles, encore ficelées dans leurs draps"}
+          ]
+        },
+        {
+          "jusqua": 10,
+          "retouches": [
+            {"avant": "car elles mordaient déjà les petits enfants pour en sucer le sang", "apres": "car elles mordaient déjà les petits enfants"},
+            {"avant": "ses sept filles égorgées et nageant dans leur sang", "apres": "ses sept filles égorgées"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sexisme",
+      "type": "mal-vieilli",
+      "niveaux": [
+        {
+          "jusqua": 10,
+          "retouches": [
+            {"avant": "Il la menaça de la battre, si elle ne se taisait.", "apres": "Il lui cria de se taire."},
+            {"avant": ", car c’est le premier expédient que trouvent presque toutes les femmes en pareilles rencontres", "apres": ""}
+          ]
+        }
+      ]
+    }
+  ]
+}

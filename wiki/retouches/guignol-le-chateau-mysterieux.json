@@ -1,0 +1,31 @@
+{
+  "id": "guignol-le-chateau-mysterieux",
+  "langue": [
+    {"avant": "en a-t-il vu défiler des escalins ce mami", "apres": "en a-t-il vu défiler des sous ce mami", "nature": "mot-disparu"},
+    {"avant": "Vous en connaissez tous les êtres", "apres": "Vous en connaissez tous les coins", "nature": "faux-ami"},
+    {"avant": "J’ai confiance, & cependant je voudrais bien", "apres": "J’ai confiance, & pourtant je voudrais bien", "nature": "connecteur", "jusqua": 8},
+    {"avant": "personne ne l’a jamais vue… Cependant…", "apres": "personne ne l’a jamais vue… Mais…", "nature": "connecteur", "jusqua": 8}
+  ],
+  "moments": [
+    {
+      "id": "la-suivante-sous-le-voile",
+      "type": "mal-vieilli",
+      "niveaux": [
+        {
+          "jusqua": 10,
+          "annonce": "Sous son voile, Ziska porte un affreux masque de carnaval : c’est ce masque que Guignol prend pour un monstre.",
+          "retouches": [
+            {"avant": "ZISKA, négresse, suivante d’Edith.", "apres": "ZISKA, suivante d’Edith."},
+            {"avant": "Moa être belle, très-belle. (Elle lève son voile.)", "apres": "Moa être belle, très-belle. (Elle lève son voile : dessous, elle porte un affreux masque de carnaval.)"},
+            {"avant": "Qué que c’est que ça ? Un râcle-fourniau, un diable.", "apres": "Qué que c’est que ça ? Un diable."},
+            {"avant": "Oui, c’est un monstre, un charbon de Rive-de-Gier. Elle a un museau noir comme la crémaillère & une trompe comme un éléphant.", "apres": "Oui, c’est un monstre. Elle a une trompe comme un éléphant."},
+            {"avant": "ça m’a nourri de voir ce jus de réglisse noir.", "apres": "ça m’a nourri de voir ça."},
+            {"avant": "Il va donner sa main à ce fumeron ; il va me revenir tout machuré…", "apres": "Il va donner sa main à ce monstre…"},
+            {"avant": "Ah ! v’là le fumeron !", "apres": "Ah ! v’là le monstre !"},
+            {"avant": "c’est une très-belle négresse. GUIGNOL. Elle est de quéque pays où ils ont l’accoutumance de se manger chacun à leur tour en boulli ou en rôti.", "apres": "c’était un masque."}
+          ]
+        }
+      ]
+    }
+  ]
+}

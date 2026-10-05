@@ -1,0 +1,56 @@
+{"synopsis": [
+  {"conte": "fr-perrault-chaperon-rouge",
+   "accroche": "Rosette part porter une galette à sa grand-mère malade, mais un loup rusé s'est déjà glissé dans son lit.",
+   "resume": [
+     "Rosette part dans la forêt porter une galette à Mamie Rose, qui est malade, et croise en chemin Loup Gris.",
+     "Loup Gris lui pose des questions sur son chemin, puis propose une course : chacun rejoint la maison de Mamie Rose par son côté.",
+     "Loup Gris arrive le premier, se fait ouvrir la porte et prend la place de Mamie Rose dans le lit.",
+     "Rosette arrive à son tour et s'étonne : « Grand-mère, comme vous avez de grandes dents ! » Elle comprend à temps, appelle à l'aide, et chasse Loup Gris."
+   ],
+   "distribution": [
+     {"marionnette": "Rosette", "role": "le Petit Chaperon rouge", "note": "Déjà curieuse et gentille, exactement comme la fillette du conte."},
+     {"marionnette": "Loup Gris", "role": "le Loup", "note": "Gourmand et un peu méchant : le rôle lui va tout droit, sans rien changer."},
+     {"marionnette": "Mamie Rose", "role": "la Mère-grand", "note": "Une gentille grand-mère : elle est déjà ce personnage."}
+   ],
+   "changements": [
+     "Le rôle de la mère est supprimé : on annonce simplement que Mamie Rose attend sa galette, sans marionnette pour elle.",
+     "La fin est adoucie : au lieu d'être mangée, Rosette comprend à temps, avec l'aide des enfants dans la salle, et chasse Loup Gris — personne n'est dévoré."
+   ]},
+  {"conte": "ru-chat-coq-renard",
+   "accroche": "Chaque fois qu'on le laisse seul, Rosette le Coq se laisse attirer par les chansons de Loup Gris, et c'est Mamie Rose le Chat qui doit venir le sauver.",
+   "resume": [
+     "Mamie Rose part faire une course et laisse Rosette garder seule la maison.",
+     "Loup Gris chante sous la fenêtre : « Montre-toi, je te donnerai de bonnes graines ! » Rosette se laisse tenter, se montre, et Loup Gris l'emporte ; ses cris ramènent Mamie Rose, qui le fait fuir et la délivre.",
+     "Une seconde fois, Loup Gris revient et recommence sa chanson ; Rosette résiste un moment, puis regarde à la fenêtre et se fait encore emporter, plus loin cette fois.",
+     "Mamie Rose met plus longtemps à l'entendre, mais alertée par les cris du public, elle arrive à temps, fait fuir Loup Gris, et ramène Rosette saine et sauve."
+   ],
+   "distribution": [
+     {"marionnette": "Rosette", "role": "le Coq", "note": "Curieuse comme le Coq, ce qui explique bien qu'il se laisse attirer."},
+     {"marionnette": "Loup Gris", "role": "la Renarde", "note": "Aussi gourmand que ce personnage ; il joue ce rôle en restant un loup tout du long."},
+     {"marionnette": "Mamie Rose", "role": "le Chat", "note": "Sage comme le Chat, elle est la protectrice naturelle de Rosette."}
+   ],
+   "changements": [
+     "Le vieux du conte est supprimé : Mamie Rose part simplement faire une course, ce qui suffit à expliquer que Rosette reste seule.",
+     "Le renard du conte devient Loup Gris, un loup, tout du long de l'histoire.",
+     "Une des trois fois où Rosette se fait avoir est coupée pour tenir dans le temps, et la fin est changée : Mamie Rose arrive toujours à temps, personne n'est blessé."
+   ]},
+  {"conte": "in-singes-jardiniers",
+   "accroche": "Pendant que Rosette est à la foire, les singes menés par Loup Gris veulent bien arroser le jardin — mais ils arrachent chaque fleur pour mesurer combien d'eau lui donner.",
+   "resume": [
+     "Rosette, qui s'occupe du jardin de Mamie Rose, veut aller à la foire et demande aux singes d'arroser les fleurs pendant son absence.",
+     "Les singes acceptent avec enthousiasme, menés par leur chef, Loup Gris, qui tient un grand conseil très sérieux.",
+     "Convaincu qu'il faut économiser l'eau, Loup Gris décide : chaque fleur recevra autant d'eau que ses racines sont longues — il faut donc les mesurer.",
+     "Un par un, les singes arrachent chaque fleur pour mesurer ses racines, l'arrosent, puis la replantent.",
+     "Rosette revient : tout est fané. Mamie Rose conclut que le plus étourdi, c'est celui qui a confié le jardin à des singes — et tous replantent ensemble."
+   ],
+   "distribution": [
+     {"marionnette": "Rosette", "role": "le Jardinier", "note": "Gentille comme ce personnage, elle est la fautive innocente de l'histoire."},
+     {"marionnette": "Loup Gris", "role": "le Chef des singes", "note": "Un meneur un peu trop sûr de lui : un beau rôle de chef pour Loup Gris."},
+     {"marionnette": "Mamie Rose", "role": "le Maître du parc", "note": "Sage comme ce personnage, elle est la voix qui conclut l'histoire."}
+   ],
+   "changements": [
+     "Les autres singes de la troupe restent en coulisses : seul leur chef, Loup Gris, est montré ; les autres sont juste racontés.",
+     "Le chef des singes devient un loup, mais reste bien le chef d'une troupe de singes.",
+     "Rosette n'est pas grondée méchamment à la fin : elle replante le jardin avec les singes, tout le monde ensemble."
+   ]}
+]}

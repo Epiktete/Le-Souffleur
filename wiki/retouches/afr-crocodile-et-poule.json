@@ -1,0 +1,11 @@
+{
+  "id": "afr-crocodile-et-poule",
+  "langue": [
+    {"avant": "résolut de voir Nzambi pour l’interroger", "apres": "décida d’aller voir Nzambi, le grand dieu, pour l’interroger", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "pour tenir un palabre avec lui", "apres": "pour en parler avec lui", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "Comment puis-je être son frère ?", "apres": "Comment je pourrais être son frère ?", "nature": "parler", "jusqua": 4},
+    {"avant": "Je ne peux rester ainsi plus longtemps", "apres": "Je ne peux pas rester ainsi plus longtemps", "nature": "parler", "jusqua": 4},
+    {"avant": "Ne savez-vous pas, cher crocodile, que", "apres": "Vous ne savez pas, cher crocodile, que", "nature": "parler", "jusqua": 4}
+  ],
+  "moments": []
+}

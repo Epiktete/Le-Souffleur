@@ -1,0 +1,969 @@
+{
+  "id": "en-trois-nigauds--1",
+  "conteId": "en-trois-nigauds",
+  "titre": "Les Trois Nigauds",
+  "pitch": "{{r1}} quitte {{r2}} et sa famille en larmes pour chercher trois personnes encore plus nigaudes ; il revient après la vache, le pantalon et la lune.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "curieux",
+        "sage",
+        "farceur"
+      ],
+      "voix": "voix claire et posée, se met à rire devant les idées étonnantes",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "il revient",
+            "apres": "elle revient"
+          },
+          {
+            "id": "a1e2:texte",
+            "avant": "un monsieur",
+            "apres": "une dame"
+          },
+          {
+            "id": "a1e2:texte",
+            "avant": "il venait",
+            "apres": "elle venait"
+          },
+          {
+            "id": "a1e20:texte",
+            "avant": "son amoureux",
+            "apres": "son amoureuse"
+          },
+          {
+            "id": "a1e24:texte",
+            "avant": "tout seul",
+            "apres": "toute seule"
+          },
+          {
+            "id": "a1e24:texte",
+            "avant": "il descendit lui aussi",
+            "apres": "elle descendit elle aussi"
+          },
+          {
+            "id": "a1e28:texte",
+            "avant": "Puis il dit",
+            "apres": "Puis elle dit"
+          },
+          {
+            "id": "a1e31:texte",
+            "avant": "Puis il dit",
+            "apres": "Puis elle dit"
+          },
+          {
+            "id": "a1e34:texte",
+            "avant": "Il leur dit",
+            "apres": "Elle leur dit"
+          },
+          {
+            "id": "a1e34:texte",
+            "avant": "son amoureux",
+            "apres": "son amoureuse"
+          },
+          {
+            "id": "a2e2:texte",
+            "avant": "Il partit donc",
+            "apres": "Elle partit donc"
+          },
+          {
+            "id": "a2e2:texte",
+            "avant": "il voyagea longtemps",
+            "apres": "elle voyagea longtemps"
+          },
+          {
+            "id": "a2e2:texte",
+            "avant": "il arriva à la chaumière",
+            "apres": "elle arriva à la chaumière"
+          },
+          {
+            "id": "a2e12:texte",
+            "avant": "il n'était pas allé bien loin",
+            "apres": "elle n'était pas allée bien loin"
+          },
+          {
+            "id": "a3e2:texte",
+            "avant": "il s'arrêta pour la nuit",
+            "apres": "elle s'arrêta pour la nuit"
+          },
+          {
+            "id": "a3e2:texte",
+            "avant": "le mettre dans une chambre",
+            "apres": "la mettre dans une chambre"
+          },
+          {
+            "id": "a3e4:texte",
+            "avant": "fut surpris",
+            "apres": "fut surprise"
+          },
+          {
+            "id": "a4e2:texte",
+            "avant": "il arriva à un village",
+            "apres": "elle arriva à un village"
+          },
+          {
+            "id": "a4e8:texte",
+            "avant": "il repartit",
+            "apres": "elle repartit"
+          },
+          {
+            "id": "a4e8:texte",
+            "avant": "qu'il put",
+            "apres": "qu'elle put"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "derrière lui",
+            "apres": "derrière elle"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r2",
+      "espece": "fille",
+      "famille": "enfant",
+      "traits": [
+        "rêveuse",
+        "peureuse"
+      ],
+      "voix": "voix douce qui s’étire en sanglots",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a1e2:texte",
+            "avant": "une fille",
+            "apres": "un fils"
+          },
+          {
+            "id": "a1e2:texte",
+            "avant": "la voir",
+            "apres": "le voir"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "elle était descendue",
+            "apres": "il était descendu"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "elle leva",
+            "apres": "il leva"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "elle vit un maillet",
+            "apres": "il vit un maillet"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "elle ne l'avait jamais remarqué",
+            "apres": "il ne l'avait jamais remarqué"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "Et elle se mit à réfléchir",
+            "apres": "Et il se mit à réfléchir"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "Et elle pensa",
+            "apres": "Et il pensa"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "car elle se dit",
+            "apres": "car il se dit"
+          },
+          {
+            "id": "a1e7:texte",
+            "avant": "elle s'assit",
+            "apres": "il s'assit"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "elle mettait",
+            "apres": "il mettait"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "la trouva",
+            "apres": "le trouva"
+          },
+          {
+            "id": "a1e20:texte",
+            "avant": "notre fille",
+            "apres": "notre fils"
+          },
+          {
+            "id": "a1e30:texte",
+            "avant": "notre fille",
+            "apres": "notre fils"
+          },
+          {
+            "id": "a1e32:texte",
+            "avant": "votre fille",
+            "apres": "votre fils"
+          },
+          {
+            "id": "a4e15:texte",
+            "avant": "la fille de",
+            "apres": "le fils de"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "assise sur le banc",
+            "apres": "assis sur le banc"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r3",
+      "espece": "femme",
+      "famille": "adulte",
+      "traits": [
+        "naïve",
+        "affectueuse"
+      ],
+      "voix": "voix chaude, devient plaintive dans la cave",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a1e2:texte",
+            "avant": "sa femme",
+            "apres": "son mari"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "Elle",
+            "apres": "Il"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "maman",
+            "apres": "papa"
+          },
+          {
+            "id": "a1e13:texte",
+            "avant": "Et elle s'assit",
+            "apres": "Et il s'assit"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r4",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "naïf",
+        "affectueux"
+      ],
+      "voix": "voix grave, pousse de longs soupirs",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e2:texte",
+            "avant": "un fermier",
+            "apres": "une fermière"
+          },
+          {
+            "id": "a1e15:texte",
+            "avant": "il descendit lui-même",
+            "apres": "elle descendit elle-même"
+          },
+          {
+            "id": "a1e22:texte",
+            "avant": "Et il s'assit",
+            "apres": "Et elle s'assit"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r5",
+      "espece": "femme",
+      "famille": "adulte",
+      "traits": [
+        "têtue",
+        "naïve"
+      ],
+      "voix": "voix vive, qui affirme son idée sans hésiter",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a2e7:texte",
+            "avant": "pauvre nigaude",
+            "apres": "pauvre nigaud"
+          },
+          {
+            "id": "a2e9:texte",
+            "avant": "elle la poussa",
+            "apres": "il la poussa"
+          },
+          {
+            "id": "a2e12:texte",
+            "avant": "où elle resta coincée",
+            "apres": "où il resta coincé"
+          },
+          {
+            "id": "a2e12:texte",
+            "avant": "toute noire",
+            "apres": "tout noir"
+          },
+          {
+            "id": "a2e13:texte",
+            "avant": "une grande nigaude",
+            "apres": "un grand nigaud"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a2e2:texte",
+          "avant": "d'une femme",
+          "gabarit": "d'{un} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r6",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "gentil",
+        "maladroit"
+      ],
+      "voix": "voix essoufflée après ses bonds",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a3e2:texte",
+            "avant": "un autre voyageur",
+            "apres": "une autre voyageuse"
+          },
+          {
+            "id": "a3e2:texte",
+            "avant": "un bien agréable compagnon",
+            "apres": "une bien agréable compagne"
+          },
+          {
+            "id": "a3e7:texte",
+            "avant": "Il essaya encore",
+            "apres": "Elle essaya encore"
+          },
+          {
+            "id": "a3e7:texte",
+            "avant": "il faisait ça",
+            "apres": "elle faisait ça"
+          },
+          {
+            "id": "a3e5:texte",
+            "avant": "le regarde",
+            "apres": "la regarde"
+          },
+          {
+            "id": "a3e8:ton",
+            "avant": "essoufflé",
+            "apres": "essoufflée"
+          },
+          {
+            "id": "a3e12:texte",
+            "avant": "un autre grand nigaud",
+            "apres": "une autre grande nigaude"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 15,
+    "ageAuditoire": 5,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La cave de la ferme",
+      "description": "Un coussin bas désigne le banc de la cave, un carton dressé la poutre. Le maillet et le robinet sont racontés ; aucun objet ne doit être manipulé pendant le jeu.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "Le toit couvert d’herbe",
+      "description": "Un coussin haut évoque le toit. La vache, l’échelle, la ficelle et la cheminée existent dans le récit ; deux peluches restent sur la table.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t3",
+      "titre": "La chambre de l’auberge",
+      "description": "Deux coussins espacés figurent les lits. La commode et le pantalon sont imaginés, tandis que {{r6}} bondit sur place.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t4",
+      "titre": "La mare et le retour",
+      "description": "Un tissu bleu posé avant le jeu représente la mare. {{r1}} regarde en haut puis revient vers la ferme ; la lune est racontée, sans accessoire à tenir.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "numero": 1,
+      "titre": "Trois pleurs dans la cave",
+      "resume": "{{r2}} craint pour un fils imaginaire ; {{r3}} et {{r4}} pleurent à leur tour. {{r1}} découvre la cause des pleurs et part.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e2",
+          "type": "conteur",
+          "texte": "Il était une fois un fermier, {{r4}}, et sa femme {{r3}} qui avaient une fille, {{r2}}, et un monsieur, {{r1}}, qui lui faisait la cour. Tous les soirs, il venait la voir et restait souper à la ferme, et on envoyait {{r2}} à la cave tirer à boire pour le souper."
+        },
+        {
+          "id": "a1e3",
+          "type": "conteur",
+          "texte": "Un soir, elle était descendue tirer à boire, et elle leva par hasard les yeux vers le plafond, et elle vit un maillet planté dans une poutre. Il devait être là depuis très, très longtemps, mais d'une façon ou d'une autre, elle ne l'avait jamais remarqué."
+        },
+        {
+          "id": "a1e4",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Imaginez le maillet là-haut : levez les yeux vers le plafond de la cave !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e5",
+          "type": "conteur",
+          "texte": "Et elle se mit à réfléchir. Et elle pensa que c'était bien dangereux d'avoir ce maillet là, car elle se dit :"
+        },
+        {
+          "id": "a1e6",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Imaginons que {{r1}} et moi, on se marie, et qu’on ait un fils, et qu’il grandisse et devienne un homme, et qu’il descende à la cave pour tirer à boire, comme moi maintenant, et que le maillet lui tombe sur la tête : quelle chose épouvantable ce serait !",
+          "ton": "en sanglotant"
+        },
+        {
+          "id": "a1e7",
+          "type": "conteur",
+          "texte": "Et la chandelle et la cruche restèrent immobiles ; elle s'assit et se mit à pleurer."
+        },
+        {
+          "id": "a1e8",
+          "type": "conteur",
+          "texte": "Là-haut, on commença à se demander pourquoi elle mettait si longtemps à tirer à boire, et {{r3}} descendit voir. Elle la trouva assise sur le banc à pleurer, et la boisson qui coulait par terre."
+        },
+        {
+          "id": "a1e9",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e10",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Mais enfin, qu’est-ce qui se passe ?"
+        },
+        {
+          "id": "a1e11",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Oh, maman ! Regarde cet horrible maillet ! Imagine qu’on se marie, et qu’on ait un fils, et qu’il grandisse, et qu’il descende à la cave tirer à boire, et que le maillet lui tombe sur la tête : quelle chose épouvantable ce serait !",
+          "ton": "en pleurant"
+        },
+        {
+          "id": "a1e12",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Mon Dieu, mon Dieu ! Quelle chose épouvantable ce serait !",
+          "ton": "en pleurant"
+        },
+        {
+          "id": "a1e13",
+          "type": "conteur",
+          "texte": "Et elle s'assit à côté de {{r2}} et se mit à pleurer aussi."
+        },
+        {
+          "id": "a1e14",
+          "type": "adresse_public",
+          "marionnetteId": "r3",
+          "texte": "Oh, oh, oh ! Faites un tout petit sanglot avec moi.",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e15",
+          "type": "conteur",
+          "texte": "Au bout d'un moment, {{r4}} commença à s'étonner de cette longue attente, et il descendit lui-même à la cave pour voir. Et {{r2}} et {{r3}} étaient là, côte à côte, à pleurer, et la boisson qui coulait partout par terre."
+        },
+        {
+          "id": "a1e16",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e17",
+          "type": "didascalie",
+          "texte": "{{r3}} reste sur le banc. Un temps de silence laisse changer la peluche."
+        },
+        {
+          "id": "a1e18",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e19",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Mais qu’est-ce qui se passe ?"
+        },
+        {
+          "id": "a1e20",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Eh bien, regarde cet horrible maillet. Imagine que notre fille et son amoureux se marient, et qu’un fils leur naisse, et qu’il grandisse, et qu’il descende à la cave tirer à boire, et que le maillet lui tombe sur la tête : quelle chose épouvantable ce serait !"
+        },
+        {
+          "id": "a1e21",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Mon Dieu, mon Dieu, mon Dieu ! C’est bien vrai !",
+          "ton": "en pleurant"
+        },
+        {
+          "id": "a1e22",
+          "type": "conteur",
+          "texte": "Et il s'assit à côté de {{r2}} et {{r3}} et se mit à pleurer."
+        },
+        {
+          "id": "a1e23",
+          "type": "adresse_public",
+          "marionnetteId": "r4",
+          "texte": "Encore un sanglot ! Cette fois, trois petits « oh ».",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e24",
+          "type": "conteur",
+          "texte": "Or {{r1}} en eut assez d'attendre tout seul dans la cuisine, et à la fin il descendit lui aussi à la cave pour voir ce qui se passait. Et la famille était là, côte à côte, à pleurer, et la boisson qui coulait partout par terre."
+        },
+        {
+          "id": "a1e25",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e26",
+          "type": "didascalie",
+          "texte": "{{r4}} reste au fond de la cave. Une courte pause laisse changer la peluche."
+        },
+        {
+          "id": "a1e27",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e28",
+          "type": "conteur",
+          "texte": "{{r1}} courut vers le robinet. La boisson ne coulait plus. Puis il dit :"
+        },
+        {
+          "id": "a1e29",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Mais qu’est-ce que vous faites là, à pleurer, en laissant tout couler par terre ?"
+        },
+        {
+          "id": "a1e30",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Oh ! Regardez cet horrible maillet ! Imaginez que vous et notre fille, vous vous mariiez, et que vous ayez un fils, et qu’il grandisse, et qu’il descende à la cave tirer à boire, et que le maillet lui tombe sur la tête !"
+        },
+        {
+          "id": "a1e31",
+          "type": "conteur",
+          "texte": "Et les trois se remirent à pleurer, encore plus fort. Mais {{r1}} éclata de rire. {{r1}} fit tomber le maillet de la poutre. Puis il dit :"
+        },
+        {
+          "id": "a1e32",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "J’ai parcouru bien des lieues, et je n’ai jamais rencontré trois personnes aussi nigaudes que vous trois. Maintenant, je vais repartir en voyage, et quand j’aurai trouvé trois personnes plus nigaudes que vous, je reviendrai épouser votre fille."
+        },
+        {
+          "id": "a1e33",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Je pars compter les nigauds. Comptez avec moi : un, deux, trois !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e34",
+          "type": "conteur",
+          "texte": "Il leur dit au revoir, partit en voyage, et laissa la famille en larmes parce que {{r2}} avait perdu son amoureux."
+        },
+        {
+          "id": "a1e35",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e36",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        }
+      ],
+      "id": "a1"
+    },
+    {
+      "numero": 2,
+      "titre": "La vache sur le toit",
+      "resume": "{{r5}} choisit de faire monter sa vache sur le toit ; la vache reste pendue et {{r5}} se coince dans la cheminée.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e2",
+          "type": "conteur",
+          "texte": "Il partit donc, et il voyagea longtemps, et à la fin il arriva à la chaumière d'une femme, {{r5}}, dont le toit était couvert d'herbe. Et {{r5}} essayait de faire monter sa vache par une échelle jusqu'à l'herbe, et la pauvre bête n'osait pas."
+        },
+        {
+          "id": "a2e3",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "L’herbe est sur le toit. Faites un petit « meuh » pour la vache !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e4",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e5",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Que faites-vous ?"
+        },
+        {
+          "id": "a2e6",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Eh bien, regardez toute cette belle herbe. Je vais faire monter la vache sur le toit pour qu’elle la mange. Elle ne risquera rien : une ficelle reliera son cou à mon poignet, en passant par la cheminée pendant que je m’occupe de la maison ; comme ça, elle ne pourra pas tomber sans que je le sache."
+        },
+        {
+          "id": "a2e7",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oh, pauvre nigaude ! Vous devriez couper l’herbe et la jeter à la vache !"
+        },
+        {
+          "id": "a2e8",
+          "type": "adresse_public",
+          "marionnetteId": "r5",
+          "texte": "Moi, je choisis le toit. Dites « attention ! » à ma vache.",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e9",
+          "type": "conteur",
+          "texte": "Mais {{r5}} trouvait plus facile de faire monter la vache par l'échelle que de faire descendre l'herbe. Alors elle la poussa, la cajola, la fit monter. La ficelle reliait le cou de la vache au poignet de {{r5}} en passant par la cheminée."
+        },
+        {
+          "id": "a2e10",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e11",
+          "type": "didascalie",
+          "texte": "{{r1}} avance lentement. Un silence laisse raconter ce qui arrive derrière lui, hors de scène."
+        },
+        {
+          "id": "a2e12",
+          "type": "conteur",
+          "texte": "Et {{r1}} continua son chemin. Mais il n'était pas allé bien loin que la vache tomba du toit, et resta pendue par la ficelle ; et le poids de la vache attachée à son poignet tira {{r5}} en haut de la cheminée, où elle resta coincée à mi-hauteur, toute noire de suie."
+        },
+        {
+          "id": "a2e13",
+          "type": "conteur",
+          "texte": "Eh bien, ça, c'était une grande nigaude."
+        },
+        {
+          "id": "a2e14",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ],
+      "id": "a2"
+    },
+    {
+      "numero": 3,
+      "titre": "Le pantalon de {{r6}}",
+      "resume": "À l’auberge, {{r6}} tente de sauter dans son pantalon et {{r1}} lui fait comprendre comment l’enfiler.",
+      "tableauId": "t3",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e2",
+          "type": "conteur",
+          "texte": "Et {{r1}} continua, continua, et il s'arrêta pour la nuit dans une auberge. Elle était si pleine qu'on dut le mettre dans une chambre à deux lits, et un autre voyageur, {{r6}}, devait dormir dans l'autre lit. {{r6}} était un bien agréable compagnon, et une belle amitié naquit entre {{r1}} et {{r6}}."
+        },
+        {
+          "id": "a3e3",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e4",
+          "type": "conteur",
+          "texte": "Mais le matin, en se levant, {{r1}} fut surpris de voir le pantalon de {{r6}} accroché aux boutons de la commode."
+        },
+        {
+          "id": "a3e5",
+          "type": "didascalie",
+          "texte": "{{r6}} traverse la scène en courant, puis fait deux petits bonds pour sauter dans le pantalon imaginaire. {{r1}} le regarde, immobile."
+        },
+        {
+          "id": "a3e6",
+          "type": "adresse_public",
+          "marionnetteId": "r6",
+          "texte": "Vous voyez mes petits bonds ? Faites deux tout petits « hop » !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e7",
+          "type": "conteur",
+          "texte": "Il essaya encore et encore, sans y arriver, et {{r1}} se demandait bien pourquoi il faisait ça. À la fin, {{r6}} s'arrêta, le visage trempé."
+        },
+        {
+          "id": "a3e8",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Oh là là, je crois vraiment que le pantalon, c’est le vêtement le plus malcommode qui ait jamais existé. Je me demande bien qui a pu inventer une chose pareille. Il me faut presque une heure pour enfiler le mien chaque matin, et j’ai si chaud ! Comment faites-vous avec le vôtre ?",
+          "ton": "essoufflé"
+        },
+        {
+          "id": "a3e9",
+          "type": "conteur",
+          "texte": "Alors {{r1}} éclata de rire et lui fit comprendre comment l'enfiler."
+        },
+        {
+          "id": "a3e10",
+          "type": "didascalie",
+          "texte": "{{r1}} glisse légèrement vers {{r6}}, puis se redresse."
+        },
+        {
+          "id": "a3e11",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Merci beaucoup ! Jamais je n’aurais pensé à faire comme ça."
+        },
+        {
+          "id": "a3e12",
+          "type": "conteur",
+          "texte": "Et ça, c'était un autre grand nigaud."
+        },
+        {
+          "id": "a3e13",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e14",
+          "type": "didascalie",
+          "texte": "{{r1}} reprend la route après un temps de silence."
+        },
+        {
+          "id": "a3e15",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ],
+      "id": "a3"
+    },
+    {
+      "numero": 4,
+      "titre": "La lune dans la mare",
+      "resume": "Des gens du village cherchent à repêcher le reflet de la lune. {{r1}} revient ensuite épouser {{r2}}.",
+      "tableauId": "t4",
+      "elements": [
+        {
+          "id": "a4e1",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e2",
+          "type": "conteur",
+          "texte": "Puis {{r1}} reprit son voyage, et il arriva à un village. À l'entrée du village, il y avait une mare, et autour de la mare, une foule de gens. Des râteaux, des balais et des fourches étaient plongés dans la mare."
+        },
+        {
+          "id": "a4e3",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Regardez la mare imaginaire, puis le ciel. Faites un grand « oh » pour la lune !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a4e4",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Que se passe-t-il ?"
+        },
+        {
+          "id": "a4e5",
+          "type": "note_marionnettiste",
+          "texte": "Voix de la foule du village, en coulisse : « Ce qui se passe ? Il se passe que la lune est tombée dans la mare, et qu’on n’arrive pas à la ressortir ! »"
+        },
+        {
+          "id": "a4e6",
+          "type": "conteur",
+          "texte": "Alors {{r1}} éclata de rire."
+        },
+        {
+          "id": "a4e7",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Regardez en l’air, dans le ciel ! Ce n’est que le reflet de la lune dans l’eau."
+        },
+        {
+          "id": "a4e8",
+          "type": "conteur",
+          "texte": "Mais la foule ne voulut pas l'écouter, l'insulta copieusement, et il repartit aussi vite qu'il put."
+        },
+        {
+          "id": "a4e9",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Je rentre à la ferme. Montrez le chemin du retour !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a4e10",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e11",
+          "type": "didascalie",
+          "texte": "Un silence marque le long voyage du retour."
+        },
+        {
+          "id": "a4e12",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e13",
+          "type": "didascalie",
+          "texte": "{{r2}} attend d’un côté de la table. Un silence marque le trajet achevé."
+        },
+        {
+          "id": "a4e14",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e15",
+          "type": "conteur",
+          "texte": "Il y avait donc toute une bande de personnes plus nigaudes que les trois de la ferme. Alors {{r1}} rentra, et épousa {{r2}}, la fille de {{r4}} ; et si leur bonheur n’a pas duré toujours, ça ne nous regarde ni vous ni moi."
+        },
+        {
+          "id": "a4e16",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e17",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        }
+      ],
+      "id": "a4"
+    }
+  ],
+  "bible": {
+    "conteId": "en-trois-nigauds",
+    "synopsis": {
+      "accroche": "Un maillet fait pleurer toute la famille ; trois rencontres ramènent {{r1}}.",
+      "resume": [
+        "La famille pleure dans la cave un fils qui n’existe pas encore.",
+        "{{r1}} voit une vache suspendue au toit, {{r6}} qui saute dans son pantalon, puis un village qui pêche la lune.",
+        "{{r1}} rentre à la ferme et épouse {{r2}}."
+      ]
+    },
+    "transposition": {
+      "texte": "Il était une fois un fermier, {{r4}}, et sa femme {{r3}} qui avaient une fille, {{r2}}, et un monsieur, {{r1}}, qui lui faisait la cour. Tous les soirs, il venait la voir et restait souper à la ferme, et on envoyait {{r2}} à la cave tirer à boire pour le souper.\n\nUn soir, elle était descendue tirer à boire, et elle leva par hasard les yeux vers le plafond, et elle vit un maillet planté dans une poutre. Il devait être là depuis très, très longtemps, mais d'une façon ou d'une autre, elle ne l'avait jamais remarqué. Et elle se mit à réfléchir. Et elle pensa que c'était bien dangereux d'avoir ce maillet là, car elle se dit :\n\n« Imaginons que {{r1}} et moi, on se marie, et qu'on ait un fils, et qu'il grandisse et devienne un homme, et qu'il descende à la cave pour tirer à boire, comme moi maintenant, et que le maillet lui tombe sur la tête : quelle chose épouvantable ce serait ! »\n\nEt la chandelle et la cruche restèrent immobiles ; elle s'assit et se mit à pleurer.\n\nLà-haut, on commença à se demander pourquoi elle mettait si longtemps à tirer à boire, et {{r3}} descendit voir. Elle la trouva assise sur le banc à pleurer, et la boisson qui coulait par terre.\n\n— Mais enfin, qu'est-ce qui se passe ? dit {{r3}}.\n\n— Oh, maman ! dit-elle. Regarde cet horrible maillet ! Imagine qu'on se marie, et qu'on ait un fils, et qu'il grandisse, et qu'il descende à la cave tirer à boire, et que le maillet lui tombe sur la tête : quelle chose épouvantable ce serait !\n\n— Mon Dieu, mon Dieu ! Quelle chose épouvantable ce serait ! dit {{r3}}.\n\nEt elle s'assit à côté de {{r2}} et se mit à pleurer aussi.\n\nAu bout d'un moment, {{r4}} commença à s'étonner de cette longue attente, et il descendit lui-même à la cave pour voir. Et {{r2}} et {{r3}} étaient là, côte à côte, à pleurer, et la boisson qui coulait partout par terre.\n\n— Mais qu'est-ce qui se passe ? dit-il.\n\n— Eh bien, dit {{r3}}, regarde cet horrible maillet. Imagine que notre fille et son amoureux se marient, et qu'un fils leur naisse, et qu'il grandisse, et qu'il descende à la cave tirer à boire, et que le maillet lui tombe sur la tête : quelle chose épouvantable ce serait !\n\n— Mon Dieu, mon Dieu, mon Dieu ! C'est bien vrai ! dit {{r4}}.\n\nEt il s'assit à côté de {{r2}} et {{r3}} et se mit à pleurer.\n\nOr {{r1}} en eut assez d'attendre tout seul dans la cuisine, et à la fin il descendit lui aussi à la cave pour voir ce qui se passait. Et la famille était là, côte à côte, à pleurer, et la boisson qui coulait partout par terre. {{r1}} courut vers le robinet. La boisson ne coulait plus. Puis il dit :\n\n— Mais qu'est-ce que vous faites là, à pleurer, en laissant tout couler par terre ?\n\n— Oh ! dit {{r4}}. Regardez cet horrible maillet ! Imaginez que vous et notre fille, vous vous mariiez, et que vous ayez un fils, et qu'il grandisse, et qu'il descende à la cave tirer à boire, et que le maillet lui tombe sur la tête !\n\nEt les trois se remirent à pleurer, encore plus fort. Mais {{r1}} éclata de rire. {{r1}} fit tomber le maillet de la poutre. Puis il dit :\n\n— J'ai parcouru bien des lieues, et je n'ai jamais rencontré trois personnes aussi nigaudes que vous trois. Maintenant, je vais repartir en voyage, et quand j'aurai trouvé trois personnes plus nigaudes que vous, je reviendrai épouser votre fille.\n\nIl leur dit au revoir, partit en voyage, et laissa la famille en larmes parce que {{r2}} avait perdu son amoureux.\n\nIl partit donc, et il voyagea longtemps, et à la fin il arriva à la chaumière d'une femme, {{r5}}, dont le toit était couvert d'herbe. Et {{r5}} essayait de faire monter sa vache par une échelle jusqu'à l'herbe, et la pauvre bête n'osait pas. Alors {{r1}} demanda à {{r5}} ce qu'elle faisait.\n\n— Eh bien, regardez, dit-elle, regardez toute cette belle herbe. Je vais faire monter la vache sur le toit pour qu'elle la mange. Elle ne risquera rien : une ficelle reliera son cou à mon poignet, en passant par la cheminée pendant que je m'occupe de la maison ; comme ça, elle ne pourra pas tomber sans que je le sache.\n\n— Oh, pauvre nigaude ! dit {{r1}}. Vous devriez couper l'herbe et la jeter à la vache !\n\nMais {{r5}} trouvait plus facile de faire monter la vache par l'échelle que de faire descendre l'herbe. Alors elle la poussa, la cajola, la fit monter. La ficelle reliait le cou de la vache au poignet de {{r5}} en passant par la cheminée. Et {{r1}} continua son chemin. Mais il n'était pas allé bien loin que la vache tomba du toit, et resta pendue par la ficelle ; et le poids de la vache attachée à son poignet tira {{r5}} en haut de la cheminée, où elle resta coincée à mi-hauteur, toute noire de suie.\n\nEh bien, ça, c'était une grande nigaude.\n\nEt {{r1}} continua, continua, et il s'arrêta pour la nuit dans une auberge. Elle était si pleine qu'on dut le mettre dans une chambre à deux lits, et un autre voyageur, {{r6}}, devait dormir dans l'autre lit. {{r6}} était un bien agréable compagnon, et une belle amitié naquit entre {{r1}} et {{r6}}. Mais le matin, en se levant, {{r1}} fut surpris de voir le pantalon de {{r6}} accroché aux boutons de la commode. {{r6}} traversa la chambre en courant pour essayer de sauter dedans. Il essaya encore et encore, sans y arriver, et {{r1}} se demandait bien pourquoi il faisait ça. À la fin, {{r6}} s'arrêta, le visage trempé.\n\n— Oh là là, dit-il, je crois vraiment que le pantalon, c'est le vêtement le plus malcommode qui ait jamais existé. Je me demande bien qui a pu inventer une chose pareille. Il me faut presque une heure pour enfiler le mien chaque matin, et j'ai si chaud ! Comment faites-vous avec le vôtre ?\n\nAlors {{r1}} éclata de rire et lui fit comprendre comment l'enfiler. {{r6}} le remercia beaucoup et dit que jamais il n'aurait pensé à faire comme ça.\n\nEt ça, c'était un autre grand nigaud.\n\nPuis {{r1}} reprit son voyage, et il arriva à un village. À l'entrée du village, il y avait une mare, et autour de la mare, une foule de gens. Des râteaux, des balais et des fourches étaient plongés dans la mare. {{r1}} demanda ce qui se passait.\n\n— Ce qui se passe ? dirent-ils. Il se passe que la lune est tombée dans la mare, et qu'on n'arrive pas à la ressortir !\n\nAlors {{r1}} éclata de rire. {{r1}} leur dit de regarder en l'air, dans le ciel, et que ce n'était que son reflet dans l'eau. Mais la foule ne voulut pas l'écouter, l'insulta copieusement, et il repartit aussi vite qu'il put.\n\nIl y avait donc toute une bande de personnes plus nigaudes que les trois de la ferme. Alors {{r1}} rentra, et épousa {{r2}}, la fille de {{r4}} ; et si leur bonheur n’a pas duré toujours, ça ne nous regarde ni vous ni moi.\n"
+    }
+  },
+  "dureeEstimeeSecondes": 772,
+  "interactionsOrdonnees": [
+    "a1e4",
+    "a1e14",
+    "a1e23",
+    "a1e33",
+    "a2e3",
+    "a2e8",
+    "a3e6",
+    "a4e3",
+    "a4e9"
+  ]
+}

@@ -1,0 +1,55 @@
+{"synopsis": [
+  {"conte": "fr-perrault-chaperon-rouge",
+   "accroche": "Rosette part porter une galette à Mamie Rose, sans savoir que Loup Gris a pris un raccourci pour arriver avant elle.",
+   "resume": [
+     "La maman de Rosette l'envoie porter une galette et un petit pot de beurre à Mamie Rose, malade dans sa maison au fond du bois.",
+     "En chemin, Rosette croise Loup Gris et lui raconte tout ; il lui propose une course, chacun par son chemin.",
+     "Loup Gris arrive le premier, se fait ouvrir la porte et prend la place de Mamie Rose dans son lit.",
+     "Rosette arrive à son tour et découvre, dans le lit, de grands bras, de grandes oreilles et de grandes dents : ce n'est plus Mamie Rose, c'est Loup Gris.",
+     "Loup Gris se jette sur elle, mais des bûcherons qui passent par là l'entendent, l'attrapent et lui font tout recracher : Mamie Rose et Rosette ressortent bien vivantes."
+   ],
+   "distribution": [
+     {"marionnette": "Rosette", "role": "le Petit Chaperon rouge", "note": "curieuse et gentille comme la fillette du conte, elle parle facilement à tout le monde sur son chemin."},
+     {"marionnette": "Loup Gris", "role": "le Loup", "note": "déjà loup, déjà gourmand : il n'a qu'à être lui-même."},
+     {"marionnette": "Mamie Rose", "role": "la Mère-grand", "note": "une vraie marionnette de grand-mère pour une vraie grand-mère du conte."}
+   ],
+   "changements": [
+     "La mère qui donne la consigne au départ n'a pas de marionnette : on entend seulement ses mots, dits en coulisse, avant que Rosette parte."
+   ]},
+  {"conte": "ru-renard-lievre-coq",
+   "accroche": "Loup Gris chasse Mamie Rose de sa propre maison, et tous les grands animaux du bois reculent devant lui — jusqu'à ce que le tout petit Rosette s'en mêle.",
+   "resume": [
+     "Au printemps, la maison de glace de Loup Gris fond ; il s'invite chez Mamie Rose et la chasse dehors.",
+     "Mamie Rose pleure sur le pas de sa porte ; des amis passent, veulent l'aider, mais Loup Gris gronde si fort qu'ils repartent aussitôt sans avoir rien tenté.",
+     "Rosette arrive à son tour, un grand balai sur l'épaule, et chante trois fois qu'elle vient chasser Loup Gris.",
+     "Effrayé, Loup Gris se sauve en courant, et Mamie Rose retrouve enfin sa maison.",
+     "Rosette reste vivre avec Mamie Rose : elles ne se quittent plus."
+   ],
+   "distribution": [
+     {"marionnette": "Loup Gris", "role": "la Renarde", "note": "déjà menaçant et déjà vantard, il n'a besoin d'aucun déguisement pour faire peur aux autres."},
+     {"marionnette": "Mamie Rose", "role": "le petit Lièvre", "note": "douce et sans défense face à Loup Gris, comme il faut pour qu'on ait envie de la protéger."},
+     {"marionnette": "Rosette", "role": "le Coq", "note": "toute petite face à Loup Gris : sa taille rend son courage d'autant plus surprenant."}
+   ],
+   "changements": [
+     "La faux du coq devient un grand balai, pour rester un jeu et non une arme.",
+     "Les chiens, l'ours et le taureau du conte n'ont pas de marionnette : on les entend seulement arriver puis repartir, sans les montrer."
+   ]},
+  {"conte": "in-singes-jardiniers",
+   "accroche": "Rosette confie son jardin à Loup Gris pour la journée, et revient pour découvrir qu'il a arraché toutes les fleurs par excès de logique.",
+   "resume": [
+     "Rosette doit aller à la foire ; avant de partir, elle demande à Loup Gris d'arroser le jardin à sa place.",
+     "Loup Gris accepte tout content, et réfléchit très fort à la meilleure façon de bien faire les choses.",
+     "Persuadé qu'il ne faut pas gaspiller une goutte d'eau, il décide que chaque fleur en aura selon la longueur de ses racines.",
+     "Il arrache donc chaque fleur, une par une, mesure ses racines, l'arrose, puis la replante.",
+     "Rosette revient : tout le jardin est fané. Mamie Rose, la maîtresse des lieux, gronde bien Loup Gris — puis l'aide à tout replanter."
+   ],
+   "distribution": [
+     {"marionnette": "Loup Gris", "role": "le Chef des singes", "note": "un air sérieux et une grande gueule pour prendre de grands airs de savant, avant de tout rater."},
+     {"marionnette": "Rosette", "role": "le Jardinier", "note": "assez gentille pour qu'on ne lui en veuille pas d'avoir fait confiance à Loup Gris."},
+     {"marionnette": "Mamie Rose", "role": "le Maître du parc", "note": "assez sage pour avoir le dernier mot, et assez grand-mère pour gronder sans se fâcher pour de vrai."}
+   ],
+   "changements": [
+     "Les autres singes du conte n'ont pas de marionnette : Loup Gris agit seul, comme si toute l'idée venait de lui.",
+     "Le jardinier renvoyé dans le conte est ici seulement grondé, puis il replante avec Loup Gris : la leçon reste, sans que personne ne perde sa place."
+   ]}
+]}

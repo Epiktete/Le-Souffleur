@@ -1,0 +1,1685 @@
+{
+  "id": "guignol-tu-chanteras-tu-ne-chanteras-pas--1",
+  "conteId": "guignol-tu-chanteras-tu-ne-chanteras-pas",
+  "titre": "Tu chanteras, tu ne chanteras pas",
+  "pitch": "{{r2}} paie {{r1}} pour chanter ; {{r3}} le paie davantage pour dormir, jusqu’à ce que la naissance d’un bébé mette fin à leur dispute.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "farceur",
+        "bavard",
+        "gentil"
+      ],
+      "voix": "voix vive et chantante, avec des « v’là » et des « ben » joyeux",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e39:texte",
+            "avant": "levé",
+            "apres": "levée"
+          },
+          {
+            "id": "a1e39:texte",
+            "avant": "tout guilleret",
+            "apres": "toute guillerette"
+          },
+          {
+            "id": "a1e40:texte",
+            "avant": "j’ suis gai",
+            "apres": "j’ suis gaie"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "L’ami",
+            "apres": "L’amie"
+          },
+          {
+            "id": "a2e13:texte",
+            "avant": "chanteur à appointements",
+            "apres": "chanteuse à appointements"
+          },
+          {
+            "id": "a2e17:texte",
+            "avant": "l’ami",
+            "apres": "l’amie"
+          },
+          {
+            "id": "a2e20:texte",
+            "avant": "J’en suis navré",
+            "apres": "J’en suis navrée"
+          },
+          {
+            "id": "a2e20:texte",
+            "avant": "je suis payé",
+            "apres": "je suis payée"
+          },
+          {
+            "id": "a2e26:texte",
+            "avant": "Je suis pas fier",
+            "apres": "Je suis pas fière"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "farceur",
+            "apres": "farceuse"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "Je t’ai payé",
+            "apres": "Je t’ai payée"
+          },
+          {
+            "id": "a3e22:texte",
+            "avant": "Je vous ai payé",
+            "apres": "Je vous ai payée"
+          },
+          {
+            "id": "a3e26:texte",
+            "avant": "mon gaillard",
+            "apres": "ma gaillarde"
+          },
+          {
+            "id": "a3e27:texte",
+            "avant": "Aidez-le à dormir",
+            "apres": "Aidez-la à dormir"
+          },
+          {
+            "id": "a3e40:texte",
+            "avant": "Je t’ai payé",
+            "apres": "Je t’ai payée"
+          },
+          {
+            "id": "a3e43:texte",
+            "avant": "sordat",
+            "apres": "sordate"
+          },
+          {
+            "id": "a3e48:texte",
+            "avant": "Tu es payé",
+            "apres": "Tu es payée"
+          },
+          {
+            "id": "a4e4:texte",
+            "avant": "ce drôle",
+            "apres": "cette drôle"
+          },
+          {
+            "id": "a4e4:texte",
+            "avant": "il continue",
+            "apres": "elle continue"
+          },
+          {
+            "id": "a4e4:texte",
+            "avant": "il me traite",
+            "apres": "elle me traite"
+          },
+          {
+            "id": "t1:description",
+            "avant": "il se couche",
+            "apres": "elle se couche"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "chassé de sa place",
+            "apres": "chassée de sa place"
+          },
+          {
+            "id": "a2e29:texte",
+            "avant": "reste seul",
+            "apres": "reste seule"
+          },
+          {
+            "id": "a3e2:texte",
+            "avant": "le réveille",
+            "apres": "la réveille"
+          },
+          {
+            "id": "a3e25:texte",
+            "avant": "je suis réveillé",
+            "apres": "je suis réveillée"
+          },
+          {
+            "id": "a3e50:texte",
+            "avant": "à côté de lui",
+            "apres": "à côté d’elle"
+          },
+          {
+            "id": "a3e53:texte",
+            "avant": "reste étendu",
+            "apres": "reste étendue"
+          },
+          {
+            "id": "a4e30:texte",
+            "avant": "m’a entendu",
+            "apres": "m’a entendue"
+          },
+          {
+            "id": "a1e39:texte",
+            "avant": "m’être trop pressé",
+            "apres": "m’être trop pressée"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a3e22:texte",
+          "avant": "un homme",
+          "gabarit": "{un} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r2",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "vantard",
+        "bavard",
+        "grognon"
+      ],
+      "voix": "voix sonore de commandement, qui roucoule quand il flatte",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e22:texte",
+            "avant": "l’ordonnateur",
+            "apres": "l’ordonnatrice"
+          },
+          {
+            "id": "a1e24:texte",
+            "avant": "sergent",
+            "apres": "sergente"
+          },
+          {
+            "id": "a1e28:texte",
+            "avant": "sergent",
+            "apres": "sergente"
+          },
+          {
+            "id": "a1e30:texte",
+            "avant": "sergent",
+            "apres": "sergente"
+          },
+          {
+            "id": "a1e32:texte",
+            "avant": "sergent",
+            "apres": "sergente"
+          },
+          {
+            "id": "a2e3:texte",
+            "avant": "sergent",
+            "apres": "sergente"
+          },
+          {
+            "id": "a2e5:texte",
+            "avant": "sergent",
+            "apres": "sergente"
+          },
+          {
+            "id": "a2e13:texte",
+            "avant": "sergent",
+            "apres": "sergente"
+          },
+          {
+            "id": "a3e8:texte",
+            "avant": "sergent",
+            "apres": "sergente"
+          },
+          {
+            "id": "a3e43:texte",
+            "avant": "sergent",
+            "apres": "sergente"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "un conscrit",
+            "apres": "une conscrite"
+          },
+          {
+            "id": "a3e15:texte",
+            "avant": "Il serait",
+            "apres": "Elle serait"
+          },
+          {
+            "id": "a3e23:texte",
+            "avant": "l’autre est revenu",
+            "apres": "l’autre est revenue"
+          },
+          {
+            "id": "a3e23:texte",
+            "avant": "Il me donne",
+            "apres": "Elle me donne"
+          },
+          {
+            "id": "a3e39:texte",
+            "avant": "Gredin",
+            "apres": "Gredine"
+          },
+          {
+            "id": "voix:r2",
+            "avant": "il flatte",
+            "apres": "elle flatte"
+          },
+          {
+            "id": "a2e13:texte",
+            "avant": "il voudra",
+            "apres": "elle voudra"
+          },
+          {
+            "id": "a2e13:texte",
+            "avant": "il me demande",
+            "apres": "elle me demande"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r3",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "grognon",
+        "têtu"
+      ],
+      "voix": "voix sèche et rapide, qui siffle les mots « dormez » et « taisez-vous »",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2e18:texte",
+            "avant": "Est-il malhonnête",
+            "apres": "Est-elle malhonnête"
+          },
+          {
+            "id": "a2e18:texte",
+            "avant": "ce gone",
+            "apres": "cette gone"
+          },
+          {
+            "id": "a2e20:texte",
+            "avant": "mon vieux",
+            "apres": "ma vieille"
+          },
+          {
+            "id": "a2e24:texte",
+            "avant": "l’enrhumé",
+            "apres": "l’enrhumée"
+          },
+          {
+            "id": "a2e31:texte",
+            "avant": "En v’là un",
+            "apres": "En v’là une"
+          },
+          {
+            "id": "a2e31:texte",
+            "avant": "chenu",
+            "apres": "chenue"
+          },
+          {
+            "id": "a2e31:texte",
+            "avant": "çui-là",
+            "apres": "celle-là"
+          },
+          {
+            "id": "a3e23:texte",
+            "avant": "benoît",
+            "apres": "benoîte"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r4",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "peureux",
+        "gentil",
+        "généreux"
+      ],
+      "voix": "voix douce et inquiète au début, puis éclatante de joie",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e4:texte",
+            "avant": "mon ami",
+            "apres": "mon amie"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "mon ami",
+            "apres": "mon amie"
+          },
+          {
+            "id": "a4e18:texte",
+            "avant": "mon ami",
+            "apres": "mon amie"
+          },
+          {
+            "id": "a1e14:texte",
+            "avant": "mon cher ",
+            "apres": "ma chère "
+          },
+          {
+            "id": "a4e25:texte",
+            "avant": "mon cher ",
+            "apres": "ma chère "
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "je suis contrarié",
+            "apres": "je suis contrariée"
+          },
+          {
+            "id": "a4e4:texte",
+            "avant": "Monsieur",
+            "apres": "Madame"
+          },
+          {
+            "id": "a2e19:texte",
+            "avant": "mon maître",
+            "apres": "ma maîtresse"
+          },
+          {
+            "id": "a1e15:texte",
+            "avant": "reste seul",
+            "apres": "reste seule"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r5",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "savant",
+        "gourmand"
+      ],
+      "voix": "voix posée et rassurante, qui devient joyeuse à la fin",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e3:texte",
+            "avant": "Docteur",
+            "apres": "Docteure"
+          },
+          {
+            "id": "a1e13:texte",
+            "avant": "Docteur",
+            "apres": "Docteure"
+          },
+          {
+            "id": "a4e19:texte",
+            "avant": "docteur",
+            "apres": "docteure"
+          },
+          {
+            "id": "a1e17:texte",
+            "avant": "un charmant médecin",
+            "apres": "une charmante médecin"
+          },
+          {
+            "id": "a1e17:texte",
+            "avant": "mon ami",
+            "apres": "mon amie"
+          },
+          {
+            "id": "a1e17:texte",
+            "avant": "Il prend",
+            "apres": "Elle prend"
+          },
+          {
+            "id": "a1e17:texte",
+            "avant": "Il leur fait",
+            "apres": "Elle leur fait"
+          },
+          {
+            "id": "a1e17:texte",
+            "avant": "qu’il ne leur ordonne",
+            "apres": "qu’elle ne leur ordonne"
+          },
+          {
+            "id": "a1e17:texte",
+            "avant": "à lui,",
+            "apres": "à elle,"
+          },
+          {
+            "id": "a4e21:texte",
+            "avant": "mon ami",
+            "apres": "mon amie"
+          },
+          {
+            "id": "a4e25:texte",
+            "avant": "je me suis cependant occupé",
+            "apres": "je me suis cependant occupée"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a1e17:texte",
+          "avant": "un homme",
+          "gabarit": "{un} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r6",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "bavard",
+        "gourmand"
+      ],
+      "voix": "voix ronde et pressée, qui rit dans ses mots",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e27:texte",
+            "avant": "vous ai choisi",
+            "apres": "vous ai choisie"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 20,
+    "ageAuditoire": 9,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La place entre la maison et l’auberge",
+      "description": "Posez un carton à gauche pour la maison de {{r4}} et un carton à droite pour l’auberge de {{r6}}. Le milieu de la table reste libre : c’est la place où {{r1}} chante. Un coussin sous le bord de la table peut marquer l’endroit où il se couche.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "La même place, plus tard",
+      "description": "Gardez les deux cartons aux mêmes endroits. Le milieu de la table sert aux allers et retours entre la maison et l’auberge. Rien ne change pour la fête finale ; les marionnettes se relaient sur la place.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Que la place soit calme",
+      "resume": "{{r5}} demande à {{r4}} d’éviter le bruit ; {{r2}} prépare une fête chez {{r6}} tandis que {{r1}}, chassé de sa place, arrive en chantant.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e3",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Comment, Docteur, tu me quittes ? Ma femme souffre beaucoup."
+        },
+        {
+          "id": "a1e4",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Ne t’inquiète pas, mon ami ; Madame {{r4}} n’accouchera pas avant demain. Je serai de retour ce soir, entre huit et neuf."
+        },
+        {
+          "id": "a1e5",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "C’est égal, je suis contrarié de te voir partir."
+        },
+        {
+          "id": "a1e6",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Ne crains rien. Il y aura un lièvre pour toi."
+        },
+        {
+          "id": "a1e7",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Comment ! tu vas à la chasse ?"
+        },
+        {
+          "id": "a1e8",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Oui, mon ami. C’est une partie projetée depuis huit jours. Nous sommes nombreux. La plaine de Montluel retentira de nos exploits."
+        },
+        {
+          "id": "a1e9",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Au moins, reviens de bonne heure."
+        },
+        {
+          "id": "a1e10",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "D’ici là ne néglige pas mes prescriptions. Surtout prends tes mesures pour éviter tout tapage sur cette place. Dans l’état où est ta femme, le bruit peut lui être funeste."
+        },
+        {
+          "id": "a1e11",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Comment veux-tu que je fasse ? Cette place est une des plus bruyantes de la ville. Les marchands, le matin, les orgues de Barbarie et les musiciens au milieu du jour, et les ivrognes, le soir."
+        },
+        {
+          "id": "a1e12",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Il n’est pas bien difficile de se débarrasser de ces gens-là. Si c’est un ivrogne, donne-lui vingt sous, en le priant d’aller chanter au cabaret ; il t’obéira avec enthousiasme. Un musicien ? Donne-lui dix sous à condition qu’il s’éloignera ; c’est toute la recette qu’il peut faire sur cette place. Un marchand ? Fais-lui une petite emplette, sous la même condition."
+        },
+        {
+          "id": "a1e13",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Tu as raison, Docteur. Tu as un esprit de ressources admirable."
+        },
+        {
+          "id": "a1e14",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Allons, mon cher {{r4}}, je te quitte. Tu auras ce soir de mes nouvelles et de mon gibier."
+        },
+        {
+          "id": "a1e15",
+          "type": "didascalie",
+          "texte": "{{r5}} s’éloigne à droite ; {{r4}} reste seul devant sa maison."
+        },
+        {
+          "id": "a1e16",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e17",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "C’est un charmant médecin que mon ami {{r5}}. Il prend le plus grand soin de ses malades. Il leur fait manger plus de cailles et de perdrix qu’il ne leur ordonne de médecines. C’est sa méthode à lui, elle ne manque pas d’originalité. C’est aussi un homme d’esprit et de bon conseil. Allons donner à mes domestiques les ordres nécessaires.",
+          "ton": "pour soi"
+        },
+        {
+          "id": "a1e18",
+          "type": "didascalie",
+          "texte": "{{r4}} se retire derrière la maison. La place reste vide un instant."
+        },
+        {
+          "id": "a1e19",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e20",
+          "type": "note_marionnettiste",
+          "texte": "Laisser la place vide un instant pour changer de peluche."
+        },
+        {
+          "id": "a1e21",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e22",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Fiez-vous à moi, camarades ! La noce sera majestueuse ! Je vais faire les choses superlativement. Trois promotions dans le régiment ! Il s’ensuit conséquemment une fête, ou plutôt trois fêtes, où nous nous amuserons comme quatre. C’est moi qui suis l’ordonnateur. J’ai choisi le cabaret de {{r6}}, à l’enseigne du Chien à trois pattes. Allons ! Vive la gaîté française ! {{r6}} ! {{r6}} !"
+        },
+        {
+          "id": "a1e23",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e24",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Que faut-il vous servir, sergent ?"
+        },
+        {
+          "id": "a1e25",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Quarante couverts et votre nectar le plus divin."
+        },
+        {
+          "id": "a1e26",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "C’est donc une noce ?"
+        },
+        {
+          "id": "a1e27",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Mieux que ça. Trois promotions dans le régiment. Et je vous ai choisi pour arroser les galons des camarades."
+        },
+        {
+          "id": "a1e28",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Je vous remercie, sergent ; je vais me mettre à mes fourneaux."
+        },
+        {
+          "id": "a1e29",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Distinguez-vous, {{r6}} ! Je veux un festin comme ceux que dégustait jadis, à Rome, le général Sardanapale."
+        },
+        {
+          "id": "a1e30",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Soyez tranquille, sergent. Le général Sardanapale aurait aimé le gala que je vais vous confectionner."
+        },
+        {
+          "id": "a1e31",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "En attendant, {{r6}}, je m’en vais dire deux mots à votre absinthe, subséquemment."
+        },
+        {
+          "id": "a1e32",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Entrez, sergent, et je vous sers sur-le-champ !"
+        },
+        {
+          "id": "a1e33",
+          "type": "adresse_public",
+          "marionnetteId": "r6",
+          "texte": "Écoutez la fête qui se prépare : faites un petit « la la la » avec moi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e34",
+          "type": "didascalie",
+          "texte": "{{r2}} et {{r6}} se retirent ensemble derrière le carton de l’auberge."
+        },
+        {
+          "id": "a1e35",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e36",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e37",
+          "type": "note_marionnettiste",
+          "texte": "La place reste vide un moment pendant le changement de peluche."
+        },
+        {
+          "id": "a1e38",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e39",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "C’est bon ! Vieux bugnon ! On en trouvera ben une place que vaudra la tienne. Crois-tu que je n’en verserai des pleurs de quitter ta cassine ? Je sais pas comme je m’y prends, mais v’là quéque temps que je peux pas faire pus de vuit jours dans une place. Ce matin, je m’étais levé tout guilleret. J’avais rêvé que je mangeais des châtaignes à l’eau dans un pot jaune, au coin du feu. Ça veut dire qu’on recevra d’argent dans la journée, de rêver de châtaignes. Hé ben ! Ça a tourné tout de traviole. À neuf heures, mon maître me demande son déjeuner. Je me dépêche et je me trompe. Le borgeois se monte comme une soupe au lait. J’ai beau m’excuser : « Borgeois, c’est pour m’être trop pressé, pour avoir trop voulu bien faire. Y a que ceux qui font rien qui se trompent pas. » Il m’écoute pas. Il me fait mon compte : sept et sept dix-huit, et sept vingt-neuf, et neuf septante-deux ! Il me donne trois francs douze sous. Il me flanque un certificat de bonne conduite avec son soulier, au-dessous des reins. Et me v’là sur le pavé. Mais faut jamais se faire de mauvais sang !",
+          "ton": "pour soi"
+        },
+        {
+          "id": "a1e40",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Quand j’ai pas l’sou, je chante pour être pas triste ; quand j’ai d’ l’argent, je chante parce que j’ suis gai !",
+          "ton": "chanté"
+        },
+        {
+          "id": "a1e41",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Fredonnez avec moi sans paroles : la la la !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e42",
+          "type": "didascalie",
+          "texte": "{{r1}} se balance doucement au rythme de sa chanson."
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "L’un paie pour chanter, l’autre pour se taire",
+      "resume": "{{r2}} promet cent sous pour une chanson ; {{r3}}, envoyé par {{r4}}, offre quinze francs pour obtenir le silence.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e2",
+          "type": "didascalie",
+          "texte": "{{r2}} surgit de l’auberge et frôle {{r1}} de la tête pendant la chanson."
+        },
+        {
+          "id": "a2e3",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ah ça, sergent ; restez donc tranquille."
+        },
+        {
+          "id": "a2e4",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "L’ami, tu as une voix superbe et ton chant est l’égal du rossignol. Si tu veux continuer de chanter devant cette auberge, il y a cent sous pour toi."
+        },
+        {
+          "id": "a2e5",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Cent sous ! Est-ce que vous les avez sur vous, sergent ?"
+        },
+        {
+          "id": "a2e6",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Voilà."
+        },
+        {
+          "id": "a2e7",
+          "type": "note_marionnettiste",
+          "texte": "Le paiement est joué par les répliques, sans monnaie à manipuler. La somme est bien versée dans l’histoire."
+        },
+        {
+          "id": "a2e8",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "C’est convenu : je chanterai."
+        },
+        {
+          "id": "a2e9",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Et chante-nous quelque chose de ronflant, quelque chose de belliqueusement guerrier."
+        },
+        {
+          "id": "a2e10",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Faites une note bien longue avec {{r1}} : laaaaa !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e11",
+          "type": "didascalie",
+          "texte": "{{r2}} retourne à l’auberge. {{r1}} reste sur la place."
+        },
+        {
+          "id": "a2e12",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e13",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ça me va, sergent, ça me va. Nom d’un rat ! Je chanterai ben tout ce qu’il voudra pour cent sous. Me v’là chanteur à appointements, comme au Grand Opéra. Tout de même, il me demande quéque chose de guerrier, ça me gêne un peu : je fais que des complaintes. Ah ! J’y suis ! Je vas leur chanter Marbrouk.",
+          "ton": "pour soi"
+        },
+        {
+          "id": "a2e14",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Marbrouk s’en va-t-en guerre…",
+          "ton": "chanté"
+        },
+        {
+          "id": "a2e15",
+          "type": "note_marionnettiste",
+          "texte": "Laisser {{r1}} chanter une note, le temps d’enfiler {{r3}}."
+        },
+        {
+          "id": "a2e16",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e17",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Dites donc, l’ami ; est-ce que vous ne pourriez pas aller brailler un peu plus loin ?"
+        },
+        {
+          "id": "a2e18",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Est-il malhonnête, ce gone ! Est-ce que tu en as entendu souvent des organes comme çui-là ?"
+        },
+        {
+          "id": "a2e19",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Je vous prie d’aller chanter plus loin ; la femme de mon maître est malade."
+        },
+        {
+          "id": "a2e20",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "J’en suis navré pour elle, mon vieux, mais comme je suis payé pour chanter, faut que je gagne l’argent qu’on me donne."
+        },
+        {
+          "id": "a2e21",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Combien vous donne-t-on ?"
+        },
+        {
+          "id": "a2e22",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Dix francs."
+        },
+        {
+          "id": "a2e23",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Ce n’est pas cher pour une aussi jolie voix."
+        },
+        {
+          "id": "a2e24",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Qué que tu dis, l’enrhumé ?"
+        },
+        {
+          "id": "a2e25",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Je vous donne quinze francs pour vous taire."
+        },
+        {
+          "id": "a2e26",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Fais voir l’argent. Je suis pas fier."
+        },
+        {
+          "id": "a2e27",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Voilà ! Mais que je n’entende plus votre délicieux organe."
+        },
+        {
+          "id": "a2e28",
+          "type": "adresse_public",
+          "marionnetteId": "r3",
+          "texte": "Écoutez bien : faisons tous « chut » une fois !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e29",
+          "type": "didascalie",
+          "texte": "{{r3}} retourne vers la maison. {{r1}} reste seul sur la place."
+        },
+        {
+          "id": "a2e30",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e31",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "En v’là un qu’est assez chenu. Y en a qui paient pour travailler, çui-là paie pour rien faire. Allons, je veux pas lui voler son argent, je vais me bercer.",
+          "ton": "pour soi"
+        },
+        {
+          "id": "a2e32",
+          "type": "didascalie",
+          "texte": "{{r1}} se couche sur le bord de la table et oscille doucement."
+        },
+        {
+          "id": "a2e33",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "No, no, l’enfant do…",
+          "ton": "chantonné"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Chante ! Dors !",
+      "resume": "{{r2}} et {{r3}} reviennent tour à tour, surenchérissent et donnent des ordres contraires. {{r1}} essaie de ronfler pour satisfaire les deux.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e2",
+          "type": "didascalie",
+          "texte": "{{r2}} approche de {{r1}} et le réveille d’un bruit de pas dit à la voix."
+        },
+        {
+          "id": "a3e3",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Dis donc, farceur, est-ce que tu me prends pour un conscrit ? Je t’ai payé pour chanter. Qu’est-ce que tu fais là ?"
+        },
+        {
+          "id": "a3e4",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je chante : No, no, l’enfant do…"
+        },
+        {
+          "id": "a3e5",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Tu veux rire, morbleu. Moi, je ne ris aucunement."
+        },
+        {
+          "id": "a3e6",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Y est venu quéqu’un qui me paie pour rien faire, et comme j’aime mieux son travail que le vôtre, v’là pourquoi je fais rien."
+        },
+        {
+          "id": "a3e7",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Quelqu’un marche sur mes brisées ! Et combien te donne-t-on ?"
+        },
+        {
+          "id": "a3e8",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Vingt francs, sergent."
+        },
+        {
+          "id": "a3e9",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "En voilà trente. Mais chante, et chante bien ; sinon je te fais faire connaissance avec la lame de mon sabre."
+        },
+        {
+          "id": "a3e10",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ah ! Ne badinez donc pas, militaire, avec le machin que coupe ?"
+        },
+        {
+          "id": "a3e11",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je ne te dis que ça. Prends-y garde."
+        },
+        {
+          "id": "a3e12",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Tous ensemble, donnez le départ : un, deux, trois !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e13",
+          "type": "didascalie",
+          "texte": "{{r2}} s’éloigne vers l’auberge. {{r1}} se redresse."
+        },
+        {
+          "id": "a3e14",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e15",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Il serait dans le cas de me faire une boutonnière. Chantons vite.",
+          "ton": "pour soi"
+        },
+        {
+          "id": "a3e16",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "En avant, Fanfan la Tulipe…",
+          "ton": "chanté"
+        },
+        {
+          "id": "a3e17",
+          "type": "note_marionnettiste",
+          "texte": "Un court temps de chant permet de remplacer {{r2}} par {{r3}}."
+        },
+        {
+          "id": "a3e18",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e19",
+          "type": "didascalie",
+          "texte": "{{r1}} donne un petit coup de tête à {{r3}} au rythme de sa chanson. {{r3}} recule."
+        },
+        {
+          "id": "a3e20",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Ah ! Mais laissez-moi donc, vous me faites mal."
+        },
+        {
+          "id": "a3e21",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Comment trouves-tu le bullion ?"
+        },
+        {
+          "id": "a3e22",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Un peu salé. Assez de gestes. Il s’agit d’autre chose. Vous êtes joliment un homme de parole ! Je vous ai payé pour vous taire, et vous beuglez plus fort qu’auparavant."
+        },
+        {
+          "id": "a3e23",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Mais, benoît, l’autre est revenu. Il me donne quarante francs pour que je chante."
+        },
+        {
+          "id": "a3e24",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "En voilà soixante pour vous taire."
+        },
+        {
+          "id": "a3e25",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "C’est que, voyez-vous, c’est pus fort que moi. Sitôt que je suis réveillé, faut que je chante."
+        },
+        {
+          "id": "a3e26",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Hé bien ! Dormez. Je vous paie pour dormir. Mais surtout ne chantez plus, parce que je vous réglerai cette fois avec une autre monnaie, mon gaillard."
+        },
+        {
+          "id": "a3e27",
+          "type": "adresse_public",
+          "marionnetteId": "r3",
+          "texte": "Aidez-le à dormir : faites un grand « chuuut » !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e28",
+          "type": "didascalie",
+          "texte": "{{r3}} rentre à la maison. {{r1}} s’allonge sur la table."
+        },
+        {
+          "id": "a3e29",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e30",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "C’est entendu ; je tape de l’œil.",
+          "ton": "pour soi"
+        },
+        {
+          "id": "a3e31",
+          "type": "didascalie",
+          "texte": "{{r1}} ronfle à la voix, plusieurs fois, de plus en plus fort."
+        },
+        {
+          "id": "a3e32",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Ronflez avec moi, très fort : rrron, pchhh !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e33",
+          "type": "note_marionnettiste",
+          "texte": "Garder un temps pour reprendre une peluche dans la main droite."
+        },
+        {
+          "id": "a3e34",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e35",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Bataillon ! Garde à vous ! Division ! Apprêtez vos armes ! Joue !"
+        },
+        {
+          "id": "a3e36",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Garde à vous, tant que tu voudras. Sur la joue, sur le flanc, ran tan plan, tambour battant."
+        },
+        {
+          "id": "a3e37",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Feu !"
+        },
+        {
+          "id": "a3e38",
+          "type": "didascalie",
+          "texte": "{{r2}} heurte doucement la table de son corps : boum ! {{r1}} sursaute."
+        },
+        {
+          "id": "a3e39",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Gredin, comme tu appuies sur la gâchette !"
+        },
+        {
+          "id": "a3e40",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je t’ai payé pour chanter."
+        },
+        {
+          "id": "a3e41",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Vous m’avez demandé quéque chose de ronflant, je ronfle."
+        },
+        {
+          "id": "a3e42",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Pas de bêtises ! Tu vas marcher au pas accéléré."
+        },
+        {
+          "id": "a3e43",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oui, sergent. Ah ! Quel plaisir d’être sordat !",
+          "ton": "chanté"
+        },
+        {
+          "id": "a3e44",
+          "type": "didascalie",
+          "texte": "{{r2}} retourne à l’auberge pendant que {{r1}} continue sa chanson."
+        },
+        {
+          "id": "a3e45",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e46",
+          "type": "note_marionnettiste",
+          "texte": "Laisser quelques secondes de chant pour changer de peluche."
+        },
+        {
+          "id": "a3e47",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e48",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Tu es payé pour dormir, dors !"
+        },
+        {
+          "id": "a3e49",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ah ! Tout de suite."
+        },
+        {
+          "id": "a3e50",
+          "type": "didascalie",
+          "texte": "{{r1}} se couche. {{r3}} heurte doucement la table à côté de lui avec son corps : boum !"
+        },
+        {
+          "id": "a3e51",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Dors."
+        },
+        {
+          "id": "a3e52",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ah ! Mais ça commence à m’ennuyer. Vous tapez comme des compagnons maréchaux sur une enclume."
+        },
+        {
+          "id": "a3e53",
+          "type": "didascalie",
+          "texte": "{{r3}} retourne à la maison ; {{r1}} reste étendu."
+        },
+        {
+          "id": "a3e54",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e55",
+          "type": "note_marionnettiste",
+          "texte": "Laisser un temps de ronflement avant de reprendre {{r2}}."
+        },
+        {
+          "id": "a3e56",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e57",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Chante !"
+        },
+        {
+          "id": "a3e58",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oui, sergent. Ils sont là-bas qui dorment sous la neige.",
+          "ton": "chanté"
+        },
+        {
+          "id": "a3e59",
+          "type": "didascalie",
+          "texte": "{{r2}} s’éloigne de nouveau vers l’auberge."
+        },
+        {
+          "id": "a3e60",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e61",
+          "type": "note_marionnettiste",
+          "texte": "{{r1}} reste immobile pendant le changement de peluche."
+        },
+        {
+          "id": "a3e62",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e63",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Dors !"
+        },
+        {
+          "id": "a3e64",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Atatends ! Ça va finir."
+        },
+        {
+          "id": "a3e65",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "À la garde ! À la garde !"
+        },
+        {
+          "id": "a3e66",
+          "type": "didascalie",
+          "texte": "{{r1}} fait deux bonds de tête, un vers la maison, un vers l’auberge ; {{r3}} recule."
+        },
+        {
+          "id": "a3e67",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Dites avec moi les deux ordres : « Chante ! Dors ! »",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e68",
+          "type": "didascalie",
+          "texte": "{{r1}} s’efface derrière le bord de la table. {{r3}} reste devant la maison."
+        },
+        {
+          "id": "a3e69",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "numero": 4,
+      "titre": "La nouvelle et la fête",
+      "resume": "{{r4}} annonce la naissance du bébé ; {{r5}} revient, et {{r1}} reçoit enfin la permission de chanter pour la fête.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a4e1",
+          "type": "note_marionnettiste",
+          "texte": "Une courte respiration : {{r3}} attend pendant le changement de peluche."
+        },
+        {
+          "id": "a4e2",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e3",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Qu’est-ce qu’il y a donc ici ? On se bat."
+        },
+        {
+          "id": "a4e4",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Monsieur, ce drôle a reçu votre argent pour ne plus chanter. Mais il continue de plus belle, et vous voyez comme il me traite."
+        },
+        {
+          "id": "a4e5",
+          "type": "didascalie",
+          "texte": "{{r3}} s’éloigne vers l’auberge ; {{r4}} reste au milieu de la place."
+        },
+        {
+          "id": "a4e6",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e7",
+          "type": "note_marionnettiste",
+          "texte": "Le temps que {{r3}} sorte, reprendre {{r1}}."
+        },
+        {
+          "id": "a4e8",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e9",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Chantez tant que vous voudrez, et que tout le monde chante. Ma femme a accouché. Je ne me sens pas de joie !"
+        },
+        {
+          "id": "a4e10",
+          "type": "adresse_public",
+          "marionnetteId": "r4",
+          "texte": "Faites une grande voix joyeuse avec moi : hourra !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e11",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Voilà de l’argent pour boire à ma santé et à celle de Madame {{r4}}."
+        },
+        {
+          "id": "a4e12",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Vivent {{r4}} et sa femme !"
+        },
+        {
+          "id": "a4e13",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Dites simplement avec moi : vive le bébé !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e14",
+          "type": "didascalie",
+          "texte": "{{r1}} se baisse derrière la table pendant que {{r4}} se tourne vers la rue."
+        },
+        {
+          "id": "a4e15",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e16",
+          "type": "note_marionnettiste",
+          "texte": "Une respiration avant l’entrée de {{r5}}."
+        },
+        {
+          "id": "a4e17",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e18",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Me voilà, mon ami, me voilà ! Nous avons fait une chasse superbe. Mais on n’observe guère ici les recommandations que j’ai faites ce matin. Comment va ta femme ?"
+        },
+        {
+          "id": "a4e19",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "À merveille, docteur, mieux que tu ne penses."
+        },
+        {
+          "id": "a4e20",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Que veux-tu dire ?"
+        },
+        {
+          "id": "a4e21",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "C’est fait, mon ami. Elle a accouché très heureusement."
+        },
+        {
+          "id": "a4e22",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Déjà ! Et que t’a-t-elle donné ?"
+        },
+        {
+          "id": "a4e23",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Un gros garçon, un gaillard qui aura des dispositions pour la musique. Écoute-le, il a une voix superbe."
+        },
+        {
+          "id": "a4e24",
+          "type": "note_marionnettiste",
+          "texte": "Voix du nouveau-né, en coulisse : « Ouin ! »"
+        },
+        {
+          "id": "a4e25",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Embrassons-nous, mon cher {{r4}}. Je te fais mon compliment. Si je n’ai pas aidé ce gaillard-là à faire ses débuts dans le monde, je me suis cependant occupé de lui ; je lui ai tué un lièvre. Nous allons le manger à sa santé."
+        },
+        {
+          "id": "a4e26",
+          "type": "didascalie",
+          "texte": "{{r5}} retourne vers la maison. {{r4}} reste sur la place."
+        },
+        {
+          "id": "a4e27",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e28",
+          "type": "note_marionnettiste",
+          "texte": "Laisser un temps pour reprendre {{r1}}."
+        },
+        {
+          "id": "a4e29",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e30",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Pardi ! Il m’a entendu. Ça lui a tout de suite donné le goût des arts. Je le retiens pour notre orphéon."
+        },
+        {
+          "id": "a4e31",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Je veux que tout le quartier soit en joie. Buvez encore vingt bouteilles à la santé du jeune {{r4}}."
+        },
+        {
+          "id": "a4e32",
+          "type": "note_marionnettiste",
+          "texte": "Le nouveau don d’argent est joué sans objet : {{r4}} incline la tête vers {{r1}}."
+        },
+        {
+          "id": "a4e33",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "L’argent est-il pour chanter ou pour pas chanter ?"
+        },
+        {
+          "id": "a4e34",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Pour chanter, rire et boire."
+        },
+        {
+          "id": "a4e35",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "J’aime mieux ça ! Tu chanteras, tu chanteras pas ! J’étais comme un chat entre deux melettes. À présent, je connais l’ouvrage. Boire et chanter, et recevoir d’argent pour ça. V’là une place d’où je me ferai jamais mettre à la porte."
+        },
+        {
+          "id": "a4e36",
+          "type": "didascalie",
+          "texte": "{{r4}} rentre à la maison rejoindre {{r5}}. {{r1}} se balance en fredonnant."
+        },
+        {
+          "id": "a4e37",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e38",
+          "type": "note_marionnettiste",
+          "texte": "Le chant de {{r1}} laisse le temps de reprendre {{r2}}."
+        },
+        {
+          "id": "a4e39",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e40",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r2}} font quelques petits bonds de danse. Le parent fredonne une mélodie sans paroles pendant leur salut."
+        },
+        {
+          "id": "a4e41",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e42",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "guignol-tu-chanteras-tu-ne-chanteras-pas",
+    "synopsis": {
+      "accroche": "{{r1}} doit chanter et se taire en même temps.",
+      "resume": [
+        "{{r5}} exige le calme pour Madame {{r4}}, tandis que {{r2}} prépare une fête chez {{r6}}.",
+        "{{r2}} paie {{r1}} pour chanter ; {{r3}} paie plus pour qu’il se taise et dorme.",
+        "Les ordres s’opposent jusqu’à l’annonce de la naissance. Tout le monde peut alors chanter et {{r1}} trouve une place à sa mesure."
+      ]
+    },
+    "transposition": {
+      "texte": "TU CHANTERAS TU NE CHANTERAS PAS\n\nPOCHADE EN UN ACTE\n\nPERSONNAGES\n\n{{r4}}, rentier.\n\n{{r5}}, médecin.\n\nLE SERGENT {{r2}}.\n\n{{r6}}, restaurateur.\n\n{{r1}}, domestique sans place.\n\n{{r3}}, domestique de {{r4}}.\n\nUne place publique.\n\nScène I\n\n{{r4}}, {{r5}}.\n\n{{r4}}.\n\nComment, Docteur, tu me quittes ?… Ma femme souffre beaucoup.\n\n{{r5}}.\n\nNe t’inquiète pas, mon ami ;… Madame {{r4}} n’accouchera pas avant demain. Je serai de retour ce soir, entre huit & neuf.\n\n{{r4}}.\n\nC’est égal… je suis contrarié de te voir partir.\n\n{{r5}}.\n\nNe crains rien. Il y aura un lièvre pour toi.\n\n{{r4}}.\n\nComment ! tu vas à la chasse ?\n\n{{r5}}.\n\nOui, mon ami. C’est une partie projetée depuis huit jours… Nous sommes nombreux… La plaine de Montluel retentira de nos exploits… Je ne veux pas qu’il y reste une pièce de gibier.\n\n{{r4}}.\n\nAu moins, reviens de bonne heure.\n\n{{r5}}.\n\nD’ici là ne néglige pas mes prescriptions… Surtout prends tes mesures pour éviter tout tapage sur cette place. Dans l’état où est ta femme, le bruit peut lui être funeste.\n\n{{r4}}.\n\nComment veux-tu que je fasse ? Cette place est une des plus bruyantes de la ville. Les marchands, le matin… les orgues de Barbarie & les musiciens de toute espèce, au milieu du jour… & les ivrognes, le soir.\n\n{{r5}}.\n\nIl n’est pas bien difficile de se débarrasser de ces gens-là. Si c’est un ivrogne, donne-lui vingt sous, en le priant d’aller chanter au cabaret ; il t’obéira avec enthousiasme… Un musicien ? Donne-lui dix sous à condition qu’il s’éloignera ; c’est toute la recette qu’il peut faire sur cette place… il ira ailleurs… Un marchand ? Fais-lui une petite emplette, sous la même condition.\n\n{{r4}}.\n\nTu as raison, Docteur. Tu as un esprit de ressources admirable.\n\n{{r5}}.\n\nAllons, mon cher {{r4}}, je te quitte. Tu auras ce soir de mes nouvelles… & de mon gibier. (Il sort.)\n\nScène II\n\n{{r4}}, seul\n\nC’est un charmant médecin que mon ami {{r5}}… Il prend le plus grand soin de ses malades. Il leur fait manger plus de cailles & de perdrix qu’il ne leur ordonne de juleps & de médecines… C’est sa méthode à lui… elle ne manque pas d’originalité… C’est aussi un homme d’esprit & de bon conseil… Allons donner à mes domestiques les ordres nécessaires. (Il entre chez lui.)\n\nScène III.\n\nLE SERGENT, seul.\n\n(À la cantonnade.) Fiez-vous à moi, camarades… La noce sera majestueuse… je vais faire les choses superlativement. (Il vient en scène.) Trois promotions dans le régiment ! Il s’ensuit conséquemment une fête, ou plutôt trois fêtes, où nous nous amuserons comme quatre… approximativement. C’est moi qui suis l’ordonnateur… J’ai choisi le cabaret du père {{r6}}, à l’enseigne du Chien à trois pattes… Allons ! vive la gaîté française ! Plaisir & bombance ! (Il appelle.) Père {{r6}} ! Père {{r6}} !\n\nScène IV.\n\nLE SERGENT, {{r6}}.\n\n{{r6}}.\n\nQue faut-il vous servir, sergent ?\n\nLE SERGENT\n\nQuarante couverts & votre nectar le plus divin.\n\n{{r6}}.\n\nC’est donc une noce ?\n\nLE SERGENT.\n\nMieux que ça. Trois promotions dans le régiment… Et je vous ai choisi pour arroser, avec l’aide du dieu Bacchus, libéralement les galons des camarades.\n\n{{r6}}.\n\nJe vous remercie, sergent ; je vais me mettre à mes fourneaux.\n\nLE SERGENT.\n\nDistinguez-vous, {{r6}}… Je veux un festin comme ceux que dégustait jadis, à Rome, le général Sardanapale.\n\n{{r6}}.\n\nSoyez tranquille, sergent. Le général Sardanapale aurait aimé le gala que je vais vous confectionner.\n\nLE SERGENT.\n\nEn attendant, {{r6}}, je m’en vais dire deux mots à votre absinthe, subséquemment.\n\n{{r6}}.\n\nEntrez, sergent, militairement ; & je vous sers  sur-le-champ instantanément tambour battant. (Ils entrent chez {{r6}}.)\n\nScène V.\n\n{{r1}}, seul.\n\nC’est bon ! Vieux bugnon ! On en trouvera ben une place que vaudra la tienne. Crois-tu que je n’en verserai des pleurs de quitter ta cassine ? Je sais pas comme je m’y prends, mais v’là quéque temps que je peux pas faire pus de vuit jours dans une place. Ce matin, je m’étais levé tout guilleret. J’avais rêvé que je mangeais des châtaignes à l’eau dans un pot jaune, au coin du feu. Ça veut dire qu’on recevra d’argent dans la journée, de rêver de châtaignes. Hé ben ! Ça a tourné tout de traviole. À neuf heures, mon maître me demande son déjeuner. Je me dépêche et je me trompe. Le borgeois se monte comme une soupe au lait. J’ai beau m’excuser : « Borgeois, c’est pour m’être trop pressé, pour avoir trop voulu bien faire. Y a que ceux qui font rien qui se trompent pas. » Il m’écoute pas. Il me fait mon compte : sept et sept dix-huit, et sept vingt-neuf, et neuf septante-deux ! Il me donne trois francs douze sous. Il me flanque un certificat de bonne conduite avec son soulier, au-dessous des reins. Et me v’là sur le pavé. Mais faut jamais se faire de mauvais sang ! (Il chante.)\n\nQuand j’ai pas l’sou, je chante pour être pas triste ;\n\nQuand j’ai d’ l’argent, je chante parce que j’ suis gai. (bis)\n\nScène VI\n\n{{r1}}, LE SERGENT.\n\n{{r2}} entre doucement et frôle {{r1}} de la tête pendant la chanson.\n\n{{r1}}, se débattant.\n\nAh ça, sergent ; restez donc tranquille.\n\nLE SERGENT.\n\nL’ami, tu as une voix superbe & ton chant est l’égal du rossignol… Si tu veux continuer de chanter… consécutivement devant cette auberge… il y a cent sous pour toi.\n\n{{r1}}.\n\nCent sous !… Est-ce que vous les avez sur vous, sergent ?\n\nLE SERGENT.\n\nVoilà. (La somme est annoncée sans objet.)\n\n{{r1}}.\n\nC’est convenu : je chanterai.\n\nLE SERGENT.\n\nEt si ton gosier se dessèche, tu entreras chez le père {{r6}} pour boire un coup avec des camarades… qui sont des fameux lapins… Et chante-nous quelque chose de ronflant, quelque chose de belliqueusement guerrier. (Il rentre au cabaret.)\n\nScène VII.\n\n{{r1}}, seul.\n\nÇa me va, sergent, ça me va… Nom d’un rat ! je chanterai ben tout ce qu’il voudra pour cent sous… Me v’la chanteur à appointements… comme au Grand Opéra. Tout de même, il me demande quéque chose de guerrier… ça me gêne un peu… je fais que des complaintes… Le Juif-Errant, Henriette & Damon… Ah ! j’y suis !… je vas leurs y chanter Marbrouk. (Il chante : )\n\nMarbrouk s’en va-t-en guerre…\n\nScène VIII.\n\n{{r1}}, {{r3}}.\n\n{{r3}}.\n\nDites donc, l’ami ; est-ce que vous ne pourriez pas aller brailler un peu plus loin ?\n\n{{r1}}.\n\nEst-il malhonnête, ce gone ! Qué que tu demandes, grand flandrin ? Dis donc, est-ce que tu en as entendu souvent des organes comme çui-là ? (Il recommence à chanter.)\n\n{{r3}}.\n\nJe vous prie d’aller chanter plus loin ; la femme de mon maître est malade.\n\n{{r1}}.\n\nJ’en suis navré pour elle, mon vieux… mais comme je suis payé pour chanter, faut que je gagne l’argent qu’on me donne.\n\n{{r3}}.\n\nCombien vous donne-t-on ?\n\n{{r1}}.\n\nDix francs.\n\n{{r3}}.\n\nCe n’est pas cher pour une aussi jolie voix.\n\n{{r1}}.\n\nQué que tu dis, l’enrhumé ?\n\n{{r3}}.\n\nJe vous donne quinze francs pour vous taire.\n\n{{r1}}.\n\nFais voir l’argent… je suis pas fier.\n\n{{r3}} annonce la somme, sans objet.\n\nVoilà !… mais que je n’entende plus votre délicieux organe. (Il sort.)\n\nScène IX\n\n{{r1}}, puis LE SERGENT, puis {{r3}}.\n\n{{r1}}, Seul.\n\nEn v’là un qu’est assez chenu. Y en a qui paient pour travailler, çui-la paie pour rien faire… Allons, je veux pas lui voler son argent… je vais me bercer.\n\nIl se couche sur la bande, & se berce en chantonnant : No, no, l’enfant do.\n\n{{r2}} approche de {{r1}} et le réveille d’un bruit de pas dit à la voix.\n\nDit donc, farceur, est-ce que tu me prends pour un conscrit ? Je t’ai payé pour chanter. Qu’est-ce que tu fais là ?\n\n{{r1}}.\n\nJe chante : No, no, l’enfant do…\n\nLE SERGENT.\n\nTu veux rire, morbleu… moi, je ne ris aucunement.\n\n{{r1}}.\n\nC’est que, voyez-vous, y est venu quéqu’un qui me paie pour rien faire… & comme j’aime mieux son travail que le vôtre… v’là pourquoi je fais rien.\n\nLE SERGENT.\n\nQuelqu’un marche sur mes brisées… morbleu !… Et combien te donne-t-on… totalement ?\n\n{{r1}}.\n\nVingt francs, sergent.\n\nLE SERGENT.\n\nEn voilà trente… mais chante, & chante bien… sinon je te fais faire connaissance avec la lame de mon sabre.\n\n{{r1}}.\n\nAh ! ne badinez donc pas, militaire !… avec le machin que coupe ?\n\nLE SERGENT.\n\nJe ne te dis que ça. Prends-y garde. (Il sort.)\n\n{{r1}}.\n\nIl serait dans le cas de me faire une boutonnière… Nom d’un rat ! chantons vite. (Il chante : )\n\nEn avant, Fanfan la Tulipe…\n\n{{r3}} entre ; {{r1}} ponctue chaque mesure par un bond vers lui.\n\n{{r3}}.\n\nAh ! mais ! laissez-moi donc… que vous me faites mal.\n\n{{r1}}.\n\nComment trouves-tu le bullion ?\n\n{{r3}}.\n\nUn peu salé… Tenez, voilà mon écot. (Il réplique par un bond.)\n\n{{r1}} bondit à son tour.\n\nTu me donnes trop ; v’là ta monnaie.\n\n{{r3}}.\n\nAssez de gestes… Il s’agit d’autre chose… Vous êtes joliment un homme de parole… Je vous ai payé pour vous taire, & vous beuglez plus fort qu’auparavant.\n\n{{r1}}.\n\nMais, benoît, l’autre est revenu. Il me donne quarante francs pour que je chante.\n\n{{r3}}.\n\nEn voilà soixante pour vous taire.\n\n{{r1}}, embarrassé.\n\nC’est que, voyez-vous, c’est pus fort que moi… sitôt que je suis réveillé, faut que je chante.\n\n{{r3}}.\n\nHé bien ! dormez… je vous paie pour dormir… Mais surtout ne chantez plus… parce que je vous réglerai cette fois avec une autre monnaie, mon gaillard. (Il sort.)\n\n{{r1}}.\n\nC’est entendu ; je tape de l’œil. Il se couche sur la bande et ronfle. {{r2}} arrive et voit {{r1}} couché.\n\nLE SERGENT.\n\nBataillon ! garde à vos !\n\n{{r1}}, toujours couché.\n\nGarde à vos, tant que tu voudras.\n\nLE SERGENT.\n\nDivision ! apprêtez vos armes ! Joue !\n\n{{r1}}, de même.\n\nSur la joue, sur le flanc, ran tan plan, tambour battant.\n\nLE SERGENT.\n\nFeu ! (Il heurte la table de son corps.)\n\n{{r1}}, se relevant.\n\nGredin, comme tu appuies sur la gâchette !\n\nLE SERGENT.\n\nJe t’ai payé pour chanter.\n\n{{r1}}.\n\nVous m’avez demandé quéque chose de ronflant, je ronfle.\n\nLE SERGENT.\n\nPas de bêtises ! Tu vas marcher au pas accéléré. (Il heurte doucement la table.)\n\n{{r1}}.\n\nOui, sergent. (Il chante : )\n\nAh ! quel plaisir d’être sordat !\n\n{{r3}} revient sans objet.\n\nTu es payé pour dormir, dors ! (Il heurte la table de son corps.)\n\n{{r1}}.\n\nAh !… tout de suite. (Il se couche.)\n\n{{r2}} heurte la table.\n\nChante.\n\n{{r1}}, se relevant.\n\nOui, sergent. (Il chante : )\n\nIls sont là-bas qui dorment sous la neige.\n\n{{r3}} heurte la table.\n\nDors.\n\n{{r1}}.\n\nAh ! mais… dites donc, ça commence à m’ennuyer. Vous tapez comme des compagnons maréchaux sur une enclume.\n\n{{r2}} heurte la table.\n\nChante.\n\n{{r3}} heurte la table.\n\nDors.\n\n{{r1}}.\n\nAtatends ! ça va finir. (Il fait deux bonds, un de chaque côté.)\n\n{{r3}}.\n\nÀ la garde ! à la garde !\n\nScène X.\n\nLES MÊMES, {{r4}}.\n\n{{r4}}.\n\nQu’est-ce qu’il y a donc ici ? On se bat.\n\n{{r3}}.\n\nMonsieur, ce drôle a reçu votre argent pour ne plus chanter… Mais il continue de plus belle… & vous voyez comme il me traite.\n\n{{r4}}.\n\nChantez tant que vous voudrez… & que tout le monde chante. Ma femme a accouché… je ne me sens pas de joie. Tenez, voilà de l’argent pour boire à ma santé & à celle de Madame {{r4}}.\n\nTOUS.\n\nVivent {{r4}} et sa femme ! (Ils chantent.)\n\nScène XI\n\nLES MÊMES, {{r5}}.\n\n{{r5}}. Il revient de la chasse, sans rien en main.\n\nMe voilà, mon ami, me voilà ! Nous avons fait une chasse superbe… Mais il me semble qu’on n’observe guère ici les recommandations que j’ai faites ce matin… Comment va ta femme ?\n\n{{r4}}.\n\nÀ merveille, docteur… mieux que tu ne penses…\n\n{{r5}}.\n\nQue veux-tu dire ?\n\n{{r4}}.\n\nC’est fait, mon ami… Elle a accouché… très-heureusement.\n\n{{r5}}.\n\nDéjà !… & que t’a-t-elle donné ?\n\n{{r4}}.\n\nUn gros garçon… un gaillard qui aura des dispositions pour la musique. (On entend crier l’enfant.) Écoute-le… il a une voix superbe.\n\n{{r1}}.\n\nPardi ! il m’a entendu… Ça lui a tout de suite donné le goût des arts… Je le retiens pour notre orphéon.\n\n{{r5}}.\n\nEmbrassons-nous, mon cher {{r4}}… Je te fais mon compliment… Si je n’ai pas aidé ce gaillard-là à faire ses débuts dans le monde, je me suis cependant occupé de lui ; je lui ai tué un lièvre… Tiens ; nous allons le manger à sa santé.\n\n{{r4}}.\n\nJe veux que tout le quartier soit en joie. Buvez encore vingt bouteilles à la santé du jeune {{r4}}. (Le nouveau don d’argent à {{r1}} est joué sans objet.)\n\n{{r1}}.\n\nL’argent est-il pour chanter ou pour pas chanter ?\n\n{{r4}}.\n\nPour chanter, rire & boire.\n\n{{r1}}.\n\nJ’aime mieux ça… Tu chanteras, tu chanteras pas !… J’étais comme un chat entre deux melettes… À présent, je connais l’ouvrage… Boire & chanter… & recevoir d’argent pour ça… V’là une place d’où je me ferai jamais mettre à la porte.\n\n{{r4}} entre chez lui avec {{r5}}. Les autres chantent & dansent.\n\nfin de tu chanteras, tu ne chanteras pas.\n\n.\n"
+    }
+  },
+  "dureeEstimeeSecondes": 1145,
+  "interactionsOrdonnees": [
+    "a4e13",
+    "a4e10",
+    "a3e67",
+    "a3e32",
+    "a3e27",
+    "a3e12",
+    "a2e28",
+    "a2e10",
+    "a1e41",
+    "a1e33"
+  ]
+}

@@ -1,0 +1,80 @@
+{"titre": "Le Pari de Mémé Tortue",
+ "pitch": "Moquée pour ses petites pattes, Mémé Tortue met Roi Corbeau au défi d'une course qu'elle va gagner sans faire un seul pas.",
+ "changements": [
+   "L'entrée en matière du grand-père conteur (« Cette histoire, les enfants... ») est coupée : elle n'a pas de marionnette et n'ajoute rien à l'action ; le spectacle commence directement, un dimanche matin, marionnettes déjà en scène.",
+   "Les soixante-quatorze allers-retours du conte deviennent deux ou trois tentatives de Roi Corbeau, de plus en plus essoufflées : on garde la surprise et l'entêtement, sans rejouer la course entière ni multiplier les entrées et les sorties.",
+   "Mémé Tortue et Pilou ne se ressemblant pas, ils portent depuis le tout début le même petit bonnet : c'est ce détail-là, et non leur visage, que Roi Corbeau reconnaît confusément à chaque « Je suis déjà là ! »."
+ ],
+ "tableaux": [
+   {"id": "t1", "titre": "Le chemin, un dimanche matin",
+    "description": "Un tapis, une nappe ou un drap vert étalé au sol figure le chemin ; rien d'autre n'est nécessaire pour cette première scène. Avant de commencer, on coiffe Mémé Tortue et Pilou du même petit bonnet.",
+    "accessoires": ["Deux petits bonnets identiques, un sur Mémé Tortue et un sur Pilou, posés avant le début du spectacle."]},
+   {"id": "t2", "titre": "Le champ aux deux sillons",
+    "description": "Deux boudins de tissu, deux coussins allongés ou deux bandes de nappe posés côte à côte tracent les deux sillons de la course. À l'autre bout, un carton retourné ou un coin de drap sert de cachette pour Pilou.",
+    "accessoires": []}
+ ],
+ "actes": [
+   {"numero": 1, "titre": "La moquerie et le pari", "tableauId": "t1",
+    "resume": "Mémé Tortue croise Roi Corbeau, qui se moque de ses petites pattes ; vexée, elle le met au défi d'une course pour un gâteau, et il accepte.",
+    "passage": "De « C'était un dimanche matin » à « et Mémé Tortue s'en alla. »",
+    "temps": [
+      "Mémé Tortue se promène tranquillement et croise Roi Corbeau.",
+      "Roi Corbeau se moque de ses petites pattes ; elle est piquée au vif.",
+      "Elle le met au défi d'une course, l'enjeu est un gâteau, et il accepte, tout fier."
+    ],
+    "mouvements": [
+      {"type": "entree", "marionnette": "Mémé Tortue", "main": "M1G"},
+      {"type": "entree", "marionnette": "Roi Corbeau", "main": "M1D"},
+      {"type": "sortie", "marionnette": "Roi Corbeau"},
+      {"type": "sortie", "marionnette": "Mémé Tortue"}
+    ],
+    "momentsPublic": [],
+    "budgetMots": 180},
+   {"numero": 2, "titre": "Le secret dans le sillon", "tableauId": "t2",
+    "resume": "Mémé Tortue amène Pilou en cachette, lui met le même bonnet qu'elle et le poste au bout du champ, puis rejoint Roi Corbeau pour le départ.",
+    "passage": "De « Arrivée chez elle, elle dit à Pilou » à « Et chacun se mit dans son sillon. »",
+    "temps": [
+      "Mémé Tortue amène Pilou en cachette et lui explique le tour.",
+      "Elle lui met le même petit bonnet qu'elle porte et le cache au bout du champ.",
+      "Elle rejoint Roi Corbeau ; tous deux se placent, prêts à partir."
+    ],
+    "mouvements": [
+      {"type": "entree", "marionnette": "Mémé Tortue", "main": "M1G"},
+      {"type": "entree", "marionnette": "Pilou le Pingouin", "main": "M1D"},
+      {"type": "sortie", "marionnette": "Mémé Tortue"},
+      {"type": "entree", "marionnette": "Roi Corbeau", "main": "M1G"}
+    ],
+    "momentsPublic": ["Les enfants mettent un doigt sur la bouche avec Pilou pour garder le secret : « Chut ! »"],
+    "budgetMots": 170},
+   {"numero": 3, "titre": "La course entêtée", "tableauId": "t2",
+    "resume": "Roi Corbeau s'élance de toutes ses forces, mais à chaque arrivée une voix coiffée du même bonnet le devance ; il s'entête jusqu'à l'épuisement.",
+    "passage": "De « Roi Corbeau compta : « Un, deux, trois ! » » à « … resta là, épuisé. »",
+    "temps": [
+      "Au signal, Roi Corbeau s'élance de toutes ses forces.",
+      "À chaque arrivée, la voix de Pilou le devance : « Je suis déjà là ! »",
+      "Il s'entête, retente, de plus en plus essoufflé, jusqu'à s'effondrer, vaincu par la fatigue."
+    ],
+    "mouvements": [],
+    "momentsPublic": ["Les enfants crient avec Pilou, de plus en plus fort à chaque fois : « Je suis déjà là ! »"],
+    "budgetMots": 230},
+   {"numero": 4, "titre": "Le gâteau bien gagné", "tableauId": "t2",
+    "resume": "Roi Corbeau, à bout de souffle, reconnaît sa défaite ; Mémé Tortue vient chercher son gâteau sans avoir couru un pas, et rappelle la valeur d'un allié fidèle.",
+    "passage": "De « Mémé Tortue prit la pièce d'or et la bouteille qu'elle avait gagnées » à « et ainsi de suite. »",
+    "temps": [
+      "Roi Corbeau, à bout de souffle, reconnaît sa défaite.",
+      "Mémé Tortue vient récupérer son gâteau, sans avoir couru un seul pas.",
+      "Elle rappelle qu'un allié fidèle vaut mieux que de longues pattes."
+    ],
+    "mouvements": [
+      {"type": "sortie", "marionnette": "Pilou le Pingouin"},
+      {"type": "entree", "marionnette": "Mémé Tortue", "main": "M1D"}
+    ],
+    "momentsPublic": [],
+    "budgetMots": 220}
+ ],
+ "voix": [
+   {"marionnette": "Roi Corbeau", "voix": "voix pompeuse et sonore, articule chaque mot comme s'il faisait un discours"},
+   {"marionnette": "Pilou le Pingouin", "voix": "voix aiguë et pressée, répond toujours plus vite qu'on ne l'attend"},
+   {"marionnette": "Mémé Tortue", "voix": "voix lente et posée, ne hausse jamais le ton, même vexée"}
+ ]
+}

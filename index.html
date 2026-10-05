@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--
+      Politique de sécurité du contenu (CDC §12).
+      - scripts, styles et polices : uniquement depuis l'application
+      - connect-src https: : nécessaire car l'utilisateur peut saisir l'URL de
+        n'importe quel fournisseur compatible ; aucun autre appel n'est permis
+      - aucune balise <script> externe, aucun CDN
+    -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; font-src 'self'; img-src 'self' blob: data:; connect-src https: http://localhost:* ws://localhost:*; form-action 'none'; base-uri 'none'; object-src 'none'"
+    />
+    <!--
+      Icône de l'onglet : le visage du souffleur. Les deux formats sont
+      déclarés car Safari ne lit pas les favicons WebP de façon fiable, et le
+      CDC §3 le cite parmi les navigateurs cibles. Le PNG est fabriqué à partir
+      du WebP par tools/convertir-favicon.mjs.
+    -->
+    <link rel="icon" type="image/webp" href="./assets/favicon.webp" />
+    <link rel="icon" type="image/png" sizes="180x180" href="./assets/favicon.png" />
+    <link rel="apple-touch-icon" href="./assets/favicon.png" />
+    <title>Le Souffleur</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

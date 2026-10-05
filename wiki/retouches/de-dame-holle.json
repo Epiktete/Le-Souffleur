@@ -1,0 +1,23 @@
+{
+  "id": "de-dame-holle",
+  "langue": [
+    {"avant": "un grand chaudron de poix qui se déversa sur elle", "apres": "un grand chaudron de poix, noire et collante, qui se déversa sur elle", "nature": "mot-rare", "jusqua": 6}
+  ],
+  "moments": [
+    {
+      "id": "la-bobine-tachee-de-sang",
+      "type": "cruaute",
+      "niveaux": [
+        {
+          "jusqua": 6,
+          "annonce": "Les doigts de la fille travailleuse lui font mal à force de filer, mais ne saignent pas : sa bobine est seulement sale. La paresseuse salit la sienne exprès en la roulant par terre.",
+          "retouches": [
+            {"avant": "filer tant et tant que le sang lui en sortait des doigts", "apres": "filer tant et tant que les doigts lui en faisaient mal"},
+            {"avant": "la bobine fut toute tachée de sang", "apres": "la bobine fut toute sale"},
+            {"avant": "Et pour que sa bobine soit tachée de sang, elle se piqua le doigt et se mit la main dans la haie d'épines.", "apres": "Et pour que sa bobine soit sale, elle la roula par terre."}
+          ]
+        }
+      ]
+    }
+  ]
+}

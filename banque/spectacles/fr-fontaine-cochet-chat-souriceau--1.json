@@ -1,0 +1,366 @@
+{
+  "id": "fr-fontaine-cochet-chat-souriceau--1",
+  "conteId": "fr-fontaine-cochet-chat-souriceau",
+  "titre": "Le Cochet, le Chat et le Souriceau",
+  "pitch": "{{r1}}, un souriceau, raconte à sa mère {{r2}} pourquoi le coq l'a effrayé et le chat lui a paru doux. Elle lui apprend que l'apparence peut tromper.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "souriceau",
+      "famille": "petit",
+      "traits": [
+        "curieux",
+        "naïf",
+        "bavard"
+      ],
+      "voix": "voix vive et aiguë, qui tremble quand il parle du coq",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "voix:r1",
+            "avant": "il parle",
+            "apres": "elle parle"
+          },
+          {
+            "id": "pitch",
+            "avant": "l'a effrayé",
+            "apres": "l'a effrayée"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "qu'il a pris",
+            "apres": "qu'elle a pris"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "presque pris",
+            "apres": "presque prise"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "il conta",
+            "apres": "elle conta"
+          },
+          {
+            "id": "a1e6:ton",
+            "avant": "tout fier",
+            "apres": "toute fière"
+          },
+          {
+            "id": "a1e12:texte",
+            "avant": "dit-il",
+            "apres": "dit-elle"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "Mon fils",
+            "apres": "Ma fille"
+          },
+          {
+            "id": "t1:description",
+            "avant": "il peut désigner",
+            "apres": "elle peut désigner"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "vers lui",
+            "apres": "vers elle"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "pitch",
+          "avant": "un souriceau",
+          "gabarit": "{un} {espece}"
+        },
+        {
+          "id": "a1e1:texte",
+          "avant": "Un souriceau tout jeune",
+          "gabarit": "{Un} {espece} {tout|toute} jeune"
+        },
+        {
+          "id": "a1e10:texte",
+          "avant": "notre souriceau",
+          "gabarit": "notre {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r2",
+      "espece": "souris",
+      "famille": "petit",
+      "traits": [
+        "sage",
+        "attentive",
+        "protectrice"
+      ],
+      "voix": "voix calme et douce, qui devient ferme en parlant du chat",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "sa mère",
+            "apres": "son père"
+          },
+          {
+            "id": "pitch",
+            "avant": "Elle lui apprend",
+            "apres": "Il lui apprend"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "sa mère",
+            "apres": "son père"
+          },
+          {
+            "id": "a1e10:texte",
+            "avant": "sa mère",
+            "apres": "son père"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "elle se tourne",
+            "apres": "il se tourne"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "près d'elle",
+            "apres": "près de lui"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a2e7:texte",
+          "avant": "la souris",
+          "gabarit": "{le} {espece}"
+        }
+      ]
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 4,
+    "ageAuditoire": 7,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La cour et le logis",
+      "description": "Posez un coussin à gauche pour le logis de {{r2}}. À droite, laissez la place de la cour où {{r1}} raconte sa sortie ; il peut désigner deux côtés différents pour le coq et le chat imaginaires. Une table vide suffit aussi.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "La première sortie de {{r1}}",
+      "resume": "{{r1}} raconte à {{r2}} sa promenade, le coq criard qu'il a pris pour un monstre et la peur qui l'a fait fuir.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Un souriceau tout jeune, et qui n’avait rien vu,\nFut presque pris au dépourvu."
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e3",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e4",
+          "type": "didascalie",
+          "texte": "{{r1}} trottine vers {{r2}} et s'arrête près d'elle."
+        },
+        {
+          "id": "a1e5",
+          "type": "conteur",
+          "texte": "Voici comme il conta l’aventure à sa mère :"
+        },
+        {
+          "id": "a1e6",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "J’avais franchi les monts qui bornent cet état,\nEt trottais comme un jeune rat\nQui cherche à se donner carrière.",
+          "ton": "tout fier de sa promenade"
+        },
+        {
+          "id": "a1e7",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Trottinez sur place avec moi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e8",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Lorsque deux animaux m’ont arrêté les yeux :\nL’un doux, bénin, et gracieux,\nEt l’autre turbulent, et plein d’inquiétude ;\nIl a la voix perçante et rude,\nSur la tête un morceau de chair,\nUne sorte de bras dont il s’élève en l’air\nComme pour prendre sa volée,\nLa queue en panache étalée.",
+          "ton": "en regardant de deux côtés"
+        },
+        {
+          "id": "a1e9",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Regardez à gauche, puis à droite avec moi !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e10",
+          "type": "conteur",
+          "texte": "Or, c’était un cochet dont notre souriceau\nFit à sa mère le tableau\nComme d’un animal venu de l’Amérique."
+        },
+        {
+          "id": "a1e11",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Il se battait,",
+          "ton": "en imitant de grands mouvements du corps"
+        },
+        {
+          "id": "a1e12",
+          "type": "conteur",
+          "texte": "dit-il,"
+        },
+        {
+          "id": "a1e13",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "les flancs avec ses bras,\nFaisant tel bruit et tel fracas,\nQue moi, qui grâce aux dieux de courage me pique,\nEn ai pris la fuite de peur,\nLe maudissant de très-bon cœur.",
+          "ton": "en reculant"
+        },
+        {
+          "id": "a1e14",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites avec moi le bruit des ailes : frrr !",
+          "attenteReponse": true
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Le doux regard du chat",
+      "resume": "{{r1}} aurait voulu approcher le chat, mais le cri du coq l'a fait fuir. {{r2}} lui explique que le chat est dangereux et conclut qu'il ne faut pas juger sur la mine.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Sans lui j’aurais fait connaissance\nAvec cet animal qui m’a semblé si doux :\nIl est velouté comme nous,\nMarqueté, longue queue, une humble contenance,\nUn modeste regard, et pourtant l’œil luisant.\nJe le crois fort sympathisant\nAvec messieurs les rats ; car il a des oreilles\nEn figure aux nôtres pareilles.",
+          "ton": "avec admiration"
+        },
+        {
+          "id": "a2e2",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Écoutez encore ce que j'ai vu !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e3",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "J’allais l’aborder, quand d’un son plein d’éclat\nL’autre m’a fait prendre la fuite.",
+          "ton": "en sursautant"
+        },
+        {
+          "id": "a2e4",
+          "type": "didascalie",
+          "texte": "{{r1}} se replie vers {{r2}} ; elle se tourne vers lui."
+        },
+        {
+          "id": "a2e5",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Reculez d'un pas avec moi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e6",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Mon fils,",
+          "ton": "avec douceur"
+        },
+        {
+          "id": "a2e7",
+          "type": "conteur",
+          "texte": "dit la souris,"
+        },
+        {
+          "id": "a2e8",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "ce doucet est un chat,\nQui, sous son minois hypocrite,\nContre toute ta parenté,\nD’un malin vouloir est porté.\nL’autre animal, tout au contraire,\nBien éloigné de nous mal faire,\nServira quelque jour peut-être à nos repas.\nQuant au chat, c’est sur nous qu’il fonde sa cuisine.\nGarde-toi, tant que tu vivras,\nDe juger des gens sur la mine.",
+          "ton": "fermement, puis avec tendresse"
+        },
+        {
+          "id": "a2e9",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Répétez avec moi : garde-toi !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e10",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e11",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "fr-fontaine-cochet-chat-souriceau",
+    "synopsis": {
+      "accroche": "Le souriceau a fui le coq et voulait approcher le chat.",
+      "resume": [
+        "{{r1}} raconte à sa mère {{r2}} sa première sortie.",
+        "Le coq, criard et agité, l'a effrayé ; un chat au regard modeste lui a paru doux.",
+        "{{r2}} révèle que le chat veut du mal aux souris, alors que le coq ne les menace pas.",
+        "Elle conseille à son fils de ne pas juger les gens sur leur mine."
+      ]
+    },
+    "transposition": {
+      "texte": "Un souriceau tout jeune, et qui n’avait rien vu,\nFut presque pris au dépourvu.\nVoici comme il conta l’aventure à sa mère :\nJ’avais franchi les monts qui bornent cet état,\nEt trottais comme un jeune rat\nQui cherche à se donner carrière.\nLorsque deux animaux m’ont arrêté les yeux :\nL’un doux, bénin, et gracieux,\nEt l’autre turbulent, et plein d’inquiétude ;\nIl a la voix perçante et rude,\nSur la tête un morceau de chair,\nUne sorte de bras dont il s’élève en l’air\nComme pour prendre sa volée,\nLa queue en panache étalée.\nOr, c’était un cochet dont notre souriceau\nFit à sa mère le tableau\nComme d’un animal venu de l’Amérique.\nIl se battait, dit-il, les flancs avec ses bras,\nFaisant tel bruit et tel fracas,\nQue moi, qui grâce aux dieux de courage me pique,\nEn ai pris la fuite de peur,\nLe maudissant de très-bon cœur.\nSans lui j’aurais fait connaissance\nAvec cet animal qui m’a semblé si doux :\nIl est velouté comme nous,\nMarqueté, longue queue, une humble contenance,\nUn modeste regard, et pourtant l’œil luisant.\nJe le crois fort sympathisant\nAvec messieurs les rats ; car il a des oreilles\nEn figure aux nôtres pareilles.\nJ’allais l’aborder, quand d’un son plein d’éclat\nL’autre m’a fait prendre la fuite.\nMon fils, dit la souris, ce doucet est un chat,\nQui, sous son minois hypocrite,\nContre toute ta parenté,\nD’un malin vouloir est porté.\nL’autre animal, tout au contraire,\nBien éloigné de nous mal faire,\nServira quelque jour peut-être à nos repas.\nQuant au chat, c’est sur nous qu’il fonde sa cuisine.\nGarde-toi, tant que tu vivras,\nDe juger des gens sur la mine.",
+      "changements": [
+        "« Je l’allais aborder » devient « J’allais l’aborder », seule retouche universelle.",
+        "Le coq et le chat restent dans le récit de {{r1}} ; ils ne prennent pas la parole."
+      ]
+    }
+  },
+  "dureeEstimeeSecondes": 217,
+  "interactionsOrdonnees": [
+    "a1e7",
+    "a1e9",
+    "a1e14",
+    "a2e2",
+    "a2e5",
+    "a2e9"
+  ]
+}

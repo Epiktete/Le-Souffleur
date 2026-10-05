@@ -1,0 +1,733 @@
+{
+  "id": "ja-bonze-et-novice--1",
+  "conteId": "ja-bonze-et-novice",
+  "titre": "Le Bonze et le petit novice",
+  "pitch": "{{r1}} déjoue deux fois l’avarice de {{r2}} : le faux poison sauve une première farce, puis une statue semble avouer à sa place.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "garcon",
+      "famille": "enfant",
+      "traits": [
+        "coquin",
+        "rusé",
+        "gourmand"
+      ],
+      "voix": "voix vive et souple, prend un souffle faible pour la fausse agonie",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e1:texte",
+            "avant": "son petit novice",
+            "apres": "sa petite novice"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "en était vexé",
+            "apres": "en était vexée"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "il profiterait",
+            "apres": "elle profiterait"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "du faux malade",
+            "apres": "de la fausse malade"
+          },
+          {
+            "id": "a1e15:texte",
+            "avant": "être sauvé",
+            "apres": "être sauvée"
+          },
+          {
+            "id": "a1e15:texte",
+            "avant": "je serai mort",
+            "apres": "je serai morte"
+          },
+          {
+            "id": "a1e19:texte",
+            "avant": "Et il pleurait",
+            "apres": "Et elle pleurait"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "gardait seul le temple",
+            "apres": "gardait seule le temple"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "Il récitait",
+            "apres": "Elle récitait"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "encore ensommeillé",
+            "apres": "encore ensommeillée"
+          },
+          {
+            "id": "a2e12:texte",
+            "avant": "à lui-même",
+            "apres": "à elle-même"
+          },
+          {
+            "id": "a2e12:texte",
+            "avant": "tout joyeux",
+            "apres": "toute joyeuse"
+          },
+          {
+            "id": "a2e12:texte",
+            "avant": "il finit par vider",
+            "apres": "elle finit par vider"
+          },
+          {
+            "id": "a2e12:texte",
+            "avant": "Quand il eut fini, il s'aperçut",
+            "apres": "Quand elle eut fini, elle s'aperçut"
+          },
+          {
+            "id": "a2e14:ton",
+            "avant": "inquiet",
+            "apres": "inquiète"
+          },
+          {
+            "id": "a2e15:texte",
+            "avant": "était prêt à pleurer",
+            "apres": "était prête à pleurer"
+          },
+          {
+            "id": "a2e15:texte",
+            "avant": "il eut une idée",
+            "apres": "elle eut une idée"
+          },
+          {
+            "id": "a3e25:ton",
+            "avant": "embêté",
+            "apres": "embêtée"
+          },
+          {
+            "id": "a3e29:ton",
+            "avant": "très fier de lui",
+            "apres": "très fière d’elle"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r2",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "avare",
+        "gourmand",
+        "naïf"
+      ],
+      "voix": "voix grave et serrée, s’emporte devant la statue",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e1:texte",
+            "avant": "un bonze",
+            "apres": "une bonzesse"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "il le mangeait toujours tout seul",
+            "apres": "elle le mangeait toujours toute seule"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "le léchait tout seul",
+            "apres": "le léchait toute seule"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "il donna ses ordres",
+            "apres": "elle donna ses ordres"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "Et il sortit",
+            "apres": "Et elle sortit"
+          },
+          {
+            "id": "a1e10:texte",
+            "avant": "fut parti",
+            "apres": "fut partie"
+          },
+          {
+            "id": "a1e14:ton",
+            "avant": "fâché",
+            "apres": "fâchée"
+          },
+          {
+            "id": "a1e16:texte",
+            "avant": "fut stupéfait",
+            "apres": "fut stupéfaite"
+          },
+          {
+            "id": "a1e17:ton",
+            "avant": "stupéfait",
+            "apres": "stupéfaite"
+          },
+          {
+            "id": "a1e15:texte",
+            "avant": "Maître,",
+            "apres": "Maîtresse,"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "fut invité",
+            "apres": "fut invitée"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "comme il est avare et gourmand",
+            "apres": "comme elle est avare et gourmande"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "il va tout manger tout seul",
+            "apres": "elle va tout manger toute seule"
+          },
+          {
+            "id": "a3e20:ton",
+            "avant": "encore plus fâché",
+            "apres": "encore plus fâchée"
+          },
+          {
+            "id": "a3e29:texte",
+            "avant": "maître !",
+            "apres": "maîtresse !"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r3",
+      "espece": "femme",
+      "famille": "adulte",
+      "traits": [
+        "généreuse",
+        "prévenante"
+      ],
+      "voix": "voix douce et posée, appelle depuis l’entrée",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a2e6:texte",
+            "avant": "la vieille voisine",
+            "apres": "le vieux voisin"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "qu'elle a préparées",
+            "apres": "qu'il a préparées"
+          },
+          {
+            "id": "a3e5:texte",
+            "avant": "Elle a dit",
+            "apres": "Il a dit"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 10,
+    "ageAuditoire": 5,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "Le petit temple et l’autel",
+      "description": "Un coussin figure l’autel du temple. Le pot de sirop et le bol sont immobiles hors de vue : les paroles et le récit suffisent à les faire exister. L’espace devant la table reste libre pour les deux peluches.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "L’entrée et les boulettes",
+      "description": "Un carton immobile marque l’entrée. Le foulard et la boîte de boulettes restent hors scène ; l’odeur et la vapeur sont racontées. Le coussin de l’autel reste en place.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t3",
+      "titre": "La statue qui résonne",
+      "description": "Un coussin sous un torchon jaune figure la statue dorée, fixe pendant tout l’acte. Les marques de pâte, le chasse-mouches, l’eau et la marmite ne sont que racontés. Le parent fait « Kwan » et « Kutta » à la voix, les mains dans les peluches.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Le sirop qui n’était pas un poison",
+      "resume": "{{r2}} cache son sirop et le fait passer pour un poison. {{r1}} mange le sirop, casse le bol et fait croire à une agonie.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Il y avait un bonze terriblement avare, {{r2}}. Quand on lui offrait quelque chose, il le mangeait toujours tout seul, et n'en donnait jamais rien à {{r1}}, son petit novice. {{r1}} en était vexé, et pensait qu'un jour, il profiterait d'un moment pour confisquer à {{r2}} quelque chose de bon."
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e3",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e4",
+          "type": "conteur",
+          "texte": "Un jour, {{r2}} reçut d'un fidèle un sirop de sucre délicieux. Le sirop resta dans un pot, caché discrètement sous l'autel, et {{r2}} le léchait tout seul en secret."
+        },
+        {
+          "id": "a1e5",
+          "type": "conteur",
+          "texte": "Or, un jour, {{r2}} dut sortir pour une affaire. En partant, il donna ses ordres à {{r1}} :"
+        },
+        {
+          "id": "a1e6",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Dans le pot, sous l'autel, il y a quelque chose de précieux. On dirait du sirop, mais en réalité c'est un poison terrible : il suffit d'en lécher une seule bouchée pour tomber raide. Si tu tiens à la vie, n'y touche surtout pas.",
+          "ton": "sévère"
+        },
+        {
+          "id": "a1e7",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Répétez bien le dernier avertissement : « N’y touche surtout pas ! »",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e8",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e9",
+          "type": "conteur",
+          "texte": "Et il sortit."
+        },
+        {
+          "id": "a1e10",
+          "type": "conteur",
+          "texte": "Dès que {{r2}} fut parti, le pot fut découvert et {{r1}} lécha tout le sirop jusqu'au bout. Ensuite, le précieux bol à thé de {{r2}} fut cassé exprès en deux par {{r1}}. {{r1}} s'enfouit sous sa couverture et fit semblant d'être à l'agonie en gémissant « hou, hou »."
+        },
+        {
+          "id": "a1e11",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites avec moi le petit gémissement du faux malade : « Hou, hou ! »",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e12",
+          "type": "conteur",
+          "texte": "Le soir, quand {{r2}} rentra, il faisait tout noir à l'intérieur, et aucune lampe n'était allumée. {{r2}} se fâcha :"
+        },
+        {
+          "id": "a1e13",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e14",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Hé, {{r1}}, que fais-tu ?",
+          "ton": "fâché"
+        },
+        {
+          "id": "a1e15",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Maître, pardonnez-moi. Je vais mourir. Je ne peux plus être sauvé. Quand je serai mort, ayez pitié, et récitez au moins une prière pour moi.",
+          "ton": "d’une toute petite voix d’insecte"
+        },
+        {
+          "id": "a1e16",
+          "type": "conteur",
+          "texte": "{{r2}} fut stupéfait qu'on lui dise tout à coup une chose aussi étrange."
+        },
+        {
+          "id": "a1e17",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "{{r1}}, {{r1}}, que t'arrive-t-il donc ?",
+          "ton": "stupéfait"
+        },
+        {
+          "id": "a1e18",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Aujourd'hui, pendant le lavage de votre précieux bol à thé, le chat m'a sauté dessus pour jouer et le bol est tombé, puis s'est cassé. Alors j'ai pensé que je n'avais plus qu'à mourir pour m'excuser, et j'ai tout mangé du pot de poison. Le poison est déjà passé dans tout mon corps, je vais bientôt mourir. S'il vous plaît, pardonnez-moi, et récitez juste une prière. Aïe, que j'ai mal ! Aïe, que j'ai mal !",
+          "ton": "feint la douleur"
+        },
+        {
+          "id": "a1e19",
+          "type": "conteur",
+          "texte": "Et il pleurait à gros sanglots."
+        },
+        {
+          "id": "a1e20",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e21",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "La fête de l’équinoxe",
+      "resume": "{{r3}} apporte des boulettes pour {{r2}}. {{r1}} mange tout, puis prépare une nouvelle farce autour de la statue dorée.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "Un jour, {{r2}} fut invité à une cérémonie, et {{r1}} gardait seul le temple. Il récitait les prières en somnolant quand, à l'entrée, quelqu'un appela :"
+        },
+        {
+          "id": "a2e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e3",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e4",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Il y a quelqu'un ?"
+        },
+        {
+          "id": "a2e5",
+          "type": "adresse_public",
+          "marionnetteId": "r3",
+          "texte": "Appelez doucement à l’entrée avec moi : « Il y a quelqu’un ? »",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e6",
+          "type": "conteur",
+          "texte": "{{r1}} vint à l'entrée, encore ensommeillé : c'était {{r3}}, la vieille voisine, avec un gros paquet enveloppé dans un foulard."
+        },
+        {
+          "id": "a2e7",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "C'est la fête de l'équinoxe : s'il vous plaît, donnez ceci à {{r2}}."
+        },
+        {
+          "id": "a2e8",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e9",
+          "type": "conteur",
+          "texte": "Et {{r3}} le laissa là. Du paquet montaient une vapeur bien chaude et une odeur délicieuse."
+        },
+        {
+          "id": "a2e10",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Sentez la bonne odeur des boulettes : faites « mmm » sans rien manger.",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e11",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ah ah, c'est des boulettes de riz qu'elle a préparées pour la fête. Si je les donne telles quelles à {{r2}}, comme il est avare et gourmand, il va tout manger tout seul et ne m'en donnera pas une seule, c'est sûr. Bon, bon, ça tombe bien : je vais les manger pour me réveiller."
+        },
+        {
+          "id": "a2e12",
+          "type": "conteur",
+          "texte": "En se parlant ainsi à lui-même, {{r1}} vit sous le foulard une grande boîte laquée pleine de délicieuses boulettes. {{r1}}, tout joyeux, se mit à les engloutir : encore une, encore une, et à force d'en manger, il finit par vider toute la boîte. Quand il eut fini, il s'aperçut soudain :"
+        },
+        {
+          "id": "a2e13",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Répétez avec moi : « Encore une, encore une ! »",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e14",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oh, zut ! Qu’est-ce que je vais faire quand {{r2}} va rentrer ?",
+          "ton": "inquiet"
+        },
+        {
+          "id": "a2e15",
+          "type": "conteur",
+          "texte": "{{r1}} était prêt à pleurer. Mais tout à coup, il eut une idée et courut à la grande salle du temple. Là, la pâte de haricots sucrée restée sur les bords de la boîte se retrouva, par sa farce, en abondance tout autour de la bouche de la grande statue dorée. La boîte resta devant la statue ; {{r1}} retourna dans sa chambre et se remit à réciter ses prières comme si de rien n'était."
+        },
+        {
+          "id": "a2e16",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Kwan, puis Kutta",
+      "resume": "{{r2}} découvre la boîte vide. {{r1}} accuse la statue ; deux « Kwan » semblent la défendre, puis « Kutta » devient son faux aveu.",
+      "tableauId": "t3",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "conteur",
+          "texte": "Un moment après, {{r2}} rentra et demanda à {{r1}} :"
+        },
+        {
+          "id": "a3e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e3",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e4",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Personne n'est venu pendant mon absence ?"
+        },
+        {
+          "id": "a3e5",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "{{r3}} a apporté une boîte. Elle a dit : c'est la fête de l'équinoxe, donnez-la à {{r2}}."
+        },
+        {
+          "id": "a3e6",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Et où est cette boîte ?"
+        },
+        {
+          "id": "a3e7",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je l'ai offerte devant la statue, dans la grande salle."
+        },
+        {
+          "id": "a3e8",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e9",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Hmm, voilà qui est bien pensé. Voyons, voyons."
+        },
+        {
+          "id": "a3e10",
+          "type": "conteur",
+          "texte": "{{r2}} alla dans la grande salle : en effet, la boîte était posée respectueusement devant la statue ; elle était complètement vide."
+        },
+        {
+          "id": "a3e11",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Hé, {{r1}} ! C'est toi qui l'as mangée !",
+          "ton": "d’une voix forte"
+        },
+        {
+          "id": "a3e12",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e13",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Hein ? Pas du tout, comment pouvez-vous dire ça ?",
+          "ton": "tranquillement"
+        },
+        {
+          "id": "a3e14",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne lentement vers la statue."
+        },
+        {
+          "id": "a3e15",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ah, j'ai compris ! C'est la statue dorée qui l'a mangée. Regardez : elle a plein de pâte de haricots autour de la bouche."
+        },
+        {
+          "id": "a3e16",
+          "type": "didascalie",
+          "texte": "{{r2}} se tourne à son tour vers la statue."
+        },
+        {
+          "id": "a3e17",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "C'est vrai qu'elle a de la pâte de haricots. Voilà une statue bien mal élevée !",
+          "ton": "en colère"
+        },
+        {
+          "id": "a3e18",
+          "type": "conteur",
+          "texte": "{{r2}} se mit en colère : la tête de la statue reçut un coup de chasse-mouches. Alors la statue dorée résonna : « Kwan, kwan ! » (ce qui sonne comme « j'ai pas mangé, j'ai pas mangé ! »)."
+        },
+        {
+          "id": "a3e19",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites résonner la statue avec moi : « Kwan, kwan ! »",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e20",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Comment ça, tu n'as pas mangé ?",
+          "ton": "encore plus fâché"
+        },
+        {
+          "id": "a3e21",
+          "type": "conteur",
+          "texte": "La colère de {{r2}} redoubla : la statue reçut deux nouveaux coups et résonna encore : « Kwan, kwan ! »"
+        },
+        {
+          "id": "a3e22",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Encore une fois, faites le son de la statue : « Kwan, kwan ! »",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e23",
+          "type": "didascalie",
+          "texte": "{{r2}} se tourne vers {{r1}}."
+        },
+        {
+          "id": "a3e24",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Tu vois bien, la statue a beau être frappée, elle dit toujours « j'ai pas mangé, j'ai pas mangé ». C'est donc forcément toi qui l'as mangée."
+        },
+        {
+          "id": "a3e25",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ce n'est pas avec quelques coups qu'elle va avouer. Faites-la plutôt bouillir.",
+          "ton": "embêté"
+        },
+        {
+          "id": "a3e26",
+          "type": "conteur",
+          "texte": "Alors la statue se retrouva dans une grande marmite d'eau bouillante. Bientôt, l'eau se mit à bouillonner à gros bouillons, et fit :"
+        },
+        {
+          "id": "a3e27",
+          "type": "conteur",
+          "texte": "« Kutta, kutta, kutta ! » (ce qui sonne comme « j'ai mangé, j'ai mangé, j'ai mangé ! »)."
+        },
+        {
+          "id": "a3e28",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Et maintenant, répétez le bruit de l’eau : « Kutta, kutta, kutta ! »",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e29",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Vous voyez, maître ! Elle a fini par avouer !",
+          "ton": "très fier de lui"
+        },
+        {
+          "id": "a3e30",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e31",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "ja-bonze-et-novice",
+    "synopsis": {
+      "accroche": "{{r1}} retourne contre {{r2}} une fausse menace de poison et les bruits d’une statue.",
+      "resume": [
+        "{{r2}} cache le sirop sous l’autel en le présentant comme un poison mortel.",
+        "{{r1}} vide le pot ; le bol se retrouve cassé et une agonie est feinte.",
+        "{{r3}} apporte des boulettes ; {{r1}} les mange et la statue se retrouve tachée de pâte sucrée.",
+        "Deux « Kwan » semblent nier ; dans l’eau bouillante, « Kutta » semble avouer."
+      ]
+    },
+    "transposition": {
+      "texte": "Il y avait un bonze terriblement avare, {{r2}}. Quand on lui offrait quelque chose, il le mangeait toujours tout seul, et n'en donnait jamais rien à {{r1}}, son petit novice. {{r1}} en était vexé, et pensait qu'un jour, il profiterait d'un moment pour confisquer à {{r2}} quelque chose de bon.\n\nUn jour, {{r2}} reçut d'un fidèle un sirop de sucre délicieux. Le sirop resta dans un pot, caché discrètement sous l'autel, et {{r2}} le léchait tout seul en secret.\n\nOr, un jour, {{r2}} dut sortir pour une affaire. En partant, il donna ses ordres à {{r1}} :\n\n— Dans le pot, sous l'autel, il y a quelque chose de précieux. On dirait du sirop, mais en réalité c'est un poison terrible : il suffit d'en lécher une seule bouchée pour tomber raide. Si tu tiens à la vie, n'y touche surtout pas.\n\nEt il sortit.\n\nDès que {{r2}} fut parti, le pot fut découvert et {{r1}} lécha tout le sirop jusqu'au bout. Ensuite, le précieux bol à thé de {{r2}} fut cassé exprès en deux par {{r1}}. {{r1}} s'enfouit sous sa couverture et fit semblant d'être à l'agonie en gémissant « hou, hou ».\n\nLe soir, quand {{r2}} rentra, il faisait tout noir à l'intérieur, et aucune lampe n'était allumée. {{r2}} se fâcha :\n\n— Hé, {{r1}}, que fais-tu ?\n\nAlors {{r1}}, de sous sa couverture, d'une toute petite voix d'insecte, dit :\n\n— Maître, pardonnez-moi. Je vais mourir. Je ne peux plus être sauvé. Quand je serai mort, ayez pitié, et récitez au moins une prière pour moi.\n\n{{r2}} fut stupéfait qu'on lui dise tout à coup une chose aussi étrange.\n\n— {{r1}}, {{r1}}, que t'arrive-t-il donc ?\n\n— Aujourd'hui, pendant le lavage de votre précieux bol à thé, le chat m'a sauté dessus pour jouer et le bol est tombé, puis s'est cassé. Alors j'ai pensé que je n'avais plus qu'à mourir pour m'excuser, et j'ai tout mangé du pot de poison. Le poison est déjà passé dans tout mon corps, je vais bientôt mourir. S'il vous plaît, pardonnez-moi, et récitez juste une prière. Aïe, que j'ai mal ! Aïe, que j'ai mal !\n\nEt il pleurait à gros sanglots.\n\nUn jour, {{r2}} fut invité à une cérémonie, et {{r1}} gardait seul le temple. Il récitait les prières en somnolant quand, à l'entrée, quelqu'un appela :\n\n— Il y a quelqu'un ?\n\n{{r1}} vint à l'entrée, encore ensommeillé : c'était {{r3}}, la vieille voisine, avec un gros paquet enveloppé dans un foulard.\n\n— C'est la fête de l'équinoxe : s'il vous plaît, donnez ceci à {{r2}}.\n\nEt {{r3}} le laissa là. Du paquet montaient une vapeur bien chaude et une odeur délicieuse.\n\n— Ah ah, c'est des boulettes de riz qu'elle a préparées pour la fête. Si je les donne telles quelles à {{r2}}, comme il est avare et gourmand, il va tout manger tout seul et ne m'en donnera pas une seule, c'est sûr. Bon, bon, ça tombe bien : je vais les manger pour me réveiller.\n\nEn se parlant ainsi à lui-même, {{r1}} vit sous le foulard une grande boîte laquée pleine de délicieuses boulettes. {{r1}}, tout joyeux, se mit à les engloutir : encore une, encore une, et à force d'en manger, il finit par vider toute la boîte. Quand il eut fini, il s'aperçut soudain :\n\n— Oh, zut ! Qu'est-ce que je vais faire quand {{r2}} va rentrer ?\n\n{{r1}} était prêt à pleurer. Mais tout à coup, il eut une idée et courut à la grande salle du temple. Là, la pâte de haricots sucrée restée sur les bords de la boîte se retrouva, par sa farce, en abondance tout autour de la bouche de la grande statue dorée. La boîte resta devant la statue ; {{r1}} retourna dans sa chambre et se remit à réciter ses prières comme si de rien n'était.\n\nUn moment après, {{r2}} rentra et demanda à {{r1}} :\n\n— Personne n'est venu pendant mon absence ?\n\n— {{r3}} a apporté une boîte. Elle a dit : c'est la fête de l'équinoxe, donnez-la à {{r2}}.\n\n— Et où est cette boîte ?\n\n— Je l'ai offerte devant la statue, dans la grande salle.\n\n— Hmm, voilà qui est bien pensé. Voyons, voyons.\n\n{{r2}} alla dans la grande salle : en effet, la boîte était posée respectueusement devant la statue ; elle était complètement vide.\n\n— Hé, {{r1}} ! C'est toi qui l'as mangée !\n\ncria {{r2}} d'une voix forte. Alors {{r1}} arriva tranquillement, l'air de rien :\n\n— Hein ? Pas du tout, comment pouvez-vous dire ça ?\n\nEt en regardant partout autour de lui :\n\n— Ah, j'ai compris ! C'est la statue dorée qui l'a mangée. Regardez : elle a plein de pâte de haricots autour de la bouche.\n\n{{r2}} regarda et dit :\n\n— C'est vrai qu'elle a de la pâte de haricots. Voilà une statue bien mal élevée !\n\n{{r2}} se mit en colère : la tête de la statue reçut un coup de chasse-mouches. Alors la statue dorée résonna : « Kwan, kwan ! » (ce qui sonne comme « j'ai pas mangé, j'ai pas mangé ! »).\n\n— Comment ça, tu n'as pas mangé ?\n\nLa colère de {{r2}} redoubla : la statue reçut deux nouveaux coups et résonna encore : « Kwan, kwan ! »\n\nAlors {{r2}} se retourna vers {{r1}} :\n\n— Tu vois bien, la statue a beau être frappée, elle dit toujours « j'ai pas mangé, j'ai pas mangé ». C'est donc forcément toi qui l'as mangée.\n\nAlors {{r1}}, l'air embêté, dit :\n\n— Ce n'est pas avec quelques coups qu'elle va avouer. Faites-la plutôt bouillir.\n\nAlors la statue se retrouva dans une grande marmite d'eau bouillante. Bientôt, l'eau se mit à bouillonner à gros bouillons, et fit :\n\n« Kutta, kutta, kutta ! » (ce qui sonne comme « j'ai mangé, j'ai mangé, j'ai mangé ! »).\n\n— Vous voyez, maître ! Elle a fini par avouer !\n\ndit {{r1}}, très fier de lui.\n"
+    }
+  },
+  "dureeEstimeeSecondes": 579,
+  "interactionsOrdonnees": [
+    "a3e19",
+    "a3e28",
+    "a1e7",
+    "a2e13",
+    "a3e22",
+    "a1e11",
+    "a2e5",
+    "a2e10"
+  ]
+}

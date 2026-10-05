@@ -1,0 +1,23 @@
+{
+  "id": "ja-vieux-qui-faisait-fleurir",
+  "langue": [
+    {"avant": "Qu'y a-t-il ? Qu'y a-t-il ?", "apres": "Qu'est-ce qu'il y a ? Qu'est-ce qu'il y a ?", "nature": "parler", "jusqua": 4}
+  ],
+  "moments": [
+    {
+      "id": "shiro-frappe",
+      "type": "mort-gentil",
+      "pourquoi": "La mort de Shiro est le sens du conte (ADAPTATION.md, « Trois idées », 3) : sa tombe donne le pin, le pin le mortier, le mortier les cendres qui font fleurir les arbres. Un Shiro qui en réchappe retournerait le conte. Aucun niveau ne le sauve ; jusqu'à 8 ans, sa mort est gardée sans détail, et c'est l'âge minimum de la fiche qu'il faudrait relever.",
+      "niveaux": [
+        {
+          "jusqua": 8,
+          "annonce": "Le vieux avide frappe Shiro, qui ne se relève pas : Shiro meurt comme dans le conte, mais on ne l'entend ni étouffer au bout de sa corde, ni crier sous le coup.",
+          "retouches": [
+            {"avant": "Shiro, qui étouffait, grattait la terre n'importe où.", "apres": "Shiro grattait la terre n'importe où."},
+            {"avant": "il frappa le pauvre Shiro, qui poussa un cri, « Kaïn ! », et ne se releva pas.", "apres": "il frappa le pauvre Shiro, qui ne se releva pas."}
+          ]
+        }
+      ]
+    }
+  ]
+}

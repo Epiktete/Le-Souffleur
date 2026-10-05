@@ -1,0 +1,11 @@
+{
+  "id": "fr-fontaine-rat-huitre",
+  "langue": [
+    {"avant": "Des lares paternels un jour se trouva soûl", "apres": "De la maison de ses parents un jour fut fatigué", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "Se sent pris comme aux lacs", "apres": "Se sent pris comme au piège", "nature": "faux-ami"},
+    {"avant": "où Téthys sur la rive", "apres": "où la mer sur la rive", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "D’un certain magister le rat tenait ces choses", "apres": "D’un certain maître d’école le rat tenait ces choses", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "Je dois faire aujourd’hui bonne chère, ou jamais", "apres": "Je dois faire aujourd’hui un bon repas, ou jamais", "nature": "mot-rare", "jusqua": 6}
+  ],
+  "moments": []
+}

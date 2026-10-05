@@ -1,0 +1,889 @@
+{
+  "id": "afr-tortue-et-elephant--1",
+  "conteId": "afr-tortue-et-elephant",
+  "titre": "La Tortue et l’Éléphant",
+  "pitch": "{{r1}} paraît sauter par-dessus {{r2}} deux fois, puis l’emporte à la course grâce à {{r3}} et à sa famille cachée le long du chemin.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "tortue",
+      "famille": "eau",
+      "traits": [
+        "rusée",
+        "vive",
+        "vantarde"
+      ],
+      "voix": "voix claire et rapide, dit « Hop ! » sans trembler",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a1e16:texte",
+            "avant": "si petite",
+            "apres": "si petit"
+          },
+          {
+            "id": "a1e19:texte",
+            "avant": "suis fatiguée",
+            "apres": "suis fatigué"
+          },
+          {
+            "id": "a1e22:texte",
+            "avant": "une menteuse",
+            "apres": "un menteur"
+          },
+          {
+            "id": "a2e29:texte",
+            "avant": "où elle dit",
+            "apres": "où il dit"
+          },
+          {
+            "id": "a3e2:texte",
+            "avant": "elle les cacha",
+            "apres": "il les cacha"
+          },
+          {
+            "id": "a3e2:texte",
+            "avant": "Elle leur dit",
+            "apres": "Il leur dit"
+          },
+          {
+            "id": "a3e29:texte",
+            "avant": "mon amie",
+            "apres": "mon ami"
+          },
+          {
+            "id": "a2e2:texte",
+            "avant": "Elle",
+            "apres": "Il"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r2",
+      "espece": "elephant",
+      "famille": "gros",
+      "traits": [
+        "orgueilleux",
+        "vantard",
+        "naïf"
+      ],
+      "voix": "voix grave et sonore, ralentit pendant la course",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e4:texte",
+            "avant": "est grand",
+            "apres": "est grande"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "seul grand",
+            "apres": "seule grande"
+          },
+          {
+            "id": "a1e7:texte",
+            "avant": "pas vu",
+            "apres": "pas vue"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "es grand",
+            "apres": "es grande"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "le bienvenu",
+            "apres": "la bienvenue"
+          },
+          {
+            "id": "a2e9:texte",
+            "avant": "suis venu",
+            "apres": "suis venue"
+          },
+          {
+            "id": "a2e21:texte",
+            "avant": "Il trouva",
+            "apres": "Elle trouva"
+          },
+          {
+            "id": "a2e32:texte",
+            "avant": "il voit",
+            "apres": "elle voit"
+          },
+          {
+            "id": "a3e15:texte",
+            "avant": "Il trouva",
+            "apres": "Elle trouva"
+          },
+          {
+            "id": "a3e15:texte",
+            "avant": "qu’il avait couru",
+            "apres": "qu’elle avait couru"
+          },
+          {
+            "id": "a3e21:texte",
+            "avant": "il entendit",
+            "apres": "elle entendit"
+          },
+          {
+            "id": "a3e28:texte",
+            "avant": "Il reprit",
+            "apres": "Elle reprit"
+          },
+          {
+            "id": "a3e28:texte",
+            "avant": "il court, il court, il court",
+            "apres": "elle court, elle court, elle court"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "Es-tu venu",
+            "apres": "Es-tu venue"
+          },
+          {
+            "id": "a3e4:texte",
+            "avant": "avec lui",
+            "apres": "avec elle"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a3e35:texte",
+          "avant": "de l’éléphant",
+          "gabarit": "{du} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r3",
+      "espece": "tortue",
+      "famille": "eau",
+      "traits": [
+        "rusée",
+        "solidaire"
+      ],
+      "voix": "voix proche de celle de {{r1}}, lance « Hé ! » et « Ici ! » clairement",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a2e2:texte",
+            "avant": "sa femme",
+            "apres": "son mari"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "sa femme",
+            "apres": "son mari"
+          },
+          {
+            "id": "a2e22:texte",
+            "avant": "reconnue",
+            "apres": "reconnu"
+          },
+          {
+            "id": "a2e24:texte",
+            "avant": "la femme de",
+            "apres": "le mari de"
+          },
+          {
+            "id": "a2e2:texte",
+            "avant": "la cacha",
+            "apres": "le cacha"
+          }
+        ]
+      },
+      "especeImposee": true
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 6,
+    "ageAuditoire": 7,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "Le chemin du pari",
+      "description": "Un torchon posé avant le jeu représente le chemin. Deux coussins éloignés figurent les deux côtés de la brousse ; ils resteront en place jusqu’à la fin.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "Les deux cachettes",
+      "description": "Les deux coussins ne bougent pas. Le coussin gauche cache {{r1}} ; celui de droite cache {{r3}}. Une peluche disparaît derrière son coussin avant que l’autre entre.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t3",
+      "titre": "La route de la course",
+      "description": "Le même torchon reste déployé entre les deux coussins fixes. {{r3}} paraît tour à tour devant {{r2}} depuis les deux cachettes ; aucune peluche ne se change en une autre.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Le pari",
+      "resume": "{{r1}} promet de sauter par-dessus {{r2}}, qui n’y croit pas. Le rendez-vous est pris pour le lendemain.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e2",
+          "type": "conteur",
+          "texte": "{{r1}} rencontra {{r2}} en route et lui dit :"
+        },
+        {
+          "id": "a1e3",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e4",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Levez les yeux pour voir comme {{r2}} est grand !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e5",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Toi, {{r2}}, tu dis :"
+        },
+        {
+          "id": "a1e6",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je suis seul grand ?"
+        },
+        {
+          "id": "a1e7",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Oui ; ne m’as-tu pas vu ?"
+        },
+        {
+          "id": "a1e8",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ainsi tu es grand ?"
+        },
+        {
+          "id": "a1e9",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Oui, pourquoi ?"
+        },
+        {
+          "id": "a1e10",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tu vois ta tête ?"
+        },
+        {
+          "id": "a1e11",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Comment ?"
+        },
+        {
+          "id": "a1e12",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Si je saute, je saute par dessus toi."
+        },
+        {
+          "id": "a1e13",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites un petit « hop ! » avec moi.",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e14",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Toi !"
+        },
+        {
+          "id": "a1e15",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oui, moi."
+        },
+        {
+          "id": "a1e16",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Toi, si petite !"
+        },
+        {
+          "id": "a1e17",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oui."
+        },
+        {
+          "id": "a1e18",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Allons, nous pourrions nous étonner : tu ne peux pas."
+        },
+        {
+          "id": "a1e19",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Non, je suis fatiguée aujourd’hui, car je viens de loin."
+        },
+        {
+          "id": "a1e20",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Étonne-toi donc de ta fanfaronnade !"
+        },
+        {
+          "id": "a1e21",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tu penses que j’exagère ?"
+        },
+        {
+          "id": "a1e22",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Oui, tu es une menteuse : tu cherches le moyen de t’en tirer."
+        },
+        {
+          "id": "a1e23",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Viens donc ; viens demain ici, tu t’étonneras de voir comme je saute."
+        },
+        {
+          "id": "a1e24",
+          "type": "conteur",
+          "texte": "{{r2}} s’en alla."
+        },
+        {
+          "id": "a1e25",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e26",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Les deux faux sauts",
+      "resume": "{{r3}} se cache de l’autre côté du chemin. {{r2}} croit voir {{r1}} réussir deux sauts et lui propose une course.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e2",
+          "type": "conteur",
+          "texte": "{{r1}} courut chercher sa femme {{r3}}. Elle la cacha dans la brousse près du chemin."
+        },
+        {
+          "id": "a2e3",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e4",
+          "type": "didascalie",
+          "texte": "{{r3}} passe derrière le coussin de droite et disparaît."
+        },
+        {
+          "id": "a2e5",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e6",
+          "type": "conteur",
+          "texte": "Quand le jour fut clair, {{r2}} arriva. {{r2}} fut le bienvenu : voilà {{r1}}."
+        },
+        {
+          "id": "a2e7",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e8",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Es-tu venu, {{r2}} ?"
+        },
+        {
+          "id": "a2e9",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Oui, je suis venu ; je me suis dit : Je veux m’étonner de voir courir {{r1}}."
+        },
+        {
+          "id": "a2e10",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Viens, tiens-toi ici."
+        },
+        {
+          "id": "a2e11",
+          "type": "conteur",
+          "texte": "Alors {{r2}} était au milieu : {{r1}} ici, sa femme {{r3}} là-bas ; {{r2}} entre les deux cachettes."
+        },
+        {
+          "id": "a2e12",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Montrez le coussin de l’autre côté du chemin.",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e13",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Allons, saute, {{r1}} !"
+        },
+        {
+          "id": "a2e14",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Hop !"
+        },
+        {
+          "id": "a2e15",
+          "type": "didascalie",
+          "texte": "{{r1}} penche tout son corps, comme pour s’élancer, puis disparaît derrière le coussin de gauche."
+        },
+        {
+          "id": "a2e16",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e17",
+          "type": "didascalie",
+          "texte": "{{r2}} se tourne vers le coussin de droite. Un temps de silence laisse changer la peluche."
+        },
+        {
+          "id": "a2e18",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e19",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Hé !"
+        },
+        {
+          "id": "a2e20",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je vais voir."
+        },
+        {
+          "id": "a2e21",
+          "type": "conteur",
+          "texte": "Il trouva effectivement {{r3}}."
+        },
+        {
+          "id": "a2e22",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Diable ! c’est si rapide ! Recommence, car je ne t’ai pas bien reconnue."
+        },
+        {
+          "id": "a2e23",
+          "type": "adresse_public",
+          "marionnetteId": "r3",
+          "texte": "Faites un petit « hop ! » avec moi.",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e24",
+          "type": "conteur",
+          "texte": "Alors {{r3}}, la femme de {{r1}}, dit :"
+        },
+        {
+          "id": "a2e25",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Hop !"
+        },
+        {
+          "id": "a2e26",
+          "type": "didascalie",
+          "texte": "{{r3}} penche tout son corps, puis disparaît derrière le coussin de droite."
+        },
+        {
+          "id": "a2e27",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e28",
+          "type": "didascalie",
+          "texte": "{{r2}} se tourne vers le coussin de gauche. Un temps de silence laisse changer la peluche."
+        },
+        {
+          "id": "a2e29",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je vais regarder rapidement où elle dit : Hé !"
+        },
+        {
+          "id": "a2e30",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e31",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Hé !"
+        },
+        {
+          "id": "a2e32",
+          "type": "conteur",
+          "texte": "Alors il voit {{r1}}."
+        },
+        {
+          "id": "a2e33",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Non, je crois maintenant que cette fois, tu as passé par dessus moi. Mais à la course, je te vaincrai sûrement."
+        },
+        {
+          "id": "a2e34",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je ne sais pas ; peut-être ; je pourrai toujours essayer."
+        },
+        {
+          "id": "a2e35",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Allons donc."
+        },
+        {
+          "id": "a2e36",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Pas aujourd’hui, j’ai les jambes fatiguées de sauter. Mais viens demain."
+        },
+        {
+          "id": "a2e37",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Très bien."
+        },
+        {
+          "id": "a2e38",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Viens de bonne heure, car nous aurons une course à faire."
+        },
+        {
+          "id": "a2e39",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e40",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "La course et les voix",
+      "resume": "La famille attend le long du chemin. {{r3}} répond « Ici ! » deux fois devant {{r2}}, qui perd la course.",
+      "tableauId": "t3",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e2",
+          "type": "conteur",
+          "texte": "Alors, pendant la nuit, {{r1}} rassembla tous ses enfants, ses cousines et cousins et les proches de la famille ; elle les cacha successivement près du chemin. Elle leur dit :"
+        },
+        {
+          "id": "a3e3",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e4",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Voyez : quand vous verrez arriver {{r2}}, faites semblant de courir sur la route comme si vous luttiez à la course avec lui."
+        },
+        {
+          "id": "a3e5",
+          "type": "adresse_public",
+          "marionnetteId": "r3",
+          "texte": "Faites deux petits pas comme la famille sur la route.",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e6",
+          "type": "didascalie",
+          "texte": "{{r3}} disparaît derrière le coussin de droite ; {{r1}} reste au départ de la route."
+        },
+        {
+          "id": "a3e7",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e8",
+          "type": "conteur",
+          "texte": "Le lendemain, au lever du jour, {{r2}} apparut et dit :"
+        },
+        {
+          "id": "a3e9",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e10",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "{{r1}} !"
+        },
+        {
+          "id": "a3e11",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Me voici."
+        },
+        {
+          "id": "a3e12",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Es-tu là ?"
+        },
+        {
+          "id": "a3e13",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oui."
+        },
+        {
+          "id": "a3e14",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Viens, nous allons courir."
+        },
+        {
+          "id": "a3e15",
+          "type": "conteur",
+          "texte": "Alors {{r2}} s’élance dans sa course. Il trouva qu’il avait couru pendant une certaine distance et pensa :"
+        },
+        {
+          "id": "a3e16",
+          "type": "didascalie",
+          "texte": "{{r2}} avance sur la route en se balançant de plus en plus vite."
+        },
+        {
+          "id": "a3e17",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je voudrais voir si j’ai laissé {{r1}} en arrière."
+        },
+        {
+          "id": "a3e18",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e19",
+          "type": "didascalie",
+          "texte": "{{r2}} s’arrête et regarde vers le coussin de droite. Un temps de silence laisse changer la peluche."
+        },
+        {
+          "id": "a3e20",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "{{r1}} !"
+        },
+        {
+          "id": "a3e21",
+          "type": "conteur",
+          "texte": "À son effroi, il entendit :"
+        },
+        {
+          "id": "a3e22",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e23",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Ici !"
+        },
+        {
+          "id": "a3e24",
+          "type": "conteur",
+          "texte": "{{r3}} était en avant."
+        },
+        {
+          "id": "a3e25",
+          "type": "adresse_public",
+          "marionnetteId": "r3",
+          "texte": "Répétez « Ici ! » tout bas avec moi.",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e26",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e27",
+          "type": "didascalie",
+          "texte": "{{r2}} s’arrête, écoute et regarde vers le coussin de gauche. Un temps de silence laisse changer la peluche."
+        },
+        {
+          "id": "a3e28",
+          "type": "conteur",
+          "texte": "Il reprit de nouveau son élan ; il court, il court, il court."
+        },
+        {
+          "id": "a3e29",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je vais voir où cette fois j’ai laissé mon amie."
+        },
+        {
+          "id": "a3e30",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Faites « boum, boum » pour ma course.",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e31",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "{{r1}} ?"
+        },
+        {
+          "id": "a3e32",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e33",
+          "type": "conteur",
+          "texte": "On lui répondit en avant, toujours de la même façon :"
+        },
+        {
+          "id": "a3e34",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Ici !"
+        },
+        {
+          "id": "a3e35",
+          "type": "conteur",
+          "texte": "Ainsi arriva-t-il au détriment de l’éléphant."
+        },
+        {
+          "id": "a3e36",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e37",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "afr-tortue-et-elephant",
+    "synopsis": {
+      "accroche": "Une petite tortue défie un éléphant au saut et à la course.",
+      "resume": [
+        "{{r1}} promet de sauter par-dessus {{r2}} et place {{r3}} de l’autre côté du chemin.",
+        "{{r2}} croit voir deux sauts, puis court contre une famille de sosies.",
+        "À chaque appel, une voix répond devant lui."
+      ]
+    },
+    "transposition": {
+      "texte": "LA TORTUE ET l’ÉLÉPHANT\n\n{{r1}} rencontra {{r2}} en route et lui dit :\n\n— Toi, {{r2}}, tu dis :\n\n— Je suis seul grand ?\n\n— Oui, répondit-il ; ne m’as-tu pas vu ?\n\n— Ainsi tu es grand ?\n\n— Oui, pourquoi ?\n\n— Tu vois ta tête ?\n\n— Comment ?\n\n— Si je saute, je saute par dessus toi.\n\n— Toi !\n\n— Oui, moi.\n\n— Toi, si petite !\n\n— Oui.\n\n— Allons, nous pourrions nous étonner : tu ne peux pas.\n\n— Non, je suis fatiguée aujourd’hui, car je viens de loin.\n\n— Étonne-toi donc de ta fanfaronnade !\n\n— Tu penses que j’exagère ?\n\n— Oui, tu es une menteuse : tu cherches le moyen de t’en tirer.\n\n— Viens donc ; viens demain ici, tu t’étonneras de voir comme je saute.\n\n{{r2}} s’en alla.\n\n{{r1}} courut chercher sa femme {{r3}}. Elle la cacha dans la brousse près du chemin. Quand le jour fut clair, {{r2}} arriva. {{r2}} fut le bienvenu : voilà {{r1}}.\n\n— Es-tu venu, {{r2}} ?\n\n— Oui. je suis venu ; je me suis dit : Je veux m’étonner de voir courir {{r1}}.\n\n— Viens, tiens-toi ici.\n\nAlors {{r2}} était au milieu : {{r1}} ici, sa femme {{r3}} là-bas ; {{r2}} entre les deux cachettes.\n\n— Allons, saute, {{r1}} !\n\n— Hop ! fait-elle de ce côté, et elle feint de s’élancer.\n\n— Hé ! dit sa femme de l’autre côté.\n\n{{r2}} pense :\n\n— Je vais voir.\n\nIl trouva effectivement {{r3}}.\n\n— Diable ! c’est si rapide ! Recommence, car je ne t’ai pas bien reconnue.\n\nAlors {{r3}}, la femme de {{r1}}, dit :\n\n— Hop !\n\n{{r2}} pense :\n\n— Je vais regarder rapidement où elle dit : Hé !\n\nAlors il voit {{r1}}.\n\n— Non, dit-il, je crois maintenant que cette fois, tu as passé par dessus moi. Mais à la course, je te vaincrai sûrement.\n\n— Je ne sais pas, dit {{r1}} ; peut-être ; je pourrai toujours essayer.\n\n— Allons donc.\n\n— Pas aujourd’hui, j’ai les jambes fatiguées de sauter. Mais viens demain.\n\n— Très bien.\n\n— Viens de bonne heure, car nous aurons une course à faire.\n\nAlors, pendant la nuit, {{r1}} rassembla tous ses enfants, ses cousines et cousins et les proches de la famille ; elle les cacha successivement près du chemin. Elle leur dit :\n\n— Voyez : quand vous verrez arriver {{r2}}, faites semblant de courir sur la route comme si vous luttiez à la course avec lui.\n\nLe lendemain, au lever du jour, {{r2}} apparut et dit :\n\n— {{r1}} !\n\n— Me voici, dit-elle.\n\n— Es-tu là ?\n\n— Oui.\n\n— Viens, nous allons courir.\n\nAlors {{r2}} s’élance dans sa course. Il trouva qu’il avait couru pendant une certaine distance et pensa : Je voudrais voir si j’ai laissé {{r1}} en arrière. Il appela :\n\n— {{r1}} !\n\nÀ son effroi, il entendit :\n\n— Ici ; et {{r3}} était en avant. Il reprit de nouveau son élan ; il court, il court, il court. Il pense alors : Je vais voir où cette fois j’ai laissé mon amie.\n\n— {{r1}} ? dit-il.\n\nOn lui répondit en avant, toujours de la même façon :\n\n— Ici !\n\nAinsi arriva-t-il au détriment de l’éléphant.\n"
+    }
+  },
+  "dureeEstimeeSecondes": 307,
+  "interactionsOrdonnees": [
+    "a3e25",
+    "a2e12",
+    "a1e13",
+    "a2e23",
+    "a3e30",
+    "a3e5",
+    "a1e4"
+  ]
+}

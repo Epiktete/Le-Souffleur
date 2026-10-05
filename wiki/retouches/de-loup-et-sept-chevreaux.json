@@ -1,0 +1,36 @@
+{
+  "id": "de-loup-et-sept-chevreaux",
+  "langue": [
+    {"avant": "se pourrait-il que mes pauvres enfants, qu'il a avalés pour son dîner, soient encore en vie ?", "apres": "et si mes pauvres enfants, qu'il a avalés pour son dîner, étaient encore en vie ?", "nature": "parler", "jusqua": 4},
+    {"avant": "l'horloge, il ne le trouva pas", "apres": "l'horloge, le loup ne le trouva pas", "nature": "pronom", "jusqua": 4}
+  ],
+  "moments": [
+    {
+      "id": "avales-puis-delivres",
+      "type": "devoration-delivree",
+      "niveaux": [
+        {
+          "jusqua": 6,
+          "annonce": "La vieille chèvre ne s'arrête pas à pleurer : dès que le plus jeune chevreau lui a tout raconté, elle court au pré délivrer ses petits.",
+          "retouches": [
+            {"avant": "il lui raconta que le loup était venu et avait mangé tous les autres. Vous pensez comme elle a pleuré ses pauvres enfants !", "apres": "il lui raconta que le loup était venu et avait avalé tous les autres."},
+            {"avant": "Enfin, dans son chagrin, elle sortit,", "apres": "Elle sortit aussitôt,"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "le-loup-au-puits",
+      "type": "punition",
+      "niveaux": [
+        {
+          "jusqua": 4,
+          "annonce": "Le loup ne se noie pas : il tombe dans le puits, en ressort tout trempé et s'enfuit pour toujours.",
+          "retouches": [
+            {"avant": "les lourdes pierres l'entraînèrent au fond, et il se noya. Quand les sept chevreaux virent cela, ils accoururent en criant : « Le loup est mort ! Le loup est mort ! »", "apres": "les lourdes pierres le firent basculer, et il tomba dans l'eau glacée du puits. Il en ressortit à grand-peine, tout trempé, et s'enfuit si loin qu'on ne le revit jamais. Quand les sept chevreaux virent cela, ils accoururent en criant : « Le loup est parti ! Le loup est parti ! »"}
+          ]
+        }
+      ]
+    }
+  ]
+}

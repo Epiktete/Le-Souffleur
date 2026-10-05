@@ -1,0 +1,16 @@
+{
+  // Vérification du banc d'essai, à part de celle de l'application.
+  //
+  // Le banc appelle le code de production : sans cette vérification, un appel
+  // resté à l'ancienne liste d'arguments passe inaperçu jusqu'à la génération
+  // réelle — ce qui est arrivé, et a coûté quatre minutes et deux appels.
+  //
+  // Il lui faut les types Node (process, node:fs), que l'application ne doit
+  // surtout pas avoir : elle tourne dans un navigateur, sans serveur.
+  "extends": "./tsconfig.app.json",
+  "compilerOptions": {
+    "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.banc.tsbuildinfo",
+    "types": ["node", "vite/client"]
+  },
+  "include": ["banc/**/*.ts", "src/**/*.ts"]
+}

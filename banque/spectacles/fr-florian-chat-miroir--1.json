@@ -1,0 +1,388 @@
+{
+  "id": "fr-florian-chat-miroir--1",
+  "conteId": "fr-florian-chat-miroir",
+  "titre": "Le Chat et le Miroir",
+  "pitch": "{{r1}}, un chat curieux, croit voir un autre chat dans un miroir. Après plusieurs essais et une chute, il laisse ce mystère et retourne aux souris.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "chat",
+      "famille": "predateur",
+      "traits": [
+        "curieux",
+        "obstiné",
+        "maladroit"
+      ],
+      "voix": "voix claire et vive, qui se calme après la chute",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "il laisse",
+            "apres": "elle laisse"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "Il renonce",
+            "apres": "Elle renonce"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "Il y saute",
+            "apres": "Elle y saute"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "Un de ses frères",
+            "apres": "Une de ses sœurs"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "qui le guette",
+            "apres": "qui la guette"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "le joindre",
+            "apres": "la joindre"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "il se trouve arrêté",
+            "apres": "elle se trouve arrêtée"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "Surpris, il juge",
+            "apres": "Surprise, elle juge"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "Il réfléchit",
+            "apres": "Elle réfléchit"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "qu’il fait le tour",
+            "apres": "qu’elle fait le tour"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "il se met",
+            "apres": "elle se met"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "Qu’il puisse partout le saisir",
+            "apres": "Qu’elle puisse partout la saisir"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "le tenir",
+            "apres": "la tenir"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "il incline",
+            "apres": "elle incline"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "il va jetant",
+            "apres": "elle va jetant"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "qu’il tient",
+            "apres": "qu’elle tient"
+          },
+          {
+            "id": "a2e7:texte",
+            "avant": "il perd",
+            "apres": "elle perd"
+          },
+          {
+            "id": "a2e7:texte",
+            "avant": "il tombe",
+            "apres": "elle tombe"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "qu’il ne peut",
+            "apres": "qu’elle ne peut"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "Il laisse",
+            "apres": "Elle laisse"
+          },
+          {
+            "id": "a2e13:texte",
+            "avant": "dit-il",
+            "apres": "dit-elle"
+          },
+          {
+            "id": "a2e12:ton",
+            "avant": "derrière lui",
+            "apres": "derrière elle"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "l’animal",
+            "apres": "la bête"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "pitch",
+          "avant": "un chat curieux",
+          "gabarit": "{un} {espece} {curieux|curieuse}"
+        },
+        {
+          "id": "pitch",
+          "avant": "un autre chat",
+          "gabarit": "{un} autre {espece}"
+        },
+        {
+          "id": "a1e1:texte",
+          "avant": "du plus sage des chats",
+          "gabarit": "{du} plus sage des {especes}"
+        },
+        {
+          "id": "a1e1:texte",
+          "avant": "Ce chat",
+          "gabarit": "{Ce|Cette} {espece}"
+        },
+        {
+          "id": "a1e6:texte",
+          "avant": "Notre chat",
+          "gabarit": "Notre {espece}"
+        },
+        {
+          "id": "a1e9:texte",
+          "avant": "le chat",
+          "gabarit": "{le} {espece}"
+        },
+        {
+          "id": "a1:titre",
+          "avant": "Un autre chat",
+          "gabarit": "{Un} autre {espece}"
+        }
+      ]
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 3,
+    "ageAuditoire": 7,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La table et le cadre",
+      "description": "Posez un carton debout contre un coussin, sans surface réfléchissante : son ouverture figure le miroir. Gardez le carton immobile pendant que {{r1}} passe devant et derrière. Sans décor, désignez simplement un endroit fixe sur la table. Accompagnez les vers par les gestes indiqués, sans recommencer chaque mouvement après le récit.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Un autre chat dans le miroir ?",
+      "resume": "Le conteur s'adresse aux philosophes. {{r1}} aperçoit son image dans un miroir, tente de la rejoindre et revient bredouille de l'autre côté.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Philosophes hardis, qui passez votre vie\nÀ vouloir expliquer ce qu’on n’explique pas,\nDaignez écouter, je vous prie,\nCe trait du plus sage des chats.\nSur une table de toilette\nCe chat aperçut un miroir ;"
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e3",
+          "type": "didascalie",
+          "texte": "{{r1}} bondit vers le carton fixe, puis s'arrête devant son ouverture."
+        },
+        {
+          "id": "a1e4",
+          "type": "conteur",
+          "texte": "Il y saute, regarde, et d’abord pense voir\nUn de ses frères qui le guette."
+        },
+        {
+          "id": "a1e5",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Regardez devant le cadre avec moi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e6",
+          "type": "conteur",
+          "texte": "Notre chat veut le joindre, il se trouve arrêté."
+        },
+        {
+          "id": "a1e7",
+          "type": "didascalie",
+          "texte": "{{r1}} avance vers le cadre et s'immobilise tout près du bord."
+        },
+        {
+          "id": "a1e8",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Avancez, puis arrêtez-vous avec moi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e9",
+          "type": "conteur",
+          "texte": "Surpris, il juge alors la glace transparente,\nEt passe de l’autre côté,\nNe trouve rien, revient, et le chat se présente."
+        },
+        {
+          "id": "a1e10",
+          "type": "didascalie",
+          "texte": "{{r1}} passe derrière le carton, puis revient à sa place de départ."
+        },
+        {
+          "id": "a1e11",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Tournez-vous de l'autre côté avec moi !",
+          "attenteReponse": false
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Un mystère abandonné",
+      "resume": "{{r1}} essaie encore d'atteindre son image, tombe, puis laisse le miroir et retourne aux souris. Il renonce à percer ce mystère.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "Il réfléchit un peu : de peur que l’animal,\nTandis qu’il fait le tour, ne sorte,\nSur le haut du miroir il se met à cheval,\nUne patte par-ci, l’autre par-là, de sorte\nQu’il puisse partout le saisir."
+        },
+        {
+          "id": "a2e2",
+          "type": "didascalie",
+          "texte": "{{r1}} se balance au-dessus du bord du carton, d'un seul bloc, puis revient devant lui."
+        },
+        {
+          "id": "a2e3",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Regardez à gauche, puis à droite avec moi !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e4",
+          "type": "conteur",
+          "texte": "Alors, croyant bien le tenir,\nDoucement vers la glace il incline la tête,\nAperçoit une oreille, et puis deux… À l’instant,\nÀ droite, à gauche, il va jetant\nSa griffe qu’il tient toute prête."
+        },
+        {
+          "id": "a2e5",
+          "type": "didascalie",
+          "texte": "{{r1}} incline la tête, se penche à droite puis à gauche sans toucher le carton."
+        },
+        {
+          "id": "a2e6",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites deux petits bonds avec moi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e7",
+          "type": "conteur",
+          "texte": "Mais il perd l’équilibre, il tombe et n’a rien pris."
+        },
+        {
+          "id": "a2e8",
+          "type": "didascalie",
+          "texte": "{{r1}} bascule doucement derrière le coussin, puis remonte aussitôt."
+        },
+        {
+          "id": "a2e9",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites un petit boum avec moi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e10",
+          "type": "conteur",
+          "texte": "Alors, sans davantage attendre,\nSans chercher plus longtemps ce qu’il ne peut comprendre,\nIl laisse le miroir et retourne aux souris."
+        },
+        {
+          "id": "a2e11",
+          "type": "didascalie",
+          "texte": "{{r1}} tourne le dos au cadre et s'éloigne à petits bonds."
+        },
+        {
+          "id": "a2e12",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Que m’importe,",
+          "ton": "comme en laissant le mystère derrière lui"
+        },
+        {
+          "id": "a2e13",
+          "type": "conteur",
+          "texte": "dit-il,"
+        },
+        {
+          "id": "a2e14",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "de percer ce mystère ?\nUne chose que notre esprit,\nAprès un long travail, ne comprend ni ne saisit,\nNe nous est jamais nécessaire.",
+          "ton": "d'une voix tranquille"
+        },
+        {
+          "id": "a2e15",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "fr-florian-chat-miroir",
+    "synopsis": {
+      "accroche": "Un chat poursuit dans un miroir une image qui bouge avec lui.",
+      "resume": [
+        "Le poète invite les philosophes à écouter l'histoire du plus sage des chats.",
+        "{{r1}} croit voir un autre chat dans un miroir ; il passe derrière, revient et voit encore l'image.",
+        "Il essaie de l'atteindre des deux côtés, perd l'équilibre et tombe.",
+        "Il laisse ce mystère sans solution et retourne aux souris, jugeant inutile ce que son esprit ne peut comprendre."
+      ]
+    },
+    "transposition": {
+      "texte": "Philosophes hardis, qui passez votre vie\nÀ vouloir expliquer ce qu’on n’explique pas,\nDaignez écouter, je vous prie,\nCe trait du plus sage des chats.\nSur une table de toilette\nCe chat aperçut un miroir ;\nIl y saute, regarde, et d’abord pense voir\nUn de ses frères qui le guette.\nNotre chat veut le joindre, il se trouve arrêté.\nSurpris, il juge alors la glace transparente,\nEt passe de l’autre côté,\nNe trouve rien, revient, et le chat se présente.\nIl réfléchit un peu : de peur que l’animal,\nTandis qu’il fait le tour, ne sorte,\nSur le haut du miroir il se met à cheval,\nUne patte par-ci, l’autre par-là, de sorte\nQu’il puisse partout le saisir.\nAlors, croyant bien le tenir,\nDoucement vers la glace il incline la tête,\nAperçoit une oreille, et puis deux… À l’instant,\nÀ droite, à gauche, il va jetant\nSa griffe qu’il tient toute prête.\nMais il perd l’équilibre, il tombe et n’a rien pris.\nAlors, sans davantage attendre,\nSans chercher plus longtemps ce qu’il ne peut comprendre,\nIl laisse le miroir et retourne aux souris.\nQue m’importe, dit-il, de percer ce mystère ?\nUne chose que notre esprit,\nAprès un long travail, ne comprend ni ne saisit,\nNe nous est jamais nécessaire.",
+      "changements": [
+        "« n’entend ni ne saisit » devient « ne comprend ni ne saisit », seule retouche universelle.",
+        "Le reflet reste une image racontée, sans second personnage ni surface réfléchissante exigée."
+      ]
+    }
+  },
+  "dureeEstimeeSecondes": 200,
+  "interactionsOrdonnees": [
+    "a1e5",
+    "a1e8",
+    "a1e11",
+    "a2e3",
+    "a2e6",
+    "a2e9"
+  ]
+}

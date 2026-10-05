@@ -1,0 +1,1658 @@
+{
+  "id": "ja-bosse-enlevee--1",
+  "conteId": "ja-bosse-enlevee",
+  "titre": "La Bosse enlevée",
+  "pitch": "{{r1}} danse à la fête des ogres et perd sa bosse. Son voisin {{r3}} veut l’imiter, mais reçoit une seconde bosse.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "courageux",
+        "farceur",
+        "gentil"
+      ],
+      "voix": "voix grave et chaleureuse, commence parfois tout bas",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e2:texte",
+            "avant": "Il avait sur la joue",
+            "apres": "Elle avait sur la joue"
+          },
+          {
+            "id": "a1e2:texte",
+            "avant": "qui le gênait",
+            "apres": "qui la gênait"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "il ne put plus rentrer",
+            "apres": "elle ne put plus rentrer"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "chez lui",
+            "apres": "chez elle"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "il trouva le creux",
+            "apres": "elle trouva le creux"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "Il n’avait pas le choix",
+            "apres": "Elle n’avait pas le choix"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "il y entra",
+            "apres": "elle y entra"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "qu’il resta toute la nuit",
+            "apres": "qu’elle resta toute la nuit"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "tout recroquevillé",
+            "apres": "toute recroquevillée"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "se sentait si seul",
+            "apres": "se sentait si seule"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "Et il passa doucement",
+            "apres": "Et elle passa doucement"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "que vit-il ?",
+            "apres": "que vit-elle ?"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "terrifié",
+            "apres": "terrifiée"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "tout petit, tremblant",
+            "apres": "toute petite, tremblante"
+          },
+          {
+            "id": "a1e34:texte",
+            "avant": "un vieux très farceur",
+            "apres": "une vieille très farceuse"
+          },
+          {
+            "id": "a1e34:texte",
+            "avant": "tout recroquevillé",
+            "apres": "toute recroquevillée"
+          },
+          {
+            "id": "a1e34:texte",
+            "avant": "curieux de voir",
+            "apres": "curieuse de voir"
+          },
+          {
+            "id": "a1e34:texte",
+            "avant": "il finit par oublier",
+            "apres": "elle finit par oublier"
+          },
+          {
+            "id": "a1e34:texte",
+            "avant": "il se sentit tout joyeux",
+            "apres": "elle se sentit toute joyeuse"
+          },
+          {
+            "id": "a1e34:texte",
+            "avant": "il eut envie",
+            "apres": "elle eut envie"
+          },
+          {
+            "id": "a1e35:texte",
+            "avant": "il se retint",
+            "apres": "elle se retint"
+          },
+          {
+            "id": "a1e35:texte",
+            "avant": "s’il sortait sans réfléchir",
+            "apres": "si elle sortait sans réfléchir"
+          },
+          {
+            "id": "a1e35:texte",
+            "avant": "il risquait d’être croqué",
+            "apres": "elle risquait d’être croquée"
+          },
+          {
+            "id": "a1e35:texte",
+            "avant": "il n’y tint plus",
+            "apres": "elle n’y tint plus"
+          },
+          {
+            "id": "a2e2:texte",
+            "avant": "Il prit courage",
+            "apres": "Elle prit courage"
+          },
+          {
+            "id": "a2e23:texte",
+            "avant": "Vieux, reviens",
+            "apres": "Vieille, reviens"
+          },
+          {
+            "id": "a2e24:texte",
+            "avant": "tout fier",
+            "apres": "toute fière"
+          },
+          {
+            "id": "a2e25:ton",
+            "avant": "tout fier",
+            "apres": "toute fière"
+          },
+          {
+            "id": "a2e25:texte",
+            "avant": "je ne m’étais pas entraîné",
+            "apres": "je ne m’étais pas entraînée"
+          },
+          {
+            "id": "a2e30:texte",
+            "avant": "il dit ça",
+            "apres": "elle dit ça"
+          },
+          {
+            "id": "a2e30:texte",
+            "avant": "il pourrait bien ne pas venir",
+            "apres": "elle pourrait bien ne pas venir"
+          },
+          {
+            "id": "a2e30:texte",
+            "avant": "qu’il tienne sa promesse",
+            "apres": "qu’elle tienne sa promesse"
+          },
+          {
+            "id": "a2e50:texte",
+            "avant": "ce qu’il a de plus précieux",
+            "apres": "ce qu’elle a de plus précieux"
+          },
+          {
+            "id": "a2e52:texte",
+            "avant": "vraiment malheureux",
+            "apres": "vraiment malheureuse"
+          },
+          {
+            "id": "a2e54:texte",
+            "avant": "Il tient beaucoup",
+            "apres": "Elle tient beaucoup"
+          },
+          {
+            "id": "a2e71:texte",
+            "avant": "qui le gênait",
+            "apres": "qui la gênait"
+          },
+          {
+            "id": "a2e72:ton",
+            "avant": "soulagé",
+            "apres": "soulagée"
+          },
+          {
+            "id": "a3e2:texte",
+            "avant": "était si heureux",
+            "apres": "était si heureuse"
+          },
+          {
+            "id": "a3e2:texte",
+            "avant": "qu’il courut à la maison",
+            "apres": "qu’elle courut à la maison"
+          },
+          {
+            "id": "a3e13:texte",
+            "avant": "Voisin, voisin",
+            "apres": "Voisine, voisine"
+          },
+          {
+            "id": "a3e20:texte",
+            "avant": "Voisin, dites-moi",
+            "apres": "Voisine, dites-moi"
+          },
+          {
+            "id": "a4e4:texte",
+            "avant": "Le vieux d’hier",
+            "apres": "La vieille d’hier"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "de bûcheron",
+            "apres": "de bûcheronne"
+          },
+          {
+            "id": "a4e4:texte",
+            "avant": "encore arrivé",
+            "apres": "encore arrivée"
+          },
+          {
+            "id": "a1e34:texte",
+            "avant": "lui aussi",
+            "apres": "elle aussi"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a1e2:texte",
+          "avant": "un homme âgé",
+          "gabarit": "{un} {espece} {âgé|âgée}"
+        },
+        {
+          "id": "a2e11:texte",
+          "avant": "un homme âgé",
+          "gabarit": "{un} {espece} {âgé|âgée}"
+        }
+      ]
+    },
+    {
+      "cle": "r2",
+      "espece": "ogre",
+      "famille": "monstre",
+      "traits": [
+        "farceur",
+        "gourmand",
+        "naïf"
+      ],
+      "voix": "voix grave et sonore, rit fort entre deux phrases",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e13:texte",
+            "avant": "le chef",
+            "apres": "la cheffe"
+          },
+          {
+            "id": "a1e14:texte",
+            "avant": "le chef",
+            "apres": "la cheffe"
+          },
+          {
+            "id": "a1e14:texte",
+            "avant": "plus gai que",
+            "apres": "plus gaie que"
+          },
+          {
+            "id": "a1e17:ton",
+            "avant": "fort et gai",
+            "apres": "forte et gaie"
+          },
+          {
+            "id": "a1e15:texte",
+            "avant": "le chef",
+            "apres": "la cheffe"
+          },
+          {
+            "id": "a1e18:texte",
+            "avant": "du chef",
+            "apres": "de la cheffe"
+          },
+          {
+            "id": "a1e29:texte",
+            "avant": "Le chef",
+            "apres": "La cheffe"
+          },
+          {
+            "id": "a1e34:texte",
+            "avant": "du chef",
+            "apres": "de la cheffe"
+          },
+          {
+            "id": "a2e22:texte",
+            "avant": "le chef",
+            "apres": "la cheffe"
+          },
+          {
+            "id": "a2e22:texte",
+            "avant": "émerveillé",
+            "apres": "émerveillée"
+          },
+          {
+            "id": "a2e23:ton",
+            "avant": "admiratif",
+            "apres": "admirative"
+          },
+          {
+            "id": "a2e7:ton",
+            "avant": "surpris",
+            "apres": "surprise"
+          },
+          {
+            "id": "a2e31:texte",
+            "avant": "Le chef",
+            "apres": "La cheffe"
+          },
+          {
+            "id": "a2e46:texte",
+            "avant": "Le chef",
+            "apres": "La cheffe"
+          },
+          {
+            "id": "a2e53:texte",
+            "avant": "le chef",
+            "apres": "la cheffe"
+          },
+          {
+            "id": "a2e54:ton",
+            "avant": "convaincu",
+            "apres": "convaincue"
+          },
+          {
+            "id": "a4e2:texte",
+            "avant": "le chef",
+            "apres": "la cheffe"
+          },
+          {
+            "id": "a4e12:texte",
+            "avant": "Le chef",
+            "apres": "La cheffe"
+          },
+          {
+            "id": "a4e12:texte",
+            "avant": "tout content",
+            "apres": "toute contente"
+          },
+          {
+            "id": "a4e20:texte",
+            "avant": "Le chef",
+            "apres": "La cheffe"
+          },
+          {
+            "id": "a4e16:ton",
+            "avant": "impatient",
+            "apres": "impatiente"
+          },
+          {
+            "id": "a4e21:ton",
+            "avant": "mécontent",
+            "apres": "mécontente"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r3",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "jaloux",
+        "peureux",
+        "maladroit"
+      ],
+      "voix": "voix un peu pincée et tremblante",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "Son voisin",
+            "apres": "Sa voisine"
+          },
+          {
+            "id": "a3e11:texte",
+            "avant": "il lui demanda, étonné",
+            "apres": "elle lui demanda, étonnée"
+          },
+          {
+            "id": "a3e13:ton",
+            "avant": "envieux",
+            "apres": "envieuse"
+          },
+          {
+            "id": "a3e16:texte",
+            "avant": "Le voisin",
+            "apres": "La voisine"
+          },
+          {
+            "id": "a3e17:ton",
+            "avant": "étonné",
+            "apres": "étonnée"
+          },
+          {
+            "id": "a3e20:ton",
+            "avant": "empressé",
+            "apres": "empressée"
+          },
+          {
+            "id": "a3e23:texte",
+            "avant": "Le voisin",
+            "apres": "La voisine"
+          },
+          {
+            "id": "a3e23:texte",
+            "avant": "tout content",
+            "apres": "toute contente"
+          },
+          {
+            "id": "a3e23:texte",
+            "avant": "Il entra dans le creux",
+            "apres": "Elle entra dans le creux"
+          },
+          {
+            "id": "a4e8:texte",
+            "avant": "le vieux, sors vite",
+            "apres": "la vieille, sors vite"
+          },
+          {
+            "id": "a4e18:texte",
+            "avant": "Le voisin",
+            "apres": "La voisine"
+          },
+          {
+            "id": "a4e18:texte",
+            "avant": "mort de peur",
+            "apres": "morte de peur"
+          },
+          {
+            "id": "a4e30:texte",
+            "avant": "il redescendit la montagne",
+            "apres": "elle redescendit la montagne"
+          },
+          {
+            "id": "a4e29:ton",
+            "avant": "effrayé",
+            "apres": "effrayée"
+          },
+          {
+            "id": "a4e11:texte",
+            "avant": "Le voilà, le voilà !",
+            "apres": "La voilà, la voilà !"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a3e11:texte",
+          "avant": "un autre homme âgé",
+          "gabarit": "{un} autre {espece} {âgé|âgée}"
+        }
+      ]
+    },
+    {
+      "cle": "r4",
+      "espece": "ogre",
+      "famille": "monstre",
+      "traits": [
+        "bavard",
+        "farceur"
+      ],
+      "voix": "voix rapide et rieuse, lance les cris de la fête",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e18:texte",
+            "avant": "assis",
+            "apres": "assise"
+          },
+          {
+            "id": "a2e26:texte",
+            "avant": "assis en troisième place",
+            "apres": "assise en troisième place"
+          },
+          {
+            "id": "a2e11:ton",
+            "avant": "surpris",
+            "apres": "surprise"
+          },
+          {
+            "id": "a2e30:ton",
+            "avant": "méfiant",
+            "apres": "méfiante"
+          },
+          {
+            "id": "a2e63:ton",
+            "avant": "surpris",
+            "apres": "surprise"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r5",
+      "espece": "femme",
+      "famille": "adulte",
+      "traits": [
+        "curieuse",
+        "vive"
+      ],
+      "voix": "voix douce qui monte haut de surprise",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a3e2:texte",
+            "avant": "fut stupéfaite",
+            "apres": "fut stupéfait"
+          },
+          {
+            "id": "a3e4:ton",
+            "avant": "surprise",
+            "apres": "surpris"
+          },
+          {
+            "id": "a3e8:ton",
+            "avant": "étonnée",
+            "apres": "étonné"
+          },
+          {
+            "id": "a3e2:texte",
+            "avant": "son épouse",
+            "apres": "son époux"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r6",
+      "espece": "ogre",
+      "famille": "monstre",
+      "traits": [
+        "farceur",
+        "vif"
+      ],
+      "voix": "voix aiguë et pressée",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a4e22:texte",
+            "avant": "du jeune",
+            "apres": "de la jeune"
+          }
+        ]
+      },
+      "especeImposee": true
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 18,
+    "ageAuditoire": 4,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "Le creux d’arbre",
+      "description": "Deux coussins dressés devant un drap figurent la montagne et le creux d’arbre. Installez ce décor avant le jeu ; il reste en place jusqu’à la fin. Le spectacle se joue aussi sans décor.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "La fête devant l’arbre",
+      "description": "Un coussin marque le creux d’arbre et un espace libre au centre de la table devient la piste de danse. Un drap derrière la table cache les bras. Rien n’est nécessaire pour montrer la bosse.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t3",
+      "titre": "Les maisons du village",
+      "description": "Deux coussins aux deux bouts de la table désignent les maisons voisines. Un carton debout au fond dessine la porte. La scène fonctionne aussi sans ces repères.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t4",
+      "titre": "Le retour des ogres",
+      "description": "Reprenez le même coin de la scène pour le creux d’arbre et gardez le centre libre pour la mauvaise danse. La bosse ajoutée existe dans les paroles et le récit, sans changer de peluche.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "numero": 1,
+      "titre": "L’orage et la fête",
+      "resume": "{{r1}} s’abrite dans l’arbre. La troupe arrive, chante et danse, tandis que {{r1}} observe.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e2",
+          "type": "conteur",
+          "texte": "Il était une fois, il y a bien longtemps, quelque part, un homme âgé, {{r1}}. Il avait sur la joue droite une grosse bosse qui pendouillait, et qui le gênait tout le temps."
+        },
+        {
+          "id": "a1e3",
+          "type": "conteur",
+          "texte": "Un jour, {{r1}} alla à son travail de bûcheron dans la montagne. Tout à coup, un terrible orage éclata : les éclairs brillaient, le tonnerre grondait. Puis la pluie se mit à tomber à verse, et il ne put plus rentrer chez lui. En cherchant où s’abriter, il trouva le creux d’un grand arbre. Il n’avait pas le choix : il y entra et attendit que la pluie se calme ; et pendant ce temps, la nuit tomba complètement."
+        },
+        {
+          "id": "a1e4",
+          "type": "conteur",
+          "texte": "Au fond de la montagne, on n’entendait plus aucun bûcheron. Dehors, tout était noir, et seule la tempête passait en hurlant. {{r1}} avait si peur qu’il resta toute la nuit sans fermer l’œil, tout recroquevillé dans son creux d’arbre."
+        },
+        {
+          "id": "a1e5",
+          "type": "conteur",
+          "texte": "Au milieu de la nuit, la pluie se calma peu à peu, et enfin la tempête s’arrêta net. Alors, du haut de la montagne, on entendit une foule qui descendait en faisant du bruit. {{r1}}, qui se sentait si seul, eut l’impression de revivre :"
+        },
+        {
+          "id": "a1e6",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "L’orage est fini : faites un dernier boum avec moi !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e7",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ah, tant mieux, de la compagnie !"
+        },
+        {
+          "id": "a1e8",
+          "type": "conteur",
+          "texte": "Et il passa doucement la tête hors du creux pour regarder. Et que vit-il ? Ce n’étaient pas des gens, mais une troupe d’ogres qui arrivaient par dizaines : des créatures rouges en habits bleus et des créatures noires en habits rouges. La troupe descendait en foule, précédée de lumières qui brillaient comme des yeux de chat sauvage."
+        },
+        {
+          "id": "a1e9",
+          "type": "conteur",
+          "texte": "{{r1}}, terrifié, rentra la tête dans son creux, et resta là, tout petit, tremblant, retenant son souffle."
+        },
+        {
+          "id": "a1e10",
+          "type": "conteur",
+          "texte": "La troupe arriva devant le creux où se trouvait {{r1}}, et s’y arrêta en bavardant."
+        },
+        {
+          "id": "a1e11",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oh là là !",
+          "ton": "tout bas"
+        },
+        {
+          "id": "a1e12",
+          "type": "didascalie",
+          "texte": "{{r1}} s’abaisse davantage derrière le coussin."
+        },
+        {
+          "id": "a1e13",
+          "type": "conteur",
+          "texte": "{{r2}}, qui avait l’air d’être le chef, s’assit au milieu, et le reste de la troupe s’aligna en deux rangées, à sa droite et à sa gauche. En regardant bien, il y en avait qui n’avaient qu’un œil, d’autres pas de bouche du tout, d’autres le nez cassé : toutes sortes de créatures aux têtes impossibles à décrire, qui se bousculaient."
+        },
+        {
+          "id": "a1e14",
+          "type": "conteur",
+          "texte": "Puis on servit à boire, et le banquet devint aussi joyeux qu’un banquet d’humains. À mesure que les coupes se succédaient, le chef de la troupe {{r2}}, plus gai que toute la troupe, riait aux éclats."
+        },
+        {
+          "id": "a1e15",
+          "type": "conteur",
+          "texte": "Bientôt, le chef {{r2}} dit :"
+        },
+        {
+          "id": "a1e16",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e17",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Allons, qui va chanter ? Qui va danser ?",
+          "ton": "fort et gai"
+        },
+        {
+          "id": "a1e18",
+          "type": "conteur",
+          "texte": "{{r4}}, assis près du chef {{r2}}, se mit tout à coup à chanter d’une grosse voix."
+        },
+        {
+          "id": "a1e19",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e20",
+          "type": "didascalie",
+          "texte": "{{r1}} pivote lentement vers l’autre côté de la scène."
+        },
+        {
+          "id": "a1e21",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e22",
+          "type": "didascalie",
+          "texte": "{{r6}} bondit au milieu de la scène et tourne sur place."
+        },
+        {
+          "id": "a1e23",
+          "type": "conteur",
+          "texte": "Puis, tour à tour, on se leva pour danser. On félicitait les danses réussies et l’on se moquait des danses maladroites. Après chaque danse, la troupe battait la mesure en criant :"
+        },
+        {
+          "id": "a1e24",
+          "type": "adresse_public",
+          "marionnetteId": "r6",
+          "texte": "Tapez doucement la mesure pour la fête !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e25",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e26",
+          "type": "didascalie",
+          "texte": "{{r1}} pivote lentement vers l’autre côté de la scène."
+        },
+        {
+          "id": "a1e27",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e28",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Bravo ! Bravo !",
+          "ton": "en criant"
+        },
+        {
+          "id": "a1e29",
+          "type": "conteur",
+          "texte": "Le chef de la troupe {{r2}} riait aux éclats :"
+        },
+        {
+          "id": "a1e30",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e31",
+          "type": "didascalie",
+          "texte": "{{r1}} pivote lentement vers l’autre côté de la scène."
+        },
+        {
+          "id": "a1e32",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e33",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Ha ha ! Que c’est amusant ! Je n’ai jamais vu une fête aussi joyeuse. Mais y a-t-il quelqu’un qui pourrait nous montrer une danse encore plus extraordinaire ?",
+          "ton": "en riant"
+        },
+        {
+          "id": "a1e34",
+          "type": "conteur",
+          "texte": "{{r1}}, depuis tout à l’heure, regardait dehors en tendant le cou, tout recroquevillé dans son creux d’arbre, mais tout de même curieux de voir ce qui faisait peur. Et comme c’était un vieux très farceur, il finit par oublier sa peur, et regardait les danses de la troupe comme un spectacle. Peu à peu, il se sentit tout joyeux lui aussi, et en entendant les paroles du chef {{r2}}, il eut envie de sauter dehors et de danser."
+        },
+        {
+          "id": "a1e35",
+          "type": "conteur",
+          "texte": "D’abord, il se retint : s’il sortait sans réfléchir, il risquait d’être croqué d’une bouchée. Mais quand la troupe se mit à battre joyeusement la mesure, il n’y tint plus :"
+        },
+        {
+          "id": "a1e36",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        }
+      ],
+      "id": "a1"
+    },
+    {
+      "numero": 2,
+      "titre": "La danse de {{r1}}",
+      "resume": "{{r1}} danse si bien que la troupe veut son retour. {{r2}} garde sa bosse en gage et elle disparaît sans douleur.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tant pis ! Je sors et je danse. Si je me fais manger, tant pis !",
+          "ton": "avec courage"
+        },
+        {
+          "id": "a2e2",
+          "type": "conteur",
+          "texte": "Il prit courage, la hache de bûcheron à la ceinture, son chapeau enfoncé jusqu’au bout du nez."
+        },
+        {
+          "id": "a2e3",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Hop là, hop là !"
+        },
+        {
+          "id": "a2e4",
+          "type": "didascalie",
+          "texte": "{{r1}} surgit du creux et bondit au milieu de la scène."
+        },
+        {
+          "id": "a2e5",
+          "type": "conteur",
+          "texte": "C’était si soudain que ce fut toute la troupe qui eut peur, cette fois."
+        },
+        {
+          "id": "a2e6",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e7",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Qu’est-ce que c’est ?",
+          "ton": "surpris"
+        },
+        {
+          "id": "a2e8",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e9",
+          "type": "didascalie",
+          "texte": "{{r1}} pivote lentement vers l’autre côté de la scène."
+        },
+        {
+          "id": "a2e10",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e11",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "C’est un homme âgé !",
+          "ton": "surpris"
+        },
+        {
+          "id": "a2e12",
+          "type": "conteur",
+          "texte": "Et toute la troupe se leva en faisant du tapage."
+        },
+        {
+          "id": "a2e13",
+          "type": "didascalie",
+          "texte": "{{r1}} se redresse, s’abaisse, puis tourne de gauche à droite en sautant."
+        },
+        {
+          "id": "a2e14",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Hop là, hop là !",
+          "ton": "en dansant"
+        },
+        {
+          "id": "a2e15",
+          "type": "conteur",
+          "texte": "Peu à peu, la troupe suivit la danse et battit la mesure :"
+        },
+        {
+          "id": "a2e16",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Bravo, bravo !",
+          "ton": "fort"
+        },
+        {
+          "id": "a2e17",
+          "type": "adresse_public",
+          "marionnetteId": "r4",
+          "texte": "Applaudissez cette danse !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e18",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e19",
+          "type": "didascalie",
+          "texte": "{{r1}} pivote lentement vers l’autre côté de la scène."
+        },
+        {
+          "id": "a2e20",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e21",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Vas-y !",
+          "ton": "pour encourager"
+        },
+        {
+          "id": "a2e22",
+          "type": "conteur",
+          "texte": "Et toute la troupe riait à en éclater, sous le charme de la danse de {{r1}}. Quand la danse fut finie, le chef {{r2}}, émerveillé, dit à {{r1}} :"
+        },
+        {
+          "id": "a2e23",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je n’ai jamais vu une danse aussi drôle. Vieux, reviens demain soir danser pour nous !",
+          "ton": "admiratif"
+        },
+        {
+          "id": "a2e24",
+          "type": "conteur",
+          "texte": "{{r1}}, tout fier, répondit :"
+        },
+        {
+          "id": "a2e25",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oui, oui, même sans que vous me le demandiez, je viendrai. Ce soir, c’était si soudain que je ne m’étais pas entraîné : d’ici demain soir, je vais bien répéter.",
+          "ton": "tout fier"
+        },
+        {
+          "id": "a2e26",
+          "type": "conteur",
+          "texte": "Alors {{r4}}, assis en troisième place à droite, intervint :"
+        },
+        {
+          "id": "a2e27",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e28",
+          "type": "didascalie",
+          "texte": "{{r1}} pivote lentement vers l’autre côté de la scène."
+        },
+        {
+          "id": "a2e29",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e30",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Non, il dit ça, mais au moment venu, il pourrait bien ne pas venir. Pour qu’il tienne sa promesse, prenons-lui quelque chose en gage.",
+          "ton": "méfiant"
+        },
+        {
+          "id": "a2e31",
+          "type": "conteur",
+          "texte": "Le chef {{r2}} dit :"
+        },
+        {
+          "id": "a2e32",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e33",
+          "type": "didascalie",
+          "texte": "{{r1}} pivote lentement vers l’autre côté de la scène."
+        },
+        {
+          "id": "a2e34",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e35",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "En effet, c’est une bonne idée."
+        },
+        {
+          "id": "a2e36",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e37",
+          "type": "didascalie",
+          "texte": "{{r1}} pivote lentement vers l’autre côté de la scène."
+        },
+        {
+          "id": "a2e38",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e39",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Alors quoi ? Qu’est-ce qu’on va lui prendre ?"
+        },
+        {
+          "id": "a2e40",
+          "type": "conteur",
+          "texte": "Et la troupe se mit à en discuter à grand bruit."
+        },
+        {
+          "id": "a2e41",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Le chapeau !"
+        },
+        {
+          "id": "a2e42",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e43",
+          "type": "didascalie",
+          "texte": "{{r1}} pivote lentement vers l’autre côté de la scène."
+        },
+        {
+          "id": "a2e44",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e45",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Et la hache ?"
+        },
+        {
+          "id": "a2e46",
+          "type": "conteur",
+          "texte": "Le chef {{r2}} arrêta le vacarme :"
+        },
+        {
+          "id": "a2e47",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e48",
+          "type": "didascalie",
+          "texte": "{{r1}} pivote lentement vers l’autre côté de la scène."
+        },
+        {
+          "id": "a2e49",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e50",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Non, ce qu’il faut lui prendre avant tout, c’est la bosse sur sa joue. Une bosse, ça porte bonheur : c’est sûrement ce qu’il a de plus précieux."
+        },
+        {
+          "id": "a2e51",
+          "type": "replique",
+          "texte": "Parfait !",
+          "marionnetteId": "r1",
+          "ton": "tout bas, pour soi"
+        },
+        {
+          "id": "a2e52",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oh là là, quelle idée terrible ! Arrachez-moi les yeux, coupez-moi le nez, mais par pitié, ne me prenez pas ma bosse ! C’est ma bosse chérie, que je porte comme un trésor depuis tant d’années : si vous me la prenez, je serai vraiment malheureux.",
+          "ton": "fait semblant d’avoir peur"
+        },
+        {
+          "id": "a2e53",
+          "type": "conteur",
+          "texte": "En entendant cela, le chef de la troupe {{r2}} dit :"
+        },
+        {
+          "id": "a2e54",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Vous voyez ? Il tient beaucoup à cette bosse. C’est elle qu’il faut prendre !",
+          "ton": "convaincu"
+        },
+        {
+          "id": "a2e55",
+          "type": "conteur",
+          "texte": "{{r4}} s’approcha aussitôt :"
+        },
+        {
+          "id": "a2e56",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e57",
+          "type": "didascalie",
+          "texte": "{{r1}} pivote lentement vers l’autre côté de la scène."
+        },
+        {
+          "id": "a2e58",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e59",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Allez, je la prends !"
+        },
+        {
+          "id": "a2e60",
+          "type": "conteur",
+          "texte": "Et, d’un coup, la bosse se détacha, « poc ! ». Mais ça ne fit pas mal du tout."
+        },
+        {
+          "id": "a2e61",
+          "type": "note_marionnettiste",
+          "texte": "La bosse est retirée dans le récit seulement ; garder la même peluche, sans rien détacher ni cacher."
+        },
+        {
+          "id": "a2e62",
+          "type": "conteur",
+          "texte": "Juste à ce moment, le jour se leva, et un corbeau cria « Croa, croa »."
+        },
+        {
+          "id": "a2e63",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Oh là là !",
+          "ton": "surpris"
+        },
+        {
+          "id": "a2e64",
+          "type": "conteur",
+          "texte": "La troupe sursauta et se leva."
+        },
+        {
+          "id": "a2e65",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e66",
+          "type": "didascalie",
+          "texte": "{{r1}} pivote lentement vers l’autre côté de la scène."
+        },
+        {
+          "id": "a2e67",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e68",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Reviens bien demain soir, on te rendra ta bosse !"
+        },
+        {
+          "id": "a2e69",
+          "type": "conteur",
+          "texte": "Et toute la troupe disparut précipitamment."
+        },
+        {
+          "id": "a2e70",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e71",
+          "type": "conteur",
+          "texte": "Après leur départ, {{r1}} découvrit que la grosse bosse qui le gênait depuis tant d’années avait complètement disparu, et sa joue était toute lisse, comme si on l’avait essuyée."
+        },
+        {
+          "id": "a2e72",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Quelle chance ! Quelle chose extraordinaire !",
+          "ton": "soulagé"
+        },
+        {
+          "id": "a2e73",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Ma joue est lisse ! Touchez doucement votre joue, vous aussi.",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e74",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ],
+      "id": "a2"
+    },
+    {
+      "numero": 3,
+      "titre": "La surprise au village",
+      "resume": "{{r5}} découvre la joue lisse de {{r1}}. {{r3}} apprend ce qui s’est passé et part chercher la troupe.",
+      "tableauId": "t3",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e2",
+          "type": "conteur",
+          "texte": "{{r1}} était si heureux qu’il courut à la maison le montrer à son épouse {{r5}}, en hochant la tête tout le long du chemin. {{r5}}, voyant que la bosse avait disparu, fut stupéfaite :"
+        },
+        {
+          "id": "a3e3",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e4",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Oh ! Où est passée ta bosse ?",
+          "ton": "surprise"
+        },
+        {
+          "id": "a3e5",
+          "type": "conteur",
+          "texte": "{{r1}} lui expliqua :"
+        },
+        {
+          "id": "a3e6",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "La troupe l’a prise en gage."
+        },
+        {
+          "id": "a3e7",
+          "type": "conteur",
+          "texte": "{{r5}} dit :"
+        },
+        {
+          "id": "a3e8",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Oh, oh !",
+          "ton": "étonnée"
+        },
+        {
+          "id": "a3e9",
+          "type": "adresse_public",
+          "marionnetteId": "r5",
+          "texte": "Dites avec moi : « Oh, oh ! »",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e10",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e11",
+          "type": "conteur",
+          "texte": "Or, dans la maison d’à côté, il y avait un autre homme âgé, {{r3}}, qui avait une bosse toute pareille, mais sur la joue gauche. En voyant que la bosse de {{r1}} avait disparu, il lui demanda, étonné :"
+        },
+        {
+          "id": "a3e12",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e13",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Voisin, voisin, où est passée votre bosse ? C’est un bon médecin qui vous l’a enlevée ? Dites-moi où il habite : j’irai me la faire enlever aussi.",
+          "ton": "envieux"
+        },
+        {
+          "id": "a3e14",
+          "type": "conteur",
+          "texte": "{{r1}} répondit :"
+        },
+        {
+          "id": "a3e15",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Mais non, ce n’est pas un médecin. Hier soir, dans la montagne, c’est la troupe qui me l’a prise."
+        },
+        {
+          "id": "a3e16",
+          "type": "conteur",
+          "texte": "Le voisin {{r3}} se pencha en avant :"
+        },
+        {
+          "id": "a3e17",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Comment ça ?",
+          "ton": "étonné"
+        },
+        {
+          "id": "a3e18",
+          "type": "conteur",
+          "texte": "Et {{r1}} lui raconta tout en détail :"
+        },
+        {
+          "id": "a3e19",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "J’ai dansé, et on m’a pris ma bosse en gage."
+        },
+        {
+          "id": "a3e20",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Voilà une bonne nouvelle ! Alors j’y vais tout de suite, danser moi aussi. Voisin, dites-moi où vient cette troupe.",
+          "ton": "empressé"
+        },
+        {
+          "id": "a3e21",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Volontiers."
+        },
+        {
+          "id": "a3e22",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e23",
+          "type": "conteur",
+          "texte": "Et {{r1}} lui expliqua le chemin en détail. Le voisin {{r3}}, tout content, partit en hâte dans la montagne. Il entra dans le creux d’arbre qu’on lui avait indiqué, et attendit la troupe en tremblant."
+        },
+        {
+          "id": "a3e24",
+          "type": "adresse_public",
+          "marionnetteId": "r3",
+          "texte": "Je vais danser, moi aussi : tapez la mesure !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e25",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        }
+      ],
+      "id": "a3"
+    },
+    {
+      "numero": 4,
+      "titre": "La mauvaise copie",
+      "resume": "{{r3}} tente sa danse devant {{r2}}. {{r6}} lui rend la bosse de {{r1}} : {{r3}} redescend avec deux bosses.",
+      "tableauId": "t4",
+      "elements": [
+        {
+          "id": "a4e1",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e2",
+          "type": "conteur",
+          "texte": "En effet, comme on le lui avait dit, au milieu de la nuit, une troupe de dizaines de créatures rouges en habits bleus et de créatures noires en habits rouges arriva en faisant du bruit, avec ses lumières brillantes. Bientôt, la troupe s’assit devant le creux comme la veille, et commença un banquet joyeux. Alors le chef {{r2}} dit :"
+        },
+        {
+          "id": "a4e3",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e4",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Eh bien ? Le vieux d’hier n’est pas encore arrivé ?"
+        },
+        {
+          "id": "a4e5",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e6",
+          "type": "didascalie",
+          "texte": "{{r3}} pivote lentement vers l’autre côté de la scène."
+        },
+        {
+          "id": "a4e7",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e8",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Allez, le vieux, sors vite !",
+          "ton": "fort"
+        },
+        {
+          "id": "a4e9",
+          "type": "replique",
+          "texte": "C’est le moment !",
+          "marionnetteId": "r3",
+          "ton": "tout bas"
+        },
+        {
+          "id": "a4e10",
+          "type": "didascalie",
+          "texte": "{{r3}} avance en tremblant, hors du creux d’arbre."
+        },
+        {
+          "id": "a4e11",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Le voilà, le voilà !",
+          "ton": "en criant"
+        },
+        {
+          "id": "a4e12",
+          "type": "conteur",
+          "texte": "Le chef {{r2}}, tout content, lança :"
+        },
+        {
+          "id": "a4e13",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e14",
+          "type": "didascalie",
+          "texte": "{{r3}} pivote lentement vers l’autre côté de la scène."
+        },
+        {
+          "id": "a4e15",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e16",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Oh, te voilà ! Allez, viens ici, danse, danse !",
+          "ton": "impatient"
+        },
+        {
+          "id": "a4e17",
+          "type": "adresse_public",
+          "marionnetteId": "r3",
+          "texte": "Battez la mesure pendant ma danse !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a4e18",
+          "type": "conteur",
+          "texte": "Le voisin {{r3}} se leva, mort de peur."
+        },
+        {
+          "id": "a4e19",
+          "type": "didascalie",
+          "texte": "{{r3}} tourne très lentement, puis s’arrête de travers."
+        },
+        {
+          "id": "a4e20",
+          "type": "conteur",
+          "texte": "Le chef de la troupe {{r2}}, avec mécontentement, dit d’une voix colérique :"
+        },
+        {
+          "id": "a4e21",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Qu’est-ce que c’est que cette danse ? C’est tellement mauvais qu’on ne peut pas regarder ! Assez ! Va-t’en, va-t’en ! Hé, rendez-lui ce qu’on lui a pris hier en gage !",
+          "ton": "mécontent"
+        },
+        {
+          "id": "a4e22",
+          "type": "conteur",
+          "texte": "Alors la bosse qu’on avait gardée reparut près du jeune {{r6}} :"
+        },
+        {
+          "id": "a4e23",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e24",
+          "type": "didascalie",
+          "texte": "{{r3}} pivote lentement vers l’autre côté de la scène."
+        },
+        {
+          "id": "a4e25",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e26",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Tiens, je te la rends !"
+        },
+        {
+          "id": "a4e27",
+          "type": "conteur",
+          "texte": "Et la bosse revint — pof ! — sur la joue droite, celle qui n’avait pas de bosse."
+        },
+        {
+          "id": "a4e28",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e29",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Ah !",
+          "ton": "effrayé"
+        },
+        {
+          "id": "a4e30",
+          "type": "conteur",
+          "texte": "Mais c’était trop tard. Avec deux bosses qui pendaient, une sur chaque joue, il redescendit la montagne en pleurant à chaudes larmes."
+        },
+        {
+          "id": "a4e31",
+          "type": "adresse_public",
+          "marionnetteId": "r3",
+          "texte": "Une bosse de chaque côté : comptez avec moi, une, deux !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e32",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        }
+      ],
+      "id": "a4"
+    }
+  ],
+  "bible": {
+    "conteId": "ja-bosse-enlevee",
+    "synopsis": {
+      "accroche": "Une danse enlève une bosse ; une autre en ajoute une.",
+      "resume": [
+        "{{r1}} s’abrite de l’orage et découvre la fête des ogres.",
+        "Sa danse ravit {{r2}} ; sa bosse est gardée en gage et disparaît.",
+        "{{r3}} tente de l’imiter et redescend avec deux bosses."
+      ]
+    },
+    "transposition": {
+      "texte": "Il était une fois, il y a bien longtemps, quelque part, un homme âgé, {{r1}}. Il avait sur la joue droite une grosse bosse qui pendouillait, et qui le gênait tout le temps.\n\nUn jour, {{r1}} alla à son travail de bûcheron dans la montagne. Tout à coup, un terrible orage éclata : les éclairs brillaient, le tonnerre grondait. Puis la pluie se mit à tomber à verse, et il ne put plus rentrer chez lui. En cherchant où s’abriter, il trouva le creux d’un grand arbre. Il n’avait pas le choix : il y entra et attendit que la pluie se calme ; et pendant ce temps, la nuit tomba complètement.\n\nAu fond de la montagne, on n’entendait plus aucun bûcheron. Dehors, tout était noir, et seule la tempête passait en hurlant. {{r1}} avait si peur qu’il resta toute la nuit sans fermer l’œil, tout recroquevillé dans son creux d’arbre.\n\nAu milieu de la nuit, la pluie se calma peu à peu, et enfin la tempête s’arrêta net. Alors, du haut de la montagne, on entendit une foule qui descendait en faisant du bruit. {{r1}}, qui se sentait si seul, eut l’impression de revivre :\n\n— Ah, tant mieux, de la compagnie !\n\nEt il passa doucement la tête hors du creux pour regarder. Et que vit-il ? Ce n’étaient pas des gens, mais une troupe d’ogres qui arrivaient par dizaines : des créatures rouges en habits bleus et des créatures noires en habits rouges. La troupe descendait en foule, précédée de lumières qui brillaient comme des yeux de chat sauvage.\n\n{{r1}}, terrifié, rentra la tête dans son creux, et resta là, tout petit, tremblant, retenant son souffle.\n\nLa troupe arriva devant le creux où se trouvait {{r1}}, et s’y arrêta en bavardant. « Oh là là », pensa {{r1}} en se faisant encore plus petit. {{r2}}, qui avait l’air d’être le chef, s’assit au milieu, et le reste de la troupe s’aligna en deux rangées, à sa droite et à sa gauche. En regardant bien, il y en avait qui n’avaient qu’un œil, d’autres pas de bouche du tout, d’autres le nez cassé : toutes sortes de créatures aux têtes impossibles à décrire, qui se bousculaient.\n\nPuis on servit à boire, et le banquet devint aussi joyeux qu’un banquet d’humains. À mesure que les coupes se succédaient, le chef de la troupe {{r2}}, plus gai que toute la troupe, riait aux éclats.\n\nBientôt, le chef {{r2}} dit :\n\n— Allons, qui va chanter ? Qui va danser ?\n\n{{r4}}, assis près du chef {{r2}}, se mit tout à coup à chanter d’une grosse voix. Le jeune {{r6}} bondit au milieu et dansa de toutes ses forces avant de se rasseoir. Puis, tour à tour, on se leva pour danser. On félicitait les danses réussies et l’on se moquait des danses maladroites. Après chaque danse, la troupe battait la mesure en criant :\n\n— Bravo ! Bravo !\n\nLe chef de la troupe {{r2}} riait aux éclats :\n\n— Ha ha ! Que c’est amusant ! Je n’ai jamais vu une fête aussi joyeuse. Mais y a-t-il quelqu’un qui pourrait nous montrer une danse encore plus extraordinaire ?\n\n{{r1}}, depuis tout à l’heure, regardait dehors en tendant le cou, tout recroquevillé dans son creux d’arbre, mais tout de même curieux de voir ce qui faisait peur. Et comme c’était un vieux très farceur, il finit par oublier sa peur, et regardait les danses de la troupe comme un spectacle. Peu à peu, il se sentit tout joyeux lui aussi, et en entendant les paroles du chef {{r2}}, il eut envie de sauter dehors et de danser.\n\nD’abord, il se retint : s’il sortait sans réfléchir, il risquait d’être croqué d’une bouchée. Mais quand la troupe se mit à battre joyeusement la mesure, il n’y tint plus :\n\n— Tant pis ! Je sors et je danse. Si je me fais manger, tant pis !\n\nIl prit courage, la hache de bûcheron à la ceinture, son chapeau enfoncé jusqu’au bout du nez. Il cria « Hop là, hop là ! », puis il bondit tout à coup sous le nez du chef de la troupe {{r2}}.\n\nC’était si soudain que ce fut toute la troupe qui eut peur, cette fois.\n\n— Qu’est-ce que c’est ?\n\n— C’est un homme âgé !\n\nEt toute la troupe se leva en faisant du tapage. Mais {{r1}}, tout tranquille, dansa de toutes ses forces : il se redressait, s’abaissait, se mettait debout, se couchait, allait à gauche, allait à droite, tournait et tournait comme un écureuil, en sautant de tous les côtés et en criant d’une voix de fête :\n\n— Hop là, hop là !\n\nPeu à peu, la troupe suivit la danse et battit la mesure :\n\n— Bravo, bravo !\n\n— Vas-y !\n\nEt toute la troupe riait à en éclater, sous le charme de la danse de {{r1}}. Quand la danse fut finie, le chef {{r2}}, émerveillé, dit à {{r1}} :\n\n— Je n’ai jamais vu une danse aussi drôle. Vieux, reviens demain soir danser pour nous !\n\n{{r1}}, tout fier, répondit :\n\n— Oui, oui, même sans que vous me le demandiez, je viendrai. Ce soir, c’était si soudain que je ne m’étais pas entraîné : d’ici demain soir, je vais bien répéter.\n\nAlors {{r4}}, assis en troisième place à droite, intervint :\n\n— Non, il dit ça, mais au moment venu, il pourrait bien ne pas venir. Pour qu’il tienne sa promesse, prenons-lui quelque chose en gage.\n\nLe chef {{r2}} dit :\n\n— En effet, c’est une bonne idée.\n\n— Alors quoi ? Qu’est-ce qu’on va lui prendre ?\n\nEt la troupe se mit à en discuter à grand bruit. « Le chapeau ! » disaient certains. « Et la hache ? » disaient d’autres. Le chef {{r2}} arrêta le vacarme :\n\n— Non, ce qu’il faut lui prendre avant tout, c’est la bosse sur sa joue. Une bosse, ça porte bonheur : c’est sûrement ce qu’il a de plus précieux.\n\n{{r1}} pensa en lui-même « Parfait ! », mais il fit exprès semblant d’être effrayé :\n\n— Oh là là, quelle idée terrible ! Arrachez-moi les yeux, coupez-moi le nez, mais par pitié, ne me prenez pas ma bosse ! C’est ma bosse chérie, que je porte comme un trésor depuis tant d’années : si vous me la prenez, je serai vraiment malheureux.\n\nEn entendant cela, le chef de la troupe {{r2}} dit :\n\n— Vous voyez ? Il tient beaucoup à cette bosse. C’est elle qu’il faut prendre !\n\n{{r4}} s’approcha aussitôt :\n\n— Allez, je la prends !\n\nEt, d’un coup, la bosse se détacha, « poc ! ». Mais ça ne fit pas mal du tout.\n\nJuste à ce moment, le jour se leva, et un corbeau cria « Croa, croa ».\n\n— Oh là là !\n\nLa troupe sursauta et se leva.\n\n— Reviens bien demain soir, on te rendra ta bosse !\n\nEt toute la troupe disparut précipitamment.\n\nAprès leur départ, {{r1}} découvrit que la grosse bosse qui le gênait depuis tant d’années avait complètement disparu, et sa joue était toute lisse, comme si on l’avait essuyée.\n\n— Quelle chance ! Quelle chose extraordinaire !\n\n{{r1}} était si heureux qu’il courut à la maison le montrer à son épouse {{r5}}, en hochant la tête tout le long du chemin. {{r5}}, voyant que la bosse avait disparu, fut stupéfaite :\n\n— Oh ! Où est passée ta bosse ?\n\n{{r1}} lui expliqua : « La troupe l’a prise en gage. » {{r5}} dit : « Oh, oh ! »\n\nOr, dans la maison d’à côté, il y avait un autre homme âgé, {{r3}}, qui avait une bosse toute pareille, mais sur la joue gauche. En voyant que la bosse de {{r1}} avait disparu, il lui demanda, étonné :\n\n— Voisin, voisin, où est passée votre bosse ? C’est un bon médecin qui vous l’a enlevée ? Dites-moi où il habite : j’irai me la faire enlever aussi.\n\nIl lui demandait cela, plein d’envie. {{r1}} répondit :\n\n— Mais non, ce n’est pas un médecin. Hier soir, dans la montagne, c’est la troupe qui me l’a prise.\n\nLe voisin {{r3}} se pencha en avant :\n\n— Comment ça ?\n\nEt {{r1}} lui raconta tout en détail : « J’ai dansé, et on m’a pris ma bosse en gage. »\n\n— Voilà une bonne nouvelle ! Alors j’y vais tout de suite, danser moi aussi. Voisin, dites-moi où vient cette troupe.\n\n— Volontiers.\n\nEt {{r1}} lui expliqua le chemin en détail. Le voisin {{r3}}, tout content, partit en hâte dans la montagne. Il entra dans le creux d’arbre qu’on lui avait indiqué, et attendit la troupe en tremblant.\n\nEn effet, comme on le lui avait dit, au milieu de la nuit, une troupe de dizaines de créatures rouges en habits bleus et de créatures noires en habits rouges arriva en faisant du bruit, avec ses lumières brillantes. Bientôt, la troupe s’assit devant le creux comme la veille, et commença un banquet joyeux. Alors le chef {{r2}} dit :\n\n— Eh bien ? Le vieux d’hier n’est pas encore arrivé ?\n\n— Allez, le vieux, sors vite !\n\ncria la troupe. Le voisin {{r3}}, en entendant cela, pensa « C’est le moment », et sortit en tremblant du creux.\n\n— Le voilà, le voilà ! cria {{r4}} qui l’avait vu.\n\nLe chef {{r2}}, tout content, lança :\n\n— Oh, te voilà ! Allez, viens ici, danse, danse !\n\nLe voisin {{r3}} se leva, mort de peur. Sa danse fut n’importe comment, avec des gestes tout maladroits. Le chef de la troupe {{r2}}, avec mécontentement, dit d’une voix colérique :\n\n— Qu’est-ce que c’est que cette danse ? C’est tellement mauvais qu’on ne peut pas regarder ! Assez ! Va-t’en, va-t’en ! Hé, rendez-lui ce qu’on lui a pris hier en gage !\n\nAlors la bosse qu’on avait gardée reparut près du jeune {{r6}} :\n\n— Tiens, je te la rends !\n\nEt la bosse revint — pof ! — sur la joue droite, celle qui n’avait pas de bosse. Le voisin {{r3}} cria « Ah ! ». Mais c’était trop tard. Avec deux bosses qui pendaient, une sur chaque joue, il redescendit la montagne en pleurant à chaudes larmes.\n"
+    }
+  },
+  "dureeEstimeeSecondes": 959,
+  "interactionsOrdonnees": [
+    "a4e31",
+    "a2e17",
+    "a4e17",
+    "a1e24",
+    "a2e73",
+    "a3e24",
+    "a1e6",
+    "a3e9"
+  ]
+}

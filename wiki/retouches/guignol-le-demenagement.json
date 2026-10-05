@@ -1,0 +1,129 @@
+{
+  "id": "guignol-le-demenagement",
+  "langue": [
+    {
+      "avant": "Qui que chapotte",
+      "apres": "Qui que frappe",
+      "nature": "mot-disparu"
+    },
+    {
+      "avant": "bardanes",
+      "apres": "puces",
+      "nature": "mot-disparu",
+      "partout": true
+    },
+    {
+      "avant": "cotivet",
+      "apres": "cou",
+      "nature": "mot-disparu",
+      "partout": true
+    },
+    {
+      "avant": "faisons un borgnon",
+      "apres": "faisons un déménagement",
+      "nature": "mot-disparu"
+    },
+    {
+      "avant": "un borgnon de fait",
+      "apres": "un déménagement de fait",
+      "nature": "mot-disparu"
+    },
+    {
+      "avant": "une ouche immense",
+      "apres": "une huche à pain immense",
+      "nature": "mot-disparu"
+    },
+    {
+      "avant": "Je t’apinche venir",
+      "apres": "Je te vois venir",
+      "nature": "mot-disparu"
+    }
+  ],
+  "moments": [
+    {
+      "id": "chienne",
+      "type": "mort-gentil",
+      "niveaux": [
+        {
+          "jusqua": 8,
+          "annonce": "La chienne de Vautour est rétablie.",
+          "retouches": [
+            {
+              "avant": "Elle est morte… mes 200…",
+              "apres": "Elle est guérie… mes 200…"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "remede",
+      "type": "mal-vieilli",
+      "pourquoi": "Le remède ancien pour l’énurésie fait boire du sang de taupe ; ce détail accessoire ne sert pas l’intrigue.",
+      "niveaux": [
+        {
+          "jusqua": 10,
+          "annonce": "Gnafron conseille de faire sécher la paillasse.",
+          "retouches": [
+            {
+              "avant": "Fait lui boire du sang de darbon, il sort.",
+              "apres": "Fais sécher sa paillasse, il sort."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "seringue",
+      "type": "mal-vieilli",
+      "niveaux": [
+        {
+          "jusqua": 10,
+          "annonce": "Gnafron reconnaît l’odeur de la seringue sans la porter à sa bouche.",
+          "retouches": [
+            {
+              "avant": "Guignol, il lui met le bout de la seringue dans la bouche. — Tiens renifle une miette, il se sauve.",
+              "apres": "Guignol, il lui montre le bout de la seringue. — Tiens renifle une miette, il se sauve."
+            },
+            {
+              "avant": "ça a un arrière goût de farine de lin",
+              "apres": "ça a une odeur de farine de lin"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "generalisation",
+      "type": "mal-vieilli",
+      "niveaux": [
+        {
+          "jusqua": 10,
+          "annonce": "Guignol se plaint de sa poêle brûlée sans généraliser aux femmes.",
+          "retouches": [
+            {
+              "avant": "Que les femmes ont donc peu de z’esconomique",
+              "apres": "Que c’te cuisine nous coûte donc cher"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "moquerie",
+      "type": "mal-vieilli",
+      "niveaux": [
+        {
+          "jusqua": 10,
+          "annonce": "Guignol annonce un bon repas sans se moquer d’une bosse.",
+          "retouches": [
+            {
+              "avant": "une bosse à faire honte à celle de Chaillier",
+              "apres": "une bonne bosse"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

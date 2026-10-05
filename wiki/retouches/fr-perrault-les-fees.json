@@ -1,0 +1,52 @@
+{
+  "id": "fr-perrault-les-fees",
+  "langue": [
+    {"avant": "pour la douceur et l’honnêteté", "apres": "pour la douceur et la gentillesse", "nature": "faux-ami"},
+    {"avant": "Oui dà, ma bonne mère", "apres": "Bien volontiers, ma bonne mère", "nature": "mot-disparu"},
+    {"avant": "jusqu’où irait l’honnêteté de cette jeune fille", "apres": "jusqu’où irait la gentillesse de cette jeune fille", "nature": "faux-ami"},
+    {"avant": "Vous êtes si bonne et si honnête", "apres": "Vous êtes si bonne et si aimable", "nature": "faux-ami"},
+    {"avant": "ne seriez-vous pas bien aise", "apres": "ne seriez-vous pas bien contente", "nature": "faux-ami"},
+    {"avant": "lui en donner bien honnêtement", "apres": "lui en donner bien gentiment", "nature": "faux-ami"},
+    {"avant": "Il me ferait beau voir, répondit la brutale, aller à la fontaine !", "apres": "Il ne manquerait plus que ça, répondit la brutale : moi, aller à la fontaine !", "nature": "tournure"},
+    {"avant": "et tout à l’heure", "apres": "et tout de suite", "nature": "faux-ami"},
+    {"avant": "jusqu’où irait la malhonnêteté de cette fille", "apres": "jusqu’où irait la méchanceté de cette fille", "nature": "faux-ami"},
+    {"avant": "Est-ce que je suis ici venue", "apres": "Est-ce que je suis venue ici", "nature": "tournure"},
+    {"avant": "J’en suis d’avis : buvez à même si vous voulez", "apres": "Non mais voyez-vous ça : buvez à même la fontaine si vous voulez", "nature": "tournure"},
+    {"avant": "Vous n’êtes guère honnête", "apres": "Vous n’êtes guère aimable", "nature": "faux-ami"},
+    {"avant": "si peu obligeante", "apres": "si peu serviable", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "D’abord que sa mère l’aperçut", "apres": "Dès que sa mère l’aperçut", "nature": "tournure"},
+    {"avant": "la forêt prochaine", "apres": "la forêt voisine", "nature": "faux-ami"},
+    {"avant": "puiser de l’eau à une grande demi-lieue du logis", "apres": "puiser de l’eau bien loin de la maison", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "Lorsque cette fille arriva au logis", "apres": "Lorsque cette fille arriva à la maison", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "le plus beau flacon d’argent qui fût dans le logis", "apres": "le plus beau flacon d’argent qui fût dans la maison", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "qui m’a chassée du logis", "apres": "qui m’a chassée de la maison", "nature": "mot-rare", "jusqua": 6}
+  ],
+  "moments": [
+    {
+      "id": "la-mere-veut-battre",
+      "type": "abandon",
+      "niveaux": [
+        {
+          "jusqua": 4,
+          "annonce": "La mère crie après la cadette au lieu de courir la battre.",
+          "retouches": [
+            {"avant": "et aussitôt elle courut pour la battre. La pauvre enfant s’enfuit et alla se sauver dans la forêt prochaine.", "apres": "et elle se mit à crier si fort que la pauvre enfant s’enfuit et alla se sauver dans la forêt voisine."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "la-soeur-chassee",
+      "type": "punition",
+      "niveaux": [
+        {
+          "jusqua": 4,
+          "annonce": "La sœur méchante ne meurt pas : elle s’en va vivre toute seule au fond des bois.",
+          "retouches": [
+            {"avant": "et la malheureuse, après avoir bien couru sans trouver personne qui voulût la recevoir, alla mourir au coin d’un bois.", "apres": "et la malheureuse, après avoir bien couru sans trouver personne qui voulût la recevoir, s’en alla vivre toute seule au fond des bois."}
+          ]
+        }
+      ]
+    }
+  ]
+}

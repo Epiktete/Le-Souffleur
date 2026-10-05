@@ -1,0 +1,540 @@
+{
+  "id": "de-lutins-cordonnier--1",
+  "conteId": "de-lutins-cordonnier",
+  "titre": "Les Lutins et le cordonnier",
+  "pitch": "Un cordonnier ruiné trouve chaque matin des chaussures finies ; avec son épouse, il découvre deux petites silhouettes qui les fabriquent et les remercie.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "travail",
+        "curiosité",
+        "gratitude"
+      ],
+      "voix": "voix calme et étonnée",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e2:texte",
+            "avant": "un cordonnier",
+            "apres": "une cordonnière"
+          },
+          {
+            "id": "a1e2:texte",
+            "avant": "il avait la conscience",
+            "apres": "elle avait la conscience"
+          },
+          {
+            "id": "a1e2:texte",
+            "avant": "il se coucha",
+            "apres": "elle se coucha"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "quand il voulut",
+            "apres": "quand elle voulut"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "Il fut stupéfait",
+            "apres": "Elle fut stupéfaite"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "Il examina",
+            "apres": "Elle examina"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "mais il n'en eut",
+            "apres": "mais elle n'en eut"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "quand il se leva",
+            "apres": "quand elle se leva"
+          },
+          {
+            "id": "a1e7:texte",
+            "avant": "qu'il put acheter",
+            "apres": "qu'elle put acheter"
+          },
+          {
+            "id": "a1e7:texte",
+            "avant": "il trouva les quatre",
+            "apres": "elle trouva les quatre"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "qu'il retrouva",
+            "apres": "qu'elle retrouva"
+          },
+          {
+            "id": "a2e2:texte",
+            "avant": "du cordonnier",
+            "apres": "de la cordonnière"
+          },
+          {
+            "id": "a2e2:texte",
+            "avant": "il dit à",
+            "apres": "elle dit à"
+          },
+          {
+            "id": "a2e12:texte",
+            "avant": "du cordonnier",
+            "apres": "de la cordonnière"
+          },
+          {
+            "id": "a3e11:texte",
+            "avant": "vécut heureux",
+            "apres": "vécut heureuse"
+          },
+          {
+            "id": "a3e11:texte",
+            "avant": "qu'il vécut",
+            "apres": "qu'elle vécut"
+          },
+          {
+            "id": "a3e11:texte",
+            "avant": "qu'il entreprit",
+            "apres": "qu'elle entreprit"
+          },
+          {
+            "id": "pitch",
+            "avant": "Un cordonnier ruiné",
+            "apres": "Une cordonnière ruinée"
+          },
+          {
+            "id": "pitch",
+            "avant": "il découvre",
+            "apres": "elle découvre"
+          },
+          {
+            "id": "a1e2:texte",
+            "avant": "était devenu si pauvre",
+            "apres": "était devenue si pauvre"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a1e9:texte",
+          "avant": "un homme aisé",
+          "gabarit": "{un} {espece} {aisé|aisée}"
+        }
+      ]
+    },
+    {
+      "cle": "r2",
+      "espece": "femme",
+      "famille": "adulte",
+      "traits": [
+        "générosité",
+        "curiosité"
+      ],
+      "voix": "voix vive et douce",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a2e2:texte",
+            "avant": "sa femme",
+            "apres": "son mari"
+          },
+          {
+            "id": "pitch",
+            "avant": "son épouse",
+            "apres": "son époux"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r3",
+      "espece": "lutin",
+      "famille": "feerique",
+      "traits": [
+        "rapidité",
+        "joie"
+      ],
+      "voix": "voix aiguë et chantante",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": []
+      },
+      "especeMentions": [
+        {
+          "id": "a2e12:texte",
+          "avant": "un petit lutin mignon",
+          "gabarit": "{un} {petit|petite} {espece} {mignon|mignonne}"
+        }
+      ]
+    },
+    {
+      "cle": "r4",
+      "espece": "lutin",
+      "famille": "feerique",
+      "traits": [
+        "rapidité",
+        "timidité"
+      ],
+      "voix": "voix légère et chantante",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": []
+      },
+      "especeMentions": [
+        {
+          "id": "a2e12:texte",
+          "avant": "un autre petit lutin mignon",
+          "gabarit": "{un} autre {petit|petite} {espece} {mignon|mignonne}"
+        }
+      ]
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 8,
+    "ageAuditoire": 3,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "L’atelier et les paires",
+      "description": "Une table représente l’atelier. Sur un carton fixe sont dessinées une, puis deux, puis quatre paires ; le parent montre leur place d’un mouvement de peluche, sans déplacer le carton. Un coussin marque le coin de la pièce.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "Le guet de Noël",
+      "description": "Le même atelier reste en place. Un panneau fixe figure les vêtements pendus derrière lesquels le couple se cache. La chandelle est seulement racontée ; aucun éclairage ne change pendant la scène.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t3",
+      "titre": "Les cadeaux et la sortie",
+      "description": "La table porte un dessin fixe des chemises, vestes, gilets, culottes, chaussettes et souliers. Les nouveaux habits sont dits par le conteur et les peluches ne changent pas de costume. Le passage libre à droite du carton figure la porte.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Une, deux, quatre paires",
+      "resume": "{{r1}} trouve chaque matin des chaussures finies, puis retrouve de quoi vivre.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e2",
+          "type": "conteur",
+          "texte": "Il était un cordonnier, {{r1}}, qui, sans que ce soit sa faute, était devenu si pauvre qu'à la fin il ne lui restait plus que du cuir pour une seule paire de chaussures. Le soir, le cuir de la dernière paire fut taillé, prêt pour le travail du lendemain matin. Et comme il avait la conscience tranquille, il se coucha paisiblement, fit sa prière et s'endormit."
+        },
+        {
+          "id": "a1e3",
+          "type": "conteur",
+          "texte": "Le matin, quand il voulut s'asseoir à son ouvrage, les deux chaussures étaient là, toutes finies, sur sa table. Il fut stupéfait et ne savait qu'en dire. Il examina les chaussures de plus près : elles étaient si bien faites qu'il n'y avait pas un point de travers, exactement comme un chef-d'œuvre. Bientôt un client entra, et comme les chaussures lui plaisaient beaucoup, il les paya plus cher que d'habitude. Avec cet argent, {{r1}} put acheter du cuir pour deux paires."
+        },
+        {
+          "id": "a1e4",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Comptez avec moi la première paire : une !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e5",
+          "type": "conteur",
+          "texte": "Le cuir de deux paires fut taillé le soir. {{r1}} voulut s’y mettre le lendemain matin avec courage, mais il n'en eut pas besoin : quand il se leva, elles étaient déjà finies."
+        },
+        {
+          "id": "a1e6",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Maintenant, répétez : deux paires !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e7",
+          "type": "conteur",
+          "texte": "Et les clients ne manquèrent pas, qui lui donnèrent tant d'argent qu'il put acheter du cuir pour quatre paires. Au petit matin, il trouva les quatre paires finies."
+        },
+        {
+          "id": "a1e8",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Et après ? Comptez : quatre paires !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e9",
+          "type": "conteur",
+          "texte": "Et cela continua ainsi : le cuir taillé le soir donnait des chaussures cousues le matin, si bien qu'il retrouva bientôt de quoi vivre honnêtement, et finit même par devenir un homme aisé."
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Qui travaille à minuit ?",
+      "resume": "Le couple guette et découvre les deux silhouettes sans vêtements qui travaillent la nuit.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e2",
+          "type": "conteur",
+          "texte": "Un soir, peu avant Noël, alors que le cuir du cordonnier venait encore d’être taillé, il dit à sa femme, {{r2}}, avant d'aller se coucher :"
+        },
+        {
+          "id": "a2e3",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Et si nous ne dormions pas cette nuit, pour voir qui nous apporte une aide si secourable ?"
+        },
+        {
+          "id": "a2e4",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "D’accord."
+        },
+        {
+          "id": "a2e5",
+          "type": "conteur",
+          "texte": "Une chandelle éclaira la pièce. Puis le couple se cacha dans les coins de la pièce, derrière les vêtements qui y étaient pendus, et guetta."
+        },
+        {
+          "id": "a2e6",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Chuchotez avec moi : chut, on guette !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e7",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e8",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e9",
+          "type": "didascalie",
+          "texte": "Laisser une respiration avant de changer de peluche."
+        },
+        {
+          "id": "a2e10",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e11",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e12",
+          "type": "conteur",
+          "texte": "À minuit, arrivèrent {{r3}}, un petit lutin mignon, et {{r4}}, un autre petit lutin mignon, sans vêtements. Les deux silhouettes s'assirent à la table du cordonnier ; les chaussures prirent forme, les coutures avancèrent et les coups de marteau sonnèrent si vite et si adroitement que {{r1}} n'en pouvait détacher les yeux. Le travail ne s'arrêta pas avant que tout soit terminé et posé sur la table ; puis les deux silhouettes filèrent en sautillant."
+        },
+        {
+          "id": "a2e13",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e14",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e15",
+          "type": "didascalie",
+          "texte": "Laisser une respiration avant de changer de peluche."
+        },
+        {
+          "id": "a2e16",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e17",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e18",
+          "type": "conteur",
+          "texte": "Le lendemain matin, {{r2}} dit :"
+        },
+        {
+          "id": "a2e19",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Ces deux petites silhouettes nous ont apporté la richesse, nous devrions leur montrer notre reconnaissance. Elles courent partout, elles n'ont rien sur le dos, elles doivent avoir froid. Tu sais quoi ? Je vais faire pour elles des petites chemises, des vestes, des gilets et des culottes, et une paire de chaussettes pour chaque silhouette ; toi, prépare une paire de petits souliers pour chaque silhouette."
+        },
+        {
+          "id": "a2e20",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Dites tout bas : merci, petites silhouettes !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e21",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je le veux bien."
+        },
+        {
+          "id": "a2e22",
+          "type": "conteur",
+          "texte": "Le soir, quand tout fut fini, les cadeaux se trouvèrent sur la table à la place du cuir taillé, puis le couple se cacha pour voir ce que feraient les deux silhouettes."
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Les habits et la danse",
+      "resume": "Les deux silhouettes trouvent les cadeaux, chantent, dansent puis ne reviennent plus.",
+      "tableauId": "t3",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e2",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e3",
+          "type": "didascalie",
+          "texte": "Laisser une respiration avant de changer de peluche."
+        },
+        {
+          "id": "a3e4",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e5",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e6",
+          "type": "conteur",
+          "texte": "À minuit, {{r3}} et {{r4}} arrivèrent en sautillant et voulurent aussitôt travailler. Mais quand les deux silhouettes trouvèrent, au lieu du cuir taillé, les jolis petits vêtements, elles furent d’abord étonnées, puis montrèrent une joie immense. En un clin d’œil, les beaux habits se trouvèrent sur les deux silhouettes, bien lisses ; puis elles chantèrent :"
+        },
+        {
+          "id": "a3e7",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "N’avons-nous pas belle allure ?"
+        },
+        {
+          "id": "a3e8",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Pourquoi continuer à faire des chaussures ?"
+        },
+        {
+          "id": "a3e9",
+          "type": "adresse_public",
+          "marionnetteId": "r3",
+          "texte": "Reprenez avec nous : « N’avons-nous pas belle allure ? »",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e10",
+          "type": "adresse_public",
+          "marionnetteId": "r4",
+          "texte": "Faites un petit bond avec nous !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e11",
+          "type": "conteur",
+          "texte": "Puis {{r3}} et {{r4}} sautèrent et dansèrent, bondirent par-dessus les chaises et les bancs. Enfin les deux silhouettes sortirent par la porte en dansant. À partir de ce jour, {{r3}} et {{r4}} ne revinrent plus. Mais {{r1}} vécut heureux tant qu'il vécut, et tout ce qu'il entreprit lui réussit."
+        },
+        {
+          "id": "a3e12",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e13",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "de-lutins-cordonnier",
+    "synopsis": {
+      "accroche": "Une, deux, quatre paires de chaussures : qui travaille chaque nuit ?",
+      "resume": [
+        "{{r1}} retrouve chaque matin des chaussures cousues et devient aisé.",
+        "{{r1}} et {{r2}} guettent et voient deux lutins sans vêtements travailler la nuit.",
+        "Le couple prépare des habits et des souliers ; les lutins chantent, dansent, partent, et le bonheur demeure."
+      ]
+    },
+    "transposition": {
+      "texte": "Il était un cordonnier, {{r1}}, qui, sans que ce soit sa faute, était devenu si pauvre qu'à la fin il ne lui restait plus que du cuir pour une seule paire de chaussures. Le soir, le cuir de la dernière paire fut taillé, prêt pour le travail du lendemain matin. Et comme il avait la conscience tranquille, il se coucha paisiblement, fit sa prière et s'endormit.\n\nLe matin, quand il voulut s'asseoir à son ouvrage, les deux chaussures étaient là, toutes finies, sur sa table. Il fut stupéfait et ne savait qu'en dire. Il examina les chaussures de plus près : elles étaient si bien faites qu'il n'y avait pas un point de travers, exactement comme un chef-d'œuvre. Bientôt un client entra, et comme les chaussures lui plaisaient beaucoup, il les paya plus cher que d'habitude. Avec cet argent, {{r1}} put acheter du cuir pour deux paires.\n\nLe cuir de deux paires fut taillé le soir. {{r1}} voulut s’y mettre le lendemain matin avec courage, mais il n'en eut pas besoin : quand il se leva, elles étaient déjà finies. Et les clients ne manquèrent pas, qui lui donnèrent tant d'argent qu'il put acheter du cuir pour quatre paires. Au petit matin, il trouva les quatre paires finies. Et cela continua ainsi : le cuir taillé le soir donnait des chaussures cousues le matin, si bien qu'il retrouva bientôt de quoi vivre honnêtement, et finit même par devenir un homme aisé.\n\nUn soir, peu avant Noël, alors que le cuir du cordonnier venait encore d’être taillé, il dit à sa femme, {{r2}}, avant d'aller se coucher :\n\n— Et si nous ne dormions pas cette nuit, pour voir qui nous apporte une aide si secourable ?\n\n{{r2}} fut d’accord. Une chandelle éclaira la pièce. Puis le couple se cacha dans les coins de la pièce, derrière les vêtements qui y étaient pendus, et guetta.\n\nÀ minuit, arrivèrent {{r3}}, un petit lutin mignon, et {{r4}}, un autre petit lutin mignon, sans vêtements. Les deux silhouettes s'assirent à la table du cordonnier ; les chaussures prirent forme, les coutures avancèrent et les coups de marteau sonnèrent si vite et si adroitement que {{r1}} n'en pouvait détacher les yeux. Le travail ne s'arrêta pas avant que tout soit terminé et posé sur la table ; puis les deux silhouettes filèrent en sautillant.\n\nLe lendemain matin, {{r2}} dit :\n\n— Ces deux petites silhouettes nous ont apporté la richesse, nous devrions leur montrer notre reconnaissance. Elles courent partout, elles n'ont rien sur le dos, elles doivent avoir froid. Tu sais quoi ? Je vais faire pour elles des petites chemises, des vestes, des gilets et des culottes, et une paire de chaussettes pour chaque silhouette ; toi, prépare une paire de petits souliers pour chaque silhouette.\n\n— Je le veux bien, dit {{r1}}.\n\nLe soir, quand tout fut fini, les cadeaux se trouvèrent sur la table à la place du cuir taillé, puis le couple se cacha pour voir ce que feraient les deux silhouettes.\n\nÀ minuit, {{r3}} et {{r4}} arrivèrent en sautillant et voulurent aussitôt travailler. Mais quand les deux silhouettes trouvèrent, au lieu du cuir taillé, les jolis petits vêtements, elles furent d’abord étonnées, puis montrèrent une joie immense. En un clin d’œil, les beaux habits se trouvèrent sur les deux silhouettes, bien lisses ; puis elles chantèrent :\n\n« N’avons-nous pas belle allure ?\nPourquoi continuer à faire des chaussures ? »\n\nPuis {{r3}} et {{r4}} sautèrent et dansèrent, bondirent par-dessus les chaises et les bancs. Enfin les deux silhouettes sortirent par la porte en dansant. À partir de ce jour, {{r3}} et {{r4}} ne revinrent plus. Mais {{r1}} vécut heureux tant qu'il vécut, et tout ce qu'il entreprit lui réussit.\n"
+    }
+  },
+  "dureeEstimeeSecondes": 448,
+  "interactionsOrdonnees": [
+    "a1e4",
+    "a1e6",
+    "a1e8",
+    "a2e6",
+    "a2e20",
+    "a3e9",
+    "a3e10"
+  ]
+}

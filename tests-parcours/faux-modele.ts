@@ -1,0 +1,301 @@
+// Faux fournisseur d'IA pour les tests de parcours.
+//
+// Il répond à /chat/completions comme le ferait un vrai modèle, en choisissant
+// sa réponse d'après le prompt système reçu. Aucun appel réel n'est fait : les
+// tests doivent tourner sans clé, sans réseau et sans coût.
+import type { Page, Route } from '@playwright/test';
+
+/** Les trois marionnettes utilisées par le parcours principal. */
+export const TROIS_MARIONNETTES = ['Doudou Lapin', 'Renard Rusé', 'Ourse Gourmande'];
+
+/** Fabrique un texte d'environ `n` mots, pour piloter la durée estimée. */
+function mots(n: number): string {
+  return Array.from({ length: n }, (_, i) => (i % 5 === 0 ? 'carotte' : 'mot')).join(' ');
+}
+
+/**
+ * Ce que rend l'appel de la phase 1 : trois synopsis, pris parmi les contes
+ * que l'application a retenus. Le faux modèle les lit dans le prompt, comme le
+ * vrai : un conte qui n'était pas dans la liste serait refusé par le schéma.
+ */
+function synopsis(user: string, suffixe = '') {
+  // Comme le vrai modèle, on suit la « Distribution proposée » de CHAQUE
+  // conte : sur une scène garnie c'est toujours la même troupe, mais avec la
+  // scène vide elle change d'un candidat à l'autre, et le schéma la vérifie.
+  const blocs = user.split(/^### /m).slice(1);
+  const candidats = blocs.map((bloc) => {
+    const id = /^([a-z0-9-]+) — /.exec(bloc)?.[1] ?? '';
+    const section = (bloc.split('Distribution proposée :')[1] ?? '').split(/\n[ \t]*\n/)[0];
+    const distribution = [...section.matchAll(/^\s*- (.+?) joue ([^[\n]+)/gm)]
+      .map((m) => ({ marionnette: m[1].trim(), role: m[2].trim(), note: 'avec son caractère' }));
+    return { id, distribution };
+  }).filter((c) => c.id && c.distribution.length > 0);
+  return {
+    synopsis: candidats.slice(0, 3).map((c, i) => ({
+      conte: c.id,
+      // Le titre que le modèle propose est IGNORÉ : l'application recopie
+      // celui de la fiche. On en met un faux exprès, pour que les parcours
+      // vérifient qu'il ne remonte jamais jusqu'au parent.
+      titre: 'La carotte disparue',
+      accroche: `De quoi parle l’histoire ${i + 1}, en une ligne${suffixe}.`,
+      resume: [
+        'Doudou Lapin cherche la carotte de son anniversaire.',
+        'Renard Rusé l’envoie sur une fausse piste.',
+        'Ourse Gourmande finit par avouer.',
+      ],
+      distribution: c.distribution,
+      changements: ['La fin est adoucie : personne n’est mangé.'],
+    })),
+  };
+}
+
+/**
+ * Ce que rend l'appel d'adaptation : ce qui change par rapport au conte, puis
+ * le découpage en tableaux et en actes.
+ */
+const construction = {
+  // Le titre du découpage n'est pas celui du spectacle : c'est la carte
+  // choisie qui le donne.
+  titre: 'Titre du découpage',
+  pitch: 'Doudou Lapin cherche la carotte de son anniversaire.',
+  changements: ['Le loup du conte devient Renard Rusé, qui ne mange personne.'],
+  // La voix est décidée ici, pour ce spectacle : la fiche de la marionnette
+  // n'en porte plus. Ourse Gourmande n'en reçoit pas : c'est permis.
+  voix: [
+    { marionnette: 'Doudou Lapin', voix: 'voix fluette, parle vite' },
+    { marionnette: 'Renard Rusé', voix: 'voix traînante, dit « sapristi »' },
+  ],
+  tableaux: [
+    { id: 't1', titre: 'La clairière', description: 'Un buisson vert et de l’herbe haute.', accessoires: ['une carotte en carton'] },
+    { id: 't2', titre: 'Le terrier', description: 'Un tunnel de tissu brun.', accessoires: [] },
+  ],
+  actes: [
+    {
+      numero: 1, titre: 'La disparition', tableauId: 't1',
+      resume: 'Lapin découvre que sa carotte a disparu.',
+      passage: 'De « Il était une fois » à « a disparu ».',
+      temps: ['Lapin cherche', 'Renard arrive', 'Premier faux indice'],
+      mouvements: [
+        { type: 'entree', marionnette: 'Doudou Lapin', main: 'M1G' },
+        { type: 'entree', marionnette: 'Renard Rusé', main: 'M1D' },
+      ],
+      momentsPublic: ['Les enfants cherchent avec Lapin'],
+      budgetMots: 140,
+    },
+    {
+      numero: 2, titre: 'La fausse piste', tableauId: 't2',
+      resume: 'Renard envoie Lapin au mauvais endroit.',
+      temps: ['Départ', 'Rencontre d’Ourse', 'Doute'],
+      mouvements: [
+        { type: 'sortie', marionnette: 'Renard Rusé', main: 'M1D' },
+        { type: 'entree', marionnette: 'Ourse Gourmande', main: 'M1D' },
+      ],
+      momentsPublic: ['Vote des enfants'],
+      budgetMots: 140,
+    },
+    {
+      numero: 3, titre: 'L’aveu', tableauId: 't1',
+      resume: 'Ourse avoue et tous replantent.',
+      temps: ['Aveu', 'Pardon', 'Plantation'],
+      mouvements: [],
+      momentsPublic: ['Les enfants comptent jusqu’à trois'],
+      budgetMots: 140,
+    },
+  ],
+};
+
+/**
+ * Les trois actes écrits. Le nombre de mots est calibré pour que la durée
+ * estimée tombe dans la fourchette de 4 à 6 minutes exigée par le CDC §13.
+ */
+const actesEcrits = [
+  {
+    elements: [
+      { type: 'entree', marionnette: 'Doudou Lapin', main: 'M1G' },
+      { type: 'replique', marionnette: 'Doudou Lapin', texte: mots(120), ton: 'affolé' },
+      { type: 'didascalie', texte: 'Il regarde sous le buisson.' },
+      { type: 'entree', marionnette: 'Renard Rusé', main: 'M1D' },
+      { type: 'replique', marionnette: 'Renard Rusé', texte: mots(15) },
+      { type: 'adresse_public', marionnette: 'Doudou Lapin', texte: 'Vous l’avez vue, vous ?', attenteReponse: true },
+      { type: 'note_marionnettiste', texte: 'Laisser les enfants répondre.' },
+    ],
+  },
+  {
+    elements: [
+      { type: 'replique', marionnette: 'Renard Rusé', texte: mots(60) },
+      { type: 'sortie', marionnette: 'Renard Rusé', main: 'M1D' },
+      { type: 'entree', marionnette: 'Ourse Gourmande', main: 'M1D' },
+      { type: 'replique', marionnette: 'Ourse Gourmande', texte: mots(70) },
+      { type: 'didascalie', texte: 'Ourse détourne le regard.' },
+      { type: 'adresse_public', marionnette: 'Ourse Gourmande', texte: 'Je dois tout dire ?', attenteReponse: true },
+    ],
+  },
+  {
+    elements: [
+      { type: 'replique', marionnette: 'Ourse Gourmande', texte: mots(70) },
+      { type: 'replique', marionnette: 'Doudou Lapin', texte: mots(65) },
+      { type: 'didascalie', texte: 'Ils creusent ensemble.' },
+      { type: 'adresse_public', marionnette: 'Doudou Lapin', texte: 'Vous comptez avec nous ?', attenteReponse: true },
+      { type: 'sortie', marionnette: 'Doudou Lapin', main: 'M1G' },
+      { type: 'sortie', marionnette: 'Ourse Gourmande', main: 'M1D' },
+    ],
+  },
+];
+
+/** Aucun problème à signaler : la relecture n'a rien trouvé. */
+const relectureVide = { remarques: [] };
+
+export interface OptionsFauxModele {
+  /** Force une erreur HTTP à l'appel numéro n (à partir de 1). */
+  echecAuNumero?: number;
+  statutEchec?: number;
+  /** Renvoie une conduite injouable au premier appel de l'étape 6. */
+  conduiteInjouableDabord?: boolean;
+  /** Renvoie du texte non JSON au premier appel, pour tester la relance. */
+  jsonInvalideDabord?: boolean;
+  /** Temps de réponse simulé, pour rendre la progression observable. */
+  delaiMs?: number;
+  /**
+   * Coupe les réponses des N premiers appels d'écriture, comme le fait un
+   * modèle à raisonnement dont le budget de jetons est épuisé.
+   */
+  tronquerEcrituresDabord?: number;
+  /** La revue finale répond toujours hors format : le spectacle doit être livré quand même. */
+  relectureInvalide?: boolean;
+  /** Le directeur éditorial fait une remarque de détail sur cet acte. */
+  remarqueSurActe?: number;
+}
+
+/**
+ * Installe le faux fournisseur sur la page.
+ * Renvoie un compteur des appels, consultable par le test.
+ */
+export async function installerFauxModele(page: Page, o: OptionsFauxModele = {}) {
+  const compteurs = {
+    total: 0, actes: 0, conduites: 0, ecrituresTronquees: 0,
+    /** Ce que le directeur éditorial a reçu pour sa revue, puis pour réécrire. */
+    revue: { original: false, transpose: false },
+    reecritures: [] as { acte: number; parLeDirecteur: boolean; original: boolean; scriptEntier: boolean; modification: boolean }[],
+  };
+
+  await page.route('**/chat/completions', async (route: Route) => {
+    compteurs.total++;
+
+    if (o.echecAuNumero === compteurs.total) {
+      await route.fulfill({
+        status: o.statutEchec ?? 401,
+        contentType: 'application/json',
+        body: JSON.stringify({ error: { message: 'refus simulé' } }),
+      });
+      return;
+    }
+
+    if (o.delaiMs) await new Promise((r) => setTimeout(r, o.delaiMs));
+
+    const corps = JSON.parse(route.request().postData() ?? '{}');
+    const system: string = corps.messages?.[0]?.content ?? '';
+
+    let charge: unknown;
+
+    const user: string = corps.messages?.[1]?.content ?? '';
+
+    // L'écriture et la correction d'un acte d'abord : le prompt de correction
+    // cite aussi le directeur éditorial, dont il applique les propositions.
+    if (system.includes('écrire cet acte en entier')
+        || system.includes('réécrire cet acte')) {
+      // Même réponse pour l'écriture et la régénération. Une correction rend
+      // l'acte qu'on lui a demandé de corriger, tel quel.
+      const corrige = system.includes('réécrire cet acte')
+        ? Number(user.match(/Conduite de l’acte :\nActe (\d+)/)?.[1] ?? 0)
+        : 0;
+      if (corrige) {
+        compteurs.reecritures.push({
+          acte: corrige,
+          parLeDirecteur: system.includes('DIRECTEUR ÉDITORIAL'),
+          original: user.includes('LE CONTE D’ORIGINE'),
+          scriptEntier: user.includes('Script entier'),
+          modification: user.includes('Modification : Nommer la carotte.'),
+        });
+      }
+      // Les actes s'écrivent EN PARALLÈLE : la réponse suit le numéro d'acte
+      // demandé dans le prompt, jamais l'ordre d'arrivée des appels.
+      const demande = Number(user.match(/Conduite de l’acte à écrire :\nActe (\d+)/)?.[1] ?? 0);
+      charge = corrige
+        ? actesEcrits[Math.min(corrige - 1, actesEcrits.length - 1)]
+        : actesEcrits[Math.min((demande || compteurs.actes + 1) - 1, actesEcrits.length - 1)];
+    } else if (system.includes('TROIS SYNOPSIS')) {
+      // Phase 1 : trois synopsis. Le suffixe distingue les relances.
+      charge = synopsis(user, user.includes('déjà vu') ? ' bis' : '');
+    } else if (system.includes('PREMIÈRE PASSE')) {
+      // Passe 1 : le conte transposé pour les marionnettes.
+      charge = {
+        texte: 'Il était une fois Doudou Lapin, qui avait perdu sa carotte. Renard Rusé passa '
+          + 'par là. « As-tu vu ma carotte ? » demanda Doudou Lapin. Ourse Gourmande, elle, '
+          + 'se tenait le ventre.',
+        changements: [],
+      };
+    } else if (system.includes('LE DÉCOUPAGE SUIT LE CONTE')) {
+      compteurs.conduites++;
+      if (o.conduiteInjouableDabord && compteurs.conduites === 1) {
+        // Trois marionnettes pour un marionnettiste : la simulation doit le
+        // détecter AVANT que le moindre dialogue ne soit écrit.
+        const injouable = structuredClone(construction);
+        injouable.actes[0].mouvements.push({
+          type: 'entree', marionnette: 'Ourse Gourmande', main: 'M2G',
+        });
+        charge = injouable;
+      } else {
+        charge = construction;
+      }
+    } else if (system.includes('DIRECTEUR ÉDITORIAL')) {
+      compteurs.revue = {
+        // Le conte d'origine n'est PLUS envoyé : sa transposition, qui porte
+        // tout ce qu'il raconte, est la seule référence (révision 2026-09-27).
+        original: user.includes('LE CONTE D’ORIGINE'),
+        transpose: user.includes('TRANSPOSÉ POUR LES MARIONNETTES'),
+      };
+      charge = o.relectureInvalide
+        ? { remarques: [{ remarque: '' }] }
+        : o.remarqueSurActe
+          ? { remarques: [{
+            acte: o.remarqueSurActe, gravite: 'mineur',
+            remarque: 'On ne sait pas ce que cherche Doudou Lapin.',
+            modification: 'Nommer la carotte.',
+          }] }
+          : relectureVide;
+    } else {
+      charge = { ok: true, couleur: 'rouge' };
+    }
+
+    // Le premier appel peut renvoyer du texte libre, pour éprouver la relance.
+    let contenu = o.jsonInvalideDabord && compteurs.total === 1
+      ? 'Bien sûr ! Voici ce que je propose, mais sans JSON.'
+      : `\`\`\`json\n${JSON.stringify(charge)}\n\`\`\``;
+
+    // Troncature simulée : la réponse est coupée au milieu, et le fournisseur
+    // l'annonce par finish_reason « length ». C'est ce que fait un modèle à
+    // raisonnement dont le budget de jetons est épuisé.
+    let motifArret = 'stop';
+    const ecriture = system.includes('écrire cet acte en entier');
+    if (ecriture
+        && o.tronquerEcrituresDabord
+        && compteurs.ecrituresTronquees < o.tronquerEcrituresDabord) {
+      compteurs.ecrituresTronquees++;
+      contenu = contenu.slice(0, Math.floor(contenu.length / 2));
+      motifArret = 'length';
+    } else if (ecriture) {
+      compteurs.actes++;
+    }
+
+    await route.fulfill({
+      status: 200,
+      contentType: 'application/json',
+      body: JSON.stringify({
+        choices: [{ message: { content: contenu }, finish_reason: motifArret }],
+        usage: { prompt_tokens: 900, completion_tokens: 400, total_tokens: 1300 },
+      }),
+    });
+  });
+
+  return compteurs;
+}

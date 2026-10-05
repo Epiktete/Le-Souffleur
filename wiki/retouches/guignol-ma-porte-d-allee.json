@@ -1,0 +1,21 @@
+{
+  "id": "guignol-ma-porte-d-allee",
+  "langue": [
+    {"avant": "Des pratiques comme nous", "apres": "Des clients comme nous", "nature": "faux-ami"},
+    {"avant": "d’une pratique au patron", "apres": "d’un client au patron", "nature": "faux-ami"}
+  ],
+  "moments": [
+    {
+      "id": "la-femme-obligee-de-suivre",
+      "type": "mal-vieilli",
+      "niveaux": [
+        {
+          "jusqua": 10,
+          "retouches": [
+            {"avant": "Madelon, tu vas avec ces vauriens ! MADELON. La femme est obligée de suivre son mari, partout ousqu’il la mène… c’est dans le code… M SERINGUET. Mais, emmenez-moi au moins.", "apres": "Madelon, tu vas avec ces vauriens !… Mais, emmenez-moi au moins."}
+          ]
+        }
+      ]
+    }
+  ]
+}

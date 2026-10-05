@@ -1,0 +1,7 @@
+{
+  "id": "ja-momotaro",
+  "langue": [
+    {"avant": "donnez-moi congé pour quelque temps", "apres": "laissez-moi partir pour quelque temps", "nature": "faux-ami"}
+  ],
+  "moments": []
+}

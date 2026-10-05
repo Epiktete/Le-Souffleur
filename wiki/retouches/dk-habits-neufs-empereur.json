@@ -1,0 +1,10 @@
+{
+  "id": "dk-habits-neufs-empereur",
+  "langue": [
+    {"avant": "tous ceux qui n'étaient pas dignes de leur charge", "apres": "tous ceux qui n'étaient pas dignes de leur charge, c'est-à-dire qui ne savaient pas faire leur travail", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "Serais-je sot ?", "apres": "Est-ce que je serais sot ?", "nature": "parler", "jusqua": 4},
+    {"avant": "Ne serais-je pas digne de ma charge ?", "apres": "Est-ce que je ne serais pas digne de ma charge ?", "nature": "parler", "jusqua": 4},
+    {"avant": "Suis-je sot ? Ne suis-je pas digne d'être empereur ?", "apres": "Est-ce que je suis sot ? Est-ce que je ne suis pas digne d'être empereur ?", "nature": "parler", "jusqua": 4}
+  ],
+  "moments": []
+}

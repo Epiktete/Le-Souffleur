@@ -1,0 +1,22 @@
+{
+  "id": "afr-courge-qui-parle",
+  "langue": [
+    {"avant": "Pourquoi nous avez-vous trompées et dupées ?", "apres": "Pourquoi vous nous avez trompées et dupées ?", "nature": "parler", "jusqua": 4}
+  ],
+  "moments": [
+    {
+      "id": "courge-tuee",
+      "type": "punition",
+      "niveaux": [
+        {
+          "jusqua": 4,
+          "annonce": "La Courge ne meurt pas : blessée par les flèches du garçon, elle rugit en ouvrant la bouche toute grande, et tout le village en sort.",
+          "retouches": [
+            {"avant": "Il tira six flèches, enfin la courge mourut et rugit tellement qu’on l’entendit jusqu’à Vouga.", "apres": "Il tira six flèches, enfin la courge rugit tellement qu’on l’entendit jusqu’à Vouga, et elle ouvrit la bouche toute grande."},
+            {"avant": "Le jeune homme dit à sa mère : — Apporte mon couteau. Avec cela il trancha la courge ; les gens en sortirent et dirent :", "apres": "Les gens sortirent de la courge et dirent :"}
+          ]
+        }
+      ]
+    }
+  ]
+}

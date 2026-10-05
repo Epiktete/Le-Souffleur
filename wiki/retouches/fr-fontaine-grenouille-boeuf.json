@@ -1,0 +1,8 @@
+{
+  "id": "fr-fontaine-grenouille-boeuf",
+  "langue": [
+    {"avant": "Nenni.", "apres": "Non, non.", "nature": "mot-disparu"},
+    {"avant": "La chétive pécore", "apres": "La petite vaniteuse", "nature": "mot-rare", "jusqua": 6}
+  ],
+  "moments": []
+}

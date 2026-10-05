@@ -1,0 +1,33 @@
+{"titre": "Le pot de miel de Petite Souris et Gros Loup", "pitch": "Petite Souris et Gros Loup cachent un pot de miel pour l’hiver, mais Gros Loup le vide en cachette, jusqu’à ce que la ruse éclate devant tout le monde.",
+ "changements": ["Le deuxième faux baptême (« À-moitié ») est supprimé en entier pour tenir dans les 5 minutes : Gros Loup ne s’éclipse que deux fois, et la seconde fois il vide le pot d’un coup, si bien que le filleul s’appelle directement « Tout-Fini ».", "Les moments où Gros Loup goûte le miel en cachette ne sont pas montrés : il sort simplement de scène puis revient annoncer le nom du filleul, car une peluche n’a pas de doigts pour ouvrir un pot.", "Le neveu du faux baptême n’est jamais une marionnette : c’est un personnage inventé par Gros Loup dans ses mensonges, on ne le voit donc jamais en scène."],
+ "tableaux": [
+   {"id": "t1", "titre": "La maison", "description": "Tends un drap ou une couverture marron derrière toi pour marquer l’intérieur de la maison. Tu peux poser un coussin devant toi pour figurer le sol de la pièce. Rien d’autre n’est nécessaire pour ce tableau.", "accessoires": []},
+   {"id": "t2", "titre": "Le chêne", "description": "Installe un grand carton ou un drap vert-brun pour figurer le tronc du chêne, avec un creux bien visible (un trou découpé ou un pli du tissu). Pose au pied du tronc un petit pot vide, à moitié caché, que tu ne toucheras plus avant la fin.", "accessoires": ["Un petit pot vide (pot à miel ou à confiture), posé au pied de l’arbre, jamais touché par les marionnettes"]}
+ ],
+ "actes": [
+   {"numero": 1, "titre": "Le pot caché", "tableauId": "t1",
+     "resume": "Petite Souris et Gros Loup décident de vivre ensemble et achètent un pot de miel pour passer l’hiver au chaud. Ils choisissent de le cacher dans le creux du grand chêne.",
+     "passage": "De « Gros Loup avait fait la connaissance de Petite Souris… » à « …nous n’y toucherons pas avant d’en avoir besoin. »",
+     "temps": ["Petite Souris et Gros Loup décident de vivre ensemble.", "Ils achètent un pot de miel pour l’hiver.", "Ils choisissent une cachette : le creux du grand chêne."],
+     "mouvements": [{"type": "entree", "marionnette": "Petite Souris", "main": "M1G"}, {"type": "entree", "marionnette": "Gros Loup", "main": "M1D"}],
+     "momentsPublic": ["On demande aux enfants : « À votre avis, où faut-il cacher le pot pour que personne ne le trouve ? »", "On fait deviner aux enfants ce qu’il y a dans le pot avant de le dire."],
+     "budgetMots": 140},
+   {"numero": 2, "titre": "Les faux baptêmes", "tableauId": "t1",
+     "resume": "Gros Loup s’invente des prétextes pour s’éclipser et grignoter le miel en cachette, donnant chaque fois un drôle de nom au « bébé » de son faux baptême. Petite Souris s’étonne sans comprendre, et l’hiver approche.",
+     "passage": "De « Le petit pot fut donc mis à l’abri. » à « …Elle secoua la tête, se roula en boule et s’endormit. »",
+     "temps": ["Gros Loup invente un premier baptême pour s’éclipser et goûter le miel : le filleul s’appelle « Entamé ».", "Il recommence, vide le reste du pot d’un coup : le filleul s’appelle « Tout-Fini ».", "Petite Souris s’étonne de ces noms étranges et s’endort, sans comprendre."],
+     "mouvements": [{"type": "sortie", "marionnette": "Gros Loup"}, {"type": "entree", "marionnette": "Gros Loup", "main": "M1D"}, {"type": "sortie", "marionnette": "Gros Loup"}, {"type": "entree", "marionnette": "Gros Loup", "main": "M1D"}],
+     "momentsPublic": ["On demande aux enfants : « Entamé, ça veut dire quoi, à votre avis ? »", "On fait deviner aux enfants pourquoi Gros Loup revient toujours le ventre plein.", "On demande : « Vous, vous y croyez, à ces baptêmes ? »"],
+     "budgetMots": 160},
+   {"numero": 3, "titre": "Tout-Fini !", "tableauId": "t2",
+     "resume": "L’hiver venu, Petite Souris et Gros Loup vont ensemble chercher le pot promis : il est vide. Petite Souris comprend d’un coup et le dit devant tout le monde ; Gros Loup, confus, part réparer sa faute.",
+     "passage": "De « À partir de ce jour, plus personne ne demanda à Gros Loup d’être parrain. » à « …Tu vois, c’est ainsi que va le monde. »",
+     "temps": ["L’hiver arrive ; ils vont ensemble chercher leur pot de miel.", "Le pot est vide : Petite Souris comprend et dit « Tout-Fini ! » devant tout le monde.", "Gros Loup, confus, promet de trouver un nouveau pot de miel."],
+     "mouvements": [{"type": "sortie", "marionnette": "Gros Loup"}],
+     "momentsPublic": ["On demande aux enfants, avant d’ouvrir : « À votre avis, qu’est-ce qu’on va trouver dans le pot ? »", "On laisse les enfants deviner et crier le nom avant que Petite Souris ne le dise.", "On demande aux enfants comment Gros Loup pourrait se faire pardonner."],
+     "budgetMots": 220}
+ ],
+ "voix": [
+   {"marionnette": "Gros Loup", "voix": "voix grave et un peu traînante, qui commence chaque mensonge par un « Euh... » hésitant"},
+   {"marionnette": "Petite Souris", "voix": "voix aiguë et pressée, qui répète le dernier mot entendu avec étonnement"}
+ ]}

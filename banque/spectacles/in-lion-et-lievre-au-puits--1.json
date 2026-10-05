@@ -1,0 +1,700 @@
+{
+  "id": "in-lion-et-lievre-au-puits--1",
+  "conteId": "in-lion-et-lievre-au-puits",
+  "titre": "Le Lion et le Lièvre au puits",
+  "pitch": "{{r1}} arrive en retard chez {{r2}} et lui parle d’un rival au fond d’un puits. {{r2}} attaque son propre reflet.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "lievre",
+      "famille": "petit",
+      "traits": [
+        "rusé",
+        "courageux",
+        "sage"
+      ],
+      "voix": "voix douce et posée, qui tremble plus qu’il n’en a besoin devant {{r2}}",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "voix:r1",
+            "avant": "qu’il n’en a besoin",
+            "apres": "qu’elle n’en a besoin"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "vieux, petit et malin",
+            "apres": "vieille, petite et maligne"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "Il partit",
+            "apres": "Elle partit"
+          },
+          {
+            "id": "a1e13:texte",
+            "avant": "il passa",
+            "apres": "elle passa"
+          },
+          {
+            "id": "a1e15:texte",
+            "avant": "Il vit",
+            "apres": "Elle vit"
+          },
+          {
+            "id": "a1e15:texte",
+            "avant": "Puis il continua",
+            "apres": "Puis elle continua"
+          },
+          {
+            "id": "a1e15:texte",
+            "avant": "qu’il arriva",
+            "apres": "qu’elle arriva"
+          },
+          {
+            "id": "a2e5:texte",
+            "avant": "qu’il n’en a besoin",
+            "apres": "qu’elle n’en a besoin"
+          },
+          {
+            "id": "a2e9:texte",
+            "avant": "m’a laissé",
+            "apres": "m’a laissée"
+          },
+          {
+            "id": "a2e12:texte",
+            "avant": "je me suis penché",
+            "apres": "je me suis penchée"
+          },
+          {
+            "id": "a3e16:texte",
+            "avant": "comme il était venu",
+            "apres": "comme elle était venue"
+          },
+          {
+            "id": "a3e16:texte",
+            "avant": "le vit revenir seul",
+            "apres": "la vit revenir seule"
+          },
+          {
+            "id": "a3e16:texte",
+            "avant": "qu’il lui eut conté",
+            "apres": "qu’elle lui eut conté"
+          },
+          {
+            "id": "a3e16:texte",
+            "avant": "du petit",
+            "apres": "de la petite"
+          },
+          {
+            "id": "a3e16:texte",
+            "avant": "celui qui avait vaincu",
+            "apres": "celle qui avait vaincu"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a2e6:texte",
+          "avant": "quatre lièvres",
+          "gabarit": "quatre {especes}"
+        },
+        {
+          "id": "a2e7:texte",
+          "avant": "quatre lièvres",
+          "gabarit": "quatre {especes}"
+        },
+        {
+          "id": "a2:resume",
+          "avant": "trois lièvres",
+          "gabarit": "trois {especes}"
+        }
+      ]
+    },
+    {
+      "cle": "r2",
+      "espece": "lion",
+      "famille": "predateur",
+      "traits": [
+        "fort",
+        "orgueilleux",
+        "méchant"
+      ],
+      "voix": "voix grave et rugueuse, plus forte devant le puits",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e1:texte",
+            "avant": "nommé",
+            "apres": "nommée"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "si fort et si fier",
+            "apres": "si forte et si fière"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "qu’il chassait",
+            "apres": "qu’elle chassait"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "qu’il ne pouvait manger",
+            "apres": "qu’elle ne pouvait manger"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "Seigneur",
+            "apres": "Madame"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "est fort",
+            "apres": "est forte"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "affamé",
+            "apres": "affamée"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "Seigneur",
+            "apres": "Madame"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "Il a mangé",
+            "apres": "Elle a mangé"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "il a crié",
+            "apres": "elle a crié"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "le roi",
+            "apres": "la reine"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "qu’un voleur",
+            "apres": "qu’une voleuse"
+          },
+          {
+            "id": "a2e9:texte",
+            "avant": "Le plus terrible",
+            "apres": "La plus terrible"
+          },
+          {
+            "id": "a2e9:texte",
+            "avant": "j’aie vu",
+            "apres": "j’aie vue"
+          },
+          {
+            "id": "a2e9:texte",
+            "avant": "seigneur",
+            "apres": "madame"
+          },
+          {
+            "id": "a2e9:texte",
+            "avant": "Il m’a",
+            "apres": "Elle m’a"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "tout hérissé",
+            "apres": "toute hérissée"
+          },
+          {
+            "id": "a2e12:texte",
+            "avant": "seigneur",
+            "apres": "madame"
+          },
+          {
+            "id": "a2e12:texte",
+            "avant": "il s’est dressé",
+            "apres": "elle s’est dressée"
+          },
+          {
+            "id": "a3e2:texte",
+            "avant": "le regardait",
+            "apres": "la regardait"
+          },
+          {
+            "id": "a3e2:texte",
+            "avant": "tout hérissé",
+            "apres": "toute hérissée"
+          },
+          {
+            "id": "a3e6:texte",
+            "avant": "le roi",
+            "apres": "la reine"
+          },
+          {
+            "id": "a3e12:texte",
+            "avant": "son rival",
+            "apres": "sa rivale"
+          },
+          {
+            "id": "a3e14:texte",
+            "avant": "Il n’y trouva",
+            "apres": "Elle n’y trouva"
+          },
+          {
+            "id": "a3e16:texte",
+            "avant": "le terrible",
+            "apres": "la terrible"
+          },
+          {
+            "id": "a3e16:texte",
+            "avant": "s’était jeté",
+            "apres": "s’était jetée"
+          },
+          {
+            "id": "pitch",
+            "avant": "d’un rival",
+            "apres": "d’une rivale"
+          },
+          {
+            "id": "a2:titre",
+            "avant": "Le rival inventé",
+            "apres": "La rivale inventée"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "le rival",
+            "apres": "la rivale"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "vint le trouver",
+            "apres": "vint la trouver"
+          },
+          {
+            "id": "a1e6:ton",
+            "avant": "menaçant",
+            "apres": "menaçante"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "est sorti",
+            "apres": "est sortie"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "à lui",
+            "apres": "à elle"
+          },
+          {
+            "id": "a2e12:texte",
+            "avant": "Il habite",
+            "apres": "Elle habite"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a1e1:texte",
+          "avant": "un lion",
+          "gabarit": "{un} {espece}"
+        },
+        {
+          "id": "a1e11:texte",
+          "avant": "Un lion",
+          "gabarit": "{Un} {espece}"
+        },
+        {
+          "id": "a2e6:texte",
+          "avant": "un autre lion",
+          "gabarit": "{un} autre {espece}"
+        },
+        {
+          "id": "a2e6:texte",
+          "avant": "Ce lion de caverne",
+          "gabarit": "{Ce|Cette} {espece} de caverne"
+        },
+        {
+          "id": "a2e8:texte",
+          "avant": "Un autre lion",
+          "gabarit": "{Un} autre {espece}"
+        },
+        {
+          "id": "a3e2:texte",
+          "avant": "un lion",
+          "gabarit": "{un} {espece}"
+        },
+        {
+          "id": "a3e10:texte",
+          "avant": "Le lion du puits",
+          "gabarit": "{Le} {espece} du puits"
+        }
+      ]
+    },
+    {
+      "cle": "r3",
+      "espece": "souris",
+      "famille": "petit",
+      "traits": [
+        "peureuse",
+        "solidaire"
+      ],
+      "voix": "voix rapide et claire, qui parle pour la forêt entière",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": []
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 7,
+    "ageAuditoire": 5,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La forêt et le puits",
+      "description": "Deux coussins marquent la caverne et les arbres. Un carton rond posé à plat, ou un coussin formant un rond, marque le puits ; rien ne se met dans l’eau.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "La caverne",
+      "description": "Le coussin de la caverne reste en place. Le rond du puits est déjà visible de l’autre côté pour que le trajet se fasse sans déplacer le décor.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t3",
+      "titre": "Le bord du puits",
+      "description": "Le rond du puits reste fixe. {{r2}} descend derrière le bord du castelet pour son saut ; le reflet est raconté et se joue par les mouvements du même corps, sans autre peluche.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Le marché de la forêt",
+      "resume": "La faune négocie avec {{r2}} ; {{r1}} découvre le puits en allant à la caverne.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Dans une grande forêt vivait un lion nommé {{r2}}, si fort et si fier qu’il chassait du matin au soir, bien plus qu’il ne pouvait manger. Dans la forêt, toute la faune prit peur, tint conseil et vint le trouver. {{r3}} parla pour le groupe :"
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e3",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e4",
+          "type": "replique",
+          "texte": "Seigneur, pourquoi tant chasser ? Reste dans ta caverne, et chaque jour, un animal de notre groupe viendra de lui-même se présenter pour ton repas. Ainsi tu vivras sans peine, et la forêt vivra en paix.",
+          "marionnetteId": "r3"
+        },
+        {
+          "id": "a1e5",
+          "type": "adresse_public",
+          "texte": "Comptez avec moi : « un animal chaque jour ! »",
+          "marionnetteId": "r3",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e6",
+          "type": "replique",
+          "texte": "C’est bien parlé. Mais si un seul jour personne ne vient, je dévorerai toute la forêt !",
+          "marionnetteId": "r2",
+          "ton": "menaçant"
+        },
+        {
+          "id": "a1e7",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e8",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e9",
+          "type": "conteur",
+          "texte": "Depuis ce jour, chaque matin, un animal prenait le chemin de la caverne, et la forêt tremblait en silence. Vint le tour de {{r1}} — vieux, petit et malin. Il partit sans se presser, en réfléchissant tout le long du chemin :"
+        },
+        {
+          "id": "a1e10",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e11",
+          "type": "replique",
+          "texte": "Il faudrait un moyen… Un lion est fort. Mais la force et la ruse, ce n’est pas pareil.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a1e12",
+          "type": "adresse_public",
+          "texte": "Dites tout doucement avec moi : « Un moyen… »",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e13",
+          "type": "conteur",
+          "texte": "En route, il passa devant un vieux puits de pierre, large et profond."
+        },
+        {
+          "id": "a1e14",
+          "type": "didascalie",
+          "texte": "{{r1}} se penche de tout son corps vers le rond sombre du puits, puis se redresse."
+        },
+        {
+          "id": "a1e15",
+          "type": "conteur",
+          "texte": "Il vit son propre reflet trembler tout au fond de l’eau — et décida quoi faire. Puis il continua son chemin, tout doucement, si bien qu’il arriva chez {{r2}} à midi passé."
+        },
+        {
+          "id": "a1e16",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Le rival inventé",
+      "resume": "{{r1}} arrive en retard, raconte le rival qui aurait mangé trois lièvres, et conduit {{r2}} au puits.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "{{r2}}, affamé, rugissait de colère :"
+        },
+        {
+          "id": "a2e2",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e3",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e4",
+          "type": "replique",
+          "texte": "D’où viens-tu, misérable ? Pourquoi si tard ? Je vais te dévorer, et toute la forêt après toi !",
+          "marionnetteId": "r2",
+          "ton": "en colère"
+        },
+        {
+          "id": "a2e5",
+          "type": "didascalie",
+          "texte": "{{r1}} tremble de tout son corps, plus qu’il n’en a besoin."
+        },
+        {
+          "id": "a2e6",
+          "type": "replique",
+          "texte": "Seigneur, ce n’est pas ma faute. Notre groupe comptait quatre lièvres pour ton repas. Mais en chemin, un autre lion est sorti d’un grand trou de pierre. Il a mangé les trois autres, et il a crié : « C’est moi le roi de cette forêt ! Ce lion de caverne n’est qu’un voleur ! »",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a2e7",
+          "type": "adresse_public",
+          "texte": "Dites avec moi combien nous étions : « quatre lièvres ! »",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e8",
+          "type": "replique",
+          "texte": "Quoi ! Un autre lion ? Dans ma forêt ?",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a2e9",
+          "type": "replique",
+          "texte": "Le plus terrible que j’aie vu, seigneur. Il m’a laissé partir pour te porter son défi.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a2e10",
+          "type": "replique",
+          "texte": "Conduis-moi à lui ! Tout de suite !",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a2e11",
+          "type": "conteur",
+          "texte": "{{r1}} trottina devant, et {{r2}} marcha derrière, tout hérissé. Le duo arriva au vieux puits."
+        },
+        {
+          "id": "a2e12",
+          "type": "replique",
+          "texte": "Il habite là-dedans. Mais prends garde, seigneur : quand je me suis penché, il s’est dressé contre moi.",
+          "marionnetteId": "r1",
+          "ton": "tout bas"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Le puits répond",
+      "resume": "{{r2}} voit et entend son reflet, saute dans l’eau froide ; {{r1}} revient et la forêt fête sa ruse.",
+      "tableauId": "t3",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "didascalie",
+          "texte": "{{r2}} se penche de tout son corps vers le rond sombre du puits."
+        },
+        {
+          "id": "a3e2",
+          "type": "conteur",
+          "texte": "Tout au fond, dans le rond sombre du puits, un lion le regardait, tout hérissé."
+        },
+        {
+          "id": "a3e3",
+          "type": "replique",
+          "texte": "Qui es-tu ?",
+          "marionnetteId": "r2",
+          "ton": "en rugissant"
+        },
+        {
+          "id": "a3e4",
+          "type": "note_marionnettiste",
+          "texte": "Voix de l’écho, en coulisse : « Rrrroar ! » — d’une voix énorme et caverneuse."
+        },
+        {
+          "id": "a3e5",
+          "type": "adresse_public",
+          "texte": "Faites avec moi le premier rugissement : « Rrrroar ! »",
+          "marionnetteId": "r2",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e6",
+          "type": "replique",
+          "texte": "C’est moi le roi !",
+          "marionnetteId": "r2",
+          "ton": "en rugissant plus fort"
+        },
+        {
+          "id": "a3e7",
+          "type": "note_marionnettiste",
+          "texte": "Voix de l’écho, en coulisse : « RRRROAR ! » — encore plus fort."
+        },
+        {
+          "id": "a3e8",
+          "type": "adresse_public",
+          "texte": "Rugissez encore plus fort avec moi : « RRRROAR ! »",
+          "marionnetteId": "r2",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e9",
+          "type": "didascalie",
+          "texte": "{{r2}} se projette vers le puits de tout son corps, puis s’arrête au bord."
+        },
+        {
+          "id": "a3e10",
+          "type": "conteur",
+          "texte": "Le lion du puits se projeta de même."
+        },
+        {
+          "id": "a3e11",
+          "type": "didascalie",
+          "texte": "{{r2}} bascule de côté d’un seul bloc."
+        },
+        {
+          "id": "a3e12",
+          "type": "conteur",
+          "texte": "L’autre bascula de côté. C’en était trop : {{r2}} rassembla toutes ses forces et sauta dans le puits pour combattre son rival."
+        },
+        {
+          "id": "a3e13",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e14",
+          "type": "conteur",
+          "texte": "Il n’y trouva que l’eau froide, et son propre reflet brisé en mille morceaux."
+        },
+        {
+          "id": "a3e15",
+          "type": "adresse_public",
+          "texte": "Faites avec moi le bruit du plongeon : « plouf ! »",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e16",
+          "type": "conteur",
+          "texte": "{{r1}} rentra sans se presser, comme il était venu. Et quand la faune le vit revenir seul, et qu’il lui eut conté comment le terrible {{r2}} s’était jeté sur son propre reflet, toute la forêt dansa autour du petit {{r1}} — celui qui avait vaincu {{r2}} non par la force, mais par l’esprit."
+        },
+        {
+          "id": "a3e17",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "in-lion-et-lievre-au-puits",
+    "synopsis": {
+      "accroche": "Un lion qui chasse trop finit par attaquer son propre reflet.",
+      "resume": [
+        "La faune négocie un repas par jour avec {{r2}}.",
+        "{{r1}} invente un rival et conduit {{r2}} jusqu’au puits.",
+        "{{r2}} saute dans l’eau froide, et la forêt fête la ruse de {{r1}}."
+      ]
+    },
+    "transposition": {
+      "texte": "Dans une grande forêt vivait un lion nommé {{r2}}, si fort et si fier qu’il chassait du matin au soir, bien plus qu’il ne pouvait manger. Dans la forêt, toute la faune prit peur, tint conseil et vint le trouver. {{r3}} parla pour le groupe :\n\n— Seigneur, pourquoi tant chasser ? Reste dans ta caverne, et chaque jour, un animal de notre groupe viendra de lui-même se présenter pour ton repas. Ainsi tu vivras sans peine, et la forêt vivra en paix.\n\n— C’est bien parlé, dit {{r2}}. Mais si un seul jour personne ne vient, je dévorerai toute la forêt !\n\nDepuis ce jour, chaque matin, un animal prenait le chemin de la caverne, et la forêt tremblait en silence. Vint le tour de {{r1}} — vieux, petit et malin. Il partit sans se presser, en réfléchissant tout le long du chemin :\n\n— Il faudrait un moyen… Un lion est fort. Mais la force et la ruse, ce n’est pas pareil.\n\nEn route, il passa devant un vieux puits de pierre, large et profond. Il se pencha. Il vit son propre reflet trembler tout au fond de l’eau — et décida quoi faire. Puis il continua son chemin, tout doucement, si bien qu’il arriva chez {{r2}} à midi passé.\n\n{{r2}}, affamé, rugissait de colère :\n\n— D’où viens-tu, misérable ? Pourquoi si tard ? Je vais te dévorer, et toute la forêt après toi !\n\n— Seigneur, ce n’est pas ma faute, dit {{r1}} en tremblant très fort — un peu plus fort qu’il ne tremblait vraiment. Notre groupe comptait quatre lièvres pour ton repas. Mais en chemin, un autre lion est sorti d’un grand trou de pierre. Il a mangé les trois autres, et il a crié : « C’est moi le roi de cette forêt ! Ce lion de caverne n’est qu’un voleur ! »\n\n— Quoi ! rugit {{r2}}. Un autre lion ? Dans ma forêt ?\n\n— Le plus terrible que j’aie vu, seigneur. Il m’a laissé partir pour te porter son défi.\n\n— Conduis-moi à lui ! Tout de suite !\n\n{{r1}} trottina devant, et {{r2}} marcha derrière, tout hérissé. Le duo arriva au vieux puits.\n\n— Il habite là-dedans, souffla {{r1}}. Mais prends garde, seigneur : quand je me suis penché, il s’est dressé contre moi.\n\n{{r2}} se pencha au-dessus de l’eau. Tout au fond, dans le rond sombre du puits, un lion le regardait, tout hérissé.\n\n— Qui es-tu ? rugit {{r2}}.\n\nEt le puits rugit en retour, d’une voix énorme et caverneuse.\n\n— C’est moi le roi ! rugit {{r2}}, plus fort.\n\nEt le puits rugit plus fort encore. Alors, fou de rage, {{r2}} se projeta, menaçant, de tout son corps. Le lion du puits se projeta de même. {{r2}} bascula de côté. L’autre bascula de côté. C’en était trop : {{r2}} rassembla toutes ses forces et sauta dans le puits pour combattre son rival.\n\nIl n’y trouva que l’eau froide, et son propre reflet brisé en mille morceaux.\n\n{{r1}} rentra sans se presser, comme il était venu. Et quand la faune le vit revenir seul, et qu’il lui eut conté comment le terrible {{r2}} s’était jeté sur son propre reflet, toute la forêt dansa autour du petit {{r1}} — celui qui avait vaincu {{r2}} non par la force, mais par l’esprit.\n"
+    }
+  },
+  "dureeEstimeeSecondes": 359,
+  "interactionsOrdonnees": [
+    "a1e5",
+    "a2e7",
+    "a3e5",
+    "a3e8",
+    "a1e12",
+    "a3e15"
+  ]
+}

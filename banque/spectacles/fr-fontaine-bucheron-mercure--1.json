@@ -1,0 +1,521 @@
+{
+  "id": "fr-fontaine-bucheron-mercure--1",
+  "conteId": "fr-fontaine-bucheron-mercure",
+  "titre": "Le Bûcheron et Mercure",
+  "pitch": "{{r1}}, un bûcheron pauvre, reconnaît sa cognée de bois parmi celles d'or et d'argent que lui présente {{r2}}. {{r3}}, au nom des imitateurs, réclame l'or et se fait démasquer.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "travailleur",
+        "honnête",
+        "modeste"
+      ],
+      "voix": "voix fatiguée mais claire, ferme quand il reconnaît sa cognée",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "un bûcheron pauvre",
+            "apres": "une bûcheronne pauvre"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "un bûcheron pauvre",
+            "apres": "une bûcheronne pauvre"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "Un bûcheron",
+            "apres": "Une bûcheronne"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "Il n’avait",
+            "apres": "Elle n’avait"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "S’écriait-il",
+            "apres": "S’écriait-elle"
+          },
+          {
+            "id": "a2e9:texte",
+            "avant": "Il répondit",
+            "apres": "Elle répondit"
+          },
+          {
+            "id": "a2e12:texte",
+            "avant": "Il la refuse",
+            "apres": "Elle la refuse"
+          },
+          {
+            "id": "a2e14:texte",
+            "avant": "dit-il",
+            "apres": "dit-elle"
+          },
+          {
+            "id": "a2e15:ton",
+            "avant": "soulagé",
+            "apres": "soulagée"
+          },
+          {
+            "id": "a2e20:ton",
+            "avant": "reconnaissant",
+            "apres": "reconnaissante"
+          },
+          {
+            "id": "a2e21:texte",
+            "avant": "dit-il",
+            "apres": "dit-elle"
+          },
+          {
+            "id": "voix:r1",
+            "avant": "il reconnaît",
+            "apres": "elle reconnaît"
+          },
+          {
+            "id": "a2e15:texte",
+            "avant": "Je suis content",
+            "apres": "Je suis contente"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a2e7:texte",
+          "avant": "à l’homme",
+          "gabarit": "{au} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r2",
+      "espece": "dieu",
+      "famille": "adulte",
+      "traits": [
+        "sage",
+        "attentif",
+        "généreux"
+      ],
+      "voix": "voix posée et grave, qui interroge sans presser",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e2:texte",
+            "avant": "Introduisons celui",
+            "apres": "Introduisons celle"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "Son fils",
+            "apres": "Sa fille"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "il en montre",
+            "apres": "elle en montre"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a2e5:texte",
+          "avant": "ce dieu",
+          "gabarit": "{ce|cette} {espece}"
+        },
+        {
+          "id": "a2e18:texte",
+          "avant": "le dieu",
+          "gabarit": "{le} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r3",
+      "espece": "humain",
+      "famille": "adulte",
+      "traits": [
+        "imitateur",
+        "avide",
+        "pressé"
+      ],
+      "voix": "voix vive et forte, qui crie trop vite quand il voit l'or",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "voix:r3",
+            "avant": "il voit",
+            "apres": "elle voit"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "Un imitateur",
+            "apres": "Une imitatrice"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "autour de lui",
+            "apres": "autour d’elle"
+          },
+          {
+            "id": "a3e7:ton",
+            "avant": "devant lui",
+            "apres": "devant elle"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 6,
+    "ageAuditoire": 5,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "Le lieu de la perte",
+      "description": "Posez un coussin à gauche pour le lieu où {{r1}} cherche sa cognée. À droite, laissez une place vide pour {{r2}} et les imitateurs. Les cognées restent imaginaires ; le parent peut jouer sans aucun décor.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "La cognée perdue",
+      "resume": "Le conteur dit la dédicace entière. Puis {{r1}}, un bûcheron pauvre, perd la cognée dont dépend son travail et appelle Jupiter.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "À M. L. C. D. B.\nVotre goût a servi de règle à mon ouvrage :\nJ’ai tenté les moyens d’acquérir son suffrage.\nVous voulez qu’on évite un soin trop curieux,\nEt des vains ornements l’effort ambitieux ;\nJe le veux comme vous : cet effort ne peut plaire.\nUn auteur gâte tout quand il veut trop bien faire.\nNon qu’il faille bannir certains traits délicats :\nVous les aimez, ces traits ; et je ne les hais pas.\nQuant au principal but qu’Ésope se propose,\nJ’y tombe au moins mal que je puis.\nEnfin si dans ces vers je ne plais et n’instruis,\nIl ne tient pas à moi ; c’est toujours quelque chose.\nComme la force est un point\nDont je ne me pique point,\nJe tâche d’y tourner le vice en ridicule,\nNe pouvant l’attaquer avec des bras d’Hercule.\nC’est là tout mon talent ; je ne sais s’il suffit."
+        },
+        {
+          "id": "a1e2",
+          "type": "conteur",
+          "texte": "Tantôt je peins en un récit\nLa sotte vanité jointe avecque l’envie,\nDeux pivots sur qui roule aujourd’hui notre vie :\nTel est ce chétif animal\nQui voulut en grosseur au bœuf se rendre égal.\nJ’oppose quelquefois par une double image\nLe vice à la vertu, la sottise au bon sens,\nLes agneaux aux loups ravissants,\nLa mouche à la fourmi ; faisant de cet ouvrage\nUne ample comédie à cent actes divers,\nEt dont la scène est l’univers.\nHommes, dieux, animaux, tout y fait quelque rôle.\nJupiter comme un autre. Introduisons celui\nQui porte de sa part aux belles la parole :\nCe n’est pas de cela qu’il s’agit aujourd’hui."
+        },
+        {
+          "id": "a1e3",
+          "type": "conteur",
+          "texte": "Un bûcheron perdit son gagne-pain,"
+        },
+        {
+          "id": "a1e4",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e5",
+          "type": "didascalie",
+          "texte": "{{r1}} se balance doucement, la tête inclinée."
+        },
+        {
+          "id": "a1e6",
+          "type": "conteur",
+          "texte": "C’est sa cognée ; et la cherchant en vain,\nCe fut pitié là-dessus de l’entendre.\nIl n’avait pas des outils à revendre :\nSur celui-ci roulait tout son avoir.\nNe sachant donc où mettre son espoir,\nSa face était de pleurs toute baignée :"
+        },
+        {
+          "id": "a1e7",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Cherchez avec moi autour de vous !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e8",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ô ma cognée ! ô ma pauvre cognée !",
+          "ton": "en se lamentant"
+        },
+        {
+          "id": "a1e9",
+          "type": "conteur",
+          "texte": "S’écriait-il :"
+        },
+        {
+          "id": "a1e10",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Jupiter, rends-la-moi ;\nJe tiendrai l’être encore un coup de toi.",
+          "ton": "en appelant vers le haut"
+        },
+        {
+          "id": "a1e11",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Appelez Jupiter avec moi !",
+          "attenteReponse": true
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Or, argent et bois",
+      "resume": "{{r2}} montre trois cognées à {{r1}} : d'or, d'argent, puis de bois. {{r1}} ne réclame que la sienne et reçoit les trois pour sa bonne foi.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "Sa plainte fut de l’Olympe entendue."
+        },
+        {
+          "id": "a2e2",
+          "type": "conteur",
+          "texte": "{{r2}} vient."
+        },
+        {
+          "id": "a2e3",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e4",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Elle n’est pas perdue,",
+          "ton": "d'une voix rassurante"
+        },
+        {
+          "id": "a2e5",
+          "type": "conteur",
+          "texte": "Lui dit ce dieu ;"
+        },
+        {
+          "id": "a2e6",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "la connaîtras-tu bien ?\nJe crois l’avoir près d’ici rencontrée.",
+          "ton": "en interrogeant {{r1}}"
+        },
+        {
+          "id": "a2e7",
+          "type": "conteur",
+          "texte": "Lors une d’or à l’homme étant montrée,"
+        },
+        {
+          "id": "a2e8",
+          "type": "didascalie",
+          "texte": "{{r1}} recule légèrement, puis se tourne vers {{r2}}."
+        },
+        {
+          "id": "a2e9",
+          "type": "conteur",
+          "texte": "Il répondit :"
+        },
+        {
+          "id": "a2e10",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je n’y demande rien.",
+          "ton": "sans hésiter"
+        },
+        {
+          "id": "a2e11",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Secouez la tête avec moi : non !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e12",
+          "type": "conteur",
+          "texte": "Une d’argent succède à la première ;\nIl la refuse. Enfin une de bois."
+        },
+        {
+          "id": "a2e13",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Voilà,",
+          "ton": "en reconnaissant sa cognée"
+        },
+        {
+          "id": "a2e14",
+          "type": "conteur",
+          "texte": "dit-il,"
+        },
+        {
+          "id": "a2e15",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "la mienne cette fois :\nJe suis content si j’ai cette dernière.",
+          "ton": "soulagé"
+        },
+        {
+          "id": "a2e16",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Comptez avec moi : or, argent, bois !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e17",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Tu les auras,",
+          "ton": "avec générosité"
+        },
+        {
+          "id": "a2e18",
+          "type": "conteur",
+          "texte": "dit le dieu,"
+        },
+        {
+          "id": "a2e19",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "toutes trois :\nTa bonne foi sera récompensée.",
+          "ton": "d'une voix nette"
+        },
+        {
+          "id": "a2e20",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "En ce cas-là je les prendrai,",
+          "ton": "reconnaissant"
+        },
+        {
+          "id": "a2e21",
+          "type": "conteur",
+          "texte": "dit-il."
+        },
+        {
+          "id": "a2e22",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Les imitateurs",
+      "resume": "L'histoire de {{r1}} se répand. Un imitateur, au nom des bûcherons menteurs, réclame l'or ; {{r2}} les démasque et la morale clôt la fable.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "conteur",
+          "texte": "L’histoire en est aussitôt dispersée ;\nEt bûcherons de perdre leur outil,\nEt de crier pour se le faire rendre.\nLe roi des dieux ne sait auquel entendre.\nSon fils {{r2}} aux criards vient encor ;\nÀ chacun d’eux il en montre une d’or."
+        },
+        {
+          "id": "a3e2",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e3",
+          "type": "didascalie",
+          "texte": "{{r3}} se penche vers le sol et regarde autour de lui."
+        },
+        {
+          "id": "a3e4",
+          "type": "adresse_public",
+          "marionnetteId": "r3",
+          "texte": "Cherchez avec moi une cognée perdue !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e5",
+          "type": "conteur",
+          "texte": "Chacun eût cru passer pour une bête"
+        },
+        {
+          "id": "a3e6",
+          "type": "conteur",
+          "texte": "De ne pas dire aussitôt :"
+        },
+        {
+          "id": "a3e7",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "La voilà !",
+          "ton": "trop vite, en désignant devant lui"
+        },
+        {
+          "id": "a3e8",
+          "type": "adresse_public",
+          "marionnetteId": "r3",
+          "texte": "Appelez {{r2}} avec moi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e9",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e10",
+          "type": "note_marionnettiste",
+          "texte": "La main gauche est libre après la sortie de {{r3}} : frappez une seule fois sur la table pendant le vers du coup."
+        },
+        {
+          "id": "a3e11",
+          "type": "conteur",
+          "texte": "{{r2}}, au lieu de donner celle-là,\nLeur en décharge un grand coup sur la tête."
+        },
+        {
+          "id": "a3e12",
+          "type": "conteur",
+          "texte": "Ne point mentir, être content du sien,\nC’est le plus sûr : cependant on s’occupe\nÀ dire faux pour attraper du bien.\nQue sert cela ? Jupiter n’est pas dupe."
+        },
+        {
+          "id": "a3e13",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "fr-fontaine-bucheron-mercure",
+    "synopsis": {
+      "accroche": "Trois cognées éprouvent la bonne foi d'un bûcheron.",
+      "resume": [
+        "La dédicace explique le dessein de La Fontaine : instruire et tourner les vices en ridicule.",
+        "{{r1}} perd sa seule cognée et implore Jupiter.",
+        "{{r2}} lui présente de l'or, de l'argent, puis du bois : {{r1}} ne réclame que le bois et reçoit les trois cognées.",
+        "Les bûcherons qui l'imitent mentent pour obtenir l'or ; {{r2}} les frappe et la fable recommande de ne point mentir."
+      ]
+    },
+    "transposition": {
+      "texte": "À M. L. C. D. B.\nVotre goût a servi de règle à mon ouvrage :\nJ’ai tenté les moyens d’acquérir son suffrage.\nVous voulez qu’on évite un soin trop curieux,\nEt des vains ornements l’effort ambitieux ;\nJe le veux comme vous : cet effort ne peut plaire.\nUn auteur gâte tout quand il veut trop bien faire.\nNon qu’il faille bannir certains traits délicats :\nVous les aimez, ces traits ; et je ne les hais pas.\nQuant au principal but qu’Ésope se propose,\nJ’y tombe au moins mal que je puis.\nEnfin si dans ces vers je ne plais et n’instruis,\nIl ne tient pas à moi ; c’est toujours quelque chose.\nComme la force est un point\nDont je ne me pique point,\nJe tâche d’y tourner le vice en ridicule,\nNe pouvant l’attaquer avec des bras d’Hercule.\nC’est là tout mon talent ; je ne sais s’il suffit.\nTantôt je peins en un récit\nLa sotte vanité jointe avecque l’envie,\nDeux pivots sur qui roule aujourd’hui notre vie :\nTel est ce chétif animal\nQui voulut en grosseur au bœuf se rendre égal.\nJ’oppose quelquefois par une double image\nLe vice à la vertu, la sottise au bon sens,\nLes agneaux aux loups ravissants,\nLa mouche à la fourmi ; faisant de cet ouvrage\nUne ample comédie à cent actes divers,\nEt dont la scène est l’univers.\nHommes, dieux, animaux, tout y fait quelque rôle.\nJupiter comme un autre. Introduisons celui\nQui porte de sa part aux belles la parole :\nCe n’est pas de cela qu’il s’agit aujourd’hui.\nUn bûcheron perdit son gagne-pain,\nC’est sa cognée ; et la cherchant en vain,\nCe fut pitié là-dessus de l’entendre.\nIl n’avait pas des outils à revendre :\nSur celui-ci roulait tout son avoir.\nNe sachant donc où mettre son espoir,\nSa face était de pleurs toute baignée :\nÔ ma cognée ! ô ma pauvre cognée !\nS’écriait-il : Jupiter, rends-la-moi ;\nJe tiendrai l’être encore un coup de toi.\nSa plainte fut de l’Olympe entendue.\n{{r2}} vient. Elle n’est pas perdue,\nLui dit ce dieu ; la connaîtras-tu bien ?\nJe crois l’avoir près d’ici rencontrée.\nLors une d’or à l’homme étant montrée,\nIl répondit : Je n’y demande rien.\nUne d’argent succède à la première ;\nIl la refuse. Enfin une de bois.\nVoilà, dit-il, la mienne cette fois :\nJe suis content si j’ai cette dernière.\nTu les auras, dit le dieu, toutes trois :\nTa bonne foi sera récompensée.\nEn ce cas-là je les prendrai, dit-il.\nL’histoire en est aussitôt dispersée ;\nEt bûcherons de perdre leur outil,\nEt de crier pour se le faire rendre.\nLe roi des dieux ne sait auquel entendre.\nSon fils {{r2}} aux criards vient encor ;\nÀ chacun d’eux il en montre une d’or.\nChacun eût cru passer pour une bête\nDe ne pas dire aussitôt : La voilà !\n{{r2}}, au lieu de donner celle-là,\nLeur en décharge un grand coup sur la tête.\nNe point mentir, être content du sien,\nC’est le plus sûr : cependant on s’occupe\nÀ dire faux pour attraper du bien.\nQue sert cela ? Jupiter n’est pas dupe.",
+      "changements": [
+        "« boquillons » devient « bûcherons », retouche universelle.",
+        "Un imitateur, {{r3}}, porte la seule réplique des bûcherons menteurs ; la dédicace reste entière.",
+        "Mercure est joué par {{r2}} ; le nom inventé suit la peluche du parent."
+      ]
+    }
+  },
+  "dureeEstimeeSecondes": 361,
+  "interactionsOrdonnees": [
+    "a1e7",
+    "a1e11",
+    "a2e11",
+    "a2e16",
+    "a3e4",
+    "a3e8"
+  ]
+}

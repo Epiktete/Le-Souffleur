@@ -1,0 +1,314 @@
+{
+  "id": "fr-fontaine-conseil-rats--1",
+  "conteId": "fr-fontaine-conseil-rats",
+  "titre": "Conseil tenu par les Rats",
+  "pitch": "Rodilardus, le chat, a tué beaucoup de rats. {{r1}} propose un grelot pour prévenir les survivants, mais {{r2}} et {{r3}} refusent de l'attacher.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "rat",
+      "famille": "petit",
+      "traits": [
+        "prudent",
+        "bavard",
+        "ingénieux"
+      ],
+      "voix": "voix grave et posée, qui prend le temps de proposer son idée",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e9:texte",
+            "avant": "leur doyen",
+            "apres": "leur doyenne"
+          },
+          {
+            "id": "a1e13:texte",
+            "avant": "monsieur le doyen",
+            "apres": "madame la doyenne"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r2",
+      "espece": "rat",
+      "famille": "petit",
+      "traits": [
+        "peureux",
+        "attentif"
+      ],
+      "voix": "voix aiguë et pressée, qui baisse quand il refuse",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2e6:texte",
+            "avant": "L’un dit",
+            "apres": "L’une dit"
+          },
+          {
+            "id": "a2e7:texte",
+            "avant": "si sot",
+            "apres": "si sotte"
+          },
+          {
+            "id": "voix:r2",
+            "avant": "quand il refuse",
+            "apres": "quand elle refuse"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r3",
+      "espece": "rat",
+      "famille": "petit",
+      "traits": [
+        "peureux",
+        "hésitant"
+      ],
+      "voix": "voix basse et hésitante, qui s'arrête net sur son refus",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": []
+      },
+      "especeImposee": true
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 3,
+    "ageAuditoire": 9,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "Le refuge des rats",
+      "description": "Posez un coussin à gauche pour le refuge des rats. Un petit grelot reste immobile au milieu de la table, assez loin des marionnettes pour qu'aucune ne le touche. Si vous n'avez pas de grelot, montrez simplement sa place vide.",
+      "accessoires": [
+        "un petit grelot immobile"
+      ],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Le conseil des rats",
+      "resume": "Rodilardus a tué tant de rats que les survivants ont peur de sortir. Pendant son absence, {{r1}} propose de lui attacher un grelot ; tous approuvent.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Un chat, nommé Rodilardus,\nFaisait de rats telle déconfiture\nQue l’on n’en voyait presque plus ;\nTant il en avait mis dedans la sépulture.\nLe peu qu’il en restait, n’osant quitter son trou,\nNe trouvait à manger que le quart de son soûl ;\nEt Rodilard passait, chez la gent misérable,\nNon pour un chat, mais pour un diable."
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e3",
+          "type": "didascalie",
+          "texte": "{{r2}} sort à peine de derrière le coussin, puis s'immobilise."
+        },
+        {
+          "id": "a1e4",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Écoutez si le chat approche !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e5",
+          "type": "conteur",
+          "texte": "Or, un jour qu’au haut et au loin\nLe galant alla chercher femme,\nPendant tout le sabbat qu’il fit avec sa dame,\nLe demeurant des rats tint conseil en un coin\nSur la nécessité présente."
+        },
+        {
+          "id": "a1e6",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e7",
+          "type": "didascalie",
+          "texte": "{{r1}} s'approche de {{r2}} et se tourne vers la place du grelot."
+        },
+        {
+          "id": "a1e8",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites silence pour le conseil !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e9",
+          "type": "conteur",
+          "texte": "Dès l’abord, leur doyen, personne fort prudente,"
+        },
+        {
+          "id": "a1e10",
+          "type": "conteur",
+          "texte": "Opina :"
+        },
+        {
+          "id": "a1e11",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Il faut, et plus tôt que plus tard,\nAttacher un grelot au cou de Rodilard ;\nAinsi, quand il ira en guerre,\nDe sa marche avertis, nous nous enfuirons sous terre ;\nJe ne sais que ce moyen.",
+          "ton": "en proposant son idée"
+        },
+        {
+          "id": "a1e12",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites sonner un grelot imaginaire : dring !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e13",
+          "type": "conteur",
+          "texte": "Chacun fut de l’avis de monsieur le doyen :\nChose ne leur parut à tous plus salutaire."
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Personne ne s'en charge",
+      "resume": "Le grelot reste au milieu du conseil. {{r2}} refuse d'aller le fixer, {{r3}} refuse aussi ; les rats se dispersent. Le conteur dit la morale entière.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e2",
+          "type": "conteur",
+          "texte": "La difficulté fut d’attacher le grelot."
+        },
+        {
+          "id": "a2e3",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e4",
+          "type": "didascalie",
+          "texte": "{{r3}} se tourne vers le grelot, puis s'arrête loin de lui."
+        },
+        {
+          "id": "a2e5",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Montrez le grelot, là, au milieu !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e6",
+          "type": "conteur",
+          "texte": "L’un dit :"
+        },
+        {
+          "id": "a2e7",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je n’y vais pas, je ne suis pas si sot ;",
+          "ton": "en reculant"
+        },
+        {
+          "id": "a2e8",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Dites non avec moi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e9",
+          "type": "conteur",
+          "texte": "L’autre :"
+        },
+        {
+          "id": "a2e10",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Je ne saurais.",
+          "ton": "en reculant à son tour"
+        },
+        {
+          "id": "a2e11",
+          "type": "adresse_public",
+          "marionnetteId": "r3",
+          "texte": "Reculez avec moi !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e12",
+          "type": "conteur",
+          "texte": "Si bien que sans rien faire\nOn se quitta."
+        },
+        {
+          "id": "a2e13",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e14",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e15",
+          "type": "conteur",
+          "texte": "J’ai maints conseils vus,\nQui pour néant se sont ainsi tenus ;\nConseils, non de rats, mais conseils de moines,\nVoire conseils de chanoines.\nNe faut-il que délibérer ?\nLa cour en conseillers foisonne :\nEst-il besoin d’exécuter ?\nL’on ne rencontre plus personne."
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "fr-fontaine-conseil-rats",
+    "synopsis": {
+      "accroche": "Tous veulent un grelot au cou du chat ; personne ne veut l'y mettre.",
+      "resume": [
+        "Rodilardus a tué tant de rats que les survivants n'osent plus sortir manger.",
+        "Pendant l'absence du chat, {{r1}} propose d'attacher un grelot à son cou ; tous approuvent.",
+        "{{r2}} puis {{r3}} refusent de s'en charger, et le conseil se dissout sans rien faire.",
+        "La morale compare ce conseil aux assemblées de moines, de chanoines et à la cour : délibérer est facile, agir ne l'est pas."
+      ]
+    },
+    "transposition": {
+      "texte": "Un chat, nommé Rodilardus,\nFaisait de rats telle déconfiture\nQue l’on n’en voyait presque plus ;\nTant il en avait mis dedans la sépulture.\nLe peu qu’il en restait, n’osant quitter son trou,\nNe trouvait à manger que le quart de son soûl ;\nEt Rodilard passait, chez la gent misérable,\nNon pour un chat, mais pour un diable.\nOr, un jour qu’au haut et au loin\nLe galant alla chercher femme,\nPendant tout le sabbat qu’il fit avec sa dame,\nLe demeurant des rats tint conseil en un coin\nSur la nécessité présente.\nDès l’abord, leur doyen, personne fort prudente,\nOpina : Il faut, et plus tôt que plus tard,\nAttacher un grelot au cou de Rodilard ;\nAinsi, quand il ira en guerre,\nDe sa marche avertis, nous nous enfuirons sous terre ;\nJe ne sais que ce moyen.\nChacun fut de l’avis de monsieur le doyen :\nChose ne leur parut à tous plus salutaire.\nLa difficulté fut d’attacher le grelot.\nL’un dit : Je n’y vais pas, je ne suis pas si sot ;\nL’autre : Je ne saurais. Si bien que sans rien faire\nOn se quitta.\nJ’ai maints conseils vus,\nQui pour néant se sont ainsi tenus ;\nConseils, non de rats, mais conseils de moines,\nVoire conseils de chanoines.\nNe faut-il que délibérer ?\nLa cour en conseillers foisonne :\nEst-il besoin d’exécuter ?\nL’on ne rencontre plus personne.",
+      "changements": [
+        "Le discours indirect du doyen devient direct dans les mêmes cinq vers ; aucune proposition n'est ajoutée.",
+        "Les retouches universelles remplacent « chapitre » par « conseil » et « Je n’y vas point » par « Je n’y vais pas ». Les morts du début restent dans le texte.",
+        "Les trois marionnettes parlent au nom de l’assemblée des rats, qui comprend aussi des membres non représentés."
+      ]
+    }
+  },
+  "dureeEstimeeSecondes": 184,
+  "interactionsOrdonnees": [
+    "a1e4",
+    "a1e8",
+    "a1e12",
+    "a2e5",
+    "a2e8",
+    "a2e11"
+  ]
+}

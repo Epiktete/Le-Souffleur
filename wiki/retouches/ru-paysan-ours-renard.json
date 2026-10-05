@@ -1,0 +1,22 @@
+{
+  "id": "ru-paysan-ours-renard",
+  "langue": [
+    {"avant": "je te donnerai les fanes", "apres": "je te donnerai les fanes, les feuilles du dessus", "nature": "mot-rare", "jusqua": 6}
+  ],
+  "moments": [
+    {
+      "id": "ours-sous-les-buches",
+      "type": "punition",
+      "niveaux": [
+        {
+          "jusqua": 4,
+          "annonce": "L'ours n'est pas tué : le paysan le frappe jusqu'à ce qu'il demande grâce, puis le détache, et l'ours s'enfuit en promettant de le laisser couper son bois.",
+          "retouches": [
+            {"avant": "et se mit à lui taper sur la tête avec le dos de sa hache, jusqu'à ce que l'ours ne bouge plus du tout.", "apres": "et se mit à lui taper sur la tête avec le dos de sa hache, jusqu'à ce que l'ours demande grâce et promette de le laisser couper son bois. Alors le paysan le détacha, et l'ours s'enfuit dans la chênaie."},
+            {"avant": "Le voilà, il est fini !", "apres": "Il s'est sauvé, il ne m'embêtera plus !"}
+          ]
+        }
+      ]
+    }
+  ]
+}

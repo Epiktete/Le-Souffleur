@@ -1,0 +1,17 @@
+{"elements": [
+  {"type": "didascalie", "texte": "Jean le Paysan se penche en avant et pousse pour entrer dans la cabane."},
+  {"type": "replique", "marionnette": "Jean le Paysan", "texte": "Un hibou, une chèvre... et pour moi, le chat !", "ton": "décidé, gourmand"},
+  {"type": "didascalie", "texte": "Vieux Hibou bouscule aussitôt Jean le Paysan contre la paroi."},
+  {"type": "didascalie", "texte": "Dame Chèvre le pousse à son tour, de toutes ses forces."},
+  {"type": "didascalie", "texte": "Jean le Paysan vacille, recule en trébuchant, et détale."},
+  {"type": "sortie", "marionnette": "Jean le Paysan", "main": "M2D"},
+  {"type": "note_marionnettiste", "texte": "Voix du Loup, en coulisse, impatient : « Qu'est-ce qu'il fait, à ne pas en finir avec le chat ? J'y vais ! »"},
+  {"type": "note_marionnettiste", "texte": "Cri de surprise du Loup, en coulisse, puis bruit de bousculade."},
+  {"type": "note_marionnettiste", "texte": "Voix de l'Ours, en coulisse, qui a attendu, attendu : « Qu'est-ce qu'il fait, à ne pas en finir avec Dame Chèvre ! Laisse-moi y aller. »"},
+  {"type": "note_marionnettiste", "texte": "Cri de surprise de l'Ours, en coulisse, puis bruit de bousculade, puis un bruit de galopade qui s'éloigne pour de bon."},
+  {"type": "didascalie", "texte": "Le silence revient ; Vieux Hibou, Dame Chèvre et Petit Chat se regardent."},
+  {"type": "replique", "marionnette": "Vieux Hibou", "texte": "Ils sont partis. On est bien, tous les trois, au chaud.", "ton": "soulagé, chaleureux"},
+  {"type": "replique", "marionnette": "Dame Chèvre", "texte": "Bon... la prochaine fois, on la construira ensemble, cette cabane.", "ton": "radoucie, un peu bougonne"},
+  {"type": "replique", "marionnette": "Petit Chat", "texte": "Oui ! Tous les trois ensemble !", "ton": "joyeux, guilleret"},
+  {"type": "didascalie", "texte": "Petit Chat bondit de joie et se blottit contre les deux autres."}
+]}

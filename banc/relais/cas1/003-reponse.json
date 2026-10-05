@@ -1,0 +1,56 @@
+{"titre": "Doudou Lapin, Ourse Gourmande et Renard Rusé",
+ "pitch": "Un partage de récolte qui tourne mal, une fausse chasse qui fait trembler, et une queue qui se dispute toute seule.",
+ "changements": [
+   "Les chiens qui poursuivent Renard Rusé n'ont pas de marionnette : on ne les voit jamais, seulement un aboiement fait à la voix par le parent.",
+   "Le bois qui recouvre Ourse Gourmande reste un décor immobile, jamais manipulé : c'est la réplique qui raconte qu'elle est cachée dessous, pas un geste de la peluche.",
+   "Les allées et venues répétées entre le champ et la forêt sont jouées en une seule scène continue par personnage, pour éviter des sorties et des entrées inutiles.",
+   "L'épisode où Doudou Lapin sème du blé l'année suivante reste coupé, pour tenir dans le temps du spectacle."
+ ],
+ "tableaux": [
+   {"id": "t1", "titre": "Le champ de Doudou Lapin", "description": "Étendre au sol un drap ou une nappe vert-brun pour figurer le champ ; poser de côté un petit panier ou une boîte pour représenter la charrette de fanes.", "accessoires": []},
+   {"id": "t2", "titre": "La forêt", "description": "Tendre un drap plus sombre en fond de scène ; empiler deux coussins ou un carton plié dans un coin pour figurer le tas de bûches.", "accessoires": []}
+ ],
+ "actes": [
+   {"numero": 1, "titre": "Le partage qui tourne mal", "tableauId": "t1",
+    "resume": "Ourse Gourmande menace le champ de Doudou Lapin, qui lui propose un partage : les fanes pour elle, les racines pour lui. En goûtant un navet, elle comprend qu'elle a été trompée et jure de se venger.",
+    "passage": "De « Doudou Lapin labourait son champ. » à « ...ou je t'écorche ! »",
+    "temps": ["Le temps passe : les navets poussent dans le champ.", "Doudou Lapin récolte et apporte à Ourse Gourmande sa pleine charrette de fanes.", "Plus tard, sur le chemin de la ville, ils se croisent à nouveau."],
+    "mouvements": [
+      {"type": "entree", "marionnette": "Doudou Lapin", "main": "M1G"},
+      {"type": "entree", "marionnette": "Ourse Gourmande", "main": "M1D"},
+      {"type": "sortie", "marionnette": "Ourse Gourmande"},
+      {"type": "sortie", "marionnette": "Doudou Lapin"}
+    ],
+    "momentsPublic": ["Demander aux enfants : à leur avis, qui a eu la meilleure part du champ ?"],
+    "budgetMots": 150},
+   {"numero": 2, "titre": "La fausse chasse", "tableauId": "t2",
+    "resume": "Devenu sans bois, Doudou Lapin ose enfin entrer dans la forêt. Renard Rusé lui souffle une ruse pour effrayer Ourse Gourmande, qui supplie qu'on la cache et se laisse emmener, avant d'être relâchée, penaude.",
+    "passage": "De « Doudou Lapin revint de la ville... » à « ...toute penaude. »",
+    "temps": ["Des semaines passent sans que Doudou Lapin ose couper le moindre bois.", "Un matin, il se décide enfin à entrer dans la forêt.", "Le traîneau s'éloigne ; bien plus loin, hors de vue, Ourse Gourmande est détachée et s'en retourne, penaude."],
+    "mouvements": [
+      {"type": "entree", "marionnette": "Doudou Lapin", "main": "M1G"},
+      {"type": "entree", "marionnette": "Renard Rusé", "main": "M1D"},
+      {"type": "sortie", "marionnette": "Renard Rusé"},
+      {"type": "entree", "marionnette": "Ourse Gourmande", "main": "M1D"},
+      {"type": "sortie", "marionnette": "Ourse Gourmande"},
+      {"type": "sortie", "marionnette": "Doudou Lapin"}
+    ],
+    "momentsPublic": ["Inviter les enfants à imiter avec Doudou Lapin le bruit d'une meute de chasse."],
+    "budgetMots": 210},
+   {"numero": 3, "titre": "La queue qui se dispute", "tableauId": "t2",
+    "resume": "Renard Rusé revient réclamer sa récompense, mais Doudou Lapin la chasse en sifflant ses chiens. Cachée et hors d'haleine, elle se dispute avec ses yeux, ses oreilles puis sa queue — et c'est cette dernière qui la perd.",
+    "passage": "De « Renard Rusé accourt et dit... » à « ...on perd la tête. »",
+    "temps": ["Doudou Lapin rentre chez lui sans se retourner.", "Au loin, Renard Rusé reprend son souffle, encore tremblante."],
+    "mouvements": [
+      {"type": "entree", "marionnette": "Doudou Lapin", "main": "M1G"},
+      {"type": "entree", "marionnette": "Renard Rusé", "main": "M1D"},
+      {"type": "sortie", "marionnette": "Doudou Lapin"},
+      {"type": "sortie", "marionnette": "Renard Rusé"}
+    ],
+    "momentsPublic": ["Demander aux enfants ce que la queue va répondre, avant de le jouer."],
+    "budgetMots": 150}
+ ],
+ "voix": [
+   {"marionnette": "Ourse Gourmande", "voix": "voix grave et un peu lente, qui s'anime dès qu'il est question de nourriture, dit « miam » avant de goûter quoi que ce soit"},
+   {"marionnette": "Renard Rusé", "voix": "voix aiguë et pressée, qui s'attarde sur les compliments — surtout ceux qu'elle s'adresse à elle-même"}
+ ]}

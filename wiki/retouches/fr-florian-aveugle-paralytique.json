@@ -1,0 +1,41 @@
+{
+  "id": "fr-florian-aveugle-paralytique",
+  "langue": [
+    {
+      "avant": "perclus",
+      "apres": "paralysé",
+      "nature": "mot-disparu",
+      "partout": true
+    },
+    {
+      "avant": "un grabat",
+      "apres": "un pauvre lit",
+      "nature": "mot-rare",
+      "jusqua": 6
+    },
+    {
+      "avant": "Pour se plaindre les uns les autres.",
+      "apres": "Pour comprendre les maux des autres.",
+      "nature": "faux-ami"
+    }
+  ],
+  "moments": [
+    {
+      "id": "desespoir",
+      "type": "mal-vieilli",
+      "pourquoi": "Retirer le souhait de mourir associé au handicap, tout en gardant la solitude initiale et l’entraide sans guérison.",
+      "niveaux": [
+        {
+          "jusqua": 10,
+          "annonce": "Les deux hommes souffrent de leur isolement et cherchent un soutien.",
+          "retouches": [
+            {
+              "avant": "Ils demandaient au ciel de terminer leur vie ; Mais leurs cris étaient superflus, Ils ne pouvaient mourir.",
+              "apres": "Ils demandaient au ciel un peu de compagnie ;\nMais leurs cris restaient sans réponse.\nIls étaient seuls."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

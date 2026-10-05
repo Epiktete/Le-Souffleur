@@ -1,0 +1,1226 @@
+{
+  "id": "dk-habits-neufs-empereur--1",
+  "conteId": "dk-habits-neufs-empereur",
+  "titre": "Les Habits neufs de l’empereur",
+  "pitch": "{{r2}} et {{r3}} promettent à {{r1}} un tissu invisible pour les sots ; {{r1}} défile sans aucun habit, jusqu’à ce que {{r5}} dise ce que tout le monde voit.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "orgueilleux",
+        "vantard",
+        "naïf"
+      ],
+      "voix": "voix ronde et lente, qui devient hésitante quand il doute",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e1:texte",
+            "avant": "un empereur",
+            "apres": "une impératrice"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "qu'il dépensait",
+            "apres": "qu'elle dépensait"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "bien paré",
+            "apres": "bien parée"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "Il ne se souciait",
+            "apres": "Elle ne se souciait"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "Il avait un costume",
+            "apres": "Elle avait un costume"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "où il habitait",
+            "apres": "où elle habitait"
+          },
+          {
+            "id": "a1e28:texte",
+            "avant": "Mais il se sentait",
+            "apres": "Mais elle se sentait"
+          },
+          {
+            "id": "a1e28:texte",
+            "avant": "Il croyait bien",
+            "apres": "Elle croyait bien"
+          },
+          {
+            "id": "a1e28:texte",
+            "avant": "pour lui-même",
+            "apres": "pour elle-même"
+          },
+          {
+            "id": "a1e28:texte",
+            "avant": "mais il préférait",
+            "apres": "mais elle préférait"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "la voir lui-même",
+            "apres": "la voir elle-même"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "il se rendit",
+            "apres": "elle se rendit"
+          },
+          {
+            "id": "a3e12:texte",
+            "avant": "Suis-je sot ?",
+            "apres": "Suis-je sotte ?"
+          },
+          {
+            "id": "a3e12:texte",
+            "avant": "d'être empereur",
+            "apres": "d'être impératrice"
+          },
+          {
+            "id": "a3e14:texte",
+            "avant": "Et il hocha",
+            "apres": "Et elle hocha"
+          },
+          {
+            "id": "a3e14:texte",
+            "avant": "il ne voulait pas dire",
+            "apres": "elle ne voulait pas dire"
+          },
+          {
+            "id": "a3e14:texte",
+            "avant": "qu'il ne voyait rien",
+            "apres": "qu'elle ne voyait rien"
+          },
+          {
+            "id": "a3e14:texte",
+            "avant": "qu'il avait amenée",
+            "apres": "qu'elle avait amenée"
+          },
+          {
+            "id": "a3e43:texte",
+            "avant": "je suis prêt",
+            "apres": "je suis prête"
+          },
+          {
+            "id": "a3e44:texte",
+            "avant": "Et il se tourna",
+            "apres": "Et elle se tourna"
+          },
+          {
+            "id": "a3e44:texte",
+            "avant": "s'il admirait",
+            "apres": "si elle admirait"
+          },
+          {
+            "id": "a4e3:texte",
+            "avant": "traîne il a",
+            "apres": "traîne elle a"
+          },
+          {
+            "id": "a4e8:texte",
+            "avant": "il n’a rien sur lui",
+            "apres": "elle n’a rien sur elle"
+          },
+          {
+            "id": "a4e9:texte",
+            "avant": "il n’a rien sur lui",
+            "apres": "elle n’a rien sur elle"
+          },
+          {
+            "id": "a4e12:texte",
+            "avant": "il n’a rien sur lui",
+            "apres": "elle n’a rien sur elle"
+          },
+          {
+            "id": "a4e15:texte",
+            "avant": "Et il se tint encore plus fier",
+            "apres": "Et elle se tint encore plus fière"
+          },
+          {
+            "id": "a4e15:texte",
+            "avant": "derrière lui",
+            "apres": "derrière elle"
+          },
+          {
+            "id": "voix:r1",
+            "avant": "il doute",
+            "apres": "elle doute"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "mais il la loue",
+            "apres": "mais elle la loue"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "l’empereur",
+            "apres": "l’impératrice"
+          },
+          {
+            "id": "a3e27:texte",
+            "avant": "vint lui-même",
+            "apres": "vint elle-même"
+          },
+          {
+            "id": "a3e27:texte",
+            "avant": "devant lui",
+            "apres": "devant elle"
+          },
+          {
+            "id": "a2e40:texte",
+            "avant": "reste tourné",
+            "apres": "reste tournée"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r2",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "rusé",
+        "menteur",
+        "bavard"
+      ],
+      "voix": "voix claire et rapide, qui allonge les mots flatteurs",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e4:texte",
+            "avant": "comme tisserand",
+            "apres": "comme tisserande"
+          },
+          {
+            "id": "a3e18:texte",
+            "avant": "le titre de Gentilhomme Tisserand",
+            "apres": "le titre de Dame Tisserande"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r3",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "rusé",
+        "menteur"
+      ],
+      "voix": "voix grave et feutrée, qui prend un air savant",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e4:texte",
+            "avant": "être tisserand",
+            "apres": "être tisserande"
+          },
+          {
+            "id": "a3e18:texte",
+            "avant": "celui de Gentilhomme Tisserand",
+            "apres": "celui de Dame Tisserande"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r4",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "peureux",
+        "naïf"
+      ],
+      "voix": "voix chevrotante et prudente, avec de longues pauses",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e29:texte",
+            "avant": "C'est lui qui verra",
+            "apres": "C'est elle qui verra"
+          },
+          {
+            "id": "a1e29:texte",
+            "avant": "car il a de l'esprit",
+            "apres": "car elle a de l'esprit"
+          },
+          {
+            "id": "a1e29:texte",
+            "avant": "que lui.",
+            "apres": "qu’elle."
+          },
+          {
+            "id": "a2e9:texte",
+            "avant": "mais il ne voyait rien",
+            "apres": "mais elle ne voyait rien"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "Serais-je sot ?",
+            "apres": "Serais-je sotte ?"
+          },
+          {
+            "id": "a2e15:texte",
+            "avant": "c'est ce qu'il fit.",
+            "apres": "c'est ce qu'elle fit."
+          },
+          {
+            "id": "a2e23:texte",
+            "avant": "qu'au premier",
+            "apres": "qu'à la première"
+          },
+          {
+            "id": "a1e29:texte",
+            "avant": "mon vieux et honnête ministre",
+            "apres": "ma vieille et honnête ministre"
+          },
+          {
+            "id": "a2e5:texte",
+            "avant": "il ne le dit pas",
+            "apres": "elle ne le dit pas"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r5",
+      "espece": "enfant",
+      "famille": "enfant",
+      "traits": [
+        "curieux",
+        "courageux"
+      ],
+      "voix": "voix claire et directe, qui parle sans détour",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": []
+      }
+    },
+    {
+      "cle": "r6",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "peureux",
+        "honnête"
+      ],
+      "voix": "voix douce qui se serre quand il parle du tissu",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2e23:texte",
+            "avant": "il regarda et regarda",
+            "apres": "elle regarda et regarda"
+          },
+          {
+            "id": "a2e23:texte",
+            "avant": "il ne put rien voir",
+            "apres": "elle ne put rien voir"
+          },
+          {
+            "id": "a2e28:texte",
+            "avant": "Sot, je",
+            "apres": "Sotte, je"
+          },
+          {
+            "id": "voix:r6",
+            "avant": "il parle",
+            "apres": "elle parle"
+          },
+          {
+            "id": "a2e23:texte",
+            "avant": "un autre brave fonctionnaire",
+            "apres": "une autre brave fonctionnaire"
+          },
+          {
+            "id": "a2e25:texte",
+            "avant": "vers lui",
+            "apres": "vers elle"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 18,
+    "ageAuditoire": 7,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "Le palais et les métiers vides",
+      "description": "Deux cartons debout au milieu de la table figurent les métiers à tisser. Un coussin à gauche marque le palais ; un coussin à droite marque la porte de l’atelier. Le carton reste vide et visible pendant les inspections.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "L’atelier et le miroir",
+      "description": "Gardez les deux cartons vides au milieu. Tournez un autre carton debout sur le côté droit : sa face lisse figure le grand miroir. Il suffit que {{r1}} se tourne devant cet endroit, même sans carton.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t3",
+      "titre": "La rue de la procession",
+      "description": "Retirez les cartons du milieu avant l’acte. Une bande libre sur la table figure la rue ; les coussins sur les côtés figurent les fenêtres des maisons. La peluche garde sa tenue pendant que le conte dit l’absence d’habits.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Une étoffe que personne ne voit",
+      "resume": "{{r1}} veut de nouveaux habits. {{r2}} et {{r3}} promettent une étoffe invisible aux sots et reçoivent de l’argent pour commencer.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Il y a bien des années vivait un empereur, {{r1}}, qui aimait tant les beaux habits neufs qu'il dépensait tout son argent pour être bien paré. Il ne se souciait pas de ses soldats, ni du théâtre, ni des promenades en voiture dans la forêt, sauf pour montrer ses habits neufs. Il avait un costume pour chaque heure de la journée, et comme on dit d'un roi « il est au conseil », on disait toujours ici : « {{r1}} est dans sa garde-robe ! »"
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e3",
+          "type": "didascalie",
+          "texte": "{{r1}} traverse la scène d’un pas lent, s’arrête, puis pivote comme pour admirer sa tenue."
+        },
+        {
+          "id": "a1e4",
+          "type": "conteur",
+          "texte": "Dans la grande ville où il habitait, on s'amusait beaucoup. Chaque jour arrivaient beaucoup d'étrangers. Un jour arrivèrent {{r2}} et {{r3}}. {{r2}} se présenta comme tisserand. {{r3}} prétendit aussi être tisserand."
+        },
+        {
+          "id": "a1e5",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e6",
+          "type": "didascalie",
+          "texte": "{{r2}} s’avance devant {{r1}} et s’incline."
+        },
+        {
+          "id": "a1e7",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Nous savons tisser l'étoffe la plus merveilleuse qu'on puisse imaginer. Les couleurs et le motif sont d'une beauté extraordinaire."
+        },
+        {
+          "id": "a1e8",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Cherchez bien devant vous : voyez-vous notre étoffe ?",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e9",
+          "type": "didascalie",
+          "texte": "{{r2}} recule derrière le carton des métiers."
+        },
+        {
+          "id": "a1e10",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e11",
+          "type": "note_marionnettiste",
+          "texte": "{{r1}} reste en scène pendant le changement de peluche."
+        },
+        {
+          "id": "a1e12",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e13",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Les habits cousus dans cette étoffe deviennent invisibles pour tous ceux qui ne sont pas dignes de leur charge, ou qui sont d'une bêtise impardonnable."
+        },
+        {
+          "id": "a1e14",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Voilà des habits magnifiques. En les portant, je pourrais découvrir quels hommes de mon empire ne sont pas dignes de leur charge, je pourrais distinguer les malins des sots ! Oui, il faut qu’on me tisse cette étoffe tout de suite !",
+          "ton": "pour soi"
+        },
+        {
+          "id": "a1e15",
+          "type": "conteur",
+          "texte": "{{r2}} et {{r3}} reçurent beaucoup d'argent d'avance, pour commencer leur travail."
+        },
+        {
+          "id": "a1e16",
+          "type": "didascalie",
+          "texte": "{{r3}} se place derrière le carton ; {{r1}} sort de l’atelier."
+        },
+        {
+          "id": "a1e17",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e18",
+          "type": "note_marionnettiste",
+          "texte": "Laisser une courte respiration avant l’entrée de {{r2}}."
+        },
+        {
+          "id": "a1e19",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e20",
+          "type": "conteur",
+          "texte": "Le duo installa deux métiers à tisser et fit semblant de travailler, mais il n'y avait absolument rien sur les métiers. Sans se gêner, le duo réclamait la soie la plus fine et l'or le plus magnifique ; la soie et l’or disparaissaient dans leur propre sac, et le duo travaillait sur les métiers vides, jusque tard dans la nuit."
+        },
+        {
+          "id": "a1e21",
+          "type": "didascalie",
+          "texte": "{{r2}} et {{r3}} se balancent de part et d’autre des deux cartons vides, sans y toucher."
+        },
+        {
+          "id": "a1e22",
+          "type": "adresse_public",
+          "marionnetteId": "r3",
+          "texte": "Dites avec moi : quel beau motif !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e23",
+          "type": "didascalie",
+          "texte": "{{r2}} et {{r3}} disparaissent derrière les cartons."
+        },
+        {
+          "id": "a1e24",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e25",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e26",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e27",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je voudrais bien savoir où le duo en est avec l'étoffe.",
+          "ton": "pour soi"
+        },
+        {
+          "id": "a1e28",
+          "type": "conteur",
+          "texte": "Mais il se sentait tout de même un peu drôle en pensant que celui qui était sot, ou qui ne convenait pas à sa charge, ne pourrait pas la voir. Il croyait bien n'avoir rien à craindre pour lui-même, mais il préférait tout de même envoyer quelqu'un d'abord, pour voir comment les choses se présentaient. Tout le monde en ville savait quel pouvoir extraordinaire avait l'étoffe, et chacun avait hâte de voir combien son voisin était incapable ou sot."
+        },
+        {
+          "id": "a1e29",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je vais envoyer mon vieux et honnête ministre {{r4}} chez {{r2}} et {{r3}}. C'est lui qui verra le mieux comment est l'étoffe, car il a de l'esprit, et personne ne remplit mieux sa charge que lui.",
+          "ton": "pour soi"
+        },
+        {
+          "id": "a1e30",
+          "type": "didascalie",
+          "texte": "{{r1}} s’éloigne lentement vers le fond du castelet."
+        },
+        {
+          "id": "a1e31",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Les deux inspections",
+      "resume": "{{r4}} et {{r6}} ne voient rien. La peur de paraître stupide pousse les deux à vanter l’étoffe imaginaire.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "{{r4}} entra donc dans la salle où {{r2}} et {{r3}} travaillaient sur les métiers vides."
+        },
+        {
+          "id": "a2e2",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e3",
+          "type": "didascalie",
+          "texte": "{{r4}} s’incline devant les cartons."
+        },
+        {
+          "id": "a2e4",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Dieu nous garde ! Mais je ne vois rien du tout !",
+          "ton": "pour soi"
+        },
+        {
+          "id": "a2e5",
+          "type": "conteur",
+          "texte": "Mais il ne le dit pas."
+        },
+        {
+          "id": "a2e6",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e7",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Veuillez vous approcher. N’est-ce pas un beau motif et de belles couleurs ?"
+        },
+        {
+          "id": "a2e8",
+          "type": "didascalie",
+          "texte": "{{r2}} se penche vers {{r4}}."
+        },
+        {
+          "id": "a2e9",
+          "type": "conteur",
+          "texte": "Et {{r4}} regardait le métier vide, mais il ne voyait rien, car il n’y avait rien."
+        },
+        {
+          "id": "a2e10",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Seigneur ! Serais-je sot ? Je ne l'aurais jamais cru, et personne ne doit le savoir ! Ne serais-je pas digne de ma charge ? Non, il est impossible que je raconte que je ne vois pas l'étoffe !",
+          "ton": "pour soi"
+        },
+        {
+          "id": "a2e11",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Eh bien, vous ne dites rien ?"
+        },
+        {
+          "id": "a2e12",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Oh, c'est ravissant ! Tout à fait charmant ! Ce motif, et ces couleurs ! Oui, je dirai à {{r1}} que cela me plaît énormément."
+        },
+        {
+          "id": "a2e13",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Voilà qui nous fait plaisir !"
+        },
+        {
+          "id": "a2e14",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Montrez du regard le métier vide !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e15",
+          "type": "conteur",
+          "texte": "Le duo nomma les couleurs et décrivit le motif extraordinaire. {{r4}} écouta bien, pour pouvoir répéter la même chose en rentrant chez {{r1}} ; et c'est ce qu'il fit."
+        },
+        {
+          "id": "a2e16",
+          "type": "didascalie",
+          "texte": "{{r4}} quitte l’atelier pendant que {{r2}} reste derrière son carton."
+        },
+        {
+          "id": "a2e17",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e18",
+          "type": "note_marionnettiste",
+          "texte": "Laisser {{r2}} immobile pendant le changement de peluche."
+        },
+        {
+          "id": "a2e19",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e20",
+          "type": "conteur",
+          "texte": "Alors {{r2}} et {{r3}} réclamèrent encore plus d'argent, plus de soie et d'or, pour le tissage. Tout disparut dans leurs poches ; pas un fil n'alla sur le métier ; et le duo continua, comme avant, à tisser sur le métier vide."
+        },
+        {
+          "id": "a2e21",
+          "type": "didascalie",
+          "texte": "{{r2}} et {{r3}} vont et viennent derrière leurs cartons sans rien toucher. {{r2}} se baisse et disparaît."
+        },
+        {
+          "id": "a2e22",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e23",
+          "type": "conteur",
+          "texte": "{{r1}} envoya bientôt un autre brave fonctionnaire, {{r6}}, voir comment avançait le tissage, et si l'étoffe serait bientôt prête. Il lui arriva la même chose qu'au premier : il regarda et regarda, mais comme il n'y avait rien d'autre que les métiers vides, il ne put rien voir."
+        },
+        {
+          "id": "a2e24",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e25",
+          "type": "didascalie",
+          "texte": "{{r6}} s’arrête devant les métiers vides. {{r3}} se tourne vers lui."
+        },
+        {
+          "id": "a2e26",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "N'est-ce pas une belle pièce d'étoffe ?"
+        },
+        {
+          "id": "a2e27",
+          "type": "conteur",
+          "texte": "Le duo montrait et expliquait le merveilleux motif, qui n'existait pas du tout."
+        },
+        {
+          "id": "a2e28",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Sot, je ne le suis pas. C'est donc de ma bonne charge que je ne suis pas digne ? Voilà qui est curieux ! Mais il ne faut pas le laisser voir.",
+          "ton": "pour soi"
+        },
+        {
+          "id": "a2e29",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Quelles belles couleurs ! Et quel merveilleux motif !"
+        },
+        {
+          "id": "a2e30",
+          "type": "adresse_public",
+          "marionnetteId": "r6",
+          "texte": "Dites doucement avec moi : tout à fait charmant !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e31",
+          "type": "didascalie",
+          "texte": "{{r3}} reste derrière le carton pendant qu’{{r6}} s’en va."
+        },
+        {
+          "id": "a2e32",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e33",
+          "type": "conteur",
+          "texte": "Tout le monde en ville parlait de la magnifique étoffe."
+        },
+        {
+          "id": "a2e34",
+          "type": "didascalie",
+          "texte": "{{r3}} disparaît derrière le carton."
+        },
+        {
+          "id": "a2e35",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e36",
+          "type": "note_marionnettiste",
+          "texte": "Un temps de silence pendant le changement de peluche."
+        },
+        {
+          "id": "a2e37",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e38",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e39",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Oui, c'est tout à fait charmant."
+        },
+        {
+          "id": "a2e40",
+          "type": "didascalie",
+          "texte": "{{r6}} recule et sort ; {{r1}} reste tourné vers l’atelier."
+        },
+        {
+          "id": "a2e41",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Devant les métiers et le miroir",
+      "resume": "{{r1}} ne voit pas l’étoffe, mais il la loue. Les escrocs annoncent le costume et l’empereur fait semblant de l’essayer.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "conteur",
+          "texte": "{{r1}} voulut alors la voir lui-même, pendant qu'elle était encore sur le métier. Avec toute une troupe choisie, où se trouvaient {{r4}} et {{r6}}, il se rendit chez {{r2}} et {{r3}}, qui tissaient maintenant de toutes leurs forces, mais sans fil ni fibre."
+        },
+        {
+          "id": "a3e2",
+          "type": "didascalie",
+          "texte": "{{r1}} avance de quelques pas devant le carton."
+        },
+        {
+          "id": "a3e3",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e4",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "N'est-ce pas magnifique ? Votre Majesté veut-elle voir quel motif, quelles couleurs !"
+        },
+        {
+          "id": "a3e5",
+          "type": "adresse_public",
+          "marionnetteId": "r4",
+          "texte": "Regardez avec nous : dites « magnifique » !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e6",
+          "type": "conteur",
+          "texte": "Les deux fonctionnaires montraient le métier vide, car les deux croyaient que les autres voyaient sûrement l'étoffe."
+        },
+        {
+          "id": "a3e7",
+          "type": "didascalie",
+          "texte": "{{r4}} s’incline puis passe derrière le carton."
+        },
+        {
+          "id": "a3e8",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e9",
+          "type": "note_marionnettiste",
+          "texte": "{{r1}} reste face au métier pendant le changement de peluche."
+        },
+        {
+          "id": "a3e10",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e11",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Quel motif, quelles couleurs !"
+        },
+        {
+          "id": "a3e12",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Qu'est-ce que c'est que ça ? Je ne vois rien du tout ! C'est épouvantable ! Suis-je sot ? Ne suis-je pas digne d'être empereur ? C'est la chose la plus terrible qui pouvait m'arriver !",
+          "ton": "pour soi"
+        },
+        {
+          "id": "a3e13",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oh, c'est très beau. Cela a toute ma très haute approbation !"
+        },
+        {
+          "id": "a3e14",
+          "type": "conteur",
+          "texte": "Et il hocha la tête d'un air satisfait en contemplant le métier vide : il ne voulait pas dire qu'il ne voyait rien. Toute la suite qu'il avait amenée regardait et regardait, mais n'en voyait pas plus que les autres ; pourtant, ils dirent comme {{r1}} : « Oh, c'est très beau ! » Et ils lui conseillèrent de porter ces habits neufs et magnifiques pour la première fois lors de la grande procession qui devait avoir lieu."
+        },
+        {
+          "id": "a3e15",
+          "type": "didascalie",
+          "texte": "{{r6}} recule vers le fond et sort."
+        },
+        {
+          "id": "a3e16",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e17",
+          "type": "note_marionnettiste",
+          "texte": "Voix de la suite, en coulisse : « C’est magnifique ! Ravissant ! Excellent ! »"
+        },
+        {
+          "id": "a3e18",
+          "type": "conteur",
+          "texte": "Tout le monde était enchanté. {{r1}} accorda une décoration à {{r2}} et une autre à {{r3}}, le titre de Gentilhomme Tisserand à {{r2}}, et celui de Gentilhomme Tisserand à {{r3}}."
+        },
+        {
+          "id": "a3e19",
+          "type": "didascalie",
+          "texte": "{{r1}} s’éloigne des métiers."
+        },
+        {
+          "id": "a3e20",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e21",
+          "type": "conteur",
+          "texte": "Toute la nuit qui précéda la matinée de la procession, {{r2}} et {{r3}} restèrent debout, avec plus de seize chandelles allumées. Les gens pouvaient voir que le duo se dépêchait de finir les habits neufs de {{r1}}. Le duo prétendit achever les habits neufs, alors que les métiers restaient vides, et dit enfin :"
+        },
+        {
+          "id": "a3e22",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e23",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e24",
+          "type": "didascalie",
+          "texte": "{{r2}} et {{r3}} se redressent de part et d’autre des métiers vides."
+        },
+        {
+          "id": "a3e25",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Voilà, les habits sont prêts !"
+        },
+        {
+          "id": "a3e26",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Voilà, les habits sont prêts !"
+        },
+        {
+          "id": "a3e27",
+          "type": "conteur",
+          "texte": "{{r1}} vint lui-même avec ses plus nobles chevaliers, et le duo se dressa devant lui, comme pour présenter quelque chose, et dit :"
+        },
+        {
+          "id": "a3e28",
+          "type": "didascalie",
+          "texte": "{{r2}} s’incline devant le carton puis disparaît."
+        },
+        {
+          "id": "a3e29",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e30",
+          "type": "note_marionnettiste",
+          "texte": "{{r3}} reste visible devant le miroir pendant le changement de peluche."
+        },
+        {
+          "id": "a3e31",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e32",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Voici le pantalon ! Voici la veste ! Voici le manteau !"
+        },
+        {
+          "id": "a3e33",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "C'est léger comme une toile d'araignée ! On croirait n'avoir rien sur le corps, mais c'est justement là sa qualité !"
+        },
+        {
+          "id": "a3e34",
+          "type": "note_marionnettiste",
+          "texte": "Voix des chevaliers, en coulisse : « Oui. »"
+        },
+        {
+          "id": "a3e35",
+          "type": "conteur",
+          "texte": "Mais ils ne voyaient rien, car il n'y avait rien."
+        },
+        {
+          "id": "a3e36",
+          "type": "note_marionnettiste",
+          "texte": "Le conte dit que {{r1}} n’a plus d’habits ; la peluche garde sa tenue. Faites exister le costume imaginaire par les paroles, sans manipulation."
+        },
+        {
+          "id": "a3e37",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Votre Majesté impériale daignera-t-elle maintenant ôter ses habits ? Nous vous mettrons les nouveaux ici, devant le grand miroir."
+        },
+        {
+          "id": "a3e38",
+          "type": "conteur",
+          "texte": "{{r1}} se retrouva sans aucun habit. {{r2}} et {{r3}} firent comme si chaque pièce neuve recouvrait son corps. Et {{r1}} se tournait et se retournait devant le miroir."
+        },
+        {
+          "id": "a3e39",
+          "type": "didascalie",
+          "texte": "{{r3}} s’incline vers {{r1}}."
+        },
+        {
+          "id": "a3e40",
+          "type": "adresse_public",
+          "marionnetteId": "r3",
+          "texte": "Regardez le miroir : voyez-vous le costume ?",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e41",
+          "type": "note_marionnettiste",
+          "texte": "Voix de la suite, en coulisse : « Dieu, comme ils vous vont bien ! Comme ils tombent bien ! Quel motif ! Quelles couleurs ! C’est un costume précieux ! »"
+        },
+        {
+          "id": "a3e42",
+          "type": "note_marionnettiste",
+          "texte": "Voix du grand maître des cérémonies, en coulisse : « Dehors, on attend avec le dais qui doit être porté au-dessus de Votre Majesté pendant la procession. »"
+        },
+        {
+          "id": "a3e43",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oui, je suis prêt. Est-ce que ça ne me va pas bien ?"
+        },
+        {
+          "id": "a3e44",
+          "type": "conteur",
+          "texte": "Et il se tourna encore une fois devant le miroir, car il fallait faire comme s'il admirait vraiment sa tenue."
+        },
+        {
+          "id": "a3e45",
+          "type": "didascalie",
+          "texte": "{{r3}} s’éloigne de {{r1}} et disparaît derrière le carton."
+        },
+        {
+          "id": "a3e46",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "numero": 4,
+      "titre": "La procession",
+      "resume": "La foule admire les habits qu’elle ne voit pas. {{r5}} dit la vérité ; {{r1}} entend, frissonne et continue pourtant la procession.",
+      "tableauId": "t3",
+      "elements": [
+        {
+          "id": "a4e1",
+          "type": "conteur",
+          "texte": "Les chambellans marchaient derrière {{r1}}, comme si une traîne les suivait ; ils n'osaient pas laisser voir qu'ils ne voyaient rien. Alors {{r1}} défila dans la procession sous le beau dais, et tous les gens dans la rue et aux fenêtres disaient :"
+        },
+        {
+          "id": "a4e2",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne lentement vers les enfants."
+        },
+        {
+          "id": "a4e3",
+          "type": "note_marionnettiste",
+          "texte": "Voix de la foule, en coulisse : « Dieu, comme les habits neufs de {{r1}} sont incomparables ! Quelle belle traîne il a à son manteau ! Comme il lui va bien ! »"
+        },
+        {
+          "id": "a4e4",
+          "type": "conteur",
+          "texte": "Personne ne voulait laisser voir qu'il ne voyait rien, car alors il n'aurait pas été digne de sa charge, ou il aurait été très sot. Jamais les habits de {{r1}} n'avaient eu autant de succès."
+        },
+        {
+          "id": "a4e5",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Dites avec la foule : comme ils lui vont bien !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e6",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne vers la rue et s’immobilise."
+        },
+        {
+          "id": "a4e7",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e8",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Mais il n’a rien sur lui !"
+        },
+        {
+          "id": "a4e9",
+          "type": "adresse_public",
+          "marionnetteId": "r5",
+          "texte": "Criez avec moi : il n’a rien sur lui !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e10",
+          "type": "note_marionnettiste",
+          "texte": "Voix du père, en coulisse : « Seigneur, écoutez la voix de l’innocence. »"
+        },
+        {
+          "id": "a4e11",
+          "type": "conteur",
+          "texte": "Et l'on se répéta tout bas, de l'un à l'autre, ce que {{r5}} avait dit."
+        },
+        {
+          "id": "a4e12",
+          "type": "note_marionnettiste",
+          "texte": "Voix du peuple, en coulisse : « Mais il n’a rien sur lui ! »"
+        },
+        {
+          "id": "a4e13",
+          "type": "conteur",
+          "texte": "{{r1}} en eut des frissons, car il lui semblait qu'ils avaient raison."
+        },
+        {
+          "id": "a4e14",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Maintenant, il faut que je tienne jusqu'au bout de la procession.",
+          "ton": "pour soi"
+        },
+        {
+          "id": "a4e15",
+          "type": "conteur",
+          "texte": "Et il se tint encore plus fier, et les chambellans continuèrent à marcher derrière lui, comme si la traîne existait."
+        },
+        {
+          "id": "a4e16",
+          "type": "didascalie",
+          "texte": "{{r5}} s’incline vers les enfants."
+        },
+        {
+          "id": "a4e17",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e18",
+          "type": "didascalie",
+          "texte": "{{r1}} s’incline une dernière fois."
+        },
+        {
+          "id": "a4e19",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "dk-habits-neufs-empereur",
+    "synopsis": {
+      "accroche": "Qui osera dire ce qu’il voit ?",
+      "resume": [
+        "{{r2}} et {{r3}} promettent à {{r1}} un tissu invisible aux sots. {{r4}}, {{r6}} puis {{r1}} ne voient rien, mais font semblant de l’admirer.",
+        "Pendant la procession, {{r5}} dit qu’il n’a rien sur lui. Le peuple le reprend ; {{r1}} entend et continue, plus fier encore."
+      ]
+    },
+    "transposition": {
+      "texte": "Il y a bien des années vivait un empereur, {{r1}}, qui aimait tant les beaux habits neufs qu'il dépensait tout son argent pour être bien paré. Il ne se souciait pas de ses soldats, ni du théâtre, ni des promenades en voiture dans la forêt, sauf pour montrer ses habits neufs. Il avait un costume pour chaque heure de la journée, et comme on dit d'un roi « il est au conseil », on disait toujours ici : « {{r1}} est dans sa garde-robe ! »\n\nDans la grande ville où il habitait, on s'amusait beaucoup. Chaque jour arrivaient beaucoup d'étrangers. Un jour arrivèrent {{r2}} et {{r3}}. {{r2}} se présenta comme tisserand. {{r3}} prétendit aussi être tisserand. Le duo dit savoir tisser l'étoffe la plus merveilleuse qu'on puisse imaginer. Non seulement les couleurs et le motif étaient d'une beauté extraordinaire, mais les habits cousus dans cette étoffe avaient la propriété étonnante de devenir invisibles pour tous ceux qui n'étaient pas dignes de leur charge, ou qui étaient d'une bêtise impardonnable.\n\n« Voilà des habits magnifiques, pensa {{r1}}. En les portant, je pourrais découvrir quels hommes de mon empire ne sont pas dignes de leur charge, je pourrais distinguer les malins des sots ! Oui, il faut qu'on me tisse cette étoffe tout de suite ! »\n\n{{r2}} et {{r3}} reçurent beaucoup d'argent d'avance, pour commencer leur travail.\n\nLe duo installa deux métiers à tisser et fit semblant de travailler, mais il n'y avait absolument rien sur les métiers. Sans se gêner, le duo réclamait la soie la plus fine et l'or le plus magnifique ; la soie et l’or disparaissaient dans leur propre sac, et le duo travaillait sur les métiers vides, jusque tard dans la nuit.\n\n« Je voudrais bien savoir où le duo en est avec l'étoffe », pensait {{r1}}. Mais il se sentait tout de même un peu drôle en pensant que celui qui était sot, ou qui ne convenait pas à sa charge, ne pourrait pas la voir. Il croyait bien n'avoir rien à craindre pour lui-même, mais il préférait tout de même envoyer quelqu'un d'abord, pour voir comment les choses se présentaient. Tout le monde en ville savait quel pouvoir extraordinaire avait l'étoffe, et chacun avait hâte de voir combien son voisin était incapable ou sot.\n\n« Je vais envoyer mon vieux et honnête ministre {{r4}} chez {{r2}} et {{r3}}, pensa {{r1}}. C'est lui qui verra le mieux comment est l'étoffe, car il a de l'esprit, et personne ne remplit mieux sa charge que lui. »\n\n{{r4}} entra donc dans la salle où {{r2}} et {{r3}} travaillaient sur les métiers vides.\n\n« Dieu nous garde ! pensa {{r4}} en écarquillant les yeux. Mais je ne vois rien du tout ! »\n\nMais il ne le dit pas.\n\nLes deux escrocs, {{r2}} et {{r3}} le prièrent de bien vouloir s'approcher, et lui demandèrent si ce n'était pas un beau motif et de belles couleurs. Et ils montraient le métier vide, et {{r4}} regardait le métier vide, mais il ne voyait rien, car il n'y avait rien.\n\n« Seigneur ! pensa-t-il. Serais-je sot ? Je ne l'aurais jamais cru, et personne ne doit le savoir ! Ne serais-je pas digne de ma charge ? Non, il est impossible que je raconte que je ne vois pas l'étoffe ! »\n\n— Eh bien, vous ne dites rien ? dit l'un des tisserands.\n\n— Oh, c'est ravissant ! Tout à fait charmant ! dit {{r4}} en regardant à travers ses lunettes. Ce motif, et ces couleurs ! Oui, je dirai à {{r1}} que cela me plaît énormément.\n\n— Voilà qui nous fait plaisir ! dirent les deux tisserands.\n\nLe duo nomma les couleurs et décrivit le motif extraordinaire. Le vieux ministre écouta bien, pour pouvoir répéter la même chose en rentrant chez {{r1}} ; et c'est ce qu'il fit.\n\nAlors {{r2}} et {{r3}} réclamèrent encore plus d'argent, plus de soie et d'or, pour le tissage. Tout disparut dans leurs poches ; pas un fil n'alla sur le métier ; et le duo continua, comme avant, à tisser sur le métier vide.\n\n{{r1}} envoya bientôt un autre brave fonctionnaire, {{r6}}, voir comment avançait le tissage, et si l'étoffe serait bientôt prête. Il lui arriva la même chose qu'au premier : il regarda et regarda, mais comme il n'y avait rien d'autre que les métiers vides, il ne put rien voir.\n\n— N'est-ce pas une belle pièce d'étoffe ? dirent les deux escrocs, {{r2}} et {{r3}}.\n\nLe duo montrait et expliquait le merveilleux motif, qui n'existait pas du tout.\n\n« Sot, je ne le suis pas, pensa {{r6}}. C'est donc de ma bonne charge que je ne suis pas digne ? Voilà qui est curieux ! Mais il ne faut pas le laisser voir. »\n\nEt il fit l'éloge de l'étoffe qu'il ne voyait pas, et leur assura sa joie devant les belles couleurs et le merveilleux motif.\n\n— Oui, c'est tout à fait charmant, dit-il à {{r1}}.\n\nTout le monde en ville parlait de la magnifique étoffe.\n\n{{r1}} voulut alors la voir lui-même, pendant qu'elle était encore sur le métier. Avec toute une troupe choisie, où se trouvaient {{r4}} et {{r6}}, il se rendit chez {{r2}} et {{r3}}, qui tissaient maintenant de toutes leurs forces, mais sans fil ni fibre.\n\n— N'est-ce pas magnifique ? dirent les deux braves fonctionnaires. Votre Majesté veut-elle voir quel motif, quelles couleurs !\n\nLes deux fonctionnaires montraient le métier vide, car les deux croyaient que les autres voyaient sûrement l'étoffe.\n\n« Qu'est-ce que c'est que ça ? pensa {{r1}}. Je ne vois rien du tout ! C'est épouvantable ! Suis-je sot ? Ne suis-je pas digne d'être empereur ? C'est la chose la plus terrible qui pouvait m'arriver ! »\n\n— Oh, c'est très beau, dit {{r1}}. Cela a toute ma très haute approbation !\n\nEt il hocha la tête d'un air satisfait en contemplant le métier vide : il ne voulait pas dire qu'il ne voyait rien. Toute la suite qu'il avait amenée regardait et regardait, mais n'en voyait pas plus que les autres ; pourtant, ils dirent comme {{r1}} : « Oh, c'est très beau ! » Et ils lui conseillèrent de porter ces habits neufs et magnifiques pour la première fois lors de la grande procession qui devait avoir lieu.\n\n« C'est magnifique ! Ravissant ! Excellent ! » passait de bouche en bouche, et tout le monde était enchanté. {{r1}} accorda une décoration à {{r2}} et une autre à {{r3}}, le titre de Gentilhomme Tisserand à {{r2}}, et celui de Gentilhomme Tisserand à {{r3}}.\n\nToute la nuit qui précéda la matinée de la procession, {{r2}} et {{r3}} restèrent debout, avec plus de seize chandelles allumées. Les gens pouvaient voir que le duo se dépêchait de finir les habits neufs de {{r1}}. Le duo prétendit achever les habits neufs, alors que les métiers restaient vides, et dit enfin :\n\n— Voilà, les habits sont prêts !\n\n{{r1}} vint lui-même avec ses plus nobles chevaliers, et le duo se dressa devant lui, comme pour présenter quelque chose, et dit :\n\n— Voici le pantalon ! Voici la veste ! Voici le manteau !\n\nEt ainsi de suite.\n\n— C'est léger comme une toile d'araignée ! On croirait n'avoir rien sur le corps, mais c'est justement là sa qualité !\n\n— Oui, dirent tous les chevaliers.\n\nMais ils ne voyaient rien, car il n'y avait rien.\n\n— Votre Majesté impériale daignera-t-elle maintenant ôter ses habits ? dirent {{r2}} et {{r3}}. Nous vous mettrons les nouveaux ici, devant le grand miroir.\n\n{{r1}} se retrouva sans aucun habit. {{r2}} et {{r3}} firent comme si chaque pièce neuve recouvrait son corps. Et {{r1}} se tournait et se retournait devant le miroir.\n\n— Dieu, comme ils vous vont bien ! Comme ils tombent bien ! dirent-ils tous. Quel motif ! Quelles couleurs ! C'est un costume précieux !\n\n— Dehors, on attend avec le dais qui doit être porté au-dessus de Votre Majesté pendant la procession, dit le grand maître des cérémonies.\n\n— Oui, je suis prêt, dit {{r1}}. Est-ce que ça ne me va pas bien ?\n\nEt il se tourna encore une fois devant le miroir, car il fallait faire comme s'il admirait vraiment sa tenue.\n\nLes chambellans marchaient derrière {{r1}}, comme si une traîne les suivait ; ils n'osaient pas laisser voir qu'ils ne voyaient rien.\n\nAlors {{r1}} défila dans la procession sous le beau dais, et tous les gens dans la rue et aux fenêtres disaient :\n\n— Dieu, comme les habits neufs de {{r1}} sont incomparables ! Quelle belle traîne il a à son manteau ! Comme il lui va bien !\n\nPersonne ne voulait laisser voir qu'il ne voyait rien, car alors il n'aurait pas été digne de sa charge, ou il aurait été très sot. Jamais les habits de {{r1}} n'avaient eu autant de succès.\n\n— Mais il n'a rien sur lui ! dit {{r5}}.\n\n— Seigneur, écoutez la voix de l'innocence, dit le père.\n\nEt l'on se répéta tout bas, de l'un à l'autre, ce que {{r5}} avait dit.\n\n— Mais il n'a rien sur lui ! cria enfin tout le peuple.\n\n{{r1}} en eut des frissons, car il lui semblait qu'ils avaient raison. Mais il pensa : « Maintenant, il faut que je tienne jusqu'au bout de la procession. » Et il se tint encore plus fier, et les chambellans continuèrent à marcher derrière lui, comme si la traîne existait.\n"
+    }
+  },
+  "dureeEstimeeSecondes": 980,
+  "interactionsOrdonnees": [
+    "a4e9",
+    "a4e5",
+    "a3e40",
+    "a3e5",
+    "a2e30",
+    "a2e14",
+    "a1e22",
+    "a1e8"
+  ]
+}

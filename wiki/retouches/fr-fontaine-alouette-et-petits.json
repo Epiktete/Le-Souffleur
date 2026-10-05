@@ -1,0 +1,17 @@
+{
+  "id": "fr-fontaine-alouette-et-petits",
+  "langue": [
+    {
+      "avant": "De mille soins divers",
+      "apres": "De mille soucis divers",
+      "nature": "faux-ami"
+    },
+    {
+      "avant": "la nitée",
+      "apres": "la nichée",
+      "nature": "mot-rare",
+      "jusqua": 6
+    }
+  ],
+  "moments": []
+}

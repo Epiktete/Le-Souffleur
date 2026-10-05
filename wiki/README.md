@@ -1,0 +1,153 @@
+# Le répertoire du Souffleur
+
+Un recueil de contes, fables et pièces de marionnettes du domaine public,
+venus de toutes les cultures. Le générateur ne part plus de rien : il part
+d'une histoire qui a fait ses preuves depuis des siècles, et l'adapte aux
+marionnettes de la famille.
+
+## Enrichissement du 1er octobre 2026
+
+Le répertoire contient **160 textes originaux**, dont **41 fables**, **14 pièces
+de marionnettes** (13 Guignol et Punch et Judy) et **une comédie de Molière**.
+Les quatorze ajouts de ce lot sont des sources pour l’Atelier ; les spectacles
+déjà adaptés de `banque/` forment un fonds distinct.
+
+| Auteur ou tradition | Textes ajoutés |
+| --- | --- |
+| La Fontaine | Le Cochet, le Chat et le Souriceau ; Conseil tenu par les Rats ; Le Savetier et le Financier ; Le Bûcheron et Mercure ; Le Dépositaire infidèle ; L’Alouette et ses petits, avec le Maître d’un champ |
+| Florian | Le Chat et le Miroir ; L’Aveugle et le Paralytique ; Le Vieux Arbre et le Jardinier ; La Guenon, le Singe et la Noix ; Le Lapin et la Sarcelle ; Le Bœuf, le Cheval et l’Âne |
+| Guignol | Le Déménagement de Guignol, version de Louis Josserand publiée en 1876 |
+| Molière | Le Médecin volant, édition Louandre de 1910 |
+
+Chaque texte possède son original intégral, sa fiche et ses retouches par âge.
+Les sources françaises sont conservées dans leur langue d’édition, avec leurs
+prologues et leurs fins. Les retouches s’appliquent séparément à la génération.
+L’import conserve les lettrines illustrées et élimine les vers invisibles qui
+ne servent qu’à aligner la poésie sur Wikisource.
+
+## Le principe
+
+1. Le parent choisit ses marionnettes. Chacune a une **espèce** (lapin,
+   ours, sorcière…) et des **traits** (rusé, peureux, gourmand…).
+2. On compare ce plateau aux fiches : combien de personnages il faut, de
+   quelles espèces, avec quels caractères. Les contes qui s'en approchent le
+   plus remontent.
+3. Le modèle lit les meilleurs, en retient **trois**, et propose au parent
+   trois synopsis : chacun adapte un conte à cette distribution, en gardant
+   son essence.
+4. Le parent choisit, et le script s'écrit à partir du conte choisi.
+
+## Les quatre dossiers
+
+| Dossier | Contenu | Qui le lit |
+| --- | --- | --- |
+| `raw/` | Le texte original, dans sa langue, avec sa source et ses droits en en-tête | Nous, pour vérifier |
+| `fr/` | La version française intégrale, traduite par nous depuis l'original | Le modèle, pour adapter le conte retenu |
+| `fiches/` | La fiche synthétique : personnages, attributs, essence, trame | Le modèle et l'application, pour choisir |
+| `retouches/` | Ce qui change dans le texte de `fr/` selon l'âge du public : la langue ancienne et les moments de fond (peur, violence, mort) | L'application, qui l'applique au texte avant de le donner au modèle |
+
+Les fiches de `retouches/` se préparent en suivant le guide
+[`ADAPTATION.md`](ADAPTATION.md) : la grille par âge, les règles de langue et
+le format. On les vérifie avec :
+
+    node tools/verifier-retouches.mjs
+    node tools/verifier-retouches.mjs --rendre <id>    # chaque version du conte
+
+Un conte porte le même identifiant dans chaque dossier :
+`raw/de-musiciens-de-breme.md`, `fr/de-musiciens-de-breme.md`,
+`fiches/de-musiciens-de-breme.md`. Le préfixe dit l'origine (`de-`
+Allemagne, `afr-` Afrique, `zh-` Chine, `guignol-` Lyon…).
+
+Les textes originaux se récupèrent avec :
+
+    node tools/telecharger-contes.mjs
+
+La liste des contes et de leurs sources est dans `tools/sources-contes.mjs`.
+Après avoir ajouté ou modifié une fiche, on vérifie sa forme avec :
+
+    node tools/verifier-fiches.mjs
+
+## Le format d'une fiche
+
+```yaml
+---
+id: de-musiciens-de-breme
+titre: Les Musiciens de Brême
+culture: Allemagne
+source: "Jacob et Wilhelm Grimm, Contes de l'enfance et du foyer, 1857 (n° 27)"
+genre: conte d'animaux
+age: [3, 8]
+personnages: 4              # rôles qui comptent : un par marionnette
+figurants: 1                # rôles qu'on peut jouer à la voix ou supprimer
+roles:
+  - nom: l'Âne
+    espece: âne
+    categorie: animal
+    traits: [courageux, gentil]
+    fonction: meneur
+  - nom: le Coq
+    ...
+lieux: [la route, la maison des voleurs]
+ressorts: [union des faibles, peur par le bruit]
+structure: randonnée
+---
+```
+
+Suivent trois paragraphes courts : **Essence** (une phrase : ce qu'il faut
+garder pour que ce soit encore ce conte), **Trame** (cinq points au plus), et
+enfin l'un de ces deux-là :
+
+- **À jouer**, quand le conte a sa fiche de retouches : les idées de mise en
+  scène, ce que le public peut crier ou répéter, les conseils de durée. Le fond
+  ne s'y écrit plus, il dépend de l'âge et vit dans `retouches/`.
+- **À adapter**, l'ancienne forme, pour les contes qui n'ont pas encore leur
+  fiche de retouches : ce qui ne passe pas devant des enfants de 3 à 10 ans, ou
+  pas sur un théâtre de salon, et comment le remplacer.
+
+### Les champs qui servent au choix
+
+L'application les lit dans `src/services/repertoire.ts` et les note dans
+`src/services/choixContes.ts` : le **nombre** de personnages, puis les
+**traits**, l'**ébauche** du parent, la **durée**, et enfin l'**espèce**, qui ne
+sert qu'à départager — sauf qu'une petite bête douce ne joue jamais un
+prédateur ni un ogre. Le champ `source` est cité au parent sous « D'après » sur la carte du
+synopsis.
+
+- **personnages** : le nombre de rôles qui portent l'histoire. Une famille
+  qui a trois marionnettes cherche d'abord les contes à trois.
+- **categorie** : `animal`, `humain`, `merveilleux` (fée, ogre, dragon,
+  esprit) ou `objet` (un pain qui roule, une marmite).
+- **espece** : le mot simple qu'on mettrait sur la marionnette (lièvre,
+  renard, roi, sorcière). Un lièvre du conte peut être joué par un lapin :
+  c'est le rôle qui compte.
+- **traits** : pris d'abord dans la liste de la marionnethèque —
+  gentil, méchant, coquin, rusé, peureux, courageux, gourmand, grognon,
+  rêveur, bavard, maladroit, savant, farceur, timide — puis, si aucun ne
+  convient, dans ce complément : vantard, naïf, paresseux, sage, avare,
+  orgueilleux, curieux, têtu, travailleur, généreux, jaloux, menteur, fort,
+  minuscule.
+- **fonction** : ce que fait le rôle dans l'histoire — héros, trompeur,
+  dupe, adversaire, aide, juge, meneur, compagnon, victime, donneur.
+
+## Pourquoi les originaux et pas seulement des résumés
+
+Un résumé garde l'intrigue et perd tout le reste : la formule qui revient,
+la réplique qui fait rire, le rythme. Ce sont eux qui font qu'un conte se
+raconte encore après trois cents ans. Le modèle adapte donc à partir de la
+version française intégrale, et la fiche ne sert qu'à le trouver.
+
+## Le domaine public
+
+Chaque texte original porte en en-tête la raison pour laquelle il est libre :
+auteur, collecteur ou traducteur mort depuis plus de soixante-dix ans, ou
+texte anonyme ancien. Les versions françaises de `fr/` comprennent des
+traductions du projet et des textes français repris d’éditions anciennes.
+Les originaux du domaine public conservent ce statut. Les apports originaux
+du projet relèvent de [PolyForm Noncommercial 1.0.0](../LICENSE), dans la mesure
+des droits détenus par leurs auteurs. Les versions antérieures sous MIT
+conservent les permissions déjà accordées.
+
+Les sources précises figurent dans les en-têtes de `raw/` et dans
+`tools/sources-contes.mjs`. Avant d’ajouter un texte, vérifier aussi les droits
+du traducteur, de l’édition et des éventuelles illustrations. Voir
+[les mentions et limites de cette documentation](../THIRD_PARTY_NOTICES.md).

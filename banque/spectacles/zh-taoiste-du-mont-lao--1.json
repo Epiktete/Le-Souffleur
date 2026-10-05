@@ -1,0 +1,1192 @@
+{
+  "id": "zh-taoiste-du-mont-lao--1",
+  "conteId": "zh-taoiste-du-mont-lao",
+  "titre": "Le Taoïste du mont Lao",
+  "pitch": "{{r1}} veut apprendre la magie sans couper du bois. {{r2}} lui enseigne le passage à travers les murs ; chez lui, sa vantardise lui vaut une bosse.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "paresseux",
+        "vantard",
+        "rêveur"
+      ],
+      "voix": "voix jeune et pressée, qui devient très forte quand il se vante",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "voix:r1",
+            "avant": "il se vante",
+            "apres": "elle se vante"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "est épuisé",
+            "apres": "est épuisée"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "Fatigué",
+            "apres": "Fatiguée"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "Il réussit",
+            "apres": "Elle réussit"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "Tout jeune",
+            "apres": "Toute jeune"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "il rêvait",
+            "apres": "elle rêvait"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "il partit",
+            "apres": "elle partit"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "Il grimpa",
+            "apres": "Elle grimpa"
+          },
+          {
+            "id": "a1e6:ton",
+            "avant": "respectueux",
+            "apres": "respectueuse"
+          },
+          {
+            "id": "a1e7:texte",
+            "avant": "trop gâté et trop paresseux",
+            "apres": "trop gâtée et trop paresseuse"
+          },
+          {
+            "id": "a1e19:texte",
+            "avant": "il n’en pouvait plus",
+            "apres": "elle n’en pouvait plus"
+          },
+          {
+            "id": "a1e19:texte",
+            "avant": "chez lui",
+            "apres": "chez elle"
+          },
+          {
+            "id": "a2e3:texte",
+            "avant": "émerveillé",
+            "apres": "émerveillée"
+          },
+          {
+            "id": "a2e20:ton",
+            "avant": "étonné",
+            "apres": "étonnée"
+          },
+          {
+            "id": "a2e50:texte",
+            "avant": "était émerveillé",
+            "apres": "était émerveillée"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "Il n’y tint plus",
+            "apres": "Elle n’y tint plus"
+          },
+          {
+            "id": "a3e5:texte",
+            "avant": "Votre disciple est venu",
+            "apres": "Votre disciple est venue"
+          },
+          {
+            "id": "a3e5:texte",
+            "avant": "Même s’il ne peut",
+            "apres": "Même si elle ne peut"
+          },
+          {
+            "id": "a3e5:ton",
+            "avant": "épuisé",
+            "apres": "épuisée"
+          },
+          {
+            "id": "a3e8:texte",
+            "avant": "je ne serais pas venu",
+            "apres": "je ne serais pas venue"
+          },
+          {
+            "id": "a3e8:ton",
+            "avant": "insistant",
+            "apres": "insistante"
+          },
+          {
+            "id": "a3e22:ton",
+            "avant": "tout joyeux",
+            "apres": "toute joyeuse"
+          },
+          {
+            "id": "a3e23:texte",
+            "avant": "reste pur et modeste",
+            "apres": "reste pure et modeste"
+          },
+          {
+            "id": "a3e24:texte",
+            "avant": "le renvoya",
+            "apres": "la renvoya"
+          },
+          {
+            "id": "a3e29:ton",
+            "avant": "vantard",
+            "apres": "vantarde"
+          },
+          {
+            "id": "a3e37:ton",
+            "avant": "honteux et furieux",
+            "apres": "honteuse et furieuse"
+          },
+          {
+            "id": "pitch",
+            "avant": "chez lui",
+            "apres": "chez elle"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "chez lui",
+            "apres": "chez elle"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "nommé",
+            "apres": "nommée"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "il vit",
+            "apres": "elle vit"
+          },
+          {
+            "id": "a3e24:texte",
+            "avant": "chez lui",
+            "apres": "chez elle"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a1e1:texte",
+          "avant": "un jeune homme",
+          "gabarit": "{un} jeune {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r2",
+      "espece": "magicien",
+      "famille": "feerique",
+      "traits": [
+        "sage",
+        "farceur",
+        "savant"
+      ],
+      "voix": "voix lente et calme, qui donne ses ordres sans hausser le ton",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e3:texte",
+            "avant": "Un moine taoïste était assis",
+            "apres": "Une nonne taoïste était assise"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "le salua",
+            "apres": "la salua"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "mon maître",
+            "apres": "ma maîtresse"
+          },
+          {
+            "id": "a2e43:texte",
+            "avant": "était assis seul",
+            "apres": "était assise seule"
+          },
+          {
+            "id": "a2e44:texte",
+            "avant": "avance seul",
+            "apres": "avance seule"
+          },
+          {
+            "id": "a3e5:texte",
+            "avant": "du maître immortel",
+            "apres": "de la maîtresse immortelle"
+          },
+          {
+            "id": "a3e8:texte",
+            "avant": "si le maître m’apprenait",
+            "apres": "si la maîtresse m’apprenait"
+          },
+          {
+            "id": "a3e10:texte",
+            "avant": "le maître",
+            "apres": "la maîtresse"
+          },
+          {
+            "id": "a3e13:texte",
+            "avant": "du maître",
+            "apres": "de la maîtresse"
+          },
+          {
+            "id": "a3e22:texte",
+            "avant": "Merci, maître",
+            "apres": "Merci, maîtresse"
+          },
+          {
+            "id": "a3e29:texte",
+            "avant": "un immortel",
+            "apres": "une immortelle"
+          },
+          {
+            "id": "a3e37:texte",
+            "avant": "Ce vieux moine",
+            "apres": "Cette vieille nonne"
+          },
+          {
+            "id": "voix:r6",
+            "avant": "au maître",
+            "apres": "à la maîtresse"
+          },
+          {
+            "id": "a3e11:texte",
+            "avant": "Il lui transmit",
+            "apres": "Elle lui transmit"
+          },
+          {
+            "id": "a3e16:ton",
+            "avant": "encourageant",
+            "apres": "encourageante"
+          },
+          {
+            "id": "a3e9:ton",
+            "avant": "curieux",
+            "apres": "curieuse"
+          },
+          {
+            "id": "a2e49:ton",
+            "avant": "sérieux",
+            "apres": "sérieuse"
+          },
+          {
+            "id": "a3e23:ton",
+            "avant": "sérieux",
+            "apres": "sérieuse"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r3",
+      "espece": "femme",
+      "famille": "adulte",
+      "traits": [
+        "farceur",
+        "sage"
+      ],
+      "voix": "voix vive et ferme, qui rit sans se moquer longtemps",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a3e27:texte",
+            "avant": "sa femme",
+            "apres": "son mari"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r4",
+      "espece": "magicien",
+      "famille": "feerique",
+      "traits": [
+        "farceur",
+        "curieux"
+      ],
+      "voix": "voix chantante et joyeuse, qui aime lancer les idées",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2e1:texte",
+            "avant": "deux invités",
+            "apres": "deux invitées"
+          },
+          {
+            "id": "a2e7:texte",
+            "avant": "Un des invités",
+            "apres": "Une des invitées"
+          },
+          {
+            "id": "a2e10:ton",
+            "avant": "joyeux",
+            "apres": "joyeuse"
+          },
+          {
+            "id": "a2e15:ton",
+            "avant": "généreux",
+            "apres": "généreuse"
+          },
+          {
+            "id": "a2e39:ton",
+            "avant": "amusé",
+            "apres": "amusée"
+          },
+          {
+            "id": "a2e43:texte",
+            "avant": "les invités avaient disparu",
+            "apres": "les invitées avaient disparu"
+          },
+          {
+            "id": "a2e37:texte",
+            "avant": "Un autre invité",
+            "apres": "Une autre invitée"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r5",
+      "espece": "fee",
+      "famille": "feerique",
+      "traits": [
+        "rêveur",
+        "gracieux"
+      ],
+      "voix": "voix légère et chantée, très douce",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a2e26:texte",
+            "avant": "la déesse de la Lune",
+            "apres": "le dieu de la Lune"
+          },
+          {
+            "id": "a2e27:texte",
+            "avant": "elle grandit",
+            "apres": "il grandit"
+          },
+          {
+            "id": "a2e31:texte",
+            "avant": "elle-même",
+            "apres": "lui-même"
+          },
+          {
+            "id": "a2e32:texte",
+            "avant": "elle chanta",
+            "apres": "il chanta"
+          },
+          {
+            "id": "a2e33:texte",
+            "avant": "me laisser seule",
+            "apres": "me laisser seul"
+          },
+          {
+            "id": "a2e35:texte",
+            "avant": "elle eut fini",
+            "apres": "il eut fini"
+          },
+          {
+            "id": "a2e35:texte",
+            "avant": "elle tournoya",
+            "apres": "il tournoya"
+          },
+          {
+            "id": "a2e35:texte",
+            "avant": "elle était redevenue",
+            "apres": "il était redevenu"
+          },
+          {
+            "id": "a2e27:texte",
+            "avant": "pas plus haute",
+            "apres": "pas plus haut"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r6",
+      "espece": "eleve",
+      "famille": "enfant",
+      "traits": [
+        "travailleur",
+        "curieux"
+      ],
+      "voix": "voix jeune et appliquée, qui répond vite au maître",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": []
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 13,
+    "ageAuditoire": 7,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "Le temple et la forêt",
+      "description": "Posez un coussin d’un côté de la table : {{r2}} y accueille {{r1}}. Deux coussins debout de l’autre côté figurent les arbres. Un drap devant la table cache les changements de peluches.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "La nuit de la lune",
+      "description": "Fixez avant le spectacle un rond de papier sur un carton dressé derrière la table. Ce rond représente la lune ; la lumière se dit dans le texte, sans lampe à manipuler. Le bord de la table reste libre pour la danse.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t3",
+      "titre": "Le mur et la maison",
+      "description": "Placez un carton debout au milieu de la table, avec assez de place derrière pour faire passer {{r1}} d’un côté à l’autre. À la fin, ce même carton devient le mur de sa maison.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Le temple et le bois",
+      "resume": "{{r1}} part trouver {{r2}}, qui lui demande de couper du bois. Après plus d’un mois, {{r1}} est épuisé.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Il y avait dans notre district un jeune homme nommé {{r1}}, septième enfant d’une vieille famille. Tout jeune, il rêvait de la Voie des immortels. Ayant entendu dire qu’il y avait beaucoup d’immortels sur le mont Lao, il partit."
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e3",
+          "type": "conteur",
+          "texte": "Il grimpa jusqu’à un sommet où se trouvait un temple, très retiré. Un moine taoïste était assis sur un coussin de jonc, les cheveux blancs tombant sur le col, l’air vif et plein d’esprit."
+        },
+        {
+          "id": "a1e4",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e5",
+          "type": "conteur",
+          "texte": "{{r1}} le salua et lui parla : ses propos étaient profonds et mystérieux."
+        },
+        {
+          "id": "a1e6",
+          "type": "replique",
+          "texte": "Je voudrais que vous soyez mon maître.",
+          "marionnetteId": "r1",
+          "ton": "respectueux"
+        },
+        {
+          "id": "a1e7",
+          "type": "replique",
+          "texte": "J’ai peur que tu sois trop gâté et trop paresseux pour supporter la peine.",
+          "marionnetteId": "r2",
+          "ton": "calme"
+        },
+        {
+          "id": "a1e8",
+          "type": "replique",
+          "texte": "J’en suis capable.",
+          "marionnetteId": "r1",
+          "ton": "avec assurance"
+        },
+        {
+          "id": "a1e9",
+          "type": "adresse_public",
+          "texte": "Dites avec moi ce que je promets : « J’en suis capable ! »",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e10",
+          "type": "conteur",
+          "texte": "{{r2}} avait beaucoup de disciples ; au crépuscule, toute l’assemblée se réunit. {{r1}} salua tout le monde, et resta au temple."
+        },
+        {
+          "id": "a1e11",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e12",
+          "type": "conteur",
+          "texte": "À l’aube, {{r2}} appela {{r1}} :"
+        },
+        {
+          "id": "a1e13",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e14",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Va couper du bois avec les autres."
+        },
+        {
+          "id": "a1e15",
+          "type": "conteur",
+          "texte": "{{r1}} obéit respectueusement."
+        },
+        {
+          "id": "a1e16",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e17",
+          "type": "didascalie",
+          "texte": "{{r1}} se courbe, se relève et recommence trois fois, comme pour couper du bois."
+        },
+        {
+          "id": "a1e18",
+          "type": "adresse_public",
+          "texte": "Faites avec moi trois coups dans la forêt : toc, toc, toc !",
+          "marionnetteId": "r1",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e19",
+          "type": "conteur",
+          "texte": "Au bout d’un mois et plus, il n’en pouvait plus de fatigue après tant de jours à couper du bois, et pensait en secret à rentrer chez lui."
+        },
+        {
+          "id": "a1e20",
+          "type": "didascalie",
+          "texte": "{{r1}} avance à tout petits pas, le dos courbé."
+        },
+        {
+          "id": "a1e21",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "La lune et le vin",
+      "resume": "Un soir, {{r1}} voit une lune de papier, une cruche inépuisable et {{r5}} qui sort de la lumière pour chanter.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "Un soir, en rentrant, il vit deux invités qui buvaient avec {{r2}}. La nuit était tombée, et il n’y avait encore ni lampe ni chandelle."
+        },
+        {
+          "id": "a2e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e3",
+          "type": "didascalie",
+          "texte": "{{r1}} arrive au bord du temple et s’arrête, émerveillé."
+        },
+        {
+          "id": "a2e4",
+          "type": "conteur",
+          "texte": "Alors un rond de papier comme un miroir apparut sur le mur. Aussitôt, une lune brillante éclaira le mur, si claire qu’on y voyait le moindre poil."
+        },
+        {
+          "id": "a2e5",
+          "type": "adresse_public",
+          "texte": "Regardez avec moi la lune sur le mur et faites « oh ! »",
+          "marionnetteId": "r1",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e6",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e7",
+          "type": "conteur",
+          "texte": "L’assemblée s’empressait autour de la table pour le service. Un des invités dit :"
+        },
+        {
+          "id": "a2e8",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e9",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e10",
+          "type": "replique",
+          "texte": "Une si belle nuit, un tel plaisir : il faut le partager avec tout le monde !",
+          "marionnetteId": "r4",
+          "ton": "joyeux"
+        },
+        {
+          "id": "a2e11",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e12",
+          "type": "conteur",
+          "texte": "Le vin fut offert à toute l’assemblée."
+        },
+        {
+          "id": "a2e13",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e14",
+          "type": "didascalie",
+          "texte": "{{r4}} se tourne vers les disciples au bord de la scène."
+        },
+        {
+          "id": "a2e15",
+          "type": "replique",
+          "texte": "Buvez tant que vous voulez !",
+          "marionnetteId": "r4",
+          "ton": "généreux"
+        },
+        {
+          "id": "a2e16",
+          "type": "adresse_public",
+          "texte": "Faites avec moi le bruit du vin qui coule sans fin : glou, glou !",
+          "marionnetteId": "r6",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e17",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e18",
+          "type": "note_marionnettiste",
+          "texte": "Laisser une respiration pour reprendre {{r1}}."
+        },
+        {
+          "id": "a2e19",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e20",
+          "type": "replique",
+          "texte": "Nous sommes sept ou huit : comment une seule cruche suffirait-elle ?",
+          "marionnetteId": "r1",
+          "ton": "étonné"
+        },
+        {
+          "id": "a2e21",
+          "type": "conteur",
+          "texte": "On se dépêchait de boire, de peur que la cruche soit vide ; mais le vin coulait encore et encore, et elle ne baissait pas. {{r1}} s’en émerveilla."
+        },
+        {
+          "id": "a2e22",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e23",
+          "type": "didascalie",
+          "texte": "{{r4}} lève la tête vers la lune et attend un instant."
+        },
+        {
+          "id": "a2e24",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e25",
+          "type": "conteur",
+          "texte": "Bientôt, {{r4}} dit :"
+        },
+        {
+          "id": "a2e26",
+          "type": "replique",
+          "texte": "Merci pour ce clair de lune ; mais boire ainsi en silence, c’est bien triste. Pourquoi ne pas appeler la déesse de la Lune ?",
+          "marionnetteId": "r4",
+          "ton": "avec entrain"
+        },
+        {
+          "id": "a2e27",
+          "type": "conteur",
+          "texte": "Et une baguette entra dans la lune. On vit {{r5}} sortir de la lumière : d’abord pas plus haute qu’un pied, elle grandit en touchant le sol jusqu’à la taille d’une vraie personne, la taille fine, le cou gracieux."
+        },
+        {
+          "id": "a2e28",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e29",
+          "type": "note_marionnettiste",
+          "texte": "Laisser un temps pour échanger les peluches avant la danse."
+        },
+        {
+          "id": "a2e30",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e31",
+          "type": "didascalie",
+          "texte": "{{r5}} avance en tournant lentement sur elle-même, puis se balance de droite à gauche."
+        },
+        {
+          "id": "a2e32",
+          "type": "conteur",
+          "texte": "Puis elle chanta :"
+        },
+        {
+          "id": "a2e33",
+          "type": "replique",
+          "texte": "Ô êtres immortels, revenez donc ! Pourquoi me laisser seule dans le palais glacé de la lune ?",
+          "marionnetteId": "r5",
+          "ton": "en chantant"
+        },
+        {
+          "id": "a2e34",
+          "type": "adresse_public",
+          "texte": "Faites avec moi un long « ouh » de la lune !",
+          "marionnetteId": "r5",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e35",
+          "type": "conteur",
+          "texte": "Sa voix était claire et pure comme la flûte. Quand elle eut fini, elle tournoya, s’éleva, sauta sur la table ; et pendant qu’on la regardait avec étonnement, elle était redevenue une baguette."
+        },
+        {
+          "id": "a2e36",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e37",
+          "type": "conteur",
+          "texte": "Le trio éclata de rire. Un autre invité dit :"
+        },
+        {
+          "id": "a2e38",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e39",
+          "type": "replique",
+          "texte": "Ce soir, nous nous amusons beaucoup, mais je ne supporte plus le vin. Et si vous veniez me faire vos adieux dans le palais de la lune ?",
+          "marionnetteId": "r4",
+          "ton": "amusé"
+        },
+        {
+          "id": "a2e40",
+          "type": "conteur",
+          "texte": "Le trio entra peu à peu dans la lune. Tout le monde le voyait dans la lune en train de boire, les visages bien visibles, comme un reflet dans un miroir."
+        },
+        {
+          "id": "a2e41",
+          "type": "didascalie",
+          "texte": "{{r2}} et {{r4}} restent tournés vers le carton de la lune."
+        },
+        {
+          "id": "a2e42",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e43",
+          "type": "conteur",
+          "texte": "Au bout d’un moment, la lune s’assombrit ; les disciples virent que {{r2}} était assis seul, et les invités avaient disparu. Sur la table, il restait les plats et les noyaux ; sur le mur, la lune n’était plus qu’un rond de papier."
+        },
+        {
+          "id": "a2e44",
+          "type": "didascalie",
+          "texte": "{{r2}} avance seul devant le mur et se tourne vers les disciples."
+        },
+        {
+          "id": "a2e45",
+          "type": "conteur",
+          "texte": "{{r2}} demanda à tous :"
+        },
+        {
+          "id": "a2e46",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e47",
+          "type": "replique",
+          "texte": "Avez-vous assez bu ?",
+          "marionnetteId": "r2",
+          "ton": "en souriant"
+        },
+        {
+          "id": "a2e48",
+          "type": "replique",
+          "texte": "Assez.",
+          "marionnetteId": "r6",
+          "ton": "bien fort"
+        },
+        {
+          "id": "a2e49",
+          "type": "replique",
+          "texte": "Si vous avez assez bu, allez vite dormir, et ne soyez pas en retard pour couper le bois.",
+          "marionnetteId": "r2",
+          "ton": "sérieux"
+        },
+        {
+          "id": "a2e50",
+          "type": "conteur",
+          "texte": "Toute l’assemblée acquiesça et se retira. {{r1}}, en secret, était émerveillé, et ne pensa plus à rentrer."
+        },
+        {
+          "id": "a2e51",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e52",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Le passage dans le mur",
+      "resume": "Fatigué, {{r1}} demande un tour à {{r2}}. Il réussit à passer le mur, puis se vante chez lui et se cogne.",
+      "tableauId": "t3",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "conteur",
+          "texte": "Mais un mois plus tard, la fatigue devint insupportable, et {{r2}} ne lui avait toujours pas enseigné un seul tour. Il n’y tint plus et vint annoncer son départ :"
+        },
+        {
+          "id": "a3e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e3",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e4",
+          "type": "didascalie",
+          "texte": "{{r1}} avance lentement vers {{r2}}, le dos courbé."
+        },
+        {
+          "id": "a3e5",
+          "type": "replique",
+          "texte": "Votre disciple est venu de plusieurs centaines de lieues pour recevoir l’enseignement du maître immortel. Même s’il ne peut obtenir le secret de la vie éternelle, un petit tour lui suffirait pour consoler son désir d’apprendre. Voilà deux ou trois mois que je ne fais que couper du bois du matin au soir. À la maison, je ne connaissais pas une telle peine.",
+          "marionnetteId": "r1",
+          "ton": "épuisé"
+        },
+        {
+          "id": "a3e6",
+          "type": "conteur",
+          "texte": "{{r2}} rit :"
+        },
+        {
+          "id": "a3e7",
+          "type": "replique",
+          "texte": "Je te l’avais bien dit, que tu ne supporterais pas la peine. C’est bien ce qui arrive. Demain matin, je te renverrai chez toi.",
+          "marionnetteId": "r2",
+          "ton": "avec malice"
+        },
+        {
+          "id": "a3e8",
+          "type": "replique",
+          "texte": "Votre disciple a travaillé de longs jours : si le maître m’apprenait un petit tour, je ne serais pas venu pour rien.",
+          "marionnetteId": "r1",
+          "ton": "insistant"
+        },
+        {
+          "id": "a3e9",
+          "type": "replique",
+          "texte": "Quel tour veux-tu ?",
+          "marionnetteId": "r2",
+          "ton": "curieux"
+        },
+        {
+          "id": "a3e10",
+          "type": "replique",
+          "texte": "Je vois que partout où va le maître, les murs ne l’arrêtent pas. Si j’avais seulement ce secret, cela me suffirait.",
+          "marionnetteId": "r1",
+          "ton": "avec espoir"
+        },
+        {
+          "id": "a3e11",
+          "type": "conteur",
+          "texte": "{{r2}} rit et accepta. Il lui transmit une formule."
+        },
+        {
+          "id": "a3e12",
+          "type": "replique",
+          "texte": "Récite la formule. Entre !",
+          "marionnetteId": "r2",
+          "ton": "en ordonnant"
+        },
+        {
+          "id": "a3e13",
+          "type": "adresse_public",
+          "texte": "Dites avec moi le mot du maître : « Entre ! »",
+          "marionnetteId": "r2",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e14",
+          "type": "conteur",
+          "texte": "{{r1}}, face au mur, n’osait pas entrer."
+        },
+        {
+          "id": "a3e15",
+          "type": "didascalie",
+          "texte": "{{r1}} s’approche du mur, puis recule d’un pas."
+        },
+        {
+          "id": "a3e16",
+          "type": "replique",
+          "texte": "Essaie d’entrer.",
+          "marionnetteId": "r2",
+          "ton": "encourageant"
+        },
+        {
+          "id": "a3e17",
+          "type": "didascalie",
+          "texte": "{{r1}} s’arrête contre le carton, sans le heurter."
+        },
+        {
+          "id": "a3e18",
+          "type": "replique",
+          "texte": "Baisse la tête et fonce, sans hésiter !",
+          "marionnetteId": "r2",
+          "ton": "fort"
+        },
+        {
+          "id": "a3e19",
+          "type": "adresse_public",
+          "texte": "Dites avec moi : « Baisse la tête et fonce ! »",
+          "marionnetteId": "r1",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e20",
+          "type": "didascalie",
+          "texte": "{{r1}} recule de quelques pas puis avance rapidement vers le carton. La peluche passe derrière le carton et reparaît de l’autre côté."
+        },
+        {
+          "id": "a3e21",
+          "type": "didascalie",
+          "texte": "{{r1}} se retourne vers {{r2}}."
+        },
+        {
+          "id": "a3e22",
+          "type": "replique",
+          "texte": "Merci, maître !",
+          "marionnetteId": "r1",
+          "ton": "tout joyeux"
+        },
+        {
+          "id": "a3e23",
+          "type": "replique",
+          "texte": "De retour chez toi, reste pur et modeste ; sinon, ça ne marchera pas.",
+          "marionnetteId": "r2",
+          "ton": "sérieux"
+        },
+        {
+          "id": "a3e24",
+          "type": "conteur",
+          "texte": "Et {{r2}} paya son voyage et le renvoya chez lui."
+        },
+        {
+          "id": "a3e25",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e26",
+          "type": "didascalie",
+          "texte": "{{r1}} traverse la scène vers sa maison."
+        },
+        {
+          "id": "a3e27",
+          "type": "conteur",
+          "texte": "{{r1}} arriva chez {{r3}}, sa femme."
+        },
+        {
+          "id": "a3e28",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e29",
+          "type": "replique",
+          "texte": "J’ai rencontré un immortel ! Je sais passer à travers les murs les plus solides !",
+          "marionnetteId": "r1",
+          "ton": "vantard"
+        },
+        {
+          "id": "a3e30",
+          "type": "replique",
+          "texte": "Je ne te crois pas.",
+          "marionnetteId": "r3",
+          "ton": "en souriant"
+        },
+        {
+          "id": "a3e31",
+          "type": "adresse_public",
+          "texte": "Faites avec moi le bruit de trois pas : un, deux, trois !",
+          "marionnetteId": "r1",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e32",
+          "type": "adresse_public",
+          "texte": "Faites avec moi le bruit du choc : boum !",
+          "marionnetteId": "r3",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e33",
+          "type": "didascalie",
+          "texte": "{{r1}} touche doucement le carton de la tête, puis tombe en arrière."
+        },
+        {
+          "id": "a3e34",
+          "type": "note_marionnettiste",
+          "texte": "La bosse est dite par {{r3}} ; ne rien ajouter sur le front de {{r1}}."
+        },
+        {
+          "id": "a3e35",
+          "type": "didascalie",
+          "texte": "{{r3}} s’approche ; {{r1}} se redresse, puis baisse la tête."
+        },
+        {
+          "id": "a3e36",
+          "type": "replique",
+          "texte": "Une bosse grosse comme un œuf !",
+          "marionnetteId": "r3",
+          "ton": "en riant"
+        },
+        {
+          "id": "a3e37",
+          "type": "replique",
+          "texte": "Ce vieux moine est malhonnête !",
+          "marionnetteId": "r1",
+          "ton": "honteux et furieux"
+        },
+        {
+          "id": "a3e38",
+          "type": "conteur",
+          "texte": "L’historien des choses étranges dit : il n’y a personne qui entende cette histoire sans éclater de rire ; et pourtant, on ne sait pas combien il y a de {{r1}} dans le monde…"
+        },
+        {
+          "id": "a3e39",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e40",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "zh-taoiste-du-mont-lao",
+    "synopsis": {
+      "accroche": "{{r1}} veut la magie, mais le maître commence par l’envoyer couper du bois.",
+      "resume": [
+        "Au temple, {{r1}} travaille et voit des prodiges de lune, de vin et de danse.",
+        "{{r2}} lui enseigne à passer à travers le mur et l’avertit de rester modeste.",
+        "Chez lui, {{r1}} se vante, heurte le mur et se retrouve avec une bosse."
+      ]
+    },
+    "transposition": {
+      "texte": "# Le Taoïste du mont Lao\n\n*Chine — Pu Songling, Contes extraordinaires du pavillon du loisir (Liaozhai zhiyi), vers 1740. Traduit du chinois classique pour le Souffleur.*\n\nIl y avait dans notre district un jeune homme nommé {{r1}}, septième enfant d’une vieille famille. Tout jeune, il rêvait de la Voie des immortels. Ayant entendu dire qu’il y avait beaucoup d’immortels sur le mont Lao, il partit. Il grimpa jusqu’à un sommet où se trouvait un temple, très retiré. Un moine taoïste était assis sur un coussin de jonc, les cheveux blancs tombant sur le col, l’air vif et plein d’esprit. {{r1}} le salua et lui parla : ses propos étaient profonds et mystérieux. Il lui demanda d’être son maître. {{r2}} dit :\n\n— J’ai peur que tu sois trop gâté et trop paresseux pour supporter la peine.\n\n— J’en suis capable, répondit-il.\n\n{{r2}} avait beaucoup de disciples ; au crépuscule, toute l’assemblée se réunit. {{r1}} salua tout le monde, et resta au temple.\n\nÀ l’aube, {{r2}} appela {{r1}}, l’envoya couper du bois avec les autres. {{r1}} obéit respectueusement. Au bout d’un mois et plus, il n’en pouvait plus de fatigue après tant de jours à couper du bois, et pensait en secret à rentrer chez lui.\n\nUn soir, en rentrant, il vit deux invités qui buvaient avec {{r2}}. La nuit était tombée, et il n’y avait encore ni lampe ni chandelle. Alors un rond de papier comme un miroir apparut sur le mur. Aussitôt, une lune brillante éclaira le mur, si claire qu’on y voyait le moindre poil. L’assemblée s’empressait autour de la table pour le service. Un des invités dit :\n\n— Une si belle nuit, un tel plaisir : il faut le partager avec tout le monde !\n\nLe vin fut offert à toute l’assemblée. {{r4}} leur dit de boire tant qu’ils voulaient. {{r1}} pensa : « Nous sommes sept ou huit : comment une seule cruche suffirait-elle ? » On se dépêchait de boire, de peur que la cruche soit vide ; mais le vin coulait encore et encore, et elle ne baissait pas. {{r1}} s’en émerveilla.\n\nBientôt, {{r4}} dit :\n\n— Merci pour ce clair de lune ; mais boire ainsi en silence, c’est bien triste. Pourquoi ne pas appeler la déesse de la Lune ?\n\nEt une baguette entra dans la lune. On vit {{r5}} sortir de la lumière : d’abord pas plus haute qu’un pied, elle grandit en touchant le sol jusqu’à la taille d’une vraie personne, la taille fine, le cou gracieux. Puis elle se mit à danser légèrement la danse des vêtements de plumes. Puis elle chanta :\n\n— Ô êtres immortels, revenez donc ! Pourquoi me laisser seule dans le palais glacé de la lune ?\n\nSa voix était claire et pure comme la flûte. Quand elle eut fini, elle tournoya, s’éleva, sauta sur la table ; et pendant qu’on la regardait avec étonnement, elle était redevenue une baguette. Le trio éclata de rire. Un autre invité dit :\n\n— Ce soir, nous nous amusons beaucoup, mais je ne supporte plus le vin. Et si vous veniez me faire vos adieux dans le palais de la lune ?\n\nLe trio entra peu à peu dans la lune. Tout le monde le voyait dans la lune en train de boire, les visages bien visibles, comme un reflet dans un miroir. Au bout d’un moment, la lune s’assombrit ; les disciples virent que {{r2}} était assis seul, et les invités avaient disparu. Sur la table, il restait les plats et les noyaux ; sur le mur, la lune n’était plus qu’un rond de papier.\n\n{{r2}} demanda à tous :\n\n— Avez-vous assez bu ?\n\n— Assez, dirent-ils.\n\n— Si vous avez assez bu, allez vite dormir, et ne soyez pas en retard pour couper le bois.\n\nToute l’assemblée acquiesça et se retira. {{r1}}, en secret, était émerveillé, et ne pensa plus à rentrer.\n\nMais un mois plus tard, la fatigue devint insupportable, et {{r2}} ne lui avait toujours pas enseigné un seul tour. Il n’y tint plus et vint annoncer son départ :\n\n— Votre disciple est venu de plusieurs centaines de lieues pour recevoir l’enseignement du maître immortel. Même s’il ne peut obtenir le secret de la vie éternelle, un petit tour lui suffirait pour consoler son désir d’apprendre. Voilà deux ou trois mois que je ne fais que couper du bois du matin au soir. À la maison, je ne connaissais pas une telle peine.\n\n{{r2}} rit :\n\n— Je te l’avais bien dit, que tu ne supporterais pas la peine. C’est bien ce qui arrive. Demain matin, je te renverrai chez toi.\n\n{{r1}} dit :\n\n— Votre disciple a travaillé de longs jours : si {{r2}} m’apprenait un petit tour, je ne serais pas venu pour rien.\n\n{{r2}} lui demanda quel tour il voulait. {{r1}} dit :\n\n— Je vois que partout où va {{r2}}, les murs ne l’arrêtent pas. Si j’avais seulement ce secret, cela me suffirait.\n\n{{r2}} rit et accepta. Il lui transmit une formule. Il lui dit de la réciter, puis cria :\n\n— Entre !\n\n{{r1}}, face au mur, n’osait pas entrer.\n\n— Essaie d’entrer, dit encore {{r2}}.\n\n{{r1}} avança calmement, mais le mur l’arrêta. {{r2}} dit :\n\n— Baisse la tête et fonce, sans hésiter !\n\n{{r1}} recula de quelques pas, courut, et arrivé au mur, ce fut comme s’il n’y avait rien : il se retourna, il était bien de l’autre côté. Tout joyeux, il rentra remercier {{r2}}. {{r2}} lui dit :\n\n— De retour chez toi, reste pur et modeste ; sinon, ça ne marchera pas.\n\nEt {{r2}} paya son voyage et le renvoya chez lui.\n\n{{r1}} arriva chez {{r3}}, sa femme. Il se vanta d’avoir rencontré un immortel et de savoir passer à travers les murs les plus solides. {{r3}} ne le crut pas. {{r1}} refit ce qu’il avait fait là-bas : il recula de quelques pieds, courut, fonça vers le mur… et se cogna la tête contre le mur dur. Il tomba à la renverse. {{r3}} resta près de lui pendant qu’il se relevait et le regarda : il avait sur le front une bosse grosse comme un œuf. {{r3}} se moqua de lui ; {{r1}}, honteux et furieux, ne sut que maudire {{r2}}, ce malhonnête.\n\nL’historien des choses étranges dit : il n’y a personne qui entende cette histoire sans éclater de rire ; et pourtant, on ne sait pas combien il y a de {{r1}} dans le monde…\n"
+    }
+  },
+  "dureeEstimeeSecondes": 629,
+  "interactionsOrdonnees": [
+    "a3e19",
+    "a3e32",
+    "a2e5",
+    "a2e16",
+    "a2e34",
+    "a1e18",
+    "a3e13",
+    "a1e9",
+    "a3e31"
+  ]
+}

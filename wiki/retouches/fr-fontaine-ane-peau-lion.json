@@ -1,0 +1,9 @@
+{
+  "id": "fr-fontaine-ane-peau-lion",
+  "langue": [
+    {"avant": "Découvrit la fourbe et l’erreur", "apres": "Découvrit la ruse et l’erreur", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "Martin fit alors son office.", "apres": "Le meunier le rossa de coups de bâton.", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "S’étonnaient de voir que Martin", "apres": "S’étonnaient de voir que le meunier", "nature": "mot-rare", "jusqua": 6}
+  ],
+  "moments": []
+}

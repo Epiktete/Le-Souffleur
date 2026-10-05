@@ -1,0 +1,11 @@
+{
+  "id": "afr-tortue-et-elephant",
+  "langue": [
+    {"avant": "elle feint de s’élancer", "apres": "elle fait semblant de s’élancer", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "nous aurons une course à fournir", "apres": "nous aurons une course à faire", "nature": "tournure"},
+    {"avant": "elle les cacha successivement près du chemin", "apres": "elle les cacha l’un après l’autre près du chemin", "nature": "mot-rare", "jusqua": 4},
+    {"avant": "À son effroi, il entendit", "apres": "Il eut peur : il entendit", "nature": "mot-rare", "jusqua": 4},
+    {"avant": "Ainsi arriva-t-il au détriment de l’éléphant.", "apres": "Et c’est ainsi que l’éléphant perdit la course.", "nature": "mot-rare", "jusqua": 6}
+  ],
+  "moments": []
+}

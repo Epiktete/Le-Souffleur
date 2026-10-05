@@ -1,0 +1,668 @@
+{
+  "id": "fr-fontaine-alouette-et-petits--1",
+  "conteId": "fr-fontaine-alouette-et-petits",
+  "titre": "L’Alouette et ses petits, avec le Maître d’un champ",
+  "pitch": "{{r1}}, une alouette, veille sur ses petits dans un champ de blé mûr. Quand {{r3}} décide enfin de moissonner avec sa famille, la couvée s'envole.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "alouette",
+      "famille": "oiseau",
+      "traits": [
+        "attentive",
+        "courageuse",
+        "calme"
+      ],
+      "voix": "voix claire et posée, qui se fait vive au moment de partir",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a1e1:texte",
+            "avant": "Une pourtant",
+            "apres": "Un pourtant"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "elle se résolut",
+            "apres": "il se résolut"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "mère encore",
+            "apres": "père encore"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "Elle bâtit",
+            "apres": "Il bâtit"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "dit-elle",
+            "apres": "dit-il"
+          },
+          {
+            "id": "a1e25:ton",
+            "avant": "rassurante",
+            "apres": "rassurant"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "la mère",
+            "apres": "le père"
+          },
+          {
+            "id": "a2e12:texte",
+            "avant": "mère !",
+            "apres": "père !"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "avertie",
+            "apres": "averti"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "pitch",
+          "avant": "une alouette",
+          "gabarit": "{un} {espece}"
+        },
+        {
+          "id": "a1e5:texte",
+          "avant": "l’alouette agitée",
+          "gabarit": "{le} {espece} {agité|agitée}"
+        },
+        {
+          "id": "a1e12:texte",
+          "avant": "l’alouette",
+          "gabarit": "{le} {espece}"
+        },
+        {
+          "id": "a1e19:texte",
+          "avant": "Notre alouette",
+          "gabarit": "Notre {espece}"
+        },
+        {
+          "id": "a1e24:texte",
+          "avant": "l’alouette",
+          "gabarit": "{le} {espece}"
+        },
+        {
+          "id": "a2e4:texte",
+          "avant": "L’alouette",
+          "gabarit": "{Le} {espece}"
+        },
+        {
+          "id": "a3e1:texte",
+          "avant": "L’alouette",
+          "gabarit": "{Le} {espece}"
+        },
+        {
+          "id": "a3e10:texte",
+          "avant": "de l’alouette",
+          "gabarit": "{du} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r2",
+      "espece": "alouette",
+      "famille": "oiseau",
+      "traits": [
+        "curieux",
+        "peureux",
+        "attentif"
+      ],
+      "voix": "voix aiguë et pressée, avec de petits sursauts",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e21:texte",
+            "avant": "L’un commence",
+            "apres": "L’une commence"
+          },
+          {
+            "id": "a1e22:ton",
+            "avant": "inquiet",
+            "apres": "inquiète"
+          },
+          {
+            "id": "a2e12:ton",
+            "avant": "tout tremblant",
+            "apres": "toute tremblante"
+          },
+          {
+            "id": "a3e15:texte",
+            "avant": "le suit",
+            "apres": "la suit"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r3",
+      "espece": "humain",
+      "famille": "adulte",
+      "traits": [
+        "travailleur",
+        "patient",
+        "décidé"
+      ],
+      "voix": "voix grave et nette, qui se fait plus ferme à chaque passage",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e7:texte",
+            "avant": "le possesseur",
+            "apres": "la possesseuse"
+          },
+          {
+            "id": "a1e7:texte",
+            "avant": "il viendra",
+            "apres": "elle viendra"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "qu’il dira",
+            "apres": "qu’elle dira"
+          },
+          {
+            "id": "a1e14:texte",
+            "avant": "Le possesseur",
+            "apres": "La possesseuse"
+          },
+          {
+            "id": "a1e16:texte",
+            "avant": "dit-il",
+            "apres": "dit-elle"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "le maître",
+            "apres": "la maîtresse"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "dit-il",
+            "apres": "dit-elle"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "il parle",
+            "apres": "elle parle"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "le maître",
+            "apres": "la maîtresse"
+          },
+          {
+            "id": "a3e6:texte",
+            "avant": "Dit-il",
+            "apres": "Dit-elle"
+          },
+          {
+            "id": "a1e22:texte",
+            "avant": "Il a dit",
+            "apres": "Elle a dit"
+          },
+          {
+            "id": "a1e23:texte",
+            "avant": "S’il n’a dit",
+            "apres": "Si elle n’a dit"
+          },
+          {
+            "id": "a2e12:texte",
+            "avant": "Il a dit",
+            "apres": "Elle a dit"
+          },
+          {
+            "id": "a3e5:ton",
+            "avant": "résolu",
+            "apres": "résolue"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 6,
+    "ageAuditoire": 7,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "Le nid dans les blés",
+      "description": "Posez un coussin au milieu de la table pour le nid. Deux autres coussins, écartés, figurent les blés du champ ; {{r3}} passe devant eux, {{r1}} revient toujours au nid. Le spectacle peut se jouer sur une table vide.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Les amis attendus",
+      "resume": "{{r1}} avertit sa couvée de bien écouter. {{r3}} demande l’aide de ses amis ; {{r1}} invite les petits à rester au nid.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Ne t’attends qu’à toi seul ; c’est un commun proverbe.\nVoici comme Ésope le mit\nEn crédit :\nLes alouettes font leur nid\nDans les blés quand ils sont en herbe,\nC’est-à-dire environ le temps\nQue tout aime et que tout pullule dans le monde,\nMonstres marins au fond de l’onde,\nTigres dans les forêts, alouettes aux champs.\nUne pourtant de ces dernières\nAvait laissé passer la moitié d’un printemps\nSans goûter le plaisir des amours printanières."
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e3",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e4",
+          "type": "didascalie",
+          "texte": "{{r1}} se penche au-dessus de {{r2}}, puis se redresse en regardant le champ."
+        },
+        {
+          "id": "a1e5",
+          "type": "conteur",
+          "texte": "À toute force enfin elle se résolut\nD’imiter la nature, et d’être mère encore.\nElle bâtit un nid, pond, couve, et fait éclore,\nÀ la hâte : le tout alla du mieux qu’il put.\nLes blés d’alentour mûrs avant que la nitée\nSe trouvât assez forte encor\nPour voler et prendre l’essor,\nDe mille soucis divers l’alouette agitée\nS’en va chercher pâture, avertit ses enfants\nD’être toujours au guet et faire sentinelle."
+        },
+        {
+          "id": "a1e6",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Regardez le champ avec moi !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e7",
+          "type": "replique",
+          "texte": "Si le possesseur de ces champs\nVient avecque son fils, comme il viendra,",
+          "marionnetteId": "r1",
+          "ton": "en avertissant {{r2}}"
+        },
+        {
+          "id": "a1e8",
+          "type": "conteur",
+          "texte": "dit-elle,"
+        },
+        {
+          "id": "a1e9",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Écoutez bien : selon ce qu’il dira,\nChacun de nous décampera.",
+          "ton": "en avertissant {{r2}}"
+        },
+        {
+          "id": "a1e10",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Écoutons bien ensemble !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e11",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e12",
+          "type": "conteur",
+          "texte": "Sitôt que l’alouette eut quitté sa famille,"
+        },
+        {
+          "id": "a1e13",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e14",
+          "type": "conteur",
+          "texte": "Le possesseur du champ vient avecque son fils."
+        },
+        {
+          "id": "a1e15",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Ces blés sont mûrs,",
+          "ton": "en observant le champ"
+        },
+        {
+          "id": "a1e16",
+          "type": "conteur",
+          "texte": "dit-il :"
+        },
+        {
+          "id": "a1e17",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "allez chez nos amis\nLes prier que chacun, apportant sa faucille,\nNous vienne aider demain dès la pointe du jour.",
+          "ton": "en s'adressant à son fils hors scène"
+        },
+        {
+          "id": "a1e18",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e19",
+          "type": "conteur",
+          "texte": "Notre alouette de retour\nTrouve en alarme sa couvée."
+        },
+        {
+          "id": "a1e20",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e21",
+          "type": "conteur",
+          "texte": "L’un commence :"
+        },
+        {
+          "id": "a1e22",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Il a dit que, l’aurore levée,\nL’on fît venir demain ses amis pour l’aider.",
+          "ton": "inquiet"
+        },
+        {
+          "id": "a1e23",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "S’il n’a dit que cela,",
+          "ton": "calmement"
+        },
+        {
+          "id": "a1e24",
+          "type": "conteur",
+          "texte": "repartit l’alouette,"
+        },
+        {
+          "id": "a1e25",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Rien ne nous presse encor de changer de retraite ;\nMais c’est demain qu’il faut tout de bon écouter.\nCependant soyez gais, voilà de quoi manger.",
+          "ton": "rassurante"
+        },
+        {
+          "id": "a1e26",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e27",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Les parents ne viennent pas",
+      "resume": "Le lendemain, les amis sont absents. {{r3}} fait appeler ses parents ; {{r2}} prend peur, mais {{r1}} sait qu'il faut encore attendre.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "Eux repus, tout s’endort, les petits et la mère.\nL’aube du jour arrive, et d’amis point du tout."
+        },
+        {
+          "id": "a2e2",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e3",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e4",
+          "type": "conteur",
+          "texte": "L’alouette à l’essor, le maître s’en vient faire\nSa ronde ainsi qu’à l’ordinaire."
+        },
+        {
+          "id": "a2e5",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Ces blés ne devraient pas,",
+          "ton": "en regardant les blés"
+        },
+        {
+          "id": "a2e6",
+          "type": "conteur",
+          "texte": "dit-il,"
+        },
+        {
+          "id": "a2e7",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "être debout.\nNos amis ont grand tort ; et tort qui se repose\nSur de tels paresseux, à servir ainsi lents.\nMon fils, allez chez nos parents\nLes prier de la même chose.",
+          "ton": "avec dépit"
+        },
+        {
+          "id": "a2e8",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Écoutez : cette fois, il parle des parents !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e9",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e10",
+          "type": "conteur",
+          "texte": "L’épouvante est au nid plus forte que jamais."
+        },
+        {
+          "id": "a2e11",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e12",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Il a dit ses parents, mère ! c’est à cette heure…",
+          "ton": "tout tremblant"
+        },
+        {
+          "id": "a2e13",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Faites un petit frisson avec moi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e14",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Non, mes enfants ; dormez en paix :\nNe bougeons de notre demeure.",
+          "ton": "doucement"
+        },
+        {
+          "id": "a2e15",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e16",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Ils partent eux-mêmes",
+      "resume": "Personne ne vient. {{r3}} décide que sa famille fera la moisson ; avertie, {{r1}} fait aussitôt partir sa couvée.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "conteur",
+          "texte": "L’alouette eut raison car personne ne vint.\nPour la troisième fois, le maître se souvint"
+        },
+        {
+          "id": "a3e2",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e3",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e4",
+          "type": "conteur",
+          "texte": "De visiter ses blés."
+        },
+        {
+          "id": "a3e5",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Notre erreur est extrême,",
+          "ton": "résolu"
+        },
+        {
+          "id": "a3e6",
+          "type": "conteur",
+          "texte": "Dit-il,"
+        },
+        {
+          "id": "a3e7",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "de nous attendre à d’autres gens que nous.\nIl n’est meilleur ami ni parent que soi-même.\nRetenez bien cela, mon fils. Et savez-vous\nCe qu’il faut faire ? Il faut qu’avec notre famille\nNous prenions dès demain chacun une faucille :\nC’est là notre plus court ; et nous achèverons\nNotre moisson quand nous pourrons.",
+          "ton": "en annonçant sa décision au fils hors scène"
+        },
+        {
+          "id": "a3e8",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Entendez-vous ? Demain, ils viennent eux-mêmes !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e9",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e10",
+          "type": "conteur",
+          "texte": "Dès lors que ce dessein fut su de l’alouette :"
+        },
+        {
+          "id": "a3e11",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e12",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "C’est ce coup qu’il est bon de partir, mes enfants !",
+          "ton": "sans tarder"
+        },
+        {
+          "id": "a3e13",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites avec nous un petit bruit d'ailes : frrr !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e14",
+          "type": "conteur",
+          "texte": "Et les petits, en même temps,\nVoletants, se culebutants,\nDélogèrent tous sans trompette."
+        },
+        {
+          "id": "a3e15",
+          "type": "didascalie",
+          "texte": "{{r2}} saute puis s'élève en ondulant au-dessus de la table ; {{r1}} le suit."
+        },
+        {
+          "id": "a3e16",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e17",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "fr-fontaine-alouette-et-petits",
+    "synopsis": {
+      "accroche": "Une mère alouette sait quand il faut vraiment quitter le nid.",
+      "resume": [
+        "{{r1}} avertit sa couvée d'écouter le maître du champ pendant qu'elle cherche sa nourriture.",
+        "{{r3}} compte d'abord sur ses amis ; ils ne viennent pas, et {{r1}} attend.",
+        "{{r3}} appelle ensuite ses parents ; eux non plus ne viennent pas.",
+        "Quand {{r3}} décide de moissonner lui-même avec sa famille, {{r1}} et ses petits s'envolent."
+      ]
+    },
+    "transposition": {
+      "texte": "Ne t’attends qu’à toi seul ; c’est un commun proverbe.\nVoici comme Ésope le mit\nEn crédit :\nLes alouettes font leur nid\nDans les blés quand ils sont en herbe,\nC’est-à-dire environ le temps\nQue tout aime et que tout pullule dans le monde,\nMonstres marins au fond de l’onde,\nTigres dans les forêts, alouettes aux champs.\nUne pourtant de ces dernières\nAvait laissé passer la moitié d’un printemps\nSans goûter le plaisir des amours printanières.\nÀ toute force enfin elle se résolut\nD’imiter la nature, et d’être mère encore.\nElle bâtit un nid, pond, couve, et fait éclore,\nÀ la hâte : le tout alla du mieux qu’il put.\nLes blés d’alentour mûrs avant que la nitée\nSe trouvât assez forte encor\nPour voler et prendre l’essor,\nDe mille soucis divers l’alouette agitée\nS’en va chercher pâture, avertit ses enfants\nD’être toujours au guet et faire sentinelle.\nSi le possesseur de ces champs\nVient avecque son fils, comme il viendra, dit-elle,\nÉcoutez bien : selon ce qu’il dira,\nChacun de nous décampera.\nSitôt que l’alouette eut quitté sa famille,\nLe possesseur du champ vient avecque son fils.\nCes blés sont mûrs, dit-il : allez chez nos amis\nLes prier que chacun, apportant sa faucille,\nNous vienne aider demain dès la pointe du jour.\nNotre alouette de retour\nTrouve en alarme sa couvée.\nL’un commence : Il a dit que, l’aurore levée,\nL’on fît venir demain ses amis pour l’aider.\nS’il n’a dit que cela, repartit l’alouette,\nRien ne nous presse encor de changer de retraite ;\nMais c’est demain qu’il faut tout de bon écouter.\nCependant soyez gais, voilà de quoi manger.\nEux repus, tout s’endort, les petits et la mère.\nL’aube du jour arrive, et d’amis point du tout.\nL’alouette à l’essor, le maître s’en vient faire\nSa ronde ainsi qu’à l’ordinaire.\nCes blés ne devraient pas, dit-il, être debout.\nNos amis ont grand tort ; et tort qui se repose\nSur de tels paresseux, à servir ainsi lents.\nMon fils, allez chez nos parents\nLes prier de la même chose.\nL’épouvante est au nid plus forte que jamais.\n— Il a dit ses parents, mère ! c’est à cette heure…\n— Non, mes enfants ; dormez en paix :\nNe bougeons de notre demeure.\nL’alouette eut raison car personne ne vint.\nPour la troisième fois, le maître se souvint\nDe visiter ses blés. Notre erreur est extrême,\nDit-il, de nous attendre à d’autres gens que nous.\nIl n’est meilleur ami ni parent que soi-même.\nRetenez bien cela, mon fils. Et savez-vous\nCe qu’il faut faire ? Il faut qu’avec notre famille\nNous prenions dès demain chacun une faucille :\nC’est là notre plus court ; et nous achèverons\nNotre moisson quand nous pourrons.\nDès lors que ce dessein fut su de l’alouette :\nC’est ce coup qu’il est bon de partir, mes enfants !\nEt les petits, en même temps,\nVoletants, se culebutants,\nDélogèrent tous sans trompette.",
+      "changements": [
+        "« De mille soins divers » devient « De mille soucis divers », retouche universelle.",
+        "Un petit de la couvée, {{r2}}, porte les répliques du groupe ; le fils du maître demeure muet."
+      ]
+    }
+  },
+  "dureeEstimeeSecondes": 335,
+  "interactionsOrdonnees": [
+    "a1e6",
+    "a1e10",
+    "a2e8",
+    "a2e13",
+    "a3e8",
+    "a3e13"
+  ]
+}

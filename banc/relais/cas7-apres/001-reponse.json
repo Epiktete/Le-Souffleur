@@ -1,0 +1,55 @@
+{"synopsis": [
+  {"conte": "fr-perrault-chaperon-rouge",
+   "accroche": "Rosette part voir sa mamie malade dans les bois, sans savoir que Loup Gris a pris les devants.",
+   "resume": [
+     "La maman de Rosette l'envoie porter une galette et un petit pot de beurre à Mamie Rose, qui est malade.",
+     "Dans le bois, Rosette croise Loup Gris et lui raconte où elle va ; il file aussitôt par le chemin le plus court.",
+     "Loup Gris arrive le premier chez Mamie Rose, qui se cache dans l'armoire avant qu'il entre.",
+     "Rosette arrive à son tour et trouve dans le lit un Loup Gris déguisé en mamie : « Que vous avez de grandes dents ! — C'est pour te manger ! »",
+     "Rosette crie, des bûcherons accourent aussitôt et chassent Loup Gris avant qu'il ait pu l'attraper."
+   ],
+   "distribution": [
+     {"marionnette": "Rosette", "role": "le Petit Chaperon rouge", "note": "Une petite fille curieuse et gentille, déjà en robe rouge et bonnet : le rôle lui va sans rien changer."},
+     {"marionnette": "Loup Gris", "role": "le Loup", "note": "Un vrai loup gourmand aux grandes oreilles et à la gueule rouge : la scène des « grandes dents » est déjà écrite pour lui."},
+     {"marionnette": "Mamie Rose", "role": "la Mère-grand", "note": "Une vraie mamie douce et sage : elle joue une grand-mère, tout simplement."}
+   ],
+   "changements": [
+     "La Mère n'a pas de marionnette : on raconte juste qu'elle envoie Rosette chez sa mamie, sans jouer cette scène."
+   ]},
+  {"conte": "ru-renard-lievre-coq",
+   "accroche": "Loup Gris s'installe chez Mamie Rose sans lui demander la permission, et c'est la toute petite Rosette qui va le faire déguerpir.",
+   "resume": [
+     "Au printemps, la maison de glace de Loup Gris fond ; il s'installe chez Mamie Rose et la chasse de chez elle.",
+     "De gros animaux essaient de l'aider à partir, mais Loup Gris les menace en gonflant les joues, et ils s'enfuient tous, l'un après l'autre.",
+     "Rosette arrive avec un grand balai sur l'épaule, et chante trois fois qu'elle vient le chercher.",
+     "Loup Gris a peur et s'enfuit pour de bon ; Mamie Rose retrouve sa maison, et Rosette reste vivre avec elle."
+   ],
+   "distribution": [
+     {"marionnette": "Rosette", "role": "le Coq", "note": "La plus petite des trois, mais celle qui n'a pas peur d'aller réclamer une maison : la surprise plaît toujours aux enfants."},
+     {"marionnette": "Loup Gris", "role": "la Renarde", "note": "Déjà méchant et gourmand comme ce personnage qui s'installe chez les autres sans y être invité."},
+     {"marionnette": "Mamie Rose", "role": "le petit Lièvre", "note": "Douce et gentille comme ce personnage qui se laisse chasser sans se battre, avant de retrouver sa maison."}
+   ],
+   "changements": [
+     "Les gros animaux qui reculent devant Loup Gris ne sont pas joués, faute de marionnettes : on les raconte vite, avant l'arrivée de Rosette.",
+     "La faux du conte devient un grand balai, pour qu'aucune arme n'apparaisse en scène.",
+     "La menace de Loup Gris est jouée pour rire, avec de grands gestes et des joues gonflées, jamais comme un vrai danger."
+   ]},
+  {"conte": "en-vieille-et-cochon",
+   "accroche": "Rosette le petit cochon refuse de rentrer à la maison, et Mamie Rose doit convaincre toute une chaîne d'aides récalcitrants pour qu'il saute enfin la barrière.",
+   "resume": [
+     "Au marché, Mamie Rose achète Rosette, un petit cochon ; mais au moment de rentrer, Rosette refuse de sauter par-dessus la barrière.",
+     "Mamie Rose demande de l'aide à d'autres, qui doivent chacun faire un peu peur au précédent pour qu'il obéisse ; mais tous refusent, et la liste s'allonge à chaque fois.",
+     "Loup Gris accepte enfin d'aider, mais seulement contre un peu de lait ; pour avoir ce lait, il faut d'abord apporter du foin, et Mamie Rose part le chercher.",
+     "Dès que Loup Gris a son lait, toute la chaîne se met en marche à l'envers, et chacun fait enfin ce qu'on lui demandait, du premier jusqu'au dernier.",
+     "Poursuivie par le premier de la chaîne, Rosette saute enfin par-dessus la barrière, et tout le monde est content."
+   ],
+   "distribution": [
+     {"marionnette": "Mamie Rose", "role": "la Vieille", "note": "Une vraie mamie bavarde et obstinée : le rôle d'une vieille femme qui ne renonce pas lui va de lui-même."},
+     {"marionnette": "Rosette", "role": "le Petit Cochon", "note": "Sa petite taille et son air décidé collent bien à ce petit cochon qui n'en fait qu'à sa tête."},
+     {"marionnette": "Loup Gris", "role": "le Chat", "note": "Gourmand comme ce personnage, qui n'accepte d'aider que contre un peu de lait."}
+   ],
+   "changements": [
+     "Seuls trois personnages ont une marionnette (Mamie Rose, Loup Gris, Rosette) ; les autres aides de la chaîne ne sont que racontés, pour aller à l'essentiel en 5 minutes.",
+     "Personne ne mord, ne tape ni ne brûle personne : chacun fait juste un peu peur ou chatouille le précédent, pour que ça reste drôle."
+   ]}
+]}

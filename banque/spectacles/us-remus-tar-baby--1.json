@@ -1,0 +1,598 @@
+{
+  "id": "us-remus-tar-baby--1",
+  "conteId": "us-remus-tar-baby",
+  "titre": "Le Bébé de goudron",
+  "pitch": "{{r2}} place une silhouette de goudron sur la route. {{r1}} lui parle, se colle en la frappant, puis {{r2}} rit ; le récit s’arrête avant de dire ce qui lui arrive.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "lapin",
+      "famille": "petit",
+      "traits": [
+        "bavardage",
+        "vanité",
+        "impatience"
+      ],
+      "voix": "voix rapide et sonore",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e1:texte",
+            "avant": "après que Frère",
+            "apres": "après que Sœur"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "Frère",
+            "apres": "Sœur"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "aussi insolent",
+            "apres": "aussi insolente"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "Frère",
+            "apres": "Sœur"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "il aperçoit",
+            "apres": "elle aperçoit"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "Il se dresse",
+            "apres": "Elle se dresse"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "tout étonné",
+            "apres": "toute étonnée"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "Frère",
+            "apres": "Sœur"
+          },
+          {
+            "id": "a2e2:texte",
+            "avant": "appuyé",
+            "apres": "appuyée"
+          },
+          {
+            "id": "a2e3:texte",
+            "avant": "fin, Frère",
+            "apres": "fin, Sœur"
+          },
+          {
+            "id": "a2e3:texte",
+            "avant": "qu’il a fait",
+            "apres": "qu’elle a fait"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "Frère",
+            "apres": "Sœur"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "Et Frère",
+            "apres": "Et Sœur"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "Alors Frère",
+            "apres": "Alors Sœur"
+          },
+          {
+            "id": "a2e14:texte",
+            "avant": "Frère",
+            "apres": "Sœur"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "appuyé",
+            "apres": "appuyée"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "Frère",
+            "apres": "Sœur"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "collé,",
+            "apres": "collée,"
+          },
+          {
+            "id": "a3e6:texte",
+            "avant": "Frère",
+            "apres": "Sœur"
+          },
+          {
+            "id": "a3e10:texte",
+            "avant": "décollé",
+            "apres": "décollée"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "le colle davantage",
+            "apres": "la colle davantage"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r2",
+      "espece": "renard",
+      "famille": "predateur",
+      "traits": [
+        "ruse",
+        "farce",
+        "patience"
+      ],
+      "voix": "voix douce, puis rire ouvert",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e1:texte",
+            "avant": "roulé",
+            "apres": "roulée"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": ", Frère",
+            "apres": ", Sœur"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "qu’il appela",
+            "apres": "qu’elle appela"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "caché",
+            "apres": "cachée"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "il alla",
+            "apres": "elle alla"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "Il n’eut pas longtemps",
+            "apres": "Elle n’eut pas longtemps"
+          },
+          {
+            "id": "a1e7:texte",
+            "avant": "Frère",
+            "apres": "Sœur"
+          },
+          {
+            "id": "a1e7:texte",
+            "avant": "lui, ne bouge pas",
+            "apres": "elle, ne bouge pas"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "Et Frère",
+            "apres": "Et Sœur"
+          },
+          {
+            "id": "a1e12:texte",
+            "avant": "Et Frère",
+            "apres": "Et Sœur"
+          },
+          {
+            "id": "a1e14:texte",
+            "avant": "Frère",
+            "apres": "Sœur"
+          },
+          {
+            "id": "a1e17:texte",
+            "avant": "Et Frère",
+            "apres": "Et Sœur"
+          },
+          {
+            "id": "a1e19:texte",
+            "avant": "Frère",
+            "apres": "Sœur"
+          },
+          {
+            "id": "a1e22:texte",
+            "avant": "Et Frère",
+            "apres": "Et Sœur"
+          },
+          {
+            "id": "a2e3:texte",
+            "avant": "Et Frère",
+            "apres": "Et Sœur"
+          },
+          {
+            "id": "a2e7:texte",
+            "avant": "Et Frère",
+            "apres": "Et Sœur"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "manière. Frère",
+            "apres": "manière. Sœur"
+          },
+          {
+            "id": "a3e2:texte",
+            "avant": "Frère",
+            "apres": "Sœur"
+          },
+          {
+            "id": "a3e2:texte",
+            "avant": "aussi innocent",
+            "apres": "aussi innocente"
+          },
+          {
+            "id": "a3e3:ton",
+            "avant": "moqueur",
+            "apres": "moqueuse"
+          },
+          {
+            "id": "a3e5:texte",
+            "avant": "Frère",
+            "apres": "Sœur"
+          },
+          {
+            "id": "a3e5:texte",
+            "avant": "il rit, et il rit",
+            "apres": "elle rit, et elle rit"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 8,
+    "ageAuditoire": 7,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La route et les buissons",
+      "description": "Un carton fixe dessine la route et une silhouette de Bébé de goudron avec un chapeau dessiné ; un coussin dressé figure le buisson. La silhouette reste fixée au carton tout le spectacle ; aucune matière collante n’est nécessaire. {{r2}} peut s’abaisser derrière le coussin.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "La silhouette muette",
+      "description": "Le même carton fixe reste en place. {{r1}} s’appuie de tout son corps contre la silhouette, puis incline sa peluche d’un côté à l’autre pendant le récit des coups. Aucun membre de la peluche ne se manipule séparément.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t3",
+      "titre": "La cachette découverte",
+      "description": "Le même décor sert jusqu’à la dernière réplique de {{r2}}. Après la sortie des deux peluches, le parent dit les deux voix du cadre sans rien déplacer ; la fin incertaine reste la dernière parole.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Le silence du Bébé de goudron",
+      "resume": "{{r2}} prépare une silhouette de goudron ; {{r1}} la salue et se fâche de son silence.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Un jour, après que Frère {{r1}} l’eut encore roulé, Frère {{r2}} se mit au travail. Du goudron mélangé à de la térébenthine formait une drôle de machine qu’il appela le Bébé de goudron. Ce Bébé de goudron se trouvait au beau milieu de la grand-route."
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e3",
+          "type": "didascalie",
+          "texte": "{{r2}} s’abaisse derrière le buisson fixe et reste caché."
+        },
+        {
+          "id": "a1e4",
+          "type": "conteur",
+          "texte": "Puis il alla se coucher dans les buissons pour voir ce qui allait se passer."
+        },
+        {
+          "id": "a1e5",
+          "type": "conteur",
+          "texte": "Il n’eut pas longtemps à attendre : voilà Frère {{r1}} qui arrive par la route — lippity-clippity, clippity-lippity — aussi insolent qu’un geai."
+        },
+        {
+          "id": "a1e6",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e7",
+          "type": "conteur",
+          "texte": "Frère {{r2}}, lui, ne bouge pas."
+        },
+        {
+          "id": "a1e8",
+          "type": "conteur",
+          "texte": "Frère {{r1}} s’avance en sautillant, et tout à coup il aperçoit le Bébé de goudron. Il se dresse sur ses pattes de derrière, tout étonné. Le Bébé de goudron, lui, reste assis."
+        },
+        {
+          "id": "a1e9",
+          "type": "conteur",
+          "texte": "Et Frère {{r2}} ne bouge pas."
+        },
+        {
+          "id": "a1e10",
+          "type": "replique",
+          "texte": "Bonjour ! Beau temps, ce matin.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a1e11",
+          "type": "adresse_public",
+          "texte": "Reprenez mon salut : « Bonjour ! »",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e12",
+          "type": "conteur",
+          "texte": "Le Bébé de goudron ne dit rien. Et Frère {{r2}} ne bouge pas."
+        },
+        {
+          "id": "a1e13",
+          "type": "replique",
+          "texte": "Et comment va la santé, ce matin ?",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a1e14",
+          "type": "conteur",
+          "texte": "Frère {{r2}} s’incline à peine et ne bouge pas. Le Bébé de goudron ne dit rien."
+        },
+        {
+          "id": "a1e15",
+          "type": "replique",
+          "texte": "Eh bien ? Tu es sourd ? Parce que si tu es sourd, je peux crier plus fort !",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a1e16",
+          "type": "adresse_public",
+          "texte": "Dites « bonjour » un peu plus fort avec moi !",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e17",
+          "type": "conteur",
+          "texte": "Le Bébé de goudron ne bouge pas. Et Frère {{r2}} ne bouge pas."
+        },
+        {
+          "id": "a1e18",
+          "type": "replique",
+          "texte": "Tu fais le fier, voilà ce que tu fais. Mais je vais te guérir de ça, moi !",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a1e19",
+          "type": "conteur",
+          "texte": "Frère {{r2}} rit tout bas dans son ventre. Le Bébé de goudron ne dit rien."
+        },
+        {
+          "id": "a1e20",
+          "type": "replique",
+          "texte": "Je vais t’apprendre à parler poliment aux gens respectables. Si tu n’ôtes pas ton chapeau pour me dire bonjour, je te flanque une tape !",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a1e21",
+          "type": "adresse_public",
+          "texte": "Faites le silence du Bébé de goudron : chut !",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e22",
+          "type": "conteur",
+          "texte": "Le Bébé de goudron ne bouge pas. Et Frère {{r2}} ne bouge pas."
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Tout reste collé",
+      "resume": "{{r1}} essaie les deux pattes, les pieds et la tête ; chaque coup le colle davantage.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "Frère {{r1}} continue de lui demander bonjour, et le Bébé de goudron continue de ne rien dire."
+        },
+        {
+          "id": "a2e2",
+          "type": "didascalie",
+          "texte": "Pendant le récit de la tape, {{r1}} penche toute la peluche contre la silhouette fixe et y reste appuyé."
+        },
+        {
+          "id": "a2e3",
+          "type": "conteur",
+          "texte": "Si bien qu’à la fin, Frère {{r1}} prend son élan et — pif ! — lui donne une tape sur le côté de la tête. Et c’est là qu’il a fait sa grosse bêtise : sa patte reste collée. Impossible de la retirer. Le goudron la tient. Le Bébé de goudron ne bouge pas. Et Frère {{r2}} ne bouge pas."
+        },
+        {
+          "id": "a2e4",
+          "type": "adresse_public",
+          "texte": "Faites le bruit de la première tape : « pif ! »",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e5",
+          "type": "replique",
+          "texte": "Lâche-moi, ou je te tape encore !",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a2e6",
+          "type": "conteur",
+          "texte": "Et Frère {{r1}} lui donne une tape de l’autre patte — et l’autre patte reste collée aussi."
+        },
+        {
+          "id": "a2e7",
+          "type": "conteur",
+          "texte": "Le Bébé de goudron ne dit rien. Et Frère {{r2}} ne bouge pas."
+        },
+        {
+          "id": "a2e8",
+          "type": "adresse_public",
+          "texte": "Faites le bruit de la deuxième tape : « pif ! »",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e9",
+          "type": "replique",
+          "texte": "Lâche-moi, ou je te donne un grand coup de pied !",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a2e10",
+          "type": "conteur",
+          "texte": "Mais le Bébé de goudron ne dit rien. Il tient bon. Et Frère {{r1}} perd l’usage de ses pieds de la même manière. Frère {{r2}} ne bouge pas. Alors Frère {{r1}} crie :"
+        },
+        {
+          "id": "a2e11",
+          "type": "replique",
+          "texte": "Si tu ne me lâches pas, je vais te donner un coup de tête !",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a2e12",
+          "type": "adresse_public",
+          "texte": "Faites entendre le coup de tête : « boum ! »",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e13",
+          "type": "didascalie",
+          "texte": "Pendant le coup raconté, {{r1}} incline toute la peluche d’un bloc vers la silhouette."
+        },
+        {
+          "id": "a2e14",
+          "type": "conteur",
+          "texte": "Et Frère {{r1}} donne un coup de tête — et sa tête reste collée."
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Le rire et la question",
+      "resume": "{{r2}} rit et menace {{r1}} ; la réponse du vieil homme laisse la fin incertaine.",
+      "tableauId": "t3",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "didascalie",
+          "texte": "Pendant le récit, {{r2}} se redresse derrière le buisson ; {{r1}} reste appuyé en bloc contre la silhouette."
+        },
+        {
+          "id": "a3e2",
+          "type": "conteur",
+          "texte": "Alors Frère {{r2}} sort des buissons, l’air aussi innocent qu’un oiseau moqueur."
+        },
+        {
+          "id": "a3e3",
+          "type": "replique",
+          "texte": "Bonjour, Frère {{r1}}. On dirait que tu es un peu collé, ce matin.",
+          "marionnetteId": "r2",
+          "ton": "moqueur"
+        },
+        {
+          "id": "a3e4",
+          "type": "adresse_public",
+          "texte": "Riez avec moi : « ha, ha ! »",
+          "marionnetteId": "r2",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e5",
+          "type": "conteur",
+          "texte": "Et Frère {{r2}} se roule par terre, et il rit, et il rit, jusqu’à ne plus pouvoir rire."
+        },
+        {
+          "id": "a3e6",
+          "type": "replique",
+          "texte": "Je crois bien que tu vas dîner avec moi, cette fois, Frère {{r1}}. J’ai tout préparé, et je n’accepterai pas d’excuse.",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a3e7",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e8",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e9",
+          "type": "note_marionnettiste",
+          "texte": "Voix de l’enfant, en coulisse : « Et {{r2}} a mangé {{r1}} ? »"
+        },
+        {
+          "id": "a3e10",
+          "type": "note_marionnettiste",
+          "texte": "Voix du vieil homme, en coulisse : « L’histoire s’arrête là. Peut-être que oui, peut-être que non. Certains disent que le juge Ours est passé par là et l’a décollé ; d’autres disent que non. »"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "us-remus-tar-baby",
+    "synopsis": {
+      "accroche": "Une silhouette muette colle à chaque coup.",
+      "resume": [
+        "{{r2}} fabrique le Bébé de goudron et le place sur la route.",
+        "{{r1}} le salue, s’emporte et reste collé des pattes, des pieds puis de la tête.",
+        "{{r2}} rit et parle de son dîner ; à la question de l’enfant, le vieil homme dit que la suite reste incertaine."
+      ]
+    },
+    "transposition": {
+      "texte": "Un jour, après que Frère {{r1}} l’eut encore roulé, Frère {{r2}} se mit au travail. Du goudron mélangé à de la térébenthine formait une drôle de machine qu’il appela le Bébé de goudron. Ce Bébé de goudron se trouvait au beau milieu de la grand-route.\n\nPuis il alla se coucher dans les buissons pour voir ce qui allait se passer.\n\nIl n’eut pas longtemps à attendre : voilà Frère {{r1}} qui arrive par la route — lippity-clippity, clippity-lippity — aussi insolent qu’un geai.\n\nFrère {{r2}}, lui, ne bouge pas.\n\nFrère {{r1}} s’avance en sautillant, et tout à coup il aperçoit le Bébé de goudron. Il se dresse sur ses pattes de derrière, tout étonné. Le Bébé de goudron, lui, reste assis.\n\nEt Frère {{r2}} ne bouge pas.\n\n— Bonjour ! Beau temps, ce matin.\n\nLe Bébé de goudron ne dit rien. Et Frère {{r2}} ne bouge pas.\n\n— Et comment va la santé, ce matin ?\n\nFrère {{r2}} s’incline à peine et ne bouge pas. Le Bébé de goudron ne dit rien.\n\n— Eh bien ? Tu es sourd ? Parce que si tu es sourd, je peux crier plus fort !\n\nLe Bébé de goudron ne bouge pas. Et Frère {{r2}} ne bouge pas.\n\n— Tu fais le fier, voilà ce que tu fais. Mais je vais te guérir de ça, moi !\n\nFrère {{r2}} rit tout bas dans son ventre. Le Bébé de goudron ne dit rien.\n\n— Je vais t’apprendre à parler poliment aux gens respectables. Si tu n’ôtes pas ton chapeau pour me dire bonjour, je te flanque une tape !\n\nLe Bébé de goudron ne bouge pas. Et Frère {{r2}} ne bouge pas.\n\nFrère {{r1}} continue de lui demander bonjour, et le Bébé de goudron continue de ne rien dire.\n\nSi bien qu’à la fin, Frère {{r1}} prend son élan et — pif ! — lui donne une tape sur le côté de la tête. Et c’est là qu’il a fait sa grosse bêtise : sa patte reste collée. Impossible de la retirer. Le goudron la tient. Le Bébé de goudron ne bouge pas. Et Frère {{r2}} ne bouge pas.\n\n— Lâche-moi, ou je te tape encore !\n\nEt Frère {{r1}} lui donne une tape de l’autre patte — et l’autre patte reste collée aussi.\n\nLe Bébé de goudron ne dit rien. Et Frère {{r2}} ne bouge pas.\n\n— Lâche-moi, ou je te donne un grand coup de pied !\n\nMais le Bébé de goudron ne dit rien. Il tient bon. Et Frère {{r1}} perd l’usage de ses pieds de la même manière. Frère {{r2}} ne bouge pas. Alors Frère {{r1}} crie :\n\n— Si tu ne me lâches pas, je vais te donner un coup de tête !\n\nEt Frère {{r1}} donne un coup de tête — et sa tête reste collée.\n\nAlors Frère {{r2}} sort des buissons, l’air aussi innocent qu’un oiseau moqueur.\n\n— Bonjour, Frère {{r1}}. On dirait que tu es un peu collé, ce matin.\n\nEt Frère {{r2}} se roule par terre, et il rit, et il rit, jusqu’à ne plus pouvoir rire.\n\n— Je crois bien que tu vas dîner avec moi, cette fois, Frère {{r1}}. J’ai tout préparé, et je n’accepterai pas d’excuse.\n\n— Et {{r2}} a mangé {{r1}} ?\n\n— L’histoire s’arrête là. Peut-être que oui, peut-être que non. Certains disent que le juge Ours est passé par là et l’a décollé ; d’autres disent que non."
+    }
+  },
+  "dureeEstimeeSecondes": 418,
+  "interactionsOrdonnees": [
+    "a1e11",
+    "a1e21",
+    "a2e4",
+    "a2e12",
+    "a1e16",
+    "a3e4",
+    "a2e8"
+  ]
+}

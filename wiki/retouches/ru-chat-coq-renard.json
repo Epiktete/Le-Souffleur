@@ -1,0 +1,20 @@
+{
+  "id": "ru-chat-coq-renard",
+  "langue": [],
+  "moments": [
+    {
+      "id": "le-coq-mange",
+      "type": "mort-gentil",
+      "niveaux": [
+        {
+          "jusqua": 6,
+          "annonce": "La renarde ne mange pas le coq : au dernier moment, il s'échappe de ses griffes en y laissant les plumes de sa queue, et le chat et le vieux le retrouvent à la maison, tout tremblant.",
+          "retouches": [
+            {"avant": "La renarde emporta le coq et le mangea derrière les petits sapins ; il n'en resta que la queue et les plumes, que le vent emporta.", "apres": "La renarde emporta le coq derrière les petits sapins ; mais au moment de le manger, le coq s'échappa de ses griffes et rentra en courant à la maison : il ne resta à la renarde que les plumes de sa queue, que le vent emporta."},
+            {"avant": "Le chat et le vieux rentrèrent à la maison et ne trouvèrent pas le coq. Ils eurent beau pleurer, ils finirent par dire :", "apres": "Le chat et le vieux rentrèrent à la maison et trouvèrent le coq tout tremblant, sans une plume à la queue. Ils lui dirent :"}
+          ]
+        }
+      ]
+    }
+  ]
+}

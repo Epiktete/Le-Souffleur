@@ -1,0 +1,42 @@
+{
+  "id": "fr-perrault-riquet",
+  "langue": [
+    {"avant": "qu’il ne laisserait pas d’être aimable", "apres": "qu’il ne manquerait pas d’être aimable", "nature": "tournure"},
+    {"avant": "Cela mortifia beaucoup la reine", "apres": "Cela chagrina beaucoup la reine", "nature": "faux-ami"},
+    {"avant": "ce qui pensa faire mourir de douleur", "apres": "ce qui faillit faire mourir de chagrin", "nature": "faux-ami"},
+    {"avant": "lui répondit la princesse et en demeura là", "apres": "lui répondit la princesse, sans en dire plus", "nature": "tournure"},
+    {"avant": "La princesse demeura toute interdite", "apres": "La princesse demeura toute étonnée", "nature": "faux-ami"},
+    {"avant": "il ne tiendra qu’à vous que vous n’ayez autant d’esprit qu’on en peut avoir", "apres": "il ne tiendra qu’à vous d’avoir autant d’esprit qu’on en peut avoir", "nature": "tournure"},
+    {"avant": "qu’elle l’épouserait dans un an à pareil jour", "apres": "qu’elle l’épouserait dans un an, jour pour jour", "nature": "tournure"},
+    {"avant": "Le roi se conduisait par ses avis", "apres": "Le roi suivait ses avis", "nature": "tournure"},
+    {"avant": "sans s’engager à pas un d’eux", "apres": "sans s’engager envers aucun d’eux", "nature": "tournure"},
+    {"avant": "elle ouït que l’on disait", "apres": "elle entendit que l’on disait", "nature": "mot-disparu"},
+    {"avant": "et se ressouvenant tout à coup qu’il y avait un an qu’à pareil jour elle avait promis d’épouser", "apres": "et se souvenant tout à coup qu’elle avait promis, un an plus tôt jour pour jour, d’épouser", "nature": "tournure"},
+    {"avant": "pensa tomber de son haut", "apres": "faillit tomber de son haut", "nature": "faux-ami"},
+    {"avant": "le plus apparent de la bande", "apres": "le chef de la bande", "nature": "faux-ami"},
+    {"avant": "brave, magnifique, et comme un prince", "apres": "élégant, magnifique, et comme un prince", "nature": "faux-ami"},
+    {"avant": "exact à tenir ma parole", "apres": "venu tenir ma parole", "nature": "tournure"},
+    {"avant": "autant qu’on lui avait ouï dire d’impertinences auparavant, autant lui entendait-on dire", "apres": "autant on l’avait entendue dire de sottises auparavant, autant on l’entendait dire", "nature": "mot-disparu"},
+    {"avant": "et de toutes sortes d’officiers nécessaires", "apres": "et de toutes sortes de serviteurs nécessaires", "nature": "faux-ami"},
+    {"avant": "A la réserve de ma laideur", "apres": "À part ma laideur", "nature": "tournure"},
+    {"avant": "Êtes vous mal contente", "apres": "Êtes-vous mécontente", "nature": "tournure"},
+    {"avant": "la lardoire à la main", "apres": "leur grande broche à la main", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "allèrent se camper dans une allée", "apres": "allèrent s’installer dans une allée", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "pourvu qu’il en obtînt le consentement du roi son père", "apres": "pourvu que le roi son père donne son accord", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "le reçut avec plaisir pour son gendre", "apres": "le reçut avec plaisir pour époux de sa fille", "nature": "mot-rare", "jusqua": 6}
+  ],
+  "moments": [
+    {
+      "id": "la-cadette-moquee",
+      "type": "mal-vieilli",
+      "niveaux": [
+        {
+          "jusqua": 10,
+          "retouches": [
+            {"avant": "elle ne paraissait plus auprès d’elle qu’une guenon fort désagréable", "apres": "elle ne brillait plus du tout auprès d’elle"}
+          ]
+        }
+      ]
+    }
+  ]
+}

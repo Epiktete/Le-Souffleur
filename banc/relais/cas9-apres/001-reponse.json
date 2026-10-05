@@ -1,0 +1,59 @@
+{"synopsis": [
+  {"conte": "fr-perrault-chaperon-rouge",
+   "accroche": "Rosette part porter une galette à Mamie Rose, malade, et Loup Gris arrive le premier chez elle.",
+   "resume": [
+     "Rosette part porter une galette et un petit pot de beurre à Mamie Rose, qui est malade.",
+     "Dans le bois, elle croise Loup Gris et lui raconte tout : où elle va, et par quel chemin. Il lui propose une course, chacun de son côté.",
+     "Loup Gris arrive le premier, se fait ouvrir chez Mamie Rose en disant le mot magique, et prend sa place dans le lit.",
+     "Rosette arrive à son tour et trouve Mamie Rose bien changée : « Comme vous avez de grandes oreilles, de grands yeux, de grandes dents ! »",
+     "« C'est pour te manger ! » Loup Gris se jette sur elle : c'est la fin du conte de Perrault, sans chasseur pour la sauver."
+   ],
+   "distribution": [
+     {"marionnette": "Rosette", "role": "le Petit Chaperon rouge", "note": "Rosette est déjà curieuse et gentille, exactement comme la fillette qui parle trop facilement au loup."},
+     {"marionnette": "Loup Gris", "role": "le Loup", "note": "Loup Gris est déjà un loup, méchant et gourmand : rien à changer pour ce rôle."},
+     {"marionnette": "Mamie Rose", "role": "la Mère-grand", "note": "Mamie Rose est déjà une grand-mère douce : elle joue sa propre image."}
+   ],
+   "changements": [
+     "La Mère n'a pas de marionnette : sa demande de départ devient une simple phrase qui plante l'histoire, sans qu'elle apparaisse."
+   ]
+  },
+  {"conte": "afr-djaha-et-sa-femme",
+   "accroche": "Loup Gris perd son trésor par la bonté de Mamie Rose, et le retrouve par une ruse toute simple.",
+   "resume": [
+     "Loup Gris cache son or dans un vieux sac, sur la terrasse de sa maison.",
+     "Mamie Rose, sa femme, donne ce vieux sac à Rosette, de passage sur la route, tout simplement par bonté.",
+     "Loup Gris découvre la perte, et crie dans la rue : « Qui veut échanger un vieux sac contre un sac neuf ? »",
+     "Rosette accourt, ravie de l'échange, et lui rend sans le savoir le sac plein de pièces qui tintent.",
+     "Loup Gris retrouve son trésor, et il finit par en rire avec Mamie Rose, plutôt que de lui en vouloir."
+   ],
+   "distribution": [
+     {"marionnette": "Rosette", "role": "le Pèlerin", "note": "Rosette, curieuse, va bien à ce personnage qui passe par hasard et change tout par un petit geste."},
+     {"marionnette": "Loup Gris", "role": "Djah’a", "note": "Loup Gris, malicieux et gourmand, porte bien la ruse finale qui lui fait retrouver son bien."},
+     {"marionnette": "Mamie Rose", "role": "sa femme", "note": "Mamie Rose est gentille : elle donne le sac sans se méfier, par pure bonté, comme ce personnage."}
+   ],
+   "changements": [
+     "Le mot « outre » (trop ancien) devient « sac », et le trésor devient des pièces qu'on entend tinter.",
+     "La fin devient un éclat de rire entre Loup Gris et Mamie Rose, plutôt qu'une dispute.",
+     "La Voisine n'a pas de marionnette : elle disparaît de l'histoire, sans qu'on la regrette."
+   ]
+  },
+  {"conte": "in-singes-jardiniers",
+   "accroche": "Rosette part à la foire et confie son jardin à Loup Gris, qui l'arrose d'une façon désastreuse.",
+   "resume": [
+     "Rosette part à la foire, et confie l'arrosage de son jardin à Loup Gris.",
+     "Loup Gris accepte avec enthousiasme, et réfléchit tout seul, très sérieusement, devant le puits.",
+     "Persuadé que l'eau va bientôt manquer, il décide : chaque fleur aura autant d'eau que ses racines sont longues.",
+     "Il arrache chaque fleur, mesure ses racines, l'arrose, puis la replante.",
+     "Rosette revient : tout est fané. Mamie Rose conclut que le plus sot, c'est celui qui a confié le jardin à Loup Gris."
+   ],
+   "distribution": [
+     {"marionnette": "Rosette", "role": "le Jardinier", "note": "Rosette est gentille : elle confie volontiers son jardin avant de partir à la foire."},
+     {"marionnette": "Loup Gris", "role": "le Chef des singes", "note": "Loup Gris, gourmand et sûr de lui, aime décider et se persuade vite d'avoir raison."},
+     {"marionnette": "Mamie Rose", "role": "le Maître du parc", "note": "Mamie Rose, sage, est la mieux placée pour dire le mot de la fin."}
+   ],
+   "changements": [
+     "Le conseil des singes devient Loup Gris qui réfléchit tout seul, à voix haute : pas de troupe de singes en plus de lui.",
+     "Les fleurs sont des fleurs en papier dans le décor, qu'on arrache une à une devant le public."
+   ]
+  }
+]}

@@ -1,0 +1,730 @@
+{
+  "id": "ru-paysan-ours-renard--1",
+  "conteId": "ru-paysan-ours-renard",
+  "titre": "Le Paysan, l’Ours et le Renard",
+  "pitch": "{{r1}} laisse les fanes à {{r2}} et garde les racines. {{r3}} l’aide contre {{r2}}, puis apprend qu’il ne tient pas sa promesse.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "rusé",
+        "travailleur",
+        "peureux"
+      ],
+      "voix": "voix posée, pressée quand il craint {{r2}}",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e1:texte",
+            "avant": "un paysan",
+            "apres": "une paysanne"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "Paysan,",
+            "apres": "Paysanne,"
+          },
+          {
+            "id": "a1e12:texte",
+            "avant": "paysan,",
+            "apres": "paysanne,"
+          },
+          {
+            "id": "a1e20:texte",
+            "avant": "Paysan,",
+            "apres": "Paysanne,"
+          },
+          {
+            "id": "a1e24:texte",
+            "avant": "paysan !",
+            "apres": "paysanne !"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "et il avait peur",
+            "apres": "et elle avait peur"
+          },
+          {
+            "id": "a2e3:texte",
+            "avant": "Il y entre",
+            "apres": "Elle y entre"
+          },
+          {
+            "id": "a2e5:texte",
+            "avant": "petit paysan",
+            "apres": "petite paysanne"
+          },
+          {
+            "id": "a2e13:texte",
+            "avant": "le vieux",
+            "apres": "la vieille"
+          },
+          {
+            "id": "a2e16:texte",
+            "avant": "petit paysan",
+            "apres": "petite paysanne"
+          },
+          {
+            "id": "a2e23:texte",
+            "avant": "petit paysan",
+            "apres": "petite paysanne"
+          },
+          {
+            "id": "pitch",
+            "avant": "qu’il ne tient",
+            "apres": "qu’elle ne tient"
+          },
+          {
+            "id": "voix:r1",
+            "avant": "quand il craint",
+            "apres": "quand elle craint"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "le trouver",
+            "apres": "la trouver"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r2",
+      "espece": "ours",
+      "famille": "gros",
+      "traits": [
+        "fort",
+        "naïf",
+        "gourmand"
+      ],
+      "voix": "voix grave et forte, puis craintive devant la fausse chasse",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e4:ton",
+            "avant": "menaçant",
+            "apres": "menaçante"
+          },
+          {
+            "id": "a1e14:texte",
+            "avant": "fut content",
+            "apres": "fut contente"
+          },
+          {
+            "id": "a1e23:texte",
+            "avant": "Dès qu’il l’eut mangé",
+            "apres": "Dès qu’elle l’eut mangé"
+          },
+          {
+            "id": "a1e24:texte",
+            "avant": "Tu m’as trompé",
+            "apres": "Tu m’as trompée"
+          },
+          {
+            "id": "a1e24:ton",
+            "avant": "fâché",
+            "apres": "fâchée"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "Il est fâché",
+            "apres": "Elle est fâchée"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "il a promis",
+            "apres": "elle a promis"
+          },
+          {
+            "id": "a2e16:ton",
+            "avant": "apeuré",
+            "apres": "apeurée"
+          },
+          {
+            "id": "a2e17:texte",
+            "avant": "fut lié",
+            "apres": "fut liée"
+          },
+          {
+            "id": "a2e22:texte",
+            "avant": "il est fini",
+            "apres": "elle est finie"
+          },
+          {
+            "id": "a2e22:texte",
+            "avant": "Le voilà",
+            "apres": "La voilà"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a1e13:texte",
+          "avant": "mon petit ours",
+          "gabarit": "{mon|ma} {petit|petite} {espece}"
+        },
+        {
+          "id": "a1e21:texte",
+          "avant": "mon petit ours",
+          "gabarit": "{mon|ma} {petit|petite} {espece}"
+        },
+        {
+          "id": "a2e7:texte",
+          "avant": "les ours",
+          "gabarit": "les {especes}"
+        },
+        {
+          "id": "a2e14:texte",
+          "avant": "les ours",
+          "gabarit": "les {especes}"
+        },
+        {
+          "id": "a2e15:texte",
+          "avant": "les ours",
+          "gabarit": "les {especes}"
+        }
+      ]
+    },
+    {
+      "cle": "r3",
+      "espece": "renarde",
+      "famille": "predateur",
+      "traits": [
+        "rusée",
+        "bavarde",
+        "orgueilleuse"
+      ],
+      "voix": "voix vive et sûre, plus aiguë dans le terrier",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a3:resume",
+            "avant": "elle se cache",
+            "apres": "il se cache"
+          },
+          {
+            "id": "a2e24:texte",
+            "avant": "petite",
+            "apres": "petit"
+          },
+          {
+            "id": "a3e4:texte",
+            "avant": "Cachée dans le terrier, elle demande",
+            "apres": "Caché dans le terrier, il demande"
+          },
+          {
+            "id": "a3e7:texte",
+            "avant": "petite",
+            "apres": "petit"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "la tirent",
+            "apres": "le tirent"
+          }
+        ]
+      },
+      "especeImposee": true
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 7,
+    "ageAuditoire": 7,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "Le champ de navets",
+      "description": "Un coussin au milieu de la table marque le champ. Un carton couché derrière évoque la charrette ; il ne bouge pas.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "La forêt et le traîneau",
+      "description": "Deux coussins forment la forêt. Le carton reste couché derrière et évoque maintenant le traîneau ; les bûches et la corde ne sont présentes que dans le récit.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t3",
+      "titre": "Le terrier",
+      "description": "Un coussin posé devant la table marque le terrier. {{r3}} reste visible au-dessus, puis recule derrière lui : sa tête dépasse pendant ses questions. La queue reste cousue ; aucune partie de la peluche ne se manipule séparément.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "À chacun sa part",
+      "resume": "{{r1}} partage les navets avec {{r2}} ; {{r2}} goûte une racine et interdit la forêt.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "{{r1}}, un paysan, labourait son champ. {{r2}} vint le trouver et lui dit :"
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e3",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e4",
+          "type": "replique",
+          "texte": "Paysan, je vais te briser !",
+          "marionnetteId": "r2",
+          "ton": "menaçant"
+        },
+        {
+          "id": "a1e5",
+          "type": "replique",
+          "texte": "Non, laisse-moi tranquille. Je suis en train de semer des navets : je prendrai pour moi seulement les racines, et toi, je te donnerai les fanes.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a1e6",
+          "type": "adresse_public",
+          "texte": "Dites avec moi les deux parts : « racines, fanes ! »",
+          "marionnetteId": "r1",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e7",
+          "type": "replique",
+          "texte": "Soit. Mais si tu me trompes, ne viens plus jamais chercher du bois dans ma forêt !",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a1e8",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e9",
+          "type": "note_marionnettiste",
+          "texte": "Laisser une respiration pour changer de peluche sur cette main."
+        },
+        {
+          "id": "a1e10",
+          "type": "conteur",
+          "texte": "Le temps passa. Les navets de {{r1}} furent arrachés, et voilà {{r2}} qui sort de la chênaie."
+        },
+        {
+          "id": "a1e11",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e12",
+          "type": "replique",
+          "texte": "Eh bien, paysan, partageons !",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a1e13",
+          "type": "replique",
+          "texte": "D’accord, mon petit ours ! Je vais t’apporter les fanes.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a1e14",
+          "type": "conteur",
+          "texte": "Et une charrette pleine de fanes arriva devant {{r2}}. {{r2}} fut content de ce partage honnête."
+        },
+        {
+          "id": "a1e15",
+          "type": "adresse_public",
+          "texte": "Redites avec moi ce que j’ai reçu : « les fanes ! »",
+          "marionnetteId": "r2",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e16",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e17",
+          "type": "note_marionnettiste",
+          "texte": "Laisser une respiration pour changer de peluche sur cette main."
+        },
+        {
+          "id": "a1e18",
+          "type": "conteur",
+          "texte": "Puis la charrette de {{r1}} fut chargée de navets, et {{r1}} partit les vendre à la ville. Et voilà {{r2}} qui arrive en face :"
+        },
+        {
+          "id": "a1e19",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e20",
+          "type": "replique",
+          "texte": "Paysan, où vas-tu ?",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a1e21",
+          "type": "replique",
+          "texte": "Eh bien, mon petit ours, je vais en ville vendre les racines.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a1e22",
+          "type": "replique",
+          "texte": "Fais-moi goûter comment c’est, une racine !",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a1e23",
+          "type": "conteur",
+          "texte": "{{r2}} goûta un navet de la récolte. Dès qu’il l’eut mangé :"
+        },
+        {
+          "id": "a1e24",
+          "type": "replique",
+          "texte": "Aaah ! Tu m’as trompé, paysan ! Tes racines sont sucrées. Maintenant, ne viens plus chercher du bois chez moi, ou je t’écorche !",
+          "marionnetteId": "r2",
+          "ton": "fâché"
+        },
+        {
+          "id": "a1e25",
+          "type": "adresse_public",
+          "texte": "Faites avec moi mon cri : « Aaah ! »",
+          "marionnetteId": "r2",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e26",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e27",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Les bruits de chasse",
+      "resume": "{{r1}} n’a plus de bois ; {{r3}} simule une chasse et {{r2}} veut se cacher sous les bûches.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "{{r1}} revint de la ville, et il avait peur d’aller dans la forêt. Ses étagères, ses bancs et ses tonneaux finirent brûlés ; mais à la fin, il n’y avait plus rien à faire, il fallait aller dans la forêt."
+        },
+        {
+          "id": "a2e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e3",
+          "type": "conteur",
+          "texte": "Il y entre tout doucement. Et voilà que surgit de nulle part {{r3}} qui accourt."
+        },
+        {
+          "id": "a2e4",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e5",
+          "type": "replique",
+          "texte": "Qu’as-tu, petit paysan, à avancer si doucement ?",
+          "marionnetteId": "r3"
+        },
+        {
+          "id": "a2e6",
+          "type": "replique",
+          "texte": "J’ai peur de {{r2}}. Il est fâché contre moi, il a promis de m’écorcher.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a2e7",
+          "type": "replique",
+          "texte": "N’aie pas peur de {{r2}}. Coupe ton bois, et moi je vais faire du bruit comme une meute de chasse. Si {{r2}} te demande ce que c’est, dis-lui : « On chasse les loups et les ours. »",
+          "marionnetteId": "r3"
+        },
+        {
+          "id": "a2e8",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Ouah ! Ouah ! Ouah !",
+          "ton": "en imitant la meute de chasse"
+        },
+        {
+          "id": "a2e9",
+          "type": "adresse_public",
+          "texte": "Faites avec moi le bruit de la meute : « ouah ! ouah ! »",
+          "marionnetteId": "r3",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e10",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e11",
+          "type": "conteur",
+          "texte": "Le bois commença à être coupé. Tout à coup, voilà {{r2}} qui accourt et crie à {{r1}} :"
+        },
+        {
+          "id": "a2e12",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e13",
+          "type": "replique",
+          "texte": "Hé, le vieux ! Qu’est-ce que c’est que ces cris ?",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a2e14",
+          "type": "replique",
+          "texte": "On chasse les loups et les ours.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a2e15",
+          "type": "adresse_public",
+          "texte": "Dites avec moi la réponse : « On chasse les loups et les ours ! »",
+          "marionnetteId": "r1",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e16",
+          "type": "replique",
+          "texte": "Oh, petit paysan, mets-moi dans ton traîneau, couvre-moi de bûches et attache-moi avec une corde : peut-être qu’on croira que c’est un tronc d’arbre.",
+          "marionnetteId": "r2",
+          "ton": "apeuré"
+        },
+        {
+          "id": "a2e17",
+          "type": "conteur",
+          "texte": "Le traîneau fut rempli de bûches, {{r2}} fut lié sous le bois par une corde et reçut, sur la tête, des coups du dos de la hache de {{r1}} jusqu’à ce que {{r2}} ne bouge plus du tout."
+        },
+        {
+          "id": "a2e18",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e19",
+          "type": "conteur",
+          "texte": "{{r3}} accourt et dit :"
+        },
+        {
+          "id": "a2e20",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e21",
+          "type": "replique",
+          "texte": "Où est {{r2}} ?",
+          "marionnetteId": "r3"
+        },
+        {
+          "id": "a2e22",
+          "type": "replique",
+          "texte": "Le voilà, il est fini !",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a2e23",
+          "type": "replique",
+          "texte": "Eh bien, petit paysan, maintenant il faut me régaler.",
+          "marionnetteId": "r3"
+        },
+        {
+          "id": "a2e24",
+          "type": "replique",
+          "texte": "Volontiers, petite {{r3}} ! Viens chez moi, je vais te régaler.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a2e25",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e26",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "La queue et la tête",
+      "resume": "{{r1}} trompe {{r3}} ; elle se cache, parle à ses yeux, ses oreilles et sa queue, puis les chiens la tirent dehors.",
+      "tableauId": "t3",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "conteur",
+          "texte": "Le traîneau de {{r1}} avance, et {{r3}} court devant. Quand {{r1}} approcha de sa maison, les chiens de {{r1}} furent appelés par son sifflement et foncèrent sur {{r3}}."
+        },
+        {
+          "id": "a3e2",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e3",
+          "type": "didascalie",
+          "texte": "{{r3}} file vers la forêt puis descend derrière le coussin du terrier, en gardant la tête visible."
+        },
+        {
+          "id": "a3e4",
+          "type": "conteur",
+          "texte": "Cachée dans le terrier, elle demande :"
+        },
+        {
+          "id": "a3e5",
+          "type": "adresse_public",
+          "texte": "Faites le bruit des chiens qui approchent : « ouah ! »",
+          "marionnetteId": "r3",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e6",
+          "type": "replique",
+          "texte": "Oh, mes petits yeux, que regardiez-vous pendant que je courais ?",
+          "marionnetteId": "r3"
+        },
+        {
+          "id": "a3e7",
+          "type": "note_marionnettiste",
+          "texte": "Voix des yeux, en coulisse : « Oh, petite {{r3}}, nous regardions pour que tu ne trébuches pas. »"
+        },
+        {
+          "id": "a3e8",
+          "type": "replique",
+          "texte": "Et vous, mes petites oreilles, que faisiez-vous ?",
+          "marionnetteId": "r3"
+        },
+        {
+          "id": "a3e9",
+          "type": "note_marionnettiste",
+          "texte": "Voix des oreilles, en coulisse : « Nous écoutions si les chiens étaient encore loin. »"
+        },
+        {
+          "id": "a3e10",
+          "type": "replique",
+          "texte": "Et toi, ma queue, que faisais-tu ?",
+          "marionnetteId": "r3"
+        },
+        {
+          "id": "a3e11",
+          "type": "note_marionnettiste",
+          "texte": "Voix de la queue, en coulisse : « Moi, je me suis tout le temps emmêlée dans tes pattes, pour que tu t’embrouilles, que tu tombes, et que tu finisses dans les dents des chiens. »"
+        },
+        {
+          "id": "a3e12",
+          "type": "replique",
+          "texte": "Ah, canaille ! Alors que les chiens te mangent !",
+          "marionnetteId": "r3"
+        },
+        {
+          "id": "a3e13",
+          "type": "adresse_public",
+          "texte": "Redites les trois mots avec moi : « yeux, oreilles, queue ! »",
+          "marionnetteId": "r3",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e14",
+          "type": "conteur",
+          "texte": "Et, la queue de {{r3}} dépassant du terrier, {{r3}} cria :"
+        },
+        {
+          "id": "a3e15",
+          "type": "replique",
+          "texte": "Mangez, les chiens, la queue de {{r3}} !",
+          "marionnetteId": "r3"
+        },
+        {
+          "id": "a3e16",
+          "type": "conteur",
+          "texte": "Les chiens attrapèrent la queue et tirèrent {{r3}} dehors. C’est souvent comme ça : à cause de la queue, on perd la tête."
+        },
+        {
+          "id": "a3e17",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "ru-paysan-ours-renard",
+    "synopsis": {
+      "accroche": "Une récolte de navets fâche {{r2}} contre {{r1}}.",
+      "resume": [
+        "{{r1}} donne les fanes à {{r2}}, qui découvre ensuite le goût des racines.",
+        "{{r3}} feint une chasse et {{r1}} tue {{r2}} caché sous les bûches.",
+        "{{r1}} lâche ses chiens sur {{r3}}, qui perd la tête à cause de sa queue."
+      ]
+    },
+    "transposition": {
+      "texte": "{{r1}}, un paysan, labourait son champ. {{r2}} vint le trouver et lui dit :\n\n— Paysan, je vais te briser !\n\n— Non, laisse-moi tranquille. Je suis en train de semer des navets : je prendrai pour moi seulement les racines, et toi, je te donnerai les fanes.\n\n— Soit, dit {{r2}}. Mais si tu me trompes, ne viens plus jamais chercher du bois dans ma forêt !\n\nIl dit, et s’en alla dans la chênaie. Le temps passa. Les navets de {{r1}} furent arrachés, et voilà {{r2}} qui sort de la chênaie.\n\n— Eh bien, paysan, partageons !\n\n— D’accord, mon petit ours ! Je vais t’apporter les fanes.\n\nEt une charrette pleine de fanes arriva devant {{r2}}. {{r2}} fut content de ce partage honnête.\n\nPuis la charrette de {{r1}} fut chargée de navets, et {{r1}} partit les vendre à la ville. Et voilà {{r2}} qui arrive en face :\n\n— Paysan, où vas-tu ?\n\n— Eh bien, mon petit ours, je vais en ville vendre les racines.\n\n— Fais-moi goûter comment c’est, une racine !\n\n{{r2}} goûta un navet de la récolte. Dès qu’il l’eut mangé :\n\n— Aaah ! rugit-il. Tu m’as trompé, paysan ! Tes racines sont sucrées. Maintenant, ne viens plus chercher du bois chez moi, ou je t’écorche !\n\n{{r1}} revint de la ville, et il avait peur d’aller dans la forêt. Ses étagères, ses bancs et ses tonneaux finirent brûlés ; mais à la fin, il n’y avait plus rien à faire, il fallait aller dans la forêt.\n\nIl y entre tout doucement. Et voilà que surgit de nulle part {{r3}} qui accourt.\n\n— Qu’as-tu, petit paysan, lui demande-t-elle, à avancer si doucement ?\n\n— J’ai peur de {{r2}}. Il est fâché contre moi, il a promis de m’écorcher.\n\n— N’aie pas peur de {{r2}}. Coupe ton bois, et moi je vais faire du bruit comme une meute de chasse. Si {{r2}} te demande ce que c’est, dis-lui : « On chasse les loups et les ours. »\n\nLe bois commença à être coupé. Tout à coup, voilà {{r2}} qui accourt et crie à {{r1}} :\n\n— Hé, le vieux ! Qu’est-ce que c’est que ces cris ?\n\n{{r1}} répond :\n\n— On chasse les loups et les ours.\n\n— Oh, petit paysan, mets-moi dans ton traîneau, couvre-moi de bûches et attache-moi avec une corde : peut-être qu’on croira que c’est un tronc d’arbre.\n\nLe traîneau fut rempli de bûches, {{r2}} fut lié sous le bois par une corde et reçut, sur la tête, des coups du dos de la hache de {{r1}} jusqu’à ce que {{r2}} ne bouge plus du tout.\n\n{{r3}} accourt et dit :\n\n— Où est {{r2}} ?\n\n— Le voilà, il est fini !\n\n— Eh bien, petit paysan, maintenant il faut me régaler.\n\n— Volontiers, petite {{r3}} ! Viens chez moi, je vais te régaler.\n\nLe traîneau de {{r1}} avance, et {{r3}} court devant. Quand {{r1}} approcha de sa maison, les chiens de {{r1}} furent appelés par son sifflement et foncèrent sur {{r3}}. {{r3}} fila vers la forêt et se glissa dans son terrier. Cachée dans le terrier, elle demande :\n\n— Oh, mes petits yeux, que regardiez-vous pendant que je courais ?\n\n— Oh, petite {{r3}}, nous regardions pour que tu ne trébuches pas.\n\n— Et vous, mes petites oreilles, que faisiez-vous ?\n\n— Nous écoutions si les chiens étaient encore loin.\n\n— Et toi, ma queue, que faisais-tu ?\n\n— Moi, dit la queue, je me suis tout le temps emmêlée dans tes pattes, pour que tu t’embrouilles, que tu tombes, et que tu finisses dans les dents des chiens.\n\n— Ah, canaille ! Alors que les chiens te mangent !\n\nEt, la queue de {{r3}} dépassant du terrier, {{r3}} cria :\n\n— Mangez, les chiens, la queue de {{r3}} !\n\nLes chiens attrapèrent la queue et tirèrent {{r3}} dehors. C’est souvent comme ça : à cause de la queue, on perd la tête.\n"
+    }
+  },
+  "dureeEstimeeSecondes": 382,
+  "interactionsOrdonnees": [
+    "a1e6",
+    "a1e15",
+    "a1e25",
+    "a2e9",
+    "a2e15",
+    "a3e5",
+    "a3e13"
+  ]
+}

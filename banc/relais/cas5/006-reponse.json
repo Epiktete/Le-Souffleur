@@ -1,0 +1,18 @@
+{"elements": [
+  {"type": "didascalie", "texte": "Grand Ours se penche vers le sol et mange sa bouillie à grands coups, la tête basse."},
+  {"type": "note_marionnettiste", "texte": "Voix d'Askeladden, en coulisse : \"J'attache ma besace devant mon ventre, en cachette, et j'en verse plus dedans que je n'en mange.\""},
+  {"type": "note_marionnettiste", "texte": "Inviter les enfants à crier à Grand Ours qu'Askeladden cache un sac sous sa veste : eux seuls le voient."},
+  {"type": "didascalie", "texte": "Grand Ours continue de manger, sans se douter de rien."},
+  {"type": "note_marionnettiste", "texte": "Voix d'Askeladden, en coulisse : \"Ma besace est pleine. Je prends mon couteau, et j'y fais une fente.\""},
+  {"type": "didascalie", "texte": "Ils mangent encore un bon moment. Grand Ours s'arrête, le ventre lourd, et souffle, essoufflé."},
+  {"type": "replique", "marionnette": "Grand Ours", "texte": "Non, maintenant, je n'en peux plus.", "ton": "essoufflé, à bout de souffle"},
+  {"type": "note_marionnettiste", "texte": "Voix d'Askeladden, en coulisse : \"Il faut manger ! Moi, je n'ai même pas à moitié faim. Fais comme moi : fais un trou dans ton ventre, et tu pourras manger autant que tu voudras.\""},
+  {"type": "replique", "marionnette": "Grand Ours", "texte": "Mais ça doit faire terriblement mal ?", "ton": "inquiet"},
+  {"type": "note_marionnettiste", "texte": "Voix d'Askeladden, en coulisse : \"Oh, rien du tout.\""},
+  {"type": "didascalie", "texte": "Grand Ours se penche, prêt à essayer, mais dès qu'il y pense, il éclate de rire et roule par terre."},
+  {"type": "adresse_public", "marionnette": "Grand Ours", "texte": "Comptez jusqu'à trois avec moi, et je me relève !", "attenteReponse": true},
+  {"type": "didascalie", "texte": "Grand Ours roule encore par terre pendant que les enfants comptent, puis se relève d'un bond, tout content."},
+  {"type": "replique", "marionnette": "Grand Ours", "texte": "J'abandonne ! Tout mon or et mon argent sont à toi.", "ton": "joyeux, riant encore"},
+  {"type": "note_marionnettiste", "texte": "Voix d'Askeladden, en coulisse : \"Merci, Grand Ours ! Avec tout cet or, je pourrai payer nos dettes.\""},
+  {"type": "didascalie", "texte": "Grand Ours agite la patte pour lui dire au revoir, tout content."}
+]}

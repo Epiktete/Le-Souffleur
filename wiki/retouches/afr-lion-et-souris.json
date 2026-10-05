@@ -1,0 +1,11 @@
+{
+  "id": "afr-lion-et-souris",
+  "langue": [
+    {"avant": "il arriva qu’un chasseur donna la chasse au lion jusque sous un palmier, de sorte qu’il avait creusé un trou devant le lion. Celui-ci y tomba.", "apres": "il arriva qu’un chasseur creusa un trou sous un palmier, puis donna la chasse au lion jusque-là. Le lion y tomba.", "nature": "ordre", "jusqua": 6},
+    {"avant": "le puissant animal décida la réalisation des paroles de la souris", "apres": "le puissant animal vit se réaliser les paroles de la souris", "nature": "tournure"},
+    {"avant": "en dépit des prétentions à la force que lui, le lion, avait exprimées", "apres": "bien que le lion se soit vanté d’être si fort", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "où t’a mis la force par laquelle tu t’es laissé prendre", "apres": "où tu t’es laissé prendre", "nature": "relative", "jusqua": 6},
+    {"avant": "Un bienfait réussit toujours à son auteur.", "apres": "Un bienfait profite toujours à celui qui l’a fait.", "nature": "faux-ami"}
+  ],
+  "moments": []
+}

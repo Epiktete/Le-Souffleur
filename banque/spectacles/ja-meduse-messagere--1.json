@@ -1,0 +1,1425 @@
+{
+  "id": "ja-meduse-messagere--1",
+  "conteId": "ja-meduse-messagere",
+  "titre": "La Méduse messagère",
+  "pitch": "{{r1}}, la méduse, doit ramener un singe au palais sous la mer pour guérir la Reine ; mais elle bavarde tant qu'elle lui dit tout, et {{r2}} la trompe à son tour.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "meduse",
+      "famille": "eau",
+      "traits": [
+        "bavard",
+        "naïf",
+        "maladroit"
+      ],
+      "voix": "voix aiguë et chantante, qui parle vite et rit pour un rien",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "mais elle bavarde tant qu'elle lui dit tout",
+            "apres": "mais il bavarde tant qu'il lui dit tout"
+          },
+          {
+            "id": "pitch",
+            "avant": "la trompe à son tour",
+            "apres": "le trompe à son tour"
+          },
+          {
+            "id": "a4:resume",
+            "avant": "la fait punir",
+            "apres": "le fait punir"
+          },
+          {
+            "id": "a4:resume",
+            "avant": "les poissons la tapent",
+            "apres": "les poissons le tapent"
+          },
+          {
+            "id": "a4:resume",
+            "avant": "qu'elle devient toute molle",
+            "apres": "qu'il devient tout mou"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "qu'elle révèle",
+            "apres": "qu'il révèle"
+          },
+          {
+            "id": "a1e24:texte",
+            "avant": "Elle n'est pas bien jolie",
+            "apres": "Il n'est pas bien joli"
+          },
+          {
+            "id": "a1e24:texte",
+            "avant": "mais elle a quatre pattes",
+            "apres": "mais il a quatre pattes"
+          },
+          {
+            "id": "a1e29:texte",
+            "avant": "toute contente",
+            "apres": "tout content"
+          },
+          {
+            "id": "a1e45:ton",
+            "avant": "bien embarrassée",
+            "apres": "bien embarrassé"
+          },
+          {
+            "id": "a2e2:ton",
+            "avant": "pour elle-même",
+            "apres": "pour lui-même"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "Elle monta",
+            "apres": "Il monta"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "jamais vue",
+            "apres": "jamais vu"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "sujette",
+            "apres": "sujet"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "Je suis venue",
+            "apres": "Je suis venu"
+          },
+          {
+            "id": "a2e15:texte",
+            "avant": "jusqu'à elle",
+            "apres": "jusqu'à lui"
+          },
+          {
+            "id": "a2e17:ton",
+            "avant": "pour elle-même",
+            "apres": "pour lui-même"
+          },
+          {
+            "id": "a2e18:texte",
+            "avant": "je suis venue",
+            "apres": "je suis venu"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "Madame la méduse, madame la méduse",
+            "apres": "Monsieur la méduse, monsieur la méduse"
+          },
+          {
+            "id": "a3e8:texte",
+            "avant": "très maligne mais très bavarde",
+            "apres": "très malin mais très bavard"
+          },
+          {
+            "id": "a3e18:texte",
+            "avant": "si méchante",
+            "apres": "si méchant"
+          },
+          {
+            "id": "a3e19:texte",
+            "avant": "je suis venue",
+            "apres": "je suis venu"
+          },
+          {
+            "id": "a3e19:ton",
+            "avant": "toute fière",
+            "apres": "tout fier"
+          },
+          {
+            "id": "a3e25:ton",
+            "avant": "toute dépitée",
+            "apres": "tout dépité"
+          },
+          {
+            "id": "a4e4:ton",
+            "avant": "impatiente",
+            "apres": "impatient"
+          },
+          {
+            "id": "a4e7:ton",
+            "avant": "toute vexée",
+            "apres": "tout vexé"
+          },
+          {
+            "id": "a4e13:texte",
+            "avant": "se moquer d'elle",
+            "apres": "se moquer de lui"
+          },
+          {
+            "id": "a4e13:texte",
+            "avant": "elle rentra toute penaude",
+            "apres": "il rentra tout penaud"
+          },
+          {
+            "id": "a4e17:texte",
+            "avant": "m'a trompée",
+            "apres": "m'a trompé"
+          },
+          {
+            "id": "a4e17:ton",
+            "avant": "toute penaude",
+            "apres": "tout penaud"
+          },
+          {
+            "id": "a4e20:texte",
+            "avant": "Idiote ! Sotte !",
+            "apres": "Idiot ! Sot !"
+          },
+          {
+            "id": "a4e20:texte",
+            "avant": "pour la punir, tapez-la",
+            "apres": "pour le punir, tapez-le"
+          },
+          {
+            "id": "a4e22:texte",
+            "avant": "la mirent au milieu",
+            "apres": "le mirent au milieu"
+          },
+          {
+            "id": "a4e26:texte",
+            "avant": "Bavarde ! Prétentieuse ! Nigaude !",
+            "apres": "Bavard ! Prétentieux ! Nigaud !"
+          },
+          {
+            "id": "a4e28:texte",
+            "avant": "ils la tapèrent",
+            "apres": "ils le tapèrent"
+          },
+          {
+            "id": "a4e28:texte",
+            "avant": "et elle devint",
+            "apres": "et il devint"
+          },
+          {
+            "id": "a4e28:texte",
+            "avant": "toute molle",
+            "apres": "tout mou"
+          },
+          {
+            "id": "a4e30:texte",
+            "avant": "toute molle",
+            "apres": "tout mou"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r2",
+      "espece": "singe",
+      "famille": "petit",
+      "traits": [
+        "rusé",
+        "vantard",
+        "farceur"
+      ],
+      "voix": "voix vive et moqueuse, qui fait « hou hou » pour se moquer",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a3:resume",
+            "avant": "le ramène",
+            "apres": "la ramène"
+          },
+          {
+            "id": "a2e9:texte",
+            "avant": "Monsieur le singe, monsieur le singe",
+            "apres": "Madame la guenon, madame la guenon"
+          },
+          {
+            "id": "a2e10:ton",
+            "avant": "curieux",
+            "apres": "curieuse"
+          },
+          {
+            "id": "a2e12:ton",
+            "avant": "tout content",
+            "apres": "toute contente"
+          },
+          {
+            "id": "a2e18:texte",
+            "avant": "le chercher",
+            "apres": "la chercher"
+          },
+          {
+            "id": "a2e20:ton",
+            "avant": "un peu inquiet",
+            "apres": "un peu inquiète"
+          },
+          {
+            "id": "a2e22:ton",
+            "avant": "tout content",
+            "apres": "toute contente"
+          },
+          {
+            "id": "a3e9:texte",
+            "avant": "monsieur le singe",
+            "apres": "madame la guenon"
+          },
+          {
+            "id": "a3e10:ton",
+            "avant": "étonné",
+            "apres": "étonnée"
+          },
+          {
+            "id": "a3e15:texte",
+            "avant": "pour le taquiner",
+            "apres": "pour la taquiner"
+          },
+          {
+            "id": "a3e16:ton",
+            "avant": "impatient",
+            "apres": "impatiente"
+          },
+          {
+            "id": "a3e20:texte",
+            "avant": "fut terrifié",
+            "apres": "fut terrifiée"
+          },
+          {
+            "id": "a3e20:texte",
+            "avant": "Mais il comprit",
+            "apres": "Mais elle comprit"
+          },
+          {
+            "id": "a3e20:texte",
+            "avant": "alors il prit",
+            "apres": "alors elle prit"
+          },
+          {
+            "id": "a4e2:texte",
+            "avant": "Arrivé",
+            "apres": "Arrivée"
+          },
+          {
+            "id": "a4e4:texte",
+            "avant": "Monsieur le singe, monsieur le singe",
+            "apres": "Madame la guenon, madame la guenon"
+          },
+          {
+            "id": "a4e8:texte",
+            "avant": "Désolé, désolé !",
+            "apres": "Désolée, désolée !"
+          },
+          {
+            "id": "a4e11:texte",
+            "avant": "Et il se tapa",
+            "apres": "Et elle se tapa"
+          },
+          {
+            "id": "a4e17:texte",
+            "avant": "si bien trompé",
+            "apres": "si bien trompée"
+          },
+          {
+            "id": "a4e17:texte",
+            "avant": "mais il m'a",
+            "apres": "mais elle m'a"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r3",
+      "espece": "dragon",
+      "famille": "monstre",
+      "traits": [
+        "grognon",
+        "orgueilleux"
+      ],
+      "voix": "très grosse voix, lente et grondante, qui éclate d'un coup quand la colère monte",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "guérir la Reine",
+            "apres": "guérir le Roi"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "La Reine est très malade",
+            "apres": "Le Roi est très malade"
+          },
+          {
+            "id": "a4:resume",
+            "avant": "furieux",
+            "apres": "furieuse"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "le roi",
+            "apres": "la reine"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "la Reine",
+            "apres": "le Roi"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "la Reine tomba",
+            "apres": "le Roi tomba"
+          },
+          {
+            "id": "a1e7:texte",
+            "avant": "Il réunit",
+            "apres": "Elle réunit"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "du roi",
+            "apres": "de la reine"
+          },
+          {
+            "id": "a3e19:texte",
+            "avant": "La Reine est malade, elle est mourante",
+            "apres": "Le Roi est malade, il est mourant"
+          },
+          {
+            "id": "a3e19:texte",
+            "avant": "elle ne pourra pas guérir",
+            "apres": "il ne pourra pas guérir"
+          },
+          {
+            "id": "a3e21:texte",
+            "avant": "guérir la Reine",
+            "apres": "guérir le Roi"
+          },
+          {
+            "id": "a4e16:ton",
+            "avant": "très pressé",
+            "apres": "très pressée"
+          },
+          {
+            "id": "a4e18:texte",
+            "avant": "tout rouge",
+            "apres": "toute rouge"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a1e1:texte",
+          "avant": "dragon",
+          "gabarit": "{espece}"
+        },
+        {
+          "id": "a2e11:texte",
+          "avant": "dragon",
+          "gabarit": "{espece}"
+        },
+        {
+          "id": "a2e14:texte",
+          "avant": "du dragon",
+          "gabarit": "{du} {espece}"
+        },
+        {
+          "id": "a3e1:texte",
+          "avant": "du dragon",
+          "gabarit": "{du} {espece}"
+        },
+        {
+          "id": "a3e25:texte",
+          "avant": "du dragon",
+          "gabarit": "{du} {espece}"
+        },
+        {
+          "id": "a4e13:texte",
+          "avant": "du dragon",
+          "gabarit": "{du} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r4",
+      "espece": "pieuvre",
+      "famille": "eau",
+      "traits": [
+        "savant",
+        "timide"
+      ],
+      "voix": "petite voix chevrotante, lente et timide",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": []
+      },
+      "especeMentions": [
+        {
+          "id": "a1e14:texte",
+          "avant": "la pieuvre",
+          "gabarit": "{le} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r5",
+      "espece": "dorade",
+      "famille": "eau",
+      "traits": [
+        "bavard",
+        "moqueur"
+      ],
+      "voix": "voix pointue et rapide, toujours prête à se moquer",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a1e12:ton",
+            "avant": "bien embêtée",
+            "apres": "bien embêté"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a1e22:texte",
+          "avant": "la dorade",
+          "gabarit": "{le} {espece}"
+        },
+        {
+          "id": "a4e22:texte",
+          "avant": "la dorade",
+          "gabarit": "{le} {espece}"
+        }
+      ]
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 12,
+    "ageAuditoire": 5,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "Le palais sous la mer",
+      "description": "Étalez une serviette ou un drap bleu sur toute la table : c'est la mer. Au bout gauche, posez un carton debout : c'est le palais, tout au fond de l'eau. Les marionnettes de la mer montent de derrière la table, comme si elles sortaient des vagues.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "L'île aux Singes",
+      "description": "Laissez la mer et le palais en place. Au bout droit de la table, posez un coussin : c'est l'île. Derrière, un carton debout, ou une bouteille enroulée dans un torchon vert, fait le grand pin où grimpe {{r2}}.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Le foie d'un singe",
+      "resume": "La Reine est très malade. {{r4}} dit qu'il lui faut le foie d'un singe, et {{r5}} propose d'envoyer {{r1}}, qui ne sait pas du tout comment s'y prendre.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Il était une fois, il y a bien longtemps, au fond de la mer, {{r3}}, le roi dragon, et la Reine, qui habitaient un magnifique palais."
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e3",
+          "type": "didascalie",
+          "texte": "{{r3}} monte lentement de derrière la table, devant le palais, la tête bien haute."
+        },
+        {
+          "id": "a1e4",
+          "type": "conteur",
+          "texte": "Un jour, la Reine tomba très gravement malade."
+        },
+        {
+          "id": "a1e5",
+          "type": "conteur",
+          "texte": "{{r3}} s'inquiétait terriblement."
+        },
+        {
+          "id": "a1e6",
+          "type": "didascalie",
+          "texte": "{{r3}} fait les cent pas devant le palais, de plus en plus vite."
+        },
+        {
+          "id": "a1e7",
+          "type": "conteur",
+          "texte": "Il réunit tout le monde et demanda :"
+        },
+        {
+          "id": "a1e8",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e9",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Que faut-il donc faire ?",
+          "ton": "d'une grosse voix inquiète"
+        },
+        {
+          "id": "a1e10",
+          "type": "didascalie",
+          "texte": "{{r5}} se tourne à droite, puis à gauche, sans rien trouver."
+        },
+        {
+          "id": "a1e11",
+          "type": "adresse_public",
+          "marionnetteId": "r5",
+          "texte": "Faites avec moi, les enfants :",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e12",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Euh…",
+          "ton": "bien embêtée"
+        },
+        {
+          "id": "a1e13",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e14",
+          "type": "conteur",
+          "texte": "Alors, de tout en bas, {{r4}}, la pieuvre, sortit en ondulant."
+        },
+        {
+          "id": "a1e15",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e16",
+          "type": "didascalie",
+          "texte": "{{r4}} monte tout doucement de derrière la table, jusqu'à {{r3}}."
+        },
+        {
+          "id": "a1e17",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Moi qui vais souvent sur la terre, on m'a dit que dans ces cas-là, le meilleur remède, c'est le foie d'un singe.",
+          "ton": "timidement"
+        },
+        {
+          "id": "a1e18",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Où en trouve-t-on ?",
+          "ton": "vivement"
+        },
+        {
+          "id": "a1e19",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Au sud d'ici, il y a une île qu'on appelle l'île aux Singes. Si vous envoyez quelqu'un en attraper un, ce sera parfait.",
+          "ton": "timidement"
+        },
+        {
+          "id": "a1e20",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Je vois.",
+          "ton": "lentement, en réfléchissant"
+        },
+        {
+          "id": "a1e21",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e22",
+          "type": "conteur",
+          "texte": "On se demanda alors qui envoyer. Et {{r5}}, la dorade, dit :"
+        },
+        {
+          "id": "a1e23",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e24",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Il faudrait envoyer {{r1}}, la méduse. Elle n'est pas bien jolie, mais elle a quatre pattes et peut marcher librement sur la terre.",
+          "ton": "d'un air malin"
+        },
+        {
+          "id": "a1e25",
+          "type": "conteur",
+          "texte": "Car en ce temps-là, la méduse avait des os et des pattes, comme tout le monde."
+        },
+        {
+          "id": "a1e26",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e27",
+          "type": "conteur",
+          "texte": "On fit donc venir {{r1}}, qui partit en mission."
+        },
+        {
+          "id": "a1e28",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e29",
+          "type": "didascalie",
+          "texte": "{{r1}} arrive en trottinant sur ses quatre pattes, toute contente."
+        },
+        {
+          "id": "a1e30",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "{{r1}}, va à l'île aux Singes, et ramène-moi un singe !",
+          "ton": "d'une très grosse voix"
+        },
+        {
+          "id": "a1e31",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oui, oui !",
+          "ton": "sans avoir rien compris"
+        },
+        {
+          "id": "a1e32",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e33",
+          "type": "conteur",
+          "texte": "{{r1}} attrapa tout le monde, l'un après l'autre, pour poser des questions :"
+        },
+        {
+          "id": "a1e34",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e35",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "À quoi ça ressemble, un singe ?",
+          "ton": "très vite"
+        },
+        {
+          "id": "a1e36",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Ça a la figure toute rouge, le derrière tout rouge, ça grimpe souvent dans les arbres, et ça adore les châtaignes et les kakis.",
+          "ton": "en détachant bien les mots"
+        },
+        {
+          "id": "a1e37",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Répétez avec moi : la figure toute rouge, le derrière tout rouge !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e38",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Comment attraper un singe ?",
+          "ton": "très vite"
+        },
+        {
+          "id": "a1e39",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "En le trompant habilement.",
+          "ton": "doucement"
+        },
+        {
+          "id": "a1e40",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Comment le tromper ?",
+          "ton": "encore plus vite"
+        },
+        {
+          "id": "a1e41",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "En lui disant ce qui lui fera plaisir : raconte-lui comme le palais d'{{r3}} est magnifique, qu'il y a plein de bonnes choses à manger.",
+          "ton": "doucement"
+        },
+        {
+          "id": "a1e42",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e43",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne de l'autre côté, pour trouver quelqu'un d'autre."
+        },
+        {
+          "id": "a1e44",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e45",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Mais comment l'amener au fond de la mer ?",
+          "ton": "bien embarrassée"
+        },
+        {
+          "id": "a1e46",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Tu le porteras sur ton dos.",
+          "ton": "sèchement"
+        },
+        {
+          "id": "a1e47",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Il doit être bien lourd.",
+          "ton": "en gémissant"
+        },
+        {
+          "id": "a1e48",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Tant pis. Il faut supporter. C'est ton devoir.",
+          "ton": "sévèrement"
+        },
+        {
+          "id": "a1e49",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oui, oui, je vois.",
+          "ton": "très vite"
+        },
+        {
+          "id": "a1e50",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e51",
+          "type": "conteur",
+          "texte": "Alors {{r1}}, en flottant mollement dans la mer, nagea vers l'île aux Singes."
+        },
+        {
+          "id": "a1e52",
+          "type": "didascalie",
+          "texte": "{{r1}} glisse tout doucement sur la mer bleue, vers le bout droit de la table."
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Monsieur le singe, bonjour !",
+      "resume": "Sur l'île aux Singes, {{r1}} trouve {{r2}} dans son pin et lui vante le palais sous la mer ; {{r2}} descend, et monte sur son dos.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "Bientôt, une île apparut."
+        },
+        {
+          "id": "a2e2",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ce doit être l'île aux Singes !",
+          "ton": "pour elle-même"
+        },
+        {
+          "id": "a2e3",
+          "type": "note_marionnettiste",
+          "texte": "Les enfants reconnaissent « la figure toute rouge et le derrière tout rouge » : laissez-les le dire avec vous."
+        },
+        {
+          "id": "a2e4",
+          "type": "conteur",
+          "texte": "Elle monta sur la terre et regarda partout : sur une branche de pin, était assis à califourchon quelque chose qui avait la figure toute rouge et le derrière tout rouge."
+        },
+        {
+          "id": "a2e5",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e6",
+          "type": "didascalie",
+          "texte": "{{r2}} se pose tout en haut du pin et se balance d'un côté à l'autre."
+        },
+        {
+          "id": "a2e7",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ah ah, ça doit être un singe.",
+          "ton": "tout bas"
+        },
+        {
+          "id": "a2e8",
+          "type": "didascalie",
+          "texte": "{{r1}} s'approche doucement du pin, l'air de rien."
+        },
+        {
+          "id": "a2e9",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Monsieur le singe, monsieur le singe, bonjour ! Il fait beau aujourd'hui.",
+          "ton": "d'une voix toute sucrée"
+        },
+        {
+          "id": "a2e10",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Oui, il fait beau. Mais toi, je ne t'ai jamais vue : d'où viens-tu ?",
+          "ton": "curieux"
+        },
+        {
+          "id": "a2e11",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Moi, je suis {{r1}}, la méduse, sujette du roi dragon. Je suis venue me promener par ici sans y penser. C'est vrai que l'île aux Singes est un bel endroit.",
+          "ton": "l'air de rien"
+        },
+        {
+          "id": "a2e12",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Oh oui, c'est un bel endroit. Regarde toutes ces châtaignes et ces kakis : il n'y a sûrement pas d'endroit plus beau ailleurs.",
+          "ton": "tout content"
+        },
+        {
+          "id": "a2e13",
+          "type": "conteur",
+          "texte": "En disant cela, {{r2}}, le singe, tendit son petit nez le plus haut possible, l'air très fier."
+        },
+        {
+          "id": "a2e14",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ha ha ! Bien sûr que l'île aux Singes est un bel endroit, mais ça ne se compare pas au palais du dragon. Tout est fait d'or, d'argent et de corail, et dans le jardin, toute l'année, il pousse des châtaignes, des kakis et toutes sortes de fruits.",
+          "ton": "en éclatant de rire, exprès"
+        },
+        {
+          "id": "a2e15",
+          "type": "didascalie",
+          "texte": "{{r2}} se penche vers {{r1}}, de plus en plus, puis descend du pin jusqu'à elle."
+        },
+        {
+          "id": "a2e16",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Hmm, si c'est vraiment un si bel endroit, j'aimerais bien y aller aussi.",
+          "ton": "lentement"
+        },
+        {
+          "id": "a2e17",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ça marche !",
+          "ton": "tout bas, pour elle-même"
+        },
+        {
+          "id": "a2e18",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Chut ! Ne dites pas à {{r2}} pourquoi je suis venue le chercher !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e19",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Si tu veux venir, je t'y emmène.",
+          "ton": "gentiment"
+        },
+        {
+          "id": "a2e20",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Mais je ne sais pas nager.",
+          "ton": "un peu inquiet"
+        },
+        {
+          "id": "a2e21",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Pas de problème, je te porterai sur mon dos. Alors, allons-y, allons-y !",
+          "ton": "très vite"
+        },
+        {
+          "id": "a2e22",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Vraiment ? Alors, je compte sur toi.",
+          "ton": "tout content"
+        },
+        {
+          "id": "a2e23",
+          "type": "conteur",
+          "texte": "Et {{r2}} monta sur le dos de {{r1}}."
+        },
+        {
+          "id": "a2e24",
+          "type": "note_marionnettiste",
+          "texte": "Rapprochez vos deux mains : {{r2}} se pose sur le dos de {{r1}}, et ils avancent ensemble."
+        },
+        {
+          "id": "a2e25",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r2}} glissent ensemble sur la mer, vers le palais."
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Tu as un foie, toi ?",
+      "resume": "En pleine mer, {{r1}} bavarde tant qu'elle révèle à {{r2}} qu'on veut son foie ; {{r2}}, sans s'affoler, prétend l'avoir laissé sécher sur son pin, et {{r1}} le ramène à l'île.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Madame la méduse, madame la méduse, c'est encore loin, le palais du dragon ?",
+          "ton": "d'une petite voix"
+        },
+        {
+          "id": "a3e2",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oui, il y a encore un bout de chemin."
+        },
+        {
+          "id": "a3e3",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Dites-le avec moi, en soufflant bien fort !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e4",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Qu'est-ce que c'est long !",
+          "ton": "en soufflant"
+        },
+        {
+          "id": "a3e5",
+          "type": "didascalie",
+          "texte": "{{r2}} se tortille sur le dos de {{r1}}, d'un côté puis de l'autre."
+        },
+        {
+          "id": "a3e6",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Allons, reste tranquille et tiens-toi bien. Si tu t'agites, tu vas tomber dans la mer."
+        },
+        {
+          "id": "a3e7",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "J'ai peur. Tiens-moi bien !",
+          "ton": "en tremblant"
+        },
+        {
+          "id": "a3e8",
+          "type": "conteur",
+          "texte": "Et en bavardant ainsi, {{r1}}, qui n'était pas très maligne mais très bavarde, ne put pas se retenir, et demanda :"
+        },
+        {
+          "id": "a3e9",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Dis donc, monsieur le singe, tu as un foie, toi ?"
+        },
+        {
+          "id": "a3e10",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Bien sûr que j'en ai un. Mais pourquoi me demandes-tu ça ?",
+          "ton": "étonné"
+        },
+        {
+          "id": "a3e11",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Parce que ce foie, c'est l'affaire la plus importante.",
+          "ton": "d'un air important"
+        },
+        {
+          "id": "a3e12",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Qu'est-ce qui est important ?"
+        },
+        {
+          "id": "a3e13",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Rien, rien, ce sont nos affaires.",
+          "ton": "d'un air mystérieux"
+        },
+        {
+          "id": "a3e14",
+          "type": "note_marionnettiste",
+          "texte": "Les enfants voient venir la bêtise : s'ils crient à {{r1}} de se taire, laissez-les faire, puis continuez sans y répondre."
+        },
+        {
+          "id": "a3e15",
+          "type": "didascalie",
+          "texte": "{{r1}} se dandine de droite à gauche, pour le taquiner."
+        },
+        {
+          "id": "a3e16",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Enfin, dis-moi pourquoi ! Allez, dis-le !",
+          "ton": "impatient"
+        },
+        {
+          "id": "a3e17",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Alors, je le dis ou je ne le dis pas ? Voyons…",
+          "ton": "en chantonnant"
+        },
+        {
+          "id": "a3e18",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Pourquoi es-tu si méchante, à me faire languir ? Raconte-moi !"
+        },
+        {
+          "id": "a3e19",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Bon, je vais te le dire. La Reine est malade, elle est mourante. Et on dit que si on ne lui donne pas le foie d'un singe, elle ne pourra pas guérir : alors je suis venue te chercher.",
+          "ton": "toute fière de savoir"
+        },
+        {
+          "id": "a3e20",
+          "type": "conteur",
+          "texte": "En entendant cela, {{r2}} fut terrifié et se mit à trembler. Mais il comprit qu'au milieu de la mer, il ne servait à rien de s'agiter ; alors il prit exprès un air tranquille :"
+        },
+        {
+          "id": "a3e21",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Quoi, ce n'est que ça ? Si mon foie peut guérir la Reine, je le lui donne volontiers. Mais pourquoi ne me l'as-tu pas dit dès le début ? J'ai justement laissé mon foie sur l'île en partant.",
+          "ton": "très tranquillement"
+        },
+        {
+          "id": "a3e22",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Hein ? Tu as laissé ton foie ?",
+          "ton": "en sursautant"
+        },
+        {
+          "id": "a3e23",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Mais oui, il sèche sur une branche du pin où j'étais tout à l'heure. Un foie, vois-tu, il faut le sortir de temps en temps pour le laver, sinon il se salit.",
+          "ton": "très sérieusement"
+        },
+        {
+          "id": "a3e24",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Chut ! Mon foie est dans mon ventre ! Ne le dites pas à {{r1}} !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e25",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oh là là, quelle catastrophe ! Sans le foie, ça ne sert à rien de t'emmener au palais du dragon.",
+          "ton": "toute dépitée"
+        },
+        {
+          "id": "a3e26",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Alors, même si c'est pénible, ramène-moi à l'île. J'irai chercher mon foie.",
+          "ton": "l'air de rien"
+        },
+        {
+          "id": "a3e27",
+          "type": "conteur",
+          "texte": "Alors {{r1}}, en ronchonnant, reporta {{r2}} sur son dos jusqu'à l'île."
+        },
+        {
+          "id": "a3e28",
+          "type": "didascalie",
+          "texte": "{{r1}} fait demi-tour et glisse sur la mer, jusqu'à l'île."
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "numero": 4,
+      "titre": "Reviens avant-hier !",
+      "resume": "{{r2}} file en haut de son pin et se moque de {{r1}}. Au palais, {{r3}}, furieux, la fait punir : les poissons la tapent tant qu'elle devient toute molle, sans un os.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a4e1",
+          "type": "note_marionnettiste",
+          "texte": "Pendant la phrase qui suit, {{r2}} quitte d'un bond le dos de {{r1}} et file tout en haut du pin."
+        },
+        {
+          "id": "a4e2",
+          "type": "conteur",
+          "texte": "Arrivé à l'île aux Singes, {{r2}} sauta vite du dos de {{r1}}, grimpa lestement dans l'arbre, et ne redescendit plus jamais."
+        },
+        {
+          "id": "a4e3",
+          "type": "didascalie",
+          "texte": "{{r1}} attend au pied du pin, en se dandinant d'impatience."
+        },
+        {
+          "id": "a4e4",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Monsieur le singe, monsieur le singe, qu'est-ce que tu fais si longtemps ? Descends vite avec ton foie !",
+          "ton": "impatiente"
+        },
+        {
+          "id": "a4e5",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Riez avec moi, les enfants : ha ha ha !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e6",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Jamais de la vie ! Reviens avant-hier ! Merci pour la promenade !",
+          "ton": "en riant"
+        },
+        {
+          "id": "a4e7",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Comment ? Et ta promesse d'aller chercher ton foie ?",
+          "ton": "toute vexée"
+        },
+        {
+          "id": "a4e8",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Méduse idiote ! Qui irait apporter son propre foie ? Si on me prend mon foie, je perds la vie. Désolé, désolé !",
+          "ton": "en se moquant"
+        },
+        {
+          "id": "a4e9",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Si tu le veux tant, monte donc le chercher ! Ah, tu ne peux pas monter, hein ? Hou hou !",
+          "ton": "en se moquant de plus belle"
+        },
+        {
+          "id": "a4e10",
+          "type": "note_marionnettiste",
+          "texte": "Pendant la phrase qui suit, {{r2}} se retourne et se tape trois fois le derrière contre le haut du pin."
+        },
+        {
+          "id": "a4e11",
+          "type": "conteur",
+          "texte": "Et il se tapa trois fois sur son derrière rouge."
+        },
+        {
+          "id": "a4e12",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e13",
+          "type": "conteur",
+          "texte": "On avait beau se moquer d'elle, {{r1}} ne pouvait rien faire : les larmes aux yeux, elle rentra toute penaude au palais du dragon."
+        },
+        {
+          "id": "a4e14",
+          "type": "didascalie",
+          "texte": "{{r1}} glisse sur la mer, tout doucement, la tête basse, jusqu'au palais."
+        },
+        {
+          "id": "a4e15",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e16",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Et le singe ? Et le singe ? Et le foie ? Et le foie ?",
+          "ton": "très pressé"
+        },
+        {
+          "id": "a4e17",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je l'avais si bien trompé pour l'emmener, mais il m'a trompée à son tour, et je l'ai laissé s'échapper.",
+          "ton": "toute penaude, tout bas"
+        },
+        {
+          "id": "a4e18",
+          "type": "conteur",
+          "texte": "{{r3}} devint tout rouge de colère :"
+        },
+        {
+          "id": "a4e19",
+          "type": "didascalie",
+          "texte": "{{r3}} se dresse d'un coup, de toute sa hauteur, et tremble de colère."
+        },
+        {
+          "id": "a4e20",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Imbécile ! Idiote ! Sotte ! Tous, pour la punir, tapez-la jusqu'à ce qu'il ne lui reste plus un os !",
+          "ton": "en hurlant"
+        },
+        {
+          "id": "a4e21",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e22",
+          "type": "conteur",
+          "texte": "Alors {{r5}}, la dorade, la limande, la sole, le grondin et toutes sortes de poissons se jetèrent sur {{r1}} qui s'enfuyait, l'attrapèrent, la mirent au milieu."
+        },
+        {
+          "id": "a4e23",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e24",
+          "type": "didascalie",
+          "texte": "{{r1}} essaie de s'enfuir, mais {{r5}} lui barre le chemin, à droite, puis à gauche."
+        },
+        {
+          "id": "a4e25",
+          "type": "adresse_public",
+          "marionnetteId": "r5",
+          "texte": "Criez avec nous, tous les poissons !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e26",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Bavarde ! Prétentieuse ! Nigaude !",
+          "ton": "en criant très fort"
+        },
+        {
+          "id": "a4e27",
+          "type": "didascalie",
+          "texte": "{{r5}} tape {{r1}} de la tête, encore et encore, pendant que vous frappez sur la table : boum ! boum ! boum !"
+        },
+        {
+          "id": "a4e28",
+          "type": "conteur",
+          "texte": "Et ils la tapèrent tant et tant qu'à la fin tous les os de son corps devinrent tout mous, et elle devint la méduse d'aujourd'hui, sans yeux, sans nez, toute molle et sans un os."
+        },
+        {
+          "id": "a4e29",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e30",
+          "type": "didascalie",
+          "texte": "{{r1}} s'affale sur la table, toute molle, et ne bouge plus."
+        },
+        {
+          "id": "a4e31",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "ja-meduse-messagere",
+    "synopsis": {
+      "accroche": "{{r1}}, la méduse, est envoyée chercher un singe pour guérir la Reine du palais sous la mer ; mais elle bavarde trop, et {{r2}}, le singe, la trompe à son tour.",
+      "resume": [
+        "Au fond de la mer, la Reine est très malade ; {{r4}}, la pieuvre, dit qu'il lui faut le foie d'un singe.",
+        "{{r5}}, la dorade, propose d'envoyer {{r1}}, la méduse, qui en ce temps-là avait des os et quatre pattes.",
+        "Sur l'île aux Singes, {{r1}} vante à {{r2}} le palais du roi dragon, et {{r2}} monte sur son dos.",
+        "En pleine mer, {{r1}} ne peut pas se retenir et lui révèle qu'on veut son foie ; {{r2}} prétend l'avoir laissé sécher sur son pin, et se fait ramener à l'île.",
+        "{{r2}} grimpe dans son arbre et se moque d'elle ; au palais, {{r3}} la fait punir, et les poissons la tapent tant qu'elle devient la méduse d'aujourd'hui, toute molle et sans un os."
+      ]
+    },
+    "transposition": {
+      "texte": "Il était une fois, il y a bien longtemps, au fond de la mer, {{r3}}, le roi dragon, et la Reine, qui habitaient un magnifique palais. Tous les poissons de la mer, craignant la puissance d'{{r3}}, étaient devenus ses sujets.\n\nUn jour, la Reine tomba très gravement malade. On essaya de tout, on lui donna tous les remèdes, mais aucun ne faisait effet. Peu à peu, elle s'affaiblissait, et son état devint si grave qu'on ne savait pas si elle passerait le lendemain.\n\n{{r3}} s'inquiétait terriblement. Il réunit tout le monde et demanda :\n\n— Que faut-il donc faire ?\n\nTous se regardèrent en disant « Euh… ».\n\nAlors, de tout en bas, {{r4}}, la pieuvre, sortit en ondulant sur ses huit bras et dit, timidement :\n\n— Moi qui vais souvent sur la terre, et qui entends parler les hommes et toutes sortes de bêtes, on m'a dit que dans ces cas-là, le meilleur remède, c'est le foie d'un singe.\n\n— Où en trouve-t-on ? demanda {{r3}}.\n\n— Au sud d'ici, il y a une île qu'on appelle l'île aux Singes. Il y a là beaucoup de singes. Si vous envoyez quelqu'un en attraper un, ce sera parfait.\n\n— Je vois.\n\nOn se demanda alors qui envoyer. Et {{r5}}, la dorade, dit :\n\n— Il faudrait envoyer {{r1}}, la méduse. Elle n'est pas bien jolie, mais elle a quatre pattes et peut marcher librement sur la terre.\n\n(Car en ce temps-là, la méduse avait des os et des pattes, comme tout le monde.)\n\nOn fit donc venir {{r1}}, qui partit en mission. Mais comme ce n'était pas un poisson très futé, même après les ordres d'{{r3}}, elle ne savait pas du tout comment s'y prendre. Elle attrapa tout le monde, l'un après l'autre, pour poser des questions :\n\n— À quoi ça ressemble, un singe ?\n\n— Ça a la figure toute rouge, le derrière tout rouge, ça grimpe souvent dans les arbres, et ça adore les châtaignes et les kakis.\n\n— Comment attraper un singe ?\n\n— En le trompant habilement.\n\n— Comment le tromper ?\n\n— En lui disant ce qui lui fera plaisir : raconte-lui comme le palais d'{{r3}} est magnifique, qu'il y a plein de bonnes choses à manger, pour qu'il ait envie de venir.\n\n— Mais comment l'amener au fond de la mer ?\n\n— Tu le porteras sur ton dos.\n\n— Il doit être bien lourd.\n\n— Tant pis. Il faut supporter. C'est ton devoir.\n\n— Oui, oui, je vois.\n\nAlors {{r1}}, en flottant mollement dans la mer, nagea vers l'île aux Singes.\n\nBientôt, une île apparut. {{r1}} se dit : « Ce doit être l'île aux Singes », et nagea jusqu'à l'île. Elle monta sur la terre et regarda partout : sur une branche de pin, était assis à califourchon quelque chose qui avait la figure toute rouge et le derrière tout rouge. {{r1}} se dit : « Ah ah, ça doit être un singe », et, l'air de rien, s'approcha doucement :\n\n— Monsieur le singe, monsieur le singe, bonjour ! Il fait beau aujourd'hui.\n\n— Oui, il fait beau. Mais toi, je ne t'ai jamais vue : d'où viens-tu ?\n\n— Moi, je suis {{r1}}, la méduse, sujette du roi dragon. Il faisait si beau aujourd'hui que je suis venue me promener par ici sans y penser. C'est vrai que l'île aux Singes est un bel endroit.\n\n— Oh oui, c'est un bel endroit. Regarde ce paysage, et toutes ces châtaignes et ces kakis : il n'y a sûrement pas d'endroit plus beau ailleurs.\n\nEn disant cela, {{r2}}, le singe, tendit son petit nez le plus haut possible, l'air très fier ; alors {{r1}} éclata de rire exprès, comme si c'était la chose la plus drôle du monde.\n\n— Ha ha ! Bien sûr que l'île aux Singes est un bel endroit, mais ça ne se compare pas au palais du dragon. Comme tu ne connais pas le palais du dragon, tu te vantes comme ça ; j'aimerais bien te le montrer une fois. Tout est fait d'or, d'argent et de corail, et dans le jardin, toute l'année, il pousse des châtaignes, des kakis et toutes sortes de fruits, plus qu'on n'en peut cueillir.\n\nÀ ces mots, {{r2}} se pencha de plus en plus. Et finalement, il descendit de l'arbre :\n\n— Hmm, si c'est vraiment un si bel endroit, j'aimerais bien y aller aussi.\n\n{{r1}} se dit en elle-même : « Ça marche ! »\n\n— Si tu veux venir, je t'y emmène.\n\n— Mais je ne sais pas nager.\n\n— Pas de problème, je te porterai sur mon dos. Alors, allons-y, allons-y !\n\n— Vraiment ? Alors, je compte sur toi.\n\nEt {{r2}} monta sur le dos de {{r1}}. Avec {{r2}} sur son dos, {{r1}} flotta de nouveau mollement sur la mer, et cette fois rentra vers le nord. Au bout d'un moment, {{r2}} dit :\n\n— Madame la méduse, madame la méduse, c'est encore loin, le palais du dragon ?\n\n— Oui, il y a encore un bout de chemin.\n\n— Qu'est-ce que c'est long !\n\n— Allons, reste tranquille et tiens-toi bien. Si tu t'agites, tu vas tomber dans la mer.\n\n— J'ai peur. Tiens-moi bien !\n\nEt en bavardant ainsi, {{r1}}, qui n'était pas très maligne mais très bavarde, ne put pas se retenir, et demanda :\n\n— Dis donc, monsieur le singe, tu as un foie, toi ?\n\n{{r2}} trouva étrange qu'on lui demande tout à coup une chose pareille :\n\n— Bien sûr que j'en ai un. Mais pourquoi me demandes-tu ça ?\n\n— Parce que ce foie, c'est l'affaire la plus importante.\n\n— Qu'est-ce qui est important ?\n\n— Rien, rien, ce sont nos affaires.\n\n{{r2}} s'inquiétait de plus en plus, et voulait absolument savoir. Ça amusait d'autant plus {{r1}}, qui, emportée, se mit à le taquiner. {{r2}}, impatient, dit :\n\n— Enfin, dis-moi pourquoi ! Allez, dis-le !\n\n— Alors, je le dis ou je ne le dis pas ? Voyons…\n\n— Pourquoi es-tu si méchante, à me faire languir ? Raconte-moi !\n\n— Bon, je vais te le dire. En vérité, depuis quelque temps, la Reine est malade, elle est mourante. Et on dit que si on ne lui donne pas le foie d'un singe, elle ne pourra pas guérir : alors je suis venue te chercher. C'est pour ça que l'affaire importante, c'est le foie.\n\nEn entendant cela, {{r2}} fut terrifié et se mit à trembler. Mais il comprit qu'au milieu de la mer, il ne servait à rien de s'agiter ; alors il prit exprès un air tranquille :\n\n— Quoi, ce n'est que ça ? Si mon foie peut guérir la Reine, je le lui donne volontiers. Mais pourquoi ne me l'as-tu pas dit dès le début ? Comme je n'en savais rien, j'ai justement laissé mon foie sur l'île en partant.\n\n— Hein ? Tu as laissé ton foie ?\n\n— Mais oui, il sèche sur une branche du pin où j'étais tout à l'heure. Un foie, vois-tu, il faut le sortir de temps en temps pour le laver, sinon il se salit.\n\n{{r2}} disait cela avec un air si sérieux que {{r1}} fut toute dépitée :\n\n— Oh là là, quelle catastrophe ! Sans le foie, ça ne sert à rien de t'emmener au palais du dragon.\n\n— Oh, moi aussi, j'aurais l'air bien bête d'arriver au palais du dragon sans cadeau. Alors, même si c'est pénible, ramène-moi à l'île. J'irai chercher mon foie.\n\nAlors {{r1}}, en ronchonnant, reporta {{r2}} sur son dos jusqu'à l'île.\n\nArrivé à l'île aux Singes, {{r2}} sauta vite du dos de {{r1}}, grimpa lestement dans l'arbre, et ne redescendit plus jamais.\n\n— Monsieur le singe, monsieur le singe, qu'est-ce que tu fais si longtemps ? Descends vite avec ton foie ! dit {{r1}}, impatiente.\n\nAlors {{r2}}, en haut de l'arbre, se mit à rire :\n\n— Jamais de la vie ! Reviens avant-hier ! Merci pour la promenade !\n\n{{r1}} fit la moue :\n\n— Comment ? Et ta promesse d'aller chercher ton foie ?\n\n— Méduse idiote ! Qui irait apporter son propre foie ? Si on me prend mon foie, je perds la vie. Désolé, désolé !\n\nEt du haut de l'arbre, {{r2}} lui fit une grimace :\n\n— Si tu le veux tant, monte donc le chercher ! Ah, tu ne peux pas monter, hein ? Hou hou !\n\nEt il se tapa trois fois sur son derrière rouge.\n\nOn avait beau se moquer d'elle, {{r1}} ne pouvait rien faire : les larmes aux yeux, elle rentra toute penaude au palais du dragon.\n\nAu palais, {{r3}} et tous les autres l'attendaient avec impatience :\n\n— Et le singe ? Et le singe ? Et le foie ? Et le foie ?\n\nIls l'entourèrent en foule en la pressant de questions. N'ayant pas le choix, {{r1}} raconta comment, après avoir si bien trompé {{r2}} pour l'emmener, elle avait été trompée à son tour et l'avait laissé s'échapper. {{r3}} devint tout rouge de colère :\n\n— Imbécile ! Idiote ! Sotte ! Tous, pour la punir, tapez-la jusqu'à ce qu'il ne lui reste plus un os !\n\nAlors {{r5}}, la dorade, la limande, la sole, le grondin et toutes sortes de poissons se jetèrent sur {{r1}} qui s'enfuyait, l'attrapèrent, la mirent au milieu, et en criant tous ensemble « Bavarde ! Prétentieuse ! Nigaude ! », la tapèrent tant et tant qu'à la fin tous les os de son corps devinrent tout mous, et elle devint la méduse d'aujourd'hui, sans yeux, sans nez, toute molle et sans un os.",
+      "changements": [
+        "Le roi dragon, la pieuvre et la dorade deviennent des marionnettes : les questions que la méduse pose à « tout le monde » sont partagées entre {{r4}} et {{r5}}, le « Et le singe ? Et le foie ? » de tout le palais va à {{r3}}, le « Bavarde ! Prétentieuse ! Nigaude ! » de tous les poissons à {{r5}}, et le récit que la méduse fait au palais, au style indirect dans le conte, devient une réplique directe (règle du 2026-09-28 : le plus de dialogue possible entre marionnettes).",
+        "Une réplique simple est ajoutée : l'ordre d'{{r3}} à {{r1}} (« va à l'île aux Singes, et ramène-moi un singe ! »), tiré des « ordres du Roi-Dragon ».",
+        "« La vieille pieuvre » devient « la pieuvre » (l'adjectif ne s'accorderait pas devant toutes les espèces : « le vieux ours »), « la Reine du Dragon » devient « la Reine », et « le palais du Dragon », à l'arrivée, « le palais ».",
+        "La Reine malade n'a aucune réplique : elle reste dans la narration. Si la peluche qui joue {{r3}} est une reine, la Reine malade devient le Roi."
+      ]
+    }
+  },
+  "dureeEstimeeSecondes": 800,
+  "interactionsOrdonnees": [
+    "a1e37",
+    "a4e25",
+    "a4e5",
+    "a3e24",
+    "a3e3",
+    "a1e11",
+    "a2e18"
+  ]
+}

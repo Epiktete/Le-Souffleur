@@ -1,0 +1,397 @@
+Marionnettes du parent :
+- Doudou Lapin
+  Traits : inquiet, serviable
+  Apparence : Un lapin en tissu beige, une oreille recousue et qui retombe.
+- Renard Rusé
+  Traits : malin, vaniteux
+  Apparence : Un renard roux au museau pointu, la queue un peu pelée.
+- Ourse Gourmande
+  Traits : gourmande, franche
+  Apparence : Une grosse ourse en peluche marron, très douce, assez lourde.
+
+Réglages du spectacle :
+- durée visée : 5 minutes, soit environ 500 mots dits
+- âge du public : 6 ans
+- marionnettistes : 1, donc 2 mains
+- interaction avec le public : quelques moments, bien choisis
+
+LE CONTE D’ORIGINE : Le Paysan, l’Ours et le Renard — Russie, Alexandre Afanassiev, Contes populaires russes, 1855-1863 (n° 23)
+
+Fiche du conte :
+**Essence.** Le paysan partage la récolte avec l'ours : « à toi les fanes, à moi les racines » — et il plante des navets ; l'ours découvre qu'il a eu la mauvaise moitié, et il faut l'aide de la renarde pour s'en sortir.
+
+**Trame.**
+1. L'ours menace le paysan ; celui-ci propose de partager la récolte : les fanes pour l'ours, les racines pour lui.
+2. L'ours reçoit une charrette de fanes ; il goûte un navet et comprend qu'il a été trompé.
+3. Il interdit au paysan d'entrer dans la forêt ; le paysan n'a bientôt plus de bois.
+4. La renarde fait croire à une grande chasse ; l'ours, effrayé, supplie le paysan de le cacher sous le bois dans son traîneau.
+5. La renarde réclame sa récompense ; mal payée, elle se dispute avec sa propre queue.
+
+**À adapter.** Supprimer les coups de hache : l'ours caché sous les bûches est emmené loin et relâché, penaud. La première partie (le partage) se suffit à elle-même et peut se répéter : l'année suivante, l'ours demande les racines… et le paysan sème du blé. La dispute de la renarde avec ses yeux, ses oreilles et sa queue est un numéro solo délicieux.
+
+TEXTE INTÉGRAL DU CONTE (environ 659 mots) :
+"""
+Un paysan labourait son champ. L'ours vint le trouver et lui dit :
+
+— Paysan, je vais te briser !
+
+— Non, laisse-moi tranquille. Je suis en train de semer des navets : je prendrai pour moi seulement les racines, et toi, je te donnerai les fanes.
+
+— Soit, dit l'ours. Mais si tu me trompes, ne viens plus jamais chercher du bois dans ma forêt !
+
+Il dit, et s'en alla dans la chênaie. Le temps passa. Le paysan arrache ses navets, et voilà l'ours qui sort de la chênaie.
+
+— Eh bien, paysan, partageons !
+
+— D'accord, mon petit ours ! Je vais t'apporter les fanes.
+
+Et il lui apporta une charrette pleine de fanes. L'ours fut content de ce partage honnête.
+
+Puis le paysan chargea ses navets sur la charrette et partit les vendre à la ville. Et voilà l'ours qui arrive en face :
+
+— Paysan, où vas-tu ?
+
+— Eh bien, mon petit ours, je vais en ville vendre les racines.
+
+— Fais-moi goûter comment c'est, une racine !
+
+Le paysan lui donna un navet. Dès que l'ours l'eut mangé :
+
+— Aaah ! rugit-il. Tu m'as trompé, paysan ! Tes racines sont sucrées. Maintenant, ne viens plus chercher du bois chez moi, ou je t'écorche !
+
+Le paysan revint de la ville, et il avait peur d'aller dans la forêt. Il brûla ses étagères, ses bancs, ses tonneaux ; mais à la fin, il n'y avait plus rien à faire, il fallait aller dans la forêt.
+
+Il y entre tout doucement. Et voilà que surgit de nulle part une renarde qui accourt.
+
+— Qu'as-tu, petit paysan, lui demande-t-elle, à avancer si doucement ?
+
+— J'ai peur de l'ours. Il est fâché contre moi, il a promis de m'écorcher.
+
+— N'aie pas peur de l'ours. Coupe ton bois, et moi je vais faire du bruit comme une meute de chasse. Si l'ours te demande ce que c'est, dis-lui : « On chasse les loups et les ours. »
+
+Le paysan se mit à couper du bois. Tout à coup, voilà l'ours qui accourt et crie au paysan :
+
+— Hé, le vieux ! Qu'est-ce que c'est que ces cris ?
+
+Le paysan répond :
+
+— On chasse les loups et les ours.
+
+— Oh, petit paysan, mets-moi dans ton traîneau, couvre-moi de bûches et attache-moi avec une corde : peut-être qu'on croira que c'est un tronc d'arbre.
+
+Le paysan le mit dans le traîneau, l'attacha avec une corde, et se mit à lui taper sur la tête avec le dos de sa hache, jusqu'à ce que l'ours ne bouge plus du tout.
+
+La renarde accourt et dit :
+
+— Où est l'ours ?
+
+— Le voilà, il est fini !
+
+— Eh bien, petit paysan, maintenant il faut me régaler.
+
+— Volontiers, petite renarde ! Viens chez moi, je vais te régaler.
+
+Le paysan avance en traîneau, et la renarde court devant. Quand il approcha de sa maison, le paysan siffla ses chiens et les lança sur la renarde. La renarde fila vers la forêt et se glissa dans son terrier. Cachée dans le terrier, elle demande :
+
+— Oh, mes petits yeux, que regardiez-vous pendant que je courais ?
+
+— Oh, petite renarde, nous regardions pour que tu ne trébuches pas.
+
+— Et vous, mes petites oreilles, que faisiez-vous ?
+
+— Nous écoutions si les chiens étaient encore loin.
+
+— Et toi, ma queue, que faisais-tu ?
+
+— Moi, dit la queue, je me suis tout le temps emmêlée dans tes pattes, pour que tu t'embrouilles, que tu tombes, et que tu finisses dans les dents des chiens.
+
+— Ah, canaille ! Alors que les chiens te mangent !
+
+Et, sortant sa queue du terrier, la renarde cria :
+
+— Mangez, les chiens, la queue de la renarde !
+
+Les chiens attrapèrent la queue et tirèrent la renarde dehors. C'est souvent comme ça : à cause de la queue, on perd la tête.
+"""
+
+LE CONTE, TRANSPOSÉ POUR LES MARIONNETTES DU PARENT : Le Paysan, l’Ours et le Renard — Russie, Alexandre Afanassiev, Contes populaires russes, 1855-1863 (n° 23)
+C’est le texte de référence : les répliques y sont prises mot pour mot.
+
+Fiche du conte :
+**Essence.** Le paysan partage la récolte avec l'ours : « à toi les fanes, à moi les racines » — et il plante des navets ; l'ours découvre qu'il a eu la mauvaise moitié, et il faut l'aide de la renarde pour s'en sortir.
+
+**Trame.**
+1. L'ours menace le paysan ; celui-ci propose de partager la récolte : les fanes pour l'ours, les racines pour lui.
+2. L'ours reçoit une charrette de fanes ; il goûte un navet et comprend qu'il a été trompé.
+3. Il interdit au paysan d'entrer dans la forêt ; le paysan n'a bientôt plus de bois.
+4. La renarde fait croire à une grande chasse ; l'ours, effrayé, supplie le paysan de le cacher sous le bois dans son traîneau.
+5. La renarde réclame sa récompense ; mal payée, elle se dispute avec sa propre queue.
+
+**À adapter.** Supprimer les coups de hache : l'ours caché sous les bûches est emmené loin et relâché, penaud. La première partie (le partage) se suffit à elle-même et peut se répéter : l'année suivante, l'ours demande les racines… et le paysan sème du blé. La dispute de la renarde avec ses yeux, ses oreilles et sa queue est un numéro solo délicieux.
+Retouches déjà faites à la transposition :
+- La scène où Doudou Lapin assomme Ourse Gourmande à coups de hache est remplacée : il l'emmène loin en traîneau puis la détache et la laisse repartir, penaude, sans coup porté.
+- En conséquence, la réplique « Le voilà, il est fini ! » devient « Elle est loin maintenant, on ne la reverra pas de sitôt ! », pour rester cohérente avec une ourse relâchée et non assommée.
+- Le mot « ours » (masculin) est remplacé par « ourse » partout où il désignait l'espèce, y compris dans la formule répétée « on chasse les loups et les ours », pour respecter l'espèce féminine de la marionnette.
+
+TEXTE TRANSPOSÉ (environ 673 mots) :
+"""
+Doudou Lapin labourait son champ. Ourse Gourmande vint le trouver et lui dit :
+
+— Doudou Lapin, je vais te briser !
+
+— Non, laisse-moi tranquille. Je suis en train de semer des navets : je prendrai pour moi seulement les racines, et toi, je te donnerai les fanes.
+
+— Soit, dit Ourse Gourmande. Mais si tu me trompes, ne viens plus jamais chercher du bois dans ma forêt !
+
+Elle dit, et s'en alla dans la chênaie. Le temps passa. Doudou Lapin arrache ses navets, et voilà Ourse Gourmande qui sort de la chênaie.
+
+— Eh bien, Doudou Lapin, partageons !
+
+— D'accord, Ourse Gourmande ! Je vais t'apporter les fanes.
+
+Et il lui apporta une charrette pleine de fanes. Ourse Gourmande fut contente de ce partage honnête.
+
+Puis Doudou Lapin chargea ses navets sur la charrette et partit les vendre à la ville. Et voilà Ourse Gourmande qui arrive en face :
+
+— Doudou Lapin, où vas-tu ?
+
+— Eh bien, Ourse Gourmande, je vais en ville vendre les racines.
+
+— Fais-moi goûter comment c'est, une racine !
+
+Doudou Lapin lui donna un navet. Dès qu'Ourse Gourmande l'eut mangé :
+
+— Aaah ! rugit-elle. Tu m'as trompé, Doudou Lapin ! Tes racines sont sucrées. Maintenant, ne viens plus chercher du bois chez moi, ou je t'écorche !
+
+Doudou Lapin revint de la ville, et il avait peur d'aller dans la forêt. Il brûla ses étagères, ses bancs, ses tonneaux ; mais à la fin, il n'y avait plus rien à faire, il fallait aller dans la forêt.
+
+Il y entre tout doucement. Et voilà que surgit de nulle part Renard Rusé qui accourt.
+
+— Qu'as-tu, Doudou Lapin, lui demande-t-elle, à avancer si doucement ?
+
+— J'ai peur d'Ourse Gourmande. Elle est fâchée contre moi, elle a promis de m'écorcher.
+
+— N'aie pas peur d'Ourse Gourmande. Coupe ton bois, et moi je vais faire du bruit comme une meute de chasse. Si Ourse Gourmande te demande ce que c'est, dis-lui : « On chasse les loups et les ourses. »
+
+Doudou Lapin se mit à couper du bois. Tout à coup, voilà Ourse Gourmande qui accourt et crie à Doudou Lapin :
+
+— Hé, le vieux ! Qu'est-ce que c'est que ces cris ?
+
+Doudou Lapin répond :
+
+— On chasse les loups et les ourses.
+
+— Oh, Doudou Lapin, mets-moi dans ton traîneau, couvre-moi de bûches et attache-moi avec une corde : peut-être qu'on croira que c'est un tronc d'arbre.
+
+Doudou Lapin la mit dans le traîneau, l'attacha avec une corde, et l'emmena en traîneau loin, très loin dans la forêt, avant de la détacher et de la laisser repartir, toute penaude.
+
+Renard Rusé accourt et dit :
+
+— Où est Ourse Gourmande ?
+
+— Elle est loin maintenant, on ne la reverra pas de sitôt !
+
+— Eh bien, Doudou Lapin, maintenant il faut me régaler.
+
+— Volontiers, Renard Rusé ! Viens chez moi, je vais te régaler.
+
+Doudou Lapin avance en traîneau, et Renard Rusé court devant. Quand il approcha de sa maison, Doudou Lapin siffla ses chiens et les lança sur Renard Rusé. Renard Rusé fila vers la forêt et se glissa dans son terrier. Cachée dans le terrier, elle demande :
+
+— Oh, mes petits yeux, que regardiez-vous pendant que je courais ?
+
+— Oh, Renard Rusé, nous regardions pour que tu ne trébuches pas.
+
+— Et vous, mes petites oreilles, que faisiez-vous ?
+
+— Nous écoutions si les chiens étaient encore loin.
+
+— Et toi, ma queue, que faisais-tu ?
+
+— Moi, dit la queue, je me suis tout le temps emmêlée dans tes pattes, pour que tu t'embrouilles, que tu tombes, et que tu finisses dans les dents des chiens.
+
+— Ah, canaille ! Alors que les chiens te mangent !
+
+Et, sortant sa queue du terrier, Renard Rusé cria :
+
+— Mangez, les chiens, la queue de Renard Rusé !
+
+Les chiens attrapèrent la queue et tirèrent Renard Rusé dehors. C'est souvent comme ça : à cause de la queue, on perd la tête.
+"""
+
+LE SYNOPSIS CHOISI PAR LE PARENT : Le Paysan, l'Ours et le Renard
+Un partage de récolte tourne mal, une fausse chasse fait peur, une queue se dispute toute seule.
+- Ourse Gourmande menace le champ de Doudou Lapin ; pour garder la paix, il lui propose un partage : les fanes pour elle, les racines pour lui.
+- Quand la récolte arrive, Ourse Gourmande ne reçoit que des fanes ; en goûtant un navet, elle comprend qu'elle a été trompée et se fâche.
+- Elle interdit à Doudou Lapin d'entrer dans la forêt ; il se retrouve bientôt sans bois pour se chauffer.
+- Renard Rusé invente une grande chasse pour lui faire peur ; Ourse Gourmande, terrifiée, supplie Doudou Lapin de la cacher sous son bois, et il l'emmène loin avant de la relâcher, penaude.
+- Renard Rusé réclame sa récompense pour ce service ; mal payée, elle se dispute avec sa propre queue devant tout le monde.
+
+Distribution :
+- Doudou Lapin joue le Paysan : inquiet et serviable, il colle au paysan peureux qui négocie plutôt que d'affronter.
+- Renard Rusé joue la Renarde : malin et vaniteux, comme la renarde rusée et bavarde du conte.
+- Ourse Gourmande joue l'Ours : gourmande comme l'ours du conte, et sa franchise colle à sa naïveté.
+
+Changements annoncés au parent :
+- L'ours caché sous le bois n'est plus menacé à la hache : Doudou Lapin l'emmène loin et la relâche, penaude.
+- L'épisode où le paysan sème du blé l'année suivante est coupé, pour tenir dans le temps du spectacle.
+- Les chiens du conte original disparaissent : c'est Renard Rusé elle-même qui invente la fausse chasse.
+
+L’ESPÈCE DES PERSONNAGES DANS LE TEXTE, impératif : chaque marionnette
+animale garde son espèce. Le nom de l’animal du conte disparaît du texte, y
+compris dans les titres, les résumés et les formules.
+- Doudou Lapin joue le Paysan et reste un·e lapin : c'est un·e lapin qui fait le métier de paysan.
+- Ourse Gourmande joue l'Ours : dans tout le texte, ce personnage est un·e ourse, pas un·e ours. On l'appelle ainsi, et seuls les détails qui l'exigent changent.
+
+L’ADAPTATION DÉCIDÉE : « Doudou Lapin, Ourse Gourmande et Renard Rusé »
+Un partage de récolte qui tourne mal, une fausse chasse qui fait trembler, et une queue qui se dispute toute seule.
+
+Ce qui change par rapport au conte, et que tu respectes :
+- Les chiens qui poursuivent Renard Rusé n'ont pas de marionnette : on ne les voit jamais, seulement un aboiement fait à la voix par le parent.
+- Le bois qui recouvre Ourse Gourmande reste un décor immobile, jamais manipulé : c'est la réplique qui raconte qu'elle est cachée dessous, pas un geste de la peluche.
+- Les allées et venues répétées entre le champ et la forêt sont jouées en une seule scène continue par personnage, pour éviter des sorties et des entrées inutiles.
+- L'épisode où Doudou Lapin sème du blé l'année suivante reste coupé, pour tenir dans le temps du spectacle.
+
+Plan du spectacle :
+- Acte 1, Le partage qui tourne mal : Ourse Gourmande menace le champ de Doudou Lapin, qui lui propose un partage : les fanes pour elle, les racines pour lui. En goûtant un navet, elle comprend qu'elle a été trompée et jure de se venger. (De « Doudou Lapin labourait son champ. » à « ...ou je t'écorche ! »)
+- Acte 2, La fausse chasse : Devenu sans bois, Doudou Lapin ose enfin entrer dans la forêt. Renard Rusé lui souffle une ruse pour effrayer Ourse Gourmande, qui supplie qu'on la cache et se laisse emmener, avant d'être relâchée, penaude. (De « Doudou Lapin revint de la ville... » à « ...toute penaude. »)
+- Acte 3, La queue qui se dispute : Renard Rusé revient réclamer sa récompense, mais Doudou Lapin la chasse en sifflant ses chiens. Cachée et hors d'haleine, elle se dispute avec ses yeux, ses oreilles puis sa queue — et c'est cette dernière qui la perd. (De « Renard Rusé accourt et dit... » à « ...on perd la tête. »)
+
+Script entier, tel qu’il est avant tes réécritures :
+--- Acte 1 : Le partage qui tourne mal ---
+1. [entree] Doudou Lapin — main M1G
+2. [action] Doudou Lapin avance sur la scène et mime le labour, penché en avant.
+3. [entree] Ourse Gourmande — main M1D
+4. Ourse Gourmande : « Doudou Lapin, je vais te briser ! » (fort, menaçante)
+5. [action] Doudou Lapin recule d'un pas, effrayé.
+6. Doudou Lapin : « Non, laisse-moi tranquille. Je suis en train de semer des navets : je prendrai pour moi seulement les racines, et toi, je te donnerai les fanes. » (vite, suppliant)
+7. Ourse Gourmande : « Soit. Mais si tu me trompes, ne viens plus jamais chercher du bois dans ma forêt ! » (menaçante)
+8. [action] Ourse Gourmande se détourne et s'éloigne vers le fond de la scène, tournée vers la forêt.
+9. [action] Doudou Lapin se penche et arrache des navets, un à un, dans son champ.
+10. [action] Ourse Gourmande se retourne et s'approche à nouveau de Doudou Lapin.
+11. Ourse Gourmande : « Eh bien, Doudou Lapin, partageons ! » (guillerette)
+12. Doudou Lapin : « D'accord, Ourse Gourmande ! Je vais t'apporter les fanes. » (empressé)
+13. [action] Doudou Lapin pousse devant lui une charrette chargée de fanes jusqu'à Ourse Gourmande.
+14. [action] Ourse Gourmande plonge son museau dans les fanes et hoche la tête, ravie.
+15. Doudou Lapin au public : « Dites-moi : qui a eu la meilleure part, à votre avis ? » (attend une réponse)
+16. [action] Doudou Lapin pousse sa charrette, à présent chargée de navets, pour partir vers la ville. Ourse Gourmande s'avance et lui barre le chemin.
+17. Ourse Gourmande : « Doudou Lapin, où vas-tu ? » (curieuse)
+18. Doudou Lapin : « Eh bien, Ourse Gourmande, je vais en ville vendre les racines. » (tranquille)
+19. Ourse Gourmande : « Fais-moi goûter comment c'est, une racine ! » (gourmande)
+20. [action] Doudou Lapin montre la charrette d'un mouvement de tête. Ourse Gourmande plonge son museau dedans.
+21. [action] Ourse Gourmande recule d'un coup, secouant la tête.
+22. Ourse Gourmande : « Aaah ! Tu m'as trompé, Doudou Lapin ! Tes racines sont sucrées. Maintenant, ne viens plus chercher du bois chez moi, ou je t'écorche ! » (rugissante, furieuse)
+23. [action] Ourse Gourmande tourne les talons, encore furieuse.
+24. [sortie] Ourse Gourmande — main M1D
+25. [action] Doudou Lapin baisse les oreilles, inquiet, et pousse sa charrette hors de la scène.
+26. [sortie] Doudou Lapin — main M1G
+
+--- Acte 2 : La fausse chasse ---
+1. [entree] Doudou Lapin — main M1G
+2. [action] Doudou Lapin mime qu'il jette dans un feu tout ce qu'il trouve à brûler, un tabouret, un tonneau, l'un après l'autre.
+3. Doudou Lapin au public : « Plus une bûche à la maison. Il va falloir que j'aille chercher du bois dans la forêt. »
+4. [action] Doudou Lapin s'avance vers le fond de la scène, à pas très prudents.
+5. [entree] Renard Rusé — main M1D
+6. [action] Renard Rusé surgit d'un bond et s'arrête net devant Doudou Lapin.
+7. Renard Rusé : « Qu'as-tu, Doudou Lapin, à avancer si doucement ? » (curieuse)
+8. Doudou Lapin : « J'ai peur d'Ourse Gourmande. Elle est fâchée contre moi, elle a promis de m'écorcher. » (craintif)
+9. Renard Rusé : « N'aie pas peur d'Ourse Gourmande. Coupe ton bois, et moi je vais faire du bruit comme une meute de chasse. Si Ourse Gourmande te demande ce que c'est, dis-lui : « On chasse les loups et les ourses. » » (maligne, complice)
+10. [action] Renard Rusé s'éclipse d'un bond derrière un buisson du décor.
+11. [sortie] Renard Rusé — main M1D
+12. [action] Doudou Lapin se penche et se redresse, encore et encore, comme s'il coupait du bois.
+13. Doudou Lapin au public : « Les enfants, vous voulez m'aider à faire peur à Ourse Gourmande ? Quand je lève la main, criez tous très fort, comme une meute de chasse ! » (attend une réponse)
+14. [action] Doudou Lapin lève la main bien haut ; les enfants crient comme une meute de chasse.
+15. [entree] Ourse Gourmande — main M1D
+16. [action] Ourse Gourmande surgit en courant, essoufflée, et s'arrête devant Doudou Lapin.
+17. Ourse Gourmande : « Hé, le vieux ! Qu'est-ce que c'est que ces cris ? » (essoufflée, alarmée)
+18. Doudou Lapin : « On chasse les loups et les ourses. » (calme, appliqué)
+19. Ourse Gourmande : « Oh, Doudou Lapin, mets-moi dans ton traîneau, couvre-moi de bûches et attache-moi avec une corde : peut-être qu'on croira que c'est un tronc d'arbre. » (suppliante, affolée)
+20. [action] Ourse Gourmande se baisse et se cache derrière le tas de bûches du décor.
+21. [action] Doudou Lapin pousse le traîneau, avec Ourse Gourmande cachée dedans, vers le fond de la scène.
+22. [sortie] Ourse Gourmande — main M1D
+23. [action] Doudou Lapin pousse le traîneau hors de la scène, puis revient seul vers l'avant.
+24. [action] Doudou Lapin s'essuie le front, soulagé.
+25. [sortie] Doudou Lapin — main M1G
+
+--- Acte 3 : La queue qui se dispute ---
+1. [entree] Doudou Lapin — main M1G
+2. [action] Doudou Lapin marche vers sa maison, sans se retourner.
+3. [entree] Renard Rusé — main M1D
+4. [action] Renard Rusé arrive en courant et s'arrête net, hors d'haleine, tremblante.
+5. Renard Rusé : « Où est Ourse Gourmande ? » (essoufflée)
+6. Doudou Lapin : « Elle est loin maintenant, on ne la reverra pas de sitôt ! » (soulagé)
+7. Renard Rusé : « Eh bien, Doudou Lapin, maintenant il faut me régaler. » (gourmande, sûre d'elle)
+8. Doudou Lapin : « Volontiers, Renard Rusé ! Viens chez moi, je vais te régaler. » (chaleureux)
+9. [action] Doudou Lapin s'approche de sa maison ; Renard Rusé trotte devant lui, la queue haute.
+10. [action] Doudou Lapin se tourne vers la coulisse et siffle, longuement.
+11. [action] On entend des aboiements, tout proches.
+12. [action] Renard Rusé sursaute et se précipite vers son terrier.
+13. [action] Doudou Lapin hoche la tête, satisfait, et repart vers sa maison.
+14. [sortie] Doudou Lapin — main M1G
+15. [action] Renard Rusé se blottit, haletante, cachée dans son terrier.
+16. Renard Rusé : « Oh, mes petits yeux, que regardiez-vous pendant que je courais ? » (à elle-même, encore essoufflée)
+17. Renard Rusé : « Oh, Renard Rusé, nous regardions pour que tu ne trébuches pas. » (flûtée, comme si c'étaient ses yeux qui parlaient)
+18. Renard Rusé : « Et vous, mes petites oreilles, que faisiez-vous ? » (à elle-même)
+19. Renard Rusé : « Nous écoutions si les chiens étaient encore loin. » (flûtée, comme si c'étaient ses oreilles qui parlaient)
+20. Renard Rusé : « Et toi, ma queue, que faisais-tu ? » (à elle-même, déjà méfiante)
+21. Renard Rusé au public : « Et vous, qu'est-ce que ma queue va répondre ? » (attend une réponse)
+22. Renard Rusé : « Moi, je me suis tout le temps emmêlée dans tes pattes, pour que tu t'embrouilles, que tu tombes, et que tu finisses dans les dents des chiens. » (traînante, comme si c'était sa queue qui parlait)
+23. Renard Rusé : « Ah, canaille ! Alors que les chiens te mangent ! » (furieuse)
+24. [action] Renard Rusé sort de son terrier, arrière la première.
+25. Renard Rusé : « Mangez, les chiens, la queue de Renard Rusé ! » (criée, vengeresse)
+26. [action] On entend des aboiements tout proches. Renard Rusé est tirée en arrière, d'un coup sec.
+27. Renard Rusé au public : « C'est souvent comme ça : à cause de la queue, on perd la tête. »
+28. [action] Renard Rusé disparaît d'un coup, engloutie par la coulisse.
+29. [sortie] Renard Rusé — main M1D
+
+Conduite de l’acte :
+Acte 1 — Le partage qui tourne mal
+Résumé : Ourse Gourmande menace le champ de Doudou Lapin, qui lui propose un partage : les fanes pour elle, les racines pour lui. En goûtant un navet, elle comprend qu'elle a été trompée et jure de se venger.
+Passage du conte joué par cet acte : De « Doudou Lapin labourait son champ. » à « ...ou je t'écorche ! »
+Déroulé :
+  1. Le temps passe : les navets poussent dans le champ.
+  2. Doudou Lapin récolte et apporte à Ourse Gourmande sa pleine charrette de fanes.
+  3. Plus tard, sur le chemin de la ville, ils se croisent à nouveau.
+Entrées et sorties prévues, dans cet ordre (la MAIN est calculée par
+l’application : ne l’indique pas, elle sera remplacée) :
+  entree — Doudou Lapin
+  entree — Ourse Gourmande
+  sortie — Ourse Gourmande
+  sortie — Doudou Lapin
+Moments avec le public :
+  - Demander aux enfants : à leur avis, qui a eu la meilleure part du champ ?
+Budget indicatif pour cet acte : environ 150 mots dits — une jauge, pas une limite ; jamais au prix de la fin
+
+État de la scène au début de l’acte :
+La scène est vide, toutes les mains sont libres.
+
+Acte à réécrire :
+1. [entree] Doudou Lapin — main M1G
+2. [action] Doudou Lapin avance sur la scène et mime le labour, penché en avant.
+3. [entree] Ourse Gourmande — main M1D
+4. Ourse Gourmande : « Doudou Lapin, je vais te briser ! » (fort, menaçante)
+5. [action] Doudou Lapin recule d'un pas, effrayé.
+6. Doudou Lapin : « Non, laisse-moi tranquille. Je suis en train de semer des navets : je prendrai pour moi seulement les racines, et toi, je te donnerai les fanes. » (vite, suppliant)
+7. Ourse Gourmande : « Soit. Mais si tu me trompes, ne viens plus jamais chercher du bois dans ma forêt ! » (menaçante)
+8. [action] Ourse Gourmande se détourne et s'éloigne vers le fond de la scène, tournée vers la forêt.
+9. [action] Doudou Lapin se penche et arrache des navets, un à un, dans son champ.
+10. [action] Ourse Gourmande se retourne et s'approche à nouveau de Doudou Lapin.
+11. Ourse Gourmande : « Eh bien, Doudou Lapin, partageons ! » (guillerette)
+12. Doudou Lapin : « D'accord, Ourse Gourmande ! Je vais t'apporter les fanes. » (empressé)
+13. [action] Doudou Lapin pousse devant lui une charrette chargée de fanes jusqu'à Ourse Gourmande.
+14. [action] Ourse Gourmande plonge son museau dans les fanes et hoche la tête, ravie.
+15. Doudou Lapin au public : « Dites-moi : qui a eu la meilleure part, à votre avis ? » (attend une réponse)
+16. [action] Doudou Lapin pousse sa charrette, à présent chargée de navets, pour partir vers la ville. Ourse Gourmande s'avance et lui barre le chemin.
+17. Ourse Gourmande : « Doudou Lapin, où vas-tu ? » (curieuse)
+18. Doudou Lapin : « Eh bien, Ourse Gourmande, je vais en ville vendre les racines. » (tranquille)
+19. Ourse Gourmande : « Fais-moi goûter comment c'est, une racine ! » (gourmande)
+20. [action] Doudou Lapin montre la charrette d'un mouvement de tête. Ourse Gourmande plonge son museau dedans.
+21. [action] Ourse Gourmande recule d'un coup, secouant la tête.
+22. Ourse Gourmande : « Aaah ! Tu m'as trompé, Doudou Lapin ! Tes racines sont sucrées. Maintenant, ne viens plus chercher du bois chez moi, ou je t'écorche ! » (rugissante, furieuse)
+23. [action] Ourse Gourmande tourne les talons, encore furieuse.
+24. [sortie] Ourse Gourmande — main M1D
+25. [action] Doudou Lapin baisse les oreilles, inquiet, et pousse sa charrette hors de la scène.
+26. [sortie] Doudou Lapin — main M1G
+
+Modifications à appliquer :
+- [important] L'élément 15 fait dire à Doudou Lapin, face au public : « Dites-moi : qui a eu la meilleure part, à votre avis ? » — c'est une question d'opinion adressée aux enfants, une morale déguisée.
+  Modification : Supprimer l'élément 15 (la réplique et l'attente de réponse) ; l'enchaînement passe directement de l'action 14 (Ourse Gourmande ravie des fanes) à l'action 16 (Doudou Lapin repart vers la ville avec sa charrette de navets).

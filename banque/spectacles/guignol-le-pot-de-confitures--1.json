@@ -1,0 +1,2457 @@
+{
+  "id": "guignol-le-pot-de-confitures--1",
+  "conteId": "guignol-le-pot-de-confitures",
+  "titre": "Le Pot de confitures",
+  "pitch": "{{r3}} veut renvoyer {{r1}} pour sa gourmandise. {{r2}} lui tend un pot de confitures pour trancher un pari avec {{r4}}, puis invente un faux poison qui fait éclater la vérité.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "garcon",
+      "famille": "enfant",
+      "traits": [
+        "gourmand",
+        "farceur",
+        "menteur"
+      ],
+      "voix": "voix lyonnaise vive et malicieuse, qui s’emballe devant les confitures",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1:resume",
+            "avant": "le gronde",
+            "apres": "la gronde"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "ce domestique",
+            "apres": "cette domestique"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "un gourmand fieffé",
+            "apres": "une gourmande fieffée"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "C’était lui",
+            "apres": "C’était elle"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "je l’ai déjà pris",
+            "apres": "je l’ai déjà prise"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "d’un pareil drôle",
+            "apres": "d’une pareille drôlesse"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "ce pauvre ",
+            "apres": "cette pauvre "
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "a été placé",
+            "apres": "a été placée"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "le protégé",
+            "apres": "la protégée"
+          },
+          {
+            "id": "a1e12:texte",
+            "avant": "je le retrouve",
+            "apres": "je la retrouve"
+          },
+          {
+            "id": "a1e12:texte",
+            "avant": "je le châtierai",
+            "apres": "je la châtierai"
+          },
+          {
+            "id": "a1e14:texte",
+            "avant": "Appelons-le",
+            "apres": "Appelons-la"
+          },
+          {
+            "id": "a1e38:texte",
+            "avant": "être portier",
+            "apres": "être portière"
+          },
+          {
+            "id": "a1e45:texte",
+            "avant": "le plus fieffé gourmand que la terre ait jamais porté",
+            "apres": "la plus fieffée gourmande que la terre ait jamais portée"
+          },
+          {
+            "id": "a1e46:texte",
+            "avant": "pas gourmand",
+            "apres": "pas gourmande"
+          },
+          {
+            "id": "a1e51:texte",
+            "avant": "Le coupable s’était trahi",
+            "apres": "La coupable s’était trahie"
+          },
+          {
+            "id": "a1e53:texte",
+            "avant": "malheureux",
+            "apres": "malheureuse"
+          },
+          {
+            "id": "a1e63:texte",
+            "avant": "te voir corrigé",
+            "apres": "te voir corrigée"
+          },
+          {
+            "id": "a1e64:texte",
+            "avant": "être battu",
+            "apres": "être battue"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "le surprendra",
+            "apres": "la surprendra"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "Le drôle",
+            "apres": "La drôlesse"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "qu’il ait",
+            "apres": "qu’elle ait"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "le garder",
+            "apres": "la garder"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "le renvoyer",
+            "apres": "la renvoyer"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "votre protégé",
+            "apres": "votre protégée"
+          },
+          {
+            "id": "a2e9:texte",
+            "avant": "Qu’a-t-il",
+            "apres": "Qu’a-t-elle"
+          },
+          {
+            "id": "a2e9:texte",
+            "avant": "ce pauvre domestique",
+            "apres": "cette pauvre domestique"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "gourmand, menteur",
+            "apres": "gourmande, menteuse"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "à lui",
+            "apres": "à elle"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "Renvoyez-le",
+            "apres": "Renvoyez-la"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "qu’il n’est pas coupable",
+            "apres": "qu’elle n’est pas coupable"
+          },
+          {
+            "id": "a2e12:texte",
+            "avant": "Il dévore",
+            "apres": "Elle dévore"
+          },
+          {
+            "id": "a2e14:texte",
+            "avant": "Il vient",
+            "apres": "Elle vient"
+          },
+          {
+            "id": "a2e15:texte",
+            "avant": "un domestique simple comme lui",
+            "apres": "une domestique simple comme elle"
+          },
+          {
+            "id": "a2e15:texte",
+            "avant": "un pauvre domestique",
+            "apres": "une pauvre domestique"
+          },
+          {
+            "id": "a2e15:texte",
+            "avant": "je le protège",
+            "apres": "je la protège"
+          },
+          {
+            "id": "a2e19:texte",
+            "avant": "un pauvre domestique",
+            "apres": "une pauvre domestique"
+          },
+          {
+            "id": "a2e20:texte",
+            "avant": "le fais prendre",
+            "apres": "la fais prendre"
+          },
+          {
+            "id": "a2e33:texte",
+            "avant": "il a la bouche",
+            "apres": "elle a la bouche"
+          },
+          {
+            "id": "a2e33:texte",
+            "avant": "Il étouffe, le malheureux",
+            "apres": "Elle étouffe, la malheureuse"
+          },
+          {
+            "id": "a2e45:texte",
+            "avant": "étourdi que gourmand",
+            "apres": "étourdie que gourmande"
+          },
+          {
+            "id": "a2e47:texte",
+            "avant": "j’étais maître",
+            "apres": "j’étais maîtresse"
+          },
+          {
+            "id": "a2e61:texte",
+            "avant": "Ah ! gredin",
+            "apres": "Ah ! gredine"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "Monsieur le gourmand",
+            "apres": "Madame la gourmande"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "Le voici ! il a été leste",
+            "apres": "La voici ! elle a été leste"
+          },
+          {
+            "id": "a3e17:texte",
+            "avant": "mon cher ",
+            "apres": "ma chère "
+          },
+          {
+            "id": "a3e22:texte",
+            "avant": "Je suis mort",
+            "apres": "Je suis morte"
+          },
+          {
+            "id": "a3e23:texte",
+            "avant": "Comment, mort",
+            "apres": "Comment, morte"
+          },
+          {
+            "id": "a3e38:texte",
+            "avant": "je suis mort",
+            "apres": "je suis morte"
+          },
+          {
+            "id": "a3e42:texte",
+            "avant": "tu es mort",
+            "apres": "tu es morte"
+          },
+          {
+            "id": "a3e47:texte",
+            "avant": "t’a tué",
+            "apres": "t’a tuée"
+          },
+          {
+            "id": "a3e55:texte",
+            "avant": "je l’avais chargé",
+            "apres": "je l’avais chargée"
+          },
+          {
+            "id": "a3e55:texte",
+            "avant": "il les a mangées",
+            "apres": "elle les a mangées"
+          },
+          {
+            "id": "a3e55:texte",
+            "avant": "pour le punir",
+            "apres": "pour la punir"
+          },
+          {
+            "id": "a3e59:texte",
+            "avant": "vilain gourmand",
+            "apres": "vilaine gourmande"
+          },
+          {
+            "id": "a3e63:texte",
+            "avant": "Tu n’es pas mort",
+            "apres": "Tu n’es pas morte"
+          },
+          {
+            "id": "a3e64:texte",
+            "avant": "je suis mort",
+            "apres": "je suis morte"
+          },
+          {
+            "id": "a3e89:texte",
+            "avant": "ce drôle",
+            "apres": "cette drôlesse"
+          },
+          {
+            "id": "a3e91:texte",
+            "avant": "je vous le donne",
+            "apres": "je vous la donne"
+          },
+          {
+            "id": "a3e91:texte",
+            "avant": "Il entrera",
+            "apres": "Elle entrera"
+          },
+          {
+            "id": "a3e95:texte",
+            "avant": "corrigé",
+            "apres": "corrigée"
+          },
+          {
+            "id": "a1e10:texte",
+            "avant": "Ton ",
+            "apres": "Ta "
+          },
+          {
+            "id": "a1e26:texte",
+            "avant": "Monsieur",
+            "apres": "Madame"
+          },
+          {
+            "id": "a1e31:texte",
+            "avant": "Monsieur",
+            "apres": "Madame"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "le plaindre",
+            "apres": "la plaindre"
+          },
+          {
+            "id": "a3e34:texte",
+            "avant": "ce maraud",
+            "apres": "cette maraude"
+          },
+          {
+            "id": "a3e100:texte",
+            "avant": "jeté",
+            "apres": "jetée"
+          },
+          {
+            "id": "a1e22:texte",
+            "avant": "obligé",
+            "apres": "obligée"
+          },
+          {
+            "id": "a1e43:texte",
+            "avant": "Tu fais le plaisant",
+            "apres": "Tu fais la plaisante"
+          },
+          {
+            "id": "a2e47:texte",
+            "avant": "qu’on est étourdi",
+            "apres": "qu’on est étourdie"
+          },
+          {
+            "id": "a3e5:texte",
+            "avant": "m’a vu",
+            "apres": "m’a vue"
+          },
+          {
+            "id": "a1e56:texte",
+            "avant": "Drôle",
+            "apres": "Drôlesse"
+          },
+          {
+            "id": "a1e67:texte",
+            "avant": "Impertinent",
+            "apres": "Impertinente"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "amusant",
+            "apres": "amusante"
+          },
+          {
+            "id": "a2e60:texte",
+            "avant": "malheureux",
+            "apres": "malheureuse"
+          },
+          {
+            "id": "a3e63:texte",
+            "avant": "drôle",
+            "apres": "drôlesse"
+          },
+          {
+            "id": "a3e12:texte",
+            "avant": "qu’il a laissé",
+            "apres": "qu’elle a laissé"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r2",
+      "espece": "garcon",
+      "famille": "enfant",
+      "traits": [
+        "rusé",
+        "soucieux",
+        "amoureux"
+      ],
+      "voix": "voix claire et pressée, plus grave quand il gronde {{r1}}",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e3:texte",
+            "avant": "mon fils",
+            "apres": "ma fille"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "mon ami",
+            "apres": "mon amie"
+          },
+          {
+            "id": "a1e16:texte",
+            "avant": "Maître",
+            "apres": "Maîtresse"
+          },
+          {
+            "id": "a1e25:texte",
+            "avant": "petit maître",
+            "apres": "petite maîtresse"
+          },
+          {
+            "id": "a1e44:texte",
+            "avant": "petit maître",
+            "apres": "petite maîtresse"
+          },
+          {
+            "id": "a1e46:texte",
+            "avant": "Monsieur",
+            "apres": "Madame"
+          },
+          {
+            "id": "a1e57:texte",
+            "avant": "Petit maître",
+            "apres": "Petite maîtresse"
+          },
+          {
+            "id": "a1e60:texte",
+            "avant": "maître",
+            "apres": "maîtresse"
+          },
+          {
+            "id": "a1e64:texte",
+            "avant": "Monsieur",
+            "apres": "Madame"
+          },
+          {
+            "id": "a1e69:texte",
+            "avant": "petit maître",
+            "apres": "petite maîtresse"
+          },
+          {
+            "id": "a2e3:texte",
+            "avant": "Monsieur",
+            "apres": "Madame"
+          },
+          {
+            "id": "a2e5:texte",
+            "avant": "soucieux, bien maussade",
+            "apres": "soucieuse, bien maussade"
+          },
+          {
+            "id": "a2e7:texte",
+            "avant": "Monsieur",
+            "apres": "Madame"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "Monsieur",
+            "apres": "Madame"
+          },
+          {
+            "id": "a2e23:texte",
+            "avant": "Monsieur",
+            "apres": "Madame"
+          },
+          {
+            "id": "a2e28:texte",
+            "avant": "Monsieur",
+            "apres": "Madame"
+          },
+          {
+            "id": "a2e32:texte",
+            "avant": "maître",
+            "apres": "maîtresse"
+          },
+          {
+            "id": "a2e34:texte",
+            "avant": "borgeois",
+            "apres": "borgeoise"
+          },
+          {
+            "id": "a2e40:texte",
+            "avant": "petit maître",
+            "apres": "petite maîtresse"
+          },
+          {
+            "id": "a3e7:texte",
+            "avant": "maître",
+            "apres": "maîtresse"
+          },
+          {
+            "id": "a3e9:texte",
+            "avant": "maître",
+            "apres": "maîtresse"
+          },
+          {
+            "id": "a3e11:texte",
+            "avant": "maître",
+            "apres": "maîtresse"
+          },
+          {
+            "id": "a3e14:texte",
+            "avant": "Oui, maître ; oui, maître",
+            "apres": "Oui, maîtresse ; oui, maîtresse"
+          },
+          {
+            "id": "a3e16:texte",
+            "avant": "borgeois",
+            "apres": "borgeoise"
+          },
+          {
+            "id": "a3e19:texte",
+            "avant": "J’étais fou",
+            "apres": "J’étais folle"
+          },
+          {
+            "id": "a3e24:texte",
+            "avant": "maître",
+            "apres": "maîtresse"
+          },
+          {
+            "id": "a3e26:texte",
+            "avant": "Ah ! maître, faites-en faire",
+            "apres": "Ah ! maîtresse, faites-en faire"
+          },
+          {
+            "id": "a3e75:texte",
+            "avant": "Monsieur",
+            "apres": "Madame"
+          },
+          {
+            "id": "a3e90:texte",
+            "avant": "votre fils",
+            "apres": "votre fille"
+          },
+          {
+            "id": "a3e96:texte",
+            "avant": "not’maître",
+            "apres": "not’maîtresse"
+          },
+          {
+            "id": "a1e14:texte",
+            "avant": "Je me suis plus d’une fois aperçu",
+            "apres": "Je me suis plus d’une fois aperçue"
+          },
+          {
+            "id": "a3e15:texte",
+            "avant": "malheureux",
+            "apres": "malheureuse"
+          },
+          {
+            "id": "a3e19:texte",
+            "avant": "m’ont égaré",
+            "apres": "m’ont égarée"
+          },
+          {
+            "id": "voix:r2",
+            "avant": "il gronde",
+            "apres": "elle gronde"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "qu’il",
+            "apres": "qu’elle"
+          },
+          {
+            "id": "a1e37:texte",
+            "avant": "m’a chargé",
+            "apres": "m’a chargée"
+          },
+          {
+            "id": "a3e19:texte",
+            "avant": "un autre",
+            "apres": "une autre"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a1e34:texte",
+          "avant": "un joli garçon",
+          "gabarit": "{un} {joli|jolie} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r3",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "grognon",
+        "sévère",
+        "juste"
+      ],
+      "voix": "voix grave et sèche, qui s’adoucit à la fin",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e5:texte",
+            "avant": "mon père",
+            "apres": "ma mère"
+          },
+          {
+            "id": "a1e7:texte",
+            "avant": "mon père",
+            "apres": "ma mère"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "je suis sûr",
+            "apres": "je suis sûre"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "Mon père",
+            "apres": "Ma mère"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "Mon père",
+            "apres": "Ma mère"
+          },
+          {
+            "id": "a1e14:texte",
+            "avant": "Mon père est fort irrité, je crois bien qu’il",
+            "apres": "Ma mère est fort irritée, je crois bien qu’elle"
+          },
+          {
+            "id": "a1e19:texte",
+            "avant": "mon père",
+            "apres": "ma mère"
+          },
+          {
+            "id": "a1e37:texte",
+            "avant": "Mon père",
+            "apres": "Ma mère"
+          },
+          {
+            "id": "a1e39:texte",
+            "avant": "Mon père",
+            "apres": "Ma mère"
+          },
+          {
+            "id": "a1e40:texte",
+            "avant": "Il me prend",
+            "apres": "Elle me prend"
+          },
+          {
+            "id": "a1e41:texte",
+            "avant": "Il ne veut",
+            "apres": "Elle ne veut"
+          },
+          {
+            "id": "a1e42:texte",
+            "avant": "Il veut plus",
+            "apres": "Elle veut plus"
+          },
+          {
+            "id": "a1e43:texte",
+            "avant": "Mon père est très-mécontent",
+            "apres": "Ma mère est très-mécontente"
+          },
+          {
+            "id": "a1e43:texte",
+            "avant": "il n’en veut",
+            "apres": "elle n’en veut"
+          },
+          {
+            "id": "a1e49:texte",
+            "avant": "mon père",
+            "apres": "ma mère"
+          },
+          {
+            "id": "a1e61:texte",
+            "avant": "Mon père",
+            "apres": "Ma mère"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "mon père",
+            "apres": "ma mère"
+          },
+          {
+            "id": "a2e12:texte",
+            "avant": "mon père",
+            "apres": "ma mère"
+          },
+          {
+            "id": "a3e79:texte",
+            "avant": "mon père",
+            "apres": "ma mère"
+          },
+          {
+            "id": "a3e80:texte",
+            "avant": "très-heureux",
+            "apres": "très-heureuse"
+          },
+          {
+            "id": "a3e90:texte",
+            "avant": "Mon père",
+            "apres": "Ma mère"
+          },
+          {
+            "id": "a1e40:texte",
+            "avant": "Puis il peut",
+            "apres": "Puis elle peut"
+          },
+          {
+            "id": "a1e42:texte",
+            "avant": "le contenter",
+            "apres": "la contenter"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r4",
+      "espece": "femme",
+      "famille": "adulte",
+      "traits": [
+        "généreuse",
+        "têtue",
+        "loyale"
+      ],
+      "voix": "voix vive et ferme, qui défend {{r1}}",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a1e9:texte",
+            "avant": "par Mademoiselle",
+            "apres": "par Monsieur"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "la main de Mademoiselle",
+            "apres": "la main de Monsieur"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "celle-ci",
+            "apres": "celui-ci"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "elle se fâchera, elle me repoussera",
+            "apres": "il se fâchera, il me repoussera"
+          },
+          {
+            "id": "a1e10:texte",
+            "avant": "Mademoiselle",
+            "apres": "Monsieur"
+          },
+          {
+            "id": "a1e10:texte",
+            "avant": "charmante",
+            "apres": "charmant"
+          },
+          {
+            "id": "a1e12:texte",
+            "avant": "Mademoiselle",
+            "apres": "Monsieur"
+          },
+          {
+            "id": "a1e14:texte",
+            "avant": "Mademoiselle",
+            "apres": "Monsieur"
+          },
+          {
+            "id": "a1e60:texte",
+            "avant": "Mamselle",
+            "apres": "Monsieur"
+          },
+          {
+            "id": "a1e62:texte",
+            "avant": "Mamselle",
+            "apres": "Monsieur"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "Mademoiselle",
+            "apres": "Monsieur"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "Mademoiselle",
+            "apres": "Monsieur"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "Mademoiselle",
+            "apres": "Monsieur"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "je suis certaine",
+            "apres": "je suis certain"
+          },
+          {
+            "id": "a2e16:texte",
+            "avant": "Mademoiselle",
+            "apres": "Monsieur"
+          },
+          {
+            "id": "a2e18:texte",
+            "avant": "Mademoiselle",
+            "apres": "Monsieur"
+          },
+          {
+            "id": "a2e23:texte",
+            "avant": "je suis sûre",
+            "apres": "je suis sûr"
+          },
+          {
+            "id": "a2e49:texte",
+            "avant": "Mademoiselle",
+            "apres": "Monsieur"
+          },
+          {
+            "id": "a3e8:texte",
+            "avant": "Mademoiselle",
+            "apres": "Monsieur"
+          },
+          {
+            "id": "a3e8:texte",
+            "avant": "était-elle chez elle",
+            "apres": "était-il chez lui"
+          },
+          {
+            "id": "a3e10:texte",
+            "avant": "A-t-elle",
+            "apres": "A-t-il"
+          },
+          {
+            "id": "a3e14:texte",
+            "avant": "elle les a trouvées",
+            "apres": "il les a trouvées"
+          },
+          {
+            "id": "a3e17:texte",
+            "avant": "qu’elle n’en mange",
+            "apres": "qu’il n’en mange"
+          },
+          {
+            "id": "a3e19:texte",
+            "avant": "Mademoiselle",
+            "apres": "Monsieur"
+          },
+          {
+            "id": "a3e19:texte",
+            "avant": "elle m’a défendu de la revoir",
+            "apres": "il m’a défendu de le revoir"
+          },
+          {
+            "id": "a3e19:texte",
+            "avant": "qu’elle voulait en épouser",
+            "apres": "qu’il voulait en épouser"
+          },
+          {
+            "id": "a3e55:texte",
+            "avant": "Mademoiselle",
+            "apres": "Monsieur"
+          },
+          {
+            "id": "a3e74:texte",
+            "avant": "Mademoiselle",
+            "apres": "Monsieur"
+          },
+          {
+            "id": "a3e84:texte",
+            "avant": "Ma bru",
+            "apres": "Mon gendre"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "Mais la voici",
+            "apres": "Mais le voici"
+          },
+          {
+            "id": "a3e13:texte",
+            "avant": "a-t-elle",
+            "apres": "a-t-il"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 24,
+    "ageAuditoire": 9,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "Le jardin du château",
+      "description": "Un drap cache le marionnettiste. Deux coussins fixes marquent les côtés du jardin ; la cave et la maison sont derrière le castelet. Le pot est invisible et existe par les paroles.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "Le même jardin, près de la maison",
+      "description": "Gardez les deux coussins. Les passages à gauche mènent à la maison ; ceux à droite, à la rue. Le pot et les dégustations sont évoqués sans accessoire.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Le reproche et les excuses",
+      "tableauId": "t1",
+      "resume": "{{r3}} veut renvoyer {{r1}} pour sa gourmandise. {{r2}} le gronde et {{r1}} se trahit malgré ses plaisanteries.",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "note_marionnettiste",
+          "texte": "{{r3}} appelle depuis le jardin ; la cave est évoquée du côté gauche du castelet."
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e3",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "{{r2}} ! mon fils ! venez ici. Savez-vous que je suis dans une grande colère ?"
+        },
+        {
+          "id": "a1e4",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e5",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Contre moi, mon père ?"
+        },
+        {
+          "id": "a1e6",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Non pas contre vous, mon ami ; mais contre ce domestique que vous m’avez fait prendre il y a quelques semaines. C’est un gourmand fieffé… Rien ne lui échappe… le vin… le sucre… les fruits, tout est au pillage chez moi. Hier encore, nos voisines Mesdames de Saint-Rémi sont venues faire une visite au château : j’ai voulu leur offrir des confitures ; il n’y avait pas un pot entier ; et qui les avait entamées ? C’était lui, c’était {{r1}}."
+        },
+        {
+          "id": "a1e7",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Cela n’est pas possible, mon père."
+        },
+        {
+          "id": "a1e8",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Cela est certain… je suis sûr de mes autres domestiques, et je l’ai déjà pris sur le fait… C’est affreux… je ne veux plus d’un pareil drôle."
+        },
+        {
+          "id": "a1e9",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Mon père, votre sévérité m’afflige beaucoup,… Vous savez que ce pauvre {{r1}} a été placé chez vous par Mademoiselle {{r4}}, l’enfant de votre ami, de votre voisin, M. Desessart. Avec votre permission, j’ai demandé il y a peu de temps la main de Mademoiselle {{r4}}, j’espère une réponse favorable ; mais enfin elle ne m’est pas encore donnée… Si vous renvoyez dans un pareil moment le protégé de celle-ci, elle se fâchera, elle me repoussera, mon mariage sera manqué et je serai au désespoir."
+        },
+        {
+          "id": "a1e10",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Certainement j’approuve beaucoup ton projet de mariage avec Mademoiselle {{r4}}, qui est charmante… mais je n’y vois pas une raison pour que ma maison soit au pillage… Je veux des domestiques fidèles. Ton {{r1}} est intolérable."
+        },
+        {
+          "id": "a1e11",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Mon père, encore un peu de patience !"
+        },
+        {
+          "id": "a1e12",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Ma patience est à bout… Je vais faire des visites dans le voisinage, je rentrerai ce soir. Il faut que {{r1}} parte… Si je le retrouve à mon retour, je le châtierai moi-même, et avec un bon bâton, quand Mademoiselle {{r4}} et toute sa famille se mettraient en colère."
+        },
+        {
+          "id": "a1e13",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e14",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Mon père est fort irrité, je crois bien qu’il n’a pas tout à fait tort… Je me suis plus d’une fois aperçu de la gourmandise de {{r1}}… Mais comment faire accepter son renvoi par Mademoiselle {{r4}} ? Appelons-le et donnons-lui une bonne semonce… peut-être cela suffira-t-il. {{r1}} ! {{r1}} !"
+        },
+        {
+          "id": "a1e15",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e16",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Maître, je suis t’à la cave.",
+          "ton": "du côté de la cave, au ras du castelet"
+        },
+        {
+          "id": "a1e17",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "À la cave ! qu’y fais-tu ?"
+        },
+        {
+          "id": "a1e18",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je mets du vin en bouteilles."
+        },
+        {
+          "id": "a1e19",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "C’est-à-dire que c’est à présent le tour du vieux bourgogne de mon père. Monte tout de suite, j’ai à te parler.",
+          "ton": "d’abord en aparté, puis vers {{r1}} pour l’appeler"
+        },
+        {
+          "id": "a1e20",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je viens… mais je peux pas fermer le robinet… Ces robinets de Saint-Claude sont dur comme du fer… Ils perdent beaucoup."
+        },
+        {
+          "id": "a1e21",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Monte donc ?"
+        },
+        {
+          "id": "a1e22",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je suis obligé de le fermer avec les dents."
+        },
+        {
+          "id": "a1e23",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Ah ! je vais te faire monter."
+        },
+        {
+          "id": "a1e24",
+          "type": "didascalie",
+          "texte": "{{r1}} surgit du côté de la cave et s’incline de tout son corps."
+        },
+        {
+          "id": "a1e25",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Voilà ! voilà ! petit maître… Je me rends t’à vos ordres… qué qu’y a ?"
+        },
+        {
+          "id": "a1e26",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Voilà près d’une heure, Monsieur, que je vous appelle."
+        },
+        {
+          "id": "a1e27",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Y fallait ben le temps de monter les édegrés."
+        },
+        {
+          "id": "a1e28",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Vous avez eu le temps de les compter."
+        },
+        {
+          "id": "a1e29",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Y en a trente-deux et demie, en comptant la petiote."
+        },
+        {
+          "id": "a1e30",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Comptez la petite marche avec moi : trente-deux… et demie !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e31",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "C’est bien !.. Veuillez, Monsieur, me regarder en face."
+        },
+        {
+          "id": "a1e32",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je peux pas vous regarder de travers."
+        },
+        {
+          "id": "a1e33",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Que voyez-vous sur mon visage ?"
+        },
+        {
+          "id": "a1e34",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je vois un joli garçon avec de jolies petites mustaches."
+        },
+        {
+          "id": "a1e35",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Ce n’est pas cela que je vous demande. Vous devez voir sur mon visage la colère et l’indignation."
+        },
+        {
+          "id": "a1e36",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je connais pas ces personnes-là !"
+        },
+        {
+          "id": "a1e37",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je vais me faire comprendre. Mon père m’a chargé de vous mettre à la porte."
+        },
+        {
+          "id": "a1e38",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oh ! je crains les courants d’air ; puis j’ai pas de goût pour être portier, on est trop esclave."
+        },
+        {
+          "id": "a1e39",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Mon père te chasse."
+        },
+        {
+          "id": "a1e40",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Il me prend donc pour un lièvre… Puis il peut pas, la chasse est pas ouverte."
+        },
+        {
+          "id": "a1e41",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Il ne veut plus de toi."
+        },
+        {
+          "id": "a1e42",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Il veut plus de toit ! C’est bien facile de le contenter ! Donnez-moi un moment ; je grimpe en haut, et dans une heure il n’y aura plus une tuile sur la maison."
+        },
+        {
+          "id": "a1e43",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Tu fais le plaisant, mais cela est sérieux. Mon père est très-mécontent de ton service, et il n’en veut plus."
+        },
+        {
+          "id": "a1e44",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Et pourquoi donc ça, petit maître ?"
+        },
+        {
+          "id": "a1e45",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Parce que tu es le plus fieffé gourmand que la terre ait jamais porté."
+        },
+        {
+          "id": "a1e46",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oh ! Monsieur ! pas gourmand, {{r1}}… j’aime que la soupe de farine jaune et le fromage fort."
+        },
+        {
+          "id": "a1e47",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Tu ne bois pas non plus ?"
+        },
+        {
+          "id": "a1e48",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Rien que de l’eau… comme une petite grenouille…"
+        },
+        {
+          "id": "a1e49",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Nous avons malheureusement la preuve de ta gourmandise. Hier, des dames sont venues faire visite au château ; mon père a voulu leur faire offrir des confitures… il n’y avait pas un pot entier."
+        },
+        {
+          "id": "a1e50",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Le confiseur les avait pas remplis. Y a si peu de bonne foi dans le commerce à présent."
+        },
+        {
+          "id": "a1e51",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "N’accuse pas le confiseur… Le coupable s’était trahi ; on voyait la trace de son passage."
+        },
+        {
+          "id": "a1e52",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Par exemple !… Je les avais touchées qu’avec la langue."
+        },
+        {
+          "id": "a1e53",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Tu l’avoues donc, malheureux !"
+        },
+        {
+          "id": "a1e54",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Gredine de langue, scélérate, va ! je te loge, je te nourris et te parles contre moi ! sois tranquille !",
+          "ton": "en aparté"
+        },
+        {
+          "id": "a1e55",
+          "type": "didascalie",
+          "texte": "{{r1}} s’agite et se heurte de tout son corps au montant du castelet."
+        },
+        {
+          "id": "a1e56",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Drôle ! je te ferai périr sous le bâton."
+        },
+        {
+          "id": "a1e57",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Petit maître, j’y retournerai plus… J’en ai mangé un petit peu, si petit… si petit… Puis, que je mange des confitures ou du fromage, c’est bien toujours la même chose."
+        },
+        {
+          "id": "a1e58",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Répétez tout petit avec moi : « si petit… si petit… »",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e59",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je ne sais qui me retient…"
+        },
+        {
+          "id": "a1e60",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tapez, maître, tapez, j’ai bon dos ; mais ne me renvoyez pas. Mamselle {{r4}} vous priera pour moi."
+        },
+        {
+          "id": "a1e61",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Mon père veut que je te chasse."
+        },
+        {
+          "id": "a1e62",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oui, mais Mamselle {{r4}} veut que vous me gardiez."
+        },
+        {
+          "id": "a1e63",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Si au moins j’avais l’espoir de te voir corrigé !…"
+        },
+        {
+          "id": "a1e64",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oh ! Monsieur, à présent c’est sacré ; je veux être battu comme plâtre si jamais…"
+        },
+        {
+          "id": "a1e65",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Allons, rentrez… allez brosser mon habit… j’ai à sortir."
+        },
+        {
+          "id": "a1e66",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Y a-t-il quéque commission à faire, quéque chose à porter ?"
+        },
+        {
+          "id": "a1e67",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Impertinent ! portez donc cela."
+        },
+        {
+          "id": "a1e68",
+          "type": "didascalie",
+          "texte": "{{r2}} avance brusquement ; {{r1}} bascule de côté sous le soufflet."
+        },
+        {
+          "id": "a1e69",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Merci, petit maître. La lettre est affranchie : faudra-t-il vous rapporter la monnaie ?"
+        },
+        {
+          "id": "a1e70",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Le pari et le pot",
+      "tableauId": "t2",
+      "resume": "{{r4}} défend {{r1}}. {{r2}} parie qu’il le surprendra, puis lui confie le pot de confitures ; {{r1}} cède peu à peu.",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Le drôle est amusant ; quel dommage qu’il ait un pareil défaut !… Comment le garder sans irriter mon père ? et comment le renvoyer sans déplaire mortellement à Mademoiselle {{r4}} ? Mais la voici ; il faut bien lui raconter cette malheureuse histoire."
+        },
+        {
+          "id": "a2e2",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e3",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Bonjour, Monsieur {{r2}}."
+        },
+        {
+          "id": "a2e4",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Mademoiselle."
+        },
+        {
+          "id": "a2e5",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Vous êtes bien soucieux, bien maussade aujourd’hui."
+        },
+        {
+          "id": "a2e6",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je suis fort triste, Mademoiselle."
+        },
+        {
+          "id": "a2e7",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Il me semble que vous devriez recevoir un peu plus gracieusement la visite qu’on vous fait, Monsieur. Où est {{r1}} ?"
+        },
+        {
+          "id": "a2e8",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "C’est précisément votre protégé qui me donne du souci."
+        },
+        {
+          "id": "a2e9",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Qu’a-t-il donc fait ce pauvre domestique ?"
+        },
+        {
+          "id": "a2e10",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je vous conseille de le plaindre : gourmand, menteur,… tous les vices ! Si vous ne vous intéressiez pas à lui…"
+        },
+        {
+          "id": "a2e11",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Ne vous gênez pas, Monsieur. Renvoyez-le ; mais je suis certaine qu’il n’est pas coupable."
+        },
+        {
+          "id": "a2e12",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Il dévore tout : fruits, sucre, vins d’Espagne ; rien n’échappe à sa gourmandise. Hier, mon père a voulu faire servir des confitures à des dames ; tous les pots avaient été goûtés par {{r1}}."
+        },
+        {
+          "id": "a2e13",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Cela n’est pas possible."
+        },
+        {
+          "id": "a2e14",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Il vient de me l’avouer."
+        },
+        {
+          "id": "a2e15",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Je n’en crois rien. Avec la menace on fait avouer tout ce qu’on veut à un domestique simple comme lui… Je vois bien que vous voulez me faire de la peine… Vous n’avez aucune affection pour moi… C’est bien mal de vous venger sur un pauvre domestique parce que je le protège."
+        },
+        {
+          "id": "a2e16",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Mademoiselle !"
+        },
+        {
+          "id": "a2e17",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Je venais pour vous donner une bonne nouvelle… je ne vous la dirai pas."
+        },
+        {
+          "id": "a2e18",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Oh ! dites-la-moi, Mademoiselle, je vous en supplie."
+        },
+        {
+          "id": "a2e19",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Non, certainement… Accuser injustement un pauvre domestique !"
+        },
+        {
+          "id": "a2e20",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Injustement ?… et si je vous prouve sa gourmandise ?… si je vous le fais prendre sur le fait avant la fin du jour ?…"
+        },
+        {
+          "id": "a2e21",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Oh ! alors…"
+        },
+        {
+          "id": "a2e22",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Alors me direz-vous votre nouvelle ?"
+        },
+        {
+          "id": "a2e23",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Oui, Monsieur ; je suis sûre de gagner… et si vous ne réussissez pas ?"
+        },
+        {
+          "id": "a2e24",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je me soumettrai à tout ce que vous ordonnerez… je subirai la peine que vous daignerez m’infliger."
+        },
+        {
+          "id": "a2e25",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "C’est convenu."
+        },
+        {
+          "id": "a2e26",
+          "type": "adresse_public",
+          "marionnetteId": "r4",
+          "texte": "Scellons le pari ensemble : « C’est convenu ! »",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e27",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Convenu !"
+        },
+        {
+          "id": "a2e28",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Adieu, Monsieur, préparez vos stratagèmes… mais souvenez-vous bien que si vous ne réussissez pas, non seulement je ne vous dis pas le motif de ma visite, mais je vous défends de jamais vous représenter devant mes yeux."
+        },
+        {
+          "id": "a2e29",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e30",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je crois que je n’aurai pas grand’peine à gagner mon pari. {{r1}} ! {{r1}} !"
+        },
+        {
+          "id": "a2e31",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e32",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Voilà, maître, je viens.",
+          "ton": "d’une voix étouffée, au ras du castelet"
+        },
+        {
+          "id": "a2e33",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Allons, il a la bouche pleine. Viendras-tu ?… Il étouffe, le malheureux !"
+        },
+        {
+          "id": "a2e34",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Voilà, voilà, borgeois."
+        },
+        {
+          "id": "a2e35",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Qu’as-tu donc ?"
+        },
+        {
+          "id": "a2e36",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "C’est la poussière. En battant votre habit, il est tombé dans les équevilles… quand j’ai voulu le brosser, la poussière m’a rempli la corgniôle."
+        },
+        {
+          "id": "a2e37",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Elle paraît fort épaisse cette poussière."
+        },
+        {
+          "id": "a2e38",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "C’est fini. J’avais attrapé un pâté aux quenelles ; y a une patte d’écrevisse qui s’est mise en travers et qui ne voulait plus descendre la Grand’côte. Si j’avais pas avalé quéques cornichons, je tournais l’œil.",
+          "ton": "vers {{r2}} pour les premiers mots, puis en aparté"
+        },
+        {
+          "id": "a2e39",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "J’ai une commission à te faire faire."
+        },
+        {
+          "id": "a2e40",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "J’y vais, petit maître."
+        },
+        {
+          "id": "a2e41",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Où vas-tu ?"
+        },
+        {
+          "id": "a2e42",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Faire votre commission."
+        },
+        {
+          "id": "a2e43",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Et où ?"
+        },
+        {
+          "id": "a2e44",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ah ! je sais pas."
+        },
+        {
+          "id": "a2e45",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Tu es aussi étourdi que gourmand ; attends-moi là un instant."
+        },
+        {
+          "id": "a2e46",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e47",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oh ! que les maîtres sont difficiles à contenter ! Si on leur demande des explications, ils disent qu’on est bête ; si on leur en demande pas, ils disent qu’on est étourdi ; je sais plus comment les prendre… Après ça ils ont bien leurs peines… Moi, si j’étais maître, je voudrais point avoir de domestiques."
+        },
+        {
+          "id": "a2e48",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e49",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Tu vas porter cela à Mademoiselle {{r4}}… Aie bien soin de ce pot : il contient des confitures, mais des confitures de l’Inde, au bambou et à l’ananas… elles valent trois cents francs le pot… Va et reviens au plus vite."
+        },
+        {
+          "id": "a2e50",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e51",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Des confitures de dinde et de trois cents francs le pot !… ça doit être un peu chenu… ça me fait la chair de poule de porter quéque chose de si bon… Oh ! je veux pas en goûter, j’ai promis… c’est sacré… Mais je peux ben les sentir… Si j’ai un nez, c’est pas pour en faire un tuyau de poële…",
+          "ton": "en aparté"
+        },
+        {
+          "id": "a2e52",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Avec moi, humez les confitures : hum ! hum !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e53",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oh ! qu’elles sentent bonnes ! qu’elles sentent bonnes ! ça sent la violette, la rose, le jasmin et le jus de saucisse !… Allons, allons ! emportons-les…",
+          "ton": "en aparté"
+        },
+        {
+          "id": "a2e54",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oh ! cette odeur me prend le nez ; ça me met sens dessus dessous. Elles doivent être bien jolies… si je les regardais !… ça n’en ôtera pas ; et si on a des quinquets, c’est bien pour s’en servir.",
+          "ton": "en aparté"
+        },
+        {
+          "id": "a2e55",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oh ! quelle jolie couleur ! couleur de pomme, couleur de vin… Elles me donnent dans l’œil ; ça me fait comme un rayon de soleil dans un siau d’eau… Allons, allons, pas de bêtises, emportons-les…",
+          "ton": "en aparté"
+        },
+        {
+          "id": "a2e56",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tiens, j’y ai touché ! j’en ai goûté ! si je continuais…",
+          "ton": "en aparté"
+        },
+        {
+          "id": "a2e57",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oh ! que c’est bon ! que c’est bon ! qué velours dans la corgniôle ! Bah ! j’y goûte encore.",
+          "ton": "en aparté"
+        },
+        {
+          "id": "a2e58",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oh ! je n’y tiens plus, je n’y tiens plus.",
+          "ton": "en aparté"
+        },
+        {
+          "id": "a2e59",
+          "type": "didascalie",
+          "texte": "{{r1}} disparaît un instant derrière le castelet puis remonte : le pot reste invisible."
+        },
+        {
+          "id": "a2e60",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ah ! malheureux, qu’ai-je fait ?… y en a-t-il encore ?",
+          "ton": "en aparté"
+        },
+        {
+          "id": "a2e61",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Il n’y a plus rien… Ah ! gredin, te manges pour trois cents francs de confitures ! c’est plus que te ne vaux…",
+          "ton": "en aparté"
+        },
+        {
+          "id": "a2e62",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Que faire du pot à présent ?… Je vais tout de même le porter… on croira que c’est le chat qui les a mangées.",
+          "ton": "en aparté"
+        },
+        {
+          "id": "a2e63",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Le faux poison et la noce",
+      "tableauId": "t1",
+      "resume": "{{r1}} ment sur sa livraison. {{r2}} invente le poison, {{r4}} annonce le mariage et {{r3}} pardonne.",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "conteur",
+          "texte": "{{r2}} avait suivi de loin les hésitations de {{r1}} et connaissait à présent la vérité."
+        },
+        {
+          "id": "a3e2",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e3",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "J’espère que mon pari est gagné à présent… Ah ! Monsieur le gourmand, après le péché la pénitence… à nous deux maintenant… Le voici ! il a été leste."
+        },
+        {
+          "id": "a3e4",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e5",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "J’ai laissé le pot à la salle à manger ; personne ne m’a vu.",
+          "ton": "en aparté"
+        },
+        {
+          "id": "a3e6",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "As-tu fait ma commission ?"
+        },
+        {
+          "id": "a3e7",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oui, maître."
+        },
+        {
+          "id": "a3e8",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Mademoiselle {{r4}} était-elle chez elle ?"
+        },
+        {
+          "id": "a3e9",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oui, maître."
+        },
+        {
+          "id": "a3e10",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "A-t-elle regardé ce que tu lui apportais ?"
+        },
+        {
+          "id": "a3e11",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Il faut que je mente à présent. Allons, un de plus. Oui, maître.",
+          "ton": "d’abord en aparté, puis en répondant à {{r2}}"
+        },
+        {
+          "id": "a3e12",
+          "type": "conteur",
+          "texte": "{{r1}} aperçoit qu’il a laissé sur la bande la couverture du pot et cherche à la faire tomber."
+        },
+        {
+          "id": "a3e13",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "En a-t-elle goûté ?"
+        },
+        {
+          "id": "a3e14",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oui, maître ; oui, maître ; elle les a trouvées très-bonnes. Je ments avec un aplomb…",
+          "ton": "en répondant à {{r2}}, puis en aparté sur la dernière phrase"
+        },
+        {
+          "id": "a3e15",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Ah ! malheureux, qu’ai-je fait ?"
+        },
+        {
+          "id": "a3e16",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Quoi donc, borgeois ?"
+        },
+        {
+          "id": "a3e17",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Cours vite, mon cher {{r1}} ; cours, empêche qu’elle n’en mange encore !"
+        },
+        {
+          "id": "a3e18",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "N’y a pas de risque ; mais quoi donc qu’y a ?"
+        },
+        {
+          "id": "a3e19",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "J’étais fou, vois-tu ! Ce matin, j’ai eu une querelle avec Mademoiselle {{r4}} ; elle m’a défendu de la revoir. J’ai cru qu’elle voulait en épouser un autre… La jalousie… la colère m’ont égaré… j’ai voulu me tuer… mais j’ai voulu me venger aussi… Ces confitures que je lui ai envoyées… elles étaient empoisonnées."
+        },
+        {
+          "id": "a3e20",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites le grand « ah ! » avec moi !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e21",
+          "type": "didascalie",
+          "texte": "{{r1}} pousse un cri et s’affaisse derrière le bord du castelet."
+        },
+        {
+          "id": "a3e22",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Empoisonnées ! ah ! Je suis mort."
+        },
+        {
+          "id": "a3e23",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Comment, mort ?… Est-ce que tu en aurais mangé ?"
+        },
+        {
+          "id": "a3e24",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "J’en ai goûté une petite braise… Ah ! maître, ça me brûle !"
+        },
+        {
+          "id": "a3e25",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je vais te faire faire du contre-poison."
+        },
+        {
+          "id": "a3e26",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ah ! maître, faites-en faire un plein chaudron… Que je souffre ! que je souffre !…"
+        },
+        {
+          "id": "a3e27",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e28",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne vers le public et attend un instant."
+        },
+        {
+          "id": "a3e29",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e30",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Mais qu’y a-t-il donc ?"
+        },
+        {
+          "id": "a3e31",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e32",
+          "type": "didascalie",
+          "texte": "{{r4}} se tourne vers le public et attend un instant."
+        },
+        {
+          "id": "a3e33",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e34",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Qu’a donc ce maraud à hurler ainsi ?"
+        },
+        {
+          "id": "a3e35",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e36",
+          "type": "didascalie",
+          "texte": "{{r3}} se tourne vers le public et attend un instant."
+        },
+        {
+          "id": "a3e37",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e38",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Il y a que je suis mort : pas plus que çà !"
+        },
+        {
+          "id": "a3e39",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e40",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne vers le public et attend un instant."
+        },
+        {
+          "id": "a3e41",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e42",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Comment tu es mort, et tu parles ?"
+        },
+        {
+          "id": "a3e43",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je me suis conservé la parole… mais il ne me reste plus que cela."
+        },
+        {
+          "id": "a3e44",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e45",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne vers le public et attend un instant."
+        },
+        {
+          "id": "a3e46",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e47",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Voilà un nouveau genre de mort. Mais qu’est-ce qui t’a tué ?"
+        },
+        {
+          "id": "a3e48",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "J’ai pris le bocon… j’ai mangé de la poison."
+        },
+        {
+          "id": "a3e49",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e50",
+          "type": "didascalie",
+          "texte": "{{r3}} se tourne vers le public et attend un instant."
+        },
+        {
+          "id": "a3e51",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e52",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e53",
+          "type": "didascalie",
+          "texte": "{{r4}} se tourne vers le public et attend un instant."
+        },
+        {
+          "id": "a3e54",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e55",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Mademoiselle, je l’avais chargé de vous porter des confitures ; il les a mangées en route, et pour le punir je lui ai fait croire qu’elles étaient empoisonnées."
+        },
+        {
+          "id": "a3e56",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e57",
+          "type": "didascalie",
+          "texte": "{{r4}} se tourne vers le public et attend un instant."
+        },
+        {
+          "id": "a3e58",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e59",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Ah ! vilain gourmand ! tu m’as fait perdre ma gageure."
+        },
+        {
+          "id": "a3e60",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e61",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne vers le public et attend un instant."
+        },
+        {
+          "id": "a3e62",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e63",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Allons, drôle, relève-toi ! Tu n’es pas mort du tout."
+        },
+        {
+          "id": "a3e64",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Vous croyez ?… Non, vrai, si je suis mort, il vaut mieux le dire."
+        },
+        {
+          "id": "a3e65",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e66",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne vers le public et attend un instant."
+        },
+        {
+          "id": "a3e67",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e68",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Relève-toi donc : il n’y a de vrai dans tout cela que ta gourmandise."
+        },
+        {
+          "id": "a3e69",
+          "type": "didascalie",
+          "texte": "{{r1}} remonte de derrière le castelet."
+        },
+        {
+          "id": "a3e70",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ah ! j’ai eu une fière favette, tout de même."
+        },
+        {
+          "id": "a3e71",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e72",
+          "type": "didascalie",
+          "texte": "{{r2}} se tourne vers le public et attend un instant."
+        },
+        {
+          "id": "a3e73",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e74",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Mademoiselle, puisque j’ai gagné ma gageure, ne me direz-vous pas la nouvelle que vous m’apportiez ce matin ?"
+        },
+        {
+          "id": "a3e75",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Il le faut bien, Monsieur ; je venais vous annoncer que mon père consent à notre mariage."
+        },
+        {
+          "id": "a3e76",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e77",
+          "type": "didascalie",
+          "texte": "{{r2}} se tourne vers le public et attend un instant."
+        },
+        {
+          "id": "a3e78",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e79",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Quel bonheur ! mon père !"
+        },
+        {
+          "id": "a3e80",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Je suis très-heureux de cette union."
+        },
+        {
+          "id": "a3e81",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e82",
+          "type": "didascalie",
+          "texte": "{{r3}} se tourne vers le public et attend un instant."
+        },
+        {
+          "id": "a3e83",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e84",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Ma bru, embrassez-moi…"
+        },
+        {
+          "id": "a3e85",
+          "type": "didascalie",
+          "texte": "{{r3}} et {{r4}} se touchent brièvement de tout leur corps."
+        },
+        {
+          "id": "a3e86",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e87",
+          "type": "didascalie",
+          "texte": "{{r3}} se tourne vers le public et attend un instant."
+        },
+        {
+          "id": "a3e88",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e89",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Et ce drôle ?"
+        },
+        {
+          "id": "a3e90",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Mon père, il faut lui pardonner, puisque sa sottise vient d’être l’occasion d’une telle joie pour votre fils."
+        },
+        {
+          "id": "a3e91",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Eh bien ! je vous le donne. Il entrera à votre service le jour de votre mariage."
+        },
+        {
+          "id": "a3e92",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e93",
+          "type": "didascalie",
+          "texte": "{{r2}} se tourne vers le public et attend un instant."
+        },
+        {
+          "id": "a3e94",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e95",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Te voilà corrigé, je l’espère."
+        },
+        {
+          "id": "a3e96",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oui, not’maître. Cependant le jour de la noce je pourrai bien faire bombance ? Ce sera la dernière fois."
+        },
+        {
+          "id": "a3e97",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Ah ! mes pauvres confitures !"
+        },
+        {
+          "id": "a3e98",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Mon amour pour le pâté",
+          "ton": "sur un air gai, face au public"
+        },
+        {
+          "id": "a3e99",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Et la confiture",
+          "ton": "sur un air gai, face au public"
+        },
+        {
+          "id": "a3e100",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "M’a plus d’une fois jeté",
+          "ton": "sur un air gai, face au public"
+        },
+        {
+          "id": "a3e101",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "En triste aventure.",
+          "ton": "sur un air gai, face au public"
+        },
+        {
+          "id": "a3e102",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tout d’ mêm’ si vous en riez,",
+          "ton": "sur un air gai, face au public"
+        },
+        {
+          "id": "a3e103",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Aujourd’hui je chanterai :",
+          "ton": "sur un air gai, face au public"
+        },
+        {
+          "id": "a3e104",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "La bonne aventure, oh gué !",
+          "ton": "sur un air gai, face au public"
+        },
+        {
+          "id": "a3e105",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "La bonne aventure !",
+          "ton": "sur un air gai, face au public"
+        },
+        {
+          "id": "a3e106",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Reprenez le refrain de la chanson : « La bonne aventure ! »",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e107",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e108",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "guignol-le-pot-de-confitures",
+    "synopsis": {
+      "accroche": "Un pot de confitures révèle la gourmandise de {{r1}} et règle un pari amoureux.",
+      "resume": [
+        "{{r3}} veut renvoyer {{r1}} ; {{r2}} obtient un délai et le gronde.",
+        "{{r4}} défend {{r1}}, puis parie avec {{r2}}.",
+        "{{r1}} vide le pot que doit recevoir {{r4}} et ment sur sa livraison.",
+        "{{r2}} prétend que les confitures étaient empoisonnées ; {{r1}} avoue, {{r3}} pardonne et {{r4}} annonce le mariage avec {{r2}}."
+      ]
+    },
+    "transposition": {
+      "texte": "LE POT DE CONFITURES\n\nPIÈCE EN UN ACTE\n\nUn Jardin.\n\nScène I\n\n{{r3}}, puis {{r2}}.\n\n{{r3}} entre et appelle son fils.\n\n{{r2}} ! mon fils ! venez ici. ({{r2}} entre.) Savez-vous que je suis dans une grande colère ?\n\n{{r2}}.\n\nContre moi, mon père ?\n\n{{r3}}.\n\nNon pas contre vous, mon ami ; mais contre ce domestique que vous m’avez fait prendre il y a quelques semaines. C’est un gourmand fieffé… Rien ne lui échappe… le vin… le sucre… les fruits, tout est au pillage chez moi. Hier encore, nos voisines Mesdames de Saint-Rémi sont venues faire une visite au château : j’ai voulu leur offrir des confitures ; il n’y avait pas un pot entier ; et qui les avait entamées ? C’était lui, c’était {{r1}}.\n\n{{r2}}.\n\nCela n’est pas possible, mon père.\n\n{{r3}}.\n\nCela est certain… je suis sûr de mes autres domestiques, et je l’ai déjà pris sur le fait… C’est affreux… je ne veux plus d’un pareil drôle.\n\n{{r2}}.\n\nMon père, votre sévérité m’afflige beaucoup,… Vous savez que ce pauvre {{r1}} a été placé chez vous par Mademoiselle {{r4}}, l’enfant de votre ami, de votre voisin, M. Desessart. Avec votre permission, j’ai demandé il y a peu de temps la main de Mademoiselle {{r4}}, j’espère une réponse favorable ; mais enfin elle ne m’est pas encore donnée… Si vous renvoyez dans un pareil moment le protégé de celle-ci, elle se fâchera, elle me repoussera, mon mariage sera manqué et je serai au désespoir.\n\n{{r3}}.\n\nCertainement j’approuve beaucoup ton projet de mariage avec Mademoiselle {{r4}}, qui est charmante… mais je n’y vois pas une raison pour que ma maison soit au pillage… Je veux des domestiques fidèles. Ton {{r1}} est intolérable.\n\n{{r2}}.\n\nMon père, encore un peu de patience !\n\n{{r3}}.\n\nMa patience est à bout… Je vais faire des visites dans le voisinage, je rentrerai ce soir. Il faut que {{r1}} parte… Si je le retrouve à mon retour, je le châtierai moi-même, et avec un bon bâton, quand Mademoiselle {{r4}} et toute sa famille se mettraient en colère. (Il sort.)\n\nScène II\n\n{{r2}}, seul\n\nMon père est fort irrité, je crois bien qu’il n’a pas tout à fait tort… Je me suis plus d’une fois aperçu de la gourmandise de {{r1}}… Mais comment faire accepter son renvoi par Mademoiselle {{r4}} ? Appelons-le et donnons-lui une bonne semonce… peut-être cela suffira-t-il. (Il appelle.) {{r1}} ! {{r1}} !\n\nScène III\n\n{{r2}}, puis {{r1}}.\n\n{{r1}}, au ras du castelet, du côté de la cave.\n\nMaître, je suis t’à la cave.\n\n{{r2}}.\n\nÀ la cave ! qu’y fais-tu ?\n\n{{r1}}.\n\nJe mets du vin en bouteilles.\n\n{{r2}}, à part.\n\nC’est-à-dire que c’est à présent le tour du vieux bourgogne de mon père. (Haut.) Monte tout de suite, j’ai à te parler.\n\n{{r1}}.\n\nJe viens… mais je peux pas fermer le robinet… Ces robinets de Saint-Claude sont dur comme du fer… Ils perdent beaucoup.\n\n{{r2}}.\n\nMonte donc ?\n\n{{r1}}.\n\nJe suis obligé de le fermer avec les dents.\n\n{{r2}}.\n\nAh ! je vais te faire monter.\n\n{{r1}}, entre vivement et salue plusieurs fois.\n\nVoilà ! voilà ! petit maître… Je me rends t’à vos ordres… qué qu’y a ?\n\n{{r2}}.\n\nVoilà près d’une heure, Monsieur, que je vous appelle.\n\n{{r1}}.\n\nY fallait ben le temps de monter les édegrés.\n\n{{r2}}.\n\nVous avez eu le temps de les compter.\n\n{{r1}}.\n\nY en a trente-deux et demie, en comptant la petiote.\n\n{{r2}}.\n\nC’est bien !.. Veuillez, Monsieur, me regarder en face.\n\n{{r1}}.\n\nJe peux pas vous regarder de travers.\n\n{{r2}}.\n\nQue voyez-vous sur mon visage ?\n\n{{r1}}.\n\nJe vois un joli garçon avec de jolies petites mustaches.\n\n{{r2}}.\n\nCe n’est pas cela que je vous demande. Vous devez voir sur mon visage la colère et l’indignation.\n\n{{r1}}.\n\nJe connais pas ces personnes-là !\n\n{{r2}}.\n\nJe vais me faire comprendre. Mon père m’a chargé de vous mettre à la porte.\n\n{{r1}}.\n\nOh ! je crains les courants d’air ; puis j’ai pas de goût pour être portier, on est trop esclave.\n\n{{r2}}.\n\nMon père te chasse.\n\n{{r1}}.\n\nIl me prend donc pour un lièvre… Puis il peut pas, la chasse est pas ouverte.\n\n{{r2}}.\n\nIl ne veut plus de toi.\n\n{{r1}}.\n\nIl veut plus de toit ! C’est bien facile de le contenter ! Donnez-moi un moment ; je grimpe en haut, et dans une heure il n’y aura plus une tuile sur la maison.\n\n{{r2}}.\n\nTu fais le plaisant, mais cela est sérieux. Mon père est très-mécontent de ton service, et il n’en veut plus.\n\n{{r1}}.\n\nEt pourquoi donc ça, petit maître ?\n\n{{r2}}.\n\nParce que tu es le plus fieffé gourmand que la terre ait jamais porté.\n\n{{r1}}.\n\nOh ! Monsieur ! pas gourmand, {{r1}}… j’aime que la soupe de farine jaune et le fromage fort.\n\n{{r2}}.\n\nTu ne bois pas non plus ?\n\n{{r1}}.\n\nRien que de l’eau… comme une petite grenouille…\n\n{{r2}}.\n\nNous avons malheureusement la preuve de ta gourmandise. Hier, des dames sont venues faire visite au château ; mon père a voulu leur faire offrir des confitures… il n’y avait pas un pot entier.\n\n{{r1}}.\n\nLe confiseur les avait pas remplis. Y a si peu de bonne foi dans le commerce à présent.\n\n{{r2}}.\n\nN’accuse pas le confiseur… Le coupable s’était trahi ; on voyait la trace de son passage.\n\n{{r1}}.\n\nPar exemple !… Je les avais touchées qu’avec la langue.\n\n{{r2}}.\n\nTu l’avoues donc, malheureux !\n\n{{r1}}, à part.\n\nGredine de langue, scélérate, va ! je te loge, je te nourris et te parles contre moi ! sois tranquille ! ({{r1}} s’agite et se heurte de tout son corps au montant du castelet.)\n\n{{r2}}.\n\nDrôle ! je te ferai périr sous le bâton.\n\n{{r1}}.\n\nPetit maître, j’y retournerai plus… J’en ai mangé un petit peu, si petit… si petit… Puis, que je mange des confitures ou du fromage, c’est bien toujours la même chose.\n\n{{r2}}.\n\nJe ne sais qui me retient…\n\n{{r1}}.\n\nTapez, maître, tapez, j’ai bon dos ; mais ne me renvoyez pas. Mamselle {{r4}} vous priera pour moi.\n\n{{r2}}.\n\nMon père veut que je te chasse.\n\n{{r1}}.\n\nOui, mais Mamselle {{r4}} veut que vous me gardiez.\n\n{{r2}}.\n\nSi au moins j’avais l’espoir de te voir corrigé !…\n\n{{r1}}.\n\nOh ! Monsieur, à présent c’est sacré ; je veux être battu comme plâtre si jamais…\n\n{{r2}}.\n\nAllons, rentrez… allez brosser mon habit… j’ai à sortir.\n\n{{r1}}.\n\nY a-t-il quéque commission à faire, quéque chose à porter ?\n\n{{r2}}.\n\nImpertinent ! portez donc cela. ({{r2}} avance brusquement ; {{r1}} bascule de côté sous le soufflet.)\n\n{{r1}}.\n\nMerci, petit maître. La lettre est affranchie : faudra-t-il vous rapporter la monnaie ? (Il s’enfuit.)\n\nScène IV\n\n{{r2}}, puis M {{r4}}.\n\n{{r2}}, seul.\n\nLe drôle est amusant ; quel dommage qu’il ait un pareil défaut !… Comment le garder sans irriter mon père ? et comment le renvoyer sans déplaire mortellement à Mademoiselle {{r4}} ? Mais la voici ; il faut bien lui raconter cette malheureuse histoire.\n\nM {{r4}}, entrant, avec gaîté.\n\nBonjour, Monsieur {{r2}}.\n\n{{r2}}, tristement.\n\nMademoiselle. (Il salue.)\n\nM {{r4}}.\n\nVous êtes bien soucieux, bien maussade aujourd’hui.\n\n{{r2}}.\n\nJe suis fort triste, Mademoiselle.\n\nM {{r4}}.\n\nIl me semble que vous devriez recevoir un peu plus gracieusement la visite qu’on vous fait, Monsieur. Où est {{r1}} ?\n\n{{r2}}.\n\nC’est précisément votre protégé qui me donne du souci.\n\nM {{r4}}.\n\nQu’a-t-il donc fait ce pauvre domestique ?\n\n{{r2}}.\n\nJe vous conseille de le plaindre : gourmand, menteur,… tous les vices ! Si vous ne vous intéressiez pas à lui…\n\n{{r4}}.\n\nNe vous gênez pas, Monsieur. Renvoyez-le ; mais je suis certaine qu’il n’est pas coupable.\n\n{{r2}}.\n\nIl dévore tout : fruits, sucre, vins d’Espagne ; rien n’échappe à sa gourmandise. Hier, mon père a voulu faire servir des confitures à des dames ; tous les pots avaient été goûtés par {{r1}}.\n\n{{r4}}.\n\nCela n’est pas possible.\n\n{{r2}}.\n\nIl vient de me l’avouer.\n\n{{r4}}.\n\nJe n’en crois rien. Avec la menace on fait avouer tout ce qu’on veut à un domestique simple comme lui… Je vois bien que vous voulez me faire de la peine… Vous n’avez aucune affection pour moi… C’est bien mal de vous venger sur un pauvre domestique parce que je le protège.\n\n{{r2}}.\n\nMademoiselle !\n\n{{r4}}.\n\nJe venais pour vous donner une bonne nouvelle… je ne vous la dirai pas.\n\n{{r2}}.\n\nOh ! dites-la-moi, Mademoiselle, je vous en supplie.\n\n{{r4}}.\n\nNon, certainement… Accuser injustement un pauvre domestique !\n\n{{r2}}.\n\nInjustement ?… et si je vous prouve sa gourmandise ?… si je vous le fais prendre sur le fait avant la fin du jour ?…\n\n{{r4}}.\n\nOh ! alors…\n\n{{r2}}.\n\nAlors me direz-vous votre nouvelle ?\n\n{{r4}}.\n\nOui, Monsieur ; je suis sûre de gagner… et si vous ne réussissez pas ?\n\n{{r2}}.\n\nJe me soumettrai à tout ce que vous ordonnerez… je subirai la peine que vous daignerez m’infliger.\n\n{{r4}}.\n\nC’est convenu.\n\n{{r2}}.\n\nConvenu !\n\n{{r4}}.\n\nAdieu, Monsieur, préparez vos stratagèmes… mais souvenez-vous bien que si vous ne réussissez pas, non seulement je ne vous dis pas le motif de ma visite, mais je vous défends de jamais vous représenter devant mes yeux.  Scène V\n\n{{r2}}, puis {{r1}}.\n\n{{r2}}, seul.\n\nJe crois que je n’aurai pas grand’peine à gagner mon pari. (Il appelle.) {{r1}} ! {{r1}} !\n\n{{r1}}, au ras du castelet, d’une voix étouffée.\n\nVoilà, maître, je viens.\n\n{{r2}}.\n\nAllons, il a la bouche pleine. Viendras-tu ?… Il étouffe, le malheureux !\n\n{{r1}}, arrivant.\n\nVoilà, voilà, borgeois. (Il tousse et crache.)\n\n{{r2}}.\n\nQu’as-tu donc ?\n\n{{r1}}.\n\nC’est la poussière. En battant votre habit, il est tombé dans les équevilles… quand j’ai voulu le brosser, la poussière m’a rempli la corgniôle.\n\n{{r2}}.\n\nElle paraît fort épaisse cette poussière.\n\n{{r1}}.\n\nC’est fini. (À part.) J’avais attrapé un pâté aux quenelles ; y a une patte d’écrevisse qui s’est mise en travers et qui ne voulait plus descendre la Grand’côte. Si j’avais pas avalé quéques cornichons, je tournais l’œil.\n\n{{r2}}.\n\nJ’ai une commission à te faire faire.\n\n{{r1}}.\n\nJ’y vais, petit maître.\n\n{{r2}}.\n\nOù vas-tu ?\n\n{{r1}}.\n\nFaire votre commission.\n\n{{r2}}.\n\nEt où ?\n\n{{r1}}.\n\nAh ! je sais pas.\n\n{{r2}}.\n\nTu es aussi étourdi que gourmand ; attends-moi là un instant. (Il sort.)\n\n{{r1}}.\n\nOh ! que les maîtres sont difficiles à contenter ! Si on leur demande des explications, ils disent qu’on est bête ; si on leur en demande pas, ils disent qu’on est étourdi ; je sais plus comment les prendre… Après ça ils ont bien leurs peines… Moi, si j’étais maître, je voudrais point avoir de domestiques.\n\n{{r2}}, revenant ; le pot évoqué reste hors scène.\n\nTu vas porter cela à Mademoiselle {{r4}}… Aie bien soin de ce pot : il contient des confitures, mais des confitures de l’Inde, au bambou et à l’ananas… elles valent trois cents francs le pot… Va et reviens au plus vite.\n\nScène VI\n\n{{r1}}, seul.\n\nDes confitures de dinde et de trois cents francs le pot !… ça doit être un peu chenu… ça me fait la chair de poule de porter quéque chose de si bon… Oh ! je veux pas en goûter, j’ai promis… c’est sacré… Mais je peux ben les sentir… Si j’ai un nez, c’est pas pour en faire un tuyau de poële… ({{r1}} se penche vers le pot invisible.) Oh ! qu’elles sentent bonnes ! qu’elles sentent bonnes ! ça sent la violette, la rose, le jasmin et le jus de saucisse !… Allons, allons ! emportons-les… ({{r1}} avance de quelques pas.) Oh ! cette odeur me prend le nez ; ça me met sens dessus dessous. Elles doivent être bien jolies… si je les regardais !… ça n’en ôtera pas ; et si on a des quinquets, c’est bien pour s’en servir. (Le papier du pot est retiré hors scène.) Oh ! quelle jolie couleur ! couleur de pomme, couleur de vin… Elles me donnent dans l’œil ; ça me fait comme un rayon de soleil dans un siau d’eau… Allons, allons, pas de bêtises, emportons-les… ({{r1}} avance de quelques pas.) Tiens, j’y ai touché ! j’en ai goûté ! si je continuais… ({{r1}} se balance en savourant.) Oh ! que c’est bon ! que c’est bon ! qué velours dans la corgniôle ! Bah ! j’y goûte encore. ({{r1}} se penche vers la coulisse.) Oh ! je n’y tiens plus, je n’y tiens plus. ({{r1}} disparaît un instant derrière le castelet puis remonte : le pot reste invisible.)… Ah ! malheureux, qu’ai-je fait ?… y en a-t-il encore ? (Il regarde.) Il n’y a plus rien… Ah ! gredin, te manges pour trois cents francs de confitures ! c’est plus que te ne vaux… Que faire du pot à présent ?… Je vais tout de même le porter… on croira que c’est le chat qui les a mangées. (Il sort.)\n\nScène VII\n\n{{r2}}, puis {{r1}}.\n\n{{r2}} avait suivi de loin les hésitations de {{r1}} et connaissait à présent la vérité.\n\nJ’espère que mon pari est gagné à présent… Ah ! Monsieur le gourmand, après le péché la pénitence… à nous deux maintenant… Le voici ! il a été leste.\n\n{{r1}}, arrivant. (À part.)\n\nJ’ai laissé le pot à la salle à manger ; personne ne m’a vu.\n\n{{r2}}.\n\nAs-tu fait ma commission ?\n\n{{r1}}.\n\nOui, maître.\n\n{{r2}}.\n\nMademoiselle {{r4}} était-elle chez elle ?\n\n{{r1}}.\n\nOui, maître.\n\n{{r2}}.\n\nA-t-elle regardé ce que tu lui apportais ?\n\n{{r1}}.\n\n(À part.) Il faut que je mente à présent. Allons, un de plus. (Haut.) Oui, maître. ({{r1}} aperçoit qu’il a laissé sur la bande la couverture du pot et cherche à la faire tomber.)\n\n{{r2}}.\n\nEn a-t-elle goûté ?\n\n{{r1}}.\n\nOui, maître ; oui, maître ; elle les a trouvées très-bonnes. (À part.) Je ments avec un aplomb…\n\n{{r2}}.\n\nAh ! malheureux, qu’ai-je fait ?\n\n{{r1}}.\n\nQuoi donc, borgeois ?\n\n{{r2}}.\n\nCours vite, mon cher {{r1}} ; cours, empêche qu’elle n’en mange encore !\n\n{{r1}}.\n\nN’y a pas de risque ; mais quoi donc qu’y a ?\n\n{{r2}}.\n\nJ’étais fou, vois-tu ! Ce matin, j’ai eu une querelle avec Mademoiselle {{r4}} ; elle m’a défendu de la revoir. J’ai cru qu’elle voulait en épouser un autre… La jalousie… la colère m’ont égaré… j’ai voulu me tuer… mais j’ai voulu me venger aussi… Ces confitures que je lui ai envoyées… elles étaient empoisonnées.\n\n{{r1}}.\n\nEmpoisonnées ! ah ! ({{r1}} pousse un cri et s’affaisse derrière le bord du castelet.) Je suis mort.\n\n{{r2}}.\n\nComment, mort ?… Est-ce que tu en aurais mangé ?\n\n{{r1}}.\n\nJ’en ai goûté une petite braise… Ah ! maître, ça me brûle !\n\n{{r2}}.\n\nJe vais te faire faire du contre-poison.\n\n{{r1}}.\n\nAh ! maître, faites-en faire un plein chaudron… Que je souffre ! que je souffre !…\n\nScène VIII\n\nles mêmes, {{r3}}, {{r4}}.\n\n{{r4}}.\n\nMais qu’y a-t-il donc ?\n\n{{r3}}.\n\nQu’a donc ce maraud à hurler ainsi ?\n\n{{r1}}.\n\nIl y a que je suis mort : pas plus que çà !\n\n{{r4}}.\n\nComment tu es mort, et tu parles ?\n\n{{r1}}.\n\nJe me suis conservé la parole… mais il ne me reste plus que cela.\n\n{{r3}}.\n\nVoilà un nouveau genre de mort. Mais qu’est-ce qui t’a tué ?\n\n{{r1}}.\n\nJ’ai pris le bocon… j’ai mangé de la poison.\n\n{{r2}}.\n\nMademoiselle, je l’avais chargé de vous porter des confitures ; il les a mangées en route, et pour le punir je lui ai fait croire qu’elles étaient empoisonnées.\n\n{{r4}}.\n\nAh ! vilain gourmand ! tu m’as fait perdre ma gageure.\n\n{{r3}}.\n\nAllons, drôle, relève-toi ! Tu n’es pas mort du tout.\n\n{{r1}}.\n\nVous croyez ?… Non, vrai, si je suis mort, il vaut mieux le dire.\n\n{{r2}}.\n\nRelève-toi donc : il n’y a de vrai dans tout cela que ta gourmandise.\n\n{{r1}}, se relevant.\n\nAh ! j’ai eu une fière favette, tout de même.\n\n{{r2}}.\n\nMademoiselle, puisque j’ai gagné ma gageure, ne me direz-vous pas la nouvelle que vous m’apportiez ce matin ?\n\n{{r4}}.\n\nIl le faut bien, Monsieur ; je venais vous annoncer que mon père consent à notre mariage.\n\n{{r2}}.\n\nQuel bonheur ! mon père !\n\n{{r3}}.\n\nJe suis très-heureux de cette union. Ma bru, embrassez-moi… ({{r3}} et {{r4}} se touchent brièvement de tout leur corps.) Et ce drôle ?\n\n{{r2}}.\n\nMon père, il faut lui pardonner, puisque sa sottise vient d’être l’occasion d’une telle joie pour votre fils.\n\n{{r3}}.\n\nEh bien ! je vous le donne. Il entrera à votre service le jour de votre mariage.\n\n{{r2}}, à {{r1}}.\n\nTe voilà corrigé, je l’espère.\n\n{{r1}}.\n\nOui, not’maître. Cependant le jour de la noce je pourrai bien faire bombance ? Ce sera la dernière fois.\n\n{{r2}}.\n\nAh ! mes pauvres confitures !\n\n{{r1}},  au public.\n\nAir : J’aime les petits pâtés.\n\nMon amour pour le pâté\n\nEt la confiture\n\nM’a plus d’une fois jeté\n\nEn triste aventure.\n\nTout d’ mêm’ si vous en riez,\n\nAujourd’hui je chanterai :\n\nLa bonne aventure, oh gué !\n\nLa bonne aventure !\n\nfin du pot de confitures.",
+      "changements": [
+        "Les noms des quatre personnages suivent la distribution. Les huit scènes de la source sont conservées.",
+        "La plaisanterie sur le strabisme est retirée conformément à la consigne universelle sur les moqueries d’infirmité.",
+        "Les prises et manipulations précises du pot sont remplacées par des mouvements du corps ; la couverture oubliée est racontée.",
+        "Les désignations de Guignol comme garçon deviennent son métier de domestique ; le lien de filiation d’Émilie devient enfant. La colère collective est exprimée sans accord conjoint."
+      ]
+    }
+  },
+  "dureeEstimeeSecondes": 1449,
+  "interactionsOrdonnees": [
+    "a1e30",
+    "a2e52",
+    "a3e20",
+    "a3e106",
+    "a1e58",
+    "a2e26"
+  ]
+}

@@ -1,0 +1,911 @@
+{
+  "id": "de-roitelet-et-ours--1",
+  "conteId": "de-roitelet-et-ours",
+  "titre": "Le Roitelet et l’Ours",
+  "pitch": "{{r2}} insulte la nichée de {{r1}} ; une guerre éclate, et la paix vient seulement après ses excuses.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "roitelet",
+      "famille": "oiseau",
+      "traits": [
+        "fierté",
+        "courage",
+        "petitesse"
+      ],
+      "voix": "voix claire et décidée",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e5:texte",
+            "avant": "le roi des oiseaux",
+            "apres": "la reine des oiseaux"
+          },
+          {
+            "id": "a1e16:texte",
+            "avant": "des enfants de roi",
+            "apres": "des enfants de reine"
+          },
+          {
+            "id": "a1e25:texte",
+            "avant": "le vieux roi",
+            "apres": "la vieille reine"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "lui,",
+            "apres": "elle,"
+          },
+          {
+            "id": "a3e17:ton",
+            "avant": "joyeux",
+            "apres": "joyeuse"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "devant lui",
+            "apres": "devant elle"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r2",
+      "espece": "ours",
+      "famille": "gros",
+      "traits": [
+        "curiosité",
+        "grognement",
+        "vanité"
+      ],
+      "voix": "voix grave et ronflante",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e12:texte",
+            "avant": "il voulait",
+            "apres": "elle voulait"
+          },
+          {
+            "id": "a1e12:texte",
+            "avant": "il revint",
+            "apres": "elle revint"
+          },
+          {
+            "id": "a1e12:texte",
+            "avant": "Il jeta",
+            "apres": "Elle jeta"
+          },
+          {
+            "id": "a1e16:ton",
+            "avant": "moqueur",
+            "apres": "moqueuse"
+          },
+          {
+            "id": "a1e32:texte",
+            "avant": "Vieux grognon",
+            "apres": "Vieille grognonne"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "il appela",
+            "apres": "elle appela"
+          },
+          {
+            "id": "a4e5:texte",
+            "avant": "Vieux grognon",
+            "apres": "Vieille grognonne"
+          },
+          {
+            "id": "a4e10:texte",
+            "avant": "mort de peur",
+            "apres": "morte de peur"
+          },
+          {
+            "id": "a1e24:texte",
+            "avant": "est venu",
+            "apres": "est venue"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "il appela",
+            "apres": "elle appela"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "devant lui",
+            "apres": "devant elle"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r3",
+      "espece": "renard",
+      "famille": "predateur",
+      "traits": [
+        "ruse",
+        "vanité"
+      ],
+      "voix": "voix agile et nette",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2e12:texte",
+            "avant": "le plus malin",
+            "apres": "la plus maligne"
+          },
+          {
+            "id": "a2e12:texte",
+            "avant": "général",
+            "apres": "générale"
+          },
+          {
+            "id": "a2e24:texte",
+            "avant": "le général",
+            "apres": "la générale"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "le général commandant",
+            "apres": "la générale commandant"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r4",
+      "espece": "moustique",
+      "famille": "bestiole",
+      "traits": [
+        "petitesse",
+        "ruse"
+      ],
+      "voix": "voix fine et bourdonnante",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2e4:texte",
+            "avant": "le plus rusé",
+            "apres": "la plus rusée"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "Il vola",
+            "apres": "Elle vola"
+          },
+          {
+            "id": "a2e23:texte",
+            "avant": "il rentra",
+            "apres": "elle rentra"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r5",
+      "espece": "loup",
+      "famille": "predateur",
+      "traits": [
+        "prudence",
+        "peur"
+      ],
+      "voix": "voix basse et posée",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e4:texte",
+            "avant": "Frère",
+            "apres": "Sœur"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r6",
+      "espece": "roitelet",
+      "famille": "oiseau",
+      "traits": [
+        "entêtement",
+        "fierté"
+      ],
+      "voix": "voix jeune, collective et ferme",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e18:ton",
+            "avant": "indigné",
+            "apres": "indignée"
+          },
+          {
+            "id": "a3e20:ton",
+            "avant": "résolu",
+            "apres": "résolue"
+          }
+        ]
+      },
+      "especeImposee": true
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 12,
+    "ageAuditoire": 4,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La forêt et le nid",
+      "description": "Un fond fixe dessine la forêt, la tanière de {{r2}} et le trou du nid. La reine et les autres petits restent dans la narration. Aucun élément du décor ne se détache.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "Le lieu de la bataille",
+      "description": "Le même fond fixe suffit : côté gauche pour les oiseaux et côté droit pour les quatre-pattes. La queue cousue de {{r3}} change de direction lorsque toute la peluche bascule ; le frelon et ses trois piqûres existent dans le récit.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t3",
+      "titre": "Le nid de la réconciliation",
+      "description": "Le nid dessiné reste visible. {{r2}} avance puis s’arrête devant lui ; la fête finale est racontée sans accessoires à saisir.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Le nid et l’insulte",
+      "resume": "{{r2}} découvre le nid ; {{r6}} et la nichée refusent de manger après l’insulte.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Un jour d’été, {{r2}} et {{r5}} se promenaient dans la forêt. {{r2}} entendit un oiseau chanter très joliment et dit :"
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e3",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e4",
+          "type": "replique",
+          "texte": "Frère {{r5}}, quel est cet oiseau qui chante si bien ?",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a1e5",
+          "type": "replique",
+          "texte": "C’est le roi des oiseaux, nous devons nous incliner devant lui.",
+          "marionnetteId": "r5"
+        },
+        {
+          "id": "a1e6",
+          "type": "conteur",
+          "texte": "Mais c’était {{r1}}."
+        },
+        {
+          "id": "a1e7",
+          "type": "replique",
+          "texte": "Si c’est ainsi, j’aimerais bien voir aussi son palais royal. Viens, conduis-moi.",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a1e8",
+          "type": "replique",
+          "texte": "Ça ne se fait pas comme tu crois. Il faut attendre que madame la reine arrive.",
+          "marionnetteId": "r5"
+        },
+        {
+          "id": "a1e9",
+          "type": "conteur",
+          "texte": "Peu après arriva madame la reine, avec de la nourriture pour la nichée, et {{r1}} aussi : la famille voulait donner à manger à ses enfants. {{r2}} aurait bien voulu les suivre tout de suite, mais {{r5}} se plaça devant {{r2}} et dit :"
+        },
+        {
+          "id": "a1e10",
+          "type": "replique",
+          "texte": "Non, il faut attendre le départ des deux parents.",
+          "marionnetteId": "r5"
+        },
+        {
+          "id": "a1e11",
+          "type": "adresse_public",
+          "texte": "Répétez le mot d’ordre avec moi : « attendons ! »",
+          "marionnetteId": "r5",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e12",
+          "type": "conteur",
+          "texte": "Le duo repéra donc le trou où se trouvait le nid, et s’en alla au trot. Mais {{r2}} n’avait pas de repos : il voulait voir le palais royal, et au bout d’un petit moment, il revint. {{r1}} et la reine avaient bien quitté les lieux. Il jeta un coup d’œil à l’intérieur et vit cinq ou six enfants au repos là."
+        },
+        {
+          "id": "a1e13",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e14",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a1e15",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e16",
+          "type": "replique",
+          "texte": "C’est ça, le palais royal ! C’est un palais minable ! Et vous n’êtes pas des enfants de roi, vous êtes des enfants de rien du tout !",
+          "marionnetteId": "r2",
+          "ton": "moqueur"
+        },
+        {
+          "id": "a1e17",
+          "type": "conteur",
+          "texte": "Quand {{r6}} et la nichée entendirent cela, la colère monta et leur cri éclata :"
+        },
+        {
+          "id": "a1e18",
+          "type": "replique",
+          "texte": "Non, ce n’est pas vrai ! Nos parents sont des gens honnêtes ! {{r2}}, tu vas nous le payer !",
+          "marionnetteId": "r6",
+          "ton": "indigné"
+        },
+        {
+          "id": "a1e19",
+          "type": "adresse_public",
+          "texte": "Répétez notre protestation : « ce n’est pas vrai ! »",
+          "marionnetteId": "r6",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e20",
+          "type": "conteur",
+          "texte": "{{r2}} et {{r5}} prirent peur, firent demi-tour et allèrent s’asseoir dans leurs tanières. Mais {{r6}} et la nichée continuèrent à crier et à tempêter, et quand leurs parents rapportèrent à manger, leur refus éclata :"
+        },
+        {
+          "id": "a1e21",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e22",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a1e23",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e24",
+          "type": "replique",
+          "texte": "Nous ne toucherons pas à une seule patte de mouche, même si nous devons mourir de faim, tant que vous n’aurez pas réglé si nous sommes des enfants honnêtes ou non. {{r2}} est venu et a insulté notre nichée.",
+          "marionnetteId": "r6"
+        },
+        {
+          "id": "a1e25",
+          "type": "conteur",
+          "texte": "Alors le vieux roi dit :"
+        },
+        {
+          "id": "a1e26",
+          "type": "replique",
+          "texte": "Calmez-vous, cela sera réglé.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a1e27",
+          "type": "adresse_public",
+          "texte": "Soufflez doucement pour calmer la nichée.",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e28",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e29",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a1e30",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e31",
+          "type": "conteur",
+          "texte": "{{r1}} s’envola avec madame la reine jusque devant la tanière de {{r2}} et cria à l’intérieur :"
+        },
+        {
+          "id": "a1e32",
+          "type": "replique",
+          "texte": "Vieux grognon, pourquoi as-tu insulté mes enfants ? Tu vas le regretter. Nous allons régler cela par la guerre !",
+          "marionnetteId": "r1",
+          "ton": "ferme"
+        },
+        {
+          "id": "a1e33",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e34",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Le signal de {{r3}}",
+      "resume": "Les deux armées se rassemblent ; {{r4}} découvre le signal de {{r3}}.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "La guerre fut donc déclarée à {{r2}}, et il appela tous les animaux à quatre pattes : le bœuf, l’âne, la vache, le cerf, le chevreuil, et tout ce que la terre porte. {{r1}}, lui, appela tout ce qui vole dans l’air : non seulement les oiseaux, grands et petits, mais aussi les moustiques, les frelons, les abeilles et les mouches."
+        },
+        {
+          "id": "a2e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e3",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e4",
+          "type": "conteur",
+          "texte": "Quand le moment de la guerre approcha, {{r1}} envoya des espions pour savoir qui était le général commandant l’ennemi. {{r4}} était le plus rusé de tous. Il vola en bourdonnant dans la forêt où l’ennemi se rassemblait, et se posa enfin sous une feuille, sur l’arbre où l’on donnait le mot d’ordre."
+        },
+        {
+          "id": "a2e5",
+          "type": "adresse_public",
+          "texte": "Bourdonnez tout doucement : bzz... pour que personne ne me remarque.",
+          "marionnetteId": "r4",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e6",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e7",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e8",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a2e9",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e10",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e11",
+          "type": "conteur",
+          "texte": "Là se tenait {{r2}} ; il appela {{r3}} devant lui et dit :"
+        },
+        {
+          "id": "a2e12",
+          "type": "replique",
+          "texte": "{{r3}}, tu es le plus malin de tous les animaux, tu seras général et tu nous commanderas.",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a2e13",
+          "type": "replique",
+          "texte": "Bien, mais de quel signal allons-nous convenir ?",
+          "marionnetteId": "r3"
+        },
+        {
+          "id": "a2e14",
+          "type": "conteur",
+          "texte": "Personne ne savait. Alors {{r3}} dit :"
+        },
+        {
+          "id": "a2e15",
+          "type": "didascalie",
+          "texte": "Pendant la réplique, {{r3}} bascule tout son corps vers le haut, puis vers le bas, pour montrer les deux signaux."
+        },
+        {
+          "id": "a2e16",
+          "type": "replique",
+          "texte": "J’ai une belle queue longue et touffue, qui ressemble presque à un plumet rouge. Quand je lèverai la queue, tout ira bien et vous devrez foncer. Mais si je la laisse pendre, sauvez-vous à toutes jambes.",
+          "marionnetteId": "r3"
+        },
+        {
+          "id": "a2e17",
+          "type": "adresse_public",
+          "texte": "Essayons le signal : quand tout va bien, dites « on fonce ! »",
+          "marionnetteId": "r3",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e18",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e19",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e20",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a2e21",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e22",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e23",
+          "type": "conteur",
+          "texte": "Quand {{r4}} eut entendu cela, il rentra et raconta tout à {{r1}}, dans les moindres détails :"
+        },
+        {
+          "id": "a2e24",
+          "type": "replique",
+          "texte": "{{r3}} est le général. Quand sa queue sera levée, il faudra foncer ; si elle pend, l’armée devra se sauver.",
+          "marionnetteId": "r4",
+          "ton": "à voix basse"
+        },
+        {
+          "id": "a2e25",
+          "type": "adresse_public",
+          "texte": "Répétez le signe de la fuite : « la queue en bas ! »",
+          "marionnetteId": "r4",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e26",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e27",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Trois piqûres",
+      "resume": "Le frelon pique {{r3}} trois fois ; les quatre-pattes s’enfuient, mais la nichée refuse encore le repas.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "conteur",
+          "texte": "Quand le jour de la bataille se leva, oh là là ! les animaux à quatre pattes arrivèrent au galop dans un tel fracas que la terre tremblait. {{r1}} arriva aussi par les airs avec son armée, qui vrombissait, criait et tourbillonnait à vous faire peur. Et les deux armées s’avancèrent l’une contre l’autre. Mais {{r1}} envoya le frelon : il devait se poser sous la queue de {{r3}} et piquer de toutes ses forces."
+        },
+        {
+          "id": "a3e2",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e3",
+          "type": "adresse_public",
+          "texte": "Comptez les piqûres avec moi : un, deux, trois !",
+          "marionnetteId": "r3",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e4",
+          "type": "conteur",
+          "texte": "Au premier coup d’aiguillon,"
+        },
+        {
+          "id": "a3e5",
+          "type": "didascalie",
+          "texte": "{{r3}} sursaute de tout son corps, puis garde la queue vers le haut en maintenant cette inclinaison."
+        },
+        {
+          "id": "a3e6",
+          "type": "conteur",
+          "texte": "Au deuxième,"
+        },
+        {
+          "id": "a3e7",
+          "type": "didascalie",
+          "texte": "{{r3}} bascule un instant, la queue vers le bas, puis reprend la position précédente."
+        },
+        {
+          "id": "a3e8",
+          "type": "conteur",
+          "texte": "Au troisième,"
+        },
+        {
+          "id": "a3e9",
+          "type": "didascalie",
+          "texte": "{{r3}} bascule tout son corps : la queue descend et reste tout en bas."
+        },
+        {
+          "id": "a3e10",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Aaah !",
+          "ton": "de douleur"
+        },
+        {
+          "id": "a3e11",
+          "type": "conteur",
+          "texte": "Quand l’armée des quatre-pattes vit cela, elle crut que tout était perdu et se mit à courir, chaque bête vers sa tanière. Et les oiseaux avaient gagné la bataille."
+        },
+        {
+          "id": "a3e12",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e13",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a3e14",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e15",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e16",
+          "type": "conteur",
+          "texte": "Alors {{r1}} et madame la reine rentrèrent vers leur nichée et crièrent :"
+        },
+        {
+          "id": "a3e17",
+          "type": "replique",
+          "texte": "Les enfants, réjouissez-vous, mangez et buvez tout votre content, nous avons gagné la guerre !",
+          "marionnetteId": "r1",
+          "ton": "joyeux"
+        },
+        {
+          "id": "a3e18",
+          "type": "adresse_public",
+          "texte": "Annoncez la victoire : dites « nous avons gagné ! »",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e19",
+          "type": "conteur",
+          "texte": "Mais {{r6}} et la nichée dirent :"
+        },
+        {
+          "id": "a3e20",
+          "type": "replique",
+          "texte": "Nous ne mangerons pas encore. {{r2}} doit d’abord venir devant le nid demander pardon, et dire que nous sommes des enfants honnêtes.",
+          "marionnetteId": "r6",
+          "ton": "résolu"
+        },
+        {
+          "id": "a3e21",
+          "type": "adresse_public",
+          "texte": "Dites ce qu’il nous manque encore : « pardon ! »",
+          "marionnetteId": "r6",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e22",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e23",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "numero": 4,
+      "titre": "Les excuses et le repas",
+      "resume": "{{r2}} s’excuse devant le nid ; la famille mange et fête la paix jusque tard dans la nuit.",
+      "tableauId": "t3",
+      "elements": [
+        {
+          "id": "a4e1",
+          "type": "conteur",
+          "texte": "Alors {{r1}} vola jusqu’à la tanière de {{r2}} et cria :"
+        },
+        {
+          "id": "a4e2",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a4e3",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e4",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e5",
+          "type": "replique",
+          "texte": "Vieux grognon, tu vas venir devant le nid demander pardon à mes enfants et dire que la nichée est honnête, sinon on te piétinera les côtes !",
+          "marionnetteId": "r1",
+          "ton": "ferme"
+        },
+        {
+          "id": "a4e6",
+          "type": "adresse_public",
+          "texte": "Montrez le chemin du nid avec votre voix : « par ici ! »",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e7",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e8",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a4e9",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e10",
+          "type": "conteur",
+          "texte": "Alors {{r2}}, mort de peur, rampa jusqu’au nid :"
+        },
+        {
+          "id": "a4e11",
+          "type": "replique",
+          "texte": "Pardon. Vous êtes des enfants honnêtes.",
+          "marionnetteId": "r2",
+          "ton": "humble"
+        },
+        {
+          "id": "a4e12",
+          "type": "conteur",
+          "texte": "Et c’est seulement à ce moment-là que la joie revint dans la nichée. La famille s’installa ensemble, mangea, but et fit la fête jusque tard dans la nuit."
+        },
+        {
+          "id": "a4e13",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e14",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "de-roitelet-et-ours",
+    "synopsis": {
+      "accroche": "Une insulte au nid soulève toute la forêt.",
+      "resume": [
+        "{{r2}} insulte la nichée de {{r1}} ; celle-ci refuse de manger.",
+        "{{r1}} déclare la guerre ; {{r4}} découvre le signal de {{r3}}.",
+        "Le frelon pique {{r3}} trois fois, l’armée s’enfuit, mais la nichée attend encore des excuses.",
+        "{{r2}} demande pardon ; la famille fête la paix jusque tard dans la nuit."
+      ]
+    },
+    "transposition": {
+      "texte": "Un jour d’été, {{r2}} et {{r5}} se promenaient dans la forêt. {{r2}} entendit un oiseau chanter très joliment et dit :\n\n— Frère {{r5}}, quel est cet oiseau qui chante si bien ?\n\n— C’est le roi des oiseaux, nous devons nous incliner devant lui.\n\nMais c’était {{r1}}.\n\n— Si c’est ainsi, j’aimerais bien voir aussi son palais royal. Viens, conduis-moi.\n\n— Ça ne se fait pas comme tu crois. Il faut attendre que madame la reine arrive.\n\nPeu après arriva madame la reine, avec de la nourriture pour la nichée, et {{r1}} aussi : la famille voulait donner à manger à ses enfants. {{r2}} aurait bien voulu les suivre tout de suite, mais {{r5}} se plaça devant {{r2}} et dit :\n\n— Non, il faut attendre le départ des deux parents.\n\nLe duo repéra donc le trou où se trouvait le nid, et s’en alla au trot. Mais {{r2}} n’avait pas de repos : il voulait voir le palais royal, et au bout d’un petit moment, il revint. {{r1}} et la reine avaient bien quitté les lieux. Il jeta un coup d’œil à l’intérieur et vit cinq ou six enfants au repos là.\n\n— C’est ça, le palais royal ! C’est un palais minable ! Et vous n’êtes pas des enfants de roi, vous êtes des enfants de rien du tout !\n\nQuand {{r6}} et la nichée entendirent cela, la colère monta et leur cri éclata :\n\n— Non, ce n’est pas vrai ! Nos parents sont des gens honnêtes ! {{r2}}, tu vas nous le payer !\n\n{{r2}} et {{r5}} prirent peur, firent demi-tour et allèrent s’asseoir dans leurs tanières. Mais {{r6}} et la nichée continuèrent à crier et à tempêter, et quand leurs parents rapportèrent à manger, leur refus éclata :\n\n— Nous ne toucherons pas à une seule patte de mouche, même si nous devons mourir de faim, tant que vous n’aurez pas réglé si nous sommes des enfants honnêtes ou non. {{r2}} est venu et a insulté notre nichée.\n\nAlors le vieux roi dit :\n\n— Calmez-vous, cela sera réglé.\n\n{{r1}} s’envola avec madame la reine jusque devant la tanière de {{r2}} et cria à l’intérieur :\n\n— Vieux grognon, pourquoi as-tu insulté mes enfants ? Tu vas le regretter. Nous allons régler cela par la guerre !\n\nLa guerre fut donc déclarée à {{r2}}, et il appela tous les animaux à quatre pattes : le bœuf, l’âne, la vache, le cerf, le chevreuil, et tout ce que la terre porte. {{r1}}, lui, appela tout ce qui vole dans l’air : non seulement les oiseaux, grands et petits, mais aussi les moustiques, les frelons, les abeilles et les mouches.\n\nQuand le moment de la guerre approcha, {{r1}} envoya des espions pour savoir qui était le général commandant l’ennemi. {{r4}} était le plus rusé de tous. Il vola en bourdonnant dans la forêt où l’ennemi se rassemblait, et se posa enfin sous une feuille, sur l’arbre où l’on donnait le mot d’ordre.\n\nLà se tenait {{r2}} ; il appela {{r3}} devant lui et dit :\n\n— {{r3}}, tu es le plus malin de tous les animaux, tu seras général et tu nous commanderas.\n\n— Bien, mais de quel signal allons-nous convenir ?\n\nPersonne ne savait. Alors {{r3}} dit :\n\n— J’ai une belle queue longue et touffue, qui ressemble presque à un plumet rouge. Quand je lèverai la queue, tout ira bien et vous devrez foncer. Mais si je la laisse pendre, sauvez-vous à toutes jambes.\n\nQuand {{r4}} eut entendu cela, il rentra et raconta tout à {{r1}}, dans les moindres détails :\n\n— {{r3}} est le général. Quand sa queue sera levée, il faudra foncer ; si elle pend, l’armée devra se sauver.\n\nQuand le jour de la bataille se leva, oh là là ! les animaux à quatre pattes arrivèrent au galop dans un tel fracas que la terre tremblait. {{r1}} arriva aussi par les airs avec son armée, qui vrombissait, criait et tourbillonnait à vous faire peur. Et les deux armées s’avancèrent l’une contre l’autre. Mais {{r1}} envoya le frelon : il devait se poser sous la queue de {{r3}} et piquer de toutes ses forces.\n\nAu premier coup d’aiguillon, {{r3}} sursauta, mais il tint bon et garda la queue en l’air. Au deuxième, il dut la baisser un instant. Au troisième, il ne put plus se retenir : il cria et mit la queue entre les jambes. Quand l’armée des quatre-pattes vit cela, elle crut que tout était perdu et se mit à courir, chaque bête vers sa tanière. Et les oiseaux avaient gagné la bataille.\n\nAlors {{r1}} et madame la reine rentrèrent vers leur nichée et crièrent :\n\n— Les enfants, réjouissez-vous, mangez et buvez tout votre content, nous avons gagné la guerre !\n\nMais {{r6}} et la nichée dirent :\n\n— Nous ne mangerons pas encore. {{r2}} doit d’abord venir devant le nid demander pardon, et dire que nous sommes des enfants honnêtes.\n\nAlors {{r1}} vola jusqu’à la tanière de {{r2}} et cria :\n\n— Vieux grognon, tu vas venir devant le nid demander pardon à mes enfants et dire que la nichée est honnête, sinon on te piétinera les côtes !\n\nAlors {{r2}}, mort de peur, rampa jusqu’au nid :\n\n— Pardon. Vous êtes des enfants honnêtes.\n\nEt c’est seulement à ce moment-là que la joie revint dans la nichée. La famille s’installa ensemble, mangea, but et fit la fête jusque tard dans la nuit."
+    }
+  },
+  "dureeEstimeeSecondes": 659,
+  "interactionsOrdonnees": [
+    "a3e3",
+    "a2e25",
+    "a1e19",
+    "a3e21",
+    "a2e5",
+    "a2e17",
+    "a3e18",
+    "a1e11",
+    "a4e6",
+    "a1e27"
+  ]
+}

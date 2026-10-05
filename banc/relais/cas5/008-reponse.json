@@ -1,0 +1,14 @@
+{"elements": [
+  {"type": "note_marionnettiste", "texte": "Voix du conteur, en coulisse, avant les premiers coups de hache : « Le père d'Askeladden est pauvre ; il a envoyé ses fils couper du bois, pour payer ses dettes. »"},
+  {"type": "didascalie", "texte": "En coulisse, on frappe deux coups sur la table : quelque part dans la forêt, Askeladden coupe du bois."},
+  {"type": "entree", "marionnette": "Grand Ours", "main": "M1D"},
+  {"type": "didascalie", "texte": "Grand Ours surgit et se dresse de toute sa hauteur."},
+  {"type": "adresse_public", "marionnette": "Grand Ours", "texte": "Je vais lui faire une peur bleue avec ma plus grosse voix. Vous grondez avec moi ?", "attenteReponse": true},
+  {"type": "didascalie", "texte": "Grand Ours prend une grande respiration. Les enfants grondent avec lui."},
+  {"type": "replique", "marionnette": "Grand Ours", "texte": "Si tu coupes dans ma forêt, gare à toi !", "ton": "très fort, en grondant"},
+  {"type": "note_marionnettiste", "texte": "Voix d'Askeladden, en coulisse, en pressant son fromage : « Si tu ne te tais pas, je vais t'écraser comme j'écrase l'eau de cette pierre blanche ! »"},
+  {"type": "didascalie", "texte": "Grand Ours recule d'un bond et tremble de tous ses poils."},
+  {"type": "replique", "marionnette": "Grand Ours", "texte": "Non, mon ami, épargne-moi. Je vais t'aider à couper le bois.", "ton": "tremblant, suppliant"},
+  {"type": "note_marionnettiste", "texte": "Voix d'Askeladden, en coulisse : « D'accord, je te laisse tranquille. Viens m'aider. »"},
+  {"type": "didascalie", "texte": "Grand Ours se penche et cogne le sol de toutes ses forces, encore et encore : la journée entière passe au rythme de ses coups."}
+]}

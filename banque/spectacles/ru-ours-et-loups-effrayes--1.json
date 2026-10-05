@@ -1,0 +1,1382 @@
+{
+  "id": "ru-ours-et-loups-effrayes--1",
+  "conteId": "ru-ours-et-loups-effrayes",
+  "titre": "L’Ours et les Loups effrayés",
+  "pitch": "{{r1}} et {{r2}} font peur à douze loups avec une seule tête de loup en bois. De bouche en bouche, leur réputation enfle jusqu’à effrayer {{r3}}.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "chat",
+      "famille": "predateur",
+      "traits": [
+        "rusé",
+        "coquin",
+        "vantard"
+      ],
+      "voix": "voix fine et malicieuse, qui ronronne quand il parle",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "voix:r1",
+            "avant": "il parle",
+            "apres": "elle parle"
+          },
+          {
+            "id": "a1e10:texte",
+            "avant": "l’avez vu près de la crème",
+            "apres": "l’avez vue près de la crème"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "c’est bien lui",
+            "apres": "c’est bien elle"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "Il faut le punir",
+            "apres": "Il faut la punir"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "Frère, qu’est-ce",
+            "apres": "Sœur, qu’est-ce"
+          },
+          {
+            "id": "a2e13:texte",
+            "avant": "frère ",
+            "apres": "sœur "
+          },
+          {
+            "id": "a3e25:texte",
+            "avant": "qu’il est féroce",
+            "apres": "qu’elle est féroce"
+          },
+          {
+            "id": "a3e25:texte",
+            "avant": "Il est assis sur une souche",
+            "apres": "Elle est assise sur une souche"
+          },
+          {
+            "id": "a3e25:texte",
+            "avant": "il la déchire avec ses griffes",
+            "apres": "elle la déchire avec ses griffes"
+          },
+          {
+            "id": "a3e25:texte",
+            "avant": "qu’il aiguise ses couteaux",
+            "apres": "qu’elle aiguise ses couteaux"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "était arrivé",
+            "apres": "était arrivée"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "s’était caché",
+            "apres": "s’était cachée"
+          },
+          {
+            "id": "a2e5:texte",
+            "avant": "le bienvenu",
+            "apres": "la bienvenue"
+          },
+          {
+            "id": "a3e71:texte",
+            "avant": "il vit",
+            "apres": "elle vit"
+          },
+          {
+            "id": "a3e71:texte",
+            "avant": "Il eut peur",
+            "apres": "Elle eut peur"
+          },
+          {
+            "id": "a3e8:texte",
+            "avant": "il a vite fait",
+            "apres": "elle a vite fait"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a1e1:texte",
+          "avant": "un chat",
+          "gabarit": "{un} {espece}"
+        },
+        {
+          "id": "a3e25:texte",
+          "avant": "le chat",
+          "gabarit": "{le} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r2",
+      "espece": "belier",
+      "famille": "petit",
+      "traits": [
+        "courageux",
+        "naïf",
+        "fort"
+      ],
+      "voix": "voix grave et lente, qui prend de l’élan sur les mots",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e18:texte",
+            "avant": "bien content de filer",
+            "apres": "bien contente de filer"
+          },
+          {
+            "id": "a1e16:texte",
+            "avant": "Frère ",
+            "apres": "Sœur "
+          },
+          {
+            "id": "a3e39:texte",
+            "avant": "frère ",
+            "apres": "sœur "
+          },
+          {
+            "id": "a2e12:texte",
+            "avant": "vers lui",
+            "apres": "vers elle"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a1e1:texte",
+          "avant": "un bélier",
+          "gabarit": "{un} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r3",
+      "espece": "ours",
+      "famille": "gros",
+      "traits": [
+        "fort",
+        "peureux"
+      ],
+      "voix": "voix profonde, d’abord assurée puis tremblante",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a3e74:texte",
+            "avant": "terrifié",
+            "apres": "terrifiée"
+          },
+          {
+            "id": "a3e81:texte",
+            "avant": "mal, compère",
+            "apres": "mal, commère"
+          },
+          {
+            "id": "a3e82:texte",
+            "avant": "m’aurait mangé",
+            "apres": "m’aurait mangée"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r4",
+      "espece": "renarde",
+      "famille": "predateur",
+      "traits": [
+        "bavarde",
+        "peureuse"
+      ],
+      "voix": "voix rapide et inquiète, qui accélère encore en racontant",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a3e82:texte",
+            "avant": "Non, commère",
+            "apres": "Non, compère"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r5",
+      "espece": "loup",
+      "famille": "predateur",
+      "traits": [
+        "peureux",
+        "bavard"
+      ],
+      "voix": "voix basse et pressée pour le groupe des loups",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a3e54:texte",
+            "avant": "est tombé",
+            "apres": "est tombée"
+          },
+          {
+            "id": "a2e18:texte",
+            "avant": "qu’ils auraient",
+            "apres": "qu’elles auraient"
+          },
+          {
+            "id": "a2e18:texte",
+            "avant": "ils n’osaient",
+            "apres": "elles n’osaient"
+          },
+          {
+            "id": "a2e39:texte",
+            "avant": "les premiers",
+            "apres": "les premières"
+          },
+          {
+            "id": "a2e39:texte",
+            "avant": "reviennent-ils",
+            "apres": "reviennent-elles"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "Ils rencontrent",
+            "apres": "Elles rencontrent"
+          },
+          {
+            "id": "a3e8:texte",
+            "avant": "être vifs",
+            "apres": "être vives"
+          },
+          {
+            "id": "a3e50:texte",
+            "avant": "le griffa",
+            "apres": "la griffa"
+          },
+          {
+            "id": "a3e56:texte",
+            "avant": "se sauvèrent tous",
+            "apres": "se sauvèrent toutes"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "pitch",
+          "avant": "de loup",
+          "gabarit": "{de} {espece}"
+        },
+        {
+          "id": "pitch",
+          "avant": "loups",
+          "gabarit": "{especes}"
+        },
+        {
+          "id": "voix:r5",
+          "avant": "loups",
+          "gabarit": "{especes}"
+        },
+        {
+          "id": "t2:description",
+          "avant": "de loup",
+          "gabarit": "{de} {espece}"
+        },
+        {
+          "id": "t2:accessoire:1",
+          "avant": "de loup",
+          "gabarit": "{de} {espece}"
+        },
+        {
+          "id": "a2:resume",
+          "avant": "de loup",
+          "gabarit": "{de} {espece}"
+        },
+        {
+          "id": "a2:resume",
+          "avant": "douze loups",
+          "gabarit": "douze {especes}"
+        },
+        {
+          "id": "a2:resume",
+          "avant": "Les loups",
+          "gabarit": "Les {especes}"
+        },
+        {
+          "id": "a2e1:texte",
+          "avant": "de loup",
+          "gabarit": "{de} {espece}"
+        },
+        {
+          "id": "a2e1:texte",
+          "avant": "loups",
+          "gabarit": "{especes}"
+        },
+        {
+          "id": "a2e4:texte",
+          "avant": "loups",
+          "gabarit": "{especes}"
+        },
+        {
+          "id": "a2e6:texte",
+          "avant": "loups",
+          "gabarit": "{especes}"
+        },
+        {
+          "id": "a2e11:texte",
+          "avant": "de loup",
+          "gabarit": "{de} {espece}"
+        },
+        {
+          "id": "a2e18:texte",
+          "avant": "loups",
+          "gabarit": "{especes}"
+        },
+        {
+          "id": "a2e20:texte",
+          "avant": "loups",
+          "gabarit": "{especes}"
+        },
+        {
+          "id": "a2e24:texte",
+          "avant": "loups",
+          "gabarit": "{especes}"
+        },
+        {
+          "id": "a2e28:texte",
+          "avant": "loups",
+          "gabarit": "{especes}"
+        },
+        {
+          "id": "a2e30:texte",
+          "avant": "loups",
+          "gabarit": "{especes}"
+        },
+        {
+          "id": "a2e37:texte",
+          "avant": "loups",
+          "gabarit": "{especes}"
+        },
+        {
+          "id": "a3:resume",
+          "avant": "loups",
+          "gabarit": "{especes}"
+        },
+        {
+          "id": "a3e3:texte",
+          "avant": "loups",
+          "gabarit": "{especes}"
+        },
+        {
+          "id": "a3e4:texte",
+          "avant": "loups",
+          "gabarit": "{especes}"
+        },
+        {
+          "id": "a3e9:texte",
+          "avant": "loups",
+          "gabarit": "{especes}"
+        },
+        {
+          "id": "a3e32:texte",
+          "avant": "loups",
+          "gabarit": "{especes}"
+        },
+        {
+          "id": "a3e56:texte",
+          "avant": "loups",
+          "gabarit": "{especes}"
+        }
+      ]
+    },
+    {
+      "cle": "r6",
+      "espece": "femme",
+      "famille": "adulte",
+      "traits": [
+        "grognonne",
+        "méfiante"
+      ],
+      "voix": "voix aiguë et sèche, qui appelle son vieux de loin",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a1e1:texte",
+            "avant": "un vieux et une vieille",
+            "apres": "un vieux et un vieux"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "près d’elle",
+            "apres": "près de lui"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "avant elle",
+            "apres": "avant lui"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 13,
+    "ageAuditoire": 4,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La maison et le chemin",
+      "description": "Un coussin à gauche marque la maison et un autre, plus petit, l’étable. La table entre les deux devient le chemin de la forêt. La crème est racontée : aucun pot ne passe dans une main.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "Le feu et la tête en bois",
+      "description": "Un torchon orange posé à plat figure le feu. Près du coussin qui fait le buisson, fixez avant la séance une unique tête de loup en bois, ou sa silhouette rigide, à la hauteur de {{r2}}. Elle reste fixée pendant tout le spectacle. Le corps de {{r2}} la masque, puis s’écarte pour la montrer deux fois.",
+      "accessoires": [
+        "une tête de loup en bois fixée près du coussin, ou une silhouette rigide figurant cette même tête"
+      ],
+      "promptImage": ""
+    },
+    {
+      "id": "t3",
+      "titre": "La clairière du dîner",
+      "description": "Un coussin vertical fait la souche de la sentinelle, un coussin plus haut fait le pin de {{r3}}, et un petit espace entre deux coussins fait le terrier de la marmotte. Le dîner reste imaginaire. Le signal de la sentinelle est son corps qui se dresse, sans mouchoir.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "La fuite de nuit",
+      "resume": "{{r6}} surprend {{r1}} près de la crème. {{r1}} avertit {{r2}} ; le duo quitte la maison.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Il était une fois un vieux et une vieille, qui avaient un chat, {{r1}}, et un bélier, {{r2}}. {{r6}} faisait des réserves, et {{r1}} faisait des bêtises."
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e3",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e4",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Mon vieux, il se passe quelque chose de louche dans notre cave."
+        },
+        {
+          "id": "a1e5",
+          "type": "note_marionnettiste",
+          "texte": "Voix du vieux, depuis la maison : « Il faut aller voir si quelqu’un ne vient pas voler. » Une seule voix grave, sans marionnette."
+        },
+        {
+          "id": "a1e6",
+          "type": "didascalie",
+          "texte": "{{r6}} se penche vers le coin de la cave. {{r1}} se redresse près d’elle."
+        },
+        {
+          "id": "a1e7",
+          "type": "conteur",
+          "texte": "{{r6}} alla à la cave et vit : {{r1}} léchait la crème d’un pot ouvert."
+        },
+        {
+          "id": "a1e8",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Sors de la cave !"
+        },
+        {
+          "id": "a1e9",
+          "type": "conteur",
+          "texte": "Mais {{r1}} était arrivé avant elle, et s’était caché dans un coin, en haut du poêle."
+        },
+        {
+          "id": "a1e10",
+          "type": "adresse_public",
+          "marionnetteId": "r6",
+          "texte": "Vous l’avez vu près de la crème, vous aussi ?",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e11",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Mon vieux ! Nous ne voulions pas croire que {{r1}} volait, mais c’est bien lui ! Il faut le punir !"
+        },
+        {
+          "id": "a1e12",
+          "type": "conteur",
+          "texte": "{{r1}} entendit ces paroles, sauta du poêle et courut à l’étable chez {{r2}}, et se mit à raconter des histoires à {{r2}} :"
+        },
+        {
+          "id": "a1e13",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e14",
+          "type": "didascalie",
+          "texte": "Marquez une courte pause pour changer de peluche."
+        },
+        {
+          "id": "a1e15",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e16",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Frère {{r2}} ! Demain, ils vont me punir, et toi, ils vont te manger !"
+        },
+        {
+          "id": "a1e17",
+          "type": "conteur",
+          "texte": "Le duo décida de s’enfuir de chez son maître pendant la nuit."
+        },
+        {
+          "id": "a1e18",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Mais comment faire ? Je serais bien content de filer avec toi, mais l’étable est fermée !"
+        },
+        {
+          "id": "a1e19",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ce n’est rien !"
+        },
+        {
+          "id": "a1e20",
+          "type": "didascalie",
+          "texte": "{{r1}} pousse la porte de l’étable de tout son corps. {{r2}} passe par l’ouverture."
+        },
+        {
+          "id": "a1e21",
+          "type": "conteur",
+          "texte": "Le duo partit sur la route."
+        },
+        {
+          "id": "a1e22",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Si vous êtes prêts pour la route, faites deux pas sur place !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e23",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e24",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "La même tête, deux fois",
+      "resume": "Au feu de douze loups, la même tête de loup en bois trompe la troupe. Les loups partent quatre par quatre.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "En chemin, {{r1}} et {{r2}} trouvèrent une tête de loup en bois. Le duo marcha, marcha, et vit loin dans la forêt briller un feu. Le duo alla tout droit vers le feu. En approchant : autour du feu se réchauffent douze loups."
+        },
+        {
+          "id": "a2e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e3",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e4",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Bonsoir, les loups !"
+        },
+        {
+          "id": "a2e5",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Sois le bienvenu, {{r1}} !"
+        },
+        {
+          "id": "a2e6",
+          "type": "adresse_public",
+          "marionnetteId": "r5",
+          "texte": "Combien de loups se chauffent ici ? Comptons jusqu’à douze !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e7",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e8",
+          "type": "didascalie",
+          "texte": "Marquez une courte pause pour changer de peluche."
+        },
+        {
+          "id": "a2e9",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e10",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Frère, qu’est-ce que nous aurons pour dîner ?"
+        },
+        {
+          "id": "a2e11",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Eh bien, les douze têtes de loup ! Va choisir la plus grasse."
+        },
+        {
+          "id": "a2e12",
+          "type": "didascalie",
+          "texte": "{{r2}} se place devant la tête fixée près du buisson, puis s’écarte pour la montrer. {{r1}} regarde vers lui."
+        },
+        {
+          "id": "a2e13",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Celle-ci, frère {{r1}} ?"
+        },
+        {
+          "id": "a2e14",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Non, pas celle-ci, choisis-en une meilleure."
+        },
+        {
+          "id": "a2e15",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Murmurez avec moi : « La même tête ! »",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e16",
+          "type": "didascalie",
+          "texte": "{{r2}} passe devant la tête fixée, fait un pas, puis s’écarte : exactement la même tête reparaît."
+        },
+        {
+          "id": "a2e17",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Celle-ci ?"
+        },
+        {
+          "id": "a2e18",
+          "type": "conteur",
+          "texte": "Les loups eurent si peur qu’ils auraient bien voulu s’enfuir, mais ils n’osaient pas le faire sans permission."
+        },
+        {
+          "id": "a2e19",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e20",
+          "type": "didascalie",
+          "texte": "{{r5}} représente le premier groupe de quatre loups. Marquez une courte pause pour changer de peluche."
+        },
+        {
+          "id": "a2e21",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e22",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Laissez-nous aller chercher du bois ! Nous vous en rapporterons."
+        },
+        {
+          "id": "a2e23",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e24",
+          "type": "conteur",
+          "texte": "Et le groupe de quatre loups partit."
+        },
+        {
+          "id": "a2e25",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Quatre sont partis : combien restent autour du feu ?",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e26",
+          "type": "didascalie",
+          "texte": "Marquez une courte pause pour changer de peluche."
+        },
+        {
+          "id": "a2e27",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e28",
+          "type": "conteur",
+          "texte": "Les huit autres loups eurent encore plus peur de {{r1}} et {{r2}} : si le duo avait pu en manger douze, le duo en mangerait bien huit."
+        },
+        {
+          "id": "a2e29",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e30",
+          "type": "didascalie",
+          "texte": "{{r5}} représente le deuxième groupe de quatre loups. Marquez une courte pause pour changer de peluche."
+        },
+        {
+          "id": "a2e31",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e32",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Pouvons-nous aller chercher de l’eau ?"
+        },
+        {
+          "id": "a2e33",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Allez-y, et revenez vite !"
+        },
+        {
+          "id": "a2e34",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e35",
+          "type": "conteur",
+          "texte": "{{r1}} les laissa partir."
+        },
+        {
+          "id": "a2e36",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Il en restait quatre. Tapez quatre fois sur vos genoux !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e37",
+          "type": "didascalie",
+          "texte": "{{r5}} représente le dernier groupe de quatre loups. Marquez une courte pause pour changer de peluche."
+        },
+        {
+          "id": "a2e38",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e39",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Pouvons-nous aller chercher les premiers ? Pourquoi ne reviennent-ils pas ?"
+        },
+        {
+          "id": "a2e40",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Allez-y, et revenez vite !",
+          "ton": "plus sévèrement"
+        },
+        {
+          "id": "a2e41",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e42",
+          "type": "conteur",
+          "texte": "Le duo était bien content que la troupe soit partie."
+        },
+        {
+          "id": "a2e43",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "La peur qui grandit",
+      "resume": "Les loups grossissent le récit, {{r4}} invite le duo, puis la peur gagne {{r3}} et la clairière entière.",
+      "tableauId": "t3",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e2",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e3",
+          "type": "conteur",
+          "texte": "Les loups se rassemblèrent et s’enfoncèrent loin dans la forêt. Ils rencontrent {{r3}}."
+        },
+        {
+          "id": "a3e4",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "As-tu entendu dire que {{r1}} avait mangé douze loups, et {{r2}} tout autant ?"
+        },
+        {
+          "id": "a3e5",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Non, les enfants, je n’en ai jamais entendu parler."
+        },
+        {
+          "id": "a3e6",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Nous avons vu de nos propres yeux {{r1}} et {{r2}}."
+        },
+        {
+          "id": "a3e7",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Comment pourrais-je voir moi aussi quel est leur courage ?"
+        },
+        {
+          "id": "a3e8",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Eh, {{r3}}, {{r1}} est terriblement féroce, on ne peut pas l’approcher : il a vite fait de vous mettre en pièces ! Nous avons beau être vifs avec les chiens et les lièvres, là, il n’y a rien à faire. Invitons-les plutôt à dîner."
+        },
+        {
+          "id": "a3e9",
+          "type": "adresse_public",
+          "marionnetteId": "r5",
+          "texte": "Répétez ma nouvelle : « Douze loups ! »",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e10",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e11",
+          "type": "didascalie",
+          "texte": "Marquez une courte pause pour changer de peluche."
+        },
+        {
+          "id": "a3e12",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e13",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Va, invite {{r1}} et {{r2}}."
+        },
+        {
+          "id": "a3e14",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Je suis rapide, c’est vrai, mais je ne suis pas très agile : et si {{r1}} et {{r2}} me mangeaient ?"
+        },
+        {
+          "id": "a3e15",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Vas-y !"
+        },
+        {
+          "id": "a3e16",
+          "type": "didascalie",
+          "texte": "{{r4}} trotte vers le chemin. {{r3}} reste dans la clairière."
+        },
+        {
+          "id": "a3e17",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e18",
+          "type": "didascalie",
+          "texte": "Marquez une courte pause pour changer de peluche."
+        },
+        {
+          "id": "a3e19",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e20",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Venez dîner avec nous !"
+        },
+        {
+          "id": "a3e21",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Nous viendrons."
+        },
+        {
+          "id": "a3e22",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e23",
+          "type": "didascalie",
+          "texte": "Marquez une courte pause pour changer de peluche."
+        },
+        {
+          "id": "a3e24",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e25",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "{{r1}} et {{r2}} ont promis de venir. Ah, {{r3}}, qu’il est féroce, le chat ! Il est assis sur une souche et il la déchire avec ses griffes : c’est pour nous qu’il aiguise ses couteaux ! Et ses yeux, ils lui sortent de la tête !"
+        },
+        {
+          "id": "a3e26",
+          "type": "conteur",
+          "texte": "{{r3}} prit peur."
+        },
+        {
+          "id": "a3e27",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e28",
+          "type": "didascalie",
+          "texte": "Marquez une courte pause pour changer de peluche."
+        },
+        {
+          "id": "a3e29",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e30",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Monte en sentinelle sur la souche. Quand tu verras {{r1}} et {{r2}}, dresse-toi bien haut : nous irons les accueillir."
+        },
+        {
+          "id": "a3e31",
+          "type": "didascalie",
+          "texte": "{{r5}} monte sur le coussin qui représente la souche et se dresse de toute sa hauteur."
+        },
+        {
+          "id": "a3e32",
+          "type": "conteur",
+          "texte": "On se mit à préparer le dîner ; un grand repas fut offert par quatre loups, et {{r3}} prit la marmotte comme cuisinière."
+        },
+        {
+          "id": "a3e33",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e34",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e35",
+          "type": "note_marionnettiste",
+          "texte": "La clairière reste vide le temps de changer les deux peluches."
+        },
+        {
+          "id": "a3e36",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e37",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e38",
+          "type": "conteur",
+          "texte": "Voilà {{r1}} et {{r2}} qui arrivent pour le dîner. Le duo aperçut la sentinelle, comprit la situation, et se mit d’accord."
+        },
+        {
+          "id": "a3e39",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Moi, je vais ramper tout doucement dans l’herbe et m’asseoir au pied de la souche, en face du museau de {{r5}} ; et toi, frère {{r2}}, prends ton élan et donne-lui de toutes tes forces un coup de tête !"
+        },
+        {
+          "id": "a3e40",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Pour prendre mon élan, comptez avec moi : un, deux, trois !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e41",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e42",
+          "type": "didascalie",
+          "texte": "Marquez une courte pause pour changer de peluche."
+        },
+        {
+          "id": "a3e43",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e44",
+          "type": "didascalie",
+          "texte": "{{r2}} se place face à {{r5}}. Au mot « frappa », la tête de {{r2}} touche doucement {{r5}} ; au mot « tomber », {{r5}} bascule."
+        },
+        {
+          "id": "a3e45",
+          "type": "conteur",
+          "texte": "{{r2}} prit son élan, frappa de toutes ses forces et fit tomber {{r5}}."
+        },
+        {
+          "id": "a3e46",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e47",
+          "type": "didascalie",
+          "texte": "Marquez une courte pause pour changer de peluche."
+        },
+        {
+          "id": "a3e48",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e49",
+          "type": "didascalie",
+          "texte": "{{r1}} se place au pied de la souche. Au mot « sauta », {{r1}} bondit vers le museau de {{r5}}, qui recule."
+        },
+        {
+          "id": "a3e50",
+          "type": "conteur",
+          "texte": "{{r1}} lui sauta droit au museau et le griffa."
+        },
+        {
+          "id": "a3e51",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e52",
+          "type": "didascalie",
+          "texte": "Marquez une courte pause pour changer de peluche."
+        },
+        {
+          "id": "a3e53",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e54",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Eh bien, les enfants, voilà de quoi sont capables {{r1}} et {{r2}} ! {{r5}} est tombé d’une si haute souche, alors nous, sur la terre, comment tiendrions-nous ? Notre repas, le duo s’en moque : le duo ne vient pas pour manger, mais pour nous taper dessus. Ne ferions-nous pas mieux de nous cacher ?"
+        },
+        {
+          "id": "a3e55",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Cachons-nous !"
+        },
+        {
+          "id": "a3e56",
+          "type": "conteur",
+          "texte": "Les loups se sauvèrent tous dans la forêt."
+        },
+        {
+          "id": "a3e57",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e58",
+          "type": "didascalie",
+          "texte": "Marquez une courte pause pour changer de peluche."
+        },
+        {
+          "id": "a3e59",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e60",
+          "type": "conteur",
+          "texte": "{{r3}} grimpa dans un pin, la marmotte se cacha dans son terrier, et {{r4}} se fourra sous une souche."
+        },
+        {
+          "id": "a3e61",
+          "type": "didascalie",
+          "texte": "Faites disparaître {{r3}} derrière le grand coussin et {{r4}} derrière le petit pendant la phrase du conteur."
+        },
+        {
+          "id": "a3e62",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e63",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e64",
+          "type": "note_marionnettiste",
+          "texte": "La clairière reste vide le temps de changer les deux peluches."
+        },
+        {
+          "id": "a3e65",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e66",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e67",
+          "type": "conteur",
+          "texte": "{{r1}} et {{r2}} se mirent à manger ce qui était préparé. {{r1}} mange et ronronne :"
+        },
+        {
+          "id": "a3e68",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Pas assez, pas assez !",
+          "ton": "en ronronnant"
+        },
+        {
+          "id": "a3e69",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Si vous voulez, ronronnez tout bas avec moi : « Pas assez, pas assez ! »",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e70",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e71",
+          "type": "conteur",
+          "texte": "Mais en se retournant, il vit que la queue de la marmotte dépassait du terrier. Il eut peur."
+        },
+        {
+          "id": "a3e72",
+          "type": "didascalie",
+          "texte": "{{r1}} bondit vers le grand coussin, en haut du pin."
+        },
+        {
+          "id": "a3e73",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e74",
+          "type": "conteur",
+          "texte": "{{r3}}, terrifié par {{r1}}, sauta tout droit du pin par terre, et faillit écraser {{r4}} sous sa souche."
+        },
+        {
+          "id": "a3e75",
+          "type": "didascalie",
+          "texte": "Gardez {{r1}} en haut du pin ; faites glisser {{r3}} au mot « sauta »."
+        },
+        {
+          "id": "a3e76",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e77",
+          "type": "didascalie",
+          "texte": "Marquez une courte pause pour changer de peluche."
+        },
+        {
+          "id": "a3e78",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e79",
+          "type": "conteur",
+          "texte": "{{r3}} s’enfuit, {{r4}} s’enfuit."
+        },
+        {
+          "id": "a3e80",
+          "type": "didascalie",
+          "texte": "Au bord de la table, {{r3}} et {{r4}} se retournent face à face."
+        },
+        {
+          "id": "a3e81",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Tu t’es fait mal, compère ?"
+        },
+        {
+          "id": "a3e82",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Non, commère ! Mais si je n’avais pas sauté, {{r1}} m’aurait mangé depuis longtemps !"
+        },
+        {
+          "id": "a3e83",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e84",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "ru-ours-et-loups-effrayes",
+    "synopsis": {
+      "accroche": "Une seule tête de loup en bois suffit à mettre douze loups en fuite.",
+      "resume": [
+        "{{r1}} et {{r2}} s’enfuient de la ferme.",
+        "Une tête en bois effraie les douze loups, qui partent quatre par quatre.",
+        "Le récit enfle dans la forêt ; {{r3}} et {{r4}} invitent le duo.",
+        "La peur passe d’un animal à l’autre jusqu’à la chute de {{r3}}."
+      ]
+    },
+    "transposition": {
+      "texte": "Il était une fois un vieux et une vieille, qui avaient un chat, {{r1}}, et un bélier, {{r2}}. {{r6}} faisait des réserves, et {{r1}} faisait des bêtises.\n\n— Mon vieux, dit {{r6}}, il se passe quelque chose de louche dans notre cave.\n\n— Il faut aller voir, lui dit le vieux, si quelqu’un ne vient pas voler.\n\n{{r6}} alla à la cave et vit : {{r1}} léchait la crème d’un pot ouvert. Elle chassa {{r1}} de la cave et retourna à la maison. Mais {{r1}} était arrivé avant elle, et s’était caché dans un coin, en haut du poêle.\n\n— Mon vieux ! dit {{r6}}. Nous ne voulions pas croire que {{r1}} volait, mais c’est bien lui ! Il faut le punir !\n\n{{r1}} entendit ces paroles, sauta du poêle et courut à l’étable chez {{r2}}, et se mit à raconter des histoires à {{r2}} :\n\n— Frère {{r2}} ! Demain, ils vont me punir, et toi, ils vont te manger !\n\nLe duo décida de s’enfuir de chez son maître pendant la nuit.\n\n— Mais comment faire ? demande {{r2}}. Je serais bien content de filer avec toi, mais l’étable est fermée !\n\n— Ce n’est rien !\n\n{{r1}} poussa la porte de l’étable de tout son corps et fit sortir {{r2}}.\n\nLe duo partit sur la route. En chemin, {{r1}} et {{r2}} trouvèrent une tête de loup en bois. Le duo marcha, marcha, et vit loin dans la forêt briller un feu. Le duo alla tout droit vers le feu. En approchant : autour du feu se réchauffent douze loups.\n\n— Bonsoir, les loups !\n\n— Sois le bienvenu, {{r1}} !\n\n— Frère, demande {{r2}} au chat, qu’est-ce que nous aurons pour dîner ?\n\n— Eh bien, les douze têtes de loup ! Va choisir la plus grasse.\n\n{{r2}} alla dans les buissons. La tête de loup trouvée sur la route apparut, bien visible, et {{r2}} demanda :\n\n— Celle-ci, frère {{r1}} ?\n\n— Non, pas celle-ci, choisis-en une meilleure.\n\n{{r2}} fit reparaître la même tête et demanda encore :\n\n— Celle-ci ?\n\nLes loups eurent si peur qu’ils auraient bien voulu s’enfuir, mais ils n’osaient pas le faire sans permission. Quatre loups demandèrent au duo :\n\n— Laissez-nous aller chercher du bois ! Nous vous en rapporterons.\n\nEt le groupe de quatre loups partit. Les huit autres loups eurent encore plus peur de {{r1}} et {{r2}} : si le duo avait pu en manger douze, le duo en mangerait bien huit. Quatre autres demandèrent à aller chercher de l’eau. {{r1}} les laissa partir :\n\n— Allez-y, et revenez vite !\n\nLes quatre derniers loups demandèrent à aller chercher les premiers : pourquoi ne revenaient-ils pas ? {{r1}} les laissa partir, en leur ordonnant encore plus sévèrement de revenir vite ; et le duo était bien content que la troupe soit partie.\n\nLes loups se rassemblèrent et s’enfoncèrent loin dans la forêt. Ils rencontrent {{r3}}.\n\n— As-tu entendu dire, {{r3}}, demandent les loups, que {{r1}} avait mangé douze loups, et {{r2}} tout autant ?\n\n— Non, les enfants, je n’en ai jamais entendu parler.\n\n— Nous avons vu de nos propres yeux {{r1}} et {{r2}}.\n\n— Comment pourrais-je, les enfants, voir moi aussi quel est leur courage ?\n\n— Eh, {{r3}}, {{r1}} est terriblement féroce, on ne peut pas l’approcher : il a vite fait de vous mettre en pièces ! Nous avons beau être vifs avec les chiens et les lièvres, là, il n’y a rien à faire. Invitons-les plutôt à dîner.\n\nOn voulut envoyer {{r4}} :\n\n— Va, invite {{r1}} et {{r2}}.\n\n{{r4}} commença à se défiler :\n\n— Je suis rapide, c’est vrai, mais je ne suis pas très agile : et si {{r1}} et {{r2}} me mangeaient ?\n\n— Vas-y !…\n\nRien à faire : {{r4}} courut chercher {{r1}} et {{r2}}. Elle revint et raconta :\n\n— {{r1}} et {{r2}} ont promis de venir. Ah, {{r3}}, qu’il est féroce, {{r1}} ! Il est assis sur une souche et il la déchire avec ses griffes : c’est pour nous qu’il aiguise ses couteaux ! Et ses yeux, ils lui sortent de la tête !…\n\n{{r3}} prit peur. {{r5}} fut aussitôt en sentinelle sur une haute souche, et {{r3}} lui dit :\n\n— Quand tu verras {{r1}} et {{r2}}, dresse-toi bien haut : nous irons les accueillir.\n\nOn se mit à préparer le dîner ; un grand repas fut offert par quatre loups, et {{r3}} prit la marmotte comme cuisinière.\n\nVoilà {{r1}} et {{r2}} qui arrivent pour le dîner. Le duo aperçut la sentinelle, comprit la situation, et se mit d’accord.\n\n— Moi, dit {{r1}}, je vais ramper tout doucement dans l’herbe et m’asseoir juste au pied de la souche, en face du museau de {{r5}} ; et toi, frère {{r2}}, prends ton élan et donne-lui de toutes tes forces un coup de tête !\n\n{{r2}} prit son élan, frappa de toutes ses forces et fit tomber {{r5}}, et {{r1}} lui sauta droit au museau et le griffa. {{r3}} et les loups, en voyant cela, se mirent à discuter entre eux :\n\n— Eh bien, les enfants, voilà de quoi sont capables {{r1}} et {{r2}} ! {{r5}} est tombé d’une si haute souche, alors nous, sur la terre, comment tiendrions-nous ? Notre repas, le duo s’en moque : le duo ne vient pas pour manger, mais pour nous taper dessus. Ne ferions-nous pas mieux de nous cacher ?\n\nLes loups se sauvèrent tous dans la forêt, {{r3}} grimpa dans un pin, la marmotte se cacha dans son terrier, et {{r4}} se fourra sous une souche. {{r1}} et {{r2}} se mirent à manger ce qui était préparé. {{r1}} mange et ronronne :\n\n— Pas assez, pas assez !\n\nMais en se retournant, il vit que la queue de la marmotte dépassait du terrier. Il eut peur et bondit dans le pin. {{r3}}, terrifié par {{r1}}, sauta tout droit du pin par terre, et faillit écraser {{r4}} sous sa souche. {{r3}} s’enfuit, {{r4}} s’enfuit.\n\n— Tu t’es fait mal, compère ? demande {{r4}}.\n\n— Non, commère ! Mais si je n’avais pas sauté, {{r1}} m’aurait mangé depuis longtemps !\n"
+    }
+  },
+  "dureeEstimeeSecondes": 674,
+  "interactionsOrdonnees": [
+    "a1e10",
+    "a1e22",
+    "a2e6",
+    "a2e15",
+    "a2e25",
+    "a2e36",
+    "a3e9",
+    "a3e40",
+    "a3e69"
+  ]
+}

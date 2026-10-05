@@ -1,0 +1,17 @@
+{
+  "id": "fr-florian-chat-miroir",
+  "langue": [
+    {
+      "avant": "une table de toilette",
+      "apres": "une table à miroir",
+      "nature": "mot-rare",
+      "jusqua": 6
+    },
+    {
+      "avant": "n’entend ni ne saisit",
+      "apres": "ne comprend ni ne saisit",
+      "nature": "faux-ami"
+    }
+  ],
+  "moments": []
+}

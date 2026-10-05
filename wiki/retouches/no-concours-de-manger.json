@@ -1,0 +1,19 @@
+{
+  "id": "no-concours-de-manger",
+  "langue": [],
+  "moments": [
+    {
+      "id": "le-troll-au-couteau",
+      "type": "punition",
+      "niveaux": [
+        {
+          "jusqua": 4,
+          "annonce": "Le troll ne meurt pas : il se pique le ventre du bout de son couteau, pousse un grand hurlement et s'enfuit pour toujours, et Askeladden rapporte son or à la maison.",
+          "retouches": [
+            {"avant": "Alors le troll fit ce que le garçon lui avait dit, et on peut bien imaginer qu'il n'y survécut pas.", "apres": "Alors le troll prit son couteau et se piqua le ventre ; il poussa un tel hurlement qu'il s'enfuit au fond de la forêt, et on ne le revit jamais."}
+          ]
+        }
+      ]
+    }
+  ]
+}

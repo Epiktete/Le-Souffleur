@@ -1,0 +1,1933 @@
+{
+  "id": "guignol-ma-porte-d-allee--1",
+  "conteId": "guignol-ma-porte-d-allee",
+  "titre": "Ma porte d’allée",
+  "pitch": "{{r1}} a oublié sa loquetière : à minuit, tout le quartier se réveille, une fenêtre l'arrose, {{r2}} et {{r3}} arrivent en colère, jusqu'à ce qu'un héritage change tout.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "farceur",
+        "grognon",
+        "menteur"
+      ],
+      "voix": "voix chantante qui roule les mots, rit volontiers et s’emporte d’un coup",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e10:texte",
+            "avant": "modèle des époux",
+            "apres": "modèle des épouses"
+          },
+          {
+            "id": "a1e15:texte",
+            "avant": "me v'là frais",
+            "apres": "me v'là fraîche"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "m'a si bien fleuri",
+            "apres": "m'a si bien fleurie"
+          },
+          {
+            "id": "a2e28:texte",
+            "avant": "cordonnier en vieux",
+            "apres": "cordonnière en vieux"
+          },
+          {
+            "id": "a2e44:texte",
+            "avant": "si vous êtes marié",
+            "apres": "si vous êtes mariée"
+          },
+          {
+            "id": "a2e45:texte",
+            "avant": "je suis marié",
+            "apres": "je suis mariée"
+          },
+          {
+            "id": "a3e9:texte",
+            "avant": "ce gueux-là",
+            "apres": "cette gueuse-là"
+          },
+          {
+            "id": "a3e9:texte",
+            "avant": "qu'il n'en ferait",
+            "apres": "qu'elle n'en ferait"
+          },
+          {
+            "id": "a3e10:texte",
+            "avant": "où est-il donc",
+            "apres": "où est-elle donc"
+          },
+          {
+            "id": "a3e16:texte",
+            "avant": "gredin ! pillandre",
+            "apres": "gredine ! pillandre"
+          },
+          {
+            "id": "a3e17:texte",
+            "avant": "t'es venu",
+            "apres": "t'es venue"
+          },
+          {
+            "id": "a3e19:texte",
+            "avant": "scélérat, et",
+            "apres": "scélérate, et"
+          },
+          {
+            "id": "a3e20:texte",
+            "avant": "ça m'a retardé",
+            "apres": "ça m'a retardée"
+          },
+          {
+            "id": "a3e22:texte",
+            "avant": "Oh ! le brigand !…",
+            "apres": "Oh ! la brigande !…"
+          },
+          {
+            "id": "a3e22:texte",
+            "avant": "qu'il nous conte",
+            "apres": "qu'elle nous conte"
+          },
+          {
+            "id": "a3e23:texte",
+            "avant": "vilain malpropre",
+            "apres": "vilaine malpropre"
+          },
+          {
+            "id": "a3e24:texte",
+            "avant": "on m'a arrangé",
+            "apres": "on m'a arrangée"
+          },
+          {
+            "id": "a3e25:texte",
+            "avant": "bien fait, vaurien",
+            "apres": "bien fait, vaurienne"
+          },
+          {
+            "id": "a3e43:texte",
+            "avant": "Oh ! le scélérat ! le brigand !",
+            "apres": "Oh ! la scélérate ! la brigande !"
+          },
+          {
+            "id": "a3e67:texte",
+            "avant": "soyez donc gentil",
+            "apres": "soyez donc gentille"
+          },
+          {
+            "id": "a3e67:texte",
+            "avant": "Arrosé d'eau",
+            "apres": "Arrosée d'eau"
+          },
+          {
+            "id": "a3e67:texte",
+            "avant": "traité de voleur",
+            "apres": "traitée de voleuse"
+          },
+          {
+            "id": "a4e9:texte",
+            "avant": "mon vieux",
+            "apres": "ma vieille"
+          },
+          {
+            "id": "a4e9:texte",
+            "avant": "Pas encore couché",
+            "apres": "Pas encore couchée"
+          },
+          {
+            "id": "a4e13:texte",
+            "avant": "mon ami,",
+            "apres": "mon amie,"
+          },
+          {
+            "id": "a4e15:texte",
+            "avant": "un vrai t'ami",
+            "apres": "une vraie t'amie"
+          },
+          {
+            "id": "a4e38:texte",
+            "avant": "Te n'es donc pas arrêté",
+            "apres": "Te n'es donc pas arrêtée"
+          },
+          {
+            "id": "a4e38:texte",
+            "avant": "te voilà ! brigand",
+            "apres": "te voilà ! brigande"
+          },
+          {
+            "id": "a4e45:texte",
+            "avant": "votre mari",
+            "apres": "votre femme"
+          },
+          {
+            "id": "a2e53:texte",
+            "avant": "Adieu, voisin.",
+            "apres": "Adieu, voisine."
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a2e3:texte",
+          "avant": "Jeune homme",
+          "gabarit": "Jeune {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r2",
+      "espece": "femme",
+      "famille": "adulte",
+      "traits": [
+        "grognon",
+        "têtu"
+      ],
+      "voix": "voix aiguë, qui sanglote puis gronde très vite",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a1e10:texte",
+            "avant": "ton épouse",
+            "apres": "ton époux"
+          },
+          {
+            "id": "a1e18:texte",
+            "avant": "qu'elle va pas",
+            "apres": "qu'il va pas"
+          },
+          {
+            "id": "a2e46:texte",
+            "avant": "votre femme préfère",
+            "apres": "votre mari préfère"
+          },
+          {
+            "id": "a2e50:texte",
+            "avant": "à ma femme d'aller la rejoindre",
+            "apres": "à mon mari d'aller le rejoindre"
+          },
+          {
+            "id": "a2e52:texte",
+            "avant": "Elles galopent",
+            "apres": "Ils galopent"
+          },
+          {
+            "id": "a3e9:texte",
+            "avant": "ma fille",
+            "apres": "mon fils"
+          },
+          {
+            "id": "a4e45:texte",
+            "avant": "Madame",
+            "apres": "Monsieur"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r3",
+      "espece": "grand-mere",
+      "famille": "vieux",
+      "traits": [
+        "grognon",
+        "méchant",
+        "bavard"
+      ],
+      "voix": "voix pointue et criarde, qui grince à chaque mot",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a2e50:texte",
+            "avant": "chez ma belle-mère",
+            "apres": "chez mon beau-père"
+          },
+          {
+            "id": "a2e52:texte",
+            "avant": "Ma belle-mère",
+            "apres": "Mon beau-père"
+          },
+          {
+            "id": "a2e52:texte",
+            "avant": "Elles galopent",
+            "apres": "Ils galopent"
+          },
+          {
+            "id": "a3e36:texte",
+            "avant": "Belle maman",
+            "apres": "Beau papa"
+          },
+          {
+            "id": "a4e57:texte",
+            "avant": "Belle maman",
+            "apres": "Beau papa"
+          },
+          {
+            "id": "a4e62:texte",
+            "avant": "Belle maman",
+            "apres": "Beau papa"
+          },
+          {
+            "id": "a3e41:texte",
+            "avant": "belle maman",
+            "apres": "beau papa"
+          },
+          {
+            "id": "a4e61:texte",
+            "avant": "Madame",
+            "apres": "Monsieur"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r4",
+      "espece": "bourgeois",
+      "famille": "adulte",
+      "traits": [
+        "naïf",
+        "bavard",
+        "gentil"
+      ],
+      "voix": "voix chevrotante et très polie, toujours pressée",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2e5:texte",
+            "avant": "Je suis réveillé",
+            "apres": "Je suis réveillée"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "qu'il chante, çui là",
+            "apres": "qu'elle chante, celle-là"
+          },
+          {
+            "id": "a2e9:texte",
+            "avant": "bien obligé",
+            "apres": "bien obligée"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "ça serait lui qui",
+            "apres": "ça serait elle qui"
+          },
+          {
+            "id": "a2e16:texte",
+            "avant": "pauvre vieux",
+            "apres": "pauvre vieille"
+          },
+          {
+            "id": "a2e20:texte",
+            "avant": "d'un bon enfant",
+            "apres": "d'une bonne enfant"
+          },
+          {
+            "id": "a2e27:texte",
+            "avant": "je suis enchanté",
+            "apres": "je suis enchantée"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "il croyait",
+            "apres": "elle croyait"
+          },
+          {
+            "id": "a2e54:texte",
+            "avant": "le papa",
+            "apres": "la maman"
+          },
+          {
+            "id": "a2e54:texte",
+            "avant": "pas rendormi",
+            "apres": "pas rendormie"
+          },
+          {
+            "id": "a4e31:texte",
+            "avant": "Suivons-le !… suivons-le…",
+            "apres": "Suivons-la !… suivons-la…"
+          },
+          {
+            "id": "a4e46:texte",
+            "avant": "Mossieu",
+            "apres": "Madame"
+          },
+          {
+            "id": "a2e20:texte",
+            "avant": "papa",
+            "apres": "maman"
+          },
+          {
+            "id": "a4e26:texte",
+            "avant": "papa",
+            "apres": "maman"
+          },
+          {
+            "id": "a2e39:texte",
+            "avant": "un bourgeois",
+            "apres": "une bourgeoise"
+          },
+          {
+            "id": "a2e43:texte",
+            "avant": "votre bourgeois",
+            "apres": "votre bourgeoise"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r5",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "farceur",
+        "gourmand"
+      ],
+      "voix": "grosse voix enrouée et joyeuse, qui chantonne en parlant",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e11:texte",
+            "avant": "vénérable pochard",
+            "apres": "vénérable pocharde"
+          },
+          {
+            "id": "a2e50:texte",
+            "avant": "ce gueux de",
+            "apres": "cette gueuse de"
+          },
+          {
+            "id": "a4e27:texte",
+            "avant": "père",
+            "apres": "mère"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r6",
+      "espece": "mitron",
+      "famille": "adulte",
+      "traits": [
+        "farceur"
+      ],
+      "voix": "voix jeune et rapide, qui renifle sans arrêt",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2e38:texte",
+            "avant": "Êtes-vous pompier ?",
+            "apres": "Êtes-vous pompière ?"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 18,
+    "ageAuditoire": 7,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La place, devant la porte de {{r1}}",
+      "description": "Posez un grand carton debout au bout droit de la table : c'est la maison de {{r1}}, et son pied fait la porte d'allée. Une marionnette qui se montre au-dessus du carton est à la fenêtre. Le reste de la table fait la place ; c'est sur la table qu'on frappe les coups à la porte.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Minuit sonné",
+      "resume": "{{r1}} quitte {{r5}} pour rentrer sagement, mais a oublié sa loquetière. Personne n'ouvre, et d'une fenêtre, on lui vide un pot de chambre sur la tête.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "note_marionnettiste",
+          "texte": "Avant de commencer, faites sonner minuit à la voix, lentement : dong… dong… dong…"
+        },
+        {
+          "id": "a1e2",
+          "type": "conteur",
+          "texte": "Une place publique. On entend sonner minuit."
+        },
+        {
+          "id": "a1e3",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e4",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e5",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r5}} arrivent côte à côte, en se dandinant."
+        },
+        {
+          "id": "a1e6",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Allons, {{r1}}, plus qu'une bouteille ! Le cabaret du père Chibroc est fermé, mais nous passerons par l'allée ; y a toujours moyen de se faire reconnaître… Des clients comme nous… ça a des protections.",
+          "ton": "d'une voix gourmande, pour l'entraîner"
+        },
+        {
+          "id": "a1e7",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Non, il est minuit sonné… j'ai promis, à partir du premier janvier, de rentrer de bonne heure.",
+          "ton": "en secouant la tête"
+        },
+        {
+          "id": "a1e8",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Panosse, va !… Tu ne viens pas ?… c'est décidé ?",
+          "ton": "en soupirant"
+        },
+        {
+          "id": "a1e9",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Non, non… j'allais de gaviole hier en rentrant… je veux monter aujourd'hui mon escayer sans ziguezaguer.",
+          "ton": "fièrement"
+        },
+        {
+          "id": "a1e10",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Eh bien ! adieu ! mes compliments à ton épouse. Adieu, modèle des époux !",
+          "ton": "en se moquant"
+        },
+        {
+          "id": "a1e11",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Adieu, vénérable pochard !",
+          "ton": "en riant"
+        },
+        {
+          "id": "a1e12",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Adieu, vertueux gilet de flanelle !",
+          "ton": "en s'éloignant"
+        },
+        {
+          "id": "a1e13",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e14",
+          "type": "didascalie",
+          "texte": "{{r1}} va vers sa porte."
+        },
+        {
+          "id": "a1e15",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Allons ! bon ! me v'là frais ! Que polisson de guignon !… j'ai oublié ma loquetière… Allons, faut réveiller {{r2}}.",
+          "ton": "d'une voix désolée"
+        },
+        {
+          "id": "a1e16",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Aidez-moi à frapper, les enfants : toc ! toc ! toc !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e17",
+          "type": "didascalie",
+          "texte": "{{r1}} cogne six fois de la tête contre la porte, et vous frappez six coups sur la table."
+        },
+        {
+          "id": "a1e18",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ben sûr qu'elle va pas m'entendre… c'est son premier sommeil. Personne ne buge ! repiquons !",
+          "ton": "en levant la tête vers les fenêtres"
+        },
+        {
+          "id": "a1e19",
+          "type": "didascalie",
+          "texte": "{{r1}} cogne plus fort : toc ! toc ! toc !"
+        },
+        {
+          "id": "a1e20",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Rien ! ni {{r2}}, ni voisin, ni voisine !… ils ont donc tous la tête sous le traversin !…",
+          "ton": "en tendant l'oreille"
+        },
+        {
+          "id": "a1e21",
+          "type": "didascalie",
+          "texte": "{{r1}} recule, prend son élan et cogne de toutes ses forces : boum ! boum !"
+        },
+        {
+          "id": "a1e22",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tiens ! j'entends une fenêtre qui s'ouvre, je vas enfin pouvoir rentrer sous le toit conjugal !",
+          "ton": "d'une voix ravie"
+        },
+        {
+          "id": "a1e23",
+          "type": "conteur",
+          "texte": "On voit tomber le contenu d'un pot de chambre."
+        },
+        {
+          "id": "a1e24",
+          "type": "note_marionnettiste",
+          "texte": "Faites « splatch ! » à la voix, bien fort."
+        },
+        {
+          "id": "a1e25",
+          "type": "didascalie",
+          "texte": "{{r1}} se tasse d'un coup, puis se secoue de la tête aux pieds."
+        },
+        {
+          "id": "a1e26",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ah ! canaille !… ah ! sampille !… c'est comme ça que te m'arranges !… tu inondes le monde !… Encore que ça sent pas la rose ! brrrou !… que ça infeste !…",
+          "ton": "en criant vers les fenêtres"
+        },
+        {
+          "id": "a1e27",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Pouah ! Bouchez-vous le nez, les enfants !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e28",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ah ! te n'aimes pas le bruit !… Ah ! te veux qu'on te laisse dormir !… Je vas t'en faire du vacarme, gredin !…",
+          "ton": "de plus en plus fort"
+        },
+        {
+          "id": "a1e29",
+          "type": "didascalie",
+          "texte": "{{r1}} cogne encore et encore contre la porte, et vous frappez à coups redoublés sur la table."
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Le bateau de six heures",
+      "resume": "{{r4}} remercie {{r1}} d'avoir frappé : il croyait qu'on venait l'éveiller pour le bateau de six heures. Puis {{r6}}, qui devait faire ce réveil, arrive à son tour. En entendant parler des gâteaux des rois, {{r1}} se rappelle que {{r2}} l'attendait en famille.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e2",
+          "type": "didascalie",
+          "texte": "{{r4}} trottine de la maison d'en face jusqu'à {{r1}}."
+        },
+        {
+          "id": "a2e3",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Merci ! merci ! merci ! Jeune homme, je vous remercie bien.",
+          "ton": "en saluant très poliment"
+        },
+        {
+          "id": "a2e4",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "De quoi ?",
+          "ton": "sans comprendre"
+        },
+        {
+          "id": "a2e5",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Je suis réveillé.",
+          "ton": "gaiement"
+        },
+        {
+          "id": "a2e6",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Qué que ça me fait ?… Qu'est-ce qu'il chante, çui là ?… qui êtes-vous ?",
+          "ton": "d'un ton bougon"
+        },
+        {
+          "id": "a2e7",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Et parbleu ! je suis {{r4}} ; vous devez bien le savoir.",
+          "ton": "d'une voix étonnée"
+        },
+        {
+          "id": "a2e8",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "D'où sortez-vous donc ?",
+          "ton": "d'un ton bougon"
+        },
+        {
+          "id": "a2e9",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "De là en face… Je vous suis bien obligé.",
+          "ton": "en montrant l'autre côté d'un mouvement de tête"
+        },
+        {
+          "id": "a2e10",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Est-ce que ça serait lui qui m'a si bien fleuri ?",
+          "ton": "à part, vers les enfants"
+        },
+        {
+          "id": "a2e11",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "J'avais tant peur de ne pas entendre là-bas, sur mon derrière…",
+          "ton": "très sérieusement"
+        },
+        {
+          "id": "a2e12",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Son derrière !…",
+          "ton": "à part, en pouffant"
+        },
+        {
+          "id": "a2e13",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Parce que mes croisées donnent sur la cour.",
+          "ton": "très sérieusement"
+        },
+        {
+          "id": "a2e14",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ah !… alors ce n'est pas mon fleuriste.",
+          "ton": "à part, vers les enfants"
+        },
+        {
+          "id": "a2e15",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "J'avais tant peur de manquer le bateau de six heures.",
+          "ton": "en soupirant"
+        },
+        {
+          "id": "a2e16",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Il n'est qu'une heure, pauvre vieux.",
+          "ton": "en secouant la tête"
+        },
+        {
+          "id": "a2e17",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "C'est bien un peu tôt… Vous n'êtes donc pas le garçon boulanger qui devait m'appeler en se levant ?…",
+          "ton": "sans se démonter, puis d'une voix déçue"
+        },
+        {
+          "id": "a2e18",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Boulanger !… Regarde donc c'te touche, si ça ressemble à un mitron.",
+          "ton": "d'un ton vexé"
+        },
+        {
+          "id": "a2e19",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Je n'ai pas voulu vous offenser.",
+          "ton": "poliment"
+        },
+        {
+          "id": "a2e20",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tenez, papa {{r4}}, vous avez l'air d'un bon enfant, et je vas vous donner un conseil. Si vous vous mettez en route, prenez un parepluie.",
+          "ton": "d'un air malin"
+        },
+        {
+          "id": "a2e21",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Est-ce qu'il pleuvra ?",
+          "ton": "en levant la tête vers le ciel"
+        },
+        {
+          "id": "a2e22",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Il a déjà plu… et une pluie grasse… Tenez, sentez plutôt.",
+          "ton": "d'un air malin"
+        },
+        {
+          "id": "a2e23",
+          "type": "didascalie",
+          "texte": "{{r1}} s'approche tout près d'{{r4}}."
+        },
+        {
+          "id": "a2e24",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Attention ! Éternuez avec {{r4}}, les enfants : atchi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e25",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Ah ! pouah !… Atchi ! atchi !…",
+          "ton": "en éternuant de tout son corps"
+        },
+        {
+          "id": "a2e26",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "À vos souhaits !…",
+          "ton": "d'un air malin"
+        },
+        {
+          "id": "a2e27",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Ça n'y fait rien, je suis enchanté d'avoir fait votre connaissance. Donnez-moi votre nom et votre adresse… à mon retour nous nous reverrons.",
+          "ton": "poliment, mais de loin"
+        },
+        {
+          "id": "a2e28",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Mon nom, {{r1}} ; mon état, cordonnier en vieux ; et tant qu'à mon adresse, v'là ma porte.",
+          "ton": "en montrant la porte d'un coup de tête"
+        },
+        {
+          "id": "a2e29",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Bonjour, au revoir !",
+          "ton": "poliment"
+        },
+        {
+          "id": "a2e30",
+          "type": "didascalie",
+          "texte": "{{r4}} s'en va à petits pas, en secouant la tête."
+        },
+        {
+          "id": "a2e31",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Peut-on empester de la sorte !",
+          "ton": "tout bas, en s'en allant"
+        },
+        {
+          "id": "a2e32",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e33",
+          "type": "didascalie",
+          "texte": "{{r1}} cogne encore contre la porte : toc ! toc !"
+        },
+        {
+          "id": "a2e34",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Toujours point de feu chez moi !",
+          "ton": "en levant la tête vers les fenêtres"
+        },
+        {
+          "id": "a2e35",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e36",
+          "type": "didascalie",
+          "texte": "{{r6}} arrive en courant et regarde partout."
+        },
+        {
+          "id": "a2e37",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Où dites-vous que le feu est ?",
+          "ton": "en soufflant"
+        },
+        {
+          "id": "a2e38",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ça vous regarde pas. Êtes-vous pompier ?",
+          "ton": "d'un ton bougon"
+        },
+        {
+          "id": "a2e39",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Mais le bruit que vous faites me regarde ; vous me faites concurrence… Je viens réveiller un bourgeois.",
+          "ton": "d'un ton vexé"
+        },
+        {
+          "id": "a2e40",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Pour prendre le bateau de six heures ?",
+          "ton": "d'un air malin"
+        },
+        {
+          "id": "a2e41",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Précisément.",
+          "ton": "d'un air étonné"
+        },
+        {
+          "id": "a2e42",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Sapristi ! mais ça sent de tous les côtés.",
+          "ton": "à part, en reniflant"
+        },
+        {
+          "id": "a2e43",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "En tout cas, ne vous tourmentez plus de votre bourgeois ; j'ai fait votre ouvrage.",
+          "ton": "d'un air malin"
+        },
+        {
+          "id": "a2e44",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Eh ! bien, si vous êtes marié, vous allez joliment embaumer votre ménage.",
+          "ton": "en se moquant"
+        },
+        {
+          "id": "a2e45",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oui, oui, je suis marié !…",
+          "ton": "avec rage"
+        },
+        {
+          "id": "a2e46",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Alors je comprends que votre femme préfère vous laisser en plein air. Allons, bonjour ! je rentre chez le patron ; nous faisons encore des gâteaux aujourd'hui.",
+          "ton": "en riant"
+        },
+        {
+          "id": "a2e47",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Si te veux de la vanille… faut pas te gêner.",
+          "ton": "d'un air malin"
+        },
+        {
+          "id": "a2e48",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Merci !… ça donnerait trop de goût à nos gâteaux des rois.",
+          "ton": "en riant"
+        },
+        {
+          "id": "a2e49",
+          "type": "didascalie",
+          "texte": "{{r1}} fait un bond et se cogne la tête contre la porte."
+        },
+        {
+          "id": "a2e50",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Des gâteaux des rois !… Et moi qu'avais promis à ma femme d'aller la rejoindre aux Pierres-Plantées, chez ma belle-mère, pour tirer un pognon en famille ! C'est ce gueux de {{r5}} que m'a fait oublier la consigne.",
+          "ton": "d'une voix désespérée"
+        },
+        {
+          "id": "a2e51",
+          "type": "didascalie",
+          "texte": "{{r1}} tend la tête vers le bout de la rue."
+        },
+        {
+          "id": "a2e52",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Mais il me semble qu'y vient quéqu'un de ce côté ?… Ma belle-mère et {{r2}}, sûr… Elles galopent à ma recherche.",
+          "ton": "en tremblant"
+        },
+        {
+          "id": "a2e53",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Adieu, voisin.",
+          "ton": "vite"
+        },
+        {
+          "id": "a2e54",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Y aura des tapes… Je vais voir si le papa {{r4}} n'est pas rendormi et je reviens tout de suite… Ça sera drôle.",
+          "ton": "à part, en s'en allant"
+        },
+        {
+          "id": "a2e55",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "La loquetière, ou je cogne !",
+      "resume": "{{r2}} et {{r3}} arrivent en colère. {{r1}} bredouille une excuse à dormir debout, obtient la loquetière et pousse {{r3}} dans la maison. {{r2}}, {{r4}} et {{r6}} s'en mêlent, et chacun s'enfuit en criant.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Comment vais-je me tirer de là ?… Faut que je leur conte quéque chose.",
+          "ton": "en tournant en rond"
+        },
+        {
+          "id": "a3e2",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Chut ! Ne leur dites pas que je suis là, les enfants !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e3",
+          "type": "didascalie",
+          "texte": "{{r1}} file se cacher au coin de la maison."
+        },
+        {
+          "id": "a3e4",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e5",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e6",
+          "type": "didascalie",
+          "texte": "{{r2}} arrive en sanglotant, la tête basse."
+        },
+        {
+          "id": "a3e7",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Hi ! hi ! hi ! hi ! hi ! hi !…",
+          "ton": "en pleurant"
+        },
+        {
+          "id": "a3e8",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e9",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "T'as ben de la bonté, ma fille, de pleurer pour ce gueux-là ; ben sûr qu'il n'en ferait pas tant pour toi, le sac à vin !",
+          "ton": "d'une voix pointue"
+        },
+        {
+          "id": "a3e10",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Mais où est-il donc, ce monstre ?… Il lui sera arrivé quelque chose, bien sûr.",
+          "ton": "en reniflant"
+        },
+        {
+          "id": "a3e11",
+          "type": "didascalie",
+          "texte": "{{r3}} s'en va voir au coin de la rue, en grommelant."
+        },
+        {
+          "id": "a3e12",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e13",
+          "type": "didascalie",
+          "texte": "{{r2}} renifle devant la porte."
+        },
+        {
+          "id": "a3e14",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e15",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Rien du tout, à moi, {{r2}}.",
+          "ton": "d'une petite voix"
+        },
+        {
+          "id": "a3e16",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Ah ! te voilà, canaille ! ivrogne ! chenapan ! gredin ! pillandre !",
+          "ton": "en faisant un bond"
+        },
+        {
+          "id": "a3e17",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "C'est comme ça que t'es venu tirer un pognon en famille… aux Pierres-Plantées, comme te l'avais promis… monstre !",
+          "ton": "très vite"
+        },
+        {
+          "id": "a3e18",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Si te me laisses pas parler, te sauras rien du tout."
+        },
+        {
+          "id": "a3e19",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Parle donc, scélérat, et dépêche-toi."
+        },
+        {
+          "id": "a3e20",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Voici la chose : c'est ma pauvre petite filleule, la fille de l'oncle à mon grand-père… elle avait les yeux rouges… V'là qu'on vient me chercher comme je partais pour te rejoindre. Le ventre du grand-père commençait à enfler… on fait venir le médecin… Mais la Saône montait toujours ; elle charriait des glaces… Les voisins se sont amassés dans la rue… y en avait plus de trois mille… le commissaire est venu… il en a emmené sept à la cave… et ça m'a retardé jusqu'à présent.",
+          "ton": "très vite, sans reprendre son souffle"
+        },
+        {
+          "id": "a3e21",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Et vous, les enfants, vous avez compris quéque chose ?",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e22",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Oh ! le brigand !… c'est une colle qu'il nous conte pour nous cajoler ; mais ça se passera pas ainsi."
+        },
+        {
+          "id": "a3e23",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Ah ! ciel ! quelle odeur !… Mais d'où sors-tu, vilain malpropre ?… Pouah ! pouah !…",
+          "ton": "en reculant"
+        },
+        {
+          "id": "a3e24",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oui, parlons-en… c'est en vous attendant qu'on m'a arrangé comme ça… C'est mon gâteau des rois… j'ai eu la fève."
+        },
+        {
+          "id": "a3e25",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "C'est bien fait, vaurien."
+        },
+        {
+          "id": "a3e26",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "{{r2}}, t'as la loquetière… amène la vite."
+        },
+        {
+          "id": "a3e27",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Non !"
+        },
+        {
+          "id": "a3e28",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "La loquetière, ou je recommence à cogner !…",
+          "ton": "très fort, en s'approchant d'un coup"
+        },
+        {
+          "id": "a3e29",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "La voilà, garnement !"
+        },
+        {
+          "id": "a3e30",
+          "type": "conteur",
+          "texte": "{{r2}} la lui donne."
+        },
+        {
+          "id": "a3e31",
+          "type": "didascalie",
+          "texte": "{{r2}} recule, recule, en secouant la tête, et disparaît."
+        },
+        {
+          "id": "a3e32",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e33",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ah ! la moutarde me monte au nez."
+        },
+        {
+          "id": "a3e34",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e35",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Elle est forte ta moutarde ! elle est à l'estragon.",
+          "ton": "d'une voix pointue"
+        },
+        {
+          "id": "a3e36",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Belle maman, le temps est à l'orage… il a déjà plu… il va pleuvoir autre chose !"
+        },
+        {
+          "id": "a3e37",
+          "type": "didascalie",
+          "texte": "{{r3}} avance sur {{r1}}, la tête en avant."
+        },
+        {
+          "id": "a3e38",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Si vous approchez, je griffe !…"
+        },
+        {
+          "id": "a3e39",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Pouah ! pouah !",
+          "ton": "en reculant d'un bond"
+        },
+        {
+          "id": "a3e40",
+          "type": "didascalie",
+          "texte": "{{r1}} file pousser la porte de la tête, puis revient se glisser derrière {{r3}}."
+        },
+        {
+          "id": "a3e41",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Vous, belle maman, filez devant."
+        },
+        {
+          "id": "a3e42",
+          "type": "didascalie",
+          "texte": "{{r1}} pousse {{r3}} jusque dans l'allée, de toutes ses forces."
+        },
+        {
+          "id": "a3e43",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Oh ! le scélérat ! le brigand ! À la garde ! à la garde !",
+          "ton": "en criant, en disparaissant"
+        },
+        {
+          "id": "a3e44",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e45",
+          "type": "didascalie",
+          "texte": "{{r1}} saute de joie devant la porte."
+        },
+        {
+          "id": "a3e46",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e47",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "À ton tour, à présent !"
+        },
+        {
+          "id": "a3e48",
+          "type": "didascalie",
+          "texte": "{{r1}} pousse {{r2}} vers la porte, mais {{r2}} ne bouge pas d'un pouce."
+        },
+        {
+          "id": "a3e49",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Non, je rentrerai pas comme ça… tiens !"
+        },
+        {
+          "id": "a3e50",
+          "type": "didascalie",
+          "texte": "{{r2}} fonce sur {{r1}} : ils se bousculent tête contre tête, pendant que vous frappez sur la table."
+        },
+        {
+          "id": "a3e51",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "À la garde ! à la garde !",
+          "ton": "en s'enfuyant"
+        },
+        {
+          "id": "a3e52",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e53",
+          "type": "conteur",
+          "texte": "{{r6}} et {{r4}} s'avancent."
+        },
+        {
+          "id": "a3e54",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e55",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "C'est indigne ! se bousculer ainsi… troubler tout le quartier… Vous allez venir au corps-de-garde…",
+          "ton": "en tremblant"
+        },
+        {
+          "id": "a3e56",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "De quoi vous mêlez-vous ? Toi, va prendre le bateau de six heures.",
+          "ton": "très fort"
+        },
+        {
+          "id": "a3e57",
+          "type": "didascalie",
+          "texte": "{{r1}} fonce tête la première sur {{r4}} ; frappez sur la table : pan !"
+        },
+        {
+          "id": "a3e58",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "À l'assassin !…",
+          "ton": "en se sauvant"
+        },
+        {
+          "id": "a3e59",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e60",
+          "type": "didascalie",
+          "texte": "{{r1}} se retourne de l'autre côté."
+        },
+        {
+          "id": "a3e61",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e62",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Oui, oui,… au corps-de-garde !"
+        },
+        {
+          "id": "a3e63",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Toi, va faire tes gâteaux… Mets-y cette prune.",
+          "ton": "très fort"
+        },
+        {
+          "id": "a3e64",
+          "type": "didascalie",
+          "texte": "{{r1}} fonce tête la première sur {{r6}} ; frappez sur la table : pan !"
+        },
+        {
+          "id": "a3e65",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Au voleur !…",
+          "ton": "en se sauvant"
+        },
+        {
+          "id": "a3e66",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e67",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Eh bien ! soyez donc gentil !… Arrosé d'eau de senteur… et par-dessus traité de voleur, d'assassin !… Ah ! la vertu n'est pas récompensée… Allons, rentrons chez moi… pourvu que j'aie pas perdu la loquetière dans la bagarre.",
+          "ton": "en soupirant"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "numero": 4,
+      "titre": "L'héritage",
+      "resume": "{{r5}} accourt, puis apporte à {{r4}} une lettre : un héritage ! {{r4}} invite tout le monde à déjeuner, {{r2}} avec. {{r3}} reste à la fenêtre, sans loquetière pour sortir.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a4e1",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e2",
+          "type": "didascalie",
+          "texte": "{{r5}} arrive en courant et tourne en rond."
+        },
+        {
+          "id": "a4e3",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Où est-il ?… où est-il ?",
+          "ton": "en criant"
+        },
+        {
+          "id": "a4e4",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tiens !… c'est {{r5}} et les amis."
+        },
+        {
+          "id": "a4e5",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Où est-il ?",
+          "ton": "en criant"
+        },
+        {
+          "id": "a4e6",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Qui donc ?"
+        },
+        {
+          "id": "a4e7",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "L'assassin ? le voleur ?"
+        },
+        {
+          "id": "a4e8",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Lequel ?"
+        },
+        {
+          "id": "a4e9",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Tiens ! c'est toi, mon vieux !… Pas encore couché !…",
+          "ton": "en s'arrêtant net"
+        },
+        {
+          "id": "a4e10",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Est-ce que vous faites patrouille ?"
+        },
+        {
+          "id": "a4e11",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "V'là la chose… nous étions chez Chibroc, quand nous avons entendu crier : Au voleur ! à l'assassin ! Nous avons pris les armes et nous v'là."
+        },
+        {
+          "id": "a4e12",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ça n'est rien du tout… y a point d'assassin, je t'explicasserai ça… Pour le moment j'ai soif… Retournons chez Chibroc… je te conterai tout."
+        },
+        {
+          "id": "a4e13",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "T'es toujours mon ami, {{r1}}… Embrasse-moi !"
+        },
+        {
+          "id": "a4e14",
+          "type": "didascalie",
+          "texte": "{{r1}} se jette contre {{r5}}."
+        },
+        {
+          "id": "a4e15",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oui, oui ; je suis un vrai t'ami."
+        },
+        {
+          "id": "a4e16",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Atchi ! atchi !… Saperlotte, quel bouquet !…",
+          "ton": "en éternuant"
+        },
+        {
+          "id": "a4e17",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "C'est un pot de basilic que m'a dégringolé sur la tête.",
+          "ton": "l'air de rien"
+        },
+        {
+          "id": "a4e18",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "T'as toujours de la chance, toi. Ah ! dis donc… t'as d'argent, {{r1}} ?… parce que Chibroc est un malhonnête… il nous a mis à la porte, sous prétexte que nous avions pas le sou."
+        },
+        {
+          "id": "a4e19",
+          "type": "didascalie",
+          "texte": "{{r1}} s'éloigne au coin de la maison, sans répondre."
+        },
+        {
+          "id": "a4e20",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e21",
+          "type": "note_marionnettiste",
+          "texte": "Faites sonner six coups à la voix : dong… dong…"
+        },
+        {
+          "id": "a4e22",
+          "type": "conteur",
+          "texte": "On entend sonner six heures."
+        },
+        {
+          "id": "a4e23",
+          "type": "adresse_public",
+          "marionnetteId": "r5",
+          "texte": "Comptez les coups avec moi, les enfants : un, deux, trois, quatre, cinq, six !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e24",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e25",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Sapristi ! il est six heures… j'ai manqué le bateau à vapeur.",
+          "ton": "d'une voix désolée"
+        },
+        {
+          "id": "a4e26",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Vous êtes donc là, papa {{r4}}. V'là une lettre pour vous… c'est votre concierge qui buvait avec nous qui me l'a donnée… Y a deux jours qu'il l'a… mais comme il ne décesse pas de se boissonner… il l'avait oubliée… Il nous a chargé de vous la remettre… parce que le pauvre homme, voyez-vous, nous l'avons laissé sous la table chez Chibroc…"
+        },
+        {
+          "id": "a4e27",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Donnez donc vite, père {{r5}}.",
+          "ton": "en sautillant"
+        },
+        {
+          "id": "a4e28",
+          "type": "conteur",
+          "texte": "{{r4}} ouvre et lit."
+        },
+        {
+          "id": "a4e29",
+          "type": "didascalie",
+          "texte": "{{r4}} penche la tête, comme pour lire, puis saute en l'air."
+        },
+        {
+          "id": "a4e30",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Ah ! quel bonheur ! je ne pars plus ! J'hérite de deux cent mille francs… je ne me sens pas de joie… Mes amis, je paie à boire à tout le monde… je paie à déjeuner… Bombance toute la journée… Suivez-moi ! suivez-moi !…",
+          "ton": "en sautant de joie"
+        },
+        {
+          "id": "a4e31",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Suivons-le !… suivons-le…"
+        },
+        {
+          "id": "a4e32",
+          "type": "didascalie",
+          "texte": "{{r4}} et {{r5}} s'en vont en sautillant."
+        },
+        {
+          "id": "a4e33",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e34",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e35",
+          "type": "note_marionnettiste",
+          "texte": "Laissez la scène vide un instant."
+        },
+        {
+          "id": "a4e36",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e37",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e38",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Ah ! te voilà ! brigand !… Te n'es donc pas arrêté ! Te n'es donc pas encore aux galères ?",
+          "ton": "en criant"
+        },
+        {
+          "id": "a4e39",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Doucement, {{r2}}, j'ai pas tort… Je te conterai tout."
+        },
+        {
+          "id": "a4e40",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je t'écoute plus… Y a trop longtemps que j'endure."
+        },
+        {
+          "id": "a4e41",
+          "type": "didascalie",
+          "texte": "{{r1}} file chercher {{r4}}."
+        },
+        {
+          "id": "a4e42",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e43",
+          "type": "didascalie",
+          "texte": "{{r2}} attend, la tête haute."
+        },
+        {
+          "id": "a4e44",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e45",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Madame {{r1}}, apaisez-vous… Je suis témoin que la conduite de votre mari a été cette nuit exemplaire… Je viens de l'inviter à déjeuner. Faites-moi le plaisir d'accepter aussi mon invitation.",
+          "ton": "en saluant très bas"
+        },
+        {
+          "id": "a4e46",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "À déjeuner !… Certainement, Mossieu… vous êtes trop honnête !… J'accepte…",
+          "ton": "d'une voix toute douce"
+        },
+        {
+          "id": "a4e47",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Bravo ! bravo !"
+        },
+        {
+          "id": "a4e48",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "À table !"
+        },
+        {
+          "id": "a4e49",
+          "type": "didascalie",
+          "texte": "{{r4}} et {{r2}} s'en vont en sautillant."
+        },
+        {
+          "id": "a4e50",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e51",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e52",
+          "type": "note_marionnettiste",
+          "texte": "Laissez la scène vide un instant."
+        },
+        {
+          "id": "a4e53",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e54",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e55",
+          "type": "didascalie",
+          "texte": "{{r3}} surgit tout en haut de la maison, comme à la fenêtre."
+        },
+        {
+          "id": "a4e56",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Eh bien ! et moi ! est-ce qu'on va me laisser là toute la semaine ?",
+          "ton": "en criant"
+        },
+        {
+          "id": "a4e57",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Belle maman… vous faites pas de mauvais sang… Nous allons déjeuner… Ayez soin du mioche… nous rentrerons de bonne heure…",
+          "ton": "tout gentiment"
+        },
+        {
+          "id": "a4e58",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "{{r2}}, tu vas avec ces vauriens !… Mais, emmenez-moi au moins.",
+          "ton": "d'une voix pointue"
+        },
+        {
+          "id": "a4e59",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je peux pas vous ouvrir ; j'ai perdu la loquetière.",
+          "ton": "l'air de rien"
+        },
+        {
+          "id": "a4e60",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Mais c'est un scandale, une horreur !",
+          "ton": "en trépignant"
+        },
+        {
+          "id": "a4e61",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Adieu, Madame {{r3}}.",
+          "ton": "en saluant"
+        },
+        {
+          "id": "a4e62",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Belle maman, nous vous apporterons du dessert.",
+          "ton": "gentiment"
+        },
+        {
+          "id": "a4e63",
+          "type": "didascalie",
+          "texte": "{{r3}} disparaît d'un coup dans la maison."
+        },
+        {
+          "id": "a4e64",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e65",
+          "type": "didascalie",
+          "texte": "{{r1}} se met à danser devant la porte."
+        },
+        {
+          "id": "a4e66",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Tapez dans vos mains avec nous, les enfants !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e67",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e68",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Flon, flon, flon ; vidons nos bouteilles.",
+          "ton": "en chantant"
+        },
+        {
+          "id": "a4e69",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Flon, flon, flon ; vidons nos flacons.",
+          "ton": "en chantant"
+        },
+        {
+          "id": "a4e70",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r5}} dansent épaule contre épaule."
+        },
+        {
+          "id": "a4e71",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e72",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne vers les enfants."
+        },
+        {
+          "id": "a4e73",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "J'crois que j'ferai bien de changer de toilette ; de m'savonner j'sens aussi le besoin ; et les parfums d'un' suav' cassolette ne seraient pas d'trop sur mon pourpoint. Mais j'veux vous l'dire, les enfants, en confidence : le succès s'rait mon meilleur dégraisseur. Le succès seul a, dit-on, la puissance de tout remettre en bonne odeur.",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e74",
+          "type": "didascalie",
+          "texte": "{{r1}} salue les enfants."
+        },
+        {
+          "id": "a4e75",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "guignol-ma-porte-d-allee",
+    "synopsis": {
+      "accroche": "{{r1}} rentre à minuit sans sa loquetière : il réveille tout le quartier, se fait arroser par une fenêtre et bredouille une excuse à dormir debout, jusqu’à ce qu’un héritage tombé du ciel change la colère en fête.",
+      "resume": [
+        "À minuit, {{r1}} quitte {{r5}} pour rentrer sagement, mais a oublié sa loquetière. Il frappe, frappe : personne n’ouvre, et d’une fenêtre, on lui vide un pot de chambre sur la tête.",
+        "{{r4}}, qui doit prendre le bateau de six heures, sort le remercier de l’avoir réveillé : il le prend pour le mitron. Puis {{r6}}, le vrai mitron, arrive à son tour ; en parlant des gâteaux des rois, il rappelle à {{r1}} la fête de famille qu’il a oubliée.",
+        "{{r2}} et {{r3}} arrivent en colère. {{r1}} leur raconte une excuse à dormir debout (« la Saône charriait des glaces… »), obtient la loquetière et pousse {{r3}} dans la maison ; {{r2}}, {{r4}} et {{r6}} s’en mêlent, et tout le monde s’enfuit en criant.",
+        "{{r5}} accourt avec les amis. Il apporte à {{r4}} une lettre oubliée : {{r4}} hérite ! Il invite tout le monde à déjeuner, {{r2}} avec, et {{r3}} reste enfermée à la fenêtre. On chante, et {{r1}} salue le public."
+      ]
+    },
+    "transposition": {
+      "texte": "MA PORTE D'ALLÉE\n\nUne place publique. À la droite du spectateur et au premier plan, la maison qu'habite {{r1}}.\n\nSCÈNE I. {{R1}}, {{R5}}.\n\nOn entend sonner minuit.\n\n{{R5}}. — Allons, {{r1}}, plus qu'une bouteille ! Le cabaret du père Chibroc est fermé, mais nous passerons par l'allée ; y a toujours moyen de se faire reconnaître… Des clients comme nous… ça a des protections.\n\n{{R1}}. — Non, il est minuit sonné… j'ai promis, à partir du premier janvier, de rentrer de bonne heure.\n\n{{R5}}. — Panosse, va !… Tu ne viens pas ?… c'est décidé ?\n\n{{R1}}. — Je me suis acheté une Conduite pour mes étrennes.\n\n{{R5}}. — Oui, mais pour l'avoir meilleur marché, te l'as prise d'occasion ; y a des feuillets déchirés… En attendant, faut pas qu'on dérange Mossieu.\n\n{{R1}}. — Non, non… j'allais de gaviole hier en rentrant… je veux monter aujourd'hui mon escayer sans ziguezaguer.\n\n{{R5}}. — Eh bien ! adieu ! mes compliments à ton épouse. Je trouverai bien quéques amis par là, et si tu me reviens, ingrat, compte sur ton pardon… Adieu, modèle des époux !\n\n{{R1}}. — Adieu, vénérable pochard !\n\n{{R5}}. — Adieu, vertueux gilet de flanelle ! (Il sort.)\n\nSCÈNE II. {{R1}}, seul ; il va vers sa porte.\n\n{{R1}}. — Allons ! bon ! me v'là frais ! Que polisson de guignon !… j'ai oublié ma loquetière… je vas encore une fois, comme ils disent, perturber la tranquillité publoque. V'là comment on se fait des mauvaises réputations qu'on mérite pas. Allons, faut réveiller {{r2}}. (Il frappe six coups à la porte.) Ben sûr qu'elle va pas m'entendre… c'est son premier sommeil. C'est embêtant tout de même de demeurer au sixième au-dessus de l'entresol, dans une maison qui a pas de concierge. Je lui ai dit aussi au propriétaire : Je te dois deux termes ; te ne verras la couleur de mes pécuniaux que quand te mettras un portier dans ton immeuble… Personne ne buge ! repiquons ! (Il frappe plus fort.) C'te fois {{r2}} soupçonnera p't-être que c'est moi qui tape ; ça fait déjà douze coups… J'aurais mieux aimé en boire six avec {{r5}}. Je m'en vais le rejoindre, si quéque voisin me jette pas une loquetière par sa croisée… Rien ! ni {{r2}}, ni voisin, ni voisine !… ils ont donc tous la tête sous le traversin !… J'aurai peut-être pas appuyé le marteau assez fort. (Il frappe plus fort.) Tiens ! j'entends une fenêtre qui s'ouvre, je vas enfin pouvoir rentrer sous le toit conjugal !\n\nOn voit tomber le contenu d'un pot de chambre.\n\n{{R1}}. — Ah ! canaille !… ah ! sampille !… c'est comme ça que te m'arranges !… tu inondes le monde !… T'es ben heureux que je n'aye pas vu d'où ça sortait, grand filou !… je te descendrais tes vitres !… Encore que ça sent pas la rose ! brrrou !… que ça infeste !… Va-nus-pieds ! propre à rien !… je t'en paierai des rafraîchissements de cette sampote !… Rouvre donc ta lucarne, que je la retrouve demain matin, grand lâche !… Ah ! te n'aimes pas le bruit !… Ah ! te veux qu'on te laisse dormir !… Je vas t'en faire du vacarme, gredin !… Te peux rejeter encore quéque chose !… (Il frappe à coups redoublés.) Te veux des songes… te veux des rêves dorés, n'est-ce pas ?… Déclare-le, affreux gandou ! (Il frappe encore.)\n\nSCÈNE III. {{R4}}, {{R1}}.\n\n{{R4}}, dans la coulisse. — Merci ! merci ! merci ! (Entrant.) Jeune homme, je vous remercie bien.\n\n{{R1}}. — De quoi ?\n\n{{R4}}. — Je suis réveillé.\n\n{{R1}}. — Qué que ça me fait ?\n\n{{R4}}. — Je viens pour vous éviter la peine de continuer.\n\n{{R1}}. — De continuer quoi ?\n\n{{R4}}. — Mais de frapper donc ; je vous ai entendu tout de suite.\n\n{{R1}}. — Qu'est-ce qu'il chante, çui là ?… qui êtes-vous ?\n\n{{R4}}. — Et parbleu ! je suis {{r4}} ; vous devez bien le savoir.\n\n{{R1}}. — Je suis pas sorcier. D'où sortez-vous donc ?\n\n{{R4}}. — De là en face… Je vous suis bien obligé.\n\n{{R1}}. — Et de quoi ?\n\n{{R4}}. — D'avoir frappé.\n\n{{R1}}. — Où ça ?\n\n{{R4}}. — Mais, parbleu ! à la porte.\n\n{{R1}}, à part. — Est-ce que ça serait lui qui m'a si bien fleuri ?\n\n{{R4}}. — J'avais tant peur de ne pas entendre là-bas, sur mon derrière…\n\n{{R1}}, à part. — Son derrière !…\n\n{{R4}}. — Parce que mes croisées donnent sur la cour.\n\n{{R1}}, à part. — Ah !… alors ce n'est pas mon fleuriste.\n\n{{R4}}. — J'avais tant peur de manquer le bateau de six heures.\n\n{{R1}}. — Quelle heure croyez-vous donc qu'il est ?\n\n{{R4}}. — Mais approchant de cinq heures.\n\n{{R1}}. — Il n'est qu'une heure, pauvre vieux.\n\n{{R4}}. — C'est bien un peu tôt.\n\n{{R1}}. — Mais que me veut-il ? que me veut-il ?\n\n{{R4}}. — J'ai voulu dire un peu matin. Est-ce que vous avez déjà mis en levain ?\n\n{{R1}}, s'emportant. — Que que vous dites ? c'est vous qui êtes dans le vin !\n\n{{R4}}. — Je ne vous parle pas de vin ; je vous parle de levain.\n\n{{R1}}. — Ah ! ça, papa {{r4}}, avez-vous bientôt fini ces bêtises ?\n\n{{R4}}. — Vous n'êtes donc pas le garçon boulanger qui devait m'appeler en se levant ?…\n\n{{R1}}. — Boulanger !… Regarde donc c'te touche, si ça ressemble à un mitron.\n\n{{R4}}. — Je n'ai pas voulu vous offenser.\n\n{{R1}}. — Tenez, papa {{r4}}, vous avez l'air d'un bon enfant, et je vas vous donner un conseil. Si vous vous mettez en route, prenez un parepluie.\n\n{{R4}}. — Est-ce qu'il pleuvra ?\n\n{{R1}}. — Il a déjà plu… et une pluie grasse… Tenez, sentez plutôt. (Il s'approche.)\n\n{{R4}}. — Ah ! pouah !… (Il éternue.) Atchi ! atchi !…\n\n{{R1}}. — À vos souhaits !… Comment trouvez-vous le bullion ?\n\n{{R4}}. — Sapristi, quel tabac !… Voulez-vous une éponge ?\n\n{{R1}}. — Je préfère une trique !…\n\n{{R4}}. — Pour vous nettoyer ?\n\n{{R1}}. — Non, pour nettoyer quéqu'un… le premier qui me tombe sous la main.\n\n{{R4}}. — Diable ! qu'est-ce qui vous prend ?\n\n{{R1}}. — Ça ne me prend pas… ça me reprend. C'est pourtant ma femme qui est cause que me v'là dans ce bel état.\n\n{{R4}}. — Comment, c'est elle qui… (Il éternue.) Atchi ! atchi !\n\n{{R1}}. — Pas directement ; c'est un de par là-haut, du troisième ou du quatrième… Mais si ma femme m'avait ouvert plus tôt, vous ne seriez pas réveillé par le sicotti que j'ai fait en chapotant ma porte, et je n'aurais pas sur moi ce bouquet de violettes qui vous fait tant éternuer.\n\n{{R4}}. — C'est aussi l'air frais du matin… Mais j'y songe ; voulez-vous un peu vous abriter chez moi, pendant que je vais préparer ma valise ?\n\n{{R1}}. — Merci de votre honnêteté ! je donne trop d'odeur… (À part.) Ah ! gredin ! saligot ! si je te tenais…\n\n{{R4}}. — Ça n'y fait rien, je suis enchanté d'avoir fait votre connaissance.\n\n{{R1}}. — Et moi aussi, papa {{r4}}… Si nous nous embrassions, avant de nous quitter ?\n\n{{R4}}. — Non… pas pour aujourd'hui. Donnez-moi votre nom et votre adresse… à mon retour nous nous reverrons.\n\n{{R1}}. — Mon nom, {{r1}} ; mon état, cordonnier en vieux ; et tant qu'à mon adresse, v'là ma porte.\n\n{{R4}}. — Et l'étage ?…\n\n{{R1}}. — Si on retourne jamais la maison sens dessus dessous, je me trouverai à la cave.\n\n{{R4}}. — Ah ! farceur ! je comprends… Allons, adieu, Monsieur {{r1}} ; j'ai une peur de tous les diables de me rendormir.\n\n{{R1}}. — Oh ! si c'est ça qui vous inquiète, rentrez sans crainte… je vas recommencer mes chapotements. (Avec colère.) J'en ai bien le droit, je paie mon loyer… ou à peu près… je suis marié légitimement… N'y a pas à dire, faut qu'on m'ouvre !…\n\n{{R4}}. — Vous avez raison… Bonjour, au revoir ! (En s'en allant.) Peut-on empester de la sorte !\n\n{{R1}}. — Prenez garde à pas dégringoler par vos édegrés, papa {{r4}}.\n\nSCÈNE IV. {{R1}}, seul.\n\n{{R1}}. — Oui, mettez-vous à la soûte, c'est prudent. Pour moi, ça m'est égal… un peu plus, un peu moins… Si on rejette, je baisserai la tête. En attendant, je vas recommencer mon charivari, jusqu'à ce que le poste en prenne les armes. Ils peuvent tous me pleuvoir dessus, à présent. (Il frappe.) Toujours point de feu chez moi !\n\nSCÈNE V. {{R1}}, {{R6}}.\n\n{{R6}}, entrant. — Où dites-vous que le feu est ?\n\n{{R1}}. — Ça vous regarde pas. Êtes-vous pompier ?\n\n{{R6}}. — Non ; mais c'est égal, je…\n\n{{R1}}. — Eh ! bien, laissez-moi tranquille.\n\n{{R6}}. — Mais le bruit que vous faites me regarde ; vous me faites concurrence.\n\n{{R1}}. — Ah ! bah ! Est-ce que votre femme vous laisse aussi à la porte ?\n\n{{R6}}. — Il ne s'agit pas de femme, mais d'un client au patron que je viens réveiller. Je vais vous conter ça. (Il s'approche et flaire.) Ah ! mais ne restons pas là. (Il l'emmène à l'autre bout du théâtre.) Je viens réveiller un bourgeois.\n\n{{R1}}. — En frappant à son allée ?\n\n{{R6}}. — Juste… (À part.) Mais c'est encore plus fort de ce côté-ci. (Haut.) Venez donc par là… C'est un bourgeois qui veut se lever matin.\n\n{{R1}}. — Pour prendre le bateau de six heures ?\n\n{{R6}}. — Précisément. (À part.) Sapristi ! mais ça sent de tous les côtés.\n\n{{R1}}. — Est-ce que vous avez envie de danser que vous bougez toujours ?\n\n{{R6}}. — Non, mais il y a là une odeur…\n\n{{R1}}. — Faites pas attention, je vous dirai ce que c'est… En tout cas, ne vous tourmentez plus de votre bourgeois ; j'ai fait votre ouvrage.\n\n{{R6}}. — Vous êtes sûr qu'il est réveillé ?\n\n{{R1}}. — J'y ai pris peine.\n\n{{R6}}. — Est-ce que vous seriez aussi garçon boulanger ?\n\n{{R1}}. — Boulanger !… Si te disais garçon parfumeur, à la bonne heure ; tiens, sens plutôt.\n\n{{R6}}, éternuant. — Atchi ! atchi !… Ah ! voilà donc ce que je sentais ! Dites donc, parfumeur ; il paraît que vous ne travaillez pas sur le jasmin ?\n\n{{R1}}. — Si j'avais eu un parepluie, ça me serait pas arrivé ; mais le parepluie aurait changé de couleur.\n\n{{R6}}. — Eh ! bien, si vous êtes marié, vous allez joliment embaumer votre ménage.\n\n{{R1}}, avec rage. — Oui, oui, je suis marié !…\n\n{{R6}}. — Alors je comprends que votre femme préfère vous laisser en plein air.\n\n{{R1}}. — Mais aussi, demain matin, je casse tout chez nous.\n\n{{R6}}. — Ça vous avancera bien ; c'est vous qui payerez… Allons, bonjour ! je rentre chez le patron ; nous faisons encore des gâteaux aujourd'hui.\n\n{{R1}}. — Si te veux de la vanille… faut pas te gêner.\n\n{{R6}}. — Merci !… ça donnerait trop de goût à nos gâteaux des rois.\n\n{{R1}}. — Des gâteaux des rois !… (À part.) Ah ! brigand !… ah ! canaille !… ah ! gredin !… ah ! vaurien de {{r1}} !…\n\n{{R6}}. — Qué qui vous prend donc ?\n\n{{R1}}. — Des gâteaux des rois !… Et moi qu'avais promis à ma femme d'aller la rejoindre aux Pierres-Plantées, chez ma belle-mère, pour tirer un pognon en famille ! C'est ce gueux de {{r5}} que m'a fait oublier la consigne ; ils vont me croire perdu, ils vont aller me faire crier.\n\n{{R6}}. — Bath !… ça n'en vaut pas la peine…\n\n{{R1}}, le menaçant. — Te m'insultes, polisson !\n\n{{R6}}. — Doucement !… vous n'avez pas compris ; je dis que c'est pas la peine de vous faire crier, puisque vous êtes tout trouvé.\n\n{{R1}}. — À la bonne heure, mitron ! Mais il me semble qu'y vient quéqu'un de ce côté ?\n\n{{R6}}. — Oui, oui, v'là deux femmes.\n\n{{R1}}. — Ma belle-mère et {{r2}}, sûr… Elles galopent à ma recherche.\n\n{{R6}}. — Y va y avoir des explications…\n\n{{R1}}. — Ah ! y faut pas qu'on me cherche querelle… La main me démange.\n\n{{R6}}. — Adieu, voisin. (À part.) Y aura des tapes… Je vais voir si le papa {{r4}} n'est pas rendormi et je reviens tout de suite… Ça sera drôle.\n\nSCÈNE VI. {{R1}}, puis {{R2}} et MADAME {{R3}}.\n\n{{R2}}, dans la coulisse, pleurant. — Hi ! hi ! hi ! hi ! hi ! hi !…\n\nMADAME {{R3}}, dans la coulisse. — T'as ben de la bonté, ma fille, de pleurer pour ce gueux-là ; ben sûr qu'il n'en ferait pas tant pour toi, le sac à vin !\n\n{{R1}}. — C'est la voix de Madame {{r3}}, ma douce belle-mère !… Elle parle jamais de moi qu'avec avantage. Comment vais-je me tirer de là ?… Faut que je leur conte quéque chose. (Il se place à un des angles de la scène.)\n\nMADAME {{R3}}, entrant. — Je t'ai assez prévenue… c'est pas faute d'avis, c'est bien contre mon gré… T'as voulu épouser ce vaurien, tant pire pour toi.\n\n{{R2}}. — Mais où est-il donc, ce monstre ?… Il lui sera arrivé quelque chose, bien sûr.\n\n{{R1}}, s'avançant. — Rien du tout, à moi, {{r2}}.\n\n{{R2}} et MADAME {{R3}}, ensemble. — Ah ! te voilà, canaille ! ivrogne ! chenapan ! gredin ! pillandre !\n\n{{R2}}, très vite. — C'est comme ça que t'es venu tirer un pognon en famille… aux Pierres-Plantées, comme te l'avais promis… monstre !\n\nMADAME {{R3}}. — Il a bien préféré s'ivrogner à son aise avec cette sampille de {{r5}}.\n\n{{R1}}. — Si vous me laissez pas parler, vous saurez rien du tout.\n\n{{R2}}. — Parle donc, scélérat, et dépêche-toi.\n\nMADAME {{R3}}. — Oui, parle ; abominable homme !\n\n{{R1}}, très vite. — Voici la chose : c'est ma pauvre petite filleule, la fille de l'oncle à mon grand-père… elle avait les yeux rouges, on a cru qu'il était entré quéque chose dans ses souliers ; on lui a fait boire du vulnéraire, ça s'est trouvé de l'eau de javelle… V'là qu'on vient me chercher comme je partais pour te rejoindre. Le ventre du grand-père commençait à enfler… on fait venir le médecin… il lui pose un vésicatoire… Mais la Saône montait toujours ; elle charriait des glaces… on battait la retraite… le vésicatoire n'a pas pris… Les voisins se sont amassés dans la rue… y en avait plus de trois mille… le commissaire est venu… il en a emmené sept à la cave… il m'a fallu faire ma déposition… et ça m'a retardé jusqu'à présent.\n\nMADAME {{R3}}. — As-tu compris quéque chose, {{r2}} ?\n\n{{R2}}. — Oh ! le brigand !… c'est une colle qu'il nous conte pour nous cajoler ; mais ça se passera pas ainsi.\n\nSCÈNE VII. LES MÊMES, {{R6}} et {{R4}}, dans le fond.\n\nMADAME {{R3}}. — Non, ça ne se passera pas comme ça ; c'est une horreur, une abomination ; une conduite de cour d'assises. (Elle menace {{r1}}.)\n\n{{R1}}. — Si vous approchez, je griffe !…\n\n{{R4}} et {{R6}}, les excitant à se battre. — Csit ! csit !…\n\n{{R2}}, s'avançant vers {{r1}}. — Ah ! ciel ! quelle odeur !… Mais d'où sors-tu, vilain malpropre ?… Pouah ! pouah !…\n\nMADAME {{R3}}. — Pouah ! pouah !\n\n{{R1}}. — Oui, parlons-en… c'est en vous attendant qu'on m'a arrangé comme ça… C'est mon gâteau des rois… j'ai eu la fève.\n\n{{R2}}. — C'est bien fait, vaurien.\n\nMADAME {{R3}}. — Il n'a que ce qu'il mérite.\n\n{{R1}}. — Ah ! la moutarde me monte au nez.\n\nMADAME {{R3}}. — Elle est forte ta moutarde ! elle est à l'estragon.\n\n{{R1}}. — Belle maman, le temps est à l'orage… il a déjà plu… il va pleuvoir autre chose !\n\n{{R2}}. — Fais donc pas tant ton crâne.\n\n{{R1}}. — {{r2}}, t'as la loquetière… amène la vite.\n\n{{R2}}. — Non !\n\nMADAME {{R3}}. — La donne pas, ma fille.\n\n{{R1}}. — La loquetière, ou je cogne !…\n\n{{R2}}. — La voilà, garnement ! (Elle la lui donne.)\n\nMADAME {{R3}}. — T'es ben trop bête, ma fille.\n\n{{R1}}, qui est allé ouvrir la porte, revient vers Madame {{r3}} et la pousse dans l'allée. — Vous, belle maman, filez devant.\n\nMADAME {{R3}}, criant et disparaissant. — Oh ! le scélérat ! le brigand ! À la garde ! à la garde !\n\n{{R1}}, revenant vers {{r2}}. — À ton tour, à présent ! (Il veut la pousser, elle résiste.)\n\n{{R2}}. — Non, je rentrerai pas comme ça… tiens ! (Elle le prend aux cheveux. Ils se battent.)\n\n{{r6}} et {{r4}} s'avancent.\n\n{{R4}}. — C'est indigne ! battre ainsi sa femme… troubler tout le quartier… et encore répandre une pareille odeur !… C'est immoral !… Vous allez venir au corps-de-garde…\n\n{{R6}}. — Oui, oui,… au corps-de-garde !\n\n{{R1}}, les frappant avec un bâton. — De quoi vous mêlez-vous ? (À {{r4}}.) Toi, va prendre le bateau de six heures.\n\n{{R4}}, se sauvant. — À l'assassin !…\n\n{{R1}}, à {{r6}}. — Toi, va faire tes gâteaux… Mets-y cette prune.\n\n{{R6}}, se sauvant. — Au voleur !…\n\n{{R2}}, s'enfuit aussi en criant. — À la garde ! à la garde !\n\nSCÈNE VIII. {{R1}}, seul.\n\n{{R1}}. — Eh bien ! soyez donc gentil !… rentrez bien tranquillement chez vous avec des bonnes intentions !… Arrosé d'eau de senteur… et par-dessus traité de voleur, d'assassin !… Tout le quartier à mes trousses… Ça me serait pas arrivé, si j'avais continué à boire avec {{r5}}… Ah ! la vertu n'est pas récompensée… Allons, rentrons chez moi… pourvu que j'aie pas perdu la loquetière dans la bagarre.\n\nSCÈNE IX. {{R1}}, {{R5}}, plusieurs amis, {{R4}} et {{R6}} ; ils sont tous armés de bâtons.\n\n{{R5}}, entrant précipitamment. — Où est-il ?… où est-il ?\n\n{{R1}}. — Tiens !… c'est {{r5}} et les amis.\n\n{{R5}}. — Où est-il ?\n\n{{R1}}. — Qui donc ?\n\n{{R5}}. — L'assassin ? le voleur ?\n\n{{R1}}. — Lequel ?\n\n{{R5}}, reconnaissant {{r1}}. — Tiens ! c'est toi, mon vieux !… Pas encore couché !…\n\n{{R1}}. — Est-ce que vous faites patrouille ?\n\n{{R5}}. — V'là la chose… nous étions chez Chibroc, quand nous avons entendu crier : Au voleur ! à l'assassin ! Nous avons pris les armes et nous v'là.\n\n{{R1}}. — Ça n'est rien du tout… y a point d'assassin, je t'explicasserai ça ; mais, vois-tu, y m'est arrivé toutes sortes d'aventures c'te nuit… Pour le moment j'ai soif… Retournons chez Chibroc… je te conterai tout.\n\n{{R5}}. — T'es toujours mon ami, {{r1}}… Embrasse-moi !\n\n{{R1}}, se jetant dans ses bras. — Oui, oui ; je suis un vrai t'ami.\n\n{{R5}}, éternuant. — Atchi ! atchi !… Saperlotte, est-ce que te t'es enrôlé dans les porteurs de bennes de nuit ? Quel bouquet !…\n\n{{R1}}. — Est-ce que te crains cette odeur ?\n\n{{R5}}. — Bah ! je suis pas bien difficile… T'as pris médecine ?\n\n{{R1}}. — C'est un pot de basilic que m'a dégringolé sur la tête.\n\n{{R5}}. — T'as toujours de la chance, toi. Credié, que t'es musqué !… Au premier abord, c'est un peu fort… mais on s'habitue vite…\n\n{{R1}}. — Le père Chibroc va nous sentir venir de loin… ça lui fera plaisir.\n\n{{R5}}. — Ah ! dis donc… t'as d'argent, {{r1}} ?… parce que Chibroc est un malhonnête… il nous a mis à la porte, sous prétexte que nous avions pas le sou.\n\nOn entend sonner six heures.\n\n{{R4}}. — Sapristi ! il est six heures… j'ai manqué le bateau à vapeur.\n\n{{R5}}. — Vous êtes donc là, papa {{r4}}. V'là une lettre pour vous… c'est votre concierge qui buvait avec nous qui me l'a donnée… Y a deux jours qu'il l'a… mais comme il ne décesse pas de se boissonner… il l'avait oubliée… Il nous a chargé de vous la remettre… parce que le pauvre homme, voyez-vous, nous l'avons laissé sous la table chez Chibroc…\n\n{{R4}}. — Donnez donc vite, père {{r5}}. (Il ouvre et lit.) Ah ! quel bonheur ! je ne pars plus ! J'hérite de deux cent mille francs… je ne me sens pas de joie… Mes amis, je paie à boire à tout le monde… je paie à déjeuner… Bombance toute la journée… Suivez-moi ! suivez-moi !…\n\nTOUS. — Suivons-le !… suivons-le…\n\nSCÈNE X. LES MÊMES, {{R2}}.\n\n{{R2}}. — Ah ! te voilà ! brigand !… Te n'es donc pas arrêté ! Te n'es donc pas encore aux galères ?\n\n{{R1}}. — Doucement, {{r2}}, j'ai pas tort… Je te conterai tout.\n\n{{R2}}. — Je t'écoute plus… Y a trop longtemps que j'endure.\n\n{{R4}}. — Madame {{r1}}, apaisez-vous… Je suis témoin que la conduite de votre mari a été cette nuit exemplaire… Je viens de l'inviter à déjeuner. Faites-moi le plaisir d'accepter aussi mon invitation.\n\n{{R2}}. — À déjeuner !… Certainement, Mossieu… vous êtes trop honnête !… J'accepte…\n\nTOUS. — Bravo ! bravo ! à table !\n\nMADAME {{R3}}, à la fenêtre. — Eh bien ! et moi ! est-ce qu'on va me laisser là toute la semaine ?\n\n{{R1}}. — Belle maman… vous faites pas de mauvais sang… Nous allons déjeuner… Ayez soin du mioche… nous rentrerons de bonne heure…\n\nMADAME {{R3}}, de même. — {{r2}}, tu vas avec ces vauriens !… Mais, emmenez-moi au moins.\n\n{{R1}}. — Je peux pas vous ouvrir ; j'ai perdu la loquetière.\n\nMADAME {{R3}}. — Mais c'est un scandale, une horreur !\n\nTOUS. — Adieu, Madame {{r3}}.\n\n{{R1}}. — Belle maman, nous vous apporterons du dessert.\n\nIls chantent tous :\n\nFlon, flon, flon ;\nVidons nos bouteilles.\nFlon, flon, flon ;\nVidons nos flacons.\n\n{{R1}}, au public, sur un air :\n\nJ'crois que j'ferai bien de changer de toilette ;\nDe m'savonner j'sens aussi le besoin ;\nEt les parfums d'un' suav' cassolette\nNe seraient pas d'trop sur mon pourpoint.\nMais j'veux vous l'dire, Messieurs, en confidence :\nLe succès s'rait mon meilleur dégraisseur.\nLe succès seul a, dit-on, la puissance\nDe tout remettre en bonne odeur.\n\nFIN DE MA PORTE D'ALLÉE.",
+      "changements": [
+        "La pièce est jouée par six marionnettes, une par personnage qui parle : {{r1}} (Guignol), {{r2}} (Madelon), {{r3}} (Madame Seringuet), {{r4}} (Chalumeau), {{r5}} (Gnafron) et {{r6}} (Dupétrin). Les amis de {{r5}} et le voisin qui vide son pot n’ont pas de marionnette.",
+        "Retouches universelles appliquées : « pratiques » devient « clients », et la réplique « La femme est obligée de suivre son mari… c’est dans le code » est retirée (ce qui a mal vieilli).",
+        "Pour tenir dix-huit minutes, le milieu est coupé (répétitions et digressions) : la « Conduite » achetée d’occasion, le propriétaire et les injures au voisin, la « peine de continuer », le levain et le vin, la trique, l’embrassade refusée, la cave, « votre femme vous laisse aussi à la porte ? », le jasmin, le « Bath ! », les « Csit ! csit ! », une partie des répliques de {{r3}} (« Je t’ai assez prévenue », « abominable homme », « As-tu compris », « La donne pas, ma fille »…) et une partie des plaisanteries sur l’odeur, jusque dans les retrouvailles avec {{r5}}. Dans l’excuse de {{r1}}, l’eau de javelle et le vésicatoire sont retirés. La fin, des six heures au couplet, est jouée entière.",
+        "Deux mains, deux marionnettes : les scènes à trois se jouent par relais. {{r1}} se cache pendant que {{r2}} et {{r3}} arrivent ; {{r3}} part voir au coin de la rue quand il sort de sa cachette ; {{r2}} recule à cause de l’odeur quand {{r3}} revient ; {{r4}} puis {{r6}} s’avancent chacun à son tour ; {{r1}} s’écarte quand {{r4}} reçoit sa lettre, puis va le chercher pour qu’il parle à {{r2}} ; {{r5}} revient chanter avec {{r1}}.",
+        "Quelques répliques changent de place pour suivre ces relais : « À la garde ! » de {{r2}} est criée avant l’arrivée d’{{r4}} et de {{r6}}, et « Ah ! la moutarde me monte au nez » pendant que {{r2}} s’en va et que {{r3}} revient. Les répliques collectives sont dites par les marionnettes en scène : « Ah ! te voilà, canaille ! » par {{r2}}, « Suivons-le ! » par {{r5}}, « Bravo ! bravo ! » par {{r4}} et « À table ! » par {{r2}}, « Adieu, Madame {{r3}} » par {{r1}}, et la chanson par {{r5}} et {{r1}}. Là où une coupe laissait deux répliques de suite au même personnage, elles sont réunies.",
+        "Une marionnette n’a pas de doigts : pas de bâton, {{r1}} fonce tête la première, et on frappe sur la table ; la loquetière et la lettre ne se montrent pas, le conteur dit « {{r2}} la lui donne » et « {{r4}} ouvre et lit ».",
+        "La question de {{r3}} « As-tu compris quéque chose ? » est reprise par {{r2}} en adresse aux enfants."
+      ]
+    }
+  },
+  "dureeEstimeeSecondes": 1154,
+  "interactionsOrdonnees": [
+    "a4e73",
+    "a1e16",
+    "a4e66",
+    "a3e2",
+    "a2e24",
+    "a3e21",
+    "a1e27",
+    "a4e23"
+  ]
+}

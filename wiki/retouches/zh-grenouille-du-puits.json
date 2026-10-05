@@ -1,0 +1,11 @@
+{
+  "id": "zh-grenouille-du-puits",
+  "langue": [
+    {"avant": "Pourquoi ne viendriez-vous pas, monsieur,", "apres": "Pourquoi vous ne viendriez pas, monsieur,", "nature": "parler", "jusqua": 4},
+    {"avant": "Au temps de Yu,", "apres": "Au temps du roi Yu,", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "il y eut neuf années d'inondation sur dix, et son eau n'augmenta pas", "apres": "il y a eu neuf années d'inondation sur dix, et son eau n'a pas augmenté", "nature": "parler", "jusqua": 4},
+    {"avant": "au temps de Tang,", "apres": "au temps du roi Tang,", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "il y eut sept années de sécheresse sur huit, et ses rivages ne reculèrent pas", "apres": "il y a eu sept années de sécheresse sur huit, et ses rivages n'ont pas reculé", "nature": "parler", "jusqua": 4}
+  ],
+  "moments": []
+}

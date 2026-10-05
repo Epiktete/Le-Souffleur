@@ -1,0 +1,1058 @@
+{
+  "id": "fr-perrault-souhaits-ridicules--1",
+  "conteId": "fr-perrault-souhaits-ridicules",
+  "titre": "Les Souhaits ridicules",
+  "pitch": "{{r3}} offre trois souhaits au bûcheron {{r1}}, qui en gâche deux à cause d'un boudin, puis se sert du dernier pour rendre son nez à {{r2}}.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "bucheron",
+      "famille": "adulte",
+      "traits": [
+        "naïf",
+        "gourmand",
+        "gentil"
+      ],
+      "voix": "voix moyenne et bonhomme, un peu lente, dit « ma foi » quand il est content ou embarrassé",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "voix:r1",
+            "avant": "quand il est content ou embarrassé",
+            "apres": "quand elle est contente ou embarrassée"
+          },
+          {
+            "id": "a1e2:texte",
+            "avant": "il posa",
+            "apres": "elle posa"
+          },
+          {
+            "id": "a1e5:ton",
+            "avant": "fatigué",
+            "apres": "fatiguée"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "avait-il",
+            "apres": "avait-elle"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "devant lui",
+            "apres": "devant elle"
+          },
+          {
+            "id": "a1e12:texte",
+            "avant": "couché",
+            "apres": "couchée"
+          },
+          {
+            "id": "a1e17:texte",
+            "avant": "heureux",
+            "apres": "heureuse"
+          },
+          {
+            "id": "a1e17:ton",
+            "avant": "vers lui",
+            "apres": "vers elle"
+          },
+          {
+            "id": "a1e21:texte",
+            "avant": "tout joyeux",
+            "apres": "toute joyeuse"
+          },
+          {
+            "id": "a1e21:texte",
+            "avant": "chez lui",
+            "apres": "chez elle"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "il souhaite",
+            "apres": "elle souhaite"
+          },
+          {
+            "id": "a2e6:ton",
+            "avant": "très joyeux",
+            "apres": "très joyeuse"
+          },
+          {
+            "id": "a2e9:ton",
+            "avant": "content",
+            "apres": "contente"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "Le voilà assis",
+            "apres": "La voilà assise"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "il dit",
+            "apres": "elle dit"
+          },
+          {
+            "id": "a2e12:ton",
+            "avant": "gourmand",
+            "apres": "gourmande"
+          },
+          {
+            "id": "a2e13:texte",
+            "avant": "sans qu'il la regarde",
+            "apres": "sans qu'elle la regarde"
+          },
+          {
+            "id": "a2e15:texte",
+            "avant": "Il n'avait",
+            "apres": "Elle n'avait"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "ils mangent",
+            "apres": "elles mangent"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "de lui",
+            "apres": "d'elle"
+          },
+          {
+            "id": "a3e4:texte",
+            "avant": "Malheureux",
+            "apres": "Malheureuse"
+          },
+          {
+            "id": "a3e6:ton",
+            "avant": "tout penaud",
+            "apres": "toute penaude"
+          },
+          {
+            "id": "a3e26:texte",
+            "avant": "il pouvait",
+            "apres": "elle pouvait"
+          },
+          {
+            "id": "a3e30:texte",
+            "avant": "bien droit",
+            "apres": "bien droite"
+          },
+          {
+            "id": "a3e33:texte",
+            "avant": "l'un de l'autre",
+            "apres": "l'une de l'autre"
+          },
+          {
+            "id": "a3e34:texte",
+            "avant": "Ils ne furent ni rois",
+            "apres": "Elles ne furent ni reines"
+          },
+          {
+            "id": "a3e35:texte",
+            "avant": "qu'ils mangèrent",
+            "apres": "qu'elles mangèrent"
+          },
+          {
+            "id": "a3e35:texte",
+            "avant": "ce qu'il souhaitait",
+            "apres": "ce qu'elle souhaitait"
+          },
+          {
+            "id": "pitch",
+            "avant": "au bûcheron",
+            "apres": "à la bûcheronne"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "vie de bûcheron",
+            "apres": "vie de bûcheronne"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "un pauvre bûcheron nommé",
+            "apres": "une pauvre bûcheronne nommée"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r2",
+      "espece": "femme",
+      "famille": "adulte",
+      "traits": [
+        "bavard",
+        "grognon",
+        "sage"
+      ],
+      "voix": "voix aiguë qui parle très vite sans reprendre son souffle, commence ses colères par « Ah ça ! »",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a2e3:texte",
+            "avant": "Ma femme",
+            "apres": "Mon mari"
+          },
+          {
+            "id": "a2e8:ton",
+            "avant": "sérieuse",
+            "apres": "sérieux"
+          },
+          {
+            "id": "a2e15:texte",
+            "avant": "vers elle",
+            "apres": "vers lui"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "d'elle une reine",
+            "apres": "de lui un roi"
+          },
+          {
+            "id": "a3e2:texte",
+            "avant": "elle se fâcha",
+            "apres": "il se fâcha"
+          },
+          {
+            "id": "a3e4:ton",
+            "avant": "fâchée",
+            "apres": "fâché"
+          },
+          {
+            "id": "a3e9:texte",
+            "avant": "Elle criait",
+            "apres": "Il criait"
+          },
+          {
+            "id": "a3e14:texte",
+            "avant": "si elle secoue",
+            "apres": "s'il secoue"
+          },
+          {
+            "id": "a3e26:texte",
+            "avant": "une reine",
+            "apres": "un roi"
+          },
+          {
+            "id": "a3e28:texte",
+            "avant": "être reine",
+            "apres": "être roi"
+          },
+          {
+            "id": "a3e28:texte",
+            "avant": "rester bûcheronne",
+            "apres": "rester bûcheron"
+          },
+          {
+            "id": "a3e31:texte",
+            "avant": "ma {{r2}}",
+            "apres": "mon {{r2}}"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r3",
+      "espece": null,
+      "famille": null,
+      "traits": [
+        "sage",
+        "farceur"
+      ],
+      "voix": "voix très grave et solennelle, qui roule les « r » et finit ses phrases par un petit rire « ho ho »",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e9:texte",
+            "avant": "lui-même",
+            "apres": "elle-même"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "bien droit",
+            "apres": "bien droite"
+          },
+          {
+            "id": "a1e17:ton",
+            "avant": "sérieux",
+            "apres": "sérieuse"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 5,
+    "ageAuditoire": 7,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "quelques",
+    "ebauche": "les trois souhaits gâchés et le boudin au nez"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "Au fond du bois",
+      "description": "Tendez un drap vert ou marron sur le dossier de deux chaises : c'est le bois, et le parent se cache derrière. Posez devant deux coussins, qui sont des souches d'arbre. {{r3}} surgira par le haut du drap.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "Chez {{r1}}, devant la cheminée",
+      "description": "Gardez le même drap. Posez à gauche un carton retourné, qui fait la cheminée, avec si vous voulez un papier rouge ou orange pour le feu. Cachez derrière le carton la longue chaussette, avec un bout qui dépasse, et gardez la pince à linge à portée de main derrière le drap.",
+      "accessoires": [
+        "une longue chaussette (le boudin)",
+        "une pince à linge"
+      ],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Les trois souhaits d'{{r3}}",
+      "tableauId": "t1",
+      "resume": "{{r1}} se plaint de sa vie de bûcheron. Dans un coup de tonnerre, {{r3}} paraît et lui promet d'exaucer ses trois premiers souhaits.",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Il était une fois un pauvre bûcheron nommé {{r1}}, qui trouvait sa vie bien dure."
+        },
+        {
+          "id": "a1e2",
+          "type": "conteur",
+          "texte": "Un soir, au fond du bois, il posa sa cognée et soupira."
+        },
+        {
+          "id": "a1e3",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e4",
+          "type": "didascalie",
+          "texte": "{{r1}} traverse la scène à pas lents, le dos courbé, puis s'arrête au milieu."
+        },
+        {
+          "id": "a1e5",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Depuis que je suis au monde, je travaille, je travaille, et je n'ai jamais eu un seul de mes souhaits. Le ciel ne m'écoute pas !",
+          "ton": "en soupirant, fatigué, puis plus fort vers le haut"
+        },
+        {
+          "id": "a1e6",
+          "type": "conteur",
+          "texte": "À peine avait-il dit ces mots que le tonnerre gronda,"
+        },
+        {
+          "id": "a1e7",
+          "type": "note_marionnettiste",
+          "texte": "Sur « gronda », faites « Brrrrroum ! » à la voix et frappez un grand coup sur la table."
+        },
+        {
+          "id": "a1e8",
+          "type": "didascalie",
+          "texte": "{{r1}} sursaute et tremble de la tête aux pieds."
+        },
+        {
+          "id": "a1e9",
+          "type": "conteur",
+          "texte": "et {{r3}} lui-même parut devant lui, la foudre à la main."
+        },
+        {
+          "id": "a1e10",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e11",
+          "type": "didascalie",
+          "texte": "{{r3}} surgit d'un coup par le haut du décor, bien droit, l'éclair doré tourné vers {{r1}}."
+        },
+        {
+          "id": "a1e12",
+          "type": "didascalie",
+          "texte": "{{r1}} se jette à plat ventre et reste couché en tremblant."
+        },
+        {
+          "id": "a1e13",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Ne crains rien.",
+          "ton": "d'une grosse voix douce"
+        },
+        {
+          "id": "a1e14",
+          "type": "didascalie",
+          "texte": "{{r1}} relève la tête, tout doucement."
+        },
+        {
+          "id": "a1e15",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "J'ai entendu ta plainte, et je veux te montrer qu'elle est injuste. Écoute : je t'accorde les trois premiers souhaits que tu feras, quels qu'ils soient.",
+          "ton": "lentement, avec majesté"
+        },
+        {
+          "id": "a1e16",
+          "type": "didascalie",
+          "texte": "{{r1}} se redresse d'un bond."
+        },
+        {
+          "id": "a1e17",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Vois bien ce qui peut te rendre heureux avant de souhaiter — ton bonheur en dépend.",
+          "ton": "en se penchant vers lui, sérieux"
+        },
+        {
+          "id": "a1e18",
+          "type": "didascalie",
+          "texte": "{{r3}} remonte lentement par le haut du décor."
+        },
+        {
+          "id": "a1e19",
+          "type": "conteur",
+          "texte": "Et {{r3}} remonta dans les nuages."
+        },
+        {
+          "id": "a1e20",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e21",
+          "type": "conteur",
+          "texte": "{{r1}}, tout joyeux, chargea son bois sur son épaule et courut chez lui."
+        },
+        {
+          "id": "a1e22",
+          "type": "didascalie",
+          "texte": "{{r1}} saute de joie, puis file en courant de l'autre côté."
+        },
+        {
+          "id": "a1e23",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Le premier souhait",
+      "tableauId": "t2",
+      "resume": "{{r1}} annonce la nouvelle à {{r2}}, qui veut attendre le lendemain pour choisir. Mais au coin du feu, il souhaite sans réfléchir une belle aune de boudin, et le boudin arrive.",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e2",
+          "type": "didascalie",
+          "texte": "{{r1}} traverse la scène en courant et en sautillant jusqu'à la cheminée."
+        },
+        {
+          "id": "a2e3",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "{{r2}} ! Ma femme !",
+          "ton": "fort, tout essoufflé"
+        },
+        {
+          "id": "a2e4",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e5",
+          "type": "didascalie",
+          "texte": "{{r2}} s'avance vers {{r1}} d'un pas décidé."
+        },
+        {
+          "id": "a2e6",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Nous voilà riches ! Il n'y a plus qu'à faire des souhaits : {{r3}} m'en a promis trois !",
+          "ton": "très joyeux, en sautant sur place"
+        },
+        {
+          "id": "a2e7",
+          "type": "didascalie",
+          "texte": "{{r1}} se penche vers {{r2}} et lui parle à l'oreille en s'agitant ; {{r2}} hoche la tête plusieurs fois."
+        },
+        {
+          "id": "a2e8",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "{{r1}}, il ne faut rien gâcher. Réfléchissons bien à ce que nous demanderons demain, et cette nuit, la nuit portera conseil.",
+          "ton": "aussitôt, sérieuse, la tête pleine de projets"
+        },
+        {
+          "id": "a2e9",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "C'est parlé sagement. Mais en attendant, mets donc du bois au feu, et buvons un coup pour fêter ça.",
+          "ton": "content, en se frottant le ventre"
+        },
+        {
+          "id": "a2e10",
+          "type": "didascalie",
+          "texte": "{{r1}} va se placer devant la cheminée, face aux enfants."
+        },
+        {
+          "id": "a2e11",
+          "type": "conteur",
+          "texte": "Le voilà assis devant la cheminée, le dos au feu, son verre à la main, bien à son aise. Et sans y penser, il dit :"
+        },
+        {
+          "id": "a2e12",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ah, la bonne braise ! Ce qu'il faudrait là-dessus, c'est une belle aune de boudin. Ça, je le souhaite !",
+          "ton": "sans y penser, gourmand, en rêvassant"
+        },
+        {
+          "id": "a2e13",
+          "type": "note_marionnettiste",
+          "texte": "La chaussette est cachée d'avance derrière la cheminée. Elle ne bouge jamais toute seule : c'est le dos de {{r1}} qui la pousse, sans qu'il la regarde."
+        },
+        {
+          "id": "a2e14",
+          "type": "didascalie",
+          "texte": "{{r1}}, toujours le dos au feu, recule d'un coup contre la cheminée : son dos pousse la chaussette cachée, qui glisse en serpentant jusqu'aux pieds de {{r2}}."
+        },
+        {
+          "id": "a2e15",
+          "type": "conteur",
+          "texte": "Il n'avait pas fini sa phrase que {{r2}} vit, avec stupeur, un long, long boudin sortir du coin de la cheminée et venir en serpentant vers elle."
+        },
+        {
+          "id": "a2e16",
+          "type": "didascalie",
+          "texte": "{{r2}} recule d'un bond et se met à trembler."
+        },
+        {
+          "id": "a2e17",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Criez tous avec moi : le boudin !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e18",
+          "type": "note_marionnettiste",
+          "texte": "Laissez les enfants crier « le boudin ! », puis enchaînez sur le grand cri de {{r2}} au début de l'acte suivant, quoi qu'ils aient crié."
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Le boudin au nez",
+      "tableauId": "t2",
+      "resume": "{{r2}} gronde si fort que {{r1}} lui souhaite le boudin au nez, et c'est fait. Avec le dernier souhait, {{r1}} pourrait faire d'elle une reine, mais {{r2}} préfère son nez d'avant, et ils mangent le boudin.",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "didascalie",
+          "texte": "{{r2}} pousse un grand cri (à la voix)."
+        },
+        {
+          "id": "a3e2",
+          "type": "conteur",
+          "texte": "Puis, comprenant que c'était là le premier souhait, elle se fâcha tout rouge."
+        },
+        {
+          "id": "a3e3",
+          "type": "didascalie",
+          "texte": "{{r2}} se tourne vers {{r1}} et s'approche de lui."
+        },
+        {
+          "id": "a3e4",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Malheureux ! On peut avoir un royaume, de l'or, des perles, des habits magnifiques — et tu souhaites du boudin !",
+          "ton": "fort, très fâchée"
+        },
+        {
+          "id": "a3e5",
+          "type": "didascalie",
+          "texte": "{{r1}} baisse la tête."
+        },
+        {
+          "id": "a3e6",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Eh bien, j'ai eu tort. J'ai fait une sottise, je ferai mieux la prochaine fois.",
+          "ton": "tout penaud"
+        },
+        {
+          "id": "a3e7",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Ah oui, parlons-en ! Il faut être bête comme un bœuf pour souhaiter du boudin !",
+          "ton": "encore plus fort, en grondant"
+        },
+        {
+          "id": "a3e8",
+          "type": "didascalie",
+          "texte": "{{r2}} s'agite devant {{r1}} sans s'arrêter ; {{r1}} recule, recule, puis se redresse d'un coup."
+        },
+        {
+          "id": "a3e9",
+          "type": "conteur",
+          "texte": "Elle criait tant et tant que {{r1}} perdit patience."
+        },
+        {
+          "id": "a3e10",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tais-toi donc avec ton boudin ! Que le boudin te pende au nez !",
+          "ton": "en criant, à bout de patience"
+        },
+        {
+          "id": "a3e11",
+          "type": "didascalie",
+          "texte": "{{r2}} pousse un cri et tombe à la renverse derrière le décor ; {{r1}} plonge se cacher de l'autre côté."
+        },
+        {
+          "id": "a3e12",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e13",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e14",
+          "type": "note_marionnettiste",
+          "texte": "Posez {{r1}}. Avec la main libre, reprenez la chaussette et coincez-la au bout du nez de {{r2}} avec la pince à linge, juste au bord : elle doit tenir si {{r2}} bouge doucement, et tomber si elle secoue la tête d'un grand coup."
+        },
+        {
+          "id": "a3e15",
+          "type": "conteur",
+          "texte": "Aussitôt dit, aussitôt fait : le boudin sauta au visage de {{r2}} et s'accrocha au bout de son nez, où il resta pendu."
+        },
+        {
+          "id": "a3e16",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e17",
+          "type": "didascalie",
+          "texte": "{{r2}} ressurgit, le boudin au nez, et tire la tête en arrière de toutes ses forces : le boudin reste accroché."
+        },
+        {
+          "id": "a3e18",
+          "type": "conteur",
+          "texte": "Il tenait là comme s'il y avait poussé."
+        },
+        {
+          "id": "a3e19",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Mon nez ! Qu'as-tu fait de mon nez !",
+          "ton": "en hurlant"
+        },
+        {
+          "id": "a3e20",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e21",
+          "type": "didascalie",
+          "texte": "{{r1}} sort tout doucement de sa cachette, tête basse, et n'ose pas approcher."
+        },
+        {
+          "id": "a3e22",
+          "type": "conteur",
+          "texte": "{{r1}} ne savait plus où se mettre."
+        },
+        {
+          "id": "a3e23",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Combien de souhaits ai-je déjà faits ?",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e24",
+          "type": "note_marionnettiste",
+          "texte": "Laissez les enfants compter sur leurs doigts. {{r1}} hoche la tête une fois pour le boudin, une fois pour le nez. {{r2}} ne bouge pas pendant ce temps."
+        },
+        {
+          "id": "a3e25",
+          "type": "conteur",
+          "texte": "Il restait un souhait, un seul."
+        },
+        {
+          "id": "a3e26",
+          "type": "conteur",
+          "texte": "{{r1}} réfléchit : avec ce dernier souhait, il pouvait demander un royaume. Mais quelle allure aurait une reine avec un boudin pendu au nez ?"
+        },
+        {
+          "id": "a3e27",
+          "type": "didascalie",
+          "texte": "{{r1}} s'approche tout près de {{r2}}."
+        },
+        {
+          "id": "a3e28",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Veux-tu être reine, avec ce nez-là ? Ou rester bûcheronne, avec ton nez d'avant ?",
+          "ton": "tout bas"
+        },
+        {
+          "id": "a3e29",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Mon nez d'avant !",
+          "ton": "tout de suite, sans hésiter"
+        },
+        {
+          "id": "a3e30",
+          "type": "didascalie",
+          "texte": "{{r1}} se redresse bien droit."
+        },
+        {
+          "id": "a3e31",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je souhaite que le boudin s'en aille, et que ma {{r2}} retrouve son nez !",
+          "ton": "fort et bien clairement"
+        },
+        {
+          "id": "a3e32",
+          "type": "didascalie",
+          "texte": "{{r2}} secoue la tête d'un grand coup : le boudin tombe."
+        },
+        {
+          "id": "a3e33",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r2}} se rapprochent l'un de l'autre."
+        },
+        {
+          "id": "a3e34",
+          "type": "conteur",
+          "texte": "Ils ne furent ni rois ni riches, et le lendemain, {{r1}} reprit sa cognée."
+        },
+        {
+          "id": "a3e35",
+          "type": "conteur",
+          "texte": "Mais on dit qu'ils mangèrent le boudin — il était excellent —, et que jamais plus {{r1}} ne se plaignit de son sort sans réfléchir d'abord à ce qu'il souhaitait vraiment."
+        },
+        {
+          "id": "a3e36",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e37",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "synopsis": {
+      "conte": "fr-perrault-souhaits-ridicules",
+      "titre": "Les Souhaits ridicules",
+      "accroche": "{{r3}} offre trois souhaits à {{r1}}, qui les gâche tous à cause d'un boudin.",
+      "resume": [
+        "{{r1}}, un pauvre bûcheron, se plaint de sa vie dans la forêt. Dans un grand coup de tonnerre, {{r3}} apparaît et lui promet d'exaucer les trois premiers souhaits qu'il fera.",
+        "Rentré chez lui, assis devant le feu avec {{r2}}, {{r1}} a faim et dit sans réfléchir : « Je voudrais un beau long boudin ! » Aussitôt, un boudin sort de la cheminée en serpentant : le premier souhait est perdu.",
+        "{{r2}} le gronde sans s'arrêter pour ce souhait gaspillé. À bout de patience, {{r1}} s'écrie : « Que ce boudin te pende au bout du nez ! » Et le boudin se colle au nez de {{r2}} : c'est le deuxième souhait.",
+        "Il reste un souhait. {{r1}} pourrait devenir roi et faire de {{r2}} une reine, mais une reine avec un boudin au nez. {{r2}} préfère rester la femme d'un bûcheron et garder son nez à elle.",
+        "{{r1}} fait son dernier souhait pour libérer le nez de {{r2}}. Ils restent pauvres, mais ils mangent le boudin, et il est excellent."
+      ],
+      "distribution": [
+        {
+          "marionnette": "{{r1}}",
+          "role": "Blaise",
+          "note": "Un bûcheron naïf, gourmand et gentil, exactement comme lui."
+        },
+        {
+          "marionnette": "{{r2}}",
+          "role": "Fanchon",
+          "note": "Bavarde, grognon mais sage : c'est elle qui choisit bien à la fin."
+        },
+        {
+          "marionnette": "{{r3}}",
+          "role": "Jupiter",
+          "note": "Le dieu du ciel à l'éclair doré, sage et farceur, qui offre les souhaits."
+        }
+      ],
+      "changements": [],
+      "id": "fr-perrault-souhaits-ridicules",
+      "reference": "Les Souhaits ridicules — France, Charles Perrault, 1693, mis en prose pour le Souffleur",
+      "annonces": []
+    },
+    "conteId": "fr-perrault-souhaits-ridicules",
+    "adaptation": {
+      "titre": "Les Souhaits ridicules",
+      "pitch": "{{r3}} offre trois souhaits au bûcheron {{r1}}, qui en gâche deux à cause d'un boudin, puis se sert du dernier pour rendre son nez à {{r2}}.",
+      "changements": [
+        "Le conte est joué en entier : aucun épisode n'est coupé et toutes les répliques sont dites.",
+        "Le boudin est une longue chaussette. Elle est cachée d'avance derrière la cheminée, et {{r1}} la pousse de la tête vers {{r2}} sans la regarder. Elle ne bouge jamais toute seule.",
+        "Le boudin au nez se fait en coulisse. {{r2}} tombe derrière le décor et {{r1}} se cache. Avec la main libérée, le parent coince la chaussette sous le museau de {{r2}}, puis elle ressurgit, boudin au nez.",
+        "Le tonnerre se fait à la voix et par un coup frappé sur la table. {{r3}} surgit par le haut du décor, puis y remonte.",
+        "{{r3}} ne joue que dans la forêt. Il ne revient pas à la fin, parce que le conte ne le fait pas revenir."
+      ],
+      "tableaux": [
+        {
+          "id": "t1",
+          "titre": "Au fond du bois",
+          "description": "Tendez un drap vert ou marron sur le dossier de deux chaises : c'est le bois, et le parent se cache derrière. Posez devant deux coussins, qui sont des souches d'arbre. {{r3}} surgira par le haut du drap.",
+          "accessoires": [],
+          "promptImage": ""
+        },
+        {
+          "id": "t2",
+          "titre": "Chez {{r1}}, devant la cheminée",
+          "description": "Gardez le même drap. Posez à gauche un carton retourné, qui fait la cheminée, avec si vous voulez un papier rouge ou orange pour le feu. Cachez derrière le carton la longue chaussette, avec un bout qui dépasse, et gardez la pince à linge à portée de main derrière le drap.",
+          "accessoires": [
+            "une longue chaussette (le boudin)",
+            "une pince à linge"
+          ],
+          "promptImage": ""
+        }
+      ],
+      "actes": [
+        {
+          "numero": 1,
+          "titre": "Les trois souhaits d'{{r3}}",
+          "tableauId": "t1",
+          "resume": "{{r1}} se plaint de sa vie de bûcheron. Dans un coup de tonnerre, {{r3}} paraît et lui promet d'exaucer ses trois premiers souhaits.",
+          "passage": "De « Il était une fois un pauvre bûcheron nommé {{r1}} » à « …chargea son bois sur son épaule et courut chez lui. »",
+          "temps": [
+            "{{r1}} arrive dans le bois, fatigué, et se plaint que le ciel ne l'écoute jamais.",
+            "Le tonnerre gronde et {{r3}} surgit par le haut du drap. {{r1}} tremble et se jette à plat ventre.",
+            "{{r3}} le rassure, lui accorde trois souhaits et lui dit de bien réfléchir avant de souhaiter, puis il remonte dans les nuages.",
+            "{{r1}}, tout joyeux, part en courant vers sa maison."
+          ],
+          "mouvements": [
+            {
+              "type": "entree",
+              "marionnette": "{{r1}}",
+              "main": "M1D"
+            },
+            {
+              "type": "entree",
+              "marionnette": "{{r3}}",
+              "main": "M1G"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "{{r3}}",
+              "main": "M1G"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "{{r1}}",
+              "main": "M1D"
+            }
+          ],
+          "momentsPublic": [
+            "Juste après la plainte de {{r1}}, le conteur dit aux enfants : « Faites gronder le tonnerre avec moi ! » Tout le monde tape sur ses genoux en faisant « Brrrrroum ! », le parent frappe un coup sur la table, et {{r3}} surgit."
+          ],
+          "budgetMots": 140
+        },
+        {
+          "numero": 2,
+          "titre": "Le premier souhait",
+          "tableauId": "t2",
+          "resume": "{{r1}} annonce la nouvelle à {{r2}}, qui veut attendre le lendemain pour choisir. Mais au coin du feu, il souhaite sans réfléchir une belle aune de boudin, et le boudin arrive.",
+          "passage": "De « — {{r2}} ! cria-t-il à sa femme. Nous voilà riches ! » à « …un long, long boudin sortir du coin de la cheminée et venir en serpentant vers elle. »",
+          "temps": [
+            "{{r1}} entre en courant et appelle {{r2}}, qui arrive, les mains sur les hanches. Il lui raconte les trois souhaits.",
+            "{{r2}} dit qu'il ne faut rien gâcher et qu'on choisira demain. {{r1}} trouve l'idée sage et réclame du bois au feu.",
+            "{{r1}} s'installe le dos à la cheminée, bien à son aise, et souhaite sans y penser une belle aune de boudin.",
+            "En se retournant, {{r1}} pousse de la tête la chaussette qui sort de derrière la cheminée et glisse vers {{r2}}."
+          ],
+          "mouvements": [
+            {
+              "type": "entree",
+              "marionnette": "{{r1}}",
+              "main": "M1D"
+            },
+            {
+              "type": "entree",
+              "marionnette": "{{r2}}",
+              "main": "M1G"
+            }
+          ],
+          "momentsPublic": [
+            "Quand la chaussette commence à glisser vers {{r2}}, le conteur dit aux enfants : « Criez tous avec moi : le boudin ! » {{r2}} pousse son grand cri juste après, quoi que les enfants aient crié."
+          ],
+          "budgetMots": 140
+        },
+        {
+          "numero": 3,
+          "titre": "Le boudin au nez",
+          "tableauId": "t2",
+          "resume": "{{r2}} gronde si fort que {{r1}} lui souhaite le boudin au nez, et c'est fait. Avec le dernier souhait, {{r1}} pourrait faire d'elle une reine, mais {{r2}} préfère son nez d'avant, et ils mangent le boudin.",
+          "passage": "De « Elle poussa un cri, puis, comprenant que c'était là le premier souhait » à « …sans réfléchir d'abord à ce qu'il souhaitait vraiment. »",
+          "temps": [
+            "{{r2}} crie, puis se fâche tout rouge contre ce souhait gaspillé. {{r1}} s'excuse, mais elle gronde de plus belle, et il finit par lui crier : « Que le boudin te pende au nez ! »",
+            "{{r2}} tombe derrière le décor avec un cri et {{r1}} se cache. Pendant que le conteur raconte le boudin qui saute au visage, le parent coince la chaussette sous le museau de {{r2}} avec la pince à linge.",
+            "{{r2}} ressurgit, le boudin au nez, et hurle « Mon nez ! ». {{r1}} revient tout penaud et lui demande tout bas si elle veut être reine avec ce nez-là, ou bûcheronne avec son nez d'avant. Elle choisit son nez d'avant.",
+            "{{r1}} fait son dernier souhait. {{r2}} secoue la tête, la chaussette tombe, et le conteur raconte qu'ils restèrent pauvres mais que le boudin était excellent."
+          ],
+          "mouvements": [
+            {
+              "type": "sortie",
+              "marionnette": "{{r2}}",
+              "main": "M1G"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "{{r1}}",
+              "main": "M1D"
+            },
+            {
+              "type": "entree",
+              "marionnette": "{{r2}}",
+              "main": "M1G"
+            },
+            {
+              "type": "entree",
+              "marionnette": "{{r1}}",
+              "main": "M1D"
+            }
+          ],
+          "momentsPublic": [
+            "Quand {{r2}} est revenue avec le boudin au nez et avant que {{r1}} ne parle, le conteur dit aux enfants : « Comptez sur vos doigts les souhaits déjà faits : un, le boudin… deux, le nez ! » Puis il dit lui-même : « Il n'en reste qu'un seul. »"
+          ],
+          "budgetMots": 240
+        }
+      ],
+      "voix": [
+        {
+          "marionnette": "{{r1}}",
+          "voix": "voix moyenne et bonhomme, un peu lente, dit « ma foi » quand il est content ou embarrassé"
+        },
+        {
+          "marionnette": "{{r2}}",
+          "voix": "voix aiguë qui parle très vite sans reprendre son souffle, commence ses colères par « Ah ça ! »"
+        },
+        {
+          "marionnette": "{{r3}}",
+          "voix": "voix très grave et solennelle, qui roule les « r » et finit ses phrases par un petit rire « ho ho »"
+        }
+      ]
+    },
+    "transposition": {
+      "texte": "Il était une fois un pauvre bûcheron nommé {{r1}}, qui trouvait sa vie bien dure. Un soir, au fond du bois, il posa sa cognée et soupira :\n\n— Depuis que je suis au monde, je travaille, je travaille, et je n’ai jamais eu un seul de mes souhaits. Le ciel ne m’écoute pas !\n\nÀ peine avait-il dit ces mots que le tonnerre gronda, et {{r3}} lui-même parut devant lui, la foudre à la main. {{r1}} se jeta par terre de frayeur.\n\n— Ne crains rien, dit {{r3}}. J’ai entendu ta plainte, et je veux te montrer qu’elle est injuste. Écoute : je t’accorde les trois premiers souhaits que tu feras, quels qu’ils soient. Vois bien ce qui peut te rendre heureux avant de souhaiter — ton bonheur en dépend.\n\nEt {{r3}} remonta dans les nuages. {{r1}}, tout joyeux, chargea son bois sur son épaule et courut chez lui.\n\n— {{r2}} ! cria-t-il à sa femme. Nous voilà riches ! Il n’y a plus qu’à faire des souhaits : {{r3}} m’en a promis trois !\n\nIl lui raconta l’affaire. {{r2}}, la tête pleine de projets, dit aussitôt :\n\n— {{r1}}, il ne faut rien gâcher. Réfléchissons bien à ce que nous demanderons demain, et cette nuit, la nuit portera conseil.\n\n— C’est parlé sagement, dit {{r1}}. Mais en attendant, mets donc du bois au feu, et buvons un coup pour fêter ça.\n\nLe voilà assis devant la cheminée, le dos au feu, son verre à la main, bien à son aise. Et sans y penser, il dit :\n\n— Ah, la bonne braise ! Ce qu’il faudrait là-dessus, c’est une belle aune de boudin. Ça, je le souhaite !\n\nIl n’avait pas fini sa phrase que {{r2}} vit, avec stupeur, un long, long boudin sortir du coin de la cheminée et venir en serpentant vers elle. Elle poussa un cri, puis, comprenant que c’était là le premier souhait, elle se fâcha tout rouge :\n\n— Malheureux ! On peut avoir un royaume, de l’or, des perles, des habits magnifiques — et tu souhaites du boudin !\n\n— Eh bien, j’ai eu tort, dit {{r1}}. J’ai fait une sottise, je ferai mieux la prochaine fois.\n\n— Ah oui, parlons-en ! Il faut être bête comme un bœuf pour souhaiter du boudin !\n\nElle criait tant et tant que {{r1}} perdit patience :\n\n— Tais-toi donc avec ton boudin ! Que le boudin te pende au nez !\n\nAussitôt dit, aussitôt fait : le boudin sauta au visage de {{r2}} et s’accrocha au bout de son nez, où il resta pendu. Elle voulut l’arracher : impossible. Il tenait là comme s’il y avait poussé.\n\n— Mon nez ! criait {{r2}}. Qu’as-tu fait de mon nez !\n\n{{r1}} ne savait plus où se mettre. Il restait un souhait, un seul. Il réfléchit : avec ce dernier souhait, il pouvait demander un royaume. Mais quelle allure aurait une reine avec un boudin pendu au nez ? Il demanda tout bas à {{r2}} :\n\n— Veux-tu être reine, avec ce nez-là ? Ou rester bûcheronne, avec ton nez d’avant ?\n\nEt {{r2}} répondit sans hésiter :\n\n— Mon nez d’avant !\n\nAlors {{r1}} fit son troisième souhait :\n\n— Je souhaite que le boudin s’en aille, et que ma {{r2}} retrouve son nez !\n\nLe boudin tomba, et {{r2}} retrouva son visage. Ils ne furent ni rois ni riches, et le lendemain, {{r1}} reprit sa cognée. Mais on dit qu’ils mangèrent le boudin — il était excellent —, et que jamais plus {{r1}} ne se plaignit de son sort sans réfléchir d’abord à ce qu’il souhaitait vraiment.",
+      "changements": []
+    },
+    "retouches": {
+      "age": 7,
+      "profil": [],
+      "annonces": []
+    },
+    "relecture": {
+      "remarques": [
+        {
+          "acte": 1,
+          "element": 5,
+          "gravite": "important",
+          "remarque": "{{r1}} demande aux enfants de faire gronder le tonnerre, puis il sursaute et tremble à ce même tonnerre. Il ne peut pas l'appeler, puisqu'il ne sait pas qu'{{r3}} va venir. Dans le conte, le tonnerre répond à sa plainte sans qu'il l'attende.",
+          "modification": "Retirer l'aparté (élément 5) et la note (élément 6). À leur place, le conteur dit : « À peine avait-il dit ces mots que le tonnerre gronda, » (voir la remarque suivante). Puis une note : le parent fait « Brrrrroum ! » à la voix et frappe un grand coup sur la table. Garder ensuite l'élément 7 ({{r1}} sursaute)."
+        },
+        {
+          "acte": 1,
+          "gravite": "important",
+          "remarque": "L'acte est court. Il laisse de côté trois phrases de narration dont l'enfant a besoin : le moment et le lieu (« un soir, au fond du bois »), qui est {{r3}} (« lui-même », « la foudre à la main », ce qui dit qu'il est le maître du ciel), et où court {{r1}} à la fin (« chez lui »), sans quoi on ne comprend pas le passage à la cheminée.",
+          "modification": "Après l'élément 1, le conteur dit : « Un soir, au fond du bois, il posa sa cognée et soupira. » Juste avant l'entrée d'{{r3}} (élément 8), le conteur dit : « À peine avait-il dit ces mots que le tonnerre gronda, et {{r3}} lui-même parut devant lui, la foudre à la main. » Le bruit de tonnerre se fait sur « gronda ». Après l'élément 16, le conteur dit : « Et {{r3}} remonta dans les nuages. » Après l'élément 17, le conteur dit : « {{r1}}, tout joyeux, chargea son bois sur son épaule et courut chez lui. »"
+        },
+        {
+          "acte": 1,
+          "element": 3,
+          "gravite": "important",
+          "remarque": "La hache de feutre fait partie de la marionnette. Une peluche sans doigts ne peut ni la poser contre le décor (élément 3) ni la reprendre avec le bois (élément 18).",
+          "modification": "Élément 3 : « {{r1}} traverse la scène à pas lents, le dos courbé, puis s'arrête au milieu. » Le geste de poser la cognée est dit par le conteur (remarque précédente). Élément 18 : « {{r1}} saute de joie, puis file en courant de l'autre côté. »"
+        },
+        {
+          "acte": 2,
+          "element": 7,
+          "gravite": "important",
+          "remarque": "Rien ne dit que {{r2}} est la femme de {{r1}}. Le conte le dit (« cria-t-il à sa femme »), mais le script l'a perdu : l'enfant voit arriver une inconnue.",
+          "modification": "Après l'élément 7 ({{r1}} parle à l'oreille de {{r2}}), le conteur dit : « Il raconta l'affaire à sa femme. »"
+        },
+        {
+          "acte": 2,
+          "gravite": "important",
+          "remarque": "L'acte est court. Il laisse de côté la narration qui fait comprendre que {{r1}} souhaite sans y penser, le verre à la main, et que c'est son souhait qui fait sortir le boudin de la cheminée.",
+          "modification": "Après l'élément 10, le conteur dit : « Le voilà assis devant la cheminée, le dos au feu, son verre à la main, bien à son aise. Et sans y penser, il dit : » Après l'élément 13, le conteur dit : « Il n'avait pas fini sa phrase que {{r2}} vit, avec stupeur, un long, long boudin sortir du coin de la cheminée et venir en serpentant vers elle. » Puis vient l'élément 14."
+        },
+        {
+          "acte": 2,
+          "element": 13,
+          "gravite": "mineur",
+          "remarque": "{{r1}} « se retourne vers le feu » pour pousser la chaussette. Cela contredit l'élément 10 (le dos au feu) et la note 12 (sans qu'il la regarde).",
+          "modification": "Écrire : « {{r1}}, toujours le dos au feu, recule d'un coup contre la cheminée : son dos pousse la chaussette cachée, qui glisse en serpentant jusqu'aux pieds de {{r2}}. » Dans la note 12, remplacer « la tête de {{r1}} » par « le dos de {{r1}} »."
+        },
+        {
+          "acte": 3,
+          "element": 1,
+          "gravite": "mineur",
+          "remarque": "{{r2}} « recule d'un bond » : c'est déjà l'élément 14 de l'acte 2. Et le grand cri que la note 16 de l'acte 2 annonce n'est pas joué, seulement raconté par le conteur.",
+          "modification": "Élément 1 : « {{r2}} pousse un grand cri (à la voix). » Élément 2, le conteur dit seulement : « Puis, comprenant que c'était là le premier souhait, elle se fâcha tout rouge. »"
+        },
+        {
+          "acte": 3,
+          "element": 14,
+          "gravite": "mineur",
+          "remarque": "« Sous le museau de {{r2}} » : {{r2}} est une femme, pas un animal.",
+          "modification": "Remplacer « sous le museau de {{r2}} » par « au bout du nez de {{r2}} »."
+        },
+        {
+          "acte": 3,
+          "element": 23,
+          "gravite": "important",
+          "remarque": "La note demande au parent de montrer un doigt, puis deux. Mais ses deux mains sont dans {{r1}} et {{r2}} : c'est injouable. De plus, {{r1}} donne lui-même la réponse qu'il attend des enfants.",
+          "modification": "Élément 22 : « Combien de souhaits ai-je déjà faits ? » (attend une réponse). Élément 23 : « Laissez les enfants compter sur leurs doigts. {{r1}} hoche la tête une fois pour le boudin, une fois pour le nez. {{r2}} ne bouge pas pendant ce temps. »"
+        },
+        {
+          "acte": 3,
+          "element": 21,
+          "gravite": "mineur",
+          "remarque": "Le conte dit l'embarras de {{r1}}, et le script ne le dit pas.",
+          "modification": "Après l'élément 21, le conteur dit : « {{r1}} ne savait plus où se mettre. »"
+        }
+      ]
+    }
+  },
+  "dureeEstimeeSecondes": 393,
+  "interactionsOrdonnees": [
+    "a3e23",
+    "a2e17"
+  ]
+}

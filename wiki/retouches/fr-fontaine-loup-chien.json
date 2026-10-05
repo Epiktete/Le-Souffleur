@@ -1,0 +1,23 @@
+{
+  "id": "fr-fontaine-loup-chien",
+  "langue": [
+    {"avant": "Sur son embonpoint, qu’il admire", "apres": "Sur sa bonne mine, qu’il admire", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "Cancres, hères et pauvres diables", "apres": "Misérables et pauvres diables", "nature": "mot-disparu"},
+    {"avant": "point de franche lippée !", "apres": "point de nourriture assurée !", "nature": "mot-disparu"},
+    {"avant": "Sera force reliefs de toutes les façons", "apres": "Sera plein de bons restes de toutes les façons", "nature": "mot-disparu"}
+  ],
+  "moments": [
+    {
+      "id": "mettre-en-quartiers",
+      "type": "cruaute",
+      "niveaux": [
+        {
+          "jusqua": 6,
+          "retouches": [
+            {"avant": "L’attaquer, le mettre en quartiers", "apres": "L’attaquer, le croquer tout entier"}
+          ]
+        }
+      ]
+    }
+  ]
+}

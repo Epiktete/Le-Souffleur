@@ -1,0 +1,2405 @@
+{
+  "id": "guignol-le-marchand-de-veaux--1",
+  "conteId": "guignol-le-marchand-de-veaux",
+  "titre": "Le Marchand de veaux",
+  "pitch": "Pour épouser Madelon, {{r1}} doit trouver trois louis d’or : il vend son petit veau à trois acheteurs à la fois, puis suit le conseil d’{{r6}}, un vieux filou : ne répondre que « fui ! fui ! ».",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "paysan",
+      "famille": "adulte",
+      "traits": [
+        "rusé",
+        "farceur",
+        "gentil"
+      ],
+      "voix": "voix vive et gouailleuse, qui rit souvent",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "il vend",
+            "apres": "elle vend"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "il devra",
+            "apres": "elle devra"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "Appelons-le",
+            "apres": "Appelons-la"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "M’sieu",
+            "apres": "Mam’zelle"
+          },
+          {
+            "id": "a1e8:ton",
+            "avant": "tout joyeux",
+            "apres": "toute joyeuse"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "M’sieu",
+            "apres": "Mam’zelle"
+          },
+          {
+            "id": "a1e14:ton",
+            "avant": "inquiet",
+            "apres": "inquiète"
+          },
+          {
+            "id": "a1e15:texte",
+            "avant": "l’époux",
+            "apres": "l’épouse"
+          },
+          {
+            "id": "a1e19:ton",
+            "avant": "tout embêté",
+            "apres": "toute embêtée"
+          },
+          {
+            "id": "a1e27:ton",
+            "avant": "tout étonné",
+            "apres": "toute étonnée"
+          },
+          {
+            "id": "a1e30:ton",
+            "avant": "soulagé",
+            "apres": "soulagée"
+          },
+          {
+            "id": "a2e5:texte",
+            "avant": "le voici",
+            "apres": "la voici"
+          },
+          {
+            "id": "a2e7:texte",
+            "avant": "mon garçon",
+            "apres": "ma fille"
+          },
+          {
+            "id": "a2e8:ton",
+            "avant": "tourné",
+            "apres": "tournée"
+          },
+          {
+            "id": "a2e9:ton",
+            "avant": "tout innocent",
+            "apres": "toute innocente"
+          },
+          {
+            "id": "a2e20:ton",
+            "avant": "tourné",
+            "apres": "tournée"
+          },
+          {
+            "id": "a2e25:texte",
+            "avant": "rébarbatif",
+            "apres": "rébarbative"
+          },
+          {
+            "id": "a2e34:texte",
+            "avant": "Monsieur",
+            "apres": "Mademoiselle"
+          },
+          {
+            "id": "a2e36:ton",
+            "avant": "étonné",
+            "apres": "étonnée"
+          },
+          {
+            "id": "a2e38:ton",
+            "avant": "tourné",
+            "apres": "tournée"
+          },
+          {
+            "id": "a2e49:texte",
+            "avant": "Monsieur",
+            "apres": "Mademoiselle"
+          },
+          {
+            "id": "a2e62:texte",
+            "avant": "Monsieur",
+            "apres": "Mademoiselle"
+          },
+          {
+            "id": "a2e63:ton",
+            "avant": "tourné",
+            "apres": "tournée"
+          },
+          {
+            "id": "a2e75:texte",
+            "avant": "un farceur",
+            "apres": "une farceuse"
+          },
+          {
+            "id": "a2e75:texte",
+            "avant": "Monsieur",
+            "apres": "Mademoiselle"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "fou",
+            "apres": "folle"
+          },
+          {
+            "id": "a3e8:ton",
+            "avant": "un peu gêné",
+            "apres": "un peu gênée"
+          },
+          {
+            "id": "a3e13:texte",
+            "avant": "mis là",
+            "apres": "mise là"
+          },
+          {
+            "id": "a3e27:texte",
+            "avant": "un fou",
+            "apres": "une folle"
+          },
+          {
+            "id": "a3e38:texte",
+            "avant": "qu’il a",
+            "apres": "qu’elle a"
+          },
+          {
+            "id": "a3e46:ton",
+            "avant": "tout content",
+            "apres": "toute contente"
+          },
+          {
+            "id": "a3e48:texte",
+            "avant": "Monsieur",
+            "apres": "Mademoiselle"
+          },
+          {
+            "id": "a3e54:texte",
+            "avant": "petit fripon",
+            "apres": "petite friponne"
+          },
+          {
+            "id": "a3e59:texte",
+            "avant": "Mon cher Monsieur",
+            "apres": "Ma chère Mademoiselle"
+          },
+          {
+            "id": "a3e65:texte",
+            "avant": "petit scélérat",
+            "apres": "petite scélérate"
+          },
+          {
+            "id": "a3e68:ton",
+            "avant": "tout essoufflé",
+            "apres": "toute essoufflée"
+          },
+          {
+            "id": "a4:resume",
+            "avant": "ce « fou »",
+            "apres": "cette « folle »"
+          },
+          {
+            "id": "a4e16:texte",
+            "avant": "Monsieur",
+            "apres": "Mademoiselle"
+          },
+          {
+            "id": "a4e17:texte",
+            "avant": "scélérat,",
+            "apres": "scélérate,"
+          },
+          {
+            "id": "a4e17:texte",
+            "avant": "fripon",
+            "apres": "friponne"
+          },
+          {
+            "id": "a4e23:texte",
+            "avant": "Cet homme est fou",
+            "apres": "Cette femme est folle"
+          },
+          {
+            "id": "a4e27:texte",
+            "avant": "Scélérat",
+            "apres": "Scélérate"
+          },
+          {
+            "id": "a4e33:texte",
+            "avant": "Monsieur",
+            "apres": "Mademoiselle"
+          },
+          {
+            "id": "a4e38:texte",
+            "avant": "Monsieur",
+            "apres": "Mademoiselle"
+          },
+          {
+            "id": "a4e65:texte",
+            "avant": "Mossieu",
+            "apres": "Mam’zelle"
+          },
+          {
+            "id": "a4e66:texte",
+            "avant": "M’sieu",
+            "apres": "Mam’zelle"
+          },
+          {
+            "id": "a4e69:texte",
+            "avant": "mon vieux",
+            "apres": "ma vieille"
+          },
+          {
+            "id": "a4e70:ton",
+            "avant": "tout fier",
+            "apres": "toute fière"
+          },
+          {
+            "id": "a4e71:texte",
+            "avant": "le gendre",
+            "apres": "la belle-fille"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r2",
+      "espece": "savetier",
+      "famille": "adulte",
+      "traits": [
+        "gourmand",
+        "têtu",
+        "vantard"
+      ],
+      "voix": "voix enrouée et traînante, qui prend de grands airs",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e4:ton",
+            "avant": "tout seul",
+            "apres": "toute seule"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "le père",
+            "apres": "la mère"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "mon vieux",
+            "apres": "ma vieille"
+          },
+          {
+            "id": "a1e9:ton",
+            "avant": "vexé",
+            "apres": "vexée"
+          },
+          {
+            "id": "a1e10:texte",
+            "avant": "Mossieu",
+            "apres": "Madame"
+          },
+          {
+            "id": "a1e12:texte",
+            "avant": "Mossieu",
+            "apres": "Madame"
+          },
+          {
+            "id": "a1e15:texte",
+            "avant": "mon épouse",
+            "apres": "mon époux"
+          },
+          {
+            "id": "a1e24:ton",
+            "avant": "content de lui",
+            "apres": "contente d’elle"
+          },
+          {
+            "id": "a4e71:ton",
+            "avant": "tout ému",
+            "apres": "toute émue"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r3",
+      "espece": "boucher",
+      "famille": "adulte",
+      "traits": [
+        "rusé",
+        "avare"
+      ],
+      "voix": "grosse voix pressée, qui marchande tout",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2e1:texte",
+            "avant": "le boucher",
+            "apres": "la bouchère"
+          },
+          {
+            "id": "a2e5:ton",
+            "avant": "tout content",
+            "apres": "toute contente"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "papa",
+            "apres": "maman"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "farceur",
+            "apres": "farceuse"
+          },
+          {
+            "id": "a2e9:texte",
+            "avant": "papa",
+            "apres": "maman"
+          },
+          {
+            "id": "a2e17:ton",
+            "avant": "dégoûté",
+            "apres": "dégoûtée"
+          },
+          {
+            "id": "a3e32:texte",
+            "avant": "le boucher",
+            "apres": "la bouchère"
+          },
+          {
+            "id": "a3e34:ton",
+            "avant": "tout content",
+            "apres": "toute contente"
+          },
+          {
+            "id": "a3e38:ton",
+            "avant": "tout étonné",
+            "apres": "toute étonnée"
+          },
+          {
+            "id": "a3e43:ton",
+            "avant": "furieux",
+            "apres": "furieuse"
+          },
+          {
+            "id": "a3e44:texte",
+            "avant": "le suit",
+            "apres": "la suit"
+          },
+          {
+            "id": "a3e46:texte",
+            "avant": "un d’expédié",
+            "apres": "une d’expédiée"
+          },
+          {
+            "id": "a4e6:texte",
+            "avant": "venu le premier",
+            "apres": "venue la première"
+          },
+          {
+            "id": "a4e48:ton",
+            "avant": "tout content",
+            "apres": "toute contente"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r4",
+      "espece": "medecin",
+      "famille": "adulte",
+      "traits": [
+        "savant",
+        "vantard",
+        "avare"
+      ],
+      "voix": "voix pointue et savante, qui détache chaque mot",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2e30:texte",
+            "avant": "le médecin",
+            "apres": "la médecin"
+          },
+          {
+            "id": "a2e32:ton",
+            "avant": "tout seul",
+            "apres": "toute seule"
+          },
+          {
+            "id": "a2e36:texte",
+            "avant": "M’sieu",
+            "apres": "M’dame"
+          },
+          {
+            "id": "a2e38:texte",
+            "avant": "Un médecin",
+            "apres": "Une médecin"
+          },
+          {
+            "id": "a2e38:texte",
+            "avant": "veut-il",
+            "apres": "veut-elle"
+          },
+          {
+            "id": "a2e44:texte",
+            "avant": "papa",
+            "apres": "maman"
+          },
+          {
+            "id": "a2e45:ton",
+            "avant": "déçu",
+            "apres": "déçue"
+          },
+          {
+            "id": "a2e49:ton",
+            "avant": "tout joyeux",
+            "apres": "toute joyeuse"
+          },
+          {
+            "id": "a2e52:texte",
+            "avant": "il ne m’entend",
+            "apres": "elle ne m’entend"
+          },
+          {
+            "id": "a3e46:texte",
+            "avant": "le médecin",
+            "apres": "la médecin"
+          },
+          {
+            "id": "a3e48:ton",
+            "avant": "pressé",
+            "apres": "pressée"
+          },
+          {
+            "id": "a3e54:ton",
+            "avant": "furieux",
+            "apres": "furieuse"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r5",
+      "espece": "aubergiste",
+      "famille": "adulte",
+      "traits": [
+        "bavard",
+        "gourmand"
+      ],
+      "voix": "voix haute et rapide, qui rit fort : « ah ! ah ! »",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a2e57:ton",
+            "avant": "tout essoufflée",
+            "apres": "tout essoufflé"
+          },
+          {
+            "id": "a2e62:texte",
+            "avant": "Madame",
+            "apres": "Monsieur"
+          },
+          {
+            "id": "a2e63:texte",
+            "avant": "si elle",
+            "apres": "s’il"
+          },
+          {
+            "id": "a2e69:texte",
+            "avant": "Madame",
+            "apres": "Monsieur"
+          },
+          {
+            "id": "a2e72:texte",
+            "avant": "Madame",
+            "apres": "Monsieur"
+          },
+          {
+            "id": "a2e74:texte",
+            "avant": "Madame",
+            "apres": "Monsieur"
+          },
+          {
+            "id": "a3e57:texte",
+            "avant": "la maman",
+            "apres": "le papa"
+          },
+          {
+            "id": "a3e59:ton",
+            "avant": "toute joyeuse",
+            "apres": "tout joyeux"
+          },
+          {
+            "id": "a3e61:texte",
+            "avant": "pressée",
+            "apres": "pressé"
+          },
+          {
+            "id": "a3e65:ton",
+            "avant": "furieuse",
+            "apres": "furieux"
+          },
+          {
+            "id": "a3e66:texte",
+            "avant": "toute secouée",
+            "apres": "tout secoué"
+          },
+          {
+            "id": "a4e27:ton",
+            "avant": "furieuse",
+            "apres": "furieux"
+          },
+          {
+            "id": "a4e54:texte",
+            "avant": "sa débitrice",
+            "apres": "son débiteur"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r6",
+      "espece": "avocat",
+      "famille": "adulte",
+      "traits": [
+        "rusé",
+        "avare",
+        "menteur"
+      ],
+      "voix": "voix chevrotante et mielleuse, qui ricane",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "un vieux filou",
+            "apres": "une vieille filoute"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "un vieux filou",
+            "apres": "une vieille filoute"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "un vieux",
+            "apres": "une vieille"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "Monsieur",
+            "apres": "Madame"
+          },
+          {
+            "id": "a3e6:texte",
+            "avant": "M’sieu",
+            "apres": "M’dame"
+          },
+          {
+            "id": "a3e8:texte",
+            "avant": "M’sieu",
+            "apres": "M’dame"
+          },
+          {
+            "id": "a3e20:texte",
+            "avant": "tout pensif",
+            "apres": "toute pensive"
+          },
+          {
+            "id": "a3e30:texte",
+            "avant": "tout secoué",
+            "apres": "toute secouée"
+          },
+          {
+            "id": "a3e32:texte",
+            "avant": "le vieux coquin",
+            "apres": "la vieille coquine"
+          },
+          {
+            "id": "a4e33:ton",
+            "avant": "tout content de lui",
+            "apres": "toute contente d’elle"
+          },
+          {
+            "id": "a4e40:ton",
+            "avant": "furieux",
+            "apres": "furieuse"
+          },
+          {
+            "id": "a4e43:texte",
+            "avant": "Monsieur",
+            "apres": "Madame"
+          },
+          {
+            "id": "a4e48:texte",
+            "avant": "il m’a prêté",
+            "apres": "elle m’a prêté"
+          },
+          {
+            "id": "a4e57:texte",
+            "avant": "Monsieur le donneur",
+            "apres": "Madame la donneuse"
+          },
+          {
+            "id": "a4e57:texte",
+            "avant": "à Monsieur",
+            "apres": "à Madame"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 18,
+    "ageAuditoire": 6,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "Le village",
+      "description": "Posez un carton debout au bout droit de la table : c’est la maison de {{r1}}, avec l’étable de la vache et du petit veau derrière. Au bout gauche, une boîte à chaussures debout fait l’autre maison, celle d’{{r6}}. Entre les deux, la table fait la rue du village.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Trois louis d’or",
+      "resume": "{{r2}} veut bien marier sa fille Madelon avec {{r1}}, à une condition : avoir trois louis d’or. {{r1}} n’a qu’une maison, une vache et un petit veau : il devra vendre le veau.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Un village : la maison de {{r1}} à droite, une autre maison à gauche."
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e3",
+          "type": "didascalie",
+          "texte": "{{r2}} arrive à petits pas devant la maison de {{r1}}, en se dandinant."
+        },
+        {
+          "id": "a1e4",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je viens voir si {{r1}} est toujours dans l’intention d’épousasser ma fille Madelon… {{r1}} me convient, et à Madelon aussi… Seulement y a une condition… Appelons-le, et parlons-lui avec dignité.",
+          "ton": "tout seul, en prenant de grands airs"
+        },
+        {
+          "id": "a1e5",
+          "type": "didascalie",
+          "texte": "{{r2}} donne deux petits coups de tête contre la maison ; frappez sur la table : toc, toc."
+        },
+        {
+          "id": "a1e6",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "M’sieu {{r1}}, M’sieu {{r1}} !",
+          "ton": "très fort, avec dignité"
+        },
+        {
+          "id": "a1e7",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e8",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "On y va ! on y va ! Ah ! le père {{r2}} ! Bonjour, mon vieux ; comment ça va-t’aujourd’hui ?",
+          "ton": "en arrivant, tout joyeux"
+        },
+        {
+          "id": "a1e9",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Qu’est-ce que c’est que ces manières de parler t’incongrues ?",
+          "ton": "vexé, en se redressant"
+        },
+        {
+          "id": "a1e10",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Mossieu de {{r2}}… Comment se porte votre respectable binette ?",
+          "ton": "en saluant très bas, la tête jusqu’à la table"
+        },
+        {
+          "id": "a1e11",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Voilà qui est mieux. Je viens savoir, M’sieu {{r1}}, si vous êtes toujours dans les intentions de lier votre existence z’avec ma fille.",
+          "ton": "très digne, en détachant les mots"
+        },
+        {
+          "id": "a1e12",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Certainement, Mossieu de {{r2}}. Je ne demande qu’à me marier z’avec elle.",
+          "ton": "en hochant la tête"
+        },
+        {
+          "id": "a1e13",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Mais vous savez les conditions ?",
+          "ton": "en bombant le torse"
+        },
+        {
+          "id": "a1e14",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ah ! y a des conditions ?",
+          "ton": "inquiet"
+        },
+        {
+          "id": "a1e15",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Y en a !… J’ai promis t’à mon épouse que l’époux de ma fille possédasserait trois louis d’or… les avez-vous ?",
+          "ton": "en levant le nez"
+        },
+        {
+          "id": "a1e16",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Comptez avec moi : un louis, deux louis, trois louis !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e17",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je les ai pas… Mais, vous le savez, j’ai une maison, j’ai une vache et un veau.",
+          "ton": "en montrant sa maison d’un mouvement de tête"
+        },
+        {
+          "id": "a1e18",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je m’importe peu de tout ça… je veux trois louis.",
+          "ton": "sans vouloir rien entendre"
+        },
+        {
+          "id": "a1e19",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Et où veux-tu que je les prenne ?",
+          "ton": "tout embêté"
+        },
+        {
+          "id": "a1e20",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Vends ta maison, ta vache ou ton veau.",
+          "ton": "comme si c’était tout simple"
+        },
+        {
+          "id": "a1e21",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Si je vends ma maison, ousque je coucherai après ?… Je peux pas vendre mon veau non plus, il a que deux jours.",
+          "ton": "en réfléchissant tout haut"
+        },
+        {
+          "id": "a1e22",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Hé ben, vends ta vache.",
+          "ton": "en haussant les épaules"
+        },
+        {
+          "id": "a1e23",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "C’est bon, on vendra la vache, quoi !",
+          "ton": "tristement"
+        },
+        {
+          "id": "a1e24",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "C’est z’entendu.",
+          "ton": "content de lui"
+        },
+        {
+          "id": "a1e25",
+          "type": "didascalie",
+          "texte": "{{r2}} fait trois pas vers la coulisse, s’arrête net et revient."
+        },
+        {
+          "id": "a1e26",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Ah ! je réfléchis. Je veux pas que te vendes ta vache. V’là l’été, je veux que te me fasses manger des fromages de chèvre.",
+          "ton": "d’un air gourmand"
+        },
+        {
+          "id": "a1e27",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Faits avec le lait de ma vache.",
+          "ton": "tout étonné"
+        },
+        {
+          "id": "a1e28",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Vends le veau… Adieu, dans t’un quart d’heure je viens chercher la réponse.",
+          "ton": "très vite, en s’en allant"
+        },
+        {
+          "id": "a1e29",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e30",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Allons, j’aime mieux ça… ça me chagrinait de vendre ma vache… Je vas lui donner une poignée de trèfle.",
+          "ton": "soulagé"
+        },
+        {
+          "id": "a1e31",
+          "type": "note_marionnettiste",
+          "texte": "Meuglez en coulisse : « Meuuuh ! » C’est la vache de {{r1}} : on l’entend, on ne la voit jamais."
+        },
+        {
+          "id": "a1e32",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Un petit veau pour trois",
+      "resume": "{{r3}}, {{r4}}, puis {{r5}} viennent acheter le veau. Chacun le trouve bien maigre, chacun l’achète quand même et laisse de l’argent d’avance : {{r1}} a vendu trois fois le même veau !",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "Arrive {{r3}}, le boucher."
+        },
+        {
+          "id": "a2e2",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e3",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "On m’a dit que {{r1}} avait un veau à vendre.",
+          "ton": "en cherchant partout"
+        },
+        {
+          "id": "a2e4",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e5",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Ah ! le voici !",
+          "ton": "tout content"
+        },
+        {
+          "id": "a2e6",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ah ! c’est vous, papa {{r3}}. Bonjour, comment va le commerce ?",
+          "ton": "gaiement"
+        },
+        {
+          "id": "a2e7",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Bien, mon garçon ; la viande se vend encore, mais l’argent est rare… On m’a sifflé aux oreilles que tu avais un veau.",
+          "ton": "d’un air de rien, en se rapprochant tout près"
+        },
+        {
+          "id": "a2e8",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ah ! te voilà donc, farceur !",
+          "ton": "à part, tourné vers les enfants"
+        },
+        {
+          "id": "a2e9",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "C’est vrai, papa {{r3}}.",
+          "ton": "à {{r3}}, tout innocent"
+        },
+        {
+          "id": "a2e10",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Voyons, fais-moi voir l’animal.",
+          "ton": "en s’impatientant"
+        },
+        {
+          "id": "a2e11",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Par ici !",
+          "ton": "en montrant sa maison d’un mouvement de tête"
+        },
+        {
+          "id": "a2e12",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites avec moi ma vache : meuh !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e13",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r3}} passent derrière la maison de {{r1}} : on ne les voit plus."
+        },
+        {
+          "id": "a2e14",
+          "type": "note_marionnettiste",
+          "texte": "Meuglez en coulisse : « Meuuuh ! »"
+        },
+        {
+          "id": "a2e15",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Ah ça ! où donc qu’il est ton veau ?",
+          "ton": "de derrière la maison"
+        },
+        {
+          "id": "a2e16",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Il est là, à côté de sa maman.",
+          "ton": "de derrière la maison"
+        },
+        {
+          "id": "a2e17",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Sapristi ! qu’il est chétif, ton coco ! Il n’a que la peau.",
+          "ton": "de derrière la maison, dégoûté"
+        },
+        {
+          "id": "a2e18",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r3}} ressortent de derrière la maison."
+        },
+        {
+          "id": "a2e19",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Il est comme ça.",
+          "ton": "froidement"
+        },
+        {
+          "id": "a2e20",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Te débines ma marchandise, te la paieras plus cher que te ne crois.",
+          "ton": "à part, tourné vers les enfants"
+        },
+        {
+          "id": "a2e21",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Combien que t’en veux de ce maigrelet ?",
+          "ton": "d’une voix mielleuse"
+        },
+        {
+          "id": "a2e22",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "J’en veux trois louis.",
+          "ton": "tranquillement"
+        },
+        {
+          "id": "a2e23",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Tu t’amuses ; c’est pas un prix, ça. J’en donne un louis et demi.",
+          "ton": "en sursautant"
+        },
+        {
+          "id": "a2e24",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Trois louis tout ronds.",
+          "ton": "sans bouger"
+        },
+        {
+          "id": "a2e25",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Allons, puisque t’es rébarbatif comme ça, voilà un louis pour arrhes. En revenant je te donnerai le surplus. À revoir !",
+          "ton": "en ronchonnant"
+        },
+        {
+          "id": "a2e26",
+          "type": "didascalie",
+          "texte": "{{r3}} se penche vers {{r1}}, comme pour lui glisser une pièce, puis s’en va à grands pas."
+        },
+        {
+          "id": "a2e27",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e28",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Nom d’un rat ! V’là mes trois louis trouvés.",
+          "ton": "en sautant de joie"
+        },
+        {
+          "id": "a2e29",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e30",
+          "type": "conteur",
+          "texte": "Arrive {{r4}}, le médecin."
+        },
+        {
+          "id": "a2e31",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e32",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Un sirop nouvellement découvert… qui guérit toutes les maladies… le sirop de mou de veau… Malheureusement, le veau est très rare… Je sais bien qu’il y en a un chez {{r1}}…",
+          "ton": "tout seul, d’un air très savant"
+        },
+        {
+          "id": "a2e33",
+          "type": "didascalie",
+          "texte": "{{r4}} donne deux petits coups de tête contre la maison ; frappez sur la table : toc, toc."
+        },
+        {
+          "id": "a2e34",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Monsieur {{r1}} !",
+          "ton": "en appelant"
+        },
+        {
+          "id": "a2e35",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e36",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ah ! c’est vous, M’sieu {{r4}} ! Que me voulez-vous donc, aimable docteur ?",
+          "ton": "étonné"
+        },
+        {
+          "id": "a2e37",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Vous avez un veau, n’est-ce pas ?… Voulez-vous me le vendre ?",
+          "ton": "en baissant la voix"
+        },
+        {
+          "id": "a2e38",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Un médecin qui achète un veau ! que diantre veut-il en faire ?",
+          "ton": "à part, tourné vers les enfants"
+        },
+        {
+          "id": "a2e39",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Peut-on voir l’animal ?",
+          "ton": "tout aimable"
+        },
+        {
+          "id": "a2e40",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oui, oui, venez.",
+          "ton": "en montrant sa maison d’un mouvement de tête"
+        },
+        {
+          "id": "a2e41",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r4}} passent derrière la maison de {{r1}}."
+        },
+        {
+          "id": "a2e42",
+          "type": "note_marionnettiste",
+          "texte": "Meuglez en coulisse : « Meuuuh ! » Si les enfants ont meuglé avec {{r1}}, laissez-les meugler encore."
+        },
+        {
+          "id": "a2e43",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Il a de belles cornes votre veau, il est d’une belle venue.",
+          "ton": "de derrière la maison, en admirant"
+        },
+        {
+          "id": "a2e44",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Mais vous vous trompez, papa ; c’est la mère que vous arregardez… v’là le gone.",
+          "ton": "de derrière la maison, en riant"
+        },
+        {
+          "id": "a2e45",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Saperlotte ! il n’est pas gros.",
+          "ton": "de derrière la maison, déçu"
+        },
+        {
+          "id": "a2e46",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r4}} ressortent de derrière la maison."
+        },
+        {
+          "id": "a2e47",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Je le prends tout de même. Combien voulez-vous de cette haridelle ?",
+          "ton": "en reniflant"
+        },
+        {
+          "id": "a2e48",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Il est si petit ! Vous m’en donnerez seulement quatre louis.",
+          "ton": "d’un air gentil"
+        },
+        {
+          "id": "a2e49",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Tenez, Monsieur {{r1}} ; voici trois louis… Vous m’auriez demandé vingt-cinq louis de votre veau que je vous les aurais donnés… C’est un trésor pour moi… Au revoir, Monsieur {{r1}}.",
+          "ton": "très vite, tout joyeux"
+        },
+        {
+          "id": "a2e50",
+          "type": "didascalie",
+          "texte": "{{r4}} s’en va en sautillant de joie."
+        },
+        {
+          "id": "a2e51",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e52",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Eh ! Docteur ! Non, vrai, venez donc, je ne vends pas mon veau !… Ah ! bah ! il ne m’entend plus.",
+          "ton": "en appelant vers la coulisse"
+        },
+        {
+          "id": "a2e53",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Allons ! j’ai déjà quatre louis ; mon mariage est fait.",
+          "ton": "en haussant les épaules"
+        },
+        {
+          "id": "a2e54",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e55",
+          "type": "conteur",
+          "texte": "Arrive {{r5}}, l’aubergiste."
+        },
+        {
+          "id": "a2e56",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e57",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Je crois que m’y voici… frappons.",
+          "ton": "tout essoufflée"
+        },
+        {
+          "id": "a2e58",
+          "type": "didascalie",
+          "texte": "{{r5}} donne deux petits coups de tête contre la maison ; frappez sur la table : toc, toc."
+        },
+        {
+          "id": "a2e59",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Holà ! quelqu’un ?",
+          "ton": "très fort"
+        },
+        {
+          "id": "a2e60",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e61",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Présent ! Qu’y a-t-il pour votre service ?",
+          "ton": "en saluant"
+        },
+        {
+          "id": "a2e62",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Monsieur, je m’appelle Madame {{r5}}. J’ai une fort jolie noce, quatre-vingt-dix couverts… Ils m’ont recommandé de leur faire manger du veau… On m’a dit que vous en aviez un à vendre…",
+          "ton": "très vite, sans respirer"
+        },
+        {
+          "id": "a2e63",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Bon ! je l’ai déjà vendu à deux… Mais au fait, si elle m’en donnait plus que les autres !…",
+          "ton": "à part, tourné vers les enfants"
+        },
+        {
+          "id": "a2e64",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Chut ! Ne lui dites pas que je l’ai déjà vendu !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e65",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Si vous voulez me suivre, je vais vous faire voir l’animal.",
+          "ton": "à {{r5}}, très poliment"
+        },
+        {
+          "id": "a2e66",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r5}} passent derrière la maison de {{r1}}."
+        },
+        {
+          "id": "a2e67",
+          "type": "note_marionnettiste",
+          "texte": "Meuglez en coulisse : « Meuuuh ! » Si les enfants ont meuglé avec {{r1}}, laissez-les meugler encore."
+        },
+        {
+          "id": "a2e68",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Ah ! qu’est-ce que je vois là… Chassez donc ce gros chat rouge ; il me fait peur.",
+          "ton": "de derrière la maison, en poussant un cri"
+        },
+        {
+          "id": "a2e69",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Mais, Madame, c’est mon veau.",
+          "ton": "de derrière la maison"
+        },
+        {
+          "id": "a2e70",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Comment, ce maigrillon-là, c’est votre veau ; il entrera tout entier dans une casserole.",
+          "ton": "de derrière la maison"
+        },
+        {
+          "id": "a2e71",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r5}} ressortent de derrière la maison."
+        },
+        {
+          "id": "a2e72",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Il est comme ça, Madame.",
+          "ton": "froidement"
+        },
+        {
+          "id": "a2e73",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Le prix fait tout. Combien en voulez-vous ?",
+          "ton": "en s’agitant"
+        },
+        {
+          "id": "a2e74",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Parce que c’est vous, Madame, ça sera cinq louis.",
+          "ton": "en saluant très bas"
+        },
+        {
+          "id": "a2e75",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Ah ! ah ! vous êtes un farceur ; vous me plaisez. Voici deux louis que je vous donne à compte. En repassant, je vous apporte les trois autres, et j’emmène cet insecte… Adieu, Monsieur {{r1}}.",
+          "ton": "en riant très fort"
+        },
+        {
+          "id": "a2e76",
+          "type": "didascalie",
+          "texte": "{{r5}} se penche vers {{r1}}, comme pour lui glisser deux pièces, puis s’en va en trottinant."
+        },
+        {
+          "id": "a2e77",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e78",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "V’là mon veau vendu à trois personnes tout d’même.",
+          "ton": "tout bas"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Fui ! fui !",
+      "resume": "{{r6}}, un vieux filou, conseille à {{r1}} de ne répondre que « fui ! fui ! » pour passer pour fou. {{r3}}, {{r4}} et {{r5}} reviennent un par un chercher le veau, et repartent furieux chez le Bailli.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Comment me tirer de là ?… Mais, j’y pense, il y a ici un vieux qui donne des conseils… Je vais me faire donner une consulte.",
+          "ton": "en tournant en rond"
+        },
+        {
+          "id": "a3e2",
+          "type": "didascalie",
+          "texte": "{{r1}} va jusqu’à la maison d’{{r6}} et donne deux petits coups de tête contre elle ; frappez sur la table : toc, toc."
+        },
+        {
+          "id": "a3e3",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Monsieur {{r6}} !",
+          "ton": "en appelant"
+        },
+        {
+          "id": "a3e4",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e5",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Qu’y a-t-il pour votre service ?",
+          "ton": "d’une voix mielleuse"
+        },
+        {
+          "id": "a3e6",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "M’sieu {{r6}}, je viens vous demander une consulte… une consulte de six francs.",
+          "ton": "poliment"
+        },
+        {
+          "id": "a3e7",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Expliquez-moi votre affaire.",
+          "ton": "en se penchant vers {{r1}}"
+        },
+        {
+          "id": "a3e8",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "V’là ce que c’est. J’avais un veau, M’sieu ; je l’ai vendu.",
+          "ton": "un peu gêné"
+        },
+        {
+          "id": "a3e9",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "On ne vous a pas payé ?",
+          "ton": "l’air de tout savoir"
+        },
+        {
+          "id": "a3e10",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ce n’est pas ça… C’est que je l’ai vendu à trois personnes.",
+          "ton": "tout bas"
+        },
+        {
+          "id": "a3e11",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Différentes ?",
+          "ton": "en sursautant"
+        },
+        {
+          "id": "a3e12",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Différentes.",
+          "ton": "en hochant la tête"
+        },
+        {
+          "id": "a3e13",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Peste ! vous vous êtes mis là dans de vilains draps.",
+          "ton": "en ricanant"
+        },
+        {
+          "id": "a3e14",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "C’est bien pour ça que je viens vous trouver. Je voudrais garder le veau…",
+          "ton": "tout bas"
+        },
+        {
+          "id": "a3e15",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Et l’argent ?",
+          "ton": "en ricanant"
+        },
+        {
+          "id": "a3e16",
+          "type": "didascalie",
+          "texte": "{{r1}} hoche la tête : oui, oui."
+        },
+        {
+          "id": "a3e17",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Peste ! ce n’est pas là une consultation de six francs, ça vaut douze francs.",
+          "ton": "d’un air important"
+        },
+        {
+          "id": "a3e18",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Eh ben, va pour douze francs !",
+          "ton": "en soupirant"
+        },
+        {
+          "id": "a3e19",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Laissez-moi réfléchir.",
+          "ton": "lentement"
+        },
+        {
+          "id": "a3e20",
+          "type": "didascalie",
+          "texte": "{{r6}} baisse la tête, tout pensif, puis la relève d’un coup."
+        },
+        {
+          "id": "a3e21",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "J’ai votre affaire. Lorsque les personnes à qui vous avez vendu votre veau reviendront, vous ne leur répondrez pas une parole, vous ne ferez que ce geste et ce bruit.",
+          "ton": "tout bas, en regardant autour"
+        },
+        {
+          "id": "a3e22",
+          "type": "didascalie",
+          "texte": "{{r6}} secoue la tête de droite à gauche, très vite, en sifflant."
+        },
+        {
+          "id": "a3e23",
+          "type": "note_marionnettiste",
+          "texte": "Le « fui ! fui ! » est un petit sifflement : la marionnette secoue la tête de droite à gauche en même temps."
+        },
+        {
+          "id": "a3e24",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Fui ! fui !",
+          "ton": "en sifflant"
+        },
+        {
+          "id": "a3e25",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Rien que ça ? Fui ! fui !",
+          "ton": "en l’imitant, la tête qui secoue de droite à gauche"
+        },
+        {
+          "id": "a3e26",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites-le avec moi : fui ! fui !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e27",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "On vous prendra pour un fou et tout sera fini… Donnez-moi mes douze francs.",
+          "ton": "en tendant le cou"
+        },
+        {
+          "id": "a3e28",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tout à l’heure, quand j’aurai gagné.",
+          "ton": "en reculant"
+        },
+        {
+          "id": "a3e29",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Comme il vous plaira. Je vais examiner cette scène de mon balcon, et je m’en vais bien rire… ah ! ah !",
+          "ton": "en ricanant"
+        },
+        {
+          "id": "a3e30",
+          "type": "didascalie",
+          "texte": "{{r6}} s’en va en riant, tout secoué."
+        },
+        {
+          "id": "a3e31",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e32",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Il vient de me donner un bon plan, le vieux coquin. Aïe, aïe, aïe, v’là le boucher.",
+          "ton": "en regardant vers la coulisse"
+        },
+        {
+          "id": "a3e33",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e34",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Bonjour, {{r1}}, je viens prendre mon veau.",
+          "ton": "tout content"
+        },
+        {
+          "id": "a3e35",
+          "type": "note_marionnettiste",
+          "texte": "Si les enfants ont appris le « fui ! fui ! », laissez-les le faire avec {{r1}}, à chaque fois."
+        },
+        {
+          "id": "a3e36",
+          "type": "didascalie",
+          "texte": "{{r1}} secoue la tête de droite à gauche, très vite."
+        },
+        {
+          "id": "a3e37",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Fui ! fui ! fui ! fui !",
+          "ton": "en sifflant"
+        },
+        {
+          "id": "a3e38",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Qu’est-ce qu’il a donc ?",
+          "ton": "à part, tout étonné"
+        },
+        {
+          "id": "a3e39",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Je viens chercher mon veau.",
+          "ton": "plus fort"
+        },
+        {
+          "id": "a3e40",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Fui ! fui !",
+          "ton": "en sifflant"
+        },
+        {
+          "id": "a3e41",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Ah mais ! ça finit par m’ennuyer… Rendez-moi mon louis, et il n’y a rien de fait.",
+          "ton": "en s’énervant"
+        },
+        {
+          "id": "a3e42",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Fui ! fui !",
+          "ton": "en sifflant"
+        },
+        {
+          "id": "a3e43",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Ah ! c’est comme ça… petite canaille ! je vais trouver Monsieur le Bailli et nous allons voir.",
+          "ton": "furieux"
+        },
+        {
+          "id": "a3e44",
+          "type": "didascalie",
+          "texte": "{{r3}} s’en va à grands pas ; {{r1}} le suit un bout de chemin en sifflant."
+        },
+        {
+          "id": "a3e45",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e46",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "En voilà un d’expédié… Ah ! le médecin à présent !",
+          "ton": "tout content"
+        },
+        {
+          "id": "a3e47",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e48",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Ah ! Monsieur {{r1}}, je vous prie de conduire mon veau chez moi ; je vous donnerai cinq francs pour votre peine.",
+          "ton": "très pressé"
+        },
+        {
+          "id": "a3e49",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Fui ! fui !",
+          "ton": "en sifflant"
+        },
+        {
+          "id": "a3e50",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Hein ! plaît-il ? qu’est-ce que cela veut dire ? Je vous demande mon veau.",
+          "ton": "en sursautant"
+        },
+        {
+          "id": "a3e51",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Fui ! fui !",
+          "ton": "en sifflant"
+        },
+        {
+          "id": "a3e52",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Vous ne voulez plus me le vendre, peut-être ?… Eh bien ! rendez-moi mes arrhes.",
+          "ton": "d’une voix pointue"
+        },
+        {
+          "id": "a3e53",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Fui ! fui !",
+          "ton": "en sifflant"
+        },
+        {
+          "id": "a3e54",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Ah ! c’est ainsi ! je vais porter ma plainte à Monsieur le Bailli, petit fripon !",
+          "ton": "furieux"
+        },
+        {
+          "id": "a3e55",
+          "type": "didascalie",
+          "texte": "{{r4}} s’en va en trépignant."
+        },
+        {
+          "id": "a3e56",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e57",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Deux d’entortillés !… Oh ! v’là la maman.",
+          "ton": "en riant tout bas"
+        },
+        {
+          "id": "a3e58",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e59",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Mon cher Monsieur {{r1}}, je viens chercher le petit animal ; est-il prêt ?",
+          "ton": "toute joyeuse"
+        },
+        {
+          "id": "a3e60",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Fui ! fui !",
+          "ton": "en sifflant"
+        },
+        {
+          "id": "a3e61",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Hein ! plaît-il ? vous sifflez ! vous avez perdu un chien ?… Mais donnez-moi vite mon veau, je suis très pressée.",
+          "ton": "très vite"
+        },
+        {
+          "id": "a3e62",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Fui ! fui !",
+          "ton": "en sifflant"
+        },
+        {
+          "id": "a3e63",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Donnez-moi mon veau ou rendez-moi mon argent.",
+          "ton": "en trépignant"
+        },
+        {
+          "id": "a3e64",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Fui ! fui !",
+          "ton": "en sifflant"
+        },
+        {
+          "id": "a3e65",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Mais c’est une abomination, c’est un vol ! Je vais trouver Monsieur le Bailli, petit scélérat !",
+          "ton": "furieuse"
+        },
+        {
+          "id": "a3e66",
+          "type": "didascalie",
+          "texte": "{{r5}} s’en va en trottinant, toute secouée de colère."
+        },
+        {
+          "id": "a3e67",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e68",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Et de trois ! C’est pas sans peine ; je peux plus siffler…",
+          "ton": "tout essoufflé"
+        },
+        {
+          "id": "a3e69",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Aïe ! aïe ! Ils reviennent tous avec le Bailli… Un petit m’ment !",
+          "ton": "en regardant vers la coulisse"
+        },
+        {
+          "id": "a3e70",
+          "type": "didascalie",
+          "texte": "{{r1}} rentre vite dans sa maison."
+        },
+        {
+          "id": "a3e71",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "numero": 4,
+      "titre": "Bien jugé !",
+      "resume": "Devant ce « fou », le Bailli renvoie tout le monde. Mais quand {{r6}} vient se faire payer, {{r1}} lui répond… « fui ! fui ! ». Le Bailli a tout entendu : c’est {{r6}} qui rembourse. {{r1}} garde son veau et épouse Madelon.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a4e1",
+          "type": "conteur",
+          "texte": "Le Bailli est entouré de {{r3}}, d’{{r4}} et de {{r5}}, qui lui parlent tous à la fois."
+        },
+        {
+          "id": "a4e2",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e3",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e4",
+          "type": "note_marionnettiste",
+          "texte": "On ne voit jamais le Bailli : c’est vous qui le faites parler, en coulisse, d’une grosse voix sévère."
+        },
+        {
+          "id": "a4e5",
+          "type": "didascalie",
+          "texte": "{{r3}} et {{r4}} s’agitent et se bousculent."
+        },
+        {
+          "id": "a4e6",
+          "type": "note_marionnettiste",
+          "texte": "Voix du Bailli, en coulisse : « Silence ! Sapristi ! Parlez les uns après les autres… Voyons, vous qui êtes venu le premier, que m’avez-vous dit ? »"
+        },
+        {
+          "id": "a4e7",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Je lui ai donné un louis d’arrhes…",
+          "ton": "très vite"
+        },
+        {
+          "id": "a4e8",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Mais, Monsieur le Bailli, permettez-moi de vous expliquer…",
+          "ton": "en poussant {{r3}}"
+        },
+        {
+          "id": "a4e9",
+          "type": "note_marionnettiste",
+          "texte": "Voix du Bailli, en coulisse : « Silence ! le premier qui parle, je le mets hors de cause. »"
+        },
+        {
+          "id": "a4e10",
+          "type": "didascalie",
+          "texte": "{{r3}} et {{r4}} reculent vers la coulisse, sans plus rien dire."
+        },
+        {
+          "id": "a4e11",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e12",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e13",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e14",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e15",
+          "type": "didascalie",
+          "texte": "{{r1}} vient se placer tout doucement près de {{r5}}."
+        },
+        {
+          "id": "a4e16",
+          "type": "note_marionnettiste",
+          "texte": "Voix du Bailli, en coulisse : « Monsieur {{r1}}, qu’avez-vous à répondre à ces réclamants ? »"
+        },
+        {
+          "id": "a4e17",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Oui, qu’as-tu à répondre, scélérat, canaille, fripon ?",
+          "ton": "en se jetant sur {{r1}}"
+        },
+        {
+          "id": "a4e18",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Fui ! fui !",
+          "ton": "en sifflant"
+        },
+        {
+          "id": "a4e19",
+          "type": "note_marionnettiste",
+          "texte": "Voix du Bailli, en coulisse : « Heim ! »"
+        },
+        {
+          "id": "a4e20",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Fui ! fui !",
+          "ton": "en sifflant"
+        },
+        {
+          "id": "a4e21",
+          "type": "note_marionnettiste",
+          "texte": "Voix du Bailli, en coulisse : « Que dites-vous ? »"
+        },
+        {
+          "id": "a4e22",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Fui ! fui !",
+          "ton": "en sifflant de plus belle"
+        },
+        {
+          "id": "a4e23",
+          "type": "note_marionnettiste",
+          "texte": "Voix du Bailli, en coulisse : « Cet homme est fou, vous le voyez bien. Vous êtes dans votre tort. Arrangez-vous comme vous pourrez. Je me retire. »"
+        },
+        {
+          "id": "a4e24",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Mais, Monsieur le Bailli, Monsieur le Bailli.",
+          "ton": "en suppliant"
+        },
+        {
+          "id": "a4e25",
+          "type": "note_marionnettiste",
+          "texte": "Voix du Bailli, en coulisse : « C’est égal, cette affaire-là n’est pas claire ; je reviendrai. » — tout bas, pour lui-même."
+        },
+        {
+          "id": "a4e26",
+          "type": "note_marionnettiste",
+          "texte": "Voix du Bailli, en coulisse : « Laissez-moi tranquille, vous êtes dans votre tort. » — très fort."
+        },
+        {
+          "id": "a4e27",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Monsieur le Bailli, Monsieur le Bailli… Scélérat ! canaille !",
+          "ton": "vers la coulisse, puis à {{r1}}, furieuse"
+        },
+        {
+          "id": "a4e28",
+          "type": "didascalie",
+          "texte": "{{r1}} fonce sur {{r5}}, tête baissée ; frappez sur la table : boum, boum !"
+        },
+        {
+          "id": "a4e29",
+          "type": "conteur",
+          "texte": "{{r1}} les chasse tous, et ils sortent en criant."
+        },
+        {
+          "id": "a4e30",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e31",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ah ! ah ! ah !",
+          "ton": "en sautant de joie"
+        },
+        {
+          "id": "a4e32",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e33",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Ah ! ah ! ah ! Eh bien ! Monsieur {{r1}}, vous le voyez, mon conseil a parfaitement réussi ; je viens chercher mes douze francs.",
+          "ton": "en arrivant, tout content de lui"
+        },
+        {
+          "id": "a4e34",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ah ! vos douze…",
+          "ton": "en s’arrêtant net"
+        },
+        {
+          "id": "a4e35",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Chut ! Faites-le avec moi, tout doucement : fui ! fui !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e36",
+          "type": "didascalie",
+          "texte": "{{r1}} secoue la tête de droite à gauche, très vite."
+        },
+        {
+          "id": "a4e37",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Fui ! fui !",
+          "ton": "en sifflant"
+        },
+        {
+          "id": "a4e38",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Non, Monsieur {{r1}}, il n’y a plus personne ici… vous n’avez rien à craindre… vous pouvez parler… donnez-moi mes douze francs.",
+          "ton": "d’une voix mielleuse"
+        },
+        {
+          "id": "a4e39",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Fui ! fui !",
+          "ton": "en sifflant"
+        },
+        {
+          "id": "a4e40",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Ah ! c’est comme ça que vous agissez ; vous viendrez une autre fois me demander des conseils !… Je vous croyais plus honnête que cela… Canaille !…",
+          "ton": "furieux"
+        },
+        {
+          "id": "a4e41",
+          "type": "didascalie",
+          "texte": "{{r1}} donne un grand coup de tête à {{r6}}, qui recule en titubant."
+        },
+        {
+          "id": "a4e42",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Allez donc vous plaindre à M’sieu le Bailli.",
+          "ton": "tranquillement"
+        },
+        {
+          "id": "a4e43",
+          "type": "note_marionnettiste",
+          "texte": "Voix du Bailli, en coulisse : « J’ai tout entendu, Monsieur {{r6}}… Vous donnez des conseils pour tromper autrui, et vous ne voulez pas qu’on vous trompe ?… Un bon marchand doit faire lui-même l’essai de sa marchandise… C’est par vos fraudes que ces gens-là ont été dupés… Vous leur rembourserez l’argent qu’ils ont avancé à {{r1}}. »"
+        },
+        {
+          "id": "a4e44",
+          "type": "didascalie",
+          "texte": "{{r6}} tremble de tout son corps."
+        },
+        {
+          "id": "a4e45",
+          "type": "didascalie",
+          "texte": "{{r1}} rentre vite dans sa maison."
+        },
+        {
+          "id": "a4e46",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e47",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e48",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Justement il m’a prêté l’autre jour une petite somme à douze pour cent par mois. Je me retiendrai mon louis.",
+          "ton": "en regardant {{r6}}, tout content"
+        },
+        {
+          "id": "a4e49",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e50",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e51",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Moi, je lui ai emprunté quelque argent pour ma fabrication de sirop de mou de veau, à cinq pour cent par semaine. Je me retiendrai mes trois louis.",
+          "ton": "d’un air savant"
+        },
+        {
+          "id": "a4e52",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e53",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e54",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Et moi, je suis sa débitrice à un pour cent par jour. Je me retiendrai mes deux louis.",
+          "ton": "en riant"
+        },
+        {
+          "id": "a4e55",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e56",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e57",
+          "type": "note_marionnettiste",
+          "texte": "Voix du Bailli, en coulisse : « Je vous y autorise… Vous entendez, Monsieur le donneur de conseils !… Et j’espère que vous modérerez un peu ces petits intérêts-là… sinon j’y mettrai ordre… Quant à toi, {{r1}}, qui as reçu l’argent, tu en as besoin pour ta noce ; mais tu le rembourseras à Monsieur {{r6}}. Tu lui feras un billet payable dans quinze ans, sans intérêt… Et que je ne te rattrape pas à faire un semblable commerce ! »"
+        },
+        {
+          "id": "a4e58",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Criez avec moi : bien jugé ! bien jugé !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e59",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Bien jugé ! bien jugé !",
+          "ton": "très fort, en sautant"
+        },
+        {
+          "id": "a4e60",
+          "type": "didascalie",
+          "texte": "{{r6}} s’en va, la tête basse."
+        },
+        {
+          "id": "a4e61",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e62",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Merci, M’sieu le Bailli ; soyez tranquille, on ne m’y reprendra plus.",
+          "ton": "vers la coulisse"
+        },
+        {
+          "id": "a4e63",
+          "type": "conteur",
+          "texte": "{{r2}} arrive avec Madelon, qui pleure."
+        },
+        {
+          "id": "a4e64",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e65",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Tais-toi, Madelon ; tais-toi, te vas savoir ton sort. Mossieu {{r1}}, je viens voir si les conditions sont remplites.",
+          "ton": "vers la coulisse, puis à {{r1}}, très digne"
+        },
+        {
+          "id": "a4e66",
+          "type": "note_marionnettiste",
+          "texte": "Voix de Madelon, en coulisse : « M’sieu {{r1}}, faut-y rire ? faut-y pleurer ? »"
+        },
+        {
+          "id": "a4e67",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Riez, riez, Mamz’elle.",
+          "ton": "vers la coulisse, tout doucement"
+        },
+        {
+          "id": "a4e68",
+          "type": "note_marionnettiste",
+          "texte": "Voix de Madelon, en coulisse : « Alors je ris, je ris ! »"
+        },
+        {
+          "id": "a4e69",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "T’as les trois louis, mon vieux ?",
+          "ton": "en tendant le cou"
+        },
+        {
+          "id": "a4e70",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "J’en ai six ; et j’ai ma maison, ma vache et mon veau.",
+          "ton": "tout fier"
+        },
+        {
+          "id": "a4e71",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Ah ! {{r1}}, t’es bien le gendre qu’y me fallait ; y a toujours de quoi licher avec toi.",
+          "ton": "tout ému"
+        },
+        {
+          "id": "a4e72",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "À quand la noce ? dans quinze jours ?",
+          "ton": "en sautillant"
+        },
+        {
+          "id": "a4e73",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Non, nous allons la commencer tout de suite… Nous la finirons dans quinze jours.",
+          "ton": "en se dandinant de joie"
+        },
+        {
+          "id": "a4e74",
+          "type": "conteur",
+          "texte": "Ils sortent en chantant et en dansant."
+        },
+        {
+          "id": "a4e75",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Chantez et dansez avec nous : la la la !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e76",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r2}} dansent en sautillant d’un bout à l’autre de la table, puis saluent les enfants."
+        },
+        {
+          "id": "a4e77",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e78",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "guignol-le-marchand-de-veaux",
+    "synopsis": {
+      "accroche": "Pour épouser Madelon, {{r1}} vend trois fois le même petit veau, puis fait le fou sur le conseil d’{{r6}} — et c’est {{r6}} qui se prend à son propre piège.",
+      "resume": [
+        "{{r2}}, le vieux savetier, ne donnera sa fille Madelon qu’à un gendre qui a trois louis d’or. {{r1}} n’a qu’une maison, une vache et un petit veau : il devra vendre le veau.",
+        "{{r3}} le boucher, {{r4}} le médecin (qui rêve d’un sirop de mou de veau) et {{r5}} l’aubergiste viennent tour à tour ; chacun trouve le veau bien maigre, chacun l’achète et laisse de l’argent d’avance.",
+        "{{r1}}, qui a vendu trois fois le même veau, va demander conseil à {{r6}}, un vieux filou : « Ne répondez que fui ! fui ! »",
+        "Les trois acheteurs reviennent un par un et repartent furieux ; devant ce « fou », le Bailli renvoie tout le monde.",
+        "{{r6}} vient se faire payer : « Fui ! fui ! » Le Bailli a tout entendu et fait rembourser les acheteurs par le filou ; {{r1}} garde son veau et épouse Madelon."
+      ]
+    },
+    "transposition": {
+      "texte": "LE MARCHAND DE VEAUX\n\nPIÈCE EN UN ACTE\n\nPERSONNAGES\n\n{{R1}}, jeune paysan,\n\n{{R2}}, savetier,\n\nMADELON, sa fille,\n\n{{R3}}, boucher\n\nM. {{R4}}, médecin\n\nMADAME {{R5}}, aubergiste\n\n{{R6}}, avocat de village\n\nLE BAILLI.\n\nLE MARCHAND DE VEAUX\n\nPIÈCE EN UN ACTE\n\nUn village : la maison de {{r1}} à la droite du spectateur, une autre maison à gauche.\n\nScène première\n\n{{R2}}, seul.\n\nJE viens voir si {{r1}} est toujours dans l’intention d’épousasser ma fille Madelon… Ce n’est pas que les prétendants manquent… y a sur les rangs Gaspard le récureur de puits, et Guillaume le chaudronnier… mais {{r1}} me convient, et à Madelon aussi… Seulement y a une condition : j’ai promis à ma défunte que celui à qui que je marierais ma fille, il faudrait qu’il eusse trois louis vaillants… Je l’ai juré à c’te pauvre femme… et comme nous nous sommes disputés tant qu’elle a vécu, c’est bien juste que je fasse ses volontés t’après sa mort… {{r1}} aura-t-il les trois louis ?… Tant pire… il faut qu’il les aye, si il veut avoir ma fille… Appelons-le… et parlons-lui avec dignité. (Il frappe.) M’sieu {{r1}}, M’sieu {{r1}} !\n\nScène II.\n\n{{R2}}, {{R1}}.\n\n{{R1}}, de l’intérieur.\n\nOn y va ! on y va ! (Il entre.) Ah ! le père {{r2}} ! Bonjour, mon vieux ; comment ça va-t’aujourd’hui ? T’es-tu arrosé le gigier ce matin ?\n\n{{R2}}.\n\nQu’est-ce que c’est que ces manières de parler t’incongrues ? Est-ce ainsi qu’on s’exprime avec le père d’une jeune demoiselle qu’on veut z’épousasser ?\n\n{{R1}}.\n\n(À part.) Il a l’air tout badiné aujourd’hui ! Qué qu’y a donc ? (Haut.) Mossieu de {{r2}}… (À part.) Je le gratte… (Haut.) Comment se porte votre respectable binette ?\n\n{{R2}}.\n\nVoilà qui est mieux. Je viens savoir, M’sieu {{r1}}, si vous êtes toujours dans les intentions de lier votre existence z’avec ma fille ; faites-moi t’une réponse catégorlique.\n\n{{R1}}.\n\nCertainement, Mossieu de {{r2}}. Je ne demande qu’à me marier z’avec elle.\n\n{{R2}}.\n\nCroyez, M’sieu {{r1}}, que je suis t’honoré z’et fier de voir z’entrer dans ma famille un gendre tel que vous… Mais vous savez les conditions ?\n\n{{R1}}.\n\nAh ! y a des conditions ?\n\n{{R2}}.\n\nY en a !… J’ai promis t’à mon épouse que l’époux de ma fille possédasserait trois louis d’or… les avez-vous ?\n\n{{R1}}.\n\nJe les ai pas… Mais, vous le savez, j’ai une maison, j’ai une vache et un veau.\n\n{{R2}}.\n\nJe m’importe peu de tout ça… je veux trois louis… c’est ce que j’ai promis t’à mon épouse.\n\n{{R1}}.\n\nEt où veux-tu que je les prenne ?\n\n{{R2}}.\n\nVends ta maison, ta vache ou ton veau.\n\n{{R1}}.\n\nSi je vends ma maison, ousque je coucherai après ?… Je peux pas vendre mon veau non plus, il a que deux jours.\n\n{{R2}}.\n\nHé ben, vends ta vache.\n\n{{R1}}, tristement.\n\nC’est bon, on vendra la vache, quoi !\n\n{{R2}}.\n\nC’est z’entendu. (Fausse sortie.) Ah ! je réfléchis. Je veux pas que te vendes ta vache. V’la l’été, je veux que te me fasses manger des fromages de chèvre.\n\n{{R1}}.\n\nFaits avec le lait de ma vache.\n\n{{R2}}.\n\nL’industrie fait tous les jours des progrès… Vends le veau… Adieu, dans t’un quart d’heure je viens chercher la réponse. (Il sort.)\n\n{{R1}}, seul.\n\nAllons, j’aime mieux ça… ça me chagrinait de vendre ma vache, c’te pauvre bardelle… Je vas lui donner une poignée de trèfle. (Il sort.)\n\nScène III.\n\n{{R3}}, puis {{R1}}.\n\n{{R3}}, dans la coulisse.\n\nAttention, Carabi, garde la carriole. (Il entre.) On m’a dit que {{r1}} avait un veau à vendre. Mes pratiques m’en demandent ; et ils sont d’un rare dans ce pays !… Je crois bien que sa maison est de ce côté… Ah ! le voici !\n\n{{R1}}, entrant.\n\nAh ! c’est vous, papa {{r3}}. Bonjour, comment va le commerce ?\n\n{{R3}}.\n\nBien, mon garçon ; la viande se vend encore, mais l’argent est rare… Et toi, comment vas-tu ?\n\n{{R1}}.\n\nPas mal, M’sieu {{r3}}… Et vous venez dans le pays pour acheter quéque chose ?\n\n{{R3}}.\n\nMoi ! du tout !… j’ai ce qui me faut. Est-ce que tu as quelque chose à vendre ?\n\n{{R1}}.\n\nMoi, du tout.\n\n{{R3}}.\n\nJe viens voir des amis… Veux-tu prendre un verre de vin, là, chez le père Michaud ?\n\n{{R1}}.\n\nNon, merci, je suis pas en train ce matin.\n\n{{R3}}.\n\nAvec ça… ce n’est pas que si tu avais quelque chose à vendre on pourrait tout de même s’arranger… On m’a sifflé aux oreilles que tu avais un veau.\n\n{{R1}}.\n\n(À part.) Ah ! te voilà donc, farceur ! (Haut.) C’est vrai, papa {{r3}}.\n\n{{R3}}.\n\nTu ne voudrais pas le vendre ?\n\n{{R1}}.\n\nNon, j’y tiens ; je veux en faire un élève. C’est une belle petite génisse ; dans quatre ans, ça fera un bœuf superbe.\n\n{{R3}}.\n\nTu veux rire ; c’est une génisse et tu veux en faire un bœuf.\n\n{{R1}}.\n\nAvec ça que vous vous gênez, papa {{r3}}, pour débiter des bœufs qui ont fait la provision de lait de tout le village.\n\n{{R3}}.\n\nÇa, c’est mon affaire. Voyons, fais-moi voir l’animal.\n\n{{R1}}.\n\nPar ici !\n\n{{R3}}.\n\nMarche devant. (Ils entrent chez {{r1}}. — On entend les mugissements de la vache et sa clochette.)\n\n{{R3}}, en dedans.\n\nAh ça ! où donc qu’il est ton veau ?\n\n{{R1}}., de même.\n\nIl est là, à côté de sa maman.\n\n{{R3}}, de même.\n\nSapristi ! qu’il est chétif, ton coco ! Il n’a que la peau. (Ils rentrent en scène.)\n\n{{R1}}, froidement.\n\nIl est comme ça. (À part.) Te débines ma marchandise, te la paieras plus cher que te ne crois.\n\n{{R3}}.\n\nVoyons, ne nous fâchons pas. Combien que t’en veux de ce maigrelet ?\n\n{{R1}}.\n\nJ’en veux trois louis.\n\n{{R3}}.\n\nTu t’amuses ; c’est pas un prix, ça. J’en donne un louis et demi.\n\n{{R1}}.\n\nTrois louis tout ronds.\n\n{{R3}}.\n\nT’es donc tout d’un mot ?\n\n{{R1}}.\n\nTout d’un mot, mon pauvre vieux.\n\n{{R3}}.\n\nAllons, puisque t’es rébarbatif comme ça, voilà un louis pour arrhes. Je vais jusques chez Michaud… En revenant je te donnerai le surplus. À revoir ! (Il sort, et on l’entend crier : ) Allons, Carabi, mon vieux, mettons-nous en route !\n\n{{R1}}, seul.\n\nNom d’un rat ! V’là mes trois louis trouvés. Je vais donner triple ration de trèfle à ma vache. (Il sort.)\n\nScène IV.\n\nM. {{R4}}, puis {{R1}}.\n\n{{R4}}, seul.\n\nL’Académie des sciences vient de faire un rapport superbe sur un sirop nouvellement découvert… qui guérit toutes les maladies… le sirop de mou de veau… Je suis seul médecin dans ce pays… Il faut que je me hâte de mettre à profit cette belle découverte… Malheureusement, le veau est très-rare… Je sais bien qu’il y en a un chez {{r1}}… un de mes anciens malades… Mais voudra-t-il le vendre ?… Allons, corbleu ! qui ne hasarde rien n’a rien. (Il frappe) Monsieur {{r1}} !\n\n{{R1}}, entrant.\n\nAh ! c’est vous, M’sieu {{r4}} ! Ils y ont tous passé, vos malades… Y en a ben eu une soixantaine.\n\n{{R4}}.\n\nJ’en ai sauvé six.\n\n{{R1}}.\n\nY a pas de quoi crier bien fort.\n\n{{R4}}.\n\nVous êtes un ingrat, car vous êtes des six ; je vous ai bien tiré de votre fièvre.\n\n{{R1}}.\n\nC’est-à-dire que c’est moi qui me suis tiré de vos griffes… Ah ! vous y alliez joliment : diète absolue, quarante ventouses et vingt-quatre sangsues… Si j’avais pas eu le voisin qui m’a apporté une bonne soupe aux choux et un bon troc de lard… y a ben longtemps que je serais dans la grande guérite.\n\n{{R4}}.\n\nJe ne viens pas vous demander le prix de mes visites.\n\n{{R1}}.\n\nQue me voulez-vous donc, aimable docteur ?\n\n{{R4}}.\n\nVoici ce que c’est : vous avez un veau, n’est-ce pas ?… Voulez-vous me le vendre ?\n\n{{R1}}.\n\n(À part.) Un médecin qui achète un veau ! que diantre veut-il en faire ? (Haut.) Oui, Monsieur, j’ai-t-un veau ; mais j’en veux un bon prix.\n\n{{R4}}.\n\nNous nous entendrons bien. Peut-on voir l’animal ?\n\n{{R1}}.\n\nOui, oui, venez. (Ils entrent chez {{r1}} ; on entend la vache et sa sonnette.)\n\n{{R4}}.\n\nIl a de belles cornes votre veau, il est d’une belle venue.\n\n{{R1}}.\n\nMais vous vous trompez, papa ; c’est la mère que vous arregardez… v’là le gone.\n\n{{R4}}.\n\nSaperlotte ! il n’est pas gros.\n\n{{R1}}.\n\nIl a de la peau de reste. (Ils rentrent.)\n\n{{R4}}.\n\nJe le prends tout de même. Combien voulez-vous de cette haridelle ?\n\n{{R1}}.\n\nIl est si petit ! Vous m’en donnerez seulement quatre louis.\n\n{{R4}}.\n\nOh ! c’est trop cher. Trois louis, cela vous va-t-il ?\n\n{{R1}}.\n\nÀ moins de quatre louis, il ne quitte pas ses appartements.\n\n{{R4}}.\n\nTenez, Monsieur {{r1}} ; voici trois louis. Dans un quart d’heure j’enverrai Baptiste vous porter l’autre et il emmènera le veau !… Ah ! je suis enchanté de mon marché. Voyez, Monsieur {{r1}}, vous m’auriez demandé vingt-cinq louis de votre veau que je vous les aurais donnés… C’est un trésor pour moi… Je vais fabriquer du sirop de mou de veau… Je tirerai, je l’espère, de votre animal vingt-cinq mille topettes à vingt-cinq francs. Je vous en vendrai dix, vingt, si vous voulez… Ma fortune est faite… Au revoir, Monsieur {{r1}}. (Il sort.)\n\n{{R1}}, l’appelant.\n\nEh ! Docteur ! Non, vrai, venez donc, je ne vends pas mon veau !… Tenez, voilà votre argent… Ah ! bah ! il ne m’entend plus. Me voilà bien monté ; j’ai vendu mon trésor… Allons ! j’ai déjà quatre louis ; mon mariage est fait. (Il entre chez lui.)\n\nScène V.\n\nMADAME {{R5}}, puis {{R1}}.\n\nMADAME {{R5}}, dans la coulisse.\n\nMerci, merci, je trouverai bien. Une maison d’un étage, vous dites… c’est très-bien… Monsieur {{r1}}… je comprends. (Elle entre.) Je crois que m’y voici… frappons. (Elle frappe.) Holà ! quelqu’un ?\n\n{{R1}}, entrant.\n\nPrésent ! Ah ! c’est du beau sexe… C’est vous, Madame, qui avez chapoté chez moi ? Qu’y a-t-il pour votre service ?\n\nMADAME {{R5}}.\n\nMonsieur, je m’appelle Madame {{r5}} ; je suis restauratrice.\n\n{{R1}}.\n\nJe comprends, vous tenez une gargote, vous êtes restaurateuse.\n\nMADAME {{R5}}.\n\nOui, Monsieur, restauratrice. Je tiens un restaurant fort bien achalandé à Vernaison, à l’enseigne du Chavasson d’argent… Aujourd’hui je suis dans tous mes embarras. J’ai une fort jolie noce, quatre-vingt-dix couverts… Ils m’ont recommandé de leur faire manger du veau, et je veux en acheter un entier pour le leur faire servir à toutes les sauces… On m’a dit que vous en aviez un à vendre… Nous pouvons faire affaire ensemble, si vous êtes raisonnable.\n\n{{R1}}, à part.\n\n(À part.) Bon ! je l’ai déjà vendu à deux… Mais au fait, si elle m’en donnait plus que les autres !… Il paraît que le veau est très-recherché aujourd’hui… (Haut.) Mais, tout de même, Madame : si vous voulez me suivre, je vais vous faire voir l’animal. (Ils entrent chez {{r1}} : on entend la vache et sa sonnette.) Prenez garde au gaillot ; et surtout ne mettez pas le pied dans ma marmite.\n\nMADAME {{R5}}, dans l’intérieur.\n\n(Poussant un cri) Ah ! qu’est-ce que je vois là… Chassez donc ce gros chat rouge ; il me fait peur.\n\n{{R1}}, de même.\n\nMais, Madame, c’est mon veau.\n\nMADAME {{R5}}, de même.\n\nComment, ce maigrillon-là, c’est votre veau ; il entrera tout entier dans une casserole. (Ils rentrent.)\n\n{{R1}}, froidement.\n\nIl est comme ça, Madame.\n\nMADAME {{R5}}.\n\nLe prix fait tout. Combien en voulez-vous ?\n\n{{R1}}.\n\nParce que c’est vous, Madame, ça sera cinq louis.\n\nMADAME {{R5}}, riant.\n\nAh ! ah ! Monsieur, n’est-ce pas que vous me trouvez l’air un peu jeune, l’air innocentin ?\n\n{{R1}}.\n\nMais, pas du tout, Madame… (À part.) Elle a l’air d’avoir fait la campagne de Moscou.\n\nMADAME {{R5}}.\n\nAllons, je suis pressée : dites-moi votre dernier mot.\n\n{{R1}}.\n\nCinq louis, Madame ; à un sou de moins y ne sort pas de sa chambre garnite.\n\nMADAME {{R5}}.\n\nAh ! ah ! vous êtes un farceur ; vous me plaisez. Vous me rappelez mon premier mari, qui était tambour-major dans la Grande armée. Voici deux louis que je vous donne à compte. Je vais achever mes emplettes… En repassant, je vous apporte les trois autres, et j’emmène cet insecte… Adieu, Monsieur {{r1}}, à une autre fois. (Elle sort.)\n\nScène VI.\n\n{{R1}}, seul.\n\nAdieu, Madame… V’là mon veau vendu à trois personnes tout d’même. Comment me tirer de là ?… Mais, j’y pense, il y a ici un vieux qui prête à la petite semaine et qui donne des conseils… Il connaît tous les plans… Je vais me faire donner une consulte. (Il frappe à gauche.) Monsieur {{r6}} !\n\nScène VII.\n\n{{R1}}, {{R6}}.\n\n{{R6}}.\n\nQu’y a-t-il pour votre service ?\n\n{{R1}}.\n\nM’sieu {{r6}}, je viens vous demander une consulte… une consulte de six francs.\n\n{{R6}}.\n\nExpliquez-moi votre affaire.\n\n{{R1}}.\n\nV’là ce que c’est. J’avais un veau, M’sieu ; je l’ai vendu.\n\n{{R6}}.\n\nOn ne vous a pas payé ?\n\n{{R1}}.\n\nCe n’est pas ça… C’est que je l’ai vendu à trois personnes.\n\n{{R6}}.\n\nDifférentes ?\n\n{{R1}}.\n\nDifférentes.\n\n{{R6}}.\n\nPeste ! vous vous êtes mis là dans de vilains draps.\n\n{{R1}}.\n\nMes draps sont pas plus vilains que les vôtres ; ils sont en carlicot tout neuf.\n\n{{R6}}.\n\nJe veux dire que vous vous êtes exposé à un fort  mauvais procès, en vendant votre veau à trois personnes différentes.\n\n{{R1}}.\n\nC’est bien pour ça que je viens vous trouver. Je voudrais garder le veau…\n\n{{R6}}.\n\nEt l’argent ? ({{r1}} fait un signe affirmatif.) Peste ! ce n’est pas là une consultation de six francs, ça vaut douze francs.\n\n{{R1}}.\n\nJe donne dix francs.\n\n{{R6}}.\n\nImpossible… douze.\n\n{{R1}}.\n\nEh ben, va pour douze francs !\n\n{{R6}}.\n\nLaissez-moi réfléchir. (Il met sa tête dans ses mains.) J’ai votre affaire. Lorsque les personnes à qui vous avez vendu votre veau reviendront, vous ne leur répondrez pas une parole, vous ne ferez que ce geste et ce bruit. (Il siffle en passant sa main devant sa bouche.) Fui ! fui !\n\n{{R1}}.\n\nRien que ça ? (Il imite le geste et le sifflement.) Fui ! fui !\n\n{{R6}}.\n\nOn vous prendra pour un fou et tout sera fini… Donnez-moi mes douze francs.\n\n{{R1}}.\n\nTout à l’heure, quand j’aurai gagné.\n\n{{R6}}.\n\nComme il vous plaira. Je vais examiner cette scène de mon balcon, et je m’en vais bien rire… ah ! ah ! (Il sort en riant.)\n\n{{R1}}.\n\nIl vient de me donner un bon plan, le vieux coquin. (Apercevant {{r3}}.) Aïe, aïe, aïe, v’là le boucher.\n\nScène VIII.\n\n{{R1}}, {{R3}}.\n\n{{R3}}, dans la coulisse.\n\nAttention, Carabi, garde la voiture ! (Entrant.) Bonjour, maître {{r1}}, je viens prendre mon veau.\n\n{{R1}}, avec le geste et le sifflement indiqués.\n\nFui ! fui ! fui ! fui !\n\n{{R3}}\n\n(À part.) Qu’est-ce qu’il a donc ? (Haut.) Je viens chercher mon veau. (Même jeu de {{r1}}.) Ah mais ! ça finit par m’ennuyer… Si vous avez changé d’idée, eh ben ! c’est pas joli… mais ça m’est égal… Rendez-moi mon louis, et il n’y a rien de fait. (Même jeu de {{r1}}.) Ah ! c’est comme ça… ni l’un ni l’autre ?… petite canaille ! je vais trouver Monsieur le Bailli et nous allons voir. (Il sort. — {{r1}} l’accompagne avec le même jeu.)\n\n{{R1}}.\n\nEn voilà un d’expédié… Ah ! le médecin à présent !\n\nScène IX.\n\n{{R1}}, M. {{R4}}.\n\n{{R4}}.\n\nCes domestiques sont insupportables ! Baptiste est sorti, et je ne puis pas attendre… Je suis impatient d’avoir ce veau et de commencer mes distillations. (Apercevant {{r1}}.) Ah ! Monsieur {{r1}}, mon domestique est absent. Je vous prie de conduire mon veau chez moi ; je vous donnerai cinq francs pour votre peine. (Même jeu de {{r1}}.) Hein ! plaît-il ? qu’est-ce que cela veut dire ? Je vous demande mon veau. (Même jeu.) Vous ne voulez plus me le vendre, peut-être ?… Eh bien !  rendez-moi mes arrhes. (Même jeu.) Ah ! c’est ainsi ! je vais porter ma plainte à Monsieur le Bailli, petit fripon !\n\n{{R1}}.\n\nDeux d’entortillés !… Oh ! v’là la maman.\n\nScène X.\n\n{{R1}}, MADAME {{R5}}.\n\nMADAME {{R5}}.\n\nMon cher Monsieur {{r1}}, je viens chercher le petit animal ; est-il prêt ? (Même jeu de {{r1}}.) Hein ! plaît-il ? vous sifflez ! vous avez perdu un chien ?… ça me contrarie pour vous… Mais donnez-moi vite mon veau, je suis très-pressée. (Même jeu de {{r1}}.) Que signifie cette mauvaise plaisanterie ? Donnez-moi mon veau ou rendez-moi mon argent. (Même jeu.) Mais c’est une abomination, c’est un vol ! Je vais trouver Monsieur le Bailli, et il me rendra justice, petit scélérat !\n\n{{R1}}.\n\nEt de trois ! C’est pas sans peine ; je peux plus siffler… Aïe ! aïe ! qu’est-ce qui vient de ce côté ? Ils reviennent tous avec le Bailli… Un petit m’ment ! (Il sort.)\n\nScène XI.\n\nLE BAILLI, {{R3}}, {{R4}}, MADAME {{R5}}, puis {{R1}}.\n\nLe Bailli est entouré de {{r3}}, d’{{r4}} et de Madame {{r5}}, qui lui parlent tous à la fois.\n\nLE BAILLI.\n\nSilence ! Sapristi ! Parlez les uns après les autres… Je n’y comprends rien. (À {{r3}}.) Voyons, vous qui êtes venu le premier, que m’avez-vous dit ?\n\n{{R3}}\n\nJe lui ai donné un louis d’arrhes…\n\n{{R4}}.\n\nMais, Monsieur le Bailli, permettez-moi de vous expliquer…\n\nMADAME {{R5}}.\n\nOn n’a donc point d’égards pour le beau sexe… Je lui ai donné…\n\n{{R4}}.\n\nLaissez-moi donc parler…\n\n{{R3}}\n\nMais, sapristi ! mon tour est bien venu.\n\nLE BAILLI, s’adressant tantôt à l’un, tantôt à l’autre.\n\nSilence ! mes oreilles sont cassées… Voyons, docteur, expliquez-vous posément. (Ils recommencent à crier et à s’interrompre.) Silence ! le premier qui parle, je le mets hors de cause. (À {{r1}} qui est venu se placer silencieusement près de la bande.) Monsieur {{r1}}, qu’avez-vous à répondre à ces réclamants ?\n\n{{R4}}, {{R3}}, MADAME {{R5}}.\n\nOui, qu’as-tu à répondre, scélérat, canaille, fripon ? ({{r1}} répond avec le geste et le sifflement indiqués.)\n\nLE BAILLI.\n\nHeim ! (Même jeu.) Que dites-vous ? (Même jeu.) Cet homme est fou, vous le voyez bien. On ne traite pas avec un aliéné… Vous êtes dans votre tort. Arrangez-vous comme vous pourrez. Je me retire.\n\n{{R4}}, {{R3}}, MADAME {{R5}}.\n\nMais, Monsieur le Bailli, Monsieur le Bailli.\n\nLE BAILLI.\n\n(À part.) C’est égal, cette affaire-là n’est pas claire ; je reviendrai. (Haut à {{r3}}, etc.) Laissez-moi tranquille, vous êtes dans votre tort. (Il sort.)\n\n{{R4}}, {{R3}}, MADAME {{R5}}.\n\nMonsieur le Bailli, Monsieur le Bailli. (À {{r1}}.) Scélérat ! canaille ! ({{r1}}, qui a pris un bâton, les bat et les chasse. Ils sortent en criant. {{r1}} rit.)\n\nScène XII.\n\n{{R1}}, {{R6}}.\n\n{{R6}} arrive en riant.\n\nAh ! ah ! ah ! Eh bien ! Monsieur {{r1}}, vous le voyez, mon conseil a parfaitement réussi ; je viens chercher mes douze francs.\n\n{{R1}}.\n\nAh ! vos douze… (Il s’arrête et siffle avec le geste indiqué.)\n\n{{R6}}.\n\nNon, Monsieur {{r1}}, il n’y a plus personne ici… vous n’avez rien à craindre… vous pouvez parler… donnez-moi mes douze francs. (Même jeu de {{r1}}.) Ah ! c’est comme ça que vous agissez ; vous viendrez une autre fois me demander des conseils !… (Furieux.) Je vous croyais plus honnête que cela… Canaille !…\n\n{{R1}}, lui donnant un coup de tête.\n\nAllez donc vous plaindre à M’sieu le Bailli.\n\nScène XIII.\n\nLes mêmes, le BAILLI qui est entré vers la fin de la scène précédente avec les trois plaignants.\n\nLE BAILLI.\n\nJ’ai tout entendu, Monsieur {{r6}}… Vous donnez des conseils pour tromper autrui, et vous ne voulez pas qu’on vous trompe ?… Un bon marchand doit faire lui-même l’essai de sa marchandise… C’est par vos fraudes que ces gens-là ont été dupés… Vous leur rembourserez l’argent qu’ils ont avancé à {{r1}}.\n\n{{R3}}.\n\nJustement il m’a prêté l’autre jour une petite somme à douze pour cent par mois. Je me retiendrai mon louis.\n\n{{R4}}.\n\nMoi, je lui ai emprunté quelque argent pour ma fabrication de sirop de mou de veau, à cinq pour cent par semaine. Je me retiendrai mes trois louis.\n\nMADAME {{R5}}.\n\nEt moi, je suis sa débitrice à un pour cent par jour. Je me retiendrai mes deux louis.\n\nLE BAILLI.\n\nJe vous y autorise… Vous entendez, Monsieur le donneur de conseils !… Et j’espère que vous modérerez un peu ces petits intérêts-là… sinon j’y mettrai ordre… Quant à toi, {{r1}}, qui as reçu l’argent, tu en as besoin pour ta noce ; mais tu le rembourseras à Monsieur {{r6}}. Tu lui feras un billet payable dans quinze ans, sans intérêt… Et que je ne te rattrape pas à faire un semblable commerce !\n\nTOUS, moins {{r6}}.\n\nBien jugé ! bien jugé ! (Ils sortent.)\n\n{{R1}}, seul, à la cantonnade.\n\nMerci, M’sieu le Bailli ; soyez tranquille, on ne m’y reprendra plus.\n\nScène XIV.\n\n{{R1}}, {{R2}}, MADELON.\n\n{{R2}}, à Madelon qui pleure.\n\nTais-toi, Madelon ; tais-toi, te vas savoir ton sort. (À {{r1}}.) Mossieur {{r1}}, je viens voir si les conditions sont remplites.\n\nMADELON.\n\nM’sieu {{r1}}, faut-y rire ? faut-y pleurer ?\n\n{{R1}}\n\nRiez, riez, Mamz’elle.\n\nMADELON.\n\nAlors je ris, je ris !\n\n{{R2}}.\n\nT’as les trois louis, mon vieux ?\n\n{{R1}}.\n\nJ’en ai six ; et j’ai ma maison, ma vache et mon veau.\n\n{{R2}}.\n\nAh ! {{r1}}, t’es bien le gendre qu’y me fallait ; y a toujours de quoi licher avec toi.\n\n{{R1}}.\n\nÀ quand la noce ? dans quinze jours ?\n\n{{R2}}.\n\nNon, nous allons la commencer tout de suite… Nous la finirons dans quinze jours.\n\nIls sortent en chantant et en dansant.\n\nfin du marchand de veaux.",
+      "changements": [
+        "Une pièce pour le castelet : on garde son dialogue. Le conteur ne fait que les liaisons, tirées de la liste des personnages et des indications de scène (le lieu, qui arrive, qui sort), car la pièce n’a pas de narration.",
+        "Six marionnettes, les six rôles principaux de la fiche : {{r1}}, {{r2}}, {{r3}}, {{r4}}, {{r5}} et {{r6}}. Le Bailli et Madelon, qui dépassent la sixième, parlent en coulisse, avec leurs répliques du texte ; le Bailli qu’on ne voit jamais « a tout entendu ».",
+        "Deux mains : les scènes à plusieurs (le Bailli entouré des trois plaignants, puis les trois qui se font rembourser) se jouent par rotation, chacun entrant dire sa réplique.",
+        "Coupes dans le milieu, pour tenir la durée : la liste des prétendants de Madelon, le verre de vin chez le père Michaud, la génisse qui deviendrait un bœuf, la longue dispute sur les malades du médecin, les topettes de sirop, la « restauratrice », le premier mari tambour-major et la campagne de Moscou, quelques répliques de la dispute devant le Bailli. La fin (scènes XII à XIV) est jouée entière.",
+        "Les jeux de mots sur les noms tombent avec les noms : « Chignol » ({{r2}} écorche le nom de {{r1}}) devient simplement le nom de la marionnette, et « M’sieu Tuetout » pour le médecin est retiré.",
+        "{{r1}} ne tient pas de bâton (une peluche n’a pas de doigts) : il chasse les plaignants et {{r6}} à coups de tête, comme le texte le fait déjà pour {{r6}}, avec des coups frappés sur la table.",
+        "Le veau et la vache ne sont jamais montrés : on les entend meugler en coulisse quand on va voir le veau, derrière la maison.",
+        "Tous les rôles sont des gens de métier (paysan, savetier, boucher, médecin, aubergiste, avocat) : le métier reste dans le texte et ne change qu’en genre (« le boucher » → « la bouchère ») ; aucune espèce n’est imposée ni ne suit la peluche. « Mon garçon » et « cet homme », qui désignent {{r1}}, ne changent aussi qu’en genre.",
+        "Quelques mots de la langue lyonnaise sont gardés, pour la saveur (épousasser, binette, le gone, chapoté) ; les plus obscurs tombent avec les coupes."
+      ]
+    }
+  },
+  "dureeEstimeeSecondes": 1246,
+  "interactionsOrdonnees": [
+    "a3e26",
+    "a4e35",
+    "a2e12",
+    "a4e58",
+    "a2e64",
+    "a1e16",
+    "a4e75"
+  ]
+}

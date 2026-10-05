@@ -1,0 +1,9 @@
+{
+  "id": "afr-araignee-vai",
+  "langue": [
+    {"avant": "trouva une femme considérable ; une femme-chef", "apres": "trouva une femme importante ; une femme-chef", "nature": "faux-ami"},
+    {"avant": "Celle-ci avait été en elle, c’était elle l’enfant.", "apres": "L’araignée avait été en elle, c’était l’araignée l’enfant.", "nature": "pronom", "jusqua": 6},
+    {"avant": "Il lui poussa la main", "apres": "L’araignée lui poussa la main", "nature": "pronom", "jusqua": 6}
+  ],
+  "moments": []
+}

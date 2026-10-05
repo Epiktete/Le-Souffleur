@@ -1,0 +1,207 @@
+Marionnettes du parent :
+- Petite Souris
+  Traits : peureux, curieux
+  Apparence : Une souris grise minuscule, en feutrine.
+- Gros Loup
+  Traits : méchant, gourmand
+  Apparence : Un loup gris au museau râpé, assez grand.
+
+Réglages du spectacle :
+- durée visée : 5 minutes, soit environ 500 mots dits
+- âge du public : 4 ans
+- marionnettistes : 1, donc 2 mains
+- interaction avec le public : beaucoup, le public est sollicité souvent
+
+Contes présentés, du plus proche au moins proche de ces marionnettes :
+
+### de-chat-et-souris-associes — Chat et souris associés
+Origine : Allemagne. Jacob et Wilhelm Grimm, Contes de l'enfance et du foyer, 1857 (n° 2).
+Conte d'animaux, pour les 5-10 ans. 2 rôle(s) principal(aux), 0 figurant(s).
+Le conte fait environ 948 mots ; le spectacle en dira environ 500 : la bonne taille : on le joue, en coupant au plus un épisode.
+Rôles du conte :
+  - le Chat (chat) : gourmand, menteur, rusé
+  - la Souris (souris) : naïf, travailleur, curieux
+Distribution proposée :
+  - Petite Souris joue la Souris (en commun : curieux)
+  - Gros Loup joue le Chat [chat → loup] (en commun : gourmand)
+
+**Essence.** Le chat mange en cachette la réserve commune et avoue tout dans les noms qu'il invente — Entamé, À-moitié, Tout-fini — sans que la souris comprenne, jusqu'à l'hiver.
+
+**Trame.**
+1. Le chat et la souris s'installent ensemble et cachent un pot de graisse pour l'hiver.
+2. Le chat prétend être parrain d'un neveu, file et lèche le dessus : l'enfant s'appelle « Entamé ».
+3. Deuxième baptême : « À-moitié ». Troisième : « Tout-fini ».
+4. L'hiver venu, ils vont chercher la réserve : le pot est vide.
+5. La souris comprend et commence à réciter les noms ; le chat la menace de la manger.
+
+**À adapter.** La fin cruelle est à changer : la souris récite « Tout-fini ! » et le chat, confondu devant le public, doit aller lui trouver une autre réserve. Le pot de graisse devient un pot de miel ou de confiture ; l'église, le grenier. Le public comprend avant la souris : c'est tout le plaisir.
+
+### us-remus-tar-baby — Le Bébé de goudron
+Origine : Afro-américain (sud des États-Unis). Joel Chandler Harris, Uncle Remus: His Songs and His Sayings, 1880.
+Conte d'animaux, pour les 3-9 ans. 2 rôle(s) principal(aux), 1 figurant(s).
+Le conte fait environ 674 mots ; le spectacle en dira environ 500 : la bonne taille : on le joue, en coupant au plus un épisode.
+Rôles du conte :
+  - Frère Lapin (lapin) : vantard, coquin, bavard
+  - Frère Renard (renard) : rusé, farceur
+  - le Bébé de goudron (poupée) : timide — figurant
+Distribution proposée :
+  - Petite Souris joue Frère Lapin [lapin → souris]
+  - Gros Loup joue Frère Renard [renard → loup]
+Rôles sans marionnette, à supprimer, fondre ou laisser en coulisse : le Bébé de goudron
+
+**Essence.** Le lapin insolent se met en colère contre une poupée qui ne lui répond pas, et chaque coup qu'il donne le colle un peu plus.
+
+**Trame.**
+1. Le renard fabrique une poupée de goudron et la pose sur la route ; il se cache.
+2. Le lapin la salue, lui parle, s'impatiente : elle ne répond rien.
+3. Vexé, il lui donne une tape : sa patte reste collée.
+4. Il se fâche davantage : l'autre patte, les pieds, la tête — tout colle.
+5. Le renard sort en riant : « Tu dîneras avec moi. » (Suite : « Frère Lapin et le buisson de ronces ».)
+
+**À adapter.** Le goudron devient de la colle, du miel ou de la confiture ; la poupée est un vrai objet facile à fabriquer, la marionnette « colle » en restant appuyée dessus. Les coups deviennent des tapes. Aucun cadre de l'oncle Remus ni dialecte. Le public peut dire au lapin de ne pas taper.
+
+### us-remus-lapin-trop-malin — Frère Lapin et le buisson de ronces
+Origine : Afro-américain (sud des États-Unis). Joel Chandler Harris, Uncle Remus: His Songs and His Sayings, 1880.
+Conte d'animaux, pour les 3-9 ans. 2 rôle(s) principal(aux), 0 figurant(s).
+Le conte fait environ 549 mots ; le spectacle en dira environ 500 : la bonne taille : on le joue, en coupant au plus un épisode.
+Rôles du conte :
+  - Frère Lapin (lapin) : rusé, farceur, bavard
+  - Frère Renard (renard) : méchant, vantard, naïf
+Distribution proposée :
+  - Petite Souris joue Frère Lapin [lapin → souris]
+  - Gros Loup joue Frère Renard [renard → loup] (en commun : mechant)
+
+**Essence.** Pris, le lapin supplie qu'on lui fasse tout sauf une chose — être jeté dans les ronces ; le renard, qui veut lui faire le plus de mal possible, l'y jette… et les ronces sont sa maison.
+
+**Trame.**
+1. Le renard tient le lapin collé et savoure sa victoire.
+2. « Fais ce que tu veux, mais ne me jette pas dans les ronces ! »
+3. Le renard cherche une punition ; à chaque idée, le lapin répond : « D'accord, mais pas les ronces ! »
+4. Le renard, pour être sûr de lui faire mal, le lance dans les ronces.
+5. Le lapin, libre, lui crie de loin : « Je suis né dans les ronces ! »
+
+**À adapter.** Remplacer les menaces cruelles (rôtir, noyer, écorcher) par des punitions de salon : le chatouiller, lui tirer les moustaches, le priver de dessert. Le refrain « mais pas les ronces ! » est au public. Se joue seul ou à la suite du « Bébé de goudron ».
+
+### afr-belette-et-hyene — La Belette et la Hyène
+Origine : Kanouri (Bornou, Tchad). René Basset, Contes populaires d’Afrique, 1903.
+Conte d'animaux, pour les 5-10 ans. 2 rôle(s) principal(aux), 1 figurant(s).
+Le conte fait environ 653 mots ; le spectacle en dira environ 500 : la bonne taille : on le joue, en coupant au plus un épisode.
+Rôles du conte :
+  - la Belette (belette) : rusé, minuscule, coquin
+  - la Hyène (hyène) : naïf, gourmand, fort
+  - l'Homme (homme) : fort — figurant
+Distribution proposée :
+  - Petite Souris joue la Belette [belette → souris]
+  - Gros Loup joue la Hyène [hyène → loup] (en commun : gourmand)
+Rôles sans marionnette, à supprimer, fondre ou laisser en coulisse : l'Homme
+
+**Essence.** La grosse hyène et la petite belette partagent un repas ; la belette l'escamote, puis invente une histoire de voleurs pour garder tout, et c'est la hyène qui y laisse sa queue.
+
+**Trame.**
+1. La hyène rapporte à manger ; il faut du feu pour le cuire.
+2. La belette part chercher le feu, n'en trouve pas ; la hyène court vers le soleil couchant, qui disparaît.
+3. Pendant ce temps, la belette cache le repas dans son terrier.
+4. « Des voleurs l'ont mis dans ce trou ! Tends ta queue, j'y attache la viande. » Elle y attache un bâton.
+5. La hyène tire, tire… et s'en va sans queue ni repas.
+
+**À adapter.** Supprimer l'oreille arrachée et mangée ; la queue n'est pas rompue mais la hyène tombe à la renverse. La course au soleil est une belle scène muette.
+
+### ko-vieux-moustaches-et-lapin — Vieilles Moustaches Blanches et Monsieur Lapin
+Origine : Corée. conte traditionnel, dans la version de William Elliot Griffis, Korean Fairy Tales, 1922.
+Conte d'animaux, pour les 4-9 ans. 2 rôle(s) principal(aux), 1 figurant(s).
+Le conte fait environ 929 mots ; le spectacle en dira environ 500 : la bonne taille : on le joue, en coupant au plus un épisode.
+Rôles du conte :
+  - Monsieur Lapin (lapin) : rusé, courageux, minuscule
+  - Moustaches Blanches (tigre) : orgueilleux, gourmand, paresseux
+  - les autres Tigres (tigre) : farceur — figurant
+Distribution proposée :
+  - Petite Souris joue Monsieur Lapin [lapin → souris]
+  - Gros Loup joue Moustaches Blanches [tigre → loup] (en commun : gourmand)
+Rôles sans marionnette, à supprimer, fondre ou laisser en coulisse : les autres Tigres
+
+**Essence.** Surpris par un tigre affamé, un lapin lui promet un festin s'il ferme les yeux et ne bouge pas pendant qu'il rabat le gibier ; le tigre s'endort, et le lapin l'encercle d'une surprise qui le fait détaler.
+
+**Trame.**
+1. Le tigre le plus orgueilleux de la montagne se croit invincible.
+2. Un jour d'hiver, il surprend un lapin affamé sur la glace : « Je vais te manger. »
+3. « Je suis trop maigre ! Fermez les yeux, ne bougez pas, et je vous rabats un grand repas. »
+4. Le tigre s'endort ; le lapin prépare son tour autour de lui.
+5. Réveillé en sursaut, le tigre doit sauter pour s'enfuir ; les autres tigres se moquent de sa fourrure ébouriffée.
+
+**À adapter.** Le feu d'herbes sèches est à remplacer impérativement : cercle de casseroles qui font un vacarme, bassine d'eau froide, chatouilles de plumes, ou pétards de papier. Le « gardez les yeux fermés ! » est un jeu idéal avec le public, qui peut surveiller le tigre. Proche des tours de Frère Lapin.
+
+### no-concours-de-manger — Askeladden qui mangea plus que le troll
+Origine : Norvège. Peter Christen Asbjørnsen et Jørgen Moe, Contes populaires norvégiens, 1843.
+Conte facétieux, pour les 5-10 ans. 2 rôle(s) principal(aux), 3 figurant(s).
+Le conte fait environ 781 mots ; le spectacle en dira environ 500 : la bonne taille : on le joue, en coupant au plus un épisode.
+Rôles du conte :
+  - Askeladden (garçon) : rusé, courageux, farceur
+  - le Troll (troll) : fort, naïf, gourmand
+  - les deux Frères aînés (garçon) : peureux, vantard — figurant
+  - le Père (père) : grognon, vantard — figurant
+  - la Mère (mère) : gentil — figurant
+Distribution proposée :
+  - Petite Souris joue Askeladden [reste un·e souris qui fait le métier de garçon]
+  - Gros Loup joue le Troll [troll → loup] (en commun : gourmand)
+Rôles sans marionnette, à supprimer, fondre ou laisser en coulisse : les deux Frères aînés, le Père, la Mère
+
+**Essence.** Les deux aînés fuient devant le troll ; le cadet, qu'on croyait bon à rien, lui fait croire qu'il est plus fort en pressant un fromage comme une pierre, puis le bat au concours du plus gros mangeur grâce à un sac caché sous sa veste.
+
+**Trame.**
+1. Deux frères partent couper du bois ; le troll les menace, ils s'enfuient.
+2. Le cadet part avec un fromage frais ; il le presse devant le troll : « Je t'écraserai comme cette pierre ! »
+3. Le troll, effrayé, l'aide à couper, puis l'invite chez lui.
+4. Devant des seaux trop lourds : « J'irai plutôt chercher le puits entier ! » Le troll y va lui-même.
+5. Au concours de bouillie, le garçon remplit un sac sous sa veste, le perce ; le troll, pour l'imiter, s'avoue vaincu.
+
+**À adapter.** Le troll ne se perce pas le ventre : il éclate de rire, ou roule sous la table en demandant grâce, et donne le trésor. Parent du « Vaillant Petit Tailleur » (même fromage). Le public voit le sac caché que le troll ne voit pas.
+
+### afr-lion-et-souris — Le Lion et la Souris
+Origine : Égypte ancienne. René Basset, Contes populaires d’Afrique, 1903.
+Fable, pour les 3-8 ans. 2 rôle(s) principal(aux), 1 figurant(s).
+Le conte fait environ 390 mots ; le spectacle en dira environ 500 : la bonne taille : on le joue, en coupant au plus un épisode.
+Rôles du conte :
+  - le Lion (lion) : fort, orgueilleux
+  - la Souris (souris) : minuscule, courageux
+  - le Chasseur (chasseur) : rusé — figurant
+Distribution proposée :
+  - Petite Souris joue la Souris
+  - Gros Loup joue le Lion [lion → loup]
+Rôles sans marionnette, à supprimer, fondre ou laisser en coulisse : le Chasseur
+
+**Essence.** Le puissant épargne le minuscule en se moquant de sa promesse ; le jour où il est pris, c'est le minuscule qui le délivre.
+
+**Trame.**
+1. Le lion attrape une souris qui l'a réveillé.
+2. Elle plaide : « Tu n'en seras pas rassasié ; lâche-moi, je te sauverai un jour. » Il rit, et la lâche.
+3. Un chasseur fait tomber le lion dans un trou et l'attache à un palmier.
+4. La nuit, la souris revient et ronge les liens.
+5. Le lion repart avec elle, cachée dans sa crinière.
+
+**À adapter.** Le chasseur peut rester hors scène (on l'entend) ; les liens deviennent un filet que la souris grignote en passant derrière le lion.
+
+### afr-qui-est-le-plus-fort — Qui est le plus fort ?
+Origine : Soninké (Mali, Sénégal). René Basset, Contes populaires d’Afrique, 1903.
+Conte en chaîne, pour les 4-10 ans. 2 rôle(s) principal(aux), 3 figurant(s).
+Le conte fait environ 376 mots ; le spectacle en dira environ 500 : la bonne taille : on le joue, en coupant au plus un épisode.
+Rôles du conte :
+  - l'Enfant (garçon) : curieux, bavard
+  - le Père (père) : sage
+  - le Forgeron (forgeron) : fort — figurant
+  - la Femme du forgeron (femme) : têtu — figurant
+  - le Bébé (bébé) : grognon — figurant
+Distribution proposée :
+  - Petite Souris joue l'Enfant [reste un·e souris qui fait le métier de garçon] (en commun : curieux)
+  - Gros Loup joue le Père [reste un·e loup qui fait le métier de père]
+Rôles sans marionnette, à supprimer, fondre ou laisser en coulisse : le Forgeron, la Femme du forgeron, le Bébé
+
+**Essence.** Un enfant demande ce qui est plus fort que son père ; en chemin, chaque vainqueur est vaincu par le suivant, et la réponse n'est jamais la dernière.
+
+**Trame.**
+1. « Qu'est-ce qui est plus fort que toi ? — Tu verras. »
+2. La pierre blesse le père ; le bâton écarte la pierre ; le couteau coupe le bâton.
+3. Le feu fond le fer ; le forgeron commande au feu.
+4. La femme commande au forgeron ; le bébé commande à la femme en pleurant.
+5. Le père répond à chaque fois : « Attends encore. »
+
+**À adapter.** L'original finit sur la mort du bébé et sur Dieu : terminer sur le bébé qui s'endort… vaincu par le sommeil, ou par la berceuse du père. Chaîne idéale pour faire deviner le public.

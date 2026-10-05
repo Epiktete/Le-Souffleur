@@ -1,0 +1,12 @@
+{"elements": [
+  {"type": "entree", "marionnette": "Renard Rusé", "main": "M1G"},
+  {"type": "replique", "marionnette": "Renard Rusé", "texte": "Il est bientôt neuf heures et j'ai un rendez-vous d'honneur à midi ! Il faut que je me batte... à mon âge ! Et avec une ancienne traîneuse de sabre encore !", "ton": "affolé, la voix qui monte"},
+  {"type": "replique", "marionnette": "Renard Rusé", "texte": "Il me semble que la matinée n'a duré qu'une minute aujourd'hui... J'ai la fièvre... Et dire qu'il y a des gens qui se font tuer tous les huit jours ! Je ne comprends pas comment ils peuvent vivre.", "ton": "geignard"},
+  {"type": "didascalie", "texte": "Renard Rusé tremble de tout son corps."},
+  {"type": "replique", "marionnette": "Renard Rusé", "texte": "Décidément je ne puis pas aller sur le terrain. J'ai une fille ; j'ai gagné ma fortune en travaillant, je ne puis pas la jouer sur un coup d'épée.", "ton": "ferme, malgré la peur"},
+  {"type": "replique", "marionnette": "Renard Rusé", "texte": "D'autre part, si je ne me bats pas, cette terreur viendra faire ici un esclandre, et les commères m'accableront de leurs moqueries.", "ton": "dépité"},
+  {"type": "didascalie", "texte": "Renard Rusé se gratte le museau, cherchant une idée."},
+  {"type": "replique", "marionnette": "Renard Rusé", "texte": "Il m'est bien venu une idée. J'ai là pour voisin quelqu'un qui n'a ni sou ni maille ; il sera peut-être bien aise de gagner quelque argent... Si je lui proposais de prendre ma place ? Ça ne doit pas lui coûter beaucoup d'exposer sa vie, et je m'en tirerai peut-être à bon compte.", "ton": "malicieux, soulagé"},
+  {"type": "replique", "marionnette": "Renard Rusé", "texte": "C'est cela ! L'heure approche... Voyons s'il est chez lui.", "ton": "décidé"},
+  {"type": "didascalie", "texte": "Renard Rusé s'approche de la porte de Doudou Lapin et frappe."}
+]}

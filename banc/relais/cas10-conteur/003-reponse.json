@@ -1,0 +1,82 @@
+{"titre": "L’Intrépide Soldat de plomb",
+ "pitch": "Un petit soldat d’une seule jambe aime en secret une danseuse de papier, et malgré un diablotin jaloux et un grand voyage forcé, il revient tout droit vers elle.",
+ "changements": [
+   "Les vingt-quatre autres soldats, la servante, le petit garçon, les gamins des rues et le rat n’ont pas de marionnette : ils restent en coulisse, entendus dans la voix du conteur, jamais montrés sur scène.",
+   "Le passage du rat qui réclame un laissez-passer et des enfants qui mettent le Soldat dans un petit bateau de papier est raccourci en une phrase de voyage, pour tenir dans les huit minutes.",
+   "Toute la traversée de l’eau (caniveau, canal, ventre du poisson) se raconte par le conteur plutôt qu’elle ne se joue : avec trois marionnettes seulement, la scène ne peut pas montrer ce voyage en plusieurs tableaux.",
+   "La Danseuse quitte la scène pendant que le Diablotin menace le Soldat, faute d’une troisième main pour la tenir en même temps que les deux autres ; elle revient pour les retrouvailles finales.",
+   "Le Soldat jeté au poêle et le vent qui emporte la Danseuse ne se jouent pas : conformément à la retouche déjà faite dans le texte, on ne les voit pas brûler, et la scène reprend directement le lendemain sur les cendres."
+ ],
+ "tableaux": [
+   {"id": "t1", "titre": "La table des jouets",
+    "description": "Étale un tissu ou une nappe sur une table basse pour figurer la grande table de la chambre. D’un côté, pose quelques petits objets identiques (bouchons, figurines) pour représenter les vingt-quatre autres soldats immobiles ; le Soldat, lui, reste dans ta main. De l’autre côté, installe un petit carton plié en château miniature pour la Danseuse. Garde le Diablotin caché sous un coussin ou derrière un carton, prêt à surgir à minuit.",
+    "accessoires": []}
+ ],
+ "actes": [
+   {"numero": 1, "titre": "Un soldat pas comme les autres", "tableauId": "t1",
+    "resume": "Le Soldat, posé parmi ses vingt-quatre frères, est le seul à n’avoir qu’une jambe. Il aperçoit la Danseuse dans son petit château et croit qu’elle aussi ne tient que sur un pied : il l’admire en secret, sans oser le lui dire.",
+    "passage": "De « Il était une fois vingt-cinq soldats de plomb… » à « …qui restait debout sur une jambe sans perdre l’équilibre. »",
+    "temps": [
+      "Le Soldat est posé parmi les autres soldats : lui seul n’a qu’une jambe.",
+      "Il aperçoit la Danseuse dans son petit château et croit qu’elle aussi n’a qu’une jambe.",
+      "Il se tient à l’écart sur la table pour mieux la regarder sans se faire voir.",
+      "Le soir tombe, la maison s’endort, la Danseuse se retire pour la nuit."
+    ],
+    "mouvements": [
+      {"type": "entree", "marionnette": "Soldat", "main": "M1G"},
+      {"type": "entree", "marionnette": "Danseuse", "main": "M1D"},
+      {"type": "sortie", "marionnette": "Danseuse", "main": "M1D"}
+    ],
+    "momentsPublic": [],
+    "budgetMots": 150},
+   {"numero": 2, "titre": "Minuit, le Diablotin menace", "tableauId": "t1",
+    "resume": "À minuit, tandis que les jouets s’animent, le Diablotin surgit de sa boîte et menace le Soldat de le voir regarder la Danseuse. Le Soldat ne répond pas, et le Diablotin promet de se venger le lendemain.",
+    "passage": "De « Quand le soir vint, tous les autres soldats de plomb furent rangés dans leur boîte… » à « …Eh bien, attends demain ! dit le Diablotin. »",
+    "temps": [
+      "Minuit sonne ; les jouets s’animent tout autour, mais le Soldat ne bouge pas.",
+      "Le Diablotin surgit de sa boîte et menace le Soldat de le voir regarder la Danseuse.",
+      "Le Soldat fait comme s’il n’entendait rien.",
+      "Le Diablotin promet de se venger dès le lendemain, et se retire, satisfait."
+    ],
+    "mouvements": [
+      {"type": "entree", "marionnette": "Diablotin", "main": "M1D"},
+      {"type": "sortie", "marionnette": "Diablotin", "main": "M1D"}
+    ],
+    "momentsPublic": ["Quand le Diablotin sort de sa boîte, demande aux enfants de crier pour prévenir le Soldat du danger."],
+    "budgetMots": 180},
+   {"numero": 3, "titre": "La chute et le grand voyage", "tableauId": "t1",
+    "resume": "Le lendemain, le Soldat tombe de la fenêtre ; on le cherche tout près sans le voir, et les enfants crient pour lui. Emporté par la pluie et poursuivi par un rat, il file jusqu’au grand canal et se fait avaler par un poisson.",
+    "passage": "De « Le matin, quand les enfants furent levés… » à « …il fut avalé par un gros poisson. »",
+    "temps": [
+      "Le lendemain matin, on pose le Soldat sur le rebord de la fenêtre, et il tombe la tête la première, trois étages plus bas.",
+      "La servante et le petit garçon le cherchent tout près sans le voir ; les enfants crient pour lui.",
+      "La pluie l’emporte dans le caniveau, un rat veut l’arrêter, il file jusqu’au grand canal.",
+      "Un gros poisson l’avale tout entier."
+    ],
+    "mouvements": [
+      {"type": "sortie", "marionnette": "Soldat", "main": "M1G"}
+    ],
+    "momentsPublic": ["Quand la servante et le petit garçon cherchent le Soldat sans le voir, les enfants crient « Me voici ! » à sa place."],
+    "budgetMots": 150},
+   {"numero": 4, "titre": "Le retour et le cœur de plomb", "tableauId": "t1",
+    "resume": "Le poisson est rapporté et ouvert dans cette même maison : le Soldat reparaît sur la table, tout près de la Danseuse, et ils se regardent en silence. Le lendemain, la servante ne retrouve dans les cendres qu’un petit cœur de plomb et une paillette.",
+    "passage": "De « Oh, qu’il faisait noir là-dedans ! … » à « …il ne restait que la paillette. »",
+    "temps": [
+      "Le poisson est pêché, ouvert dans la cuisine de la même maison : le Soldat reparaît.",
+      "On le repose sur la table, tout près de la Danseuse ; ils se regardent sans un mot.",
+      "Le lendemain, on ne les revoit plus sur la table.",
+      "La servante retrouve dans les cendres un petit cœur de plomb et une paillette."
+    ],
+    "mouvements": [
+      {"type": "entree", "marionnette": "Soldat", "main": "M1G"},
+      {"type": "entree", "marionnette": "Danseuse", "main": "M1D"},
+      {"type": "sortie", "marionnette": "Soldat", "main": "M1G"},
+      {"type": "sortie", "marionnette": "Danseuse", "main": "M1D"}
+    ],
+    "momentsPublic": [],
+    "budgetMots": 320}
+ ],
+ "voix": [
+   {"marionnette": "Diablotin", "voix": "voix aiguë et grinçante, débit rapide, ricane après chaque menace"},
+   {"marionnette": "Soldat", "voix": "voix grave et très calme, parle peu et lentement, ne hausse jamais le ton"}
+ ]}

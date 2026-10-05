@@ -1,0 +1,742 @@
+<script lang="ts">
+  // Mode lecture : le spectacle joué (CDC §9).
+  //
+  // Un seul fil, dans l'ordre du jeu : les répliques en grand, les indications
+  // scéniques plus petites entre elles, et à droite la façon de dire chaque
+  // réplique. Les voix en coulisse, que le parent dit à voix haute, se lisent
+  // comme des répliques.
+  //
+  // On tourne la page, on ne fait jamais défiler : avec une peluche sur chaque
+  // main, seul le pied est libre.
+  import { PROMPTEUR } from '../config';
+  import { tl, tsc } from '../textes';
+  import { spectacleCourant } from '../etat/spectacleCourant.svelte';
+  import { lecture } from '../etat/lecture.svelte';
+  import { visite } from '../etat/visite.svelte';
+  import {
+    commandeDe,
+    commandeDuToucher,
+    empecherDefaut,
+    filtrer,
+    soumisAuRebond,
+    type Commande,
+  } from '../services/commandes';
+  import {
+    construireRangees,
+    decouperTropLongues,
+    pageDeLaRangee,
+    paginer,
+    type Page,
+    type Rangee,
+  } from '../services/pagination';
+  import TestTouches from './TestTouches.svelte';
+  import type { ElementScript } from '../types';
+
+  interface Props {
+    surQuitter: () => void;
+    surEditer: () => void;
+  }
+  let { surQuitter, surEditer }: Props = $props();
+
+  // La première lecture : la visite rappelle comment tourner les pages.
+  $effect(() => { visite.lancer('lecture'); });
+
+  const s = $derived(spectacleCourant.spectacle);
+  const rangees = $derived(s ? construireRangees(s.actes) : []);
+  // Calculée une fois par spectacle, pas deux fois par rangée affichée.
+  const badges = $derived(spectacleCourant.badges);
+
+  /** Mesures et découpage. */
+  let zoneMesure = $state<HTMLElement>();
+  let zonePage = $state<HTMLElement>();
+  let hauteurs = $state<Map<string, number>>(new Map());
+  let hauteurDisponible = $state(0);
+  /** Place du nom au-dessus d'une réplique, rendu en haut de page. */
+  let hauteurNom = $state(0);
+
+  // Une tirade plus haute que l'écran est coupée à la phrase plutôt que
+  // tronquée : en représentation, il ne faut jamais perdre la fin d'un texte.
+  const rangeesDecoupees = $derived(decouperTropLongues(rangees, hauteurs, hauteurDisponible));
+  const pages = $derived(paginer(rangeesDecoupees, hauteurs, hauteurDisponible, hauteurNom));
+  const pageCourante = $derived(pages[lecture.page] as Page | undefined);
+
+  let menuOuvert = $state(false);
+  let testOuvert = $state(false);
+  let decorAnnonce = $state(false);
+  /** Dernier appui retenu, pour l'anti-rebond. */
+  let dernierAppui: number | null = null;
+  /** Bref retour visuel : le parent doit savoir que la pédale a répondu. */
+  let flash = $state(false);
+
+  const tableau = $derived(
+    s?.tableaux.find((t) => t.id === pageCourante?.tableauId),
+  );
+
+  /* ---------------------------------------------------------------- */
+  /* Mesure : on rend les rangées hors écran pour connaître leur hauteur */
+  /* ---------------------------------------------------------------- */
+
+  /** Vrai si deux jeux de mesures sont identiques. */
+  function memesHauteurs(a: Map<string, number>, b: Map<string, number>): boolean {
+    if (a.size !== b.size) return false;
+    for (const [cle, valeur] of a) if (b.get(cle) !== valeur) return false;
+    return true;
+  }
+
+  $effect(() => {
+    // On remesure quand le texte change, et quand le découpage change : une
+    // tirade coupée produit de nouvelles rangées, qu'il faut mesurer à leur
+    // tour.
+    void lecture.taillePx;
+    void rangeesDecoupees;
+
+    const mesurer = () => {
+      if (!zoneMesure) return;
+
+      const nouvelles = new Map<string, number>();
+      for (const enfant of zoneMesure.children) {
+        const element = enfant as HTMLElement;
+        const cle = element.dataset.rangee;
+        if (!cle) continue;
+        // La marge qui sépare deux rangées compte dans la hauteur occupée :
+        // l'oublier ferait déborder la page d'autant de fois qu'il y a de
+        // rangées.
+        const marge = parseFloat(getComputedStyle(element).marginBottom) || 0;
+        nouvelles.set(cle, element.offsetHeight + marge);
+      }
+      // Sans cette garde, l'effet boucle : les mesures changent le découpage,
+      // qui relance l'effet, qui remesure. On s'arrête dès que rien ne bouge.
+      if (!memesHauteurs(nouvelles, hauteurs)) hauteurs = nouvelles;
+
+      // Le nom qu'on ne répète pas entre deux répliques du même personnage
+      // revient en haut d'une page : on mesure la place qu'il y prend.
+      const nom = zoneMesure.querySelector<HTMLElement>('.nom');
+      if (nom) {
+        const h = nom.offsetHeight + (parseFloat(getComputedStyle(nom).marginBottom) || 0);
+        if (h !== hauteurNom) hauteurNom = h;
+      }
+
+      // clientHeight comprend le rembourrage : c'est la hauteur du contenu
+      // qu'il faut, sinon la dernière rangée d'une page est rognée.
+      let disponible = 0;
+      if (zonePage) {
+        const style = getComputedStyle(zonePage);
+        disponible = zonePage.clientHeight
+          - (parseFloat(style.paddingTop) || 0)
+          - (parseFloat(style.paddingBottom) || 0);
+      }
+      // Une hauteur NULLE n'est pas une mesure : c'est l'absence de mesure.
+      //
+      // Pendant qu'un changement de décor est annoncé, la zone de page n'est
+      // plus disposée et clientHeight vaut zéro. Sans cette garde, tout le
+      // spectacle se repliait alors sur une seule page, la position était
+      // ramenée en arrière, l'annonce de décor se rejouait — et le spectacle
+      // tournait en rond sur ce décor, page après page, sans jamais avancer.
+      if (disponible > 0 && disponible !== hauteurDisponible) {
+        hauteurDisponible = disponible;
+      }
+    };
+
+    // Après le rendu, et à chaque redimensionnement de la fenêtre.
+    const image = requestAnimationFrame(mesurer);
+    window.addEventListener('resize', mesurer);
+    return () => {
+      cancelAnimationFrame(image);
+      window.removeEventListener('resize', mesurer);
+    };
+  });
+
+  /**
+   * Redécoupage : agrandir le texte ou tourner la tablette change le nombre de
+   * pages. On retrouve alors la page de la rangée qu'on était en train de lire.
+   *
+   * Ce repositionnement n'a lieu QUE lorsque le découpage change. L'appliquer
+   * à chaque tour de page ramènerait aussitôt à la page précédente, puisque
+   * l'ancre y pointe encore : le spectacle serait bloqué sur sa première page.
+   */
+  let pagesPrecedentes: Page[] | null = null;
+
+  $effect(() => {
+    const actuelles = pages;
+    if (actuelles === pagesPrecedentes) return;
+
+    const ancre = pagesPrecedentes ? lecture.rangeeAncre : null;
+    pagesPrecedentes = actuelles;
+    if (actuelles.length === 0) return;
+
+    if (ancre) lecture.allerA(pageDeLaRangee(actuelles, ancre));
+    else if (lecture.page >= actuelles.length) lecture.allerA(actuelles.length - 1);
+  });
+
+  /**
+   * Un changement de décor s'annonce et attend un appui (CDC §9).
+   *
+   * Il s'annonce quand on AVANCE vers la page qui change de décor, et
+   * seulement là : en revenant en arrière pour relire une réplique, l'annonce
+   * se rejouait et coûtait un appui de plus en pleine représentation. C'est un
+   * geste, pas un état : une remesure de l'écran ne peut donc plus la rejouer.
+   *
+   * Le premier décor s'annonce aussi, au lever de rideau : c'est celui qu'il
+   * faut installer avant de commencer.
+   */
+  let leverDeRideauFait = false;
+  $effect(() => {
+    if (leverDeRideauFait || pages.length === 0) return;
+    leverDeRideauFait = true;
+    if (lecture.page === 0 && s?.tableaux.length) decorAnnonce = true;
+  });
+
+  /** Referme l'annonce de décor. */
+  function fermerDecor() {
+    decorAnnonce = false;
+  }
+
+  /* ---------------------------------------------------------------- */
+  /* Commandes                                                         */
+  /* ---------------------------------------------------------------- */
+
+  /** Va à une page et met l'ancre à jour, repère du prochain redécoupage. */
+  function allerA(numero: number) {
+    const borne = Math.min(Math.max(numero, 0), Math.max(pages.length - 1, 0));
+    // On annonce le décor en avançant d'une page, ou en repartant du début.
+    const avance = borne === lecture.page + 1;
+    if ((avance && pages[borne]?.changementTableau) || (borne === 0 && numero === 0 && lecture.page !== 0)) {
+      decorAnnonce = true;
+    }
+    lecture.allerA(borne);
+    const premiere = pages[borne]?.rangees[0]?.id;
+    if (premiere) lecture.memoriserAncre(premiere);
+  }
+
+  function executer(commande: Commande) {
+    flash = true;
+    setTimeout(() => (flash = false), 120);
+
+    switch (commande) {
+      case 'suivant':
+        // Un écran de changement de décor se referme avant d'avancer.
+        if (decorAnnonce) { fermerDecor(); return; }
+        allerA(lecture.page + 1);
+        break;
+      case 'precedent':
+        if (decorAnnonce) { fermerDecor(); return; }
+        allerA(lecture.page - 1);
+        break;
+      case 'debut': allerA(0); break;
+      case 'menu': menuOuvert = !menuOuvert; break;
+      case 'quitter': surQuitter(); break;
+      case 'plusGrand': lecture.agrandir(); break;
+      case 'plusPetit': lecture.reduire(); break;
+      default: break;
+    }
+  }
+
+  function surTouche(e: KeyboardEvent) {
+    if (testOuvert) return; // la page de test capte les appuis elle-même
+    const commande = commandeDe(e.key);
+    if (!commande) return;
+    if (empecherDefaut(e.key)) e.preventDefault();
+
+    // Le rebond ne concerne que les tours de page : Échap et le menu doivent
+    // répondre immédiatement, même juste après un autre appui.
+    const rebond = soumisAuRebond(commande);
+    const rejet = filtrer(e.repeat, e.timeStamp, rebond ? dernierAppui : null);
+    if (rejet) return;
+    if (rebond) dernierAppui = e.timeStamp;
+    executer(commande);
+  }
+
+  function surToucher(e: PointerEvent) {
+    if (menuOuvert || testOuvert) return;
+    // Un bouton répond à son propre clic. Sans cette garde, l'appui sur
+    // « Menu » remontait jusqu'ici et tournait AUSSI la page.
+    const touche = e.target as HTMLElement;
+    if (touche.closest('button')) return;
+    // Toucher le bandeau du haut ouvre le menu (CDC §9).
+    if (touche.closest('.bandeau')) { menuOuvert = true; return; }
+    const cible = e.currentTarget as HTMLElement;
+    const rejet = filtrer(false, e.timeStamp, dernierAppui);
+    if (rejet) return;
+    dernierAppui = e.timeStamp;
+    executer(commandeDuToucher(e.clientX - cible.getBoundingClientRect().left, cible.clientWidth));
+  }
+
+  /* ---------------------------------------------------------------- */
+  /* Écran allumé et plein écran                                       */
+  /* ---------------------------------------------------------------- */
+
+  let veilleSignalee = $state(false);
+
+  $effect(() => {
+    let verrou: WakeLockSentinel | null = null;
+    const demander = async () => {
+      try {
+        verrou = await navigator.wakeLock?.request('screen') ?? null;
+      } catch {
+        veilleSignalee = true;
+      }
+    };
+    if ('wakeLock' in navigator) void demander();
+    else veilleSignalee = true;
+
+    // Le verrou saute quand l'onglet passe en arrière-plan : on le reprend.
+    const surVisibilite = () => {
+      if (document.visibilityState === 'visible' && 'wakeLock' in navigator) void demander();
+    };
+    document.addEventListener('visibilitychange', surVisibilite);
+
+    return () => {
+      document.removeEventListener('visibilitychange', surVisibilite);
+      void verrou?.release().catch(() => {});
+    };
+  });
+
+  function texteDe(e: ElementScript): string {
+    return 'texte' in e ? e.texte : '';
+  }
+
+  function nomDe(e: ElementScript): string {
+    return 'marionnetteId' in e ? spectacleCourant.nomDe(e.marionnetteId) : '';
+  }
+
+  /**
+   * Classe de couleur d’un personnage, de c1 à c6 (CDC §9).
+   *
+   * Le marionnettiste doit voir que la réplique change de bouche sans avoir à
+   * lire le nom. La couleur ne remplace jamais le nom : elle le double.
+   */
+  function couleurDe(e: ElementScript): string {
+    return 'marionnetteId' in e ? `c${spectacleCourant.couleurDe(e.marionnetteId)}` : '';
+  }
+</script>
+
+<svelte:window onkeydown={surTouche} />
+
+<div
+  class="lecture"
+  class:inverse={lecture.inverse}
+  class:flash
+  style="--taille: {lecture.taillePx}px"
+  role="application"
+  aria-label={tl.modeLecture}
+  onpointerdown={surToucher}
+>
+  <!-- Bandeau discret : acte, tableau, page, temps écoulé (CDC §9) -->
+  <!--
+    Ne reste ici que ce qui ne se trouve nulle part ailleurs : où l'on en est,
+    et depuis combien de temps. L'acte est annoncé par son titre dans la page,
+    et le décor par son propre écran : les répéter en haut encombrerait pour
+    rien un écran qu'on lit en jouant.
+  -->
+  <div class="bandeau mono" data-visite="bandeau">
+    <span class="place">{tl.page(lecture.page + 1, Math.max(pages.length, 1))}</span>
+    <span>{lecture.tempsEcoule}</span>
+    <button class="commande" onclick={(e) => { e.stopPropagation(); menuOuvert = true; }}>
+      {tl.menu}
+    </button>
+    <button class="commande" onclick={(e) => { e.stopPropagation(); surQuitter(); }} aria-label={tl.quitter}>
+      ✕
+    </button>
+  </div>
+
+  <!-- Progression : le rouge marque la position dans le spectacle (§11) -->
+  <div class="progression" aria-hidden="true">
+    <div class="avancee" style="width: {pages.length ? ((lecture.page + 1) / pages.length) * 100 : 0}%"></div>
+  </div>
+
+  {#if decorAnnonce && tableau}
+    <!-- Écran intercalaire : on ne joue pas pendant qu'on change le décor. -->
+    <div class="decor" data-visite="page">
+      <p class="mono etiquette">{lecture.page === 0 ? tl.premierDecor : tl.changementDecor}</p>
+      <p class="titre-decor">{tableau.titre}</p>
+      {#if tableau.description}<p class="description">{tableau.description}</p>{/if}
+      <p class="mono continuer">{tl.continuer}</p>
+    </div>
+
+  {:else}
+    <div class="page" data-visite="page" bind:this={zonePage}>
+      {#if !pageCourante}
+        <p class="vide">{tl.vide}</p>
+      {:else}
+        {#each pageCourante.rangees as rangee, i (rangee.id)}
+          <div class="rangee" class:indication={!!rangee.scene && !rangee.coulisse}>
+            {@render contenuRangee(rangee, i === 0)}
+          </div>
+        {/each}
+      {/if}
+    </div>
+  {/if}
+
+  <!--
+    Zone de mesure : les mêmes rangées, avec EXACTEMENT le même contenu, rendues
+    hors écran à la même largeur.
+
+    Le contenu vient du même fragment que la page réelle : une version
+    simplifiée mesurerait trop court, et la dernière réplique d'une page se
+    retrouverait coupée en bas de l'écran — précisément ce que la pagination
+    doit empêcher.
+  -->
+  <div class="mesure" bind:this={zoneMesure} aria-hidden="true">
+    <!-- Les rangées entières : c'est sur leur hauteur qu'on décide s'il faut
+         couper une tirade. -->
+    {#each rangees as rangee (rangee.id)}
+      <div class="rangee" class:indication={!!rangee.scene && !rangee.coulisse}
+        data-rangee={rangee.id}>{@render contenuRangee(rangee, false)}</div>
+    {/each}
+    <!-- Puis les morceaux réellement affichés, pour la mise en pages. -->
+    {#each rangeesDecoupees as rangee (rangee.id)}
+      <div class="rangee" class:indication={!!rangee.scene && !rangee.coulisse}
+        data-rangee={rangee.id}>{@render contenuRangee(rangee, false)}</div>
+    {/each}
+  </div>
+</div>
+
+<!-- Le contenu d'une rangée, partagé par la page affichée et la mesure. -->
+{#snippet contenuRangee(rangee: Rangee, hautDePage: boolean)}
+  <!--
+    Un seul fil, dans l'ordre du jeu : répliques et indications scéniques se
+    suivent, et c'est leur forme qui les distingue. À droite, seulement la
+    façon de dire la réplique d'en face.
+  -->
+  <div class="fil">
+    {#if rangee.debutActe}
+      <p class="mono acte">{tl.acte(rangee.acteNumero)} — {rangee.acteTitre}</p>
+    {/if}
+    {#if rangee.dialogue}
+      {@const d = rangee.dialogue}
+      <div class="bulle {couleurDe(d)}" class:public={d.type === 'adresse_public'}>
+        <!-- Le nom n'est pas répété quand le même personnage continue ; il
+             revient en haut d'une page, où l'on a perdu le fil. -->
+        {#if !rangee.memeVoix || hautDePage}
+        <p class="nom mono">
+          <span class="pastille" aria-hidden="true"></span>
+          {nomDe(d)}
+          {#if rangee.suite}<span class="suite">{tl.suite}</span>{/if}
+          {#if badges.get(d.id)}
+            <span class="badge-m">{badges.get(d.id)}</span>
+          {/if}
+          {#if d.type === 'adresse_public'}
+            <span class="au-public">{tsc.labelPublic}</span>
+          {/if}
+        </p>
+        {/if}
+        <p class="dit">{texteDe(d)}</p>
+        {#if d.type === 'adresse_public' && d.attenteReponse}
+          <p class="mono attente">{tsc.attendreReponse}</p>
+        {/if}
+      </div>
+    {:else if rangee.coulisse}
+      <!-- Une voix en coulisse SE DIT : elle a la taille d'une réplique, et
+           le trait pointillé dit qu'aucune peluche ne la porte. -->
+      {@const v = rangee.coulisse}
+      <div class="bulle coulisse" class:conteur={v.conteur}>
+        <p class="nom mono">
+          <span class="pastille" aria-hidden="true"></span>
+          {#if v.conteur}{tl.conteur}{:else}{v.qui} <span class="en-coulisse">{tl.enCoulisse}</span>{/if}
+          {#if rangee.suite}<span class="suite">{tl.suite}</span>{/if}
+        </p>
+        <p class="dit">{v.dit}</p>
+        {#if v.consigne}<p class="mono attente">{v.consigne}</p>{/if}
+      </div>
+    {:else if rangee.scene}
+      {@render elementScene(rangee.scene)}
+    {/if}
+  </div>
+
+  {#if rangee.dialogue?.type === 'replique' && rangee.dialogue.ton && !rangee.suite}
+    <div class="jeu">
+      <p class="ton">{rangee.dialogue.ton}</p>
+    </div>
+  {/if}
+{/snippet}
+
+{#snippet elementScene(e: ElementScript)}
+  {#if e.type === 'entree' || e.type === 'sortie'}
+    {@const main = e.mainMarionnettiste.endsWith('G') ? tsc.mainGauche : tsc.mainDroite}
+    <p class="mono mouvement {couleurDe(e)}">
+      <span class="pastille" aria-hidden="true"></span>
+      {e.type === 'entree' ? tsc.entree(nomDe(e), main) : tsc.sortie(nomDe(e), main)}
+    </p>
+  {:else if e.type === 'note_marionnettiste'}
+    <p class="note">{texteDe(e)}</p>
+  {:else}
+    <p class="didascalie">{texteDe(e)}</p>
+  {/if}
+{/snippet}
+
+{#if menuOuvert}
+  <div class="menu" role="dialog" aria-modal="true" aria-label={tl.menu}>
+    <div class="menu-boite">
+      <p class="mono">{tl.taille} : {lecture.taillePx} px</p>
+      <div class="ligne">
+        <button onclick={() => lecture.reduire()} disabled={lecture.taillePx <= PROMPTEUR.taillePxMin}>
+          {tl.textemoins}
+        </button>
+        <button onclick={() => lecture.agrandir()} disabled={lecture.taillePx >= PROMPTEUR.taillePxMax}>
+          {tl.texteplus}
+        </button>
+      </div>
+      <button onclick={() => lecture.basculerInverse()}>{tl.inverser}</button>
+      <button onclick={() => { allerA(0); menuOuvert = false; }}>{tl.debut}</button>
+      <button onclick={() => { testOuvert = true; menuOuvert = false; }}>{tl.testTouches}</button>
+      <button onclick={surEditer}>{tl.modeEdition}</button>
+      <button onclick={surQuitter}>{tl.quitter}</button>
+      <button class="secondaire-bouton" onclick={() => (menuOuvert = false)}>{tl.fermer}</button>
+      {#if veilleSignalee}<p class="aide">{tl.veille}</p>{/if}
+    </div>
+  </div>
+{/if}
+
+{#if testOuvert}
+  <TestTouches surFermer={() => (testOuvert = false)} />
+{/if}
+
+<style>
+  /* Fond encre et texte papier par défaut : la pièce est souvent sombre et un
+     écran blanc éblouit (CDC §9). */
+  .lecture {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    min-height: 0;
+    background: var(--encre);
+    color: var(--papier);
+    /* Teintes des personnages, claires sur le fond sombre (voir plus bas). */
+    --lecture-bleu: #7EA7D8;
+    --lecture-ocre: #D9B56D;
+    --lecture-sauge: #92B88A;
+    --lecture-terre: #E58C75;
+    --lecture-mauve: #B7A0D8;
+    --lecture-turquoise: #69BEB7;
+    --lecture-conteur: var(--papier);
+    overflow: hidden;
+    cursor: pointer;
+    user-select: none;
+  }
+  .lecture.inverse {
+    background: var(--papier);
+    color: var(--encre);
+    /* Les mêmes teintes, assombries pour rester lisibles sur le papier. */
+    --lecture-bleu: #365F8C;
+    --lecture-ocre: #775719;
+    --lecture-sauge: #42653C;
+    --lecture-terre: #A04735;
+    --lecture-mauve: #70518E;
+    --lecture-turquoise: #236C66;
+    --lecture-conteur: var(--encre);
+  }
+
+  /* Bref retour visuel à chaque appui reçu : le parent doit savoir que la
+     pédale a fonctionné (CDC §9). */
+  .lecture.flash .progression { background: var(--accent); }
+
+  .bandeau {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 8px 14px;
+    font-size: 12px;
+    opacity: 0.75;
+    flex: 0 0 auto;
+  }
+  .place { margin-right: auto; }
+
+  .commande {
+    min-height: 32px;
+    padding: 4px 10px;
+    border: 1px solid currentColor;
+    background: transparent;
+    color: inherit;
+    box-shadow: none;
+    font-size: 11px;
+  }
+  .commande:hover { background: transparent; box-shadow: none; transform: none; }
+
+  .progression { height: 3px; background: transparent; flex: 0 0 auto; }
+  .avancee { height: 100%; background: var(--accent); }
+
+  /* --- La page ------------------------------------------------- */
+  .page {
+    flex: 1;
+    min-height: 0;
+    padding: 12px 24px 24px;
+    overflow: hidden;
+  }
+
+  .rangee {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    gap: 24px;
+    align-items: start;
+    margin-bottom: 18px;
+  }
+  /* On réserve la marge seulement quand une indication de voix l'utilise.
+     Cette règle s'applique aussi à la mesure invisible de la pagination. */
+  .rangee:has(.jeu) { grid-template-columns: minmax(0, 3fr) minmax(0, 1fr); }
+  /* Une indication scénique reste près de ce qu'elle enchaîne. */
+  .rangee.indication { margin-bottom: 10px; }
+  .fil p { margin: 0; color: inherit; }
+  .acte { font-size: 12px; opacity: 0.7; margin-bottom: 6px; }
+
+  /* --- Une couleur par marionnette (CDC §9) ---------------------
+     Six teintes sourdes, réservées au jeu, et le conteur en papier/encre.
+     Barre, pastille et nom partagent la teinte. Chaque variante conserve
+     un contraste supérieur à 4,5:1 sur son fond, sombre ou papier. */
+  .bulle {
+    --perso: currentColor;
+    border-left: 5px solid var(--perso);
+    padding-left: 12px;
+  }
+  .c1 { --perso: var(--lecture-bleu); }
+  .c2 { --perso: var(--lecture-ocre); }
+  .c3 { --perso: var(--lecture-sauge); }
+  .c4 { --perso: var(--lecture-terre); }
+  .c5 { --perso: var(--lecture-mauve); }
+  .c6 { --perso: var(--lecture-turquoise); }
+  .bulle.conteur { --perso: var(--lecture-conteur); }
+  .bulle .nom { color: var(--perso); opacity: 1; }
+  /* Une adresse au public se distingue par le trait, jamais par la seule
+     couleur : celle-ci appartient déjà au personnage. */
+  .bulle.public { border-left-style: double; border-left-width: 7px; }
+  /* Une voix sans peluche : trait pointillé, sans couleur de personnage. */
+  .bulle.coulisse { border-left-style: dashed; }
+  .en-coulisse { opacity: 0.75; margin-left: 6px; }
+  .pastille {
+    display: inline-block;
+    width: 0.5em;
+    height: 0.5em;
+    margin-right: 0.4em;
+    background: var(--perso, currentColor);
+  }
+
+  .nom {
+    font-size: calc(var(--taille) * 0.45);
+    letter-spacing: 0.1em;
+    opacity: 0.85;
+    margin-bottom: 2px;
+  }
+  .suite { opacity: 0.7; margin-left: 6px; }
+  .badge-m {
+    border: 1px solid currentColor;
+    padding: 0 5px;
+    margin-left: 6px;
+  }
+  .au-public {
+    border: 1px solid var(--accent);
+    color: var(--accent);
+    padding: 0 5px;
+    margin-left: 6px;
+  }
+
+  /* Casse normale pour le texte dit : les capitales ralentissent la lecture
+     d'un texte long (CDC §11, exception assumée). */
+  .dit {
+    font-size: var(--taille);
+    line-height: 1.3;
+    overflow-wrap: break-word;
+  }
+  .attente { font-size: 12px; opacity: 0.75; margin-top: 4px; }
+
+  /* --- Les indications scéniques, dans le fil ------------------
+     Elles se lisent entre les répliques mais ne se disent jamais : plus
+     petites, décalées au niveau du texte dit, et chacune avec sa forme —
+     italique pour ce qui se fait, capitales pour qui entre et sort, un cadre
+     pour la consigne au marionnettiste. */
+  .didascalie {
+    font-style: italic;
+    font-size: calc(var(--taille) * 0.6);
+    line-height: 1.35;
+    padding-left: 17px;
+    opacity: 0.85;
+  }
+  .mouvement {
+    font-size: calc(var(--taille) * 0.42);
+    letter-spacing: 0.08em;
+    padding-left: 17px;
+  }
+  .fil .mouvement { color: var(--perso); }
+
+  /* --- À droite : comment dire la réplique d'en face ------------ */
+  .ton {
+    margin: 0;
+    padding-top: 2px;
+    font-style: italic;
+    font-size: calc(var(--taille) * 0.5);
+    line-height: 1.3;
+    color: inherit;
+  }
+  @media (max-width: 700px) {
+    .rangee, .rangee:has(.jeu) { grid-template-columns: minmax(0, 1fr); gap: 2px; }
+    /* Sur une seule colonne, le ton passe AU-DESSUS : on doit savoir comment
+       dire la réplique avant de la lire, pas après. */
+    .jeu { order: -1; }
+    .ton { padding-left: 17px; }
+  }
+  /* La note garde un fond distinct : elle ne se dit jamais à voix haute. */
+  .fil .note {
+    margin-left: 17px;
+    font-size: calc(var(--taille) * 0.45);
+    border: 1px solid currentColor;
+    padding: 6px 8px;
+  }
+
+  .vide { font-size: 20px; opacity: 0.8; }
+
+  /* --- Changement de décor -------------------------------------- */
+  .decor {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    text-align: center;
+    padding: 24px;
+  }
+  .decor p { color: inherit; margin: 0; }
+  .etiquette { font-size: 14px; color: var(--accent); }
+  .titre-decor {
+    font-size: calc(var(--taille) * 1.1);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+  }
+  .description { font-size: calc(var(--taille) * 0.5); max-width: 40ch; opacity: 0.85; }
+  .continuer { font-size: 12px; opacity: 0.7; }
+
+  /* --- Zone de mesure, invisible mais rendue -------------------- */
+  .mesure {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    visibility: hidden;
+    pointer-events: none;
+    padding: 12px 24px 24px;
+  }
+
+  /* --- Menu ----------------------------------------------------- */
+  .menu {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(10 10 10 / 0.75);
+    z-index: 40;
+  }
+  .menu-boite {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-width: 260px;
+    padding: 16px;
+    border: var(--bordure) solid var(--encre);
+    background: var(--papier);
+  }
+  .menu-boite p { margin: 0; color: var(--encre2); font-size: 11px; }
+  .ligne { display: flex; gap: 8px; }
+  .ligne button { flex: 1; }
+  .aide { font-size: 12px; }
+</style>

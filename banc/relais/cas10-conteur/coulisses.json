@@ -1,0 +1,422 @@
+{
+  "titre": "L’Intrépide Soldat de plomb",
+  "parametres": {
+    "dureeMinutes": 8,
+    "ageAuditoire": 7,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "quelques",
+    "ebauche": "le soldat de plomb",
+    "marionnetteIds": [
+      "soldat",
+      "danseuse",
+      "diablotin"
+    ],
+    "modele": "relais-local"
+  },
+  "dureeEstimeeSecondes": 868,
+  "nbActes": 4,
+  "nbTableaux": 1,
+  "bible": {
+    "dossier": {
+      "marionnettes": [
+        {
+          "nom": "Soldat",
+          "description": "Un soldat de plomb en tissu rouge et bleu, une seule jambe.",
+          "traits": [
+            "courageux",
+            "timide"
+          ]
+        },
+        {
+          "nom": "Danseuse",
+          "description": "Une poupée danseuse en tulle, une paillette sur l’écharpe.",
+          "traits": [
+            "rêveur",
+            "timide"
+          ]
+        },
+        {
+          "nom": "Diablotin",
+          "description": "Un diable à ressort en peluche noire, qui jaillit d’une boîte.",
+          "traits": [
+            "méchant",
+            "farceur"
+          ]
+        }
+      ],
+      "dureeMinutes": 8,
+      "ageAuditoire": 7,
+      "nbMarionnettistes": 1,
+      "interactionPublic": "quelques",
+      "ebauche": "le soldat de plomb",
+      "budgetMotsTotal": 800
+    },
+    "contesPresentes": [
+      "dk-soldat-de-plomb",
+      "guignol-le-duel",
+      "dk-ce-que-fait-le-vieux",
+      "ja-bonze-et-novice",
+      "en-vieille-et-cochon",
+      "ja-brin-de-paille",
+      "ja-moineau-langue-coupee",
+      "ru-chat-coq-renard"
+    ],
+    "jouables": 72,
+    "synopsisProposes": [
+      {
+        "conte": "dk-soldat-de-plomb",
+        "titre": "L’Intrépide Soldat de plomb",
+        "accroche": "Le Soldat aime la Danseuse en secret, et malgré la jalousie du Diablotin et un long voyage forcé, il revient tout droit vers elle.",
+        "resume": [
+          "Parmi tous les soldats bien alignés, seul le Soldat n'a qu'une jambe ; il regarde la Danseuse sans oser le lui dire, car elle aussi semble tenir sur un seul pied.",
+          "La nuit, quand les jouets s'animent, le Diablotin surgit de sa boîte et menace le Soldat, jaloux de le voir regarder la Danseuse.",
+          "Le lendemain, le Soldat tombe de la fenêtre, roule jusqu'à l'eau, et un poisson l'avale tout entier.",
+          "Le poisson est rapporté et ouvert dans cette même maison : le Soldat retrouve sa place, tout près de la Danseuse, comme si le voyage n'avait jamais eu lieu.",
+          "Le lendemain, on trouve dans les cendres un petit cœur de plomb et une paillette : le Soldat et la Danseuse restent unis pour toujours."
+        ],
+        "distribution": [
+          {
+            "marionnette": "Soldat",
+            "role": "le Soldat de plomb",
+            "note": "Courageux et timide comme lui : il porte cette histoire sans dire un mot de trop."
+          },
+          {
+            "marionnette": "Danseuse",
+            "role": "la Danseuse de papier",
+            "note": "Rêveuse et timide comme elle : son silence face au Soldat sonne juste."
+          },
+          {
+            "marionnette": "Diablotin",
+            "role": "le Diablotin de la tabatière",
+            "note": "Méchant et farceur comme lui : il jaillit de sa boîte exactement comme le rôle le demande."
+          }
+        ],
+        "changements": [
+          "Le passage du rat qui réclame un laissez-passer et des enfants qui mettent le Soldat dans un petit bateau est raccourci en une phrase de voyage, pour tenir dans les huit minutes.",
+          "Avec seulement trois marionnettes, la traversée de l'eau se raconte plutôt qu'elle ne se joue en plusieurs scènes."
+        ],
+        "id": "dk-soldat-de-plomb",
+        "reference": "L’Intrépide Soldat de plomb — Danemark, Hans Christian Andersen, 1838",
+        "annonces": [
+          "On ne voit pas le Soldat de plomb et la danseuse brûler : le lendemain, la servante trouve dans les cendres un petit cœur de plomb et la paillette."
+        ]
+      },
+      {
+        "conte": "ru-chat-coq-renard",
+        "titre": "Le Chat, le Coq et le Renard",
+        "accroche": "Chaque fois que le Chat s'éloigne, la Renarde essaie d'attirer le Coq à sa fenêtre pour l'emporter.",
+        "resume": [
+          "Le Chat part faire une course et laisse le Coq garder la maison tout seul.",
+          "La Renarde chante sous la fenêtre en promettant des petits pois ; le Coq se montre, elle l'attrape, mais il appelle si fort que le Chat revient à temps pour le sauver.",
+          "La deuxième fois, le Coq résiste d'abord, se laisse tenter par les pois qu'elle jette, puis se montre quand même ; le Chat le sauve encore.",
+          "La troisième fois, la Renarde fait semblant de partir ; le Coq regarde pour vérifier, et elle l'emporte, cette fois trop loin pour que le Chat l'entende.",
+          "Le Chat suit sa trace jusqu'au terrier et se met à jouer une musique si entraînante que la Renarde sort danser : il en profite pour délivrer le Coq et rentrer avec lui."
+        ],
+        "distribution": [
+          {
+            "marionnette": "Soldat",
+            "role": "le Chat",
+            "note": "Courageux comme lui : c'est lui qui part au secours du Coq chaque fois qu'il le faut."
+          },
+          {
+            "marionnette": "Danseuse",
+            "role": "le Coq",
+            "note": "Sa part rêveuse rend crédible qu'il se laisse chaque fois attirer par le chant, malgré le danger."
+          },
+          {
+            "marionnette": "Diablotin",
+            "role": "la Renarde",
+            "note": "Méchante et farceuse comme lui : ses ruses pour attirer le Coq lui vont comme un gant."
+          }
+        ],
+        "changements": [
+          "La fin change : au lieu que la Renarde reparte pour de bon avec le Coq, le Chat la retrouve et la fait danser à sa propre musique pour le délivrer — la peur reste, la perte non.",
+          "Le Vieux, qui partait avec le Chat au tout début du conte, n'apparaît pas : le Chat s'absente simplement, sans qu'on dise pourquoi."
+        ],
+        "id": "ru-chat-coq-renard",
+        "reference": "Le Chat, le Coq et le Renard — Russie, Alexandre Afanassiev, Contes populaires russes, 1855-1863 (n° 37)"
+      },
+      {
+        "conte": "ja-bonze-et-novice",
+        "titre": "Le Bonze et le petit novice",
+        "accroche": "Le Bonze cache ses friandises en disant qu'elles sont empoisonnées, mais le Diablotin les mange quand même et s'en tire chaque fois.",
+        "resume": [
+          "Le Bonze cache un pot de sirop et dit au Diablotin que c'est un poison très dangereux, pour qu'il n'y touche jamais.",
+          "Le Diablotin mange tout le sirop, casse volontairement un bol, puis fait semblant d'avoir avalé le poison pour ne pas être puni d'avoir cassé le bol.",
+          "Des boulettes sucrées arrivent pour le Bonze ; le Diablotin les mange toutes en cachette.",
+          "Pour cacher son coup, il barbouille de pâte sucrée la bouche de la Statue dorée et accuse la Statue d'avoir tout mangé.",
+          "Le Bonze gronde la Statue, qui ne répond rien ; le Diablotin propose alors de la tremper dans une bassine d'eau — elle fait « glouglou », comme pour dire « j'ai tout bu ! », et tout le monde éclate de rire."
+        ],
+        "distribution": [
+          {
+            "marionnette": "Soldat",
+            "role": "la Statue dorée",
+            "note": "Il n'a qu'une jambe et ne bouge presque jamais : il tient sans effort ce rôle où il faut rester immobile et se faire accuser à tort."
+          },
+          {
+            "marionnette": "Danseuse",
+            "role": "le Bonze avare",
+            "note": "Sa part rêveuse et timide donne à ce personnage un air naïf qui rend sa mésaventure attendrissante plutôt que méchante."
+          },
+          {
+            "marionnette": "Diablotin",
+            "role": "le Petit Novice",
+            "note": "Farceur et espiègle comme lui : c'est le rôle du chipeur malin qui s'en tire toujours, fait pour lui."
+          }
+        ],
+        "changements": [
+          "On ne fait pas bouillir la Statue à la fin : le Diablotin propose de la tremper dans une bassine d'eau, qui fait « glouglou » pour rire, sans rien de dur.",
+          "La voisine qui apporte les boulettes n'apparaît pas en personne : les friandises arrivent déjà posées près du Bonze."
+        ],
+        "id": "ja-bonze-et-novice",
+        "reference": "Le Bonze et le petit novice — Japon, conte populaire, dans la version de Kusuyama Masao (1884-1950)"
+      }
+    ],
+    "synopsis": {
+      "conte": "dk-soldat-de-plomb",
+      "titre": "L’Intrépide Soldat de plomb",
+      "accroche": "Le Soldat aime la Danseuse en secret, et malgré la jalousie du Diablotin et un long voyage forcé, il revient tout droit vers elle.",
+      "resume": [
+        "Parmi tous les soldats bien alignés, seul le Soldat n'a qu'une jambe ; il regarde la Danseuse sans oser le lui dire, car elle aussi semble tenir sur un seul pied.",
+        "La nuit, quand les jouets s'animent, le Diablotin surgit de sa boîte et menace le Soldat, jaloux de le voir regarder la Danseuse.",
+        "Le lendemain, le Soldat tombe de la fenêtre, roule jusqu'à l'eau, et un poisson l'avale tout entier.",
+        "Le poisson est rapporté et ouvert dans cette même maison : le Soldat retrouve sa place, tout près de la Danseuse, comme si le voyage n'avait jamais eu lieu.",
+        "Le lendemain, on trouve dans les cendres un petit cœur de plomb et une paillette : le Soldat et la Danseuse restent unis pour toujours."
+      ],
+      "distribution": [
+        {
+          "marionnette": "Soldat",
+          "role": "le Soldat de plomb",
+          "note": "Courageux et timide comme lui : il porte cette histoire sans dire un mot de trop."
+        },
+        {
+          "marionnette": "Danseuse",
+          "role": "la Danseuse de papier",
+          "note": "Rêveuse et timide comme elle : son silence face au Soldat sonne juste."
+        },
+        {
+          "marionnette": "Diablotin",
+          "role": "le Diablotin de la tabatière",
+          "note": "Méchant et farceur comme lui : il jaillit de sa boîte exactement comme le rôle le demande."
+        }
+      ],
+      "changements": [
+        "Le passage du rat qui réclame un laissez-passer et des enfants qui mettent le Soldat dans un petit bateau est raccourci en une phrase de voyage, pour tenir dans les huit minutes.",
+        "Avec seulement trois marionnettes, la traversée de l'eau se raconte plutôt qu'elle ne se joue en plusieurs scènes."
+      ],
+      "id": "dk-soldat-de-plomb",
+      "reference": "L’Intrépide Soldat de plomb — Danemark, Hans Christian Andersen, 1838",
+      "annonces": [
+        "On ne voit pas le Soldat de plomb et la danseuse brûler : le lendemain, la servante trouve dans les cendres un petit cœur de plomb et la paillette."
+      ]
+    },
+    "conteId": "dk-soldat-de-plomb",
+    "adaptation": {
+      "titre": "L’Intrépide Soldat de plomb",
+      "pitch": "Un petit soldat d’une seule jambe aime en secret une danseuse de papier, et malgré un diablotin jaloux et un grand voyage forcé, il revient tout droit vers elle.",
+      "changements": [
+        "Les vingt-quatre autres soldats, la servante, le petit garçon, les gamins des rues et le rat n’ont pas de marionnette : ils restent en coulisse, entendus dans la voix du conteur, jamais montrés sur scène.",
+        "Le passage du rat qui réclame un laissez-passer et des enfants qui mettent le Soldat dans un petit bateau de papier est raccourci en une phrase de voyage, pour tenir dans les huit minutes.",
+        "Toute la traversée de l’eau (caniveau, canal, ventre du poisson) se raconte par le conteur plutôt qu’elle ne se joue : avec trois marionnettes seulement, la scène ne peut pas montrer ce voyage en plusieurs tableaux.",
+        "La Danseuse quitte la scène pendant que le Diablotin menace le Soldat, faute d’une troisième main pour la tenir en même temps que les deux autres ; elle revient pour les retrouvailles finales.",
+        "Le Soldat jeté au poêle et le vent qui emporte la Danseuse ne se jouent pas : conformément à la retouche déjà faite dans le texte, on ne les voit pas brûler, et la scène reprend directement le lendemain sur les cendres."
+      ],
+      "tableaux": [
+        {
+          "id": "t1",
+          "titre": "La table des jouets",
+          "description": "Étale un tissu ou une nappe sur une table basse pour figurer la grande table de la chambre. D’un côté, pose quelques petits objets identiques (bouchons, figurines) pour représenter les vingt-quatre autres soldats immobiles ; le Soldat, lui, reste dans ta main. De l’autre côté, installe un petit carton plié en château miniature pour la Danseuse. Garde le Diablotin caché sous un coussin ou derrière un carton, prêt à surgir à minuit.",
+          "accessoires": [],
+          "promptImage": ""
+        }
+      ],
+      "actes": [
+        {
+          "numero": 1,
+          "titre": "Un soldat pas comme les autres",
+          "tableauId": "t1",
+          "resume": "Le Soldat, posé parmi ses vingt-quatre frères, est le seul à n’avoir qu’une jambe. Il aperçoit la Danseuse dans son petit château et croit qu’elle aussi ne tient que sur un pied : il l’admire en secret, sans oser le lui dire.",
+          "passage": "De « Il était une fois vingt-cinq soldats de plomb… » à « …qui restait debout sur une jambe sans perdre l’équilibre. »",
+          "temps": [
+            "Le Soldat est posé parmi les autres soldats : lui seul n’a qu’une jambe.",
+            "Il aperçoit la Danseuse dans son petit château et croit qu’elle aussi n’a qu’une jambe.",
+            "Il se tient à l’écart sur la table pour mieux la regarder sans se faire voir.",
+            "Le soir tombe, la maison s’endort, la Danseuse se retire pour la nuit."
+          ],
+          "mouvements": [
+            {
+              "type": "entree",
+              "marionnette": "Soldat",
+              "main": "M1G"
+            },
+            {
+              "type": "entree",
+              "marionnette": "Danseuse",
+              "main": "M1D"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "Danseuse",
+              "main": "M1D"
+            }
+          ],
+          "momentsPublic": [],
+          "budgetMots": 150
+        },
+        {
+          "numero": 2,
+          "titre": "Minuit, le Diablotin menace",
+          "tableauId": "t1",
+          "resume": "À minuit, tandis que les jouets s’animent, le Diablotin surgit de sa boîte et menace le Soldat de le voir regarder la Danseuse. Le Soldat ne répond pas, et le Diablotin promet de se venger le lendemain.",
+          "passage": "De « Quand le soir vint, tous les autres soldats de plomb furent rangés dans leur boîte… » à « …Eh bien, attends demain ! dit le Diablotin. »",
+          "temps": [
+            "Minuit sonne ; les jouets s’animent tout autour, mais le Soldat ne bouge pas.",
+            "Le Diablotin surgit de sa boîte et menace le Soldat de le voir regarder la Danseuse.",
+            "Le Soldat fait comme s’il n’entendait rien.",
+            "Le Diablotin promet de se venger dès le lendemain, et se retire, satisfait."
+          ],
+          "mouvements": [
+            {
+              "type": "entree",
+              "marionnette": "Diablotin",
+              "main": "M1D"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "Diablotin",
+              "main": "M1D"
+            }
+          ],
+          "momentsPublic": [
+            "Quand le Diablotin sort de sa boîte, demande aux enfants de crier pour prévenir le Soldat du danger."
+          ],
+          "budgetMots": 180
+        },
+        {
+          "numero": 3,
+          "titre": "La chute et le grand voyage",
+          "tableauId": "t1",
+          "resume": "Le lendemain, le Soldat tombe de la fenêtre ; on le cherche tout près sans le voir, et les enfants crient pour lui. Emporté par la pluie et poursuivi par un rat, il file jusqu’au grand canal et se fait avaler par un poisson.",
+          "passage": "De « Le matin, quand les enfants furent levés… » à « …il fut avalé par un gros poisson. »",
+          "temps": [
+            "Le lendemain matin, on pose le Soldat sur le rebord de la fenêtre, et il tombe la tête la première, trois étages plus bas.",
+            "La servante et le petit garçon le cherchent tout près sans le voir ; les enfants crient pour lui.",
+            "La pluie l’emporte dans le caniveau, un rat veut l’arrêter, il file jusqu’au grand canal.",
+            "Un gros poisson l’avale tout entier."
+          ],
+          "mouvements": [
+            {
+              "type": "sortie",
+              "marionnette": "Soldat",
+              "main": "M1G"
+            }
+          ],
+          "momentsPublic": [
+            "Quand la servante et le petit garçon cherchent le Soldat sans le voir, les enfants crient « Me voici ! » à sa place."
+          ],
+          "budgetMots": 150
+        },
+        {
+          "numero": 4,
+          "titre": "Le retour et le cœur de plomb",
+          "tableauId": "t1",
+          "resume": "Le poisson est rapporté et ouvert dans cette même maison : le Soldat reparaît sur la table, tout près de la Danseuse, et ils se regardent en silence. Le lendemain, la servante ne retrouve dans les cendres qu’un petit cœur de plomb et une paillette.",
+          "passage": "De « Oh, qu’il faisait noir là-dedans ! … » à « …il ne restait que la paillette. »",
+          "temps": [
+            "Le poisson est pêché, ouvert dans la cuisine de la même maison : le Soldat reparaît.",
+            "On le repose sur la table, tout près de la Danseuse ; ils se regardent sans un mot.",
+            "Le lendemain, on ne les revoit plus sur la table.",
+            "La servante retrouve dans les cendres un petit cœur de plomb et une paillette."
+          ],
+          "mouvements": [
+            {
+              "type": "entree",
+              "marionnette": "Soldat",
+              "main": "M1G"
+            },
+            {
+              "type": "entree",
+              "marionnette": "Danseuse",
+              "main": "M1D"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "Soldat",
+              "main": "M1G"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "Danseuse",
+              "main": "M1D"
+            }
+          ],
+          "momentsPublic": [],
+          "budgetMots": 320
+        }
+      ],
+      "voix": [
+        {
+          "marionnette": "Diablotin",
+          "voix": "voix aiguë et grinçante, débit rapide, ricane après chaque menace"
+        },
+        {
+          "marionnette": "Soldat",
+          "voix": "voix grave et très calme, parle peu et lentement, ne hausse jamais le ton"
+        }
+      ]
+    },
+    "transposition": {
+      "texte": "Il était une fois vingt-cinq soldats de plomb, tous frères, car ils étaient nés d'une vieille cuillère en plomb. Ils portaient le fusil à l'épaule et regardaient droit devant eux ; leur uniforme rouge et bleu était tout ce qu'il y a de plus beau. La toute première chose qu'ils entendirent en ce monde, quand on souleva le couvercle de la boîte où ils étaient couchés, ce fut le mot : « Des soldats de plomb ! » C'était un petit garçon qui l'avait crié en battant des mains. On les lui avait offerts pour son anniversaire, et il les aligna sur la table.\n\nChaque soldat ressemblait exactement à l'autre ; un seul était un peu différent : il n'avait qu'une jambe, car il avait été fondu le dernier, et il n'y avait plus assez de plomb. Pourtant il se tenait aussi solidement sur sa jambe unique que les autres sur leurs deux jambes, et c'est justement lui qui va devenir remarquable.\n\nSur la table où on les avait alignés, il y avait beaucoup d'autres jouets ; mais celui qui attirait le plus le regard était un joli château en papier. Par les petites fenêtres, on pouvait voir jusque dans les salles. Devant, il y avait de petits arbres autour d'un petit miroir qui faisait comme un lac ; des cygnes en cire y nageaient et s'y regardaient. Tout cela était ravissant, mais le plus ravissant de tout était une petite demoiselle debout dans l'embrasure de la porte du château. Elle aussi était découpée dans du papier, mais elle avait une jupe de la gaze la plus fine, et un petit ruban bleu étroit sur l'épaule, comme une écharpe, au milieu duquel brillait une paillette aussi grande que tout son visage. La petite demoiselle tendait les deux bras, car c'était une Danseuse, et elle levait une jambe si haut que le Soldat de plomb ne pouvait pas la voir du tout : il crut qu'elle n'avait qu'une jambe, comme lui.\n\n« Voilà une femme pour moi, pensa-t-il. Mais elle est un peu trop distinguée : elle habite un château, et moi je n'ai qu'une boîte, et nous y sommes vingt-cinq ; ce n'est pas un endroit pour elle. Pourtant, il faut que je fasse sa connaissance. »\n\nEt il s'allongea de tout son long derrière une tabatière qui était sur la table. De là, il pouvait bien regarder la petite dame élégante, qui restait debout sur une jambe sans perdre l'équilibre.\n\nQuand le soir vint, tous les autres soldats de plomb furent rangés dans leur boîte, et les gens de la maison allèrent se coucher. Alors les jouets commencèrent à jouer : à recevoir des visites, à faire la guerre, à donner un bal. Les soldats de plomb s'agitaient dans leur boîte, car ils voulaient en être, mais ils n'arrivaient pas à soulever le couvercle. Le casse-noisette faisait des culbutes, et le crayon s'amusait sur l'ardoise ; c'était un tel vacarme que le canari se réveilla et se mit à bavarder lui aussi, et en vers, s'il vous plaît. Les deux seuls qui ne bougeaient pas de leur place étaient le Soldat de plomb et la petite Danseuse : elle se tenait bien droite sur la pointe du pied, les deux bras tendus ; lui était tout aussi inébranlable sur son unique jambe, et ses yeux ne la quittaient pas un instant.\n\nAlors l'horloge sonna minuit, et clac ! le couvercle de la tabatière sauta. Mais il n'y avait pas de tabac dedans : il y avait un petit diable noir. C'était une boîte à surprise.\n\n— Soldat de plomb ! dit le Diablotin. Veux-tu bien garder tes yeux pour toi !\n\nMais le Soldat de plomb fit comme s'il n'entendait pas.\n\n— Eh bien, attends demain ! dit le Diablotin.\n\nLe matin, quand les enfants furent levés, on posa le Soldat de plomb sur le rebord de la fenêtre. Et, que ce soit le Diablotin ou un courant d'air, voilà que la fenêtre s'ouvrit d'un coup, et le Soldat tomba tête la première du troisième étage. Ce fut une chute terrible : il se retrouva la jambe en l'air, planté sur son shako, la baïonnette coincée entre les pavés.\n\nLa servante et le petit garçon descendirent tout de suite le chercher ; mais bien qu'ils aient failli marcher dessus, ils ne le virent pas. Si le Soldat de plomb avait crié « Me voici ! », ils l'auraient bien trouvé ; mais il ne trouvait pas convenable de crier fort, puisqu'il était en uniforme.\n\nAlors il se mit à pleuvoir, les gouttes tombaient de plus en plus serrées, ce fut une vraie averse. Quand elle fut finie, arrivèrent deux gamins des rues.\n\n— Regarde ! dit l'un. Voilà un Soldat de plomb ! Il va partir en bateau !\n\nIls firent un bateau avec un journal, mirent le Soldat de plomb au milieu, et le voilà qui descendait le caniveau ; les deux garçons couraient à côté en battant des mains. Dieu nous garde ! Quelles vagues il y avait dans ce caniveau, et quel courant ! Il faut dire qu'il avait plu à verse. Le bateau de papier tanguait, et de temps en temps il tournait si vite que le Soldat de plomb en tremblait. Mais il resta inébranlable, ne changea pas d'expression, regarda droit devant lui et garda le fusil à l'épaule.\n\nTout à coup, le bateau fila sous une longue planche qui couvrait le caniveau ; il y fit aussi noir que dans sa boîte.\n\n« Où vais-je arriver maintenant ? pensa-t-il. Oui, oui, c'est la faute du Diablotin ! Ah, si seulement la petite demoiselle était avec moi dans le bateau, il pourrait bien faire deux fois plus noir ! »\n\nAu même instant arriva un gros rat d'eau, qui habitait sous la planche.\n\n— As-tu un passeport ? demanda le rat. Donne ton passeport !\n\nMais le Soldat de plomb se tut et serra encore plus fort son fusil. Le bateau fila, et le rat derrière. Hou ! Comme il grinçait des dents, et criait aux bouts de bois et aux brins de paille :\n\n— Arrêtez-le ! Arrêtez-le ! Il n'a pas payé le péage ! Il n'a pas montré son passeport !\n\nMais le courant devenait de plus en plus fort. Le Soldat de plomb voyait déjà la lumière du jour devant lui, là où la planche finissait ; mais il entendait aussi un grondement qui aurait bien pu effrayer un homme courageux. Pensez donc : là où finissait la planche, le caniveau se jetait dans un grand canal. Pour lui, c'était aussi dangereux que pour nous de descendre une grande cascade en bateau.\n\nIl en était déjà si près qu'il ne pouvait plus s'arrêter. Le bateau fut projeté dehors ; le pauvre Soldat de plomb se tint aussi raide qu'il put : personne ne pourrait dire qu'il avait cligné des yeux. Le bateau tourna trois ou quatre fois sur lui-même et se remplit d'eau jusqu'au bord ; il allait couler. Le Soldat de plomb avait de l'eau jusqu'au cou, et le bateau s'enfonçait de plus en plus, et le papier se défaisait de plus en plus ; maintenant l'eau passait par-dessus la tête du Soldat. Alors il pensa à la jolie petite Danseuse qu'il ne reverrait jamais, et il entendit résonner à son oreille :\n\n« En avant, en avant, Soldat !\nVoici venir le grand danger ! »\n\nAlors le papier se déchira, et le Soldat de plomb passa au travers — mais au même moment, il fut avalé par un gros poisson.\n\nOh, qu'il faisait noir là-dedans ! C'était encore pire que sous la planche du caniveau, et c'était si étroit ! Mais le Soldat de plomb était inébranlable, et resta couché de tout son long, le fusil à l'épaule.\n\nLe poisson s'agitait dans tous les sens, faisait les mouvements les plus terribles. Enfin il devint tout à fait immobile. Quelque chose le traversa comme un éclair. La lumière brilla, toute claire, et quelqu'un cria bien fort : « Un Soldat de plomb ! » Le poisson avait été pêché, porté au marché, vendu, et il était arrivé dans une cuisine, où la servante l'avait ouvert avec un grand couteau. Elle prit le Soldat entre deux doigts, par la taille, et le porta au salon, où tout le monde voulut voir cet homme remarquable qui avait voyagé dans le ventre d'un poisson. Mais le Soldat de plomb n'en était pas fier du tout.\n\nOn le posa sur la table, et là — ah, comme il se passe des choses étranges dans le monde ! — le Soldat de plomb était dans la même pièce qu'avant ! Il voyait les mêmes enfants, et les jouets étaient sur la table : le beau château avec la jolie petite Danseuse. Elle se tenait toujours sur une jambe, l'autre bien haut en l'air : elle aussi était inébranlable. Cela émut le Soldat de plomb : il était près de pleurer des larmes de plomb, mais cela ne se faisait pas. Il la regarda, et elle le regarda, mais ils ne se dirent rien.\n\nAu même instant, l'un des petits garçons prit le Soldat et le jeta droit dans le poêle, sans aucune raison. C'était sûrement la faute du Diablotin de la tabatière.\n\nLe Soldat de plomb était tout illuminé et sentait une chaleur terrible ; mais si c'était celle du vrai feu ou celle de l'amour, il ne le savait pas. Ses couleurs étaient toutes parties ; si c'était arrivé pendant le voyage ou à cause du chagrin, personne n'aurait pu le dire. Il regardait la petite demoiselle, elle le regardait, et il restait toujours inébranlable, le fusil à l'épaule. Alors une porte s'ouvrit, le vent prit la Danseuse, et elle vola comme une fée tout droit dans le poêle, jusqu'au Soldat de plomb. Et quand la servante vida les cendres le lendemain, elle le retrouva en forme de petit cœur de plomb. De la Danseuse, il ne restait que la paillette.",
+      "changements": []
+    },
+    "retouches": {
+      "age": 7,
+      "profil": [
+        "le-poele@8"
+      ],
+      "annonces": [
+        "On ne voit pas le Soldat de plomb et la danseuse brûler : le lendemain, la servante trouve dans les cendres un petit cœur de plomb et la paillette."
+      ]
+    },
+    "relecture": {
+      "remarques": [
+        {
+          "acte": 1,
+          "element": 16,
+          "gravite": "important",
+          "remarque": "La Danseuse « sort » ici (élément 16-17) pour libérer la main M1D au profit du Diablotin. Mais le conte veut qu'elle reste un repère fixe et visible sur la table pendant toute la scène de minuit (voir acte 2, élément 5) puis pendant le retour du Soldat (acte 4, élément 14) : une marionnette sortie n'est plus censée être là, or l'histoire continue de parler d'elle comme présente et immobile.",
+          "modification": "Remplace, à l'élément 16, « rentre dans son château » par une action qui pose la Danseuse, immobile, contre le petit château en carton déjà prévu au décor : elle reste visible sans occuper de main. Supprime la sortie de l'élément 17 ; libère la main M1D pour le Diablotin en la laissant simplement posée là. Elle ne doit sortir pour de bon qu'au moment où elle s'envole dans le poêle, en fin d'acte 4."
+        },
+        {
+          "acte": 2,
+          "element": 5,
+          "gravite": "important",
+          "remarque": "Cette phrase, reprise fidèlement du conte, décrit la Danseuse bien droite et immobile, sous le regard constant du Soldat — donc visible sur la table. Or elle est sortie de scène à la fin de l'acte 1 (élément 17) : elle ne peut pas être vue à cet instant.",
+          "modification": "Ne change pas cette phrase, qui vient du conte : corrige plutôt la mise en scène de l'acte 1 (élément 16-17) pour que la Danseuse reste posée et visible sur la table pendant toute cette scène."
+        },
+        {
+          "acte": 2,
+          "element": 8,
+          "gravite": "important",
+          "remarque": "La note invite les enfants à crier pour avertir le Soldat du danger juste après l'entrée du Diablotin (élément 7), avant que celui-ci ait rien dit ou fait de menaçant. À cet instant, rien n'indique encore aux enfants qu'il y a un danger : l'invitation arrive un cran trop tôt.",
+          "modification": "Déplace cette note après l'élément 12 (juste après « Eh bien, attends demain ! »), quand la menace du Diablotin vient d'être formulée : les enfants ont alors une vraie raison d'avertir le Soldat."
+        },
+        {
+          "acte": 3,
+          "element": 12,
+          "gravite": "important",
+          "remarque": "L'épisode du rat d'eau — qui réclame un passeport au Soldat et crie « Arrêtez-le ! » — a disparu du script, alors qu'il figure dans le conte et que la fiche le cite comme l'une des quatre épreuves du voyage (« la chute, le caniveau, le rat, le poisson »), et comme un moment tout indiqué pour faire parler les enfants.",
+          "modification": "Après l'élément 12 (« Où vais-je arriver maintenant ?... »), ajoute : une réplique du conteur narrant l'arrivée du gros rat d'eau sous la planche et sa demande « As-tu un passeport ? Donne ton passeport ! » ; une action du Soldat qui se tait et serre son fusil ; puis les cris du rat, repris par les enfants : « Arrêtez-le ! Arrêtez-le ! Il n'a pas payé le péage ! Il n'a pas montré son passeport ! »."
+        },
+        {
+          "acte": 4,
+          "element": 14,
+          "gravite": "important",
+          "remarque": "La Danseuse « entre » ici comme si elle avait quitté la scène ; or dans le conte elle n'a jamais bougé de la table pendant toute l'histoire — c'est la même incohérence qu'aux actes 1 et 2.",
+          "modification": "Si la correction de l'acte 1 est appliquée (la Danseuse reste posée sur la table depuis l'acte 1), supprime cette entrée : elle est déjà là. Garde la main M1D disponible pour la reprendre au moment du regard échangé avec le Soldat (élément 17) et de son envol dans le poêle (élément 25)."
+        }
+      ]
+    }
+  },
+  "etapes": 14
+}

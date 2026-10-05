@@ -1,0 +1,82 @@
+{
+  "id": "guignol-les-freres-coq",
+  "langue": [
+    {"avant": "Cependant je t’ai reconnu tout de suite", "apres": "Mais je t’ai reconnu tout de suite", "nature": "connecteur", "jusqua": 8},
+    {"avant": "Il faut cependant aller jusqu’au bout.", "apres": "Mais il faut aller jusqu’au bout.", "nature": "connecteur", "jusqua": 8},
+    {"avant": "les escalins te manquent pas", "apres": "les sous te manquent pas", "nature": "mot-disparu"},
+    {"avant": "pour qu’il ne portât plus le nom de notre père", "apres": "pour qu’il ne porte plus le nom de notre père", "nature": "tournure"},
+    {"avant": "de ne pas manquer de pratiques", "apres": "de ne pas manquer de clients", "nature": "faux-ami"},
+    {"avant": "nous voilà tous riches, & cependant il nous manque", "apres": "nous voilà tous riches, mais il nous manque", "nature": "connecteur", "jusqua": 8}
+  ],
+  "moments": [
+    {
+      "id": "le-soufflet-a-louison",
+      "type": "abandon",
+      "niveaux": [
+        {
+          "jusqua": 4,
+          "annonce": "Guignol gronde sa fille Louison au lieu de la gifler.",
+          "retouches": [
+            {"avant": "Tiens, va changer cette pièce. (Il lui donne un soufflet.)", "apres": "(Il la gronde.)"},
+            {"avant": "Papa, vous me battez, vous n’avez pas raison", "apres": "Papa, vous me grondez, vous n’avez pas raison"},
+            {"avant": "qu’es cause que je bats ma Louison", "apres": "qu’es cause que je gronde ma Louison"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "gnafron-ivre",
+      "type": "alcool",
+      "niveaux": [
+        {
+          "jusqua": 4,
+          "annonce": "Gnafron n’est pas ivre : il a bu un coup et tombe de sommeil.",
+          "retouches": [
+            {"avant": "il boit depuis ce matin, il peut plus se tenir.", "apres": "il boit depuis ce matin, il dort debout."},
+            {"avant": "il est charmant quand il est pochard.", "apres": "il est charmant quand il a bu un verre."},
+            {"avant": "GNAFRON, ivre.", "apres": "GNAFRON, tout endormi."},
+            {"avant": "Faites donc attention, ivrogne !", "apres": "Faites donc attention, endormi !"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "la-revolte-d-esclaves",
+      "type": "mal-vieilli",
+      "niveaux": [
+        {
+          "jusqua": 10,
+          "retouches": [
+            {"avant": "J’eus le bonheur d’apaiser une révolte d’esclaves dans laquelle sa fortune & sa vie couraient les dangers les plus imminents ; & il y a cinq ans", "apres": "Il y a cinq ans"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "les-sauvages",
+      "type": "mal-vieilli",
+      "niveaux": [
+        {
+          "jusqua": 10,
+          "retouches": [
+            {"avant": "mangé par les sauvages, que c’était même le roi qui l’avait mangé parce qu’il était gras…", "apres": "mangé par un cocodrille, parce qu’il était gras…"},
+            {"avant": "Oh ! puis c’est un pays qu’est plein de sauvages qui mangent les hommes… Pauvre Jérôme !", "apres": "Pauvre Jérôme !"},
+            {"avant": "Il a p’t-être été mangé par un sauvage ou par un cocodrille.", "apres": "Il a p’t-être été mangé par un cocodrille."}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "l-epouse-de-jerome",
+      "type": "mal-vieilli",
+      "niveaux": [
+        {
+          "jusqua": 10,
+          "retouches": [
+            {"avant": "T’as épousé là-bas une négresse ; te l’amènes avec des mioches que ne sont pas blancs. Va, va ! nous coucherons & nous décrasserons ben tout ça. Nous les mettrons dans le baquet.", "apres": "T’as épousé là-bas une femme ; te l’amènes avec des mioches. Va, va ! nous coucherons ben tout ça."}
+          ]
+        }
+      ]
+    }
+  ]
+}

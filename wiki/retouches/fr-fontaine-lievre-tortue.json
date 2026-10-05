@@ -1,0 +1,11 @@
+{
+  "id": "fr-fontaine-lievre-tortue",
+  "langue": [
+    {"avant": "Gageons, dit celle-ci", "apres": "Parions, dit celle-ci", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "Ma commère, il vous faut purger Avec quatre grains d’ellébore.", "apres": "Ma commère, vous avez perdu la tête.", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "Tient la gageure à peu de gloire", "apres": "Tient le pari à peu de gloire", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "Qu’à la gageure. À la fin", "apres": "Qu’au pari. À la fin", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "avais-je pas raison ?", "apres": "n’avais-je pas raison ?", "nature": "tournure"}
+  ],
+  "moments": []
+}

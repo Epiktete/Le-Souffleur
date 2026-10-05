@@ -1,0 +1,2211 @@
+{
+  "id": "guignol-l-enrolement--1",
+  "conteId": "guignol-l-enrolement",
+  "titre": "L’Enrôlement",
+  "pitch": "{{r2}} a promis sa fille {{r3}} à {{r1}}, puis veut s’en dédire : avec le sergent {{r4}}, il pousse {{r1}} à s’engager pour l’envoyer au loin. Mais {{r1}} n’est pas si bête.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "rusé",
+        "farceur",
+        "maladroit"
+      ],
+      "voix": "voix vive et chantante, qui traîne sur les « ben » et les « v’là »",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e7:texte",
+            "avant": "d’un gendre",
+            "apres": "d’une belle-fille"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "Monsieur",
+            "apres": "Mam’selle"
+          },
+          {
+            "id": "a1e15:texte",
+            "avant": "Monsieur",
+            "apres": "Mam’selle"
+          },
+          {
+            "id": "a1e21:texte",
+            "avant": "votre mari",
+            "apres": "votre femme"
+          },
+          {
+            "id": "a1e27:texte",
+            "avant": "qué qu’il vous a",
+            "apres": "qué qu’elle vous a"
+          },
+          {
+            "id": "a1e28:texte",
+            "avant": "de ton",
+            "apres": "de ta"
+          },
+          {
+            "id": "a1e30:texte",
+            "avant": "s’il me convenait",
+            "apres": "si elle me convenait"
+          },
+          {
+            "id": "a1e30:texte",
+            "avant": "Mais il ne me convient",
+            "apres": "Mais elle ne me convient"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "Caché",
+            "apres": "Cachée"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "s’il se fait",
+            "apres": "si elle se fait"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "à son",
+            "apres": "à sa"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "Mais il n’a rien",
+            "apres": "Mais elle n’a rien"
+          },
+          {
+            "id": "a2e7:texte",
+            "avant": "qu’il s’engage",
+            "apres": "qu’elle s’engage"
+          },
+          {
+            "id": "a2e7:texte",
+            "avant": "Une fois engagé",
+            "apres": "Une fois engagée"
+          },
+          {
+            "id": "a2e7:texte",
+            "avant": "vous le faites partir",
+            "apres": "vous la faites partir"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "ce jeune serin",
+            "apres": "cette jeune serine"
+          },
+          {
+            "id": "a2e19:texte",
+            "avant": "d’un clampin",
+            "apres": "d’une clampine"
+          },
+          {
+            "id": "a2e19:texte",
+            "avant": "son gendre",
+            "apres": "sa belle-fille"
+          },
+          {
+            "id": "a2e32:texte",
+            "avant": "Il est là ; il nous écoute",
+            "apres": "Elle est là ; elle nous écoute"
+          },
+          {
+            "id": "a2e34:texte",
+            "avant": "c’est qu’il n’avait",
+            "apres": "c’est qu’elle n’avait"
+          },
+          {
+            "id": "a2e34:texte",
+            "avant": "que s’il s’engageait",
+            "apres": "que si elle s’engageait"
+          },
+          {
+            "id": "a2e36:texte",
+            "avant": "il aurait",
+            "apres": "elle aurait"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "Puis il révèle qu’il a tout compris, et qu’il n’a rien signé",
+            "apres": "Puis elle révèle qu’elle a tout compris, et qu’elle n’a rien signé"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "vêtu d’un uniforme ridicule : il a",
+            "apres": "vêtue d’un uniforme ridicule : elle a"
+          },
+          {
+            "id": "a3e5:texte",
+            "avant": "ficelé",
+            "apres": "ficelée"
+          },
+          {
+            "id": "a3e6:texte",
+            "avant": "conscrit",
+            "apres": "conscrite"
+          },
+          {
+            "id": "a3e44:texte",
+            "avant": "conscrit",
+            "apres": "conscrite"
+          },
+          {
+            "id": "a3e47:texte",
+            "avant": "d’un farceur",
+            "apres": "d’une farceuse"
+          },
+          {
+            "id": "a3e50:texte",
+            "avant": "pris pour un jeune serin",
+            "apres": "prise pour une jeune serine"
+          },
+          {
+            "id": "a3e52:texte",
+            "avant": "m’avoir engagé",
+            "apres": "m’avoir engagée"
+          },
+          {
+            "id": "a4e11:texte",
+            "avant": "dégourdi",
+            "apres": "dégourdie"
+          },
+          {
+            "id": "a4e17:texte",
+            "avant": "l’a trop dégourdi",
+            "apres": "l’a trop dégourdie"
+          },
+          {
+            "id": "a4e21:texte",
+            "avant": "que dit-il donc",
+            "apres": "que dit-elle donc"
+          },
+          {
+            "id": "a4e24:texte",
+            "avant": "Vous ne le faites",
+            "apres": "Vous ne la faites"
+          },
+          {
+            "id": "a4e25:texte",
+            "avant": "il a obtenu",
+            "apres": "elle a obtenu"
+          },
+          {
+            "id": "a4e33:texte",
+            "avant": "Farceur",
+            "apres": "Farceuse"
+          },
+          {
+            "id": "a4e39:texte",
+            "avant": "Allons, Messieurs, en garde",
+            "apres": "Allons, Messieurs-dames, en garde"
+          },
+          {
+            "id": "a4e40:texte",
+            "avant": "était un brave",
+            "apres": "était une brave"
+          },
+          {
+            "id": "a4e61:texte",
+            "avant": "est un brave",
+            "apres": "est une brave"
+          },
+          {
+            "id": "a4e61:texte",
+            "avant": "je te le donne pour mari",
+            "apres": "je te la donne pour femme"
+          },
+          {
+            "id": "a4e67:texte",
+            "avant": "engagé",
+            "apres": "engagée"
+          },
+          {
+            "id": "a4e69:texte",
+            "avant": "Il m’a fait aller",
+            "apres": "Elle m’a fait aller"
+          },
+          {
+            "id": "a4e69:texte",
+            "avant": "c’est le gendre",
+            "apres": "c’est la belle-fille"
+          },
+          {
+            "id": "a1e23:texte",
+            "avant": "comme il est plus gentil",
+            "apres": "comme elle est plus gentille"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a1e28:texte",
+          "avant": "Un homme",
+          "gabarit": "{Un} {espece}"
+        },
+        {
+          "id": "a4e12:texte",
+          "avant": "un jeune homme",
+          "gabarit": "{un} jeune {espece}"
+        },
+        {
+          "id": "a4e23:texte",
+          "avant": "Ce jeune homme",
+          "gabarit": "{Ce|Cette} jeune {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r2",
+      "espece": "savetier",
+      "famille": "adulte",
+      "traits": [
+        "vantard",
+        "menteur",
+        "gourmand"
+      ],
+      "voix": "voix enrouée et grondante, qui jure « mille bombes ! » à tout propos",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1:titre",
+            "avant": "Il m’avait promis",
+            "apres": "Elle m’avait promis"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "son père",
+            "apres": "sa mère"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "le père",
+            "apres": "la mère"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "il m’avait promis",
+            "apres": "elle m’avait promis"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "il me conte",
+            "apres": "elle me conte"
+          },
+          {
+            "id": "a1e7:texte",
+            "avant": "Il dit qu’il a",
+            "apres": "Elle dit qu’elle a"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "Mon père",
+            "apres": "Ma mère"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "il ne veut plus",
+            "apres": "elle ne veut plus"
+          },
+          {
+            "id": "a1e12:texte",
+            "avant": "votre père",
+            "apres": "votre mère"
+          },
+          {
+            "id": "a1e13:texte",
+            "avant": "Il veut me marier",
+            "apres": "Elle veut me marier"
+          },
+          {
+            "id": "a1e14:texte",
+            "avant": "il m’a promis",
+            "apres": "elle m’a promis"
+          },
+          {
+            "id": "a1e16:texte",
+            "avant": "Il m’a promis ; il m’a tapé",
+            "apres": "Elle m’a promis ; elle m’a tapé"
+          },
+          {
+            "id": "a1e17:texte",
+            "avant": "il arrange",
+            "apres": "elle arrange"
+          },
+          {
+            "id": "a1e18:texte",
+            "avant": "je vais le soigner",
+            "apres": "je vais la soigner"
+          },
+          {
+            "id": "a1e20:texte",
+            "avant": "mon père",
+            "apres": "ma mère"
+          },
+          {
+            "id": "a1e26:texte",
+            "avant": "Je suis sûr",
+            "apres": "Je suis sûre"
+          },
+          {
+            "id": "a1e27:texte",
+            "avant": "Mais papa",
+            "apres": "Mais maman"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "papa",
+            "apres": "maman"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "Papa",
+            "apres": "Maman"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "subtil",
+            "apres": "subtile"
+          },
+          {
+            "id": "a2e15:texte",
+            "avant": "du père",
+            "apres": "de la mère"
+          },
+          {
+            "id": "a2e15:texte",
+            "avant": "Il me l’avait",
+            "apres": "Elle me l’avait"
+          },
+          {
+            "id": "a2e15:texte",
+            "avant": "il se dédit",
+            "apres": "elle se dédit"
+          },
+          {
+            "id": "a2e15:texte",
+            "avant": "quoi qu’il a donc, quoi qu’il a donc",
+            "apres": "quoi qu’elle a donc, quoi qu’elle a donc"
+          },
+          {
+            "id": "a2e16:texte",
+            "avant": "Le père",
+            "apres": "La mère"
+          },
+          {
+            "id": "a2e19:texte",
+            "avant": "il ne veut pas",
+            "apres": "elle ne veut pas"
+          },
+          {
+            "id": "a2e20:texte",
+            "avant": "du père",
+            "apres": "de la mère"
+          },
+          {
+            "id": "a2e21:texte",
+            "avant": "le père",
+            "apres": "la mère"
+          },
+          {
+            "id": "a2e21:texte",
+            "avant": "ce qu’il dira",
+            "apres": "ce qu’elle dira"
+          },
+          {
+            "id": "a2e23:texte",
+            "avant": "si y se dédit",
+            "apres": "si elle se dédit"
+          },
+          {
+            "id": "a2e25:texte",
+            "avant": "Faites-le",
+            "apres": "Faites-la"
+          },
+          {
+            "id": "a2e26:texte",
+            "avant": "au père",
+            "apres": "à la mère"
+          },
+          {
+            "id": "a2e29:texte",
+            "avant": "papa",
+            "apres": "maman"
+          },
+          {
+            "id": "a2e37:texte",
+            "avant": "bien, père",
+            "apres": "bien, mère"
+          },
+          {
+            "id": "a2e37:texte",
+            "avant": "un vieux brave",
+            "apres": "une vieille brave"
+          },
+          {
+            "id": "a3e48:texte",
+            "avant": "le père",
+            "apres": "la mère"
+          },
+          {
+            "id": "a3e56:texte",
+            "avant": "le père",
+            "apres": "la mère"
+          },
+          {
+            "id": "a4e2:texte",
+            "avant": "au père",
+            "apres": "à la mère"
+          },
+          {
+            "id": "a4e10:texte",
+            "avant": "Ah ! père",
+            "apres": "Ah ! mère"
+          },
+          {
+            "id": "a4e10:texte",
+            "avant": "un vieux brave",
+            "apres": "une vieille brave"
+          },
+          {
+            "id": "a4e12:texte",
+            "avant": "vétéran",
+            "apres": "vétérane"
+          },
+          {
+            "id": "a4e14:texte",
+            "avant": "Comment, père",
+            "apres": "Comment, mère"
+          },
+          {
+            "id": "a4e31:texte",
+            "avant": "Père",
+            "apres": "Mère"
+          },
+          {
+            "id": "a4e34:texte",
+            "avant": "papa",
+            "apres": "maman"
+          },
+          {
+            "id": "a4e39:texte",
+            "avant": "Allons, Messieurs, en garde",
+            "apres": "Allons, Messieurs-dames, en garde"
+          },
+          {
+            "id": "a4e45:texte",
+            "avant": "papa beau-père",
+            "apres": "maman belle-mère"
+          },
+          {
+            "id": "a4e50:texte",
+            "avant": "Papa",
+            "apres": "Maman"
+          },
+          {
+            "id": "a4e59:texte",
+            "avant": "mon père",
+            "apres": "ma mère"
+          },
+          {
+            "id": "pitch",
+            "avant": "il pousse",
+            "apres": "elle pousse"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r3",
+      "espece": "fille",
+      "famille": "enfant",
+      "traits": [
+        "gentil",
+        "courageux"
+      ],
+      "voix": "voix claire et décidée, qui parle vite",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a1:resume",
+            "avant": "sa fille",
+            "apres": "son fils"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "la marier",
+            "apres": "le marier"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "sa fille",
+            "apres": "son fils"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "elle en sait",
+            "apres": "il en sait"
+          },
+          {
+            "id": "a1e10:texte",
+            "avant": "Mam’selle",
+            "apres": "M’sieu"
+          },
+          {
+            "id": "a1e14:texte",
+            "avant": "Mam’selle",
+            "apres": "M’sieu"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "sa fille",
+            "apres": "son fils"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "Elle tient",
+            "apres": "Il tient"
+          },
+          {
+            "id": "a2e5:texte",
+            "avant": "de ma fille",
+            "apres": "de mon fils"
+          },
+          {
+            "id": "a2e15:texte",
+            "avant": "la fille",
+            "apres": "le fils"
+          },
+          {
+            "id": "a2e15:texte",
+            "avant": "promise et",
+            "apres": "promis et"
+          },
+          {
+            "id": "a2e34:texte",
+            "avant": "votre fille",
+            "apres": "votre fils"
+          },
+          {
+            "id": "a4:resume",
+            "avant": "sa fille",
+            "apres": "son fils"
+          },
+          {
+            "id": "a4e12:texte",
+            "avant": "votre fille",
+            "apres": "votre fils"
+          },
+          {
+            "id": "a4e16:texte",
+            "avant": "votre fille",
+            "apres": "votre fils"
+          },
+          {
+            "id": "a4e43:texte",
+            "avant": "ma fille",
+            "apres": "mon fils"
+          },
+          {
+            "id": "a4e61:texte",
+            "avant": "ma fille",
+            "apres": "mon fils"
+          },
+          {
+            "id": "pitch",
+            "avant": "sa fille",
+            "apres": "son fils"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r4",
+      "espece": "soldat",
+      "famille": "adulte",
+      "traits": [
+        "bavard",
+        "rusé",
+        "vantard"
+      ],
+      "voix": "voix de clairon, qui roule les « r » et détache chaque mot",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2:resume",
+            "avant": "son cousin",
+            "apres": "sa cousine"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "sergent,",
+            "apres": "sergente,"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "mon cousin, le sergent",
+            "apres": "ma cousine, la sergente"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "éloigné",
+            "apres": "éloignée"
+          },
+          {
+            "id": "a2e5:texte",
+            "avant": "deviné, sergent",
+            "apres": "deviné, sergente"
+          },
+          {
+            "id": "a2e13:texte",
+            "avant": "sergent",
+            "apres": "sergente"
+          },
+          {
+            "id": "a2e18:texte",
+            "avant": "éloigné",
+            "apres": "éloignée"
+          },
+          {
+            "id": "a2e19:texte",
+            "avant": "éloigné",
+            "apres": "éloignée"
+          },
+          {
+            "id": "a2e23:texte",
+            "avant": "idée, sergent",
+            "apres": "idée, sergente"
+          },
+          {
+            "id": "a2e25:texte",
+            "avant": "sergent…",
+            "apres": "sergente…"
+          },
+          {
+            "id": "a2e31:texte",
+            "avant": "sergent",
+            "apres": "sergente"
+          },
+          {
+            "id": "a2e38:texte",
+            "avant": "sergent",
+            "apres": "sergente"
+          },
+          {
+            "id": "a2e43:texte",
+            "avant": "Sergent",
+            "apres": "Sergente"
+          },
+          {
+            "id": "a3e5:texte",
+            "avant": "Sergent",
+            "apres": "Sergente"
+          },
+          {
+            "id": "a3e20:texte",
+            "avant": "sergent",
+            "apres": "sergente"
+          },
+          {
+            "id": "a3e47:texte",
+            "avant": "éloigné",
+            "apres": "éloignée"
+          },
+          {
+            "id": "a3e48:texte",
+            "avant": "farceur, vous, sergent",
+            "apres": "farceuse, vous, sergente"
+          },
+          {
+            "id": "a3e52:texte",
+            "avant": "Fâchez pas, sergent",
+            "apres": "Fâchez pas, sergente"
+          },
+          {
+            "id": "a3e54:texte",
+            "avant": "chose, sergent",
+            "apres": "chose, sergente"
+          },
+          {
+            "id": "a3e56:texte",
+            "avant": "présent, sergent",
+            "apres": "présent, sergente"
+          },
+          {
+            "id": "a4e3:texte",
+            "avant": "Oui, sergent",
+            "apres": "Oui, sergente"
+          },
+          {
+            "id": "a4e16:texte",
+            "avant": "devant le sergent",
+            "apres": "devant la sergente"
+          },
+          {
+            "id": "a4e18:texte",
+            "avant": "Le sergent",
+            "apres": "La sergente"
+          },
+          {
+            "id": "a4e21:texte",
+            "avant": "Mais, sergent",
+            "apres": "Mais, sergente"
+          },
+          {
+            "id": "a4e24:texte",
+            "avant": "cousin",
+            "apres": "cousine"
+          },
+          {
+            "id": "a4e72:texte",
+            "avant": "Sergent",
+            "apres": "Sergente"
+          },
+          {
+            "id": "pitch",
+            "avant": "le sergent",
+            "apres": "la sergente"
+          },
+          {
+            "id": "a3e54:texte",
+            "avant": "je-ne-suis-pas-éloigné-de-le-croire",
+            "apres": "je-ne-suis-pas-éloignée-de-le-croire"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 18,
+    "ageAuditoire": 5,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La place publique",
+      "description": "La table fait la place publique. Posez un carton debout au bout gauche : c’est la maison de {{r3}}. Au bout droit, un coussin debout : c’est derrière lui qu’on se cache. Couchez deux cuillères en bois tout au bord droit de la table : ce sont le mousquet, puis les sabres.",
+      "accessoires": [
+        "deux cuillères en bois (le mousquet, puis les sabres)"
+      ],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Il m’avait promis",
+      "resume": "{{r1}} ne comprend plus {{r2}}, qui lui avait promis sa fille. {{r3}} l’avertit : son père veut la marier à Cadet, plus riche. {{r2}} renvoie {{r3}} à son ouvrage.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Une place publique."
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e3",
+          "type": "didascalie",
+          "texte": "{{r1}} arrive lentement, la tête basse, et s’arrête au milieu de la table."
+        },
+        {
+          "id": "a1e4",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Bonjour, les enfants !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e5",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Qu’a donc le père {{r2}} ? Je lui ai demandé sa fille {{r3}} en mariage ; il m’avait promis, et v’là que depuis quéques jours il me conte de gandoises que je n’y comprends goutte…",
+          "ton": "en soupirant"
+        },
+        {
+          "id": "a1e6",
+          "type": "didascalie",
+          "texte": "{{r1}} secoue la tête de droite à gauche, sans rien y comprendre."
+        },
+        {
+          "id": "a1e7",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Il dit qu’il a toujours eu envie d’un gendre qu’aye été sordat… Est-ce ma faute à moi, si j’ai pas été milllitaire ?",
+          "ton": "en se fâchant"
+        },
+        {
+          "id": "a1e8",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Mais v’là {{r3}}… elle en sait p’t-être pus long que moi là-dessus."
+        },
+        {
+          "id": "a1e9",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e10",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Bonjour, Mam’selle {{r3}}.",
+          "ton": "en saluant bien bas"
+        },
+        {
+          "id": "a1e11",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Oh ! Monsieur {{r1}}, bonjour ; mais allez-vous-en, je vous prie… Mon père m’a défendu de vous parler ; il ne veut plus de notre mariage.",
+          "ton": "tout bas, en regardant vers la maison"
+        },
+        {
+          "id": "a1e12",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Mais qu’est-ce qui lui a donc pris à votre père ?"
+        },
+        {
+          "id": "a1e13",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Je crois que je connais ses projets. Il veut me marier à Cadet, qui vient d’hériter de douze cents francs."
+        },
+        {
+          "id": "a1e14",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Mais enfin il m’a promis à moi… et voyez-vous, Mam’selle {{r3}}, je tiens à sa promesse."
+        },
+        {
+          "id": "a1e15",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Moi aussi, Monsieur {{r1}}."
+        },
+        {
+          "id": "a1e16",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Il m’a promis ; il m’a tapé dans la main… c’est sacré, ça."
+        },
+        {
+          "id": "a1e17",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Mais méfiez-vous, il arrange quéque manigance."
+        },
+        {
+          "id": "a1e18",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Soyez tranquille, {{r3}} ; je vais le soigner… J’ai comme ça l’air un petit peu bête ; mais c’est d’enfance, voyez-vous… j’ai oublié de l’être tout à fait.",
+          "ton": "d’un air malin"
+        },
+        {
+          "id": "a1e19",
+          "type": "didascalie",
+          "texte": "{{r3}} regarde vers la maison et sursaute."
+        },
+        {
+          "id": "a1e20",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Sauvez-vous, v’là mon père…"
+        },
+        {
+          "id": "a1e21",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je m’ensauve, {{r3}} ; mais vous faites pas de mauvais sang… je serai votre mari…"
+        },
+        {
+          "id": "a1e22",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e23",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Pauvre {{r1}} ! comme il est plus gentil que ce Cadet !… Je l’haïs, ce Cadet, je l’haïs.",
+          "ton": "en soupirant"
+        },
+        {
+          "id": "a1e24",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e25",
+          "type": "didascalie",
+          "texte": "{{r2}} arrive à grands pas, en se dandinant."
+        },
+        {
+          "id": "a1e26",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Qué que tu fais là ? Je suis sûr que tu attends {{r1}}… Si je te rattrape à lui parler…",
+          "ton": "en grondant"
+        },
+        {
+          "id": "a1e27",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Mais papa, qué qu’il vous a donc fait, {{r1}} ?"
+        },
+        {
+          "id": "a1e28",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "J’ai réfléchi… j’en veux pas, mille bombes ! de ton {{r1}}… Un homme qui n’a pas servi, qui n’a jamais porté le mousquet !"
+        },
+        {
+          "id": "a1e29",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Enfin, vous lui avez promis, à {{r1}}… Vous avez donc point de parole ?"
+        },
+        {
+          "id": "a1e30",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "C’est bon, c’est bon !… Je lui ai promis, s’il me convenait… Mais il ne me convient pas. Par conséquence, file d’ici ; va à ton ouvrage…",
+          "ton": "en grondant"
+        },
+        {
+          "id": "a1e31",
+          "type": "didascalie",
+          "texte": "{{r3}} s’enfuit vers la maison."
+        },
+        {
+          "id": "a1e32",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Le piège",
+      "resume": "{{r2}} demande à son cousin {{r4}}, sergent, de faire engager {{r1}} pour l’envoyer au loin. Caché derrière le coussin, {{r1}} entend {{r2}} promettre sa fille « s’il se fait soldat ».",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Elle tient à son {{r1}}… Mais il n’a rien… J’attends ici mon cousin, le sergent {{r4}}…",
+          "ton": "en ricanant"
+        },
+        {
+          "id": "a2e2",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e3",
+          "type": "didascalie",
+          "texte": "{{r4}} arrive au pas, raide comme un piquet, et s’arrête net devant {{r2}}."
+        },
+        {
+          "id": "a2e4",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Je vous trouve au rendez-vous, papa {{r2}}… Je ne suis pas éloigné de croire que vous avez à me parler de quelque chose."
+        },
+        {
+          "id": "a2e5",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Vous avez deviné, sergent. Y a deux rivaux qui se disputent la main de ma fille : Cadet et {{r1}}. Je l’accorde à Cadet… Mais j’avais quasiment promis à {{r1}}, et je voudrais m’en débarrasser…"
+        },
+        {
+          "id": "a2e6",
+          "type": "didascalie",
+          "texte": "{{r2}} se penche vers l’oreille de {{r4}}."
+        },
+        {
+          "id": "a2e7",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Pourriez-vous pas lui insinuer qu’il faut qu’il s’engage ?… Une fois engagé, vous le faites partir, et {{r3}} épouse Cadet.",
+          "ton": "tout bas"
+        },
+        {
+          "id": "a2e8",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Papa {{r2}}, vous êtes subtil… Je parlerai à ce jeune serin."
+        },
+        {
+          "id": "a2e9",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Tenez, voilà justement {{r1}} qui vient de ce côté…"
+        },
+        {
+          "id": "a2e10",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e11",
+          "type": "didascalie",
+          "texte": "{{r4}} se tourne vers le côté d’où arrive {{r1}}."
+        },
+        {
+          "id": "a2e12",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e13",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "C’est donc vous qu’êtes là, sergent {{r4}} ?",
+          "ton": "d’un air triste"
+        },
+        {
+          "id": "a2e14",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Hé oui, corbleu !… Mais qu’as-tu donc, {{r1}} ?"
+        },
+        {
+          "id": "a2e15",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je devais me marier à {{r3}}, la fille du père {{r2}}… Il me l’avait promise et v’là qu’à présent il se dédit… Mais quoi qu’il a donc, quoi qu’il a donc contre moi ?"
+        },
+        {
+          "id": "a2e16",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "{{r1}}, tu m’intéresses… Le père {{r2}} a servi."
+        },
+        {
+          "id": "a2e17",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Dans quel régiment ? Dans les pompiers ?"
+        },
+        {
+          "id": "a2e18",
+          "type": "adresse_public",
+          "marionnetteId": "r4",
+          "texte": "Dites-le avec moi : je ne suis pas éloigné de le croire !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e19",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Je ne suis pas éloigné de le croire. Dans tous les cas, vois-tu, il ne veut pas d’un clampin dans sa famille… Si tu tiens à être son gendre, fais-toi soldat."
+        },
+        {
+          "id": "a2e20",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Mais qui me dit que c’est pas une frime du père {{r2}} ?"
+        },
+        {
+          "id": "a2e21",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Corbleu ! Je vais appeler le père {{r2}}… Tu te cacheras là. Tu entendras tout ce qu’il dira, et tu sauras ensuite ce qu’il te reste à faire."
+        },
+        {
+          "id": "a2e22",
+          "type": "didascalie",
+          "texte": "{{r4}} montre le coussin d’un mouvement de tête."
+        },
+        {
+          "id": "a2e23",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "C’est une bonne idée, sergent ; ça fait que vous me servirez de témoin, si y se dédit encore."
+        },
+        {
+          "id": "a2e24",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Certainement."
+        },
+        {
+          "id": "a2e25",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Faites-le parler, sergent… Je me cache."
+        },
+        {
+          "id": "a2e26",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Chut ! Je me cache derrière le coussin. Ne dites rien au père {{r2}} !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e27",
+          "type": "didascalie",
+          "texte": "{{r1}} se glisse derrière le coussin et disparaît."
+        },
+        {
+          "id": "a2e28",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e29",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Holà ! papa {{r2}}, venez par ici.",
+          "ton": "très fort"
+        },
+        {
+          "id": "a2e30",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e31",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Qué qu’y a, sergent {{r4}} ?"
+        },
+        {
+          "id": "a2e32",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Il est là ; il nous écoute… Répondez en conséquence à mes questions.",
+          "ton": "tout bas, à l’oreille de {{r2}}"
+        },
+        {
+          "id": "a2e33",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Allez tout de go.",
+          "ton": "tout bas"
+        },
+        {
+          "id": "a2e34",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Ne m’avez-vous pas dit que le seul obstacle au mariage de {{r1}}, c’est qu’il n’avait pas été soldat ? que s’il s’engageait, vous lui donneriez votre fille sans autres conditions ?",
+          "ton": "très fort, pour que tout le monde entende"
+        },
+        {
+          "id": "a2e35",
+          "type": "didascalie",
+          "texte": "{{r2}} montre la maison de {{r3}} d’un mouvement de tête."
+        },
+        {
+          "id": "a2e36",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Certainement, je l’ai dit et je m’en dédis pas… Si {{r1}} était soldat, mille tonnerres ! il aurait la colombe.",
+          "ton": "très fort"
+        },
+        {
+          "id": "a2e37",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "C’est bien, père {{r2}} ; vous êtes un vieux brave… Au revoir !"
+        },
+        {
+          "id": "a2e38",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Au revoir, sergent !"
+        },
+        {
+          "id": "a2e39",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e40",
+          "type": "didascalie",
+          "texte": "{{r4}} se tourne vers le coussin."
+        },
+        {
+          "id": "a2e41",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e42",
+          "type": "didascalie",
+          "texte": "{{r1}} bondit de derrière le coussin et accourt."
+        },
+        {
+          "id": "a2e43",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Sergent, je veux être sordat… tout de suite, tout de suite."
+        },
+        {
+          "id": "a2e44",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Allons, jeune tourlourou, suis-moi ; je vais te faire ton engagement et tu prendras ta première leçon d’exercice."
+        },
+        {
+          "id": "a2e45",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e46",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "La leçon d’exercice",
+      "resume": "{{r4}} donne à {{r1}} sa première leçon d’exercice : {{r1}} ne sait pas où est sa gauche, se sauve à « garde à vos ! » et cogne {{r4}}. Puis il révèle qu’il a tout compris, et qu’il n’a rien signé.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e3",
+          "type": "conteur",
+          "texte": "{{r1}} est vêtu d’un uniforme ridicule : il a un bonnet de police, dont le gland lui tombe sur les yeux."
+        },
+        {
+          "id": "a3e4",
+          "type": "didascalie",
+          "texte": "{{r1}} secoue la tête sans arrêt, comme pour chasser quelque chose qui lui danse devant l’œil."
+        },
+        {
+          "id": "a3e5",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Sergent, vous m’avez joliment ficelé tout de même… N’y a que ce machin d’en haut que me danse là devant le z’œil…"
+        },
+        {
+          "id": "a3e6",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Tu t’y feras… Allons, conscrit, à l’exercice ! Le haut du corps en avant…"
+        },
+        {
+          "id": "a3e7",
+          "type": "didascalie",
+          "texte": "{{r1}} se penche en avant, beaucoup trop."
+        },
+        {
+          "id": "a3e8",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "La tête droite…"
+        },
+        {
+          "id": "a3e9",
+          "type": "didascalie",
+          "texte": "{{r1}} se renverse tout en arrière."
+        },
+        {
+          "id": "a3e10",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Attention donc, morbleu !"
+        },
+        {
+          "id": "a3e11",
+          "type": "didascalie",
+          "texte": "{{r4}} redresse {{r1}} d’un coup d’épaule."
+        },
+        {
+          "id": "a3e12",
+          "type": "adresse_public",
+          "marionnetteId": "r4",
+          "texte": "Et vous aussi, les enfants : le haut du corps en avant… la tête droite !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e13",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Nom d’un rat ! c’est pas facile."
+        },
+        {
+          "id": "a3e14",
+          "type": "adresse_public",
+          "marionnetteId": "r4",
+          "texte": "Criez avec moi, très fort : garde à vos !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e15",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Garde à vos !",
+          "ton": "d’une voix de tonnerre"
+        },
+        {
+          "id": "a3e16",
+          "type": "didascalie",
+          "texte": "{{r1}} s’enfuit à toute vitesse jusqu’au bout de la table."
+        },
+        {
+          "id": "a3e17",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Hé bien, où vas-tu donc ?"
+        },
+        {
+          "id": "a3e18",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Pardi, vous me dites de prendre garde à moi ; je m’en sauve."
+        },
+        {
+          "id": "a3e19",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Mais, imbécile, garde à vos ! c’est un terme d’avertissement. Je t’avertis."
+        },
+        {
+          "id": "a3e20",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Avertissez-moi, sergent… vous avez raison."
+        },
+        {
+          "id": "a3e21",
+          "type": "didascalie",
+          "texte": "{{r1}} revient tout doucement près de {{r4}}."
+        },
+        {
+          "id": "a3e22",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Il faut maintenant apprendre à marcher. Nous allons partir du pied gauche… Pied gauche, en avant ! marche !"
+        },
+        {
+          "id": "a3e23",
+          "type": "didascalie",
+          "texte": "{{r1}} se penche tout en bas et regarde sous la table."
+        },
+        {
+          "id": "a3e24",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Qu’est-ce que tu regardes ?"
+        },
+        {
+          "id": "a3e25",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Vous dites de partir du pied gauche… Je regarde où il est, le gauche."
+        },
+        {
+          "id": "a3e26",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Hé bien ! c’est celui-ci… Ah ça, tu ne connais donc pas ta main droite d’avec ta gauche ?"
+        },
+        {
+          "id": "a3e27",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Comment voulez-vous qu’on les connaisse ? Elles sont ben faites l’une comme l’autre."
+        },
+        {
+          "id": "a3e28",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Quelle faible intelligence ! Pas accéléré ; en avant, marche ! gauche ! droite ! gauche ! droite ! halte !"
+        },
+        {
+          "id": "a3e29",
+          "type": "didascalie",
+          "texte": "{{r4}} pousse {{r1}} d’un bout à l’autre de la table, au pas."
+        },
+        {
+          "id": "a3e30",
+          "type": "adresse_public",
+          "marionnetteId": "r4",
+          "texte": "Tapez des pieds avec nous, les enfants : gauche ! droite ! gauche ! droite !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e31",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Maintenant, tu vas faire par le flanc droite et par le flanc gauche. Attends, je vais te chercher ton arme."
+        },
+        {
+          "id": "a3e32",
+          "type": "didascalie",
+          "texte": "{{r4}} va au bout de la table et revient en poussant une cuillère jusqu’à {{r1}}, d’un coup de tête."
+        },
+        {
+          "id": "a3e33",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Voilà ton arme."
+        },
+        {
+          "id": "a3e34",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Vous appelez ça une arme…"
+        },
+        {
+          "id": "a3e35",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Silence ! Par le flanc droite, droite !"
+        },
+        {
+          "id": "a3e36",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "V’là."
+        },
+        {
+          "id": "a3e37",
+          "type": "didascalie",
+          "texte": "{{r1}} tourne tout, tout doucement."
+        },
+        {
+          "id": "a3e38",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Allons, plus vivement ! Par le flanc gauche, gauche !"
+        },
+        {
+          "id": "a3e39",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Vivement !"
+        },
+        {
+          "id": "a3e40",
+          "type": "didascalie",
+          "texte": "{{r1}} tourne d’un coup, très vite, et cogne {{r4}} en pleine tête."
+        },
+        {
+          "id": "a3e41",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Aïe ! prends donc garde, imbécile !"
+        },
+        {
+          "id": "a3e42",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Gauche ! droite ! gauche ! droite !"
+        },
+        {
+          "id": "a3e43",
+          "type": "didascalie",
+          "texte": "{{r1}} tourne à droite, à gauche, et cogne {{r4}} à chaque fois."
+        },
+        {
+          "id": "a3e44",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Tu me frappes encore, conscrit !"
+        },
+        {
+          "id": "a3e45",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "C’est que c’est pas facile à tenir ce mousquet."
+        },
+        {
+          "id": "a3e46",
+          "type": "didascalie",
+          "texte": "{{r1}} plonge vers la cuillère et, en se relevant, cogne le nez de {{r4}}."
+        },
+        {
+          "id": "a3e47",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Ah ça, dis donc, {{r1}} ; tu me fais l’effet d’un farceur, je ne suis pas éloigné de le croire."
+        },
+        {
+          "id": "a3e48",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Vous l’êtes pas farceur, vous, sergent… Je connais p’t-être pas votre manigance avec le père {{r2}}."
+        },
+        {
+          "id": "a3e49",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Que veux-tu dire ?"
+        },
+        {
+          "id": "a3e50",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Vous m’avez pris pour un jeune serin… Mais deux vieux merles comme vous m’attraperont pas."
+        },
+        {
+          "id": "a3e51",
+          "type": "didascalie",
+          "texte": "{{r4}} recule d’un pas."
+        },
+        {
+          "id": "a3e52",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Fâchez pas, sergent… vous croyez ben m’avoir engagé… Hé ben, j’ai pas signé de mon nom, et c’est un papier que te peux mettre aux équevilles…"
+        },
+        {
+          "id": "a3e53",
+          "type": "didascalie",
+          "texte": "{{r1}} fait mine de jeter quelque chose par-dessus la table."
+        },
+        {
+          "id": "a3e54",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "À présent, si vous dites quéque chose, sergent, je vas tout raconter à votre capitaine… et ce qui s’ensuit, je-ne-suis-pas-éloigné-de-le-croire.",
+          "ton": "en imitant la voix de {{r4}}"
+        },
+        {
+          "id": "a3e55",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Ah ! {{r1}}, pas de bêtises ! sois bon enfant.",
+          "ton": "tout doux, tout à coup"
+        },
+        {
+          "id": "a3e56",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je suis bon enfant… mais à présent, sergent, y faut passer de mon côté, et me donner un coup de main contre le père {{r2}} pour mon mariage."
+        },
+        {
+          "id": "a3e57",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Allons, allons, tu m’intéresses beaucoup. Tope là ; je suis avec toi… que faut-il faire ?"
+        },
+        {
+          "id": "a3e58",
+          "type": "didascalie",
+          "texte": "{{r4}} et {{r1}} se cognent le bras : tope là !"
+        },
+        {
+          "id": "a3e59",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Vous allez voir… Justement, v’là {{r2}}… Peloton, alignement, pas accéléré, halte !"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "numero": 4,
+      "titre": "Le duel et la noce",
+      "resume": "Devant {{r4}}, {{r1}} réclame à {{r2}} sa promesse et lui tend un sabre ; {{r2}} cède et lui donne la main de sa fille. Tout le monde part à la noce.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a4e1",
+          "type": "note_marionnettiste",
+          "texte": "Dans cet acte, trois marionnettes se relaient sur deux mains : gardez {{r4}}, {{r3}} et {{r2}} à portée, juste derrière la table. Chaque échange se joue à deux."
+        },
+        {
+          "id": "a4e2",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Chut ! Ne dites rien au père {{r2}} : c’est pour rire !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a4e3",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oui, sergent, mille bombes ! mille tonnerres ! que c’est cannant d’être milllitaire, corbleu ! saperjeu !",
+          "ton": "très fort, pour que {{r2}} l’entende"
+        },
+        {
+          "id": "a4e4",
+          "type": "didascalie",
+          "texte": "{{r4}} s’écarte vers la coulisse, pour regarder de loin."
+        },
+        {
+          "id": "a4e5",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e6",
+          "type": "didascalie",
+          "texte": "{{r1}} marche de travers en se balançant, pour faire semblant d’avoir un peu trop bu."
+        },
+        {
+          "id": "a4e7",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e8",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Comment, {{r1}}, c’est toi qui fais tout ce tapage !"
+        },
+        {
+          "id": "a4e9",
+          "type": "didascalie",
+          "texte": "{{r1}} cogne son bras contre celui de {{r2}} et le secoue."
+        },
+        {
+          "id": "a4e10",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ah ! père {{r2}}, c’est vous ; topez là ! Ça m’enflamme de voir un vieux brave comme vous."
+        },
+        {
+          "id": "a4e11",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Comme te v’là dégourdi !"
+        },
+        {
+          "id": "a4e12",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oh ! n’y a rien qui décatole un jeune homme comme l’uniforme… Hé bien ! voyons, vétéran ; à quand mon mariage avec votre fille ? Demain ? aujourd’hui ? Me v’là sordat."
+        },
+        {
+          "id": "a4e13",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "N’y a rien qui presse… Il faut que tu fasses ton service… nous verrons après."
+        },
+        {
+          "id": "a4e14",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Comment, père {{r2}}, vous barguignez encore !… Je n’entends pas la plaisanterie, mille-z-yeux !",
+          "ton": "en se fâchant"
+        },
+        {
+          "id": "a4e15",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Que veux-tu dire ?"
+        },
+        {
+          "id": "a4e16",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je veux dire que vous avez promis, et encore devant le sergent, que si je me faisais sordat, vous me donneriez votre fille, sans autres conditions… Me v’là sordat ; il me faut {{r3}}… ou bien, vous savez, entre milllitaires, comment se traitent les affaires."
+        },
+        {
+          "id": "a4e17",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Peste ! l’uniforme l’a trop dégourdi.",
+          "ton": "à part, vers les enfants"
+        },
+        {
+          "id": "a4e18",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Allons, faut s’aligner. Le sergent nous servira de témoin."
+        },
+        {
+          "id": "a4e19",
+          "type": "didascalie",
+          "texte": "{{r1}} file vers le bout de la table, où sont les cuillères."
+        },
+        {
+          "id": "a4e20",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e21",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Mais, sergent, que dit-il donc là ?",
+          "ton": "en appelant vers la coulisse"
+        },
+        {
+          "id": "a4e22",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e23",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Ce jeune homme a raison ; c’est une affaire d’honneur."
+        },
+        {
+          "id": "a4e24",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Vous ne le faites donc pas partir, cousin ?",
+          "ton": "tout bas"
+        },
+        {
+          "id": "a4e25",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Que voulez-vous, il a obtenu un congé… par des protections.",
+          "ton": "tout bas"
+        },
+        {
+          "id": "a4e26",
+          "type": "didascalie",
+          "texte": "{{r4}} recule vers la coulisse, pour laisser la place."
+        },
+        {
+          "id": "a4e27",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e28",
+          "type": "didascalie",
+          "texte": "{{r2}} se gratte la tête contre le carton."
+        },
+        {
+          "id": "a4e29",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e30",
+          "type": "didascalie",
+          "texte": "{{r1}} revient en poussant les deux cuillères jusqu’à {{r2}}, d’un coup de tête."
+        },
+        {
+          "id": "a4e31",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Père {{r2}}, v’là des lardoires ; faut s’embrocher."
+        },
+        {
+          "id": "a4e32",
+          "type": "didascalie",
+          "texte": "{{r2}} recule d’un bond et tremble de tout son corps."
+        },
+        {
+          "id": "a4e33",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Farceur, tu… tu… veux rire."
+        },
+        {
+          "id": "a4e34",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Pas du tout… Faites voir votre talent au sabre, papa. Moi, j’ai pris une première leçon tout à l’heure ; c’est une bonne occasion pour répéter."
+        },
+        {
+          "id": "a4e35",
+          "type": "didascalie",
+          "texte": "{{r1}} recule jusqu’au bout de la table, pour prendre son élan."
+        },
+        {
+          "id": "a4e36",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e37",
+          "type": "didascalie",
+          "texte": "{{r2}} tremble de plus en plus fort."
+        },
+        {
+          "id": "a4e38",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e39",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Allons, Messieurs, en garde ! saluez-vous.",
+          "ton": "d’une voix de tonnerre"
+        },
+        {
+          "id": "a4e40",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Un m’ment, un m’ment ! Peste !… Qu’est-ce que je voulais, moi ? Savoir si {{r1}} était un brave… Hé bien ! je le sais à présent…"
+        },
+        {
+          "id": "a4e41",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Voilà qui est bien parler."
+        },
+        {
+          "id": "a4e42",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e43",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "{{r1}}, la main de ma fille est à toi.",
+          "ton": "en appelant vers le bout de la table"
+        },
+        {
+          "id": "a4e44",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e45",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "À la bonne heure ! Entre vieux de la vieille, on parvient toujours à s’entendre… Votre main, papa beau-père !"
+        },
+        {
+          "id": "a4e46",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r2}} se cognent le bras : tope là ! Puis {{r1}} saute de joie jusqu’à la coulisse."
+        },
+        {
+          "id": "a4e47",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e48",
+          "type": "didascalie",
+          "texte": "{{r2}} soupire un grand coup."
+        },
+        {
+          "id": "a4e49",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e50",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Papa, v’là Cadet qui vous demande… Il dit qu’il vient chercher votre réponse."
+        },
+        {
+          "id": "a4e51",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Hé bien ! dis-lui de repasser demain… un peu tard."
+        },
+        {
+          "id": "a4e52",
+          "type": "didascalie",
+          "texte": "{{r2}} s’écarte."
+        },
+        {
+          "id": "a4e53",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e54",
+          "type": "didascalie",
+          "texte": "{{r3}} se tourne vers la coulisse."
+        },
+        {
+          "id": "a4e55",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e56",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Non, {{r3}}, invite-le à notre noce."
+        },
+        {
+          "id": "a4e57",
+          "type": "didascalie",
+          "texte": "{{r1}} s’écarte."
+        },
+        {
+          "id": "a4e58",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e59",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Est-ce que c’est vrai, mon père, ce que dit {{r1}} ?",
+          "ton": "en appelant vers la coulisse"
+        },
+        {
+          "id": "a4e60",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e61",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Oui, oui, ma fille ; {{r1}} est un brave, je te le donne pour mari."
+        },
+        {
+          "id": "a4e62",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Oh ! quel bonheur ! quel bonheur !"
+        },
+        {
+          "id": "a4e63",
+          "type": "didascalie",
+          "texte": "{{r3}} saute de joie et file vers la maison."
+        },
+        {
+          "id": "a4e64",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e65",
+          "type": "didascalie",
+          "texte": "{{r2}} penche la tête d’un côté, puis de l’autre."
+        },
+        {
+          "id": "a4e66",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e67",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Mais, enfin, dans quel régiment t’es-tu donc engagé ?",
+          "ton": "tout bas"
+        },
+        {
+          "id": "a4e68",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Dans le régiment où vous avez gagné vos galons.",
+          "ton": "tout bas, l’air de rien"
+        },
+        {
+          "id": "a4e69",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Il m’a fait aller… mais c’est égal, c’est le gendre qu’il me fallait… Cadet n’avait pour lui que son commerce.",
+          "ton": "à part, vers les enfants, avec un soupir"
+        },
+        {
+          "id": "a4e70",
+          "type": "didascalie",
+          "texte": "{{r2}} rentre à la maison."
+        },
+        {
+          "id": "a4e71",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e72",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Commençons la noce tout de suite… Sergent, vous en êtes… c’est à vous de commander la manœuvre.",
+          "ton": "en appelant vers la coulisse"
+        },
+        {
+          "id": "a4e73",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e74",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Volontiers… Peloton, alignement, par file à gauche, en avant, marche !",
+          "ton": "d’une voix de tonnerre"
+        },
+        {
+          "id": "a4e75",
+          "type": "adresse_public",
+          "marionnetteId": "r4",
+          "texte": "Marchez avec nous, les enfants : gauche ! droite ! gauche ! droite !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e76",
+          "type": "conteur",
+          "texte": "Ils s’en vont tous en chantant."
+        },
+        {
+          "id": "a4e77",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r4}} partent au pas, en tête."
+        },
+        {
+          "id": "a4e78",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e79",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e80",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e81",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e82",
+          "type": "didascalie",
+          "texte": "{{r3}} et {{r2}} les suivent, au pas, d’un bout à l’autre de la table."
+        },
+        {
+          "id": "a4e83",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e84",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e85",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e86",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Au revoir, les enfants !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e87",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "guignol-l-enrolement",
+    "synopsis": {
+      "accroche": "{{r2}} a promis sa fille {{r3}} à {{r1}}, puis s’en dédit ; avec son cousin, le sergent {{r4}}, il veut faire de {{r1}} un soldat pour l’envoyer au loin. {{r1}} fait semblant de tomber dans le piège, rate toute la leçon d’exercice, puis prend {{r2}} au mot devant témoin.",
+      "resume": [
+        "{{r1}} ne comprend plus le père {{r2}}, qui lui avait promis sa fille {{r3}} : il ne veut plus pour gendre qu’un ancien soldat.",
+        "{{r2}} demande à son cousin, le sergent {{r4}}, de pousser {{r1}} à s’engager pour l’envoyer à l’armée ; {{r3}} épousera Cadet, plus riche.",
+        "Caché derrière le coussin, {{r1}} entend {{r2}} promettre : « Si {{r1}} était soldat, il aurait la colombe. »",
+        "À la leçon d’exercice, {{r1}} ne sait pas où est sa gauche, se sauve à « garde à vos ! » et cogne le sergent ; puis il lui dit qu’il n’a rien signé, et le sergent passe de son côté.",
+        "Devant le sergent, {{r1}} réclame {{r3}} à {{r2}} et lui tend un sabre ; {{r2}} cède, et tout le monde part à la noce."
+      ]
+    },
+    "transposition": {
+      "texte": "L’ENROLEMENT\n\nPIÈCE EN UN ACTE\n\nPERSONNAGES\n\n{{R1}}, jeune savetier,\n\n{{R2}}, savetier\n\n{{R3}}, sa fille,\n\n{{R4}}, sergent recruteur.\n\nUne place publique.\n\nScène I\n\n{{r1}}, seul\n\nQu’a donc le père {{r2}} ? Je lui ai demandé sa fille {{r3}} en mariage ; il m’avait promis, et v’là que depuis quéques jours il me conte de gandoises que je n’y comprends goutte… Il dit qu’il a toujours eu envie d’un gendre qu’aye été sordat… qu’un homme que n’a pas servi n’a pas rempli son devoir envers son pays… qu’un ancien milllitaire comme lui peut donner sa fille qu’à un vrai troupier… Est-ce ma faute à moi, si j’ai pas été milllitaire ?… J’ai été esempté, parce que j’avais pas la taille… Je sis petit, c’est vrai, mais je sis rageur, et je saurai ben comme un autre faire porter respect à ma femme… Et puis, lui, il dit qu’il a été militaire… Je sais pas dans quel régiment il a servi… En tout cas c’est pas dans la marine, il craint trop l’eau. Enfin, il me mitonne quéque chose de pas drôle, et il faut que je soye sur l’œil… Mais v’là {{r3}}… elle en sait p’t-être pus long que moi là-dessus.\n\nScène II.\n\n{{R1}}, {{R3}}.\n\n{{R1}}.\n\nBonjour, Mam’selle {{r3}}.\n\n{{R3}}.\n\nOh ! M. {{r1}}, bonjour ; mais allez-vous-en, je vous prie… Mon père m’a défendu de vous parler ; il ne veut plus de notre mariage.\n\n{{R1}}.\n\nMais qu’est-ce qui lui a donc pris à votre père ? Il était ben consentant y a quinze jours ; à présent c’est pus ça. Il vire donc comme un toton.\n\n{{R3}}.\n\nJ’y comprends rien ; il dit qu’il veut pas d’un gendre qui a pas servi.\n\n{{R1}}.\n\nOui ; il m’a déjà chanté cette romance… Tout ça me chagrine, voyez-vous, je deviens maigre comme un picarlat.\n\n{{R3}}.\n\nJe crois que je connais ses projets. Il veut me marier à Cadet, qui vient d’hériter de douze cents francs de sa tante Grisolet, qui est premier garçon au cabaret de Chibroc, et qui doit acheter le fonds.\n\n{{R1}}.\n\nAh ! c’est ça ; il irait souvent aider à son gendre à tirer le vin… Mais enfin il m’a promis à moi… et voyez-vous, Mam’selle {{r3}}, je tiens à sa promesse.\n\n{{R3}}.\n\nMoi aussi, M. {{r1}}.\n\n{{R1}}.\n\nHé ben ! c’est bon ; je le ferai appeler devant le bailli ; je lui demanderai des dommages-intérêts… Je connais un avocat qui le fera marcher.\n\n{{R3}}.\n\nGardez-vous-en bien ! Y vaut mieux le prendre par la douceur.\n\n{{R1}}.\n\nJ’ai ben employé la douceur… je lui ai assez payé des chopines… Aussi, il peut pas se dégager d’avec moi… Il m’a promis ; il m’a tapé dans la main… c’est sacré, ça.\n\n{{R3}}.\n\nJe crois ben qu’il est un peu embarrassé de la promesse… Mais méfiez-vous, il arrange quéque manigance.\n\n{{R1}}.\n\nSoyez tranquille, {{r3}} ; je vais le soigner… J’ai comme ça l’air un petit peu bête ; mais c’est d’enfance, voyez-vous… j’ai oublié de l’être tout à fait.\n\n{{R3}}.\n\nSauvez-vous, v’là mon père… S’il me voit avec vous, il me tapera.\n\n{{R1}}.\n\nJe m’ensauve, {{r3}} ; mais vous faites pas de mauvais sang… je serai votre mari… Père {{r2}}, je vous perds pas de vue.\n\n{{R3}}, seule.\n\nPauvre garçon ! comme il est plus gentil que ce Cadet qu’est toujours pochard, brutal et grossier comme pain d’orge !… Je l’haïs, ce Cadet, je l’haïs.\n\nScène III.\n\n{{R3}}, {{R2}}.\n\n{{R2}}.\n\nQué que tu fait là ? Je suis sûr que tu attends {{r1}}… Si je te rattrape à lui parler…\n\n{{R3}}.\n\nMais papa, qué qu’il vous a donc fait, {{r1}} ? Y a quinze jours, vous me défendiez pas de lui parler.\n\n{{R2}}.\n\nY passe de l’eau sous le pont en quinze jours… J’ai réfléchi… j’en veux pas, mille bombes ! de ton {{r1}}… Un homme qui n’a pas servi, qui n’a jamais porté le mousquet !\n\n{{R3}}.\n\nMais p’pa, vous m’aviez jamais dit que vous aviez été militaire ; c’est donc vrai ?…\n\n{{R2}}.\n\nSi j’ai été milllitaire !… malheureuse, tu en doutes !… Je ne l’ai pas été autant que je l’aurais voulu… Mais un canon ne m’a jamais fait peur.\n\n{{R3}}, à part.\n\nOui, chez le marchand de vin.\n\n{{R2}}.\n\nEt d’ailleurs, j’ai manqué d’être sergent dans la garde nationale.\n\n{{R3}}.\n\nEnfin, vous lui avez promis, à {{r1}}… Vous avez donc point de parole ?… Comment que vous ferez pour vous dégager ?\n\n{{R2}}.\n\nC’est bon, c’est bon !… ça ne te regarde pas… Je lui ai promis, s’il me convenait… Mais il ne me convient pas. Par conséquence, file d’ici ; va à ton ouvrage… et que je te voie plus avec {{r1}}… Sinon… je ne te dis que ça… gare les giroflées à cinq feuilles.\n\n{{R3}}.\n\nAllons donc, p’pa… un vieux milllitaire comme vous voudrait pas battre sa fille… un soldat frrrançais ! (Elle s’enfuit.)\n\n{{R2}}, la menaçant.\n\nAtatends, atatends !\n\nScène IV.\n\n{{R2}}, seul.\n\nElle tient à son {{r1}}… qu’est ben un bon garçon, c’est vrai… mais trop gnioche, trop catole ; ça ne sait pas se retourner… Et il n’a rien… Au lieur que Cadet a douze cents francs… et il est dans le commerce… le premier de tous les commerces, le commerce des vins… Enfin, il me va… J’ai fait la bêtise de promettre à {{r1}}… Mais j’ai tiré un plan qui est un peu finard… J’attends ici mon cousin, le sergent {{r4}}… un fameux lapin… S’il veut me prêter la main, avant huit jours je suis débarrassé de {{r1}}, et Cadet est mon gendre.\n\nScène V.\n\n{{R2}}, LE SERGENT.\n\nLE SERGENT.\n\nJe vous trouve au rendez-vous, papa {{r2}}… Vous m’avez fait appeler. Je ne suis pas éloigné de croire que vous avez à me parler de quelque chose.\n\n{{R2}}.\n\nVous avez deviné, sergent. V’là ce que c’est… Y a deux rivaux qui se disputent la main de ma fille : Cadet et {{r1}}. Je l’accorde à Cadet, parce qu’il a servi et qu’il a douze cents francs… Mais j’avais quasiment promis à {{r1}}, et je voudrais m’en débarrasser… Vous qu’êtes sergent raccoleur, pourriez-vous pas lui insinuer qu’il faut qu’il s’engage, que c’est le seul moyen d’avoir mon consentement ?… Une fois engagé, vous le faites partir, et {{r3}} épouse Cadet.\n\nLE SERGENT.\n\nPapa {{r2}}, vous êtes subtil… Et vous auriez fait un bon jardinier, je ne suis pas éloigné de le croire ; car vous cultivez la carotte avec supériorité… Mais c’est assez chatouilleux, ce que vous me proposez là. Si l’on vient à savoir que je me suis mêlé d’une affaire aussi entortillée, je serai cassé.\n\n{{R2}}.\n\nNous sommes cousins, {{r4}}. Il faut bien faire quelque chose pour sa famille… Cadet et moi nous serons généreux… D’ailleurs, {{r1}} est trop dadais pour qu’il vous arrive malheur… et c’est pour son bien à ce jeune homme. Si vous en faites un soldat, ça le dégourdira, mille-z-yeux !\n\nLE SERGENT.\n\nVous êtes crânement persuasif, père {{r2}}… Je parlerai à ce jeune serin.\n\n{{R2}}.\n\nVous me rendez un vrai service.\n\nLE SERGENT.\n\nÇa n’ira p’t-être pas tout seul. Il faudra que vous me veniez en aide. Ne vous éloignez pas…\n\n{{R2}}.\n\nJe vais faire tirer pot au cabaret de la mère Bonichon… Si vous avez besoin de moi, faites-moi signe… Tenez, voilà justement {{r1}} qui vient de ce côté… Travaillez-le aux oiseaux. (Il sort.)\n\nScène VI.\n\n{{R1}}, LE SERGENT.\n\n{{R1}}, d’un air triste.\n\nC’est donc vous qu’êtes là, sergent {{r4}} ?\n\nLE SERGENT.\n\nHé oui, corbleu !… Mais qu’as-tu donc, {{r1}} ? Quel sinistre visage ! Ah ! jeune homme, je ne suis pas éloigné de croire que vous êtes tracassé par des peines de cœur.\n\n{{R1}}.\n\nHé ben ! oui, sergent ; je vous le confie à vous ; mais n’en dites rien dans le quartier, parce qu’on se moquerait de moi… Je devais me marier à {{r3}}, la fille du père {{r2}}… Il me l’avait promise et v’là qu’à présent il se dédit… C’est un moulin à vent c’t homme… Ça me chagrine, ça me chagrine, voyez-vous, que je m’en cognerais le melon sur les cadettes de la rue Saint-Georges… Mais quoi qu’il a donc, quoi qu’il a donc contre moi, ce vieux pochard ?\n\nLE SERGENT.\n\n{{r1}}, tu m’intéresses… Je connais les motifs du refus de {{r2}} ; il me les a dits, c’est mon cousin… Je veux te les dévoiler et te donner les moyens de vaincre sa résistance… Le père {{r2}} a servi.\n\n{{R1}}.\n\nDans quel régiment ? Dans les pompiers ?\n\nLE SERGENT.\n\nJe ne suis pas éloigné de le croire. Dans tous les cas, vois-tu, il ne veut pas d’un clampin dans sa famille… Si tu tiens à être son gendre, fais-toi soldat.\n\n{{R1}}.\n\nSordat pour de vrai ? Mais il faudra partir pour l’armée, et alors bonsoir le mariage.\n\nLE SERGENT.\n\nNon. Je te fais un engagement… une fois soldat, il ne peut te refuser sa fille… et le mariage conclu, je fais casser l’engagement par mes protections.\n\n{{R1}}.\n\nVous êtes un bon enfant, sergent… Mais qui me dit que c’est pas une frime du père {{r2}} ?… Je le connais c’t homme, il va et vient comme une girouette.\n\nLE SERGENT.\n\nIl m’a dit lui-même qu’il te donnerait sa fille s’il te voyait une fois le mousquet sur l’épaule.\n\n{{R1}}.\n\nJe me fie pas à ce qu’il dit.\n\nLE SERGENT.\n\nCorbleu ! Est-ce qu’il voudrait se moquer de toi-z-et de moi ?… Si cela était, mille bombes ! mon sabre taillerait quelques boutonnières dans son individu… Il n’y a pas de cousin qui tienne… Écoute ; parlons peu et parlons bien. Je vais appeler le père {{r2}}… Tu te cacheras là ; je le ferai expliquer catégoricalement. Tu entendras tout ce qu’il dira, et tu sauras ensuite ce qu’il te reste à faire.\n\n{{R1}}.\n\nC’est une bonne idée, sergent ; ça fait que vous me servirez de témoin, si y se dédit encore.\n\nLE SERGENT.\n\nCertainement.\n\n{{R1}}.\n\nFaites-le parler, sergent… Je me cache. (Il se place dans la coulisse.)\n\nLE SERGENT.\n\nCela marche à merveille ; le serin entre de lui-même dans la cage… Holà ! papa {{r2}}, venez par ici.\n\nScène VII.\n\nLE SERGENT, {{R2}}, {{R1}}, caché.\n\n{{R2}}.\n\nQué qu’y a, sergent {{r4}} ?\n\nLE SERGENT, bas à {{r2}}.\n\nIl est là ; il nous écoute… Répondez en conséquence à mes questions.\n\n{{R2}}, de même.\n\nSurficit… allez tout de go.\n\nLE SERGENT, haut.\n\nNe m’avez-vous pas dit que le seul obstacle au mariage de {{r1}}, c’est qu’il n’avait pas été soldat ? que s’il s’engageait, vous lui donneriez votre fille sans autres conditions ?\n\n{{R2}}.\n\nCertainement, je l’ai dit et je m’en dédis pas… Si {{r1}} était soldat, mille tonnerres ! il aurait la colombe. Vous pouvez lui dire ça de ma part.\n\nLE SERGENT\n\nC’est bien, père {{r2}} ; vous êtes un vieux brave… C’est tout ce que je voulais savoir… Au revoir !\n\n{{R2}}.\n\nAu revoir, sergent ! (Il sort.)\n\nScène VIII\n\nLE SERGENT, {{R1}}.\n\n{{R1}}, arrivant précipitamment.\n\nSergent, je veux être sordat… tout de suite, tout de suite.\n\nLE SERGENT.\n\nAllons, jeune tourlourou, suis-moi ; je vais te faire ton engagement et tu prendras ta première leçon d’exercice. Le cœur du père {{r2}}, je ne suis pas éloigné de le croire, ne résistera pas à la vue de tes grâces et de ta facilité sous l’uniforme. (Ils sortent.)\n\nScène IX\n\n{{R2}}, seul, entrant.\n\nAh ! ah ! ah ! (Il rit.) Les voilà partis ; le goujon a mordu à l’asticot… On n’en remontre pas au papa {{r2}}… Allons finir la bouteille, et prévenir Cadet de se tenir prêt pour la noce. (Il s’en va en riant.)\n\nScène X\n\nLE SERGENT, {{R1}}, vêtu d’un uniforme ridicule : il a un bonnet de police, dont le gland lui tombe sur les yeux.\n\n{{R1}}.\n\nSergent, vous m’avez joliment ficelé tout de même… N’y a que ce machin d’en haut que me danse là devant le z’œil…\n\nLE SERGENT.\n\nTu t’y feras… Allons, conscrit, à l’exercice ! De la grâce et de la souplesse. D’abord, les talons sur la même ligne, et rapprochés autant que la conformation le permet ; les pieds un peu moins ouverts que l’équerre, la ceinture effacée, le haut du corps en avant, ({{r1}} se penche.) la tête droite, ({{r1}} se renverse.) la ceinture effacée, ({{r1}} se penche. Il le redresse.) Attention donc, morbleu !\n\n{{R1}}.\n\nNom d’un rat ! c’est pas facile.\n\nLE SERGENT.\n\nLes bras pendant naturellement, le petit doigt sentant la couture de la culotte, le menton rapproché de la cravate, sans la couvrir ; les yeux à quinze pas devant toi.\n\n{{R1}}.\n\nComment est-ce que mes yeux peuvent être à quinze pas plus loin que moi ?… Ils sont ben toujours dans ma tête.\n\nLE SERGENT.\n\nCela veut dire qu’il faut regarder à quinze pas.\n\n{{R1}}.\n\nMais alors, sergent, mettez-vous donc un peu en arrière. Comment voulez-vous que je regarde à quinze pas, si vous êtes devant moi ?\n\nLE SERGENT.\n\nSilence, conscrit.\n\n{{R1}}.\n\nAvec ça y a ce machin qui me danse devant le z’œil.\n\nLE SERGENT.\n\nGarde à vos ! ({{r1}} s’enfuit vivement.) Hé bien, où vas-tu donc ?\n\n{{R1}}.\n\nPardi, vous me dites de prendre garde à moi ; je m’en sauve,\n\nLE SERGENT.\n\nMais, imbécile, garde à vos ! c’est un terme d’avertissement. Je t’avertis.\n\n{{R1}}.\n\nAvertissez-moi, sergent… vous avez raison.\n\nLE SERGENT.\n\nAllons, peloton !\n\n{{R1}}.\n\nVous voulez un peloton ?\n\nLE SERGENT.\n\nQuand je dis : peloton ! c’est à toi que je parle.\n\n{{R1}}.\n\nJe ne suis ni en fil ni en laine.\n\nLE SERGENT.\n\nC’est comme si je parlais à vingt hommes ; tu sauras ça… Il faut maintenant apprendre à marcher. Nous allons partir du pied gauche… Pied gauche, en avant ! marche ! ({{r1}} se baisse.) Qu’est-ce que tu regardes ?\n\n{{R1}}.\n\nVous dites de partir du pied gauche… Je regarde où il est, le gauche.\n\nLE SERGENT.\n\nHé bien ! c’est celui-ci… Ah ça, tu ne connais donc pas ta main droite d’avec ta gauche ?\n\n{{R1}}.\n\nComment voulez-vous qu’on les connaisse ? Elles sont ben faites l’une comme l’autre.\n\nLE SERGENT.\n\nQuelle faible intelligence ! C’est un homme à former totalement. Voyons, au commandement de Marche ! vous portez vivement le pied gauche en avant, le jarret tendu, la pointe du pied un peu baissée et légèrement tournée en dehors, ainsi que le genou ; vous balancez le corps sans raideur sur la jambe droite ; vous abaissez la jambe gauche et portez la jambe droite en avant, et ainsi successivement, jusqu’au commandement de Halte ! (Il le fait marcher en le prenant par le milieu du corps.) Pas accéléré ; en avant, marche ! gauche ! droite ! gauche ! droite ! halte !\n\n{{R1}}.\n\nÇa m’ennuie, sergent. N’allons-nous pas bientôt à la gamelle ?\n\nLE SERGENT.\n\nOn ne parle pas sous les armes. Maintenant, tu vas faire par le flanc droite et par le flanc gauche. Attends, je vais te chercher ton arme.\n\n{{R1}}.\n\nC’est pas amusant d’être militaire… C’est donc pas encore fini ?\n\nLE SERGENT.\n\nCinq minutes seulement. Voilà ton arme. (Il lui donne un bâton.)\n\n{{R1}}.\n\nVous appelez ça une arme… c’est un éventail à bourrique.\n\nLE SERGENT.\n\nC’est pour figurer le mousquet… Quand je te dirai par le flanc droite, droite, tu tournes de ce côté. (Il le fait tourner.) Quand je te dirai par le flanc gauche, gauche, de celui-là.\n\n{{R1}}.\n\nVous me bouliguez trop, sergent.\n\nLE SERGENT.\n\nVoyons, y es-tu ? Tiens bien ton arme.\n\n{{R1}}.\n\nOui, ma tavelle ; j’y suis.\n\nLE SERGENT.\n\nSilence ! Par le flanc droite, droite !\n\n{{R1}}.\n\nV’là. (Il se tourne lentement.)\n\nLE SERGENT.\n\nTu n’attraperas pas un chaud et froid, en allant comme ça.\n\n{{R1}}.\n\nJe pense ben… Je les crains, les chaud et froid.\n\nLE SERGENT.\n\nAllons, plus vivement ! Par le flanc gauche, gauche !\n\n{{R1}}.\n\nVivement ! (En se tournant, il frappe le sergent de son bâton.)\n\nLE SERGENT.\n\nAïe ! prends donc garde, imbécile !\n\n{{R1}}.\n\nGauche ! droite ! gauche ! droite ! (Il frappe encore le sergent.)\n\nLE SERGENT.\n\nTu me frappes encore, conscrit !\n\n{{R1}}.\n\nC’est que c’est pas facile à tenir ce mousquet. (Il laisse tomber son bâton sur le nez du sergent.)\n\nLE SERGENT.\n\nAh ça, dis donc, {{r1}} ; tu me fais l’effet d’un farceur, je ne suis pas éloigné de le croire.\n\n{{R1}}.\n\nVous l’êtes pas farceur, vous, sergent… Je connais p’t-être pas votre manigance avec le père {{r2}}.\n\nLE SERGENT.\n\nQue veux-tu dire ?\n\n{{R1}}.\n\nVous m’avez pris pour un jeune serin… Mais deux vieux merles comme vous m’attraperont pas.\n\nLE SERGENT.\n\n{{r1}}, pas de propos incohérents.\n\n{{R1}}.\n\nFâchez pas, sergent… vous croyez ben m’avoir engagé… Hé ben, j’ai pas signé de mon nom, et c’est un papier que te peux mettre aux équevilles… À présent, si vous dites quéque chose, sergent, je vas tout raconter à votre capitaine… et gare la salle de police… et ce qui s’ensuit, je-ne-suis-pas-éloigné-de-le-croire.\n\nLE SERGENT.\n\nAh ! {{r1}}, pas de bêtises ! sois bon enfant.\n\n{{R1}}.\n\nJe suis bon enfant… mais à présent, sergent, y faut passer de mon côté, et me donner un coup de main contre le père {{r2}} pour mon mariage.\n\nLE SERGENT.\n\nAllons, allons, tu m’intéresses beaucoup. Tope là ; je suis avec toi… que faut-il faire ?\n\n{{R1}}.\n\nVous allez voir… Justement, v’là {{r2}}… Peloton, alignement, pas accéléré, halte !\n\nScène XI\n\nLES MÊMES, {{R2}}.\n\n{{R1}}, il fait mine d’être un peu ivre.\n\nOui, sergent, mille bombes ! mille tonnerres ! que c’est cannant d’être milllitaire, corbleu ! saperjeu !\n\n{{R2}}.\n\nComment, {{r1}}, c’est toi qui fais tout ce tapage !\n\n{{R1}}.\n\nAh ! père {{r2}}, c’est vous ; topez là ! (Il lui prend la main et la secoue.) Ça m’enflamme de voir un vieux brave comme vous.\n\n{{R2}}.\n\nComme te v’là dégourdi !\n\n{{R1}}.\n\nOh ! n’y a rien qui décatole un jeune homme comme l’uniforme… Hé bien ! voyons, vétéran ; à quand mon mariage avec votre fille ? Demain ? aujourd’hui ? Me v’là sordat.\n\n{{R2}}.\n\nN’y a rien qui presse… Il faut que tu fasses ton service… nous verrons après.\n\n{{R1}}.\n\nComment, père {{r2}}, vous barguignez encore !… Je n’entends pas la plaisanterie, mille-z-yeux !\n\n{{R2}}.\n\nQue veux-tu dire ?\n\n{{R1}}.\n\nJe veux dire que vous avez promis, et encore devant le sergent, que si je me faisais sordat, vous me donneriez votre fille, sans autres conditions… Me v’là sordat ; il me faut {{r3}}… ou bien, vous savez, entre milllitaires, comment se traitent les affaires.\n\n{{R2}}.\n\nPeste ! l’uniforme l’a trop dégourdi.\n\n{{R1}}.\n\nAllons, faut s’aligner.\n\n{{R2}}.\n\nMais, sergent, que dit-il donc là ?\n\n{{R1}}.\n\nLe sergent nous servira de témoin.\n\nLE SERGENT.\n\nCe jeune homme a raison ; c’est une affaire d’honneur.\n\n{{R2}}, bas au sergent.\n\nVous ne le faites donc pas partir, cousin ?\n\nLE SERGENT, de même.\n\nQue voulez-vous, il a obtenu un congé… par des protections.\n\n{{R1}}, qui est allé chercher des sabres, en présente un à {{r2}}.\n\nPère {{r2}}, v’là des lardoires ; faut s’embrocher.\n\n{{R2}}, ému.\n\nFarceur, tu… tu… veux rire.\n\n{{R1}}.\n\nPas du tout… Faites voir votre talent au sabre, papa. Moi, j’ai pris une première leçon tout à l’heure ; c’est une bonne occasion pour répéter.\n\nLE SERGENT.\n\nAllons, Messieurs, en garde ! saluez-vous.\n\n{{R2}}.\n\nUn m’ment, un m’ment ! Peste !… Qu’est-ce que je voulais, moi ? Savoir si {{r1}} était un brave… Hé bien ! je le sais à présent… {{r1}}, la main de ma fille est à toi.\n\nLE SERGENT.\n\nVoilà qui est bien parler.\n\n{{R1}}.\n\nÀ la bonne heure ! Entre vieux de la vieille, on parvient toujours à s’entendre… Votre main, papa beau-père !\n\nScène XII.\n\nLES MÊMES, {{R3}}.\n\n{{R3}}.\n\nPapa, v’là Cadet qui vous demande… Il dit qu’il vient chercher votre réponse.\n\n{{R2}}.\n\nHé bien ! dis-lui de repasser demain… un peu tard.\n\n{{R1}}.\n\nNon, {{r3}}, invite-le à notre noce.\n\n{{R3}}.\n\nEst-ce que c’est vrai, mon père, ce que dit {{r1}} ?\n\n{{R2}}.\n\nOui, oui, ma fille ; {{r1}} est un brave, je te le donne pour mari.\n\n{{R3}}.\n\nOh ! quel bonheur ! quel bonheur !\n\n{{R2}}, bas à {{r1}}.\n\nMais, enfin, dans quel régiment t’es-tu donc engagé ?\n\n{{R1}}, de même.\n\nDans le régiment où vous avez gagné vos galons.\n\n{{R2}}, à part.\n\nIl m’a fait aller… mais c’est égal, c’est le gendre qu’il me fallait… (Avec un soupir.) Cadet n’avait pour lui que son commerce.\n\n{{R1}}.\n\nCommençons la noce tout de suite… Sergent, vous en êtes… c’est à vous de commander la manœuvre.\n\nLE SERGENT.\n\nVolontiers… Peloton, alignement, par file à gauche, en avant, marche !\n\nIls s’en vont tous en chantant.\n\nfin de l’enrôlement.",
+      "changements": [
+        "Les quatre personnages qui parlent sont des marionnettes. Aux scènes à trois ou quatre (le piège, le duel, la noce), ils se relaient sur les deux mains : l’un s’écarte en coulisse, l’autre entre, et chaque échange se joue à deux. Pour cela, deux répliques du duel changent de place : {{r1}} annonce le témoin avant que {{r2}} n’interroge le sergent, et le « Voilà qui est bien parler » du sergent vient juste avant que {{r2}} ne donne la main de sa fille. Pour laisser au parent le temps de changer de peluche, trois répliques sont lancées vers la coulisse, à celui qui va entrer ({{r2}} au sergent, {{r2}} à {{r1}}, {{r3}} à son père), et {{r1}} appelle le sergent pour la noce une fois {{r2}} rentré.",
+        "Coupes au milieu, pour tenir près de 18 minutes : la plus grande partie du monologue d’ouverture (la taille, la marine), le toton, le bailli et l’avocat, l’héritage de Cadet (la tante, le cabaret), la vantardise militaire de {{r2}} devant sa fille et ses menaces (« gare les giroflées à cinq feuilles »), le plan redit par {{r2}} seul, les hésitations du sergent, le moulin à vent et la girouette, l’engagement « cassé par mes protections », {{r2}} qui rit seul du piège (scène IX), et dans la leçon : les yeux « à quinze pas », le peloton, le « chaud et froid », la gamelle, les longues tirades sur la façon de se tenir et de marcher. Aucune réplique n’est inventée : seules les adresses au public s’ajoutent. Les deux dernières scènes (le duel, la noce) sont jouées entières.",
+        "Retouches universelles appliquées : « talent au briquet » devient « talent au sabre » ; « Je ne suis pas un Bédouin, peste ! » devient « Peste ! ».",
+        "Le bâton qui figure le mousquet et les sabres sont deux cuillères en bois couchées sur la table, que les marionnettes poussent de la tête ; le bonnet de police est dit par le conteur, pas porté.",
+        "Les mots rares de Guignol sont gardés et montrés par le jeu : « je n’y comprends goutte » ({{r1}} secoue la tête), « insinuer » ({{r2}} parle à l’oreille du sergent), « la colombe » ({{r2}} montre la maison de {{r3}}), le gland du bonnet ({{r1}} secoue la tête sans arrêt), les équevilles ({{r1}} fait mine de jeter le papier).",
+        "{{r1}} « fait mine d’être un peu ivre » devant {{r2}} : la retouche qui l’enlève ne vaut que jusqu’à 4 ans, elle n’est pas appliquée au fonds."
+      ]
+    }
+  },
+  "dureeEstimeeSecondes": 1163,
+  "interactionsOrdonnees": [
+    "a3e14",
+    "a2e26",
+    "a3e30",
+    "a2e18",
+    "a3e12",
+    "a4e75",
+    "a4e2",
+    "a1e4",
+    "a4e86"
+  ]
+}

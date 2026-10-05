@@ -1,0 +1,35 @@
+{
+  "id": "ru-morozko",
+  "langue": [],
+  "moments": [
+    {
+      "id": "laissee-sous-le-pin",
+      "type": "abandon",
+      "niveaux": [
+        {
+          "jusqua": 4,
+          "annonce": "Rien ne dit que la marâtre espère voir Marfoucha mourir de froid : elle l'envoie attendre son fiancé Morozko sous le grand pin, et le vieux, au matin, la retrouve couverte de cadeaux.",
+          "retouches": [
+            {"avant": "il la trouva vivante, avec un beau manteau de fourrure", "apres": "il la trouva avec un beau manteau de fourrure"},
+            {"avant": "La vieille fut stupéfaite de voir la jeune fille vivante, avec un manteau neuf", "apres": "La vieille fut stupéfaite de voir la jeune fille avec un manteau neuf"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "les-soeurs-gelees",
+      "type": "punition",
+      "niveaux": [
+        {
+          "jusqua": 4,
+          "annonce": "Paracha et Machka ne meurent pas : Morozko les laisse raides de froid, et le vieux les rapporte au matin toutes bleues, mais vivantes.",
+          "retouches": [
+            {"avant": "Il arrive pour chercher ses filles, et les trouve gelées, sans vie.", "apres": "Il arrive pour chercher ses filles, et les trouve gelées, à peine vivantes."},
+            {"avant": "La vieille souleva la natte, retira la couverture, et trouva ses filles sans vie.", "apres": "La vieille souleva la natte, retira la couverture, et trouva ses filles toutes bleues de froid."},
+            {"avant": "Tu as perdu mes filles, mes enfants chéries", "apres": "Tu as gelé mes filles, mes enfants chéries"}
+          ]
+        }
+      ]
+    }
+  ]
+}

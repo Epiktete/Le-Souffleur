@@ -1,0 +1,17 @@
+{"elements": [
+  {"type": "entree", "marionnette": "Petite Souris", "main": "M1G"},
+  {"type": "entree", "marionnette": "Gros Loup", "main": "M1D"},
+  {"type": "didascalie", "texte": "Gros Loup s'approche de Petite Souris."},
+  {"type": "replique", "marionnette": "Gros Loup", "texte": "Petite Souris, je t'aime beaucoup, comme un vrai ami. Habite avec moi !", "ton": "chaleureux"},
+  {"type": "replique", "marionnette": "Petite Souris", "texte": "D'accord, Gros Loup, j'habiterai avec toi !", "ton": "joyeuse"},
+  {"type": "didascalie", "texte": "Petite Souris hoche la tête."},
+  {"type": "replique", "marionnette": "Gros Loup", "texte": "Mais il faut penser à l'hiver, sinon nous aurons faim. Toi, Petite Souris, tu ne peux pas t'aventurer partout, et tu finirais par tomber dans un piège.", "ton": "sérieux, un peu grave"},
+  {"type": "replique", "marionnette": "Petite Souris", "texte": "Allons acheter un pot, pour ne pas avoir faim cet hiver !", "ton": "décidée"},
+  {"type": "adresse_public", "marionnette": "Petite Souris", "texte": "Qu'est-ce qu'on va mettre dedans, à votre avis ?", "attenteReponse": true},
+  {"type": "didascalie", "texte": "Gros Loup se frotte le ventre."},
+  {"type": "replique", "marionnette": "Gros Loup", "texte": "Un pot de miel !", "ton": "gourmand"},
+  {"type": "replique", "marionnette": "Petite Souris", "texte": "Mais où allons-nous le cacher ?", "ton": "inquiète, curieuse"},
+  {"type": "adresse_public", "marionnette": "Gros Loup", "texte": "À votre avis, où faut-il cacher le pot pour que personne ne le trouve ?", "attenteReponse": true},
+  {"type": "didascalie", "texte": "Gros Loup penche la tête, immobile un instant."},
+  {"type": "replique", "marionnette": "Gros Loup", "texte": "Je ne connais pas d'endroit plus sûr que le creux du grand chêne : là, personne n'ose rien prendre. Nous le mettrons tout au fond, et nous n'y toucherons pas avant d'en avoir besoin.", "ton": "convaincu, sûr de lui"}
+]}

@@ -1,0 +1,20 @@
+{
+  "id": "in-lion-et-lievre-au-puits",
+  "langue": [],
+  "moments": [
+    {
+      "id": "le-lion-saute",
+      "type": "punition",
+      "niveaux": [
+        {
+          "jusqua": 4,
+          "annonce": "Le lion ne se noie pas : il ressort du puits trempé et si honteux qu'il quitte la forêt pour toujours.",
+          "retouches": [
+            {"avant": "Il n’y trouva que l’eau froide, et son propre reflet brisé en mille morceaux.", "apres": "Il n’y trouva que l’eau froide, et son propre reflet brisé en mille morceaux. Il ressortit du puits trempé, toussant, si honteux qu’il quitta la forêt pour toujours."},
+            {"avant": "comment le terrible Bhâsouraka s’était jeté sur son propre reflet", "apres": "comment le terrible Bhâsouraka s’était jeté sur son propre reflet et avait fui la forêt"}
+          ]
+        }
+      ]
+    }
+  ]
+}

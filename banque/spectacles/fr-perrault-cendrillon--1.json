@@ -1,0 +1,1873 @@
+{
+  "id": "fr-perrault-cendrillon--1",
+  "conteId": "fr-perrault-cendrillon",
+  "titre": "Cendrillon",
+  "pitch": "{{r1}} reçoit l’aide de sa marraine {{r2}} pour aller aux deux bals. {{r3}} la retrouve grâce à une pantoufle de verre.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "fille",
+      "famille": "enfant",
+      "traits": [
+        "patiente",
+        "bonne",
+        "courageuse"
+      ],
+      "voix": "voix claire et douce, avec davantage d’assurance au bal",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "la retrouve",
+            "apres": "le retrouve"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "elle s’enfuit",
+            "apres": "il s’enfuit"
+          },
+          {
+            "id": "a4:resume",
+            "avant": "elle pardonne",
+            "apres": "il pardonne"
+          },
+          {
+            "id": "a1e2:texte",
+            "avant": "elle tenait cela",
+            "apres": "il tenait cela"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "cette jeune enfant",
+            "apres": "ce jeune enfant"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "Elle la chargea",
+            "apres": "Elle le chargea"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "c’était elle qui nettoyait",
+            "apres": "c’était lui qui nettoyait"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "elle couchait tout",
+            "apres": "il couchait tout"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "l’aurait grondée",
+            "apres": "l’aurait grondé"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "Lorsqu’elle avait",
+            "apres": "Lorsqu’il avait"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "elle allait se mettre",
+            "apres": "il allait se mettre"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "c’était elle qui repassait",
+            "apres": "c’était lui qui repassait"
+          },
+          {
+            "id": "a1e27:texte",
+            "avant": "une ",
+            "apres": "un "
+          },
+          {
+            "id": "a1e16:texte",
+            "avant": "car elle avait le goût",
+            "apres": "car il avait le goût"
+          },
+          {
+            "id": "a1e28:texte",
+            "avant": "Une autre",
+            "apres": "Un autre"
+          },
+          {
+            "id": "a1e28:texte",
+            "avant": "mais elle était bonne",
+            "apres": "mais il était bon"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "Lorsqu’elle ne les vit plus",
+            "apres": "Lorsqu’il ne les vit plus"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "elle se mit à pleurer",
+            "apres": "il se mit à pleurer"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "qui la vit tout en pleurs",
+            "apres": "qui le vit tout en pleurs"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "Elle pleurait si fort",
+            "apres": "Il pleurait si fort"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "qu’elle ne put achever",
+            "apres": "qu’il ne put achever"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "la mena",
+            "apres": "le mena"
+          },
+          {
+            "id": "a2e12:texte",
+            "avant": "pourrait la faire aller",
+            "apres": "pourrait le faire aller"
+          },
+          {
+            "id": "a2e27:texte",
+            "avant": "Quand elle fut ainsi parée",
+            "apres": "Quand il fut ainsi paré"
+          },
+          {
+            "id": "a2e27:texte",
+            "avant": "elle monta en carrosse",
+            "apres": "il monta en carrosse"
+          },
+          {
+            "id": "a2e31:texte",
+            "avant": "Elle part, folle de joie",
+            "apres": "Il part, fou de joie"
+          },
+          {
+            "id": "a2e35:texte",
+            "avant": "une grande princesse",
+            "apres": "un grand prince"
+          },
+          {
+            "id": "a2e35:texte",
+            "avant": "courut la recevoir",
+            "apres": "courut le recevoir"
+          },
+          {
+            "id": "a2e35:texte",
+            "avant": "et la mena dans la salle",
+            "apres": "et le mena dans la salle"
+          },
+          {
+            "id": "a2e35:texte",
+            "avant": "cette inconnue",
+            "apres": "cet inconnu"
+          },
+          {
+            "id": "a2e36:texte",
+            "avant": "de la regarder",
+            "apres": "de le regarder"
+          },
+          {
+            "id": "a2e39:texte",
+            "avant": "la mit à la place",
+            "apres": "le mit à la place"
+          },
+          {
+            "id": "a2e46:texte",
+            "avant": "Elle alla s’asseoir",
+            "apres": "Il alla s’asseoir"
+          },
+          {
+            "id": "a2e46:texte",
+            "avant": "elle partagea",
+            "apres": "il partagea"
+          },
+          {
+            "id": "a2e46:texte",
+            "avant": "ne la connaissaient point",
+            "apres": "ne le connaissaient point"
+          },
+          {
+            "id": "a2e48:texte",
+            "avant": "elle fit aussitôt",
+            "apres": "il fit aussitôt"
+          },
+          {
+            "id": "a2e52:texte",
+            "avant": "Dès qu’elle fut arrivée",
+            "apres": "Dès qu’il fut arrivé"
+          },
+          {
+            "id": "a2e52:texte",
+            "avant": "elle alla trouver",
+            "apres": "il alla trouver"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "Comme elle était occupée",
+            "apres": "Comme il était occupé"
+          },
+          {
+            "id": "a3e6:texte",
+            "avant": "elle n’avait cependant",
+            "apres": "il n’avait cependant"
+          },
+          {
+            "id": "a3e7:texte",
+            "avant": "tu ne t’y serais pas ennuyée",
+            "apres": "tu ne t’y serais pas ennuyé"
+          },
+          {
+            "id": "a3e7:texte",
+            "avant": "la plus gentille princesse",
+            "apres": "le plus gentil prince"
+          },
+          {
+            "id": "a3e7:texte",
+            "avant": "la plus gentille qu’on puisse",
+            "apres": "le plus gentil qu’on puisse"
+          },
+          {
+            "id": "a3e7:texte",
+            "avant": "elle nous a fait mille civilités",
+            "apres": "il nous a fait mille civilités"
+          },
+          {
+            "id": "a3e7:texte",
+            "avant": "elle nous a donné des oranges",
+            "apres": "il nous a donné des oranges"
+          },
+          {
+            "id": "a3e8:texte",
+            "avant": "était folle de joie",
+            "apres": "était fou de joie"
+          },
+          {
+            "id": "a3e9:texte",
+            "avant": "cette princesse",
+            "apres": "ce prince"
+          },
+          {
+            "id": "a3e11:texte",
+            "avant": "ne la connaît pas",
+            "apres": "ne le connaît pas"
+          },
+          {
+            "id": "a3e11:texte",
+            "avant": "qui elle est",
+            "apres": "qui il est"
+          },
+          {
+            "id": "a3e16:texte",
+            "avant": "Elle était donc bien gentille",
+            "apres": "Il était donc bien gentil"
+          },
+          {
+            "id": "a3e16:texte",
+            "avant": "la voir ?",
+            "apres": "le voir ?"
+          },
+          {
+            "id": "a3e17:texte",
+            "avant": "une vilaine",
+            "apres": "un vilain"
+          },
+          {
+            "id": "a3e18:texte",
+            "avant": "elle en fut bien aise",
+            "apres": "il en fut bien aise"
+          },
+          {
+            "id": "a3e18:texte",
+            "avant": "elle aurait été grandement embarrassée",
+            "apres": "il aurait été grandement embarrassé"
+          },
+          {
+            "id": "a3e23:texte",
+            "avant": "encore plus parée",
+            "apres": "encore plus paré"
+          },
+          {
+            "id": "a3e25:texte",
+            "avant": "qu’elle entendit sonner",
+            "apres": "qu’il entendit sonner"
+          },
+          {
+            "id": "a3e25:texte",
+            "avant": "lorsqu’elle ne croyait point",
+            "apres": "lorsqu’il ne croyait point"
+          },
+          {
+            "id": "a3e25:texte",
+            "avant": "elle se leva, et s’enfuit",
+            "apres": "il se leva, et s’enfuit"
+          },
+          {
+            "id": "a3e27:texte",
+            "avant": "la suivit",
+            "apres": "le suivit"
+          },
+          {
+            "id": "a3e27:texte",
+            "avant": "Elle laissa tomber",
+            "apres": "Il laissa tomber"
+          },
+          {
+            "id": "a3e30:texte",
+            "avant": "arriva chez elle, bien essoufflée",
+            "apres": "arriva chez lui, bien essoufflé"
+          },
+          {
+            "id": "a3e30:texte",
+            "avant": "qu’elle avait laissée tomber",
+            "apres": "qu’il avait laissée tomber"
+          },
+          {
+            "id": "a3e31:texte",
+            "avant": "une princesse",
+            "apres": "un prince"
+          },
+          {
+            "id": "a3e36:texte",
+            "avant": "La belle dame",
+            "apres": "Le beau monsieur"
+          },
+          {
+            "id": "a3e37:texte",
+            "avant": "elle était au bal",
+            "apres": "il était au bal"
+          },
+          {
+            "id": "a3e37:texte",
+            "avant": "elle s’est enfuie",
+            "apres": "il s’est enfui"
+          },
+          {
+            "id": "a4e33:texte",
+            "avant": "la reconnurent",
+            "apres": "le reconnurent"
+          },
+          {
+            "id": "a4e51:texte",
+            "avant": "On la mena",
+            "apres": "On le mena"
+          },
+          {
+            "id": "a4e51:texte",
+            "avant": "parée comme elle était",
+            "apres": "paré comme il était"
+          },
+          {
+            "id": "a4e51:texte",
+            "avant": "qui était bonne",
+            "apres": "qui était bon"
+          },
+          {
+            "id": "a1e2:texte",
+            "avant": "une jeune fille",
+            "apres": "un jeune fils"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "La pauvre ",
+            "apres": "Le pauvre "
+          },
+          {
+            "id": "a1e28:texte",
+            "avant": "grâce à elle",
+            "apres": "grâce à lui"
+          },
+          {
+            "id": "a2e9:texte",
+            "avant": "seras-tu bonne",
+            "apres": "seras-tu bon"
+          },
+          {
+            "id": "a2e54:ton",
+            "avant": "heureuse",
+            "apres": "heureux"
+          },
+          {
+            "id": "a3e7:texte",
+            "avant": "tu étais venue",
+            "apres": "tu étais venu"
+          },
+          {
+            "id": "a3e36:texte",
+            "avant": "y était-elle",
+            "apres": "y était-il"
+          },
+          {
+            "id": "a1e29:texte",
+            "avant": "qu’elle put",
+            "apres": "qu’il put"
+          },
+          {
+            "id": "a2e48:texte",
+            "avant": "qu’elle put",
+            "apres": "qu’il put"
+          },
+          {
+            "id": "a3e32:texte",
+            "avant": "une paysanne",
+            "apres": "un paysan"
+          },
+          {
+            "id": "a3e32:texte",
+            "avant": "une demoiselle",
+            "apres": "un damoiseau"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r2",
+      "espece": "fee",
+      "famille": "feerique",
+      "traits": [
+        "sage",
+        "généreuse",
+        "vive"
+      ],
+      "voix": "voix chaleureuse et précise, qui presse un peu les mots",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "sa marraine",
+            "apres": "son parrain"
+          },
+          {
+            "id": "a2:titre",
+            "avant": "La marraine",
+            "apres": "Le parrain"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "Sa marraine",
+            "apres": "Son parrain"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "Sa marraine",
+            "apres": "Son parrain"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "Elle",
+            "apres": "Il"
+          },
+          {
+            "id": "a2e14:texte",
+            "avant": "Ensuite elle alla regarder",
+            "apres": "Ensuite il alla regarder"
+          },
+          {
+            "id": "a2e14:texte",
+            "avant": "où elle trouva six souris",
+            "apres": "où il trouva six souris"
+          },
+          {
+            "id": "a2e14:texte",
+            "avant": "Elle dit à",
+            "apres": "Il dit à"
+          },
+          {
+            "id": "a2e17:texte",
+            "avant": "Comme elle se demandait",
+            "apres": "Comme il se demandait"
+          },
+          {
+            "id": "a2e17:texte",
+            "avant": "elle ferait un cocher",
+            "apres": "il ferait un cocher"
+          },
+          {
+            "id": "a2e21:texte",
+            "avant": "Ensuite elle lui dit",
+            "apres": "Ensuite il lui dit"
+          },
+          {
+            "id": "a2e23:texte",
+            "avant": "sa marraine",
+            "apres": "son parrain"
+          },
+          {
+            "id": "a2e52:texte",
+            "avant": "sa marraine",
+            "apres": "son parrain"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "sa marraine",
+            "apres": "son parrain"
+          },
+          {
+            "id": "a3e23:texte",
+            "avant": "sa marraine",
+            "apres": "son parrain"
+          },
+          {
+            "id": "a4e31:texte",
+            "avant": "la marraine",
+            "apres": "le parrain"
+          },
+          {
+            "id": "a2e53:texte",
+            "avant": "marraine",
+            "apres": "parrain"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r3",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "attentif",
+        "rêveur",
+        "tenace"
+      ],
+      "voix": "voix calme et enthousiaste",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e6:texte",
+            "avant": "le fils du roi",
+            "apres": "la fille du roi"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "qu’il y invita",
+            "apres": "qu’elle y invita"
+          },
+          {
+            "id": "a2e35:texte",
+            "avant": "Il l’accueillit",
+            "apres": "Elle l’accueillit"
+          },
+          {
+            "id": "a2e46:texte",
+            "avant": "le prince",
+            "apres": "la princesse"
+          },
+          {
+            "id": "a3e27:texte",
+            "avant": "Le prince",
+            "apres": "La princesse"
+          },
+          {
+            "id": "a3e27:texte",
+            "avant": "le prince",
+            "apres": "la princesse"
+          },
+          {
+            "id": "a4e1:texte",
+            "avant": "le fils du roi",
+            "apres": "la fille du roi"
+          },
+          {
+            "id": "a4e51:texte",
+            "avant": "le jeune prince",
+            "apres": "la jeune princesse"
+          },
+          {
+            "id": "a4e51:texte",
+            "avant": "il l’épousa",
+            "apres": "elle l’épousa"
+          },
+          {
+            "id": "t4:description",
+            "avant": "du prince",
+            "apres": "de la princesse"
+          },
+          {
+            "id": "a2e35:texte",
+            "avant": "le fils du roi",
+            "apres": "la fille du roi"
+          },
+          {
+            "id": "a2e39:texte",
+            "avant": "le fils du roi",
+            "apres": "la fille du roi"
+          },
+          {
+            "id": "a3e11:texte",
+            "avant": "le fils du roi",
+            "apres": "la fille du roi"
+          },
+          {
+            "id": "a3e37:texte",
+            "avant": "le fils du roi",
+            "apres": "la fille du roi"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r4",
+      "espece": "fille",
+      "famille": "enfant",
+      "traits": [
+        "fière",
+        "moqueuse",
+        "empressée"
+      ],
+      "voix": "voix rapide et hautaine",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a1e25:ton",
+            "avant": "moqueuse",
+            "apres": "moqueur"
+          },
+          {
+            "id": "a1e27:ton",
+            "avant": "moqueuse",
+            "apres": "moqueur"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "sa sœur,",
+            "apres": "son frère,"
+          },
+          {
+            "id": "a1e26:texte",
+            "avant": "mademoiselle,",
+            "apres": "monsieur,"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "l’aînée",
+            "apres": "l’aîné"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r5",
+      "espece": "fille",
+      "famille": "enfant",
+      "traits": [
+        "vaniteuse",
+        "jalouse",
+        "vive"
+      ],
+      "voix": "voix aiguë et pressée",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a3e16:texte",
+            "avant": "mademoiselle",
+            "apres": "monsieur"
+          },
+          {
+            "id": "a3e17:texte",
+            "avant": "bien folle",
+            "apres": "bien fou"
+          },
+          {
+            "id": "a3e17:ton",
+            "avant": "moqueuse",
+            "apres": "moqueur"
+          },
+          {
+            "id": "a3e18:texte",
+            "avant": "sa sœur",
+            "apres": "son frère"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "son autre sœur",
+            "apres": "son autre frère"
+          },
+          {
+            "id": "a1e13:texte",
+            "avant": "la cadette",
+            "apres": "le cadet"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r6",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "équitable",
+        "attentif",
+        "poli"
+      ],
+      "voix": "voix posée et nette",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a4e23:texte",
+            "avant": "Le gentilhomme",
+            "apres": "La gentildame"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 22,
+    "ageAuditoire": 7,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La maison et la cuisine",
+      "description": "Un drap sur la table cache les bras. Un coussin posé à gauche figure la cheminée et les cendres ; un carton debout à droite évoque la porte. Le jeu reste lisible sans ces repères.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "Le jardin et le bal",
+      "description": "Un coussin à gauche évoque le jardin ; un carton au fond figure la salle du bal. Les transformations suivent les signes de tête de {{r2}}. Citrouille, animaux, habits et pantoufles restent dans le récit.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t3",
+      "titre": "La maison, puis le bal",
+      "description": "Le carton évoque tour à tour la porte de la maison et celle du palais. Un coussin de chaque côté suffit à distinguer les deux lieux ; le parent peut jouer sans décor.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t4",
+      "titre": "L’essai de la pantoufle",
+      "description": "Un coussin à gauche évoque la maison, le carton au fond la cour du prince. La pantoufle reste dans le récit ; pour l’essayage, une peluche peut avancer tout son corps puis se pencher.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "numero": 1,
+      "titre": "La maison et l’invitation",
+      "resume": "La belle-mère charge {{r1}} de tout le travail. {{r4}} et {{r5}} se préparent pour le bal et se moquent de {{r1}}.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e2",
+          "type": "conteur",
+          "texte": "Il était une fois un gentilhomme qui épousa, en secondes noces, une femme, la plus hautaine et la plus fière qu’on eût jamais vue. Elle avait deux enfants de son humeur, {{r4}} et {{r5}}, qui lui ressemblaient en toutes choses. Le mari avait, de son côté, une jeune fille, mais d’une douceur et d’une bonté sans exemple : elle tenait cela de sa mère, qui était la meilleure personne du monde."
+        },
+        {
+          "id": "a1e3",
+          "type": "conteur",
+          "texte": "Les noces ne furent pas plus tôt faites que la belle-mère fit éclater sa mauvaise humeur : elle ne put souffrir les bonnes qualités de cette jeune enfant, qui rendaient ses deux enfants encore plus haïssables. Elle la chargea des plus viles occupations de la maison : c’était elle qui nettoyait la vaisselle et les escaliers, qui frottait la chambre de madame et celles de ses deux enfants ; elle couchait tout au haut de la maison, dans un grenier, sur une mauvaise paillasse, pendant que {{r4}}, sa sœur, et {{r5}}, son autre sœur, étaient dans des chambres parquetées où {{r4}} et {{r5}} avaient des lits des plus à la mode, et des miroirs où {{r4}} et {{r5}} se voyaient depuis les pieds jusqu’à la tête. La pauvre {{r1}} souffrait tout avec patience et n’osait s’en plaindre à son père, qui l’aurait grondée, parce que sa femme le gouvernait entièrement."
+        },
+        {
+          "id": "a1e4",
+          "type": "conteur",
+          "texte": "Lorsqu’elle avait fait son ouvrage, elle allait se mettre au coin de la cheminée, et s’asseoir dans les cendres, ce qui faisait qu’on l’appelait communément dans le logis {{r1}}. Cependant {{r1}}, avec ses pauvres habits, était tout de même cent fois plus digne que {{r4}} et {{r5}}, malgré leurs magnifiques vêtements."
+        },
+        {
+          "id": "a1e5",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Montrez le coin de la cheminée : c’est là que je m’assieds.",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e6",
+          "type": "conteur",
+          "texte": "Il arriva que {{r3}}, le fils du roi, donna un bal et qu’il y invita toutes les personnes de qualité. {{r4}} et {{r5}} reçurent aussi une invitation, car {{r4}} et {{r5}} faisaient grande figure dans le pays. Le duo se réjouit et s’occupa à choisir les habits et les coiffures qui leur iraient le mieux. Nouvelle peine pour {{r1}}, car c’était elle qui repassait le linge de {{r4}} et {{r5}} et qui plissait leurs manchettes. On ne parlait que de la manière dont on s’habillerait."
+        },
+        {
+          "id": "a1e7",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e8",
+          "type": "conteur",
+          "texte": "{{r4}}, l’aînée, dit :"
+        },
+        {
+          "id": "a1e9",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Moi, je mettrai mon habit de velours rouge et ma dentelle d’Angleterre.",
+          "ton": "avec fierté"
+        },
+        {
+          "id": "a1e10",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e11",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne lentement vers l’autre côté de la scène."
+        },
+        {
+          "id": "a1e12",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e13",
+          "type": "conteur",
+          "texte": "{{r5}}, la cadette, dit :"
+        },
+        {
+          "id": "a1e14",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Moi, je n’aurai que ma jupe ordinaire ; mais, en revanche, je mettrai mon manteau à fleurs d’or et ma parure de diamants, qui ne passe pas inaperçue.",
+          "ton": "avec orgueil"
+        },
+        {
+          "id": "a1e15",
+          "type": "conteur",
+          "texte": "On envoya chercher la bonne coiffeuse pour dresser les cornettes à deux rangs, et on fit acheter des faux grains de beauté de la bonne faiseuse."
+        },
+        {
+          "id": "a1e16",
+          "type": "conteur",
+          "texte": "{{r4}} et {{r5}} appelèrent {{r1}}, car elle avait le goût bon."
+        },
+        {
+          "id": "a1e17",
+          "type": "replique",
+          "texte": "{{r1}}, donne-nous ton avis.",
+          "marionnetteId": "r5"
+        },
+        {
+          "id": "a1e18",
+          "type": "conteur",
+          "texte": "{{r1}} les conseilla le mieux du monde."
+        },
+        {
+          "id": "a1e19",
+          "type": "replique",
+          "texte": "Je peux aussi vous aider pour les coiffures.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a1e20",
+          "type": "replique",
+          "texte": "Volontiers.",
+          "marionnetteId": "r5"
+        },
+        {
+          "id": "a1e21",
+          "type": "conteur",
+          "texte": "Pendant ces préparatifs, {{r4}} et {{r5}} lui disaient :"
+        },
+        {
+          "id": "a1e22",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e23",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne lentement vers l’autre côté de la scène."
+        },
+        {
+          "id": "a1e24",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e25",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "{{r1}}, serais-tu bien aise d’aller au bal ?",
+          "ton": "moqueuse"
+        },
+        {
+          "id": "a1e26",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Hélas ! mademoiselle, vous vous moquez de moi ; ce n’est pas là ce qu’il me faut.",
+          "ton": "doucement"
+        },
+        {
+          "id": "a1e27",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Tu as raison, on rirait bien, si on voyait une {{r1}} aller au bal.",
+          "ton": "moqueuse"
+        },
+        {
+          "id": "a1e28",
+          "type": "conteur",
+          "texte": "Une autre que {{r1}} aurait fait choisir des coiffures de travers ; mais elle était bonne, et les coiffures furent parfaites grâce à elle."
+        },
+        {
+          "id": "a1e29",
+          "type": "conteur",
+          "texte": "{{r4}} et {{r5}} furent près de deux jours sans manger, tant leur joie était grande. Plus de douze lacets se rompirent, tant les tailles étaient serrées pour être plus menues, et {{r4}} et {{r5}} étaient toujours devant le miroir. Enfin l’heureux jour arriva ; on partit, et {{r1}} les suivit des yeux, le plus longtemps qu’elle put."
+        },
+        {
+          "id": "a1e30",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites doucement la musique du bal : « la, la, la… »",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e31",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e32",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        }
+      ],
+      "id": "a1"
+    },
+    {
+      "numero": 2,
+      "titre": "La marraine et le premier bal",
+      "resume": "{{r2}} transforme les choses trouvées au jardin et rappelle minuit. {{r1}} danse avec {{r3}}, puis revient avant l’heure.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "Lorsqu’elle ne les vit plus, elle se mit à pleurer. Sa marraine {{r2}}, qui la vit tout en pleurs, lui demanda :"
+        },
+        {
+          "id": "a2e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e3",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e4",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Qu’as-tu ?"
+        },
+        {
+          "id": "a2e5",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je voudrais bien… je voudrais bien…",
+          "ton": "en pleurant"
+        },
+        {
+          "id": "a2e6",
+          "type": "conteur",
+          "texte": "Elle pleurait si fort qu’elle ne put achever. Sa marraine {{r2}}, aux pouvoirs de fée, lui dit :"
+        },
+        {
+          "id": "a2e7",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Tu voudrais bien aller au bal, n’est-ce pas ?",
+          "ton": "doucement"
+        },
+        {
+          "id": "a2e8",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Hélas ! oui.",
+          "ton": "en soupirant"
+        },
+        {
+          "id": "a2e9",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Eh bien ! seras-tu bonne ? Je t’y ferai aller.",
+          "ton": "avec entrain"
+        },
+        {
+          "id": "a2e10",
+          "type": "conteur",
+          "texte": "Elle la mena dans sa chambre, et lui dit :"
+        },
+        {
+          "id": "a2e11",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Va dans le jardin : il nous faut une citrouille."
+        },
+        {
+          "id": "a2e12",
+          "type": "conteur",
+          "texte": "{{r1}} choisit la plus belle citrouille du jardin, sans deviner comment elle pourrait la faire aller au bal. La citrouille fut creusée jusqu’à l’écorce. Un signe de {{r2}}, et elle fut aussitôt changée en un beau carrosse tout doré."
+        },
+        {
+          "id": "a2e13",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Une citrouille devient un carrosse ! Dites avec moi : « Oh ! »",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e14",
+          "type": "conteur",
+          "texte": "Ensuite elle alla regarder dans la souricière, où elle trouva six souris toutes en vie. Elle dit à {{r1}} :"
+        },
+        {
+          "id": "a2e15",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Laisse sortir les souris de la souricière."
+        },
+        {
+          "id": "a2e16",
+          "type": "conteur",
+          "texte": "Et, à chaque souris qui sortait, un signe de {{r2}} suffisait, et la souris était aussitôt changée en un beau cheval : ce qui fit un bel attelage de six chevaux, d’un beau gris de souris pommelé."
+        },
+        {
+          "id": "a2e17",
+          "type": "conteur",
+          "texte": "Comme elle se demandait de quoi elle ferait un cocher :"
+        },
+        {
+          "id": "a2e18",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je vais voir s’il n’y a pas quelque rat dans la ratière, nous en ferons un cocher."
+        },
+        {
+          "id": "a2e19",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Tu as raison, va voir."
+        },
+        {
+          "id": "a2e20",
+          "type": "conteur",
+          "texte": "La ratière contenait trois gros rats. L’un d’eux, choisi à cause de sa grande barbe, fut changé par {{r2}} en un gros cocher, qui avait une des plus belles moustaches qu’on ait jamais vues."
+        },
+        {
+          "id": "a2e21",
+          "type": "conteur",
+          "texte": "Ensuite elle lui dit :"
+        },
+        {
+          "id": "a2e22",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Va dans le jardin, tu y trouveras six lézards derrière l’arrosoir ; il nous les faut."
+        },
+        {
+          "id": "a2e23",
+          "type": "conteur",
+          "texte": "Dès que les six lézards furent là, sa marraine {{r2}} les changea en six laquais, qui montèrent aussitôt derrière le carrosse, avec leurs habits chamarrés, et qui s’y tenaient attachés comme s’ils n’eussent fait autre chose de toute leur vie."
+        },
+        {
+          "id": "a2e24",
+          "type": "conteur",
+          "texte": "{{r2}} dit alors à {{r1}} :"
+        },
+        {
+          "id": "a2e25",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Eh bien ! voilà de quoi aller au bal : n’es-tu pas bien aise ?"
+        },
+        {
+          "id": "a2e26",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oui, mais est-ce que j’irai comme cela, avec mes vilains habits ?"
+        },
+        {
+          "id": "a2e27",
+          "type": "conteur",
+          "texte": "Un signe de {{r2}}, et les habits de {{r1}} furent changés en des habits d’or et d’argent, tout chamarrés de pierreries ; une paire de pantoufles de verre apparut ensuite pour {{r1}}, les plus jolies du monde. Quand elle fut ainsi parée, elle monta en carrosse ;"
+        },
+        {
+          "id": "a2e28",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Ne passe pas minuit : ton carrosse redeviendrait citrouille, tes chevaux des souris, tes laquais des lézards, et tes beaux habits reprendraient leur première forme.",
+          "ton": "en avertissant"
+        },
+        {
+          "id": "a2e29",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Avant minuit ! Dites-le avec moi : avant minuit !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e30",
+          "type": "replique",
+          "texte": "Je ne manquerai pas de sortir du bal avant minuit.",
+          "marionnetteId": "r1",
+          "ton": "avec assurance"
+        },
+        {
+          "id": "a2e31",
+          "type": "conteur",
+          "texte": "Elle part, folle de joie."
+        },
+        {
+          "id": "a2e32",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e33",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne lentement vers l’autre côté de la scène."
+        },
+        {
+          "id": "a2e34",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e35",
+          "type": "conteur",
+          "texte": "{{r3}}, le fils du roi, qu’on alla avertir qu’il venait d’arriver une grande princesse qu’on ne connaissait point, courut la recevoir. Il l’accueillit à la descente du carrosse, et la mena dans la salle où était la compagnie. Il se fit alors un grand silence ; on cessa de danser, et les violons ne jouèrent plus, tant on était attentif à contempler cette inconnue."
+        },
+        {
+          "id": "a2e36",
+          "type": "conteur",
+          "texte": "Le roi même, tout vieux qu’il était, ne pouvait s’empêcher de la regarder, et de dire tout bas à la reine :"
+        },
+        {
+          "id": "a2e37",
+          "type": "note_marionnettiste",
+          "texte": "Voix du roi, en coulisse : « Il y a longtemps que je n’ai vu une si aimable personne. » — tout bas."
+        },
+        {
+          "id": "a2e38",
+          "type": "conteur",
+          "texte": "Toutes les dames étaient attentives à considérer sa coiffure et ses habits, pour en avoir, dès le lendemain, des semblables, pourvu qu’il se trouvât des étoffes assez belles, et des ouvriers assez habiles."
+        },
+        {
+          "id": "a2e39",
+          "type": "conteur",
+          "texte": "{{r3}}, le fils du roi, la mit à la place la plus honorable,"
+        },
+        {
+          "id": "a2e40",
+          "type": "replique",
+          "texte": "Venez danser.",
+          "marionnetteId": "r3",
+          "ton": "avec douceur"
+        },
+        {
+          "id": "a2e41",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r3}} tournent doucement face à face."
+        },
+        {
+          "id": "a2e42",
+          "type": "conteur",
+          "texte": "On l’admira encore davantage."
+        },
+        {
+          "id": "a2e43",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e44",
+          "type": "note_marionnettiste",
+          "texte": "Laisser une respiration pour changer la peluche de la main droite."
+        },
+        {
+          "id": "a2e45",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e46",
+          "type": "conteur",
+          "texte": "Elle alla s’asseoir auprès de {{r4}} et {{r5}} et leur fit mille politesses ; elle partagea avec {{r4}} et {{r5}} les oranges et les citrons que le prince {{r3}} lui avait donnés, ce qui les étonna fort car {{r4}} et {{r5}} ne la connaissaient point."
+        },
+        {
+          "id": "a2e47",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Écoutez l’heure : onze heures trois quarts. Combien reste-t-il avant minuit ?",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e48",
+          "type": "conteur",
+          "texte": "Pendant cette conversation, {{r1}} entendit sonner onze heures trois quarts ; elle fit aussitôt une grande révérence à la compagnie, et s’en alla le plus vite qu’elle put."
+        },
+        {
+          "id": "a2e49",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e50",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne lentement vers l’autre côté de la scène."
+        },
+        {
+          "id": "a2e51",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e52",
+          "type": "conteur",
+          "texte": "Dès qu’elle fut arrivée, elle alla trouver sa marraine {{r2}},"
+        },
+        {
+          "id": "a2e53",
+          "type": "replique",
+          "texte": "Merci, marraine !",
+          "marionnetteId": "r1",
+          "ton": "avec gratitude"
+        },
+        {
+          "id": "a2e54",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je souhaiterais bien aller encore demain au bal.",
+          "ton": "heureuse"
+        },
+        {
+          "id": "a2e55",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e56",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        }
+      ],
+      "id": "a2"
+    },
+    {
+      "numero": 3,
+      "titre": "Le second bal et minuit",
+      "resume": "{{r1}} écoute le récit de {{r4}} et {{r5}}. Au second bal, elle s’enfuit à minuit en perdant une pantoufle.",
+      "tableauId": "t3",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "conteur",
+          "texte": "Comme elle était occupée à raconter à sa marraine {{r2}} tout ce qui s’était passé au bal, {{r4}} et {{r5}} frappèrent à la porte ; {{r1}} alla leur ouvrir."
+        },
+        {
+          "id": "a3e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e3",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e4",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Que vous êtes longtemps à revenir !",
+          "ton": "en baillant"
+        },
+        {
+          "id": "a3e5",
+          "type": "didascalie",
+          "texte": "{{r1}} se penche puis se redresse lentement, comme au réveil."
+        },
+        {
+          "id": "a3e6",
+          "type": "conteur",
+          "texte": "elle n’avait cependant pas eu envie de dormir, depuis leur séparation."
+        },
+        {
+          "id": "a3e7",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Si tu étais venue au bal, tu ne t’y serais pas ennuyée ; il est venu la plus gentille princesse, la plus gentille qu’on puisse jamais voir ; elle nous a fait mille civilités ; elle nous a donné des oranges et des citrons."
+        },
+        {
+          "id": "a3e8",
+          "type": "conteur",
+          "texte": "{{r1}} était folle de joie et demanda :"
+        },
+        {
+          "id": "a3e9",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Quel est le nom de cette princesse ?"
+        },
+        {
+          "id": "a3e10",
+          "type": "conteur",
+          "texte": "{{r4}} répondit :"
+        },
+        {
+          "id": "a3e11",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "On ne la connaît pas. {{r3}}, le fils du roi, donnerait toutes choses au monde pour savoir qui elle est."
+        },
+        {
+          "id": "a3e12",
+          "type": "conteur",
+          "texte": "{{r1}} sourit et leur dit :"
+        },
+        {
+          "id": "a3e13",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e14",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne lentement vers l’autre côté de la scène."
+        },
+        {
+          "id": "a3e15",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e16",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Elle était donc bien gentille ? Mon Dieu ! quelle joie vous avez ! ne pourrais-je point la voir ? Hélas ! mademoiselle {{r5}}, prêtez-moi votre habit jaune que vous mettez tous les jours."
+        },
+        {
+          "id": "a3e17",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Vraiment, je suis de cet avis ! Prêter mon habit à une vilaine {{r1}} comme cela ! il faudrait que je sois bien folle.",
+          "ton": "moqueuse"
+        },
+        {
+          "id": "a3e18",
+          "type": "conteur",
+          "texte": "{{r1}} s’attendait bien à ce refus, et elle en fut bien aise, car elle aurait été grandement embarrassée, si sa sœur eût bien voulu lui prêter son habit."
+        },
+        {
+          "id": "a3e19",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites avec moi la musique du deuxième bal : « la, la, la… »",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e20",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e21",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne lentement vers l’autre côté de la scène."
+        },
+        {
+          "id": "a3e22",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e23",
+          "type": "conteur",
+          "texte": "Le lendemain, {{r4}} et {{r5}} furent au bal, et {{r1}} aussi, mais encore plus parée que la première fois. {{r1}} ne s’ennuyait point et oublia ce que sa marraine {{r2}} lui avait recommandé ;"
+        },
+        {
+          "id": "a3e24",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r3}} tournent une fois face à face."
+        },
+        {
+          "id": "a3e25",
+          "type": "conteur",
+          "texte": "de sorte qu’elle entendit sonner le premier coup de minuit, lorsqu’elle ne croyait point qu’il fût encore onze heures ; elle se leva, et s’enfuit aussi légèrement qu’aurait fait une biche."
+        },
+        {
+          "id": "a3e26",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e27",
+          "type": "conteur",
+          "texte": "Le prince {{r3}} la suivit. Elle laissa tomber une de ses pantoufles de verre, que le prince {{r3}} fit garder bien soigneusement."
+        },
+        {
+          "id": "a3e28",
+          "type": "adresse_public",
+          "texte": "Comptez les coups de minuit avec moi : un, deux… jusqu’à douze !",
+          "marionnetteId": "r3",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e29",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e30",
+          "type": "conteur",
+          "texte": "{{r1}} arriva chez elle, bien essoufflée, sans carrosse, sans laquais, et avec ses pauvres habits ; rien ne lui étant resté de sa magnificence, qu’une de ses petites pantoufles, la pareille de celle qu’elle avait laissée tomber."
+        },
+        {
+          "id": "a3e31",
+          "type": "conteur",
+          "texte": "On demanda aux gardes de la porte du palais s’ils n’avaient point vu sortir une princesse :"
+        },
+        {
+          "id": "a3e32",
+          "type": "note_marionnettiste",
+          "texte": "Voix du garde, en coulisse : « Nous n’avons vu sortir qu’une personne fort mal vêtue, qui avait plus l’air d’une paysanne que d’une demoiselle. »"
+        },
+        {
+          "id": "a3e33",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e34",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e35",
+          "type": "conteur",
+          "texte": "Quand {{r4}} et {{r5}} revinrent du bal, {{r1}} leur demanda :"
+        },
+        {
+          "id": "a3e36",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Le bal vous a encore plu ? La belle dame y était-elle ?"
+        },
+        {
+          "id": "a3e37",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Oui, elle était au bal ; mais elle s’est enfuie quand minuit a sonné, en laissant tomber une de ses petites pantoufles de verre, la plus jolie du monde. {{r3}}, le fils du roi, la fait garder et veut connaître la personne à qui elle appartient."
+        },
+        {
+          "id": "a3e38",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Une pantoufle est restée au palais. Répétez : une pantoufle !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e39",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e40",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        }
+      ],
+      "id": "a3"
+    },
+    {
+      "numero": 4,
+      "titre": "La pantoufle et les mariages",
+      "resume": "{{r3}} cherche la personne à qui va la pantoufle. {{r6}} l’essaie à {{r1}} ; elle pardonne aux deux enfants de sa belle-mère et les mariages concluent le conte.",
+      "tableauId": "t4",
+      "elements": [
+        {
+          "id": "a4e1",
+          "type": "conteur",
+          "texte": "{{r4}} et {{r5}} dirent vrai ; car, peu de jours après, {{r3}}, le fils du roi, fit publier, à son de trompe,"
+        },
+        {
+          "id": "a4e2",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e3",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "J’épouserai la personne dont le pied sera bien juste à la pantoufle.",
+          "ton": "avec décision"
+        },
+        {
+          "id": "a4e4",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e5",
+          "type": "conteur",
+          "texte": "On commença à l’essayer aux princesses, ensuite aux duchesses et à toute la cour, mais inutilement. La pantoufle arriva chez {{r4}} et {{r5}}."
+        },
+        {
+          "id": "a4e6",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e7",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e8",
+          "type": "conteur",
+          "texte": "{{r4}} fit tout son possible pour faire entrer son pied dans la pantoufle, sans pouvoir en venir à bout."
+        },
+        {
+          "id": "a4e9",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e10",
+          "type": "note_marionnettiste",
+          "texte": "Laisser une respiration pour changer la peluche de la main droite."
+        },
+        {
+          "id": "a4e11",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e12",
+          "type": "conteur",
+          "texte": "{{r5}} fit tout son possible à son tour, sans y parvenir non plus."
+        },
+        {
+          "id": "a4e13",
+          "type": "conteur",
+          "texte": "{{r1}}, qui les regardait, et qui reconnut sa pantoufle, dit en riant :"
+        },
+        {
+          "id": "a4e14",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Que je voie si elle ne m’irait pas !",
+          "ton": "en riant"
+        },
+        {
+          "id": "a4e15",
+          "type": "replique",
+          "texte": "Ha ! ha !",
+          "marionnetteId": "r5",
+          "ton": "en se moquant"
+        },
+        {
+          "id": "a4e16",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e17",
+          "type": "note_marionnettiste",
+          "texte": "Laisser une respiration pour changer la peluche de la main droite."
+        },
+        {
+          "id": "a4e18",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e19",
+          "type": "replique",
+          "texte": "Ha ! ha !",
+          "marionnetteId": "r4",
+          "ton": "en se moquant"
+        },
+        {
+          "id": "a4e20",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e21",
+          "type": "note_marionnettiste",
+          "texte": "Laisser une respiration pour changer la peluche de la main droite."
+        },
+        {
+          "id": "a4e22",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e23",
+          "type": "conteur",
+          "texte": "Le gentilhomme {{r6}}, qui faisait l’essai de la pantoufle, regarda attentivement {{r1}} et dit :"
+        },
+        {
+          "id": "a4e24",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "C’est très juste : j’ai l’ordre de l’essayer à toute personne.",
+          "ton": "avec politesse"
+        },
+        {
+          "id": "a4e25",
+          "type": "replique",
+          "texte": "Asseyez-vous.",
+          "marionnetteId": "r6",
+          "ton": "avec politesse"
+        },
+        {
+          "id": "a4e26",
+          "type": "didascalie",
+          "texte": "{{r1}} s’abaisse légèrement devant {{r6}}."
+        },
+        {
+          "id": "a4e27",
+          "type": "conteur",
+          "texte": "La pantoufle alla à son petit pied sans peine, juste comme de cire. L’étonnement de {{r4}} et {{r5}} fut grand, mais plus grand encore quand on vit l’autre petite pantoufle, qui était dans la poche de {{r1}} : elle allait aussi à son pied."
+        },
+        {
+          "id": "a4e28",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e29",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne lentement vers l’autre côté de la scène."
+        },
+        {
+          "id": "a4e30",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e31",
+          "type": "conteur",
+          "texte": "Là-dessus arriva la marraine {{r2}}, qui, d’un signe, fit devenir les habits de {{r1}} encore plus magnifiques que tous les autres."
+        },
+        {
+          "id": "a4e32",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "La seconde pantoufle ! Comptez avec moi : une, deux !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e33",
+          "type": "conteur",
+          "texte": "Alors {{r4}} et {{r5}} la reconnurent pour la personne que {{r4}} et {{r5}} avaient vue au bal."
+        },
+        {
+          "id": "a4e34",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e35",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne lentement vers l’autre côté de la scène."
+        },
+        {
+          "id": "a4e36",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e37",
+          "type": "didascalie",
+          "texte": "{{r4}} s’incline jusqu’aux pieds de {{r1}}."
+        },
+        {
+          "id": "a4e38",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Pardonne-moi tous les mauvais traitements que je t’ai fait souffrir.",
+          "ton": "humblement"
+        },
+        {
+          "id": "a4e39",
+          "type": "didascalie",
+          "texte": "{{r4}} se redresse ; {{r1}} approche la tête pour une embrassade."
+        },
+        {
+          "id": "a4e40",
+          "type": "replique",
+          "texte": "Je te pardonne de bon cœur et je te prie de m’aimer bien toujours.",
+          "marionnetteId": "r1",
+          "ton": "avec bonté"
+        },
+        {
+          "id": "a4e41",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e42",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne lentement vers l’autre côté de la scène."
+        },
+        {
+          "id": "a4e43",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e44",
+          "type": "didascalie",
+          "texte": "{{r5}} s’incline jusqu’aux pieds de {{r1}}."
+        },
+        {
+          "id": "a4e45",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Pardonne-moi tous les mauvais traitements que je t’ai fait souffrir.",
+          "ton": "humblement"
+        },
+        {
+          "id": "a4e46",
+          "type": "didascalie",
+          "texte": "{{r5}} se redresse ; {{r1}} approche la tête pour une embrassade."
+        },
+        {
+          "id": "a4e47",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je te pardonne de bon cœur et je te prie de m’aimer bien toujours.",
+          "ton": "avec bonté"
+        },
+        {
+          "id": "a4e48",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e49",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne lentement vers l’autre côté de la scène."
+        },
+        {
+          "id": "a4e50",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e51",
+          "type": "conteur",
+          "texte": "On la mena chez le jeune prince {{r3}}, parée comme elle était, et, peu de jours après, il l’épousa. {{r1}}, qui était bonne, fit loger {{r4}} et {{r5}} au palais, et les maria, dès le jour même, à deux grands seigneurs de la cour."
+        },
+        {
+          "id": "a4e52",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e53",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        }
+      ],
+      "id": "a4"
+    }
+  ],
+  "bible": {
+    "conteId": "fr-perrault-cendrillon",
+    "synopsis": {
+      "accroche": "Une pantoufle de verre révèle la jeune fille du bal.",
+      "resume": [
+        "{{r1}} travaille pour sa belle-mère et ses deux filles.",
+        "{{r2}} la fait aller à deux bals, à condition de rentrer avant minuit.",
+        "La pantoufle perdue mène {{r3}} à {{r1}} ; elle pardonne aux deux enfants de sa belle-mère et les mariages concluent le conte."
+      ]
+    },
+    "transposition": {
+      "texte": "Il était une fois un gentilhomme qui épousa, en secondes noces, une femme, la plus hautaine et la plus fière qu’on eût jamais vue. Elle avait deux enfants de son humeur, {{r4}} et {{r5}}, qui lui ressemblaient en toutes choses. Le mari avait, de son côté, une jeune fille, mais d’une douceur et d’une bonté sans exemple : elle tenait cela de sa mère, qui était la meilleure personne du monde.\n\nLes noces ne furent pas plus tôt faites que la belle-mère fit éclater sa mauvaise humeur : elle ne put souffrir les bonnes qualités de cette jeune enfant, qui rendaient ses deux enfants encore plus haïssables. Elle la chargea des plus viles occupations de la maison : c’était elle qui nettoyait la vaisselle et les escaliers, qui frottait la chambre de madame et celles de ses deux enfants ; elle couchait tout au haut de la maison, dans un grenier, sur une mauvaise paillasse, pendant que {{r4}}, sa sœur, et {{r5}}, son autre sœur, étaient dans des chambres parquetées où {{r4}} et {{r5}} avaient des lits des plus à la mode, et des miroirs où {{r4}} et {{r5}} se voyaient depuis les pieds jusqu’à la tête. La pauvre {{r1}} souffrait tout avec patience et n’osait s’en plaindre à son père, qui l’aurait grondée, parce que sa femme le gouvernait entièrement.\n\nLorsqu’elle avait fait son ouvrage, elle allait se mettre au coin de la cheminée, et s’asseoir dans les cendres, ce qui faisait qu’on l’appelait communément dans le logis {{r1}}. Cependant {{r1}}, avec ses pauvres habits, était tout de même cent fois plus digne que {{r4}} et {{r5}}, malgré leurs magnifiques vêtements.\n\nIl arriva que {{r3}}, le fils du roi, donna un bal et qu’il y invita toutes les personnes de qualité. {{r4}} et {{r5}} reçurent aussi une invitation, car {{r4}} et {{r5}} faisaient grande figure dans le pays. Le duo se réjouit et s’occupa à choisir les habits et les coiffures qui leur iraient le mieux. Nouvelle peine pour {{r1}}, car c’était elle qui repassait le linge de {{r4}} et {{r5}} et qui plissait leurs manchettes. On ne parlait que de la manière dont on s’habillerait. {{r4}}, l’aînée, dit : — Moi, je mettrai mon habit de velours rouge et ma dentelle d’Angleterre. {{r5}}, la cadette, dit : — Moi, je n’aurai que ma jupe ordinaire ; mais, en revanche, je mettrai mon manteau à fleurs d’or et ma parure de diamants, qui ne passe pas inaperçue. — On envoya chercher la bonne coiffeuse pour dresser les cornettes à deux rangs, et on fit acheter des faux grains de beauté de la bonne faiseuse.\n\n{{r4}} et {{r5}} appelèrent {{r1}}, car elle avait le goût bon. — {{r1}}, donne-nous ton avis. {{r1}} les conseilla le mieux du monde. — Je peux aussi vous aider pour les coiffures. — Volontiers. Pendant ces préparatifs, {{r4}} et {{r5}} lui disaient : « {{r1}}, serais-tu bien aise d’aller au bal ? — Hélas ! mademoiselle, vous vous moquez de moi ; ce n’est pas là ce qu’il me faut. — Tu as raison, on rirait bien, si on voyait une {{r1}} aller au bal. — Une autre que {{r1}} aurait fait choisir des coiffures de travers ; mais elle était bonne, et les coiffures furent parfaites grâce à elle.\n\n{{r4}} et {{r5}} furent près de deux jours sans manger, tant leur joie était grande. Plus de douze lacets se rompirent, tant les tailles étaient serrées pour être plus menues, et {{r4}} et {{r5}} étaient toujours devant le miroir. Enfin l’heureux jour arriva ; on partit, et {{r1}} les suivit des yeux, le plus longtemps qu’elle put.\n\nLorsqu’elle ne les vit plus, elle se mit à pleurer. Sa marraine {{r2}}, qui la vit tout en pleurs, lui demanda : « Qu’as-tu ? » « Je voudrais bien… je voudrais bien… » Elle pleurait si fort qu’elle ne put achever. Sa marraine {{r2}}, aux pouvoirs de fée, lui dit : « Tu voudrais bien aller au bal, n’est-ce pas ? — Hélas ! oui, dit {{r1}} en soupirant. — Eh bien ! seras-tu bonne ? dit sa marraine {{r2}}, je t’y ferai aller. » — Elle la mena dans sa chambre, et lui dit : Va dans le jardin : il nous faut une citrouille. » — {{r1}} choisit la plus belle citrouille du jardin, sans deviner comment elle pourrait la faire aller au bal. La citrouille fut creusée jusqu’à l’écorce. Un signe de {{r2}}, et elle fut aussitôt changée en un beau carrosse tout doré.\n\nEnsuite elle alla regarder dans la souricière, où elle trouva six souris toutes en vie. Elle dit à {{r1}} : « Laisse sortir les souris de la souricière. » Et, à chaque souris qui sortait, un signe de {{r2}} suffisait, et la souris était aussitôt changée en un beau cheval : ce qui fit un bel attelage de six chevaux, d’un beau gris de souris pommelé.\n\nComme elle se demandait de quoi elle ferait un cocher : « Je vais voir, dit {{r1}}, s’il n’y a pas quelque rat dans la ratière, nous en ferons un cocher. — Tu as raison, dit sa marraine {{r2}}, va voir. » — La ratière contenait trois gros rats. L’un d’eux, choisi à cause de sa grande barbe, fut changé par {{r2}} en un gros cocher, qui avait une des plus belles moustaches qu’on ait jamais vues.\n\nEnsuite elle lui dit : « Va dans le jardin, tu y trouveras six lézards derrière l’arrosoir ; il nous les faut. » — Dès que les six lézards furent là, sa marraine {{r2}} les changea en six laquais, qui montèrent aussitôt derrière le carrosse, avec leurs habits chamarrés, et qui s’y tenaient attachés comme s’ils n’eussent fait autre chose de toute leur vie.\n\n{{r2}} dit alors à {{r1}} : « Eh bien ! voilà de quoi aller au bal : n’es-tu pas bien aise ? — Oui, mais est-ce que j’irai comme cela, avec mes vilains habits ? » — Un signe de {{r2}}, et les habits de {{r1}} furent changés en des habits d’or et d’argent, tout chamarrés de pierreries ; une paire de pantoufles de verre apparut ensuite pour {{r1}}, les plus jolies du monde. Quand elle fut ainsi parée, elle monta en carrosse ; mais sa marraine {{r2}} lui recommanda, sur toutes choses, de ne pas passer minuit, l’avertissant que, si elle demeurait au bal un moment davantage, son carrosse redeviendrait citrouille, ses chevaux des souris, ses laquais des lézards, et que ses beaux habits reprendraient leur première forme.\n\nElle promit à sa marraine {{r2}} qu’elle ne manquerait pas de sortir du bal avant minuit. Elle part, folle de joie. {{r3}}, le fils du roi, qu’on alla avertir qu’il venait d’arriver une grande princesse qu’on ne connaissait point, courut la recevoir. Il l’accueillit à la descente du carrosse, et la mena dans la salle où était la compagnie. Il se fit alors un grand silence ; on cessa de danser, et les violons ne jouèrent plus, tant on était attentif à contempler cette inconnue. Le roi même, tout vieux qu’il était, ne pouvait s’empêcher de la regarder, et de dire tout bas à la reine qu’il y avait longtemps qu’il n’avait vu une si aimable personne. Toutes les dames étaient attentives à considérer sa coiffure et ses habits, pour en avoir, dès le lendemain, des semblables, pourvu qu’il se trouvât des étoffes assez belles, et des ouvriers assez habiles.\n\n{{r3}}, le fils du roi, la mit à la place la plus honorable, et ensuite l’invita à danser. Elle dansa avec tant de grâce. On l’admira encore davantage. Elle alla s’asseoir auprès de {{r4}} et {{r5}} et leur fit mille politesses ; elle partagea avec {{r4}} et {{r5}} les oranges et les citrons que le prince {{r3}} lui avait donnés, ce qui les étonna fort car {{r4}} et {{r5}} ne la connaissaient point.\n\nPendant cette conversation, {{r1}} entendit sonner onze heures trois quarts ; elle fit aussitôt une grande révérence à la compagnie, et s’en alla le plus vite qu’elle put. Dès qu’elle fut arrivée, elle alla trouver sa marraine {{r2}}, et, après l’avoir remerciée, elle lui dit qu’elle souhaiterait bien aller encore le lendemain au bal.\n\nComme elle était occupée à raconter à sa marraine {{r2}} tout ce qui s’était passé au bal, {{r4}} et {{r5}} frappèrent à la porte ; {{r1}} alla leur ouvrir. « Que vous êtes longtemps à revenir ! » leur dit-elle en baillant et en s’étirant comme si elle n’eût fait que de se réveiller ; elle n’avait cependant pas eu envie de dormir, depuis leur séparation. — « Si tu étais venue au bal, lui dit {{r4}}, sa sœur, tu ne t’y serais pas ennuyée ; il est venu la plus gentille princesse, la plus gentille qu’on puisse jamais voir ; elle nous a fait mille civilités ; elle nous a donné des oranges et des citrons. » — {{r1}} était folle de joie et demanda : « Quel est le nom de cette princesse ? » {{r4}} répondit : « On ne la connaît pas. {{r3}}, le fils du roi, donnerait toutes choses au monde pour savoir qui elle est. » {{r1}} sourit et leur dit : « Elle était donc bien gentille ? Mon Dieu ! quelle joie vous avez ! ne pourrais-je point la voir ? Hélas ! mademoiselle {{r5}}, prêtez-moi votre habit jaune que vous mettez tous les jours. — Vraiment, dit mademoiselle {{r5}}, je suis de cet avis ! Prêter mon habit à une vilaine {{r1}} comme cela ! il faudrait que je sois bien folle. » — {{r1}} s’attendait bien à ce refus, et elle en fut bien aise, car elle aurait été grandement embarrassée, si sa sœur eût bien voulu lui prêter son habit.\n\nLe lendemain, {{r4}} et {{r5}} furent au bal, et {{r1}} aussi, mais encore plus parée que la première fois. {{r1}} ne s’ennuyait point et oublia ce que sa marraine {{r2}} lui avait recommandé ; de sorte qu’elle entendit sonner le premier coup de minuit, lorsqu’elle ne croyait point qu’il fût encore onze heures ; elle se leva, et s’enfuit aussi légèrement qu’aurait fait une biche. Le prince {{r3}} la suivit. Elle laissa tomber une de ses pantoufles de verre, que le prince {{r3}} fit garder bien soigneusement. {{r1}} arriva chez elle, bien essoufflée, sans carrosse, sans laquais, et avec ses pauvres habits ; rien ne lui étant resté de sa magnificence, qu’une de ses petites pantoufles, la pareille de celle qu’elle avait laissée tomber.\n\nOn demanda aux gardes de la porte du palais s’ils n’avaient point vu sortir une princesse : « Nous n’avons vu sortir qu’une personne fort mal vêtue, qui avait plus l’air d’une paysanne que d’une demoiselle. »\n\nQuand {{r4}} et {{r5}} revinrent du bal, {{r1}} leur demanda : « Le bal vous a encore plu ? La belle dame y était-elle ? » {{r5}} répondit : « Oui, elle était au bal ; mais elle s’est enfuie quand minuit a sonné, en laissant tomber une de ses petites pantoufles de verre, la plus jolie du monde. {{r3}}, le fils du roi, la fait garder et veut connaître la personne à qui elle appartient. »\n\n{{r4}} et {{r5}} dirent vrai ; car, peu de jours après, {{r3}}, le fils du roi, fit publier, à son de trompe, qu’il épouserait la personne dont le pied serait bien juste à la pantoufle. On commença à l’essayer aux princesses, ensuite aux duchesses et à toute la cour, mais inutilement. La pantoufle arriva chez {{r4}} et {{r5}}. {{r4}} fit tout son possible pour faire entrer son pied dans la pantoufle, sans pouvoir en venir à bout. {{r5}} fit tout son possible à son tour, sans y parvenir non plus. {{r1}}, qui les regardait, et qui reconnut sa pantoufle, dit en riant : « Que je voie si elle ne m’irait pas ! » {{r4}} et {{r5}} se mirent à rire et à se moquer d’elle. Le gentilhomme {{r6}}, qui faisait l’essai de la pantoufle, regarda attentivement {{r1}} et dit : « C’est très juste : j’ai l’ordre de l’essayer à toute personne. » Il fit asseoir {{r1}}. La pantoufle alla à son petit pied sans peine, juste comme de cire. L’étonnement de {{r4}} et {{r5}} fut grand, mais plus grand encore quand on vit l’autre petite pantoufle, qui était dans la poche de {{r1}} : elle allait aussi à son pied. Là-dessus arriva la marraine {{r2}}, qui, d’un signe, fit devenir les habits de {{r1}} encore plus magnifiques que tous les autres.\n\nAlors {{r4}} et {{r5}} la reconnurent pour la personne que {{r4}} et {{r5}} avaient vue au bal. {{r4}} et {{r5}} se jetèrent à ses pieds pour lui demander pardon de tous les mauvais traitements que le duo lui avait fait souffrir. {{r4}} et {{r5}} se relevèrent sous les embrassades de {{r1}}, qui leur dit qu’elle leur pardonnait de bon cœur, et qu’elle les priait de l’aimer bien toujours. On la mena chez le jeune prince {{r3}}, parée comme elle était, et, peu de jours après, il l’épousa. {{r1}}, qui était bonne, fit loger {{r4}} et {{r5}} au palais, et les maria, dès le jour même, à deux grands seigneurs de la cour.\n"
+    }
+  },
+  "dureeEstimeeSecondes": 1337,
+  "interactionsOrdonnees": [
+    "a3e28",
+    "a2e29",
+    "a4e32",
+    "a2e13",
+    "a3e38",
+    "a2e47",
+    "a3e19",
+    "a1e30",
+    "a1e5"
+  ]
+}

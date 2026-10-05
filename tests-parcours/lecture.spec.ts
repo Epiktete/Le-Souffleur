@@ -1,0 +1,526 @@
+// Parcours du mode lecture (CDC §9), étape 5.
+//
+// Critère d'acceptation du §13 : « un spectacle se joue du début à la fin
+// uniquement avec la barre Espace, sans défilement parasite ».
+import { expect, type Page, test } from '@playwright/test';
+import { creerMarionnette } from './aides';
+import { installerFauxModele, TROIS_MARIONNETTES } from './faux-modele';
+
+/** Génère un spectacle et ouvre le mode lecture. */
+async function ouvrirLaLecture(page: Page) {
+  await installerFauxModele(page);
+
+  await page.goto('/#/parametres');
+  await page.getByLabel('Clé API').fill('cle-de-test');
+  await page.getByLabel('Mémoriser la clé sur cet appareil').check();
+  await page.getByRole('button', { name: 'Enregistrer', exact: true }).click();
+  await expect(page.getByText('Enregistré.')).toBeVisible();
+
+  await page.goto('/#/studio');
+  for (const nom of TROIS_MARIONNETTES) {
+    await creerMarionnette(page, nom);
+    await page.getByRole('button', { name: `Ajouter ${nom} aux personnages` }).click();
+  }
+  await page.getByRole('button', { name: 'Générer le script' }).click();
+  await expect(page.getByText('Choisissez une histoire')).toBeVisible({ timeout: 15000 });
+  await page.getByRole('button', { name: 'Choisir cette histoire' }).first().click();
+  await expect(page.getByText('Votre spectacle est prêt')).toBeVisible({ timeout: 25000 });
+
+  await page.getByRole('button', { name: 'Ouvrir le script' }).click();
+  await page.getByRole('button', { name: 'Jouer' }).click();
+  await expect(page.getByRole('application', { name: 'Lecture' })).toBeVisible();
+
+  // Au lever de rideau, le premier décor s'annonce : on le referme pour que
+  // chaque parcours parte de la première page de texte.
+  await expect(page.locator('.decor')).toContainText('Premier décor');
+  await page.keyboard.press('Space');
+  await expect(page.locator('.decor')).toBeHidden();
+  await page.waitForTimeout(320); // l'anti-rebond des pédales
+}
+
+/** Numéro de page affiché dans le bandeau, et total. */
+async function position(page: Page): Promise<[number, number]> {
+  const texte = await page.locator('.place').textContent() ?? '';
+  const m = /(\d+)\s*\/\s*(\d+)/.exec(texte);
+  return [Number(m?.[1] ?? 0), Number(m?.[2] ?? 0)];
+}
+
+test('répliques et indications scéniques se suivent dans un seul fil, dans l’ordre du jeu', async ({ page }) => {
+  await ouvrirLaLecture(page);
+
+  // La zone de mesure rend tout le spectacle, rangée après rangée : l'ordre
+  // s'y lit sans tourner les pages.
+  const fil = page.locator('.mesure .rangee .fil');
+  // L'entrée, puis la réplique qu'elle annonce, puis ce que fait la marionnette.
+  await expect(fil.nth(0).locator('.mouvement')).toContainText('ENTRÉE : DOUDOU LAPIN');
+  await expect(fil.nth(1).locator('.nom')).toContainText('Doudou Lapin');
+  await expect(fil.nth(1).locator('.dit')).toHaveCount(1);
+  await expect(fil.nth(2).locator('.didascalie')).toHaveText('Il regarde sous le buisson.');
+  // Les deux se distinguent par la forme : l'indication en italique, plus petite.
+  const styles = await page.evaluate(() => {
+    const dit = document.querySelector('.mesure .dit')!;
+    const dida = document.querySelector('.mesure .didascalie')!;
+    return {
+      dit: parseFloat(getComputedStyle(dit).fontSize),
+      dida: parseFloat(getComputedStyle(dida).fontSize),
+      italique: getComputedStyle(dida).fontStyle,
+    };
+  });
+  expect(styles.italique).toBe('italic');
+  expect(styles.dida).toBeLessThan(styles.dit);
+});
+
+test('critère d’acceptation : tout le spectacle à la barre Espace', async ({ page }) => {
+  await ouvrirLaLecture(page);
+
+  expect((await position(page))[1]).toBeGreaterThan(1);
+
+  // On traverse le spectacle entier sans jamais toucher autre chose que la
+  // barre Espace. Un écran de changement de décor consomme un appui sans
+  // faire avancer : on boucle donc jusqu'à la dernière page.
+  //
+  // Le TOTAL est relu à chaque tour, et non figé au départ : la pagination se
+  // stabilise après le premier rendu, le temps que toutes les rangées soient
+  // mesurées. Figé, il valait 6 alors que le spectacle en faisait 8, et la
+  // boucle s'arrêtait avant la fin.
+  //
+  // 450 ms et non 320 : l'anti-rebond des pédales est de 300 ms, et vingt
+  // millisecondes de marge ne tiennent pas sous charge.
+  let garde = 0;
+  let [courante, total] = await position(page);
+  while (courante < total && garde++ < total * 4) {
+    await page.keyboard.press('Space');
+    await page.waitForTimeout(450);
+    [courante, total] = await position(page);
+  }
+
+  expect(courante).toBe(total);
+});
+
+test('aucun défilement parasite : la page ne bouge pas', async ({ page }) => {
+  await ouvrirLaLecture(page);
+
+  const avant = await page.evaluate(() => window.scrollY);
+  for (const touche of ['Space', 'ArrowDown', 'PageDown', 'ArrowUp']) {
+    await page.keyboard.press(touche);
+    await page.waitForTimeout(320);
+  }
+  expect(await page.evaluate(() => window.scrollY)).toBe(avant);
+});
+
+test('toutes les touches des pédales du commerce tournent la page', async ({ page }) => {
+  await ouvrirLaLecture(page);
+
+  for (const touche of ['Space', 'ArrowRight', 'ArrowDown', 'PageDown']) {
+    const [avant] = await position(page);
+    await page.keyboard.press(touche);
+    await page.waitForTimeout(320);
+    const [apres] = await position(page);
+    // Soit on a avancé, soit on était déjà à la fin.
+    expect(apres).toBeGreaterThanOrEqual(avant);
+  }
+
+  // Et les touches de retour ramènent en arrière.
+  const [avant] = await position(page);
+  await page.keyboard.press('ArrowLeft');
+  await page.waitForTimeout(320);
+  const [apres] = await position(page);
+  expect(apres).toBeLessThanOrEqual(avant);
+});
+
+test('un appui trop rapproché est ignoré : rebond de pédale', async ({ page }) => {
+  await ouvrirLaLecture(page);
+
+  await page.keyboard.press('Space');
+  await page.waitForTimeout(320);
+  const [apresPremier] = await position(page);
+
+  // Deux appuis dans la foulée : le second doit être absorbé.
+  await page.keyboard.press('Space');
+  await page.keyboard.press('Space');
+  await page.waitForTimeout(100);
+  const [apresRafale] = await position(page);
+  expect(apresRafale - apresPremier).toBeLessThanOrEqual(1);
+});
+
+test('la taille du texte se règle et se mémorise', async ({ page }) => {
+  await ouvrirLaLecture(page);
+
+  const taille = () => page.locator('.lecture').evaluate(
+    (el) => getComputedStyle(el).getPropertyValue('--taille'),
+  );
+  const depart = await taille();
+
+  await page.keyboard.press('+');
+  await expect.poll(taille).not.toBe(depart);
+  const agrandie = await taille();
+
+  // La taille survit à un rechargement : elle est mémorisée par appareil.
+  const adresse = page.url();
+  await page.reload();
+  await page.goto(adresse);
+  const reprise = page.getByRole('button', { name: /Reprendre|Recommencer/ }).first();
+  if (await reprise.isVisible()) await reprise.click();
+  await expect(page.getByRole('application', { name: 'Lecture' })).toBeVisible();
+  await expect.poll(taille).toBe(agrandie);
+});
+
+test('le changement de décor s’annonce et attend un appui', async ({ page }) => {
+  await ouvrirLaLecture(page);
+
+  const [, total] = await position(page);
+  let vu = false;
+  for (let i = 1; i < total; i++) {
+    await page.keyboard.press('Space');
+    await page.waitForTimeout(320);
+    if (await page.locator('.decor').isVisible()) {
+      vu = true;
+      await expect(page.locator('.decor')).toContainText('Changement de décor');
+      await expect(page.locator('.decor')).toContainText('Le terrier');
+      await page.keyboard.press('Space');
+      await page.waitForTimeout(320);
+      break;
+    }
+  }
+  // Le spectacle simulé a deux tableaux : l'écran doit apparaître.
+  expect(vu).toBe(true);
+});
+
+test('revenir en arrière ne rejoue pas l’annonce d’un décor', async ({ page }) => {
+  await ouvrirLaLecture(page);
+  const [, total] = await position(page);
+  for (let i = 1; i < total; i++) {
+    await page.keyboard.press('Space');
+    await page.waitForTimeout(320);
+    if (!(await page.locator('.decor').isVisible())) continue;
+    // Le décor annoncé, on le referme ; on avance d'une page, puis on RECULE
+    // sur la page qui change de décor : l'annonce ne doit pas revenir.
+    await page.keyboard.press('Space');
+    await page.waitForTimeout(320);
+    const [ici] = await position(page);
+    if (ici >= total) throw new Error('le décor change sur la dernière page : le test ne prouve rien');
+    await page.keyboard.press('Space');
+    await page.waitForTimeout(320);
+    await page.keyboard.press('ArrowLeft');
+    await page.waitForTimeout(320);
+    await expect(page.locator('.decor')).toBeHidden();
+    expect((await position(page))[0]).toBe(ici);
+    return;
+  }
+  throw new Error('aucun changement de décor rencontré : le test ne prouve rien');
+});
+
+test('le nombre de pages ne bouge pas pendant l’annonce d’un décor', async ({ page }) => {
+  // Le spectacle tournait en rond sur un changement de décor. Pendant que
+  // l'annonce est affichée, la zone de page n'est plus disposée et sa hauteur
+  // vaut zéro ; la pagination repliait alors tout le spectacle sur une seule
+  // page, la position était ramenée en arrière, l'annonce se rejouait — et on
+  // n'avançait plus jamais. Le parent, lui, serait resté bloqué en pleine
+  // représentation.
+  await ouvrirLaLecture(page);
+
+  const [, total] = await position(page);
+  expect(total).toBeGreaterThan(1);
+
+  for (let i = 1; i < total * 2; i++) {
+    await page.keyboard.press('Space');
+    await page.waitForTimeout(450);
+    if (await page.locator('.decor').isVisible()) {
+      // C'est ici que tout se jouait : le spectacle se repliait sur UNE page.
+      // Le total peut encore bouger d'un cran — la pagination se stabilise
+      // après le premier rendu — mais il ne doit jamais s'effondrer.
+      expect((await position(page))[1]).toBeGreaterThan(1);
+      await page.keyboard.press('Space');
+      await page.waitForTimeout(450);
+      expect((await position(page))[1]).toBeGreaterThan(1);
+      // Et l'annonce se referme : on ne revient pas dessus indéfiniment.
+      await expect(page.locator('.decor')).toBeHidden();
+      return;
+    }
+  }
+  throw new Error('aucun changement de décor rencontré : le test ne prouve rien');
+});
+
+test('Échap et la croix quittent le spectacle', async ({ page }) => {
+  await ouvrirLaLecture(page);
+  await page.keyboard.press('Escape');
+  await expect(page.getByRole('region', { name: 'Spectacles' })).toBeVisible();
+
+  await page.getByRole('region', { name: 'Spectacles' }).getByRole('button').first().click();
+  await page.getByRole('button', { name: 'Jouer' }).click();
+  const reprise = page.getByRole('button', { name: /Recommencer/ });
+  if (await reprise.isVisible()) await reprise.click();
+  await page.getByRole('button', { name: 'Quitter' }).first().click();
+  await expect(page.getByRole('region', { name: 'Spectacles' })).toBeVisible();
+});
+
+test('le bouton Menu ouvre le menu sans tourner la page', async ({ page }) => {
+  await ouvrirLaLecture(page);
+  const [avant] = await position(page);
+
+  // L'appui sur le bouton remontait jusqu'au fond de l'écran, qui le prenait
+  // pour un toucher à droite : la page tournait en même temps.
+  await page.getByRole('button', { name: 'Menu', exact: true }).click();
+  await expect(page.getByRole('dialog', { name: 'Menu' })).toBeVisible();
+  expect((await position(page))[0]).toBe(avant);
+});
+
+test('le menu permet de basculer en mode édition', async ({ page }) => {
+  await ouvrirLaLecture(page);
+
+  await page.keyboard.press('m');
+  await expect(page.getByRole('dialog', { name: 'Menu' })).toBeVisible();
+  await page.getByRole('button', { name: 'Édition', exact: true }).click();
+
+  await expect(page.getByRole('heading', { name: /Acte 1/ })).toBeVisible();
+  await expect(page).toHaveURL(/#\/spectacle\/[^/]+$/);
+});
+
+test('la page de test des touches affiche la touche reçue', async ({ page }) => {
+  await ouvrirLaLecture(page);
+
+  await page.keyboard.press('m');
+  await page.getByRole('button', { name: 'Tester ma pédale' }).click();
+  const dialogue = page.getByRole('dialog', { name: 'Test de la pédale' });
+  await expect(dialogue).toBeVisible();
+
+  await page.keyboard.press('Space');
+  await expect(dialogue).toContainText('Espace');
+  await expect(dialogue).toContainText('Page suivante');
+
+  // L'anti-rebond vaut aussi ici : sans attendre, l'appui serait ignoré,
+  // exactement comme il le serait pendant le spectacle.
+  await page.waitForTimeout(320);
+  await page.keyboard.press('ArrowLeft');
+  await expect(dialogue).toContainText('Page précédente');
+
+  await page.keyboard.press('Escape');
+  await expect(page.getByRole('dialog', { name: 'Test de la pédale' })).toHaveCount(0);
+});
+
+test('la position est mémorisée et la reprise proposée', async ({ page }) => {
+  await ouvrirLaLecture(page);
+
+  await page.keyboard.press('Space');
+  await page.waitForTimeout(320);
+  const [avant] = await position(page);
+  expect(avant).toBeGreaterThan(1);
+
+  await page.keyboard.press('Escape');
+  await page.getByRole('region', { name: 'Spectacles' }).getByRole('button').first().click();
+  await page.getByRole('button', { name: 'Jouer' }).click();
+
+  await expect(page.getByRole('button', { name: /Reprendre à la page/ })).toBeVisible();
+  await page.getByRole('button', { name: /Reprendre à la page/ }).click();
+  const [reprise] = await position(page);
+  expect(reprise).toBe(avant);
+});
+
+test('« Recommencer » repart de la première page', async ({ page }) => {
+  await ouvrirLaLecture(page);
+  await page.keyboard.press('Space');
+  await page.waitForTimeout(320);
+  await page.keyboard.press('Escape');
+
+  await page.getByRole('region', { name: 'Spectacles' }).getByRole('button').first().click();
+  await page.getByRole('button', { name: 'Jouer' }).click();
+  await page.getByRole('button', { name: 'Recommencer depuis le début' }).click();
+  expect((await position(page))[0]).toBe(1);
+});
+
+test('une note au marionnettiste ne se confond jamais avec une réplique', async ({ page }) => {
+  await ouvrirLaLecture(page);
+
+  // Exigence du §9 : les notes ne doivent jamais être lues à voix haute. Elles
+  // sont dans le fil, mais dans leur cadre, jamais dans une réplique.
+  const notes = await page.evaluate(() => ({
+    total: document.querySelectorAll('.mesure .note').length,
+    dansUneReplique: document.querySelectorAll('.mesure .bulle .note').length,
+  }));
+  expect(notes.total).toBeGreaterThan(0);
+  expect(notes.dansUneReplique).toBe(0);
+});
+
+test('aucune réplique n’est coupée en bas de page', async ({ page }) => {
+  // Trois défauts se cumulaient ici : une mesure simplifiée, l'oubli de la
+  // marge entre rangées, et clientHeight qui comprend le rembourrage. La
+  // dernière réplique d'une page se retrouvait rognée — en représentation, on
+  // perdrait du texte.
+  await ouvrirLaLecture(page);
+
+  // La hauteur d'écran change tout : on en éprouve plusieurs.
+  await page.setViewportSize({ width: 1280, height: 760 });
+  await page.waitForTimeout(600);
+
+  const [, total] = await position(page);
+  for (let i = 0; i < total; i++) {
+    if (!(await page.locator('.decor').isVisible())) {
+      const depassement = await page.locator('.page').evaluate((zone) => {
+        const bas = zone.getBoundingClientRect().bottom;
+        let pire = 0;
+        for (const rangee of zone.querySelectorAll('.rangee')) {
+          pire = Math.max(pire, rangee.getBoundingClientRect().bottom - bas);
+        }
+        return pire;
+      });
+      // Une tolérance de 2 px absorbe les arrondis du navigateur.
+      expect(depassement).toBeLessThanOrEqual(2);
+    }
+    await page.keyboard.press('Space');
+    await page.waitForTimeout(320);
+  }
+});
+
+test('une tirade plus haute que l’écran est coupée, jamais tronquée', async ({ page }) => {
+  await ouvrirLaLecture(page);
+
+  // Le faux modèle produit une longue tirade : elle doit apparaître en
+  // plusieurs morceaux, le second marqué « (suite) ».
+  const [, total] = await position(page);
+  let suiteVue = false;
+  for (let i = 0; i < total; i++) {
+    if (await page.locator('.suite').count() > 0) { suiteVue = true; break; }
+    await page.keyboard.press('Space');
+    await page.waitForTimeout(320);
+  }
+  expect(suiteVue).toBe(true);
+});
+
+test('chaque marionnette a sa couleur, et le nom reste écrit', async ({ page }) => {
+  // En représentation, le marionnettiste doit voir que la réplique change de
+  // bouche sans avoir le temps de lire le nom (CDC §9).
+  //
+  // On lit la zone de mesure, qui rend TOUTES les rangées du spectacle avec le
+  // même balisage et la même feuille de style que la page affichée. Parcourir
+  // le spectacle au clavier pour la même vérification rendait ce test lent et
+  // sensible à la charge de la machine.
+  await ouvrirLaLecture(page);
+
+  const releves = await page.evaluate(() =>
+    [...document.querySelectorAll('.mesure .bulle')].map((el) => ({
+      classe: [...el.classList].find((c) => /^c\d$/.test(c)) ?? '',
+      couleur: getComputedStyle(el).borderLeftColor,
+      nom: (el.querySelector('.nom')?.textContent ?? '').trim(),
+    })));
+
+  expect(releves.length).toBeGreaterThan(3);
+
+  const couleurs = new Map<string, string>();
+  for (const r of releves) {
+    // Le nom est toujours écrit : la couleur ne fait que le doubler, elle ne
+    // porte jamais seule l'information (CDC §12).
+    expect(r.nom.length).toBeGreaterThan(0);
+    expect(r.classe).not.toBe('');
+    // Une même marionnette garde sa couleur d'un bout à l'autre.
+    if (couleurs.has(r.classe)) expect(couleurs.get(r.classe)).toBe(r.couleur);
+    else couleurs.set(r.classe, r.couleur);
+  }
+
+  // Les trois marionnettes du spectacle de test portent trois couleurs distinctes.
+  expect(couleurs.size).toBe(3);
+  expect(new Set(couleurs.values()).size).toBe(3);
+
+  // Et la page réellement affichée porte bien ces classes, pas seulement la
+  // zone de mesure.
+  await expect(page.locator('.page .bulle').first()).toHaveClass(/c\d/);
+});
+
+test('à droite d’une réplique, seulement la façon de la dire', async ({ page }) => {
+  await ouvrirLaLecture(page);
+
+  // La zone de mesure porte toutes les rangées, avec la même grille.
+  const r = await page.evaluate(() => {
+    const avecTon = [...document.querySelectorAll('.mesure .rangee')]
+      .find((x) => x.querySelector('.jeu .ton'));
+    if (!avecTon) return null;
+    return {
+      ton: avecTon.querySelector('.jeu .ton')!.textContent,
+      nom: avecTon.querySelector('.fil .nom')!.getBoundingClientRect().toJSON(),
+      tonRect: avecTon.querySelector('.jeu .ton')!.getBoundingClientRect().toJSON(),
+      dit: avecTon.querySelector('.fil .dit')!.getBoundingClientRect().toJSON(),
+      // Rien d'autre que des tons dans la colonne de droite.
+      autres: document.querySelectorAll('.mesure .jeu > :not(.ton)').length,
+    };
+  });
+
+  expect(r, 'aucune réplique ne porte de ton').not.toBeNull();
+  expect(r!.ton).toBe('affolé');
+  // À droite du texte, à hauteur du nom.
+  expect(r!.tonRect.left).toBeGreaterThan(r!.dit.right - 1);
+  expect(r!.tonRect.top).toBeLessThan(r!.nom.bottom + 8);
+  expect(r!.autres).toBe(0);
+
+  // Sans ton, aucune colonne vide ne doit réduire la largeur du texte.
+  const sansTon = await page.locator('.mesure .rangee').evaluateAll((rangees) =>
+    rangees.filter((r) => !r.querySelector('.ton')).map((r) => ({
+      largeur: r.getBoundingClientRect().width,
+      fil: r.querySelector('.fil')!.getBoundingClientRect().width,
+    })));
+  expect(sansTon.length).toBeGreaterThan(0);
+  for (const r of sansTon) expect(Math.abs(r.largeur - r.fil)).toBeLessThan(2);
+
+  await page.setViewportSize({ width: 640, height: 800 });
+  const mobile = await page.locator('.mesure .rangee').evaluateAll((rangees) =>
+    rangees.filter((r) => r.querySelector('.ton')).map((r) => ({
+      ton: r.querySelector('.ton')!.getBoundingClientRect().bottom,
+      texte: r.querySelector('.fil')!.getBoundingClientRect().top,
+    })));
+  for (const r of mobile) expect(r.ton).toBeLessThanOrEqual(r.texte);
+});
+
+test('six personnages et le conteur ont sept couleurs distinctes sur les deux fonds', async ({ page }, testInfo) => {
+  await page.goto('/');
+  for (const nom of ['Alba', 'Basile', 'Céleste', 'Dorian', 'Éloïse', 'Félix']) {
+    await creerMarionnette(page, nom, 'homme');
+  }
+  await page.getByLabel('Durée').fill('20');
+  await page.getByLabel('Âge').fill('9');
+  await page.getByRole('region', { name: 'Studio' })
+    .getByRole('button', { name: /Les Habits neufs de l.empereur/ }).click();
+  await page.getByRole('button', { name: 'Créer le spectacle' }).click();
+  await page.getByRole('button', { name: 'Ouvrir le script' }).click();
+  await page.getByRole('button', { name: 'Jouer', exact: true }).click();
+  await expect(page.locator('.decor')).toBeVisible();
+  await page.keyboard.press('Space');
+  await expect(page.locator('.decor')).toBeHidden();
+
+  // Montrer aussi une réplique colorée sur les captures, pas seulement
+  // le premier paragraphe du conteur.
+  for (let i = 0; i < 10 && !(await page.locator('.page .bulle.c1').count()); i++) {
+    await page.waitForTimeout(320);
+    await page.keyboard.press('Space');
+  }
+  await expect(page.locator('.page .bulle.c1').first()).toBeVisible();
+
+  for (const fond of ['sombre', 'clair']) {
+    if (fond === 'clair') {
+      await page.getByRole('button', { name: 'Menu', exact: true }).click();
+      await page.getByRole('button', { name: 'Inverser les couleurs' }).click();
+      await page.getByRole('button', { name: 'Fermer', exact: true }).click();
+    }
+    const couleurs = await page.locator('.mesure').evaluate((zone) => {
+      const luminance = (rgb: string) => {
+        const c = rgb.match(/[\d.]+/g)!.slice(0, 3).map(Number)
+          .map((v) => v / 255).map((v) => v <= 0.04045 ? v / 12.92 : ((v + 0.055) / 1.055) ** 2.4);
+        return c[0] * 0.2126 + c[1] * 0.7152 + c[2] * 0.0722;
+      };
+      const fond = luminance(getComputedStyle(document.querySelector('.lecture')!).backgroundColor);
+      return ['c1', 'c2', 'c3', 'c4', 'c5', 'c6', 'conteur'].map((classe) => {
+        const bulle = zone.querySelector(`.bulle.${classe}`)!;
+        const couleur = getComputedStyle(bulle).borderLeftColor;
+        const nom = getComputedStyle(bulle.querySelector('.nom')!).color;
+        const l = luminance(couleur);
+        const mouvement = zone.querySelector(`.mouvement.${classe}`);
+        return { couleur, nom, mouvement: mouvement ? getComputedStyle(mouvement).color : couleur,
+          contraste: (Math.max(l, fond) + 0.05) / (Math.min(l, fond) + 0.05) };
+      });
+    });
+    expect(new Set(couleurs.map((c) => c.couleur)).size).toBe(7);
+    for (const couleur of couleurs) {
+      expect(couleur.nom).toBe(couleur.couleur);
+      expect(couleur.mouvement).toBe(couleur.couleur);
+      expect(couleur.contraste).toBeGreaterThanOrEqual(4.5);
+    }
+    await page.screenshot({ path: testInfo.outputPath(`lecture-${fond}.png`) });
+  }
+});

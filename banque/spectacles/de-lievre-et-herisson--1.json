@@ -1,0 +1,1096 @@
+{
+  "id": "de-lievre-et-herisson--1",
+  "conteId": "de-lievre-et-herisson",
+  "titre": "Le Lièvre et le Hérisson",
+  "pitch": "{{r2}} se moque des jambes tordues de {{r1}}. {{r1}} le défie à la course, et gagne sans courir : {{r3}}, sa femme, qui lui ressemble trait pour trait, l'attend au bout du champ.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "herisson",
+      "famille": "petit",
+      "traits": [
+        "rusé",
+        "têtu",
+        "minuscule"
+      ],
+      "voix": "petite voix pointue et décidée, parle vite ; souffle un « hmpf ! » quand on se moque de ses jambes",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1:resume",
+            "avant": "Piqué,",
+            "apres": "Piquée,"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "qu'il gagnera",
+            "apres": "qu'elle gagnera"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "il pourrait bien",
+            "apres": "elle pourrait bien"
+          },
+          {
+            "id": "a1e13:texte",
+            "avant": "de chez lui",
+            "apres": "de chez elle"
+          },
+          {
+            "id": "a1e13:texte",
+            "avant": "et il allait",
+            "apres": "et elle allait"
+          },
+          {
+            "id": "a1e13:texte",
+            "avant": "quand il rencontra",
+            "apres": "quand elle rencontra"
+          },
+          {
+            "id": "a1e24:ton",
+            "avant": "vexé,",
+            "apres": "vexée,"
+          },
+          {
+            "id": "a1e36:texte",
+            "avant": "il pensait",
+            "apres": "elle pensait"
+          },
+          {
+            "id": "a1e37:ton",
+            "avant": "pour lui-même",
+            "apres": "pour elle-même"
+          },
+          {
+            "id": "a2e5:ton",
+            "avant": "essoufflé",
+            "apres": "essoufflée"
+          },
+          {
+            "id": "a2e7:ton",
+            "avant": "très fier",
+            "apres": "très fière"
+          },
+          {
+            "id": "a2e9:texte",
+            "avant": "mon homme",
+            "apres": "ma femme"
+          },
+          {
+            "id": "a3e9:texte",
+            "avant": "il y arriva",
+            "apres": "elle y arriva"
+          },
+          {
+            "id": "a3e21:texte",
+            "avant": ", lui, fit",
+            "apres": ", elle, fit"
+          },
+          {
+            "id": "a3e21:texte",
+            "avant": "puis il se tapit",
+            "apres": "puis elle se tapit"
+          },
+          {
+            "id": "a3e21:texte",
+            "avant": "tranquillement assis",
+            "apres": "tranquillement assise"
+          },
+          {
+            "id": "a3e28:texte",
+            "avant": "lui-même",
+            "apres": "elle-même"
+          },
+          {
+            "id": "a3e28:texte",
+            "avant": "à son mari",
+            "apres": "à sa femme"
+          },
+          {
+            "id": "a3e37:ton",
+            "avant": "tout fier",
+            "apres": "toute fière"
+          },
+          {
+            "id": "a4e17:texte",
+            "avant": "qu'il avait gagnées",
+            "apres": "qu'elle avait gagnées"
+          },
+          {
+            "id": "a4e17:texte",
+            "avant": "tous deux rentrèrent chez eux, bien contents",
+            "apres": "toutes deux rentrèrent chez elles, bien contentes"
+          },
+          {
+            "id": "a4e20:texte",
+            "avant": "s'ils ne sont pas morts, ils vivent",
+            "apres": "si elles ne sont pas mortes, elles vivent"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r2",
+      "espece": "lievre",
+      "famille": "petit",
+      "traits": [
+        "orgueilleux",
+        "vantard",
+        "rapide"
+      ],
+      "voix": "voix haute et traînante, prend de grands airs, rit « ha ha ! » du bout des dents",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "le défie",
+            "apres": "la défie"
+          },
+          {
+            "id": "a1e13:texte",
+            "avant": "sorti pour",
+            "apres": "sortie pour"
+          },
+          {
+            "id": "a1e17:texte",
+            "avant": "un monsieur distingué",
+            "apres": "une dame distinguée"
+          },
+          {
+            "id": "a1e17:texte",
+            "avant": "orgueilleux",
+            "apres": "orgueilleuse"
+          },
+          {
+            "id": "a1e29:ton",
+            "avant": "sûr de lui",
+            "apres": "sûre d'elle"
+          },
+          {
+            "id": "a1e37:texte",
+            "avant": "un monsieur distingué",
+            "apres": "une dame distinguée"
+          },
+          {
+            "id": "a1e37:texte",
+            "avant": "qu'un sot",
+            "apres": "qu'une sotte"
+          },
+          {
+            "id": "a1e37:texte",
+            "avant": "et il paiera",
+            "apres": "et elle paiera"
+          },
+          {
+            "id": "a2e7:texte",
+            "avant": "je le battrais",
+            "apres": "je la battrais"
+          },
+          {
+            "id": "a3e28:texte",
+            "avant": "était sûr",
+            "apres": "était sûre"
+          },
+          {
+            "id": "a3e29:ton",
+            "avant": "pour lui-même",
+            "apres": "pour elle-même"
+          },
+          {
+            "id": "a3e39:ton",
+            "avant": "hors de lui",
+            "apres": "hors d'elle"
+          },
+          {
+            "id": "a4e8:ton",
+            "avant": "essoufflé",
+            "apres": "essoufflée"
+          },
+          {
+            "id": "a4e13:texte",
+            "avant": "il s'effondra",
+            "apres": "elle s'effondra"
+          },
+          {
+            "id": "a4e13:texte",
+            "avant": "épuisé",
+            "apres": "épuisée"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a4e21:texte",
+          "avant": "aucun lièvre",
+          "gabarit": "{aucun|aucune} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r3",
+      "espece": "herisson",
+      "famille": "petit",
+      "traits": [
+        "grognon",
+        "courageux"
+      ],
+      "voix": "voix un peu rauque et bougonne, soupire « oh là là ! » avant de parler",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "sa femme",
+            "apres": "son mari"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "sa femme",
+            "apres": "son mari"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "sa femme",
+            "apres": "son mari"
+          },
+          {
+            "id": "a2e9:ton",
+            "avant": "affolée",
+            "apres": "affolé"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "Elle dut",
+            "apres": "Il dut"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "qu'elle le veuille",
+            "apres": "qu'il le veuille"
+          }
+        ]
+      },
+      "especeImposee": true
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 10,
+    "ageAuditoire": 5,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "Le champ de navets",
+      "description": "Étalez un torchon ou une nappe sur toute la longueur de la table : c'est le long champ. Posez un coussin debout à chaque bout : à droite, le haut du champ ; à gauche, le bas. {{r1}} et {{r3}} s'y cachent à tour de rôle : gardez les deux peluches sous la table, à portée de la main gauche.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "Chez {{r1}} et {{r3}}",
+      "description": "Un carton debout, à un bout de la table, fait la porte de la maison. Le reste de la table est le chemin qui mène au champ.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Toi et tes jambes tordues !",
+      "resume": "Un dimanche matin, {{r1}} part voir ses navets et rencontre {{r2}}, qui se moque de ses jambes tordues. Piqué, {{r1}} parie qu'il gagnera la course, puis rentre d'abord déjeuner.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Cette histoire, les enfants, a l'air d'un mensonge quand on la raconte, et pourtant elle est vraie."
+        },
+        {
+          "id": "a1e2",
+          "type": "conteur",
+          "texte": "Voici comment elle s'est passée."
+        },
+        {
+          "id": "a1e3",
+          "type": "conteur",
+          "texte": "C'était un dimanche matin, au temps de la moisson, juste quand le sarrasin était en fleur."
+        },
+        {
+          "id": "a1e4",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e5",
+          "type": "conteur",
+          "texte": "{{r1}} se tenait devant sa porte, les bras croisés."
+        },
+        {
+          "id": "a1e6",
+          "type": "didascalie",
+          "texte": "{{r1}} se balance doucement d'un côté à l'autre, le museau en l'air, pendant que vous fredonnez un petit air."
+        },
+        {
+          "id": "a1e7",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Chantez avec moi ma petite chanson du dimanche : la la la !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e8",
+          "type": "conteur",
+          "texte": "Tout en chantonnant, il lui vint l'idée que, pendant que sa femme, {{r3}}, lavait et habillait les enfants, il pourrait bien faire un petit tour dans les champs pour voir comment poussaient ses navets."
+        },
+        {
+          "id": "a1e9",
+          "type": "conteur",
+          "texte": "Aussitôt dit, aussitôt fait."
+        },
+        {
+          "id": "a1e10",
+          "type": "didascalie",
+          "texte": "{{r1}} se retourne, pousse sa porte d'un coup de museau, puis trottine vers le milieu de la table en se dandinant."
+        },
+        {
+          "id": "a1e11",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e12",
+          "type": "didascalie",
+          "texte": "{{r2}} arrive de l'autre côté en sautillant et s'arrête, le nez en l'air."
+        },
+        {
+          "id": "a1e13",
+          "type": "conteur",
+          "texte": "{{r1}} n'était pas encore bien loin de chez lui, et il allait juste tourner autour du prunellier qui se trouve devant le champ, quand il rencontra {{r2}}, sorti pour une affaire du même genre : voir comment poussaient ses choux."
+        },
+        {
+          "id": "a1e14",
+          "type": "didascalie",
+          "texte": "{{r1}} s'approche de {{r2}} et s'incline poliment."
+        },
+        {
+          "id": "a1e15",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Bonjour, {{r2}} !",
+          "ton": "aimablement"
+        },
+        {
+          "id": "a1e16",
+          "type": "didascalie",
+          "texte": "{{r2}} lève le museau bien haut et tourne la tête de l'autre côté."
+        },
+        {
+          "id": "a1e17",
+          "type": "conteur",
+          "texte": "Mais {{r2}}, qui était à sa façon un monsieur distingué, et terriblement orgueilleux avec ça, ne répondit rien à son salut."
+        },
+        {
+          "id": "a1e18",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Comment se fait-il que tu cours déjà les champs de si bon matin ?",
+          "ton": "d'un air très moqueur, de haut"
+        },
+        {
+          "id": "a1e19",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je me promène.",
+          "ton": "tranquillement"
+        },
+        {
+          "id": "a1e20",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Tu te promènes ? Il me semble que tu pourrais employer tes jambes à quelque chose de mieux.",
+          "ton": "en riant"
+        },
+        {
+          "id": "a1e21",
+          "type": "conteur",
+          "texte": "Cette réponse vexa terriblement {{r1}}."
+        },
+        {
+          "id": "a1e22",
+          "type": "didascalie",
+          "texte": "{{r1}} recule d'un bond et tremble de colère de la tête aux pieds."
+        },
+        {
+          "id": "a1e23",
+          "type": "conteur",
+          "texte": "{{r1}} pouvait tout supporter, mais qu'on ne lui parle pas de ses jambes, justement parce qu'elles étaient tordues de nature."
+        },
+        {
+          "id": "a1e24",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tu t'imagines peut-être que tu fais mieux que moi avec tes jambes ?",
+          "ton": "vexé, en se redressant"
+        },
+        {
+          "id": "a1e25",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je le pense bien.",
+          "ton": "en levant le nez"
+        },
+        {
+          "id": "a1e26",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ça se vérifie. Je parie que si nous faisons la course, je te dépasse.",
+          "ton": "en avançant d'un pas"
+        },
+        {
+          "id": "a1e27",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Laisse-moi rire, toi et tes jambes tordues ! Mais soit, si tu en as tellement envie. Que parions-nous ?",
+          "ton": "en éclatant de rire"
+        },
+        {
+          "id": "a1e28",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Une pièce d'or et une bouteille de bon vin.",
+          "ton": "sans hésiter"
+        },
+        {
+          "id": "a1e29",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Tope là, et on peut commencer tout de suite.",
+          "ton": "très sûr de lui"
+        },
+        {
+          "id": "a1e30",
+          "type": "didascalie",
+          "texte": "{{r2}} et {{r1}} s'approchent et se touchent le bout du museau : tope là !"
+        },
+        {
+          "id": "a1e31",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Tapez dans vos mains avec nous : tope là !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e32",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Non, rien ne presse. Je n'ai encore rien avalé. Je rentre d'abord déjeuner, et dans une demi-heure je suis de retour ici.",
+          "ton": "tranquillement"
+        },
+        {
+          "id": "a1e33",
+          "type": "conteur",
+          "texte": "{{r2}} fut d'accord, et {{r1}} s'en alla."
+        },
+        {
+          "id": "a1e34",
+          "type": "didascalie",
+          "texte": "{{r2}} s'en va en sautant très haut ; {{r1}} trottine de l'autre côté, vers sa maison."
+        },
+        {
+          "id": "a1e35",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e36",
+          "type": "conteur",
+          "texte": "En chemin, il pensait :"
+        },
+        {
+          "id": "a1e37",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "{{r2}} compte sur ses longues jambes, mais je l'aurai bien. C'est un monsieur distingué, mais ce n'est qu'un sot, et il paiera.",
+          "ton": "tout bas, pour lui-même, en trottinant"
+        },
+        {
+          "id": "a1e38",
+          "type": "didascalie",
+          "texte": "{{r1}} sort en se dandinant, le museau bien haut."
+        },
+        {
+          "id": "a1e39",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Tu n'as plus ta tête ?",
+      "resume": "{{r1}} rentre chercher {{r3}}, sa femme, et lui raconte le pari. {{r3}} trouve l'idée folle, mais doit suivre, et {{r1}} lui explique sa ruse en chemin.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e2",
+          "type": "didascalie",
+          "texte": "{{r3}} s'affaire devant la porte, se penche d'un côté, de l'autre, en bougonnant, comme pour laver et habiller les petits."
+        },
+        {
+          "id": "a2e3",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e4",
+          "type": "didascalie",
+          "texte": "{{r1}} arrive en courant et s'arrête net devant {{r3}}."
+        },
+        {
+          "id": "a2e5",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "{{r3}}, habille-toi vite, tu dois venir avec moi dans les champs.",
+          "ton": "tout essoufflé"
+        },
+        {
+          "id": "a2e6",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Qu'est-ce qui se passe ?",
+          "ton": "en bougonnant"
+        },
+        {
+          "id": "a2e7",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "J'ai parié avec {{r2}} une pièce d'or et une bouteille de vin que je le battrais à la course, et tu dois être de la partie.",
+          "ton": "très fier"
+        },
+        {
+          "id": "a2e8",
+          "type": "didascalie",
+          "texte": "{{r3}} sursaute, recule d'un bond, puis revient tout près de {{r1}}."
+        },
+        {
+          "id": "a2e9",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Mon Dieu, mon homme ! Tu n'as plus ta tête ? Tu as perdu la raison ? Comment peux-tu vouloir faire la course avec {{r2}} ?",
+          "ton": "en criant, affolée"
+        },
+        {
+          "id": "a2e10",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tiens ta langue, c'est mon affaire. Allez, habille-toi, et viens.",
+          "ton": "sans se laisser faire"
+        },
+        {
+          "id": "a2e11",
+          "type": "conteur",
+          "texte": "Que pouvait faire {{r3}} ? Elle dut suivre, qu'elle le veuille ou non."
+        },
+        {
+          "id": "a2e12",
+          "type": "didascalie",
+          "texte": "{{r3}} secoue la tête en soupirant, puis se range à côté de {{r1}}."
+        },
+        {
+          "id": "a2e13",
+          "type": "conteur",
+          "texte": "En chemin, {{r1}} dit à {{r3}} :"
+        },
+        {
+          "id": "a2e14",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r3}} trottinent côte à côte, puis s'arrêtent. {{r1}} se tourne vers {{r3}}."
+        },
+        {
+          "id": "a2e15",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Maintenant, écoute bien ce que je vais te dire. Tu vois, c'est sur ce long champ que nous allons faire notre course. {{r2}} court dans un sillon et moi dans l'autre, et nous partons d'en haut.",
+          "ton": "tout bas, comme un secret"
+        },
+        {
+          "id": "a2e16",
+          "type": "didascalie",
+          "texte": "{{r1}} montre le lointain d'un grand mouvement de tête."
+        },
+        {
+          "id": "a2e17",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Toi, tu n'as rien d'autre à faire que de te mettre ici, en bas, dans le sillon, et quand {{r2}} arrivera de son côté, tu lui crieras : « Je suis déjà là ! »",
+          "ton": "en détachant bien les derniers mots"
+        },
+        {
+          "id": "a2e18",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Vous aussi, les enfants, dites-le avec moi, bien fort : Je suis déjà là !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e19",
+          "type": "didascalie",
+          "texte": "{{r3}} hoche la tête en bougonnant. {{r1}} et {{r3}} s'en vont vers le champ."
+        },
+        {
+          "id": "a2e20",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e21",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Je suis déjà là !",
+      "resume": "Au champ, {{r3}} se cache en bas et {{r1}} monte en haut, où {{r2}} l'attend. {{r2}} file comme une tempête, mais à chaque bout un hérisson lui crie : « Je suis déjà là ! »",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "note_marionnettiste",
+          "texte": "Pendant toute la course, {{r2}} reste sur votre main droite. Votre main gauche passe de {{r1}} à {{r3}} et retour : gardez les deux peluches sous la table, à portée de main, et changez-les pendant que {{r2}} court, en faisant courir {{r2}} lentement s'il le faut. {{r3}} surgit toujours en bas du champ, à gauche ; {{r1}} en haut, à droite."
+        },
+        {
+          "id": "a3e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e3",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e4",
+          "type": "conteur",
+          "texte": "{{r1}} et {{r3}} arrivèrent au champ ; {{r1}} montra sa place à {{r3}} et monta en haut du champ."
+        },
+        {
+          "id": "a3e5",
+          "type": "didascalie",
+          "texte": "{{r1}} montre d'un coup de tête le coussin de gauche. {{r3}} y trottine et se tapit derrière."
+        },
+        {
+          "id": "a3e6",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e7",
+          "type": "didascalie",
+          "texte": "{{r1}} trottine jusqu'au coussin de droite, en haut du champ."
+        },
+        {
+          "id": "a3e8",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e9",
+          "type": "conteur",
+          "texte": "Quand il y arriva, {{r2}} était déjà là."
+        },
+        {
+          "id": "a3e10",
+          "type": "didascalie",
+          "texte": "{{r2}} sautille sur place d'impatience."
+        },
+        {
+          "id": "a3e11",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "On peut y aller ?",
+          "ton": "en trépignant"
+        },
+        {
+          "id": "a3e12",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Bien sûr.",
+          "ton": "tranquillement"
+        },
+        {
+          "id": "a3e13",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Alors en avant !",
+          "ton": "très fort"
+        },
+        {
+          "id": "a3e14",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r2}} se placent côte à côte en haut du champ. {{r2}} s'étire, le museau tourné vers le bas du champ, sans rien écouter."
+        },
+        {
+          "id": "a3e15",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Chut ! Quand {{r2}} arrivera en bas, criez avec {{r3}} : Je suis déjà là !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e16",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Comptez avec moi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e17",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Un, deux, trois !",
+          "ton": "de plus en plus fort"
+        },
+        {
+          "id": "a3e18",
+          "type": "didascalie",
+          "texte": "{{r2}} file comme une tempête vers le bas du champ, pendant que vous soufflez fort : « Fffffou ! »"
+        },
+        {
+          "id": "a3e19",
+          "type": "didascalie",
+          "texte": "{{r1}} fait trois petits pas et plonge derrière le coussin de droite."
+        },
+        {
+          "id": "a3e20",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e21",
+          "type": "conteur",
+          "texte": "{{r1}}, lui, fit à peu près trois pas, puis il se tapit dans le sillon et resta tranquillement assis."
+        },
+        {
+          "id": "a3e22",
+          "type": "conteur",
+          "texte": "Quand {{r2}} arriva en bas à toute allure, {{r3}} lui cria :"
+        },
+        {
+          "id": "a3e23",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e24",
+          "type": "didascalie",
+          "texte": "{{r3}} surgit d'un bond de derrière le coussin de gauche, juste devant le museau de {{r2}}."
+        },
+        {
+          "id": "a3e25",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Je suis déjà là !",
+          "ton": "bien fort"
+        },
+        {
+          "id": "a3e26",
+          "type": "note_marionnettiste",
+          "texte": "Laissez les enfants crier le refrain avec {{r3}}."
+        },
+        {
+          "id": "a3e27",
+          "type": "didascalie",
+          "texte": "{{r2}} pile net, recule d'un bond et regarde {{r3}}, la tête penchée d'un côté, puis de l'autre."
+        },
+        {
+          "id": "a3e28",
+          "type": "conteur",
+          "texte": "{{r2}} était sûr que c'était {{r1}} lui-même qui lui criait cela, car, comme chacun sait, {{r3}} ressemble exactement à son mari."
+        },
+        {
+          "id": "a3e29",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Il y a quelque chose de louche.",
+          "ton": "tout bas, pour lui-même"
+        },
+        {
+          "id": "a3e30",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Encore une fois ! Dans l'autre sens !",
+          "ton": "en criant"
+        },
+        {
+          "id": "a3e31",
+          "type": "didascalie",
+          "texte": "{{r2}} repart comme une tempête vers le haut du champ, les oreilles au vent, et {{r3}} replonge derrière le coussin de gauche."
+        },
+        {
+          "id": "a3e32",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e33",
+          "type": "conteur",
+          "texte": "{{r3}} resta tranquillement à sa place."
+        },
+        {
+          "id": "a3e34",
+          "type": "conteur",
+          "texte": "Quand {{r2}} arriva en haut, {{r1}} lui cria :"
+        },
+        {
+          "id": "a3e35",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e36",
+          "type": "didascalie",
+          "texte": "{{r1}} surgit de derrière le coussin de droite, juste à côté de {{r2}}."
+        },
+        {
+          "id": "a3e37",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je suis déjà là !",
+          "ton": "tout fier"
+        },
+        {
+          "id": "a3e38",
+          "type": "didascalie",
+          "texte": "{{r2}} bondit de colère et cogne trois fois la table : boum, boum, boum !"
+        },
+        {
+          "id": "a3e39",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Encore une fois ! Dans l'autre sens !",
+          "ton": "hors de lui, en hurlant"
+        },
+        {
+          "id": "a3e40",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ça ne me dérange pas. Autant de fois que tu voudras.",
+          "ton": "très calme"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "numero": 4,
+      "titre": "La soixante-quatorzième fois",
+      "resume": "{{r2}} court encore et encore, jusqu'à tomber d'épuisement au milieu du champ. {{r1}} a gagné son pari, et rentre à la maison avec {{r3}}.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a4e1",
+          "type": "conteur",
+          "texte": "{{r2}} courut encore soixante-treize fois, et {{r1}} tint bon à chaque fois."
+        },
+        {
+          "id": "a4e2",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Faites la tempête avec moi : fffffou !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e3",
+          "type": "didascalie",
+          "texte": "{{r1}} plonge derrière le coussin de droite, et {{r2}} file vers le bas du champ."
+        },
+        {
+          "id": "a4e4",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e5",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e6",
+          "type": "didascalie",
+          "texte": "{{r3}} surgit à gauche, juste devant {{r2}}."
+        },
+        {
+          "id": "a4e7",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Je suis déjà là !",
+          "ton": "en bougonnant, très fort"
+        },
+        {
+          "id": "a4e8",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Encore une fois !",
+          "ton": "tout essoufflé"
+        },
+        {
+          "id": "a4e9",
+          "type": "note_marionnettiste",
+          "texte": "Si les enfants en redemandent, faites encore un aller-retour ou deux, chaque fois plus lentement : {{r1}} surgit en haut, {{r3}} en bas, et chaque fois « Je suis déjà là ! »."
+        },
+        {
+          "id": "a4e10",
+          "type": "didascalie",
+          "texte": "{{r3}} se tapit tout bas derrière son coussin, le bout du museau dépasse à peine. {{r2}} repart vers le haut du champ, de plus en plus lentement."
+        },
+        {
+          "id": "a4e11",
+          "type": "conteur",
+          "texte": "Mais la soixante-quatorzième fois, {{r2}} n'arriva pas au bout."
+        },
+        {
+          "id": "a4e12",
+          "type": "didascalie",
+          "texte": "Au milieu de la table, {{r2}} titube, tourne sur place, s'écroule à plat ventre, puis glisse tout doucement derrière le bord de la table."
+        },
+        {
+          "id": "a4e13",
+          "type": "conteur",
+          "texte": "Au milieu du champ, il s'effondra par terre et resta là, épuisé."
+        },
+        {
+          "id": "a4e14",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e15",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e16",
+          "type": "didascalie",
+          "texte": "{{r1}} surgit de derrière le coussin de droite et saute de joie."
+        },
+        {
+          "id": "a4e17",
+          "type": "conteur",
+          "texte": "{{r1}} prit la pièce d'or et la bouteille qu'il avait gagnées, appela {{r3}} hors du sillon, et tous deux rentrèrent chez eux, bien contents."
+        },
+        {
+          "id": "a4e18",
+          "type": "didascalie",
+          "texte": "{{r3}} se redresse derrière le coussin de gauche, trottine jusqu'à {{r1}}, et les deux se frottent le museau."
+        },
+        {
+          "id": "a4e19",
+          "type": "adresse_public",
+          "marionnetteId": "r3",
+          "texte": "Criez avec nous une dernière fois : Je suis déjà là !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e20",
+          "type": "conteur",
+          "texte": "Et s'ils ne sont pas morts, ils vivent encore."
+        },
+        {
+          "id": "a4e21",
+          "type": "conteur",
+          "texte": "C'est ainsi que, sur la lande de Buxtehude, {{r1}} a battu {{r2}} à la course, et depuis ce temps, aucun lièvre n'a plus jamais eu l'idée de faire la course avec un hérisson de Buxtehude."
+        },
+        {
+          "id": "a4e22",
+          "type": "conteur",
+          "texte": "La leçon de cette histoire, c'est d'abord que personne, si distingué qu'il se croie, ne doit se moquer d'un plus petit que lui, même si ce n'est qu'un hérisson."
+        },
+        {
+          "id": "a4e23",
+          "type": "conteur",
+          "texte": "Et ensuite, que quand on se marie, il est bon de prendre quelqu'un qui vous ressemble. Qui est hérisson doit veiller à ce que sa femme soit aussi un hérisson, et ainsi de suite."
+        },
+        {
+          "id": "a4e24",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r3}} saluent les enfants, puis s'en vont côte à côte, en se dandinant, vers leur maison."
+        },
+        {
+          "id": "a4e25",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e26",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "de-lievre-et-herisson",
+    "synopsis": {
+      "accroche": "{{r2}} se moque des jambes tordues de {{r1}} ; {{r1}} le défie à la course et gagne sans courir, grâce à {{r3}}, sa femme, qui lui ressemble trait pour trait.",
+      "resume": [
+        "Un dimanche matin, {{r2}} se moque des jambes tordues de {{r1}}.",
+        "Piqué, {{r1}} parie une pièce d'or et une bouteille de vin qu'il le battra à la course.",
+        "Il rentre chercher {{r3}}, sa femme, qui lui ressemble trait pour trait, et la poste en bas du champ.",
+        "{{r2}} file comme une tempête ; à chaque bout, un hérisson lui crie : « Je suis déjà là ! »",
+        "{{r2}} s'obstine jusqu'à tomber d'épuisement, et {{r1}} emporte le pari."
+      ]
+    },
+    "transposition": {
+      "texte": "Cette histoire, les enfants, a l'air d'un mensonge quand on la raconte, et pourtant elle est vraie. Car mon grand-père, de qui je la tiens, disait toujours en la racontant : « Il faut bien qu'elle soit vraie, mon garçon, sinon on ne pourrait pas la raconter. » Voici comment elle s'est passée.\n\nC'était un dimanche matin, au temps de la moisson, juste quand le sarrasin était en fleur. Le soleil s'était levé tout clair dans le ciel, le vent du matin soufflait tiède sur les chaumes, les alouettes chantaient dans l'air, les abeilles bourdonnaient dans le sarrasin, les gens allaient à l'église dans leurs habits du dimanche, et toutes les créatures étaient contentes. {{r1}} aussi.\n\n{{r1}} se tenait devant sa porte, les bras croisés. Il regardait le vent du matin et fredonnait une petite chanson, ni mieux ni plus mal qu'un hérisson n'a l'habitude de chanter un beau dimanche matin. Tout en chantonnant, il lui vint l'idée que, pendant que sa femme, {{r3}}, lavait et habillait les enfants, il pourrait bien faire un petit tour dans les champs pour voir comment poussaient ses navets. Les navets étaient tout près de sa maison, et il en mangeait avec sa famille : il les considérait donc comme les siens. Aussitôt dit, aussitôt fait. {{r1}} ferma la porte derrière lui et prit le chemin des champs.\n\nIl n'était pas encore bien loin de chez lui, et il allait juste tourner autour du prunellier qui se trouve devant le champ, quand il rencontra {{r2}}, sorti pour une affaire du même genre : voir comment poussaient ses choux. Quand {{r1}} aperçut {{r2}}, il lui souhaita aimablement le bonjour. Mais {{r2}}, qui était à sa façon un monsieur distingué, et terriblement orgueilleux avec ça, ne répondit rien à son salut. Il dit à {{r1}}, en prenant un air très moqueur :\n\n— Comment se fait-il que tu cours déjà les champs de si bon matin ?\n\n— Je me promène, dit {{r1}}.\n\n— Tu te promènes ? rit {{r2}}. Il me semble que tu pourrais employer tes jambes à quelque chose de mieux.\n\nCette réponse vexa terriblement {{r1}}. Il pouvait tout supporter, mais qu'on ne lui parle pas de ses jambes, justement parce qu'elles étaient tordues de nature.\n\n— Tu t'imagines peut-être, dit {{r1}} à {{r2}}, que tu fais mieux que moi avec tes jambes ?\n\n— Je le pense bien, dit {{r2}}.\n\n— Ça se vérifie, dit {{r1}}. Je parie que si nous faisons la course, je te dépasse.\n\n— Laisse-moi rire, toi et tes jambes tordues ! dit {{r2}}. Mais soit, si tu en as tellement envie. Que parions-nous ?\n\n— Une pièce d'or et une bouteille de bon vin, dit {{r1}}.\n\n— Tope là, dit {{r2}}, et on peut commencer tout de suite.\n\n— Non, rien ne presse, dit {{r1}}. Je n'ai encore rien avalé. Je rentre d'abord déjeuner, et dans une demi-heure je suis de retour ici.\n\n{{r2}} fut d'accord, et {{r1}} s'en alla. En chemin, il pensait : « {{r2}} compte sur ses longues jambes, mais je l'aurai bien. C'est un monsieur distingué, mais ce n'est qu'un sot, et il paiera. »\n\nArrivé chez lui, {{r1}} dit à {{r3}} :\n\n— {{r3}}, habille-toi vite, tu dois venir avec moi dans les champs.\n\n— Qu'est-ce qui se passe ? dit {{r3}}.\n\n— J'ai parié avec {{r2}} une pièce d'or et une bouteille de vin que je le battrais à la course, et tu dois être de la partie.\n\n— Mon Dieu, mon homme ! se mit à crier {{r3}}. Tu n'as plus ta tête ? Tu as perdu la raison ? Comment peux-tu vouloir faire la course avec {{r2}} ?\n\n— Tiens ta langue, dit {{r1}}, c'est mon affaire. Allez, habille-toi, et viens.\n\nQue pouvait faire {{r3}} ? Elle dut suivre, qu'elle le veuille ou non.\n\nEn chemin, {{r1}} dit à {{r3}} :\n\n— Maintenant, écoute bien ce que je vais te dire. Tu vois, c'est sur ce long champ que nous allons faire notre course. {{r2}} court dans un sillon et moi dans l'autre, et nous partons d'en haut. Toi, tu n'as rien d'autre à faire que de te mettre ici, en bas, dans le sillon, et quand {{r2}} arrivera de son côté, tu lui crieras : « Je suis déjà là ! »\n\nIls arrivèrent au champ ; {{r1}} montra sa place à {{r3}} et monta en haut du champ. Quand il y arriva, {{r2}} était déjà là.\n\n— On peut y aller ? dit {{r2}}.\n\n— Bien sûr, dit {{r1}}.\n\n— Alors en avant !\n\nEt chacun se mit dans son sillon. {{r2}} compta : « Un, deux, trois ! » et il fila comme une tempête jusqu'en bas du champ. {{r1}}, lui, fit à peu près trois pas, puis il se tapit dans le sillon et resta tranquillement assis.\n\nQuand {{r2}} arriva en bas à toute allure, {{r3}} lui cria :\n\n— Je suis déjà là !\n\n{{r2}} s'arrêta net, tout étonné. Il était sûr que c'était {{r1}} lui-même qui lui criait cela, car, comme chacun sait, {{r3}} ressemble exactement à son mari.\n\n— Il y a quelque chose de louche, pensa {{r2}}. Il cria : Encore une fois ! Dans l'autre sens !\n\nEt il repartit comme une tempête, les oreilles au vent. {{r3}} resta tranquillement à sa place. Quand {{r2}} arriva en haut, {{r1}} lui cria :\n\n— Je suis déjà là !\n\n{{r2}}, hors de lui, hurla :\n\n— Encore une fois ! Dans l'autre sens !\n\n— Ça ne me dérange pas, répondit {{r1}}. Autant de fois que tu voudras.\n\n{{r2}} courut encore soixante-treize fois, et {{r1}} tint bon à chaque fois. Chaque fois que {{r2}} arrivait en bas ou en haut, {{r1}} ou {{r3}} disait : « Je suis déjà là ! »\n\nMais la soixante-quatorzième fois, {{r2}} n'arriva pas au bout. Au milieu du champ, il s'effondra par terre et resta là, épuisé. {{r1}} prit la pièce d'or et la bouteille qu'il avait gagnées, appela {{r3}} hors du sillon, et tous deux rentrèrent chez eux, bien contents. Et s'ils ne sont pas morts, ils vivent encore.\n\nC'est ainsi que, sur la lande de Buxtehude, {{r1}} a battu {{r2}} à la course, et depuis ce temps, aucun lièvre n'a plus jamais eu l'idée de faire la course avec un hérisson de Buxtehude.\n\nLa leçon de cette histoire, c'est d'abord que personne, si distingué qu'il se croie, ne doit se moquer d'un plus petit que lui, même si ce n'est qu'un hérisson. Et ensuite, que quand on se marie, il est bon de prendre quelqu'un qui vous ressemble. Qui est hérisson doit veiller à ce que sa femme soit aussi un hérisson, et ainsi de suite."
+    }
+  },
+  "dureeEstimeeSecondes": 665,
+  "interactionsOrdonnees": [
+    "a2e18",
+    "a3e15",
+    "a3e16",
+    "a4e19",
+    "a1e31",
+    "a4e2",
+    "a1e7"
+  ]
+}

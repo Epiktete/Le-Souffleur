@@ -1,0 +1,1451 @@
+{
+  "id": "ja-moineau-langue-coupee--1",
+  "conteId": "ja-moineau-langue-coupee",
+  "titre": "Le Moineau à la langue coupée",
+  "pitch": "{{r2}} cherche {{r1}}, blessé et chassé par {{r3}}. Le panier léger lui donne des trésors ; le lourd révèle des fantômes à {{r3}}.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "moineau",
+      "famille": "oiseau",
+      "traits": [
+        "généreux",
+        "accueillant",
+        "courageux"
+      ],
+      "voix": "voix fine, claire, un peu fragile après la blessure",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "blessé et chassé",
+            "apres": "blessée et chassée"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "le petit ",
+            "apres": "la petite "
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "au pauvre petit",
+            "apres": "à la pauvre petite"
+          },
+          {
+            "id": "a1e20:texte",
+            "avant": "Il a léché",
+            "apres": "Elle a léché"
+          },
+          {
+            "id": "a1e20:texte",
+            "avant": "je l'ai chassé",
+            "apres": "je l'ai chassée"
+          },
+          {
+            "id": "a1e21:texte",
+            "avant": "le pauvre",
+            "apres": "la pauvre"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "était parti",
+            "apres": "était partie"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "sain et sauf",
+            "apres": "saine et sauve"
+          },
+          {
+            "id": "a2e14:texte",
+            "avant": "si malheureux",
+            "apres": "si malheureuse"
+          },
+          {
+            "id": "a2e9:ton",
+            "avant": "heureux",
+            "apres": "heureuse"
+          },
+          {
+            "id": "a3e29:texte",
+            "avant": "il l'invita",
+            "apres": "elle l'invita"
+          },
+          {
+            "id": "a3e33:texte",
+            "avant": "en fut stupéfait",
+            "apres": "en fut stupéfaite"
+          },
+          {
+            "id": "a1e18:texte",
+            "avant": "parti",
+            "apres": "partie"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r2",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "tendre",
+        "patient",
+        "modeste"
+      ],
+      "voix": "voix basse et chantante, ralentie par la marche",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e1:texte",
+            "avant": "qu'il gardait",
+            "apres": "qu'elle gardait"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "était allé",
+            "apres": "était allée"
+          },
+          {
+            "id": "a1e16:texte",
+            "avant": "je suis fatigué",
+            "apres": "je suis fatiguée"
+          },
+          {
+            "id": "a1e16:ton",
+            "avant": "fatigué",
+            "apres": "fatiguée"
+          },
+          {
+            "id": "a1e17:texte",
+            "avant": "Et il alla",
+            "apres": "Et elle alla"
+          },
+          {
+            "id": "a1e17:texte",
+            "avant": "surpris",
+            "apres": "surprise"
+          },
+          {
+            "id": "a1e18:ton",
+            "avant": "surpris",
+            "apres": "surprise"
+          },
+          {
+            "id": "a1e21:ton",
+            "avant": "tout abattu",
+            "apres": "tout abattue"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "il se mit en route",
+            "apres": "elle se mit en route"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "il appelait",
+            "apres": "elle appelait"
+          },
+          {
+            "id": "a2e5:texte",
+            "avant": "Et il allait",
+            "apres": "Et elle allait"
+          },
+          {
+            "id": "a2e5:texte",
+            "avant": "Il passa",
+            "apres": "Elle passa"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "tout heureux",
+            "apres": "tout heureuse"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "il vit",
+            "apres": "elle vit"
+          },
+          {
+            "id": "a2e9:texte",
+            "avant": "grand-père",
+            "apres": "grand-mère"
+          },
+          {
+            "id": "a2e9:texte",
+            "avant": "le bienvenu",
+            "apres": "la bienvenue"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "je suis venu",
+            "apres": "je suis venue"
+          },
+          {
+            "id": "a2e10:ton",
+            "avant": "ému",
+            "apres": "émue"
+          },
+          {
+            "id": "a2e12:texte",
+            "avant": "devant lui",
+            "apres": "devant elle"
+          },
+          {
+            "id": "a2e13:texte",
+            "avant": "Grand-père",
+            "apres": "Grand-mère"
+          },
+          {
+            "id": "a2e13:texte",
+            "avant": "vous êtes venu",
+            "apres": "vous êtes venue"
+          },
+          {
+            "id": "a2e14:texte",
+            "avant": "vraiment heureux",
+            "apres": "vraiment heureuse"
+          },
+          {
+            "id": "a2e15:texte",
+            "avant": "ce qu'il aimait",
+            "apres": "ce qu'elle aimait"
+          },
+          {
+            "id": "a2e22:texte",
+            "avant": "il dit",
+            "apres": "elle dit"
+          },
+          {
+            "id": "a2e24:texte",
+            "avant": "Et il se leva",
+            "apres": "Et elle se leva"
+          },
+          {
+            "id": "a2e33:texte",
+            "avant": "Grand-père",
+            "apres": "Grand-mère"
+          },
+          {
+            "id": "a2e34:texte",
+            "avant": "je suis vieux",
+            "apres": "je suis vieille"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "est-il",
+            "apres": "est-elle"
+          },
+          {
+            "id": "a3e6:texte",
+            "avant": "Mon vieux",
+            "apres": "Ma vieille"
+          },
+          {
+            "id": "a3e7:texte",
+            "avant": "je suis allé",
+            "apres": "je suis allée"
+          },
+          {
+            "id": "a3e12:texte",
+            "avant": "je suis vieux",
+            "apres": "je suis vieille"
+          },
+          {
+            "id": "a3e12:ton",
+            "avant": "fier",
+            "apres": "fière"
+          },
+          {
+            "id": "a3e14:texte",
+            "avant": "Vieux sot",
+            "apres": "Vieille sotte"
+          },
+          {
+            "id": "a4e20:texte",
+            "avant": "surpris",
+            "apres": "surprise"
+          },
+          {
+            "id": "a4e21:ton",
+            "avant": "surpris",
+            "apres": "surprise"
+          },
+          {
+            "id": "a4e24:texte",
+            "avant": "plein de pitié",
+            "apres": "pleine de pitié"
+          },
+          {
+            "id": "a4e25:ton",
+            "avant": "plein de pitié",
+            "apres": "pleine de pitié"
+          },
+          {
+            "id": "a2e21:texte",
+            "avant": "si content",
+            "apres": "si contente"
+          },
+          {
+            "id": "a2e21:texte",
+            "avant": "qu'il en oubliait",
+            "apres": "qu'elle en oubliait"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "parti",
+            "apres": "partie"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r3",
+      "espece": "femme",
+      "famille": "adulte",
+      "traits": [
+        "colérique",
+        "avide",
+        "pressée"
+      ],
+      "voix": "voix sèche et rapide, puis tremblante au retour",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a1e3:texte",
+            "avant": "qu'elle était retournée",
+            "apres": "qu'il était retourné"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "qu'elle avait oublié",
+            "apres": "qu'il avait oublié"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "elle comprit",
+            "apres": "il comprit"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "Elle barra",
+            "apres": "Il barra"
+          },
+          {
+            "id": "a1e18:texte",
+            "avant": "Ma vieille, ma vieille",
+            "apres": "Mon vieux, mon vieux"
+          },
+          {
+            "id": "a2e26:texte",
+            "avant": "ma vieille",
+            "apres": "mon vieux"
+          },
+          {
+            "id": "a3e8:texte",
+            "avant": "toute souriante",
+            "apres": "tout souriant"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "jalouse",
+            "apres": "jaloux"
+          },
+          {
+            "id": "a3e9:ton",
+            "avant": "soudain souriante",
+            "apres": "soudain souriant"
+          },
+          {
+            "id": "a3e15:texte",
+            "avant": "gourmande",
+            "apres": "gourmand"
+          },
+          {
+            "id": "a3e17:texte",
+            "avant": "elle sortit",
+            "apres": "il sortit"
+          },
+          {
+            "id": "a3e22:texte",
+            "avant": "Elle passa",
+            "apres": "Il passa"
+          },
+          {
+            "id": "a3e27:texte",
+            "avant": "Puis elle alla",
+            "apres": "Puis il alla"
+          },
+          {
+            "id": "a3e28:texte",
+            "avant": "grand-mère",
+            "apres": "grand-père"
+          },
+          {
+            "id": "a3e28:texte",
+            "avant": "bienvenue",
+            "apres": "bienvenu"
+          },
+          {
+            "id": "a3e31:texte",
+            "avant": "elle ne faisait",
+            "apres": "il ne faisait"
+          },
+          {
+            "id": "a3e32:ton",
+            "avant": "pressée",
+            "apres": "pressé"
+          },
+          {
+            "id": "a3e33:texte",
+            "avant": "vieille gourmande",
+            "apres": "vieux gourmand"
+          },
+          {
+            "id": "a3e34:ton",
+            "avant": "impatiente",
+            "apres": "impatient"
+          },
+          {
+            "id": "a3e40:texte",
+            "avant": "eut-elle",
+            "apres": "eut-il"
+          },
+          {
+            "id": "a4:resume",
+            "avant": "terrifiée",
+            "apres": "terrifié"
+          },
+          {
+            "id": "a4e1:texte",
+            "avant": "qu'elle marchait",
+            "apres": "qu'il marchait"
+          },
+          {
+            "id": "a4e1:texte",
+            "avant": "têtue",
+            "apres": "têtu"
+          },
+          {
+            "id": "a4e3:ton",
+            "avant": "essoufflée",
+            "apres": "essoufflé"
+          },
+          {
+            "id": "a4e5:texte",
+            "avant": "elle s'assit",
+            "apres": "il s'assit"
+          },
+          {
+            "id": "a4e10:texte",
+            "avant": "Vieille gourmande",
+            "apres": "Vieux gourmand"
+          },
+          {
+            "id": "a4e11:texte",
+            "avant": "la fixait",
+            "apres": "le fixait"
+          },
+          {
+            "id": "a4e11:texte",
+            "avant": "elle était morte ou vivante",
+            "apres": "il était mort ou vivant"
+          },
+          {
+            "id": "a4e15:texte",
+            "avant": "elle arriva",
+            "apres": "il arriva"
+          },
+          {
+            "id": "a4e15:texte",
+            "avant": "elle était pâle comme une morte",
+            "apres": "il était pâle comme un mort"
+          },
+          {
+            "id": "a4e23:ton",
+            "avant": "tremblante",
+            "apres": "tremblant"
+          },
+          {
+            "id": "a1e7:texte",
+            "avant": "Puis elle dit",
+            "apres": "Puis il dit"
+          },
+          {
+            "id": "a4:resume",
+            "avant": "la console",
+            "apres": "le console"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r4",
+      "espece": "moineau",
+      "famille": "oiseau",
+      "traits": [
+        "festif",
+        "accueillant"
+      ],
+      "voix": "voix claire, joyeuse et rythmée",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2e25:ton",
+            "avant": "accueillant",
+            "apres": "accueillante"
+          },
+          {
+            "id": "a2e40:ton",
+            "avant": "joyeux",
+            "apres": "joyeuse"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r5",
+      "espece": "fantome",
+      "famille": "monstre",
+      "traits": [
+        "surgissant",
+        "effrayant"
+      ],
+      "voix": "voix grave et soufflée, sans contact avec les autres peluches",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": []
+      },
+      "especeImposee": true
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 17,
+    "ageAuditoire": 7,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La maison et la cage",
+      "description": "Un coussin figure la maison. La cage est seulement dessinée sur un carton fixe au fond ; l'assiette d'amidon est figurée par un cercle blanc sur ce carton. Aucun objet ne passe dans les pattes des peluches.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "Le chemin et les bambous",
+      "description": "Un tissu vert posé au fond figure le bosquet de bambous et une petite porte rouge est dessinée sur un carton immobile. Le chemin se joue par des déplacements lents de tout le corps des peluches. Pour cette visite, {{r1}} et {{r4}} se jouent à droite, face à {{r2}} à gauche ; pour la visite de {{r3}} à l'acte suivant, {{r1}} se joue à gauche.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t3",
+      "titre": "Les deux paniers",
+      "description": "Deux silhouettes de paniers sont dessinées côte à côte sur un carton fixe, avec les mots « léger » et « lourd ». Le choix, le poids et les trésors sont racontés ; aucune peluche ne soulève, n'ouvre ni ne transporte un accessoire.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t4",
+      "titre": "La nuit du panier lourd",
+      "description": "Un tissu sombre derrière le carton du chemin installe la nuit. {{r5}} surgit par-dessous le carton et se tortille sans toucher {{r3}} ; les autres créatures et le panier restent dans le récit.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "La blessure et le départ",
+      "resume": "{{r1}} lèche l’amidon ; {{r3}} lui coupe le bout de la langue et {{r2}} part à sa recherche.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Il était une fois, il y a bien longtemps, quelque part, {{r2}} et {{r3}}. Comme le couple n'avait pas d'enfant, {{r2}} élevait avec amour {{r1}}, petit moineau, qu'il gardait dans une cage."
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e3",
+          "type": "conteur",
+          "texte": "Un jour, {{r2}} était allé comme d'habitude couper des broussailles dans la montagne, et {{r3}} faisait la lessive près du puits. Pendant qu'elle était retournée à la cuisine chercher l'amidon qu'elle avait oublié pour son linge, le petit {{r1}} sortit de sa cage en trottinant, et lécha tout l'amidon."
+        },
+        {
+          "id": "a1e4",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e5",
+          "type": "conteur",
+          "texte": "Quand {{r3}} revint chercher l'amidon, il n'y en avait plus une trace dans l'assiette. Quand elle comprit que c'était {{r1}} qui l'avait tout léché, {{r3}}, qui avait mauvais caractère, entra dans une grande colère. Elle barra la route au pauvre petit {{r1}} et dit :"
+        },
+        {
+          "id": "a1e6",
+          "type": "replique",
+          "texte": "C'est cette langue qui a fait cette bêtise ?",
+          "marionnetteId": "r3",
+          "ton": "en colère"
+        },
+        {
+          "id": "a1e7",
+          "type": "conteur",
+          "texte": "Clac ! {{r3}} lui coupa le bout de la langue. Puis elle dit :"
+        },
+        {
+          "id": "a1e8",
+          "type": "replique",
+          "texte": "Allez, va-t'en où tu voudras !",
+          "marionnetteId": "r3",
+          "ton": "d'un ton tranchant"
+        },
+        {
+          "id": "a1e9",
+          "type": "conteur",
+          "texte": "{{r1}} s'envola. Sa voix était triste :"
+        },
+        {
+          "id": "a1e10",
+          "type": "replique",
+          "texte": "Aïe, aïe !",
+          "marionnetteId": "r1",
+          "ton": "d’une voix triste"
+        },
+        {
+          "id": "a1e11",
+          "type": "adresse_public",
+          "texte": "Faites un tout petit « tchui » pour me souhaiter bon voyage.",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e12",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e13",
+          "type": "didascalie",
+          "texte": "Laisser respirer la scène pendant le changement de peluche."
+        },
+        {
+          "id": "a1e14",
+          "type": "conteur",
+          "texte": "Le soir, {{r2}} rentra de la montagne avec ses broussailles sur le dos :"
+        },
+        {
+          "id": "a1e15",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e16",
+          "type": "replique",
+          "texte": "Ah, que je suis fatigué. {{r1}} aussi doit avoir faim. Allons, allons, donnons-lui à manger.",
+          "marionnetteId": "r2",
+          "ton": "fatigué"
+        },
+        {
+          "id": "a1e17",
+          "type": "conteur",
+          "texte": "Et il alla devant la cage : {{r1}} n'y était plus. {{r2}}, surpris, dit :"
+        },
+        {
+          "id": "a1e18",
+          "type": "replique",
+          "texte": "Ma vieille, ma vieille, où est donc parti {{r1}} ?",
+          "marionnetteId": "r2",
+          "ton": "surpris"
+        },
+        {
+          "id": "a1e19",
+          "type": "conteur",
+          "texte": "Et {{r3}} répondit, l'air de rien :"
+        },
+        {
+          "id": "a1e20",
+          "type": "replique",
+          "texte": "{{r1}} ? Il a léché mon précieux amidon, alors je lui ai coupé la langue et je l'ai chassé.",
+          "marionnetteId": "r3",
+          "ton": "l’air de rien"
+        },
+        {
+          "id": "a1e21",
+          "type": "replique",
+          "texte": "Oh, le pauvre ! Quelle cruauté !",
+          "marionnetteId": "r2",
+          "ton": "tout abattu"
+        },
+        {
+          "id": "a1e22",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e23",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "La maison des moineaux",
+      "resume": "{{r2}} suit le chant, retrouve {{r1}}, partage la fête et choisit le panier léger.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "{{r2}} s'inquiétait tant de savoir où était parti {{r1}} à la langue coupée que, le lendemain, dès l'aube, il se mit en route. Tout le long du chemin, il appelait :"
+        },
+        {
+          "id": "a2e2",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e3",
+          "type": "replique",
+          "texte": "Moineau à la langue coupée,\nOù est ta maison ?\nTchui, tchui, tchui !",
+          "marionnetteId": "r2",
+          "ton": "en chantant"
+        },
+        {
+          "id": "a2e4",
+          "type": "adresse_public",
+          "texte": "Chantons doucement : « Moineau à la langue coupée, où est ta maison ? Tchui, tchui, tchui ! »",
+          "marionnetteId": "r2",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e5",
+          "type": "conteur",
+          "texte": "Et il allait au hasard. Il passa une plaine, passa une montagne, encore une plaine, encore une montagne, et arriva à un endroit où il y avait un grand bosquet de bambous. Alors, du bosquet, une voix répondit :"
+        },
+        {
+          "id": "a2e6",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e7",
+          "type": "replique",
+          "texte": "Moineau à la langue coupée,\nMa maison est ici !\nTchui, tchui, tchui !",
+          "marionnetteId": "r1",
+          "ton": "en chantant"
+        },
+        {
+          "id": "a2e8",
+          "type": "conteur",
+          "texte": "{{r2}}, tout heureux, alla vers la voix. Bientôt, à l'ombre des bambous, il vit une jolie petite maison rouge ; et {{r1}} à la langue coupée l'accueillait à la porte."
+        },
+        {
+          "id": "a2e9",
+          "type": "replique",
+          "texte": "Oh, grand-père, soyez le bienvenu !",
+          "marionnetteId": "r1",
+          "ton": "heureux"
+        },
+        {
+          "id": "a2e10",
+          "type": "replique",
+          "texte": "Oh, oh, tu es sain et sauf ? Tu me manquais tant que je suis venu te chercher.",
+          "marionnetteId": "r2",
+          "ton": "ému"
+        },
+        {
+          "id": "a2e11",
+          "type": "replique",
+          "texte": "Oh, merci, merci beaucoup. Entrez, je vous en prie.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a2e12",
+          "type": "conteur",
+          "texte": "{{r2}} entra dans la maison. {{r1}} s'inclina devant lui :"
+        },
+        {
+          "id": "a2e13",
+          "type": "replique",
+          "texte": "Grand-père, pardonnez-moi d'avoir léché le précieux amidon sans rien dire. Et vous, sans même vous fâcher, vous êtes venu me voir.",
+          "marionnetteId": "r1",
+          "ton": "avec regret"
+        },
+        {
+          "id": "a2e14",
+          "type": "replique",
+          "texte": "Mais non, c'est parce que je n'étais pas là que tu as été si malheureux. Mais de te revoir ainsi, je suis vraiment heureux.",
+          "marionnetteId": "r2",
+          "ton": "tendre"
+        },
+        {
+          "id": "a2e15",
+          "type": "conteur",
+          "texte": "{{r1}} réunit tous ses frères, ses sœurs et la compagnie des moineaux, dont {{r4}}, et offrit à {{r2}} un grand festin de tout ce qu'il aimait."
+        },
+        {
+          "id": "a2e16",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e17",
+          "type": "didascalie",
+          "texte": "Laisser respirer la scène pendant le changement de peluche."
+        },
+        {
+          "id": "a2e18",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e19",
+          "type": "didascalie",
+          "texte": "{{r4}} danse par deux petits bonds, puis oscille de droite à gauche en chantonnant une mélodie sans paroles. {{r2}} regarde la danse."
+        },
+        {
+          "id": "a2e20",
+          "type": "adresse_public",
+          "texte": "Chantez pour la danse des moineaux : « tchui, tchui, tchui ! »",
+          "marionnetteId": "r4",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e21",
+          "type": "conteur",
+          "texte": "{{r2}} était si content qu'il en oubliait de rentrer."
+        },
+        {
+          "id": "a2e22",
+          "type": "conteur",
+          "texte": "Mais comme il commençait à faire sombre, il dit :"
+        },
+        {
+          "id": "a2e23",
+          "type": "replique",
+          "texte": "Grâce à vous, j'ai passé une merveilleuse journée. Avant qu'il fasse nuit, je vais prendre congé.",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a2e24",
+          "type": "conteur",
+          "texte": "Et il se leva."
+        },
+        {
+          "id": "a2e25",
+          "type": "replique",
+          "texte": "Oh, c'est bien modeste ici, mais restez donc dormir cette nuit.",
+          "marionnetteId": "r4",
+          "ton": "accueillant"
+        },
+        {
+          "id": "a2e26",
+          "type": "replique",
+          "texte": "C'est bien gentil, mais ma vieille doit m'attendre : je rentre aujourd'hui. Je reviendrai souvent.",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a2e27",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e28",
+          "type": "didascalie",
+          "texte": "Laisser respirer la scène pendant le changement de peluche."
+        },
+        {
+          "id": "a2e29",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e30",
+          "type": "replique",
+          "texte": "Quel dommage ! Alors, je vais vous donner un cadeau : attendez un instant.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a2e31",
+          "type": "conteur",
+          "texte": "Au fond de la maison, deux paniers d'osier attendaient."
+        },
+        {
+          "id": "a2e32",
+          "type": "adresse_public",
+          "texte": "Devant ces deux paniers, faites un petit son pour le léger, puis un son grave pour le lourd.",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e33",
+          "type": "replique",
+          "texte": "Grand-père, voici un panier lourd et un panier léger. Prenez celui que vous préférez.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a2e34",
+          "type": "replique",
+          "texte": "Après ce festin, recevoir encore un cadeau, c'est trop. Mais puisque tu me l'offres, je vais le prendre. Seulement, je suis vieux et le chemin est long : je prendrai le léger.",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a2e35",
+          "type": "conteur",
+          "texte": "Le panier léger reposait sur le dos de {{r2}}."
+        },
+        {
+          "id": "a2e36",
+          "type": "replique",
+          "texte": "Alors, au revoir. Je reviendrai.",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a2e37",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e38",
+          "type": "didascalie",
+          "texte": "Laisser respirer la scène pendant le changement de peluche."
+        },
+        {
+          "id": "a2e39",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e40",
+          "type": "replique",
+          "texte": "Nous vous attendrons. Rentrez bien prudemment.",
+          "marionnetteId": "r4",
+          "ton": "joyeux"
+        },
+        {
+          "id": "a2e41",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e42",
+          "type": "didascalie",
+          "texte": "Laisser respirer la scène pendant le changement de peluche."
+        },
+        {
+          "id": "a2e43",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e44",
+          "type": "conteur",
+          "texte": "Et {{r1}} raccompagna {{r2}} jusqu'à la porte."
+        },
+        {
+          "id": "a2e45",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e46",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Le trésor et le second voyage",
+      "resume": "Le panier léger offre des trésors ; {{r3}}, jalouse, gagne la maison de {{r1}} et exige le lourd.",
+      "tableauId": "t3",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "conteur",
+          "texte": "Comme la nuit était tombée et que {{r2}} ne rentrait toujours pas, {{r3}} ronchonnait."
+        },
+        {
+          "id": "a3e2",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e3",
+          "type": "replique",
+          "texte": "Où est-il donc parti ?",
+          "marionnetteId": "r3",
+          "ton": "en ronchonnant"
+        },
+        {
+          "id": "a3e4",
+          "type": "conteur",
+          "texte": "Alors {{r2}} rentra avec le panier léger sur le dos."
+        },
+        {
+          "id": "a3e5",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e6",
+          "type": "replique",
+          "texte": "Mon vieux, où étais-tu, et qu'as-tu fait jusqu'à cette heure-ci ?",
+          "marionnetteId": "r3"
+        },
+        {
+          "id": "a3e7",
+          "type": "replique",
+          "texte": "Allons, ne te fâche pas comme ça. Aujourd'hui, je suis allé chez {{r1}}, on m'a offert un grand festin et la danse des moineaux, et en plus, on m'a donné ce beau cadeau.",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a3e8",
+          "type": "conteur",
+          "texte": "Le panier léger resta près de la porte, et {{r3}}, soudain toute souriante :"
+        },
+        {
+          "id": "a3e9",
+          "type": "replique",
+          "texte": "Oh, que c'est bien ! Qu'est-ce qu'il peut bien y avoir dedans ?",
+          "marionnetteId": "r3",
+          "ton": "soudain souriante"
+        },
+        {
+          "id": "a3e10",
+          "type": "adresse_public",
+          "texte": "Faites un « oh ! » quand le panier montre ses merveilles.",
+          "marionnetteId": "r3",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e11",
+          "type": "conteur",
+          "texte": "Le couvercle du panier s'ouvrit : il en sortit de l'or, de l'argent, du corail et des perles magiques, à vous éblouir."
+        },
+        {
+          "id": "a3e12",
+          "type": "replique",
+          "texte": "Vois-tu, {{r1}} m'a proposé un panier lourd et un panier léger, et m'a dit de choisir. Comme je suis vieux et que le chemin est long, j'ai pris le léger ; mais je ne pensais pas qu'il y avait de si belles choses dedans.",
+          "marionnetteId": "r2",
+          "ton": "fier"
+        },
+        {
+          "id": "a3e13",
+          "type": "conteur",
+          "texte": "Alors {{r3}} fit de nouveau la grimace :"
+        },
+        {
+          "id": "a3e14",
+          "type": "replique",
+          "texte": "Vieux sot ! Pourquoi n'as-tu pas pris le lourd ? Il y avait sûrement beaucoup plus de belles choses dedans !",
+          "marionnetteId": "r3"
+        },
+        {
+          "id": "a3e15",
+          "type": "replique",
+          "texte": "Allons, il ne faut pas être si gourmande. Avec toutes ces belles choses, nous en avons bien assez.",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a3e16",
+          "type": "replique",
+          "texte": "Comment ça, assez ? Bon, bon, je vais y aller, moi, et je rapporterai le panier lourd !",
+          "marionnetteId": "r3"
+        },
+        {
+          "id": "a3e17",
+          "type": "conteur",
+          "texte": "Et sans écouter {{r2}} qui voulait l'en empêcher, sans même attendre le matin, elle sortit en courant de la maison."
+        },
+        {
+          "id": "a3e18",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e19",
+          "type": "conteur",
+          "texte": "Il faisait déjà tout noir dehors, mais {{r3}}, ne pensant qu'à sa convoitise, avançait au hasard en appelant :"
+        },
+        {
+          "id": "a3e20",
+          "type": "adresse_public",
+          "texte": "Le chemin se répète : une plaine, une montagne. Dites-les avec moi !",
+          "marionnetteId": "r3",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e21",
+          "type": "replique",
+          "texte": "Moineau à la langue coupée,\nOù est ta maison ?\nTchui, tchui, tchui !",
+          "marionnetteId": "r3",
+          "ton": "en appelant"
+        },
+        {
+          "id": "a3e22",
+          "type": "conteur",
+          "texte": "Elle passa une plaine, une montagne, encore une plaine, encore une montagne, et arriva au grand bosquet de bambous. Du bosquet, une voix répondit :"
+        },
+        {
+          "id": "a3e23",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e24",
+          "type": "replique",
+          "texte": "Moineau à la langue coupée,\nMa maison est ici !\nTchui, tchui, tchui !",
+          "marionnetteId": "r1",
+          "ton": "en chantant"
+        },
+        {
+          "id": "a3e25",
+          "type": "conteur",
+          "texte": "{{r3}} se dit :"
+        },
+        {
+          "id": "a3e26",
+          "type": "replique",
+          "texte": "Parfait !",
+          "marionnetteId": "r3",
+          "ton": "pour soi"
+        },
+        {
+          "id": "a3e27",
+          "type": "conteur",
+          "texte": "Puis elle alla vers la voix. {{r1}} à la langue coupée l'accueillit à la porte,"
+        },
+        {
+          "id": "a3e28",
+          "type": "replique",
+          "texte": "Oh, c’est vous, grand-mère ? Soyez la bienvenue.",
+          "marionnetteId": "r1",
+          "ton": "gentiment"
+        },
+        {
+          "id": "a3e29",
+          "type": "conteur",
+          "texte": "Et il l'invita à entrer :"
+        },
+        {
+          "id": "a3e30",
+          "type": "replique",
+          "texte": "Montez, je vous en prie.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a3e31",
+          "type": "conteur",
+          "texte": "{{r3}} entra dans le salon ; mais, l'air pressé, elle ne faisait que regarder partout sans vouloir s'asseoir."
+        },
+        {
+          "id": "a3e32",
+          "type": "replique",
+          "texte": "Non, non, j'ai vu que tu allais bien, c'est tout ce que je voulais : ne te dérange pas pour moi. Donne-moi plutôt vite mon cadeau, que je puisse m'en aller.",
+          "marionnetteId": "r3",
+          "ton": "pressée"
+        },
+        {
+          "id": "a3e33",
+          "type": "conteur",
+          "texte": "Qu'on lui réclame ainsi son cadeau d'entrée, {{r1}} en fut stupéfait : quelle vieille gourmande ! Mais {{r3}}, sans se gêner, dit avec impatience :"
+        },
+        {
+          "id": "a3e34",
+          "type": "replique",
+          "texte": "Allez, dépêche-toi !",
+          "marionnetteId": "r3",
+          "ton": "impatiente"
+        },
+        {
+          "id": "a3e35",
+          "type": "replique",
+          "texte": "Oui, oui, alors attendez un instant, je vais chercher le cadeau.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a3e36",
+          "type": "conteur",
+          "texte": "Au fond de la maison, les deux paniers attendaient."
+        },
+        {
+          "id": "a3e37",
+          "type": "adresse_public",
+          "texte": "Dites avec moi les deux mots : « lourd… léger ! »",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e38",
+          "type": "replique",
+          "texte": "Voilà : il y en a un lourd et un léger. Prenez celui que vous voudrez.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a3e39",
+          "type": "replique",
+          "texte": "Le lourd, évidemment !",
+          "marionnetteId": "r3",
+          "ton": "brusque"
+        },
+        {
+          "id": "a3e40",
+          "type": "conteur",
+          "texte": "Et à peine eut-elle dit cela que {{r3}} partit avec le panier lourd sur le dos, en disant à peine au revoir."
+        },
+        {
+          "id": "a3e41",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e42",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "numero": 4,
+      "titre": "Le panier de la nuit",
+      "resume": "Le panier lourd libère les fantômes ; {{r3}} revient terrifiée et {{r2}} la console.",
+      "tableauId": "t4",
+      "elements": [
+        {
+          "id": "a4e1",
+          "type": "conteur",
+          "texte": "{{r3}} avait bien obtenu le panier lourd ; mais ce panier, déjà si lourd, devenait de plus en plus lourd à mesure qu'elle marchait, si bien que même {{r3}}, têtue, sentait ses épaules se déboîter et son dos se casser."
+        },
+        {
+          "id": "a4e2",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e3",
+          "type": "replique",
+          "texte": "Puisqu'il est si lourd, c'est qu'il y a d'autant plus de trésors dedans. Quel bonheur ! Qu'est-ce qu'il peut bien y avoir ? Je vais me reposer un peu ici, et l'ouvrir un petit peu pour voir.",
+          "marionnetteId": "r3",
+          "ton": "essoufflée"
+        },
+        {
+          "id": "a4e4",
+          "type": "adresse_public",
+          "texte": "Retenez votre souffle un instant devant le panier lourd.",
+          "marionnetteId": "r3",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e5",
+          "type": "conteur",
+          "texte": "Et en disant cela, elle s'assit sur une pierre au bord du chemin."
+        },
+        {
+          "id": "a4e6",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Ouf !"
+        },
+        {
+          "id": "a4e7",
+          "type": "conteur",
+          "texte": "Le couvercle du panier s'ouvrit."
+        },
+        {
+          "id": "a4e8",
+          "type": "conteur",
+          "texte": "Et alors, au lieu de l'or, de l'argent et du corail à vous éblouir, il en sortit, en se tortillant, un lutin à trois yeux, un lutin à un œil, un gros crapaud-moine, et toutes sortes de fantômes, dont {{r5}}, qui criaient :"
+        },
+        {
+          "id": "a4e9",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e10",
+          "type": "replique",
+          "texte": "Vieille gourmande !",
+          "marionnetteId": "r5",
+          "ton": "en grondant"
+        },
+        {
+          "id": "a4e11",
+          "type": "conteur",
+          "texte": "une partie de cette foule la fixait avec des yeux terribles, une autre lui léchait la figure avec sa langue répugnante, si bien que {{r3}} ne savait plus si elle était morte ou vivante."
+        },
+        {
+          "id": "a4e12",
+          "type": "adresse_public",
+          "texte": "Un tout petit souffle de fantôme, puis le silence !",
+          "marionnetteId": "r5",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e13",
+          "type": "replique",
+          "texte": "Au secours ! Au secours ! Aidez-moi !",
+          "marionnetteId": "r3",
+          "ton": "d'une voix suraiguë"
+        },
+        {
+          "id": "a4e14",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e15",
+          "type": "conteur",
+          "texte": "{{r3}} s'enfuit de toutes ses forces. Quand elle arriva enfin à la maison, elle était pâle comme une morte."
+        },
+        {
+          "id": "a4e16",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e17",
+          "type": "didascalie",
+          "texte": "Laisser respirer la scène pendant le changement de peluche."
+        },
+        {
+          "id": "a4e18",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e19",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e20",
+          "type": "conteur",
+          "texte": "{{r2}}, surpris, dit :"
+        },
+        {
+          "id": "a4e21",
+          "type": "replique",
+          "texte": "Que se passe-t-il ? Que se passe-t-il ?",
+          "marionnetteId": "r2",
+          "ton": "surpris"
+        },
+        {
+          "id": "a4e22",
+          "type": "conteur",
+          "texte": "{{r3}} raconta ce qui lui était arrivé,"
+        },
+        {
+          "id": "a4e23",
+          "type": "replique",
+          "texte": "Ah, plus jamais !",
+          "marionnetteId": "r3",
+          "ton": "tremblante"
+        },
+        {
+          "id": "a4e24",
+          "type": "conteur",
+          "texte": "{{r2}}, plein de pitié, lui dit :"
+        },
+        {
+          "id": "a4e25",
+          "type": "replique",
+          "texte": "Allons, allons, tu en as vu de dures. C'est pour ça qu'il ne faut pas être trop cruel, ni trop gourmand.",
+          "marionnetteId": "r2",
+          "ton": "plein de pitié"
+        },
+        {
+          "id": "a4e26",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e27",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "ja-moineau-langue-coupee",
+    "synopsis": {
+      "accroche": "Une chanson cherche un moineau blessé au-delà des montagnes.",
+      "resume": [
+        "{{r3}} blesse {{r1}} et {{r2}} le cherche.",
+        "La fête des moineaux et le panier léger récompensent {{r2}}.",
+        "{{r3}} exige le panier lourd, rencontre les fantômes et revient auprès de {{r2}}."
+      ]
+    },
+    "transposition": {
+      "texte": "Il était une fois, il y a bien longtemps, quelque part, {{r2}} et {{r3}}. Comme le couple n'avait pas d'enfant, {{r2}} élevait avec amour {{r1}}, petit moineau, qu'il gardait dans une cage.\n\nUn jour, {{r2}} était allé comme d'habitude couper des broussailles dans la montagne, et {{r3}} faisait la lessive près du puits. Pendant qu'elle était retournée à la cuisine chercher l'amidon qu'elle avait oublié pour son linge, le petit {{r1}} sortit de sa cage en trottinant, et lécha tout l'amidon.\n\nQuand {{r3}} revint chercher l'amidon, il n'y en avait plus une trace dans l'assiette. Quand elle comprit que c'était {{r1}} qui l'avait tout léché, {{r3}}, qui avait mauvais caractère, entra dans une grande colère. Elle barra la route au pauvre petit {{r1}} et dit :\n\n— C'est cette langue qui a fait cette bêtise ?\n\nClac ! {{r3}} lui coupa le bout de la langue. Puis elle dit :\n\n— Allez, va-t'en où tu voudras !\n\n{{r1}} s'envola. Sa voix était triste : « Aïe, aïe ! »\n\nLe soir, {{r2}} rentra de la montagne avec ses broussailles sur le dos :\n\n— Ah, que je suis fatigué. {{r1}} aussi doit avoir faim. Allons, allons, donnons-lui à manger.\n\nEt il alla devant la cage : {{r1}} n'y était plus. {{r2}}, surpris, dit :\n\n— Ma vieille, ma vieille, où est donc parti {{r1}} ?\n\nEt {{r3}} répondit, l'air de rien :\n\n— {{r1}} ? Il a léché mon précieux amidon, alors je lui ai coupé la langue et je l'ai chassé.\n\n— Oh, le pauvre ! Quelle cruauté ! dit {{r2}}, tout abattu.\n\n{{r2}} s'inquiétait tant de savoir où était parti {{r1}} à la langue coupée que, le lendemain, dès l'aube, il se mit en route. Tout le long du chemin, il appelait :\n\n« Moineau à la langue coupée,\nOù est ta maison ?\nTchui, tchui, tchui ! »\n\nEt il allait au hasard. Il passa une plaine, passa une montagne, encore une plaine, encore une montagne, et arriva à un endroit où il y avait un grand bosquet de bambous. Alors, du bosquet, une voix répondit :\n\n« Moineau à la langue coupée,\nMa maison est ici !\nTchui, tchui, tchui ! »\n\n{{r2}}, tout heureux, alla vers la voix. Bientôt, à l'ombre des bambous, il vit une jolie petite maison rouge ; et {{r1}} à la langue coupée l'accueillait à la porte.\n\n— Oh, grand-père, soyez le bienvenu !\n\n— Oh, oh, tu es sain et sauf ? Tu me manquais tant que je suis venu te chercher.\n\n— Oh, merci, merci beaucoup. Entrez, je vous en prie.\n\n{{r2}} entra dans la maison. {{r1}} s'inclina devant lui :\n\n— Grand-père, pardonnez-moi d'avoir léché le précieux amidon sans rien dire. Et vous, sans même vous fâcher, vous êtes venu me voir.\n\n— Mais non, c'est parce que je n'étais pas là que tu as été si malheureux. Mais de te revoir ainsi, je suis vraiment heureux.\n\n{{r1}} réunit tous ses frères, ses sœurs et la compagnie des moineaux, dont {{r4}}, et offrit à {{r2}} un grand festin de tout ce qu'il aimait. La compagnie dansa pour lui la danse des moineaux, sur une chanson amusante. {{r2}} était si content qu'il en oubliait de rentrer. Mais comme il commençait à faire sombre, il dit :\n\n— Grâce à vous, j'ai passé une merveilleuse journée. Avant qu'il fasse nuit, je vais prendre congé.\n\nEt il se leva. La compagnie le retint :\n\n— Oh, c'est bien modeste ici, mais restez donc dormir cette nuit.\n\n— C'est bien gentil, mais ma vieille doit m'attendre : je rentre aujourd'hui. Je reviendrai souvent.\n\n— Quel dommage ! Alors, je vais vous donner un cadeau : attendez un instant.\n\nAu fond de la maison, deux paniers d'osier attendaient.\n\n— Grand-père, voici un panier lourd et un panier léger. Prenez celui que vous préférez.\n\n— Après ce festin, recevoir encore un cadeau, c'est trop. Mais puisque tu me l'offres, je vais le prendre. Seulement, je suis vieux et le chemin est long : je prendrai le léger.\n\nLe panier léger reposait sur le dos de {{r2}}.\n\n— Alors, au revoir. Je reviendrai.\n\n— Nous vous attendrons. Rentrez bien prudemment.\n\nEt {{r1}} raccompagna {{r2}} jusqu'à la porte.\n\nComme la nuit était tombée et que {{r2}} ne rentrait toujours pas, {{r3}} ronchonnait. « Où est-il donc parti ? » Alors {{r2}} rentra avec le panier léger sur le dos.\n\n— Mon vieux, où étais-tu, et qu'as-tu fait jusqu'à cette heure-ci ?\n\n— Allons, ne te fâche pas comme ça. Aujourd'hui, je suis allé chez {{r1}}, on m'a offert un grand festin et la danse des moineaux, et en plus, on m'a donné ce beau cadeau.\n\nLe panier léger resta près de la porte, et {{r3}}, soudain toute souriante :\n\n— Oh, que c'est bien ! Qu'est-ce qu'il peut bien y avoir dedans ?\n\nLe couvercle du panier s'ouvrit : il en sortit de l'or, de l'argent, du corail et des perles magiques, à vous éblouir. En voyant cela, {{r2}} dit d'un air fier :\n\n— Vois-tu, {{r1}} m'a proposé un panier lourd et un panier léger, et m'a dit de choisir. Comme je suis vieux et que le chemin est long, j'ai pris le léger ; mais je ne pensais pas qu'il y avait de si belles choses dedans.\n\nAlors {{r3}} fit de nouveau la grimace :\n\n— Vieux sot ! Pourquoi n'as-tu pas pris le lourd ? Il y avait sûrement beaucoup plus de belles choses dedans !\n\n— Allons, il ne faut pas être si gourmande. Avec toutes ces belles choses, nous en avons bien assez.\n\n— Comment ça, assez ? Bon, bon, je vais y aller, moi, et je rapporterai le panier lourd !\n\nEt sans écouter {{r2}} qui voulait l'en empêcher, sans même attendre le matin, elle sortit en courant de la maison.\n\nIl faisait déjà tout noir dehors, mais {{r3}}, ne pensant qu'à sa convoitise, avançait au hasard en appelant :\n\n« Moineau à la langue coupée,\nOù est ta maison ?\nTchui, tchui, tchui ! »\n\nElle passa une plaine, une montagne, encore une plaine, encore une montagne, et arriva au grand bosquet de bambous. Du bosquet, une voix répondit :\n\n« Moineau à la langue coupée,\nMa maison est ici !\nTchui, tchui, tchui ! »\n\n{{r3}} se dit : « Parfait ! » Puis elle alla vers la voix. {{r1}} à la langue coupée l'accueillit à la porte, et gentiment lui dit :\n\n— Oh, c'est vous, grand-mère ? Soyez la bienvenue.\n\nEt il l'invita à entrer :\n\n— Montez, je vous en prie.\n\n{{r3}} entra dans le salon ; mais, l'air pressé, elle ne faisait que regarder partout sans vouloir s'asseoir.\n\n— Non, non, j'ai vu que tu allais bien, c'est tout ce que je voulais : ne te dérange pas pour moi. Donne-moi plutôt vite mon cadeau, que je puisse m'en aller.\n\nQu'on lui réclame ainsi son cadeau d'entrée, {{r1}} en fut stupéfait : quelle vieille gourmande ! Mais {{r3}}, sans se gêner, dit avec impatience :\n\n— Allez, dépêche-toi !\n\n— Oui, oui, alors attendez un instant, je vais chercher le cadeau.\n\nAu fond de la maison, les deux paniers attendaient.\n\n— Voilà : il y en a un lourd et un léger. Prenez celui que vous voudrez.\n\n— Le lourd, évidemment !\n\nEt à peine eut-elle dit cela que {{r3}} partit avec le panier lourd sur le dos, en disant à peine au revoir.\n\n{{r3}} avait bien obtenu le panier lourd ; mais ce panier, déjà si lourd, devenait de plus en plus lourd à mesure qu'elle marchait, si bien que même {{r3}}, têtue, sentait ses épaules se déboîter et son dos se casser. Pourtant elle se disait :\n\n— Puisqu'il est si lourd, c'est qu'il y a d'autant plus de trésors dedans. Quel bonheur ! Qu'est-ce qu'il peut bien y avoir ? Je vais me reposer un peu ici, et l'ouvrir un petit peu pour voir.\n\nEt en disant cela, elle s'assit sur une pierre au bord du chemin. « Ouf ! » Le couvercle du panier s'ouvrit.\n\nEt alors, au lieu de l'or, de l'argent et du corail à vous éblouir, il en sortit, en se tortillant, un lutin à trois yeux, un lutin à un œil, un gros crapaud-moine, et toutes sortes de fantômes, dont {{r5}}, qui criaient : « Vieille gourmande ! » ; une partie de cette foule la fixait avec des yeux terribles, une autre lui léchait la figure avec sa langue répugnante, si bien que {{r3}} ne savait plus si elle était morte ou vivante.\n\n— Au secours ! Au secours ! Aidez-moi !\n\n{{r3}} s'enfuit de toutes ses forces. Quand elle arriva enfin à la maison, elle était pâle comme une morte. {{r2}}, surpris, dit :\n\n— Que se passe-t-il ? Que se passe-t-il ?\n\n{{r3}} raconta ce qui lui était arrivé, et dit : « Ah, plus jamais ! » {{r2}}, plein de pitié, lui dit :\n\n— Allons, allons, tu en as vu de dures. C'est pour ça qu'il ne faut pas être trop cruel, ni trop gourmand."
+    }
+  },
+  "dureeEstimeeSecondes": 952,
+  "interactionsOrdonnees": [
+    "a2e4",
+    "a3e10",
+    "a3e37",
+    "a2e32",
+    "a2e20",
+    "a3e20",
+    "a1e11",
+    "a4e12",
+    "a4e4"
+  ]
+}

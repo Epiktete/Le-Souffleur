@@ -1,0 +1,335 @@
+{
+  "id": "fr-florian-aveugle-paralytique--1",
+  "conteId": "fr-florian-aveugle-paralytique",
+  "titre": "L’Aveugle et le Paralytique",
+  "pitch": "{{r1}} marche sans voir ; {{r2}} voit sans pouvoir marcher. Leur rencontre leur permet d’avancer ensemble.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": null,
+      "famille": null,
+      "traits": [
+        "généreux",
+        "sage",
+        "courageux"
+      ],
+      "voix": "voix douce et décidée, qui ralentit pour chercher ses mots",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e8:texte",
+            "avant": "devant lui",
+            "apres": "devant elle"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "le conduire",
+            "apres": "la conduire"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "Il entendit",
+            "apres": "Elle entendit"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "mon frère",
+            "apres": "ma sœur"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r2",
+      "espece": null,
+      "famille": null,
+      "traits": [
+        "sage",
+        "gentil"
+      ],
+      "voix": "voix calme et prudente, puis plus assurée quand il répond",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "voix:r2",
+            "avant": "il répond",
+            "apres": "elle répond"
+          },
+          {
+            "id": "a1e2:texte",
+            "avant": "L’un paralysé",
+            "apres": "L’une paralysée"
+          },
+          {
+            "id": "a1e2:texte",
+            "avant": "l’un comme l’autre",
+            "apres": "l’une comme l’autre"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "Couché",
+            "apres": "Couchée"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "être plaint",
+            "apres": "être plainte"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "il en souffrait",
+            "apres": "elle en souffrait"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "mon frère",
+            "apres": "ma sœur"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "mon guide",
+            "apres": "ma guide"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 4,
+    "ageAuditoire": 7,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La place de la ville",
+      "description": "Posez un coussin à droite de la table pour figurer le grabat de {{r2}}. Le reste de la table est la place publique ; aucun autre objet n’est nécessaire.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "Le détour de la rue",
+      "description": "Gardez le coussin à sa place et laissez libre le milieu de la table. Ce passage est la rue où les deux personnages se rencontrent, puis avancent côte à côte.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Deux solitudes",
+      "resume": "Le conteur rappelle les mots de Confucius. {{r1}} et {{r2}} vivent sans compagnon dans une ville d’Asie.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Aidons-nous mutuellement,\nLa charge des malheurs en sera\nplus légère,\nLe bien que l’on fait à son frère\nPour le mal que l’on souffre est un soulagement.\nConfucius l’a dit ; suivons tous sa doctrine ;\nPour la persuader aux peuples de la Chine\nIl leur contait le trait suivant."
+        },
+        {
+          "id": "a1e2",
+          "type": "conteur",
+          "texte": "Dans une ville de l’Asie\nIl existait deux êtres malheureux,\nL’un paralysé, l’autre aveugle, et pauvres l’un comme l’autre."
+        },
+        {
+          "id": "a1e3",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e4",
+          "type": "didascalie",
+          "texte": "{{r2}} reste près du coussin qui figure son grabat, immobile sur la place."
+        },
+        {
+          "id": "a1e5",
+          "type": "conteur",
+          "texte": "Les deux demandaient au ciel un peu de compagnie ;\nMais leurs cris restaient sans réponse.\nLa solitude demeurait. Notre {{r2}},\nCouché sur un grabat dans la place publique,\nSouffrait sans être plaint ; il en souffrait bien plus."
+        },
+        {
+          "id": "a1e6",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Dites tout bas avec moi : « un peu de compagnie ».",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e7",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e8",
+          "type": "didascalie",
+          "texte": "{{r1}} avance lentement de l’autre côté de la place, sans regarder devant lui."
+        },
+        {
+          "id": "a1e9",
+          "type": "conteur",
+          "texte": "{{r1}}, à qui tout pouvait nuire,\nÉtait sans guide, sans soutien,\nSans avoir même un pauvre chien\nPour l’aimer et pour le conduire."
+        },
+        {
+          "id": "a1e10",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites un petit pas sur place avec moi.",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e11",
+          "type": "didascalie",
+          "texte": "{{r1}} avance d’un pas, tandis que {{r2}} reste près du coussin."
+        },
+        {
+          "id": "a1e12",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Regardez : je reste ici, sur la place.",
+          "attenteReponse": false
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "À nous deux",
+      "resume": "{{r1}} entend {{r2}} et propose de réunir leurs moyens. Leur entraide les fait avancer ensemble, sans guérison ni hiérarchie.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "Un certain jour il arriva\nQue {{r1}}, à tâtons, au détour d’une rue,\nPrès de {{r2}} se trouva ;\nIl entendit ses cris, son âme en fut émue.\nIl n’est tels que les malheureux\nPour comprendre les maux des autres."
+        },
+        {
+          "id": "a2e2",
+          "type": "didascalie",
+          "texte": "{{r1}} se tourne vers {{r2}} et se rapproche ; {{r2}} oriente la tête vers sa voix."
+        },
+        {
+          "id": "a2e3",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "J’ai mes maux, et vous avez les vôtres ;"
+        },
+        {
+          "id": "a2e4",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Unissons-les, mon frère, ils seront moins affreux."
+        },
+        {
+          "id": "a2e5",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Dites avec moi : « Unissons-les ! »",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e6",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Hélas ! vous ignorez, mon frère,"
+        },
+        {
+          "id": "a2e7",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Que je ne puis faire un seul pas ;\nVous-même vous n’y voyez pas ;\nÀ quoi nous servirait d’unir notre misère ?"
+        },
+        {
+          "id": "a2e8",
+          "type": "didascalie",
+          "texte": "{{r2}} incline la tête vers les enfants un instant, puis revient vers {{r1}}."
+        },
+        {
+          "id": "a2e9",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Faites « hmm » avec moi.",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e10",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "À quoi ? écoutez : à nous deux"
+        },
+        {
+          "id": "a2e11",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Nous possédons le bien à l’autre nécessaire ;\nJ’ai des jambes, et vous des yeux ;\nMoi, je vais vous porter ; vous, vous serez mon guide ;\nVos yeux dirigeront mes pas mal assurés ;\nMes jambes, à leur tour, iront où vous voudrez."
+        },
+        {
+          "id": "a2e12",
+          "type": "didascalie",
+          "texte": "{{r1}} se place tout près de {{r2}} ; les deux peluches restent chacune sur une main."
+        },
+        {
+          "id": "a2e13",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ainsi, sans que jamais notre amitié décide\nQui de nous deux remplit le plus utile emploi,\nJe marcherai pour vous, vous y verrez pour moi."
+        },
+        {
+          "id": "a2e14",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Comptez nos pas : un, deux, trois !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e15",
+          "type": "didascalie",
+          "texte": "Les deux peluches avancent ensemble d’un bout de la table à l’autre. {{r2}} se tourne vers le chemin ; {{r1}} suit ce mouvement. Aucun objet ni peluche n’est porté."
+        },
+        {
+          "id": "a2e16",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e17",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "fr-florian-aveugle-paralytique",
+    "synopsis": {
+      "accroche": "Deux personnes isolées découvrent comment s’aider.",
+      "resume": [
+        "Le conteur rappelle l’appel à l’entraide de Confucius.",
+        "{{r1}} et {{r2}} vivent chacun avec sa difficulté et cherchent de la compagnie.",
+        "{{r1}} entend {{r2}} et propose de le porter ; {{r2}} guidera ses pas.",
+        "Ils avancent ensemble sans comparer leurs contributions."
+      ]
+    },
+    "transposition": {
+      "texte": "# L’Aveugle et le Paralytique\n\n*France — Jean-Pierre Claris de Florian, Fables, édition Delloye, 1838. Texte original en français.*\n\nAidons-nous mutuellement,\n\nLa charge des malheurs en sera\n\nplus légère,\n\nLe bien que l’on fait à son frère\n\nPour le mal que l’on souffre est un soulagement.\n\nConfucius l’a dit ; suivons tous sa doctrine ;\n\nPour la persuader aux peuples de la Chine\n\nIl leur contait le trait suivant.\n\nDans une ville de l’Asie\n\nIl existait deux êtres malheureux,\n\nL’un paralysé, l’autre aveugle, et pauvres l’un comme l’autre.\n\nLes deux demandaient au ciel un peu de compagnie ;\n\nMais leurs cris restaient sans réponse.\n\nLa solitude demeurait. Notre {{r2}},\n\nCouché sur un grabat dans la place publique,\n\nSouffrait sans être plaint ; il en souffrait bien plus.\n\n{{r1}}, à qui tout pouvait nuire,\n\nÉtait sans guide, sans soutien,\n\nSans avoir même un pauvre chien\n\nPour l’aimer et pour le conduire.\n\nUn certain jour il arriva\n\nQue {{r1}}, à tâtons, au détour d’une rue,\n\nPrès de {{r2}} se trouva ;\n\nIl entendit ses cris, son âme en fut émue.\n\nIl n’est tels que les malheureux\n\nPour comprendre les maux des autres.\n\nJ’ai mes maux, lui dit-il, et vous avez les vôtres ;\n\nUnissons-les, mon frère, ils seront moins affreux.\n\nHélas ! dit {{r2}}, vous ignorez, mon frère,\n\nQue je ne puis faire un seul pas ;\n\nVous-même vous n’y voyez pas ;\n\nÀ quoi nous servirait d’unir notre misère ?\n\nÀ quoi ? répond {{r1}}, écoutez : à nous deux\n\nNous possédons le bien à l’autre nécessaire ;\n\nJ’ai des jambes, et vous des yeux ;\n\nMoi, je vais vous porter ; vous, vous serez mon guide ;\n\nVos yeux dirigeront mes pas mal assurés ;\n\nMes jambes, à leur tour, iront où vous voudrez.\n\nAinsi, sans que jamais notre amitié décide\n\nQui de nous deux remplit le plus utile emploi,\n\nJe marcherai pour vous, vous y verrez pour moi."
+    }
+  },
+  "dureeEstimeeSecondes": 242,
+  "interactionsOrdonnees": [
+    "a1e6",
+    "a1e10",
+    "a1e12",
+    "a2e5",
+    "a2e9",
+    "a2e14"
+  ]
+}

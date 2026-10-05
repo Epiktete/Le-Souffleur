@@ -1,0 +1,565 @@
+{
+  "id": "afr-moineau-et-poule--1",
+  "conteId": "afr-moineau-et-poule",
+  "titre": "Le Moineau et la Poule",
+  "pitch": "{{r1}} chasse {{r2}}, qui l’avait mise en garde ; mais quand le maître arrive avec son bâton, c’est {{r2}} qui la cache, puis lui souffle comment rester à l’abri.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "poule",
+      "famille": "oiseau",
+      "traits": [
+        "têtu",
+        "grognon"
+      ],
+      "voix": "voix haute et pincée, qui caquette et monte dans les aigus quand quelque chose ne lui plaît pas",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "l’avait mise en garde",
+            "apres": "l’avait mis en garde"
+          },
+          {
+            "id": "pitch",
+            "avant": "qui la cache",
+            "apres": "qui le cache"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "pourquoi elle ne vole pas",
+            "apres": "pourquoi il ne vole pas"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "puisqu’elle a des ailes",
+            "apres": "puisqu’il a des ailes"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "Vexée",
+            "apres": "Vexé"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "viendra la tuer",
+            "apres": "viendra le tuer"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "elle fut mécontente",
+            "apres": "il fut mécontent"
+          },
+          {
+            "id": "a1e13:ton",
+            "avant": "très vexée",
+            "apres": "très vexé"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "sans la trouver",
+            "apres": "sans le trouver"
+          },
+          {
+            "id": "a2e8:ton",
+            "avant": "affolée",
+            "apres": "affolé"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "tu seras entrée",
+            "apres": "tu seras entré"
+          },
+          {
+            "id": "a2e12:texte",
+            "avant": "on ne la voit plus",
+            "apres": "on ne le voit plus"
+          },
+          {
+            "id": "a2e14:texte",
+            "avant": "reste cachée",
+            "apres": "reste caché"
+          },
+          {
+            "id": "a2e16:texte",
+            "avant": "après elle sans la trouver",
+            "apres": "après lui sans le trouver"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "le maître la garde",
+            "apres": "le maître le garde"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "qu’elle avait quittée",
+            "apres": "qu’il avait quittée"
+          },
+          {
+            "id": "a3e10:ton",
+            "avant": "reconnaissante",
+            "apres": "reconnaissant"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r2",
+      "espece": "moineau",
+      "famille": "oiseau",
+      "traits": [
+        "sage",
+        "bavard"
+      ],
+      "voix": "voix vive et flûtée, parle très vite, avec de petits « piou » entre les phrases",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e6:ton",
+            "avant": "curieux",
+            "apres": "curieuse"
+          },
+          {
+            "id": "a1e9:ton",
+            "avant": "sans le regarder",
+            "apres": "sans la regarder"
+          },
+          {
+            "id": "a1e14:ton",
+            "avant": "fâché",
+            "apres": "fâchée"
+          },
+          {
+            "id": "a1e16:ton",
+            "avant": "très sérieux",
+            "apres": "très sérieuse"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "remercie son ami",
+            "apres": "remercie son amie"
+          },
+          {
+            "id": "a3e6:ton",
+            "avant": "bien sérieux",
+            "apres": "bien sérieuse"
+          },
+          {
+            "id": "a3e10:texte",
+            "avant": "mon frère",
+            "apres": "ma sœur"
+          },
+          {
+            "id": "a3e12:texte",
+            "avant": "il s’en alla",
+            "apres": "elle s’en alla"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a3e15:texte",
+          "avant": "du moineau",
+          "gabarit": "{du} {espece}"
+        }
+      ]
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 5,
+    "ageAuditoire": 5,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La cour de la maison",
+      "description": "Posez un coussin debout à un bout de la table, du côté de votre main droite : c’est l’arbre, et son bord du haut est la branche. À l’autre bout, un carton debout fait la maison. Devant le carton, froissez un torchon vert : ce sont les hautes herbes, où l’on peut se cacher.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Tu as des ailes",
+      "resume": "{{r2}} demande à {{r1}} pourquoi elle ne vole pas, puisqu’elle a des ailes. Vexée, {{r1}} chasse {{r2}}, qui l’avertit : demain, le maître viendra la tuer.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e2",
+          "type": "didascalie",
+          "texte": "{{r1}} se dandine au milieu de la cour et picore le sol à petits coups de tête."
+        },
+        {
+          "id": "a1e3",
+          "type": "conteur",
+          "texte": "{{r2}} vint dire à {{r1}} :"
+        },
+        {
+          "id": "a1e4",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e5",
+          "type": "didascalie",
+          "texte": "{{r2}} arrive en voletant et se pose tout près de {{r1}}."
+        },
+        {
+          "id": "a1e6",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "{{r1}}, tu as des ailes, pourquoi ne peux-tu pas prendre ton vol comme je le fais ?",
+          "ton": "curieux, en sautillant"
+        },
+        {
+          "id": "a1e7",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Battez des ailes avec moi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e8",
+          "type": "didascalie",
+          "texte": "{{r2}} bat des ailes très vite, s’envole jusqu’en haut du coussin, puis revient se poser près de {{r1}}."
+        },
+        {
+          "id": "a1e9",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Parce que je ne suis pas comme ça.",
+          "ton": "sèchement, sans le regarder"
+        },
+        {
+          "id": "a1e10",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Pourquoi parler ainsi ? Tu as des pieds, des ailes comme les miennes et tout ce qui est dans mon corps existe dans le tien.",
+          "ton": "vite, sans reprendre son souffle"
+        },
+        {
+          "id": "a1e11",
+          "type": "conteur",
+          "texte": "Lorsque {{r1}} l’entendit, elle fut mécontente et ne voulut pas écouter les paroles de {{r2}}."
+        },
+        {
+          "id": "a1e12",
+          "type": "didascalie",
+          "texte": "{{r1}} se secoue de colère et tourne le dos à {{r2}}."
+        },
+        {
+          "id": "a1e13",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Va-t’en, couche-toi dans le désert ; laisse-moi dormir dans la maison ; le langage que tu m’as tenu ne me plaît pas.",
+          "ton": "très vexée, en grognant"
+        },
+        {
+          "id": "a1e14",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Puisque tu ne veux pas écouter mes paroles, demain les gens te prendront dans la maison ; ils te tueront et mangeront ta chair ; tu n’as pas d’intelligence ; alors que je viens t’apprendre la sagesse, tu me repousses !",
+          "ton": "fâché, en hochant la tête"
+        },
+        {
+          "id": "a1e15",
+          "type": "didascalie",
+          "texte": "{{r2}} se penche tout près de {{r1}}."
+        },
+        {
+          "id": "a1e16",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Bientôt, lorsque tu verras les gens venir te tuer, tu sauras alors comment sauver ta vie !",
+          "ton": "plus bas, très sérieux"
+        },
+        {
+          "id": "a1e17",
+          "type": "didascalie",
+          "texte": "{{r1}} pousse {{r2}} d’un grand coup de tête."
+        },
+        {
+          "id": "a1e18",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Va-t’en, je n’ai pas besoin de toi.",
+          "ton": "en criant"
+        },
+        {
+          "id": "a1e19",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "C’est bien.",
+          "ton": "calmement"
+        },
+        {
+          "id": "a1e20",
+          "type": "conteur",
+          "texte": "{{r2}} partit et alla se poser sur un arbre."
+        },
+        {
+          "id": "a1e21",
+          "type": "didascalie",
+          "texte": "{{r2}} s’envole et se pose tout en haut du coussin, sur la branche."
+        },
+        {
+          "id": "a1e22",
+          "type": "didascalie",
+          "texte": "{{r1}} se blottit contre le carton de la maison et ne bouge plus."
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Le maître et son bâton",
+      "resume": "Au matin, le maître arrive avec un bâton pour tuer {{r1}}. {{r2}}, sur sa branche, dit à {{r1}} de se cacher dans l’herbe sans bouger, et le maître repart sans la trouver.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Faites le coq avec moi : cocorico !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e2",
+          "type": "conteur",
+          "texte": "Lorsque l’aurore arriva, le maître de la maison prit un bâton pour tuer {{r1}}."
+        },
+        {
+          "id": "a2e3",
+          "type": "didascalie",
+          "texte": "{{r1}} se redresse d’un coup et se secoue."
+        },
+        {
+          "id": "a2e4",
+          "type": "didascalie",
+          "texte": "Frappez lentement sur la table, de plus en plus fort : boum… boum… boum… Ce sont les pas du maître qui arrive."
+        },
+        {
+          "id": "a2e5",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Criez avec moi : attention !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e6",
+          "type": "conteur",
+          "texte": "{{r1}}, en le voyant, s’envola, traversa la maison de son maître, poussa des plaintes et dit :"
+        },
+        {
+          "id": "a2e7",
+          "type": "didascalie",
+          "texte": "{{r1}} bat des ailes en tous sens, traverse la scène en courant, puis revient."
+        },
+        {
+          "id": "a2e8",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ce que m’avait dit hier {{r2}} est arrivé et j’ai refusé de l’écouter.",
+          "ton": "en gémissant, affolée"
+        },
+        {
+          "id": "a2e9",
+          "type": "didascalie",
+          "texte": "{{r2}} se penche au bord de sa branche, vers {{r1}}."
+        },
+        {
+          "id": "a2e10",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Entre dans l’herbe ; si ton maître te voit, il te tuera. Quand tu seras entrée dans la verdure, ne bouge pas, reste tranquille.",
+          "ton": "vite et fort, depuis sa branche"
+        },
+        {
+          "id": "a2e11",
+          "type": "conteur",
+          "texte": "{{r1}} l’écouta et s’enfuit dans le fourré."
+        },
+        {
+          "id": "a2e12",
+          "type": "didascalie",
+          "texte": "{{r1}} court derrière le torchon vert et s’y aplatit : on ne la voit plus."
+        },
+        {
+          "id": "a2e13",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Chut ! Pas un bruit !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e14",
+          "type": "note_marionnettiste",
+          "texte": "Pendant les pas du maître, {{r1}} reste cachée derrière le torchon, sans bouger du tout."
+        },
+        {
+          "id": "a2e15",
+          "type": "didascalie",
+          "texte": "Frappez de petits coups sur la table, ici, puis là, puis plus loin : ce sont les pas du maître qui cherche dans l’herbe."
+        },
+        {
+          "id": "a2e16",
+          "type": "conteur",
+          "texte": "L’homme chercha dans l’herbe après elle sans la trouver. Le soir, il s’en alla se coucher."
+        },
+        {
+          "id": "a2e17",
+          "type": "didascalie",
+          "texte": "Frappez encore quelques coups, de plus en plus doucement : le maître s’en va."
+        },
+        {
+          "id": "a2e18",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Il est parti ! Faites avec moi : ouf !",
+          "attenteReponse": true
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Ponds un œuf",
+      "resume": "{{r1}} sort de sa cachette. {{r2}} lui donne un conseil : pondre un œuf chaque matin, pour que le maître la garde ; {{r1}} remercie son ami.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "conteur",
+          "texte": "En le voyant partir, {{r1}} sortit et retourna à sa première place qu’elle avait quittée."
+        },
+        {
+          "id": "a3e2",
+          "type": "didascalie",
+          "texte": "{{r1}} sort tout doucement de derrière le torchon, regarde à droite, à gauche, puis revient contre le carton de la maison."
+        },
+        {
+          "id": "a3e3",
+          "type": "didascalie",
+          "texte": "{{r2}} descend de l’arbre en voletant et se pose près de {{r1}}."
+        },
+        {
+          "id": "a3e4",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "S’il vient pour te tuer, ponds un œuf ; quand il le verra, il dira : la poule pond des œufs, je ne la tuerai pas ; mais il prendra l’œuf et s’en ira le faire cuire avec du sel, le mangera et sera content.",
+          "ton": "en prenant une grosse voix pour les mots du maître"
+        },
+        {
+          "id": "a3e5",
+          "type": "didascalie",
+          "texte": "{{r2}} hoche la tête plusieurs fois."
+        },
+        {
+          "id": "a3e6",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Chaque matin, il viendra chercher à l’endroit où tu pondras un œuf. Voilà le conseil que je te donne ; ne l’oublie pas.",
+          "ton": "lentement, bien sérieux"
+        },
+        {
+          "id": "a3e7",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites la poule avec moi : cot, cot, codet !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e8",
+          "type": "didascalie",
+          "texte": "{{r1}} se dandine fièrement en caquetant, à la voix : « Cot, cot, codet ! »"
+        },
+        {
+          "id": "a3e9",
+          "type": "didascalie",
+          "texte": "{{r1}} se serre tout contre {{r2}}."
+        },
+        {
+          "id": "a3e10",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je te remercie, mon frère. J’agirai, comme tu me l’as recommandé, aujourd’hui, demain, jusqu’à ma mort ; je te remercie beaucoup.",
+          "ton": "doucement, reconnaissante"
+        },
+        {
+          "id": "a3e11",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Si tu écoutes mes paroles, les gens ne te tueront pas d’ici quelque temps.",
+          "ton": "gentiment"
+        },
+        {
+          "id": "a3e12",
+          "type": "conteur",
+          "texte": "Puis il s’en alla."
+        },
+        {
+          "id": "a3e13",
+          "type": "didascalie",
+          "texte": "{{r2}} s’envole et disparaît derrière l’arbre."
+        },
+        {
+          "id": "a3e14",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e15",
+          "type": "conteur",
+          "texte": "L’histoire de la poule et du moineau est finie."
+        },
+        {
+          "id": "a3e16",
+          "type": "didascalie",
+          "texte": "{{r1}} salue les enfants d’un grand hochement de tête."
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "afr-moineau-et-poule",
+    "synopsis": {
+      "accroche": "{{r1}}, la poule, chasse {{r2}}, le moineau, qui voulait la mettre en garde ; mais quand le maître vient la tuer, c’est {{r2}} qui la sauve.",
+      "resume": [
+        "{{r2}} demande à {{r1}} pourquoi elle ne vole pas, alors qu’elle a des ailes comme lui.",
+        "Vexée, {{r1}} le chasse. {{r2}} la prévient : demain, le maître viendra la prendre pour la manger.",
+        "Au matin, le maître arrive avec un bâton. {{r1}} s’affole ; {{r2}}, sur sa branche, lui dit de se cacher dans l’herbe et de ne pas bouger. Le maître cherche, ne la trouve pas, et repart le soir.",
+        "{{r2}} donne à {{r1}} son secret : pondre un œuf chaque matin, et le maître la gardera.",
+        "{{r1}} remercie son ami, et {{r2}} s’en va."
+      ]
+    },
+    "transposition": {
+      "texte": "{{r2}} vint dire à {{r1}} :\n\n— {{r1}}, tu as des ailes, pourquoi ne peux-tu pas prendre ton vol comme je le fais ?\n\n— Parce que je ne suis pas comme ça, répondit {{r1}}.\n\n{{r2}} reprit :\n\n— Pourquoi parler ainsi ? Tu as des pieds, des ailes comme les miennes et tout ce qui est dans mon corps existe dans le tien.\n\nLorsque {{r1}} l’entendit, elle fut mécontente et ne voulut pas écouter les paroles de {{r2}}.\n\n— Va-t’en, dit-elle, couche-toi dans le désert ; laisse-moi dormir dans la maison ; le langage que tu m’as tenu ne me plaît pas.\n\n— Puisque tu ne veux pas écouter mes paroles, demain les gens te prendront dans la maison ; ils te tueront et mangeront ta chair ; tu n’as pas d’intelligence ; alors que je viens t’apprendre la sagesse, tu me repousses ! Bientôt, lorsque tu verras les gens venir te tuer, tu sauras alors comment sauver ta vie !\n\n{{r1}} continua :\n\n— Va-t’en, je n’ai pas besoin de toi.\n\n— C’est bien, dit {{r2}}.\n\nIl partit et alla se poser sur un arbre.\n\nLorsque l’aurore arriva, le maître de la maison prit un bâton pour tuer {{r1}}. Celle-ci, en le voyant, s’envola, traversa la maison de son maître, poussa des plaintes et dit :\n\n— Ce que m’avait dit hier {{r2}} est arrivé et j’ai refusé de l’écouter.\n\n{{r2}}, posé sur un arbre, dit à {{r1}} :\n\n— Entre dans l’herbe ; si ton maître te voit, il te tuera. Quand tu seras entrée dans la verdure, ne bouge pas, reste tranquille.\n\nElle l’écouta et s’enfuit dans le fourré. L’homme chercha dans l’herbe après elle sans la trouver. Le soir, il s’en alla se coucher.\n\nEn le voyant partir, {{r1}} sortit et retourna à sa première place qu’elle avait quittée. {{r2}} lui dit :\n\n— S’il vient pour te tuer, ponds un œuf ; quand il le verra, il dira : la poule pond des œufs, je ne la tuerai pas ; mais il prendra l’œuf et s’en ira le faire cuire avec du sel, le mangera et sera content. Chaque matin, il viendra chercher à l’endroit où tu pondras un œuf. Voilà le conseil que je te donne ; ne l’oublie pas.\n\n{{r1}} lui dit :\n\n— Je te remercie, mon frère. J’agirai, comme tu me l’as recommandé, aujourd’hui, demain, jusqu’à ma mort ; je te remercie beaucoup.\n\n{{r2}} ajouta :\n\n— Si tu écoutes mes paroles, les gens ne te tueront pas d’ici quelque temps.\n\nPuis il s’en alla. L’histoire de la poule et du moineau est finie."
+    }
+  },
+  "dureeEstimeeSecondes": 358,
+  "interactionsOrdonnees": [
+    "a2e13",
+    "a1e7",
+    "a3e7",
+    "a2e5",
+    "a2e1",
+    "a2e18"
+  ]
+}

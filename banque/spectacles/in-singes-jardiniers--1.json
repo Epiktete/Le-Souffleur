@@ -1,0 +1,621 @@
+{
+  "id": "in-singes-jardiniers--1",
+  "conteId": "in-singes-jardiniers",
+  "titre": "Les Singes jardiniers",
+  "pitch": "{{r2}} laisse le jardin à {{r1}} et {{r4}}. {{r1}} mesure les racines pour économiser l’eau ; les plantes fanent et {{r3}} rend son verdict.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "singe",
+      "famille": "petit",
+      "traits": [
+        "savant",
+        "orgueilleux",
+        "maladroit"
+      ],
+      "voix": "voix grave et appliquée, comme à la tête d’un conseil",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2e1:texte",
+            "avant": "le chef de la bande",
+            "apres": "la cheffe de la bande"
+          },
+          {
+            "id": "a2e5:ton",
+            "avant": "solennel",
+            "apres": "solennelle"
+          },
+          {
+            "id": "a2e8:ton",
+            "avant": "sûr de lui",
+            "apres": "sûre d’elle"
+          },
+          {
+            "id": "a3e6:texte",
+            "avant": "le chef de la bande",
+            "apres": "la cheffe de la bande"
+          },
+          {
+            "id": "a3e6:texte",
+            "avant": "fut très surpris",
+            "apres": "fut très surprise"
+          },
+          {
+            "id": "a3e9:texte",
+            "avant": "très malin",
+            "apres": "très maline"
+          },
+          {
+            "id": "a3e9:ton",
+            "avant": "surpris",
+            "apres": "surprise"
+          },
+          {
+            "id": "t3:description",
+            "avant": "est sorti",
+            "apres": "est sortie"
+          },
+          {
+            "id": "a3e10:texte",
+            "avant": "Malin ! Malin, vraiment !",
+            "apres": "Maline ! Maline, vraiment !"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a1e6:texte",
+          "avant": "un singe",
+          "gabarit": "{un} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r2",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "naïf",
+        "gentil",
+        "rêveur"
+      ],
+      "voix": "voix pressée quand il part, puis toute tremblante devant les plantes fanées",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e1:texte",
+            "avant": "Un jardinier nommé",
+            "apres": "Une jardinière nommée"
+          },
+          {
+            "id": "a1e4:ton",
+            "avant": "plein de doutes",
+            "apres": "pleine de doutes"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "plein de doutes, il leva",
+            "apres": "pleine de doutes, elle leva"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "il vit",
+            "apres": "elle vit"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "qu’il connaissait",
+            "apres": "qu’elle connaissait"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "Il avait souvent été gentil",
+            "apres": "Elle avait souvent été gentille"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "et il pensa",
+            "apres": "et elle pensa"
+          },
+          {
+            "id": "a1e7:ton",
+            "avant": "songeur",
+            "apres": "songeuse"
+          },
+          {
+            "id": "a1e12:texte",
+            "avant": "à côté de lui",
+            "apres": "à côté d’elle"
+          },
+          {
+            "id": "a1e15:texte",
+            "avant": "un bon ami pour vous",
+            "apres": "une bonne amie pour vous"
+          },
+          {
+            "id": "a2e5:texte",
+            "avant": "Notre bon ami",
+            "apres": "Notre bonne amie"
+          },
+          {
+            "id": "a3e5:ton",
+            "avant": "désolé",
+            "apres": "désolée"
+          },
+          {
+            "id": "a3e6:texte",
+            "avant": "le pauvre",
+            "apres": "la pauvre"
+          },
+          {
+            "id": "a3e14:texte",
+            "avant": "le plus sot",
+            "apres": "la plus sotte"
+          },
+          {
+            "id": "voix:r2",
+            "avant": "quand il part",
+            "apres": "quand elle part"
+          },
+          {
+            "id": "a1:titre",
+            "avant": "Le jardinier",
+            "apres": "La jardinière"
+          },
+          {
+            "id": "t3:description",
+            "avant": "derrière lui",
+            "apres": "derrière elle"
+          },
+          {
+            "id": "a1e15:ton",
+            "avant": "amical",
+            "apres": "amicale"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r3",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "sage",
+        "grognon"
+      ],
+      "voix": "voix basse et nette, qui prend son temps pour la dernière phrase",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e4:texte",
+            "avant": "mon maître",
+            "apres": "ma maîtresse"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "que dirait-il",
+            "apres": "que dirait-elle"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r4",
+      "espece": "singe",
+      "famille": "petit",
+      "traits": [
+        "farceur",
+        "travailleur"
+      ],
+      "voix": "voix vive et collective, avec un « oui, oui, oui ! » très rapide",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": []
+      },
+      "especeMentions": [
+        {
+          "id": "a1e6:texte",
+          "avant": "un autre singe",
+          "gabarit": "{un} autre {espece}"
+        }
+      ]
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 8,
+    "ageAuditoire": 4,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "Le parc et la foire",
+      "description": "Posez deux coussins comme des arbres et trois fleurs de papier déjà fixées derrière le rebord de la table. Un drap devant la table cache les changements de peluches. La foire reste hors scène.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "Le puits et les racines",
+      "description": "Un petit rond de papier posé avant le spectacle figure le puits, sans bouger. Les fleurs restent fixes : les racines et l’arrosage sont racontés, tandis que {{r1}} et {{r4}} regardent le jardin. Aucun arrosoir ne passe d’une peluche à l’autre.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t3",
+      "titre": "Le retour au jardin",
+      "description": "Reprenez les mêmes coussins et fleurs fixes. {{r2}} voit le jardin abîmé par le récit et par son mouvement de recul. {{r3}} entre derrière lui lorsque {{r1}} est sorti.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Le jardinier part à la foire",
+      "resume": "{{r2}} confie le jardin à la bande pour pouvoir aller à la foire.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Il était une fois un beau parc, plein de toutes sortes d’arbres et d’arbustes, avec des parterres de fleurs ici et là, et des arbres fruitiers à n’en plus finir. Un jardinier nommé {{r2}} s’occupait de ce parc : les arbres étaient taillés quand ils poussaient trop, la terre était bêchée, et les fleurs arrosées quand il faisait sec."
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e3",
+          "type": "conteur",
+          "texte": "Il arriva qu’une foire devait se tenir en ville, loin de là, et {{r2}} avait très envie d’y aller."
+        },
+        {
+          "id": "a1e4",
+          "type": "replique",
+          "texte": "Mais qui s’occuperait du parc et du jardin ? Si {{r3}}, mon maître, venait et trouvait toutes les fleurs fanées ou mortes, que dirait-il alors ? Impossible.",
+          "marionnetteId": "r2",
+          "ton": "plein de doutes"
+        },
+        {
+          "id": "a1e5",
+          "type": "conteur",
+          "texte": "En réfléchissant ainsi, plein de doutes, il leva les yeux vers les branches des arbres, et une idée lumineuse lui vint."
+        },
+        {
+          "id": "a1e6",
+          "type": "conteur",
+          "texte": "Il faut vous dire que dans ce parc, il n’y avait pas seulement des cerfs, des lapins et les autres créatures qui vivent d’habitude dans les parcs : il y avait aussi des bandes d’animaux dans les arbres, qui grimpaient, bavardaient et croquaient des noix toute la journée, sans jamais avoir de devoirs à faire. Et quand {{r2}} leva les yeux vers les arbres, il vit {{r1}}, un singe, et {{r4}}, un autre singe, qu’il connaissait très bien. Il avait souvent été gentil avec cette bande ; et il pensa :"
+        },
+        {
+          "id": "a1e7",
+          "type": "replique",
+          "texte": "La bande pourrait bien me rendre la pareille, puisqu’un service en vaut un autre.",
+          "marionnetteId": "r2",
+          "ton": "songeur"
+        },
+        {
+          "id": "a1e8",
+          "type": "didascalie",
+          "texte": "{{r2}} recule d’un pas, puis se tourne vers le public."
+        },
+        {
+          "id": "a1e9",
+          "type": "conteur",
+          "texte": "Alors {{r2}} cria :"
+        },
+        {
+          "id": "a1e10",
+          "type": "replique",
+          "texte": "{{r1}}, {{r4}}, j’ai besoin de vous !",
+          "marionnetteId": "r2",
+          "ton": "en appelant"
+        },
+        {
+          "id": "a1e11",
+          "type": "adresse_public",
+          "texte": "Appelez avec moi : « {{r1}}, {{r4}} ! »",
+          "marionnetteId": "r2",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e12",
+          "type": "conteur",
+          "texte": "La bande dégringola des arbres et, en un rien de temps, se retrouva assise à côté de lui sur l’herbe."
+        },
+        {
+          "id": "a1e13",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e14",
+          "type": "didascalie",
+          "texte": "{{r4}} fait trois petits bonds, puis s’incline devant {{r2}}."
+        },
+        {
+          "id": "a1e15",
+          "type": "replique",
+          "texte": "J’ai été un bon ami pour vous, je vous ai permis de manger mes noix et mes pommes. Et maintenant, je voudrais prendre des vacances. Voulez-vous arroser mon jardin pendant mon absence ?",
+          "marionnetteId": "r2",
+          "ton": "amical"
+        },
+        {
+          "id": "a1e16",
+          "type": "replique",
+          "texte": "Oh oui, oui, oui !",
+          "marionnetteId": "r4",
+          "ton": "enthousiaste"
+        },
+        {
+          "id": "a1e17",
+          "type": "adresse_public",
+          "texte": "Dites avec moi : « Oh oui, oui, oui ! »",
+          "marionnetteId": "r4",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e18",
+          "type": "conteur",
+          "texte": "La bande trouvait ça très amusant, et sautait de joie. Les arrosoirs restèrent dans le jardin. Alors {{r2}} leur confia l’arrosage et partit à la foire en habits du dimanche."
+        },
+        {
+          "id": "a1e19",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e20",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Le conseil de la bande",
+      "resume": "{{r1}} craint de manquer d’eau et propose de mesurer les racines.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "Pendant ce temps, la bande tint un conseil solennel, réunie en rond autour de {{r1}}, le chef de la bande."
+        },
+        {
+          "id": "a2e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e3",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e4",
+          "type": "didascalie",
+          "texte": "{{r1}} tourne une fois vers {{r4}}, puis une fois vers le bord du jardin."
+        },
+        {
+          "id": "a2e5",
+          "type": "replique",
+          "texte": "Notre bon ami {{r2}} nous a confié ce jardin et tout ce qu’il contient. Nous devons faire attention à ne rien abîmer, et surtout à ne pas gaspiller l’eau. Il y a très peu d’eau, et je ne crois vraiment pas qu’il y en aura pour tout le monde.",
+          "marionnetteId": "r1",
+          "ton": "solennel"
+        },
+        {
+          "id": "a2e6",
+          "type": "conteur",
+          "texte": "C’était en fait un puits, très étroit en haut, mais très profond, et au fond l’eau coulait toujours. On aurait pu arroser jusqu’à la fin du monde avec ce puits ; mais la bande, malgré sa ruse, n’était pas sage, et pensait qu’un petit trou rond ne pouvait pas contenir beaucoup d’eau."
+        },
+        {
+          "id": "a2e7",
+          "type": "adresse_public",
+          "texte": "Faites le bruit de l’eau tout au fond du puits : « glou, glou ! »",
+          "marionnetteId": "r4",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e8",
+          "type": "replique",
+          "texte": "Alors vous voyez, il faut donner à chaque plante juste assez d’eau, et pas plus. Et je pense que le meilleur moyen, c’est de regarder la longueur des racines.",
+          "marionnetteId": "r1",
+          "ton": "sûr de lui"
+        },
+        {
+          "id": "a2e9",
+          "type": "conteur",
+          "texte": "Alors la bande se dispersa dans tout le jardin."
+        },
+        {
+          "id": "a2e10",
+          "type": "didascalie",
+          "texte": "{{r4}} et {{r1}} inclinent la tête vers les plantes, à des endroits différents."
+        },
+        {
+          "id": "a2e11",
+          "type": "conteur",
+          "texte": "Chaque buisson, chaque plante : tout fut soigneusement déraciné pour que la bande en mesure les racines ; puis elle donnait beaucoup d’eau aux plantes à longues racines, et très peu quand les racines étaient courtes. Après quoi, les plantes et les buissons se retrouvaient dans leurs trous."
+        },
+        {
+          "id": "a2e12",
+          "type": "adresse_public",
+          "texte": "Répétez : « Longues racines, beaucoup d’eau ! »",
+          "marionnetteId": "r4",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e13",
+          "type": "adresse_public",
+          "texte": "Répétez : « Courtes racines, très peu d’eau ! »",
+          "marionnetteId": "r1",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e14",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r4}} s’arrêtent ensemble et regardent le jardin sans le toucher."
+        },
+        {
+          "id": "a2e15",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e16",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Le jardin fané",
+      "resume": "{{r2}} découvre les dégâts, et {{r3}} lui dit sa part de faute.",
+      "tableauId": "t3",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "conteur",
+          "texte": "Au bout d’un jour ou deux, {{r2}} revint de la foire. Mais quelle ne fut pas son horreur de voir presque toutes les plantes du jardin fanées, certaines mortes et beaucoup mourantes, tandis que d’autres plantes étaient encore déracinées là où la bande s’activait."
+        },
+        {
+          "id": "a3e2",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e3",
+          "type": "didascalie",
+          "texte": "{{r2}} s’arrête net, recule, puis regarde le jardin de droite à gauche."
+        },
+        {
+          "id": "a3e4",
+          "type": "adresse_public",
+          "texte": "Dites avec moi : « Oh là là ! »",
+          "marionnetteId": "r2",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e5",
+          "type": "replique",
+          "texte": "Oh là là, oh là là, mais qu’est-ce que vous faites ? Mon jardin est ruiné, mon jardin est ruiné !",
+          "marionnetteId": "r2",
+          "ton": "désolé"
+        },
+        {
+          "id": "a3e6",
+          "type": "conteur",
+          "texte": "Et le pauvre {{r2}} pleurait de chagrin. {{r1}}, le chef de la bande, fut très surpris."
+        },
+        {
+          "id": "a3e7",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e8",
+          "type": "didascalie",
+          "texte": "{{r1}} s’approche de {{r2}}, puis s’arrête à distance."
+        },
+        {
+          "id": "a3e9",
+          "type": "replique",
+          "texte": "J’ai donné l’eau selon la taille des racines. Je pensais avoir été très malin.",
+          "marionnetteId": "r1",
+          "ton": "surpris"
+        },
+        {
+          "id": "a3e10",
+          "type": "replique",
+          "texte": "Malin ! Malin, vraiment ! Votre bande est sotte, il n’y a pas de doute.",
+          "marionnetteId": "r2",
+          "ton": "en colère"
+        },
+        {
+          "id": "a3e11",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e12",
+          "type": "note_marionnettiste",
+          "texte": "Laisser une respiration : {{r3}} paraît derrière {{r2}}."
+        },
+        {
+          "id": "a3e13",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e14",
+          "type": "replique",
+          "texte": "Sotte, peut-être, mais après tout, c’est sa nature. Tu aurais dû savoir qu’on ne confie pas un jardin à cette bande, et c’est toi le plus sot.",
+          "marionnetteId": "r3",
+          "ton": "ferme"
+        },
+        {
+          "id": "a3e15",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e16",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "in-singes-jardiniers",
+    "synopsis": {
+      "accroche": "{{r2}} veut voir la foire et confie le parc aux singes.",
+      "resume": [
+        "{{r1}} croit que le puits va manquer d’eau et ordonne de mesurer les racines.",
+        "Les singes déracinent, arrosent puis replantent chaque plante.",
+        "{{r2}} revient devant un jardin fané ; {{r3}} lui reproche d’avoir confié le travail aux singes."
+      ]
+    },
+    "transposition": {
+      "texte": "Il était une fois un beau parc, plein de toutes sortes d’arbres et d’arbustes, avec des parterres de fleurs ici et là, et des arbres fruitiers à n’en plus finir. Un jardinier nommé {{r2}} s’occupait de ce parc : les arbres étaient taillés quand ils poussaient trop, la terre était bêchée, et les fleurs arrosées quand il faisait sec. Il arriva qu’une foire devait se tenir en ville, loin de là, et {{r2}} avait très envie d’y aller. — Mais qui s’occuperait du parc et du jardin ? Si {{r3}}, mon maître, venait et trouvait toutes les fleurs fanées ou mortes, que dirait-il alors ? Impossible. En réfléchissant ainsi, plein de doutes, il leva les yeux vers les branches des arbres, et une idée lumineuse lui vint. Il faut vous dire que dans ce parc, il n’y avait pas seulement des cerfs, des lapins et les autres créatures qui vivent d’habitude dans les parcs : il y avait aussi des bandes d’animaux dans les arbres, qui grimpaient, bavardaient et croquaient des noix toute la journée, sans jamais avoir de devoirs à faire. Et quand {{r2}} leva les yeux vers les arbres, il vit {{r1}}, un singe, et {{r4}}, un autre singe, qu’il connaissait très bien. Il avait souvent été gentil avec cette bande ; et il pensa : — La bande pourrait bien me rendre la pareille, puisqu’un service en vaut un autre. Alors {{r2}} cria : — {{r1}}, {{r4}}, j’ai besoin de vous ! La bande dégringola des arbres et, en un rien de temps, se retrouva assise à côté de lui sur l’herbe. — J’ai été un bon ami pour vous, je vous ai permis de manger mes noix et mes pommes. Et maintenant, je voudrais prendre des vacances. Voulez-vous arroser mon jardin pendant mon absence ? — Oh oui, oui, oui ! cria la bande. La bande trouvait ça très amusant, et sautait de joie. Les arrosoirs restèrent dans le jardin. Alors {{r2}} leur confia l’arrosage et partit à la foire en habits du dimanche. Pendant ce temps, la bande tint un conseil solennel, réunie en rond autour de {{r1}}, le chef de la bande. — Notre bon ami {{r2}}, dit {{r1}}, le chef de la bande, nous a confié ce jardin et tout ce qu’il contient. Nous devons faire attention à ne rien abîmer, et surtout à ne pas gaspiller l’eau. Il y a très peu d’eau, et je ne crois vraiment pas qu’il y en aura pour tout le monde. C’était en fait un puits, très étroit en haut, mais très profond, et au fond l’eau coulait toujours. On aurait pu arroser jusqu’à la fin du monde avec ce puits ; mais la bande, malgré sa ruse, n’était pas sage, et pensait qu’un petit trou rond ne pouvait pas contenir beaucoup d’eau. — Alors vous voyez, continua {{r1}}, le chef de la bande, il faut donner à chaque plante juste assez d’eau, et pas plus. Et je pense que le meilleur moyen, c’est de regarder la longueur des racines. Alors la bande se dispersa dans tout le jardin. Chaque buisson, chaque plante : tout fut soigneusement déraciné pour que la bande en mesure les racines ; puis elle donnait beaucoup d’eau aux plantes à longues racines, et très peu quand les racines étaient courtes. Après quoi, les plantes et les buissons se retrouvaient dans leurs trous. Au bout d’un jour ou deux, {{r2}} revint de la foire. Mais quelle ne fut pas son horreur de voir presque toutes les plantes du jardin fanées, certaines mortes et beaucoup mourantes, tandis que d’autres plantes étaient encore déracinées là où la bande s’activait. — Oh là là, oh là là, mais qu’est-ce que vous faites ? Mon jardin est ruiné, mon jardin est ruiné ! Et le pauvre {{r2}} pleurait de chagrin. {{r1}}, le chef de la bande, fut très surpris. Il pensait avoir été très malin de donner l’eau selon la taille des racines, et il le dit. — Malin ! dit {{r2}}. Malin, vraiment ! Votre bande est sotte, il n’y a pas de doute. {{r3}}, son maître, était arrivé derrière lui sans qu’on le voie. — Sotte, peut-être, mais après tout, c’est sa nature. Tu aurais dû savoir qu’on ne confie pas un jardin à cette bande, et c’est toi le plus sot.\n"
+    }
+  },
+  "dureeEstimeeSecondes": 455,
+  "interactionsOrdonnees": [
+    "a2e12",
+    "a2e13",
+    "a1e17",
+    "a2e7",
+    "a3e4",
+    "a1e11"
+  ]
+}

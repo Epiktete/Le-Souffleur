@@ -1,0 +1,143 @@
+Marionnettes du parent :
+- Rosette
+  Traits : curieux, gentil
+  Apparence : Une poupée de chiffon en robe rouge, avec un petit bonnet.
+- Loup Gris
+  Traits : méchant, gourmand
+  Apparence : Un loup gris en peluche, grandes oreilles et gueule rouge.
+- Mamie Rose
+  Traits : sage, gentil
+  Apparence : Une marionnette de grand-mère en tissu, cheveux de laine blanche.
+
+Réglages du spectacle :
+- durée visée : 5 minutes, soit environ 500 mots dits
+- âge du public : 7 ans
+- marionnettistes : 1, donc 2 mains
+- interaction avec le public : quelques moments, bien choisis
+
+Ébauche du parent, qui a servi à choisir le conte :
+« le Petit Chaperon rouge »
+
+LE CONTE D’ORIGINE : Le Petit Chaperon rouge — France, Charles Perrault, Histoires ou contes du temps passé, 1697
+
+Fiche du conte :
+**Essence.** Envoyée porter une galette à sa grand-mère, une fillette dit tout au loup qu'elle rencontre ; il arrive avant elle, prend la place de la grand-mère dans le lit, et le dialogue des « grands bras, grandes oreilles, grandes dents » mène à la chute.
+
+**Trame.**
+1. La mère envoie le Petit Chaperon rouge porter une galette et un pot de beurre à sa mère-grand malade.
+2. Dans le bois, elle rencontre le loup et lui explique tout ; il propose une course, chacun son chemin.
+3. Le loup arrive le premier, se fait ouvrir (« Tire la chevillette, la bobinette cherra »), prend la place de la grand-mère.
+4. Le Chaperon rouge arrive, trouve sa mère-grand bien changée.
+5. « Que vous avez de grandes dents ! — C'est pour te manger ! »
+
+**À jouer.** Le dialogue des « grands… » est la scène que tous les enfants attendent et récitent : une réplique par partie du corps, sans se presser. Perrault joue aussi sur la course : le public voit le loup prendre le raccourci et peut prévenir le Chaperon rouge. « Tire la chevillette, la bobinette cherra » revient deux fois : la seconde, les enfants la reconnaissent et peuvent la dire avec le loup. Quand la fillette crie pour appeler les bûcherons, le public crie avec elle.
+
+TEXTE INTÉGRAL DU CONTE, DÉJÀ RETOUCHÉ POUR 7 ANS (environ 771 mots) :
+"""
+Il était une fois une petite fille de village, la plus éveillée qu’on ait jamais vue : sa mère l’aimait à la folie, et sa mère-grand plus encore. Cette bonne vieille lui fit faire un petit chaperon rouge qui lui allait si bien, que partout on l’appelait le petit Chaperon rouge.
+
+Un jour, sa mère ayant cuit et fait des galettes, lui dit : « Va voir comment se porte ta mère-grand, car on m’a dit qu’elle était malade. Porte-lui une galette et ce petit pot de beurre. »
+
+Le petit Chaperon rouge partit aussitôt pour aller chez sa mère-grand, qui demeurait dans un autre village. En passant dans un bois, elle rencontra compère le Loup, qui eut bien envie de la manger ; mais il n’osa, à cause de quelques bûcherons qui étaient dans la forêt. Il lui demanda où elle allait. La pauvre enfant, qui ne savait pas qu’il était dangereux de s’arrêter à écouter un loup, lui dit : Je vais voir ma mère-grand, et lui porter une galette, avec un petit pot de beurre, que ma mère lui envoie. — Demeure-t-elle bien loin ? lui dit le loup. — Oh ! oui, dit le petit Chaperon rouge ; c’est par delà le moulin que vous voyez tout là-bas, à la première maison du village. — Eh bien ! dit le Loup, je veux aller la voir aussi : j’y vais par ce chemin-ci, et toi par ce chemin-là ; et nous verrons qui y sera le premier.
+
+Le Loup se mit à courir de toute sa force par le chemin qui était le plus court, et la petite fille s’en alla par le chemin le plus long, s’amusant à cueillir des noisettes, à courir après des papillons, et à faire des bouquets des petites fleurs qu’elle rencontrait.
+
+Le Loup ne fut pas longtemps à arriver à la maison de la mère-grand ; il frappe : toc, toc. — Qui est là ? — C’est votre fille, le petit Chaperon rouge, dit le Loup en contrefaisant sa voix, qui vous apporte une galette et un petit pot de beurre, que ma mère vous envoie. — La bonne mère-grand, qui était dans son lit, parce qu’elle se trouvait un peu mal, lui cria : Tire la chevillette, la bobinette cherra. — Le Loup tira la chevillette, et la porte s’ouvrit. Il se jeta sur la bonne vieille, et la dévora en moins de rien, car il y avait plus de trois jours qu’il n’avait mangé.
+
+Ensuite il ferma la porte, et alla se coucher dans le lit de la mère-grand, en attendant le petit Chaperon rouge, qui, quelque temps après, vint frapper à la porte : toc, toc. — Qui est là ? — Le petit Chaperon rouge, qui entendit la grosse voix du Loup, eut peur d’abord, mais, croyant que sa mère-grand était enrhumée, répondit : C’est votre fille, le petit Chaperon rouge, qui vous apporte une galette et un petit pot de beurre, que ma mère vous envoie. — Le Loup lui cria en adoucissant un peu sa voix : Tire la chevillette, la bobinette cherra. — Le petit Chaperon rouge tira la chevillette, et la porte s’ouvrit.
+
+Le Loup, la voyant entrer, lui dit en se cachant dans le lit, sous la couverture : Mets la galette et le petit pot de beurre sur la table, et viens près de moi. Le petit Chaperon rouge s’approche du lit, et elle fut bien étonnée de voir comment sa mère-grand était faite dans sa chemise de nuit. — Elle lui dit : Ma mère-grand, que vous avez de grands bras ! — C’est pour mieux t’embrasser, ma fille ! — Ma mère-grand, que vous avez de grandes jambes ! — C’est pour mieux courir, mon enfant ! — Ma mère-grand, que vous avez de grandes oreilles ! — C’est pour mieux écouter, mon enfant ! — Ma mère-grand, que vous avez de grands yeux ! — C’est pour mieux te voir, mon enfant ! — Ma mère-grand, que vous avez de grandes dents ! — C’est pour te manger ! Et, en disant ces mots, ce méchant Loup se jeta sur le petit Chaperon rouge, et la mangea. Puis, bien repu, il se recoucha et s’endormit. Les bûcherons, qui passaient devant la maison, l’entendirent ronfler si fort qu’ils entrèrent voir. Ils le prirent par les pattes de derrière et le secouèrent tant et tant qu’il recracha le petit Chaperon rouge et sa mère-grand, tout étourdies, mais bien vivantes. Puis ils chassèrent le Loup à grands coups de bâton, si loin qu’on ne le revit jamais dans le bois.
+"""
+
+Le même conte, transposé pour les marionnettes du parent :
+"""
+Il était une fois une petite fille de village, la plus éveillée qu’on ait jamais vue : sa mère l’aimait à la folie, et Mamie Rose plus encore. Cette bonne vieille lui fit faire un petit chaperon rouge qui lui allait si bien, que partout on l’appelait Rosette.
+
+Un jour, sa mère ayant cuit et fait des galettes, lui dit : « Va voir comment se porte Mamie Rose, car on m’a dit qu’elle était malade. Porte-lui une galette et ce petit pot de beurre. »
+
+Rosette partit aussitôt pour aller chez Mamie Rose, qui demeurait dans un autre village. En passant dans un bois, elle rencontra compère Loup Gris, qui eut bien envie de la manger ; mais il n’osa, à cause de quelques bûcherons qui étaient dans la forêt. Il lui demanda où elle allait. La pauvre enfant, qui ne savait pas qu’il était dangereux de s’arrêter à écouter un loup, lui dit : Je vais voir Mamie Rose, et lui porter une galette, avec un petit pot de beurre, que ma mère lui envoie. — Demeure-t-elle bien loin ? lui dit Loup Gris. — Oh ! oui, dit Rosette ; c’est par delà le moulin que vous voyez tout là-bas, à la première maison du village. — Eh bien ! dit Loup Gris, je veux aller la voir aussi : j’y vais par ce chemin-ci, et toi par ce chemin-là ; et nous verrons qui y sera le premier.
+
+Loup Gris se mit à courir de toute sa force par le chemin qui était le plus court, et la petite fille s’en alla par le chemin le plus long, s’amusant à cueillir des noisettes, à courir après des papillons, et à faire des bouquets des petites fleurs qu’elle rencontrait.
+
+Loup Gris ne fut pas longtemps à arriver à la maison de Mamie Rose ; il frappe : toc, toc. — Qui est là ? — C’est votre fille, Rosette, dit Loup Gris en contrefaisant sa voix, qui vous apporte une galette et un petit pot de beurre, que ma mère vous envoie. — La bonne Mamie Rose, qui était dans son lit, parce qu’elle se trouvait un peu mal, lui cria : Tire la chevillette, la bobinette cherra. — Loup Gris tira la chevillette, et la porte s’ouvrit. Il se jeta sur la bonne vieille, et la dévora en moins de rien, car il y avait plus de trois jours qu’il n’avait mangé.
+
+Ensuite il ferma la porte, et alla se coucher dans le lit de Mamie Rose, en attendant Rosette, qui, quelque temps après, vint frapper à la porte : toc, toc. — Qui est là ? — Rosette, qui entendit la grosse voix de Loup Gris, eut peur d’abord, mais, croyant que Mamie Rose était enrhumée, répondit : C’est votre fille, Rosette, qui vous apporte une galette et un petit pot de beurre, que ma mère vous envoie. — Loup Gris lui cria en adoucissant un peu sa voix : Tire la chevillette, la bobinette cherra. — Rosette tira la chevillette, et la porte s’ouvrit.
+
+Loup Gris, la voyant entrer, lui dit en se cachant dans le lit, sous la couverture : Mets la galette et le petit pot de beurre sur la table, et viens près de moi. Rosette s’approche du lit, et elle fut bien étonnée de voir comment Mamie Rose était faite dans sa chemise de nuit. — Elle lui dit : Mamie Rose, que vous avez de grands bras ! — C’est pour mieux t’embrasser, ma fille ! — Mamie Rose, que vous avez de grandes jambes ! — C’est pour mieux courir, mon enfant ! — Mamie Rose, que vous avez de grandes oreilles ! — C’est pour mieux écouter, mon enfant ! — Mamie Rose, que vous avez de grands yeux ! — C’est pour mieux te voir, mon enfant ! — Mamie Rose, que vous avez de grandes dents ! — C’est pour te manger ! Et, en disant ces mots, ce méchant Loup Gris se jeta sur Rosette, et la mangea. Puis, bien repu, il se recoucha et s’endormit. Les bûcherons, qui passaient devant la maison, l’entendirent ronfler si fort qu’ils entrèrent voir. Ils le prirent par les pattes de derrière et le secouèrent tant et tant qu’il recracha Rosette et Mamie Rose, tout étourdies, mais bien vivantes. Puis ils chassèrent Loup Gris à grands coups de bâton, si loin qu’on ne le revit jamais dans le bois.
+"""
+
+Script complet :
+--- Acte 1 : Le départ et la course ---
+1. [note] Voix de la Maman, en coulisse : "Va voir comment se porte Mamie Rose, car on m’a dit qu’elle était malade. Porte-lui une galette et ce petit pot de beurre."
+2. [entree] Rosette — main M1G
+3. [action] Rosette s’avance dans le bois, en chemin vers la maison de Mamie Rose.
+4. [entree] Loup Gris — main M1D
+5. [action] Loup Gris s’approche de Rosette.
+6. Loup Gris : « Bonjour, petite. Où vas-tu donc ? » (mielleux, l’air aimable)
+7. Rosette : « Je vais voir Mamie Rose, et lui porter une galette, avec un petit pot de beurre, que ma mère lui envoie. » (gaiement, sans méfiance)
+8. Loup Gris : « Demeure-t-elle bien loin ? » (curieux)
+9. Rosette : « Oh ! oui, c’est par delà le moulin que vous voyez tout là-bas, à la première maison du village. » (joyeuse)
+10. Loup Gris : « Eh bien ! je veux aller la voir aussi : j’y vais par ce chemin-ci, et toi par ce chemin-là ; et nous verrons qui y sera le premier. » (rusé, l’air décidé)
+11. [action] Loup Gris s’élance et sort en courant.
+12. [sortie] Loup Gris — main M1D
+13. Rosette au public : « Vous l’avez vu partir ? Par où est-il allé ? » (attend une réponse)
+14. [note] Laisser les enfants crier pour prévenir Rosette et montrer la direction ; elle ne les entend pas et reprend tranquillement son chemin.
+15. [action] Rosette s’attarde et sautille, comme si elle courait après des papillons.
+16. [sortie] Rosette — main M1G
+
+--- Acte 2 : Loup Gris chez Mamie Rose ---
+1. [entree] Mamie Rose — main M1G
+2. [action] Mamie Rose s’installe dans son lit, un peu souffrante.
+3. [entree] Loup Gris — main M1D
+4. [action] Loup Gris s’approche de la porte et frappe : toc, toc.
+5. Mamie Rose : « Qui est là ? » (faible, depuis son lit)
+6. Loup Gris : « C’est votre fille, Rosette, qui vous apporte une galette et un petit pot de beurre, que ma mère vous envoie. » (d’une voix aiguë, en imitant Rosette)
+7. Mamie Rose : « Tire la chevillette, la bobinette cherra. » (faible, depuis son lit)
+8. [action] La porte s’ouvre en grinçant.
+9. [action] Loup Gris se jette sur Mamie Rose, qui disparaît d’un coup sous la couverture.
+10. [sortie] Mamie Rose — main M1G
+11. [action] Loup Gris repousse la porte, qui se referme.
+12. [action] Loup Gris se glisse dans le lit et se cache sous la couverture, immobile.
+
+--- Acte 3 : Grandes dents et grand sauvetage ---
+1. [entree] Rosette — main M1G
+2. [action] Rosette s’avance jusqu’à la maison de Mamie Rose, et frappe à la porte : toc, toc.
+3. Loup Gris : « Qui est là ? » (faible, en imitant la voix de Mamie Rose)
+4. Rosette : « C’est votre fille, Rosette, qui vous apporte une galette et un petit pot de beurre, que ma mère vous envoie. » (un peu inquiète, puis rassurée)
+5. Loup Gris : « Tire la chevillette, la bobinette cherra. » (faible, en adoucissant la voix)
+6. [note] Les enfants reconnaissent la formule : laisser ceux qui le veulent la dire avec Loup Gris.
+7. [action] La porte s’ouvre en grinçant.
+8. [action] Rosette s’approche du lit et s’arrête, étonnée.
+9. Rosette : « Mamie Rose, que vous avez de grands bras ! » (étonnée)
+10. Loup Gris : « C’est pour mieux t’embrasser, ma fille ! » (doucereux)
+11. Rosette : « Mamie Rose, que vous avez de grandes jambes ! » (de plus en plus étonnée)
+12. Loup Gris : « C’est pour mieux courir, mon enfant ! » (doucereux)
+13. Rosette : « Mamie Rose, que vous avez de grandes oreilles ! » (étonnée)
+14. Loup Gris : « C’est pour mieux écouter, mon enfant ! » (doucereux)
+15. Rosette : « Mamie Rose, que vous avez de grands yeux ! » (inquiète)
+16. Loup Gris : « C’est pour mieux te voir, mon enfant ! » (doucereux)
+17. Rosette : « Mamie Rose, que vous avez de grandes dents ! » (tout bas, effrayée)
+18. Loup Gris : « C’est pour te manger ! » (fort, en se redressant d’un coup)
+19. [action] Loup Gris se redresse d’un coup hors de la couverture.
+20. Rosette : « Au secours ! Les bûcherons ! » (criée, terrifiée)
+21. [note] Inviter les enfants à crier « Au secours ! » avec Rosette, pour appeler les bûcherons.
+22. [action] Loup Gris se jette sur Rosette, qui disparaît d’un coup sous la couverture.
+23. [sortie] Rosette — main M1G
+24. [action] Loup Gris se recouche, repu, et s’endort en ronflant très fort.
+25. [action] Des bruits de pas et des voix confuses se rapprochent, dehors.
+26. [action] Loup Gris est secoué violemment, dans tous les sens, sans se réveiller tout à fait.
+27. [action] Secoué de plus belle, Loup Gris se penche, et Mamie Rose ressort d’un coup de sous la couverture, chancelante.
+28. [entree] Mamie Rose — main M1G
+29. [action] Un coup sonne, fort, comme un bâton qui frappe. Un second coup retentit, tout aussi fort.
+30. [action] Loup Gris sursaute, bondit hors du lit, et détale à toutes pattes.
+31. [sortie] Loup Gris — main M1D
+32. [entree] Rosette — main M1D
+33. [action] Rosette entre, étourdie, encore chancelante, et rejoint Mamie Rose ; toutes deux bien vivantes, elles se serrent l’une contre l’autre.
+
+Décors que le parent devra préparer :
+- Le bois du chemin : Tendez un drap vert ou marron en fond, ou disposez quelques coussins, pour figurer les arbres du bois. Marquez au sol, avec un tapis ou un carton, le chemin que suit Rosette. Rien d'autre n'est nécessaire pour ce tableau.
+- La chambre de Mamie Rose : Empilez deux coussins sous un drap ou une couverture pour former le lit de Mamie Rose, assez grand pour qu'une marionnette puisse s'y cacher complètement. Posez un carton dressé à côté pour figurer la porte de la maison, sur laquelle on peut frapper.
+
+Problèmes déjà détectés automatiquement par l’application :
+- [important] (acte 3, élément 31) Rosette enfile la main M1D à l’instant même où Loup Gris la quitte. Le parent n’a pas le temps de changer de peluche : intercale une réplique ou une didascalie.
+- [important] (acte 2) L'acte 2 est un peu court : 35 s au lieu des 71 s de sa part, soit environ 60 mots. D’abord, relis le passage du texte transposé que joue cet acte, réplique par réplique, et RÉTABLIS celles que l’acte a coupées ou résumées : ce sont les mots du conte, ils ont leur place. Ensuite seulement, joue plus longuement ce que le conte raconte déjà, sans inventer d’épisode : laisse les personnages se répondre, étire les répétitions qu’il porte. Si, cela fait, le passage n’a vraiment plus rien à rendre — de la pure narration —, laisse l’acte court : inventer tout un dialogue pour tenir la jauge est exactement ce qu’on ne veut pas.

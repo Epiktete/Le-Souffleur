@@ -1,0 +1,1360 @@
+{
+  "id": "it-giufa--1",
+  "conteId": "it-giufa",
+  "titre": "Une histoire de Giufà",
+  "pitch": "En guenilles, {{r1}} se fait chasser d'une ferme à coups de bâton ; habillé en garde champêtre, il y est reçu comme un roi, et fait manger son repas à ses habits.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "garcon",
+      "famille": "enfant",
+      "traits": [
+        "paresseux",
+        "gourmand",
+        "farceur"
+      ],
+      "voix": "voix molle et traînante, qui se réveille d'un coup dès qu'on parle de manger",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "habillé en",
+            "apres": "habillée en"
+          },
+          {
+            "id": "pitch",
+            "avant": "il y est reçu comme un roi",
+            "apres": "elle y est reçue comme une reine"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "le pousse",
+            "apres": "la pousse"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "il finit",
+            "apres": "elle finit"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "et le fils",
+            "apres": "et la fille"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "comme un sot",
+            "apres": "comme une sotte"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "il sentait la faim le tenailler",
+            "apres": "elle sentait la faim la tenailler"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "couché devant la maison, tout mou",
+            "apres": "couchée devant la maison, toute molle"
+          },
+          {
+            "id": "a1e7:texte",
+            "avant": "grand bêta",
+            "apres": "grande bêtasse"
+          },
+          {
+            "id": "a1e10:texte",
+            "avant": "Oh, nigaud",
+            "apres": "Oh, nigaude"
+          },
+          {
+            "id": "a1e17:texte",
+            "avant": "il s'en alla",
+            "apres": "elle s'en alla"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "le chasse",
+            "apres": "la chasse"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "chez lui, furieux",
+            "apres": "chez elle, furieuse"
+          },
+          {
+            "id": "a2e3:texte",
+            "avant": "comme un nigaud, un benêt, un grand sot",
+            "apres": "comme une nigaude, une bécasse, une grande sotte"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "En face de lui",
+            "apres": "En face d'elle"
+          },
+          {
+            "id": "a2e14:texte",
+            "avant": "et le poursuit",
+            "apres": "et la poursuit"
+          },
+          {
+            "id": "a2e18:texte",
+            "avant": "tout essoufflé",
+            "apres": "tout essoufflée"
+          },
+          {
+            "id": "a2e20:texte",
+            "avant": "revenu",
+            "apres": "revenue"
+          },
+          {
+            "id": "a2e21:texte",
+            "avant": "Je suis revenu.",
+            "apres": "Je suis revenue."
+          },
+          {
+            "id": "a3e7:texte",
+            "avant": "mon fils faire le garde",
+            "apres": "ma fille faire la garde"
+          },
+          {
+            "id": "a3e7:texte",
+            "avant": "Il part demain",
+            "apres": "Elle part demain"
+          },
+          {
+            "id": "a3e8:texte",
+            "avant": "votre fils",
+            "apres": "votre fille"
+          },
+          {
+            "id": "a3e18:texte",
+            "avant": "dès qu'il vit",
+            "apres": "dès qu'elle vit"
+          },
+          {
+            "id": "a3e21:texte",
+            "avant": "habilla son fils",
+            "apres": "habilla sa fille"
+          },
+          {
+            "id": "a3e22:texte",
+            "avant": "reste tel quel",
+            "apres": "reste telle quelle"
+          },
+          {
+            "id": "a3e24:texte",
+            "avant": "mon fils",
+            "apres": "ma fille"
+          },
+          {
+            "id": "a4:resume",
+            "avant": "est reçu comme un roi",
+            "apres": "est reçue comme une reine"
+          },
+          {
+            "id": "a4:resume",
+            "avant": "Il dévore",
+            "apres": "Elle dévore"
+          },
+          {
+            "id": "a4:resume",
+            "avant": "Il rentre chargé",
+            "apres": "Elle rentre chargée"
+          },
+          {
+            "id": "a4e1:texte",
+            "avant": "il entra",
+            "apres": "elle entra"
+          },
+          {
+            "id": "a4e1:texte",
+            "avant": "méprisé, menacé, poursuivi",
+            "apres": "méprisée, menacée, poursuivie"
+          },
+          {
+            "id": "a4e1:texte",
+            "avant": "Il n'ouvrit",
+            "apres": "Elle n'ouvrit"
+          },
+          {
+            "id": "a4e1:texte",
+            "avant": "le saluèrent",
+            "apres": "la saluèrent"
+          },
+          {
+            "id": "a4e4:texte",
+            "avant": "monsieur le garde",
+            "apres": "madame la garde"
+          },
+          {
+            "id": "a4e5:texte",
+            "avant": "monsieur le garde",
+            "apres": "madame la garde"
+          },
+          {
+            "id": "a4e5:texte",
+            "avant": "soyez le bienvenu",
+            "apres": "soyez la bienvenue"
+          },
+          {
+            "id": "a4e10:texte",
+            "avant": "Notre invité",
+            "apres": "Notre invitée"
+          },
+          {
+            "id": "a4e10:texte",
+            "avant": "puis il empoigna",
+            "apres": "puis elle empoigna"
+          },
+          {
+            "id": "a4e11:texte",
+            "avant": "notre héros",
+            "apres": "notre héroïne"
+          },
+          {
+            "id": "a4e13:texte",
+            "avant": "Il prit la",
+            "apres": "Elle prit la"
+          },
+          {
+            "id": "a4e15:texte",
+            "avant": "Il en fit",
+            "apres": "Elle en fit"
+          },
+          {
+            "id": "a4e15:texte",
+            "avant": "il les tacha",
+            "apres": "elle les tacha"
+          },
+          {
+            "id": "a4e20:texte",
+            "avant": "n'est pas parti : il est caché",
+            "apres": "n'est pas partie : elle est cachée"
+          },
+          {
+            "id": "a4e20:texte",
+            "avant": "et il mange",
+            "apres": "et elle mange"
+          },
+          {
+            "id": "a4e24:texte",
+            "avant": "Ce garde est bien dérangé",
+            "apres": "Cette garde est bien dérangée"
+          },
+          {
+            "id": "a4e25:texte",
+            "avant": "Il est soûl",
+            "apres": "Elle est soûle"
+          },
+          {
+            "id": "a4e33:texte",
+            "avant": "monsieur le garde",
+            "apres": "madame la garde"
+          },
+          {
+            "id": "a4e36:texte",
+            "avant": "tout penché",
+            "apres": "toute penchée"
+          },
+          {
+            "id": "a4e45:texte",
+            "avant": "que fait ce",
+            "apres": "que fait cette"
+          },
+          {
+            "id": "a4e45:texte",
+            "avant": "il n'a pas tort",
+            "apres": "elle n'a pas tort"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r2",
+      "espece": "femme",
+      "famille": "adulte",
+      "traits": [
+        "bavard",
+        "rusé",
+        "travailleur"
+      ],
+      "voix": "voix aiguë et pressée, qui parle sans reprendre son souffle",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a1:resume",
+            "avant": "sa mère",
+            "apres": "son père"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "La mère",
+            "apres": "Le père"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "la pauvre mère",
+            "apres": "le pauvre père"
+          },
+          {
+            "id": "a2e20:ton",
+            "avant": "étonnée",
+            "apres": "étonné"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "elle habille",
+            "apres": "il habille"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "Elle alla",
+            "apres": "Il alla"
+          },
+          {
+            "id": "a3e6:texte",
+            "avant": "ma commère",
+            "apres": "mon compère"
+          },
+          {
+            "id": "a3e8:texte",
+            "avant": "madame ma commère",
+            "apres": "monsieur mon compère"
+          },
+          {
+            "id": "a3e13:texte",
+            "avant": "toute contente",
+            "apres": "tout content"
+          },
+          {
+            "id": "a3e18:texte",
+            "avant": "sa mère",
+            "apres": "son père"
+          },
+          {
+            "id": "a3e21:texte",
+            "avant": "Elle se leva",
+            "apres": "Il se leva"
+          },
+          {
+            "id": "a4:resume",
+            "avant": "est ravie, puis horrifiée",
+            "apres": "est ravi, puis horrifié"
+          },
+          {
+            "id": "a4e38:texte",
+            "avant": "Maman, je",
+            "apres": "Papa, je"
+          },
+          {
+            "id": "a4e38:texte",
+            "avant": "plus, maman.",
+            "apres": "plus, papa."
+          },
+          {
+            "id": "a4e40:texte",
+            "avant": "sur elle-même",
+            "apres": "sur lui-même"
+          },
+          {
+            "id": "a4e41:ton",
+            "avant": "folle de joie",
+            "apres": "fou de joie"
+          },
+          {
+            "id": "a4e43:ton",
+            "avant": "horrifiée",
+            "apres": "horrifié"
+          },
+          {
+            "id": "a4e45:texte",
+            "avant": "Malheureuse !",
+            "apres": "Malheureux !"
+          },
+          {
+            "id": "a4e47:texte",
+            "avant": "Et elle pense",
+            "apres": "Et il pense"
+          },
+          {
+            "id": "a4e47:texte",
+            "avant": "Plus elle aiguise son esprit, plus elle s'embrouille",
+            "apres": "Plus il aiguise son esprit, plus il s'embrouille"
+          },
+          {
+            "id": "a4e47:texte",
+            "avant": "Ce qu'elle fit, ce qu'elle ne fit pas, ce qu'elle dit, ce qu'elle ne dit pas",
+            "apres": "Ce qu'il fit, ce qu'il ne fit pas, ce qu'il dit, ce qu'il ne dit pas"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a4e47:texte",
+          "avant": "la pauvre femme",
+          "gabarit": "{le} pauvre {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r3",
+      "espece": "paysan",
+      "famille": "adulte",
+      "traits": [
+        "grognon",
+        "orgueilleux"
+      ],
+      "voix": "grosse voix bourrue, qui aboie ses phrases",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2e21:texte",
+            "avant": "Un sale rustre, un malotru",
+            "apres": "Une sale rustre, une malotrue"
+          },
+          {
+            "id": "a2e21:texte",
+            "avant": "il m'aurait",
+            "apres": "elle m'aurait"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "un paysan hardi et grincheux",
+            "apres": "une paysanne hardie et grincheuse"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r4",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "généreux",
+        "courageux"
+      ],
+      "voix": "voix grave et lente, très digne",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a3:resume",
+            "avant": "son compère",
+            "apres": "sa commère"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "un compère",
+            "apres": "une commère"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "où il allait",
+            "apres": "où elle allait"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "le trouver",
+            "apres": "la trouver"
+          },
+          {
+            "id": "a3e4:texte",
+            "avant": "bien droit",
+            "apres": "bien droite"
+          },
+          {
+            "id": "a3e5:texte",
+            "avant": "mon compère",
+            "apres": "ma commère"
+          },
+          {
+            "id": "a4:resume",
+            "avant": "au compère",
+            "apres": "à la commère"
+          },
+          {
+            "id": "a4e45:texte",
+            "avant": "mon compère",
+            "apres": "ma commère"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a3e1:texte",
+          "avant": "homme vaillant et respecté",
+          "gabarit": "{espece} {vaillant|vaillante} et {respecté|respectée}"
+        }
+      ]
+    },
+    {
+      "cle": "r5",
+      "espece": "fermier",
+      "famille": "adulte",
+      "traits": [
+        "naïf",
+        "bavard"
+      ],
+      "voix": "voix sucrée et empressée, pleine de courbettes",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a4e22:texte",
+            "avant": "un autre,",
+            "apres": "une autre,"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r6",
+      "espece": "paysan",
+      "famille": "adulte",
+      "traits": [
+        "naïf",
+        "savant"
+      ],
+      "voix": "petite voix nasillarde, qui chuchote d'un air savant",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a4e22:texte",
+            "avant": "à son voisin,",
+            "apres": "à sa voisine,"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 13,
+    "ageAuditoire": 5,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La maison et la ferme",
+      "description": "Posez un carton debout au bout gauche de la table : c'est la maison de {{r1}}, avec un coussin couché devant pour le banc. Au bout droit, deux coussins debout font la ferme dans la plaine, et sa cour. Entre les deux, la table fait le long chemin.",
+      "accessoires": [
+        "un saladier (le grand plat de lasagnes)"
+      ],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Va dans la plaine !",
+      "resume": "{{r1}} et sa mère {{r2}} meurent de faim. {{r2}} le pousse à aller dans une grande ferme de la plaine, où l'on sert des lasagnes et des macaronis ; il finit par partir, dans ses habits tout déchirés.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "La mère et le fils dépérissaient de faim. {{r1}}, comme un sot, ne bougeait pas ; il sentait la faim le tenailler, mais ne faisait pas un pas pour gagner un sou."
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e3",
+          "type": "didascalie",
+          "texte": "{{r1}} est couché devant la maison, tout mou, et ne bouge pas."
+        },
+        {
+          "id": "a1e4",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e5",
+          "type": "conteur",
+          "texte": "{{r2}}, la pauvre mère, lui disait :"
+        },
+        {
+          "id": "a1e6",
+          "type": "didascalie",
+          "texte": "{{r2}} se penche sur {{r1}} et lui donne de petits coups de tête."
+        },
+        {
+          "id": "a1e7",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Qu'est-ce que tu fais, grand bêta, à rester là sans rien faire ? Va dans la plaine, dans une de ces grandes fermes. Ces gens-là sont larges et généreux, même avec ceux qu'ils ne connaissent pas ; ils les font asseoir à leur table et leur offrent des lasagnes, des macaronis, et parfois, tu sais, même des chapons.",
+          "ton": "en grondant, puis d'une voix gourmande"
+        },
+        {
+          "id": "a1e8",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Dites avec moi : des lasagnes, des macaronis !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e9",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Qu'est-ce que j'irais faire là-bas ? Non, je n'y vais pas.",
+          "ton": "en bâillant"
+        },
+        {
+          "id": "a1e10",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Oh, nigaud ! Si tu savais ce qu'ils ont donné avant-hier à deux gardes qui sont allés dans la plaine, à la première ferme ! N'aie crainte, ils te donneront à toi aussi.",
+          "ton": "très vite"
+        },
+        {
+          "id": "a1e11",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Vous le voulez ? J'y vais. Je ferai tout pour y arriver.",
+          "ton": "en soupirant"
+        },
+        {
+          "id": "a1e12",
+          "type": "didascalie",
+          "texte": "{{r1}} se lève d'un bond et file vers le chemin."
+        },
+        {
+          "id": "a1e13",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Attends ! Où cours-tu comme ça ? Tu vas y aller avec ces habits tout déchirés, tout sales, tout puants ?",
+          "ton": "en criant"
+        },
+        {
+          "id": "a1e14",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Bouchez-vous le nez avec moi : pouah !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e15",
+          "type": "didascalie",
+          "texte": "{{r1}} s'arrête net, mais ne se retourne pas."
+        },
+        {
+          "id": "a1e16",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Que le diable vous emporte ! Que d'histoires ! Qu'est-ce que ça me fait, les habits ? Qui a besoin de tant de fanfreluches ?",
+          "ton": "de mauvaise humeur"
+        },
+        {
+          "id": "a1e17",
+          "type": "conteur",
+          "texte": "Et sans se retourner, il s'en alla par son chemin."
+        },
+        {
+          "id": "a1e18",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e19",
+          "type": "didascalie",
+          "texte": "{{r2}} secoue la tête, puis rentre dans la maison."
+        },
+        {
+          "id": "a1e20",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Mon ventre aboie",
+      "resume": "À la première ferme de la plaine, {{r1}} réclame la table : {{r3}} le chasse à coups de bâton. {{r1}} rentre chez lui, furieux ; {{r2}} lui dit que c'est à cause de ses habits, et promet de l'habiller en garde champêtre.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e2",
+          "type": "didascalie",
+          "texte": "{{r1}} marche longtemps sur le chemin jusqu'à la ferme, regarde à droite, à gauche, et se dandine un bon moment."
+        },
+        {
+          "id": "a2e3",
+          "type": "conteur",
+          "texte": "{{r1}} s'assit, sans un mot, la bouche ouverte, comme un nigaud, un benêt, un grand sot."
+        },
+        {
+          "id": "a2e4",
+          "type": "conteur",
+          "texte": "En face de lui se trouvait {{r3}}, un paysan hardi et grincheux."
+        },
+        {
+          "id": "a2e5",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e6",
+          "type": "didascalie",
+          "texte": "{{r3}} s'approche à grands pas et s'arrête nez à nez avec {{r1}}."
+        },
+        {
+          "id": "a2e7",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Ça, c'est la meilleure. Qu'est-ce que tu fais là ? Qui es-tu ?",
+          "ton": "d'une voix bourrue"
+        },
+        {
+          "id": "a2e8",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je suis {{r1}}.",
+          "ton": "sans bouger"
+        },
+        {
+          "id": "a2e9",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Même si tu es {{r1}} : que veux-tu ? Qu'est-ce que tu cherches ?",
+          "ton": "de plus en plus fort"
+        },
+        {
+          "id": "a2e10",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "La table. Quand est-ce que vous la mettez ? Et les plats ? Mon ventre aboie. Tu ne vois pas ?",
+          "ton": "tranquillement"
+        },
+        {
+          "id": "a2e11",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites aboyer vos ventres avec moi : ouaf ! ouaf !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e12",
+          "type": "conteur",
+          "texte": "Et {{r3}}, empoignant un gros bâton :"
+        },
+        {
+          "id": "a2e13",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Ah, va-nu-pieds ! File d'ici tout de suite, sinon je te casse les côtes avec ce bout de bois !",
+          "ton": "en hurlant"
+        },
+        {
+          "id": "a2e14",
+          "type": "didascalie",
+          "texte": "{{r3}} se jette sur {{r1}} et le poursuit tout autour de la cour."
+        },
+        {
+          "id": "a2e15",
+          "type": "note_marionnettiste",
+          "texte": "Frappez de grands coups sur la table, juste derrière {{r1}} : le bâton tombe toujours à côté."
+        },
+        {
+          "id": "a2e16",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Courez avec moi : tapez vite sur vos genoux !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e17",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e18",
+          "type": "didascalie",
+          "texte": "{{r1}} rentre à la maison à grands sauts, et s'arrête tout essoufflé."
+        },
+        {
+          "id": "a2e19",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e20",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Tu es revenu ?",
+          "ton": "étonnée"
+        },
+        {
+          "id": "a2e21",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je suis revenu. Tant de chemin pour rien. Je meurs de faim. Des macaronis… oui… des lasagnes à gogo ! Un sale rustre, un malotru, Dieu vous en garde : si je n'avais pas été plus que rapide à me sauver, il m'aurait arrangé les épaules à coups de bâton.",
+          "ton": "hors d'haleine, en colère"
+        },
+        {
+          "id": "a2e22",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Bien fait pour toi. Je ne te l'avais pas dit, de mettre un autre habit ? C'est à cause de tes habits si misérables qu'on ne t'a pas fait bonne figure. Je vais t'habiller en garde champêtre ; tu retourneras dans la plaine, et tu verras le respect qu'on te portera, ma foi !",
+          "ton": "sans pitié, puis d'un air malin"
+        },
+        {
+          "id": "a2e23",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Pour de vrai ?",
+          "ton": "en relevant la tête"
+        },
+        {
+          "id": "a2e24",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Et comment ! Laisse-moi faire… Je saurai bien…",
+          "ton": "en réfléchissant"
+        },
+        {
+          "id": "a2e25",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Demain, n'ayez crainte, j'y vais.",
+          "ton": "tout à coup d'accord"
+        },
+        {
+          "id": "a2e26",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Bien. Assieds-toi ici et attends-moi."
+        },
+        {
+          "id": "a2e27",
+          "type": "didascalie",
+          "texte": "{{r1}} va s'asseoir derrière la maison."
+        },
+        {
+          "id": "a2e28",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Rendez-moi un service",
+      "resume": "{{r2}} va trouver son compère {{r4}}, garde champêtre, et lui emprunte sa veste, son fusil et sa cartouchière, mais pas sa jument. Le lendemain à l'aube, elle habille {{r1}}, qui part en courant vers la ferme.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "conteur",
+          "texte": "{{r2}} avait un compère, {{r4}}, garde champêtre de son métier, homme vaillant et respecté partout où il allait dans la campagne. Elle alla le trouver et lui dit :"
+        },
+        {
+          "id": "a3e2",
+          "type": "didascalie",
+          "texte": "{{r2}} trotte jusqu'au milieu de la table."
+        },
+        {
+          "id": "a3e3",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e4",
+          "type": "didascalie",
+          "texte": "{{r4}} s'avance d'un pas lent, bien droit."
+        },
+        {
+          "id": "a3e5",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "De grâce, mon compère, rendez-moi un service.",
+          "ton": "d'une voix toute douce"
+        },
+        {
+          "id": "a3e6",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Dites, ma commère.",
+          "ton": "gravement"
+        },
+        {
+          "id": "a3e7",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Prêtez-moi pour un jour la grande veste, le fusil, la ceinture, la cartouchière, et tout ce qu'il faut. Je dois envoyer mon fils faire le garde dans les environs. Il part demain, et je voudrais aussi la jument.",
+          "ton": "très vite, sans reprendre son souffle"
+        },
+        {
+          "id": "a3e8",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "C'est madame ma commère qui décide. Mais la jument, votre fils ne saura pas la mener, et je ne vous la donne pas.",
+          "ton": "poliment, puis très ferme"
+        },
+        {
+          "id": "a3e9",
+          "type": "didascalie",
+          "texte": "{{r4}} secoue la tête, lentement : non, non, non."
+        },
+        {
+          "id": "a3e10",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je vous en remercie bien.",
+          "ton": "très poliment"
+        },
+        {
+          "id": "a3e11",
+          "type": "didascalie",
+          "texte": "{{r2}} s'incline bien bas devant {{r4}}, deux fois."
+        },
+        {
+          "id": "a3e12",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e13",
+          "type": "conteur",
+          "texte": "{{r2}} rentra à la maison toute contente."
+        },
+        {
+          "id": "a3e14",
+          "type": "didascalie",
+          "texte": "{{r2}} revient vers la maison en sautillant."
+        },
+        {
+          "id": "a3e15",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e16",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Maintenant, va te coucher. Demain, tu t'habilleras de pied en cap."
+        },
+        {
+          "id": "a3e17",
+          "type": "didascalie",
+          "texte": "{{r1}} se couche sur le banc, {{r2}} contre la maison, et plus rien ne bouge."
+        },
+        {
+          "id": "a3e18",
+          "type": "conteur",
+          "texte": "Dès qu'il fit jour, dès qu'il vit la fenêtre briller, {{r1}} poussa un grand cri qui réveilla sa mère."
+        },
+        {
+          "id": "a3e19",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Poussez avec moi un grand cri : ouaaah !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e20",
+          "type": "didascalie",
+          "texte": "{{r1}} se redresse d'un bond ; {{r2}} sursaute et se relève."
+        },
+        {
+          "id": "a3e21",
+          "type": "conteur",
+          "texte": "Elle se leva, habilla son fils de ses habits neufs, lui donna le fusil, l'embrassa, puis dit :"
+        },
+        {
+          "id": "a3e22",
+          "type": "note_marionnettiste",
+          "texte": "Pas de costume à mettre : {{r1}} reste tel quel, et les enfants imaginent la grande veste, le bonnet et le fusil."
+        },
+        {
+          "id": "a3e23",
+          "type": "didascalie",
+          "texte": "{{r2}} tourne autour de {{r1}}, puis frotte sa tête contre la sienne : un gros bisou."
+        },
+        {
+          "id": "a3e24",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Vite, mon fils, vite, pars, et ce soir tâche de rentrer de bonne heure."
+        },
+        {
+          "id": "a3e25",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e26",
+          "type": "conteur",
+          "texte": "{{r1}} prit des ailes."
+        },
+        {
+          "id": "a3e27",
+          "type": "didascalie",
+          "texte": "{{r1}} traverse toute la table en courant, la tête bien haute, jusqu'à la ferme."
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "numero": 4,
+      "titre": "Les invités, c'est vous !",
+      "resume": "À la même ferme, {{r1}}, en habit de garde, est reçu comme un roi par {{r5}}. Il dévore tout, puis fait manger ses habits et sa cartouchière, sous les yeux ébahis de {{r5}} et {{r6}}. Il rentre chargé de cadeaux ; {{r2}} est ravie, puis horrifiée : comment rendre l'habit au compère ?",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a4e1",
+          "type": "conteur",
+          "texte": "En arrivant, il entra au même endroit où on l'avait méprisé, menacé, poursuivi avec le bâton. Il n'ouvrit pas la bouche, et pourtant les uns et les autres, dans la ferme, le saluèrent :"
+        },
+        {
+          "id": "a4e2",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e3",
+          "type": "didascalie",
+          "texte": "{{r5}} accourt et s'incline très bas devant {{r1}}, plusieurs fois."
+        },
+        {
+          "id": "a4e4",
+          "type": "adresse_public",
+          "marionnetteId": "r5",
+          "texte": "Saluez avec moi : bonjour, monsieur le garde !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e5",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Bonjour, monsieur le garde. Mes hommages ; soyez le bienvenu. Vous prendrez bien un morceau avec nous.",
+          "ton": "d'une voix toute sucrée"
+        },
+        {
+          "id": "a4e6",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Un morceau ? Il en faut bien plus. La faim est trop grande. Il y en a, des macaronis ? Il y en a, des lasagnes ? Du chapon, il y en a ?",
+          "ton": "d'un air important, puis avec gourmandise"
+        },
+        {
+          "id": "a4e7",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Tout ce que nous avons, nous nous ferons un devoir de vous le servir.",
+          "ton": "en s'inclinant encore"
+        },
+        {
+          "id": "a4e8",
+          "type": "didascalie",
+          "texte": "{{r5}} pousse le saladier devant {{r1}}, qui y plonge la tête, encore et encore, sans s'arrêter."
+        },
+        {
+          "id": "a4e9",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Mangez avec moi : miam, miam, miam !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e10",
+          "type": "conteur",
+          "texte": "Notre invité dévora les lasagnes, et le ragoût, et les côtes, et les beignets, et tout ; puis il empoigna la grande cruche, et en deux fois en vit le fond, laissant tous les convives muets et ébahis."
+        },
+        {
+          "id": "a4e11",
+          "type": "conteur",
+          "texte": "Après cela, notre héros fit la chose la plus extraordinaire et la plus bizarre qu'on ait jamais vue."
+        },
+        {
+          "id": "a4e12",
+          "type": "didascalie",
+          "texte": "{{r1}} se penche vers sa ceinture, tout près, tout près."
+        },
+        {
+          "id": "a4e13",
+          "type": "conteur",
+          "texte": "Il prit la cartouchière et dit :"
+        },
+        {
+          "id": "a4e14",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Toi, cartouchière… je veux que tu manges à ta faim. Je vais te remplir la panse de macaronis. Les invités, c'est vous : mangez, régalez-vous, c'est bien juste.",
+          "ton": "très sérieusement"
+        },
+        {
+          "id": "a4e15",
+          "type": "conteur",
+          "texte": "Il en fit autant avec ses habits : il les tacha, les salit, les arrosa de vin, en leur disant :"
+        },
+        {
+          "id": "a4e16",
+          "type": "note_marionnettiste",
+          "texte": "Les enfants connaissent la formule : laissez-les dire « Les invités, c'est vous » avec {{r1}}."
+        },
+        {
+          "id": "a4e17",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Mangez, régalez-vous, buvez. Les invités, c'est vous.",
+          "ton": "gentiment, comme à des invités"
+        },
+        {
+          "id": "a4e18",
+          "type": "didascalie",
+          "texte": "{{r1}} se frotte contre le saladier, d'un côté puis de l'autre, puis plonge derrière la table."
+        },
+        {
+          "id": "a4e19",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e20",
+          "type": "note_marionnettiste",
+          "texte": "{{r1}} n'est pas parti : il est caché derrière la table, et il mange toujours."
+        },
+        {
+          "id": "a4e21",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e22",
+          "type": "conteur",
+          "texte": "Devant une scène aussi bizarre, les gens de la campagne restèrent pétrifiés ; les uns se tordaient de rire, les autres faisaient des grimaces ; un autre, {{r5}}, disait à son voisin, {{r6}} :"
+        },
+        {
+          "id": "a4e23",
+          "type": "didascalie",
+          "texte": "{{r5}} se penche tout près de {{r6}}."
+        },
+        {
+          "id": "a4e24",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Ce garde est bien dérangé de la tête.",
+          "ton": "tout bas"
+        },
+        {
+          "id": "a4e25",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Non. Il est soûl. Le vin lui a tourné la cervelle.",
+          "ton": "tout bas, d'un air savant"
+        },
+        {
+          "id": "a4e26",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e27",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e28",
+          "type": "didascalie",
+          "texte": "{{r1}} ressort de derrière la table et se redresse."
+        },
+        {
+          "id": "a4e29",
+          "type": "conteur",
+          "texte": "Le repas fini, les cadeaux commencèrent."
+        },
+        {
+          "id": "a4e30",
+          "type": "didascalie",
+          "texte": "{{r5}} s'incline très bas devant {{r1}}, encore et encore."
+        },
+        {
+          "id": "a4e31",
+          "type": "conteur",
+          "texte": "{{r1}} les prit, sans même daigner dire merci."
+        },
+        {
+          "id": "a4e32",
+          "type": "didascalie",
+          "texte": "{{r1}} tourne la tête de l'autre côté, le nez en l'air."
+        },
+        {
+          "id": "a4e33",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Bon voyage, monsieur le garde !",
+          "ton": "avec de grandes courbettes"
+        },
+        {
+          "id": "a4e34",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je m'en vais. Je compte rentrer au pas de course.",
+          "ton": "sans même rendre le salut"
+        },
+        {
+          "id": "a4e35",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e36",
+          "type": "didascalie",
+          "texte": "{{r1}} traverse la table à pas lourds, tout penché, en soufflant."
+        },
+        {
+          "id": "a4e37",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e38",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Maman, je n'en peux plus, maman. J'ai le ventre gonflé… et en plus, je vous apporte ces pains, une meule de fromage et deux caciocavallos tout frais. Aïe ! que j'ai mal aux épaules et aux bras !",
+          "ton": "en soufflant très fort"
+        },
+        {
+          "id": "a4e39",
+          "type": "didascalie",
+          "texte": "{{r1}} se laisse tomber de tout son long sur le banc."
+        },
+        {
+          "id": "a4e40",
+          "type": "didascalie",
+          "texte": "{{r2}} saute, tourne sur elle-même, et frotte sa tête contre celle de {{r1}}."
+        },
+        {
+          "id": "a4e41",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je ne te l'avais pas dit, que ça tournerait bien ? Bravo {{r1}}, bravo !",
+          "ton": "folle de joie"
+        },
+        {
+          "id": "a4e42",
+          "type": "didascalie",
+          "texte": "{{r2}} s'arrête net, recule, et regarde {{r1}} de haut en bas."
+        },
+        {
+          "id": "a4e43",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Mais bon Dieu ! Tes habits sont une vraie saleté. Qu'as-tu fait ?",
+          "ton": "horrifiée"
+        },
+        {
+          "id": "a4e44",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Vous ne voyez pas ce que j'ai fait ? La veste ne vous le dit pas ? Je leur ai donné des macaronis à gogo ; je leur ai donné du vin en quantité. C'étaient eux, les invités : c'est pour eux qu'on m'a donné les cadeaux que je vous ai apportés.",
+          "ton": "tranquillement, sans se lever"
+        },
+        {
+          "id": "a4e45",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Oh ! qu'est-ce que j'entends ! Pauvre de moi ! Malheureuse ! Voyez un peu les belles choses que fait ce {{r1}} ! D'un côté, il n'a pas tort ; mais l'habit ? Que vais-je dire à mon compère ? Comment vais-je sortir de ce buisson d'épines ?",
+          "ton": "en gémissant"
+        },
+        {
+          "id": "a4e46",
+          "type": "didascalie",
+          "texte": "{{r2}} tourne en rond devant la maison, s'arrête, puis repart dans l'autre sens."
+        },
+        {
+          "id": "a4e47",
+          "type": "conteur",
+          "texte": "Et elle pense et repense, et tourne et retourne, et la pauvre femme ne trouve pas le bout du fil. Plus elle aiguise son esprit, plus elle s'embrouille. Ce qu'elle fit, ce qu'elle ne fit pas, ce qu'elle dit, ce qu'elle ne dit pas, l'histoire n'en parle pas, et moi je finis ainsi mon conte."
+        },
+        {
+          "id": "a4e48",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e49",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "it-giufa",
+    "synopsis": {
+      "accroche": "En guenilles, {{r1}} se fait chasser à coups de bâton de la ferme où il espérait manger ; habillé en garde champêtre, il y est reçu comme un roi, et fait manger son repas à ses habits, puisque c'est eux qu'on a invités.",
+      "resume": [
+        "{{r1}} et sa mère {{r2}} meurent de faim. {{r2}} l'envoie dans une grande ferme de la plaine, où l'on sert des lasagnes et des macaronis ; il part, dans ses habits tout déchirés.",
+        "À la ferme, il réclame la table ; {{r3}}, un paysan grincheux, le chasse à coups de bâton.",
+        "{{r2}} emprunte à son compère {{r4}}, garde champêtre, sa veste, son fusil et sa cartouchière.",
+        "{{r1}} revient à la même ferme, habillé en garde : {{r5}} le reçoit comme un roi. Il dévore tout, puis fait manger sa cartouchière et ses habits : « Les invités, c'est vous ! »",
+        "Il rentre chargé de cadeaux. {{r2}} saute de joie, puis voit l'habit tout sali : que va-t-elle dire à son compère ?"
+      ]
+    },
+    "transposition": {
+      "texte": "La mère et le fils dépérissaient de faim. {{r1}}, comme un sot, ne bougeait pas ; il sentait la faim le tenailler, mais ne faisait pas un pas pour gagner un sou. {{r2}}, la pauvre mère, lui disait :\n\n— Qu'est-ce que tu fais, grand bêta, à rester là sans rien faire ? Tu vois bien que la faim nous serre. Pourquoi ne te débrouilles-tu pas pour trouver quelque chose ? Va dans une vigne, ou va dans la plaine, dans une de ces grandes fermes où les intendants nagent dans l'abondance et dans tous les biens du bon Dieu. Si tu y vas, tu ne manqueras pas de bon pain : ces gens-là sont larges et généreux, même avec ceux qu'ils ne connaissent pas ; ils les font asseoir à leur table et leur offrent des lasagnes, des macaronis, et parfois, tu sais, même des chapons.\n\nEt {{r1}} répondit à sa mère :\n\n— Qu'est-ce que j'irais faire là-bas ? Non, je n'y vais pas.\n\n— Oh, nigaud ! Tu ferais deux choses en y allant : tu te promènerais, et tu gagnerais de quoi vivre. La poule qui se promène a toujours le jabot plein. Si tu savais ce qu'ils ont donné avant-hier à deux gardes qui sont allés dans la plaine, à la première ferme ! N'aie crainte, ils te donneront à toi aussi.\n\n— Bon, j'y vais. Mais le chemin ? Qu'est-ce que j'en sais, moi, du chemin ?\n\n— La belle affaire ! Ce n'est rien. Il y en a tant qui y vont : pars avec l'un d'eux, et tu apprendras où est la plaine.\n\n— Vous le voulez ? J'y vais. Je ferai tout pour y arriver.\n\n— Attends ! Où cours-tu comme ça ? Tu as oublié le principal. Tu vas y aller avec ces habits tout déchirés, tout sales, tout puants ? Viens ici, te dis-je, grand singe ; attends que j'aille chez une de mes connaissances, pour voir s'il te prêterait son habit neuf.\n\n— Que le diable vous emporte ! Que d'histoires ! Qu'est-ce que ça me fait, les habits ? Qui a besoin de tant de fanfreluches ?\n\nEt sans se retourner, il s'en alla par son chemin. Il fit route avec des muletiers qui allaient par là, arriva dans la plaine, s'arrêta à la première ferme qu'il rencontra, s'approcha des bâtiments, entra dans la cour, regarda tout autour d'un air de rustre, se dandina un bon moment, puis s'assit, sans un mot, la bouche ouverte, comme un nigaud, un benêt, un grand sot.\n\nEn face de lui se trouvait {{r3}}, un paysan hardi et grincheux.\n\n— Ça, c'est la meilleure, dit-il. Qu'est-ce que tu fais là ? Qui es-tu ?\n\n— Je suis {{r1}}.\n\n— Même si tu es {{r1}} : que veux-tu ? Qu'est-ce que tu cherches ?\n\n— La table. Quand est-ce que vous la mettez ? Et les plats ? Mon ventre aboie. Tu ne vois pas ?\n\nEt {{r3}}, empoignant un gros bâton :\n\n— Ah, va-nu-pieds ! File d'ici tout de suite, sinon (et il se jette sur lui et le poursuit) je te casse les côtes avec ce bout de bois !\n\n{{r1}} prend aussitôt ses jambes à son cou, court à grands sauts, s'enfuit et change de chemin. Boudeur, grognon, il rentre chez lui. Il arrive plus essoufflé qu'au départ.\n\n— Tu es revenu ? dit sa mère en le voyant.\n\n— Je suis revenu, répond le fils. Tant de chemin pour rien. Je meurs de faim. Des macaronis… oui… des lasagnes à gogo ! C'est un paradis, un pays de cocagne, votre plaine ! Envoyez-y, oui, envoyez-y vos fils, dans la plaine ! Un sale rustre, un malotru, Dieu vous en garde : si je n'avais pas été plus que rapide à me sauver, il m'aurait arrangé les épaules à coups de bâton.\n\n— Bien fait pour toi. Je ne te l'avais pas dit, de mettre un autre habit ? Pourquoi es-tu parti, tête de mule, entêté ? C'est à cause de tes habits, vois-tu, si déchirés, si sales, si dégoûtants, qui ne tiennent plus à rien et qui tombent en morceaux, oui, c'est à cause de tes habits si misérables qu'on ne t'a pas fait bonne figure. Je vais t'habiller en garde champêtre ; tu retourneras dans la plaine, et tu verras le respect qu'on te portera, ma foi !\n\n— Pour de vrai ?\n\n— Et comment ! Laisse-moi faire… Je saurai bien…\n\n— Demain, n'ayez crainte, j'y vais.\n\n— Bien. Assieds-toi ici et attends-moi.\n\n{{r2}} avait un compère, {{r4}}, garde champêtre de son métier, homme vaillant et respecté partout où il allait dans la campagne. Elle alla le trouver et lui dit :\n\n— De grâce, mon compère, rendez-moi un service.\n\n— Dites, ma commère.\n\n— Prêtez-moi pour un jour la grande veste, le fusil, la ceinture, la cartouchière, et tout ce qu'il faut. Je dois envoyer mon fils faire le garde dans les environs. Il part demain, et je voudrais aussi la jument.\n\n— C'est madame ma commère qui décide. Mais la jument, votre fils ne saura pas la mener, et je ne vous la donne pas.\n\n— Je vous en remercie bien. Je me contente de ce que vous me donnez, et je vous en reste redevable.\n\n{{r2}} rentra à la maison toute contente. Elle essaya sur {{r1}} la veste, la ceinture, le bonnet : tout lui allait bien, tout lui allait comme il faut.\n\n— Maintenant, va te coucher, lui dit-elle. Demain, tu t'habilleras de pied en cap.\n\nEt {{r1}} alla se coucher et s'endormit avec l'envie de se réveiller tôt. Dès qu'il fit jour, dès qu'il vit la fenêtre briller, {{r1}} poussa un grand cri qui réveilla sa mère. Elle se leva, habilla son fils de ses habits neufs, lui donna le fusil, l'embrassa, puis dit :\n\n— Vite, mon fils, vite, pars, et ce soir tâche de rentrer de bonne heure.\n\n{{r1}} prit des ailes. En arrivant, il entra au même endroit où on l'avait méprisé, menacé, poursuivi avec le bâton. Il n'ouvrit pas la bouche, et pourtant les uns et les autres, dans la ferme, le saluèrent :\n\n— Bonjour, monsieur le garde. Mes hommages ; soyez le bienvenu, lui dit {{r5}}, l'un des fermiers. Midi n'est pas loin. Vous resterez ici. En toute simplicité, vous prendrez bien un morceau avec nous.\n\n— Un morceau ? Il en faut bien plus. La faim est trop grande.\n\nPuis il leur demanda :\n\n— Il y en a, des macaronis ? Il y en a, des lasagnes ? Du chapon, il y en a ?\n\n— Tout ce que nous avons, nous nous ferons un devoir de vous le servir.\n\nQuand vint l'heure du repas, {{r1}} s'assit à table au milieu de la famille du fermier. On lui mit devant un grand plat de lasagnes, un beau morceau de viande en ragoût, puis des côtes grillées, et des beignets fourrés à la ricotta, et une grande cruche de vin. Notre invité dévora les lasagnes, et le ragoût, et les côtes, et les beignets, et tout ; puis il empoigna la grande cruche, et en deux fois en vit le fond, laissant tous les convives muets et ébahis.\n\nAprès cela, notre héros fit la chose la plus extraordinaire et la plus bizarre qu'on ait jamais vue. Il prit des petits morceaux de viande, les mit dans la bouche du fusil et les y enfonça de force. Il prit la cartouchière et dit :\n\n— Toi, cartouchière… je veux que tu manges à ta faim. Je vais te remplir la panse de macaronis. Les invités, c'est vous : mangez, régalez-vous, c'est bien juste.\n\nIl en fit autant avec ses habits : il les tacha, les salit, les arrosa de vin, en leur disant :\n\n— Mangez, régalez-vous, buvez. Les invités, c'est vous.\n\nDevant une scène aussi bizarre, les gens de la campagne restèrent pétrifiés ; les uns se tordaient de rire, les autres faisaient des grimaces ; un autre, {{r5}}, disait à son voisin, {{r6}} :\n\n— Ce garde est bien dérangé de la tête.\n\n— Non. Il est soûl. Le vin lui a tourné la cervelle.\n\nLe repas fini, les cadeaux commencèrent. Le maître de la ferme s'approcha de lui avec politesse et lui offrit deux gros pains, une meule de fromage et deux caciocavallos. {{r1}} les prit, sans même daigner dire merci.\n\nSes affaires rangées, il se prépara à partir. Tout le monde se rassembla et, à la façon des paysans, le salua et lui souhaita bon voyage. {{r1}}, impassible, sans un compliment, sans même rendre le salut :\n\n— Je m'en vais, dit-il. Je compte rentrer au pas de course.\n\nEt le ventre plein, les épaules chargées, il prit le chemin de son village.\n\nArrivé chez lui, à peine le pied sur le seuil :\n\n— Maman, dit-il, bénie soit celle qui vous a mise au monde. Je n'en peux plus, maman. J'ai le ventre gonflé… et en plus, je vous apporte ces pains, une meule de fromage et deux caciocavallos tout frais. Aïe ! que j'ai mal aux épaules et aux bras !\n\nEt il laissa tomber toutes ces provisions par terre, et s'allongea sur le premier banc venu.\n\n{{r2}}, en voyant toutes ces belles provisions, ne tenait plus en place de joie : elle sautait, elle dansait, elle embrassait {{r1}}.\n\n— Je ne te l'avais pas dit, que ça tournerait bien ? Bravo {{r1}}, bravo ! Mais bon Dieu ! Tes habits sont une vraie saleté. Qu'as-tu fait ? Que diable as-tu fabriqué pour que ton habit soit tout abîmé ?\n\n— Vous ne voyez pas ce que j'ai fait ? La veste ne vous le dit pas ? Ils ne vous le disent pas, ce bonnet et cette cartouchière ? Je leur ai donné des macaronis à gogo ; je leur ai donné du vin en quantité. C'étaient eux, les invités : c'est pour eux qu'on m'a donné les cadeaux que je vous ai apportés.\n\n— Oh ! qu'est-ce que j'entends ! Pauvre de moi ! Malheureuse ! Voyez un peu les belles choses que fait ce {{r1}} ! D'un côté, il n'a pas tort ; mais l'habit ? Que vais-je dire à mon compère ? Comment vais-je sortir de ce buisson d'épines ?\n\nEt elle pense et repense, et tourne et retourne, et la pauvre femme ne trouve pas le bout du fil. Plus elle aiguise son esprit, plus elle s'embrouille. Ce qu'elle fit, ce qu'elle ne fit pas, ce qu'elle dit, ce qu'elle ne dit pas, l'histoire n'en parle pas, et moi je finis ainsi mon conte.",
+      "changements": [
+        "Giufà s'appelle {{r1}} ; la mère, le compère, le paysan grincheux, le fermier qui accueille et son voisin reçoivent un nom au moment où le conte les présente.",
+        "Six marionnettes (règle du 2026-09-28 : le plus de dialogue possible) : {{r1}}, sa mère, le paysan grincheux de la première visite, le compère garde champêtre, et deux gens de la ferme — celui qui accueille le faux garde (« l'un des fermiers », puis « un autre ») et « son voisin », qui lui répond.",
+        "Au départ de la ferme, « tout le monde le salua et lui souhaita bon voyage » devient une réplique directe du fermier : « Bon voyage, monsieur le garde ! ».",
+        "Le maître de la ferme, les muletiers et l'habit de garde n'ont aucune réplique : ils n'ont pas de marionnette. Le fusil, la cartouchière et l'habit ne sont jamais montrés ; {{r1}} ne change pas de costume.",
+        "Pour tenir en treize minutes, le spectacle ne joue pas certains passages du conte : l'échange sur le chemin de la plaine, les muletiers, l'essayage de l'habit, le menu du repas, la viande enfoncée dans le fusil, le maître de la ferme qui offre les cadeaux ({{r1}} en fait la liste en rentrant), et quelques phrases des longues tirades de la mère et de {{r1}}. Les phrases de narration que la scène montre (le retour à la maison, la joie de la mère) ne sont pas dites. La fin est jouée entière.",
+        "Retouches universelles appliquées : « Madame ma commère est la maîtresse » devient « C'est madame ma commère qui décide », et « Je vous suis toujours obligée » devient « Je vous en remercie bien »."
+      ]
+    }
+  },
+  "dureeEstimeeSecondes": 827,
+  "interactionsOrdonnees": [
+    "a4e4",
+    "a2e11",
+    "a4e9",
+    "a1e8",
+    "a2e16",
+    "a3e19",
+    "a1e14"
+  ]
+}

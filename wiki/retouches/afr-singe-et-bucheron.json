@@ -1,0 +1,30 @@
+{
+  "id": "afr-singe-et-bucheron",
+  "langue": [
+    {"avant": "cynocéphale", "apres": "singe", "nature": "mot-rare", "jusqua": 6, "partout": true},
+    {"avant": "prétendait n’accorder sa fille", "apres": "ne voulait accorder sa fille", "nature": "faux-ami"},
+    {"avant": "il charria l’or jusqu’au matin", "apres": "il transporta l’or jusqu’au matin", "nature": "faux-ami"},
+    {"avant": "s’en fut chez le roi", "apres": "s’en alla chez le roi", "nature": "tournure"},
+    {"avant": "se prit à rire", "apres": "se mit à rire", "nature": "tournure"},
+    {"avant": "Mis au fait :", "apres": "Quand il sut tout :", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "un palais de briques de limon", "apres": "un palais de briques de terre", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "le roi manda son gendre", "apres": "le roi fit venir son gendre", "nature": "mot-disparu"},
+    {"avant": "Mais il advint que", "apres": "Mais il arriva que", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "repartit l’esclave", "apres": "répondit l’esclave", "nature": "faux-ami"},
+    {"avant": "ses esclaves milles et femelles", "apres": "ses esclaves, hommes et femmes", "nature": "tournure"}
+  ],
+  "moments": [
+    {
+      "id": "princesse-battue",
+      "type": "mal-vieilli",
+      "niveaux": [
+        {
+          "jusqua": 10,
+          "retouches": [
+            {"avant": "après l’avoir battue, la rendit à son mari", "apres": "après l’avoir grondée, la rendit à son mari"}
+          ]
+        }
+      ]
+    }
+  ]
+}

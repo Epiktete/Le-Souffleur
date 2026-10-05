@@ -1,0 +1,21 @@
+{"elements": [
+  {"type": "entree", "marionnette": "Mamie Rose", "main": "M1G"},
+  {"type": "didascalie", "texte": "Mamie Rose s’installe dans son lit et se blottit sous la couverture."},
+  {"type": "entree", "marionnette": "Loup Gris", "main": "M1D"},
+  {"type": "didascalie", "texte": "Loup Gris s’approche de la porte et frappe deux coups."},
+  {"type": "replique", "marionnette": "Mamie Rose", "texte": "Qui est là ?", "ton": "faible, depuis son lit"},
+  {"type": "replique", "marionnette": "Loup Gris", "texte": "C’est votre fille, Rosette, qui vous apporte une galette et un petit pot de beurre, que ma mère vous envoie.", "ton": "en imitant la voix de Rosette, tout doux"},
+  {"type": "replique", "marionnette": "Mamie Rose", "texte": "Tire sur la ficelle, et la porte s’ouvrira.", "ton": "enrhumée, depuis son lit"},
+  {"type": "didascalie", "texte": "Loup Gris tire sur la ficelle : la porte s’ouvre."},
+  {"type": "didascalie", "texte": "Mamie Rose se glisse hors du lit et se cache dans l’armoire."},
+  {"type": "sortie", "marionnette": "Mamie Rose", "main": "M1G"},
+  {"type": "didascalie", "texte": "Loup Gris ferme la porte, puis se glisse dans le lit et se cache sous la couverture."},
+  {"type": "entree", "marionnette": "Rosette", "main": "M1G"},
+  {"type": "didascalie", "texte": "Rosette s’approche de la porte et frappe deux coups."},
+  {"type": "replique", "marionnette": "Loup Gris", "texte": "Qui est là ?", "ton": "d’une grosse voix, sans y penser"},
+  {"type": "didascalie", "texte": "Rosette recule d’un pas, surprise par cette grosse voix."},
+  {"type": "adresse_public", "marionnette": "Rosette", "texte": "Elle doit être bien enrhumée, ma Mamie Rose !", "attenteReponse": false},
+  {"type": "replique", "marionnette": "Rosette", "texte": "C’est votre fille, Rosette, qui vous apporte une galette et un petit pot de beurre, que ma mère vous envoie.", "ton": "rassurée, un peu hésitante"},
+  {"type": "replique", "marionnette": "Loup Gris", "texte": "Tire sur la ficelle, et la porte s’ouvrira.", "ton": "voix radoucie, depuis le lit"},
+  {"type": "didascalie", "texte": "Rosette tire sur la ficelle : la porte s’ouvre."}
+]}

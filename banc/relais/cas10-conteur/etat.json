@@ -1,0 +1,28 @@
+{
+  "termine": true,
+  "etapes": 14,
+  "conte": "dk-soldat-de-plomb",
+  "titre": "L’Intrépide Soldat de plomb",
+  "dureeEstimeeSecondes": 868,
+  "dureeCibleSecondes": 480,
+  "problemesRestants": [
+    {
+      "gravite": "important",
+      "message": "Le spectacle est trop long : 14 min au lieu de 8 min visées."
+    },
+    {
+      "gravite": "important",
+      "acteNumero": 1,
+      "message": "L'acte 1 est un peu long : 198 s au lieu des 90 s de sa part, soit environ 180 mots. Resserre ce qui ne vient pas du conte — didascalies bavardes, répliques ajoutées. C’est une jauge, pas un quota : ne coupe jamais une réplique du conte ni une information dont le parent a besoin."
+    },
+    {
+      "gravite": "important",
+      "acteNumero": 3,
+      "message": "L'acte 3 est un peu long : 321 s au lieu des 90 s de sa part, soit environ 385 mots. Resserre ce qui ne vient pas du conte — didascalies bavardes, répliques ajoutées. C’est une jauge, pas un quota : ne coupe jamais une réplique du conte ni une information dont le parent a besoin."
+    },
+    {
+      "gravite": "mineur",
+      "message": "Le spectacle ne s’adresse jamais au public, alors que le parent a demandé quelques moments avec lui."
+    }
+  ]
+}

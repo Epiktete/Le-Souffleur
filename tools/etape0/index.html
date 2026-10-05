@@ -1,0 +1,454 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- CSP comme prévu en §12 : rien ne vient d'un CDN, les appels réseau sont limités à https. -->
+<meta http-equiv="Content-Security-Policy"
+      content="default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; connect-src https:; form-action 'none'; base-uri 'none'">
+<title>Étape 0 — Test des fournisseurs IA</title>
+<style>
+  /* Palette de la charte, §11 du CDC. Aucune autre couleur. */
+  :root {
+    --encre: #0A0A0A;
+    --papier: #EFEAE0;
+    --accent: #FF3B1F;
+    --encre2: #1A1A1A;
+    --gris: #6B6B6B;
+    /* Andika / IBM Plex Mono arrivent à l'étape 1 (auto-hébergées).
+       Ici on reste sur les polices du système : aucun appel à un CDN. */
+    --mono: ui-monospace, "Cascadia Mono", Consolas, "DejaVu Sans Mono", monospace;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 24px 20px 64px;
+    background: var(--papier); color: var(--encre);
+    font-family: Verdana, Geneva, sans-serif; font-size: 15px; line-height: 1.5;
+  }
+  .page { max-width: 1040px; margin: 0 auto; }
+
+  h1 { font-size: 26px; text-transform: uppercase; letter-spacing: -0.03em; margin: 0 0 4px; }
+  h2 { font-size: 18px; text-transform: uppercase; letter-spacing: -0.02em; margin: 0; }
+  p  { color: var(--encre2); }
+  .sous-titre { color: var(--gris); font-family: var(--mono); font-size: 13px; margin: 0 0 24px; }
+
+  /* Eyebrow mono sur pastille encre, §11. */
+  .eyebrow {
+    display: inline-block; background: var(--encre); color: var(--papier);
+    font-family: var(--mono); font-size: 11px; text-transform: uppercase;
+    letter-spacing: 0.18em; padding: 3px 8px; margin-bottom: 10px;
+  }
+
+  .boite { border: 2px solid var(--encre); background: var(--papier); padding: 16px; margin-bottom: 20px; }
+  .avertissement { box-shadow: 6px 6px 0 var(--encre); }
+  .avertissement ul { margin: 8px 0 0; padding-left: 20px; }
+  .avertissement li { color: var(--encre2); }
+
+  /* Angles droits partout, ombre en décalage plein sans flou. */
+  .fournisseur { border: 2px solid var(--encre); background: var(--papier); box-shadow: 6px 6px 0 var(--encre); margin-bottom: 24px; }
+  .fournisseur > header { border-bottom: 2px solid var(--encre); padding: 12px 16px; display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+  .fournisseur > header .note { font-family: var(--mono); font-size: 12px; color: var(--gris); }
+  .corps { padding: 16px; }
+
+  .champs { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; }
+  label { display: block; font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.18em; margin-bottom: 4px; }
+  input {
+    width: 100%; padding: 9px 10px; border: 2px solid var(--encre); border-radius: 0;
+    background: var(--papier); color: var(--encre); font-family: var(--mono); font-size: 13px;
+  }
+  input:focus-visible, button:focus-visible { outline: 3px solid var(--encre); outline-offset: 2px; }
+
+  .actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 14px; }
+  button {
+    border: 2px solid var(--encre); border-radius: 0; padding: 10px 16px; min-height: 44px;
+    background: var(--encre); color: var(--papier); cursor: pointer;
+    font-family: var(--mono); font-size: 12px; text-transform: uppercase; letter-spacing: 0.12em;
+  }
+  button.secondaire { background: var(--papier); color: var(--encre); }
+  button.principal  { background: var(--accent); color: var(--papier); border-color: var(--encre); }
+  button:disabled { opacity: 0.4; cursor: not-allowed; }
+
+  /* Résultat : les trois points demandés par le §5, plus /models, latence et jetons. */
+  .resultat { margin-top: 16px; border-top: 2px solid var(--encre); padding-top: 12px; display: none; }
+  .resultat.visible { display: block; }
+  .lignes { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 6px 18px; }
+  .ligne { display: flex; justify-content: space-between; gap: 12px; font-family: var(--mono); font-size: 12px; border-bottom: 1px solid var(--gris); padding: 4px 0; }
+  .ligne .cle { color: var(--gris); text-transform: uppercase; letter-spacing: 0.08em; }
+  .val-oui { font-weight: bold; }
+  .val-non { font-weight: bold; color: var(--accent); }
+  .val-inconnu { color: var(--gris); }
+  .message { margin-top: 10px; font-size: 14px; color: var(--encre2); }
+  .message.erreur { border-left: 4px solid var(--accent); padding-left: 10px; }
+  .en-cours { font-family: var(--mono); font-size: 12px; color: var(--gris); }
+
+  #sortie { width: 100%; min-height: 220px; border: 2px solid var(--encre); border-radius: 0; padding: 12px; background: var(--papier); color: var(--encre); font-family: var(--mono); font-size: 12px; white-space: pre; overflow: auto; }
+  .barre-haut { display: flex; gap: 10px; flex-wrap: wrap; margin-bottom: 24px; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <h1>Étape 0 — Test des fournisseurs</h1>
+  <p class="sous-titre">Studio de marionnettes · vérifie que chaque préréglage de la section 5 du CDC répond depuis ce navigateur</p>
+
+  <div class="boite avertissement">
+    <span class="eyebrow">À lire avant de saisir une clé</span>
+    <ul>
+      <li>Votre clé reste <strong>en mémoire dans cet onglet</strong>. Elle n'est ni enregistrée, ni affichée dans la console, ni recopiée dans le tableau de résultats. Fermer l'onglet l'efface.</li>
+      <li>Cette page ne fait <strong>aucun appel réseau au chargement</strong> : rien ne part tant que vous ne cliquez pas sur un bouton de test.</li>
+      <li><strong>Tester sans clé</strong> envoie volontairement une fausse clé. Si le fournisseur répond « 401 », c'est une bonne nouvelle : l'appel depuis le navigateur fonctionne, il ne manquait que la clé. S'il n'y a aucune réponse, c'est que le fournisseur bloque les navigateurs.</li>
+    </ul>
+  </div>
+
+  <div class="barre-haut">
+    <button id="btn-cors-tous" class="secondaire">Tester tous les fournisseurs sans clé</button>
+    <button id="btn-tableau" class="principal">Produire le tableau de résultats</button>
+  </div>
+
+  <div id="fournisseurs"></div>
+
+  <div class="boite">
+    <span class="eyebrow">Tableau à renvoyer à l'agent</span>
+    <p>Cliquez sur « Produire le tableau de résultats », puis copiez tout le contenu ci-dessous et collez-le dans la conversation.</p>
+    <textarea id="sortie" readonly spellcheck="false" aria-label="Tableau de résultats au format Markdown"></textarea>
+    <div class="actions">
+      <button id="btn-copier" class="secondaire">Copier dans le presse-papier</button>
+    </div>
+  </div>
+
+</div>
+
+<script>
+/* ------------------------------------------------------------------
+   Préréglages de la section 5 du CDC.
+   Les modèles proposés sont des suggestions modifiables : à cette étape,
+   seule compte la capacité du fournisseur à répondre depuis le navigateur.
+------------------------------------------------------------------ */
+const FOURNISSEURS = [
+  { id: 'openrouter', nom: 'OpenRouter',    baseUrl: 'https://openrouter.ai/api/v1',                                  modele: 'openai/gpt-4o-mini',    note: 'préréglage par défaut du CDC — une clé pour tous les modèles' },
+  { id: 'openai',     nom: 'OpenAI',        baseUrl: 'https://api.openai.com/v1',                                     modele: 'gpt-4o-mini',           note: 'à vérifier : appel depuis le navigateur' },
+  { id: 'mistral',    nom: 'Mistral',       baseUrl: 'https://api.mistral.ai/v1',                                     modele: 'mistral-small-latest',  note: 'CORS non confirmé à ce jour' },
+  { id: 'gemini',     nom: 'Google Gemini', baseUrl: 'https://generativelanguage.googleapis.com/v1beta/openai',       modele: 'gemini-2.0-flash',      note: 'endpoint compatible OpenAI, CORS non confirmé' },
+  { id: 'anthropic',  nom: 'Anthropic',     baseUrl: 'https://api.anthropic.com/v1',                                  modele: 'claude-haiku-4-5-20251001', note: 'couche de compatibilité, en-tête navigateur spécifique envoyé' },
+  { id: 'autre',      nom: 'Autre',         baseUrl: '',                                                              modele: '',                      note: 'saisie libre — Ollama local ou tout service compatible' },
+];
+
+const DELAI_MS = 120000;          // §5 : 120 secondes maximum par appel
+const FAUSSE_CLE = 'test-sans-cle-volontairement-invalide';
+
+/* ------------------------------------------------------------------
+   Lecture des réponses du LLM (§6 « Lecture des réponses »).
+   Fonction isolée : elle sera reprise telle quelle à l'étape 3.
+   Retire les balises de code, extrait le premier objet JSON complet
+   en comptant les accolades hors chaînes de caractères, puis analyse.
+------------------------------------------------------------------ */
+function extraireJson(texte) {
+  if (typeof texte !== 'string') return { ok: false, erreur: 'Réponse vide' };
+  const sansBalises = texte.replace(/```(?:json)?/gi, '').trim();
+  const debut = sansBalises.indexOf('{');
+  if (debut === -1) return { ok: false, erreur: 'Aucun objet JSON trouvé dans la réponse' };
+
+  let profondeur = 0, dansChaine = false, echappe = false, fin = -1;
+  for (let i = debut; i < sansBalises.length; i++) {
+    const c = sansBalises[i];
+    if (dansChaine) {
+      if (echappe) echappe = false;
+      else if (c === '\\') echappe = true;
+      else if (c === '"') dansChaine = false;
+      continue;
+    }
+    if (c === '"') dansChaine = true;
+    else if (c === '{') profondeur++;
+    else if (c === '}' && --profondeur === 0) { fin = i; break; }
+  }
+  if (fin === -1) return { ok: false, erreur: 'JSON tronqué (accolade fermante manquante)' };
+
+  try {
+    return { ok: true, valeur: JSON.parse(sansBalises.slice(debut, fin + 1)) };
+  } catch (e) {
+    return { ok: false, erreur: 'JSON mal formé : ' + e.message };
+  }
+}
+
+/* Une clé refusée ne se voit pas toujours au code HTTP : Google Gemini
+   répond 400 « Please pass a valid API key » là où les autres répondent 401.
+   On regarde donc aussi le corps du message. */
+function cleRefusee(statut, corps) {
+  if (statut === 401 || statut === 403) return true;
+  const bas = (corps || '').toLowerCase();
+  return statut === 400 && (bas.includes('api key') || bas.includes('api_key') || bas.includes('authentication'));
+}
+
+/* Messages d'erreur du tableau de la section 5, mot pour mot. */
+function messageErreurHttp(statut, corps) {
+  const bas = (corps || '').toLowerCase();
+  if (cleRefusee(statut, corps)) return 'La clé est refusée. Vérifiez qu’elle est copiée en entier.';
+  if (statut === 402 || bas.includes('credit') || bas.includes('quota') || bas.includes('insufficient'))
+    return 'Votre compte chez le fournisseur n’a plus de crédit.';
+  if (statut === 429) return 'Trop de demandes d’un coup. Réessayez dans une minute.';
+  return 'Le fournisseur a répondu une erreur HTTP ' + statut + '.';
+}
+
+/* ------------------------------------------------------------------
+   Un test = un appel POST /chat/completions + un appel GET /models.
+   Corps réduit au plus petit dénominateur commun (§5) :
+   ni response_format, ni tools, ni strict, ni seed, ni streaming.
+------------------------------------------------------------------ */
+function entetes(f, cle) {
+  const h = { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + cle };
+  // §5 : en-tête probablement requis par la couche de compatibilité Anthropic.
+  if (f.id === 'anthropic') h['anthropic-dangerous-direct-browser-access'] = 'true';
+  return h;
+}
+
+async function appelChat(f, cle, signal) {
+  const debut = performance.now();
+  const reponse = await fetch(f.baseUrl.replace(/\/+$/, '') + '/chat/completions', {
+    method: 'POST',
+    headers: entetes(f, cle),
+    signal,
+    body: JSON.stringify({
+      model: f.modele,
+      messages: [
+        { role: 'system', content: 'Tu réponds uniquement par un objet JSON valide, sans aucun texte autour.' },
+        { role: 'user', content: 'Renvoie exactement cet objet : {"ok": true, "couleur": "rouge"}' },
+      ],
+      temperature: 0.2,
+      max_tokens: 200,
+    }),
+  });
+  const texte = await reponse.text();
+  return { reponse, texte, latence: Math.round(performance.now() - debut) };
+}
+
+async function appelModeles(f, cle, signal) {
+  try {
+    const r = await fetch(f.baseUrl.replace(/\/+$/, '') + '/models', { headers: entetes(f, cle), signal });
+    if (!r.ok) return { etat: 'non', detail: 'HTTP ' + r.status };
+    const j = await r.json();
+    const liste = Array.isArray(j?.data) ? j.data : (Array.isArray(j) ? j : null);
+    if (!liste) return { etat: 'non', detail: 'format inattendu' };
+    return { etat: 'oui', detail: liste.length + ' modèles' };
+  } catch (e) {
+    if (e.name === 'AbortError') return { etat: 'inconnu', detail: 'annulé' };
+    return { etat: 'non', detail: 'appel bloqué' };
+  }
+}
+
+/* Résultat vide : toutes les colonnes du tableau final. */
+function resultatVide() {
+  return { appelPossible: 'inconnu', statutHttp: '—', cleAcceptee: 'inconnu',
+           jsonValide: 'inconnu', models: '—', latence: '—', jetons: '—', message: '', erreur: false };
+}
+
+async function tester(f, avecCle, signal) {
+  const r = resultatVide();
+  const cle = avecCle ? f.cle : FAUSSE_CLE;
+
+  if (!f.baseUrl) { r.message = 'Aucune URL de base saisie.'; r.erreur = true; return r; }
+  if (avecCle && !cle) { r.message = 'Aucune clé saisie pour ce fournisseur.'; r.erreur = true; return r; }
+  if (!f.modele) { r.message = 'Aucun modèle saisi.'; r.erreur = true; return r; }
+
+  let chat;
+  try {
+    chat = await appelChat(f, cle, signal);
+  } catch (e) {
+    if (e.name === 'AbortError') {
+      r.message = signal.raisonDelai
+        ? 'Le modèle met trop de temps. Essayez un modèle plus rapide ou un spectacle plus court.'
+        : 'Test annulé.';
+      r.erreur = true;
+      return r;
+    }
+    // §5 : une TypeError sur fetch = pas de réponse du tout (CORS ou hors ligne).
+    r.appelPossible = 'non';
+    r.message = 'Ce fournisseur bloque les appels depuis un navigateur, ou vous êtes hors ligne. Essayez OpenRouter.';
+    r.erreur = true;
+    return r;
+  }
+
+  // Une réponse HTTP reçue, quelle qu'elle soit, prouve que le CORS passe.
+  r.appelPossible = 'oui';
+  r.statutHttp = String(chat.reponse.status);
+  r.latence = chat.latence + ' ms';
+
+  if (!chat.reponse.ok) {
+    r.cleAcceptee = cleRefusee(chat.reponse.status, chat.texte) ? 'non' : 'inconnu';
+    r.message = messageErreurHttp(chat.reponse.status, chat.texte);
+    r.erreur = true;
+  } else {
+    r.cleAcceptee = 'oui';
+    let enveloppe = null;
+    try { enveloppe = JSON.parse(chat.texte); } catch { /* traité juste après */ }
+    const contenu = enveloppe?.choices?.[0]?.message?.content;
+    if (typeof contenu !== 'string') {
+      r.jsonValide = 'non';
+      r.message = 'Réponse reçue mais sans texte exploitable au format Chat Completions.';
+      r.erreur = true;
+    } else {
+      const extrait = extraireJson(contenu);
+      const conforme = extrait.ok && extrait.valeur?.ok === true && typeof extrait.valeur?.couleur === 'string';
+      r.jsonValide = conforme ? 'oui' : 'non';
+      r.message = conforme
+        ? 'Clé acceptée, appel possible depuis ce navigateur, JSON valide renvoyé.'
+        : 'Le modèle n’a pas respecté le format. Essayez un autre modèle. (' + (extrait.erreur || 'objet inattendu') + ')';
+      r.erreur = !conforme;
+      const u = enveloppe?.usage;
+      if (u) r.jetons = (u.prompt_tokens ?? '?') + ' + ' + (u.completion_tokens ?? '?') + ' = ' + (u.total_tokens ?? '?');
+    }
+  }
+
+  const m = await appelModeles(f, cle, signal);
+  r.models = m.etat === 'oui' ? 'oui (' + m.detail + ')' : (m.etat === 'non' ? 'non (' + m.detail + ')' : '—');
+  return r;
+}
+
+/* ------------------------------------------------------------------
+   Interface : une carte par fournisseur.
+------------------------------------------------------------------ */
+const conteneur = document.getElementById('fournisseurs');
+const etat = new Map();   // id -> { resultat, mode, controleur }
+
+for (const f of FOURNISSEURS) {
+  etat.set(f.id, { resultat: null, mode: null, controleur: null });
+
+  const carte = document.createElement('section');
+  carte.className = 'fournisseur';
+  carte.innerHTML = `
+    <header>
+      <h2>${f.nom}</h2>
+      <span class="note">${f.note}</span>
+    </header>
+    <div class="corps">
+      <div class="champs">
+        <div>
+          <label for="url-${f.id}">URL de base</label>
+          <input id="url-${f.id}" type="url" value="${f.baseUrl}" placeholder="https://…/v1" autocomplete="off">
+        </div>
+        <div>
+          <label for="modele-${f.id}">Modèle</label>
+          <input id="modele-${f.id}" type="text" value="${f.modele}" placeholder="nom du modèle" autocomplete="off">
+        </div>
+        <div>
+          <label for="cle-${f.id}">Clé API (jamais enregistrée)</label>
+          <input id="cle-${f.id}" type="password" placeholder="collez la clé ici" autocomplete="off" spellcheck="false">
+        </div>
+      </div>
+      <div class="actions">
+        <button data-role="avec" data-id="${f.id}">Tester avec ma clé</button>
+        <button data-role="sans" data-id="${f.id}" class="secondaire">Tester sans clé (CORS)</button>
+        <button data-role="annuler" data-id="${f.id}" class="secondaire" disabled>Annuler</button>
+        <span class="en-cours" data-role="etat" data-id="${f.id}" aria-live="polite"></span>
+      </div>
+      <div class="resultat" data-role="resultat" data-id="${f.id}"></div>
+    </div>`;
+  conteneur.appendChild(carte);
+}
+
+function lire(f) {
+  return {
+    ...f,
+    baseUrl: document.getElementById('url-' + f.id).value.trim(),
+    modele:  document.getElementById('modele-' + f.id).value.trim(),
+    cle:     document.getElementById('cle-' + f.id).value.trim(),   // reste en mémoire, jamais stockée
+  };
+}
+
+function classeVal(v) {
+  return v === 'oui' ? 'val-oui' : (v === 'non' ? 'val-non' : 'val-inconnu');
+}
+
+function afficher(id, r) {
+  const zone = document.querySelector(`[data-role="resultat"][data-id="${id}"]`);
+  const lignes = [
+    ['Appel possible depuis ce navigateur', r.appelPossible],
+    ['Clé acceptée', r.cleAcceptee],
+    ['JSON valide renvoyé', r.jsonValide],
+    ['Statut HTTP', r.statutHttp],
+    ['GET /models', r.models],
+    ['Latence', r.latence],
+    ['Jetons (usage)', r.jetons],
+  ];
+  zone.innerHTML =
+    '<div class="lignes">' +
+    lignes.map(([c, v]) => `<div class="ligne"><span class="cle">${c}</span><span class="${classeVal(v)}">${v === 'inconnu' ? 'non testé' : v}</span></div>`).join('') +
+    '</div>' +
+    (r.message ? `<p class="message ${r.erreur ? 'erreur' : ''}">${r.message}</p>` : '');
+  zone.classList.add('visible');
+}
+
+async function lancer(id, avecCle) {
+  const base = FOURNISSEURS.find(x => x.id === id);
+  const f = lire(base);
+  const e = etat.get(id);
+  const zoneEtat = document.querySelector(`[data-role="etat"][data-id="${id}"]`);
+  const boutons = document.querySelectorAll(`button[data-id="${id}"]`);
+
+  const controleur = new AbortController();
+  const minuterie = setTimeout(() => { controleur.signal.raisonDelai = true; controleur.abort(); }, DELAI_MS);
+  e.controleur = controleur;
+
+  boutons.forEach(b => { b.disabled = b.dataset.role !== 'annuler'; });
+  zoneEtat.textContent = avecCle ? 'Appel en cours…' : 'Appel sans clé en cours…';
+
+  try {
+    const r = await tester(f, avecCle, controleur.signal);
+    e.resultat = r; e.mode = avecCle ? 'avec clé' : 'sans clé';
+    afficher(id, r);
+  } finally {
+    clearTimeout(minuterie);
+    zoneEtat.textContent = '';
+    boutons.forEach(b => { b.disabled = b.dataset.role === 'annuler'; });
+    e.controleur = null;
+  }
+}
+
+conteneur.addEventListener('click', (ev) => {
+  const b = ev.target.closest('button');
+  if (!b) return;
+  if (b.dataset.role === 'annuler') { etat.get(b.dataset.id)?.controleur?.abort(); return; }
+  lancer(b.dataset.id, b.dataset.role === 'avec');
+});
+
+document.getElementById('btn-cors-tous').addEventListener('click', async (ev) => {
+  ev.target.disabled = true;
+  // En série : deux fournisseurs testés en même temps brouilleraient les latences.
+  for (const f of FOURNISSEURS) {
+    if (document.getElementById('url-' + f.id).value.trim()) await lancer(f.id, false);
+  }
+  ev.target.disabled = false;
+});
+
+/* ------------------------------------------------------------------
+   Tableau Markdown final, à recoller dans la conversation.
+   La clé n'y figure évidemment pas, l'URL et le modèle oui.
+------------------------------------------------------------------ */
+document.getElementById('btn-tableau').addEventListener('click', () => {
+  const l = [];
+  l.push('### Étape 0 — résultats des préréglages (' + new Date().toLocaleString('fr-FR') + ')');
+  l.push('Navigateur : ' + navigator.userAgent);
+  l.push('Origine de la page : ' + location.origin);
+  l.push('');
+  l.push('| Fournisseur | Test | Appel navigateur | Clé acceptée | JSON valide | HTTP | GET /models | Latence | Jetons | Message |');
+  l.push('| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |');
+  for (const f of FOURNISSEURS) {
+    const e = etat.get(f.id);
+    const modele = document.getElementById('modele-' + f.id).value.trim() || '—';
+    if (!e.resultat) { l.push(`| ${f.nom} | non testé | — | — | — | — | — | — | — | — |`); continue; }
+    const r = e.resultat;
+    const val = v => v === 'inconnu' ? 'non testé' : v;
+    l.push(`| ${f.nom} (${modele}) | ${e.mode} | ${val(r.appelPossible)} | ${val(r.cleAcceptee)} | ${val(r.jsonValide)} | ${r.statutHttp} | ${r.models} | ${r.latence} | ${r.jetons} | ${r.message.replace(/\|/g, '/')} |`);
+  }
+  document.getElementById('sortie').value = l.join('\n');
+});
+
+document.getElementById('btn-copier').addEventListener('click', async (ev) => {
+  const t = document.getElementById('sortie');
+  if (!t.value) { ev.target.textContent = 'Produisez d’abord le tableau'; return; }
+  try { await navigator.clipboard.writeText(t.value); ev.target.textContent = 'Copié'; }
+  catch { t.select(); ev.target.textContent = 'Copiez avec Ctrl + C'; }
+  setTimeout(() => { ev.target.textContent = 'Copier dans le presse-papier'; }, 2500);
+});
+</script>
+</body>
+</html>

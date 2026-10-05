@@ -1,0 +1,458 @@
+{
+  "titre": "L’Hiver des bêtes",
+  "parametres": {
+    "dureeMinutes": 10,
+    "ageAuditoire": 9,
+    "nbMarionnettistes": 2,
+    "interactionPublic": "aucune",
+    "marionnetteIds": [
+      "jean-le-paysan",
+      "dame-chèvre",
+      "petit-chat",
+      "vieux-hibou"
+    ],
+    "modele": "relais-local"
+  },
+  "dureeEstimeeSecondes": 232,
+  "nbActes": 4,
+  "nbTableaux": 2,
+  "bible": {
+    "dossier": {
+      "marionnettes": [
+        {
+          "nom": "Jean le Paysan",
+          "description": "Une marionnette de tissu en salopette, chapeau de paille.",
+          "traits": [
+            "travailleur",
+            "rusé"
+          ]
+        },
+        {
+          "nom": "Dame Chèvre",
+          "description": "Une chèvre blanche à longue barbe.",
+          "traits": [
+            "têtu",
+            "grognon"
+          ]
+        },
+        {
+          "nom": "Petit Chat",
+          "description": "Un chaton roux tout doux.",
+          "traits": [
+            "coquin",
+            "farceur"
+          ]
+        },
+        {
+          "nom": "Vieux Hibou",
+          "description": "Un hibou brun aux grands yeux ronds.",
+          "traits": [
+            "sage",
+            "savant"
+          ]
+        }
+      ],
+      "dureeMinutes": 10,
+      "ageAuditoire": 9,
+      "nbMarionnettistes": 2,
+      "interactionPublic": "aucune",
+      "budgetMotsTotal": 1000
+    },
+    "contesPresentes": [
+      "ru-hiver-des-betes",
+      "de-musiciens-de-breme",
+      "it-giufa",
+      "ru-ours-et-loups-effrayes",
+      "de-roitelet-et-ours",
+      "de-elise-la-maligne",
+      "en-punch-et-judy",
+      "afr-lievre-et-rainette"
+    ],
+    "jouables": 83,
+    "synopsisProposes": [
+      {
+        "conte": "ru-hiver-des-betes",
+        "titre": "L’Hiver des bêtes",
+        "accroche": "Vieux Hibou construit seul une cabane pour l'hiver, et c'est elle qui sauve tout le monde quand une rôdeuse rusée vient tourner autour.",
+        "resume": [
+          "En route vers l'hiver, Dame Chèvre et Petit Chat croisent Vieux Hibou et se moquent de son idée de bâtir une cabane ; ils préfèrent continuer leur chemin sans lui.",
+          "Vieux Hibou construit sa cabane tout seul ; au premier grand froid, Dame Chèvre et Petit Chat reviennent frapper à sa porte et menacent de tout démolir s'il ne les laisse pas entrer.",
+          "Vieux Hibou finit par ouvrir sa porte aux deux frigorifiés.",
+          "Une nuit, Petit Chat miaule si fort que Jean le Paysan, une rôdeuse rusée qui traînait par là, l'entend et revient avec deux autres rôdeurs affamés.",
+          "Les rôdeurs entrent un par un dans la cabane pour passer à l'attaque, et en ressortent un par un, bousculés par Vieux Hibou et Dame Chèvre, avant de s'enfuir pour de bon."
+        ],
+        "distribution": [
+          {
+            "marionnette": "Vieux Hibou",
+            "role": "le Taureau",
+            "note": "sage et travailleur comme ce rôle, c'est lui qui a l'idée raisonnable de construire un abri."
+          },
+          {
+            "marionnette": "Dame Chèvre",
+            "role": "le Bélier",
+            "note": "grognonne et têtue, elle campe sur ses positions, d'abord en refusant d'aider, puis en réclamant d'entrer."
+          },
+          {
+            "marionnette": "Petit Chat",
+            "role": "le Coq",
+            "note": "farceur et coquin, il est le premier à faire du bruit et à attirer l'attention par ses miaulements."
+          },
+          {
+            "marionnette": "Jean le Paysan",
+            "role": "la Renarde",
+            "note": "rusé comme elle, c'est la marionnette la mieux placée pour jouer la rôdeuse qui essaie de forcer l'entrée par la ruse."
+          }
+        ],
+        "changements": [
+          "Le Loup et l'Ours n'ont pas de marionnette : on les entend grogner en coulisse, seule la Renarde apparaît en scène, ce qui suffit avec 4 mains.",
+          "La Renarde est jouée par Jean le Paysan plutôt que par Petit Chat, pour qu'une petite bête toute douce ne joue jamais une rôdeuse ; Petit Chat récupère le rôle du Coq, qui devient un miaulement plutôt qu'un chant.",
+          "Les coups de cornes deviennent des bousculades : personne n'est blessé, tout le monde s'enfuit en courant."
+        ],
+        "id": "ru-hiver-des-betes",
+        "reference": "L’Hiver des bêtes — Russie, Alexandre Afanassiev, Contes populaires russes, 1855-1863"
+      },
+      {
+        "conte": "de-musiciens-de-breme",
+        "titre": "Les Musiciens de Brême",
+        "accroche": "Quatre marionnettes trop vite mises de côté partent ensemble sur les routes, et leur vacarme suffit à faire fuir des voleurs et à leur offrir un nouveau foyer.",
+        "resume": [
+          "Vieux Hibou, jugé trop vieux pour son travail, part sur la route pour devenir musicien à Brême.",
+          "En chemin, il retrouve Jean le Paysan, Petit Chat et Dame Chèvre, tous menacés eux aussi chez eux, et les emmène avec lui.",
+          "La nuit, ils découvrent une maison où des voleurs sont attablés ; ils grimpent les uns sur les autres et poussent tous ensemble un vacarme épouvantable.",
+          "Les voleurs détalent, terrifiés, et la petite troupe mange leur repas et s'installe dans la maison.",
+          "Un voleur revient sur la pointe des pieds pour vérifier ; il se fait griffer par Petit Chat, mordre par Jean le Paysan, bousculer par Dame Chèvre et effrayer par le cri de Vieux Hibou, puis repart raconter à ses amis qu'une bande de monstres garde désormais la maison."
+        ],
+        "distribution": [
+          {
+            "marionnette": "Vieux Hibou",
+            "role": "l'Âne",
+            "note": "sage comme ce rôle, c'est le meneur naturel de la troupe, celui qui a l'idée du voyage."
+          },
+          {
+            "marionnette": "Jean le Paysan",
+            "role": "le Chien",
+            "note": "un travailleur mis de côté malgré lui, un rôle qui lui va bien."
+          },
+          {
+            "marionnette": "Dame Chèvre",
+            "role": "le Coq",
+            "note": "grognonne et bavarde à sa façon, elle peut lancer le signal du départ avec autant d'aplomb qu'un coq."
+          },
+          {
+            "marionnette": "Petit Chat",
+            "role": "le Chat",
+            "note": "coquin et farceur, il est déjà lui-même dans ce rôle, sans même changer d'espèce."
+          }
+        ],
+        "changements": [
+          "Les maîtres qui voulaient se débarrasser des bêtes restent flous, sans détail cruel, pour rester léger pour 9 ans.",
+          "Les voleurs sont présentés comme des chapardeurs de gâteaux, pas comme de vrais brigands dangereux.",
+          "Les présentations séparées de chaque bête en chemin sont regroupées en une seule scène, pour tenir dans le temps prévu."
+        ],
+        "id": "de-musiciens-de-breme",
+        "reference": "Les Musiciens de Brême — Allemagne, Jacob et Wilhelm Grimm, Contes de l'enfance et du foyer, 1857 (n° 27)"
+      },
+      {
+        "conte": "it-giufa",
+        "titre": "Une histoire de Giufà",
+        "accroche": "Chassé une première fois de la ferme de Dame Chèvre, Petit Chat y revient déguisé en garde champêtre et s'y fait servir comme un roi.",
+        "resume": [
+          "Affamé, Petit Chat va, en guenilles, réclamer à manger à la ferme de Dame Chèvre, qui le chasse à grands cris.",
+          "Sa mère, Jean le Paysan, lui emprunte à Vieux Hibou un bel habit de garde, avec chapeau à plumes et sacoche.",
+          "Habillé ainsi, Petit Chat revient à la même ferme, où Dame Chèvre le reçoit cette fois comme un invité d'honneur et le régale.",
+          "Persuadé que ce sont ses habits qu'on a invités, Petit Chat remplit discrètement sa sacoche de victuailles et arrose sa veste au lieu de manger lui-même.",
+          "Il rentre chargé de cadeaux ; Jean le Paysan est ravi, puis affolé à l'idée de devoir rendre l'habit taché à Vieux Hibou, jusqu'à ce qu'elle trouve comment le nettoyer à temps."
+        ],
+        "distribution": [
+          {
+            "marionnette": "Jean le Paysan",
+            "role": "la Mère de Giufà",
+            "note": "travailleur et rusé comme ce rôle, c'est lui qui a l'idée du déguisement qui sauve la situation."
+          },
+          {
+            "marionnette": "Dame Chèvre",
+            "role": "le Fermier grincheux",
+            "note": "grognonne comme il faut, elle est parfaite en fermière qui chasse d'abord puis accueille à bras ouverts."
+          },
+          {
+            "marionnette": "Petit Chat",
+            "role": "Giufà",
+            "note": "farceur, il est fait pour ce rôle de garçon malicieux qui prend tout au pied de la lettre."
+          },
+          {
+            "marionnette": "Vieux Hibou",
+            "role": "le Compère garde champêtre",
+            "note": "sage et généreux, c'est lui qui prête son bel habit sans se douter de ce qu'il va devenir."
+          }
+        ],
+        "changements": [
+          "On supprime les coups de bâton, Petit Chat est chassé à grands cris, et le vin devient de l'eau ou du jus, pour rester doux à 9 ans.",
+          "Le fusil et la cartouchière deviennent un chapeau à plumes et une sacoche, plus faciles à manier avec 4 mains.",
+          "La fin ouverte du conte devient une vraie scène : Jean le Paysan trouve comment nettoyer l'habit avant de le rendre à Vieux Hibou."
+        ],
+        "id": "it-giufa",
+        "reference": "Une histoire de Giufà — Sicile (Italie), conte de Venerando Gangi, fabuliste sicilien, adapté en italien par Agostino Longo, Aneddoti siciliani, Catane, 1845"
+      }
+    ],
+    "synopsis": {
+      "conte": "ru-hiver-des-betes",
+      "titre": "L’Hiver des bêtes",
+      "accroche": "Vieux Hibou construit seul une cabane pour l'hiver, et c'est elle qui sauve tout le monde quand une rôdeuse rusée vient tourner autour.",
+      "resume": [
+        "En route vers l'hiver, Dame Chèvre et Petit Chat croisent Vieux Hibou et se moquent de son idée de bâtir une cabane ; ils préfèrent continuer leur chemin sans lui.",
+        "Vieux Hibou construit sa cabane tout seul ; au premier grand froid, Dame Chèvre et Petit Chat reviennent frapper à sa porte et menacent de tout démolir s'il ne les laisse pas entrer.",
+        "Vieux Hibou finit par ouvrir sa porte aux deux frigorifiés.",
+        "Une nuit, Petit Chat miaule si fort que Jean le Paysan, une rôdeuse rusée qui traînait par là, l'entend et revient avec deux autres rôdeurs affamés.",
+        "Les rôdeurs entrent un par un dans la cabane pour passer à l'attaque, et en ressortent un par un, bousculés par Vieux Hibou et Dame Chèvre, avant de s'enfuir pour de bon."
+      ],
+      "distribution": [
+        {
+          "marionnette": "Vieux Hibou",
+          "role": "le Taureau",
+          "note": "sage et travailleur comme ce rôle, c'est lui qui a l'idée raisonnable de construire un abri."
+        },
+        {
+          "marionnette": "Dame Chèvre",
+          "role": "le Bélier",
+          "note": "grognonne et têtue, elle campe sur ses positions, d'abord en refusant d'aider, puis en réclamant d'entrer."
+        },
+        {
+          "marionnette": "Petit Chat",
+          "role": "le Coq",
+          "note": "farceur et coquin, il est le premier à faire du bruit et à attirer l'attention par ses miaulements."
+        },
+        {
+          "marionnette": "Jean le Paysan",
+          "role": "la Renarde",
+          "note": "rusé comme elle, c'est la marionnette la mieux placée pour jouer la rôdeuse qui essaie de forcer l'entrée par la ruse."
+        }
+      ],
+      "changements": [
+        "Le Loup et l'Ours n'ont pas de marionnette : on les entend grogner en coulisse, seule la Renarde apparaît en scène, ce qui suffit avec 4 mains.",
+        "La Renarde est jouée par Jean le Paysan plutôt que par Petit Chat, pour qu'une petite bête toute douce ne joue jamais une rôdeuse ; Petit Chat récupère le rôle du Coq, qui devient un miaulement plutôt qu'un chant.",
+        "Les coups de cornes deviennent des bousculades : personne n'est blessé, tout le monde s'enfuit en courant."
+      ],
+      "id": "ru-hiver-des-betes",
+      "reference": "L’Hiver des bêtes — Russie, Alexandre Afanassiev, Contes populaires russes, 1855-1863"
+    },
+    "conteId": "ru-hiver-des-betes",
+    "adaptation": {
+      "titre": "L’Hiver des bêtes",
+      "pitch": "Vieux Hibou est seul à préparer l’hiver, et sa petite cabane finit par sauver tout le monde, même le rôdeur qui voulait s’y inviter par ruse.",
+      "changements": [
+        "Le cochon et l’oie, déjà écartés par le synopsis du parent, ne jouent aucun rôle dans le découpage : sur le chemin comme à la porte de la cabane, seuls Dame Chèvre et Petit Chat entourent Vieux Hibou.",
+        "Les scènes de supplique, répétées quatre fois dans le conte (chèvre, cochon, oie, coq), sont resserrées à deux passages successifs à l’acte 2 (Dame Chèvre puis Petit Chat), pour tenir le budget de mots sans toucher au dénouement.",
+        "Le loup et l’ours restent hors scène du début à la fin : à l’acte 3 on les entend grogner d’impatience en coulisse, et à l’acte 4 leur propre tentative et leur fuite sont racontées par un effet de voix, non jouées, puisque seul Jean le Paysan a une marionnette pour entrer dans la cabane.",
+        "La bagarre finale, qui comptait trois assauts dans le conte, n’en montre qu’un sur scène (Jean le Paysan bousculé par Vieux Hibou et Dame Chèvre) ; les deux autres sont dits.",
+        "L’acte 4 ajoute une courte scène de réconciliation, suggérée par la fiche du conte : une fois le danger parti, les trois marionnettes de la cabane se promettent de rebâtir ensemble la prochaine fois."
+      ],
+      "tableaux": [
+        {
+          "id": "t1",
+          "titre": "Le chemin de l’hiver",
+          "description": "Un espace dégagé devant les marionnettistes, sans meuble ni décor : le chemin que suivent les bêtes en fuite devant le froid. Rien à installer, juste la place pour que trois marionnettes se croisent et discutent debout.",
+          "accessoires": [],
+          "promptImage": ""
+        },
+        {
+          "id": "t2",
+          "titre": "La cabane de Vieux Hibou",
+          "description": "Un carton ou une caisse retournée au centre figure la cabane, avec un tissu ou une planche posée devant en guise de porte. Un drap plié ou deux coussins juste à côté marquent l’intérieur, où les personnages se serrent une fois entrés.",
+          "accessoires": [],
+          "promptImage": ""
+        }
+      ],
+      "actes": [
+        {
+          "numero": 1,
+          "titre": "Le chemin de l’hiver",
+          "tableauId": "t1",
+          "resume": "Vieux Hibou croise Dame Chèvre puis Petit Chat sur le chemin ; il propose de bâtir une cabane ensemble, mais les deux refusent en riant, chacun sûr de son pelage. Vieux Hibou les laisse partir et décide de construire seul.",
+          "passage": "De « Vieux Hibou marchait dans la forêt… » à « …moi je vais construire une cabane. »",
+          "temps": [
+            "Vieux Hibou marche seul sur le chemin de l’hiver.",
+            "Il croise Dame Chèvre, puis Petit Chat, qui vont dans la même direction que lui.",
+            "Il leur propose de bâtir une cabane ensemble ; les deux refusent en riant, chacun sûr de son pelage ou de sa fourrure.",
+            "Vieux Hibou les laisse partir et décide de construire seul."
+          ],
+          "mouvements": [
+            {
+              "type": "entree",
+              "marionnette": "Vieux Hibou",
+              "main": "M1G"
+            },
+            {
+              "type": "entree",
+              "marionnette": "Dame Chèvre",
+              "main": "M1D"
+            },
+            {
+              "type": "entree",
+              "marionnette": "Petit Chat",
+              "main": "M2G"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "Dame Chèvre",
+              "main": "M1D"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "Petit Chat",
+              "main": "M2G"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "Vieux Hibou",
+              "main": "M1G"
+            }
+          ],
+          "momentsPublic": [],
+          "budgetMots": 220
+        },
+        {
+          "numero": 2,
+          "titre": "La porte qui finit par s’ouvrir",
+          "tableauId": "t2",
+          "resume": "L’hiver mord et Vieux Hibou vit à l’abri dans sa cabane. Dame Chèvre revient frigorifiée, menace de tout démolir, et finit par entrer. Petit Chat arrive à son tour, tout aussi transi, et Vieux Hibou le laisse entrer lui aussi.",
+          "passage": "De « Il se construisit une petite cabane, et il y vit. » à « …il laissa entrer chez lui l’oie et Petit Chat. »",
+          "temps": [
+            "L’hiver mord, et Vieux Hibou vit maintenant bien à l’abri dans sa cabane.",
+            "Dame Chèvre revient frigorifiée frapper à la porte et menace de tout démolir si on ne la laisse pas entrer.",
+            "Vieux Hibou refuse d’abord, puis cède et la laisse entrer.",
+            "Petit Chat arrive à son tour, tout aussi transi, menace de grimper gratter le toit, et Vieux Hibou finit par le laisser entrer aussi."
+          ],
+          "mouvements": [
+            {
+              "type": "entree",
+              "marionnette": "Vieux Hibou",
+              "main": "M1G"
+            },
+            {
+              "type": "entree",
+              "marionnette": "Dame Chèvre",
+              "main": "M1D"
+            },
+            {
+              "type": "entree",
+              "marionnette": "Petit Chat",
+              "main": "M2G"
+            }
+          ],
+          "momentsPublic": [],
+          "budgetMots": 260
+        },
+        {
+          "numero": 3,
+          "titre": "Un miaulement de trop",
+          "tableauId": "t2",
+          "resume": "Bien au chaud, Petit Chat se met à miauler de plaisir. Non loin, Jean le Paysan l’entend et comprend qu’il y a un repas facile. Il s’éloigne chercher du renfort, qu’on entend grogner d’impatience en coulisse, puis revient seul se poster devant la cabane.",
+          "passage": "De « Les voilà qui vivent tous ensemble dans la petite cabane. » à « Jean le Paysan les mena à la petite cabane. »",
+          "temps": [
+            "Bien au chaud, Petit Chat se met à miauler de plaisir.",
+            "Non loin, Jean le Paysan l’entend et comprend qu’il y a un repas facile à prendre.",
+            "Il s’éloigne annoncer son plan à deux compères, qu’on entend grogner d’impatience en coulisse.",
+            "Il revient seul se poster devant la cabane, prêt à tenter sa chance."
+          ],
+          "mouvements": [
+            {
+              "type": "entree",
+              "marionnette": "Jean le Paysan",
+              "main": "M2D"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "Jean le Paysan",
+              "main": "M2D"
+            }
+          ],
+          "momentsPublic": [],
+          "budgetMots": 200
+        },
+        {
+          "numero": 4,
+          "titre": "La cabane tient bon",
+          "tableauId": "t2",
+          "resume": "Jean le Paysan entre le premier pour attraper Petit Chat ; Vieux Hibou et Dame Chèvre le bousculent aussitôt et il s’enfuit. Ses deux compères, entendus en coulisse, renoncent à leur tour et détalent. Réchauffés et rassurés, Vieux Hibou, Dame Chèvre et Petit Chat se promettent de bâtir ensemble la prochaine fois.",
+          "passage": "De « Compère, dit-il à l’ours, ouvre la porte, j’entre le premier, je vais manger le chat. » à « …il eut bien du mal à s’échapper, et s’enfuit sans se retourner. »",
+          "temps": [
+            "Jean le Paysan entre le premier dans la cabane pour attraper Petit Chat.",
+            "Vieux Hibou et Dame Chèvre le bousculent aussitôt contre la paroi, et il ressort en courant.",
+            "On entend au loin ses deux compères renoncer à leur tour et s’enfuir pour de bon.",
+            "Vieux Hibou, Dame Chèvre et Petit Chat, réchauffés et rassurés, se promettent de bâtir ensemble, la prochaine fois."
+          ],
+          "mouvements": [
+            {
+              "type": "entree",
+              "marionnette": "Jean le Paysan",
+              "main": "M2D"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "Jean le Paysan",
+              "main": "M2D"
+            }
+          ],
+          "momentsPublic": [],
+          "budgetMots": 340
+        }
+      ],
+      "voix": [
+        {
+          "marionnette": "Vieux Hibou",
+          "voix": "voix grave et lente, appuie sur la fin de ses phrases comme s’il réfléchissait tout haut"
+        },
+        {
+          "marionnette": "Dame Chèvre",
+          "voix": "voix rauque et bougonne, râle « pfff » à chaque contrariété"
+        },
+        {
+          "marionnette": "Petit Chat",
+          "voix": "voix aiguë et pressée, glisse un petit rire ou un miaulement content en fin de phrase"
+        },
+        {
+          "marionnette": "Jean le Paysan",
+          "voix": "voix doucereuse et trop polie, traîne sur les mots quand il complote"
+        }
+      ]
+    },
+    "transposition": {
+      "texte": "Vieux Hibou marchait dans la forêt ; il rencontre Dame Chèvre.\n\n— Où vas-tu, Dame Chèvre ? demanda Vieux Hibou.\n\n— Je fuis l'hiver, je cherche l'été, dit Dame Chèvre.\n\n— Viens avec moi !\n\nIls partent ensemble ; ils rencontrent un cochon.\n\n— Où vas-tu, cochon ? demanda Vieux Hibou.\n\n— Je fuis l'hiver, je cherche l'été, répond le cochon.\n\n— Viens avec nous !\n\nIls continuent à trois ; ils rencontrent une oie.\n\n— Où vas-tu, l'oie ? demanda Vieux Hibou.\n\n— Je fuis l'hiver, je cherche l'été, répond l'oie.\n\n— Eh bien, suis-nous !\n\nEt l'oie les suivit. Ils marchent, et voilà qu'ils rencontrent Petit Chat.\n\n— Où vas-tu, Petit Chat ? demanda Vieux Hibou.\n\n— Je fuis l'hiver, je cherche l'été, répond Petit Chat.\n\n— Suis-nous !\n\nLes voilà qui marchent sur la route, et qui discutent entre eux :\n\n— Alors, mes frères, mes camarades ? La saison froide arrive : où trouver de la chaleur ?\n\nVieux Hibou dit :\n\n— Eh bien, construisons une cabane, sinon nous allons vraiment geler cet hiver.\n\nDame Chèvre dit :\n\n— Moi, j'ai un manteau bien chaud — regardez-moi ce poil ! Je passerai l'hiver comme ça.\n\nLe cochon dit :\n\n— Moi, les gelées, je m'en moque, je n'en ai pas peur : je m'enfouirai dans la terre, et je passerai l'hiver sans cabane.\n\nL'oie dit :\n\n— Et moi, je me mettrai au milieu d'un sapin, j'étendrai une aile en dessous et je me couvrirai de l'autre : aucun froid ne m'attrapera. Je passerai l'hiver comme ça.\n\nPetit Chat dit :\n\n— Et moi, je me roulerai en boule dans la paille : aucun froid ne m'attrapera. Je passerai l'hiver comme ça.\n\nVieux Hibou voit que ça va mal, qu'il va devoir se débrouiller tout seul.\n\n— Eh bien, dit-il, faites comme vous voulez, moi je vais construire une cabane.\n\nIl se construisit une petite cabane, et il y vit.\n\nVoilà que vint l'hiver froid, et les gelées commencèrent à mordre. Dame Chèvre, il n'y a rien à faire, vient chez Vieux Hibou :\n\n— Laisse-moi entrer me réchauffer, frère.\n\n— Non, Dame Chèvre, tu as un manteau chaud, tu passeras l'hiver comme ça. Je ne te laisse pas entrer !\n\n— Si tu ne me laisses pas entrer, je vais prendre mon élan et faire sauter une poutre de ta cabane : tu auras encore plus froid.\n\nVieux Hibou réfléchit, réfléchit : « Je ferais mieux de la laisser entrer, sinon c'est moi qui vais geler. » Et il laissa entrer Dame Chèvre.\n\nPuis le cochon eut froid, et vint chez Vieux Hibou :\n\n— Laisse-moi entrer me réchauffer, frère.\n\n— Non, je ne te laisse pas entrer : tu t'enfouiras dans la terre, et tu passeras l'hiver comme ça !\n\n— Si tu ne me laisses pas entrer, je vais creuser sous tous tes poteaux avec mon groin, et faire tomber ta cabane.\n\nIl n'y a rien à faire, il faut le laisser entrer ; il laissa entrer aussi le cochon. Puis l'oie et Petit Chat vinrent chez Vieux Hibou :\n\n— Laisse-nous entrer nous réchauffer, frère.\n\n— Non, je ne vous laisse pas entrer. Toi, l'oie, tu as deux ailes : une pour te coucher dessus, l'autre pour te couvrir. Et toi, Petit Chat, tu as une bonne fourrure bien épaisse. Vous passerez l'hiver comme ça !\n\n— Si tu ne me laisses pas entrer, dit l'oie, je vais arracher toute la mousse entre les poutres de tes murs : tu auras encore plus froid.\n\n— Tu ne me laisses pas entrer ? dit Petit Chat. Alors je vais grimper là-haut et gratter toute la terre de ton toit : tu auras encore plus froid.\n\nQue pouvait faire Vieux Hibou ? Il laissa entrer chez lui l'oie et Petit Chat.\n\nLes voilà qui vivent tous ensemble dans la petite cabane. Petit Chat, une fois bien réchauffé, se mit à miauler de plaisir. Jean le Paysan entendit Petit Chat miauler ainsi, et il eut envie de se régaler du petit chat. Mais comment l'attraper ? Jean le Paysan eut recours à la ruse. Il alla trouver l'ours et le loup, et leur dit :\n\n— Eh bien, mes chers compères, j'ai trouvé à manger pour tout le monde : pour toi, l'ours, un hibou ; pour toi, le loup, une chèvre ; et pour moi, un chat.\n\n— Très bien, compère, dirent l'ours et le loup, nous n'oublierons jamais ce service ! Allons-y, et mangeons !\n\nJean le Paysan les mena à la petite cabane.\n\n— Compère, dit-il à l'ours, ouvre la porte, j'entre le premier, je vais manger le chat.\n\nL'ours ouvrit la porte, et Jean le Paysan sauta dans la cabane. Vieux Hibou le vit, et aussitôt le bouscula contre le mur, et Dame Chèvre se mit à le pousser des flancs. Jean le Paysan n'en menait pas large.\n\n— Qu'est-ce qu'il fait, à ne pas en finir avec le chat ? dit le loup. Ouvre, frère Michel ! J'y vais.\n\n— Eh bien, vas-y.\n\nL'ours ouvrit la porte, et le loup sauta dans la cabane. Vieux Hibou le bouscula lui aussi contre le mur, et Dame Chèvre se mit à le pousser des flancs, et ils le reçurent si bien que le loup en eut le souffle coupé.\n\nL'ours attendit, attendit :\n\n— Qu'est-ce qu'il fait, à ne pas en finir avec Dame Chèvre ! Laisse-moi y aller.\n\nIl entra dans la cabane, et Vieux Hibou et Dame Chèvre le reçurent de la même façon. Il eut bien du mal à s'échapper, et s'enfuit sans se retourner.",
+      "changements": [
+        "Le bélier devenu Dame Chèvre n'a pas de laine : elle vante « ce poil » plutôt que sa laine pour dire qu'elle craint pas le froid.",
+        "Le coq devenu Petit Chat ne pouvant ni voler ni s'abriter sous une aile comme l'oie, il promet de se rouler en boule dans la paille plutôt que de faire « pareil ».",
+        "Le refus adressé ensemble à l'oie et au coq (« vous avez chacun deux ailes ») est scindé en deux réponses, Petit Chat n'ayant pas d'ailes mais une bonne fourrure.",
+        "La menace du coq de s'envoler sur le toit devient, pour Petit Chat qui ne vole pas, le fait d'y grimper.",
+        "Le coq qui chantait des chansons devient Petit Chat qui miaule de plaisir, un chat ne chantant pas.",
+        "La Renarde devient Jean le Paysan : tous les accords passent au masculin (elle devient il, commère devient compère, « j'entre la première » devient « j'entre le premier »).",
+        "Les coups de cornes de Vieux Hibou, qui n'en a pas en tant que hibou, et de Dame Chèvre contre les intrus deviennent des bousculades, comme l'indique la fiche du conte pour adoucir la bagarre finale."
+      ]
+    },
+    "relecture": {
+      "remarques": [
+        {
+          "acte": 3,
+          "element": 6,
+          "gravite": "mineur",
+          "remarque": "Les grognements du Loup et de l'Ours ne disent pas explicitement qu'ils acceptent le plan de Jean le Paysan et le suivent jusqu'à la cabane ; un jeune enfant peut ne pas comprendre qu'il s'agit d'un accord.",
+          "modification": "Ajouter, après les grognements, une courte réplique en voix off reprise du conte, par exemple : Voix du Loup et de l'Ours : « Très bien, compère, on ne l'oubliera pas ! Allons-y ! »"
+        },
+        {
+          "acte": 4,
+          "element": 7,
+          "gravite": "important",
+          "remarque": "La scène la plus comique du conte — le loup puis l'ours tentent chacun leur tour d'entrer et se font repousser, avec leurs répliques propres (« Qu'est-ce qu'elle fait... Ouvre, frère Michel ! J'y vais » puis « L'ours attendit, attendit... ») — est réduite ici à un simple bruitage générique. C'est pourtant le cœur de l'histoire : chacun des trois assaillants doit être repoussé un par un pour que le retournement fonctionne, et ce ressort du conte disparaît.",
+          "modification": "Remplacer la didascalie sonore unique par deux courtes répliques en voix off, adaptées du conte : le loup s'impatiente et tente sa chance, puis l'ours attend et tente la sienne à son tour, chacune suivie d'un cri de surprise et d'un bruit de bousculade, avant la galopade finale déjà présente."
+        },
+        {
+          "acte": 4,
+          "element": 1,
+          "gravite": "important",
+          "remarque": "Jean le Paysan dit « Compère, ouvre la porte » en s'adressant à l'ours pour qu'il lui ouvre — mais l'ours n'est qu'une voix en coulisse, sans présence physique à la cabane : personne ne peut lui ouvrir, et Jean le Paysan pousse lui-même la porte à la réplique suivante. Un enfant ne sait pas à qui il parle ni pourquoi personne ne répond à cette demande.",
+          "modification": "Retirer l'adresse à un « compère » absent ; la remplacer par une réplique que Jean le Paysan se dit à lui-même en poussant pour entrer, par exemple : « Un hibou, une chèvre... et pour moi, le chat ! »"
+        }
+      ]
+    }
+  },
+  "etapes": 12
+}

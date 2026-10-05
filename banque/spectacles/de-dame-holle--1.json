@@ -1,0 +1,1108 @@
+{
+  "id": "de-dame-holle--1",
+  "conteId": "de-dame-holle",
+  "titre": "Dame Holle",
+  "pitch": "{{r1}} aide le pain, le pommier et {{r3}} et revient couverte d’or. {{r2}} suit le même chemin sans les aider et revient couverte de poix.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "enfant",
+      "famille": "enfant",
+      "traits": [
+        "gentille",
+        "travailleuse",
+        "courageuse"
+      ],
+      "voix": "voix douce et décidée, qui se réchauffe quand on lui parle gentiment",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "couverte d’or",
+            "apres": "couvert d’or"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "couverte d’or",
+            "apres": "couvert d’or"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "était belle et travailleuse",
+            "apres": "était beau et travailleur"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "qu’elle saignait",
+            "apres": "qu’il saignait"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "Elle voulut laver",
+            "apres": "Il voulut laver"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "Elle pleura",
+            "apres": "Il pleura"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "la gronda",
+            "apres": "le gronda"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "elle sauta dans le puits",
+            "apres": "il sauta dans le puits"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "Elle perdit connaissance",
+            "apres": "Il perdit connaissance"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "elle se réveilla",
+            "apres": "il se réveilla"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "revint à elle",
+            "apres": "revint à lui"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "elle était dans",
+            "apres": "il était dans"
+          },
+          {
+            "id": "a1e12:texte",
+            "avant": "autour d’elle",
+            "apres": "autour de lui"
+          },
+          {
+            "id": "a1e14:texte",
+            "avant": "Elle traversa",
+            "apres": "Il traversa"
+          },
+          {
+            "id": "a1e17:texte",
+            "avant": "Elle s’approcha",
+            "apres": "Il s’approcha"
+          },
+          {
+            "id": "a1e20:texte",
+            "avant": "Puis elle continua",
+            "apres": "Puis il continua"
+          },
+          {
+            "id": "a1e24:texte",
+            "avant": "elle continua son chemin",
+            "apres": "il continua son chemin"
+          },
+          {
+            "id": "a2e1:texte",
+            "avant": "Enfin, elle arriva",
+            "apres": "Enfin, il arriva"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "tu seras heureuse",
+            "apres": "tu seras heureux"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "Elle fit tout",
+            "apres": "Il fit tout"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "elle avait une bonne vie",
+            "apres": "il avait une bonne vie"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "Elle était depuis",
+            "apres": "Il était depuis"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "elle devint triste",
+            "apres": "il devint triste"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "elle ne savait pas",
+            "apres": "il ne savait pas"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "elle-même",
+            "apres": "lui-même"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "elle comprit",
+            "apres": "il comprit"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "Bien qu’elle fût",
+            "apres": "Bien qu’il fût"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "plus heureuse ici",
+            "apres": "plus heureux ici"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "elle avait envie",
+            "apres": "il avait envie"
+          },
+          {
+            "id": "a2e8:texte",
+            "avant": "elle dit à",
+            "apres": "il dit à"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "accroché à elle",
+            "apres": "accroché à lui"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "qu’elle en était couverte",
+            "apres": "qu’il en était couvert"
+          },
+          {
+            "id": "a2e13:texte",
+            "avant": "si travailleuse",
+            "apres": "si travailleur"
+          },
+          {
+            "id": "a2e14:texte",
+            "avant": "Quand elle entra",
+            "apres": "Quand il entra"
+          },
+          {
+            "id": "a2e16:texte",
+            "avant": "demoiselle",
+            "apres": "damoiseau"
+          },
+          {
+            "id": "a2e17:texte",
+            "avant": "Elle entra",
+            "apres": "Il entra"
+          },
+          {
+            "id": "a2e17:texte",
+            "avant": "qu’elle arrivait toute couverte",
+            "apres": "qu’il arrivait tout couvert"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "elle avait obtenu",
+            "apres": "il avait obtenu"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "chez elle",
+            "apres": "chez lui"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a2e4:texte",
+          "avant": "chère enfant",
+          "gabarit": "{cher|chère} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r2",
+      "espece": "enfant",
+      "famille": "enfant",
+      "traits": [
+        "paresseuse",
+        "gourmande",
+        "jalouse"
+      ],
+      "voix": "voix pressée, qui devient traînante quand le travail commence",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "couverte de poix",
+            "apres": "couvert de poix"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "laide et paresseuse",
+            "apres": "laid et paresseux"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "Celle-ci dut",
+            "apres": "Celui-ci dut"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "elle se piqua",
+            "apres": "il se piqua"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "elle fit tomber",
+            "apres": "il fit tomber"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "y sauta elle-même",
+            "apres": "y sauta lui-même"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "Elle arriva",
+            "apres": "Il arriva"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "elle arriva devant le four",
+            "apres": "il arriva devant le four"
+          },
+          {
+            "id": "a3e8:ton",
+            "avant": "dédaigneuse",
+            "apres": "dédaigneux"
+          },
+          {
+            "id": "a3e10:texte",
+            "avant": "Et elle passa",
+            "apres": "Et il passa"
+          },
+          {
+            "id": "a3e10:texte",
+            "avant": "elle arriva devant",
+            "apres": "il arriva devant"
+          },
+          {
+            "id": "a3e15:ton",
+            "avant": "contrariée",
+            "apres": "contrarié"
+          },
+          {
+            "id": "a3e17:texte",
+            "avant": "Et elle continua",
+            "apres": "Et il continua"
+          },
+          {
+            "id": "a3e17:texte",
+            "avant": "Quand elle arriva",
+            "apres": "Quand il arriva"
+          },
+          {
+            "id": "a3e17:texte",
+            "avant": "elle n’eut pas peur",
+            "apres": "il n’eut pas peur"
+          },
+          {
+            "id": "a3e17:texte",
+            "avant": "elle avait déjà entendu",
+            "apres": "il avait déjà entendu"
+          },
+          {
+            "id": "a3e17:texte",
+            "avant": "elle entra tout de suite",
+            "apres": "il entra tout de suite"
+          },
+          {
+            "id": "a4e3:texte",
+            "avant": "elle se força",
+            "apres": "il se força"
+          },
+          {
+            "id": "a4e3:texte",
+            "avant": "elle pensait à",
+            "apres": "il pensait à"
+          },
+          {
+            "id": "a4e3:texte",
+            "avant": "qu’elle recevrait",
+            "apres": "qu’il recevrait"
+          },
+          {
+            "id": "a4e3:texte",
+            "avant": "elle commença déjà",
+            "apres": "il commença déjà"
+          },
+          {
+            "id": "a4e3:texte",
+            "avant": "elle ne voulut même",
+            "apres": "il ne voulut même"
+          },
+          {
+            "id": "a4e5:texte",
+            "avant": "bien contente",
+            "apres": "bien content"
+          },
+          {
+            "id": "a4e7:texte",
+            "avant": "la mena aussi",
+            "apres": "le mena aussi"
+          },
+          {
+            "id": "a4e7:texte",
+            "avant": "quand elle fut dessous",
+            "apres": "quand il fut dessous"
+          },
+          {
+            "id": "a4e7:texte",
+            "avant": "sur elle",
+            "apres": "sur lui"
+          },
+          {
+            "id": "a4e10:texte",
+            "avant": "chez elle, toute couverte",
+            "apres": "chez lui, tout couvert"
+          },
+          {
+            "id": "a4e10:texte",
+            "avant": "quand il la vit",
+            "apres": "quand il le vit"
+          },
+          {
+            "id": "a4e12:texte",
+            "avant": "demoiselle toute sale",
+            "apres": "damoiseau tout sale"
+          },
+          {
+            "id": "a4e13:texte",
+            "avant": "collée à elle",
+            "apres": "collée à lui"
+          },
+          {
+            "id": "a1e1:texte",
+            "avant": "sa vraie fille",
+            "apres": "son vrai fils"
+          },
+          {
+            "id": "a2e17:texte",
+            "avant": "la sœur de",
+            "apres": "le frère de"
+          },
+          {
+            "id": "a3e14:texte",
+            "avant": "elle répondit",
+            "apres": "il répondit"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r3",
+      "espece": "fee",
+      "famille": "feerique",
+      "traits": [
+        "sage",
+        "généreuse",
+        "grognonne"
+      ],
+      "voix": "voix profonde et lente, douce avec {{r1}} puis lasse avec {{r2}}",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a2e6:texte",
+            "avant": "chez elle",
+            "apres": "chez lui"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "fidèlement servie",
+            "apres": "fidèlement servi"
+          },
+          {
+            "id": "a4e3:texte",
+            "avant": "quand elle lui disait",
+            "apres": "quand il lui disait"
+          },
+          {
+            "id": "a4e9:ton",
+            "avant": "lasse",
+            "apres": "las"
+          },
+          {
+            "id": "a2e4:ton",
+            "avant": "douce",
+            "apres": "doux"
+          },
+          {
+            "id": "a2e10:ton",
+            "avant": "chaleureuse",
+            "apres": "chaleureux"
+          },
+          {
+            "id": "a4e4:ton",
+            "avant": "lasse",
+            "apres": "las"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r4",
+      "espece": "femme",
+      "famille": "adulte",
+      "traits": [
+        "méchante",
+        "avare"
+      ],
+      "voix": "voix sèche, qui ordonne vite",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a1e1:texte",
+            "avant": "Une veuve nommée",
+            "apres": "Un veuf nommé"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "celle-ci",
+            "apres": "celui-ci"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "qu’elle dit",
+            "apres": "qu’il dit"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "elle voulut procurer",
+            "apres": "il voulut procurer"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "sa belle-mère",
+            "apres": "son beau-père"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r5",
+      "espece": "pain",
+      "famille": "objet",
+      "traits": [
+        "bavard",
+        "impatient"
+      ],
+      "voix": "voix claire et pressée : le pain appelle avant de brûler",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e16:texte",
+            "avant": "je suis cuit",
+            "apres": "je suis cuite"
+          },
+          {
+            "id": "a1e16:ton",
+            "avant": "très pressé",
+            "apres": "très pressée"
+          },
+          {
+            "id": "a3e5:texte",
+            "avant": "je suis cuit",
+            "apres": "je suis cuite"
+          },
+          {
+            "id": "a3e5:ton",
+            "avant": "très pressé",
+            "apres": "très pressée"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r6",
+      "espece": "pommier",
+      "famille": "adulte",
+      "traits": [
+        "bavard",
+        "patient"
+      ],
+      "voix": "voix chantante et sonore, comme un arbre que le vent secoue",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": []
+      },
+      "especeImposee": true
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 13,
+    "ageAuditoire": 7,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "Le puits, le four et le pommier",
+      "description": "Posez un coussin bas pour le puits, un carton couché pour le four et un coussin debout pour le pommier. Une bobine et quelques pains dessinés sur un carton restent fixes avant et pendant le spectacle. Le puits permet aux peluches de disparaître derrière un coussin.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "La maison et la porte de {{r3}}",
+      "description": "Un coussin couché marque le lit et un carton debout marque la porte. Les plumes, l’or et la neige existent dans le récit et les bruits à la voix ; aucune couverture ni bobine ne passe entre les peluches.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t3",
+      "titre": "Le second voyage",
+      "description": "Reprenez les coussins du puits et du pommier et le carton du four. Les pains et les pommes sont racontés, sans être déplacés ; le parent change seulement les peluches sur ses deux mains.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t4",
+      "titre": "La porte et le retour",
+      "description": "Le coussin du lit et le carton de la porte restent en place. La poix ne se verse pas matériellement et {{r2}} garde la même peluche : le conteur raconte la pluie et la fin.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Le puits et le premier chemin",
+      "resume": "{{r1}} perd la bobine dans le puits, puis aide le pain et le pommier.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Une veuve nommée {{r4}} avait deux enfants : {{r1}} était belle et travailleuse, {{r2}} laide et paresseuse. Mais {{r4}} préférait de beaucoup {{r2}}, parce que c’était sa vraie fille, et {{r1}} devait faire tout le travail et tenir la place de Cendrillon dans la maison. Chaque jour, {{r1}} devait s’asseoir près d’un puits, au bord de la grand-route, et filer tant et tant qu’elle saignait."
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e3",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e4",
+          "type": "conteur",
+          "texte": "Or il arriva qu’un jour la bobine fut toute tachée de sang. Elle voulut laver la bobine au puits, mais la bobine glissa et tomba au fond."
+        },
+        {
+          "id": "a1e5",
+          "type": "adresse_public",
+          "texte": "Faites avec moi le bruit de la bobine qui tombe : « plouf ! »",
+          "marionnetteId": "r1",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e6",
+          "type": "conteur",
+          "texte": "Elle pleura, courut chez {{r4}}, sa belle-mère."
+        },
+        {
+          "id": "a1e7",
+          "type": "replique",
+          "texte": "La bobine est tombée au fond du puits.",
+          "marionnetteId": "r1",
+          "ton": "en pleurant"
+        },
+        {
+          "id": "a1e8",
+          "type": "conteur",
+          "texte": "Mais celle-ci la gronda si fort et fut si impitoyable qu’elle dit :"
+        },
+        {
+          "id": "a1e9",
+          "type": "replique",
+          "texte": "Puisque tu as laissé tomber la bobine, va la rechercher.",
+          "marionnetteId": "r4",
+          "ton": "sévère"
+        },
+        {
+          "id": "a1e10",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e11",
+          "type": "conteur",
+          "texte": "{{r1}} retourna au puits et ne savait que faire. Dans son angoisse, elle sauta dans le puits pour aller chercher la bobine. Elle perdit connaissance, et quand elle se réveilla et revint à elle, elle était dans une belle prairie où brillait le soleil et où poussaient des milliers de fleurs."
+        },
+        {
+          "id": "a1e12",
+          "type": "didascalie",
+          "texte": "{{r1}} s’arrête dans la prairie et regarde autour d’elle."
+        },
+        {
+          "id": "a1e13",
+          "type": "adresse_public",
+          "texte": "Regardez avec moi toutes les fleurs de cette prairie !",
+          "marionnetteId": "r1",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e14",
+          "type": "conteur",
+          "texte": "Elle traversa la prairie et arriva devant un four plein de pain. Et {{r5}}, le pain, criait :"
+        },
+        {
+          "id": "a1e15",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e16",
+          "type": "replique",
+          "texte": "Ah, sors-moi, sors-moi, sinon je brûle ! Il y a longtemps que je suis cuit !",
+          "marionnetteId": "r5",
+          "ton": "très pressé"
+        },
+        {
+          "id": "a1e17",
+          "type": "conteur",
+          "texte": "Elle s’approcha et, grâce à son aide, toutes les miches sortirent du four l’une après l’autre."
+        },
+        {
+          "id": "a1e18",
+          "type": "didascalie",
+          "texte": "{{r5}} se balance doucement près de {{r1}}."
+        },
+        {
+          "id": "a1e19",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e20",
+          "type": "conteur",
+          "texte": "Puis elle continua et arriva devant {{r6}}, un pommier chargé de pommes, qui lui cria :"
+        },
+        {
+          "id": "a1e21",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e22",
+          "type": "replique",
+          "texte": "Ah, secoue-moi, secoue-moi, nous sommes toutes mûres !",
+          "marionnetteId": "r6",
+          "ton": "en appelant"
+        },
+        {
+          "id": "a1e23",
+          "type": "didascalie",
+          "texte": "{{r1}} pousse doucement {{r6}} de la tête ; {{r6}} oscille de tout son corps."
+        },
+        {
+          "id": "a1e24",
+          "type": "conteur",
+          "texte": "Les pommes tombèrent comme une pluie, jusqu’à ce qu’il n’en reste plus une seule en haut. Et quand les pommes formèrent un tas, elle continua son chemin."
+        },
+        {
+          "id": "a1e25",
+          "type": "adresse_public",
+          "texte": "Faites avec moi le bruit des pommes qui tombent : « ploc, ploc ! »",
+          "marionnetteId": "r6",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e26",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e27",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "La neige et la pluie d’or",
+      "resume": "{{r1}} sert {{r3}}, rentre chez elle couverte d’or et retrouve sa bobine.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "Enfin, elle arriva à une petite maison d’où {{r3}} regardait par la fenêtre. Mais comme {{r3}} avait de très grandes dents, {{r1}} eut peur et voulut s’enfuir. {{r3}} lui cria :"
+        },
+        {
+          "id": "a2e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e3",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e4",
+          "type": "replique",
+          "texte": "De quoi as-tu peur, chère enfant ? Reste chez moi. Si tu veux bien faire tout le travail de la maison, tu seras heureuse. Il faut seulement que tu fasses bien mon lit et que tu le secoues avec ardeur, pour que les plumes volent : alors il neige sur le monde. Je suis {{r3}}.",
+          "marionnetteId": "r3",
+          "ton": "douce"
+        },
+        {
+          "id": "a2e5",
+          "type": "adresse_public",
+          "texte": "Faites avec moi le bruit des plumes : « ffff ! »",
+          "marionnetteId": "r3",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e6",
+          "type": "conteur",
+          "texte": "Comme {{r3}} lui parlait si gentiment, {{r1}} prit courage, accepta et entra à son service. Elle fit tout à la satisfaction de {{r3}}, et le lit était toujours secoué si fort que les plumes volaient partout comme des flocons de neige. En échange, elle avait une bonne vie chez elle : jamais un mot méchant, et tous les jours du bouilli et du rôti."
+        },
+        {
+          "id": "a2e7",
+          "type": "didascalie",
+          "texte": "{{r1}} tourne près du coussin du lit ; {{r3}} regarde vers la fenêtre."
+        },
+        {
+          "id": "a2e8",
+          "type": "conteur",
+          "texte": "Elle était depuis un certain temps chez {{r3}} quand elle devint triste. D’abord elle ne savait pas elle-même ce qui lui manquait ; enfin elle comprit que c’était le mal du pays. Bien qu’elle fût mille fois plus heureuse ici qu’à la maison, elle avait envie d’y retourner. Enfin, elle dit à {{r3}} :"
+        },
+        {
+          "id": "a2e9",
+          "type": "replique",
+          "texte": "J’ai le mal de chez moi, et même si je suis très bien ici en bas, je ne peux pas rester plus longtemps. Il faut que je remonte chez les miens.",
+          "marionnetteId": "r1",
+          "ton": "triste"
+        },
+        {
+          "id": "a2e10",
+          "type": "replique",
+          "texte": "Cela me plaît que tu veuilles rentrer chez toi, et puisque tu m’as si fidèlement servie, je vais te reconduire moi-même là-haut.",
+          "marionnetteId": "r3",
+          "ton": "chaleureuse"
+        },
+        {
+          "id": "a2e11",
+          "type": "conteur",
+          "texte": "{{r1}} et {{r3}} allèrent ensemble devant une grande porte. La porte s’ouvrit, et au moment où {{r1}} passait dessous, il tomba une grande pluie d’or, et tout l’or resta accroché à elle, si bien qu’elle en était couverte de la tête aux pieds."
+        },
+        {
+          "id": "a2e12",
+          "type": "adresse_public",
+          "texte": "Dites avec moi le bruit de la pluie d’or : « chhh ! »",
+          "marionnetteId": "r1",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e13",
+          "type": "replique",
+          "texte": "Voilà pour toi, parce que tu as été si travailleuse.",
+          "marionnetteId": "r3",
+          "ton": "avec joie"
+        },
+        {
+          "id": "a2e14",
+          "type": "conteur",
+          "texte": "Et la bobine qui était tombée dans le puits reparut près de {{r1}}. Puis la porte se referma, et {{r1}} se retrouva sur la terre, pas loin de la maison de {{r4}}. Quand elle entra dans la cour, le coq était perché sur le puits et chanta :"
+        },
+        {
+          "id": "a2e15",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e16",
+          "type": "note_marionnettiste",
+          "texte": "Voix du coq, en coulisse : « Cocorico ! Notre demoiselle en or est de retour ! »"
+        },
+        {
+          "id": "a2e17",
+          "type": "conteur",
+          "texte": "Elle entra chez {{r4}}, et parce qu’elle arrivait toute couverte d’or, {{r4}} et {{r2}}, la sœur de {{r1}}, l’accueillirent bien."
+        },
+        {
+          "id": "a2e18",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Le même chemin",
+      "resume": "{{r2}} reproduit la chute dans le puits, mais refuse d’aider le pain et le pommier.",
+      "tableauId": "t3",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "conteur",
+          "texte": "{{r1}} raconta tout ce qui lui était arrivé. Quand {{r4}} apprit comment elle avait obtenu une si grande richesse, elle voulut procurer le même bonheur à son autre enfant, {{r2}}. Celle-ci dut s’asseoir au bord du puits et filer. Et pour que sa bobine soit tachée de sang, elle se piqua aux épines. Puis elle fit tomber exprès la bobine dans le puits et y sauta elle-même."
+        },
+        {
+          "id": "a3e2",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e3",
+          "type": "conteur",
+          "texte": "Elle arriva, comme l’autre, dans la belle prairie et suivit le même sentier. Quand elle arriva devant le four, {{r5}}, le pain, cria de nouveau :"
+        },
+        {
+          "id": "a3e4",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e5",
+          "type": "replique",
+          "texte": "Ah, sors-moi, sors-moi, sinon je brûle ! Il y a longtemps que je suis cuit !",
+          "marionnetteId": "r5",
+          "ton": "très pressé"
+        },
+        {
+          "id": "a3e6",
+          "type": "adresse_public",
+          "texte": "Répétez avec moi : « Sors-moi, sinon je brûle ! »",
+          "marionnetteId": "r5",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e7",
+          "type": "conteur",
+          "texte": "Mais {{r2}} répondit :"
+        },
+        {
+          "id": "a3e8",
+          "type": "replique",
+          "texte": "Comme si j’avais envie de me salir !",
+          "marionnetteId": "r2",
+          "ton": "dédaigneuse"
+        },
+        {
+          "id": "a3e9",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e10",
+          "type": "conteur",
+          "texte": "Et elle passa son chemin. Bientôt elle arriva devant {{r6}}, le pommier, qui cria :"
+        },
+        {
+          "id": "a3e11",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e12",
+          "type": "replique",
+          "texte": "Ah, secoue-moi, secoue-moi, nous sommes toutes mûres !",
+          "marionnetteId": "r6",
+          "ton": "en appelant"
+        },
+        {
+          "id": "a3e13",
+          "type": "adresse_public",
+          "texte": "Répétez avec moi : « Secoue-moi ! »",
+          "marionnetteId": "r6",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e14",
+          "type": "conteur",
+          "texte": "Mais elle répondit :"
+        },
+        {
+          "id": "a3e15",
+          "type": "replique",
+          "texte": "Tu tombes bien ! Il pourrait m’en tomber une sur la tête.",
+          "marionnetteId": "r2",
+          "ton": "contrariée"
+        },
+        {
+          "id": "a3e16",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e17",
+          "type": "conteur",
+          "texte": "Et elle continua. Quand elle arriva devant la maison de {{r3}}, elle n’eut pas peur, car elle avait déjà entendu parler de ses grandes dents, et elle entra tout de suite à son service."
+        },
+        {
+          "id": "a3e18",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "numero": 4,
+      "titre": "La pluie de poix",
+      "resume": "{{r2}} cesse de travailler, reçoit la poix et ne peut plus s’en débarrasser.",
+      "tableauId": "t4",
+      "elements": [
+        {
+          "id": "a4e1",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e2",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e3",
+          "type": "conteur",
+          "texte": "Le premier jour, elle se força, travailla dur et obéit à {{r3}} quand elle lui disait quelque chose, car elle pensait à tout l’or qu’elle recevrait. Mais le deuxième jour, elle commença déjà à paresser ; le troisième encore plus, et elle ne voulut même plus se lever le matin. Le lit de {{r3}} ne fut pas fait comme il fallait, ni secoué pour faire voler les plumes. {{r3}} s’en lassa vite."
+        },
+        {
+          "id": "a4e4",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Je te renvoie.",
+          "ton": "lasse"
+        },
+        {
+          "id": "a4e5",
+          "type": "conteur",
+          "texte": "{{r2}} en fut bien contente."
+        },
+        {
+          "id": "a4e6",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Maintenant va venir la pluie d’or !",
+          "ton": "pour soi"
+        },
+        {
+          "id": "a4e7",
+          "type": "conteur",
+          "texte": "{{r3}} la mena aussi jusqu’à la porte ; mais quand elle fut dessous, au lieu d’or, c’est un grand chaudron de poix qui se déversa sur elle."
+        },
+        {
+          "id": "a4e8",
+          "type": "adresse_public",
+          "texte": "Faites avec moi le bruit de cette pluie de poix : « splatch ! »",
+          "marionnetteId": "r2",
+          "attenteReponse": false
+        },
+        {
+          "id": "a4e9",
+          "type": "replique",
+          "texte": "Voilà pour te récompenser de tes services.",
+          "marionnetteId": "r3",
+          "ton": "lasse"
+        },
+        {
+          "id": "a4e10",
+          "type": "conteur",
+          "texte": "La porte se referma. {{r2}} rentra chez elle, toute couverte de poix. Et le coq sur le puits, quand il la vit, chanta :"
+        },
+        {
+          "id": "a4e11",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e12",
+          "type": "note_marionnettiste",
+          "texte": "Voix du coq, en coulisse : « Cocorico ! Notre demoiselle toute sale est de retour ! »"
+        },
+        {
+          "id": "a4e13",
+          "type": "conteur",
+          "texte": "Et la poix resta collée à elle, et ne voulut plus partir de toute sa vie."
+        },
+        {
+          "id": "a4e14",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "de-dame-holle",
+    "synopsis": {
+      "accroche": "Une bobine tombe dans le puits et entraîne {{r1}} chez {{r3}}.",
+      "resume": [
+        "{{r1}} aide le pain et le pommier, puis travaille chez {{r3}} et revient sous l’or.",
+        "{{r2}} suit le même chemin, refuse les deux aides et cesse de travailler.",
+        "La seconde pluie est de poix, qui reste collée toute sa vie."
+      ]
+    },
+    "transposition": {
+      "texte": "Une veuve nommée {{r4}} avait deux enfants : {{r1}} était belle et travailleuse, {{r2}} laide et paresseuse. Mais {{r4}} préférait de beaucoup {{r2}}, parce que c’était sa vraie fille, et {{r1}} devait faire tout le travail et tenir la place de Cendrillon dans la maison. Chaque jour, {{r1}} devait s’asseoir près d’un puits, au bord de la grand-route, et filer tant et tant qu’elle saignait. Or il arriva qu’un jour la bobine fut toute tachée de sang. Elle voulut laver la bobine au puits, mais la bobine glissa et tomba au fond. Elle pleura, courut chez {{r4}}, sa belle-mère. — La bobine est tombée au fond du puits. Mais celle-ci la gronda si fort et fut si impitoyable qu’elle dit : — Puisque tu as laissé tomber la bobine, va la rechercher. {{r1}} retourna au puits et ne savait que faire. Dans son angoisse, elle sauta dans le puits pour aller chercher la bobine. Elle perdit connaissance, et quand elle se réveilla et revint à elle, elle était dans une belle prairie où brillait le soleil et où poussaient des milliers de fleurs. Elle traversa la prairie et arriva devant un four plein de pain. Et {{r5}}, le pain, criait : — Ah, sors-moi, sors-moi, sinon je brûle ! Il y a longtemps que je suis cuit ! Elle s’approcha et, grâce à son aide, toutes les miches sortirent du four l’une après l’autre. Puis elle continua et arriva devant {{r6}}, un pommier chargé de pommes, qui lui cria : — Ah, secoue-moi, secoue-moi, nous sommes toutes mûres ! Elle secoua l’arbre. Les pommes tombèrent comme une pluie, jusqu’à ce qu’il n’en reste plus une seule en haut. Et quand les pommes formèrent un tas, elle continua son chemin. Enfin, elle arriva à une petite maison d’où {{r3}} regardait par la fenêtre. Mais comme {{r3}} avait de très grandes dents, {{r1}} eut peur et voulut s’enfuir. {{r3}} lui cria : — De quoi as-tu peur, chère enfant ? Reste chez moi. Si tu veux bien faire tout le travail de la maison, tu seras heureuse. Il faut seulement que tu fasses bien mon lit et que tu le secoues avec ardeur, pour que les plumes volent : alors il neige sur le monde. Je suis {{r3}}. Comme {{r3}} lui parlait si gentiment, {{r1}} prit courage, accepta et entra à son service. Elle fit tout à la satisfaction de {{r3}}, et le lit était toujours secoué si fort que les plumes volaient partout comme des flocons de neige. En échange, elle avait une bonne vie chez elle : jamais un mot méchant, et tous les jours du bouilli et du rôti. Elle était depuis un certain temps chez {{r3}} quand elle devint triste. D’abord elle ne savait pas elle-même ce qui lui manquait ; enfin elle comprit que c’était le mal du pays. Bien qu’elle fût mille fois plus heureuse ici qu’à la maison, elle avait envie d’y retourner. Enfin, elle dit à {{r3}} : — J’ai le mal de chez moi, et même si je suis très bien ici en bas, je ne peux pas rester plus longtemps. Il faut que je remonte chez les miens. {{r3}} dit : — Cela me plaît que tu veuilles rentrer chez toi, et puisque tu m’as si fidèlement servie, je vais te reconduire moi-même là-haut. {{r1}} et {{r3}} allèrent ensemble devant une grande porte. La porte s’ouvrit, et au moment où {{r1}} passait dessous, il tomba une grande pluie d’or, et tout l’or resta accroché à elle, si bien qu’elle en était couverte de la tête aux pieds. — Voilà pour toi, parce que tu as été si travailleuse, dit {{r3}}. Et la bobine qui était tombée dans le puits reparut près de {{r1}}. Puis la porte se referma, et {{r1}} se retrouva sur la terre, pas loin de la maison de {{r4}}. Quand elle entra dans la cour, le coq était perché sur le puits et chanta : « Cocorico !\nNotre demoiselle en or est de retour ! » Elle entra chez {{r4}}, et parce qu’elle arrivait toute couverte d’or, {{r4}} et {{r2}}, la sœur de {{r1}}, l’accueillirent bien. {{r1}} raconta tout ce qui lui était arrivé. Quand {{r4}} apprit comment elle avait obtenu une si grande richesse, elle voulut procurer le même bonheur à son autre enfant, {{r2}}. Celle-ci dut s’asseoir au bord du puits et filer. Et pour que sa bobine soit tachée de sang, elle se piqua aux épines. Puis elle fit tomber exprès la bobine dans le puits et y sauta elle-même. Elle arriva, comme l’autre, dans la belle prairie et suivit le même sentier. Quand elle arriva devant le four, {{r5}}, le pain, cria de nouveau : — Ah, sors-moi, sors-moi, sinon je brûle ! Il y a longtemps que je suis cuit ! Mais {{r2}} répondit : — Comme si j’avais envie de me salir ! Et elle passa son chemin. Bientôt elle arriva devant {{r6}}, le pommier, qui cria : — Ah, secoue-moi, secoue-moi, nous sommes toutes mûres ! Mais elle répondit : — Tu tombes bien ! Il pourrait m’en tomber une sur la tête. Et elle continua. Quand elle arriva devant la maison de {{r3}}, elle n’eut pas peur, car elle avait déjà entendu parler de ses grandes dents, et elle entra tout de suite à son service. Le premier jour, elle se força, travailla dur et obéit à {{r3}} quand elle lui disait quelque chose, car elle pensait à tout l’or qu’elle recevrait. Mais le deuxième jour, elle commença déjà à paresser ; le troisième encore plus, et elle ne voulut même plus se lever le matin. Le lit de {{r3}} ne fut pas fait comme il fallait, ni secoué pour faire voler les plumes. {{r3}} s’en lassa vite. — Je te renvoie. {{r2}} en fut bien contente. — Maintenant va venir la pluie d’or ! {{r3}} la mena aussi jusqu’à la porte ; mais quand elle fut dessous, au lieu d’or, c’est un grand chaudron de poix qui se déversa sur elle. — Voilà pour te récompenser de tes services, dit {{r3}}. La porte se referma. {{r2}} rentra chez elle, toute couverte de poix. Et le coq sur le puits, quand il la vit, chanta : « Cocorico !\nNotre demoiselle toute sale est de retour ! » Et la poix resta collée à elle, et ne voulut plus partir de toute sa vie.\n"
+    }
+  },
+  "dureeEstimeeSecondes": 658,
+  "interactionsOrdonnees": [
+    "a3e6",
+    "a3e13",
+    "a1e5",
+    "a1e25",
+    "a2e5",
+    "a2e12",
+    "a4e8",
+    "a1e13"
+  ]
+}

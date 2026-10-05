@@ -1,0 +1,36 @@
+{
+  "id": "dk-vilain-petit-canard",
+  "langue": [
+    {"avant": "Combien de temps ça va-t-il encore durer ?", "apres": "Combien de temps ça va encore durer ?", "nature": "parler", "jusqua": 4},
+    {"avant": "Alors il faut qu'on le houspille !", "apres": "Alors il faut qu'on l'embête !", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "Crois-tu qu'elle ait envie de flotter", "apres": "Tu crois qu'elle a envie de flotter", "nature": "parler", "jusqua": 4},
+    {"avant": "N'es-tu pas arrivé dans une pièce bien chaude", "apres": "Tu n'es pas arrivé dans une pièce bien chaude", "nature": "parler", "jusqua": 4}
+  ],
+  "moments": [
+    {
+      "id": "la-mere-le-renie",
+      "type": "abandon",
+      "niveaux": [
+        {
+          "jusqua": 4,
+          "annonce": "La Mère Cane ne dit pas au Vilain Petit Canard qu'elle voudrait le voir loin d'ici : ce sont les autres bêtes de la basse-cour qui le chassent.",
+          "retouches": [
+            {"avant": "Et sa mère disait : « Si seulement tu étais loin d'ici ! » Et les canes le mordaient", "apres": "Et les canes le mordaient"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sang-espagnol",
+      "type": "mal-vieilli",
+      "niveaux": [
+        {
+          "jusqua": 10,
+          "retouches": [
+            {"avant": "Elle est de sang espagnol, c'est pour ça qu'elle est grosse", "apres": "Elle est de sang noble, c'est pour ça qu'elle est grosse"}
+          ]
+        }
+      ]
+    }
+  ]
+}

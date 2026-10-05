@@ -1,0 +1,13 @@
+# Le Renard et les Raisins
+
+*France — Jean de La Fontaine, Fables, 1668-1694. Texte original en français.*
+
+LE RENARD ET LES RAISINS
+Certain renard gascon, d’autres disent normand,
+Mourant presque de faim, vit au haut d’une treille
+Des raisins, mûrs apparemment,
+Et couverts d’une peau vermeille.
+Le galant en eût fait volontiers un repas ;
+Mais comme il n’y pouvait atteindre :
+Ils sont trop verts, dit-il, et bons pour des goujats.
+Fit-il pas mieux que de se plaindre ?

@@ -1,0 +1,403 @@
+{
+  "id": "zh-renard-et-tigre--1",
+  "conteId": "zh-renard-et-tigre",
+  "titre": "Le Renard qui emprunte la force du tigre",
+  "pitch": "{{r2}} attrape {{r1}} pour le manger, mais {{r1}} prétend être le chef de toutes les bêtes : il marche devant, {{r2}} derrière, et toutes les bêtes s'enfuient.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "renard",
+      "famille": "predateur",
+      "traits": [
+        "rusé",
+        "vantard",
+        "minuscule"
+      ],
+      "voix": "petite voix aiguë et vive, parle vite et fort, la tête toujours bien haute",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "pour le manger",
+            "apres": "pour la manger"
+          },
+          {
+            "id": "pitch",
+            "avant": "être le chef",
+            "apres": "être la cheffe"
+          },
+          {
+            "id": "pitch",
+            "avant": "il marche devant",
+            "apres": "elle marche devant"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "pour le manger",
+            "apres": "pour la manger"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "l'a nommé chef",
+            "apres": "l'a nommée cheffe"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "et qu'il va",
+            "apres": "et qu'elle va"
+          },
+          {
+            "id": "a1e7:texte",
+            "avant": "et le coince",
+            "apres": "et la coince"
+          },
+          {
+            "id": "a1e9:ton",
+            "avant": "tout fier",
+            "apres": "toute fière"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "m'a nommé chef",
+            "apres": "m'a nommée cheffe"
+          },
+          {
+            "id": "a1e17:ton",
+            "avant": "sûr de lui",
+            "apres": "sûre d'elle"
+          },
+          {
+            "id": "a2e2:texte",
+            "avant": "avec lui",
+            "apres": "avec elle"
+          },
+          {
+            "id": "a2e4:ton",
+            "avant": "fier comme tout",
+            "apres": "fière comme tout"
+          },
+          {
+            "id": "a2e5:texte",
+            "avant": "derrière lui",
+            "apres": "derrière elle"
+          },
+          {
+            "id": "a2e15:texte",
+            "avant": "le regarde partir",
+            "apres": "la regarde partir"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r2",
+      "espece": "tigre",
+      "famille": "predateur",
+      "traits": [
+        "fort",
+        "naïf",
+        "gourmand"
+      ],
+      "voix": "grosse voix grave et lente, qui roule les « rrr »",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2:resume",
+            "avant": "et pas de lui",
+            "apres": "et pas d'elle"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "et il attrapa",
+            "apres": "et elle attrapa"
+          },
+          {
+            "id": "a2e2:texte",
+            "avant": "et il marcha",
+            "apres": "et elle marcha"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "de lui que",
+            "apres": "d'elle que"
+          },
+          {
+            "id": "a2e12:ton",
+            "avant": "émerveillé",
+            "apres": "émerveillée"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 3,
+    "ageAuditoire": 3,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La forêt",
+      "description": "Posez deux coussins debout, un à chaque bout de la table : ce sont les arbres de la forêt. Si vous en avez un, étalez un drap vert devant la table, pour cacher vos bras. Les bêtes qui s'enfuient restent cachées derrière les coussins : on les entend sans les voir.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Tu n'oserais pas me manger !",
+      "resume": "{{r2}} attrape {{r1}} pour le manger. {{r1}} lui dit que le Seigneur du Ciel l'a nommé chef de toutes les bêtes, et qu'il va le prouver.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e2",
+          "type": "didascalie",
+          "texte": "{{r2}} avance à grands pas lents, et regarde à droite, puis à gauche."
+        },
+        {
+          "id": "a1e3",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Faites avec moi : Grrr !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e4",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e5",
+          "type": "didascalie",
+          "texte": "{{r1}} trottine au milieu de la scène, le dos tourné à {{r2}}."
+        },
+        {
+          "id": "a1e6",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Il y a quelqu'un derrière moi ?",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e7",
+          "type": "didascalie",
+          "texte": "{{r2}} bondit sur {{r1}} et le coince contre la table."
+        },
+        {
+          "id": "a1e8",
+          "type": "conteur",
+          "texte": "{{r2}} cherchait toutes sortes de bêtes pour les manger, et il attrapa {{r1}}."
+        },
+        {
+          "id": "a1e9",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tu n'oserais pas me manger !",
+          "ton": "tout fier, sans trembler"
+        },
+        {
+          "id": "a1e10",
+          "type": "didascalie",
+          "texte": "{{r1}} lève la tête vers {{r2}}, bien haut."
+        },
+        {
+          "id": "a1e11",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Le Seigneur du Ciel m'a nommé chef de toutes les bêtes.",
+          "ton": "en détachant bien les mots"
+        },
+        {
+          "id": "a1e12",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Chut ! C'est pour de faux !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e13",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Si tu me manges, tu désobéis à l'ordre du Seigneur du Ciel.",
+          "ton": "sévère, en grossissant sa petite voix"
+        },
+        {
+          "id": "a1e14",
+          "type": "didascalie",
+          "texte": "{{r2}} recule la tête, puis la penche de côté."
+        },
+        {
+          "id": "a1e15",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Si tu ne me crois pas, je vais marcher devant toi, et toi, suis-moi !",
+          "ton": "vite, sans lui laisser le temps de réfléchir"
+        },
+        {
+          "id": "a1e16",
+          "type": "didascalie",
+          "texte": "{{r1}} montre le chemin d'un grand mouvement de tête."
+        },
+        {
+          "id": "a1e17",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Tu verras bien si une seule bête ose ne pas s'enfuir en me voyant !",
+          "ton": "très sûr de lui"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Suis-moi !",
+      "resume": "{{r1}} marche devant, {{r2}} derrière : toutes les bêtes s'enfuient. {{r2}} croit qu'elles ont peur de {{r1}}, et pas de lui.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "didascalie",
+          "texte": "{{r2}} s'écarte de {{r1}}."
+        },
+        {
+          "id": "a2e2",
+          "type": "conteur",
+          "texte": "{{r2}} trouva que c'était juste, et il marcha avec lui."
+        },
+        {
+          "id": "a2e3",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Dites-le avec moi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e4",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je vais marcher devant toi, et toi, suis-moi !",
+          "ton": "en chantant presque, fier comme tout"
+        },
+        {
+          "id": "a2e5",
+          "type": "didascalie",
+          "texte": "{{r1}} marche devant, à petits pas, la tête bien haute. {{r2}} marche juste derrière lui, à grands pas lents."
+        },
+        {
+          "id": "a2e6",
+          "type": "note_marionnettiste",
+          "texte": "Voix d'un oiseau, en coulisse : « Cui, cui ! » — puis un grand « frrrt ! » : il s'envole."
+        },
+        {
+          "id": "a2e7",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Suis-moi !",
+          "ton": "sans se retourner"
+        },
+        {
+          "id": "a2e8",
+          "type": "note_marionnettiste",
+          "texte": "Voix d'une grenouille, en coulisse : « Croâ ! » — puis un « plouf ! » : elle saute à l'eau."
+        },
+        {
+          "id": "a2e9",
+          "type": "conteur",
+          "texte": "Les bêtes, en les voyant, s'enfuirent toutes."
+        },
+        {
+          "id": "a2e10",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Vous avez vu ?",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e11",
+          "type": "conteur",
+          "texte": "{{r2}} ne comprit pas que c'était de lui que les bêtes avaient peur :"
+        },
+        {
+          "id": "a2e12",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Elles ont peur de toi !",
+          "ton": "émerveillé, tout doucement"
+        },
+        {
+          "id": "a2e13",
+          "type": "didascalie",
+          "texte": "{{r2}} baisse la tête devant {{r1}}."
+        },
+        {
+          "id": "a2e14",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Chut ! Ne le dites pas à {{r2}} !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e15",
+          "type": "didascalie",
+          "texte": "{{r1}} s'en va à petits pas, la tête bien haute. {{r2}} le regarde partir, sans bouger."
+        },
+        {
+          "id": "a2e16",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e17",
+          "type": "didascalie",
+          "texte": "{{r2}} salue les enfants, puis s'en va de l'autre côté."
+        },
+        {
+          "id": "a2e18",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "zh-renard-et-tigre",
+    "synopsis": {
+      "accroche": "{{r2}} attrape {{r1}} pour le manger, mais {{r1}} prétend être le chef de toutes les bêtes, et il propose de le prouver.",
+      "resume": [
+        "{{r2}} cherche des bêtes à manger, et il attrape {{r1}}.",
+        "{{r1}} lui dit que le Seigneur du Ciel l'a nommé chef de toutes les bêtes : si {{r2}} le mange, il désobéit.",
+        "Pour le prouver, {{r1}} marche devant et {{r2}} le suit : toutes les bêtes, en les voyant, s'enfuient.",
+        "{{r2}} ne comprend pas que c'est de lui que les bêtes ont peur : il croit qu'elles ont peur de {{r1}}."
+      ]
+    },
+    "transposition": {
+      "texte": "{{r2}} cherchait toutes sortes de bêtes pour les manger, et il attrapa {{r1}}. {{r1}} lui dit :\n\n— Tu n'oserais pas me manger ! Le Seigneur du Ciel m'a nommé chef de toutes les bêtes. Si tu me manges, tu désobéis à l'ordre du Seigneur du Ciel. Si tu ne me crois pas, je vais marcher devant toi, et toi, suis-moi : tu verras bien si une seule bête ose ne pas s'enfuir en me voyant !\n\n{{r2}} trouva que c'était juste, et il marcha avec lui. Les bêtes, en les voyant, s'enfuirent toutes. {{r2}} ne comprit pas que c'était de lui que les bêtes avaient peur : il crut qu'elles avaient peur de {{r1}}."
+    }
+  },
+  "dureeEstimeeSecondes": 151,
+  "interactionsOrdonnees": [
+    "a2e10",
+    "a1e6",
+    "a2e3",
+    "a1e12",
+    "a1e3",
+    "a2e14"
+  ]
+}

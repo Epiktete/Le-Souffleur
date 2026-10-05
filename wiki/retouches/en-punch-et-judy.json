@@ -1,0 +1,47 @@
+{
+  "id": "en-punch-et-judy",
+  "langue": [
+    {"avant": "Et que diriez-vous si vous en voyiez un maintenant ?", "apres": "Et qu'est-ce que vous diriez si vous en voyiez un maintenant ?", "nature": "parler", "jusqua": 4}
+  ],
+  "moments": [
+    {
+      "id": "maman-bebete",
+      "type": "mal-vieilli",
+      "niveaux": [
+        {
+          "jusqua": 10,
+          "retouches": [
+            {"avant": "Ta maman est bébête,", "apres": "Ta maman n'est pas là,"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "le-bebe-jete",
+      "type": "mort-gentil",
+      "niveaux": [
+        {
+          "jusqua": 8,
+          "annonce": "Quand Punch jette le bébé par-dessus le rebord du castelet, le Montreur le rattrape au vol et le rend à Judy.",
+          "retouches": [
+            {"avant": "jette le bébé par-dessus le rebord du castelet,", "apres": "jette le bébé par-dessus le rebord du castelet ; le Montreur le rattrape au vol et le rend à Judy, qui accourt et l'emporte ;"}
+          ]
+        }
+      ]
+    },
+    {
+      "id": "judy-battue",
+      "type": "mal-vieilli",
+      "niveaux": [
+        {
+          "jusqua": 10,
+          "retouches": [
+            {"avant": "Dans le texte traditionnel, Punch perd patience,", "apres": "Punch perd patience,"},
+            {"avant": "puis bat Judy à mort quand elle revient avec un bâton. Ces scènes ne sont pas traduites. La suite reprend après la mort de Judy.", "apres": "puis Judy revient avec un bâton et lui en donne tant de coups qu'il s'écroule, tout étourdi."},
+            {"avant": "Oh, monsieur Punch, qu'avez-vous fait ? Vous allez avoir un fantôme à vos trousses, maintenant.", "apres": "Oh, monsieur Punch, à force de rosser tout le monde, vous allez avoir un fantôme à vos trousses, maintenant."}
+          ]
+        }
+      ]
+    }
+  ]
+}

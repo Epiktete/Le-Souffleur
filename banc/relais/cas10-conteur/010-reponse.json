@@ -1,0 +1,17 @@
+{"elements": [
+  {"type": "conteur", "texte": "Quand le soir vint, tous les autres soldats de plomb furent rangés dans leur boîte, et les gens de la maison allèrent se coucher."},
+  {"type": "conteur", "texte": "Alors les jouets commencèrent à jouer : à recevoir des visites, à faire la guerre, à donner un bal."},
+  {"type": "conteur", "texte": "Les soldats de plomb s’agitaient dans leur boîte, car ils voulaient en être, mais ils n’arrivaient pas à soulever le couvercle."},
+  {"type": "conteur", "texte": "Le casse-noisette faisait des culbutes, et le crayon s’amusait sur l’ardoise ; c’était un tel vacarme que le canari se réveilla et se mit à bavarder lui aussi, et en vers, s’il vous plaît."},
+  {"type": "conteur", "texte": "Les deux seuls qui ne bougeaient pas de leur place étaient le Soldat de plomb et la petite Danseuse : elle se tenait bien droite sur la pointe du pied, les deux bras tendus ; lui était tout aussi inébranlable sur son unique jambe, et ses yeux ne la quittaient pas un instant."},
+  {"type": "conteur", "texte": "Alors l’horloge sonna minuit, et clac ! le couvercle de la tabatière sauta."},
+  {"type": "didascalie", "texte": "La Danseuse se retire sans bruit dans son château."},
+  {"type": "sortie", "marionnette": "Danseuse", "main": "M1D"},
+  {"type": "entree", "marionnette": "Diablotin", "main": "M1D"},
+  {"type": "didascalie", "texte": "Le Diablotin se tourne vers le Soldat."},
+  {"type": "replique", "marionnette": "Diablotin", "texte": "Soldat de plomb ! Veux-tu bien garder tes yeux pour toi !", "ton": "moqueur, méchant"},
+  {"type": "didascalie", "texte": "Le Soldat ne bouge pas, le fusil toujours à l’épaule."},
+  {"type": "replique", "marionnette": "Diablotin", "texte": "Eh bien, attends demain !", "ton": "menaçant, sûr de lui"},
+  {"type": "note_marionnettiste", "texte": "Laisser un instant les enfants crier pour prévenir le Soldat du danger, avant de poursuivre."},
+  {"type": "didascalie", "texte": "Le Diablotin hoche la tête et recule vers sa boîte."},
+  {"type": "sortie", "marionnette": "Diablotin", "main": "M1D"}]}

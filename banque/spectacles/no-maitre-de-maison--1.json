@@ -1,0 +1,829 @@
+{
+  "id": "no-maitre-de-maison--1",
+  "conteId": "no-maitre-de-maison",
+  "titre": "Le Maître de la maison",
+  "pitch": "{{r6}} piège trois bêtes au fil de la nuit et de l’aube. Au matin, {{r1}} vient se moquer des trois bêtes, tombe dans la fosse et flatte {{r4}} pour se tirer d’affaire.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "femme",
+      "famille": "adulte",
+      "traits": [
+        "bavardage",
+        "vantardise",
+        "ruse"
+      ],
+      "voix": "voix forte et moqueuse, puis douce",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a3e1:texte",
+            "avant": "une vieille vagabonde",
+            "apres": "un vieux vagabond"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "Quand elle vit",
+            "apres": "Quand il vit"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "qu'elle aille",
+            "apres": "qu'il aille"
+          },
+          {
+            "id": "a3e1:texte",
+            "avant": "Elle se pencha",
+            "apres": "Il se pencha"
+          },
+          {
+            "id": "a3e15:texte",
+            "avant": "toute excitée",
+            "apres": "tout excité"
+          },
+          {
+            "id": "a4e9:texte",
+            "avant": "elle pensait",
+            "apres": "il pensait"
+          },
+          {
+            "id": "a4e9:texte",
+            "avant": "qu'elle ferait",
+            "apres": "qu'il ferait"
+          },
+          {
+            "id": "a3:titre",
+            "avant": "La vagabonde devient prisonnière",
+            "apres": "Le vagabond devient prisonnier"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "son sac la fait tomber",
+            "apres": "son sac le fait tomber"
+          },
+          {
+            "id": "a4:resume",
+            "avant": "la sauve",
+            "apres": "le sauve"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r2",
+      "espece": "renard",
+      "famille": "predateur",
+      "traits": [
+        "faim",
+        "agitation"
+      ],
+      "voix": "voix rapide et aiguë",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e14:texte",
+            "avant": "Il fit",
+            "apres": "Elle fit"
+          },
+          {
+            "id": "a3e6:texte",
+            "avant": "te voilà pris",
+            "apres": "te voilà prise"
+          },
+          {
+            "id": "a3e6:texte",
+            "avant": "Maître ",
+            "apres": "Maîtresse "
+          },
+          {
+            "id": "a3e6:texte",
+            "avant": "voleur de poules",
+            "apres": "voleuse de poules"
+          },
+          {
+            "id": "a4e7:texte",
+            "avant": "gigoteur",
+            "apres": "gigoteuse"
+          },
+          {
+            "id": "a4e13:texte",
+            "avant": "Maître ",
+            "apres": "Maîtresse "
+          },
+          {
+            "id": "a4e13:texte",
+            "avant": "le gigoteur",
+            "apres": "la gigoteuse"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a1e12:texte",
+          "avant": "un renard",
+          "gabarit": "{un} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r3",
+      "espece": "loup",
+      "famille": "predateur",
+      "traits": [
+        "faim",
+        "avidité"
+      ],
+      "voix": "voix grave et pressée",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e3:texte",
+            "avant": "le piéger",
+            "apres": "la piéger"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "ce vieux gris",
+            "apres": "cette vieille grise"
+          },
+          {
+            "id": "a2e7:texte",
+            "avant": "Il fit",
+            "apres": "Elle fit"
+          },
+          {
+            "id": "a3e10:texte",
+            "avant": "le gris",
+            "apres": "la grise"
+          },
+          {
+            "id": "a4e13:texte",
+            "avant": "le gris",
+            "apres": "la grise"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a1e2:texte",
+          "avant": "du loup",
+          "gabarit": "{du} {espece}"
+        },
+        {
+          "id": "a2e5:texte",
+          "avant": "un loup",
+          "gabarit": "{un} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r4",
+      "espece": "ours",
+      "famille": "gros",
+      "traits": [
+        "force",
+        "faim",
+        "calme"
+      ],
+      "voix": "voix profonde et lente",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2e16:texte",
+            "avant": "Il s'avança",
+            "apres": "Elle s'avança"
+          },
+          {
+            "id": "a3e14:texte",
+            "avant": "tueur de juments",
+            "apres": "tueuse de juments"
+          },
+          {
+            "id": "a4e7:texte",
+            "avant": "le maître de la maison",
+            "apres": "la maîtresse de la maison"
+          },
+          {
+            "id": "a4e7:texte",
+            "avant": "il reste assis",
+            "apres": "elle reste assise"
+          },
+          {
+            "id": "a4e8:texte",
+            "avant": "le maître de la maison",
+            "apres": "la maîtresse de la maison"
+          },
+          {
+            "id": "a4e13:texte",
+            "avant": "le maître de la maison",
+            "apres": "la maîtresse de la maison"
+          },
+          {
+            "id": "a4:titre",
+            "avant": "Le maître de la maison",
+            "apres": "La maîtresse de la maison"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a2e14:texte",
+          "avant": "un ours",
+          "gabarit": "{un} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r5",
+      "espece": "chien",
+      "famille": "gros",
+      "traits": [
+        "faim",
+        "froid",
+        "endurance"
+      ],
+      "voix": "voix d’aboiements de plus en plus pressés",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2e1:texte",
+            "avant": "qu'il se mit",
+            "apres": "qu'elle se mit"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "il était si fatigué et si affamé",
+            "apres": "elle était si fatiguée et si affamée"
+          },
+          {
+            "id": "t1:description",
+            "avant": "sans être déplacé",
+            "apres": "sans être déplacée"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r6",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "ruse",
+        "détermination"
+      ],
+      "voix": "voix ferme et basse",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e2:texte",
+            "avant": "Il avait",
+            "apres": "Elle avait"
+          },
+          {
+            "id": "a1e2:texte",
+            "avant": "il ne pouvait",
+            "apres": "elle ne pouvait"
+          },
+          {
+            "id": "a4e13:texte",
+            "avant": "Il fit",
+            "apres": "Elle fit"
+          },
+          {
+            "id": "a4e13:texte",
+            "avant": "puis il tua",
+            "apres": "puis elle tua"
+          },
+          {
+            "id": "a4e13:texte",
+            "avant": "il n'épargna",
+            "apres": "elle n'épargna"
+          },
+          {
+            "id": "a4e13:texte",
+            "avant": "Et il trouva",
+            "apres": "Et elle trouva"
+          },
+          {
+            "id": "a4e13:texte",
+            "avant": "qu'il avait",
+            "apres": "qu'elle avait"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a1e2:texte",
+          "avant": "un homme",
+          "gabarit": "{un} {espece}"
+        }
+      ]
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 8,
+    "ageAuditoire": 7,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La fosse sous la neige",
+      "description": "Deux coussins encadrent une fosse dessinée sur un carton fixe. Le poteau, la planchette, les branches et la neige sont déjà dessinés ; {{r5}} apparaît au-dessus du dessin, sans être déplacé par une autre peluche.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "La nuit et la pointe du jour",
+      "description": "Le même carton montre trois coins de fosse et la place haute de {{r5}}. Le passage de la nuit à la pointe du jour est dit par le conteur ; aucun éclairage ne change.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t3",
+      "titre": "Le quatrième coin",
+      "description": "Un quatrième coin est dessiné dans la fosse, avec un chemin au-dessus. Le sac de {{r1}} reste cousu dans son dos ; sa chute n’exige ni prise ni objet mobile.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t4",
+      "titre": "Le matin et la sortie",
+      "description": "Le même carton reste en place. La sortie de {{r1}} et la mort des bêtes sont racontées ; le parent ne fait tomber ni ne déplace d’accessoire.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "La fosse et la première chute",
+      "resume": "{{r6}} prépare sa fosse ; le premier aboiement de {{r5}} attire {{r2}}.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e2",
+          "type": "conteur",
+          "texte": "Il était une fois un homme, {{r6}}, qui vivait au fond d'une forêt. Il avait beaucoup de moutons et de chèvres, mais jamais il ne pouvait les garder en paix à cause du loup."
+        },
+        {
+          "id": "a1e3",
+          "type": "replique",
+          "texte": "Je vais bien le piéger, ce vieux gris !",
+          "marionnetteId": "r6"
+        },
+        {
+          "id": "a1e4",
+          "type": "conteur",
+          "texte": "Et une fosse fut creusée. Quand elle fut assez profonde, un poteau se dressa au milieu ; sur ce poteau, une planchette fut fixée, et {{r5}} se trouva sur la planchette. Au-dessus du trou, des branches, des aiguilles de sapin et d’autres brindilles firent un couvert ; la neige recouvrit le tout, pour que {{r3}} ne voie pas qu’il y avait un trou dessous."
+        },
+        {
+          "id": "a1e5",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e6",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a1e7",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e8",
+          "type": "conteur",
+          "texte": "Quand la nuit fut bien avancée, {{r5}} en eut assez d'être là."
+        },
+        {
+          "id": "a1e9",
+          "type": "replique",
+          "texte": "Ouah, ouah, ouah !",
+          "marionnetteId": "r5",
+          "ton": "vers la lune"
+        },
+        {
+          "id": "a1e10",
+          "type": "adresse_public",
+          "texte": "Faites entendre le premier aboiement : ouah !",
+          "marionnetteId": "r5",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e11",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e12",
+          "type": "conteur",
+          "texte": "Alors arriva un renard, {{r2}}, trottinant, trottinant."
+        },
+        {
+          "id": "a1e13",
+          "type": "replique",
+          "texte": "Je vais faire une bonne affaire.",
+          "marionnetteId": "r2",
+          "ton": "pour soi"
+        },
+        {
+          "id": "a1e14",
+          "type": "conteur",
+          "texte": "Il fit un bond — droit dans la fosse."
+        },
+        {
+          "id": "a1e15",
+          "type": "adresse_public",
+          "texte": "Répétez la chute : droit dans la fosse !",
+          "marionnetteId": "r2",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e16",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e17",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "De la nuit à l’aube",
+      "resume": "Un second aboiement attire {{r3}} ; à la pointe du jour, le dernier aboiement attire {{r4}}.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "Quand la nuit fut encore un peu plus avancée, {{r5}} s'ennuya tant et eut si faim qu'il se mit à aboyer et à japper :"
+        },
+        {
+          "id": "a2e2",
+          "type": "replique",
+          "texte": "Ouah, ouah, ouah !",
+          "marionnetteId": "r5"
+        },
+        {
+          "id": "a2e3",
+          "type": "adresse_public",
+          "texte": "Aboyez de nouveau, plus fort : ouah !",
+          "marionnetteId": "r5",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e4",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e5",
+          "type": "conteur",
+          "texte": "Tout à coup arriva un loup, {{r3}}, trottant, trottant."
+        },
+        {
+          "id": "a2e6",
+          "type": "replique",
+          "texte": "Je vais m’offrir un bon rôti.",
+          "marionnetteId": "r3",
+          "ton": "pour soi"
+        },
+        {
+          "id": "a2e7",
+          "type": "conteur",
+          "texte": "Il fit un bond — droit dans la fosse."
+        },
+        {
+          "id": "a2e8",
+          "type": "adresse_public",
+          "texte": "Reprenez : droit dans la fosse !",
+          "marionnetteId": "r3",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e9",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e10",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a2e11",
+          "type": "conteur",
+          "texte": "Quand vint la pointe du jour, le vent du nord se leva, et il fit si froid que {{r5}} tremblait et grelottait ; et il était si fatigué et si affamé !"
+        },
+        {
+          "id": "a2e12",
+          "type": "replique",
+          "texte": "Ouah, ouah, ouah, ouah !",
+          "marionnetteId": "r5",
+          "ton": "sans arrêt"
+        },
+        {
+          "id": "a2e13",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e14",
+          "type": "conteur",
+          "texte": "Alors arriva un ours, {{r4}}, à pas lourds, à pas lourds."
+        },
+        {
+          "id": "a2e15",
+          "type": "replique",
+          "texte": "Je vais avoir un bon morceau pour mon petit déjeuner.",
+          "marionnetteId": "r4",
+          "ton": "pour soi"
+        },
+        {
+          "id": "a2e16",
+          "type": "conteur",
+          "texte": "Il s'avança sur les branches — droit dans la fosse."
+        },
+        {
+          "id": "a2e17",
+          "type": "adresse_public",
+          "texte": "Encore : droit dans la fosse !",
+          "marionnetteId": "r4",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e18",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e19",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "La vagabonde devient prisonnière",
+      "resume": "{{r1}} se moque successivement des trois bêtes, puis son sac la fait tomber dans le quatrième coin.",
+      "tableauId": "t3",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "conteur",
+          "texte": "Un peu plus tard dans la matinée arriva une vieille vagabonde, {{r1}}, qui allait de ferme en ferme avec un sac sur le dos. Quand elle vit {{r5}} qui aboyait là, il fallut qu'elle aille voir s'il était tombé des bêtes dans la fosse pendant la nuit. Elle se pencha d’un seul bloc et regarda en bas."
+        },
+        {
+          "id": "a3e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e3",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e4",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a3e5",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e6",
+          "type": "replique",
+          "texte": "Alors, te voilà pris au piège, Maître {{r2}} ? Bien fait pour toi, voleur de poules !",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a3e7",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e8",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a3e9",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e10",
+          "type": "replique",
+          "texte": "Et toi aussi, le gris ? Tu as mangé chèvres et moutons, maintenant tu vas le payer !",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a3e11",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e12",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a3e13",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e14",
+          "type": "replique",
+          "texte": "Oh là là, et toi aussi, {{r4}} ! Tu es dans la fosse, toi aussi, tueur de juments ? Toi, on va te faire la peau !",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a3e15",
+          "type": "conteur",
+          "texte": "Ainsi criait {{r1}}, toute excitée, en menaçant {{r4}} de sa voix. Mais au même moment, son sac lui glissa par-dessus la tête, et {{r1}} tomba — droit dans la fosse."
+        },
+        {
+          "id": "a3e16",
+          "type": "adresse_public",
+          "texte": "Pour la quatrième chute, dites : droit dans la fosse !",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e17",
+          "type": "conteur",
+          "texte": "On resta là, à se regarder, dans les quatre coins de la fosse : {{r2}} dans le premier coin, {{r3}} dans le deuxième, {{r4}} dans le troisième, et {{r1}} dans le quatrième."
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "numero": 4,
+      "titre": "Le maître de la maison et la bonne pêche",
+      "resume": "{{r1}} gronde {{r2}}, flatte {{r4}} ; {{r6}} la sauve puis tue les trois bêtes.",
+      "tableauId": "t4",
+      "elements": [
+        {
+          "id": "a4e1",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e2",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a4e3",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e4",
+          "type": "conteur",
+          "texte": "Mais quand il fit bien jour, {{r2}} commença à s'ébrouer et à tourner en rond."
+        },
+        {
+          "id": "a4e5",
+          "type": "replique",
+          "texte": "Je vais essayer de sortir.",
+          "marionnetteId": "r2",
+          "ton": "pour soi"
+        },
+        {
+          "id": "a4e6",
+          "type": "conteur",
+          "texte": "Alors {{r1}} lui dit :"
+        },
+        {
+          "id": "a4e7",
+          "type": "replique",
+          "texte": "Tu ne peux pas rester tranquille, espèce de gigoteur, au lieu de frétiller et de te trémousser comme ça ? Regarde plutôt le maître de la maison : il reste assis aussi sage qu’un curé.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a4e8",
+          "type": "adresse_public",
+          "texte": "Dites doucement : le maître de la maison !",
+          "marionnetteId": "r1",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e9",
+          "type": "conteur",
+          "texte": "Car maintenant, elle pensait qu'elle ferait bien de se mettre dans les bonnes grâces de {{r4}}."
+        },
+        {
+          "id": "a4e10",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e11",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche."
+        },
+        {
+          "id": "a4e12",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e13",
+          "type": "conteur",
+          "texte": "Mais alors arriva {{r6}} à qui appartenait la fosse. Il fit d’abord sortir {{r1}} de la fosse, puis il tua toutes les bêtes : il n'épargna ni le maître de la maison, ni le gris, ni Maître {{r2}} le gigoteur. Et il trouva qu'il avait fait une bonne pêche, cette nuit-là.\n"
+        },
+        {
+          "id": "a4e14",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e15",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "no-maitre-de-maison",
+    "synopsis": {
+      "accroche": "Trois bêtes tombent dans la même fosse, puis une vieille y tombe à son tour.",
+      "resume": [
+        "{{r6}} prépare un piège sous la neige ; le premier aboiement de {{r5}} attire {{r2}}.",
+        "{{r3}} tombe pendant la même nuit, puis {{r4}} à la pointe du jour.",
+        "{{r1}} menace les trois bêtes et son sac la fait tomber dans le quatrième coin.",
+        "Elle gronde {{r2}} et flatte {{r4}} avant qu’{{r6}} la sorte, tue les bêtes et se réjouisse de sa pêche."
+      ]
+    },
+    "transposition": {
+      "texte": "Il était une fois un homme, {{r6}}, qui vivait au fond d'une forêt. Il avait beaucoup de moutons et de chèvres, mais jamais il ne pouvait les garder en paix à cause du loup.\n\n— Je vais bien le piéger, ce vieux gris ! dit-il à la fin.\n\nEt une fosse fut creusée. Quand elle fut assez profonde, un poteau se dressa au milieu ; sur ce poteau, une planchette fut fixée, et {{r5}} se trouva sur la planchette. Au-dessus du trou, des branches, des aiguilles de sapin et d’autres brindilles firent un couvert ; la neige recouvrit le tout, pour que {{r3}} ne voie pas qu’il y avait un trou dessous.\n\nQuand la nuit fut bien avancée, {{r5}} en eut assez d'être là.\n\n— Ouah, ouah, ouah ! fit-il en aboyant à la lune.\n\nAlors arriva un renard, {{r2}}, trottinant, trottinant. Il pensa qu'il allait faire une bonne affaire. Il fit un bond — droit dans la fosse.\n\nQuand la nuit fut encore un peu plus avancée, {{r5}} s'ennuya tant et eut si faim qu'il se mit à aboyer et à japper :\n\n— Ouah, ouah, ouah !\n\nTout à coup arriva un loup, {{r3}}, trottant, trottant. Il pensa qu'il allait s'offrir un bon rôti. Il fit un bond — droit dans la fosse.\n\nQuand vint la pointe du jour, le vent du nord se leva, et il fit si froid que {{r5}} tremblait et grelottait ; et il était si fatigué et si affamé !\n\n— Ouah, ouah, ouah, ouah ! faisait-il sans arrêt.\n\nAlors arriva un ours, {{r4}}, à pas lourds, à pas lourds. Il pensa qu'il allait avoir un bon morceau pour son petit déjeuner. Il s'avança sur les branches — droit dans la fosse.\n\nUn peu plus tard dans la matinée arriva une vieille vagabonde, {{r1}}, qui allait de ferme en ferme avec un sac sur le dos. Quand elle vit {{r5}} qui aboyait là, il fallut qu'elle aille voir s'il était tombé des bêtes dans la fosse pendant la nuit. Elle se pencha d’un seul bloc et regarda en bas.\n\n— Alors, te voilà pris au piège, Maître {{r2}} ? dit-elle au renard, car c'est lui qu'elle vit en premier. Bien fait pour toi, voleur de poules ! — Et toi aussi, le gris ? dit-elle au loup. Tu as mangé chèvres et moutons, maintenant tu vas le payer ! — Oh là là, et toi aussi, {{r4}} ! Tu es dans la fosse, toi aussi, tueur de juments ? Toi, on va te faire la peau !\n\nAinsi criait {{r1}}, toute excitée, en menaçant {{r4}} de sa voix. Mais au même moment, son sac lui glissa par-dessus la tête, et {{r1}} tomba — droit dans la fosse.\n\nOn resta là, à se regarder, dans les quatre coins de la fosse : {{r2}} dans le premier coin, {{r3}} dans le deuxième, {{r4}} dans le troisième, et {{r1}} dans le quatrième.\n\nMais quand il fit bien jour, {{r2}} commença à s'ébrouer et à tourner en rond. Il pensait sûrement essayer de sortir. Alors {{r1}} lui dit :\n\n— Tu ne peux pas rester tranquille, espèce de gigoteur, au lieu de frétiller et de te trémousser comme ça ? Regarde plutôt le maître de la maison : il reste assis aussi sage qu'un curé.\n\nCar maintenant, elle pensait qu'elle ferait bien de se mettre dans les bonnes grâces de {{r4}}.\n\nMais alors arriva {{r6}} à qui appartenait la fosse. Il fit d’abord sortir {{r1}} de la fosse, puis il tua toutes les bêtes : il n'épargna ni le maître de la maison, ni le gris, ni Maître {{r2}} le gigoteur. Et il trouva qu'il avait fait une bonne pêche, cette nuit-là.\n"
+    }
+  },
+  "dureeEstimeeSecondes": 440,
+  "interactionsOrdonnees": [
+    "a3e16",
+    "a1e15",
+    "a2e8",
+    "a2e17",
+    "a4e8",
+    "a1e10",
+    "a2e3"
+  ]
+}

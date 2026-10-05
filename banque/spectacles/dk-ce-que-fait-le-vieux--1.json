@@ -1,0 +1,1169 @@
+{
+  "id": "dk-ce-que-fait-le-vieux--1",
+  "conteId": "dk-ce-que-fait-le-vieux",
+  "titre": "Ce que fait le vieux est bien fait",
+  "pitch": "{{r1}} part vendre le cheval à la foire et l'échange de moins en moins bien, jusqu'à un sac de pommes pourries ; deux Anglais parient qu'il sera grondé, mais {{r2}} trouve chaque échange merveilleux.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "paysan",
+      "famille": "adulte",
+      "traits": [
+        "naïf",
+        "gentil",
+        "rêveur"
+      ],
+      "voix": "voix chaleureuse et un peu chevrotante, qui rit souvent « hé hé » avant de parler",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "qu'il sera grondé",
+            "apres": "qu'elle sera grondée"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "ce qu'il fait",
+            "apres": "ce qu'elle fait"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "mon vieux",
+            "apres": "ma vieille"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "le vieux",
+            "apres": "la vieille"
+          },
+          {
+            "id": "a1e14:texte",
+            "avant": "le vieux, il",
+            "apres": "la vieille, elle"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "derrière lui",
+            "apres": "derrière elle"
+          },
+          {
+            "id": "a2e11:texte",
+            "avant": "ils se retrouvèrent",
+            "apres": "elles se retrouvèrent"
+          },
+          {
+            "id": "a2e15:texte",
+            "avant": "il vit",
+            "apres": "elle vit"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "qu'il sera grondé",
+            "apres": "qu'elle sera grondée"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "il voulait entrer",
+            "apres": "elle voulait entrer"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "et il le croisa",
+            "apres": "et elle le croisa"
+          },
+          {
+            "id": "a3e13:texte",
+            "avant": "il n'y pensa pas",
+            "apres": "elle n'y pensa pas"
+          },
+          {
+            "id": "a3e23:texte",
+            "avant": "le vieux",
+            "apres": "la vieille"
+          },
+          {
+            "id": "a4:titre",
+            "avant": "le vieux",
+            "apres": "la vieille"
+          },
+          {
+            "id": "a4e5:texte",
+            "avant": "le père",
+            "apres": "la mère"
+          },
+          {
+            "id": "a4e8:texte",
+            "avant": "le prit",
+            "apres": "la prit"
+          },
+          {
+            "id": "a4e12:texte",
+            "avant": "un mari tellement réfléchi",
+            "apres": "une femme tellement réfléchie"
+          },
+          {
+            "id": "a4e13:texte",
+            "avant": "le vieux",
+            "apres": "la vieille"
+          },
+          {
+            "id": "a4e15:texte",
+            "avant": "mon petit père",
+            "apres": "ma petite mère"
+          },
+          {
+            "id": "a4e20:texte",
+            "avant": "mon mari à moi",
+            "apres": "ma femme à moi"
+          },
+          {
+            "id": "a4e20:texte",
+            "avant": "tu étais parti",
+            "apres": "tu étais partie"
+          },
+          {
+            "id": "a4e22:texte",
+            "avant": "mon vieux",
+            "apres": "ma vieille"
+          },
+          {
+            "id": "a4e30:texte",
+            "avant": "aussi content",
+            "apres": "aussi contente"
+          },
+          {
+            "id": "a4e32:texte",
+            "avant": "à lui qui",
+            "apres": "à elle qui"
+          },
+          {
+            "id": "a4e38:texte",
+            "avant": "le vieux est le plus malin",
+            "apres": "la vieille est la plus maligne"
+          },
+          {
+            "id": "a4e38:texte",
+            "avant": "ce qu'il fait",
+            "apres": "ce qu'elle fait"
+          },
+          {
+            "id": "a4e39:texte",
+            "avant": "le vieux",
+            "apres": "la vieille"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "le paysan",
+            "apres": "la paysanne"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r2",
+      "espece": "paysanne",
+      "famille": "adulte",
+      "traits": [
+        "gentil",
+        "généreux",
+        "farceur"
+      ],
+      "voix": "voix vive et douce, qui s'enthousiasme de tout et finit ses phrases dans un grand rire",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a1e11:texte",
+            "avant": "la mère",
+            "apres": "le père"
+          },
+          {
+            "id": "a2e16:texte",
+            "avant": "pour ma femme",
+            "apres": "pour mon mari"
+          },
+          {
+            "id": "a2e16:texte",
+            "avant": "Elle a souvent dit",
+            "apres": "Il a souvent dit"
+          },
+          {
+            "id": "a2e16:texte",
+            "avant": "elle va l'avoir",
+            "apres": "il va l'avoir"
+          },
+          {
+            "id": "a3e8:texte",
+            "avant": "offrir à ma femme",
+            "apres": "offrir à mon mari"
+          },
+          {
+            "id": "a3e8:texte",
+            "avant": "disait ma femme",
+            "apres": "disait mon mari"
+          },
+          {
+            "id": "a3e8:texte",
+            "avant": "Ici, elle pourrait",
+            "apres": "Ici, il pourrait"
+          },
+          {
+            "id": "a3e22:texte",
+            "avant": "de ta femme",
+            "apres": "de ton mari"
+          },
+          {
+            "id": "a3e23:texte",
+            "avant": "Ma femme va dire",
+            "apres": "Mon mari va dire"
+          },
+          {
+            "id": "a3e29:texte",
+            "avant": "et ma femme avec",
+            "apres": "et mon mari avec"
+          },
+          {
+            "id": "a4:resume",
+            "avant": "elle l'embrasse",
+            "apres": "il l'embrasse"
+          },
+          {
+            "id": "a4e4:texte",
+            "avant": "la mère",
+            "apres": "le père"
+          },
+          {
+            "id": "a4e21:texte",
+            "avant": "je suis allée",
+            "apres": "je suis allé"
+          },
+          {
+            "id": "a4e38:texte",
+            "avant": "la femme voit",
+            "apres": "le mari voit"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "la paysanne",
+            "apres": "le paysan"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r3",
+      "espece": "voyageur",
+      "famille": "adulte",
+      "traits": [
+        "curieux",
+        "vantard"
+      ],
+      "voix": "voix haut perchée et pointue, qui détache chaque mot",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": []
+      }
+    },
+    {
+      "cle": "r4",
+      "espece": "voyageur",
+      "famille": "adulte",
+      "traits": [
+        "vantard",
+        "joueur"
+      ],
+      "voix": "grosse voix ronde, qui rit fort « ho ho ho »",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": []
+      }
+    },
+    {
+      "cle": "r5",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "bourru",
+        "malin"
+      ],
+      "voix": "voix bourrue et lente, qui réfléchit tout haut",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2e18:texte",
+            "avant": "le gardien de la barrière",
+            "apres": "la gardienne de la barrière"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r6",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "pressé",
+        "bavard"
+      ],
+      "voix": "voix rapide et essoufflée, qui avale la moitié des mots",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a3e3:texte",
+            "avant": "le valet de l'auberge",
+            "apres": "la servante de l'auberge"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "le croisa",
+            "apres": "la croisa"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 14,
+    "ageAuditoire": 7,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La maison au toit de chaume",
+      "description": "Posez un carton debout au bout gauche de la table : c'est la maison d'{{r1}} et {{r2}}. Un torchon plié posé dessus fait le toit de chaume. Le reste de la table fait la cour, jusqu'au bord de la route.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "La route de la foire",
+      "description": "Toute la table fait la route. Un coussin couché le long du bord fait le fossé. Au bout droit, un carton debout fait la barrière de la ville.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t3",
+      "titre": "L'auberge",
+      "description": "Un carton debout au milieu de la table fait la porte de l'auberge. À droite, une boîte à chaussures fait le poêle. Gardez près de vous un torchon noué en baluchon : c'est le sac de pommes pourries.",
+      "accessoires": [
+        "un torchon noué en baluchon (le sac de pommes pourries)"
+      ],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Va à la foire !",
+      "resume": "Chez {{r1}} et {{r2}}, il y a un cheval dont on peut se passer. {{r2}} envoie {{r1}} à la foire pour le vendre ou l'échanger : ce qu'il fait est toujours bien fait.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Je vais te raconter une histoire que j'ai entendue quand j'étais enfant."
+        },
+        {
+          "id": "a1e2",
+          "type": "conteur",
+          "texte": "Tu as vu une vraie vieille maison de paysan au toit de chaume."
+        },
+        {
+          "id": "a1e3",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e4",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e5",
+          "type": "conteur",
+          "texte": "C'est justement dans une maison comme celle-là, à la campagne, que vivait un couple : {{r1}}, le paysan, et {{r2}}, la paysanne."
+        },
+        {
+          "id": "a1e6",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r2}} se tournent vers les enfants et les saluent d'un signe de tête."
+        },
+        {
+          "id": "a1e7",
+          "type": "conteur",
+          "texte": "Si peu qu'ils aient, il y avait pourtant une chose dont ils pouvaient se passer : c'était un cheval, qui broutait dans le fossé au bord de la route."
+        },
+        {
+          "id": "a1e8",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "C'est toi, mon vieux, qui le sauras le mieux ! Il y a justement la foire à la ville. Vas-y à cheval, fais-toi donner de l'argent pour le cheval, ou fais un bon échange. Ce que tu fais est toujours bien fait. Va à la foire !",
+          "ton": "avec entrain, en se tournant vers {{r1}}"
+        },
+        {
+          "id": "a1e9",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Dites avec moi : ce que fait le vieux est toujours bien fait !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e10",
+          "type": "didascalie",
+          "texte": "{{r2}} se penche vers {{r1}} et lui donne un petit baiser."
+        },
+        {
+          "id": "a1e11",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Au revoir, la mère !",
+          "ton": "joyeusement"
+        },
+        {
+          "id": "a1e12",
+          "type": "didascalie",
+          "texte": "{{r1}} part au petit trot vers le bout de la table, en se dandinant."
+        },
+        {
+          "id": "a1e13",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e14",
+          "type": "conteur",
+          "texte": "Oui, le vieux, il s'y connaissait."
+        },
+        {
+          "id": "a1e15",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "On échange ?",
+      "resume": "Sur la route de la foire, {{r1}} échange le cheval contre une vache, la vache contre un mouton, le mouton contre une oie, et l'oie contre la poule de {{r5}}.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e2",
+          "type": "didascalie",
+          "texte": "{{r1}} trotte d'un bout à l'autre de la table, en sautillant à chaque pas."
+        },
+        {
+          "id": "a2e3",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Tapez sur vos genoux avec moi, pour le trot du cheval : cataclop, cataclop !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e4",
+          "type": "conteur",
+          "texte": "Un homme passait en poussant une vache devant lui, aussi jolie qu'une vache peut l'être."
+        },
+        {
+          "id": "a2e5",
+          "type": "didascalie",
+          "texte": "{{r1}} s'arrête net et se tourne vers la coulisse de droite."
+        },
+        {
+          "id": "a2e6",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Elle doit donner un lait délicieux. Ce serait un bien bon échange de l'avoir.",
+          "ton": "tout bas, en regardant la coulisse"
+        },
+        {
+          "id": "a2e7",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Dis donc, toi, avec ta vache ! Si on causait un peu, tous les deux ? Vois-tu, un cheval, je crois bien que ça coûte plus cher qu'une vache, mais ça ne fait rien : la vache me sera plus utile. On échange ?",
+          "ton": "fort, vers la coulisse"
+        },
+        {
+          "id": "a2e8",
+          "type": "note_marionnettiste",
+          "texte": "Voix de l'homme à la vache, en coulisse : « Volontiers ! » — dit sans montrer de marionnette."
+        },
+        {
+          "id": "a2e9",
+          "type": "conteur",
+          "texte": "Et ils échangèrent."
+        },
+        {
+          "id": "a2e10",
+          "type": "didascalie",
+          "texte": "{{r1}} se penche vers la coulisse, puis repart à pas lents, en se retournant souvent derrière lui."
+        },
+        {
+          "id": "a2e11",
+          "type": "conteur",
+          "texte": "{{r1}} marchait d'un bon pas, et la vache aussi, et bientôt ils se retrouvèrent à côté d'un homme qui menait un mouton."
+        },
+        {
+          "id": "a2e12",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Celui-là, je l'aurais bien. Il ne manquerait pas d'herbe dans notre fossé. Au fond, ce serait plus raisonnable d'avoir un mouton qu'une vache.",
+          "ton": "tout bas, en hochant la tête"
+        },
+        {
+          "id": "a2e13",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "On échange ?",
+          "ton": "vers la coulisse"
+        },
+        {
+          "id": "a2e14",
+          "type": "conteur",
+          "texte": "L'homme au mouton voulut bien, et l'échange fut fait."
+        },
+        {
+          "id": "a2e15",
+          "type": "conteur",
+          "texte": "{{r1}} continua sur la route avec son mouton. Près de l'échalier, il vit un homme avec une grosse oie sous le bras."
+        },
+        {
+          "id": "a2e16",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Elle est bien lourde, celle que tu as là ! Elle a des plumes et de la graisse ! Ce serait une bête pour ma femme ! Elle a souvent dit : « Si seulement on avait une oie ! » Eh bien, elle va l'avoir ! Veux-tu échanger ? Je te donne le mouton pour l'oie, et merci en plus !",
+          "ton": "en s'emballant, vers la coulisse"
+        },
+        {
+          "id": "a2e17",
+          "type": "conteur",
+          "texte": "L'autre voulut bien, et ils échangèrent : {{r1}} eut l'oie."
+        },
+        {
+          "id": "a2e18",
+          "type": "conteur",
+          "texte": "{{r1}} était tout près de la ville. La foule augmentait sur la route, c'était une fourmilière de gens et de bêtes ; ils marchaient sur la route et dans le fossé, jusque dans le champ de pommes de terre de {{r5}}, le gardien de la barrière, où sa poule était attachée pour ne pas se sauver de peur et se perdre."
+        },
+        {
+          "id": "a2e19",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e20",
+          "type": "didascalie",
+          "texte": "{{r5}} surgit derrière le carton de la barrière et regarde passer {{r1}}."
+        },
+        {
+          "id": "a2e21",
+          "type": "adresse_public",
+          "marionnetteId": "r5",
+          "texte": "Faites ma poule avec moi : cot, cot !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e22",
+          "type": "conteur",
+          "texte": "« Cot, cot ! » disait-elle. Ce qu'elle pensait par là, je ne peux pas te le dire."
+        },
+        {
+          "id": "a2e23",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "C'est la plus belle poule que j'aie jamais vue, plus belle encore que la pondeuse du curé. Je l'aurais bien !",
+          "ton": "tout bas, en se balançant"
+        },
+        {
+          "id": "a2e24",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "On échange ?",
+          "ton": "en se tournant vers {{r5}}"
+        },
+        {
+          "id": "a2e25",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Échanger ! Ma foi, ce ne serait pas si bête !",
+          "ton": "lentement, en hochant la tête"
+        },
+        {
+          "id": "a2e26",
+          "type": "conteur",
+          "texte": "Et ils échangèrent. {{r5}} eut l'oie, et {{r1}} eut la poule."
+        },
+        {
+          "id": "a2e27",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e28",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Tope là !",
+      "resume": "À la porte de l'auberge, {{r1}} échange la poule contre les pommes pourries de {{r6}}. Dans la salle, deux Anglais parient cent livres qu'il sera grondé en rentrant.",
+      "tableauId": "t3",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e2",
+          "type": "didascalie",
+          "texte": "{{r1}} arrive tout doucement et s'arrête devant la porte de l'auberge."
+        },
+        {
+          "id": "a3e3",
+          "type": "conteur",
+          "texte": "{{r1}} était devant l'auberge, il voulait entrer ; mais {{r6}}, le valet de l'auberge, voulait sortir, et il le croisa juste dans la porte, avec un sac plein de quelque chose qui se balançait."
+        },
+        {
+          "id": "a3e4",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e5",
+          "type": "didascalie",
+          "texte": "{{r6}} surgit de derrière la porte en poussant du nez le torchon noué, et manque de heurter {{r1}}."
+        },
+        {
+          "id": "a3e6",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Qu'est-ce que tu as là ?",
+          "ton": "en se penchant sur le sac"
+        },
+        {
+          "id": "a3e7",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Des pommes pourries. Un plein sac, pour les cochons.",
+          "ton": "d'un air pressé"
+        },
+        {
+          "id": "a3e8",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Mais c'est une quantité énorme ! Voilà un spectacle que j'aimerais offrir à ma femme. L'an dernier, nous n'avons eu qu'une seule pomme sur le vieil arbre ! Cette pomme, il fallait la garder, elle est restée sur la commode jusqu'à ce qu'elle éclate. « C'est tout de même une richesse », disait ma femme. Ici, elle pourrait en voir, de la richesse !",
+          "ton": "en sautillant de joie"
+        },
+        {
+          "id": "a3e9",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Eh bien, qu'est-ce que vous donnez ?",
+          "ton": "vite, vite"
+        },
+        {
+          "id": "a3e10",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ce que je donne ? Je donne ma poule en échange !",
+          "ton": "fièrement"
+        },
+        {
+          "id": "a3e11",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e12",
+          "type": "didascalie",
+          "texte": "{{r1}} pousse le torchon noué du bout du nez, passe la porte et va jusqu'à la boîte du poêle."
+        },
+        {
+          "id": "a3e13",
+          "type": "conteur",
+          "texte": "{{r1}} posa son sac de pommes contre le poêle, et le poêle était allumé : il n'y pensa pas."
+        },
+        {
+          "id": "a3e14",
+          "type": "conteur",
+          "texte": "Il y avait beaucoup d'étrangers dans la salle : des marchands de chevaux, des marchands de bœufs, et deux Anglais, {{r3}} et {{r4}}, qui sont si riches que leurs poches éclatent de pièces d'or."
+        },
+        {
+          "id": "a3e15",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e16",
+          "type": "didascalie",
+          "texte": "{{r3}} entre d'un pas raide et salue {{r1}} d'un petit coup de tête."
+        },
+        {
+          "id": "a3e17",
+          "type": "adresse_public",
+          "marionnetteId": "r3",
+          "texte": "Faites avec moi ce drôle de bruit : sssss ! sssss !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e18",
+          "type": "conteur",
+          "texte": "« Sssss ! sssss ! » Quel était ce bruit près du poêle ? Les pommes commençaient à cuire."
+        },
+        {
+          "id": "a3e19",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Qu'est-ce que c'est ?",
+          "ton": "en se penchant vers le poêle"
+        },
+        {
+          "id": "a3e20",
+          "type": "conteur",
+          "texte": "Eh bien, ils le surent bientôt ! Toute l'histoire du cheval échangé contre la vache, et ainsi de suite jusqu'aux pommes pourries."
+        },
+        {
+          "id": "a3e21",
+          "type": "didascalie",
+          "texte": "{{r1}} hoche la tête à toute vitesse, se tourne vers la route, puis vers le sac."
+        },
+        {
+          "id": "a3e22",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Eh bien ! Tu vas recevoir des coups de ta femme en rentrant ! Ça va être la tempête !",
+          "ton": "en riant"
+        },
+        {
+          "id": "a3e23",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je recevrai un baiser et pas des coups. Ma femme va dire : « Ce que fait le vieux est toujours bien fait ! »",
+          "ton": "tranquillement"
+        },
+        {
+          "id": "a3e24",
+          "type": "note_marionnettiste",
+          "texte": "Si les enfants connaissent la phrase de {{r2}}, laissez-les la dire avec {{r1}}."
+        },
+        {
+          "id": "a3e25",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e26",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e27",
+          "type": "didascalie",
+          "texte": "{{r4}} accourt en sautillant et se plante devant {{r1}}."
+        },
+        {
+          "id": "a3e28",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "On parie ? Des pièces d'or, à pleins tonneaux ! Cent livres !",
+          "ton": "en riant fort"
+        },
+        {
+          "id": "a3e29",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Un plein boisseau, ça suffira. Je ne peux mettre en jeu qu'un plein boisseau de pommes, et moi-même, et ma femme avec.",
+          "ton": "sans s'inquiéter"
+        },
+        {
+          "id": "a3e30",
+          "type": "adresse_public",
+          "marionnetteId": "r4",
+          "texte": "Tapez dans vos mains avec moi : tope là ! tope là !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e31",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Tope là ! Tope là !",
+          "ton": "très fort"
+        },
+        {
+          "id": "a3e32",
+          "type": "didascalie",
+          "texte": "{{r4}} et {{r1}} se cognent la tête, d'un petit coup sec."
+        },
+        {
+          "id": "a3e33",
+          "type": "conteur",
+          "texte": "Et le pari fut fait."
+        },
+        {
+          "id": "a3e34",
+          "type": "conteur",
+          "texte": "La voiture de l'aubergiste avança, les Anglais montèrent, {{r1}} monta, les pommes pourries montèrent, et ils arrivèrent à la maison d'{{r1}}."
+        },
+        {
+          "id": "a3e35",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r4}} sautillent côte à côte jusqu'au bout de la table, en cahotant."
+        },
+        {
+          "id": "a3e36",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e37",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a4",
+      "numero": 4,
+      "titre": "Ce que fait le vieux est toujours bien fait",
+      "resume": "{{r1}} avoue chaque échange, et chaque fois {{r2}} s'en réjouit ; pour les pommes pourries, elle l'embrasse. Les Anglais ont perdu leur pari et paient.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a4e1",
+          "type": "note_marionnettiste",
+          "texte": "Avant les entrées, posez le torchon noué au pied de la maison : c'est le sac de pommes pourries."
+        },
+        {
+          "id": "a4e2",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e3",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e4",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Bonsoir, la mère !",
+          "ton": "joyeusement"
+        },
+        {
+          "id": "a4e5",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Merci, le père !",
+          "ton": "joyeusement"
+        },
+        {
+          "id": "a4e6",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "J'ai fait un échange !",
+          "ton": "fièrement"
+        },
+        {
+          "id": "a4e7",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Oui, toi, tu t'y connais !",
+          "ton": "tendrement"
+        },
+        {
+          "id": "a4e8",
+          "type": "conteur",
+          "texte": "{{r2}} le prit par la taille et en oublia le sac et les étrangers."
+        },
+        {
+          "id": "a4e9",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "J'ai échangé le cheval contre une vache !"
+        },
+        {
+          "id": "a4e10",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Dieu soit loué pour le lait ! Nous allons pouvoir avoir de la bouillie, du beurre et du fromage sur la table. C'est un échange merveilleux !",
+          "ton": "en sautillant de joie"
+        },
+        {
+          "id": "a4e11",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oui, mais la vache, je l'ai échangée contre un mouton !"
+        },
+        {
+          "id": "a4e12",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "C'est sûrement encore mieux ! Tu penses toujours à tout. Pour un mouton, nous avons justement toute l'herbe qu'il faut. Nous allons avoir du lait de brebis, du fromage de brebis et des bas de laine, oui, une chemise de nuit en laine ! Ça, la vache ne le donne pas : elle perd ses poils ! Tu es un mari tellement réfléchi !",
+          "ton": "de plus en plus fort"
+        },
+        {
+          "id": "a4e13",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Dites-le avec moi : ce que fait le vieux est toujours bien fait !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e14",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Mais le mouton, je l'ai échangé contre une oie !"
+        },
+        {
+          "id": "a4e15",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Nous allons vraiment avoir une oie de la Saint-Martin cette année, mon petit père ! Tu penses toujours à me faire plaisir ! C'est une idée charmante !",
+          "ton": "en tournant sur place"
+        },
+        {
+          "id": "a4e16",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Mais l'oie, je l'ai échangée contre une poule !"
+        },
+        {
+          "id": "a4e17",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Une poule ! C'est un bon échange. La poule pond des œufs, elle les couve, nous aurons des poussins, nous aurons une basse-cour ! C'est justement ce que je souhaitais tant !",
+          "ton": "avec un cri de joie"
+        },
+        {
+          "id": "a4e18",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oui, mais la poule, je l'ai échangée contre un sac de pommes pourries !"
+        },
+        {
+          "id": "a4e19",
+          "type": "didascalie",
+          "texte": "{{r1}} pousse le torchon noué du bout du nez jusqu'à {{r2}}."
+        },
+        {
+          "id": "a4e20",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Alors il faut que je t'embrasse ! Merci, mon mari à moi ! Maintenant, je vais te raconter quelque chose. Pendant que tu étais parti, j'ai pensé te faire un très bon repas : une omelette à la ciboulette. Les œufs, je les avais ; la ciboulette me manquait.",
+          "ton": "avec un grand rire"
+        },
+        {
+          "id": "a4e21",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Alors je suis allée chez le maître d'école : ils ont de la ciboulette, je le sais. Mais sa femme est avare, la chère vieille bique ! Je lui ai demandé de m'en prêter. « Prêter ? a-t-elle dit. Rien ne pousse dans notre jardin, pas même une pomme pourrie ! Je ne peux même pas vous prêter ça ! »",
+          "ton": "en prenant une petite voix pincée pour la voisine"
+        },
+        {
+          "id": "a4e22",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Eh bien, maintenant, je peux lui en prêter dix, et même un sac plein ! Ça, c'est à mourir de rire, mon vieux !",
+          "ton": "en riant aux éclats"
+        },
+        {
+          "id": "a4e23",
+          "type": "conteur",
+          "texte": "Et {{r2}} l'embrassa en plein sur la bouche."
+        },
+        {
+          "id": "a4e24",
+          "type": "didascalie",
+          "texte": "{{r2}} et {{r1}} se serrent très fort, puis tournent en rond."
+        },
+        {
+          "id": "a4e25",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e26",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e27",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e28",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e29",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Ça, ça me plaît !",
+          "ton": "en sautant sur place"
+        },
+        {
+          "id": "a4e30",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Toujours en descendant, et toujours aussi content !",
+          "ton": "en riant fort"
+        },
+        {
+          "id": "a4e31",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Ça vaut bien l'argent !"
+        },
+        {
+          "id": "a4e32",
+          "type": "conteur",
+          "texte": "Et ils payèrent à {{r1}} cent livres de pièces d'or, à lui qui avait reçu un baiser et pas des coups."
+        },
+        {
+          "id": "a4e33",
+          "type": "didascalie",
+          "texte": "{{r3}} et {{r4}} s'inclinent bien bas vers la maison, puis s'en vont en sautillant."
+        },
+        {
+          "id": "a4e34",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e35",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e36",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e37",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a4e38",
+          "type": "conteur",
+          "texte": "Oui, ça paie toujours, quand la femme voit et dit que le vieux est le plus malin, et que ce qu'il fait est bien fait."
+        },
+        {
+          "id": "a4e39",
+          "type": "conteur",
+          "texte": "Voilà, c'est une histoire ! Je l'ai entendue quand j'étais enfant, et maintenant, toi aussi tu l'as entendue, et tu sais que ce que fait le vieux est toujours bien fait."
+        },
+        {
+          "id": "a4e40",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r2}} saluent les enfants d'un grand signe de tête."
+        },
+        {
+          "id": "a4e41",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Au revoir, les enfants !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a4e42",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a4e43",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "dk-ce-que-fait-le-vieux",
+    "synopsis": {
+      "accroche": "Un vieux paysan part vendre son cheval à la foire et rentre avec un sac de pommes pourries ; deux Anglais parient qu'il sera grondé, mais sa femme trouve chaque échange merveilleux.",
+      "resume": [
+        "{{r1}} et {{r2}}, un vieux couple de paysans, ont un cheval dont ils peuvent se passer ; {{r2}} envoie {{r1}} à la foire : « Ce que tu fais est toujours bien fait. »",
+        "Sur la route, {{r1}} échange le cheval contre une vache, la vache contre un mouton, le mouton contre une oie, et l'oie contre la poule de {{r5}}, le gardien de la barrière.",
+        "À la porte de l'auberge, il donne la poule à {{r6}}, le valet, pour un sac de pommes pourries.",
+        "Dans la salle, {{r3}} et {{r4}}, deux riches Anglais, parient cent livres qu'il sera grondé ; {{r1}}, lui, est sûr de recevoir un baiser.",
+        "À la maison, {{r2}} se réjouit de chaque échange, et pour les pommes pourries elle l'embrasse : la voisine avare ne pourra plus dire qu'elle n'a même pas une pomme pourrie à prêter. Les Anglais paient."
+      ]
+    },
+    "transposition": {
+      "texte": "Je vais te raconter une histoire que j'ai entendue quand j'étais enfant. Et chaque fois que j'y ai repensé depuis, il m'a semblé qu'elle devenait plus jolie. Car il en va des histoires comme de beaucoup de gens : elles deviennent de plus en plus jolies avec l'âge, et c'est bien agréable !\n\nTu es déjà allé à la campagne ! Tu as vu une vraie vieille maison de paysan au toit de chaume. La mousse et les herbes y poussent toutes seules ; il y a un nid de cigogne sur le faîte — on ne peut pas se passer de la cigogne ; les murs sont de travers, les fenêtres basses, et il n'y en a qu'une seule qui s'ouvre ; le four à pain avance comme un petit ventre rond, et le sureau se penche par-dessus la clôture, où il y a une petite mare avec un canard ou des canetons, juste sous le saule noueux. Oui, et puis il y a un chien à la chaîne qui aboie après tout le monde.\n\nC'est justement dans une maison comme celle-là, à la campagne, que vivait un couple : {{r1}}, le paysan, et {{r2}}, la paysanne. Si peu qu'ils aient, il y avait pourtant une chose dont ils pouvaient se passer : c'était un cheval, qui broutait dans le fossé au bord de la route. {{r1}} allait en ville dessus, les voisins l'empruntaient et lui rendaient service pour service ; mais ce serait sûrement plus utile de vendre le cheval, ou de l'échanger contre quelque chose qui leur servirait encore plus. Mais quoi ?\n\n— C'est toi, mon vieux, qui le sauras le mieux ! dit {{r2}}. Il y a justement la foire à la ville. Vas-y à cheval, fais-toi donner de l'argent pour le cheval, ou fais un bon échange. Ce que tu fais est toujours bien fait. Va à la foire !\n\nEt {{r2}} lui noua son foulard, car ça, elle savait mieux le faire que lui ; elle fit un double nœud, ça avait fière allure ; puis elle lui épousseta son chapeau du plat de la main, elle l'embrassa sur sa bouche bien chaude, et {{r1}} partit sur le cheval qu'il fallait vendre ou échanger. Oui, le vieux, il s'y connaissait.\n\nLe soleil tapait, il n'y avait pas un nuage là-haut. La route était poussiéreuse, il y avait tant de gens qui allaient à la foire, en voiture, à cheval et sur leurs jambes. Il faisait une chaleur de plomb, et pas un bout d'ombre sur la route.\n\nUn homme passait en poussant une vache devant lui, aussi jolie qu'une vache peut l'être. « Elle doit donner un lait délicieux, pensa {{r1}}. Ce serait un bien bon échange de l'avoir. »\n\n— Dis donc, toi, avec ta vache ! dit-il. Si on causait un peu, tous les deux ? Vois-tu, un cheval, je crois bien que ça coûte plus cher qu'une vache, mais ça ne fait rien : la vache me sera plus utile. On échange ?\n\n— Volontiers, dit l'homme à la vache.\n\nEt ils échangèrent.\n\nC'était fait, et {{r1}} aurait pu faire demi-tour, puisqu'il avait fait ce qu'il voulait. Mais puisqu'il avait décidé d'aller à la foire, il voulait aller à la foire, rien que pour la voir. Alors il continua avec sa vache. {{r1}} marchait d'un bon pas, et la vache aussi, et bientôt ils se retrouvèrent à côté d'un homme qui menait un mouton. C'était un beau mouton, en bonne santé, avec une bonne laine.\n\n« Celui-là, je l'aurais bien, pensa {{r1}}. Il ne manquerait pas d'herbe dans notre fossé, et l'hiver, on pourrait le rentrer dans la maison avec nous. Au fond, ce serait plus raisonnable d'avoir un mouton qu'une vache. »\n\n— On échange ?\n\nL'homme au mouton voulut bien, et l'échange fut fait. {{r1}} continua sur la route avec son mouton. Près de l'échalier, il vit un homme avec une grosse oie sous le bras.\n\n— Elle est bien lourde, celle que tu as là ! dit {{r1}}. Elle a des plumes et de la graisse ! Elle ferait bien, attachée près de notre mare ! Ce serait une bête pour ma femme, à qui donner les épluchures ! Elle a souvent dit : « Si seulement on avait une oie ! » Eh bien, elle va l'avoir — et elle l'aura ! Veux-tu échanger ? Je te donne le mouton pour l'oie, et merci en plus !\n\nL'autre voulut bien, et ils échangèrent : {{r1}} eut l'oie.\n\n{{r1}} était tout près de la ville. La foule augmentait sur la route, c'était une fourmilière de gens et de bêtes ; ils marchaient sur la route et dans le fossé, jusque dans le champ de pommes de terre de {{r5}}, le gardien de la barrière, où sa poule était attachée pour ne pas se sauver de peur et se perdre. C'était une poule à la queue courte, qui clignait d'un œil et avait bonne allure. « Cot, cot ! » disait-elle. Ce qu'elle pensait par là, je ne peux pas te le dire. Mais {{r1}}, en la voyant, pensa : « C'est la plus belle poule que j'aie jamais vue, plus belle encore que la pondeuse du curé. Je l'aurais bien ! Une poule trouve toujours un grain, elle se débrouille presque toute seule. Je crois que ce serait un bon échange, si je l'avais pour l'oie. »\n\n— On échange ? demanda-t-il.\n\n— Échanger ! dit {{r5}}. Ma foi, ce ne serait pas si bête !\n\nEt ils échangèrent. {{r5}} eut l'oie, et {{r1}} eut la poule.\n\n{{r1}} en avait fait, des choses, pendant ce voyage vers la ville ! Il faisait chaud, et il était fatigué. Il avait besoin d'une goutte et d'une bouchée de pain. Il était devant l'auberge, il voulait entrer ; mais {{r6}}, le valet de l'auberge, voulait sortir, et il le croisa juste dans la porte, avec un sac plein de quelque chose qui se balançait.\n\n— Qu'est-ce que tu as là ? demanda {{r1}}.\n\n— Des pommes pourries, répondit {{r6}}. Un plein sac, pour les cochons.\n\n— Mais c'est une quantité énorme ! Voilà un spectacle que j'aimerais offrir à ma femme. L'an dernier, nous n'avons eu qu'une seule pomme sur le vieil arbre près de la remise à tourbe ! Cette pomme, il fallait la garder, elle est restée sur la commode jusqu'à ce qu'elle éclate. « C'est tout de même une richesse », disait ma femme. Ici, elle pourrait en voir, de la richesse ! Oui, je voudrais bien lui faire ce plaisir.\n\n— Eh bien, qu'est-ce que vous donnez ? demanda {{r6}}.\n\n— Ce que je donne ? Je donne ma poule en échange !\n\nEt il donna la poule en échange, eut les pommes, et entra dans la salle de l'auberge, tout droit jusqu'au comptoir. Il posa son sac de pommes contre le poêle, et le poêle était allumé : il n'y pensa pas.\n\nIl y avait beaucoup d'étrangers dans la salle : des marchands de chevaux, des marchands de bœufs, et deux Anglais, {{r3}} et {{r4}}, qui sont si riches que leurs poches éclatent de pièces d'or. Et ils font des paris : tu vas voir !\n\n« Sssss ! sssss ! » Quel était ce bruit près du poêle ? Les pommes commençaient à cuire.\n\n— Qu'est-ce que c'est ?\n\nEh bien, ils le surent bientôt ! Toute l'histoire du cheval échangé contre la vache, et ainsi de suite jusqu'aux pommes pourries.\n\n— Eh bien ! Tu vas recevoir des coups de ta femme en rentrant ! dirent {{r3}} et {{r4}}. Ça va être la tempête !\n\n— Je recevrai un baiser et pas des coups, dit {{r1}}. Ma femme va dire : « Ce que fait le vieux est toujours bien fait ! »\n\n— On parie ? dirent-ils. Des pièces d'or, à pleins tonneaux ! Cent livres !\n\n— Un plein boisseau, ça suffira, dit {{r1}}. Je ne peux mettre en jeu qu'un plein boisseau de pommes, et moi-même, et ma femme avec. Mais ça fait plus qu'un boisseau ras : ça fait un boisseau bien comble !\n\n— Tope là ! Tope là ! dirent-ils.\n\nEt le pari fut fait.\n\nLa voiture de l'aubergiste avança, les Anglais montèrent, {{r1}} monta, les pommes pourries montèrent, et ils arrivèrent à la maison d'{{r1}}.\n\n— Bonsoir, la mère !\n\n— Merci, le père !\n\n— J'ai fait un échange !\n\n— Oui, toi, tu t'y connais ! dit {{r2}}.\n\n{{r2}} le prit par la taille et en oublia le sac et les étrangers.\n\n— J'ai échangé le cheval contre une vache !\n\n— Dieu soit loué pour le lait ! dit {{r2}}. Nous allons pouvoir avoir de la bouillie, du beurre et du fromage sur la table. C'est un échange merveilleux !\n\n— Oui, mais la vache, je l'ai échangée contre un mouton !\n\n— C'est sûrement encore mieux ! dit {{r2}}. Tu penses toujours à tout. Pour un mouton, nous avons justement toute l'herbe qu'il faut. Nous allons avoir du lait de brebis, du fromage de brebis et des bas de laine, oui, une chemise de nuit en laine ! Ça, la vache ne le donne pas : elle perd ses poils ! Tu es un mari tellement réfléchi !\n\n— Mais le mouton, je l'ai échangé contre une oie !\n\n— Nous allons vraiment avoir une oie de la Saint-Martin cette année, mon petit père ! Tu penses toujours à me faire plaisir ! C'est une idée charmante ! L'oie peut rester attachée et engraisser encore jusqu'à la Saint-Martin !\n\n— Mais l'oie, je l'ai échangée contre une poule ! dit {{r1}}.\n\n— Une poule ! C'est un bon échange, dit {{r2}}. La poule pond des œufs, elle les couve, nous aurons des poussins, nous aurons une basse-cour ! C'est justement ce que je souhaitais tant !\n\n— Oui, mais la poule, je l'ai échangée contre un sac de pommes pourries !\n\n— Alors il faut que je t'embrasse ! dit {{r2}}. Merci, mon mari à moi ! Maintenant, je vais te raconter quelque chose. Pendant que tu étais parti, j'ai pensé te faire un très bon repas : une omelette à la ciboulette. Les œufs, je les avais ; la ciboulette me manquait. Alors je suis allée chez le maître d'école : ils ont de la ciboulette, je le sais. Mais sa femme est avare, la chère vieille bique ! Je lui ai demandé de m'en prêter. « Prêter ? a-t-elle dit. Rien ne pousse dans notre jardin, pas même une pomme pourrie ! Je ne peux même pas vous prêter ça ! » Eh bien, maintenant, je peux lui en prêter dix, et même un sac plein ! Ça, c'est à mourir de rire, mon vieux !\n\nEt {{r2}} l'embrassa en plein sur la bouche.\n\n— Ça, ça me plaît ! dirent {{r3}} et {{r4}}. Toujours en descendant, et toujours aussi content ! Ça vaut bien l'argent !\n\nEt ils payèrent à {{r1}} cent livres de pièces d'or, à lui qui avait reçu un baiser et pas des coups.\n\nOui, ça paie toujours, quand la femme voit et dit que le vieux est le plus malin, et que ce qu'il fait est bien fait.\n\nVoilà, c'est une histoire ! Je l'ai entendue quand j'étais enfant, et maintenant, toi aussi tu l'as entendue, et tu sais que ce que fait le vieux est toujours bien fait.",
+      "changements": [
+        "Les personnages portent les noms des peluches : le paysan et la paysanne sont {{r1}} et {{r2}}, le gardien de la barrière est {{r5}}, le valet de l'auberge est {{r6}}, les deux Anglais sont {{r3}} et {{r4}}.",
+        "Six marionnettes (règle du 2026-09-28 : le plus de dialogue possible). Les deux Anglais se partagent leurs répliques collectives, en se relayant auprès d'{{r1}} à l'auberge, puis se parlent entre eux à la fin ; « Qu'est-ce que c'est ? », que le conte n'attribue à personne, est dit par {{r3}}.",
+        "L'homme à la vache est le septième personnage qui parle : son unique mot, « Volontiers ! », passe par la voix en coulisse. L'homme au mouton et l'homme à l'oie n'ont aucune réplique : ils restent dans la narration, comme les bêtes.",
+        "À l'auberge, la phrase de la femme que cite le paysan prend le « toujours » du refrain (« Ce que fait le vieux est toujours bien fait ! »), comme dans le titre danois et la dernière phrase du conte.",
+        "Un raccord ajouté : « Au revoir, la mère ! » au départ, en écho au « Bonsoir, la mère ! » du retour.",
+        "Pour tenir quatorze minutes, une partie de la narration n'est pas dite (la maison et sa cigogne, la route au soleil, le foulard noué, le détour « rien que pour voir la foire », l'entrée dans l'auberge, qui est montrée) et quelques répliques longues sont raccourcies, sans rien y ajouter : les réflexions d'{{r1}} devant le mouton, l'oie, la poule et les pommes, et la réponse de {{r2}} pour l'oie. La fin du conte est dite entière.",
+        "La fiche de retouches ne contient qu'une retouche d'âge (« boisseau » → « panier », jusqu'à 6 ans) : le spectacle du fonds la laisse de côté et garde « boisseau »."
+      ]
+    }
+  },
+  "dureeEstimeeSecondes": 875,
+  "interactionsOrdonnees": [
+    "a1e9",
+    "a4e13",
+    "a3e30",
+    "a2e21",
+    "a3e17",
+    "a2e3",
+    "a4e41"
+  ]
+}

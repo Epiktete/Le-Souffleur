@@ -1,0 +1,244 @@
+Marionnettes du parent :
+- Rosette
+  Traits : curieux, gentil
+  Apparence : Une poupée de chiffon en robe rouge, avec un petit bonnet.
+- Loup Gris
+  Traits : méchant, gourmand
+  Apparence : Un loup gris en peluche, grandes oreilles et gueule rouge.
+- Mamie Rose
+  Traits : sage, gentil
+  Apparence : Une marionnette de grand-mère en tissu, cheveux de laine blanche.
+
+Réglages du spectacle :
+- durée visée : 5 minutes, soit environ 500 mots dits
+- âge du public : 9 ans
+- marionnettistes : 1, donc 2 mains
+- interaction avec le public : quelques moments, bien choisis
+
+Ébauche du parent, qui a servi à choisir le conte :
+« le Petit Chaperon rouge »
+
+Contes présentés, du plus proche au moins proche de ces marionnettes :
+
+### fr-perrault-chaperon-rouge — Le Petit Chaperon rouge
+Origine : France. Charles Perrault, Histoires ou contes du temps passé, 1697.
+Conte merveilleux, pour les 3-8 ans. 3 rôle(s) principal(aux), 1 figurant(s).
+Déjà adapté pour 9 ans : rien ne change au fond du conte à cet âge.
+Le conte fait environ 708 mots ; le spectacle en dira environ 500 : presque la bonne taille : on le joue tel quel, sans rien couper.
+Rôles du conte :
+  - le Petit Chaperon rouge (fillette) : naïf, gentil, curieux
+  - le Loup (loup) : méchant, rusé, gourmand
+  - la Mère-grand (grand-mère) : gentil
+  - la Mère (mère) : gentil — figurant
+Distribution proposée :
+  - Rosette joue le Petit Chaperon rouge (en commun : curieux, gentil)
+  - Loup Gris joue le Loup (en commun : mechant, gourmand)
+  - Mamie Rose joue la Mère-grand (en commun : gentil)
+Rôles sans marionnette, à supprimer, fondre ou laisser en coulisse : la Mère
+
+**Essence.** Envoyée porter une galette à sa grand-mère, une fillette dit tout au loup qu'elle rencontre ; il arrive avant elle, prend la place de la grand-mère dans le lit, et le dialogue des « grands bras, grandes oreilles, grandes dents » mène à la chute.
+
+**Trame.**
+1. La mère envoie le Petit Chaperon rouge porter une galette et un pot de beurre à sa mère-grand malade.
+2. Dans le bois, elle rencontre le loup et lui explique tout ; il propose une course, chacun son chemin.
+3. Le loup arrive le premier, se fait ouvrir (« Tire la chevillette, la bobinette cherra »), prend la place de la grand-mère.
+4. Le Chaperon rouge arrive, trouve sa mère-grand bien changée.
+5. « Que vous avez de grandes dents ! — C'est pour te manger ! »
+
+**À jouer.** Le dialogue des « grands… » est la scène que tous les enfants attendent et récitent : une réplique par partie du corps, sans se presser. Perrault joue aussi sur la course : le public voit le loup prendre le raccourci et peut prévenir le Chaperon rouge. « Tire la chevillette, la bobinette cherra » revient deux fois : la seconde, les enfants la reconnaissent et peuvent la dire avec le loup.
+
+### en-vieille-et-cochon — La Vieille et son cochon
+Origine : Angleterre. Joseph Jacobs, English Fairy Tales, 1890.
+Conte en chaîne, pour les 3-8 ans. 3 rôle(s) principal(aux), 7 figurant(s).
+Le conte fait environ 966 mots ; le spectacle en dira environ 500 : un peu plus long que le spectacle : on le joue en coupant au plus un épisode.
+Rôles du conte :
+  - la Vieille (grand-mère) : têtu, bavard, travailleur
+  - le Petit Cochon (cochon) : têtu
+  - le Chat (chat) : rusé, gourmand
+  - le Chien (chien) : têtu — figurant
+  - le Bâton (bâton) : têtu — figurant
+  - le Feu (feu) : têtu — figurant
+  - l'Eau (eau) : têtu — figurant
+  - le Bœuf (bœuf) : têtu — figurant
+  - le Rat (rat) : têtu — figurant
+  - la Vache (vache) : gentil — figurant
+Distribution proposée :
+  - Rosette joue la Vieille
+  - Loup Gris joue le Chat [chat → loup] (en commun : gourmand)
+  - Mamie Rose joue le Petit Cochon
+Rôles sans marionnette, à supprimer, fondre ou laisser en coulisse : le Chien, le Bâton, le Feu, l'Eau, le Bœuf, le Rat, la Vache
+
+**Essence.** Le petit cochon refuse de passer la barrière ; la vieille demande de l'aide à chacun, qui refuse, et la chaîne des refus s'allonge — jusqu'au chat qui accepte, contre un peu de lait, et déclenche toute la chaîne à l'envers.
+
+**Trame.**
+1. Une vieille achète un petit cochon, qui refuse de passer la barrière.
+2. Elle demande au chien de le mordre, au bâton de taper le chien, au feu de brûler le bâton… Tous refusent.
+3. La formule s'allonge à chaque demande.
+4. Le chat accepte, si on lui apporte du lait ; la vache veut du foin ; la vieille va chercher le foin.
+5. Le chat se met en marche, et toute la chaîne suit jusqu'au cochon, qui saute la barrière.
+
+**À adapter.** Remplacer les verbes violents par des poursuites : le chien « court après » le cochon, le bâton « chatouille » le chien, le boucher devient un fermier. Trois ou quatre maillons joués, le reste en accessoires ou au dessin. Le public récite la chaîne de plus en plus longue et adore la débâcle finale.
+
+### afr-djaha-et-sa-femme — Djah’a et sa femme
+Origine : Berbère de Ghat (Libye). René Basset, Contes populaires d’Afrique, 1903.
+Conte facétieux, pour les 7-10 ans. 3 rôle(s) principal(aux), 1 figurant(s).
+Le conte fait environ 511 mots ; le spectacle en dira environ 500 : presque la bonne taille : on le joue tel quel, sans rien couper.
+Rôles du conte :
+  - Djah’a (homme) : rusé, farceur
+  - sa femme (femme) : naïf, généreux
+  - le Pèlerin (mendiant) : bavard
+  - la Voisine (femme) : bavard — figurant
+Distribution proposée :
+  - Rosette joue le Pèlerin
+  - Loup Gris joue Djah’a [reste un·e loup qui fait le métier de homme]
+  - Mamie Rose joue sa femme
+Rôles sans marionnette, à supprimer, fondre ou laisser en coulisse : la Voisine
+
+**Essence.** Le trésor part par la générosité naïve de l'une, et revient par la ruse toute simple de l'autre : offrir du neuf contre du vieux.
+
+**Trame.**
+1. Djah'a cache son or dans une vieille outre, sur la terrasse.
+2. Sa femme, généreuse, donne la vieille outre à un pèlerin de passage.
+3. Djah'a découvre la perte.
+4. Il crie dans la rue : « Qui veut changer une vieille outre contre une neuve ? »
+5. Le pèlerin accourt et lui rend, sans le savoir, l'outre pleine d'or.
+
+**À adapter.** Supprimer l'enfant mort et la répudiation finale ; l'outre devient un vieux sac, le trésor des pièces qu'on entend tinter. Djah'a et sa femme peuvent finir complices.
+
+### en-jacques-le-paresseux — Jacques le Paresseux
+Origine : Angleterre. Joseph Jacobs, English Fairy Tales, 1890, « Lazy Jack ».
+Conte facétieux, pour les 4-10 ans. 3 rôle(s) principal(aux), 3 figurant(s).
+Le conte fait environ 681 mots ; le spectacle en dira environ 500 : presque la bonne taille : on le joue tel quel, sans rien couper.
+Rôles du conte :
+  - Jacques (garçon) : paresseux, naïf, maladroit
+  - la Mère (mère) : grognon, travailleur
+  - la Jeune Fille qui ne rit pas (jeune fille) : timide, rêveur
+  - les Patrons successifs (marchand) : généreux — figurant
+  - le Chat (chat) : grognon — figurant
+  - l'Âne (âne) : têtu — figurant
+Distribution proposée :
+  - Rosette joue la Jeune Fille qui ne rit pas
+  - Loup Gris joue Jacques [reste un·e loup qui fait le métier de garçon]
+  - Mamie Rose joue la Mère
+Rôles sans marionnette, à supprimer, fondre ou laisser en coulisse : les Patrons successifs, le Chat, l'Âne
+
+**Essence.** Chaque soir, la mère explique à Jacques comment il aurait dû rapporter son salaire ; chaque lendemain, il applique le conseil de la veille au mauvais objet — jusqu'à porter un âne sur ses épaules, ce qui fait rire la jeune fille qui n'avait jamais ri.
+
+**Trame.**
+1. Jacques, trop paresseux, doit enfin travailler ; il perd son sou dans le ruisseau. « Il fallait le mettre dans ta poche ! »
+2. Le lait dans la poche : « Il fallait le porter sur ta tête ! » Le fromage sur la tête : « Il fallait le porter dans tes mains ! »
+3. Le chat dans les mains : « Il fallait le tirer par une ficelle ! » La viande tirée dans la boue : « Il fallait la porter sur ton épaule ! »
+4. On lui donne un âne : il le porte sur ses épaules, les pattes en l'air.
+5. La fille qui n'a jamais ri le voit passer, éclate de rire et guérit.
+
+**À adapter.** Le mariage devient une récompense ou une amitié. La viande de mouton devient un gros saucisson ou un gâteau. Le public comprend avant Jacques ce qu'il va faire de travers et le crie. L'âne sur les épaules est une image de castelet irrésistible.
+
+### ru-renard-lievre-coq — Le Renard, le Lièvre et le Coq
+Origine : Russie. Alexandre Afanassiev, Contes populaires russes, 1855-1863.
+Conte en randonnée, pour les 3-8 ans. 3 rôle(s) principal(aux), 3 figurant(s).
+Le conte fait environ 744 mots ; le spectacle en dira environ 500 : presque la bonne taille : on le joue tel quel, sans rien couper.
+Rôles du conte :
+  - le petit Lièvre (lièvre) : gentil, peureux, généreux
+  - la Renarde (renard) : rusé, méchant, vantard
+  - le Coq (coq) : courageux, minuscule, bavard
+  - les Chiens (chien) : vantard, peureux — figurant
+  - l'Ours (ours) : vantard, peureux — figurant
+  - le Taureau (taureau) : vantard, peureux — figurant
+Distribution proposée :
+  - Rosette joue le Coq
+  - Loup Gris joue la Renarde [renard → loup] (en commun : mechant)
+  - Mamie Rose joue le petit Lièvre (en commun : gentil)
+Rôles sans marionnette, à supprimer, fondre ou laisser en coulisse : les Chiens, l'Ours, le Taureau
+
+**Essence.** La renarde, dont la maison de glace a fondu, s'installe chez le lièvre et le met dehors ; les grands animaux reculent tous devant sa menace, et c'est le petit coq qui la fait déguerpir.
+
+**Trame.**
+1. Au printemps, la maison de glace de la renarde fond ; elle s'invite chez le lièvre et le chasse.
+2. Les chiens veulent la déloger ; « si je saute, les poils vont voler ! » Ils fuient.
+3. L'ours, puis le taureau, même menace, même fuite.
+4. Le coq arrive, sa faux sur l'épaule, et chante trois fois sa menace.
+5. « Je m'habille… je mets mon manteau… » La renarde s'enfuit ; le coq vit avec le lièvre.
+
+**À adapter.** La faux devient un grand balai ou une trompette ; la renarde s'enfuit, on ne la blesse pas. La réplique « si je saute, si je bondis… » et le cocorico sont des refrains pour le public. Les grands aides peuvent être réduits à deux.
+
+### afr-elephant-et-tortue — L’Éléphant et la Tortue
+Origine : Herero (Namibie). René Basset, Contes populaires d’Afrique, 1903.
+Conte d'animaux, pour les 4-9 ans. 3 rôle(s) principal(aux), 5 figurant(s).
+Le conte fait environ 434 mots ; le spectacle en dira environ 500 : presque la bonne taille : on le joue tel quel, sans rien couper.
+Rôles du conte :
+  - la Tortue (tortue) : minuscule, travailleur, têtu
+  - l'Éléphant (éléphant) : orgueilleux, grognon
+  - le Lion (lion) : méchant, fort
+  - la Pluie (nuage) : orgueilleux — figurant
+  - la Corneille (corneille) : savant — figurant
+  - la Girafe (girafe) : gourmand — figurant
+  - le Zèbre (zèbre) : gourmand — figurant
+  - le Chacal (chacal) : gourmand — figurant
+Distribution proposée :
+  - Rosette joue la Tortue
+  - Loup Gris joue le Lion [lion → loup] (en commun : mechant)
+  - Mamie Rose joue l'Éléphant
+Rôles sans marionnette, à supprimer, fondre ou laisser en coulisse : la Pluie, la Corneille, la Girafe, le Zèbre, le Chacal
+
+**Essence.** La tortue garde l'eau de l'éléphant et répète à chaque assoiffé « l'eau appartient à l'éléphant » ; le lion passe outre, et l'éléphant injuste s'en prend à la plus petite — qui a le dernier mot.
+
+**Trame.**
+1. L'éléphant se brouille avec la pluie ; la corneille la fait revenir. Il ne reste qu'un étang.
+2. L'éléphant part chasser et laisse la tortue garder l'eau.
+3. La girafe, le zèbre, le chacal… demandent à boire : « L'eau appartient à l'éléphant. »
+4. Le lion ne demande pas : il bouscule la tortue et boit ; tous les autres après lui.
+5. L'éléphant furieux menace d'avaler la tortue : « Avale-moi donc ! » — et de l'intérieur, elle le chatouille jusqu'à ce qu'il la recrache.
+
+**À adapter.** L'original finit par la mort de l'éléphant, mordu de l'intérieur : la remplacer par des chatouilles ou un hoquet géant. La réplique de la tortue revient à chaque visiteur : le public la dit avec elle.
+
+### in-singes-jardiniers — Les Singes jardiniers
+Origine : Inde (Jātaka bouddhiques). conte des Jātaka, dans la version pour enfants de W. H. D. Rouse, 1897.
+Conte facétieux, pour les 4-10 ans. 3 rôle(s) principal(aux), 1 figurant(s).
+Le conte fait environ 704 mots ; le spectacle en dira environ 500 : presque la bonne taille : on le joue tel quel, sans rien couper.
+Rôles du conte :
+  - le Chef des singes (singe) : savant, orgueilleux, maladroit
+  - le Jardinier (jardinier) : paresseux, naïf, gentil
+  - le Maître du parc (seigneur) : sage, grognon
+  - les Singes (singe) : farceur, travailleur — figurant
+Distribution proposée :
+  - Rosette joue le Jardinier (en commun : gentil)
+  - Loup Gris joue le Chef des singes [singe → loup]
+  - Mamie Rose joue le Maître du parc (en commun : sage)
+Rôles sans marionnette, à supprimer, fondre ou laisser en coulisse : les Singes
+
+**Essence.** Le jardinier confie l'arrosage aux singes pour aller à la foire ; pour économiser l'eau, le chef des singes décide de mesurer les racines — et ils arrachent chaque plante pour voir combien lui en donner.
+
+**Trame.**
+1. Le jardinier veut aller à la foire ; il demande aux singes d'arroser à sa place.
+2. Les singes acceptent avec enthousiasme et tiennent conseil.
+3. Le chef, persuadé que le puits est presque vide, décide : chaque plante aura autant d'eau que ses racines sont longues.
+4. Ils arrachent chaque plante, mesurent ses racines, l'arrosent, la replantent.
+5. Le jardinier revient : tout est fané. Le maître conclut que le plus sot, c'est celui qui a confié le jardin à des singes.
+
+**À adapter.** Parfait tel quel, et très drôle. Les plantes sont des fleurs en papier piquées dans le rebord du castelet, qu'on arrache une à une. Le conseil des singes, sérieux comme un conseil de savants, est un grand moment. Le jardinier renvoyé peut simplement être grondé et replanter avec les singes.
+
+### ru-chat-coq-renard — Le Chat, le Coq et le Renard
+Origine : Russie. Alexandre Afanassiev, Contes populaires russes, 1855-1863 (n° 37).
+Conte d'animaux, pour les 3-8 ans. 3 rôle(s) principal(aux), 1 figurant(s).
+Le conte fait environ 816 mots ; le spectacle en dira environ 500 : un peu plus long que le spectacle : on le joue en coupant au plus un épisode.
+Rôles du conte :
+  - le Coq (coq) : naïf, gourmand, curieux
+  - le Chat (chat) : courageux, sage, grognon
+  - la Renarde (renard) : rusé, menteur, gourmand
+  - le Vieux (grand-père) : gentil — figurant
+Distribution proposée :
+  - Rosette joue le Coq (en commun : curieux)
+  - Loup Gris joue la Renarde [renard → loup] (en commun : gourmand)
+  - Mamie Rose joue le Chat (en commun : sage)
+Rôles sans marionnette, à supprimer, fondre ou laisser en coulisse : le Vieux
+
+**Essence.** Chaque fois qu'on le laisse seul, la renarde chante sous la fenêtre du coq pour qu'il se montre ; il se laisse tenter, et le chat accourt le sauver — mais un jour, le chat ne l'entend pas.
+
+**Trame.**
+1. Le vieux et le chat partent ; le coq garde la maison.
+2. La renarde chante : « Montre-toi à la fenêtre, je te donnerai des petits pois ! » Le coq regarde, elle l'emporte ; il appelle, le chat le sauve.
+3. Deuxième fois : le coq résiste, mange les pois jetés, puis cède ; le chat le sauve encore.
+4. Troisième fois : la renarde fait semblant de partir, le coq regarde pour vérifier.
+5. Elle l'emporte trop loin : le chat ne l'entend pas.
+
+**À adapter.** La fin est à changer : le chat, averti par le public qui crie très fort, arrive à temps, ou il a suivi en cachette ; ou dans la variante russe, le chat joue de la musique devant le terrier et délivre le coq. Le public qui crie « Ne regarde pas ! » est tout le plaisir.

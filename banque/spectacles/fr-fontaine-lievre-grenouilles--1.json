@@ -1,0 +1,372 @@
+{
+  "id": "fr-fontaine-lievre-grenouilles--1",
+  "conteId": "fr-fontaine-lievre-grenouilles",
+  "titre": "Le Lièvre et les Grenouilles",
+  "pitch": "{{r1}}, un lièvre qui a peur de tout, s’enfuit au moindre bruit, et découvre au bord d’un étang que les grenouilles ont peur de lui.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "lievre",
+      "famille": "petit",
+      "traits": [
+        "peureux",
+        "rêveur",
+        "vantard"
+      ],
+      "voix": "petite voix aiguë qui tremble ; il chuchote quand il a peur, et parle haut et fort quand il se croit brave",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "ont peur de lui.",
+            "apres": "ont peur d’elle."
+          },
+          {
+            "id": "voix:r1",
+            "avant": "il chuchote",
+            "apres": "elle chuchote"
+          },
+          {
+            "id": "voix:r1",
+            "avant": "quand il a peur",
+            "apres": "quand elle a peur"
+          },
+          {
+            "id": "voix:r1",
+            "avant": "quand il se croit brave",
+            "apres": "quand elle se croit brave"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "il a peur de tout",
+            "apres": "elle a peur de tout"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "le fait trembler",
+            "apres": "la fait trembler"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "le fait fuir",
+            "apres": "la fait fuir"
+          },
+          {
+            "id": "a1e5:ton",
+            "avant": "tout triste",
+            "apres": "toute triste"
+          },
+          {
+            "id": "a1e12:texte",
+            "avant": "Il était douteux, inquiet",
+            "apres": "Elle était douteuse, inquiète"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "en le voyant",
+            "apres": "en la voyant"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "Lui aussi",
+            "apres": "Elle aussi"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "et il se croit",
+            "apres": "et elle se croit"
+          },
+          {
+            "id": "a2e11:ton",
+            "avant": "tout étonné",
+            "apres": "toute étonnée"
+          },
+          {
+            "id": "a2e13:ton",
+            "avant": "tout fier",
+            "apres": "toute fière"
+          },
+          {
+            "id": "a2e14:ton",
+            "avant": "tout content",
+            "apres": "toute contente"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "pitch",
+          "avant": "un lièvre",
+          "gabarit": "{un} {espece}"
+        },
+        {
+          "id": "a1e3:texte",
+          "avant": "Un lièvre",
+          "gabarit": "{Un} {espece}"
+        }
+      ]
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 3,
+    "ageAuditoire": 3,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "Le gîte et l’étang",
+      "description": "Au bout gauche de la table, posez un coussin, avec un creux au milieu : c’est le gîte de {{r1}}. Au bout droit, étalez bien à plat un torchon bleu : c’est l’étang des grenouilles. Si vous avez un drap, tendez-le devant la table pour cacher vos bras.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "{{r1}} a peur de tout",
+      "resume": "Dans son gîte, {{r1}} se plaint : il a peur de tout, et ne dort que les yeux ouverts. Un souffle le fait trembler, et un léger bruit le fait fuir.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e2",
+          "type": "didascalie",
+          "texte": "{{r1}} arrive à petits bonds et se blottit dans son gîte, le museau baissé."
+        },
+        {
+          "id": "a1e3",
+          "type": "conteur",
+          "texte": "Un lièvre en son gîte songeait."
+        },
+        {
+          "id": "a1e4",
+          "type": "conteur",
+          "texte": "Dans un profond chagrin {{r1}} se plongeait : cet animal est triste, et la crainte le ronge."
+        },
+        {
+          "id": "a1e5",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Les gens de naturel peureux sont bien malheureux !",
+          "ton": "en soupirant, tout triste"
+        },
+        {
+          "id": "a1e6",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites dodo avec moi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e7",
+          "type": "didascalie",
+          "texte": "{{r1}} se couche dans son gîte, puis se redresse d’un coup et regarde partout."
+        },
+        {
+          "id": "a1e8",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Voilà comme je vis : cette crainte maudite m’empêche de dormir sinon les yeux ouverts.",
+          "ton": "tout bas, en regardant partout"
+        },
+        {
+          "id": "a1e9",
+          "type": "note_marionnettiste",
+          "texte": "Pendant la phrase du conteur, {{r1}} tourne la tête à gauche, à droite, puis encore à gauche."
+        },
+        {
+          "id": "a1e10",
+          "type": "conteur",
+          "texte": "Ainsi raisonnait {{r1}}, et cependant faisait le guet."
+        },
+        {
+          "id": "a1e11",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Regardez partout avec moi !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e12",
+          "type": "conteur",
+          "texte": "Il était douteux, inquiet : un souffle, une ombre, un rien, tout lui donnait la fièvre."
+        },
+        {
+          "id": "a1e13",
+          "type": "didascalie",
+          "texte": "Un petit souffle, fait à la voix : fff ! {{r1}} sursaute et tremble de tout son corps."
+        },
+        {
+          "id": "a1e14",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Tremblez avec moi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e15",
+          "type": "didascalie",
+          "texte": "{{r1}} se recouche dans son gîte, la tête posée sur le bord."
+        },
+        {
+          "id": "a1e16",
+          "type": "note_marionnettiste",
+          "texte": "Pendant que le conteur dit « un léger bruit », frappez un petit coup sur la table : toc !"
+        },
+        {
+          "id": "a1e17",
+          "type": "conteur",
+          "texte": "Le mélancolique animal, en rêvant à cette matière, entend un léger bruit : ce lui fut un signal pour s’enfuir vers sa tanière."
+        },
+        {
+          "id": "a1e18",
+          "type": "didascalie",
+          "texte": "{{r1}} bondit hors de son gîte."
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Plouf !",
+      "resume": "{{r1}} s’enfuit et passe au bord de l’étang, où les grenouilles plongent dans l’eau en le voyant : plouf ! Lui aussi fait peur, et il se croit un foudre de guerre.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Courez avec moi ! Tapez vite sur vos genoux !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e2",
+          "type": "didascalie",
+          "texte": "{{r1}} court à grands bonds jusqu’au bout de la table, et s’arrête net au bord de l’étang."
+        },
+        {
+          "id": "a2e3",
+          "type": "conteur",
+          "texte": "{{r1}} s’en alla passer sur le bord d’un étang."
+        },
+        {
+          "id": "a2e4",
+          "type": "conteur",
+          "texte": "Grenouilles aussitôt de sauter dans les ondes ;"
+        },
+        {
+          "id": "a2e5",
+          "type": "note_marionnettiste",
+          "texte": "En coulisse, faites plonger les grenouilles à la voix : « Plouf ! Plouf ! », vite, l’une après l’autre."
+        },
+        {
+          "id": "a2e6",
+          "type": "didascalie",
+          "texte": "{{r1}} sursaute et recule d’un bond."
+        },
+        {
+          "id": "a2e7",
+          "type": "conteur",
+          "texte": "Grenouilles de rentrer en leurs grottes profondes."
+        },
+        {
+          "id": "a2e8",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites plouf avec les grenouilles !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e9",
+          "type": "note_marionnettiste",
+          "texte": "Encore trois plongeons à la voix, de plus en plus loin : « Plouf ! Plouf ! Plouf ! »"
+        },
+        {
+          "id": "a2e10",
+          "type": "didascalie",
+          "texte": "{{r1}} regarde l’étang, puis les enfants, puis l’étang encore."
+        },
+        {
+          "id": "a2e11",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oh ! j’en fais faire autant qu’on m’en fait faire !",
+          "ton": "tout étonné"
+        },
+        {
+          "id": "a2e12",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ma présence effraie aussi les gens ! Je mets l’alarme au camp ! Et d’où me vient cette vaillance ?",
+          "ton": "de plus en plus fort"
+        },
+        {
+          "id": "a2e13",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Comment ! des animaux qui tremblent devant moi ! Je suis donc un foudre de guerre !",
+          "ton": "en se redressant de toute sa hauteur, tout fier"
+        },
+        {
+          "id": "a2e14",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Il n’est, je le vois bien, si poltron sur la terre, qui ne puisse trouver un plus poltron que soi.",
+          "ton": "lentement, tout content"
+        },
+        {
+          "id": "a2e15",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Au revoir, les enfants !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e16",
+          "type": "didascalie",
+          "texte": "{{r1}} salue les enfants, puis repart à petits bonds vers son gîte."
+        },
+        {
+          "id": "a2e17",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "fr-fontaine-lievre-grenouilles",
+    "synopsis": {
+      "accroche": "{{r1}}, un lièvre qui a peur de tout, découvre au bord d’un étang qu’il fait peur, lui aussi : aux grenouilles !",
+      "resume": [
+        "Dans son gîte, {{r1}}, un lièvre, se plaint : il a peur de tout, et ne dort que les yeux ouverts.",
+        "Un souffle, une ombre, un rien le fait trembler ; un léger bruit, et il s’enfuit vers sa tanière.",
+        "En passant au bord d’un étang, il fait plonger toutes les grenouilles dans l’eau : plouf !",
+        "{{r1}} comprend qu’il fait peur, lui aussi : « Je suis donc un foudre de guerre ! » Il n’est si poltron qui ne trouve un plus poltron que soi."
+      ]
+    },
+    "transposition": {
+      "texte": "Un lièvre en son gîte songeait,\n(car que faire en un gîte, à moins que l’on ne songe ?)\ndans un profond chagrin {{r1}} se plongeait :\ncet animal est triste, et la crainte le ronge.\nLes gens de naturel peureux\nsont, disait-il, bien malheureux !\nIls ne sauraient manger morceau qui leur profite :\njamais un plaisir pur ; toujours assauts divers.\nVoilà comme je vis : cette crainte maudite\nm’empêche de dormir sinon les yeux ouverts.\nCorrigez-vous, dira quelque sage cervelle.\nEh ! la peur se corrige-t-elle ?\nJe crois même qu’en bonne foi\nles hommes ont peur comme moi.\nAinsi raisonnait {{r1}},\net cependant faisait le guet.\nIl était douteux, inquiet :\nun souffle, une ombre, un rien, tout lui donnait la fièvre.\nLe mélancolique animal,\nen rêvant à cette matière,\nentend un léger bruit : ce lui fut un signal\npour s’enfuir vers sa tanière.\nIl s’en alla passer sur le bord d’un étang.\nGrenouilles aussitôt de sauter dans les ondes ;\ngrenouilles de rentrer en leurs grottes profondes.\nOh ! dit-il, j’en fais faire autant\nqu’on m’en fait faire ! Ma présence\neffraie aussi les gens ! je mets l’alarme au camp !\nEt d’où me vient cette vaillance ?\nComment ! des animaux qui tremblent devant moi !\nJe suis donc un foudre de guerre !\nIl n’est, je le vois bien, si poltron sur la terre,\nqui ne puisse trouver un plus poltron que soi."
+    }
+  },
+  "dureeEstimeeSecondes": 179,
+  "interactionsOrdonnees": [
+    "a2e8",
+    "a1e14",
+    "a2e1",
+    "a1e6",
+    "a1e11",
+    "a2e15"
+  ]
+}

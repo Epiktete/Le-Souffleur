@@ -1,0 +1,21 @@
+{
+  "id": "no-maitre-de-maison",
+  "langue": [
+    {"avant": "se mettre dans les bonnes grâces de l'ours", "apres": "devenir l'amie de l'ours", "nature": "mot-rare", "jusqua": 6}
+  ],
+  "moments": [
+    {
+      "id": "les-betes-de-la-fosse",
+      "type": "punition",
+      "niveaux": [
+        {
+          "jusqua": 4,
+          "annonce": "L'homme de la fosse ne tue pas les bêtes : il les chasse à coups de bâton, et l'ours, le loup et le renard ne reviennent plus jamais près de ses moutons.",
+          "retouches": [
+            {"avant": "puis il se débarrassa de toutes les bêtes : il n'épargna ni le maître de la maison, ni le gris, ni Maître Renard le gigoteur.", "apres": "puis il sortit toutes les bêtes et les chassa à grands coups de bâton : ni le maître de la maison, ni le gris, ni Maître Renard le gigoteur n'osèrent plus jamais revenir près de ses moutons."}
+          ]
+        }
+      ]
+    }
+  ]
+}

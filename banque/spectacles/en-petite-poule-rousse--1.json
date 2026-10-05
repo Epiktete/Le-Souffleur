@@ -1,0 +1,875 @@
+{
+  "id": "en-petite-poule-rousse--1",
+  "conteId": "en-petite-poule-rousse",
+  "titre": "La Petite Poule rousse",
+  "pitch": "{{r1}} demande qui veut l’aider à semer le blé, à le couper, à le porter au moulin et à faire le pain : « Pas moi ! » répondent {{r2}}, {{r3}} et {{r4}}. Mais quand le pain chaud sent bon, tout le monde veut en manger.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "poule",
+      "famille": "oiseau",
+      "traits": [
+        "travailleur",
+        "courageux",
+        "sage"
+      ],
+      "voix": "voix vive et pointue, parle vite, fait « cot, cot ! » quand elle se met au travail",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "voix:r1",
+            "avant": "quand elle se met",
+            "apres": "quand il se met"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "elle les sème elle-même",
+            "apres": "il les sème lui-même"
+          },
+          {
+            "id": "a1e17:texte",
+            "avant": "elle, travaillait",
+            "apres": "lui, travaillait"
+          },
+          {
+            "id": "a1e19:texte",
+            "avant": "elle trouva",
+            "apres": "il trouva"
+          },
+          {
+            "id": "a1e30:ton",
+            "avant": "décidée",
+            "apres": "décidé"
+          },
+          {
+            "id": "a1e33:texte",
+            "avant": "Et elle le sema",
+            "apres": "Et il le sema"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "elle fait tout elle-même",
+            "apres": "il fait tout lui-même"
+          },
+          {
+            "id": "a2e16:texte",
+            "avant": "Et elle le coupa",
+            "apres": "Et il le coupa"
+          },
+          {
+            "id": "a2e29:texte",
+            "avant": "Et elle le porta",
+            "apres": "Et il le porta"
+          },
+          {
+            "id": "a2e31:texte",
+            "avant": "sur elle-même",
+            "apres": "sur lui-même"
+          },
+          {
+            "id": "a2e32:texte",
+            "avant": "elle revint",
+            "apres": "il revint"
+          },
+          {
+            "id": "a3e14:texte",
+            "avant": "Et elle pétrit",
+            "apres": "Et il pétrit"
+          },
+          {
+            "id": "a3e30:texte",
+            "avant": "qu’elle fit",
+            "apres": "qu’il fit"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r2",
+      "espece": "chat",
+      "famille": "predateur",
+      "traits": [
+        "paresseux",
+        "rêveur"
+      ],
+      "voix": "voix lente et endormie, bâille avant de parler",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": []
+      },
+      "especeMentions": [
+        {
+          "id": "a1e4:texte",
+          "avant": "un chat",
+          "gabarit": "{un} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r3",
+      "espece": "canard",
+      "famille": "oiseau",
+      "traits": [
+        "paresseux",
+        "bavard"
+      ],
+      "voix": "voix nasillarde et pressée, fait « coin, coin ! » entre ses mots",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": []
+      },
+      "especeMentions": [
+        {
+          "id": "a1e4:texte",
+          "avant": "un canard",
+          "gabarit": "{un} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r4",
+      "espece": "cochon",
+      "famille": "petit",
+      "traits": [
+        "paresseux",
+        "gourmand"
+      ],
+      "voix": "voix grave et gourmande, grogne « groin, groin ! » avant de parler",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": []
+      },
+      "especeMentions": [
+        {
+          "id": "a1e4:texte",
+          "avant": "un cochon",
+          "gabarit": "{un} {espece}"
+        }
+      ]
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 5,
+    "ageAuditoire": 3,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La ferme",
+      "description": "Étalez un torchon bleu à droite de la table : c’est la mare de {{r3}}. À gauche, une serviette marron roulée en boule fait la boue de {{r4}}. Au milieu, un carton retourné fait le four, pour la fin du spectacle.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "Le champ de blé",
+      "description": "Étalez sur la table une serviette ou un plaid jaune : c’est le champ de blé, haut et doré. Au bout de la table, un carton debout fait le moulin. Posez un torchon roulé au milieu du champ : c’est la gerbe de blé que {{r1}} poussera jusqu’au moulin.",
+      "accessoires": [
+        "un torchon roulé (la gerbe de blé)"
+      ],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Les grains de blé",
+      "resume": "{{r1}} trouve des grains de blé, mais {{r2}}, {{r3}} et {{r4}} ne veulent pas l’aider à les semer : « Pas moi ! » Alors elle les sème elle-même, et le blé pousse.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "note_marionnettiste",
+          "texte": "Votre main gauche garde {{r1}} pendant tout le spectacle. Posez {{r2}}, {{r3}} et {{r4}} sur vos genoux, dans cet ordre : votre main droite les prend à tour de rôle, pour surgir derrière la table, parler, puis replonger."
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e3",
+          "type": "didascalie",
+          "texte": "{{r1}} trottine d’un bout à l’autre de la table, en hochant la tête à chaque pas."
+        },
+        {
+          "id": "a1e4",
+          "type": "conteur",
+          "texte": "Il était une fois une petite poule rousse, {{r1}}, qui vivait dans une ferme avec un chat, {{r2}}, un canard, {{r3}}, et un cochon, {{r4}}."
+        },
+        {
+          "id": "a1e5",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e6",
+          "type": "didascalie",
+          "texte": "{{r2}} s’allonge sur le bord de la table et ronfle : « Rrron… pchhh… »"
+        },
+        {
+          "id": "a1e7",
+          "type": "conteur",
+          "texte": "{{r2}} dormait toute la journée,"
+        },
+        {
+          "id": "a1e8",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e9",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e10",
+          "type": "didascalie",
+          "texte": "{{r3}} sautille sur le torchon bleu de la mare : « Plouf ! Plouf ! »"
+        },
+        {
+          "id": "a1e11",
+          "type": "conteur",
+          "texte": "{{r3}} barbotait toute la journée,"
+        },
+        {
+          "id": "a1e12",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e13",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e14",
+          "type": "didascalie",
+          "texte": "{{r4}} se roule sur la serviette marron, d’un côté, puis de l’autre."
+        },
+        {
+          "id": "a1e15",
+          "type": "conteur",
+          "texte": "et {{r4}} se roulait dans la boue toute la journée."
+        },
+        {
+          "id": "a1e16",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e17",
+          "type": "conteur",
+          "texte": "{{r1}}, elle, travaillait."
+        },
+        {
+          "id": "a1e18",
+          "type": "didascalie",
+          "texte": "{{r1}} gratte la table en avançant et en reculant, puis s’arrête et se penche tout bas."
+        },
+        {
+          "id": "a1e19",
+          "type": "conteur",
+          "texte": "Un jour, en grattant la terre, elle trouva quelques grains de blé."
+        },
+        {
+          "id": "a1e20",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Qui veut m’aider à semer ce blé ?",
+          "ton": "bien fort, vers la coulisse"
+        },
+        {
+          "id": "a1e21",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e22",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Pas moi !",
+          "ton": "en bâillant"
+        },
+        {
+          "id": "a1e23",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e24",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e25",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Pas moi !",
+          "ton": "vite, en secouant la tête"
+        },
+        {
+          "id": "a1e26",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e27",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e28",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Pas moi !",
+          "ton": "en grognant"
+        },
+        {
+          "id": "a1e29",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e30",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Alors je le sèmerai moi-même.",
+          "ton": "sans se fâcher, bien décidée"
+        },
+        {
+          "id": "a1e31",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Comptez les grains avec moi : un, deux, trois !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e32",
+          "type": "didascalie",
+          "texte": "{{r1}} picore la table trois fois, un coup de bec par grain."
+        },
+        {
+          "id": "a1e33",
+          "type": "conteur",
+          "texte": "Et elle le sema."
+        },
+        {
+          "id": "a1e34",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Levez les bras tout doucement, comme le blé qui pousse !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e35",
+          "type": "conteur",
+          "texte": "Le blé poussa, grandit, et devint haut et doré."
+        },
+        {
+          "id": "a1e36",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Le champ et le moulin",
+      "resume": "Personne ne veut aider {{r1}} à couper le blé, ni à le porter au moulin : « Pas moi ! » Alors elle fait tout elle-même, et revient avec un beau sac de farine.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e2",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Qui veut m’aider à couper le blé ?",
+          "ton": "bien fort, vers la coulisse"
+        },
+        {
+          "id": "a2e3",
+          "type": "note_marionnettiste",
+          "texte": "Dès maintenant, les enfants peuvent dire « Pas moi ! » avec {{r2}}, {{r3}} et {{r4}} : laissez-leur le temps, à chaque fois."
+        },
+        {
+          "id": "a2e4",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e5",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Dites avec moi : Pas moi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e6",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Pas moi !",
+          "ton": "en bâillant"
+        },
+        {
+          "id": "a2e7",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e8",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e9",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Pas moi !",
+          "ton": "vite, en secouant la tête"
+        },
+        {
+          "id": "a2e10",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e11",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e12",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Pas moi !",
+          "ton": "en grognant"
+        },
+        {
+          "id": "a2e13",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e14",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Alors je le couperai moi-même.",
+          "ton": "sans se fâcher"
+        },
+        {
+          "id": "a2e15",
+          "type": "didascalie",
+          "texte": "{{r1}} avance le long du champ et donne un coup de bec à chaque pas : « Tchac ! Tchac ! Tchac ! »"
+        },
+        {
+          "id": "a2e16",
+          "type": "conteur",
+          "texte": "Et elle le coupa. Quand le blé fut coupé, il fallut le porter au moulin pour le moudre en farine."
+        },
+        {
+          "id": "a2e17",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Qui veut m’aider à porter le blé au moulin ?",
+          "ton": "bien fort, vers la coulisse"
+        },
+        {
+          "id": "a2e18",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e19",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Pas moi !",
+          "ton": "en bâillant"
+        },
+        {
+          "id": "a2e20",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e21",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e22",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Pas moi !",
+          "ton": "vite, en secouant la tête"
+        },
+        {
+          "id": "a2e23",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e24",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e25",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Pas moi !",
+          "ton": "en grognant"
+        },
+        {
+          "id": "a2e26",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e27",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Alors je le porterai moi-même.",
+          "ton": "sans se fâcher"
+        },
+        {
+          "id": "a2e28",
+          "type": "didascalie",
+          "texte": "{{r1}} pousse le torchon roulé du bout du bec jusqu’au carton du moulin, en soufflant : « Ouf ! Ouf ! »"
+        },
+        {
+          "id": "a2e29",
+          "type": "conteur",
+          "texte": "Et elle le porta."
+        },
+        {
+          "id": "a2e30",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites tourner le moulin avec vos mains !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e31",
+          "type": "didascalie",
+          "texte": "{{r1}} tourne lentement sur elle-même, comme la roue du moulin."
+        },
+        {
+          "id": "a2e32",
+          "type": "conteur",
+          "texte": "Le meunier moulut le blé, et elle revint avec un beau sac de farine."
+        },
+        {
+          "id": "a2e33",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Le bon pain chaud",
+      "resume": "Personne ne veut aider {{r1}} à faire le pain, mais quand il sent bon, {{r2}}, {{r3}} et {{r4}} crient : « Moi ! » {{r1}} le mange avec ses poussins, et le lendemain, tout le monde veut l’aider.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e2",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Qui veut m’aider à faire le pain ?",
+          "ton": "bien fort, vers la coulisse"
+        },
+        {
+          "id": "a3e3",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e4",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Pas moi !",
+          "ton": "en bâillant"
+        },
+        {
+          "id": "a3e5",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e6",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e7",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Pas moi !",
+          "ton": "vite, en secouant la tête"
+        },
+        {
+          "id": "a3e8",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e9",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e10",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Pas moi !",
+          "ton": "en grognant"
+        },
+        {
+          "id": "a3e11",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e12",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Alors je le ferai moi-même.",
+          "ton": "sans se fâcher"
+        },
+        {
+          "id": "a3e13",
+          "type": "didascalie",
+          "texte": "{{r1}} appuie sur la table, une fois, deux fois, trois fois, puis se tourne vers le carton du four."
+        },
+        {
+          "id": "a3e14",
+          "type": "conteur",
+          "texte": "Et elle pétrit la pâte, alluma le four, et fit cuire le pain."
+        },
+        {
+          "id": "a3e15",
+          "type": "conteur",
+          "texte": "Bientôt, une bonne odeur de pain chaud se répandit dans toute la ferme."
+        },
+        {
+          "id": "a3e16",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Reniflez avec moi : snif, snif ! Ça sent bon !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e17",
+          "type": "conteur",
+          "texte": "{{r2}} ouvrit un œil, {{r3}} sortit de la mare, {{r4}} sortit de la boue, et tous trois arrivèrent en courant."
+        },
+        {
+          "id": "a3e18",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Qui veut m’aider à manger le pain ?",
+          "ton": "bien fort, vers la coulisse"
+        },
+        {
+          "id": "a3e19",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e20",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Criez avec nous : Moi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e21",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Moi !",
+          "ton": "très fort, en sautant"
+        },
+        {
+          "id": "a3e22",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e23",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e24",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Moi !",
+          "ton": "très fort, en sautillant"
+        },
+        {
+          "id": "a3e25",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e26",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e27",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Moi !",
+          "ton": "encore plus fort, en sautant sur place"
+        },
+        {
+          "id": "a3e28",
+          "type": "note_marionnettiste",
+          "texte": "{{r4}} reste en scène jusqu’à la fin. {{r1}} lui parle, et parle aussi vers la coulisse, où attendent {{r2}} et {{r3}}."
+        },
+        {
+          "id": "a3e29",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ah non. Je l’ai semé moi-même, je l’ai coupé moi-même, je l’ai porté moi-même, je l’ai cuit moi-même. Eh bien, je le mangerai moi-même, avec mes poussins.",
+          "ton": "calmement, en appuyant sur chaque « moi-même »"
+        },
+        {
+          "id": "a3e30",
+          "type": "conteur",
+          "texte": "Et c’est ce qu’elle fit."
+        },
+        {
+          "id": "a3e31",
+          "type": "didascalie",
+          "texte": "{{r1}} picore devant le four, vite, vite, vite."
+        },
+        {
+          "id": "a3e32",
+          "type": "note_marionnettiste",
+          "texte": "Voix des poussins, en coulisse : « Piou, piou, piou ! »"
+        },
+        {
+          "id": "a3e33",
+          "type": "conteur",
+          "texte": "Le pain était délicieux, les poussins se régalèrent, et {{r2}}, {{r3}} et {{r4}} les regardèrent manger jusqu’à la dernière miette."
+        },
+        {
+          "id": "a3e34",
+          "type": "didascalie",
+          "texte": "{{r4}} regarde {{r1}} manger, sans bouger, la tête penchée."
+        },
+        {
+          "id": "a3e35",
+          "type": "note_marionnettiste",
+          "texte": "Dites le « Moi ! » de la dernière phrase très fort, comme trois voix à la fois."
+        },
+        {
+          "id": "a3e36",
+          "type": "conteur",
+          "texte": "Et l’on dit que le lendemain, quand {{r1}} demanda qui voulait l’aider, trois voix répondirent en même temps : « Moi ! »"
+        },
+        {
+          "id": "a3e37",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Criez-le vous aussi, les enfants : Moi !",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e38",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r4}} se tournent vers les enfants et saluent."
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "en-petite-poule-rousse",
+    "synopsis": {
+      "accroche": "{{r1}}, la petite poule rousse, demande de l’aide pour faire son pain, mais {{r2}}, {{r3}} et {{r4}} répondent toujours « Pas moi ! »… jusqu’à ce que le pain sente bon.",
+      "resume": [
+        "{{r1}}, une petite poule rousse, vit dans une ferme avec {{r2}} le chat, {{r3}} le canard et {{r4}} le cochon. Un jour, elle trouve des grains de blé.",
+        "« Qui veut m’aider à semer ce blé ? » — « Pas moi ! » disent {{r2}}, {{r3}} et {{r4}}. Alors {{r1}} le sème elle-même.",
+        "C’est pareil pour couper le blé, pour le porter au moulin et pour faire le pain : « Pas moi ! » {{r1}} fait tout elle-même.",
+        "Le pain chaud sent si bon que les trois paresseux arrivent en courant : « Moi ! » Mais {{r1}} le mange avec ses poussins, jusqu’à la dernière miette.",
+        "Le lendemain, quand {{r1}} demande qui veut l’aider, trois voix répondent : « Moi ! »"
+      ]
+    },
+    "transposition": {
+      "texte": "Il était une fois une petite poule rousse, {{r1}}, qui vivait dans une ferme avec un chat, {{r2}}, un canard, {{r3}}, et un cochon, {{r4}}. {{r2}} dormait toute la journée, {{r3}} barbotait toute la journée, et {{r4}} se roulait dans la boue toute la journée. {{r1}}, elle, travaillait.\n\nUn jour, en grattant la terre, elle trouva quelques grains de blé.\n\n— Qui veut m’aider à semer ce blé ? demanda {{r1}}.\n\n— Pas moi, dit {{r2}}.\n\n— Pas moi, dit {{r3}}.\n\n— Pas moi, dit {{r4}}.\n\n— Alors je le sèmerai moi-même, dit {{r1}}.\n\nEt elle le sema. Le blé poussa, grandit, et devint haut et doré.\n\n— Qui veut m’aider à couper le blé ? demanda {{r1}}.\n\n— Pas moi, dit {{r2}}.\n\n— Pas moi, dit {{r3}}.\n\n— Pas moi, dit {{r4}}.\n\n— Alors je le couperai moi-même, dit {{r1}}.\n\nEt elle le coupa. Quand le blé fut coupé, il fallut le porter au moulin pour le moudre en farine.\n\n— Qui veut m’aider à porter le blé au moulin ? demanda {{r1}}.\n\n— Pas moi, dit {{r2}}.\n\n— Pas moi, dit {{r3}}.\n\n— Pas moi, dit {{r4}}.\n\n— Alors je le porterai moi-même, dit {{r1}}.\n\nEt elle le porta. Le meunier moulut le blé, et elle revint avec un beau sac de farine.\n\n— Qui veut m’aider à faire le pain ? demanda {{r1}}.\n\n— Pas moi, dit {{r2}}.\n\n— Pas moi, dit {{r3}}.\n\n— Pas moi, dit {{r4}}.\n\n— Alors je le ferai moi-même, dit {{r1}}.\n\nEt elle pétrit la pâte, alluma le four, et fit cuire le pain. Bientôt, une bonne odeur de pain chaud se répandit dans toute la ferme. {{r2}} ouvrit un œil, {{r3}} sortit de la mare, {{r4}} sortit de la boue, et tous trois arrivèrent en courant.\n\n— Qui veut m’aider à manger le pain ? demanda {{r1}}.\n\n— Moi ! dit {{r2}}.\n\n— Moi ! dit {{r3}}.\n\n— Moi ! dit {{r4}}.\n\n— Ah non, dit {{r1}}. Je l’ai semé moi-même, je l’ai coupé moi-même, je l’ai porté moi-même, je l’ai cuit moi-même. Eh bien, je le mangerai moi-même, avec mes poussins.\n\nEt c’est ce qu’elle fit. Le pain était délicieux, les poussins se régalèrent, et {{r2}}, {{r3}} et {{r4}} les regardèrent manger jusqu’à la dernière miette.\n\nEt l’on dit que le lendemain, quand {{r1}} demanda qui voulait l’aider, trois voix répondirent en même temps : « Moi ! »"
+    }
+  },
+  "dureeEstimeeSecondes": 313,
+  "interactionsOrdonnees": [
+    "a2e5",
+    "a3e20",
+    "a3e37",
+    "a3e16",
+    "a1e31",
+    "a2e30",
+    "a1e34"
+  ]
+}

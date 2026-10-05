@@ -1,0 +1,8 @@
+{
+  "id": "fr-fontaine-lievre-grenouilles",
+  "langue": [
+    {"avant": "Dans un profond ennui ce lièvre se plongeait", "apres": "Dans un profond chagrin ce lièvre se plongeait", "nature": "faux-ami"},
+    {"avant": "Pour s’enfuir devers sa tanière", "apres": "Pour s’enfuir vers sa tanière", "nature": "mot-disparu"}
+  ],
+  "moments": []
+}

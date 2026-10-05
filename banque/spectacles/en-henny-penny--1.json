@@ -1,0 +1,783 @@
+{
+  "id": "en-henny-penny--1",
+  "conteId": "en-henny-penny",
+  "titre": "Poulette Pioupiou",
+  "pitch": "{{r1}} croit que le ciel tombe et entraîne la troupe vers le roi. {{r4}} lui propose un raccourci qui mène dans sa tanière.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "poule",
+      "famille": "oiseau",
+      "traits": [
+        "peureuse",
+        "naïve",
+        "bavarde"
+      ],
+      "voix": "voix aiguë et vive, qui accélère quand elle s’inquiète",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "voix:r1",
+            "avant": "elle s’inquiète",
+            "apres": "il s’inquiète"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "avec elle",
+            "apres": "avec lui"
+          },
+          {
+            "id": "a1e4:ton",
+            "avant": "affolée",
+            "apres": "affolé"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "Elle partit, et elle alla, et elle alla, et elle alla,",
+            "apres": "Il partit, et il alla, et il alla, et il alla,"
+          },
+          {
+            "id": "a3e33:texte",
+            "avant": "Et elle fit demi-tour et rentra chez elle en courant, si bien qu’elle ne dit jamais",
+            "apres": "Et il fit demi-tour et rentra chez lui en courant, si bien qu’il ne dit jamais"
+          },
+          {
+            "id": "a1e5:texte",
+            "avant": "qu’elle rencontre",
+            "apres": "qu’il rencontre"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r2",
+      "espece": "coq",
+      "famille": "oiseau",
+      "traits": [
+        "vantard",
+        "naïf"
+      ],
+      "voix": "voix sonore et fière, puis brusque pour prévenir du danger",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a3e27:texte",
+            "avant": "il n’était pas allé",
+            "apres": "elle n’était pas allée"
+          },
+          {
+            "id": "a3e28:texte",
+            "avant": "seulement effleuré",
+            "apres": "seulement effleurée"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r3",
+      "espece": "canard",
+      "famille": "oiseau",
+      "traits": [
+        "naïf",
+        "curieux"
+      ],
+      "voix": "voix basse et sautillante",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a3e23:texte",
+            "avant": "attrapé.",
+            "apres": "attrapée."
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r4",
+      "espece": "renard",
+      "famille": "predateur",
+      "traits": [
+        "rusé",
+        "gourmand",
+        "menteur"
+      ],
+      "voix": "voix douce et traînante, qui claque « Crac ! » dans la tanière",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a3e8:texte",
+            "avant": "Il n’alla pas bien loin",
+            "apres": "Elle n’alla pas bien loin"
+          },
+          {
+            "id": "a3e5:texte",
+            "avant": "J’entre le premier",
+            "apres": "J’entre la première"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r5",
+      "espece": "oie",
+      "famille": "oiseau",
+      "traits": [
+        "naïve",
+        "bavarde"
+      ],
+      "voix": "voix claire et ronde",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a3e19:texte",
+            "avant": "attrapée.",
+            "apres": "attrapé."
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r6",
+      "espece": "dindon",
+      "famille": "oiseau",
+      "traits": [
+        "naïf",
+        "bavard"
+      ],
+      "voix": "voix grave et pressée",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a3e12:texte",
+            "avant": "Le premier,",
+            "apres": "La première,"
+          },
+          {
+            "id": "a3e12:texte",
+            "avant": "Il n’était pas allé",
+            "apres": "Elle n’était pas allée"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 7,
+    "ageAuditoire": 3,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La cour et le chemin",
+      "description": "Deux coussins posés loin l’un de l’autre marquent la cour et le chemin. Les peluches avancent sur place ; le conteur nomme toute la troupe.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "Le trou de la tanière",
+      "description": "Entre les actes 2 et 3, une fois les deux peluches sorties, rapprochez les deux coussins avec les mains libres pour dessiner un passage sombre entre eux. Une peluche peut disparaître derrière le bord de la table en entrant dans la tanière ; {{r4}} reste visible de l’autre côté du passage.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Le ciel va tomber",
+      "resume": "{{r1}} part prévenir le roi ; {{r2}} et {{r3}} viennent avec elle.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Un jour, {{r1}} picorait du grain dans la cour quand — paf ! — quelque chose lui tomba sur la tête."
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e3",
+          "type": "adresse_public",
+          "texte": "Faites avec moi le bruit de ce qui tombe : « paf ! »",
+          "marionnetteId": "r1",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e4",
+          "type": "replique",
+          "texte": "Mon Dieu, mon Dieu ! Le ciel va tomber ! Il faut que j’aille le dire au roi.",
+          "marionnetteId": "r1",
+          "ton": "affolée"
+        },
+        {
+          "id": "a1e5",
+          "type": "conteur",
+          "texte": "Elle partit, et elle alla, et elle alla, et elle alla, jusqu’à ce qu’elle rencontre {{r2}}."
+        },
+        {
+          "id": "a1e6",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e7",
+          "type": "didascalie",
+          "texte": "{{r2}} se tourne vers {{r1}}."
+        },
+        {
+          "id": "a1e8",
+          "type": "replique",
+          "texte": "Où vas-tu, {{r1}} ?",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a1e9",
+          "type": "replique",
+          "texte": "Oh ! Je vais dire au roi que le ciel tombe.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a1e10",
+          "type": "replique",
+          "texte": "Je peux venir avec toi ?",
+          "marionnetteId": "r2"
+        },
+        {
+          "id": "a1e11",
+          "type": "replique",
+          "texte": "Bien sûr.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a1e12",
+          "type": "adresse_public",
+          "texte": "Dites avec moi : « Le ciel tombe ! »",
+          "marionnetteId": "r1",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e13",
+          "type": "conteur",
+          "texte": "Et {{r1}} et {{r2}} partirent dire au roi que le ciel tombait."
+        },
+        {
+          "id": "a1e14",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e15",
+          "type": "conteur",
+          "texte": "On alla, et on alla, et on alla, jusqu’à ce qu’on rencontre {{r3}}."
+        },
+        {
+          "id": "a1e16",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e17",
+          "type": "didascalie",
+          "texte": "{{r3}} se tourne vers {{r1}}."
+        },
+        {
+          "id": "a1e18",
+          "type": "replique",
+          "texte": "Où allez-vous, {{r1}} et {{r2}} ?",
+          "marionnetteId": "r3"
+        },
+        {
+          "id": "a1e19",
+          "type": "replique",
+          "texte": "Oh ! Nous allons dire au roi que le ciel tombe.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a1e20",
+          "type": "replique",
+          "texte": "Je peux venir avec vous ?",
+          "marionnetteId": "r3"
+        },
+        {
+          "id": "a1e21",
+          "type": "replique",
+          "texte": "Bien sûr.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a1e22",
+          "type": "conteur",
+          "texte": "Et {{r1}}, {{r2}} et {{r3}} partirent dire au roi que le ciel tombait."
+        },
+        {
+          "id": "a1e23",
+          "type": "adresse_public",
+          "texte": "Marchez avec nous sur place : « on alla, et on alla ! »",
+          "marionnetteId": "r3",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e24",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e25",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "La liste grandit",
+      "resume": "{{r5}} puis {{r6}} rejoignent la troupe, avant la rencontre avec {{r4}}.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "On alla, et on alla, et on alla, jusqu’à ce qu’on rencontre {{r5}}."
+        },
+        {
+          "id": "a2e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e3",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e4",
+          "type": "didascalie",
+          "texte": "{{r5}} se tourne vers {{r1}}."
+        },
+        {
+          "id": "a2e5",
+          "type": "replique",
+          "texte": "Où allez-vous, {{r1}}, {{r2}} et {{r3}} ?",
+          "marionnetteId": "r5"
+        },
+        {
+          "id": "a2e6",
+          "type": "replique",
+          "texte": "Oh ! Nous allons dire au roi que le ciel tombe.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a2e7",
+          "type": "replique",
+          "texte": "Je peux venir avec vous ?",
+          "marionnetteId": "r5"
+        },
+        {
+          "id": "a2e8",
+          "type": "replique",
+          "texte": "Bien sûr.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a2e9",
+          "type": "adresse_public",
+          "texte": "Redites les noms avec moi : « {{r1}}, {{r2}}, {{r3}}, {{r5}} ! »",
+          "marionnetteId": "r5",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e10",
+          "type": "conteur",
+          "texte": "Et {{r1}}, {{r2}}, {{r3}} et {{r5}} partirent dire au roi que le ciel tombait."
+        },
+        {
+          "id": "a2e11",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e12",
+          "type": "conteur",
+          "texte": "On alla, et on alla, et on alla, jusqu’à ce qu’on rencontre {{r6}}."
+        },
+        {
+          "id": "a2e13",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e14",
+          "type": "didascalie",
+          "texte": "{{r6}} se tourne vers {{r1}}."
+        },
+        {
+          "id": "a2e15",
+          "type": "replique",
+          "texte": "Où allez-vous, {{r1}}, {{r2}}, {{r3}} et {{r5}} ?",
+          "marionnetteId": "r6"
+        },
+        {
+          "id": "a2e16",
+          "type": "replique",
+          "texte": "Oh ! Nous allons dire au roi que le ciel tombe.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a2e17",
+          "type": "replique",
+          "texte": "Je peux venir avec vous, {{r1}}, {{r2}}, {{r3}} et {{r5}} ?",
+          "marionnetteId": "r6"
+        },
+        {
+          "id": "a2e18",
+          "type": "replique",
+          "texte": "Oh, bien sûr, {{r6}}.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a2e19",
+          "type": "adresse_public",
+          "texte": "Dites toute la liste avec moi : « {{r1}}, {{r2}}, {{r3}}, {{r5}}, {{r6}} ! »",
+          "marionnetteId": "r6",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e20",
+          "type": "conteur",
+          "texte": "Et {{r1}}, {{r2}}, {{r3}}, {{r5}} et {{r6}} partirent ensemble dire au roi que le ciel tombait."
+        },
+        {
+          "id": "a2e21",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e22",
+          "type": "conteur",
+          "texte": "On alla, et on alla, et on alla, jusqu’à ce qu’on rencontre {{r4}}. Et {{r4}} dit à {{r1}}, {{r2}}, {{r3}}, {{r5}} et {{r6}} :"
+        },
+        {
+          "id": "a2e23",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e24",
+          "type": "replique",
+          "texte": "Où allez-vous, {{r1}}, {{r2}}, {{r3}}, {{r5}} et {{r6}} ?",
+          "marionnetteId": "r4"
+        },
+        {
+          "id": "a2e25",
+          "type": "conteur",
+          "texte": "Et {{r1}}, {{r2}}, {{r3}}, {{r5}} et {{r6}} dirent à {{r4}} :"
+        },
+        {
+          "id": "a2e26",
+          "type": "replique",
+          "texte": "Nous allons dire au roi que le ciel tombe.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a2e27",
+          "type": "replique",
+          "texte": "Oh ! Mais ce n’est pas le chemin pour aller chez le roi, {{r1}}, {{r2}}, {{r3}}, {{r5}} et {{r6}}. Moi, je connais le bon chemin. Voulez-vous que je vous le montre ?",
+          "marionnetteId": "r4"
+        },
+        {
+          "id": "a2e28",
+          "type": "adresse_public",
+          "texte": "Dites avec moi : « le bon chemin ! »",
+          "marionnetteId": "r4",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e29",
+          "type": "replique",
+          "texte": "Oh, bien sûr, {{r4}}.",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a2e30",
+          "type": "conteur",
+          "texte": "Et {{r1}}, {{r2}}, {{r3}}, {{r5}}, {{r6}} et {{r4}} partirent ensemble dire au roi que le ciel tombait."
+        },
+        {
+          "id": "a2e31",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e32",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Le faux raccourci",
+      "resume": "{{r4}} conduit la troupe dans sa tanière. {{r2}} prévient {{r1}}, qui rentre sans avertir le roi.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "conteur",
+          "texte": "On alla, et on alla, et on alla, jusqu’à ce qu’on arrive devant un trou étroit et sombre. C’était la porte de la tanière de {{r4}}. Mais {{r4}} dit à {{r1}}, {{r2}}, {{r3}}, {{r5}} et {{r6}} :"
+        },
+        {
+          "id": "a3e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e3",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e4",
+          "type": "didascalie",
+          "texte": "{{r4}} se tourne vers le passage sombre entre les deux coussins."
+        },
+        {
+          "id": "a3e5",
+          "type": "replique",
+          "texte": "C’est le raccourci pour aller au palais du roi. Vous y serez vite si vous me suivez. J’entre le premier, et vous venez derrière, {{r1}}, {{r2}}, {{r3}}, {{r5}} et {{r6}}.",
+          "marionnetteId": "r4"
+        },
+        {
+          "id": "a3e6",
+          "type": "replique",
+          "texte": "Mais évidemment, bien sûr, sans aucun doute, pourquoi pas ?",
+          "marionnetteId": "r1"
+        },
+        {
+          "id": "a3e7",
+          "type": "adresse_public",
+          "texte": "Redites avec moi : « Mais évidemment, bien sûr ! »",
+          "marionnetteId": "r1",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e8",
+          "type": "conteur",
+          "texte": "Alors {{r4}} entra dans sa tanière. Il n’alla pas bien loin, et se retourna pour attendre {{r1}}, {{r2}}, {{r3}}, {{r5}} et {{r6}}."
+        },
+        {
+          "id": "a3e9",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e10",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche sur cette main."
+        },
+        {
+          "id": "a3e11",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e12",
+          "type": "conteur",
+          "texte": "Le premier, {{r6}} passa par le trou sombre et entra dans la tanière. Il n’était pas allé bien loin."
+        },
+        {
+          "id": "a3e13",
+          "type": "adresse_public",
+          "texte": "Faites avec moi le bruit : « Crac ! »",
+          "marionnetteId": "r4",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e14",
+          "type": "replique",
+          "texte": "Crac !",
+          "marionnetteId": "r4"
+        },
+        {
+          "id": "a3e15",
+          "type": "conteur",
+          "texte": "{{r4}} l’attrapa."
+        },
+        {
+          "id": "a3e16",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e17",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche sur cette main."
+        },
+        {
+          "id": "a3e18",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e19",
+          "type": "conteur",
+          "texte": "Puis {{r5}} entra, et « Crac ! », attrapée."
+        },
+        {
+          "id": "a3e20",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e21",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche sur cette main."
+        },
+        {
+          "id": "a3e22",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e23",
+          "type": "conteur",
+          "texte": "Puis {{r3}} entra en se dandinant, et « Crac ! », attrapé."
+        },
+        {
+          "id": "a3e24",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e25",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche sur cette main."
+        },
+        {
+          "id": "a3e26",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e27",
+          "type": "conteur",
+          "texte": "Puis {{r2}} entra en se pavanant, et il n’était pas allé bien loin que « Crac ! » fit {{r4}}."
+        },
+        {
+          "id": "a3e28",
+          "type": "conteur",
+          "texte": "Mais {{r4}} avait mal visé : {{r2}} était seulement effleuré."
+        },
+        {
+          "id": "a3e29",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e30",
+          "type": "didascalie",
+          "texte": "Laisser une respiration pour changer de peluche sur cette main. Sur la main droite, {{r1}} reparaîtra à l’extérieur de la tanière."
+        },
+        {
+          "id": "a3e31",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e32",
+          "type": "replique",
+          "texte": "Attention !",
+          "marionnetteId": "r2",
+          "ton": "fort, pour prévenir {{r1}}"
+        },
+        {
+          "id": "a3e33",
+          "type": "conteur",
+          "texte": "Et elle fit demi-tour et rentra chez elle en courant, si bien qu’elle ne dit jamais au roi que le ciel tombait."
+        },
+        {
+          "id": "a3e34",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e35",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "en-henny-penny",
+    "synopsis": {
+      "accroche": "{{r1}} prend pour la chute du ciel ce qui lui tombe sur la tête.",
+      "resume": [
+        "La troupe rejoint {{r1}} peu à peu pour prévenir le roi.",
+        "{{r4}} prétend connaître un raccourci et mène la troupe à sa tanière.",
+        "Après les « Crac ! », {{r2}} avertit {{r1}}, qui s’enfuit sans parler au roi."
+      ]
+    },
+    "transposition": {
+      "texte": "Un jour, {{r1}} picorait du grain dans la cour quand — paf ! — quelque chose lui tomba sur la tête.\n\n— Mon Dieu, mon Dieu ! dit {{r1}}. Le ciel va tomber ! Il faut que j’aille le dire au roi.\n\nElle partit, et elle alla, et elle alla, et elle alla, jusqu’à ce qu’elle rencontre {{r2}}.\n\n— Où vas-tu, {{r1}} ? dit {{r2}}.\n\n— Oh ! Je vais dire au roi que le ciel tombe, dit {{r1}}.\n\n— Je peux venir avec toi ? dit {{r2}}.\n\n— Bien sûr, dit {{r1}}.\n\nEt {{r1}} et {{r2}} partirent dire au roi que le ciel tombait.\n\nOn alla, et on alla, et on alla, jusqu’à ce qu’on rencontre {{r3}}.\n\n— Où allez-vous, {{r1}} et {{r2}} ? dit {{r3}}.\n\n— Oh ! Nous allons dire au roi que le ciel tombe, dirent {{r1}} et {{r2}}.\n\n— Je peux venir avec vous ? dit {{r3}}.\n\n— Bien sûr, dirent {{r1}} et {{r2}}.\n\nEt {{r1}}, {{r2}} et {{r3}} partirent dire au roi que le ciel tombait.\n\nOn alla, et on alla, et on alla, jusqu’à ce qu’on rencontre {{r5}}.\n\n— Où allez-vous, {{r1}}, {{r2}} et {{r3}} ? dit {{r5}}.\n\n— Oh ! Nous allons dire au roi que le ciel tombe, dirent {{r1}}, {{r2}} et {{r3}}.\n\n— Je peux venir avec vous ? dit {{r5}}.\n\n— Bien sûr, dirent {{r1}}, {{r2}} et {{r3}}.\n\nEt {{r1}}, {{r2}}, {{r3}} et {{r5}} partirent dire au roi que le ciel tombait.\n\nOn alla, et on alla, et on alla, jusqu’à ce qu’on rencontre {{r6}}.\n\n— Où allez-vous, {{r1}}, {{r2}}, {{r3}} et {{r5}} ? dit {{r6}}.\n\n— Oh ! Nous allons dire au roi que le ciel tombe, dirent {{r1}}, {{r2}}, {{r3}} et {{r5}}.\n\n— Je peux venir avec vous, {{r1}}, {{r2}}, {{r3}} et {{r5}} ? dit {{r6}}.\n\n— Oh, bien sûr, {{r6}}, dirent {{r1}}, {{r2}}, {{r3}} et {{r5}}.\n\nEt {{r1}}, {{r2}}, {{r3}}, {{r5}} et {{r6}} partirent ensemble dire au roi que le ciel tombait.\n\nOn alla, et on alla, et on alla, jusqu’à ce qu’on rencontre {{r4}}. Et {{r4}} dit à {{r1}}, {{r2}}, {{r3}}, {{r5}} et {{r6}} :\n\n— Où allez-vous, {{r1}}, {{r2}}, {{r3}}, {{r5}} et {{r6}} ?\n\nEt {{r1}}, {{r2}}, {{r3}}, {{r5}} et {{r6}} dirent à {{r4}} :\n\n— Nous allons dire au roi que le ciel tombe.\n\n— Oh ! Mais ce n’est pas le chemin pour aller chez le roi, {{r1}}, {{r2}}, {{r3}}, {{r5}} et {{r6}}, dit {{r4}}. Moi, je connais le bon chemin. Voulez-vous que je vous le montre ?\n\n— Oh, bien sûr, {{r4}}, dirent {{r1}}, {{r2}}, {{r3}}, {{r5}} et {{r6}}.\n\nEt {{r1}}, {{r2}}, {{r3}}, {{r5}}, {{r6}} et {{r4}} partirent ensemble dire au roi que le ciel tombait.\n\nOn alla, et on alla, et on alla, jusqu’à ce qu’on arrive devant un trou étroit et sombre. C’était la porte de la tanière de {{r4}}. Mais {{r4}} dit à {{r1}}, {{r2}}, {{r3}}, {{r5}} et {{r6}} :\n\n— C’est le raccourci pour aller au palais du roi. Vous y serez vite si vous me suivez. J’entre le premier, et vous venez derrière, {{r1}}, {{r2}}, {{r3}}, {{r5}} et {{r6}}.\n\n— Mais évidemment, bien sûr, sans aucun doute, pourquoi pas ? dirent {{r1}}, {{r2}}, {{r3}}, {{r5}} et {{r6}}.\n\nAlors {{r4}} entra dans sa tanière. Il n’alla pas bien loin, et se retourna pour attendre {{r1}}, {{r2}}, {{r3}}, {{r5}} et {{r6}}.\n\nLe premier, {{r6}} passa par le trou sombre et entra dans la tanière. Il n’était pas allé bien loin. « Crac ! » {{r4}} l’attrapa. Puis {{r5}} entra, et « Crac ! », attrapée. Puis {{r3}} entra en se dandinant, et « Crac ! », attrapé. Puis {{r2}} entra en se pavanant, et il n’était pas allé bien loin que « Crac ! » fit {{r4}}.\n\nMais {{r4}} avait mal visé : {{r2}} était seulement effleuré. Il eut le temps de crier pour prévenir {{r1}}. Et elle fit demi-tour et rentra chez elle en courant, si bien qu’elle ne dit jamais au roi que le ciel tombait.\n"
+    }
+  },
+  "dureeEstimeeSecondes": 384,
+  "interactionsOrdonnees": [
+    "a1e3",
+    "a1e12",
+    "a1e23",
+    "a2e9",
+    "a2e19",
+    "a2e28",
+    "a3e7",
+    "a3e13"
+  ]
+}

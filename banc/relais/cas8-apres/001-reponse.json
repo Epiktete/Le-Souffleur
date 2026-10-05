@@ -1,0 +1,60 @@
+{"synopsis": [
+  {"conte": "fr-perrault-chaperon-rouge",
+   "accroche": "Rosette part porter une galette à Mamie Rose, mais Loup Gris arrive le premier et prend sa place dans le lit.",
+   "resume": [
+     "La maman de Rosette l’envoie porter une galette et un pot de beurre à Mamie Rose, malade au fond du bois.",
+     "Dans le bois, elle croise Loup Gris et lui raconte où elle va ; il propose une course, chacun par son chemin, et prend le raccourci.",
+     "Loup Gris arrive le premier, se fait ouvrir chez Mamie Rose, et l’avale tout entière avant de prendre sa place dans le lit.",
+     "Rosette arrive à son tour, trouve « sa grand-mère » bien changée — « comme vous avez de grandes dents ! » — et Loup Gris l’avale aussi.",
+     "Rosette crie et appelle à l’aide : des bûcherons accourent, ouvrent Loup Gris, et en sortent Mamie Rose et Rosette, bien vivantes toutes les deux."
+   ],
+   "distribution": [
+     {"marionnette": "Rosette", "role": "le Petit Chaperon rouge", "note": "Aussi curieuse et gentille que la fillette du conte."},
+     {"marionnette": "Loup Gris", "role": "le Loup", "note": "Déjà méchant et gourmand comme le loup du conte."},
+     {"marionnette": "Mamie Rose", "role": "la Mère-grand", "note": "C’est déjà une grand-mère : le rôle lui va sans rien changer."}
+   ],
+   "changements": [
+     "La Mère qui envoie Rosette au début n’a pas de marionnette : on l’entend seulement donner la commission, sans la jouer."
+   ]
+  },
+  {"conte": "en-vieille-et-cochon",
+   "accroche": "Rosette n’arrive pas à faire rentrer son petit cochon à la maison, et va chercher de l’aide partout, jusqu’à ce que Loup Gris accepte enfin.",
+   "resume": [
+     "Rosette a acheté Mamie Rose au marché ; arrivée devant la barrière du jardin, Mamie Rose plante ses pieds et refuse d’avancer.",
+     "Rosette va demander de l’aide autour d’elle ; chacun refuse à son tour, et la liste des refus s’allonge.",
+     "Loup Gris est le seul à accepter d’aider, contre un bon repas ; Rosette part aussitôt le lui chercher.",
+     "Une fois son repas obtenu, Loup Gris se met en route, et tous ceux qui avaient refusé changent d’avis les uns après les autres.",
+     "La chaîne remonte ainsi jusqu’à Mamie Rose, qui saute enfin la barrière et rentre à la maison."
+   ],
+   "distribution": [
+     {"marionnette": "Rosette", "role": "la Vieille", "note": "C’est elle qui court partout demander de l’aide : bavarde et déterminée comme il faut."},
+     {"marionnette": "Loup Gris", "role": "le Chat", "note": "Gourmand comme il faut pour n’accepter d’aider que contre un bon repas."},
+     {"marionnette": "Mamie Rose", "role": "le Petit Cochon", "note": "C’est elle qui refuse tout net de passer la barrière, aussi têtue qu’un petit cochon buté."}
+   ],
+   "changements": [
+     "Le Chien, le Bâton, le Feu, l’Eau, le Bœuf, le Rat et la Vache n’ont pas de marionnette : leurs refus sont racontés très vite, pas joués, pour tenir dans les 5 minutes.",
+     "Le rôle du Chat est tenu par Loup Gris, qui garde son pelage de loup du début à la fin : il aide contre un bon repas plutôt que du lait.",
+     "Les refus restent tranquilles, sans morsures ni coups : rien à adoucir de plus pour 7 ans."
+   ]
+  },
+  {"conte": "in-singes-jardiniers",
+   "accroche": "Pendant que Rosette va à la foire, elle confie son jardin à Loup Gris — qui décide d’arracher chaque fleur pour mesurer combien d’eau lui donner.",
+   "resume": [
+     "Rosette veut aller à la foire ; elle demande à Loup Gris d’arroser le jardin pendant son absence.",
+     "Loup Gris accepte avec enthousiasme, et réfléchit tout seul, sérieux comme un savant, à la meilleure façon d’économiser l’eau.",
+     "Il décide que chaque fleur doit recevoir juste ce qu’il faut d’eau, selon la longueur de ses racines.",
+     "Pour mesurer, il arrache chaque fleur une à une, l’arrose, puis la replante.",
+     "Rosette revient : tout est fané. Mamie Rose le gronde, et Loup Gris replante le jardin avec elle."
+   ],
+   "distribution": [
+     {"marionnette": "Rosette", "role": "le Jardinier", "note": "Aussi gentille et attentive à son jardin que ce jardinier-là."},
+     {"marionnette": "Loup Gris", "role": "le Chef des singes", "note": "Assez sûr de lui pour se croire plus savant que tout le monde, et foncer sans réfléchir."},
+     {"marionnette": "Mamie Rose", "role": "le Maître du parc", "note": "Assez sage pour tirer la bonne leçon à la fin."}
+   ],
+   "changements": [
+     "Les autres singes n’ont pas de marionnette : Loup Gris tient seul son « conseil », qu’il mime pour le public.",
+     "Le rôle du Chef des singes est tenu par Loup Gris, qui garde son pelage de loup du début à la fin.",
+     "Le jardinier n’est pas renvoyé à la fin : il est grondé, puis replante le jardin avec Loup Gris."
+   ]
+  }
+]}

@@ -1,0 +1,14 @@
+{"elements": [
+{"type": "didascalie", "texte": "Roi Corbeau se redresse tant bien que mal et regarde Pilou, essoufflé."},
+{"type": "replique", "marionnette": "Roi Corbeau", "texte": "Tu as gagné, Mémé Tortue. Je n'en peux plus.", "ton": "haletant, vaincu"},
+{"type": "didascalie", "texte": "Pilou cache son bec derrière une aile, secoué d'un rire silencieux, puis se tourne vers les enfants."},
+{"type": "adresse_public", "marionnette": "Pilou le Pingouin", "texte": "Il n'a rien vu !", "attenteReponse": false},
+{"type": "sortie", "marionnette": "Pilou le Pingouin", "main": "M1D"},
+{"type": "entree", "marionnette": "Mémé Tortue", "main": "M1D"},
+{"type": "didascalie", "texte": "Mémé Tortue s'avance vers Roi Corbeau, sans se presser."},
+{"type": "replique", "marionnette": "Mémé Tortue", "texte": "Le gâteau est pour moi, Roi Corbeau. Je te l'avais bien dit.", "ton": "calme, satisfaite"},
+{"type": "didascalie", "texte": "Roi Corbeau baisse la tête, vaincu."},
+{"type": "replique", "marionnette": "Mémé Tortue", "texte": "Pour un bon tour, il est utile d'avoir un allié fidèle prêt à répondre à votre place.", "ton": "posée"},
+{"type": "adresse_public", "marionnette": "Mémé Tortue", "texte": "Et depuis ce jour, plus aucun corbeau n'a eu l'idée de faire la course avec une tortue !", "attenteReponse": false},
+{"type": "didascalie", "texte": "Mémé Tortue et Roi Corbeau se tournent vers les enfants et saluent d'un même mouvement."}
+]}

@@ -1,0 +1,18 @@
+{"elements": [
+  {"type": "entree", "marionnette": "Rosette", "main": "M1G"},
+  {"type": "conteur", "texte": "Il était une fois une petite fille de village, la plus éveillée qu’on ait jamais vue : sa mère l’aimait à la folie, et Mamie Rose plus encore. Cette bonne vieille lui fit faire un petit chaperon rouge qui lui allait si bien, que partout on l’appelait Rosette."},
+  {"type": "conteur", "texte": "Un jour, sa mère, qui venait de cuire des galettes, dit à Rosette d’aller voir comment se porte Mamie Rose, car on lui avait dit qu’elle était malade, et de lui porter une galette et ce petit pot de beurre."},
+  {"type": "didascalie", "texte": "Rosette avance en sautillant, comme si elle marchait dans un bois."},
+  {"type": "entree", "marionnette": "Loup Gris", "main": "M1D"},
+  {"type": "replique", "marionnette": "Loup Gris", "texte": "Où vas-tu ?", "ton": "doucereux, mine de rien"},
+  {"type": "replique", "marionnette": "Rosette", "texte": "Je vais voir Mamie Rose, et lui porter une galette, avec un petit pot de beurre, que ma mère lui envoie.", "ton": "gentille, sans se méfier"},
+  {"type": "replique", "marionnette": "Loup Gris", "texte": "Demeure-t-elle bien loin ?", "ton": "curieux, l’air de rien"},
+  {"type": "replique", "marionnette": "Rosette", "texte": "Oh ! oui, c’est par delà le moulin que vous voyez tout là-bas, à la première maison du village.", "ton": "contente d’expliquer"},
+  {"type": "replique", "marionnette": "Loup Gris", "texte": "Eh bien ! je veux aller la voir aussi : j’y vais par ce chemin-ci, et toi par ce chemin-là ; et nous verrons qui y sera le premier.", "ton": "vif, l’air malin"},
+  {"type": "didascalie", "texte": "Loup Gris se tourne d’un bloc et fonce vers un côté de la scène, le plus vite possible."},
+  {"type": "sortie", "marionnette": "Loup Gris", "main": "M1D"},
+  {"type": "adresse_public", "marionnette": "Rosette", "texte": "Vous avez vu comme Loup Gris est parti vite ? Alors criez-moi : Dépêche-toi, Rosette !", "attenteReponse": true},
+  {"type": "note_marionnettiste", "texte": "Laisser les enfants crier « Dépêche-toi, Rosette ! », puis continuer, quelle que soit leur réponse."},
+  {"type": "didascalie", "texte": "Rosette regarde un instant le chemin par lequel Loup Gris a filé, hausse les épaules, puis repart tranquillement de son côté, sans se presser."},
+  {"type": "sortie", "marionnette": "Rosette", "main": "M1G"}
+]}

@@ -1,0 +1,26 @@
+{
+  "id": "dk-soldat-de-plomb",
+  "langue": [
+    {"avant": "Veux-tu bien garder tes yeux pour toi !", "apres": "Veux-tu bien arrêter de la regarder !", "nature": "mot-rare", "jusqua": 4},
+    {"avant": "Où vais-je arriver maintenant ?", "apres": "Où est-ce que je vais arriver maintenant ?", "nature": "parler", "jusqua": 4},
+    {"avant": "ne pouvait pas la voir du tout", "apres": "ne pouvait pas voir cette jambe du tout", "nature": "pronom", "jusqua": 6},
+    {"avant": "Quelque chose le traversa comme un éclair. La lumière brilla, toute claire, et quelqu'un cria bien fort : « Un soldat de plomb ! » Le poisson avait été pêché, porté au marché, vendu, et il était arrivé dans une cuisine, où la servante l'avait ouvert avec un grand couteau.", "apres": "Le poisson fut pêché, porté au marché, vendu, et il arriva dans une cuisine, où la servante l'ouvrit avec un grand couteau. Quelque chose le traversa comme un éclair. La lumière brilla, toute claire, et quelqu'un cria bien fort : « Un soldat de plomb ! »", "nature": "ordre", "jusqua": 6}
+  ],
+  "moments": [
+    {
+      "id": "le-poele",
+      "type": "mort-gentil",
+      "pourquoi": "La fin est le sens du conte (ADAPTATION.md, « Trois idées », 3) : le soldat qui réchappe du poêle, ou qui en ressort, trahirait Andersen. Aucun niveau ne le sauve ; jusqu'à 8 ans, la fin est gardée hors scène et sans détail, et c'est l'âge minimum de la fiche qu'il faut relever.",
+      "niveaux": [
+        {
+          "jusqua": 8,
+          "annonce": "On ne voit pas le Soldat de plomb et la danseuse brûler : le lendemain, la servante trouve dans les cendres un petit cœur de plomb et la paillette.",
+          "retouches": [
+            {"avant": "et il sentait qu'il fondait ; mais il restait toujours inébranlable", "apres": "et il restait toujours inébranlable"},
+            {"avant": "jusqu'au soldat de plomb, s'enflamma et disparut. Alors le soldat de plomb fondit en une petite boule ; et quand la servante vida les cendres le lendemain, elle le retrouva en forme de petit cœur de plomb. De la danseuse, il ne restait que la paillette, et elle était toute noire, brûlée.", "apres": "jusqu'au soldat de plomb. Et quand la servante vida les cendres le lendemain, elle le retrouva en forme de petit cœur de plomb. De la danseuse, il ne restait que la paillette."}
+          ]
+        }
+      ]
+    }
+  ]
+}

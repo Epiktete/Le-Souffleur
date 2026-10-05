@@ -1,0 +1,1734 @@
+{
+  "id": "ja-issun-boshi--1",
+  "conteId": "ja-issun-boshi",
+  "titre": "Issun-bōshi, le garçon pas plus haut qu’un pouce",
+  "pitch": "{{r1}}, pas plus haut qu’un doigt, part pour Kyōto dans un bateau-bol. Sa farce chasse {{r2}} ; sur une île, il affronte {{r4}} et {{r6}} et découvre un maillet magique.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "garcon",
+      "famille": "enfant",
+      "traits": [
+        "courageux",
+        "coquin",
+        "tenace"
+      ],
+      "voix": "voix claire et vive, d’abord fière puis désolée",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "pas plus haut",
+            "apres": "pas plus haute"
+          },
+          {
+            "id": "pitch",
+            "avant": "il affronte",
+            "apres": "elle affronte"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "grand comme",
+            "apres": "grande comme"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "il l’accompagne",
+            "apres": "elle l’accompagne"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "tout petit",
+            "apres": "toute petite"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "il était si petit, si petit",
+            "apres": "elle était si petite, si petite"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "qu'il n'était vraiment",
+            "apres": "qu'elle n'était vraiment"
+          },
+          {
+            "id": "a1e7:texte",
+            "avant": "un enfant grand",
+            "apres": "une enfant grande"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "grand comme",
+            "apres": "grande comme"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "tout petit",
+            "apres": "toute petite"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "cet enfant",
+            "apres": "cette enfant"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "il était toujours",
+            "apres": "elle était toujours"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "il marchait",
+            "apres": "elle marchait"
+          },
+          {
+            "id": "a1e9:texte",
+            "avant": "autour de lui",
+            "apres": "autour d’elle"
+          },
+          {
+            "id": "a1e13:texte",
+            "avant": "le minus",
+            "apres": "la minus"
+          },
+          {
+            "id": "a1e16:texte",
+            "avant": "de lui",
+            "apres": "d’elle"
+          },
+          {
+            "id": "a1e17:texte",
+            "avant": "avec lui",
+            "apres": "avec elle"
+          },
+          {
+            "id": "a1e18:texte",
+            "avant": "il vint",
+            "apres": "elle vint"
+          },
+          {
+            "id": "a1e23:ton",
+            "avant": "fier",
+            "apres": "fière"
+          },
+          {
+            "id": "a1e28:texte",
+            "avant": "très content",
+            "apres": "très contente"
+          },
+          {
+            "id": "a1e28:texte",
+            "avant": "il partit",
+            "apres": "elle partit"
+          },
+          {
+            "id": "a1e35:texte",
+            "avant": "il n'avait pas le choix : il s'arrêtait",
+            "apres": "elle n'avait pas le choix : elle s'arrêtait"
+          },
+          {
+            "id": "a1e38:texte",
+            "avant": "il arriva",
+            "apres": "elle arriva"
+          },
+          {
+            "id": "a2e3:texte",
+            "avant": "le serviteur",
+            "apres": "la servante"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "il entra",
+            "apres": "elle entra"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "Il marcha",
+            "apres": "Elle marcha"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "il cria",
+            "apres": "elle cria"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "grand comme",
+            "apres": "grande comme"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "tout droit",
+            "apres": "toute droite"
+          },
+          {
+            "id": "a2e16:texte",
+            "avant": "venu de Naniwa",
+            "apres": "venue de Naniwa"
+          },
+          {
+            "id": "a2e17:texte",
+            "avant": "bien petit",
+            "apres": "bien petite"
+          },
+          {
+            "id": "a2e18:texte",
+            "avant": "je suis venu",
+            "apres": "je suis venue"
+          },
+          {
+            "id": "a2e20:texte",
+            "avant": "Quel drôle",
+            "apres": "Quelle drôle"
+          },
+          {
+            "id": "a2e21:texte",
+            "avant": "le garda",
+            "apres": "la garda"
+          },
+          {
+            "id": "a2e23:texte",
+            "avant": "il fut au service",
+            "apres": "elle fut au service"
+          },
+          {
+            "id": "a2e23:texte",
+            "avant": "tout petit qu'il était",
+            "apres": "toute petite qu'elle était"
+          },
+          {
+            "id": "a2e23:texte",
+            "avant": "Il était si malin et si dégourdi",
+            "apres": "Elle était si maligne et si dégourdie"
+          },
+          {
+            "id": "a2e31:texte",
+            "avant": "Vexé, il profita",
+            "apres": "Vexée, elle profita"
+          },
+          {
+            "id": "a2e31:texte",
+            "avant": "il fit en sorte",
+            "apres": "elle fit en sorte"
+          },
+          {
+            "id": "a2e31:texte",
+            "avant": "il alla au milieu du jardin et se mit",
+            "apres": "elle alla au milieu du jardin et se mit"
+          },
+          {
+            "id": "a2e35:texte",
+            "avant": "m'a frappé",
+            "apres": "m'a frappée"
+          },
+          {
+            "id": "a2e41:texte",
+            "avant": "tout désolé",
+            "apres": "toute désolée"
+          },
+          {
+            "id": "a2e42:ton",
+            "avant": "désolé",
+            "apres": "désolée"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "le fait grandir",
+            "apres": "la fait grandir"
+          },
+          {
+            "id": "a3e7:texte",
+            "avant": "gros comme",
+            "apres": "grosse comme"
+          },
+          {
+            "id": "a3e7:texte",
+            "avant": "tout droit",
+            "apres": "toute droite"
+          },
+          {
+            "id": "a3e10:texte",
+            "avant": "avale-le",
+            "apres": "avale-la"
+          },
+          {
+            "id": "a3e24:texte",
+            "avant": "Petit prétentieux",
+            "apres": "Petite prétentieuse"
+          },
+          {
+            "id": "a3e53:texte",
+            "avant": "il grandit",
+            "apres": "elle grandit"
+          },
+          {
+            "id": "a3e58:texte",
+            "avant": "Il se levait",
+            "apres": "Elle se levait"
+          },
+          {
+            "id": "a3e58:texte",
+            "avant": "quand il eut fini",
+            "apres": "quand elle eut fini"
+          },
+          {
+            "id": "a3e58:texte",
+            "avant": "il se souvint",
+            "apres": "elle se souvint"
+          },
+          {
+            "id": "a3e58:texte",
+            "avant": "qu'il n'avait rien mangé",
+            "apres": "qu'elle n'avait rien mangé"
+          },
+          {
+            "id": "a3e62:texte",
+            "avant": "était revenu",
+            "apres": "était revenue"
+          },
+          {
+            "id": "a3e62:texte",
+            "avant": "un jeune adulte",
+            "apres": "une jeune adulte"
+          },
+          {
+            "id": "a3e63:texte",
+            "avant": "le Capitaine de Horikawa",
+            "apres": "la Capitaine de Horikawa"
+          },
+          {
+            "id": "a3e65:ton",
+            "avant": "respectueux",
+            "apres": "respectueuse"
+          },
+          {
+            "id": "a3e67:texte",
+            "avant": "Il l'épousa",
+            "apres": "Elle l'épousa"
+          },
+          {
+            "id": "a3e69:texte",
+            "avant": "Puis il fit venir",
+            "apres": "Puis elle fit venir"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "un enfant",
+            "apres": "une enfant"
+          },
+          {
+            "id": "a1e3:texte",
+            "avant": "pas plus grand",
+            "apres": "pas plus grande"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "pas plus grand",
+            "apres": "pas plus grande"
+          },
+          {
+            "id": "a1e7:texte",
+            "avant": "pas plus grand",
+            "apres": "pas plus grande"
+          },
+          {
+            "id": "a1e28:texte",
+            "avant": "il demanda",
+            "apres": "elle demanda"
+          },
+          {
+            "id": "a1e28:texte",
+            "avant": "le voir partir",
+            "apres": "la voir partir"
+          },
+          {
+            "id": "a3e35:texte",
+            "avant": "contre lui",
+            "apres": "contre elle"
+          },
+          {
+            "id": "a3e55:texte",
+            "avant": "il devint un jeune adulte, beau et grand",
+            "apres": "elle devint une jeune adulte, belle et grande"
+          },
+          {
+            "id": "a3e58:texte",
+            "avant": "maintenant grand, était si heureux, si heureux",
+            "apres": "maintenant grande, était si heureuse, si heureuse"
+          },
+          {
+            "id": "a3e58:texte",
+            "avant": "devant lui",
+            "apres": "devant elle"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "un enfant",
+            "apres": "une enfant"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "un enfant",
+            "apres": "une enfant"
+          },
+          {
+            "id": "a3e20:texte",
+            "avant": "tout entier",
+            "apres": "toute entière"
+          },
+          {
+            "id": "a3e29:texte",
+            "avant": "tout entier",
+            "apres": "toute entière"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a1e6:texte",
+          "avant": "un petit garçon",
+          "gabarit": "{un} {petit|petite} {espece}"
+        },
+        {
+          "id": "a2e20:texte",
+          "avant": "petit garçon",
+          "gabarit": "{petit|petite} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r2",
+      "espece": "fille",
+      "famille": "enfant",
+      "traits": [
+        "gentille",
+        "curieuse",
+        "vive"
+      ],
+      "voix": "voix douce et claire, pressée quand elle appelle {{r1}}",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "a2:resume",
+            "avant": "de la princesse",
+            "apres": "du prince"
+          },
+          {
+            "id": "a2e25:texte",
+            "avant": "une charmante princesse",
+            "apres": "un charmant prince"
+          },
+          {
+            "id": "a2e25:texte",
+            "avant": "elle aussi",
+            "apres": "lui aussi"
+          },
+          {
+            "id": "a2e25:texte",
+            "avant": "elle allait",
+            "apres": "il allait"
+          },
+          {
+            "id": "a2e25:texte",
+            "avant": "elle l'emmenait",
+            "apres": "il l'emmenait"
+          },
+          {
+            "id": "a2e27:ton",
+            "avant": "enjouée",
+            "apres": "enjoué"
+          },
+          {
+            "id": "a2e31:texte",
+            "avant": "endormie",
+            "apres": "endormi"
+          },
+          {
+            "id": "a2e36:texte",
+            "avant": "elle dormait",
+            "apres": "il dormait"
+          },
+          {
+            "id": "a2e36:texte",
+            "avant": "éducation de sa fille",
+            "apres": "éducation de son fils"
+          },
+          {
+            "id": "a2e36:texte",
+            "avant": "à cause de sa fille",
+            "apres": "à cause de son fils"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "épouvantée",
+            "apres": "épouvanté"
+          },
+          {
+            "id": "a3e6:texte",
+            "avant": "cette dame",
+            "apres": "ce monsieur"
+          },
+          {
+            "id": "a3e6:texte",
+            "avant": "la fille de",
+            "apres": "le fils de"
+          },
+          {
+            "id": "a3e43:texte",
+            "avant": "évanouie",
+            "apres": "évanoui"
+          },
+          {
+            "id": "a3e43:texte",
+            "avant": "à elle",
+            "apres": "à lui"
+          },
+          {
+            "id": "a3e44:ton",
+            "avant": "curieuse",
+            "apres": "curieux"
+          },
+          {
+            "id": "a3e52:ton",
+            "avant": "étonnée",
+            "apres": "étonné"
+          },
+          {
+            "id": "a3e54:ton",
+            "avant": "étonnée",
+            "apres": "étonné"
+          },
+          {
+            "id": "a3e56:ton",
+            "avant": "émerveillée",
+            "apres": "émerveillé"
+          },
+          {
+            "id": "a3e62:texte",
+            "avant": "princesse et fille",
+            "apres": "prince et fils"
+          },
+          {
+            "id": "voix:r2",
+            "avant": "quand elle appelle",
+            "apres": "quand il appelle"
+          },
+          {
+            "id": "a2e37:texte",
+            "avant": "emmène-la",
+            "apres": "emmène-le"
+          },
+          {
+            "id": "a3e3:texte",
+            "avant": "la croquer",
+            "apres": "le croquer"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r3",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "impressionnant",
+        "naïf",
+        "colérique"
+      ],
+      "voix": "voix grave, d’abord étonnée puis sévère",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a2:titre",
+            "avant": "le seigneur",
+            "apres": "la seigneure"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "d'un grand ministre",
+            "apres": "d'une grande ministre"
+          },
+          {
+            "id": "a2e4:texte",
+            "avant": "seigneur de la Troisième Avenue",
+            "apres": "seigneure de la Troisième Avenue"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "Étonné, il regarda",
+            "apres": "Étonnée, elle regarda"
+          },
+          {
+            "id": "a2e10:texte",
+            "avant": "était stupéfait",
+            "apres": "était stupéfaite"
+          },
+          {
+            "id": "a2e13:ton",
+            "avant": "stupéfait",
+            "apres": "stupéfaite"
+          },
+          {
+            "id": "a2e21:texte",
+            "avant": "Et il",
+            "apres": "Et elle"
+          },
+          {
+            "id": "a2e36:texte",
+            "avant": "surpris, alla voir",
+            "apres": "surprise, alla voir"
+          },
+          {
+            "id": "a2e36:texte",
+            "avant": "très fâché, appela",
+            "apres": "très fâchée, appela"
+          },
+          {
+            "id": "a2e37:ton",
+            "avant": "très fâché",
+            "apres": "très fâchée"
+          },
+          {
+            "id": "a3e6:texte",
+            "avant": "seigneur de la Troisième Avenue",
+            "apres": "seigneure de la Troisième Avenue"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r4",
+      "espece": "ogre",
+      "famille": "monstre",
+      "traits": [
+        "gourmand",
+        "vantard",
+        "peureux"
+      ],
+      "voix": "voix rocailleuse et forte, finit par trembler",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a3e19:texte",
+            "avant": "Et il se roula",
+            "apres": "Et elle se roula"
+          },
+          {
+            "id": "a3e19:texte",
+            "avant": "il laissa",
+            "apres": "elle laissa"
+          },
+          {
+            "id": "a3e35:ton",
+            "avant": "affolé",
+            "apres": "affolée"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a3e3:texte",
+          "avant": "un ogre",
+          "gabarit": "{un} {espece}"
+        }
+      ]
+    },
+    {
+      "cle": "r5",
+      "espece": "homme",
+      "famille": "adulte",
+      "traits": [
+        "aimant",
+        "prudent",
+        "confiant"
+      ],
+      "voix": "voix basse et chaude, pose ses questions sans se presser",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a1e29:texte",
+            "avant": "Père, mère",
+            "apres": "Mère, mère"
+          },
+          {
+            "id": "a1e7:ton",
+            "avant": "joyeux et étonné",
+            "apres": "joyeuse et étonnée"
+          },
+          {
+            "id": "a1e22:ton",
+            "avant": "surpris",
+            "apres": "surprise"
+          }
+        ]
+      }
+    },
+    {
+      "cle": "r6",
+      "espece": "ogre",
+      "famille": "monstre",
+      "traits": [
+        "bruyant",
+        "peureux"
+      ],
+      "voix": "voix brusque, devient aiguë quand il appelle au secours",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a3e10:ton",
+            "avant": "moqueur",
+            "apres": "moqueuse"
+          },
+          {
+            "id": "a3e24:ton",
+            "avant": "furieux",
+            "apres": "furieuse"
+          },
+          {
+            "id": "a3e31:ton",
+            "avant": "épouvanté",
+            "apres": "épouvantée"
+          },
+          {
+            "id": "a3e28:texte",
+            "avant": "Il fit un bond",
+            "apres": "Elle fit un bond"
+          },
+          {
+            "id": "a3e37:texte",
+            "avant": "le suivit",
+            "apres": "la suivit"
+          },
+          {
+            "id": "voix:r6",
+            "avant": "quand il appelle",
+            "apres": "quand elle appelle"
+          }
+        ]
+      },
+      "especeMentions": [
+        {
+          "id": "a3e3:texte",
+          "avant": "un autre ogre",
+          "gabarit": "{un} autre {espece}"
+        }
+      ]
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 22,
+    "ageAuditoire": 4,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La maison de Naniwa et la rivière",
+      "description": "Un coussin figure la maison. Un torchon bleu au fond suggère la rivière ; le bol, les baguettes et l’aiguille existent par le récit, sans accessoire tenu. Un espace libre permet de faire avancer la petite peluche.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "La demeure de la Troisième Avenue",
+      "description": "Un carton immobile figure le portail, un coussin la chambre de {{r2}}. La même table sert de jardin et de véranda ; les gâteaux et les miettes restent racontés, sans rien placer sur les peluches.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t3",
+      "titre": "L’île, puis le retour",
+      "description": "Le torchon bleu rappelle la mer et un coussin figure l’île. {{r4}} et {{r6}} paraissent à tour de rôle. Le maillet, la nourriture et les trésors restent dans les mots ; le changement de taille de {{r1}} est annoncé après une sortie et joué avec la même peluche.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "La naissance et le départ",
+      "resume": "{{r5}} et sa femme prient pour un enfant. {{r1}} naît grand comme un doigt, subit les moqueries puis part à seize ans dans son bateau-bol pour Kyōto.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Il y avait autrefois, à Naniwa, dans la province de Settsu, {{r5}} et sa femme. Comme le couple n'avait pas d'enfant, il allait prier le dieu du sanctuaire de Sumiyoshi :"
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e3",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "S'il vous plaît, accordez-nous un enfant. Même tout petit, pas plus grand qu'un doigt."
+        },
+        {
+          "id": "a1e4",
+          "type": "conteur",
+          "texte": "Et bientôt, la femme attendit un enfant."
+        },
+        {
+          "id": "a1e5",
+          "type": "note_marionnettiste",
+          "texte": "Voix de la mère de {{r1}}, en coulisse : « Notre prière a été exaucée ! »"
+        },
+        {
+          "id": "a1e6",
+          "type": "conteur",
+          "texte": "Et le couple, tout heureux, attendait jour après jour la naissance. Enfin, la femme mit au monde un petit garçon. Mais il était si petit, si petit, qu'il n'était vraiment pas plus grand qu'un doigt."
+        },
+        {
+          "id": "a1e7",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Nous avons dit « même pas plus grand qu’un doigt », et le dieu nous a vraiment donné un enfant grand comme un doigt !",
+          "ton": "joyeux et étonné"
+        },
+        {
+          "id": "a1e8",
+          "type": "adresse_public",
+          "marionnetteId": "r5",
+          "texte": "Dites avec moi : grand comme un doigt, tout petit !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e9",
+          "type": "conteur",
+          "texte": "Le couple en rit, et éleva cet enfant avec amour. Mais l'enfant, même en grandissant, ne dépassa jamais la taille d'un doigt. Le couple s'y résigna, et lui donna le nom de {{r1}}. À cinq ans, {{r1}} n'avait pas grandi. À sept ans, pareil. À plus de dix ans, il était toujours {{r1}}. Quand il marchait dans la rue, les enfants du voisinage se rassemblaient autour de lui :"
+        },
+        {
+          "id": "a1e10",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e11",
+          "type": "didascalie",
+          "texte": "Une courte pause laisse le temps de changer de peluche."
+        },
+        {
+          "id": "a1e12",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e13",
+          "type": "note_marionnettiste",
+          "texte": "Voix d'un enfant du voisinage, en coulisse : « Oh, voilà le minus qui marche ! »"
+        },
+        {
+          "id": "a1e14",
+          "type": "note_marionnettiste",
+          "texte": "Voix d'un autre enfant du voisinage, en coulisse : « Fais attention de ne pas te faire écraser ! »"
+        },
+        {
+          "id": "a1e15",
+          "type": "note_marionnettiste",
+          "texte": "Voix des enfants du voisinage, en coulisse : « Minus ! Minus ! »"
+        },
+        {
+          "id": "a1e16",
+          "type": "conteur",
+          "texte": "Et ils se moquaient de lui. {{r1}}, sans rien dire, demeurait de bonne humeur."
+        },
+        {
+          "id": "a1e17",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Vous voyez {{r1}} avancer malgré les moqueries ? Faites trois petits pas avec lui.",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e18",
+          "type": "conteur",
+          "texte": "{{r1}} eut seize ans. Un jour, il vint devant {{r5}} et sa mère et dit :"
+        },
+        {
+          "id": "a1e19",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e20",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "S'il vous plaît, laissez-moi partir."
+        },
+        {
+          "id": "a1e21",
+          "type": "didascalie",
+          "texte": "{{r5}} se tourne vers {{r1}}."
+        },
+        {
+          "id": "a1e22",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Pourquoi dis-tu cela ?",
+          "ton": "surpris"
+        },
+        {
+          "id": "a1e23",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je pense monter à la capitale, à Kyōto.",
+          "ton": "fier"
+        },
+        {
+          "id": "a1e24",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Et que feras-tu à Kyōto ?"
+        },
+        {
+          "id": "a1e25",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Kyōto, c'est la plus grande ville du Japon, où habite l'Empereur, et il y a beaucoup de choses intéressantes à faire. Je veux aller y tenter ma chance."
+        },
+        {
+          "id": "a1e26",
+          "type": "didascalie",
+          "texte": "{{r5}} s’incline une fois de tout son corps."
+        },
+        {
+          "id": "a1e27",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Bon, bon, alors vas-y."
+        },
+        {
+          "id": "a1e28",
+          "type": "conteur",
+          "texte": "{{r1}}, très content, fit aussitôt ses préparatifs de voyage. D’abord, il demanda une aiguille à coudre à sa mère. Cette aiguille devint son sabre, muni d’une poignée et d’un fourreau en paille de blé, à sa ceinture. Un bol à soupe neuf lui servit de bateau, une paire de baguettes neuves lui servit de rames, et il partit de la plage de Sumiyoshi. {{r5}} et la mère de {{r1}} vinrent jusqu'à la plage pour le voir partir."
+        },
+        {
+          "id": "a1e29",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Père, mère, je m’en vais."
+        },
+        {
+          "id": "a1e30",
+          "type": "conteur",
+          "texte": "Et comme le bateau se mettait à avancer, {{r5}} et la mère de {{r1}} dirent :"
+        },
+        {
+          "id": "a1e31",
+          "type": "replique",
+          "marionnetteId": "r5",
+          "texte": "Porte-toi bien,"
+        },
+        {
+          "id": "a1e32",
+          "type": "note_marionnettiste",
+          "texte": "Voix de la mère de {{r1}}, en coulisse : « et réussis dans la vie. »"
+        },
+        {
+          "id": "a1e33",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oui, je réussirai, c'est promis."
+        },
+        {
+          "id": "a1e34",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e35",
+          "type": "conteur",
+          "texte": "Le bateau-bol remonta petit à petit, chaque jour, la rivière Yodo. Mais comme le bateau était petit, dès que le vent soufflait un peu fort ou que la pluie faisait monter l'eau, il manquait souvent de chavirer. Alors, il n'avait pas le choix : il s'arrêtait pour se reposer entre les pierres d'un mur, ou à l'abri d'un pilier de pont."
+        },
+        {
+          "id": "a1e36",
+          "type": "didascalie",
+          "texte": "{{r1}} tremble légèrement pendant une rafale soufflée par le parent."
+        },
+        {
+          "id": "a1e37",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Soufflez doucement comme le vent sur la rivière Yodo.",
+          "attenteReponse": false
+        },
+        {
+          "id": "a1e38",
+          "type": "conteur",
+          "texte": "Ainsi, au bout d'un mois, il arriva enfin à Toba, près de Kyōto. En débarquant à Toba, la ville de Kyōto était tout près. Les rues animées se succédaient, les chevaux et les voitures passaient sans arrêt, et il y avait une foule immense."
+        },
+        {
+          "id": "a1e39",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "C'est bien vrai que Kyōto est la plus grande ville du Japon : quelle animation !"
+        },
+        {
+          "id": "a1e40",
+          "type": "conteur",
+          "texte": "{{r1}}, en évitant les semelles des sabots des passants, ne cessait de s'émerveiller."
+        },
+        {
+          "id": "a1e41",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Chez le seigneur de la Troisième Avenue",
+      "resume": "{{r1}} entre au service de {{r3}} et devient proche de {{r2}}. Sa farce mensongère provoque l’exil de la princesse ; il l’accompagne en mer.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "Dans la troisième avenue, parmi de nombreuses belles demeures, il y en avait une au portail plus magnifique que toutes les autres. {{r1}} pensa :"
+        },
+        {
+          "id": "a2e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e3",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Pour réussir, il faut d'abord devenir le serviteur de quelqu'un d'important, et monter peu à peu. Ce doit être la maison de la personne la plus importante."
+        },
+        {
+          "id": "a2e4",
+          "type": "conteur",
+          "texte": "Et il entra tranquillement par le portail. Il marcha longtemps sur la grande allée de gravier, et se planta devant l'entrée. C'était en effet la maison d'un grand ministre, {{r3}}, seigneur de la Troisième Avenue."
+        },
+        {
+          "id": "a2e5",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Il y a quelqu'un ?"
+        },
+        {
+          "id": "a2e6",
+          "type": "conteur",
+          "texte": "Mais on ne l'entendit pas, personne ne vint ; alors il cria encore plus fort :"
+        },
+        {
+          "id": "a2e7",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Il y a quelqu'un ?",
+          "ton": "plus fort"
+        },
+        {
+          "id": "a2e8",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Appelez une fois avec {{r1}} : « Il y a quelqu’un ? »",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e9",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Il y a quelqu'un ?",
+          "ton": "de toutes ses forces"
+        },
+        {
+          "id": "a2e10",
+          "type": "conteur",
+          "texte": "À la troisième fois, {{r3}}, qui justement arrivait à l'entrée pour sortir, entendit la voix et vint voir. Mais il n'y avait personne à l'entrée. Étonné, il regarda partout : à l'ombre des sabots rangés devant la porte, {{r1}}, grand comme un grain de haricot, se tenait tout droit. {{r3}} était stupéfait."
+        },
+        {
+          "id": "a2e11",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e12",
+          "type": "didascalie",
+          "texte": "{{r3}} se penche vers {{r1}}."
+        },
+        {
+          "id": "a2e13",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "C'est toi qui appelais ?",
+          "ton": "stupéfait"
+        },
+        {
+          "id": "a2e14",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Oui, c'est moi."
+        },
+        {
+          "id": "a2e15",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Qui es-tu ?"
+        },
+        {
+          "id": "a2e16",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je suis {{r1}}, venu de Naniwa."
+        },
+        {
+          "id": "a2e17",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "En effet, tu es bien petit comme un pouce. Et que viens-tu faire chez moi ?"
+        },
+        {
+          "id": "a2e18",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je voudrais réussir dans la vie, et je suis venu exprès à Kyōto. Je travaillerai de toutes mes forces : s’il vous plaît, prenez-moi à votre service."
+        },
+        {
+          "id": "a2e19",
+          "type": "didascalie",
+          "texte": "{{r1}} s’incline."
+        },
+        {
+          "id": "a2e20",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Quel drôle de petit garçon. Bon, bon, je te prends.",
+          "ton": "en riant"
+        },
+        {
+          "id": "a2e21",
+          "type": "conteur",
+          "texte": "Et il le garda dans sa demeure."
+        },
+        {
+          "id": "a2e22",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e23",
+          "type": "conteur",
+          "texte": "À partir du jour où il fut au service de {{r3}}, {{r1}}, tout petit qu'il était, travailla avec beaucoup de zèle. Il était si malin et si dégourdi que tout le monde l'aimait bien, et l'appelait :"
+        },
+        {
+          "id": "a2e24",
+          "type": "note_marionnettiste",
+          "texte": "Voix de la maisonnée, en coulisse : « {{r1}}, {{r1}} ! »"
+        },
+        {
+          "id": "a2e25",
+          "type": "conteur",
+          "texte": "Dans cette demeure, il y avait {{r2}}, une charmante princesse de treize ans. {{r1}} l'adorait. {{r2}}, elle aussi, aimait beaucoup {{r1}}, et partout où elle allait, elle l'emmenait en disant :"
+        },
+        {
+          "id": "a2e26",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e27",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "{{r1}} ! {{r1}} !",
+          "ton": "enjouée"
+        },
+        {
+          "id": "a2e28",
+          "type": "conteur",
+          "texte": "Leur amitié devint de plus en plus forte ; mais c'étaient encore des enfants, comme deux camarades : parfois les disputes et les farces alternaient avec les pleurs et les rires."
+        },
+        {
+          "id": "a2e29",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Appelez {{r1}} comme {{r2}} : « {{r1}} ! {{r1}} ! »",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e30",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e31",
+          "type": "conteur",
+          "texte": "Un jour, une nouvelle dispute éclata, et c'est {{r1}} qui perdit. Vexé, il profita de ce que {{r2}} faisait la sieste et mangea tous les gâteaux que {{r3}} lui avait donnés. Puis il fit en sorte que des miettes restent autour de la bouche de {{r2}} endormie. Le sac de gâteaux était vide ; il alla au milieu du jardin et se mit exprès à pleurer très fort. {{r3}}, l'entendant, sortit sur la véranda."
+        },
+        {
+          "id": "a2e32",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e33",
+          "type": "didascalie",
+          "texte": "{{r3}} se tourne vers {{r1}}."
+        },
+        {
+          "id": "a2e34",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "{{r1}}, qu'y a-t-il ? Qu'y a-t-il ?"
+        },
+        {
+          "id": "a2e35",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "{{r2}} m'a frappé, et m'a pris tous les gâteaux que vous m'aviez donnés, et les a mangés.",
+          "ton": "d’une voix très triste, en mentant"
+        },
+        {
+          "id": "a2e36",
+          "type": "conteur",
+          "texte": "{{r3}}, surpris, alla voir dans la chambre de {{r2}} : elle dormait, la bouche pleine de miettes de gâteaux. {{r3}}, très fâché, appela la mère de {{r2}} et la gronda sévèrement pour la mauvaise éducation de sa fille. Or cette dame, qui avait un peu mauvais caractère, fut très vexée d'être grondée à cause de sa fille ; et pour se venger, elle inventa toutes sortes de choses fausses sur la mauvaise conduite de {{r2}}."
+        },
+        {
+          "id": "a2e37",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Chasse {{r2}} de la maison et emmène-la loin.",
+          "ton": "très fâché"
+        },
+        {
+          "id": "a2e38",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e39",
+          "type": "didascalie",
+          "texte": "Une courte pause laisse le temps de changer de peluche."
+        },
+        {
+          "id": "a2e40",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e41",
+          "type": "conteur",
+          "texte": "{{r1}}, voyant que sa farce avait fait chasser {{r2}}, en fut tout désolé."
+        },
+        {
+          "id": "a2e42",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je vais t'accompagner jusqu'au bout du monde ; pour commencer, chez mes parents à Naniwa.",
+          "ton": "désolé"
+        },
+        {
+          "id": "a2e43",
+          "type": "conteur",
+          "texte": "Un bateau partit de Toba avec {{r1}} et {{r2}}. Mais bientôt, une terrible tempête éclata : le bateau fut emporté par le courant jusqu'à la mer, puis poussé par le vent. Le voyage dura trois jours et trois nuits sur les vagues, et le quatrième jour, leur bateau arriva à une île."
+        },
+        {
+          "id": "a2e44",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r2}} se balancent ensemble, lentement, puis s’immobilisent."
+        },
+        {
+          "id": "a2e45",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Comptez trois nuits de tempête avec moi : une, deux, trois !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e46",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e47",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "{{r4}}, {{r6}} et le maillet magique",
+      "resume": "Sur l’île, {{r1}} protège {{r2}} de {{r4}} et {{r6}}. Le maillet le fait grandir ; les trésors les ramènent au Japon, où l’Empereur lui donne un titre et où la famille se retrouve.",
+      "tableauId": "t3",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e2",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e3",
+          "type": "conteur",
+          "texte": "Sur cette île, il y avait une foule de fleurs et d'arbres étranges, dont on n'avait jamais entendu parler, et on ne voyait aucune trace d'habitants. {{r1}} débarqua avec {{r2}} et, en regardant partout, avança dans l'île. Alors {{r4}}, un ogre, et {{r6}}, un autre ogre, surgirent tout à coup on ne sait d'où et se jetèrent sur {{r2}} pour la croquer d'une bouchée. {{r2}}, épouvantée, s'évanouit."
+        },
+        {
+          "id": "a3e4",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e5",
+          "type": "conteur",
+          "texte": "En voyant cela, {{r1}} bondit devant {{r4}} et {{r6}}. Son sabre-aiguille brillait. Et de toute la force de sa voix, {{r1}} cria :"
+        },
+        {
+          "id": "a3e6",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Hé là ! Savez-vous qui est cette dame ? C’est la fille de {{r3}}, seigneur de la Troisième Avenue ! Si vous lui manquez de respect, vous aurez affaire à {{r1}} !",
+          "ton": "de toute la force de sa voix"
+        },
+        {
+          "id": "a3e7",
+          "type": "conteur",
+          "texte": "En entendant cette voix, {{r4}} et {{r6}} regardèrent : à leurs pieds, {{r1}}, gros comme un grain de haricot, se tenait tout droit. {{r4}} et {{r6}} éclatèrent de rire :"
+        },
+        {
+          "id": "a3e8",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e9",
+          "type": "didascalie",
+          "texte": "{{r6}} se penche vers {{r1}} et recule."
+        },
+        {
+          "id": "a3e10",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Quoi ? Ce grain de haricot ? Pas la peine de s'embêter, avale-le !",
+          "ton": "moqueur"
+        },
+        {
+          "id": "a3e11",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites le bruit de la petite aiguille de {{r1}} : « pic, pic ! »",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e12",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e13",
+          "type": "didascalie",
+          "texte": "Une courte pause laisse le temps de changer de peluche."
+        },
+        {
+          "id": "a3e14",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e15",
+          "type": "didascalie",
+          "texte": "{{r1}} descend au ras de la table, près de {{r4}}. La peluche reste sur la main gauche : ses déplacements représentent la course dans le ventre racontée ensuite."
+        },
+        {
+          "id": "a3e16",
+          "type": "conteur",
+          "texte": "Et aussitôt, {{r4}} avala {{r1}} d'un coup. {{r1}} glissa jusqu'au ventre de {{r4}}. Une fois dedans, {{r1}} courut dans tous les sens ; son sabre-aiguille piqua partout, pic, pic. {{r4}}, qui n'en pouvait plus, cria :"
+        },
+        {
+          "id": "a3e17",
+          "type": "didascalie",
+          "texte": "{{r4}} tremble et bondit sur place."
+        },
+        {
+          "id": "a3e18",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "Aïe ! Aïe ! C’est insupportable !",
+          "ton": "douleur"
+        },
+        {
+          "id": "a3e19",
+          "type": "conteur",
+          "texte": "Et il se roula par terre. Et, au moment de reprendre son souffle, il laissa {{r1}} ressortir d'un bond. {{r1}} se jeta de nouveau sur {{r4}} ; son sabre-aiguille brillait."
+        },
+        {
+          "id": "a3e20",
+          "type": "didascalie",
+          "texte": "{{r1}} bondit tout entier vers le haut, puis avance vers {{r4}}."
+        },
+        {
+          "id": "a3e21",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e22",
+          "type": "didascalie",
+          "texte": "Une courte pause laisse le temps de changer de peluche."
+        },
+        {
+          "id": "a3e23",
+          "type": "entree",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e24",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Petit prétentieux !",
+          "ton": "furieux"
+        },
+        {
+          "id": "a3e25",
+          "type": "didascalie",
+          "texte": "{{r1}} descend au ras de la table, près de {{r6}}. La même main gauche continue de l’animer pendant le récit de son passage de la gorge au nez et derrière les yeux."
+        },
+        {
+          "id": "a3e26",
+          "type": "conteur",
+          "texte": "Et {{r6}} l'avala à son tour d'un coup. Pendant qu'on l'avalait, {{r1}}, cette fois, bondit agilement de la gorge au nez, puis grimpa derrière les yeux, et son sabre-aiguille piqua l'œil de {{r6}}. {{r6}} cria :"
+        },
+        {
+          "id": "a3e27",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Aïe !",
+          "ton": "de douleur"
+        },
+        {
+          "id": "a3e28",
+          "type": "conteur",
+          "texte": "Il fit un bond ; au même moment, {{r1}} sauta de son œil jusqu'à terre."
+        },
+        {
+          "id": "a3e29",
+          "type": "didascalie",
+          "texte": "{{r1}} bondit tout entier loin de {{r6}} et se pose sur la table."
+        },
+        {
+          "id": "a3e30",
+          "type": "conteur",
+          "texte": "{{r6}}, croyant que son œil lui était sorti de la tête, s'écria :"
+        },
+        {
+          "id": "a3e31",
+          "type": "replique",
+          "marionnetteId": "r6",
+          "texte": "Au secours ! Au secours !",
+          "ton": "épouvanté"
+        },
+        {
+          "id": "a3e32",
+          "type": "sortie",
+          "marionnetteId": "r6",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e33",
+          "type": "conteur",
+          "texte": "Et {{r6}} s’enfuit sans se retourner."
+        },
+        {
+          "id": "a3e34",
+          "type": "entree",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e35",
+          "type": "replique",
+          "marionnetteId": "r4",
+          "texte": "On ne peut rien contre lui ! Fuyons, fuyons !",
+          "ton": "affolé"
+        },
+        {
+          "id": "a3e36",
+          "type": "sortie",
+          "marionnetteId": "r4",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e37",
+          "type": "conteur",
+          "texte": "Et {{r4}} le suivit."
+        },
+        {
+          "id": "a3e38",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Ha ha ! Vous êtes bien lâches !"
+        },
+        {
+          "id": "a3e39",
+          "type": "conteur",
+          "texte": "{{r1}} regarda {{r4}} et {{r6}} s’enfuir avec satisfaction :"
+        },
+        {
+          "id": "a3e40",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Eh bien, nous l'avons échappé belle."
+        },
+        {
+          "id": "a3e41",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Vous pouvez souffler avec {{r1}} : « Ouf ! »",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e42",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e43",
+          "type": "conteur",
+          "texte": "Et {{r1}} soigna gentiment {{r2}} évanouie. Quand {{r2}} revint tout à fait à elle et voulut se lever, un petit maillet roula de l'ourlet de sa robe."
+        },
+        {
+          "id": "a3e44",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Tiens, qu'est-ce que c'est que ça ?",
+          "ton": "curieuse"
+        },
+        {
+          "id": "a3e45",
+          "type": "conteur",
+          "texte": "{{r2}} aperçut le maillet. {{r1}} le reconnut et dit :"
+        },
+        {
+          "id": "a3e46",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "C'est le maillet magique que {{r4}} et {{r6}} ont oublié. Quand on le secoue, on obtient tout ce qu'on désire. Regardez : je vais tout de suite me faire grandir."
+        },
+        {
+          "id": "a3e47",
+          "type": "conteur",
+          "texte": "Le maillet magique répondit à la formule de {{r1}} :"
+        },
+        {
+          "id": "a3e48",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Grandis, {{r1}} ! Deviens de taille ordinaire !"
+        },
+        {
+          "id": "a3e49",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e50",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Comptez avec {{r2}} les trois secousses du maillet : un, deux, trois !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e51",
+          "type": "conteur",
+          "texte": "À la première secousse, {{r1}} grandit d’un pied."
+        },
+        {
+          "id": "a3e52",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Oh ! Oh !",
+          "ton": "étonnée"
+        },
+        {
+          "id": "a3e53",
+          "type": "conteur",
+          "texte": "À la deuxième secousse, il grandit de trois pieds."
+        },
+        {
+          "id": "a3e54",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Oh ! Oh !",
+          "ton": "plus étonnée"
+        },
+        {
+          "id": "a3e55",
+          "type": "conteur",
+          "texte": "À la troisième secousse, il devint un jeune adulte, beau et grand, de presque six pieds."
+        },
+        {
+          "id": "a3e56",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Oh ! Oh !",
+          "ton": "émerveillée"
+        },
+        {
+          "id": "a3e57",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e58",
+          "type": "conteur",
+          "texte": "{{r1}}, maintenant grand, était si heureux, si heureux ! Il se levait, se baissait, se retournait, regardait devant lui, contemplait son corps comme une chose nouvelle. Mais quand il eut fini de se regarder, il se souvint tout à coup qu'il n'avait rien mangé depuis trois jours et trois nuits. Alors le maillet magique fit sortir plus de bonnes choses qu'on ne pouvait en manger, et {{r1}} les partagea gentiment avec {{r2}}."
+        },
+        {
+          "id": "a3e59",
+          "type": "conteur",
+          "texte": "Après le repas, le maillet fit sortir de l'or, de l'argent, du corail, du lapis-lazuli, de l'agate, toutes sortes de trésors. Et pour finir, il fit sortir un grand bateau ; tous les trésors y furent chargés. {{r1}} et {{r2}} y montèrent et revinrent bientôt au Japon."
+        },
+        {
+          "id": "a3e60",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Dites les trésors qui brillent : or, argent, corail !",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e61",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e62",
+          "type": "conteur",
+          "texte": "La rumeur se répandit aussitôt que {{r1}} était revenu de l'île de {{r4}} et {{r6}} avec {{r2}}, princesse et fille de {{r3}}, et des trésors, et elle parvint jusqu'aux oreilles de l'Empereur. L'Empereur fit venir {{r1}} : c'était en effet un jeune adulte à l'allure noble. Pensant que ce n'était pas n'importe qui, il fit rechercher ses ancêtres : on découvrit que le grand-père de {{r1}} était un grand seigneur, chassé à la campagne pour un crime qu'il n'avait pas commis, et que sa mère aussi descendait d'une grande famille."
+        },
+        {
+          "id": "a3e63",
+          "type": "conteur",
+          "texte": "L'Empereur donna aussitôt un titre à {{r1}}, qu'on appela désormais le Capitaine de Horikawa."
+        },
+        {
+          "id": "a3e64",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e65",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Je demande officiellement la main de {{r2}}.",
+          "ton": "respectueux"
+        },
+        {
+          "id": "a3e66",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e67",
+          "type": "conteur",
+          "texte": "Il l'épousa."
+        },
+        {
+          "id": "a3e68",
+          "type": "entree",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e69",
+          "type": "conteur",
+          "texte": "Puis il fit venir de Naniwa {{r5}} et la mère de {{r1}}, et toute la famille réunie vécut heureuse."
+        },
+        {
+          "id": "a3e70",
+          "type": "sortie",
+          "marionnetteId": "r5",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e71",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "ja-issun-boshi",
+    "synopsis": {
+      "accroche": "{{r1}}, de la taille d’un doigt, reçoit le titre de Capitaine de Horikawa.",
+      "resume": [
+        "{{r1}} naît à Naniwa et part à seize ans pour Kyōto.",
+        "{{r1}} sert {{r3}} ; une farce mensongère exile {{r2}}, que {{r1}} accompagne.",
+        "{{r4}} et {{r6}} les attaquent ; le maillet magique grandit {{r1}} et fait paraître nourriture, trésors et bateau.",
+        "L’Empereur découvre sa lignée, lui donne un titre ; {{r1}} épouse {{r2}} et ramène ses parents."
+      ]
+    },
+    "transposition": {
+      "texte": "Il y avait autrefois, à Naniwa, dans la province de Settsu, {{r5}} et sa femme. Comme le couple n'avait pas d'enfant, il allait prier le dieu du sanctuaire de Sumiyoshi :\n\n— S'il vous plaît, accordez-nous un enfant. Même tout petit, pas plus grand qu'un doigt.\n\nEt bientôt, la femme attendit un enfant.\n\n— Notre prière a été exaucée !\n\nEt le couple, tout heureux, attendait jour après jour la naissance. Enfin, la femme mit au monde un petit garçon. Mais il était si petit, si petit, qu'il n'était vraiment pas plus grand qu'un doigt.\n\n— Nous avons dit « même pas plus grand qu'un doigt », et le dieu nous a vraiment donné un enfant grand comme un doigt !\n\nLe couple en rit, et éleva cet enfant avec amour. Mais l'enfant, même en grandissant, ne dépassa jamais la taille d'un doigt. Le couple s'y résigna, et lui donna le nom de {{r1}}. À cinq ans, {{r1}} n'avait pas grandi. À sept ans, pareil. À plus de dix ans, il était toujours {{r1}}. Quand il marchait dans la rue, les enfants du voisinage se rassemblaient autour de lui :\n\n— Oh, voilà le minus qui marche !\n\n— Fais attention de ne pas te faire écraser !\n\n— Minus ! Minus !\n\nEt ils se moquaient de lui. {{r1}}, sans rien dire, demeurait de bonne humeur.\n\n{{r1}} eut seize ans. Un jour, il vint devant {{r5}} et sa mère et dit :\n\n— S'il vous plaît, laissez-moi partir.\n\n{{r5}}, surpris, lui demanda :\n\n— Pourquoi dis-tu cela ?\n\n{{r1}}, l'air fier, dit :\n\n— Je pense monter à la capitale, à Kyōto.\n\n— Et que feras-tu à Kyōto ?\n\n— Kyōto, c'est la plus grande ville du Japon, où habite l'Empereur, et il y a beaucoup de choses intéressantes à faire. Je veux aller y tenter ma chance.\n\nÀ ces mots, {{r5}} acquiesça :\n\n— Bon, bon, alors vas-y.\n\n{{r1}}, très content, fit aussitôt ses préparatifs de voyage. D’abord, il demanda une aiguille à coudre à sa mère. Cette aiguille devint son sabre, muni d’une poignée et d’un fourreau en paille de blé, à sa ceinture. Un bol à soupe neuf lui servit de bateau, une paire de baguettes neuves lui servit de rames, et il partit de la plage de Sumiyoshi. {{r5}} et la mère de {{r1}} vinrent jusqu'à la plage pour le voir partir.\n\n— Père, mère, je m'en vais.\n\nEt comme le bateau se mettait à avancer, {{r5}} et la mère de {{r1}} dirent :\n\n— Porte-toi bien, et réussis dans la vie.\n\n— Oui, je réussirai, c'est promis, répondit {{r1}}.\n\nLe bateau-bol remonta petit à petit, chaque jour, la rivière Yodo. Mais comme le bateau était petit, dès que le vent soufflait un peu fort ou que la pluie faisait monter l'eau, il manquait souvent de chavirer. Alors, il n'avait pas le choix : il s'arrêtait pour se reposer entre les pierres d'un mur, ou à l'abri d'un pilier de pont.\n\nAinsi, au bout d'un mois, il arriva enfin à Toba, près de Kyōto. En débarquant à Toba, la ville de Kyōto était tout près. Les rues animées se succédaient, les chevaux et les voitures passaient sans arrêt, et il y avait une foule immense.\n\n— C'est bien vrai que Kyōto est la plus grande ville du Japon : quelle animation !\n\n{{r1}}, en évitant les semelles des sabots des passants, ne cessait de s'émerveiller.\n\nDans la troisième avenue, parmi de nombreuses belles demeures, il y en avait une au portail plus magnifique que toutes les autres. {{r1}} pensa :\n\n« Pour réussir, il faut d’abord devenir le serviteur de quelqu’un d’important, et monter peu à peu. Ce doit être la maison de la personne la plus importante. »\n\nEt il entra tranquillement par le portail. Il marcha longtemps sur la grande allée de gravier, et se planta devant l'entrée. C'était en effet la maison d'un grand ministre, {{r3}}, seigneur de la Troisième Avenue.\n\nAlors {{r1}} cria de toutes ses forces :\n\n— Il y a quelqu'un ?\n\nMais on ne l'entendit pas, personne ne vint ; alors il cria encore plus fort :\n\n— Il y a quelqu'un ?\n\n— Il y a quelqu'un ?\n\nÀ la troisième fois, {{r3}}, qui justement arrivait à l'entrée pour sortir, entendit la voix et vint voir. Mais il n'y avait personne à l'entrée. Étonné, il regarda partout : à l'ombre des sabots rangés devant la porte, {{r1}}, grand comme un grain de haricot, se tenait tout droit. {{r3}} était stupéfait.\n\n— C'est toi qui appelais ?\n\n— Oui, c'est moi.\n\n— Qui es-tu ?\n\n— Je suis {{r1}}, venu de Naniwa.\n\n— En effet, tu es bien petit comme un pouce. Et que viens-tu faire chez moi ?\n\n— Je voudrais réussir dans la vie, et je suis venu exprès à Kyōto. Je travaillerai de toutes mes forces : s'il vous plaît, prenez-moi à votre service.\n\nEt {{r1}} fit une petite révérence. {{r3}}, en riant, dit :\n\n— Quel drôle de petit garçon. Bon, bon, je te prends.\n\nEt il le garda dans sa demeure.\n\nÀ partir du jour où il fut au service de {{r3}}, {{r1}}, tout petit qu'il était, travailla avec beaucoup de zèle. Il était si malin et si dégourdi que tout le monde l'aimait bien, et l'appelait : « {{r1}}, {{r1}} ! »\n\nDans cette demeure, il y avait {{r2}}, une charmante princesse de treize ans. {{r1}} l'adorait. {{r2}}, elle aussi, aimait beaucoup {{r1}}, et partout où elle allait, elle l'emmenait en disant : « {{r1}} ! {{r1}} ! » Leur amitié devint de plus en plus forte ; mais c'étaient encore des enfants, comme deux camarades : parfois les disputes et les farces alternaient avec les pleurs et les rires.\n\nUn jour, une nouvelle dispute éclata, et c'est {{r1}} qui perdit. Vexé, il profita de ce que {{r2}} faisait la sieste et mangea tous les gâteaux que {{r3}} lui avait donnés. Puis il fit en sorte que des miettes restent autour de la bouche de {{r2}} endormie. Le sac de gâteaux était vide ; il alla au milieu du jardin et se mit exprès à pleurer très fort. {{r3}}, l'entendant, sortit sur la véranda.\n\n— {{r1}}, qu'y a-t-il ? Qu'y a-t-il ?\n\nAlors {{r1}}, d'une voix très triste, dit :\n\n— {{r2}} m'a frappé, et m'a pris tous les gâteaux que vous m'aviez donnés, et les a mangés.\n\n{{r3}}, surpris, alla voir dans la chambre de {{r2}} : elle dormait, la bouche pleine de miettes de gâteaux. {{r3}}, très fâché, appela la mère de {{r2}} et la gronda sévèrement pour la mauvaise éducation de sa fille. Or cette dame, qui avait un peu mauvais caractère, fut très vexée d'être grondée à cause de sa fille ; et pour se venger, elle inventa toutes sortes de choses fausses sur la mauvaise conduite de {{r2}}. {{r3}} se fâcha encore plus, et ordonna à {{r1}} de chasser {{r2}} de la maison et de l'emmener loin.\n\n{{r1}}, voyant que sa farce avait fait chasser {{r2}}, en fut tout désolé. Il décida de l'accompagner jusqu'au bout du monde, et pour commencer, de l'emmener chez ses parents à Naniwa. Un bateau partit de Toba avec {{r1}} et {{r2}}. Mais bientôt, une terrible tempête éclata : le bateau fut emporté par le courant jusqu'à la mer, puis poussé par le vent. Le voyage dura trois jours et trois nuits sur les vagues, et le quatrième jour, leur bateau arriva à une île.\n\nSur cette île, il y avait une foule de fleurs et d'arbres étranges, dont on n'avait jamais entendu parler, et on ne voyait aucune trace d'habitants. {{r1}} débarqua avec {{r2}} et, en regardant partout, avança dans l'île. Alors {{r4}}, un ogre, et {{r6}}, un autre ogre, surgirent tout à coup on ne sait d'où et se jetèrent sur {{r2}} pour la croquer d'une bouchée. {{r2}}, épouvantée, s'évanouit.\n\nEn voyant cela, {{r1}} bondit devant {{r4}} et {{r6}}. Son sabre-aiguille brillait. Et de toute la force de sa voix, {{r1}} cria :\n\n— Hé là ! Savez-vous qui est cette dame ? C’est la fille de {{r3}}, seigneur de la Troisième Avenue ! Si vous lui manquez de respect, vous aurez affaire à {{r1}} !\n\nEn entendant cette voix, {{r4}} et {{r6}} regardèrent : à leurs pieds, {{r1}}, gros comme un grain de haricot, se tenait tout droit. {{r4}} et {{r6}} éclatèrent de rire :\n\n— Quoi ? Ce grain de haricot ? Pas la peine de s'embêter, avale-le !\n\nEt aussitôt, {{r4}} avala {{r1}} d'un coup. {{r1}} glissa jusqu'au ventre de {{r4}}. Une fois dedans, {{r1}} courut dans tous les sens ; son sabre-aiguille piqua partout, pic, pic. {{r4}}, qui n'en pouvait plus, cria :\n\n— Aïe ! Aïe ! C'est insupportable !\n\nEt il se roula par terre. Et, au moment de reprendre son souffle, il laissa {{r1}} ressortir d'un bond. {{r1}} se jeta de nouveau sur {{r4}} ; son sabre-aiguille brillait. Alors {{r6}} dit :\n\n— Petit prétentieux !\n\nEt {{r6}} l'avala à son tour d'un coup. Pendant qu'on l'avalait, {{r1}}, cette fois, bondit agilement de la gorge au nez, puis grimpa derrière les yeux, et son sabre-aiguille piqua l'œil de {{r6}}. {{r6}} cria : « Aïe ! » Il fit un bond ; au même moment, {{r1}} sauta de son œil jusqu'à terre. {{r6}}, croyant que son œil lui était sorti de la tête, s'écria :\n\n— Au secours ! Au secours !\n\nEt {{r6}} s’enfuit sans se retourner. Alors {{r4}} aussi cria :\n\n— On ne peut rien contre lui ! Fuyons, fuyons !\n\nEt {{r4}} le suivit.\n\n— Ha ha ! Vous êtes bien lâches !\n\n{{r1}} regarda {{r4}} et {{r6}} s’enfuir avec satisfaction :\n\n— Eh bien, nous l'avons échappé belle.\n\nEt {{r1}} soigna gentiment {{r2}} évanouie. Quand {{r2}} revint tout à fait à elle et voulut se lever, un petit maillet roula de l'ourlet de sa robe.\n\n— Tiens, qu'est-ce que c'est que ça ?\n\n{{r2}} aperçut le maillet. {{r1}} le reconnut et dit :\n\n— C'est le maillet magique que {{r4}} et {{r6}} ont oublié. Quand on le secoue, on obtient tout ce qu'on désire. Regardez : je vais tout de suite me faire grandir.\n\nLe maillet magique répondit à la formule de {{r1}} :\n\n— Grandis, {{r1}} ! Deviens de taille ordinaire !\n\nÀ la première secousse, {{r1}} grandit d’un pied. {{r2}} dit : « Oh ! Oh ! » À la deuxième secousse, il grandit de trois pieds. {{r2}} dit : « Oh ! Oh ! » À la troisième secousse, il devint un jeune adulte, beau et grand, de presque six pieds. {{r2}} dit encore : « Oh ! Oh ! »\n\n{{r1}}, maintenant grand, était si heureux, si heureux ! Il se levait, se baissait, se retournait, regardait devant lui, contemplait son corps comme une chose nouvelle. Mais quand il eut fini de se regarder, il se souvint tout à coup qu'il n'avait rien mangé depuis trois jours et trois nuits. Alors le maillet magique fit sortir plus de bonnes choses qu'on ne pouvait en manger, et {{r1}} les partagea gentiment avec {{r2}}.\n\nAprès le repas, le maillet fit sortir de l'or, de l'argent, du corail, du lapis-lazuli, de l'agate, toutes sortes de trésors. Et pour finir, il fit sortir un grand bateau ; tous les trésors y furent chargés. {{r1}} et {{r2}} y montèrent et revinrent bientôt au Japon.\n\nLa rumeur se répandit aussitôt que {{r1}} était revenu de l'île de {{r4}} et {{r6}} avec {{r2}}, princesse et fille de {{r3}}, et des trésors, et elle parvint jusqu'aux oreilles de l'Empereur. L'Empereur fit venir {{r1}} : c'était en effet un jeune adulte à l'allure noble. Pensant que ce n'était pas n'importe qui, il fit rechercher ses ancêtres : on découvrit que le grand-père de {{r1}} était un grand seigneur, chassé à la campagne pour un crime qu'il n'avait pas commis, et que sa mère aussi descendait d'une grande famille.\n\nL'Empereur donna aussitôt un titre à {{r1}}, qu'on appela désormais le Capitaine de Horikawa. Le Capitaine de Horikawa demanda officiellement à {{r3}} la main de {{r2}}. Il l'épousa. Puis il fit venir de Naniwa {{r5}} et la mère de {{r1}}, et toute la famille réunie vécut heureuse."
+    }
+  },
+  "dureeEstimeeSecondes": 1199,
+  "interactionsOrdonnees": [
+    "a1e8",
+    "a1e17",
+    "a1e37",
+    "a2e8",
+    "a2e29",
+    "a2e45",
+    "a3e11",
+    "a3e41",
+    "a3e50",
+    "a3e60"
+  ]
+}

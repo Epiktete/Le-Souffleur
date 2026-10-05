@@ -1,0 +1,426 @@
+{
+  "titre": "Le Paysan, l'Ours et le Renard",
+  "parametres": {
+    "dureeMinutes": 5,
+    "ageAuditoire": 6,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "quelques",
+    "marionnetteIds": [
+      "doudou-lapin",
+      "renard-rusé",
+      "ourse-gourmande"
+    ],
+    "modele": "relais-local"
+  },
+  "dureeEstimeeSecondes": 316,
+  "nbActes": 3,
+  "nbTableaux": 2,
+  "bible": {
+    "dossier": {
+      "marionnettes": [
+        {
+          "nom": "Doudou Lapin",
+          "description": "Un lapin en tissu beige, une oreille recousue et qui retombe.",
+          "traits": [
+            "inquiet",
+            "serviable"
+          ]
+        },
+        {
+          "nom": "Renard Rusé",
+          "description": "Un renard roux au museau pointu, la queue un peu pelée.",
+          "traits": [
+            "malin",
+            "vaniteux"
+          ]
+        },
+        {
+          "nom": "Ourse Gourmande",
+          "description": "Une grosse ourse en peluche marron, très douce, assez lourde.",
+          "traits": [
+            "gourmande",
+            "franche"
+          ]
+        }
+      ],
+      "dureeMinutes": 5,
+      "ageAuditoire": 6,
+      "nbMarionnettistes": 1,
+      "interactionPublic": "quelques",
+      "budgetMotsTotal": 500
+    },
+    "contesPresentes": [
+      "ru-paysan-ours-renard",
+      "ru-renard-lievre-coq",
+      "afr-renard-babouin-lion",
+      "ru-chat-coq-renard",
+      "afr-elephant-et-tortue",
+      "afr-lievre-hyene-lion",
+      "en-vieille-et-cochon",
+      "in-crocodile-et-singe"
+    ],
+    "jouables": 78,
+    "synopsisProposes": [
+      {
+        "conte": "ru-paysan-ours-renard",
+        "titre": "Le Paysan, l'Ours et le Renard",
+        "accroche": "Un partage de récolte tourne mal, une fausse chasse fait peur, une queue se dispute toute seule.",
+        "resume": [
+          "Ourse Gourmande menace le champ de Doudou Lapin ; pour garder la paix, il lui propose un partage : les fanes pour elle, les racines pour lui.",
+          "Quand la récolte arrive, Ourse Gourmande ne reçoit que des fanes ; en goûtant un navet, elle comprend qu'elle a été trompée et se fâche.",
+          "Elle interdit à Doudou Lapin d'entrer dans la forêt ; il se retrouve bientôt sans bois pour se chauffer.",
+          "Renard Rusé invente une grande chasse pour lui faire peur ; Ourse Gourmande, terrifiée, supplie Doudou Lapin de la cacher sous son bois, et il l'emmène loin avant de la relâcher, penaude.",
+          "Renard Rusé réclame sa récompense pour ce service ; mal payée, elle se dispute avec sa propre queue devant tout le monde."
+        ],
+        "distribution": [
+          {
+            "marionnette": "Doudou Lapin",
+            "role": "le Paysan",
+            "note": "inquiet et serviable, il colle au paysan peureux qui négocie plutôt que d'affronter."
+          },
+          {
+            "marionnette": "Renard Rusé",
+            "role": "la Renarde",
+            "note": "malin et vaniteux, comme la renarde rusée et bavarde du conte."
+          },
+          {
+            "marionnette": "Ourse Gourmande",
+            "role": "l'Ours",
+            "note": "gourmande comme l'ours du conte, et sa franchise colle à sa naïveté."
+          }
+        ],
+        "changements": [
+          "L'ours caché sous le bois n'est plus menacé à la hache : Doudou Lapin l'emmène loin et la relâche, penaude.",
+          "L'épisode où le paysan sème du blé l'année suivante est coupé, pour tenir dans le temps du spectacle.",
+          "Les chiens du conte original disparaissent : c'est Renard Rusé elle-même qui invente la fausse chasse."
+        ],
+        "id": "ru-paysan-ours-renard",
+        "reference": "Le Paysan, l’Ours et le Renard — Russie, Alexandre Afanassiev, Contes populaires russes, 1855-1863 (n° 23)"
+      },
+      {
+        "conte": "afr-renard-babouin-lion",
+        "titre": "Le Renard, le Babouin et le Lion",
+        "accroche": "Un renard vaniteux boude un partage de fruits, va se plaindre, et reçoit une leçon bien servie.",
+        "resume": [
+          "Renard Rusé et Doudou Lapin partent ensemble en promenade, avec une règle : tout ce qu'ils trouveront sera partagé entre eux deux.",
+          "Ils trouvent un premier arbre plein de fruits ; Doudou Lapin invite Renard Rusé à se servir, mais celui-ci refuse, préférant la viande.",
+          "Au deuxième arbre, même refus : Doudou Lapin mange donc tout, seul.",
+          "Vexé, Renard Rusé va se plaindre à Ourse Gourmande : il prétend que Doudou Lapin l'a laissé mourir de faim.",
+          "Ourse Gourmande fait mine de le consoler, puis, bien franchement, lui sert... une belle assiette de fruits."
+        ],
+        "distribution": [
+          {
+            "marionnette": "Doudou Lapin",
+            "role": "le Babouin",
+            "note": "serviable, il partage volontiers ; c'est lui la victime injustement accusée."
+          },
+          {
+            "marionnette": "Renard Rusé",
+            "role": "le Renard",
+            "note": "malin et vaniteux, comme le renard grincheux et de mauvaise foi du conte."
+          },
+          {
+            "marionnette": "Ourse Gourmande",
+            "role": "le Lion",
+            "note": "franche, elle rend une justice sans détour plutôt qu'une moquerie cachée."
+          }
+        ],
+        "changements": [
+          "La fin, ouverte dans le conte original, devient une vraie chute : Ourse Gourmande sert franchement une assiette de fruits à Renard Rusé, sans se moquer en cachette.",
+          "L'histoire, plus courte que les autres, est jouée plus lentement, avec plus de détails sur la balade et les deux arbres, pour remplir les 5 minutes."
+        ],
+        "id": "afr-renard-babouin-lion",
+        "reference": "Le Renard, le Babouin et le Lion — Bilin (Érythrée), René Basset, Contes populaires d’Afrique, 1903"
+      },
+      {
+        "conte": "en-vieille-et-cochon",
+        "titre": "La Vieille et son cochon",
+        "accroche": "Un petit lapin têtu refuse la barrière ; toute une chaîne d'amis s'unit pour le convaincre.",
+        "resume": [
+          "Renard Rusé, qui tient ici le rôle d'une grand-mère, adopte Doudou Lapin, un petit lapin têtu qui refuse de rentrer à la maison en sautant par-dessus la barrière.",
+          "Elle demande de l'aide à un animal, puis à un autre : chacun refuse, et à chaque fois la liste des refus s'allonge quand elle la redit au public.",
+          "Elle finit par demander à Ourse Gourmande, qui accepte d'aider... mais seulement contre un peu de lait ; Renard Rusé le lui donne aussitôt.",
+          "Ourse Gourmande part alors convaincre celui qui avait refusé juste avant elle, qui convainc à son tour le précédent, et ainsi de suite.",
+          "La chaîne arrive enfin jusqu'à Doudou Lapin, qui saute la barrière : tout le monde rentre content."
+        ],
+        "distribution": [
+          {
+            "marionnette": "Doudou Lapin",
+            "role": "le Petit Cochon",
+            "note": "têtu à sa façon, inquiet devant la barrière ; on le convainc pas à pas, comme lui."
+          },
+          {
+            "marionnette": "Renard Rusé",
+            "role": "la Vieille",
+            "note": "elle garde son espèce de renarde mais mène l'histoire, bavarde et obstinée comme il faut pour ce rôle."
+          },
+          {
+            "marionnette": "Ourse Gourmande",
+            "role": "le Chat",
+            "note": "gourmande, elle négocie son aide contre un peu de lait, ce qui lui va bien."
+          }
+        ],
+        "changements": [
+          "Les personnages secondaires (chien, bâton, feu…) sont réduits à un animal, puis un autre : la chaîne se raconte plus qu'elle ne se joue, pour tenir avec une seule marionnettiste.",
+          "Les gestes violents (mordre, taper, brûler) deviennent des poursuites et des taquineries, pour rester doux à 6 ans.",
+          "Renard Rusé, une renarde, joue le rôle d'une grand-mère : elle garde son espèce mais change de métier."
+        ],
+        "id": "en-vieille-et-cochon",
+        "reference": "La Vieille et son cochon — Angleterre, Joseph Jacobs, English Fairy Tales, 1890"
+      }
+    ],
+    "synopsis": {
+      "conte": "ru-paysan-ours-renard",
+      "titre": "Le Paysan, l'Ours et le Renard",
+      "accroche": "Un partage de récolte tourne mal, une fausse chasse fait peur, une queue se dispute toute seule.",
+      "resume": [
+        "Ourse Gourmande menace le champ de Doudou Lapin ; pour garder la paix, il lui propose un partage : les fanes pour elle, les racines pour lui.",
+        "Quand la récolte arrive, Ourse Gourmande ne reçoit que des fanes ; en goûtant un navet, elle comprend qu'elle a été trompée et se fâche.",
+        "Elle interdit à Doudou Lapin d'entrer dans la forêt ; il se retrouve bientôt sans bois pour se chauffer.",
+        "Renard Rusé invente une grande chasse pour lui faire peur ; Ourse Gourmande, terrifiée, supplie Doudou Lapin de la cacher sous son bois, et il l'emmène loin avant de la relâcher, penaude.",
+        "Renard Rusé réclame sa récompense pour ce service ; mal payée, elle se dispute avec sa propre queue devant tout le monde."
+      ],
+      "distribution": [
+        {
+          "marionnette": "Doudou Lapin",
+          "role": "le Paysan",
+          "note": "inquiet et serviable, il colle au paysan peureux qui négocie plutôt que d'affronter."
+        },
+        {
+          "marionnette": "Renard Rusé",
+          "role": "la Renarde",
+          "note": "malin et vaniteux, comme la renarde rusée et bavarde du conte."
+        },
+        {
+          "marionnette": "Ourse Gourmande",
+          "role": "l'Ours",
+          "note": "gourmande comme l'ours du conte, et sa franchise colle à sa naïveté."
+        }
+      ],
+      "changements": [
+        "L'ours caché sous le bois n'est plus menacé à la hache : Doudou Lapin l'emmène loin et la relâche, penaude.",
+        "L'épisode où le paysan sème du blé l'année suivante est coupé, pour tenir dans le temps du spectacle.",
+        "Les chiens du conte original disparaissent : c'est Renard Rusé elle-même qui invente la fausse chasse."
+      ],
+      "id": "ru-paysan-ours-renard",
+      "reference": "Le Paysan, l’Ours et le Renard — Russie, Alexandre Afanassiev, Contes populaires russes, 1855-1863 (n° 23)"
+    },
+    "conteId": "ru-paysan-ours-renard",
+    "adaptation": {
+      "titre": "Doudou Lapin, Ourse Gourmande et Renard Rusé",
+      "pitch": "Un partage de récolte qui tourne mal, une fausse chasse qui fait trembler, et une queue qui se dispute toute seule.",
+      "changements": [
+        "Les chiens qui poursuivent Renard Rusé n'ont pas de marionnette : on ne les voit jamais, seulement un aboiement fait à la voix par le parent.",
+        "Le bois qui recouvre Ourse Gourmande reste un décor immobile, jamais manipulé : c'est la réplique qui raconte qu'elle est cachée dessous, pas un geste de la peluche.",
+        "Les allées et venues répétées entre le champ et la forêt sont jouées en une seule scène continue par personnage, pour éviter des sorties et des entrées inutiles.",
+        "L'épisode où Doudou Lapin sème du blé l'année suivante reste coupé, pour tenir dans le temps du spectacle."
+      ],
+      "tableaux": [
+        {
+          "id": "t1",
+          "titre": "Le champ de Doudou Lapin",
+          "description": "Étendre au sol un drap ou une nappe vert-brun pour figurer le champ ; poser de côté un petit panier ou une boîte pour représenter la charrette de fanes.",
+          "accessoires": [],
+          "promptImage": ""
+        },
+        {
+          "id": "t2",
+          "titre": "La forêt",
+          "description": "Tendre un drap plus sombre en fond de scène ; empiler deux coussins ou un carton plié dans un coin pour figurer le tas de bûches.",
+          "accessoires": [],
+          "promptImage": ""
+        }
+      ],
+      "actes": [
+        {
+          "numero": 1,
+          "titre": "Le partage qui tourne mal",
+          "tableauId": "t1",
+          "resume": "Ourse Gourmande menace le champ de Doudou Lapin, qui lui propose un partage : les fanes pour elle, les racines pour lui. En goûtant un navet, elle comprend qu'elle a été trompée et jure de se venger.",
+          "passage": "De « Doudou Lapin labourait son champ. » à « ...ou je t'écorche ! »",
+          "temps": [
+            "Le temps passe : les navets poussent dans le champ.",
+            "Doudou Lapin récolte et apporte à Ourse Gourmande sa pleine charrette de fanes.",
+            "Plus tard, sur le chemin de la ville, ils se croisent à nouveau."
+          ],
+          "mouvements": [
+            {
+              "type": "entree",
+              "marionnette": "Doudou Lapin",
+              "main": "M1G"
+            },
+            {
+              "type": "entree",
+              "marionnette": "Ourse Gourmande",
+              "main": "M1D"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "Ourse Gourmande",
+              "main": "M1G"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "Doudou Lapin",
+              "main": "M1G"
+            }
+          ],
+          "momentsPublic": [
+            "Demander aux enfants : à leur avis, qui a eu la meilleure part du champ ?"
+          ],
+          "budgetMots": 150
+        },
+        {
+          "numero": 2,
+          "titre": "La fausse chasse",
+          "tableauId": "t2",
+          "resume": "Devenu sans bois, Doudou Lapin ose enfin entrer dans la forêt. Renard Rusé lui souffle une ruse pour effrayer Ourse Gourmande, qui supplie qu'on la cache et se laisse emmener, avant d'être relâchée, penaude.",
+          "passage": "De « Doudou Lapin revint de la ville... » à « ...toute penaude. »",
+          "temps": [
+            "Des semaines passent sans que Doudou Lapin ose couper le moindre bois.",
+            "Un matin, il se décide enfin à entrer dans la forêt.",
+            "Le traîneau s'éloigne ; bien plus loin, hors de vue, Ourse Gourmande est détachée et s'en retourne, penaude."
+          ],
+          "mouvements": [
+            {
+              "type": "entree",
+              "marionnette": "Doudou Lapin",
+              "main": "M1G"
+            },
+            {
+              "type": "entree",
+              "marionnette": "Renard Rusé",
+              "main": "M1D"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "Renard Rusé",
+              "main": "M1G"
+            },
+            {
+              "type": "entree",
+              "marionnette": "Ourse Gourmande",
+              "main": "M1D"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "Ourse Gourmande",
+              "main": "M1G"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "Doudou Lapin",
+              "main": "M1G"
+            }
+          ],
+          "momentsPublic": [
+            "Inviter les enfants à imiter avec Doudou Lapin le bruit d'une meute de chasse."
+          ],
+          "budgetMots": 210
+        },
+        {
+          "numero": 3,
+          "titre": "La queue qui se dispute",
+          "tableauId": "t2",
+          "resume": "Renard Rusé revient réclamer sa récompense, mais Doudou Lapin la chasse en sifflant ses chiens. Cachée et hors d'haleine, elle se dispute avec ses yeux, ses oreilles puis sa queue — et c'est cette dernière qui la perd.",
+          "passage": "De « Renard Rusé accourt et dit... » à « ...on perd la tête. »",
+          "temps": [
+            "Doudou Lapin rentre chez lui sans se retourner.",
+            "Au loin, Renard Rusé reprend son souffle, encore tremblante."
+          ],
+          "mouvements": [
+            {
+              "type": "entree",
+              "marionnette": "Doudou Lapin",
+              "main": "M1G"
+            },
+            {
+              "type": "entree",
+              "marionnette": "Renard Rusé",
+              "main": "M1D"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "Doudou Lapin",
+              "main": "M1G"
+            },
+            {
+              "type": "sortie",
+              "marionnette": "Renard Rusé",
+              "main": "M1G"
+            }
+          ],
+          "momentsPublic": [
+            "Demander aux enfants ce que la queue va répondre, avant de le jouer."
+          ],
+          "budgetMots": 150
+        }
+      ],
+      "voix": [
+        {
+          "marionnette": "Ourse Gourmande",
+          "voix": "voix grave et un peu lente, qui s'anime dès qu'il est question de nourriture, dit « miam » avant de goûter quoi que ce soit"
+        },
+        {
+          "marionnette": "Renard Rusé",
+          "voix": "voix aiguë et pressée, qui s'attarde sur les compliments — surtout ceux qu'elle s'adresse à elle-même"
+        }
+      ]
+    },
+    "transposition": {
+      "texte": "Doudou Lapin labourait son champ. Ourse Gourmande vint le trouver et lui dit :\n\n— Doudou Lapin, je vais te briser !\n\n— Non, laisse-moi tranquille. Je suis en train de semer des navets : je prendrai pour moi seulement les racines, et toi, je te donnerai les fanes.\n\n— Soit, dit Ourse Gourmande. Mais si tu me trompes, ne viens plus jamais chercher du bois dans ma forêt !\n\nElle dit, et s'en alla dans la chênaie. Le temps passa. Doudou Lapin arrache ses navets, et voilà Ourse Gourmande qui sort de la chênaie.\n\n— Eh bien, Doudou Lapin, partageons !\n\n— D'accord, Ourse Gourmande ! Je vais t'apporter les fanes.\n\nEt il lui apporta une charrette pleine de fanes. Ourse Gourmande fut contente de ce partage honnête.\n\nPuis Doudou Lapin chargea ses navets sur la charrette et partit les vendre à la ville. Et voilà Ourse Gourmande qui arrive en face :\n\n— Doudou Lapin, où vas-tu ?\n\n— Eh bien, Ourse Gourmande, je vais en ville vendre les racines.\n\n— Fais-moi goûter comment c'est, une racine !\n\nDoudou Lapin lui donna un navet. Dès qu'Ourse Gourmande l'eut mangé :\n\n— Aaah ! rugit-elle. Tu m'as trompé, Doudou Lapin ! Tes racines sont sucrées. Maintenant, ne viens plus chercher du bois chez moi, ou je t'écorche !\n\nDoudou Lapin revint de la ville, et il avait peur d'aller dans la forêt. Il brûla ses étagères, ses bancs, ses tonneaux ; mais à la fin, il n'y avait plus rien à faire, il fallait aller dans la forêt.\n\nIl y entre tout doucement. Et voilà que surgit de nulle part Renard Rusé qui accourt.\n\n— Qu'as-tu, Doudou Lapin, lui demande-t-elle, à avancer si doucement ?\n\n— J'ai peur d'Ourse Gourmande. Elle est fâchée contre moi, elle a promis de m'écorcher.\n\n— N'aie pas peur d'Ourse Gourmande. Coupe ton bois, et moi je vais faire du bruit comme une meute de chasse. Si Ourse Gourmande te demande ce que c'est, dis-lui : « On chasse les loups et les ourses. »\n\nDoudou Lapin se mit à couper du bois. Tout à coup, voilà Ourse Gourmande qui accourt et crie à Doudou Lapin :\n\n— Hé, le vieux ! Qu'est-ce que c'est que ces cris ?\n\nDoudou Lapin répond :\n\n— On chasse les loups et les ourses.\n\n— Oh, Doudou Lapin, mets-moi dans ton traîneau, couvre-moi de bûches et attache-moi avec une corde : peut-être qu'on croira que c'est un tronc d'arbre.\n\nDoudou Lapin la mit dans le traîneau, l'attacha avec une corde, et l'emmena en traîneau loin, très loin dans la forêt, avant de la détacher et de la laisser repartir, toute penaude.\n\nRenard Rusé accourt et dit :\n\n— Où est Ourse Gourmande ?\n\n— Elle est loin maintenant, on ne la reverra pas de sitôt !\n\n— Eh bien, Doudou Lapin, maintenant il faut me régaler.\n\n— Volontiers, Renard Rusé ! Viens chez moi, je vais te régaler.\n\nDoudou Lapin avance en traîneau, et Renard Rusé court devant. Quand il approcha de sa maison, Doudou Lapin siffla ses chiens et les lança sur Renard Rusé. Renard Rusé fila vers la forêt et se glissa dans son terrier. Cachée dans le terrier, elle demande :\n\n— Oh, mes petits yeux, que regardiez-vous pendant que je courais ?\n\n— Oh, Renard Rusé, nous regardions pour que tu ne trébuches pas.\n\n— Et vous, mes petites oreilles, que faisiez-vous ?\n\n— Nous écoutions si les chiens étaient encore loin.\n\n— Et toi, ma queue, que faisais-tu ?\n\n— Moi, dit la queue, je me suis tout le temps emmêlée dans tes pattes, pour que tu t'embrouilles, que tu tombes, et que tu finisses dans les dents des chiens.\n\n— Ah, canaille ! Alors que les chiens te mangent !\n\nEt, sortant sa queue du terrier, Renard Rusé cria :\n\n— Mangez, les chiens, la queue de Renard Rusé !\n\nLes chiens attrapèrent la queue et tirèrent Renard Rusé dehors. C'est souvent comme ça : à cause de la queue, on perd la tête.",
+      "changements": [
+        "La scène où Doudou Lapin assomme Ourse Gourmande à coups de hache est remplacée : il l'emmène loin en traîneau puis la détache et la laisse repartir, penaude, sans coup porté.",
+        "En conséquence, la réplique « Le voilà, il est fini ! » devient « Elle est loin maintenant, on ne la reverra pas de sitôt ! », pour rester cohérente avec une ourse relâchée et non assommée.",
+        "Le mot « ours » (masculin) est remplacé par « ourse » partout où il désignait l'espèce, y compris dans la formule répétée « on chasse les loups et les ours », pour respecter l'espèce féminine de la marionnette."
+      ]
+    },
+    "relecture": {
+      "remarques": [
+        {
+          "acte": 1,
+          "element": 15,
+          "gravite": "important",
+          "remarque": "L'élément 15 fait dire à Doudou Lapin, face au public : « Dites-moi : qui a eu la meilleure part, à votre avis ? » — c'est une question d'opinion adressée aux enfants, une morale déguisée.",
+          "modification": "Supprimer l'élément 15 (la réplique et l'attente de réponse) ; l'enchaînement passe directement de l'action 14 (Ourse Gourmande ravie des fanes) à l'action 16 (Doudou Lapin repart vers la ville avec sa charrette de navets)."
+        },
+        {
+          "acte": 2,
+          "element": 9,
+          "gravite": "important",
+          "remarque": "Renard Rusé promet « moi je vais faire du bruit comme une meute de chasse » (élément 9), puis sort de scène (élément 11) sans jamais le faire : c'est finalement Doudou Lapin qui demande aux enfants de crier à sa place (élément 13). La promesse de Renard Rusé n'est pas tenue, ce qui casse le lien de cause à effet pour un enfant qui découvre l'histoire.",
+          "modification": "Soit faire dire à Renard Rusé, avant de sortir, que ce sera aux enfants de faire le bruit à sa place (ajouter à sa réplique de l'élément 9 quelque chose comme « Et vous, les enfants, vous m'aiderez à faire ce bruit ? ») pour préparer l'élément 13 ; soit supprimer l'interaction avec le public et faire faire le bruit hors scène par Renard Rusé elle-même (bruitage à la voix, indiqué en didascalie), conformément à sa promesse."
+        },
+        {
+          "acte": 2,
+          "element": 10,
+          "gravite": "important",
+          "remarque": "À l'élément 10, Renard Rusé « s'éclipse d'un bond derrière un buisson du décor » : aucun buisson ne figure dans la liste des décors que le parent doit préparer (seuls un drap sombre et un tas de bûches sont prévus pour la forêt).",
+          "modification": "Remplacer « derrière un buisson du décor » par « derrière le drap sombre du fond de scène », déjà prévu dans le décor de la forêt."
+        },
+        {
+          "acte": 2,
+          "element": 17,
+          "gravite": "mineur",
+          "remarque": "À l'élément 17, Ourse Gourmande appelle Doudou Lapin « le vieux », une expression reprise telle quelle du conte (où le personnage est un paysan âgé) mais qui ne correspond à rien chez Doudou Lapin, dont les traits sont « inquiet, serviable » et dont l'âge n'est jamais évoqué.",
+          "modification": "Remplacer « Hé, le vieux ! » par une interpellation neutre, par exemple « Hé, toi ! » ou « Doudou Lapin ! »."
+        },
+        {
+          "acte": 2,
+          "element": 20,
+          "gravite": "important",
+          "remarque": "Ourse Gourmande se cache « derrière le tas de bûches du décor » (élément 20), un élément fixe du décor de la forêt ; l'élément suivant affirme pourtant que Doudou Lapin pousse « le traîneau, avec Ourse Gourmande cachée dedans » (élément 21). Le traîneau est un objet jamais introduit ni décrit dans la liste des décors à préparer, et la cachette change de nature sans transition (derrière un tas fixe, puis dans un objet mobile).",
+          "modification": "Supprimer le traîneau : Ourse Gourmande se cache derrière/sous le tas de bûches (élément 20), et Doudou Lapin pousse ce tas de bûches (déjà prévu au décor) hors de la scène — remplacer « pousse le traîneau » par « pousse le tas de bûches, avec Ourse Gourmande cachée dessous » aux éléments 21 et 23, sans mentionner de traîneau."
+        },
+        {
+          "acte": 3,
+          "element": 28,
+          "gravite": "bloquant",
+          "remarque": "La fin de Renard Rusé bascule dans une image de mise à mort ou de dévoration : elle est « tirée en arrière d'un coup sec » par des chiens qu'on entend aboyer (élément 26), puis « disparaît d'un coup, engloutie par la coulisse » (élément 28). C'est plus cru que le conte, qui se contente de dire que les chiens l'ont tirée par la queue hors du terrier, et la consigne demande d'adoucir ce que le conte tue ou dévore — comme cela a déjà été fait pour Ourse Gourmande, relâchée penaude plutôt que tuée.",
+          "modification": "Retirer « engloutie par la coulisse » (élément 28) et remplacer l'élément 26 par : Renard Rusé est tirée en arrière par la queue, pousse un cri, puis parvient à se dégager et s'enfuit précipitamment plus profond dans son terrier, indignée mais indemne — elle dit alors sa réplique finale (élément 27) depuis sa cachette, avant de sortir simplement (élément 29), sans image d'engloutissement."
+        }
+      ]
+    }
+  },
+  "etapes": 10
+}

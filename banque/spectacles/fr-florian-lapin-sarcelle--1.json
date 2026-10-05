@@ -1,0 +1,650 @@
+{
+  "id": "fr-florian-lapin-sarcelle--1",
+  "conteId": "fr-florian-lapin-sarcelle",
+  "titre": "Le Lapin et la Sarcelle",
+  "pitch": "{{r1}} délivre {{r2}}, sa sœur de cœur, d’une volière. Quand {{r3}}, le seigneur, lance une chasse qui tue d’autres lapins, {{r2}} sauve {{r1}} sur un nid flottant.",
+  "roles": [
+    {
+      "cle": "r1",
+      "espece": "lapin",
+      "famille": "petit",
+      "traits": [
+        "courageux",
+        "fidèle",
+        "inquiet"
+      ],
+      "voix": "voix vive et claire, plus tremblante quand il appelle son amie",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "a3:resume",
+            "avant": "le conduit",
+            "apres": "la conduit"
+          },
+          {
+            "id": "voix:r1",
+            "avant": "il appelle",
+            "apres": "elle appelle"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "inquiet, il l’appelle",
+            "apres": "inquiète, elle l’appelle"
+          },
+          {
+            "id": "a1e12:texte",
+            "avant": "il court, il pleure",
+            "apres": "elle court, elle pleure"
+          },
+          {
+            "id": "a2e3:texte",
+            "avant": "il pousse",
+            "apres": "elle pousse"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "il s’emploie",
+            "apres": "elle s’emploie"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "un mineur",
+            "apres": "une mineuse"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "Lui court",
+            "apres": "Elle court"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "il l’entraîne",
+            "apres": "elle l’entraîne"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "il est prêt",
+            "apres": "elle est prête"
+          },
+          {
+            "id": "a3e5:texte",
+            "avant": "Tapi",
+            "apres": "Tapie"
+          },
+          {
+            "id": "a3e10:texte",
+            "avant": "le quitte",
+            "apres": "la quitte"
+          },
+          {
+            "id": "a3e18:texte",
+            "avant": "devant lui",
+            "apres": "devant elle"
+          },
+          {
+            "id": "a1e11:ton",
+            "avant": "effrayé",
+            "apres": "effrayée"
+          },
+          {
+            "id": "a3e7:ton",
+            "avant": "tremblant",
+            "apres": "tremblante"
+          },
+          {
+            "id": "a3e17:texte",
+            "avant": "devant lui",
+            "apres": "devant elle"
+          },
+          {
+            "id": "a1e12:texte",
+            "avant": "désolé",
+            "apres": "désolée"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r2",
+      "espece": "sarcelle",
+      "famille": "oiseau",
+      "traits": [
+        "fidèle",
+        "ingénieuse",
+        "courageuse"
+      ],
+      "voix": "voix douce et ferme, qui se presse pendant la fuite",
+      "genre": "feminin",
+      "accords": {
+        "vers": "masculin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "sa sœur de cœur",
+            "apres": "son frère de cœur"
+          },
+          {
+            "id": "a1:resume",
+            "avant": "la cherche et l’appelle",
+            "apres": "le cherche et l’appelle"
+          },
+          {
+            "id": "a2:resume",
+            "avant": "la sauve",
+            "apres": "le sauve"
+          },
+          {
+            "id": "a3:resume",
+            "avant": "elle prépare",
+            "apres": "il prépare"
+          },
+          {
+            "id": "voix:r1",
+            "avant": "son amie",
+            "apres": "son ami"
+          },
+          {
+            "id": "a1e6:texte",
+            "avant": "elle rentrait chez elle",
+            "apres": "il rentrait chez lui"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "Ne la retrouve plus",
+            "apres": "Ne le retrouve plus"
+          },
+          {
+            "id": "a1e8:texte",
+            "avant": "son amie",
+            "apres": "son ami"
+          },
+          {
+            "id": "a1e11:texte",
+            "avant": "Ma sœur, ma compagne chérie",
+            "apres": "Mon frère, mon compagnon chéri"
+          },
+          {
+            "id": "a2e3:texte",
+            "avant": "à consoler sa sœur",
+            "apres": "à consoler son frère"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "son amie",
+            "apres": "son ami"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "la conduit",
+            "apres": "le conduit"
+          },
+          {
+            "id": "a2e6:texte",
+            "avant": "la rendant au jour",
+            "apres": "le rendant au jour"
+          },
+          {
+            "id": "a3e6:texte",
+            "avant": "sa sœur",
+            "apres": "son frère"
+          },
+          {
+            "id": "a3e15:texte",
+            "avant": "elle l’emplit",
+            "apres": "il l’emplit"
+          },
+          {
+            "id": "a3e15:texte",
+            "avant": "elle attache",
+            "apres": "il attache"
+          },
+          {
+            "id": "a3e7:ton",
+            "avant": "son amie",
+            "apres": "son ami"
+          }
+        ]
+      },
+      "especeImposee": true
+    },
+    {
+      "cle": "r3",
+      "espece": "humain",
+      "famille": "adulte",
+      "traits": [
+        "colérique",
+        "orgueilleux"
+      ],
+      "voix": "voix forte et sèche, de seigneur courroucé",
+      "genre": "masculin",
+      "accords": {
+        "vers": "feminin",
+        "remplacements": [
+          {
+            "id": "pitch",
+            "avant": "le seigneur",
+            "apres": "la dame"
+          },
+          {
+            "id": "voix:r3",
+            "avant": "de seigneur courroucé",
+            "apres": "de dame courroucée"
+          },
+          {
+            "id": "a1e12:texte",
+            "avant": "seigneur du lieu",
+            "apres": "dame du lieu"
+          },
+          {
+            "id": "a2e9:texte",
+            "avant": "maître du jardin",
+            "apres": "maîtresse du jardin"
+          },
+          {
+            "id": "a3e2:texte",
+            "avant": "plein de colère",
+            "apres": "pleine de colère"
+          },
+          {
+            "id": "a2e15:ton",
+            "avant": "furieux",
+            "apres": "furieuse"
+          }
+        ]
+      }
+    }
+  ],
+  "parametres": {
+    "dureeMinutes": 8,
+    "ageAuditoire": 9,
+    "nbMarionnettistes": 1,
+    "interactionPublic": "beaucoup"
+  },
+  "tableaux": [
+    {
+      "id": "t1",
+      "titre": "La rive et le chemin",
+      "description": "Avant de commencer, étendez un torchon bleu à plat pour la rivière et posez un carton debout au fond pour la volière. Les peluches passent derrière le bord de la table pour changer de lieu ; tout peut aussi se jouer sans décor.",
+      "accessoires": [],
+      "promptImage": ""
+    },
+    {
+      "id": "t2",
+      "titre": "La volière et les deux rives",
+      "description": "Gardez le même décor, torchon bleu à plat et carton debout au fond. Le tunnel, le nid, le jonc et la chasse sont racontés ; les peluches glissent en bloc, sans objet à saisir.",
+      "accessoires": [],
+      "promptImage": ""
+    }
+  ],
+  "actes": [
+    {
+      "id": "a1",
+      "numero": 1,
+      "titre": "Une amitié, puis la disparition",
+      "resume": "{{r1}} et {{r2}} vivent près de la rivière et partagent tout. {{r2}} disparaît ; {{r1}} la cherche et l’appelle jusqu’au château.",
+      "tableauId": "t1",
+      "elements": [
+        {
+          "id": "a1e1",
+          "type": "conteur",
+          "texte": "Ensemble dès leurs jeunes ans,\nDans une amitié fraternelle,\n{{r1}} ainsi que {{r2}}\nVivaient dans la joie et le contentement.\nLe terrier de {{r1}} était sur la lisière\nD’un parc bordé d’une rivière.\nSoir et matin {{r1}} et {{r2}},\nProfitant de ce voisinage,\nTantôt au bord de l’eau, tantôt sous le feuillage,\nSe retrouvaient chez {{r1}} ou {{r2}}.\nLà, prenant leurs repas, se contant des nouvelles,\nOn n’en trouvait point de si belles\nQue de répéter qu’on s’aimerait toujours.\nCe sujet revenait sans cesse en leurs discours.\nTout était en commun, plaisir, chagrin, souffrance ;\nCe qui manquait à {{r1}}, {{r2}} le regrettait ;\nSi {{r2}} avait du mal, {{r1}} le sentait ;\nSi d’un bien au contraire {{r2}} goûtait l’espérance,\n{{r1}} en jouissait aussi d’avance."
+        },
+        {
+          "id": "a1e2",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a1e3",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e4",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r2}} se rapprochent au bord de la rivière figurée par un torchon posé à plat."
+        },
+        {
+          "id": "a1e5",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Dites avec nous : « Toujours ensemble ! »",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e6",
+          "type": "didascalie",
+          "texte": "{{r2}} glisse derrière le côté du castelet, comme si elle rentrait chez elle."
+        },
+        {
+          "id": "a1e7",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a1e8",
+          "type": "conteur",
+          "texte": "Tel était leur destin, lorsqu’un jour, jour affreux !\n{{r1}}, pour dîner venant chez {{r2}},\nNe la retrouve plus : inquiet, il l’appelle ;\nPersonne ne répond à ses cris douloureux.\n{{r1}}, de frayeur l’âme toute saisie,\nVa, vient, fait mille tours, cherche dans les roseaux,\nS’incline par-dessus les flots,\nEt voudrait s’y plonger pour trouver son amie."
+        },
+        {
+          "id": "a1e9",
+          "type": "didascalie",
+          "texte": "{{r1}} parcourt le bord de la rivière d’un seul mouvement, puis s’arrête et regarde au loin."
+        },
+        {
+          "id": "a1e10",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Appelez doucement avec moi : « {{r2}} ! »",
+          "attenteReponse": true
+        },
+        {
+          "id": "a1e11",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Hélas ! m’entends-tu ? réponds-moi,\nMa sœur, ma compagne chérie,\nNe prolonge pas mon effroi :\nEncor quelques moments, c’en est fait de ma vie :\nJ’aime mieux expirer que de trembler pour toi.",
+          "ton": "effrayé, vers la rive"
+        },
+        {
+          "id": "a1e12",
+          "type": "conteur",
+          "texte": "Disant ces mots, il court, il pleure,\nEt, s’avançant le long de l’eau,\nArrive enfin près du château\nOù {{r3}}, seigneur du lieu, demeure.\nLà, {{r1}}, désolé,\nSe trouve au milieu d’un parterre\nEt voit une grande volière\nOù mille oiseaux divers volaient sur un bassin."
+        }
+      ]
+    },
+    {
+      "id": "a2",
+      "numero": 2,
+      "titre": "Sous la volière",
+      "resume": "{{r1}} reconnaît {{r2}} derrière le grillage et la sauve par un tunnel raconté. {{r3}} découvre le dégât et ordonne la chasse.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a2e1",
+          "type": "conteur",
+          "texte": "L’amitié donne du courage.\n{{r1}}, sans rien craindre, approche du grillage,\nRegarde, et reconnaît… ô tendresse ! ô bonheur !"
+        },
+        {
+          "id": "a2e2",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e3",
+          "type": "conteur",
+          "texte": "{{r2}}. Aussitôt il pousse un cri de joie ;\nEt, sans perdre de temps à consoler sa sœur,"
+        },
+        {
+          "id": "a2e4",
+          "type": "didascalie",
+          "texte": "{{r2}} reste derrière un carton debout figurant la volière. {{r1}} se baisse derrière le castelet, puis paraît de son côté ; ses pattes ne creusent rien."
+        },
+        {
+          "id": "a2e5",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites un petit bruit de terre avec moi : « frou, frou ! »",
+          "attenteReponse": false
+        },
+        {
+          "id": "a2e6",
+          "type": "conteur",
+          "texte": "De ses quatre pieds il s’emploie\nÀ creuser un secret chemin\nPour joindre son amie, et, par ce souterrain,\n{{r1}} tout à coup entre dans la volière,\nComme un mineur qui prend une place de guerre.\nLes oiseaux effrayés se pressent en fuyant ;\nLui court à {{r2}} ; il l’entraîne à l’instant\nDans son obscur sentier, la conduit sous la terre,\nEt, la rendant au jour, il est prêt à mourir\nDe plaisir."
+        },
+        {
+          "id": "a2e7",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r2}} passent ensemble derrière le carton puis reviennent du côté libre, en bloc."
+        },
+        {
+          "id": "a2e8",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Soufflez de soulagement avec nous : « Ouf ! »",
+          "attenteReponse": true
+        },
+        {
+          "id": "a2e9",
+          "type": "conteur",
+          "texte": "Quel moment pour {{r1}} et {{r2}} ! Que ne sais-je le peindre\nComme je saurais le sentir !\n{{r1}} et {{r2}} croyaient n’avoir plus rien à craindre ;\nCe n’était pas fini. {{r3}}, maître du jardin,\nEn voyant le dégât commis dans sa volière,\nJure :"
+        },
+        {
+          "id": "a2e10",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r2}} se baissent derrière le bord de la table."
+        },
+        {
+          "id": "a2e11",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e12",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a2e13",
+          "type": "note_marionnettiste",
+          "texte": "Marquez une pause pour retirer {{r2}} de la main droite et enfiler {{r3}}. Les deux autres peluches restent hors scène."
+        },
+        {
+          "id": "a2e14",
+          "type": "entree",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a2e15",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "J’exterminerai jusqu’au dernier lapin !",
+          "ton": "furieux devant la volière vide"
+        },
+        {
+          "id": "a2e16",
+          "type": "replique",
+          "marionnetteId": "r3",
+          "texte": "Mes fusils, mes furets !",
+          "ton": "en appelant ses gardes hors scène"
+        },
+        {
+          "id": "a2e17",
+          "type": "conteur",
+          "texte": "Aussitôt fusils et furets\nSont tout prêts.\nLes gardes et les chiens vont dans les jeunes tailles,\nFouillant les terriers, les broussailles ;"
+        },
+        {
+          "id": "a2e18",
+          "type": "didascalie",
+          "texte": "{{r3}} tourne la tête vers les bruits de chasse, hors scène. Aucun chien ni fusil ne paraît."
+        },
+        {
+          "id": "a2e19",
+          "type": "sortie",
+          "marionnetteId": "r3",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    },
+    {
+      "id": "a3",
+      "numero": 3,
+      "titre": "Le nid sur l’eau",
+      "resume": "D’autres lapins meurent dans la chasse. {{r1}} demande à {{r2}} de fuir ; elle prépare un nid flottant et le conduit à l’autre rive. {{r1}} et {{r2}} vivent libres.",
+      "tableauId": "t2",
+      "elements": [
+        {
+          "id": "a3e1",
+          "type": "note_marionnettiste",
+          "texte": "Marquez une pause pour retirer {{r3}} et remettre {{r1}} à gauche, {{r2}} à droite, sous le bord de la table."
+        },
+        {
+          "id": "a3e2",
+          "type": "conteur",
+          "texte": "Des lapins sont tués au cours de cette chasse.\nLa nuit vient ; {{r3}}, toujours plein de colère,\nRemet au lendemain la suite de la chasse."
+        },
+        {
+          "id": "a3e3",
+          "type": "entree",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e4",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e5",
+          "type": "conteur",
+          "texte": "Pendant ce temps {{r1}},\nTapi sous des roseaux auprès de {{r2}},\nAttendait, en tremblant, la mort,"
+        },
+        {
+          "id": "a3e6",
+          "type": "conteur",
+          "texte": "Mais conjurait sa sœur :"
+        },
+        {
+          "id": "a3e7",
+          "type": "replique",
+          "marionnetteId": "r1",
+          "texte": "Fuis à l’autre bord\nPour que je ne meure pas devant toi.",
+          "ton": "tremblant, auprès de son amie"
+        },
+        {
+          "id": "a3e8",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Je ne te quitte point ;\nNous séparer serait la mort la plus cruelle.\nAh ! si tu pouvais passer l’eau !",
+          "ton": "fermement"
+        },
+        {
+          "id": "a3e9",
+          "type": "replique",
+          "marionnetteId": "r2",
+          "texte": "Pourquoi pas ? attends-moi…",
+          "ton": "avec une idée soudaine"
+        },
+        {
+          "id": "a3e10",
+          "type": "conteur",
+          "texte": "{{r2}} le quitte,"
+        },
+        {
+          "id": "a3e11",
+          "type": "didascalie",
+          "texte": "{{r2}} disparaît derrière le bord du castelet ; le vieux nid et son assemblage sont entièrement racontés."
+        },
+        {
+          "id": "a3e12",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e13",
+          "type": "didascalie",
+          "texte": "{{r1}} reste immobile, face à l’eau, pendant une courte pause."
+        },
+        {
+          "id": "a3e14",
+          "type": "entree",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        },
+        {
+          "id": "a3e15",
+          "type": "conteur",
+          "texte": "Et revient traînant un vieux nid\nLaissé par des canards ; elle l’emplit bien vite\nDe feuilles de roseau, les presse, les unit\nDes pieds, du bec, en forme un batelet capable\nDe supporter un lourd fardeau ;\nPuis elle attache à ce vaisseau\nUn brin de jonc qui servira de câble."
+        },
+        {
+          "id": "a3e16",
+          "type": "adresse_public",
+          "marionnetteId": "r1",
+          "texte": "Faites avec moi le petit bruit de l’eau : « ploc, ploc ! »",
+          "attenteReponse": false
+        },
+        {
+          "id": "a3e17",
+          "type": "didascalie",
+          "texte": "{{r1}} se baisse derrière le torchon bleu qui figure la rive. {{r2}} traverse devant lui en un seul glissement ; aucun nid ni câble n’est tiré par les peluches."
+        },
+        {
+          "id": "a3e18",
+          "type": "conteur",
+          "texte": "Cela fait, et le bâtiment\nMis à l’eau, {{r1}} entre tout doucement\nDans le léger esquif, s’assied sur son derrière.\nTandis que devant lui {{r2}} nageant,\nTire le brin de jonc, et s’en va dirigeant\nCette nef à son cœur si chère."
+        },
+        {
+          "id": "a3e19",
+          "type": "adresse_public",
+          "marionnetteId": "r2",
+          "texte": "Regardez l’autre rive et dites doucement : « Encore un peu ! »",
+          "attenteReponse": true
+        },
+        {
+          "id": "a3e20",
+          "type": "conteur",
+          "texte": "On aborde, on débarque, et jugez du plaisir !\nNon loin du port on va choisir\nUn asile où, coulant des jours dignes d’envie,\n{{r1}} et {{r2}}, libres, dans la joie,\nAimèrent d’autant plus la vie\nQu’on se la devait de part et d’autre."
+        },
+        {
+          "id": "a3e21",
+          "type": "didascalie",
+          "texte": "{{r1}} et {{r2}} avancent côte à côte vers le même abri, puis saluent."
+        },
+        {
+          "id": "a3e22",
+          "type": "sortie",
+          "marionnetteId": "r1",
+          "mainMarionnettiste": "M1G"
+        },
+        {
+          "id": "a3e23",
+          "type": "sortie",
+          "marionnetteId": "r2",
+          "mainMarionnettiste": "M1D"
+        }
+      ]
+    }
+  ],
+  "bible": {
+    "conteId": "fr-florian-lapin-sarcelle",
+    "synopsis": {
+      "accroche": "{{r1}} et {{r2}} se sauvent tour à tour, par un tunnel puis sur la rivière.",
+      "resume": [
+        "{{r1}} et {{r2}} partagent une amitié près de la rivière.",
+        "{{r2}} est enfermée dans une volière ; {{r1}} la délivre par un tunnel.",
+        "{{r3}} fait chasser les lapins ; d’autres lapins meurent.",
+        "{{r2}} construit un nid flottant et sauve {{r1}} en l’emmenant sur l’autre rive. {{r1}} et {{r2}} vivent libres et se doivent la vie."
+      ]
+    },
+    "transposition": {
+      "texte": "Ensemble dès leurs jeunes ans,\nDans une amitié fraternelle,\n{{r1}} ainsi que {{r2}}\nVivaient dans la joie et le contentement.\nLe terrier de {{r1}} était sur la lisière\nD’un parc bordé d’une rivière.\nSoir et matin {{r1}} et {{r2}},\nProfitant de ce voisinage,\nTantôt au bord de l’eau, tantôt sous le feuillage,\nSe retrouvaient chez {{r1}} ou {{r2}}.\nLà, prenant leurs repas, se contant des nouvelles,\nOn n’en trouvait point de si belles\nQue de répéter qu’on s’aimerait toujours.\nCe sujet revenait sans cesse en leurs discours.\nTout était en commun, plaisir, chagrin, souffrance ;\nCe qui manquait à {{r1}}, {{r2}} le regrettait ;\nSi {{r2}} avait du mal, {{r1}} le sentait ;\nSi d’un bien au contraire {{r2}} goûtait l’espérance,\n{{r1}} en jouissait aussi d’avance.\nTel était leur destin, lorsqu’un jour, jour affreux !\n{{r1}}, pour dîner venant chez {{r2}},\nNe la retrouve plus : inquiet, il l’appelle ;\nPersonne ne répond à ses cris douloureux.\n{{r1}}, de frayeur l’âme toute saisie,\nVa, vient, fait mille tours, cherche dans les roseaux,\nS’incline par-dessus les flots,\nEt voudrait s’y plonger pour trouver son amie.\nHélas ! m’entends-tu ? réponds-moi,\nMa sœur, ma compagne chérie,\nNe prolonge pas mon effroi :\nEncor quelques moments, c’en est fait de ma vie :\nJ’aime mieux expirer que de trembler pour toi.\nDisant ces mots, il court, il pleure,\nEt, s’avançant le long de l’eau,\nArrive enfin près du château\nOù {{r3}}, seigneur du lieu, demeure.\nLà, {{r1}}, désolé,\nSe trouve au milieu d’un parterre\nEt voit une grande volière\nOù mille oiseaux divers volaient sur un bassin.\nL’amitié donne du courage.\n{{r1}}, sans rien craindre, approche du grillage,\nRegarde, et reconnaît… ô tendresse ! ô bonheur !\n{{r2}}. Aussitôt il pousse un cri de joie ;\nEt, sans perdre de temps à consoler sa sœur,\nDe ses quatre pieds il s’emploie\nÀ creuser un secret chemin\nPour joindre son amie, et, par ce souterrain,\n{{r1}} tout à coup entre dans la volière,\nComme un mineur qui prend une place de guerre.\nLes oiseaux effrayés se pressent en fuyant ;\nLui court à {{r2}} ; il l’entraîne à l’instant\nDans son obscur sentier, la conduit sous la terre,\nEt, la rendant au jour, il est prêt à mourir\nDe plaisir.\nQuel moment pour {{r1}} et {{r2}} ! Que ne sais-je le peindre\nComme je saurais le sentir !\n{{r1}} et {{r2}} croyaient n’avoir plus rien à craindre ;\nCe n’était pas fini. {{r3}}, maître du jardin,\nEn voyant le dégât commis dans sa volière,\nJure :\nJ’exterminerai jusqu’au dernier lapin !\nMes fusils, mes furets !\nAussitôt fusils et furets\nSont tout prêts.\nLes gardes et les chiens vont dans les jeunes tailles,\nFouillant les terriers, les broussailles ;\nDes lapins sont tués au cours de cette chasse.\nLa nuit vient ; {{r3}}, toujours plein de colère,\nRemet au lendemain la suite de la chasse.\nPendant ce temps {{r1}},\nTapi sous des roseaux auprès de {{r2}},\nAttendait, en tremblant, la mort,\nMais conjurait sa sœur : Fuis à l’autre bord\nPour que je ne meure pas devant toi.\nJe ne te quitte point ;\nNous séparer serait la mort la plus cruelle.\nAh ! si tu pouvais passer l’eau !\nPourquoi pas ? attends-moi… {{r2}} le quitte,\nEt revient traînant un vieux nid\nLaissé par des canards ; elle l’emplit bien vite\nDe feuilles de roseau, les presse, les unit\nDes pieds, du bec, en forme un batelet capable\nDe supporter un lourd fardeau ;\nPuis elle attache à ce vaisseau\nUn brin de jonc qui servira de câble.\nCela fait, et le bâtiment\nMis à l’eau, {{r1}} entre tout doucement\nDans le léger esquif, s’assied sur son derrière.\nTandis que devant lui {{r2}} nageant,\nTire le brin de jonc, et s’en va dirigeant\nCette nef à son cœur si chère.\nOn aborde, on débarque, et jugez du plaisir !\nNon loin du port on va choisir\nUn asile où, coulant des jours dignes d’envie,\n{{r1}} et {{r2}}, libres, dans la joie,\nAimèrent d’autant plus la vie\nQu’on se la devait de part et d’autre.",
+      "changements": [
+        "« La lapin » est corrigé en « Le lapin ».",
+        "La chasse garde la mort d’autres lapins sans détails sanglants, selon la retouche universelle jusqu’à dix ans.",
+        "Les paroles indirectes du seigneur et de {{r1}} deviennent directes ; les incises des dialogues sont retirées.",
+        "Les personnages prennent les noms {{r1}}, {{r2}} et {{r3}} ; les collectifs sont formulés sans dépendance à une combinaison de genres.",
+        "La demande de fuite conserve le sens original : {{r1}} veut éviter de mourir devant {{r2}}."
+      ]
+    }
+  },
+  "dureeEstimeeSecondes": 482,
+  "interactionsOrdonnees": [
+    "a1e5",
+    "a1e10",
+    "a2e5",
+    "a2e8",
+    "a3e16",
+    "a3e19"
+  ]
+}

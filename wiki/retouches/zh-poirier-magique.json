@@ -1,0 +1,9 @@
+{
+  "id": "zh-poirier-magique",
+  "langue": [
+    {"avant": "Les badauds conseillèrent", "apres": "Les gens du marché conseillèrent", "nature": "mot-rare", "jusqua": 6},
+    {"avant": "pourquoi ne les mangez-vous pas vous-même ?", "apres": "pourquoi vous ne les mangez pas vous-même ?", "nature": "parler", "jusqua": 4},
+    {"avant": "il manquait un des brancards de sa charrette, fraîchement coupé", "apres": "il manquait un des brancards de sa charrette, le long bâton qui sert à la tirer, fraîchement coupé", "nature": "mot-rare", "jusqua": 6}
+  ],
+  "moments": []
+}

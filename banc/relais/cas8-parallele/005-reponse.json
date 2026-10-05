@@ -1,0 +1,17 @@
+{"elements": [
+  {"type": "entree", "marionnette": "Mamie Rose", "main": "M1G"},
+  {"type": "didascalie", "texte": "Mamie Rose s'installe sous sa couverture et se tourne sur le côté."},
+  {"type": "entree", "marionnette": "Loup Gris", "main": "M1D"},
+  {"type": "didascalie", "texte": "Loup Gris traverse la scène en courant."},
+  {"type": "conteur", "texte": "Et la petite fille s'en alla par le chemin le plus long, s'amusant à cueillir des noisettes, à courir après des papillons, et à faire des bouquets des petites fleurs qu'elle rencontrait."},
+  {"type": "conteur", "texte": "Loup Gris ne fut pas longtemps à arriver à la maison de Mamie Rose."},
+  {"type": "didascalie", "texte": "Loup Gris frappe deux coups à la porte."},
+  {"type": "replique", "marionnette": "Mamie Rose", "texte": "Qui est là ?", "ton": "surprise, depuis son lit"},
+  {"type": "note_marionnettiste", "texte": "Ici, on peut laisser les enfants crier que ce n'est pas Rosette, pour essayer d'empêcher Mamie Rose d'ouvrir."},
+  {"type": "replique", "marionnette": "Loup Gris", "texte": "C'est votre fille, Rosette, qui vous apporte une galette et un petit pot de beurre, que ma mère vous envoie.", "ton": "voix contrefaite, imitant Rosette"},
+  {"type": "replique", "marionnette": "Mamie Rose", "texte": "Tire la chevillette, la bobinette cherra.", "ton": "criée depuis le lit"},
+  {"type": "conteur", "texte": "Loup Gris tira la chevillette, et la porte s'ouvrit."},
+  {"type": "didascalie", "texte": "Loup Gris s'approche du lit et se jette sur Mamie Rose."},
+  {"type": "sortie", "marionnette": "Mamie Rose", "main": "M1G"},
+  {"type": "conteur", "texte": "car il y avait plus de trois jours qu'il n'avait mangé."}
+]}

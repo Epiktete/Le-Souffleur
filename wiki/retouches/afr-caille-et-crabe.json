@@ -1,0 +1,20 @@
+{
+  "id": "afr-caille-et-crabe",
+  "langue": [
+    {"avant": "ils l’appelassent : Bonne fermière", "apres": "ils devaient l’appeler : Bonne fermière", "nature": "tournure"}
+  ],
+  "moments": [
+    {
+      "id": "insulte-infirme",
+      "type": "mal-vieilli",
+      "niveaux": [
+        {
+          "jusqua": 10,
+          "retouches": [
+            {"avant": "Angbala, bras brûlé, infirme ! pied brûlé, infirme !", "apres": "Angbala, bras brûlé ! pied brûlé !"}
+          ]
+        }
+      ]
+    }
+  ]
+}
