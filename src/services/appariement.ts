@@ -9,7 +9,7 @@
 // couples interdits compris) à travers un PSEUDO-CONTE bâti depuis la
 // signature : `choixContes.ts` n'est pas modifié.
 
-import { BANQUE } from '../config';
+import { BANQUE, BORNES } from '../config';
 import type { Marionnette } from '../types';
 import type { Conte, RoleConte } from './repertoire';
 import type { RoleSignature, SignatureModele } from './banque';
@@ -347,4 +347,36 @@ export function evaluerModeles(
   options: OptionsEvaluation,
 ): ModeleEvalue[] {
   return signatures.map((s) => evaluerModele(s, troupe, reglages, options));
+}
+
+/**
+ * Les spectacles les plus proches de l'âge et de la durée demandés d'abord.
+ * Chaque écart est rapporté à l'étendue de son curseur pour donner le même
+ * poids aux deux réglages. À égalité : durée, âge, marionnettistes, puis
+ * nombre de peluches laissées de côté sur une scène explicitement garnie.
+ * L'interaction n'intervient pas : elle s'ajuste à la création du spectacle.
+ * La liste fournie et les évaluations ne sont pas modifiées.
+ */
+export function trierModeles(
+  modeles: ModeleEvalue[],
+  reglages: ReglagesFiltre,
+  tailleScene?: number,
+): ModeleEvalue[] {
+  const ecartDuree = (s: SignatureModele) =>
+    Math.abs(s.dureeEstimeeSecondes / 60 - reglages.dureeMinutes);
+  const ecartAge = (s: SignatureModele) =>
+    Math.abs(s.ageAuditoire - reglages.ageAuditoire);
+  const proximite = (s: SignatureModele) =>
+    ecartDuree(s) / (BORNES.dureeMinutes.max - BORNES.dureeMinutes.min)
+    + ecartAge(s) / (BORNES.ageAuditoire.max - BORNES.ageAuditoire.min);
+
+  return [...modeles].sort(({ signature: a }, { signature: b }) =>
+    proximite(a) - proximite(b)
+    || ecartDuree(a) - ecartDuree(b)
+    || ecartAge(a) - ecartAge(b)
+    || Math.abs(a.nbMarionnettistes - reglages.nbMarionnettistes)
+      - Math.abs(b.nbMarionnettistes - reglages.nbMarionnettistes)
+    || (tailleScene === undefined ? 0
+      : Math.abs(a.roles.length - tailleScene) - Math.abs(b.roles.length - tailleScene)),
+  );
 }

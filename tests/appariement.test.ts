@@ -3,8 +3,10 @@ import { describe, expect, it } from 'vitest';
 import {
   conteDeSignature,
   evaluerModele,
+  evaluerModeles,
   genreMarionnette,
   problemeAttribution,
+  trierModeles,
   type ReglagesFiltre,
 } from '../src/services/appariement';
 import type { SignatureModele } from '../src/services/banque';
@@ -49,6 +51,67 @@ const TROUPE = [
 
 const REGLAGES: ReglagesFiltre = { dureeMinutes: 6, ageAuditoire: 5, nbMarionnettistes: 1 };
 const OPTIONS = { facultatives: false };
+
+describe('tri selon les réglages du studio', () => {
+  function jouables(fiches: SignatureModele[], reglages = REGLAGES, tailleScene?: number) {
+    return trierModeles(
+      evaluerModeles(fiches, TROUPE, reglages, OPTIONS).filter(e => e.ecarts.length === 0),
+      reglages,
+      tailleScene,
+    ).map(e => e.signature.id);
+  }
+
+  it('fait remonter la durée la plus proche et réagit à une nouvelle durée', () => {
+    const fiches = [
+      signature({ id: 'court', dureeEstimeeSecondes: 120 }),
+      signature({ id: 'long', dureeEstimeeSecondes: 360 }),
+      signature({ id: 'moyen', dureeEstimeeSecondes: 240 }),
+    ];
+    expect(jouables(fiches)).toEqual(['long', 'moyen', 'court']);
+    expect(jouables(fiches, { ...REGLAGES, dureeMinutes: 4 })).toEqual(['moyen', 'court']);
+  });
+
+  it('privilégie aussi l’âge demandé, sans proposer un âge trop élevé', () => {
+    const fiches = [
+      signature({ id: 'petits', ageAuditoire: 3 }),
+      signature({ id: 'grands', ageAuditoire: 7 }),
+      signature({ id: 'cinq', ageAuditoire: 5 }),
+    ];
+    expect(jouables(fiches)).toEqual(['cinq', 'petits']);
+    expect(jouables(fiches, { ...REGLAGES, ageAuditoire: 7 })).toEqual(['grands', 'cinq', 'petits']);
+  });
+
+  it('combine âge et durée plutôt que de favoriser systématiquement un seul réglage', () => {
+    const fiches = [
+      signature({ id: 'age-exact', dureeEstimeeSecondes: 120 }),
+      signature({ id: 'duree-exacte', ageAuditoire: 4 }),
+      signature({ id: 'compromis', ageAuditoire: 4, dureeEstimeeSecondes: 300 }),
+    ];
+    expect(jouables(fiches)).toEqual(['duree-exacte', 'age-exact', 'compromis']);
+  });
+
+  it('départage les réglages égaux par les marionnettistes et la scène garnie', () => {
+    const fiches = [
+      signature({ id: 'deux-roles', nbMarionnettistes: 2, roles: signature().roles.slice(0, 2) }),
+      signature({ id: 'un-marionnettiste' }),
+      signature({ id: 'trois-roles', nbMarionnettistes: 2 }),
+    ];
+    const reglages = { ...REGLAGES, nbMarionnettistes: 2 as const };
+    expect(jouables(fiches, reglages, 3)).toEqual(['trois-roles', 'deux-roles', 'un-marionnettiste']);
+    expect(jouables(fiches, reglages)).toEqual(['deux-roles', 'trois-roles', 'un-marionnettiste']);
+  });
+
+  it('conserve l’ordre des égalités et ne modifie ni les données ni la liste fournie', () => {
+    const evaluations = evaluerModeles([
+      signature({ id: 'premier' }), signature({ id: 'deuxieme' }),
+    ], TROUPE, REGLAGES, OPTIONS);
+    const avant = structuredClone(evaluations);
+    const triees = trierModeles(evaluations, REGLAGES);
+    expect(triees).toEqual(avant);
+    expect(triees).not.toBe(evaluations);
+    expect(evaluations).toEqual(avant);
+  });
+});
 
 describe('evaluerModele', () => {
   it('accepte un spectacle qui passe tout, avec sa distribution dans l’ordre des rôles', () => {

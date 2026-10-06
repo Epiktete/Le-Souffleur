@@ -22,6 +22,7 @@
   import { signatures, type SignatureModele } from '../services/banque';
   import {
     evaluerModeles,
+    trierModeles,
     type AttributionBanque,
     type Ecart,
     type ModeleEvalue,
@@ -36,10 +37,7 @@
   $effect(() => { if (!bibliotheque.chargee) void bibliotheque.charger(); });
 
   // Le fonds est empaqueté avec l'application : la liste est connue d'avance.
-  // Les plus jeunes publics d'abord, puis le plus court d'abord.
-  const fiches = signatures().sort(
-    (a, b) => a.ageAuditoire - b.ageAuditoire || a.dureeEstimeeSecondes - b.dureeEstimeeSecondes,
-  );
+  const fiches = signatures();
   const catalogue = construireCatalogue(fiches);
   const parId = new Map(catalogue.map(e => [e.signature.id, e]));
   const origines = [...new Set(catalogue.map(e => e.origine).filter(Boolean))]
@@ -72,18 +70,24 @@
    */
   let joues = $state(lireModelesJoues());
 
+  const reglagesFiltre = $derived({
+    dureeMinutes: studio.valeurs.dureeMinutes,
+    ageAuditoire: studio.valeurs.ageAuditoire,
+    nbMarionnettistes: studio.valeurs.nbMarionnettistes,
+  });
+
   const evaluations = $derived(evaluerModeles(
     selection.map(e => e.signature),
     troupe,
-    {
-      dureeMinutes: studio.valeurs.dureeMinutes,
-      ageAuditoire: studio.valeurs.ageAuditoire,
-      nbMarionnettistes: studio.valeurs.nbMarionnettistes,
-    },
+    reglagesFiltre,
     { facultatives: !sceneGarnie, dejaJoues: joues },
   ));
 
-  const jouables = $derived(evaluations.filter((e) => e.ecarts.length === 0));
+  const jouables = $derived(trierModeles(
+    evaluations.filter((e) => e.ecarts.length === 0),
+    reglagesFiltre,
+    sceneGarnie ? troupe.length : undefined,
+  ));
   const ecartes = $derived(evaluations.filter((e) => e.ecarts.length > 0));
 
   /**

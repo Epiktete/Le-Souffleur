@@ -69,6 +69,23 @@ test('les fiches s’affichent selon les filtres, et les écartés sont comptés
   await expect(ficheChaperon(page)).toContainText('poupee · loup · mamie');
 });
 
+test('les adaptations les plus proches des réglages remontent dans les résultats de recherche', async ({ page }) => {
+  await creerMarionnette(page, 'Zouzou');
+  await creerMarionnette(page, 'Pim');
+  await page.getByLabel('Âge de l’auditoire', { exact: true }).fill('7');
+  await page.getByLabel('Durée', { exact: true }).fill('5');
+  await page.getByLabel('Titre ou auteur', { exact: true }).fill('Florian');
+  const titres = page.getByRole('region', { name: 'Studio' }).locator('.fiches h3');
+  // Même âge conseillé : 4 min 02, puis 3 min 20, puis 1 min 58 pour une cible de 5 min.
+  const ordreCinqMinutes = ['L’Aveugle et le Paralytique', 'Le Chat et le Miroir', 'La Guenon, le Singe et la Noix'];
+  await expect(titres).toHaveText(ordreCinqMinutes);
+  await page.getByLabel('Durée', { exact: true }).fill('2');
+  await expect(titres).toHaveText(['La Guenon, le Singe et la Noix']);
+  await page.getByLabel('Durée', { exact: true }).fill('5');
+  await expect(titres).toHaveText(ordreCinqMinutes);
+  await expect(page.getByLabel('Titre ou auteur', { exact: true })).toHaveValue('Florian');
+});
+
 test('la recherche combine type et origine, et son effacement conserve les réglages de jeu', async ({ page }) => {
   await troupeDuChaperon(page);
   await page.getByLabel('Durée', { exact: true }).fill('10');
