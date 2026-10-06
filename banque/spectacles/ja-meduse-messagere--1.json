@@ -169,34 +169,9 @@
             "apres": "tout penaud"
           },
           {
-            "id": "a4e20:texte",
-            "avant": "Idiote ! Sotte !",
-            "apres": "Idiot ! Sot !"
-          },
-          {
-            "id": "a4e20:texte",
-            "avant": "pour la punir, tapez-la",
-            "apres": "pour le punir, tapez-le"
-          },
-          {
             "id": "a4e22:texte",
             "avant": "la mirent au milieu",
             "apres": "le mirent au milieu"
-          },
-          {
-            "id": "a4e26:texte",
-            "avant": "Bavarde ! Prétentieuse ! Nigaude !",
-            "apres": "Bavard ! Prétentieux ! Nigaud !"
-          },
-          {
-            "id": "a4e28:texte",
-            "avant": "ils la tapèrent",
-            "apres": "ils le tapèrent"
-          },
-          {
-            "id": "a4e28:texte",
-            "avant": "et elle devint",
-            "apres": "et il devint"
           },
           {
             "id": "a4e28:texte",
@@ -207,6 +182,11 @@
             "id": "a4e30:texte",
             "avant": "toute molle",
             "apres": "tout mou"
+          },
+          {
+            "id": "a4e20:texte",
+            "avant": "Pour la punir, frappez-la",
+            "apres": "Pour le punir, frappez-le"
           }
         ]
       },
@@ -1321,7 +1301,7 @@
           "id": "a4e20",
           "type": "replique",
           "marionnetteId": "r3",
-          "texte": "Imbécile ! Idiote ! Sotte ! Tous, pour la punir, tapez-la jusqu'à ce qu'il ne lui reste plus un os !",
+          "texte": "Pour la punir, frappez-la !",
           "ton": "en hurlant"
         },
         {
@@ -1347,28 +1327,9 @@
           "texte": "{{r1}} essaie de s'enfuir, mais {{r5}} lui barre le chemin, à droite, puis à gauche."
         },
         {
-          "id": "a4e25",
-          "type": "adresse_public",
-          "marionnetteId": "r5",
-          "texte": "Criez avec nous, tous les poissons !",
-          "attenteReponse": true
-        },
-        {
-          "id": "a4e26",
-          "type": "replique",
-          "marionnetteId": "r5",
-          "texte": "Bavarde ! Prétentieuse ! Nigaude !",
-          "ton": "en criant très fort"
-        },
-        {
-          "id": "a4e27",
-          "type": "didascalie",
-          "texte": "{{r5}} tape {{r1}} de la tête, encore et encore, pendant que vous frappez sur la table : boum ! boum ! boum !"
-        },
-        {
           "id": "a4e28",
           "type": "conteur",
-          "texte": "Et ils la tapèrent tant et tant qu'à la fin tous les os de son corps devinrent tout mous, et elle devint la méduse d'aujourd'hui, sans yeux, sans nez, toute molle et sans un os."
+          "texte": "Après les coups des poissons, {{r1}} devint la méduse d'aujourd'hui, toute molle et sans un os."
         },
         {
           "id": "a4e29",
@@ -1399,23 +1360,22 @@
         "{{r5}}, la dorade, propose d'envoyer {{r1}}, la méduse, qui en ce temps-là avait des os et quatre pattes.",
         "Sur l'île aux Singes, {{r1}} vante à {{r2}} le palais du roi dragon, et {{r2}} monte sur son dos.",
         "En pleine mer, {{r1}} ne peut pas se retenir et lui révèle qu'on veut son foie ; {{r2}} prétend l'avoir laissé sécher sur son pin, et se fait ramener à l'île.",
-        "{{r2}} grimpe dans son arbre et se moque d'elle ; au palais, {{r3}} la fait punir, et les poissons la tapent tant qu'elle devient la méduse d'aujourd'hui, toute molle et sans un os."
+        "{{r2}} grimpe dans son arbre et se moque d'elle ; au palais, {{r3}} la fait punir, et après les coups des poissons elle devient la méduse d'aujourd'hui, toute molle et sans un os."
       ]
     },
     "transposition": {
-      "texte": "Il était une fois, il y a bien longtemps, au fond de la mer, {{r3}}, le roi dragon, et la Reine, qui habitaient un magnifique palais. Tous les poissons de la mer, craignant la puissance d'{{r3}}, étaient devenus ses sujets.\n\nUn jour, la Reine tomba très gravement malade. On essaya de tout, on lui donna tous les remèdes, mais aucun ne faisait effet. Peu à peu, elle s'affaiblissait, et son état devint si grave qu'on ne savait pas si elle passerait le lendemain.\n\n{{r3}} s'inquiétait terriblement. Il réunit tout le monde et demanda :\n\n— Que faut-il donc faire ?\n\nTous se regardèrent en disant « Euh… ».\n\nAlors, de tout en bas, {{r4}}, la pieuvre, sortit en ondulant sur ses huit bras et dit, timidement :\n\n— Moi qui vais souvent sur la terre, et qui entends parler les hommes et toutes sortes de bêtes, on m'a dit que dans ces cas-là, le meilleur remède, c'est le foie d'un singe.\n\n— Où en trouve-t-on ? demanda {{r3}}.\n\n— Au sud d'ici, il y a une île qu'on appelle l'île aux Singes. Il y a là beaucoup de singes. Si vous envoyez quelqu'un en attraper un, ce sera parfait.\n\n— Je vois.\n\nOn se demanda alors qui envoyer. Et {{r5}}, la dorade, dit :\n\n— Il faudrait envoyer {{r1}}, la méduse. Elle n'est pas bien jolie, mais elle a quatre pattes et peut marcher librement sur la terre.\n\n(Car en ce temps-là, la méduse avait des os et des pattes, comme tout le monde.)\n\nOn fit donc venir {{r1}}, qui partit en mission. Mais comme ce n'était pas un poisson très futé, même après les ordres d'{{r3}}, elle ne savait pas du tout comment s'y prendre. Elle attrapa tout le monde, l'un après l'autre, pour poser des questions :\n\n— À quoi ça ressemble, un singe ?\n\n— Ça a la figure toute rouge, le derrière tout rouge, ça grimpe souvent dans les arbres, et ça adore les châtaignes et les kakis.\n\n— Comment attraper un singe ?\n\n— En le trompant habilement.\n\n— Comment le tromper ?\n\n— En lui disant ce qui lui fera plaisir : raconte-lui comme le palais d'{{r3}} est magnifique, qu'il y a plein de bonnes choses à manger, pour qu'il ait envie de venir.\n\n— Mais comment l'amener au fond de la mer ?\n\n— Tu le porteras sur ton dos.\n\n— Il doit être bien lourd.\n\n— Tant pis. Il faut supporter. C'est ton devoir.\n\n— Oui, oui, je vois.\n\nAlors {{r1}}, en flottant mollement dans la mer, nagea vers l'île aux Singes.\n\nBientôt, une île apparut. {{r1}} se dit : « Ce doit être l'île aux Singes », et nagea jusqu'à l'île. Elle monta sur la terre et regarda partout : sur une branche de pin, était assis à califourchon quelque chose qui avait la figure toute rouge et le derrière tout rouge. {{r1}} se dit : « Ah ah, ça doit être un singe », et, l'air de rien, s'approcha doucement :\n\n— Monsieur le singe, monsieur le singe, bonjour ! Il fait beau aujourd'hui.\n\n— Oui, il fait beau. Mais toi, je ne t'ai jamais vue : d'où viens-tu ?\n\n— Moi, je suis {{r1}}, la méduse, sujette du roi dragon. Il faisait si beau aujourd'hui que je suis venue me promener par ici sans y penser. C'est vrai que l'île aux Singes est un bel endroit.\n\n— Oh oui, c'est un bel endroit. Regarde ce paysage, et toutes ces châtaignes et ces kakis : il n'y a sûrement pas d'endroit plus beau ailleurs.\n\nEn disant cela, {{r2}}, le singe, tendit son petit nez le plus haut possible, l'air très fier ; alors {{r1}} éclata de rire exprès, comme si c'était la chose la plus drôle du monde.\n\n— Ha ha ! Bien sûr que l'île aux Singes est un bel endroit, mais ça ne se compare pas au palais du dragon. Comme tu ne connais pas le palais du dragon, tu te vantes comme ça ; j'aimerais bien te le montrer une fois. Tout est fait d'or, d'argent et de corail, et dans le jardin, toute l'année, il pousse des châtaignes, des kakis et toutes sortes de fruits, plus qu'on n'en peut cueillir.\n\nÀ ces mots, {{r2}} se pencha de plus en plus. Et finalement, il descendit de l'arbre :\n\n— Hmm, si c'est vraiment un si bel endroit, j'aimerais bien y aller aussi.\n\n{{r1}} se dit en elle-même : « Ça marche ! »\n\n— Si tu veux venir, je t'y emmène.\n\n— Mais je ne sais pas nager.\n\n— Pas de problème, je te porterai sur mon dos. Alors, allons-y, allons-y !\n\n— Vraiment ? Alors, je compte sur toi.\n\nEt {{r2}} monta sur le dos de {{r1}}. Avec {{r2}} sur son dos, {{r1}} flotta de nouveau mollement sur la mer, et cette fois rentra vers le nord. Au bout d'un moment, {{r2}} dit :\n\n— Madame la méduse, madame la méduse, c'est encore loin, le palais du dragon ?\n\n— Oui, il y a encore un bout de chemin.\n\n— Qu'est-ce que c'est long !\n\n— Allons, reste tranquille et tiens-toi bien. Si tu t'agites, tu vas tomber dans la mer.\n\n— J'ai peur. Tiens-moi bien !\n\nEt en bavardant ainsi, {{r1}}, qui n'était pas très maligne mais très bavarde, ne put pas se retenir, et demanda :\n\n— Dis donc, monsieur le singe, tu as un foie, toi ?\n\n{{r2}} trouva étrange qu'on lui demande tout à coup une chose pareille :\n\n— Bien sûr que j'en ai un. Mais pourquoi me demandes-tu ça ?\n\n— Parce que ce foie, c'est l'affaire la plus importante.\n\n— Qu'est-ce qui est important ?\n\n— Rien, rien, ce sont nos affaires.\n\n{{r2}} s'inquiétait de plus en plus, et voulait absolument savoir. Ça amusait d'autant plus {{r1}}, qui, emportée, se mit à le taquiner. {{r2}}, impatient, dit :\n\n— Enfin, dis-moi pourquoi ! Allez, dis-le !\n\n— Alors, je le dis ou je ne le dis pas ? Voyons…\n\n— Pourquoi es-tu si méchante, à me faire languir ? Raconte-moi !\n\n— Bon, je vais te le dire. En vérité, depuis quelque temps, la Reine est malade, elle est mourante. Et on dit que si on ne lui donne pas le foie d'un singe, elle ne pourra pas guérir : alors je suis venue te chercher. C'est pour ça que l'affaire importante, c'est le foie.\n\nEn entendant cela, {{r2}} fut terrifié et se mit à trembler. Mais il comprit qu'au milieu de la mer, il ne servait à rien de s'agiter ; alors il prit exprès un air tranquille :\n\n— Quoi, ce n'est que ça ? Si mon foie peut guérir la Reine, je le lui donne volontiers. Mais pourquoi ne me l'as-tu pas dit dès le début ? Comme je n'en savais rien, j'ai justement laissé mon foie sur l'île en partant.\n\n— Hein ? Tu as laissé ton foie ?\n\n— Mais oui, il sèche sur une branche du pin où j'étais tout à l'heure. Un foie, vois-tu, il faut le sortir de temps en temps pour le laver, sinon il se salit.\n\n{{r2}} disait cela avec un air si sérieux que {{r1}} fut toute dépitée :\n\n— Oh là là, quelle catastrophe ! Sans le foie, ça ne sert à rien de t'emmener au palais du dragon.\n\n— Oh, moi aussi, j'aurais l'air bien bête d'arriver au palais du dragon sans cadeau. Alors, même si c'est pénible, ramène-moi à l'île. J'irai chercher mon foie.\n\nAlors {{r1}}, en ronchonnant, reporta {{r2}} sur son dos jusqu'à l'île.\n\nArrivé à l'île aux Singes, {{r2}} sauta vite du dos de {{r1}}, grimpa lestement dans l'arbre, et ne redescendit plus jamais.\n\n— Monsieur le singe, monsieur le singe, qu'est-ce que tu fais si longtemps ? Descends vite avec ton foie ! dit {{r1}}, impatiente.\n\nAlors {{r2}}, en haut de l'arbre, se mit à rire :\n\n— Jamais de la vie ! Reviens avant-hier ! Merci pour la promenade !\n\n{{r1}} fit la moue :\n\n— Comment ? Et ta promesse d'aller chercher ton foie ?\n\n— Méduse idiote ! Qui irait apporter son propre foie ? Si on me prend mon foie, je perds la vie. Désolé, désolé !\n\nEt du haut de l'arbre, {{r2}} lui fit une grimace :\n\n— Si tu le veux tant, monte donc le chercher ! Ah, tu ne peux pas monter, hein ? Hou hou !\n\nEt il se tapa trois fois sur son derrière rouge.\n\nOn avait beau se moquer d'elle, {{r1}} ne pouvait rien faire : les larmes aux yeux, elle rentra toute penaude au palais du dragon.\n\nAu palais, {{r3}} et tous les autres l'attendaient avec impatience :\n\n— Et le singe ? Et le singe ? Et le foie ? Et le foie ?\n\nIls l'entourèrent en foule en la pressant de questions. N'ayant pas le choix, {{r1}} raconta comment, après avoir si bien trompé {{r2}} pour l'emmener, elle avait été trompée à son tour et l'avait laissé s'échapper. {{r3}} devint tout rouge de colère :\n\n— Imbécile ! Idiote ! Sotte ! Tous, pour la punir, tapez-la jusqu'à ce qu'il ne lui reste plus un os !\n\nAlors {{r5}}, la dorade, la limande, la sole, le grondin et toutes sortes de poissons se jetèrent sur {{r1}} qui s'enfuyait, l'attrapèrent, la mirent au milieu, et en criant tous ensemble « Bavarde ! Prétentieuse ! Nigaude ! », la tapèrent tant et tant qu'à la fin tous les os de son corps devinrent tout mous, et elle devint la méduse d'aujourd'hui, sans yeux, sans nez, toute molle et sans un os.",
+      "texte": "Il était une fois, il y a bien longtemps, au fond de la mer, {{r3}}, le roi dragon, et la Reine, qui habitaient un magnifique palais. Tous les poissons de la mer, craignant la puissance d'{{r3}}, étaient devenus ses sujets.\n\nUn jour, la Reine tomba très gravement malade. On essaya de tout, on lui donna tous les remèdes, mais aucun ne faisait effet. Peu à peu, elle s'affaiblissait, et son état devint si grave qu'on ne savait pas si elle passerait le lendemain.\n\n{{r3}} s'inquiétait terriblement. Il réunit tout le monde et demanda :\n\n— Que faut-il donc faire ?\n\nTous se regardèrent en disant « Euh… ».\n\nAlors, de tout en bas, {{r4}}, la pieuvre, sortit en ondulant sur ses huit bras et dit, timidement :\n\n— Moi qui vais souvent sur la terre, et qui entends parler les hommes et toutes sortes de bêtes, on m'a dit que dans ces cas-là, le meilleur remède, c'est le foie d'un singe.\n\n— Où en trouve-t-on ? demanda {{r3}}.\n\n— Au sud d'ici, il y a une île qu'on appelle l'île aux Singes. Il y a là beaucoup de singes. Si vous envoyez quelqu'un en attraper un, ce sera parfait.\n\n— Je vois.\n\nOn se demanda alors qui envoyer. Et {{r5}}, la dorade, dit :\n\n— Il faudrait envoyer {{r1}}, la méduse. Elle n'est pas bien jolie, mais elle a quatre pattes et peut marcher librement sur la terre.\n\n(Car en ce temps-là, la méduse avait des os et des pattes, comme tout le monde.)\n\nOn fit donc venir {{r1}}, qui partit en mission. Mais comme ce n'était pas un poisson très futé, même après les ordres d'{{r3}}, elle ne savait pas du tout comment s'y prendre. Elle attrapa tout le monde, l'un après l'autre, pour poser des questions :\n\n— À quoi ça ressemble, un singe ?\n\n— Ça a la figure toute rouge, le derrière tout rouge, ça grimpe souvent dans les arbres, et ça adore les châtaignes et les kakis.\n\n— Comment attraper un singe ?\n\n— En le trompant habilement.\n\n— Comment le tromper ?\n\n— En lui disant ce qui lui fera plaisir : raconte-lui comme le palais d'{{r3}} est magnifique, qu'il y a plein de bonnes choses à manger, pour qu'il ait envie de venir.\n\n— Mais comment l'amener au fond de la mer ?\n\n— Tu le porteras sur ton dos.\n\n— Il doit être bien lourd.\n\n— Tant pis. Il faut supporter. C'est ton devoir.\n\n— Oui, oui, je vois.\n\nAlors {{r1}}, en flottant mollement dans la mer, nagea vers l'île aux Singes.\n\nBientôt, une île apparut. {{r1}} se dit : « Ce doit être l'île aux Singes », et nagea jusqu'à l'île. Elle monta sur la terre et regarda partout : sur une branche de pin, était assis à califourchon quelque chose qui avait la figure toute rouge et le derrière tout rouge. {{r1}} se dit : « Ah ah, ça doit être un singe », et, l'air de rien, s'approcha doucement :\n\n— Monsieur le singe, monsieur le singe, bonjour ! Il fait beau aujourd'hui.\n\n— Oui, il fait beau. Mais toi, je ne t'ai jamais vue : d'où viens-tu ?\n\n— Moi, je suis {{r1}}, la méduse, sujette du roi dragon. Il faisait si beau aujourd'hui que je suis venue me promener par ici sans y penser. C'est vrai que l'île aux Singes est un bel endroit.\n\n— Oh oui, c'est un bel endroit. Regarde ce paysage, et toutes ces châtaignes et ces kakis : il n'y a sûrement pas d'endroit plus beau ailleurs.\n\nEn disant cela, {{r2}}, le singe, tendit son petit nez le plus haut possible, l'air très fier ; alors {{r1}} éclata de rire exprès, comme si c'était la chose la plus drôle du monde.\n\n— Ha ha ! Bien sûr que l'île aux Singes est un bel endroit, mais ça ne se compare pas au palais du dragon. Comme tu ne connais pas le palais du dragon, tu te vantes comme ça ; j'aimerais bien te le montrer une fois. Tout est fait d'or, d'argent et de corail, et dans le jardin, toute l'année, il pousse des châtaignes, des kakis et toutes sortes de fruits, plus qu'on n'en peut cueillir.\n\nÀ ces mots, {{r2}} se pencha de plus en plus. Et finalement, il descendit de l'arbre :\n\n— Hmm, si c'est vraiment un si bel endroit, j'aimerais bien y aller aussi.\n\n{{r1}} se dit en elle-même : « Ça marche ! »\n\n— Si tu veux venir, je t'y emmène.\n\n— Mais je ne sais pas nager.\n\n— Pas de problème, je te porterai sur mon dos. Alors, allons-y, allons-y !\n\n— Vraiment ? Alors, je compte sur toi.\n\nEt {{r2}} monta sur le dos de {{r1}}. Avec {{r2}} sur son dos, {{r1}} flotta de nouveau mollement sur la mer, et cette fois rentra vers le nord. Au bout d'un moment, {{r2}} dit :\n\n— Madame la méduse, madame la méduse, c'est encore loin, le palais du dragon ?\n\n— Oui, il y a encore un bout de chemin.\n\n— Qu'est-ce que c'est long !\n\n— Allons, reste tranquille et tiens-toi bien. Si tu t'agites, tu vas tomber dans la mer.\n\n— J'ai peur. Tiens-moi bien !\n\nEt en bavardant ainsi, {{r1}}, qui n'était pas très maligne mais très bavarde, ne put pas se retenir, et demanda :\n\n— Dis donc, monsieur le singe, tu as un foie, toi ?\n\n{{r2}} trouva étrange qu'on lui demande tout à coup une chose pareille :\n\n— Bien sûr que j'en ai un. Mais pourquoi me demandes-tu ça ?\n\n— Parce que ce foie, c'est l'affaire la plus importante.\n\n— Qu'est-ce qui est important ?\n\n— Rien, rien, ce sont nos affaires.\n\n{{r2}} s'inquiétait de plus en plus, et voulait absolument savoir. Ça amusait d'autant plus {{r1}}, qui, emportée, se mit à le taquiner. {{r2}}, impatient, dit :\n\n— Enfin, dis-moi pourquoi ! Allez, dis-le !\n\n— Alors, je le dis ou je ne le dis pas ? Voyons…\n\n— Pourquoi es-tu si méchante, à me faire languir ? Raconte-moi !\n\n— Bon, je vais te le dire. En vérité, depuis quelque temps, la Reine est malade, elle est mourante. Et on dit que si on ne lui donne pas le foie d'un singe, elle ne pourra pas guérir : alors je suis venue te chercher. C'est pour ça que l'affaire importante, c'est le foie.\n\nEn entendant cela, {{r2}} fut terrifié et se mit à trembler. Mais il comprit qu'au milieu de la mer, il ne servait à rien de s'agiter ; alors il prit exprès un air tranquille :\n\n— Quoi, ce n'est que ça ? Si mon foie peut guérir la Reine, je le lui donne volontiers. Mais pourquoi ne me l'as-tu pas dit dès le début ? Comme je n'en savais rien, j'ai justement laissé mon foie sur l'île en partant.\n\n— Hein ? Tu as laissé ton foie ?\n\n— Mais oui, il sèche sur une branche du pin où j'étais tout à l'heure. Un foie, vois-tu, il faut le sortir de temps en temps pour le laver, sinon il se salit.\n\n{{r2}} disait cela avec un air si sérieux que {{r1}} fut toute dépitée :\n\n— Oh là là, quelle catastrophe ! Sans le foie, ça ne sert à rien de t'emmener au palais du dragon.\n\n— Oh, moi aussi, j'aurais l'air bien bête d'arriver au palais du dragon sans cadeau. Alors, même si c'est pénible, ramène-moi à l'île. J'irai chercher mon foie.\n\nAlors {{r1}}, en ronchonnant, reporta {{r2}} sur son dos jusqu'à l'île.\n\nArrivé à l'île aux Singes, {{r2}} sauta vite du dos de {{r1}}, grimpa lestement dans l'arbre, et ne redescendit plus jamais.\n\n— Monsieur le singe, monsieur le singe, qu'est-ce que tu fais si longtemps ? Descends vite avec ton foie ! dit {{r1}}, impatiente.\n\nAlors {{r2}}, en haut de l'arbre, se mit à rire :\n\n— Jamais de la vie ! Reviens avant-hier ! Merci pour la promenade !\n\n{{r1}} fit la moue :\n\n— Comment ? Et ta promesse d'aller chercher ton foie ?\n\n— Méduse idiote ! Qui irait apporter son propre foie ? Si on me prend mon foie, je perds la vie. Désolé, désolé !\n\nEt du haut de l'arbre, {{r2}} lui fit une grimace :\n\n— Si tu le veux tant, monte donc le chercher ! Ah, tu ne peux pas monter, hein ? Hou hou !\n\nEt il se tapa trois fois sur son derrière rouge.\n\nOn avait beau se moquer d'elle, {{r1}} ne pouvait rien faire : les larmes aux yeux, elle rentra toute penaude au palais du dragon.\n\nAu palais, {{r3}} et tous les autres l'attendaient avec impatience :\n\n— Et le singe ? Et le singe ? Et le foie ? Et le foie ?\n\nIls l'entourèrent en foule en la pressant de questions. N'ayant pas le choix, {{r1}} raconta comment, après avoir si bien trompé {{r2}} pour l'emmener, elle avait été trompée à son tour et l'avait laissé s'échapper. {{r3}} devint tout rouge de colère :\n\n— Pour la punir, frappez-la !\n\nLes poissons attrapèrent {{r1}}. Après leurs coups, {{r1}} devint la méduse d'aujourd'hui, toute molle et sans un os.",
       "changements": [
-        "Le roi dragon, la pieuvre et la dorade deviennent des marionnettes : les questions que la méduse pose à « tout le monde » sont partagées entre {{r4}} et {{r5}}, le « Et le singe ? Et le foie ? » de tout le palais va à {{r3}}, le « Bavarde ! Prétentieuse ! Nigaude ! » de tous les poissons à {{r5}}, et le récit que la méduse fait au palais, au style indirect dans le conte, devient une réplique directe (règle du 2026-09-28 : le plus de dialogue possible entre marionnettes).",
+        "Le roi dragon, la pieuvre et la dorade deviennent des marionnettes : les questions que la méduse pose à « tout le monde » sont partagées entre {{r4}} et {{r5}}, le « Et le singe ? Et le foie ? » de tout le palais va à {{r3}}, le «  » de tous les poissons à {{r5}}, et le récit que la méduse fait au palais, au style indirect dans le conte, devient une réplique directe (règle du 2026-09-28 : le plus de dialogue possible entre marionnettes).",
         "Une réplique simple est ajoutée : l'ordre d'{{r3}} à {{r1}} (« va à l'île aux Singes, et ramène-moi un singe ! »), tiré des « ordres du Roi-Dragon ».",
         "« La vieille pieuvre » devient « la pieuvre » (l'adjectif ne s'accorderait pas devant toutes les espèces : « le vieux ours »), « la Reine du Dragon » devient « la Reine », et « le palais du Dragon », à l'arrivée, « le palais ».",
         "La Reine malade n'a aucune réplique : elle reste dans la narration. Si la peluche qui joue {{r3}} est une reine, la Reine malade devient le Roi."
       ]
     }
   },
-  "dureeEstimeeSecondes": 800,
+  "dureeEstimeeSecondes": 765,
   "interactionsOrdonnees": [
     "a1e37",
-    "a4e25",
     "a4e5",
     "a3e24",
     "a3e3",

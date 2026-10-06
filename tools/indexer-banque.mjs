@@ -18,8 +18,12 @@ mkdirSync(DOSSIER, { recursive: true });
 const fichiers = readdirSync(DOSSIER).filter((f) => f.endsWith('.json')).sort();
 
 const index = {};
+const retraits = JSON.parse(readFileSync('wiki/retraits.json', 'utf8'));
 for (const f of fichiers) {
   const m = JSON.parse(readFileSync(join(DOSSIER, f), 'utf8'));
+  if (Object.hasOwn(retraits, m.conteId)) {
+    throw new Error(`Spectacle retiré encore présent dans le fonds : ${f}`);
+  }
   index[m.id] = {
     conteId: m.conteId,
     titre: m.titre,

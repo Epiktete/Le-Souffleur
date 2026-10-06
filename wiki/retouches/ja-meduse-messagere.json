@@ -1,7 +1,33 @@
 {
   "id": "ja-meduse-messagere",
   "langue": [
-    {"avant": "Où en trouve-t-on ?", "apres": "On en trouve où ?", "nature": "parler", "jusqua": 4}
+    {
+      "avant": "Où en trouve-t-on ?",
+      "apres": "On en trouve où ?",
+      "nature": "parler",
+      "jusqua": 4
+    }
   ],
-  "moments": []
+  "moments": [
+    {
+      "id": "punition-sans-passage-a-tabac-detaille",
+      "type": "cruaute",
+      "niveaux": [
+        {
+          "jusqua": 10,
+          "annonce": "La punition explique toujours l’origine de la méduse ; elle est racontée sobrement, sans insultes en chœur ni coups prolongés.",
+          "retouches": [
+            {
+              "avant": "Imbécile ! Idiote ! Sotte ! Tous, pour la punir, tapez-la jusqu'à ce qu'il ne lui reste plus un os !",
+              "apres": "Pour la punir, frappez-la !"
+            },
+            {
+              "avant": "Alors la dorade, la limande, la sole, le grondin et toutes sortes de poissons se jetèrent sur la méduse qui s'enfuyait, l'attrapèrent, la mirent au milieu, et en criant tous ensemble « Bavarde ! Prétentieuse ! Nigaude ! », la tapèrent tant et tant qu'à la fin tous les os de son corps devinrent tout mous, et elle devint la méduse d'aujourd'hui, sans yeux, sans nez, toute molle et sans un os.",
+              "apres": "Les poissons attrapèrent la méduse. Après leurs coups, elle devint la méduse d'aujourd'hui, toute molle et sans un os."
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

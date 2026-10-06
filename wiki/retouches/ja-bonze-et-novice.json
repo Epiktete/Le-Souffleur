@@ -1,5 +1,30 @@
 {
   "id": "ja-bonze-et-novice",
   "langue": [],
-  "moments": []
+  "moments": [
+    {
+      "id": "malaise-feint-sans-suicide",
+      "type": "cruaute",
+      "niveaux": [
+        {
+          "jusqua": 10,
+          "annonce": "Le novice feint un malaise après le sirop ; il ne veut plus mourir pour s’excuser et n’annonce plus sa mort.",
+          "retouches": [
+            {
+              "avant": "fit semblant d'être à l'agonie",
+              "apres": "fit semblant d’être très malade"
+            },
+            {
+              "avant": "Maître, pardonnez-moi. Je vais mourir. Je ne peux plus être sauvé. Quand je serai mort, ayez pitié, et récitez au moins une prière pour moi.",
+              "apres": "Maître, pardonnez-moi. J’ai très mal au ventre. Ayez pitié, et récitez au moins une prière pour moi."
+            },
+            {
+              "avant": "Alors j'ai pensé que je n'avais plus qu'à mourir pour m'excuser, et j'ai sorti le poison du pot et je l'ai tout mangé. Le poison est déjà passé dans tout mon corps, je vais bientôt mourir.",
+              "apres": "Alors j'ai tout mangé du pot que vous disiez empoisonné. Depuis, j'ai très mal au ventre."
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

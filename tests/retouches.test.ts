@@ -3,6 +3,7 @@
 // langue écarte seulement ce qu'elle ne trouve pas.
 import { readdirSync } from 'node:fs';
 import { describe, expect, it } from 'vitest';
+import { conteEstRetire } from '../src/services/retraits';
 import {
   appliquerRetouches,
   lireFicheRetouches,
@@ -241,7 +242,8 @@ describe('le format d’une fiche', () => {
 });
 
 describe('les fiches de la contothèque', () => {
-  const ids = readdirSync('wiki/retouches').filter((f) => f.endsWith('.json')).map((f) => f.replace(/\.json$/, ''));
+  const ids = readdirSync('wiki/retouches').filter((f) => f.endsWith('.json'))
+    .map((f) => f.replace(/\.json$/, '')).filter(id => !conteEstRetire(id));
 
   it('se chargent et s’appliquent à chaque âge, sans extrait perdu', async () => {
     expect(ids.length).toBeGreaterThan(0);

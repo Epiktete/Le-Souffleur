@@ -1,5 +1,42 @@
 {
   "id": "ja-issun-boshi",
   "langue": [],
-  "moments": []
+  "moments": [
+    {
+      "id": "age-de-la-princesse",
+      "type": "mal-vieilli",
+      "niveaux": [
+        {
+          "jusqua": 10,
+          "annonce": "L’âge de treize ans et la précision qu’ils sont encore des enfants sont retirés ; le mariage du conte reste.",
+          "retouches": [
+            {
+              "avant": " de treize ans",
+              "apres": ""
+            },
+            {
+              "avant": "mais comme c'étaient tous les deux des enfants, ils finirent par être comme deux copains : ",
+              "apres": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "combat-sans-oeil-creve",
+      "type": "cruaute",
+      "niveaux": [
+        {
+          "jusqua": 10,
+          "annonce": "Le combat, l’évasion et la fuite de l’ogre restent ; l’œil blessé n’est plus décrit.",
+          "retouches": [
+            {
+              "avant": "Et il l'attrapa à son tour et l'avala d'un coup. Pendant qu'on l'avalait, Issun-bōshi, cette fois, bondit agilement de la gorge au nez, puis grimpa derrière les yeux, et se mit à piquer l'œil de l'ogre. L'ogre cria « Aïe ! » et fit un bond ; au même moment, Issun-bōshi sauta de son œil jusqu'à terre. L'ogre, croyant que son œil lui était sorti de la tête, s'écria :",
+              "apres": "Et il l'attrapa à son tour et l'avala d'un coup. Mais Issun-bōshi le piqua avec son sabre-aiguille. L'ogre cria « Aïe ! » et fit un bond ; au même moment, Issun-bōshi sauta jusqu'à terre. L'ogre, affolé, s'écria :"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

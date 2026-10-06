@@ -24,9 +24,10 @@ import { corpsDuTexte, compterMots, motsSignifiants, partDialogue } from '../src
 
 const DOSSIER = 'wiki/fr';
 const MOTS_CLES = 60;
+const retraits = JSON.parse(readFileSync('wiki/retraits.json', 'utf8'));
 
 const textes = readdirSync(DOSSIER)
-  .filter((f) => f.endsWith('.md'))
+  .filter((f) => f.endsWith('.md') && !Object.hasOwn(retraits, f.replace(/\.md$/, '')))
   .sort()
   .map((f) => {
     const corps = corpsDuTexte(readFileSync(join(DOSSIER, f), 'utf8'));

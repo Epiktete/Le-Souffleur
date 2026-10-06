@@ -13,7 +13,7 @@
         "rusé",
         "gourmand"
       ],
-      "voix": "voix vive et souple, prend un souffle faible pour la fausse agonie",
+      "voix": "voix vive et souple, prend un souffle faible pour le malaise feint",
       "genre": "masculin",
       "accords": {
         "vers": "feminin",
@@ -37,16 +37,6 @@
             "id": "a1e11:texte",
             "avant": "du faux malade",
             "apres": "de la fausse malade"
-          },
-          {
-            "id": "a1e15:texte",
-            "avant": "être sauvé",
-            "apres": "être sauvée"
-          },
-          {
-            "id": "a1e15:texte",
-            "avant": "je serai mort",
-            "apres": "je serai morte"
           },
           {
             "id": "a1e19:texte",
@@ -274,7 +264,7 @@
       "id": "a1",
       "numero": 1,
       "titre": "Le sirop qui n’était pas un poison",
-      "resume": "{{r2}} cache son sirop et le fait passer pour un poison. {{r1}} mange le sirop, casse le bol et fait croire à une agonie.",
+      "resume": "{{r2}} cache son sirop et le fait passer pour un poison. {{r1}} mange le sirop, casse le bol et feint un malaise.",
       "tableauId": "t1",
       "elements": [
         {
@@ -332,7 +322,7 @@
         {
           "id": "a1e10",
           "type": "conteur",
-          "texte": "Dès que {{r2}} fut parti, le pot fut découvert et {{r1}} lécha tout le sirop jusqu'au bout. Ensuite, le précieux bol à thé de {{r2}} fut cassé exprès en deux par {{r1}}. {{r1}} s'enfouit sous sa couverture et fit semblant d'être à l'agonie en gémissant « hou, hou »."
+          "texte": "Dès que {{r2}} fut parti, le pot fut découvert et {{r1}} lécha tout le sirop jusqu'au bout. Ensuite, le précieux bol à thé de {{r2}} fut cassé exprès en deux par {{r1}}. {{r1}} s'enfouit sous sa couverture et fit semblant d'être très malade en gémissant « hou, hou »."
         },
         {
           "id": "a1e11",
@@ -363,7 +353,7 @@
           "id": "a1e15",
           "type": "replique",
           "marionnetteId": "r1",
-          "texte": "Maître, pardonnez-moi. Je vais mourir. Je ne peux plus être sauvé. Quand je serai mort, ayez pitié, et récitez au moins une prière pour moi.",
+          "texte": "Maître, pardonnez-moi. J’ai très mal au ventre. Ayez pitié, et récitez au moins une prière pour moi.",
           "ton": "d’une toute petite voix d’insecte"
         },
         {
@@ -382,7 +372,7 @@
           "id": "a1e18",
           "type": "replique",
           "marionnetteId": "r1",
-          "texte": "Aujourd'hui, pendant le lavage de votre précieux bol à thé, le chat m'a sauté dessus pour jouer et le bol est tombé, puis s'est cassé. Alors j'ai pensé que je n'avais plus qu'à mourir pour m'excuser, et j'ai tout mangé du pot de poison. Le poison est déjà passé dans tout mon corps, je vais bientôt mourir. S'il vous plaît, pardonnez-moi, et récitez juste une prière. Aïe, que j'ai mal ! Aïe, que j'ai mal !",
+          "texte": "Aujourd'hui, pendant le lavage de votre précieux bol à thé, le chat m'a sauté dessus pour jouer et le bol est tombé, puis s'est cassé. Alors j'ai tout mangé du pot que vous disiez empoisonné. Depuis, j'ai très mal au ventre. S'il vous plaît, pardonnez-moi, et récitez juste une prière. Aïe, que j'ai mal ! Aïe, que j'ai mal !",
           "ton": "feint la douleur"
         },
         {
@@ -710,16 +700,16 @@
       "accroche": "{{r1}} retourne contre {{r2}} une fausse menace de poison et les bruits d’une statue.",
       "resume": [
         "{{r2}} cache le sirop sous l’autel en le présentant comme un poison mortel.",
-        "{{r1}} vide le pot ; le bol se retrouve cassé et une agonie est feinte.",
+        "{{r1}} vide le pot ; le bol se retrouve cassé et un malaise est feint.",
         "{{r3}} apporte des boulettes ; {{r1}} les mange et la statue se retrouve tachée de pâte sucrée.",
         "Deux « Kwan » semblent nier ; dans l’eau bouillante, « Kutta » semble avouer."
       ]
     },
     "transposition": {
-      "texte": "Il y avait un bonze terriblement avare, {{r2}}. Quand on lui offrait quelque chose, il le mangeait toujours tout seul, et n'en donnait jamais rien à {{r1}}, son petit novice. {{r1}} en était vexé, et pensait qu'un jour, il profiterait d'un moment pour confisquer à {{r2}} quelque chose de bon.\n\nUn jour, {{r2}} reçut d'un fidèle un sirop de sucre délicieux. Le sirop resta dans un pot, caché discrètement sous l'autel, et {{r2}} le léchait tout seul en secret.\n\nOr, un jour, {{r2}} dut sortir pour une affaire. En partant, il donna ses ordres à {{r1}} :\n\n— Dans le pot, sous l'autel, il y a quelque chose de précieux. On dirait du sirop, mais en réalité c'est un poison terrible : il suffit d'en lécher une seule bouchée pour tomber raide. Si tu tiens à la vie, n'y touche surtout pas.\n\nEt il sortit.\n\nDès que {{r2}} fut parti, le pot fut découvert et {{r1}} lécha tout le sirop jusqu'au bout. Ensuite, le précieux bol à thé de {{r2}} fut cassé exprès en deux par {{r1}}. {{r1}} s'enfouit sous sa couverture et fit semblant d'être à l'agonie en gémissant « hou, hou ».\n\nLe soir, quand {{r2}} rentra, il faisait tout noir à l'intérieur, et aucune lampe n'était allumée. {{r2}} se fâcha :\n\n— Hé, {{r1}}, que fais-tu ?\n\nAlors {{r1}}, de sous sa couverture, d'une toute petite voix d'insecte, dit :\n\n— Maître, pardonnez-moi. Je vais mourir. Je ne peux plus être sauvé. Quand je serai mort, ayez pitié, et récitez au moins une prière pour moi.\n\n{{r2}} fut stupéfait qu'on lui dise tout à coup une chose aussi étrange.\n\n— {{r1}}, {{r1}}, que t'arrive-t-il donc ?\n\n— Aujourd'hui, pendant le lavage de votre précieux bol à thé, le chat m'a sauté dessus pour jouer et le bol est tombé, puis s'est cassé. Alors j'ai pensé que je n'avais plus qu'à mourir pour m'excuser, et j'ai tout mangé du pot de poison. Le poison est déjà passé dans tout mon corps, je vais bientôt mourir. S'il vous plaît, pardonnez-moi, et récitez juste une prière. Aïe, que j'ai mal ! Aïe, que j'ai mal !\n\nEt il pleurait à gros sanglots.\n\nUn jour, {{r2}} fut invité à une cérémonie, et {{r1}} gardait seul le temple. Il récitait les prières en somnolant quand, à l'entrée, quelqu'un appela :\n\n— Il y a quelqu'un ?\n\n{{r1}} vint à l'entrée, encore ensommeillé : c'était {{r3}}, la vieille voisine, avec un gros paquet enveloppé dans un foulard.\n\n— C'est la fête de l'équinoxe : s'il vous plaît, donnez ceci à {{r2}}.\n\nEt {{r3}} le laissa là. Du paquet montaient une vapeur bien chaude et une odeur délicieuse.\n\n— Ah ah, c'est des boulettes de riz qu'elle a préparées pour la fête. Si je les donne telles quelles à {{r2}}, comme il est avare et gourmand, il va tout manger tout seul et ne m'en donnera pas une seule, c'est sûr. Bon, bon, ça tombe bien : je vais les manger pour me réveiller.\n\nEn se parlant ainsi à lui-même, {{r1}} vit sous le foulard une grande boîte laquée pleine de délicieuses boulettes. {{r1}}, tout joyeux, se mit à les engloutir : encore une, encore une, et à force d'en manger, il finit par vider toute la boîte. Quand il eut fini, il s'aperçut soudain :\n\n— Oh, zut ! Qu'est-ce que je vais faire quand {{r2}} va rentrer ?\n\n{{r1}} était prêt à pleurer. Mais tout à coup, il eut une idée et courut à la grande salle du temple. Là, la pâte de haricots sucrée restée sur les bords de la boîte se retrouva, par sa farce, en abondance tout autour de la bouche de la grande statue dorée. La boîte resta devant la statue ; {{r1}} retourna dans sa chambre et se remit à réciter ses prières comme si de rien n'était.\n\nUn moment après, {{r2}} rentra et demanda à {{r1}} :\n\n— Personne n'est venu pendant mon absence ?\n\n— {{r3}} a apporté une boîte. Elle a dit : c'est la fête de l'équinoxe, donnez-la à {{r2}}.\n\n— Et où est cette boîte ?\n\n— Je l'ai offerte devant la statue, dans la grande salle.\n\n— Hmm, voilà qui est bien pensé. Voyons, voyons.\n\n{{r2}} alla dans la grande salle : en effet, la boîte était posée respectueusement devant la statue ; elle était complètement vide.\n\n— Hé, {{r1}} ! C'est toi qui l'as mangée !\n\ncria {{r2}} d'une voix forte. Alors {{r1}} arriva tranquillement, l'air de rien :\n\n— Hein ? Pas du tout, comment pouvez-vous dire ça ?\n\nEt en regardant partout autour de lui :\n\n— Ah, j'ai compris ! C'est la statue dorée qui l'a mangée. Regardez : elle a plein de pâte de haricots autour de la bouche.\n\n{{r2}} regarda et dit :\n\n— C'est vrai qu'elle a de la pâte de haricots. Voilà une statue bien mal élevée !\n\n{{r2}} se mit en colère : la tête de la statue reçut un coup de chasse-mouches. Alors la statue dorée résonna : « Kwan, kwan ! » (ce qui sonne comme « j'ai pas mangé, j'ai pas mangé ! »).\n\n— Comment ça, tu n'as pas mangé ?\n\nLa colère de {{r2}} redoubla : la statue reçut deux nouveaux coups et résonna encore : « Kwan, kwan ! »\n\nAlors {{r2}} se retourna vers {{r1}} :\n\n— Tu vois bien, la statue a beau être frappée, elle dit toujours « j'ai pas mangé, j'ai pas mangé ». C'est donc forcément toi qui l'as mangée.\n\nAlors {{r1}}, l'air embêté, dit :\n\n— Ce n'est pas avec quelques coups qu'elle va avouer. Faites-la plutôt bouillir.\n\nAlors la statue se retrouva dans une grande marmite d'eau bouillante. Bientôt, l'eau se mit à bouillonner à gros bouillons, et fit :\n\n« Kutta, kutta, kutta ! » (ce qui sonne comme « j'ai mangé, j'ai mangé, j'ai mangé ! »).\n\n— Vous voyez, maître ! Elle a fini par avouer !\n\ndit {{r1}}, très fier de lui.\n"
+      "texte": "Il y avait un bonze terriblement avare, {{r2}}. Quand on lui offrait quelque chose, il le mangeait toujours tout seul, et n'en donnait jamais rien à {{r1}}, son petit novice. {{r1}} en était vexé, et pensait qu'un jour, il profiterait d'un moment pour confisquer à {{r2}} quelque chose de bon.\n\nUn jour, {{r2}} reçut d'un fidèle un sirop de sucre délicieux. Le sirop resta dans un pot, caché discrètement sous l'autel, et {{r2}} le léchait tout seul en secret.\n\nOr, un jour, {{r2}} dut sortir pour une affaire. En partant, il donna ses ordres à {{r1}} :\n\n— Dans le pot, sous l'autel, il y a quelque chose de précieux. On dirait du sirop, mais en réalité c'est un poison terrible : il suffit d'en lécher une seule bouchée pour tomber raide. Si tu tiens à la vie, n'y touche surtout pas.\n\nEt il sortit.\n\nDès que {{r2}} fut parti, le pot fut découvert et {{r1}} lécha tout le sirop jusqu'au bout. Ensuite, le précieux bol à thé de {{r2}} fut cassé exprès en deux par {{r1}}. {{r1}} s'enfouit sous sa couverture et fit semblant d'être très malade en gémissant « hou, hou ».\n\nLe soir, quand {{r2}} rentra, il faisait tout noir à l'intérieur, et aucune lampe n'était allumée. {{r2}} se fâcha :\n\n— Hé, {{r1}}, que fais-tu ?\n\nAlors {{r1}}, de sous sa couverture, d'une toute petite voix d'insecte, dit :\n\n— Maître, pardonnez-moi. J’ai très mal au ventre. Ayez pitié, et récitez au moins une prière pour moi.\n\n{{r2}} fut stupéfait qu'on lui dise tout à coup une chose aussi étrange.\n\n— {{r1}}, {{r1}}, que t'arrive-t-il donc ?\n\n— Aujourd'hui, pendant le lavage de votre précieux bol à thé, le chat m'a sauté dessus pour jouer et le bol est tombé, puis s'est cassé. Alors j'ai tout mangé du pot que vous disiez empoisonné. Depuis, j'ai très mal au ventre. S'il vous plaît, pardonnez-moi, et récitez juste une prière. Aïe, que j'ai mal ! Aïe, que j'ai mal !\n\nEt il pleurait à gros sanglots.\n\nUn jour, {{r2}} fut invité à une cérémonie, et {{r1}} gardait seul le temple. Il récitait les prières en somnolant quand, à l'entrée, quelqu'un appela :\n\n— Il y a quelqu'un ?\n\n{{r1}} vint à l'entrée, encore ensommeillé : c'était {{r3}}, la vieille voisine, avec un gros paquet enveloppé dans un foulard.\n\n— C'est la fête de l'équinoxe : s'il vous plaît, donnez ceci à {{r2}}.\n\nEt {{r3}} le laissa là. Du paquet montaient une vapeur bien chaude et une odeur délicieuse.\n\n— Ah ah, c'est des boulettes de riz qu'elle a préparées pour la fête. Si je les donne telles quelles à {{r2}}, comme il est avare et gourmand, il va tout manger tout seul et ne m'en donnera pas une seule, c'est sûr. Bon, bon, ça tombe bien : je vais les manger pour me réveiller.\n\nEn se parlant ainsi à lui-même, {{r1}} vit sous le foulard une grande boîte laquée pleine de délicieuses boulettes. {{r1}}, tout joyeux, se mit à les engloutir : encore une, encore une, et à force d'en manger, il finit par vider toute la boîte. Quand il eut fini, il s'aperçut soudain :\n\n— Oh, zut ! Qu'est-ce que je vais faire quand {{r2}} va rentrer ?\n\n{{r1}} était prêt à pleurer. Mais tout à coup, il eut une idée et courut à la grande salle du temple. Là, la pâte de haricots sucrée restée sur les bords de la boîte se retrouva, par sa farce, en abondance tout autour de la bouche de la grande statue dorée. La boîte resta devant la statue ; {{r1}} retourna dans sa chambre et se remit à réciter ses prières comme si de rien n'était.\n\nUn moment après, {{r2}} rentra et demanda à {{r1}} :\n\n— Personne n'est venu pendant mon absence ?\n\n— {{r3}} a apporté une boîte. Elle a dit : c'est la fête de l'équinoxe, donnez-la à {{r2}}.\n\n— Et où est cette boîte ?\n\n— Je l'ai offerte devant la statue, dans la grande salle.\n\n— Hmm, voilà qui est bien pensé. Voyons, voyons.\n\n{{r2}} alla dans la grande salle : en effet, la boîte était posée respectueusement devant la statue ; elle était complètement vide.\n\n— Hé, {{r1}} ! C'est toi qui l'as mangée !\n\ncria {{r2}} d'une voix forte. Alors {{r1}} arriva tranquillement, l'air de rien :\n\n— Hein ? Pas du tout, comment pouvez-vous dire ça ?\n\nEt en regardant partout autour de lui :\n\n— Ah, j'ai compris ! C'est la statue dorée qui l'a mangée. Regardez : elle a plein de pâte de haricots autour de la bouche.\n\n{{r2}} regarda et dit :\n\n— C'est vrai qu'elle a de la pâte de haricots. Voilà une statue bien mal élevée !\n\n{{r2}} se mit en colère : la tête de la statue reçut un coup de chasse-mouches. Alors la statue dorée résonna : « Kwan, kwan ! » (ce qui sonne comme « j'ai pas mangé, j'ai pas mangé ! »).\n\n— Comment ça, tu n'as pas mangé ?\n\nLa colère de {{r2}} redoubla : la statue reçut deux nouveaux coups et résonna encore : « Kwan, kwan ! »\n\nAlors {{r2}} se retourna vers {{r1}} :\n\n— Tu vois bien, la statue a beau être frappée, elle dit toujours « j'ai pas mangé, j'ai pas mangé ». C'est donc forcément toi qui l'as mangée.\n\nAlors {{r1}}, l'air embêté, dit :\n\n— Ce n'est pas avec quelques coups qu'elle va avouer. Faites-la plutôt bouillir.\n\nAlors la statue se retrouva dans une grande marmite d'eau bouillante. Bientôt, l'eau se mit à bouillonner à gros bouillons, et fit :\n\n« Kutta, kutta, kutta ! » (ce qui sonne comme « j'ai mangé, j'ai mangé, j'ai mangé ! »).\n\n— Vous voyez, maître ! Elle a fini par avouer !\n\ndit {{r1}}, très fier de lui.\n"
     }
   },
-  "dureeEstimeeSecondes": 579,
+  "dureeEstimeeSecondes": 565,
   "interactionsOrdonnees": [
     "a3e19",
     "a3e28",

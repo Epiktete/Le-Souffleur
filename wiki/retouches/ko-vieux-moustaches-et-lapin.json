@@ -1,5 +1,22 @@
 {
   "id": "ko-vieux-moustaches-et-lapin",
   "langue": [],
-  "moments": []
+  "moments": [
+    {
+      "id": "brulure-sans-defiguration",
+      "type": "cruaute",
+      "niveaux": [
+        {
+          "jusqua": 10,
+          "annonce": "Le tigre est toujours brûlé et vaincu, sans description de défiguration ou de boiterie.",
+          "retouches": [
+            {
+              "avant": "Et malgré cela, une patte fut roussie, si bien qu'il boita, et sa fourrure fut si brûlée que tous ses beaux longs poils et sa belle allure disparurent.",
+              "apres": "Et malgré cela, le feu lui roussit une patte et sa fourrure."
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

@@ -1,9 +1,23 @@
 {
   "id": "en-jack-haricot",
   "langue": [
-    {"avant": "Cinq livres, dix, quinze", "apres": "Cinq pièces, dix, quinze", "nature": "faux-ami"},
-    {"avant": "en se demandant comment il connaissait son nom", "apres": "en se demandant comment le petit vieux connaissait son nom", "nature": "pronom", "jusqua": 6},
-    {"avant": "il l'entendit crier", "apres": "il entendit l'ogre crier", "nature": "pronom", "jusqua": 6}
+    {
+      "avant": "Cinq livres, dix, quinze",
+      "apres": "Cinq pièces, dix, quinze",
+      "nature": "faux-ami"
+    },
+    {
+      "avant": "en se demandant comment il connaissait son nom",
+      "apres": "en se demandant comment le petit vieux connaissait son nom",
+      "nature": "pronom",
+      "jusqua": 6
+    },
+    {
+      "avant": "il l'entendit crier",
+      "apres": "il entendit l'ogre crier",
+      "nature": "pronom",
+      "jusqua": 6
+    }
   ],
   "moments": [
     {
@@ -14,7 +28,30 @@
           "jusqua": 4,
           "annonce": "L'Ogre ne meurt pas : il tombe avec la tige de haricot, s'en dégage tout étourdi et s'enfuit pour toujours.",
           "retouches": [
-            {"avant": "Alors l'ogre tomba et se cassa la tête, et la tige de haricot lui dégringola dessus.", "apres": "Alors l'ogre tomba, et la tige de haricot lui dégringola dessus. Il s'en dégagea tout étourdi, en grommelant, et s'enfuit si loin qu'on ne le revit jamais."}
+            {
+              "avant": "Alors l'ogre tomba et se cassa la tête, et la tige de haricot lui dégringola dessus.",
+              "apres": "Alors l'ogre tomba, et la tige de haricot lui dégringola dessus. Il s'en dégagea tout étourdi, en grommelant, et s'enfuit si loin qu'on ne le revit jamais."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "enfants-manges-detail",
+      "type": "cruaute",
+      "niveaux": [
+        {
+          "jusqua": 10,
+          "annonce": "L’ogre menace toujours de manger les enfants, sans tartine grillée ni restes d’un enfant mangé la veille.",
+          "retouches": [
+            {
+              "avant": "les petits garçons grillés sur une tartine",
+              "apres": "manger les petits garçons"
+            },
+            {
+              "avant": "Ou bien tu sens les restes du petit garçon que tu as tant aimé au dîner d'hier.",
+              "apres": ""
+            }
           ]
         }
       ]

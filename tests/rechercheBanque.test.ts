@@ -15,7 +15,7 @@ describe('recherche dans la Contothèque', () => {
   it('trouve un titre sans accents, casse ni ponctuation exacte', () => {
     expect(chercher('  BOEUF cheval ane ').map(e => e.signature.conteId))
       .toEqual(['fr-florian-boeuf-cheval-ane']);
-    expect(chercher('pot-de-confitures')[0]?.signature.conteId).toBe('guignol-le-pot-de-confitures');
+    expect(chercher('ma-porte-d-allee')[0]?.signature.conteId).toBe('guignol-ma-porte-d-allee');
   });
 
   it('combine auteur, titre, type et origine, sans perdre la recherche en cas de zéro résultat', () => {

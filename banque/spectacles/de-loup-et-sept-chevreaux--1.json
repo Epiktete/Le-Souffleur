@@ -112,11 +112,6 @@
             "id": "a4e5:texte",
             "avant": "il se noya",
             "apres": "elle se noya"
-          },
-          {
-            "id": "a4e12:texte",
-            "avant": "est mort",
-            "apres": "est morte"
           }
         ]
       },
@@ -140,11 +135,6 @@
           "id": "a4e11:texte",
           "avant": "Le loup est mort ! Le loup est mort !",
           "gabarit": "{Le} {espece} est {mort|morte} ! {Le} {espece} est {mort|morte} !"
-        },
-        {
-          "id": "a4e12:texte",
-          "avant": "Le loup",
-          "gabarit": "{Le} {espece}"
         }
       ]
     },
@@ -1019,13 +1009,6 @@
           "ton": "joyeux"
         },
         {
-          "id": "a4e12",
-          "type": "adresse_public",
-          "texte": "Reprenez le cri de victoire : « Le loup est mort ! »",
-          "marionnetteId": "r4",
-          "attenteReponse": true
-        },
-        {
           "id": "a4e13",
           "type": "didascalie",
           "texte": "{{r2}} et {{r4}} sautillent ensemble autour du puits dessiné."
@@ -1059,14 +1042,13 @@
       "texte": "Il était une fois la vieille {{r2}}, qui avait sept enfants, et elle les aimait comme une mère aime ses enfants. Un jour, elle voulut aller dans la forêt chercher à manger. Elle appela ses sept enfants et leur dit :\n\n— Mes enfants, je vais dans la forêt. Méfiez-vous du loup : s'il entre, il vous mangera sans exception, avec la peau et les poils. Le méchant se déguise souvent, mais vous le reconnaîtrez tout de suite à sa grosse voix et à ses pattes noires.\n\nLa fratrie répondit :\n\n— Chère maman, nous ferons bien attention, vous pouvez partir tranquille.\n\n{{r2}} bêla et s'en alla, rassurée.\n\nPeu de temps après, quelqu'un se présenta à la porte. Il frappa et cria :\n\n— Ouvrez, mes enfants, votre maman est là et elle a apporté quelque chose pour chaque enfant.\n\nMais la fratrie reconnut {{r1}} à sa grosse voix.\n\n— Nous n'ouvrons pas, tu n'es pas notre maman ! Elle a une voix douce et jolie, mais ta voix est rauque : tu es le loup !\n\nAlors {{r1}} alla chez un marchand et acheta un gros morceau de craie. Il le mangea, et cela rendit sa voix toute douce. Puis il revint, frappa à la porte et cria :\n\n— Ouvrez, mes enfants, votre maman est là et elle a apporté quelque chose pour chaque enfant.\n\nMais {{r1}} avait posé sa patte noire sur le rebord de la fenêtre. La fratrie la vit et cria :\n\n— Nous n'ouvrons pas ! Notre maman n'a pas une patte noire comme toi : tu es le loup !\n\nAlors {{r1}} courut chez un boulanger et dit :\n\n— Je me suis cogné la patte, mets-moi de la pâte dessus.\n\nEt une fois sa patte enduite de pâte chez le boulanger, il courut chez {{r5}}, le meunier, et dit :\n\n— Saupoudre ma patte de farine blanche.\n\n{{r5}} pensa : « {{r1}} veut tromper quelqu'un », et refusa. Mais {{r1}} dit : « Si tu ne le fais pas, je te mange. » Alors {{r5}} eut peur, et la patte fut blanchie de farine. Eh oui, les gens sont ainsi.\n\n{{r1}} revint une troisième fois à la porte. Il frappa et dit :\n\n— Ouvrez-moi, les enfants, votre chère petite maman est rentrée et elle a rapporté de la forêt quelque chose pour chaque enfant.\n\nLa fratrie cria :\n\n— Montre-nous d'abord ta patte, que nous sachions si tu es notre chère petite maman.\n\n{{r1}} posa sa patte sur le rebord de la fenêtre. Quand la fratrie vit qu'elle était blanche, elle crut que tout ce qu'il disait était vrai, et la porte s’ouvrit. Mais celui qui entra, c'était {{r1}} !\n\nLa fratrie prit peur et se précipita vers six cachettes : sous la table, dans le lit, dans le poêle, dans la cuisine, dans l'armoire et sous la bassine. {{r3}} se glissa dans la caisse de la grande horloge. Mais {{r1}} les trouva dans six cachettes et ne fit pas de manières : il en avala six, à la suite. Seul {{r3}} resta caché dans la caisse de l'horloge : {{r1}} ne trouva pas sa cachette. Quand {{r1}} fut rassasié, il s'en alla, se coucha dehors sous un arbre dans le pré vert et s'endormit.\n\nPeu après, {{r2}} revint de la forêt. Ah ! qu'est-ce qu'elle vit ! La porte grande ouverte ; la table, les chaises et les bancs renversés ; la bassine en morceaux ; la couverture et les oreillers arrachés du lit. Elle chercha ses enfants, mais ne les trouva nulle part. Elle les appela par leur nom, à tour de rôle, mais personne ne répondit. Enfin, quand elle arriva à {{r3}}, une petite voix cria :\n\n— Chère maman, je suis dans la caisse de l'horloge !\n\n{{r3}} sortit de là, et il raconta à {{r2}} que {{r1}} était venu et avait mangé les six autres enfants. Vous pensez comme elle a pleuré ses pauvres enfants !\n\nEnfin, dans son chagrin, {{r2}} sortit, et {{r3}} courut avec elle. Quand elle arriva dans le pré, {{r1}} était couché sous l'arbre et ronflait si fort que les branches en tremblaient. Elle le regarda de tous les côtés et vit que quelque chose bougeait et gigotait dans son gros ventre plein.\n\n— Mon Dieu, pensa-t-elle, se pourrait-il que mes pauvres enfants, dont il a fait son dîner, soient encore en vie ?\n\n{{r3}} dut retourner à la maison : il fallait des ciseaux, une aiguille et du fil. Alors, sous les soins d’{{r2}}, le ventre du monstre s’ouvrit, et à peine une entaille apparut-elle qu'un chevreau passait déjà la tête dehors. L’entaille s’élargit, et les six sautèrent dehors à la suite, en vie et sans une égratignure, car le monstre, dans sa gloutonnerie, avait tout avalé sans mâcher. Quelle joie ! La fratrie embrassa sa chère maman et sauta comme un tailleur le jour de ses noces.\n\nMais {{r2}} dit :\n\n— Maintenant, allez chercher de grosses pierres : nous allons en remplir le ventre de cette méchante bête pendant qu'elle dort.\n\nLa fratrie poussa des pierres en toute hâte, et le ventre de {{r1}} en fut rempli autant que possible. Puis le ventre fut recousu si vite que {{r1}} ne s'aperçut de rien et ne bougea même pas.\n\nQuand {{r1}} eut enfin fini de dormir, il se leva, et comme les pierres dans son ventre lui donnaient très soif, il voulut aller boire au puits. Mais quand il se mit à marcher et à se balancer de droite à gauche, les pierres s'entrechoquèrent dans son ventre et firent du bruit. Alors il cria :\n\n« Qu'est-ce qui roule et qui gronde\nDans mon ventre tout rond ?\nJe croyais avoir six chevreaux,\nCe ne sont que des cailloux ! »\n\nEt quand {{r1}} arriva au puits et se pencha au-dessus de l'eau pour boire, les lourdes pierres l'entraînèrent au fond, et il se noya. Quand la fratrie vit cela, elle accourut en criant : « Le loup est mort ! Le loup est mort ! » et dansa de joie avec {{r2}} autour du puits."
     }
   },
-  "dureeEstimeeSecondes": 667,
+  "dureeEstimeeSecondes": 654,
   "interactionsOrdonnees": [
     "a1e16",
     "a1e25",
     "a2e23",
     "a3e9",
     "a3e21",
-    "a4e12",
     "a4e3",
     "a1e5"
   ]

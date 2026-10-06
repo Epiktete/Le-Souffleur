@@ -1,8 +1,16 @@
 {
   "id": "guignol-ma-porte-d-allee",
   "langue": [
-    {"avant": "Des pratiques comme nous", "apres": "Des clients comme nous", "nature": "faux-ami"},
-    {"avant": "d’une pratique au patron", "apres": "d’un client au patron", "nature": "faux-ami"}
+    {
+      "avant": "Des pratiques comme nous",
+      "apres": "Des clients comme nous",
+      "nature": "faux-ami"
+    },
+    {
+      "avant": "d’une pratique au patron",
+      "apres": "d’un client au patron",
+      "nature": "faux-ami"
+    }
   ],
   "moments": [
     {
@@ -12,7 +20,42 @@
         {
           "jusqua": 10,
           "retouches": [
-            {"avant": "Madelon, tu vas avec ces vauriens ! MADELON. La femme est obligée de suivre son mari, partout ousqu’il la mène… c’est dans le code… M SERINGUET. Mais, emmenez-moi au moins.", "apres": "Madelon, tu vas avec ces vauriens !… Mais, emmenez-moi au moins."}
+            {
+              "avant": "Madelon, tu vas avec ces vauriens ! MADELON. La femme est obligée de suivre son mari, partout ousqu’il la mène… c’est dans le code… M SERINGUET. Mais, emmenez-moi au moins.",
+              "apres": "Madelon, tu vas avec ces vauriens !… Mais, emmenez-moi au moins."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "dispute-sans-coups-conjugaux",
+      "type": "mal-vieilli",
+      "niveaux": [
+        {
+          "jusqua": 10,
+          "annonce": "La querelle conjugale reste, sans poussée, coups ni menace de coups sur l’épouse. Les autres coups burlesques de Guignol restent.",
+          "retouches": [
+            {
+              "avant": "Y aura des tapes…",
+              "apres": "Ça va faire du bruit…"
+            },
+            {
+              "avant": "Il veut la pousser, elle résiste.",
+              "apres": "Il lui montre la porte, elle refuse de rentrer."
+            },
+            {
+              "avant": "Elle le prend aux cheveux. Ils se battent.",
+              "apres": "Ils se disputent bruyamment."
+            },
+            {
+              "avant": "battre ainsi sa femme",
+              "apres": "faire un tel vacarme"
+            },
+            {
+              "avant": "La loquetière, ou je cogne !",
+              "apres": "La loquetière !"
+            }
           ]
         }
       ]

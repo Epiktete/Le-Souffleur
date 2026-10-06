@@ -34,16 +34,6 @@
             "apres": "était beau et travailleur"
           },
           {
-            "id": "a1e1:texte",
-            "avant": "qu’elle saignait",
-            "apres": "qu’il saignait"
-          },
-          {
-            "id": "a1e4:texte",
-            "avant": "Elle voulut laver",
-            "apres": "Il voulut laver"
-          },
-          {
             "id": "a1e6:texte",
             "avant": "Elle pleura",
             "apres": "Il pleura"
@@ -212,6 +202,11 @@
             "id": "a2:resume",
             "avant": "chez elle",
             "apres": "chez lui"
+          },
+          {
+            "id": "a1e4:texte",
+            "avant": "elle voulut laver",
+            "apres": "il voulut laver"
           }
         ]
       },
@@ -251,11 +246,6 @@
             "id": "a3e1:texte",
             "avant": "Celle-ci dut",
             "apres": "Celui-ci dut"
-          },
-          {
-            "id": "a3e1:texte",
-            "avant": "elle se piqua",
-            "apres": "il se piqua"
           },
           {
             "id": "a3e1:texte",
@@ -600,7 +590,7 @@
         {
           "id": "a1e1",
           "type": "conteur",
-          "texte": "Une veuve nommée {{r4}} avait deux enfants : {{r1}} était belle et travailleuse, {{r2}} laide et paresseuse. Mais {{r4}} préférait de beaucoup {{r2}}, parce que c’était sa vraie fille, et {{r1}} devait faire tout le travail et tenir la place de Cendrillon dans la maison. Chaque jour, {{r1}} devait s’asseoir près d’un puits, au bord de la grand-route, et filer tant et tant qu’elle saignait."
+          "texte": "Une veuve nommée {{r4}} avait deux enfants : {{r1}} était belle et travailleuse, {{r2}} laide et paresseuse. Mais {{r4}} préférait de beaucoup {{r2}}, parce que c’était sa vraie fille, et {{r1}} devait faire tout le travail et tenir la place de Cendrillon dans la maison. Chaque jour, {{r1}} devait s’asseoir près d’un puits, au bord de la grand-route, et filer sans relâche."
         },
         {
           "id": "a1e2",
@@ -617,7 +607,7 @@
         {
           "id": "a1e4",
           "type": "conteur",
-          "texte": "Or il arriva qu’un jour la bobine fut toute tachée de sang. Elle voulut laver la bobine au puits, mais la bobine glissa et tomba au fond."
+          "texte": "Or il arriva qu’un jour elle voulut laver la bobine au puits, mais la bobine glissa et tomba au fond."
         },
         {
           "id": "a1e5",
@@ -881,7 +871,7 @@
         {
           "id": "a3e1",
           "type": "conteur",
-          "texte": "{{r1}} raconta tout ce qui lui était arrivé. Quand {{r4}} apprit comment elle avait obtenu une si grande richesse, elle voulut procurer le même bonheur à son autre enfant, {{r2}}. Celle-ci dut s’asseoir au bord du puits et filer. Et pour que sa bobine soit tachée de sang, elle se piqua aux épines. Puis elle fit tomber exprès la bobine dans le puits et y sauta elle-même."
+          "texte": "{{r1}} raconta tout ce qui lui était arrivé. Quand {{r4}} apprit comment elle avait obtenu une si grande richesse, elle voulut procurer le même bonheur à son autre enfant, {{r2}}. Celle-ci dut s’asseoir au bord du puits et filer. Puis elle fit tomber exprès la bobine dans le puits et y sauta elle-même."
         },
         {
           "id": "a3e2",
@@ -1091,10 +1081,10 @@
       ]
     },
     "transposition": {
-      "texte": "Une veuve nommée {{r4}} avait deux enfants : {{r1}} était belle et travailleuse, {{r2}} laide et paresseuse. Mais {{r4}} préférait de beaucoup {{r2}}, parce que c’était sa vraie fille, et {{r1}} devait faire tout le travail et tenir la place de Cendrillon dans la maison. Chaque jour, {{r1}} devait s’asseoir près d’un puits, au bord de la grand-route, et filer tant et tant qu’elle saignait. Or il arriva qu’un jour la bobine fut toute tachée de sang. Elle voulut laver la bobine au puits, mais la bobine glissa et tomba au fond. Elle pleura, courut chez {{r4}}, sa belle-mère. — La bobine est tombée au fond du puits. Mais celle-ci la gronda si fort et fut si impitoyable qu’elle dit : — Puisque tu as laissé tomber la bobine, va la rechercher. {{r1}} retourna au puits et ne savait que faire. Dans son angoisse, elle sauta dans le puits pour aller chercher la bobine. Elle perdit connaissance, et quand elle se réveilla et revint à elle, elle était dans une belle prairie où brillait le soleil et où poussaient des milliers de fleurs. Elle traversa la prairie et arriva devant un four plein de pain. Et {{r5}}, le pain, criait : — Ah, sors-moi, sors-moi, sinon je brûle ! Il y a longtemps que je suis cuit ! Elle s’approcha et, grâce à son aide, toutes les miches sortirent du four l’une après l’autre. Puis elle continua et arriva devant {{r6}}, un pommier chargé de pommes, qui lui cria : — Ah, secoue-moi, secoue-moi, nous sommes toutes mûres ! Elle secoua l’arbre. Les pommes tombèrent comme une pluie, jusqu’à ce qu’il n’en reste plus une seule en haut. Et quand les pommes formèrent un tas, elle continua son chemin. Enfin, elle arriva à une petite maison d’où {{r3}} regardait par la fenêtre. Mais comme {{r3}} avait de très grandes dents, {{r1}} eut peur et voulut s’enfuir. {{r3}} lui cria : — De quoi as-tu peur, chère enfant ? Reste chez moi. Si tu veux bien faire tout le travail de la maison, tu seras heureuse. Il faut seulement que tu fasses bien mon lit et que tu le secoues avec ardeur, pour que les plumes volent : alors il neige sur le monde. Je suis {{r3}}. Comme {{r3}} lui parlait si gentiment, {{r1}} prit courage, accepta et entra à son service. Elle fit tout à la satisfaction de {{r3}}, et le lit était toujours secoué si fort que les plumes volaient partout comme des flocons de neige. En échange, elle avait une bonne vie chez elle : jamais un mot méchant, et tous les jours du bouilli et du rôti. Elle était depuis un certain temps chez {{r3}} quand elle devint triste. D’abord elle ne savait pas elle-même ce qui lui manquait ; enfin elle comprit que c’était le mal du pays. Bien qu’elle fût mille fois plus heureuse ici qu’à la maison, elle avait envie d’y retourner. Enfin, elle dit à {{r3}} : — J’ai le mal de chez moi, et même si je suis très bien ici en bas, je ne peux pas rester plus longtemps. Il faut que je remonte chez les miens. {{r3}} dit : — Cela me plaît que tu veuilles rentrer chez toi, et puisque tu m’as si fidèlement servie, je vais te reconduire moi-même là-haut. {{r1}} et {{r3}} allèrent ensemble devant une grande porte. La porte s’ouvrit, et au moment où {{r1}} passait dessous, il tomba une grande pluie d’or, et tout l’or resta accroché à elle, si bien qu’elle en était couverte de la tête aux pieds. — Voilà pour toi, parce que tu as été si travailleuse, dit {{r3}}. Et la bobine qui était tombée dans le puits reparut près de {{r1}}. Puis la porte se referma, et {{r1}} se retrouva sur la terre, pas loin de la maison de {{r4}}. Quand elle entra dans la cour, le coq était perché sur le puits et chanta : « Cocorico !\nNotre demoiselle en or est de retour ! » Elle entra chez {{r4}}, et parce qu’elle arrivait toute couverte d’or, {{r4}} et {{r2}}, la sœur de {{r1}}, l’accueillirent bien. {{r1}} raconta tout ce qui lui était arrivé. Quand {{r4}} apprit comment elle avait obtenu une si grande richesse, elle voulut procurer le même bonheur à son autre enfant, {{r2}}. Celle-ci dut s’asseoir au bord du puits et filer. Et pour que sa bobine soit tachée de sang, elle se piqua aux épines. Puis elle fit tomber exprès la bobine dans le puits et y sauta elle-même. Elle arriva, comme l’autre, dans la belle prairie et suivit le même sentier. Quand elle arriva devant le four, {{r5}}, le pain, cria de nouveau : — Ah, sors-moi, sors-moi, sinon je brûle ! Il y a longtemps que je suis cuit ! Mais {{r2}} répondit : — Comme si j’avais envie de me salir ! Et elle passa son chemin. Bientôt elle arriva devant {{r6}}, le pommier, qui cria : — Ah, secoue-moi, secoue-moi, nous sommes toutes mûres ! Mais elle répondit : — Tu tombes bien ! Il pourrait m’en tomber une sur la tête. Et elle continua. Quand elle arriva devant la maison de {{r3}}, elle n’eut pas peur, car elle avait déjà entendu parler de ses grandes dents, et elle entra tout de suite à son service. Le premier jour, elle se força, travailla dur et obéit à {{r3}} quand elle lui disait quelque chose, car elle pensait à tout l’or qu’elle recevrait. Mais le deuxième jour, elle commença déjà à paresser ; le troisième encore plus, et elle ne voulut même plus se lever le matin. Le lit de {{r3}} ne fut pas fait comme il fallait, ni secoué pour faire voler les plumes. {{r3}} s’en lassa vite. — Je te renvoie. {{r2}} en fut bien contente. — Maintenant va venir la pluie d’or ! {{r3}} la mena aussi jusqu’à la porte ; mais quand elle fut dessous, au lieu d’or, c’est un grand chaudron de poix qui se déversa sur elle. — Voilà pour te récompenser de tes services, dit {{r3}}. La porte se referma. {{r2}} rentra chez elle, toute couverte de poix. Et le coq sur le puits, quand il la vit, chanta : « Cocorico !\nNotre demoiselle toute sale est de retour ! » Et la poix resta collée à elle, et ne voulut plus partir de toute sa vie.\n"
+      "texte": "Une veuve nommée {{r4}} avait deux enfants : {{r1}} était belle et travailleuse, {{r2}} laide et paresseuse. Mais {{r4}} préférait de beaucoup {{r2}}, parce que c’était sa vraie fille, et {{r1}} devait faire tout le travail et tenir la place de Cendrillon dans la maison. Chaque jour, {{r1}} devait s’asseoir près d’un puits, au bord de la grand-route, et filer sans relâche. Or il arriva qu’un jour elle voulut laver la bobine au puits, mais la bobine glissa et tomba au fond. Elle pleura, courut chez {{r4}}, sa belle-mère. — La bobine est tombée au fond du puits. Mais celle-ci la gronda si fort et fut si impitoyable qu’elle dit : — Puisque tu as laissé tomber la bobine, va la rechercher. {{r1}} retourna au puits et ne savait que faire. Dans son angoisse, elle sauta dans le puits pour aller chercher la bobine. Elle perdit connaissance, et quand elle se réveilla et revint à elle, elle était dans une belle prairie où brillait le soleil et où poussaient des milliers de fleurs. Elle traversa la prairie et arriva devant un four plein de pain. Et {{r5}}, le pain, criait : — Ah, sors-moi, sors-moi, sinon je brûle ! Il y a longtemps que je suis cuit ! Elle s’approcha et, grâce à son aide, toutes les miches sortirent du four l’une après l’autre. Puis elle continua et arriva devant {{r6}}, un pommier chargé de pommes, qui lui cria : — Ah, secoue-moi, secoue-moi, nous sommes toutes mûres ! Elle secoua l’arbre. Les pommes tombèrent comme une pluie, jusqu’à ce qu’il n’en reste plus une seule en haut. Et quand les pommes formèrent un tas, elle continua son chemin. Enfin, elle arriva à une petite maison d’où {{r3}} regardait par la fenêtre. Mais comme {{r3}} avait de très grandes dents, {{r1}} eut peur et voulut s’enfuir. {{r3}} lui cria : — De quoi as-tu peur, chère enfant ? Reste chez moi. Si tu veux bien faire tout le travail de la maison, tu seras heureuse. Il faut seulement que tu fasses bien mon lit et que tu le secoues avec ardeur, pour que les plumes volent : alors il neige sur le monde. Je suis {{r3}}. Comme {{r3}} lui parlait si gentiment, {{r1}} prit courage, accepta et entra à son service. Elle fit tout à la satisfaction de {{r3}}, et le lit était toujours secoué si fort que les plumes volaient partout comme des flocons de neige. En échange, elle avait une bonne vie chez elle : jamais un mot méchant, et tous les jours du bouilli et du rôti. Elle était depuis un certain temps chez {{r3}} quand elle devint triste. D’abord elle ne savait pas elle-même ce qui lui manquait ; enfin elle comprit que c’était le mal du pays. Bien qu’elle fût mille fois plus heureuse ici qu’à la maison, elle avait envie d’y retourner. Enfin, elle dit à {{r3}} : — J’ai le mal de chez moi, et même si je suis très bien ici en bas, je ne peux pas rester plus longtemps. Il faut que je remonte chez les miens. {{r3}} dit : — Cela me plaît que tu veuilles rentrer chez toi, et puisque tu m’as si fidèlement servie, je vais te reconduire moi-même là-haut. {{r1}} et {{r3}} allèrent ensemble devant une grande porte. La porte s’ouvrit, et au moment où {{r1}} passait dessous, il tomba une grande pluie d’or, et tout l’or resta accroché à elle, si bien qu’elle en était couverte de la tête aux pieds. — Voilà pour toi, parce que tu as été si travailleuse, dit {{r3}}. Et la bobine qui était tombée dans le puits reparut près de {{r1}}. Puis la porte se referma, et {{r1}} se retrouva sur la terre, pas loin de la maison de {{r4}}. Quand elle entra dans la cour, le coq était perché sur le puits et chanta : « Cocorico !\nNotre demoiselle en or est de retour ! » Elle entra chez {{r4}}, et parce qu’elle arrivait toute couverte d’or, {{r4}} et {{r2}}, la sœur de {{r1}}, l’accueillirent bien. {{r1}} raconta tout ce qui lui était arrivé. Quand {{r4}} apprit comment elle avait obtenu une si grande richesse, elle voulut procurer le même bonheur à son autre enfant, {{r2}}. Celle-ci dut s’asseoir au bord du puits et filer. Puis elle fit tomber exprès la bobine dans le puits et y sauta elle-même. Elle arriva, comme l’autre, dans la belle prairie et suivit le même sentier. Quand elle arriva devant le four, {{r5}}, le pain, cria de nouveau : — Ah, sors-moi, sors-moi, sinon je brûle ! Il y a longtemps que je suis cuit ! Mais {{r2}} répondit : — Comme si j’avais envie de me salir ! Et elle passa son chemin. Bientôt elle arriva devant {{r6}}, le pommier, qui cria : — Ah, secoue-moi, secoue-moi, nous sommes toutes mûres ! Mais elle répondit : — Tu tombes bien ! Il pourrait m’en tomber une sur la tête. Et elle continua. Quand elle arriva devant la maison de {{r3}}, elle n’eut pas peur, car elle avait déjà entendu parler de ses grandes dents, et elle entra tout de suite à son service. Le premier jour, elle se força, travailla dur et obéit à {{r3}} quand elle lui disait quelque chose, car elle pensait à tout l’or qu’elle recevrait. Mais le deuxième jour, elle commença déjà à paresser ; le troisième encore plus, et elle ne voulut même plus se lever le matin. Le lit de {{r3}} ne fut pas fait comme il fallait, ni secoué pour faire voler les plumes. {{r3}} s’en lassa vite. — Je te renvoie. {{r2}} en fut bien contente. — Maintenant va venir la pluie d’or ! {{r3}} la mena aussi jusqu’à la porte ; mais quand elle fut dessous, au lieu d’or, c’est un grand chaudron de poix qui se déversa sur elle. — Voilà pour te récompenser de tes services, dit {{r3}}. La porte se referma. {{r2}} rentra chez elle, toute couverte de poix. Et le coq sur le puits, quand il la vit, chanta : « Cocorico !\nNotre demoiselle toute sale est de retour ! » Et la poix resta collée à elle, et ne voulut plus partir de toute sa vie.\n"
     }
   },
-  "dureeEstimeeSecondes": 658,
+  "dureeEstimeeSecondes": 643,
   "interactionsOrdonnees": [
     "a3e6",
     "a3e13",

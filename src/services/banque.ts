@@ -25,6 +25,7 @@ import { especeMarionnette, type Famille } from './choixContes';
 import { genreMarionnette } from './appariement';
 import { construireDossier } from './dossier';
 import { nouvelId } from './db';
+import { conteEstRetire } from './retraits';
 import type {
   Acte,
   Bible,
@@ -602,7 +603,9 @@ const idDuChemin = (chemin: string) => chemin.replace(/^.*\/([^/]+)\.json$/, '$1
 
 /** La signature de chaque spectacle du fonds, par identifiant. */
 export const SIGNATURES: Record<string, Omit<SignatureModele, 'id'>> =
-  JSON.parse(INDEX_BRUT) as Record<string, Omit<SignatureModele, 'id'>>;
+  Object.fromEntries(Object.entries(
+    JSON.parse(INDEX_BRUT) as Record<string, Omit<SignatureModele, 'id'>>,
+  ).filter(([, s]) => !conteEstRetire(s.conteId)));
 
 /** Toutes les signatures, identifiant compris, prêtes à être filtrées. */
 export function signatures(): SignatureModele[] {
@@ -613,7 +616,8 @@ export function signatures(): SignatureModele[] {
 export async function chargerModele(id: string): Promise<SpectacleModele | null> {
   const chemin = Object.keys(FICHIERS).find((c) => idDuChemin(c) === id);
   if (!chemin) return null;
-  return JSON.parse(await FICHIERS[chemin]()) as SpectacleModele;
+  const modele = JSON.parse(await FICHIERS[chemin]()) as SpectacleModele;
+  return conteEstRetire(modele.conteId) ? null : modele;
 }
 
 /* ================================================================== */

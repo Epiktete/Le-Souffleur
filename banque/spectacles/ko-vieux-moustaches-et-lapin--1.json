@@ -313,11 +313,6 @@
           },
           {
             "id": "a3:resume",
-            "avant": "boiteux",
-            "apres": "boiteuse"
-          },
-          {
-            "id": "a3:resume",
             "avant": "moquent de lui",
             "apres": "moquent d'elle"
           },
@@ -375,16 +370,6 @@
             "id": "a3e22:texte",
             "avant": "de lui",
             "apres": "d'elle"
-          },
-          {
-            "id": "a3e24:texte",
-            "avant": "qu'il boita",
-            "apres": "qu'elle boita"
-          },
-          {
-            "id": "a3e25:texte",
-            "avant": "il penche",
-            "apres": "elle penche"
           },
           {
             "id": "a3e26:texte",
@@ -797,7 +782,7 @@
       "numero": 3,
       "titre": "Le cercle d'herbe sèche",
       "tableauId": "t2",
-      "resume": "{{r2}} s'endort et ronfle. {{r1}} entasse de l'herbe sèche tout autour de lui, y met le feu et se sauve. Réveillé par les craquements, {{r2}} doit sauter très haut ; il rentre chez lui roussi et boiteux, et les autres tigres se moquent de lui.",
+      "resume": "{{r2}} s'endort et ronfle. {{r1}} entasse de l'herbe sèche tout autour de lui, y met le feu et se sauve. Réveillé par les craquements, {{r2}} doit sauter très haut ; il rentre chez lui roussi, et les autres tigres se moquent de lui.",
       "elements": [
         {
           "id": "a3e1",
@@ -842,18 +827,6 @@
           "texte": "Alors {{r1}} s'affaira à arracher toute l'herbe sèche qu'il put trouver, et à l'entasser autour du vieux {{r2}}, tout près de lui."
         },
         {
-          "id": "a3e9",
-          "type": "adresse_public",
-          "marionnetteId": "r1",
-          "texte": "Comptez avec moi : un, deux, trois !",
-          "attenteReponse": true
-        },
-        {
-          "id": "a3e10",
-          "type": "didascalie",
-          "texte": "{{r1}} pousse de la tête l'herbe sèche tout contre {{r2}} : un coup d'un côté, un coup derrière, un coup de l'autre côté."
-        },
-        {
           "id": "a3e11",
           "type": "conteur",
           "texte": "Ravi d'entendre la grosse brute ronfler, il continua jusqu'à avoir fait un épais anneau d'herbe sèche."
@@ -867,18 +840,6 @@
           "id": "a3e13",
           "type": "didascalie",
           "texte": "{{r1}} file à toute vitesse jusqu'au bout de la scène, à gauche."
-        },
-        {
-          "id": "a3e14",
-          "type": "adresse_public",
-          "marionnetteId": "r1",
-          "texte": "Faites avec moi le bruit du feu : cric ! crac ! crac !",
-          "attenteReponse": true
-        },
-        {
-          "id": "a3e15",
-          "type": "didascalie",
-          "texte": "Faire à la voix le bruit du feu, de plus en plus fort : « Cric… crac… crac… Fffffff ! »"
         },
         {
           "id": "a3e16",
@@ -928,12 +889,7 @@
         {
           "id": "a3e24",
           "type": "conteur",
-          "texte": "Et malgré cela, une patte fut roussie, si bien qu'il boita, et sa fourrure fut si brûlée que tous ses beaux longs poils et sa belle allure disparurent."
-        },
-        {
-          "id": "a3e25",
-          "type": "didascalie",
-          "texte": "{{r2}} fait quelques pas en boitant : il penche d'un côté à chaque pas."
+          "texte": "Et malgré cela, le feu lui roussit une patte et sa fourrure."
         },
         {
           "id": "a3e26",
@@ -958,7 +914,7 @@
         {
           "id": "a3e30",
           "type": "didascalie",
-          "texte": "{{r2}} s'en va lentement, en boitant."
+          "texte": "{{r2}} s'en va lentement."
         },
         {
           "id": "a3e31",
@@ -1002,21 +958,19 @@
         "Un froid jour d'hiver, {{r1}}, un petit lapin affamé, traverse la rivière gelée. {{r2}} bondit de derrière un rocher : « Je vais te manger tout de suite. »",
         "{{r1}} ne tremble pas. Il promet à {{r2}} un dîner royal, s'il se couche sur la glace, ferme les yeux et ne bouge pas, même s'il entend des craquements.",
         "{{r2}} s'endort et ronfle. {{r1}} entasse de l'herbe sèche tout autour de lui, y met le feu et se sauve : « Attendez ! Tenez votre promesse ! »",
-        "{{r2}} doit sauter très haut pour s'échapper des flammes. Il rentre chez lui roussi et boiteux, les autres tigres se moquent de lui, et le grand Esprit de la Montagne ne lui fait plus confiance."
+        "{{r2}} doit sauter très haut pour s'échapper des flammes. Il rentre chez lui roussi, les autres tigres se moquent de lui, et le grand Esprit de la Montagne ne lui fait plus confiance."
       ]
     },
     "transposition": {
-      "texte": "{{r2}}, c'était le nom d'un énorme tigre fauve qui vivait dans les montagnes du Kang Won. C'était le tigre le plus orgueilleux de toute la péninsule de Corée. Il avait les yeux les plus ardents, la queue la plus longue, les griffes les plus acérées et les rayures les plus larges de tous les animaux de la montagne. Il pouvait abattre une vache, se battre contre tous les chiens d'un village, et n'avait pas peur d'un chasseur, sauf s'il portait un fusil. Quant aux veaux et aux cochons, il les considérait comme de simples amuse-gueule.\n\n{{r2}} était particulièrement fier d'être le serviteur du grand génie des montagnes, que les hommes craignaient et en l'honneur de qui ils bâtissaient des autels. Une de ses missions était de visiter chaque jour les autels des cols de montagne, pour voir si les gens y déposaient bien des offrandes.\n\nOr le vieux {{r2}} était à la fois orgueilleux et rusé. Pendant des années, il avait mangé cochons, veaux, chiens, ânes et poules, en évitant tous les pièges et toutes les balles. Si bien qu'il commençait à croire qu'il pouvait se moquer de tous ses ennemis. Pourtant, tout orgueilleux qu'il était, il allait être roulé par une créature sans force ni dard, sans griffes ni sabots, comme nous allons le voir.\n\n{{r1}}, qui avait son terrier dans une colline près du village, avait souvent entendu les cris des malheureux cochons et les ruades des ânes qui servaient de dîner au vieux {{r2}}. Jusque-là, pourtant, grâce à sa grande prudence, il était resté loin du chemin du tyran rayé et de sa gueule.\n\nMais un froid jour d'hiver, alors qu'il rentrait chez lui, fatigué, faible et affamé, n'ayant rien mangé depuis la veille, juste au moment où il traversait une rivière sur la glace, il se retrouva nez à nez avec le vieux {{r2}}. De derrière un rocher de la rive, près du terrier de {{r1}}, le grand tigre bondit et essaya de le glacer de terreur en le fixant de ses grands yeux verts.\n\n{{r1}} ne savait que trop bien que les tigres aiment jouer avec leur proie avant de la manger, et il crut que sa dernière heure était venue. Pourtant, {{r1}} resta parfaitement calme. Il ne trembla pas du tout. Il s'attendait depuis longtemps à une telle rencontre, et était prêt pour le vieux {{r2}}, bien décidé à endormir sa méfiance.\n\nLe tigre, qui s'attendait à lui arracher la fourrure dans une minute ou deux, dit au lapin :\n\n— J'ai faim. Je vais te manger tout de suite.\n\n— Oh, pourquoi vous embêter avec moi ? dit {{r1}}. Je suis si petit et si maigre que je ferais à peine une bouchée pour Votre Majesté. Écoutez-moi, et je vais vous procurer un dîner royal. Je vais monter dans la montagne et rabattre le gibier jusqu'à vos pattes. Seulement, vous devez faire exactement ce que je vous dis.\n\nÀ l'idée d'un bon dîner, le tigre sourit de plaisir. La façon dont il bâilla, en montrant sa gueule rouge et profonde comme une caverne, ses énormes dents blanches, chacune grosse comme un clou, et sa longue langue recourbée pleine de pointes comme des épines, faillit faire perdre la tête à {{r1}}. Le lapin n'avait jamais regardé au fond d'une gueule de tigre, mais il ne montra pas qu'il avait peur. C'était seulement la façon du tigre de montrer son bonheur, quand il avait l'eau à la bouche et se pourléchait les babines à l'idée d'un grand festin.\n\n— Je ferai exactement ce que tu dis, dit le vieux {{r2}} à {{r1}}.\n\n— Mon ambition est de servir le seigneur des montagnes, dit {{r1}}. Alors, couchez-vous ici sur la glace, fermez les yeux et ne bougez pas. Et surtout, gardez les yeux bien fermés, sinon le charme ne marchera pas. Je vais faire un cercle d'herbe sèche, puis je tournerai tout autour de vous en rabattant le gibier vers vous. Si vous entendez du bruit, et même des craquements, n'ouvrez pas les yeux avant que je vous le dise. Ça prendra un peu de temps.\n\nLe vieux {{r2}}, fatigué d'avoir parcouru la forêt et rôdé toute la journée autour des porcheries sans rien attraper, avait faim et sommeil. Alors il décida, en attendant, de faire un bon somme. Aussi vite qu'on souffle une chandelle, il s'endormit.\n\nAlors {{r1}} s'affaira à arracher toute l'herbe sèche qu'il put trouver, et à l'entasser autour du vieux {{r2}}, tout près de lui. Ravi d'entendre la grosse brute ronfler, il continua jusqu'à avoir fait un épais anneau d'herbe sèche. Puis il y mit le feu, attendit que les flammes montent haut, et détala pour voir le spectacle.\n\nLe vieux {{r2}}, réveillé par les craquements, bâilla et se frotta les yeux de ses pattes, en se demandant d'où venait ce bruit.\n\n— Attendez ! cria {{r1}}. Tenez votre promesse !\n\nEt il s'enfuit encore plus loin dans la colline.\n\n— Coquin ! gronda le tigre, tandis que les langues de flammes rouges montaient tout autour de lui.\n\nIl dut sauter très haut pour s'échapper des flammes. Et malgré cela, une patte fut roussie, si bien qu'il boita, et sa fourrure fut si brûlée que tous ses beaux longs poils et sa belle allure disparurent. Quand il rentra chez lui, les autres tigres se moquèrent de lui. Désormais, il dut se contenter de la deuxième place, car le grand Esprit de la Montagne n'avait plus confiance en un serviteur aussi bête."
+      "texte": "{{r2}}, c'était le nom d'un énorme tigre fauve qui vivait dans les montagnes du Kang Won. C'était le tigre le plus orgueilleux de toute la péninsule de Corée. Il avait les yeux les plus ardents, la queue la plus longue, les griffes les plus acérées et les rayures les plus larges de tous les animaux de la montagne. Il pouvait abattre une vache, se battre contre tous les chiens d'un village, et n'avait pas peur d'un chasseur, sauf s'il portait un fusil. Quant aux veaux et aux cochons, il les considérait comme de simples amuse-gueule.\n\n{{r2}} était particulièrement fier d'être le serviteur du grand génie des montagnes, que les hommes craignaient et en l'honneur de qui ils bâtissaient des autels. Une de ses missions était de visiter chaque jour les autels des cols de montagne, pour voir si les gens y déposaient bien des offrandes.\n\nOr le vieux {{r2}} était à la fois orgueilleux et rusé. Pendant des années, il avait mangé cochons, veaux, chiens, ânes et poules, en évitant tous les pièges et toutes les balles. Si bien qu'il commençait à croire qu'il pouvait se moquer de tous ses ennemis. Pourtant, tout orgueilleux qu'il était, il allait être roulé par une créature sans force ni dard, sans griffes ni sabots, comme nous allons le voir.\n\n{{r1}}, qui avait son terrier dans une colline près du village, avait souvent entendu les cris des malheureux cochons et les ruades des ânes qui servaient de dîner au vieux {{r2}}. Jusque-là, pourtant, grâce à sa grande prudence, il était resté loin du chemin du tyran rayé et de sa gueule.\n\nMais un froid jour d'hiver, alors qu'il rentrait chez lui, fatigué, faible et affamé, n'ayant rien mangé depuis la veille, juste au moment où il traversait une rivière sur la glace, il se retrouva nez à nez avec le vieux {{r2}}. De derrière un rocher de la rive, près du terrier de {{r1}}, le grand tigre bondit et essaya de le glacer de terreur en le fixant de ses grands yeux verts.\n\n{{r1}} ne savait que trop bien que les tigres aiment jouer avec leur proie avant de la manger, et il crut que sa dernière heure était venue. Pourtant, {{r1}} resta parfaitement calme. Il ne trembla pas du tout. Il s'attendait depuis longtemps à une telle rencontre, et était prêt pour le vieux {{r2}}, bien décidé à endormir sa méfiance.\n\nLe tigre, qui s'attendait à lui arracher la fourrure dans une minute ou deux, dit au lapin :\n\n— J'ai faim. Je vais te manger tout de suite.\n\n— Oh, pourquoi vous embêter avec moi ? dit {{r1}}. Je suis si petit et si maigre que je ferais à peine une bouchée pour Votre Majesté. Écoutez-moi, et je vais vous procurer un dîner royal. Je vais monter dans la montagne et rabattre le gibier jusqu'à vos pattes. Seulement, vous devez faire exactement ce que je vous dis.\n\nÀ l'idée d'un bon dîner, le tigre sourit de plaisir. La façon dont il bâilla, en montrant sa gueule rouge et profonde comme une caverne, ses énormes dents blanches, chacune grosse comme un clou, et sa longue langue recourbée pleine de pointes comme des épines, faillit faire perdre la tête à {{r1}}. Le lapin n'avait jamais regardé au fond d'une gueule de tigre, mais il ne montra pas qu'il avait peur. C'était seulement la façon du tigre de montrer son bonheur, quand il avait l'eau à la bouche et se pourléchait les babines à l'idée d'un grand festin.\n\n— Je ferai exactement ce que tu dis, dit le vieux {{r2}} à {{r1}}.\n\n— Mon ambition est de servir le seigneur des montagnes, dit {{r1}}. Alors, couchez-vous ici sur la glace, fermez les yeux et ne bougez pas. Et surtout, gardez les yeux bien fermés, sinon le charme ne marchera pas. Je vais faire un cercle d'herbe sèche, puis je tournerai tout autour de vous en rabattant le gibier vers vous. Si vous entendez du bruit, et même des craquements, n'ouvrez pas les yeux avant que je vous le dise. Ça prendra un peu de temps.\n\nLe vieux {{r2}}, fatigué d'avoir parcouru la forêt et rôdé toute la journée autour des porcheries sans rien attraper, avait faim et sommeil. Alors il décida, en attendant, de faire un bon somme. Aussi vite qu'on souffle une chandelle, il s'endormit.\n\nAlors {{r1}} s'affaira à arracher toute l'herbe sèche qu'il put trouver, et à l'entasser autour du vieux {{r2}}, tout près de lui. Ravi d'entendre la grosse brute ronfler, il continua jusqu'à avoir fait un épais anneau d'herbe sèche. Puis il y mit le feu, attendit que les flammes montent haut, et détala pour voir le spectacle.\n\nLe vieux {{r2}}, réveillé par les craquements, bâilla et se frotta les yeux de ses pattes, en se demandant d'où venait ce bruit.\n\n— Attendez ! cria {{r1}}. Tenez votre promesse !\n\nEt il s'enfuit encore plus loin dans la colline.\n\n— Coquin ! gronda le tigre, tandis que les langues de flammes rouges montaient tout autour de lui.\n\nIl dut sauter très haut pour s'échapper des flammes. Et malgré cela, le feu lui roussit une patte et sa fourrure. Quand il rentra chez lui, les autres tigres se moquèrent de lui. Désormais, il dut se contenter de la deuxième place, car le grand Esprit de la Montagne n'avait plus confiance en un serviteur aussi bête."
     }
   },
-  "dureeEstimeeSecondes": 553,
+  "dureeEstimeeSecondes": 509,
   "interactionsOrdonnees": [
     "a2e28",
     "a3e7",
-    "a3e14",
     "a2e6",
     "a1e7",
-    "a3e9",
     "a3e34"
   ]
 }

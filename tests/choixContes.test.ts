@@ -21,6 +21,7 @@ import {
 import { compterMots, partDialogue } from '../src/services/mots';
 import { MALUS, malusDe, type Rencontre } from '../src/services/historiqueContes';
 import { CONTES, conteParId, lireFiche, texteDuConte } from '../src/services/repertoire';
+import { RETRAITS } from '../src/services/retraits';
 
 const INDEX = JSON.parse(INDEX_BRUT) as Record<string, { mots: number; cles: string[] }>;
 const options = { ageAuditoire: 5, dureeMinutes: 5, nbMarionnettistes: 1 as const };
@@ -49,8 +50,8 @@ structure: course
 }
 
 describe('le répertoire', () => {
-  it('lit les 160 fiches, sans en perdre une', () => {
-    expect(CONTES.length).toBe(160);
+  it('lit les fiches actives et exclut les œuvres retirées', () => {
+    expect(CONTES.length).toBe(160 - Object.keys(RETRAITS).length);
     for (const c of CONTES) {
       expect(c.titre, c.id).not.toBe('');
       expect(c.source, c.id).not.toBe('');

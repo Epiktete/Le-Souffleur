@@ -18,6 +18,7 @@
 
 import { corpsDuTexte } from './mots';
 import { lireFicheRetouches, type FicheRetouches } from './retouches';
+import { conteEstRetire } from './retraits';
 
 /** Un rôle du conte, tel que la fiche le décrit. */
 export interface RoleConte {
@@ -157,7 +158,7 @@ const idDuChemin = (chemin: string) => chemin.replace(/^.*\/([^/]+)\.(md|json)$/
 /** Tous les contes du répertoire, dans l'ordre des identifiants. */
 export const CONTES: Conte[] = Object.entries(FICHES)
   .map(([, texte]) => lireFiche(texte))
-  .filter((c): c is Conte => c !== null)
+  .filter((c): c is Conte => c !== null && !conteEstRetire(c.id))
   .sort((a, b) => a.id.localeCompare(b.id));
 
 const PAR_ID = new Map(CONTES.map((c) => [c.id, c]));
@@ -173,6 +174,7 @@ export function conteParId(id: string): Conte | undefined {
  * pas de spectacle du tout.
  */
 export async function texteDuConte(id: string): Promise<string> {
+  if (conteEstRetire(id)) return '';
   const chemin = Object.keys(TEXTES).find((c) => idDuChemin(c) === id);
   if (!chemin) return '';
   return corpsDuTexte(await TEXTES[chemin]());
@@ -184,6 +186,7 @@ export async function texteDuConte(id: string): Promise<string> {
  * alors l'ancien comportement.
  */
 export async function retouchesDuConte(id: string): Promise<FicheRetouches | null> {
+  if (conteEstRetire(id)) return null;
   const chemin = Object.keys(RETOUCHES).find((c) => idDuChemin(c) === id);
   if (!chemin) return null;
   return lireFicheRetouches(await RETOUCHES[chemin]());

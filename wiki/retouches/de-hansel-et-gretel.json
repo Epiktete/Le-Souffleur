@@ -1,10 +1,30 @@
 {
   "id": "de-hansel-et-gretel",
   "langue": [
-    {"avant": "il n'y a pas de salut pour nous", "apres": "nous ne nous en sortirons pas", "nature": "mot-rare", "jusqua": 6},
-    {"avant": "elle voulait fermer le four", "apres": "la sorcière voulait fermer le four", "nature": "pronom", "jusqua": 6},
-    {"avant": "devina ce qu'elle avait en tête", "apres": "devina ce que la sorcière avait en tête", "nature": "pronom", "jusqua": 6},
-    {"avant": "si bien qu'elle bascula tout au fond, ferma la porte de fer", "apres": "si bien qu'elle bascula tout au fond ; Gretel ferma la porte de fer", "nature": "pronom", "jusqua": 6}
+    {
+      "avant": "il n'y a pas de salut pour nous",
+      "apres": "nous ne nous en sortirons pas",
+      "nature": "mot-rare",
+      "jusqua": 6
+    },
+    {
+      "avant": "elle voulait fermer le four",
+      "apres": "la sorcière voulait fermer le four",
+      "nature": "pronom",
+      "jusqua": 6
+    },
+    {
+      "avant": "devina ce qu'elle avait en tête",
+      "apres": "devina ce que la sorcière avait en tête",
+      "nature": "pronom",
+      "jusqua": 6
+    },
+    {
+      "avant": "si bien qu'elle bascula tout au fond, ferma la porte de fer",
+      "apres": "si bien qu'elle bascula tout au fond ; Gretel ferma la porte de fer",
+      "nature": "pronom",
+      "jusqua": 6
+    }
   ],
   "moments": [
     {
@@ -15,12 +35,30 @@
           "jusqua": 4,
           "annonce": "Hansel et Gretel ne sont pas abandonnés : leurs parents les laissent près d'un feu pour aller couper du bois, et les enfants se perdent dans la forêt.",
           "retouches": [
-            {"avant": "Ils ne retrouveront pas le chemin de la maison, et nous en serons débarrassés.", "apres": "Le soir, quand nous aurons coupé assez de bois à vendre, nous reviendrons les chercher."},
-            {"avant": "Maintenant, c'est fini pour nous.", "apres": "Nous allons nous perdre dans la grande forêt."},
-            {"avant": "Mais ce n'était pas la hache : c'était une branche qu'il avait attachée à un arbre mort, et que le vent balançait de-ci de-là. Et comme ils étaient restés assis longtemps, leurs yeux se fermèrent de fatigue, et ils s'endormirent profondément.", "apres": "Ils allèrent de ce côté, mais ce n'était pas la hache : c'était une branche morte que le vent balançait de-ci de-là contre un arbre. Quand ils voulurent revenir, ils ne retrouvèrent plus le feu. Alors ils s'assirent sous un arbre, leurs yeux se fermèrent de fatigue, et ils s'endormirent profondément."},
-            {"avant": "Il faut que les enfants partent. Nous allons les conduire plus loin dans la forêt, pour qu'ils ne retrouvent pas le chemin.", "apres": "Il faut aller couper du bois plus loin dans la forêt, et les enfants viendront avec nous."},
-            {"avant": "Puis ils s'endormirent, et le soir passa, mais personne ne vint chercher les pauvres enfants.", "apres": "Puis ils s'endormirent, et le feu s'éteignit ; le soir, les parents cherchèrent les enfants, mais la forêt était si épaisse qu'ils ne les retrouvèrent pas."},
-            {"avant": "depuis qu'il avait laissé les enfants dans la forêt", "apres": "depuis qu'il avait perdu les enfants dans la forêt"}
+            {
+              "avant": "Ils ne retrouveront pas le chemin de la maison, et nous en serons débarrassés.",
+              "apres": "Le soir, quand nous aurons coupé assez de bois à vendre, nous reviendrons les chercher."
+            },
+            {
+              "avant": "Maintenant, c'est fini pour nous.",
+              "apres": "Nous allons nous perdre dans la grande forêt."
+            },
+            {
+              "avant": "Mais ce n'était pas la hache : c'était une branche qu'il avait attachée à un arbre mort, et que le vent balançait de-ci de-là. Et comme ils étaient restés assis longtemps, leurs yeux se fermèrent de fatigue, et ils s'endormirent profondément.",
+              "apres": "Ils allèrent de ce côté, mais ce n'était pas la hache : c'était une branche morte que le vent balançait de-ci de-là contre un arbre. Quand ils voulurent revenir, ils ne retrouvèrent plus le feu. Alors ils s'assirent sous un arbre, leurs yeux se fermèrent de fatigue, et ils s'endormirent profondément."
+            },
+            {
+              "avant": "Il faut que les enfants partent. Nous allons les conduire plus loin dans la forêt, pour qu'ils ne retrouvent pas le chemin.",
+              "apres": "Il faut aller couper du bois plus loin dans la forêt, et les enfants viendront avec nous."
+            },
+            {
+              "avant": "Puis ils s'endormirent, et le soir passa, mais personne ne vint chercher les pauvres enfants.",
+              "apres": "Puis ils s'endormirent, et le feu s'éteignit ; le soir, les parents cherchèrent les enfants, mais la forêt était si épaisse qu'ils ne les retrouvèrent pas."
+            },
+            {
+              "avant": "depuis qu'il avait laissé les enfants dans la forêt",
+              "apres": "depuis qu'il avait perdu les enfants dans la forêt"
+            }
           ]
         }
       ]
@@ -33,11 +71,28 @@
           "jusqua": 4,
           "annonce": "Poussée dans son four, la sorcière n'en ressort que par la cheminée, noire de suie, et s'enfuit pour toujours.",
           "retouches": [
-            {"avant": "Hou ! La sorcière se mit à hurler horriblement. Mais Gretel se sauva.", "apres": "Hou ! La sorcière se mit à hurler, et elle ne put ressortir que par la cheminée, toute noire de suie et la robe roussie ; elle s'enfuit dans la forêt, si loin qu'on ne la revit jamais."},
-            {"avant": "La vieille sorcière n'est plus !", "apres": "La vieille sorcière est partie pour toujours !"}
+            {
+              "avant": "Hou ! La sorcière se mit à hurler horriblement. Mais Gretel se sauva.",
+              "apres": "La sorcière ne put ressortir que par la cheminée, toute noire de suie et la robe roussie ; elle s’enfuit dans la forêt, si loin qu’on ne la revit jamais."
+            },
+            {
+              "avant": "La vieille sorcière n'est plus !",
+              "apres": "La vieille sorcière est partie pour toujours !"
+            }
+          ]
+        },
+        {
+          "jusqua": 10,
+          "annonce": "La sorcière reste enfermée dans le four, sans faire entendre son agonie.",
+          "retouches": [
+            {
+              "avant": "Hou ! La sorcière se mit à hurler horriblement.",
+              "apres": ""
+            }
           ]
         }
-      ]
+      ],
+      "pourquoi": "Le niveau jusqu’à 10 ans retire seulement les cris d’agonie ; il conserve la punition et la fin du conte pour les plus grands."
     },
     {
       "id": "mort-de-la-belle-mere",
@@ -47,7 +102,10 @@
           "jusqua": 4,
           "annonce": "À la fin, la belle-mère est partie de la maison, au lieu d'être morte.",
           "retouches": [
-            {"avant": "quant à la femme, elle était morte.", "apres": "quant à la femme, elle était partie pour toujours."}
+            {
+              "avant": "quant à la femme, elle était morte.",
+              "apres": "quant à la femme, elle était partie pour toujours."
+            }
           ]
         }
       ]
