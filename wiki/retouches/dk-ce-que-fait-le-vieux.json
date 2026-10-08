@@ -25,6 +25,34 @@
           ]
         }
       ]
+    },
+    {
+      "id": "deux-anglais",
+      "type": "mal-vieilli",
+      "niveaux": [
+        {
+          "jusqua": 10,
+          "annonce": "Les parieurs sont deux riches messieurs, sans nationalité.",
+          "retouches": [
+            {
+              "avant": "et deux Anglais, qui sont si riches",
+              "apres": "et deux messieurs, qui sont si riches"
+            },
+            {
+              "avant": "dirent les Anglais. Ça va être la tempête",
+              "apres": "dirent les messieurs. Ça va être la tempête"
+            },
+            {
+              "avant": "les Anglais montèrent",
+              "apres": "les messieurs montèrent"
+            },
+            {
+              "avant": "dirent les Anglais. Toujours en descendant",
+              "apres": "dirent les messieurs. Toujours en descendant"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

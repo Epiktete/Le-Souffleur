@@ -535,7 +535,7 @@ export const CONTES = [
   basset(147, 'panthere-chien-tortue', 'La Panthère, le Chien et la Tortue', 'Téké', 'Congo, Gabon'),
   basset(167, 'anansi-tigre-chevre', 'Anansi, le Tigre et la Chèvre', 'Afro-antillais', 'Antilles anglaises'),
   ...[
-    ['tar-baby', 'Le Bébé de goudron', 'The Wonderful Tar-Baby Story'],
+    ['tar-baby', 'Le Bonhomme de goudron', 'The Wonderful Tar-Baby Story'],
     ['lapin-trop-malin', 'Frère Lapin et le buisson de ronces', 'How Mr. Rabbit was too sharp for Mr. Fox'],
   ].map(([id, titre, page]) => ({
     id: `us-remus-${id}`,

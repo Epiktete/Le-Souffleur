@@ -1,6 +1,6 @@
 ---
 id: us-remus-tar-baby
-titre: Le Bébé de goudron
+titre: Le Bonhomme de goudron
 culture: Afro-américain (sud des États-Unis)
 source: "Joel Chandler Harris, Uncle Remus: His Songs and His Sayings, 1880"
 genre: conte d'animaux
@@ -10,7 +10,7 @@ figurants: 1
 roles:
   - {nom: Frère Lapin, espece: lapin, categorie: animal, traits: [vantard, coquin, bavard], fonction: dupe}
   - {nom: Frère Renard, espece: renard, categorie: animal, traits: [rusé, farceur], fonction: trompeur}
-  - {nom: le Bébé de goudron, espece: poupée, categorie: objet, traits: [timide], fonction: adversaire, figurant: true}
+  - {nom: le Bonhomme de goudron, espece: poupée, categorie: objet, traits: [timide], fonction: adversaire, figurant: true}
 lieux: [la grand-route, les buissons]
 ressorts: [celui qui ne répond pas, la colère qui colle, formule répétée « et le Renard ne bouge pas »]
 structure: accumulation

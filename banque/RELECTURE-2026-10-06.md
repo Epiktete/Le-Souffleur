@@ -49,3 +49,14 @@ dans les retouches universelles de onze contes, sans modifier les originaux.
 
 Les pattes noires/blanches, les mariages traditionnels sans âge enfantin explicite,
 les mentions de vin, les ruses et les coups burlesques ordinaires restent.
+
+## Complément du 8 octobre 2026
+
+| Adaptation | Correction |
+|---|---|
+| Le Bonhomme de goudron | Anciennement « Le Bébé de goudron » : « tar baby » est une insulte raciale en anglais. Renommé dans la traduction, la fiche et le spectacle ; l’identifiant `us-remus-tar-baby` reste. |
+| Ce que fait le vieux est bien fait | « Deux Anglais » deviennent « deux messieurs » (stéréotype national) ; retouche universelle ajoutée. |
+
+Les autres points relevés le 6 octobre (alcool et burlesque de Guignol, Riquet,
+Jacques le Paresseux, morale du Lièvre et du Hérisson) sont gardés, sur décision
+de Nicolas.

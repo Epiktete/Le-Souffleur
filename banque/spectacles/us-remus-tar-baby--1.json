@@ -1,7 +1,7 @@
 {
   "id": "us-remus-tar-baby--1",
   "conteId": "us-remus-tar-baby",
-  "titre": "Le Bébé de goudron",
+  "titre": "Le Bonhomme de goudron",
   "pitch": "{{r2}} place une silhouette de goudron sur la route. {{r1}} lui parle, se colle en la frappant, puis {{r2}} rit ; le récit s’arrête avant de dire ce qui lui arrive.",
   "roles": [
     {
@@ -264,7 +264,7 @@
     {
       "id": "t1",
       "titre": "La route et les buissons",
-      "description": "Un carton fixe dessine la route et une silhouette de Bébé de goudron avec un chapeau dessiné ; un coussin dressé figure le buisson. La silhouette reste fixée au carton tout le spectacle ; aucune matière collante n’est nécessaire. {{r2}} peut s’abaisser derrière le coussin.",
+      "description": "Un carton fixe dessine la route et une silhouette de Bonhomme de goudron avec un chapeau dessiné ; un coussin dressé figure le buisson. La silhouette reste fixée au carton tout le spectacle ; aucune matière collante n’est nécessaire. {{r2}} peut s’abaisser derrière le coussin.",
       "accessoires": [],
       "promptImage": ""
     },
@@ -287,14 +287,14 @@
     {
       "id": "a1",
       "numero": 1,
-      "titre": "Le silence du Bébé de goudron",
+      "titre": "Le silence du Bonhomme de goudron",
       "resume": "{{r2}} prépare une silhouette de goudron ; {{r1}} la salue et se fâche de son silence.",
       "tableauId": "t1",
       "elements": [
         {
           "id": "a1e1",
           "type": "conteur",
-          "texte": "Un jour, après que Frère {{r1}} l’eut encore roulé, Frère {{r2}} se mit au travail. Du goudron mélangé à de la térébenthine formait une drôle de machine qu’il appela le Bébé de goudron. Ce Bébé de goudron se trouvait au beau milieu de la grand-route."
+          "texte": "Un jour, après que Frère {{r1}} l’eut encore roulé, Frère {{r2}} se mit au travail. Du goudron mélangé à de la térébenthine formait une drôle de machine qu’il appela le Bonhomme de goudron. Ce Bonhomme de goudron se trouvait au beau milieu de la grand-route."
         },
         {
           "id": "a1e2",
@@ -331,7 +331,7 @@
         {
           "id": "a1e8",
           "type": "conteur",
-          "texte": "Frère {{r1}} s’avance en sautillant, et tout à coup il aperçoit le Bébé de goudron. Il se dresse sur ses pattes de derrière, tout étonné. Le Bébé de goudron, lui, reste assis."
+          "texte": "Frère {{r1}} s’avance en sautillant, et tout à coup il aperçoit le Bonhomme de goudron. Il se dresse sur ses pattes de derrière, tout étonné. Le Bonhomme de goudron, lui, reste assis."
         },
         {
           "id": "a1e9",
@@ -354,7 +354,7 @@
         {
           "id": "a1e12",
           "type": "conteur",
-          "texte": "Le Bébé de goudron ne dit rien. Et Frère {{r2}} ne bouge pas."
+          "texte": "Le Bonhomme de goudron ne dit rien. Et Frère {{r2}} ne bouge pas."
         },
         {
           "id": "a1e13",
@@ -365,7 +365,7 @@
         {
           "id": "a1e14",
           "type": "conteur",
-          "texte": "Frère {{r2}} s’incline à peine et ne bouge pas. Le Bébé de goudron ne dit rien."
+          "texte": "Frère {{r2}} s’incline à peine et ne bouge pas. Le Bonhomme de goudron ne dit rien."
         },
         {
           "id": "a1e15",
@@ -383,7 +383,7 @@
         {
           "id": "a1e17",
           "type": "conteur",
-          "texte": "Le Bébé de goudron ne bouge pas. Et Frère {{r2}} ne bouge pas."
+          "texte": "Le Bonhomme de goudron ne bouge pas. Et Frère {{r2}} ne bouge pas."
         },
         {
           "id": "a1e18",
@@ -394,7 +394,7 @@
         {
           "id": "a1e19",
           "type": "conteur",
-          "texte": "Frère {{r2}} rit tout bas dans son ventre. Le Bébé de goudron ne dit rien."
+          "texte": "Frère {{r2}} rit tout bas dans son ventre. Le Bonhomme de goudron ne dit rien."
         },
         {
           "id": "a1e20",
@@ -405,14 +405,14 @@
         {
           "id": "a1e21",
           "type": "adresse_public",
-          "texte": "Faites le silence du Bébé de goudron : chut !",
+          "texte": "Faites le silence du Bonhomme de goudron : chut !",
           "marionnetteId": "r1",
           "attenteReponse": true
         },
         {
           "id": "a1e22",
           "type": "conteur",
-          "texte": "Le Bébé de goudron ne bouge pas. Et Frère {{r2}} ne bouge pas."
+          "texte": "Le Bonhomme de goudron ne bouge pas. Et Frère {{r2}} ne bouge pas."
         }
       ]
     },
@@ -426,7 +426,7 @@
         {
           "id": "a2e1",
           "type": "conteur",
-          "texte": "Frère {{r1}} continue de lui demander bonjour, et le Bébé de goudron continue de ne rien dire."
+          "texte": "Frère {{r1}} continue de lui demander bonjour, et le Bonhomme de goudron continue de ne rien dire."
         },
         {
           "id": "a2e2",
@@ -436,7 +436,7 @@
         {
           "id": "a2e3",
           "type": "conteur",
-          "texte": "Si bien qu’à la fin, Frère {{r1}} prend son élan et — pif ! — lui donne une tape sur le côté de la tête. Et c’est là qu’il a fait sa grosse bêtise : sa patte reste collée. Impossible de la retirer. Le goudron la tient. Le Bébé de goudron ne bouge pas. Et Frère {{r2}} ne bouge pas."
+          "texte": "Si bien qu’à la fin, Frère {{r1}} prend son élan et — pif ! — lui donne une tape sur le côté de la tête. Et c’est là qu’il a fait sa grosse bêtise : sa patte reste collée. Impossible de la retirer. Le goudron la tient. Le Bonhomme de goudron ne bouge pas. Et Frère {{r2}} ne bouge pas."
         },
         {
           "id": "a2e4",
@@ -459,7 +459,7 @@
         {
           "id": "a2e7",
           "type": "conteur",
-          "texte": "Le Bébé de goudron ne dit rien. Et Frère {{r2}} ne bouge pas."
+          "texte": "Le Bonhomme de goudron ne dit rien. Et Frère {{r2}} ne bouge pas."
         },
         {
           "id": "a2e8",
@@ -477,7 +477,7 @@
         {
           "id": "a2e10",
           "type": "conteur",
-          "texte": "Mais le Bébé de goudron ne dit rien. Il tient bon. Et Frère {{r1}} perd l’usage de ses pieds de la même manière. Frère {{r2}} ne bouge pas. Alors Frère {{r1}} crie :"
+          "texte": "Mais le Bonhomme de goudron ne dit rien. Il tient bon. Et Frère {{r1}} perd l’usage de ses pieds de la même manière. Frère {{r2}} ne bouge pas. Alors Frère {{r1}} crie :"
         },
         {
           "id": "a2e11",
@@ -576,13 +576,13 @@
     "synopsis": {
       "accroche": "Une silhouette muette colle à chaque coup.",
       "resume": [
-        "{{r2}} fabrique le Bébé de goudron et le place sur la route.",
+        "{{r2}} fabrique le Bonhomme de goudron et le place sur la route.",
         "{{r1}} le salue, s’emporte et reste collé des pattes, des pieds puis de la tête.",
         "{{r2}} rit et parle de son dîner ; à la question de l’enfant, le vieil homme dit que la suite reste incertaine."
       ]
     },
     "transposition": {
-      "texte": "Un jour, après que Frère {{r1}} l’eut encore roulé, Frère {{r2}} se mit au travail. Du goudron mélangé à de la térébenthine formait une drôle de machine qu’il appela le Bébé de goudron. Ce Bébé de goudron se trouvait au beau milieu de la grand-route.\n\nPuis il alla se coucher dans les buissons pour voir ce qui allait se passer.\n\nIl n’eut pas longtemps à attendre : voilà Frère {{r1}} qui arrive par la route — lippity-clippity, clippity-lippity — aussi insolent qu’un geai.\n\nFrère {{r2}}, lui, ne bouge pas.\n\nFrère {{r1}} s’avance en sautillant, et tout à coup il aperçoit le Bébé de goudron. Il se dresse sur ses pattes de derrière, tout étonné. Le Bébé de goudron, lui, reste assis.\n\nEt Frère {{r2}} ne bouge pas.\n\n— Bonjour ! Beau temps, ce matin.\n\nLe Bébé de goudron ne dit rien. Et Frère {{r2}} ne bouge pas.\n\n— Et comment va la santé, ce matin ?\n\nFrère {{r2}} s’incline à peine et ne bouge pas. Le Bébé de goudron ne dit rien.\n\n— Eh bien ? Tu es sourd ? Parce que si tu es sourd, je peux crier plus fort !\n\nLe Bébé de goudron ne bouge pas. Et Frère {{r2}} ne bouge pas.\n\n— Tu fais le fier, voilà ce que tu fais. Mais je vais te guérir de ça, moi !\n\nFrère {{r2}} rit tout bas dans son ventre. Le Bébé de goudron ne dit rien.\n\n— Je vais t’apprendre à parler poliment aux gens respectables. Si tu n’ôtes pas ton chapeau pour me dire bonjour, je te flanque une tape !\n\nLe Bébé de goudron ne bouge pas. Et Frère {{r2}} ne bouge pas.\n\nFrère {{r1}} continue de lui demander bonjour, et le Bébé de goudron continue de ne rien dire.\n\nSi bien qu’à la fin, Frère {{r1}} prend son élan et — pif ! — lui donne une tape sur le côté de la tête. Et c’est là qu’il a fait sa grosse bêtise : sa patte reste collée. Impossible de la retirer. Le goudron la tient. Le Bébé de goudron ne bouge pas. Et Frère {{r2}} ne bouge pas.\n\n— Lâche-moi, ou je te tape encore !\n\nEt Frère {{r1}} lui donne une tape de l’autre patte — et l’autre patte reste collée aussi.\n\nLe Bébé de goudron ne dit rien. Et Frère {{r2}} ne bouge pas.\n\n— Lâche-moi, ou je te donne un grand coup de pied !\n\nMais le Bébé de goudron ne dit rien. Il tient bon. Et Frère {{r1}} perd l’usage de ses pieds de la même manière. Frère {{r2}} ne bouge pas. Alors Frère {{r1}} crie :\n\n— Si tu ne me lâches pas, je vais te donner un coup de tête !\n\nEt Frère {{r1}} donne un coup de tête — et sa tête reste collée.\n\nAlors Frère {{r2}} sort des buissons, l’air aussi innocent qu’un oiseau moqueur.\n\n— Bonjour, Frère {{r1}}. On dirait que tu es un peu collé, ce matin.\n\nEt Frère {{r2}} se roule par terre, et il rit, et il rit, jusqu’à ne plus pouvoir rire.\n\n— Je crois bien que tu vas dîner avec moi, cette fois, Frère {{r1}}. J’ai tout préparé, et je n’accepterai pas d’excuse.\n\n— Et {{r2}} a mangé {{r1}} ?\n\n— L’histoire s’arrête là. Peut-être que oui, peut-être que non. Certains disent que le juge Ours est passé par là et l’a décollé ; d’autres disent que non."
+      "texte": "Un jour, après que Frère {{r1}} l’eut encore roulé, Frère {{r2}} se mit au travail. Du goudron mélangé à de la térébenthine formait une drôle de machine qu’il appela le Bonhomme de goudron. Ce Bonhomme de goudron se trouvait au beau milieu de la grand-route.\n\nPuis il alla se coucher dans les buissons pour voir ce qui allait se passer.\n\nIl n’eut pas longtemps à attendre : voilà Frère {{r1}} qui arrive par la route — lippity-clippity, clippity-lippity — aussi insolent qu’un geai.\n\nFrère {{r2}}, lui, ne bouge pas.\n\nFrère {{r1}} s’avance en sautillant, et tout à coup il aperçoit le Bonhomme de goudron. Il se dresse sur ses pattes de derrière, tout étonné. Le Bonhomme de goudron, lui, reste assis.\n\nEt Frère {{r2}} ne bouge pas.\n\n— Bonjour ! Beau temps, ce matin.\n\nLe Bonhomme de goudron ne dit rien. Et Frère {{r2}} ne bouge pas.\n\n— Et comment va la santé, ce matin ?\n\nFrère {{r2}} s’incline à peine et ne bouge pas. Le Bonhomme de goudron ne dit rien.\n\n— Eh bien ? Tu es sourd ? Parce que si tu es sourd, je peux crier plus fort !\n\nLe Bonhomme de goudron ne bouge pas. Et Frère {{r2}} ne bouge pas.\n\n— Tu fais le fier, voilà ce que tu fais. Mais je vais te guérir de ça, moi !\n\nFrère {{r2}} rit tout bas dans son ventre. Le Bonhomme de goudron ne dit rien.\n\n— Je vais t’apprendre à parler poliment aux gens respectables. Si tu n’ôtes pas ton chapeau pour me dire bonjour, je te flanque une tape !\n\nLe Bonhomme de goudron ne bouge pas. Et Frère {{r2}} ne bouge pas.\n\nFrère {{r1}} continue de lui demander bonjour, et le Bonhomme de goudron continue de ne rien dire.\n\nSi bien qu’à la fin, Frère {{r1}} prend son élan et — pif ! — lui donne une tape sur le côté de la tête. Et c’est là qu’il a fait sa grosse bêtise : sa patte reste collée. Impossible de la retirer. Le goudron la tient. Le Bonhomme de goudron ne bouge pas. Et Frère {{r2}} ne bouge pas.\n\n— Lâche-moi, ou je te tape encore !\n\nEt Frère {{r1}} lui donne une tape de l’autre patte — et l’autre patte reste collée aussi.\n\nLe Bonhomme de goudron ne dit rien. Et Frère {{r2}} ne bouge pas.\n\n— Lâche-moi, ou je te donne un grand coup de pied !\n\nMais le Bonhomme de goudron ne dit rien. Il tient bon. Et Frère {{r1}} perd l’usage de ses pieds de la même manière. Frère {{r2}} ne bouge pas. Alors Frère {{r1}} crie :\n\n— Si tu ne me lâches pas, je vais te donner un coup de tête !\n\nEt Frère {{r1}} donne un coup de tête — et sa tête reste collée.\n\nAlors Frère {{r2}} sort des buissons, l’air aussi innocent qu’un oiseau moqueur.\n\n— Bonjour, Frère {{r1}}. On dirait que tu es un peu collé, ce matin.\n\nEt Frère {{r2}} se roule par terre, et il rit, et il rit, jusqu’à ne plus pouvoir rire.\n\n— Je crois bien que tu vas dîner avec moi, cette fois, Frère {{r1}}. J’ai tout préparé, et je n’accepterai pas d’excuse.\n\n— Et {{r2}} a mangé {{r1}} ?\n\n— L’histoire s’arrête là. Peut-être que oui, peut-être que non. Certains disent que le juge Ours est passé par là et l’a décollé ; d’autres disent que non."
     }
   },
   "dureeEstimeeSecondes": 418,
