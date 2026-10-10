@@ -31,10 +31,14 @@
   import { conteParId, essenceDuConte } from '../services/repertoire';
   import { construireCatalogue, rechercherCatalogue } from '../services/rechercheBanque';
   import { rechercheBanque as criteres } from '../etat/rechercheBanque.svelte';
+  import { visite } from '../etat/visite.svelte';
 
   // Même besoin que le Studio : la Marionnethèque doit être chargée même
   // quand sa colonne est un tiroir fermé (sous 1 024 px).
   $effect(() => { if (!bibliotheque.chargee) void bibliotheque.charger(); });
+
+  // La visite guidée de la première arrivée (une fois par appareil).
+  $effect(() => { visite.lancer('contotheque'); });
 
   // Le fonds est empaqueté avec l'application : la liste est connue d'avance.
   const fiches = signatures();
@@ -275,6 +279,7 @@
       <!-- Le CTA de ce mode : créer sans nouvelle écriture (CDC §7). -->
       <button
         class="cta creer"
+        data-visite="creer"
         disabled={!distributionCourante || banque.phase === 'creation'}
         onclick={creer}
       >
@@ -315,14 +320,14 @@
       </div>
     </section>
     {#if selection.length === 0}
-      <p class="aide vide" role="status">{tba.recherche.aucun}</p>
+      <p class="aide vide" role="status" data-visite="histoires">{tba.recherche.aucun}</p>
     {:else if jouables.length === 0}
-      <p class="aide vide" role="status">
+      <p class="aide vide" role="status" data-visite="histoires">
         {tba.filtres.aucun}
         {#if conseil}{' '}{conseil}{/if}
       </p>
     {:else}
-      <ul class="fiches">
+      <ul class="fiches" data-visite="histoires">
         {#each jouables as e (e.signature.id)}
           {@const f = e.signature}
           <li>

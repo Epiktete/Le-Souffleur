@@ -2,7 +2,6 @@
 // les zones de l'écran, dans l'ordre d'utilisation, effacées d'un clic.
 import { expect, test, type Page } from '@playwright/test';
 import { creerMarionnette } from './aides';
-import { installerFauxModele, TROIS_MARIONNETTES } from './faux-modele';
 
 // Un navigateur vierge : la visite n'a encore jamais été vue.
 test.use({ storageState: { cookies: [], origins: [] } });
@@ -20,14 +19,14 @@ async function pointeVers(page: Page, zone: string) {
   return (dessous || dessus) && recouvre;
 }
 
-test('à la première visite, les bulles montrent l’accueil dans l’ordre, un clic chacune', async ({ page }) => {
-  await page.goto('/#/studio');
+test('à la première visite, les bulles suivent le parcours de la Contothèque, un clic chacune', async ({ page }) => {
+  await page.goto('/');
   const attendues: [string, string][] = [
-    ['cle', 'clé IA'],
-    ['marionnette', 'Créez une marionnette'],
-    ['personnages', 'Placez ici'],
+    ['marionnette', 'Créez d’abord une marionnette'],
+    ['personnages', 'Mettez ici celles qui joueront'],
     ['reglages', 'Réglez la durée'],
-    ['generer', 'Générez'],
+    ['histoires', 'les spectacles que vos marionnettes peuvent jouer'],
+    ['spectacles', 'Vos spectacles créés se rangent ici'],
   ];
   for (const [zone, texte] of attendues) {
     await expect(bulle(page)).toContainText(texte);
@@ -44,17 +43,17 @@ test('à la première visite, les bulles montrent l’accueil dans l’ordre, un
 });
 
 test('le clic qui efface une bulle ne déclenche rien dessous', async ({ page }) => {
-  await page.goto('/#/studio');
-  await expect(bulle(page)).toContainText('clé IA');
+  await page.goto('/');
+  await expect(bulle(page)).toContainText('Créez d’abord une marionnette');
   const bouton = await page.locator('[data-visite="marionnette"]').boundingBox();
   await page.mouse.click(bouton!.x + 10, bouton!.y + 10);
   // Le formulaire de création ne s'est pas ouvert : la bulle suivante, si.
-  await expect(bulle(page)).toContainText('Créez une marionnette');
+  await expect(bulle(page)).toContainText('Mettez ici');
   await expect(page.getByLabel('Nom')).toHaveCount(0);
 });
 
 test('Échap termine la visite, le bouton « Aide » garde le tuto complet', async ({ page }) => {
-  await page.goto('/#/studio');
+  await page.goto('/');
   await expect(bulle(page)).toBeVisible();
   await page.keyboard.press('Escape');
   await expect(bulle(page)).toHaveCount(0);
@@ -63,24 +62,24 @@ test('Échap termine la visite, le bouton « Aide » garde le tuto complet', asy
   await expect(page.getByRole('dialog', { name: 'Créez vos marionnettes' })).toBeVisible();
 });
 
-test('le premier script puis la première lecture ont chacun leurs bulles', async ({ page }) => {
-  await installerFauxModele(page);
-  await page.goto('/#/parametres');
-  await page.getByLabel('Clé API').fill('cle-de-test');
-  await page.getByLabel('Mémoriser la clé sur cet appareil').check();
-  await page.getByRole('button', { name: 'Enregistrer', exact: true }).click();
-  await expect(page.getByText('Enregistré.')).toBeVisible();
-
-  await page.goto('/#/studio');
+test('le premier choix, le premier script puis la première lecture ont chacun leurs bulles', async ({ page }) => {
+  await page.goto('/');
   await expect(bulle(page)).toBeVisible();
   await page.keyboard.press('Escape');
-  for (const nom of TROIS_MARIONNETTES) {
-    await creerMarionnette(page, nom);
-    await page.getByRole('button', { name: `Ajouter ${nom} aux personnages` }).click();
-  }
-  await page.getByRole('button', { name: 'Générer le script' }).click();
-  await page.getByRole('button', { name: 'Choisir cette histoire' }).first().click({ timeout: 15000 });
-  await page.getByRole('button', { name: 'Ouvrir le script' }).click({ timeout: 25000 });
+  for (const nom of ['Poupette la Poupée', 'Louve Grise', 'Mamie Rose']) await creerMarionnette(page, nom);
+  await page.getByLabel('Durée', { exact: true }).fill('10');
+  await page.getByRole('region', { name: 'Studio' })
+    .getByRole('button', { name: /Le Petit Chaperon rouge/ }).click();
+
+  // Le choix : qui joue qui, puis créer.
+  await expect(bulle(page)).toContainText('qui joue quel rôle');
+  await page.mouse.click(20, 20);
+  await expect(bulle(page)).toContainText('créez le spectacle');
+  expect(await pointeVers(page, 'creer')).toBe(true);
+  await page.mouse.click(20, 20);
+  await expect(bulle(page)).toHaveCount(0);
+  await page.getByRole('button', { name: 'Créer le spectacle' }).click();
+  await page.getByRole('button', { name: 'Ouvrir le script' }).click();
 
   // Le script : corriger une ligne, puis jouer.
   await expect(bulle(page)).toContainText('corriger');

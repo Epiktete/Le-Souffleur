@@ -50,9 +50,9 @@
 {#if !spectacles.chargee}
   <p class="secondaire">…</p>
 {:else if spectacles.liste.length === 0}
-  <p class="secondaire">{t.vide.spectacles}</p>
+  <p class="secondaire" data-visite="spectacles">{t.vide.spectacles}</p>
 {:else}
-  <ul>
+  <ul data-visite="spectacles">
     {#each spectacles.liste as s (s.id)}
       <li class="boite boite-ombre">
         {#if enRenommage === s.id}

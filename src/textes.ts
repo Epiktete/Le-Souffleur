@@ -647,6 +647,21 @@ export const tv = {
   nom: 'Visite guidée',
   continuer: 'Cliquez pour continuer',
   sequences: {
+    // La première arrivée, sur la Contothèque : le parcours du parent, de la
+    // peluche au spectacle rangé (2026-10-08).
+    contotheque: [
+      { cible: 'marionnette', texte: 'Bienvenue ! Créez d’abord une marionnette pour chaque peluche de la maison.' },
+      { cible: 'personnages', texte: 'Mettez ici celles qui joueront, avec la flèche de leur boîte. Sinon, toutes sont prises en compte.' },
+      { cible: 'reglages', texte: 'Réglez la durée, l’âge des enfants et le nombre de marionnettistes.' },
+      { cible: 'histoires', texte: 'Ici, les spectacles que vos marionnettes peuvent jouer. Cliquez sur celui qui vous plaît.' },
+      { cible: 'spectacles', texte: 'Vos spectacles créés se rangent ici, prêts à relire et à jouer.' },
+    ],
+    // Le premier spectacle choisi dans la Contothèque.
+    distribution: [
+      { cible: 'distribution', texte: 'Vérifiez qui joue quel rôle. Changez si vous voulez.' },
+      { cible: 'creer', texte: 'Puis créez le spectacle : il est prêt tout de suite.' },
+    ],
+    // L'Atelier, en pause : ses bulles reviendront avec lui.
     accueil: [
       { cible: 'cle', texte: 'D’abord, collez ici votre clé IA.' },
       { cible: 'marionnette', texte: 'Créez une marionnette pour chaque peluche.' },

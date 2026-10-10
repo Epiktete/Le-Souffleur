@@ -19,7 +19,7 @@ export default defineConfig({
       cookies: [],
       origins: [{
         origin: 'http://localhost:4173',
-        localStorage: [{ name: 'souffleur.visite.vues', value: '["accueil","script","lecture"]' }],
+        localStorage: [{ name: 'souffleur.visite.vues', value: '["contotheque","distribution","accueil","script","lecture"]' }],
       }],
     },
   },

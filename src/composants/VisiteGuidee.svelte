@@ -67,6 +67,14 @@
     if (cible && bulleEl) bulleEl.focus({ preventScroll: true });
   });
 
+  // Les bulles font défiler la page jusqu'à leur zone ; la séquence finie,
+  // on rend l'écran tel qu'il était, en-tête compris.
+  $effect(() => {
+    if (!visite.sequence) return;
+    const depart = { x: window.scrollX, y: window.scrollY };
+    return () => window.scrollTo(depart.x, depart.y);
+  });
+
   // La bulle se place sous la zone s'il y a la place, sinon au-dessus, sinon
   // dans la zone elle-même (une zone qui occupe tout l'écran, comme la page
   // de lecture) ; la flèche vise toujours le centre de la zone.

@@ -11,6 +11,7 @@
   import type { Marionnette } from '../types';
   import { rendreMention, type SignatureModele } from '../services/banque';
   import { libelleEspece } from '../services/choixContes';
+  import { visite } from '../etat/visite.svelte';
   import {
     genreMarionnette,
     problemeAttribution,
@@ -85,9 +86,12 @@
     const genre = genreMarionnette(m) ?? 'masculin';
     return rendreMention('{le} {espece}', cible, genre);
   }
+
+  // Les bulles du premier spectacle choisi (une fois par appareil).
+  $effect(() => { visite.lancer('distribution'); });
 </script>
 
-<section class="distribution" aria-label={tba.distribution.titre}>
+<section class="distribution" data-visite="distribution" aria-label={tba.distribution.titre}>
   <div class="tete">
     <span class="eyebrow">{tba.distribution.titre}</span>
     <button class="secondaire-bouton" onclick={surRetour}>{tba.distribution.retour}</button>
